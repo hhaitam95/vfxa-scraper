@@ -1,5116 +1,2558 @@
 [00:00:00] Hello!
-
 [00:00:02] Gabby's here by the way.
-
 [00:00:06] Yes!
-
 [00:00:08] I have arrived!
-
 [00:00:10] Hello!
-
 [00:00:12] How is everyone?
-
 [00:00:14] I'm doing good.
-
 [00:00:16] Doing good?
-
 [00:00:18] Good.
-
 [00:00:20] I'm excited!
-
 [00:00:22] Yay!
-
 [00:00:24] That's the most important thing.
-
 [00:00:26] Let's do a count.
-
 [00:00:28] Let's do a count.
-
 [00:00:30] 1, 2, 3, 4, 5, 6, 7, 8, 9.
-
 [00:00:34] 9.
-
 [00:00:36] So we should have a tiny bit more.
-
 [00:00:40] The protocol will be that every time we start a class, we're going to wait until 05 to start.
-
 [00:00:48] And then there's going to be a recording for the people that are late.
-
 [00:00:50] So we have two more minutes to yap and digress.
-
 [00:00:54] And then after that, we lock in.
-
 [00:00:56] No, good, no.
-
 [00:00:58] We don't need cameras for this, right?
-
 [00:01:00] So, for me, it's easier if you have cameras.
-
 [00:01:02] Because it's easier for me to see you.
-
 [00:01:04] And I will put the camera on every time just so that it's easier for you to see me.
-
 [00:01:06] But if you want to have a camera, you can.
-
 [00:01:08] If you don't want to have a camera, it's completely fine to not have one.
-
 [00:01:10] Yes.
-
 [00:01:12] That's the whole shtick.
-
 [00:01:14] So it is not mandatory.
-
 [00:01:16] But it's a good thing.
-
 [00:01:18] It's a good thing.
-
 [00:01:20] It's a good thing.
-
 [00:01:22] It's a good thing.
-
 [00:01:24] It's a good thing.
-
 [00:01:26] It's a good thing.
-
 [00:01:28] It's mandatory, but I encourage it.
-
 [00:01:30] I will yap about it.
-
 [00:01:32] I still need to buy one and set one up.
-
 [00:01:34] I still need to buy one and set one up.
-
 [00:01:36] I might have one put away somewhere, though.
-
 [00:01:38] I might have one put away somewhere, though.
-
 [00:01:40] Well, if you do find one, great.
-
 [00:01:42] If you don't, it's okay.
-
 [00:01:44] Okay.
-
 [00:01:46] We'll make it work without it.
-
 [00:01:52] Perfect.
-
 [00:01:54] I was writing down something.
-
 [00:01:56] Then we should be good.
-
 [00:01:58] Then we should be good.
-
 [00:02:00] Then we should be good.
-
 [00:02:02] I'm going to do a little bit of a
-
 [00:02:04] I'm going to do a little bit of a
-
 [00:02:06] Oh, it's 5.
-
 [00:02:08] Oh, it's 5.
-
 [00:02:10] Okay.
-
 [00:02:12] Well, time is out.
-
 [00:02:14] That means we can start.
-
 [00:02:16] I showed you my screen.
-
 [00:02:18] Normally you should have everything.
-
 [00:02:20] I have the camera up.
-
 [00:02:22] As a reminder, this will be recorded.
-
 [00:02:24] If one of you is really, really
-
 [00:02:26] not into getting recorded, etc.,
-
 [00:02:28] you can keep your question noted down
-
 [00:02:30] on a little piece of paper or on a notepad
-
 [00:02:32] and then ask it at the end of the session
-
 [00:02:34] when we're done recording.
-
 [00:02:36] It rarely happens, but if it does happen,
-
 [00:02:38] feel free to do that.
-
 [00:02:40] Otherwise, you'll find the recordings online.
-
 [00:02:42] Otherwise, you'll find the recordings online.
-
 [00:02:44] Anything that has been said,
-
 [00:02:46] you can just come back to it
-
 [00:02:48] and re-listen to whatever was said.
-
 [00:02:50] Cool.
-
 [00:02:52] I am super excited
-
 [00:02:54] to have everyone together once again.
-
 [00:02:56] This is the fifth bootcamp, I think.
-
 [00:02:58] I've been with The First Apprentice
-
 [00:03:00] since 2022.
-
 [00:03:02] Since 2022.
-
 [00:03:04] March.
-
 [00:03:06] I've done lots of stuff.
-
 [00:03:08] The bootcamps have been my favorite.
-
 [00:03:10] We're going to be together
-
 [00:03:12] for a bunch of weeks.
-
 [00:03:14] For eight weeks.
-
 [00:03:16] We're going to go from
-
 [00:03:18] one thing but not everything
-
 [00:03:20] to you're ready to possibly make a portfolio.
-
 [00:03:22] You're ready to
-
 [00:03:24] at the end of the bootcamp,
-
 [00:03:26] you should know where you're going.
-
 [00:03:28] It's really exciting.
-
 [00:03:30] As a first thing,
-
 [00:03:32] the bootcamp will have
-
 [00:03:34] the 2D art,
-
 [00:03:36] a lot of theory,
-
 [00:03:38] a lot of technical parts,
-
 [00:03:40] some
-
 [00:03:42] practice,
-
 [00:03:44] practical stuff to put in shape.
-
 [00:03:46] There's a bit of everything.
-
 [00:03:48] By that, what I'm saying is
-
 [00:03:50] that if there's one part that you are
-
 [00:03:52] more interested in than another,
-
 [00:03:54] feel free to focus on it.
-
 [00:03:56] For me, I am Nibili.
-
 [00:03:58] I've worked
-
 [00:04:00] as a VFX artist on many things now.
-
 [00:04:02] I've worked in the industry for six plus years now.
-
 [00:04:04] I started
-
 [00:04:06] exactly in COVID.
-
 [00:04:08] I started working for three months
-
 [00:04:10] and then three, four months, and then COVID started.
-
 [00:04:12] I've done most of my career in remote.
-
 [00:04:14] I can't really tell you that much
-
 [00:04:16] about what it is to work in a studio directly,
-
 [00:04:18] but I've worked remote most of the time.
-
 [00:04:20] I've swapped companies a lot.
-
 [00:04:22] I have a good idea of how to find a job.
-
 [00:04:24] I worked
-
 [00:04:26] first for two years at
-
 [00:04:28] Virtuous Games in Paris.
-
 [00:04:30] I worked on Horizon Zero Dawn,
-
 [00:04:32] on Medal of Honor. I worked on VR games.
-
 [00:04:34] I worked on Unreal, Unity,
-
 [00:04:36] other engines.
-
 [00:04:38] I've touched a bit of everything there.
-
 [00:04:40] That's mostly outsourcing.
-
 [00:04:42] Then I worked for
-
 [00:04:44] one year on
-
 [00:04:46] Valorant, making mostly character effects.
-
 [00:04:48] Then finally, I worked
-
 [00:04:50] for two years on World of Warcraft,
-
 [00:04:52] doing mostly
-
 [00:04:54] raid effects, but also just kits
-
 [00:04:56] in general. That's kind of
-
 [00:04:58] the environment and focusing on one thing in particular.
-
 [00:05:02] Now I'm working on
-
 [00:05:04] a bunch of stuff. I did some
-
 [00:05:06] Fortnite concerts, etc.
-
 [00:05:08] Now I'm working half-time, part-time
-
 [00:05:10] on a small
-
 [00:05:12] Barcelona game
-
 [00:05:14] called Raiders Rise. It's a small
-
 [00:05:16] mobile game. It's pretty fun.
-
 [00:05:18] Most importantly,
-
 [00:05:20] it leaves me more time to do
-
 [00:05:22] education.
-
 [00:05:24] Apart from that, I like
-
 [00:05:26] lots of stuff. I like nerdy stuff.
-
 [00:05:28] I like board games. I do lots of
-
 [00:05:30] things like that.
-
 [00:05:32] I'll gladly talk about that.
-
 [00:05:34] I saw a few of you
-
 [00:05:36] said that you were fans of anime
-
 [00:05:38] and stuff like that, too. I'm a big fan of that, too.
-
 [00:05:40] Mostly for looking for references.
-
 [00:05:42] We're going to be together
-
 [00:05:44] for eight weeks, as I said.
-
 [00:05:46] How this will work out
-
 [00:05:48] is the following.
-
 [00:05:50] We're going to have sessions twice a week.
-
 [00:05:52] The first sessions are always
-
 [00:05:54] going to be now,
-
 [00:05:56] at this time exactly.
-
 [00:05:58] Those sessions
-
 [00:06:00] will be reviews.
-
 [00:06:02] We're going to take what you did
-
 [00:06:04] during the week, and I'm going to give you feedback
-
 [00:06:06] one by one to try and see what could
-
 [00:06:08] be done better or where there was
-
 [00:06:10] something interesting that I found that I think
-
 [00:06:12] everyone would benefit from. The goal is not to tell
-
 [00:06:14] you specifically what you should do in the
-
 [00:06:16] future, but more to give insights
-
 [00:06:18] for everyone to progress in the future.
-
 [00:06:20] Most of the time
-
 [00:06:22] when I'll give feedback, I'll word it in a way
-
 [00:06:24] that suggests that you should
-
 [00:06:26] do this in the future, rather than
-
 [00:06:28] that you should go back to a work that you already did.
-
 [00:06:30] In my opinion, the more
-
 [00:06:32] repetition you do, the more new projects,
-
 [00:06:34] new little art you make,
-
 [00:06:36] the more you will learn. Your goal here
-
 [00:06:38] is to learn not to produce good art.
-
 [00:06:40] Producing good art
-
 [00:06:42] as a secondary option is cool, but
-
 [00:06:44] the first thing you want to do is learn.
-
 [00:06:52] I think your mic isn't working.
-
 [00:06:54] Uh-oh.
-
 [00:06:58] Now? Now? Now, perfect.
-
 [00:07:00] My headset was unhappy.
-
 [00:07:02] Anyway.
-
 [00:07:04] Yeah. So the first
-
 [00:07:06] week is this week.
-
 [00:07:08] It's going to be mostly to get used to the
-
 [00:07:10] system
-
 [00:07:12] of what we're going to use. I'll go a bit
-
 [00:07:14] more into detail. And then after that
-
 [00:07:16] we're going to go into 2D effects.
-
 [00:07:18] So specifically doing flipbooks,
-
 [00:07:20] doing little trainings, using exercises
-
 [00:07:22] in order to learn more how timing
-
 [00:07:24] works. That's all really good. You'll see
-
 [00:07:26] it's very fun. You don't need to be
-
 [00:07:28] very good at it. And if you're already good at it, you're going to have fun,
-
 [00:07:30] obviously, because 2D animation is just
-
 [00:07:32] raw fun. But if you're
-
 [00:07:34] not very good at it, you'll see it's actually really
-
 [00:07:36] achievable. And the class
-
 [00:07:38] is honestly incredible.
-
 [00:07:40] Sonja, the
-
 [00:07:42] mentor for this week, you'll see
-
 [00:07:44] is incredible.
-
 [00:07:46] So yeah. This is the first thing you're going to do this
-
 [00:07:48] week. And so on Friday, and every Friday
-
 [00:07:50] afterwards, we will find each other. We will
-
 [00:07:52] see each other at the same time as today
-
 [00:07:54] in order to do a
-
 [00:07:56] campfire. The campfires are basically live
-
 [00:07:58] sessions where I answer questions.
-
 [00:08:00] I have usually a little animation that's
-
 [00:08:02] ready for you. Like, for instance, a little
-
 [00:08:04] exercise that we do together, a little challenge.
-
 [00:08:06] I will give you perhaps some
-
 [00:08:10] insights on specific things that I find interesting.
-
 [00:08:12] For instance, usually I do a little, on week
-
 [00:08:14] six, I do a little math one. Week
-
 [00:08:16] seven, usually more. I do a little math one
-
 [00:08:18] where I say, okay, let's do little math
-
 [00:08:20] recaps for those that are interested.
-
 [00:08:22] On week three, usually I'll do
-
 [00:08:24] a little exercise where I show you some images
-
 [00:08:26] and you have to guess what color things
-
 [00:08:28] are, what RGB kind of color things are,
-
 [00:08:30] the hue. So that can be quite fun too.
-
 [00:08:32] So yeah, just little challenges, et cetera.
-
 [00:08:34] Most importantly, if you have questions,
-
 [00:08:36] if you have specifics that you need answered,
-
 [00:08:38] your portfolio, how does the industry work,
-
 [00:08:40] you're struggling with motivation, et cetera,
-
 [00:08:42] this is also the perfect moment to put that.
-
 [00:08:44] So that's a one-hour session on Fridays.
-
 [00:08:46] Okay. So this week on the one-hour session
-
 [00:08:48] on Fridays, I'll mostly just look at what
-
 [00:08:50] you've done, address any problems that
-
 [00:08:52] you're having with the
-
 [00:08:54] the work that you're doing, and then
-
 [00:08:56] I'll give you a little bit of a summary.
-
 [00:08:58] So you can see the setup of the current
-
 [00:09:00] class, if there's any thing, for instance,
-
 [00:09:02] to show your work or to
-
 [00:09:06] to see if there's any problems
-
 [00:09:08] for you to proceed. So yeah.
-
 [00:09:10] That's going to be that for this week.
-
 [00:09:12] Starting on week two, so on Monday
-
 [00:09:14] we're going to shift. I'm going to do the feedback
-
 [00:09:16] on everything, and then from there
-
 [00:09:18] on everything that you did in 2D VFX,
-
 [00:09:20] and then from there we can move on.
-
 [00:09:22] Week two will be your principles and practice.
-
 [00:09:24] So there we're going to do 2D drawing practices,
-
 [00:09:26] possibly doing them on
-
 [00:09:28] paper, if you can.
-
 [00:09:30] The goal is to start to get used
-
 [00:09:32] to practicing, and you're going to
-
 [00:09:34] learn new artistic principles.
-
 [00:09:36] Week three, you're going to go deeper
-
 [00:09:38] into artistic principles, working
-
 [00:09:40] more on the composition, the higher
-
 [00:09:42] ideas, and then also working on elements.
-
 [00:09:44] So what makes the different elements
-
 [00:09:46] that we use in VFX interesting. Week four
-
 [00:09:48] is going to be a combination of week one,
-
 [00:09:50] two, and three, to kind of bring it all together
-
 [00:09:52] and make one nice 2D concept art.
-
 [00:09:54] So a sort of pretty drawing that
-
 [00:09:56] can be either animated or not.
-
 [00:09:58] Those week one to week four is basically
-
 [00:10:00] art fundamentals,
-
 [00:10:02] drawing, and all those parts there.
-
 [00:10:04] And then week five to eight
-
 [00:10:06] is going to be the technical part. Week five
-
 [00:10:08] will have an intro to 3D VFX, which is
-
 [00:10:10] once again an incredible
-
 [00:10:12] training. I find that
-
 [00:10:14] the videos are just awesome.
-
 [00:10:16] And then six is going to be
-
 [00:10:18] meshes,
-
 [00:10:20] Photoshop, basically how to
-
 [00:10:22] get the different assets you need
-
 [00:10:24] in order to make VFX in games.
-
 [00:10:26] Week seven
-
 [00:10:28] is going to be the shaders and material
-
 [00:10:30] which is my class too,
-
 [00:10:32] so you're going to get double time of my voice.
-
 [00:10:34] And then week eight finally is going
-
 [00:10:36] to be the
-
 [00:10:40] combination of five to eight
-
 [00:10:42] and then even of all of them. You're going to make
-
 [00:10:44] one big effect that looks kind of cool, and
-
 [00:10:46] we're going to wrap that up. Also in week eight
-
 [00:10:48] usually we talk a lot about
-
 [00:10:50] portfolios, where you want to go next, etc.
-
 [00:10:52] At the end of week eight, my goal is to leave
-
 [00:10:54] you, to let you all go, with a good plan
-
 [00:10:56] for the next month that you have. Basically,
-
 [00:10:58] what you should work on, what's your weakness,
-
 [00:11:00] etc. So we're going to have a talk at the
-
 [00:11:02] end of week eight, just to know where to go
-
 [00:11:04] further and what you need.
-
 [00:11:06] Okay.
-
 [00:11:08] I have some additional guidelines
-
 [00:11:10] that are quite important.
-
 [00:11:12] I mostly look at progress on Discord.
-
 [00:11:14] You've probably looked already at the website, etc.
-
 [00:11:16] There's forums, there's lots of things.
-
 [00:11:18] I look at it on Discord.
-
 [00:11:20] How this works is that there is a
-
 [00:11:22] whole setup
-
 [00:11:24] on the website, which I suggest that you
-
 [00:11:26] go look at. But basically, you can
-
 [00:11:28] have this week one
-
 [00:11:30] GBBB06
-
 [00:11:32] 2026 06
-
 [00:11:34] on Discord,
-
 [00:11:36] just above the live session
-
 [00:11:38] that we have right now. So if you go to the live session, just above,
-
 [00:11:40] there's this week one forum.
-
 [00:11:42] And on that forum, you have an
-
 [00:11:44] assignment and submission post
-
 [00:11:46] that you can just click on. And inside, there's
-
 [00:11:48] all the requirements to
-
 [00:11:50] what you need to do for this. And then you need
-
 [00:11:52] to create your own little forum here, that's called
-
 [00:11:54] for instance, Gabi week one.
-
 [00:11:56] And then from there, you can put
-
 [00:11:58] in whatever you want. So you just put your name.
-
 [00:12:14] I'm really sorry, team. I don't know
-
 [00:12:16] why my headset is so unhappy. It has never
-
 [00:12:18] done that before. I'll investigate.
-
 [00:12:20] It should be good by Friday.
-
 [00:12:22] Anyway, yes. So yeah.
-
 [00:12:24] There, in those forums
-
 [00:12:26] is where you're going to put your updates every time.
-
 [00:12:28] So every one of you, for every week, you're
-
 [00:12:30] going to create a new forum. Put in everything you work
-
 [00:12:32] on. And there, I can give you feedback.
-
 [00:12:34] So every time you write something there,
-
 [00:12:36] in the span of about 24 hours,
-
 [00:12:38] I'll try to answer you and to get something there.
-
 [00:12:40] All right? So
-
 [00:12:42] if any one of you, if any one of you
-
 [00:12:44] doesn't manage to do this,
-
 [00:12:46] or you find that perhaps something is not working, etc.,
-
 [00:12:48] send me a PM immediately.
-
 [00:12:50] PMs are pretty easy to send. Send me a PM.
-
 [00:12:52] And I'll sort it out. We'll find a way.
-
 [00:12:54] If at some point you have
-
 [00:12:56] any blockers, if you're stuck with anything
-
 [00:12:58] at all, just send me a PM. Don't stay stuck.
-
 [00:13:00] If you stay stuck for a few days
-
 [00:13:02] thinking that you're going to solve it at some point,
-
 [00:13:04] and then you lose a whole week, you lose a lot of progress.
-
 [00:13:06] And I really don't want that. It's really hard
-
 [00:13:08] then to catch back up. It's going to be annoying
-
 [00:13:10] because you're not going to be synced with the rest of the class anymore.
-
 [00:13:12] It's going to cost you a lot. Just send me a PM.
-
 [00:13:14] We will solve it afterwards.
-
 [00:13:16] I don't mind.
-
 [00:13:18] Okay? So yeah. Use the forums.
-
 [00:13:20] Send me a PM if you're ever stuck on anything.
-
 [00:13:22] Even installing Unity or whatever.
-
 [00:13:24] Just if you don't manage to, send me a PM.
-
 [00:13:26] So yeah. I will
-
 [00:13:28] answer your posts. That's where
-
 [00:13:30] I'm going to look. Your forum posts.
-
 [00:13:32] I'll answer with feedbacks,
-
 [00:13:34] perhaps other ideas. If you just worked on something
-
 [00:13:36] and you're happy with it, just post it
-
 [00:13:38] in there. And then I might say,
-
 [00:13:40] I might find something that I find interesting.
-
 [00:13:42] Imagine if we were all in the same room
-
 [00:13:44] in school, and the teacher
-
 [00:13:46] was just passing behind your screen
-
 [00:13:48] looking at what you're doing.
-
 [00:13:50] That's basically how I would like to be able to
-
 [00:13:52] help you. Because I'm going to see things
-
 [00:13:54] and be able to tell you, oh, on that
-
 [00:13:56] part, you should perhaps do differently.
-
 [00:13:58] Alright.
-
 [00:14:00] If I didn't answer
-
 [00:14:02] within 24 hours and you feel like, oh,
-
 [00:14:04] this is important, you need an answer or something like that,
-
 [00:14:06] send me a PM once again. It's completely fine.
-
 [00:14:08] Just ping me. And I'll tell you, oh, okay,
-
 [00:14:10] I didn't have the time. I'll answer you in X amount of time
-
 [00:14:12] if I really have a problem.
-
 [00:14:14] But I'm completely fine if you ping me
-
 [00:14:16] again if you feel like I forgot something.
-
 [00:14:20] I'm here to help on anything.
-
 [00:14:22] Not just VFX or
-
 [00:14:24] not just the specific thing we're talking about now. But if you
-
 [00:14:26] want to talk career, if you want to talk how do we
-
 [00:14:28] get into the industry, if you want to talk
-
 [00:14:30] mythology, how do you manage motivation,
-
 [00:14:32] how do you manage
-
 [00:14:34] lack thereof,
-
 [00:14:36] how do you manage your own energy,
-
 [00:14:38] perhaps you don't have a lot of time to work on your
-
 [00:14:40] work transition, perhaps you're working
-
 [00:14:42] double time, perhaps you only have
-
 [00:14:44] one hour per week. On the contrary, you have so much
-
 [00:14:46] time and you don't know what to do with it. I can
-
 [00:14:48] help with all those things. Just tell me what you're looking
-
 [00:14:50] for exactly, and we can talk about
-
 [00:14:52] it and we'll find fun solutions.
-
 [00:14:54] And you'll be surprised. Perhaps you think this is
-
 [00:14:56] something that's only for you, but usually
-
 [00:14:58] students there are really interested in that too.
-
 [00:15:02] If at any point,
-
 [00:15:04] it has happened before, if at any point
-
 [00:15:06] someone, one of you, is just
-
 [00:15:08] not feeling it, this is actually not
-
 [00:15:10] really for you, or you're just super
-
 [00:15:12] demotivated, something is going wrong,
-
 [00:15:14] it's not
-
 [00:15:16] vibing for you, perhaps the weeks feel very long
-
 [00:15:18] or there's some parts that are
-
 [00:15:20] just like, kunky, or
-
 [00:15:22] yeah, just anything that makes you
-
 [00:15:24] not having a good time right now, just let's
-
 [00:15:26] talk about it. Send me a message, let's talk about it
-
 [00:15:28] before you completely burn out on it.
-
 [00:15:30] One thing that I very, very often
-
 [00:15:32] say, and I'll say it again, burnout is
-
 [00:15:34] never worth it. Whatever the amount of things
-
 [00:15:36] you need, you think you need
-
 [00:15:38] right now, whatever the amount
-
 [00:15:40] of work you think you, like the faster
-
 [00:15:42] you need to work, you never need to
-
 [00:15:44] work faster than burnout. Like burnout will always
-
 [00:15:46] be like a cost on the long run.
-
 [00:15:48] And that's never what you want to do when you're learning a new skill.
-
 [00:15:50] Alright.
-
 [00:15:52] So the guidelines to create a post, once
-
 [00:15:54] again, so you go into the
-
 [00:15:56] kickoff orientation, you go into the
-
 [00:15:58] week one, ggbv1,
-
 [00:16:00] etc. And then
-
 [00:16:02] you go to new post here.
-
 [00:16:04] Okay.
-
 [00:16:08] Then you create your web forum post.
-
 [00:16:10] So you call it your name dash week
-
 [00:16:12] one, in that one.
-
 [00:16:14] And then you post anything that you're interested
-
 [00:16:16] in, the gifs, etc.
-
 [00:16:18] And then they'll appear here, and
-
 [00:16:20] I'll be able to see them. At the
-
 [00:16:22] end of the week, there's always a week
-
 [00:16:24] one kickoff in orientation.
-
 [00:16:26] Okay. So at the end of the week,
-
 [00:16:28] there's always a week one, sorry,
-
 [00:16:30] assignment and submission.
-
 [00:16:32] At the end of the week, you need to post
-
 [00:16:34] one thing that you did, that you're pretty happy
-
 [00:16:36] with, into those assignment and submission.
-
 [00:16:38] Usually, there are some,
-
 [00:16:40] the submissions are
-
 [00:16:42] indicated in the
-
 [00:16:44] forum. So if you don't know what to
-
 [00:16:46] put in, it's usually written.
-
 [00:16:48] So yeah, for instance, Ben posted
-
 [00:16:50] this incredible submission. And since Ben
-
 [00:16:52] is my manager, I will always say, wow, Ben, this is
-
 [00:16:54] incredible.
-
 [00:16:56] All right. Let's do a
-
 [00:16:58] first round of questions. I'm interested to
-
 [00:17:00] know if there's anything that wasn't clear, or any other
-
 [00:17:02] questions you have. Feel free to ask any questions. We have
-
 [00:17:04] one hour, so we have 40 more minutes.
-
 [00:17:06] I am very happy to go through
-
 [00:17:08] down anything that you would have, any
-
 [00:17:10] uncertainties, etc.
-
 [00:17:12] And then after that, what we'll do is
-
 [00:17:14] that we'll go to,
-
 [00:17:16] I'll go a little bit deeper onto what
-
 [00:17:18] we're actually doing this week.
-
 [00:17:22] In week five,
-
 [00:17:24] it said that we're going to be doing
-
 [00:17:26] 3D VFX. Does that
-
 [00:17:28] mean that I'm eventually going to have to
-
 [00:17:30] install a version of
-
 [00:17:32] Toon Boom Premium?
-
 [00:17:34] I don't know why it's not working well. I will find a
-
 [00:17:36] solution. Anyway,
-
 [00:17:38] yeah, so any
-
 [00:17:40] questions? And then after that, we'll do a round table.
-
 [00:17:42] What I would like to know is, some students
-
 [00:17:44] didn't post into the
-
 [00:17:46] Bootcamp chat, which is completely fine.
-
 [00:17:48] It was a
-
 [00:17:50] small extra just so
-
 [00:17:52] that I could prepare. But yeah, I would like
-
 [00:17:54] to just hear from every one of you a little bit.
-
 [00:17:56] What you want to do, what you're interested in.
-
 [00:17:58] So let's start here with questions, and then after that
-
 [00:18:00] we'll do a little round table where everyone can just
-
 [00:18:02] present themselves.
-
 [00:18:04] It said in the schedule
-
 [00:18:06] that in week five we're going to be doing
-
 [00:18:08] 3D VFX. Does this
-
 [00:18:10] mean that I'm going to have to get
-
 [00:18:12] Toon Boom Harmony?
-
 [00:18:14] Or what program is that going to
-
 [00:18:16] Yeah, that's fair.
-
 [00:18:18] So,
-
 [00:18:20] a few things. One, on
-
 [00:18:22] the first week, we're
-
 [00:18:24] going to do two TVFX. Two TVFX are going to
-
 [00:18:26] be done using either
-
 [00:18:28] Animate, Toon Boom Harmony,
-
 [00:18:30] or honestly anything else that you want.
-
 [00:18:32] There is a deal for
-
 [00:18:34] a student license for Toon Boom Harmony.
-
 [00:18:38] Stuff like that. So yeah, there's options.
-
 [00:18:40] Those are for making
-
 [00:18:42] 2D VFX. You can also make 2D VFX
-
 [00:18:44] in Krita, possibly.
-
 [00:18:46] So that's also an option. That's a
-
 [00:18:48] free option.
-
 [00:18:50] So yeah, those are all the options. After that, when you
-
 [00:18:52] make 3D VFX in week five,
-
 [00:18:54] those are made either in Unity or
-
 [00:18:56] Unreal, or if you feel adventurous,
-
 [00:18:58] you can use Godot. Which I
-
 [00:19:00] obviously only recommend, but
-
 [00:19:02] there's not as many videos
-
 [00:19:04] on it.
-
 [00:19:06] So those will be, like, all
-
 [00:19:08] the 3D VFX is made using
-
 [00:19:10] 3D Engine.
-
 [00:19:12] Oh, okay.
-
 [00:19:14] For Harmony,
-
 [00:19:16] does the basic version,
-
 [00:19:18] is it enough? Or do we
-
 [00:19:20] need the second
-
 [00:19:22] tier one, because there's different
-
 [00:19:24] subscriptions?
-
 [00:19:26] If I quickly can
-
 [00:19:28] chime in,
-
 [00:19:30] there,
-
 [00:19:32] if you want to have
-
 [00:19:34] Premiere,
-
 [00:19:36] no,
-
 [00:19:38] Toon Boom, it mainly
-
 [00:19:40] depends on what you want to
-
 [00:19:42] do with it.
-
 [00:19:44] If you just want to
-
 [00:19:46] follow the class and just want to
-
 [00:19:48] do your first little
-
 [00:19:50] 2D animation,
-
 [00:19:52] the basic,
-
 [00:19:54] like the essential package
-
 [00:19:56] is enough.
-
 [00:19:58] If you want to do more
-
 [00:20:00] with it, then you
-
 [00:20:04] basically have to go to the
-
 [00:20:06] premium version,
-
 [00:20:08] which then has the node graph,
-
 [00:20:10] which lets you do, like,
-
 [00:20:12] glows, blurs,
-
 [00:20:16] masks, and, like,
-
 [00:20:18] additional things. You
-
 [00:20:20] really don't need it for the start.
-
 [00:20:24] It's more if you then want to expand
-
 [00:20:26] on it.
-
 [00:20:28] There's some in the
-
 [00:20:30] lesson,
-
 [00:20:32] there might be some
-
 [00:20:34] thing where you, like,
-
 [00:20:36] once I think you add a glow
-
 [00:20:38] at the very start,
-
 [00:20:40] like, where they just show
-
 [00:20:42] what the program
-
 [00:20:44] can do, you can just skip
-
 [00:20:46] that.
-
 [00:20:48] So if you
-
 [00:20:50] don't want to go further or
-
 [00:20:52] already know, oh, I really
-
 [00:20:54] love 2D animation, I want to start
-
 [00:20:56] with 2D animation, and
-
 [00:20:58] I already tested
-
 [00:21:00] around and
-
 [00:21:02] really liked
-
 [00:21:04] Tomb Boom, then
-
 [00:21:06] premium is, like, good,
-
 [00:21:08] but for just
-
 [00:21:10] starting out, I think, like,
-
 [00:21:12] either one of the free versions
-
 [00:21:14] or using the Adobe
-
 [00:21:16] Suite for Photoshop and
-
 [00:21:18] Animate might be
-
 [00:21:20] your better bet.
-
 [00:21:22] Otherwise, the essentials
-
 [00:21:24] is totally fine for the
-
 [00:21:26] things you do right now.
-
 [00:21:30] I could, like, honestly,
-
 [00:21:32] unless you want to do a career
-
 [00:21:34] and do, like, specifically only
-
 [00:21:36] 2D animation, I think
-
 [00:21:38] honestly, you'll be able to do
-
 [00:21:40] flipbooks or be able to do anything.
-
 [00:21:42] If there's something you can't do, you'll be able to
-
 [00:21:44] edit your flipbook then in
-
 [00:21:46] Photoshop or something else.
-
 [00:21:48] So I wouldn't bother too much.
-
 [00:21:50] Especially for learning, you really don't need
-
 [00:21:52] features.
-
 [00:21:54] Gabi, personally, which one do you
-
 [00:21:56] use?
-
 [00:21:58] I personally use Animate for my
-
 [00:22:00] animation simply because I learned with Flash.
-
 [00:22:02] So then this is what I use.
-
 [00:22:04] Different softwares, they use different
-
 [00:22:06] shortcuts, which are really annoying.
-
 [00:22:08] So, yeah.
-
 [00:22:12] You just want to use the one that
-
 [00:22:14] you're used to. So learn one and then
-
 [00:22:16] use that one.
-
 [00:22:18] In studios, it doesn't matter.
-
 [00:22:20] You'll be given some licenses sometimes,
-
 [00:22:22] but otherwise, honestly, if you make
-
 [00:22:24] your flipbook using, like, if you're
-
 [00:22:26] using a game engine, you'll be
-
 [00:22:28] given some licenses.
-
 [00:22:30] I have no jobs where I couldn't just
-
 [00:22:32] install Krita and just actually use
-
 [00:22:34] whatever I wanted.
-
 [00:22:36] The only thing that's constrained is usually
-
 [00:22:38] the game engine, and the game engine is very
-
 [00:22:40] similar to the other.
-
 [00:22:42] There are some changes, but once you know
-
 [00:22:44] the principles, you're done.
-
 [00:22:46] So, yeah, I wouldn't bother too much.
-
 [00:22:48] Just use one of them that seems like it
-
 [00:22:50] works for you.
-
 [00:22:52] For the other softwares, if that's
-
 [00:22:54] interesting for everyone, I use Animate, I use Blender for all my 3D models and stuff like that. And then after that, I'll be able to do a lot of other stuff.
-
 [00:22:56] I use Photoshop for my drawing.
-
 [00:22:58] And that's it.
-
 [00:23:00] And then after that, I use Unity, Unreal,
-
 [00:23:02] anything else.
-
 [00:23:04] I prefer Unreal for my own projects, because I can code a little bit,
-
 [00:23:06] and so I can make my own tools.
-
 [00:23:08] But I can use Unreal easily.
-
 [00:23:14] Any other questions?
-
 [00:23:18] On week 3,
-
 [00:23:20] Sorry.
-
 [00:23:22] On week 3,
-
 [00:23:24] I had been trying to figure out
-
 [00:23:26] if I could do a lot of other stuff.
-
 [00:23:28] I'm going to be going to Australia
-
 [00:23:30] to visit family.
-
 [00:23:32] And I will have my laptop with me.
-
 [00:23:34] I'll have everything
-
 [00:23:36] downloaded on it. I'll be able to continue working.
-
 [00:23:38] But because of the time change
-
 [00:23:40] and flying on the
-
 [00:23:42] 19th, that Friday,
-
 [00:23:44] I will be in the air.
-
 [00:23:46] So, missing the
-
 [00:23:48] campfire session,
-
 [00:23:50] I was curious, I'm like,
-
 [00:23:52] is that okay?
-
 [00:23:54] So, the live
-
 [00:23:56] sessions on Mondays are always recorded.
-
 [00:23:58] The Friday ones are not necessarily always recorded,
-
 [00:24:00] but they can always be recorded on request.
-
 [00:24:02] If you want it to be recorded,
-
 [00:24:04] we can just say that the week 3,
-
 [00:24:06] June 15, is recorded, and that's easy.
-
 [00:24:10] So that's the first thing. Second,
-
 [00:24:12] the campfires are,
-
 [00:24:14] you don't have to
-
 [00:24:16] If you can't make it, or if you're
-
 [00:24:18] like, if you can't make
-
 [00:24:20] the Friday sessions, you don't
-
 [00:24:22] have to necessarily. The Monday ones
-
 [00:24:24] are necessary.
-
 [00:24:26] And then the last part of your question
-
 [00:24:28] was, yes, if you are missing something,
-
 [00:24:30] if you're missing your, like, some feedback at some point,
-
 [00:24:32] if you didn't have the time, if you had a specific
-
 [00:24:34] question that you needed to ask that week, etc.,
-
 [00:24:36] you can just ask it to me on the
-
 [00:24:38] site, and I'll answer on the site.
-
 [00:24:42] So, overall, it shouldn't be a problem.
-
 [00:24:44] That's my answer.
-
 [00:24:46] Sorry for asking a second question, but
-
 [00:24:48] like, I do intend on attending
-
 [00:24:50] all of these meetings, just because I think it's
-
 [00:24:52] better for my productivity to keep myself
-
 [00:24:54] on track, but there isn't
-
 [00:24:56] mandatory attendance for this class, is there?
-
 [00:24:58] The Monday ones,
-
 [00:25:00] if you miss them, it's not mandatory.
-
 [00:25:02] I have no power to tell you, like,
-
 [00:25:04] you're all adults, I have no power to tell you
-
 [00:25:06] that you should or should not be there, but
-
 [00:25:08] the Monday ones is,
-
 [00:25:10] if you miss them, you will miss a significant
-
 [00:25:12] part of what you did, because they are kind of
-
 [00:25:14] the closer of the previous week, and
-
 [00:25:16] the opener of the week after.
-
 [00:25:18] They will all be recorded, so you can always
-
 [00:25:20] view them at your discretion, and whatever you post,
-
 [00:25:22] even if you're not here, I will still give you
-
 [00:25:24] feedback during the live session. So,
-
 [00:25:26] despite you not being there, I will
-
 [00:25:28] look through whatever you send me,
-
 [00:25:30] if you send me a long message, I can read it out,
-
 [00:25:32] and then kind of get feedback over that, at the same
-
 [00:25:34] as they're there. So, normally,
-
 [00:25:36] even if you can't make them, I'll still be able
-
 [00:25:38] to give them, to give feedback to them,
-
 [00:25:40] and to, like, read them, but
-
 [00:25:44] you need to at least, like, read them,
-
 [00:25:46] because they are kind of like the mouse, from like,
-
 [00:25:48] okay, now we're stopping doing, we don't do
-
 [00:25:50] 2D effects anymore, we go to the
-
 [00:25:52] material class.
-
 [00:25:54] Which is not really working.
-
 [00:25:56] There's no,
-
 [00:25:58] like, you can't fail the class
-
 [00:26:00] if you, like,
-
 [00:26:02] don't
-
 [00:26:04] put in one assignment,
-
 [00:26:06] or if you don't show up for live
-
 [00:26:08] session, or anything like this,
-
 [00:26:10] so you can get a certificate
-
 [00:26:12] afterwards,
-
 [00:26:14] either way.
-
 [00:26:16] I will help
-
 [00:26:18] you with anything, if you have not
-
 [00:26:20] been able to send for any reason, including
-
 [00:26:22] motivational reasons, including, like,
-
 [00:26:24] just bad luck. I have some people that,
-
 [00:26:26] in the past, had, like, just, oh, my parents
-
 [00:26:28] had an accident, I can't make it, how can I do?
-
 [00:26:30] I will try to accommodate as much as I can.
-
 [00:26:32] There are some things I can do, and some things I can't.
-
 [00:26:34] And most of them are on my free time.
-
 [00:26:36] So, I will try to accommodate
-
 [00:26:38] as much as I can, to make sure that you have
-
 [00:26:40] the best time possible. If suddenly
-
 [00:26:42] you thought that you would have 10 hours
-
 [00:26:44] to work on it per week, and actually you have one too,
-
 [00:26:46] then we'll change that.
-
 [00:26:48] If at some point you have to skip a whole week,
-
 [00:26:50] we'll get to talk about it, and I'll say, hey,
-
 [00:26:52] this part of the week is important, everything
-
 [00:26:54] else is not. So next week, let's
-
 [00:26:56] do this, let's rearrange the plans for that
-
 [00:26:58] next week. You work only on this,
-
 [00:27:00] and then you catch back up in the rest of the week.
-
 [00:27:02] So, yeah. This happens every bootcamp,
-
 [00:27:04] so there's no reason for it
-
 [00:27:06] to happen this time, and just feel free.
-
 [00:27:08] If at some point you feel like, oh, there's something
-
 [00:27:10] that happened, or, oh, you have one week
-
 [00:27:12] where you're just not there, we talk about it,
-
 [00:27:14] I think someone already in the bootcamp chat
-
 [00:27:16] talked about that, Idle.
-
 [00:27:18] Yeah. So we'll do that,
-
 [00:27:20] and that's completely fine. That just always works.
-
 [00:27:22] Also, if some people, some of you
-
 [00:27:24] can only be here for a certain amount of time,
-
 [00:27:26] on the Mondays, I will make
-
 [00:27:28] you pass in the moments that you can
-
 [00:27:30] be there. For instance, let's say you have a work
-
 [00:27:32] meeting at 17.30,
-
 [00:27:34] well, I'll always have
-
 [00:27:36] you go at the start,
-
 [00:27:38] for instance. That way you're always there when I do it.
-
 [00:27:40] Or if it's the opposite, we'll do that.
-
 [00:27:42] So yeah. If you have
-
 [00:27:44] stuff that is
-
 [00:27:46] a one-time problem, tell me in advance,
-
 [00:27:48] that way I can schedule that, rather than having to
-
 [00:27:50] leave in the middle. Yeah.
-
 [00:27:52] It's completely fine.
-
 [00:27:54] Okay. Thank you.
-
 [00:27:56] Anything else?
-
 [00:27:58] Any other questions?
-
 [00:28:00] I have a question about
-
 [00:28:02] remote work, since you mentioned
-
 [00:28:04] you mostly work that way.
-
 [00:28:06] Is VFX
-
 [00:28:08] pretty remote-friendly
-
 [00:28:10] for most studios,
-
 [00:28:12] or how do you
-
 [00:28:14] find it?
-
 [00:28:16] I find it pretty...
-
 [00:28:18] VFX
-
 [00:28:20] is a branch of art.
-
 [00:28:22] Art usually is really hard
-
 [00:28:24] to find jobs.
-
 [00:28:26] If you're looking for 2D concept art,
-
 [00:28:28] sometimes it's difficult. There's a lot of competition.
-
 [00:28:30] It's a pretty saturated place where
-
 [00:28:32] sometimes you don't get that much of a
-
 [00:28:34] good rate.
-
 [00:28:36] Yeah.
-
 [00:28:38] I'm exactly
-
 [00:28:40] in that discipline.
-
 [00:28:42] I might have taken some notes on what everyone does
-
 [00:28:44] and tried to
-
 [00:28:46] put it in context.
-
 [00:28:48] Yeah. So compared
-
 [00:28:50] to that, VFX is way less
-
 [00:28:52] strained. On the contrary, usually studios are
-
 [00:28:54] lacking VFX art.
-
 [00:28:56] Because a lot of VFX artists
-
 [00:28:58] are in
-
 [00:29:00] outsourcing studios like
-
 [00:29:02] Tuatara,
-
 [00:29:04] Beyond Effects, etc.
-
 [00:29:06] Big outsourcing and smaller ones.
-
 [00:29:08] And then on top of that,
-
 [00:29:10] schools usually teach you either art
-
 [00:29:12] or tech, but they're never
-
 [00:29:14] to teach you both at the end of it,
-
 [00:29:16] when you have a game school. And so it's very rare
-
 [00:29:18] that someone coming out of a game school knows how to
-
 [00:29:20] do VFX. So that means that there's
-
 [00:29:22] very little VFX artists on the market.
-
 [00:29:24] And with the turnover
-
 [00:29:26] of games industry being about five years,
-
 [00:29:28] it means that
-
 [00:29:30] it's actually difficult to find VFX
-
 [00:29:32] artists that stick and that are available.
-
 [00:29:34] So for that, we're pretty lucky
-
 [00:29:36] for VFX to basically not be
-
 [00:29:38] too affected by the current state of the
-
 [00:29:40] job market.
-
 [00:29:42] And I would say that overall
-
 [00:29:44] that's a pretty encouraging product.
-
 [00:29:50] Did I answer your question? Was there an
-
 [00:29:52] extra part that I...
-
 [00:29:54] No, no. That was basically
-
 [00:29:56] it. Thank you.
-
 [00:29:58] I think it's pretty good. I think overall you're in a pretty good
-
 [00:30:00] situation. Things are not too bad
-
 [00:30:02] on the VFX side and on the
-
 [00:30:04] I think 2D is pretty
-
 [00:30:06] harsh. So yeah. That said,
-
 [00:30:08] things can change. I'm trying
-
 [00:30:10] to keep up to AI as much as I can
-
 [00:30:12] just to know what I can and can't do.
-
 [00:30:14] My standpoint on AI is that
-
 [00:30:16] I learn about it mostly so that in an interview
-
 [00:30:18] I can be like, I know my shit. I don't want to use it.
-
 [00:30:20] Like, go away. But
-
 [00:30:22] I know how you can use possibly AI
-
 [00:30:24] to do VFX.
-
 [00:30:26] I don't think right now it has any value.
-
 [00:30:28] It's mostly gadgets.
-
 [00:30:30] But I think
-
 [00:30:32] in the future it could. And in that case
-
 [00:30:34] that could change how the
-
 [00:30:36] job market works. So it's important
-
 [00:30:38] to keep updated and to
-
 [00:30:40] know how
-
 [00:30:42] things could go. As of right now, I don't
-
 [00:30:44] believe that AI will be
-
 [00:30:46] a severe problem with VFX
-
 [00:30:48] other than studios downgrading
-
 [00:30:50] on everything and so the job market
-
 [00:30:52] becoming a bit scarce. But since it's already easy
-
 [00:30:54] to find a job as a VFX artist, I think that
-
 [00:30:56] it will stay the same. So yeah.
-
 [00:31:00] Any other questions?
-
 [00:31:02] Do you think
-
 [00:31:04] so as like a junior
-
 [00:31:08] for finding work as a junior VFX
-
 [00:31:10] because I look at job openings
-
 [00:31:12] and of course I'm
-
 [00:31:14] working on portfolio and stuff like that but
-
 [00:31:16] it seems
-
 [00:31:18] like it's really hard to find
-
 [00:31:20] internships or
-
 [00:31:22] junior positions
-
 [00:31:24] or I guess I don't know if it's associate but
-
 [00:31:26] it's like almost all senior roles.
-
 [00:31:28] Okay so
-
 [00:31:30] I'll start with the first thing that I'd like to say
-
 [00:31:32] is that we agree that a
-
 [00:31:34] VFX artist is also, like a junior VFX
-
 [00:31:36] artist is also a VFX artist, right?
-
 [00:31:38] And so if there's a job that
-
 [00:31:40] says VFX artist you can just apply to that, right?
-
 [00:31:42] And that's
-
 [00:31:44] fine. On top of that, honestly
-
 [00:31:46] studios, like who posts
-
 [00:31:48] the job
-
 [00:31:50] requirements?
-
 [00:31:52] Like basically this is HR
-
 [00:31:54] or it's recruiters that are somewhere else except
-
 [00:31:56] for the VFX, etc. They want someone that's efficient
-
 [00:31:58] that will be independent, that can
-
 [00:32:00] work always. But honestly if you come in
-
 [00:32:02] if they're waiting for a long time and you come
-
 [00:32:04] in and you're like, well I'm not the thing that you're
-
 [00:32:06] looking for but I still can do a job
-
 [00:32:08] even with some supervision
-
 [00:32:10] that can totally be negotiated. They can
-
 [00:32:12] come to it. So
-
 [00:32:14] there's no opening because that's
-
 [00:32:16] the openings are made by people
-
 [00:32:18] that write openings
-
 [00:32:20] for like a whole swath
-
 [00:32:22] as I said before
-
 [00:32:24] VFX is often clunky
-
 [00:32:26] but the job market
-
 [00:32:28] for VFX versus
-
 [00:32:30] for animators or for
-
 [00:32:32] the art is very different.
-
 [00:32:34] And so oftentimes
-
 [00:32:36] like a recruiter will kind of like
-
 [00:32:38] I've had recruiters talk to me as if I was like
-
 [00:32:40] I was desperate to find a job
-
 [00:32:42] I was like
-
 [00:32:44] I'm sorry dude but you just don't understand
-
 [00:32:46] I have other people that are waiting for
-
 [00:32:48] giving me a job. It's fine.
-
 [00:32:50] Obviously as a junior I'm not going to
-
 [00:32:52] sugarcoat it. As a junior in the games industry
-
 [00:32:54] in general, it's hard. It's hard to get
-
 [00:32:56] even harder with AI being like oh
-
 [00:32:58] you shouldn't hire juniors blah blah blah
-
 [00:33:00] like the little voice that's inside the
-
 [00:33:02] recruiters for execs and other people
-
 [00:33:04] but overall I think that as long
-
 [00:33:06] as you don't stop yourself from applying
-
 [00:33:08] you're going to be fine.
-
 [00:33:10] So to sum up
-
 [00:33:12] just apply. Apply even if it's
-
 [00:33:14] a senior. If it says mid, perfect. Apply.
-
 [00:33:16] If it says just VFX artist, you're
-
 [00:33:18] qualified. Apply. As
-
 [00:33:20] my partner always says
-
 [00:33:22] you like
-
 [00:33:24] they have never got a job that they work on
-
 [00:33:26] they're qualified for. They always applied for a job
-
 [00:33:28] that they weren't qualified for and they just
-
 [00:33:30] learned the rest of the stuff on the way.
-
 [00:33:32] Just apply. Talk to the people.
-
 [00:33:34] Be candid about whatever you know
-
 [00:33:36] how to do or don't know how to do.
-
 [00:33:38] You'll see that people are willing to negotiate because they're actually
-
 [00:33:40] usually when they have a job opening
-
 [00:33:42] they're in that state for a little bit. They're already getting you
-
 [00:33:44] in the interview. They're pretty desperate to get you.
-
 [00:33:48] Thank you.
-
 [00:33:54] That said
-
 [00:33:56] there's a caveat to that.
-
 [00:33:58] As for
-
 [00:34:00] every bootcamp, a lot of people come in
-
 [00:34:02] with like, oh I want to work at Riot or Blizzard
-
 [00:34:04] or whatever or I want to work somewhere else.
-
 [00:34:06] Like at a specific company.
-
 [00:34:08] Like oh I love
-
 [00:34:10] Slay the Spire and I want to work
-
 [00:34:12] with that specific company.
-
 [00:34:14] That's usually
-
 [00:34:16] a point of
-
 [00:34:18] something that's going to set you
-
 [00:34:20] because there's stuff
-
 [00:34:22] whatever how good you are
-
 [00:34:24] there's some things in life that make it so that
-
 [00:34:26] those things are completely out of your control.
-
 [00:34:28] You can have the best portfolio etc.
-
 [00:34:30] and it just depends on the mood of someone
-
 [00:34:32] or it depends on the
-
 [00:34:34] policies of like remote working
-
 [00:34:36] for different countries that will just make it
-
 [00:34:38] so that it's impossible. For instance right now
-
 [00:34:40] if you are a
-
 [00:34:42] if you are European and you want to work
-
 [00:34:44] for Riot or Blizzard
-
 [00:34:46] it's going to be very very hard.
-
 [00:34:48] It's going to be extremely hard and
-
 [00:34:50] I think that if that's your setup, if that's your
-
 [00:34:52] goal, you're going to probably be disappointed.
-
 [00:34:54] So, but at the same time
-
 [00:34:56] you will
-
 [00:34:58] there's a lot of other options
-
 [00:35:00] that are very similar but that you wouldn't
-
 [00:35:02] think about until you're actually there.
-
 [00:35:04] So, yeah.
-
 [00:35:06] Just as a little reminder
-
 [00:35:08] just try to not fixate too much
-
 [00:35:10] onto the actual
-
 [00:35:12] destination.
-
 [00:35:14] At the risk of being cheesy, focus on
-
 [00:35:16] the journey and not the destination.
-
 [00:35:18] You get the gist.
-
 [00:35:20] Okay.
-
 [00:35:22] I hope that was
-
 [00:35:24] informative.
-
 [00:35:26] But would you say that
-
 [00:35:28] instead of focusing on the company
-
 [00:35:30] would you focus on the art style for example?
-
 [00:35:32] Yes, exactly.
-
 [00:35:34] If I want to do realistic
-
 [00:35:36] VFX then I don't know I would target like
-
 [00:35:38] DICE or something like, you know.
-
 [00:35:40] Or
-
 [00:35:42] or like stylized I would
-
 [00:35:44] focus on, I don't know, Valorant or
-
 [00:35:46] League of Legends or things like that. Right?
-
 [00:35:48] So, not the
-
 [00:35:50] company but the art style, right?
-
 [00:35:52] So that's what you would build your
-
 [00:35:54] portfolio based on
-
 [00:35:56] that kind of direction, right?
-
 [00:35:58] Yeah.
-
 [00:36:00] Exactly. You should focus on the kind
-
 [00:36:02] of work you want to do, the kind of work you want to do.
-
 [00:36:04] For instance, I'll tell you that for me
-
 [00:36:06] I have always liked
-
 [00:36:08] working on
-
 [00:36:10] most of the
-
 [00:36:12] games I've worked on
-
 [00:36:14] I didn't like the game itself. I didn't like playing
-
 [00:36:16] the game.
-
 [00:36:18] For instance, I worked for two years on World of Warcraft
-
 [00:36:20] and I don't like World of Warcraft. I didn't like it
-
 [00:36:22] when I came into it and I didn't like
-
 [00:36:24] and after coming out of the
-
 [00:36:26] job, it was fun
-
 [00:36:28] working on it but playing
-
 [00:36:30] the game itself, I'm not particularly interested.
-
 [00:36:32] And so, same for Valorant.
-
 [00:36:34] I worked on Valorant but honestly
-
 [00:36:36] shooters are not really my thing. I'm really bad at
-
 [00:36:38] shooters and I don't really like guns
-
 [00:36:40] that much so it's just
-
 [00:36:42] it's funny how a lot of
-
 [00:36:44] games, you might think, oh I want to
-
 [00:36:46] work on the game that I love playing.
-
 [00:36:48] But actually, you'll find out that
-
 [00:36:50] sometimes you like working
-
 [00:36:52] on games, even the task
-
 [00:36:54] of working on games, on some
-
 [00:36:56] certain games that you don't like playing
-
 [00:36:58] but you like working on it. So yeah, those are two
-
 [00:37:00] different things. It can be an
-
 [00:37:02] idea also to
-
 [00:37:04] decouple them.
-
 [00:37:06] Like I would hate
-
 [00:37:08] working on fighting games for instance but
-
 [00:37:10] I would love working on
-
 [00:37:12] fighting games but I hate playing fighting games.
-
 [00:37:14] I'm so bad at them and
-
 [00:37:16] they just frustrate me all the time so I don't play them.
-
 [00:37:18] Any other questions?
-
 [00:37:26] Alright, let's do a little round table.
-
 [00:37:28] I'm going to go
-
 [00:37:30] up to down so starting with Chris
-
 [00:37:32] and I'll finish with Todd.
-
 [00:37:34] What I'm asking you is basically
-
 [00:37:36] just to give me a little
-
 [00:37:38] rundown of basically who you are
-
 [00:37:40] and what you want to do after the bootcamp.
-
 [00:37:42] That's the most important part for me.
-
 [00:37:44] So where you come from and what you want to do after the bootcamp.
-
 [00:37:46] So yeah, I know you already
-
 [00:37:48] answered a bit of that but
-
 [00:37:50] repeating them can give me
-
 [00:37:52] more information that could be interesting.
-
 [00:37:54] So yeah, let's start with the
-
 [00:37:56] Chris.
-
 [00:37:58] So I'm
-
 [00:38:00] Chris, last name outlaw.
-
 [00:38:02] I am
-
 [00:38:04] in Texas,
-
 [00:38:06] United States.
-
 [00:38:08] And I graduated a few weeks ago
-
 [00:38:10] with my BFA Computer Animation.
-
 [00:38:14] As Gabby said,
-
 [00:38:16] a lot of the schools don't really teach
-
 [00:38:18] VFX. It was mostly
-
 [00:38:20] just like fundamentals of
-
 [00:38:22] 2D and some 3D
-
 [00:38:24] modeling and rigging and stuff like that.
-
 [00:38:26] And so I had to kind of like
-
 [00:38:28] beg my portfolio teacher to
-
 [00:38:30] let me work on Unreal.
-
 [00:38:32] And like things that they hadn't taught us before.
-
 [00:38:34] Even though they like
-
 [00:38:36] heavily advised against it. Like, you know, you shouldn't
-
 [00:38:38] try and do something that you've never done before. I'm like, well
-
 [00:38:40] I'm gonna try.
-
 [00:38:42] So I
-
 [00:38:44] would like to after this
-
 [00:38:46] bootcamp
-
 [00:38:48] to work
-
 [00:38:50] in VFX for
-
 [00:38:52] video games even though it's
-
 [00:38:54] difficult right now.
-
 [00:38:56] That's the goal.
-
 [00:38:58] But I'm not opposed to doing
-
 [00:39:00] VFX for animation.
-
 [00:39:02] I have the
-
 [00:39:04] Elemental Magic books.
-
 [00:39:06] And they're
-
 [00:39:08] really awesome.
-
 [00:39:10] And like
-
 [00:39:12] learning from
-
 [00:39:14] Gilland and
-
 [00:39:16] seeing all the work that
-
 [00:39:18] he did like with
-
 [00:39:20] Pocahontas and like the Disney Renaissance movies
-
 [00:39:22] and like those VFX is just like
-
 [00:39:24] I'm like, I'm gonna do this.
-
 [00:39:26] It's amazing. So being able to do something like that
-
 [00:39:28] also I'm not opposed to but
-
 [00:39:30] yeah, that's kind of
-
 [00:39:32] I will tell you it is way easier to find a job in
-
 [00:39:34] games than in animation. And it's
-
 [00:39:36] games jobs are way healthier
-
 [00:39:38] than animation.
-
 [00:39:40] Even 3D animation
-
 [00:39:42] or whatever
-
 [00:39:44] like this is just nightmare.
-
 [00:39:46] Like you're crunching all the time
-
 [00:39:48] like the delays are crazy
-
 [00:39:50] you get fired from companies all the time
-
 [00:39:52] it's a nightmare.
-
 [00:39:54] Whereas games animation is way better.
-
 [00:39:56] Game VFX is way more
-
 [00:39:58] healthy in my opinion. You get like
-
 [00:40:00] longer contracts. When things die
-
 [00:40:02] you get a bit more severance
-
 [00:40:04] or it's a bit less chaotic.
-
 [00:40:06] So yeah.
-
 [00:40:08] I would be surprised if you didn't find it in games
-
 [00:40:10] but you found it in 3D animation.
-
 [00:40:12] That would be funny.
-
 [00:40:14] Where are you situated?
-
 [00:40:16] In the US?
-
 [00:40:18] Austin, Texas.
-
 [00:40:20] Yep.
-
 [00:40:22] Awesome. Okay.
-
 [00:40:24] I think this is great. I think this is a good
-
 [00:40:26] plan. You have a good idea of where you're
-
 [00:40:28] going. I think it's
-
 [00:40:30] realistic to get there.
-
 [00:40:32] I think in general
-
 [00:40:34] it's a good career plan. The fact that you already have
-
 [00:40:36] computer animation means that you
-
 [00:40:38] have already a lot of bases.
-
 [00:40:40] The main thing you're going to need is the art
-
 [00:40:42] principles which you already have a bunch of them.
-
 [00:40:44] So yeah.
-
 [00:40:46] And then craft, craft, craft.
-
 [00:40:48] You get good at it.
-
 [00:40:50] One thing I recommend you do. I see how you
-
 [00:40:52] do what you need to. You do lots of stuff.
-
 [00:40:54] One thing I recommend you do is really work on your fundamentals.
-
 [00:40:56] Don't go too fast. The one thing I've seen students
-
 [00:40:58] with your profile struggle with is
-
 [00:41:00] if you start with something that's too ambitious immediately
-
 [00:41:02] you're just like, oh I want to make the fan art of that
-
 [00:41:04] really cool thing. Unless you have infinite
-
 [00:41:06] time, that's really
-
 [00:41:08] it might sap both your motivation and cost
-
 [00:41:10] you a lot of time. So yeah.
-
 [00:41:12] That's what I recommend you do.
-
 [00:41:14] And then the last question I have for you is
-
 [00:41:16] do you have a time limit? Do you have like a
-
 [00:41:18] budget of time or like are you working
-
 [00:41:20] on the side or are you full time doing this?
-
 [00:41:22] So I was a full time
-
 [00:41:24] student and I graduated I
-
 [00:41:26] of course am not employed right
-
 [00:41:28] now.
-
 [00:41:30] And so my goal since I'm
-
 [00:41:32] going to Australia to visit family was
-
 [00:41:34] to like work on this
-
 [00:41:36] as much as possible and hope I get
-
 [00:41:38] a job by like August or September.
-
 [00:41:40] August or September?
-
 [00:41:42] Okay yeah. So
-
 [00:41:44] September. So that's like
-
 [00:41:46] less than a few months.
-
 [00:41:48] So
-
 [00:41:50] usually making a portfolio
-
 [00:41:52] is about
-
 [00:41:54] two months. Something like that.
-
 [00:41:56] And then you need to finish
-
 [00:41:58] the class, do a little bit of one month and then
-
 [00:42:00] do it. So that's three, four, five months.
-
 [00:42:02] Five months is the realistic moment where
-
 [00:42:04] you can start looking for jobs if you do
-
 [00:42:06] everything as fast as possible.
-
 [00:42:08] Which is possible with your portfolio.
-
 [00:42:10] So with that, just to give you some experience.
-
 [00:42:12] Okay. Thank you.
-
 [00:42:14] Awesome.
-
 [00:42:16] Gospik.
-
 [00:42:20] Oh there we go. I forgot I had push to talk on.
-
 [00:42:22] Hi.
-
 [00:42:24] My name is Joshua Judd. I'm
-
 [00:42:26] living in New York City right now.
-
 [00:42:28] Mostly
-
 [00:42:30] kind of self-taught blender
-
 [00:42:32] enthusiast, 3D generalist.
-
 [00:42:34] I haven't really focused that much on VFX
-
 [00:42:36] until recently.
-
 [00:42:38] And yeah, I'm trying to
-
 [00:42:40] I'm treating this as
-
 [00:42:42] school essentially.
-
 [00:42:44] Because I've never done any really formal
-
 [00:42:46] college education into the arts.
-
 [00:42:48] So I'm trying to give this that
-
 [00:42:50] amount of effort.
-
 [00:42:52] And hopefully around like
-
 [00:42:54] January or February try to
-
 [00:42:56] apply for internships, jobs,
-
 [00:42:58] whatever comes my way.
-
 [00:43:00] Okay.
-
 [00:43:02] Good timeline. January, February I think.
-
 [00:43:04] That can totally work. I saw you were doing modding
-
 [00:43:06] and doing a lot of stuff like that.
-
 [00:43:08] And you have like extra
-
 [00:43:10] full access
-
 [00:43:12] afterwards. So I think overall
-
 [00:43:14] January is a really good timeline. You can kind of target
-
 [00:43:16] that and make sure that you have
-
 [00:43:18] everything ready. You're kind of solid by there.
-
 [00:43:20] So if you're... For me it took
-
 [00:43:22] two months to find a job while I was hunting.
-
 [00:43:26] But it's really just luck.
-
 [00:43:28] Sometimes it's more, sometimes it's less.
-
 [00:43:30] I know some people they started like hunting
-
 [00:43:32] they found super super fast. So it's really just luck.
-
 [00:43:34] The fact that you did like lots of modding before
-
 [00:43:38] I think will help you a lot. It depends on what you did
-
 [00:43:40] before. But you seem to have a good
-
 [00:43:42] knowledge of a lot of things from what you said.
-
 [00:43:44] So I think it's really possible.
-
 [00:43:46] What I would focus on is
-
 [00:43:48] kind of like how the industry works in particular.
-
 [00:43:50] So like the different
-
 [00:43:52] separation of
-
 [00:43:54] works, etc. And then what I would focus
-
 [00:43:56] on afterwards is translating
-
 [00:43:58] any skill that you already have from modding
-
 [00:44:00] into what you're doing right now.
-
 [00:44:02] I think that's really valuable. And any skill
-
 [00:44:04] that you can transfer and kind of get will
-
 [00:44:06] give you a little touch,
-
 [00:44:08] a little edge that other people don't.
-
 [00:44:12] Cool, got it.
-
 [00:44:14] Gabby?
-
 [00:44:16] Yes, me. No, not me.
-
 [00:44:20] Yeah, hello. Can you hear me?
-
 [00:44:22] Yes.
-
 [00:44:24] Alright. Yeah, my name is Gabriel. I'm from Brazil.
-
 [00:44:26] You can call me Gabe, I guess, because
-
 [00:44:28] you already have Gabby. Even though like
-
 [00:44:30] my nickname is also Gabby.
-
 [00:44:32] Perfect.
-
 [00:44:34] You can reach out however you guys want.
-
 [00:44:36] I've been working with games
-
 [00:44:38] for about 15 years.
-
 [00:44:40] For the last 10, switching
-
 [00:44:42] between tech art and UI. But mostly
-
 [00:44:44] UI. Especially
-
 [00:44:46] implementing like the
-
 [00:44:48] art part more than the logic
-
 [00:44:50] one. And today I'm like gravitating towards the logic.
-
 [00:44:52] And I realized I
-
 [00:44:54] like the art part a lot more.
-
 [00:44:56] So I had
-
 [00:44:58] a few experiences in smaller companies
-
 [00:45:00] doing effects for one
-
 [00:45:02] or two things. Especially when like the artist
-
 [00:45:04] couldn't make it and we had to get
-
 [00:45:06] something done. And I was usually the guy
-
 [00:45:08] who was like, hey, I know you have
-
 [00:45:10] some like tech art-ish, tech art skills, so
-
 [00:45:12] can you take this and
-
 [00:45:14] kind of do it real fast?
-
 [00:45:16] I realized that was like super fun.
-
 [00:45:18] It was basically
-
 [00:45:20] the cherry on the cake of whatever I was doing.
-
 [00:45:22] So when I saw like
-
 [00:45:24] Bootcamp, I was like, you know what? I'm gonna
-
 [00:45:26] give this a go. And
-
 [00:45:28] one thing that I've noticed trying to
-
 [00:45:30] study effects alone is
-
 [00:45:32] it's really hard
-
 [00:45:34] to have
-
 [00:45:36] like good quality
-
 [00:45:38] instruction on foundations
-
 [00:45:40] and building good fundamentals.
-
 [00:45:42] There's a lot of things online, sure, but
-
 [00:45:44] knowledge is mostly scattered
-
 [00:45:46] around and it's very hard to find
-
 [00:45:48] some place that's gonna
-
 [00:45:50] guide you to a path.
-
 [00:45:52] So I'm like, I'm gonna
-
 [00:45:54] go to a place that's
-
 [00:45:56] like a good foundation
-
 [00:45:58] that's like good enough
-
 [00:46:00] that I can hone my own
-
 [00:46:02] skills basically later
-
 [00:46:04] to however path I wanna take
-
 [00:46:06] and basically follow it.
-
 [00:46:08] So I don't have like a super
-
 [00:46:10] aggressive goal of finding
-
 [00:46:12] a job super soon, but
-
 [00:46:14] I wanna make the switch if I can. If I enjoy this
-
 [00:46:16] as much as I think I will,
-
 [00:46:18] I wanna switch careers
-
 [00:46:20] by next year, the earlier the
-
 [00:46:22] better of course. But my
-
 [00:46:24] first focus is building a strong
-
 [00:46:26] solid foundation and knowing the
-
 [00:46:28] fundamentals and being able to
-
 [00:46:30] know what I'm doing and know
-
 [00:46:32] how to grow
-
 [00:46:34] myself, right? How to explore
-
 [00:46:36] different paths and learn stuff.
-
 [00:46:38] That's really the tech art mindset. We can hear the tech
-
 [00:46:40] art talking. I wanna build a system that's
-
 [00:46:42] really robust that can be used for everything.
-
 [00:46:44] Kinda like that, yeah.
-
 [00:46:46] Excellent. Yeah, awesome.
-
 [00:46:48] Yeah, I think that's really good. I didn't know
-
 [00:46:50] that was tech art. I only wrote down
-
 [00:46:52] UI software, so I think that's gonna be
-
 [00:46:54] really helpful. Tech art and
-
 [00:46:56] the effects are really close. So
-
 [00:46:58] I think they're the
-
 [00:47:00] thing that you should focus the most on is those
-
 [00:47:02] first four weeks. The rest you're
-
 [00:47:04] gonna learn obviously a ton, but I think like the
-
 [00:47:06] material class for instance, you're probably gonna breeze through it.
-
 [00:47:08] Yeah. If there's
-
 [00:47:10] at any point some extra elements
-
 [00:47:12] you're interested in and you want to go deeper into,
-
 [00:47:14] feel free to ask me. If there's some stuff
-
 [00:47:16] that you really just know already.
-
 [00:47:18] Especially in the last four weeks.
-
 [00:47:20] But yeah, otherwise I think that's gonna be
-
 [00:47:22] fine. The fact that you don't have a timeline
-
 [00:47:24] is great. I think that
-
 [00:47:26] if you have any extra questions on that
-
 [00:47:28] of like where you could go to,
-
 [00:47:30] I'm happy to try and help you with the
-
 [00:47:32] potentials that could exist.
-
 [00:47:34] Absolutely. I'm sure they're
-
 [00:47:36] gonna bug you on that. I'll probably bug you a lot
-
 [00:47:38] on the shaders class as well.
-
 [00:47:40] Yeah, of course.
-
 [00:47:42] For the first ones, I think they're gonna be a little
-
 [00:47:44] harder for me, but they're the ones that
-
 [00:47:46] I'm most excited for because it's the ones that I have
-
 [00:47:48] the least experience. So it's gonna be
-
 [00:47:50] an adventure. And I
-
 [00:47:52] will make the most of the time that I have.
-
 [00:47:54] I still have like a regular
-
 [00:47:56] 9-5 job and
-
 [00:47:58] all my free time is basically gonna be
-
 [00:48:00] bootcamp and that's
-
 [00:48:02] the only thing I'm gonna think of for the next
-
 [00:48:04] two months basically.
-
 [00:48:06] So one thing I'll tell you on top of that is
-
 [00:48:08] there's gonna be some exercises that are
-
 [00:48:10] offered and I have more exercises if you're
-
 [00:48:12] looking for to get better. Like stuff that you can do
-
 [00:48:14] like 15 minutes every day and stuff like that.
-
 [00:48:16] I feel like this is something that could interest you.
-
 [00:48:18] I'm gonna introduce
-
 [00:48:20] you to them but not force you to actually do them.
-
 [00:48:22] If you want to do them,
-
 [00:48:24] ask me and I'll set you up
-
 [00:48:26] to do them more regularly.
-
 [00:48:28] That will help you a lot get better fast.
-
 [00:48:30] Absolutely.
-
 [00:48:32] I already want that if you can.
-
 [00:48:34] I'm all here.
-
 [00:48:36] Thank you.
-
 [00:48:38] Awesome. Is there anyone that needs to go?
-
 [00:48:40] I usually go over the time limits
-
 [00:48:42] just to wrap up everything that is needed.
-
 [00:48:44] But if anyone needs to go in advance,
-
 [00:48:46] tell me and I will have you
-
 [00:48:48] skip the line and pass first.
-
 [00:48:50] Okay.
-
 [00:48:52] I'll see if we have work.
-
 [00:48:54] Otherwise,
-
 [00:48:56] Hi, Tom.
-
 [00:48:58] Yes, hello.
-
 [00:49:00] Hi. Hi.
-
 [00:49:02] My name is Hi, Tom.
-
 [00:49:04] I am originally from Morocco.
-
 [00:49:06] But I moved to Hungary around six years ago.
-
 [00:49:08] I still haven't learned Hungarian yet.
-
 [00:49:10] It's a difficult language.
-
 [00:49:12] But I've been here.
-
 [00:49:14] I moved as a student.
-
 [00:49:16] I studied computer science engineering.
-
 [00:49:18] After I graduated,
-
 [00:49:20] I started working
-
 [00:49:22] as a support engineer.
-
 [00:49:24] I'm still working now full time.
-
 [00:49:26] I'm trying to fit some time
-
 [00:49:28] to do the boot camp as well.
-
 [00:49:30] What I'm interested in,
-
 [00:49:32] I have a plan.
-
 [00:49:34] I put a mental deadline as well.
-
 [00:49:36] I'm trying to focus
-
 [00:49:38] at least the next six months
-
 [00:49:40] to at least find something
-
 [00:49:42] that I can use
-
 [00:49:44] to help me
-
 [00:49:46] to get better.
-
 [00:49:48] I'm also trying to
-
 [00:49:50] work on my computer.
-
 [00:49:52] I'm trying to find something
-
 [00:49:54] like an internship
-
 [00:49:56] or a job
-
 [00:49:58] that I can start with.
-
 [00:50:00] The idea I have in my head
-
 [00:50:02] is that I don't want to
-
 [00:50:04] jump around.
-
 [00:50:06] I love all types of VFX, of course.
-
 [00:50:08] I love everything.
-
 [00:50:10] But I'm trying to
-
 [00:50:12] focus mainly on something
-
 [00:50:14] that I feel like
-
 [00:50:16] I can be good at.
-
 [00:50:18] I'm thinking
-
 [00:50:20] maybe I can start with
-
 [00:50:22] a certain style,
-
 [00:50:24] like stylized VFX.
-
 [00:50:26] Like I said, maybe League of Legends
-
 [00:50:28] or Valorant
-
 [00:50:30] or a similar mobile style.
-
 [00:50:32] That's my vision.
-
 [00:50:34] That's what I would build
-
 [00:50:36] my portfolio on.
-
 [00:50:38] Like you said,
-
 [00:50:40] you mentioned
-
 [00:50:42] being in Europe
-
 [00:50:48] and having difficulty
-
 [00:50:50] working remotely.
-
 [00:50:52] I like working with
-
 [00:50:54] some of the big studios.
-
 [00:50:56] The plan I have in mind
-
 [00:50:58] is to target some outsourcing studios
-
 [00:51:00] if possible.
-
 [00:51:02] I know it could be
-
 [00:51:04] a huge leap.
-
 [00:51:06] It's not that much.
-
 [00:51:08] Okay.
-
 [00:51:10] That totally makes sense.
-
 [00:51:12] I think we're in
-
 [00:51:14] a good spot there.
-
 [00:51:16] I can't say...
-
 [00:51:18] I'm having some
-
 [00:51:20] echo from you, though.
-
 [00:51:22] Perfect.
-
 [00:51:24] What I can say
-
 [00:51:26] is the following.
-
 [00:51:28] I think that overall
-
 [00:51:30] you're in a good spot.
-
 [00:51:32] The thing about Europe,
-
 [00:51:34] as I was saying,
-
 [00:51:36] is being hired directly there
-
 [00:51:38] is kind of hard.
-
 [00:51:40] You can still work
-
 [00:51:42] through outsourcing.
-
 [00:51:44] You can still find other ways.
-
 [00:51:46] There are other companies
-
 [00:51:48] that do exactly the same thing
-
 [00:51:50] but in Europe.
-
 [00:51:52] You can still work
-
 [00:51:54] on games that look like that.
-
 [00:51:56] There are plenty,
-
 [00:51:58] so you won't be too much of a problem.
-
 [00:52:00] Remote work is totally a thing.
-
 [00:52:02] You can totally remote work.
-
 [00:52:04] If you're in Budapest
-
 [00:52:06] and you want to work somewhere else,
-
 [00:52:08] it's totally possible.
-
 [00:52:10] It takes a bit of time.
-
 [00:52:12] Sometimes you will be discriminated
-
 [00:52:14] out of that from junior jobs.
-
 [00:52:16] As soon as you find one
-
 [00:52:18] and you start to get six months
-
 [00:52:20] of experience somewhere, or a year
-
 [00:52:22] you can start to work.
-
 [00:52:24] I don't think that will be a problem.
-
 [00:52:26] The different studios, Virtuos and Turadara,
-
 [00:52:28] I've worked for both.
-
 [00:52:30] They will work out too well for that.
-
 [00:52:32] They look for small contracts.
-
 [00:52:34] Sometimes it's hard to build a career
-
 [00:52:36] that's going to be long for a long time.
-
 [00:52:38] But it's possible.
-
 [00:52:40] Thank you.
-
 [00:52:42] Awesome.
-
 [00:52:44] Next up, IDLE.
-
 [00:52:46] IDLE said they can't have the mic.
-
 [00:52:48] Hi, hi.
-
 [00:52:50] I'm Dan Fogler.
-
 [00:52:52] I'm out of my work hours for now.
-
 [00:52:54] I have another three hours.
-
 [00:52:56] I don't know if it sounds nice.
-
 [00:52:58] I'm on my earbuds.
-
 [00:53:00] That's good, yeah.
-
 [00:53:02] Alright, thank you.
-
 [00:53:04] My name is Ignacio.
-
 [00:53:06] I'm called Nacho.
-
 [00:53:08] I'm from Argentina, from Buenos Aires.
-
 [00:53:10] I enrolled in this
-
 [00:53:12] because as Gabe said previously,
-
 [00:53:14] there's a lot of scattered knowledge
-
 [00:53:16] across the internet.
-
 [00:53:18] But there's no info about the base.
-
 [00:53:20] So I'm not sure if it's true.
-
 [00:53:22] I'm a designer.
-
 [00:53:24] I'm a teacher actually.
-
 [00:53:26] I oversee what are the final projects
-
 [00:53:28] in my university.
-
 [00:53:30] And I follow along
-
 [00:53:32] during like a whole semester
-
 [00:53:34] and try to get like a vertical slice.
-
 [00:53:36] And I really enjoy my job.
-
 [00:53:38] So right now I work also
-
 [00:53:40] as like an indie dev
-
 [00:53:42] with a friend that's a programmer.
-
 [00:53:44] We used to be both programmers.
-
 [00:53:46] But since he can't really
-
 [00:53:48] or doesn't really like art at all,
-
 [00:53:50] I just like to do my job.
-
 [00:53:52] And I kind of deviated
-
 [00:53:54] first because of shaders.
-
 [00:53:56] I found them like really cool and interesting.
-
 [00:53:58] So I started from there.
-
 [00:54:00] But then I realized that
-
 [00:54:02] shaders are fine,
-
 [00:54:04] but I really like making like cool
-
 [00:54:06] VFX, you know.
-
 [00:54:08] And I used to study
-
 [00:54:10] civil engineering.
-
 [00:54:12] So I really, really like math.
-
 [00:54:14] I enjoy a lot of math and physics.
-
 [00:54:16] So when I went into shaders,
-
 [00:54:18] I had like a really big fan, you know.
-
 [00:54:20] And I kind of switched it from programming.
-
 [00:54:22] I was like, I'm gonna make a lot of it,
-
 [00:54:24] abandon, let my friend program
-
 [00:54:26] everything on our games.
-
 [00:54:28] And I fully advocated into like game design
-
 [00:54:30] and art,
-
 [00:54:32] which is shaders because
-
 [00:54:34] I don't really think I'm good.
-
 [00:54:36] I don't really model very well.
-
 [00:54:38] I know like the basics, you know,
-
 [00:54:40] just to survive.
-
 [00:54:42] So I fully went for the tech part
-
 [00:54:44] of the branch, you would say.
-
 [00:54:46] But when I started like
-
 [00:54:48] seeing visual effects come to life,
-
 [00:54:50] I was like, I really want to do this.
-
 [00:54:52] And this popped up on my Twitter.
-
 [00:54:54] Yeah, popped up on Twitter.
-
 [00:54:56] And it was like, oh my God, there's this website.
-
 [00:54:58] And then I see like there's a Bina bootcamp.
-
 [00:55:00] And I'm like, all right, I really need this.
-
 [00:55:02] Like I need this to actually
-
 [00:55:04] understand what I'm doing
-
 [00:55:06] because that was like my main issue, you know.
-
 [00:55:08] I learned from here and there,
-
 [00:55:10] but I could never like get onto it.
-
 [00:55:12] I have a question for you.
-
 [00:55:14] Is your goal to then teach
-
 [00:55:16] VFX to some students or is it just
-
 [00:55:18] for the small like...
-
 [00:55:20] I don't really have it like as a goal.
-
 [00:55:22] You know, I would like to teach in the future.
-
 [00:55:26] I teach as my main job,
-
 [00:55:28] but I also have like
-
 [00:55:30] different side projects
-
 [00:55:32] I work on like indie games
-
 [00:55:34] that I'm developing.
-
 [00:55:36] I'm working on three of them right now.
-
 [00:55:38] I also would like to teach as well VFX.
-
 [00:55:40] One of the reasons
-
 [00:55:42] I really wanted this basic course
-
 [00:55:44] is because in my university,
-
 [00:55:46] the VFX part is very lacking
-
 [00:55:48] and it's very good to give feedback
-
 [00:55:50] and stuff for the game.
-
 [00:55:52] I would like to also learn
-
 [00:55:54] so I could give them like a
-
 [00:55:56] proper oriented class on how to implement.
-
 [00:55:58] My
-
 [00:56:00] signature
-
 [00:56:02] works a lot regarding like game design itself,
-
 [00:56:04] but I do have certain
-
 [00:56:06] control over like
-
 [00:56:08] art and programming.
-
 [00:56:10] So in the art part, I really wanted to
-
 [00:56:12] implement
-
 [00:56:14] the VFX part
-
 [00:56:16] and I think I would really like to work
-
 [00:56:18] like as a teacher of VFX.
-
 [00:56:20] I find it really enjoyable
-
 [00:56:22] and it's like math related
-
 [00:56:24] and I really enjoy math
-
 [00:56:26] and when I went into game design,
-
 [00:56:28] I think I kinda lost the math part.
-
 [00:56:30] Programming is fine,
-
 [00:56:32] but it's just logic.
-
 [00:56:34] So what I can do is that in the future,
-
 [00:56:36] if you have any questions like
-
 [00:56:38] how do you learn VFX,
-
 [00:56:40] whether there's different steps,
-
 [00:56:42] I can help you out with that
-
 [00:56:44] if that's something that you're interested in afterwards.
-
 [00:56:46] And if in six months you're interested in like
-
 [00:56:48] oh, how could I set up this with this,
-
 [00:56:50] I'm happy to talk and find stuff like that.
-
 [00:56:52] I think your profile
-
 [00:56:54] as an indie dev,
-
 [00:56:56] it's going to be slightly different than the rest of this
-
 [00:56:58] bootcamp in particular, although your profile
-
 [00:57:00] is not particularly uncommon.
-
 [00:57:02] So I think that's going to be okay too.
-
 [00:57:04] If you have any specific projects that you want to show at some point
-
 [00:57:06] and you want to have feedback on them
-
 [00:57:08] or like how do I implement this for my game,
-
 [00:57:10] feel free to ask and I'll be happy to help out.
-
 [00:57:12] Thank you so much.
-
 [00:57:14] One of the reasons I really wanted to do this
-
 [00:57:16] is because I'm developing a combat game
-
 [00:57:18] and it's based on light and shadows
-
 [00:57:20] and I kinda need like
-
 [00:57:22] work on the
-
 [00:57:24] VFX on it and the shaders.
-
 [00:57:26] But when I saw this, I finally
-
 [00:57:28] can see like a course
-
 [00:57:30] and actually works on the basics.
-
 [00:57:32] I hope you find
-
 [00:57:34] the answers that work out for that.
-
 [00:57:36] I'll gladly help.
-
 [00:57:38] Thank you so much.
-
 [00:57:40] Yeah, no problem.
-
 [00:57:42] Jasa.
-
 [00:57:46] So my name is
-
 [00:57:48] Yasha.
-
 [00:57:50] Yasha, of course.
-
 [00:57:52] Polish
-
 [00:57:54] spelling can be tricky.
-
 [00:57:56] So no worries.
-
 [00:57:58] I had a no parent when I was a kid
-
 [00:58:00] that was called Yasha. I should have known.
-
 [00:58:02] Oh.
-
 [00:58:04] Yeah, tell me.
-
 [00:58:06] So yeah,
-
 [00:58:08] so I've been working in games
-
 [00:58:10] for like eight years
-
 [00:58:12] as a concept artist.
-
 [00:58:16] So right now I'm working
-
 [00:58:18] at Sparasoft on Fortnite
-
 [00:58:20] but I have
-
 [00:58:22] like two months left on my
-
 [00:58:24] contract and
-
 [00:58:26] I will be leaving the company
-
 [00:58:28] I think for sure after that.
-
 [00:58:30] And I've been trying
-
 [00:58:32] to find like concept work for
-
 [00:58:34] six months I think now.
-
 [00:58:36] And
-
 [00:58:38] as you all know it's really tough
-
 [00:58:40] especially for concepts.
-
 [00:58:42] So I thought
-
 [00:58:44] I would retrain
-
 [00:58:46] to a different discipline
-
 [00:58:48] but one that still
-
 [00:58:50] uses some of the skills that I
-
 [00:58:52] had previously.
-
 [00:58:54] So I have
-
 [00:58:56] I think okay drawing
-
 [00:58:58] and like 3D but I have
-
 [00:59:00] zero animation
-
 [00:59:02] experience.
-
 [00:59:04] Anything I ever did was like
-
 [00:59:06] you know
-
 [00:59:08] still frames so
-
 [00:59:10] no animation and also
-
 [00:59:12] I didn't do too much like
-
 [00:59:14] organic stuff. I was mostly
-
 [00:59:16] you know hard surface
-
 [00:59:18] like tech
-
 [00:59:20] stuff and
-
 [00:59:22] architecture so.
-
 [00:59:24] Yeah. Perfect.
-
 [00:59:26] Well as you can see.
-
 [00:59:28] Yeah you want to get a job
-
 [00:59:30] ASAP after this basically.
-
 [00:59:32] Would be
-
 [00:59:34] would be great like I
-
 [00:59:36] it would be very
-
 [00:59:38] optimistic to
-
 [00:59:40] you know get it right after
-
 [00:59:42] but hopefully in the
-
 [00:59:44] months after
-
 [00:59:46] you know when I have
-
 [00:59:48] time to develop my portfolio.
-
 [00:59:50] As I say often to people when you do the class
-
 [00:59:52] there's three things you need to learn. One is art.
-
 [00:59:54] The second is games industry. The third is tech
-
 [00:59:56] and you already know two of them
-
 [00:59:58] more or less. The thing that you're missing is like
-
 [01:00:00] animation principles and stuff like that.
-
 [01:00:02] Which you probably already have instinctively
-
 [01:00:04] some things even if you don't realize.
-
 [01:00:06] So I think that overall
-
 [01:00:08] it's realistic to kind of go quite fast.
-
 [01:00:10] I think that at the end of the bootcamp
-
 [01:00:12] like you will be very close to being able to
-
 [01:00:14] not make a portfolio but at least
-
 [01:00:16] like be very close to making a portfolio.
-
 [01:00:18] So I think that like
-
 [01:00:20] again that's five months. Four to five
-
 [01:00:22] months benchmark I think is going to be quite close.
-
 [01:00:24] And you're used to making portfolios
-
 [01:00:26] you're used to like
-
 [01:00:28] polishing kind of like a thumbnail to make it like
-
 [01:00:30] look professional etc. That you're going to
-
 [01:00:32] skip on a lot of those skills that's like usually
-
 [01:00:34] two to three weeks that people have
-
 [01:00:36] like. So I think that will help you
-
 [01:00:38] and it will also make it way easier for you
-
 [01:00:40] to find a junior job or like
-
 [01:00:42] a job there because you already have
-
 [01:00:44] experience in the games industry and like
-
 [01:00:46] experience in the games industry is a direct skip.
-
 [01:00:48] Basically it's just really good.
-
 [01:00:50] So yeah I think overall like the skills that you have
-
 [01:00:52] are going to help a lot.
-
 [01:00:54] I was asking about the
-
 [01:00:56] Sorry. Yeah tell me. No please tell me.
-
 [01:00:58] Yeah I was asking about the remote part
-
 [01:01:00] because I'm not
-
 [01:01:02] in Warsaw in Poland because
-
 [01:01:04] like Warsaw would be the
-
 [01:01:06] main games
-
 [01:01:08] industry hub. I'm in
-
 [01:01:10] Wroclaw which is like another
-
 [01:01:12] big city but
-
 [01:01:14] not so
-
 [01:01:16] much in terms of game dev.
-
 [01:01:18] So
-
 [01:01:20] remote would be great.
-
 [01:01:22] Remote exists and is
-
 [01:01:24] totally available. For
-
 [01:01:26] juniors sometimes it's annoying so
-
 [01:01:28] what I did is I moved to Paris for my first job
-
 [01:01:30] and then after that I never ever think remote because
-
 [01:01:32] it was just easy to find something physical.
-
 [01:01:34] I think remote culture has evolved since Covid
-
 [01:01:36] in
-
 [01:01:38] both ways. I think there's a lot of indies that will just
-
 [01:01:40] pick you up. You do one year of that and then
-
 [01:01:42] after that you can find a remote job very easily.
-
 [01:01:44] And even then I think that if you ever
-
 [01:01:46] worked remotely for your job at
-
 [01:01:48] least once then people will just be like
-
 [01:01:50] oh you already did it. It already worked perfect.
-
 [01:01:52] Thank you for every time. So I think that's
-
 [01:01:54] going to be fine. Yeah I've been
-
 [01:01:56] remote 100%
-
 [01:01:58] since Covid.
-
 [01:02:00] Yeah so I think that's going to be fine.
-
 [01:02:02] If you're capable of saying hey I've done it before
-
 [01:02:04] like trust me. People are going to be like
-
 [01:02:06] oh if you've done it before then surely you know
-
 [01:02:08] how to do it. That's what the only thing they're scared
-
 [01:02:10] of is like the elusive idea of like
-
 [01:02:12] a young junior that
-
 [01:02:14] like needs to be managed and can't
-
 [01:02:16] be managed because they're remote
-
 [01:02:18] somehow. Somehow being physically there will help.
-
 [01:02:20] I don't know how.
-
 [01:02:22] Yeah I think that one thing that's really important that you need to keep in mind since you have like those skills already. Use those skills like leverage those a lot. Like try to think of the effects a lot with meshes with what's called volumes.
-
 [01:02:36] Try to think a lot about like okay I have this still frame I'm going to basically animate this still frame. I don't know like you make this this thing basically that's like really cool and then you just animate it as a VFX that like comes in shows and then comes out. And that like that honestly will simplify so much your work.
-
 [01:02:50] Yeah.
-
 [01:02:52] So yeah.
-
 [01:02:54] Leverage a lot your current job and like your current skills and that will help a lot.
-
 [01:02:56] Alright awesome.
-
 [01:02:58] Megmonies.
-
 [01:03:00] Hello.
-
 [01:03:02] Hello.
-
 [01:03:04] My name is Jen.
-
 [01:03:06] I actually work in the game industry already as a UI designer.
-
 [01:03:08] So I've been working for about 14 years.
-
 [01:03:10] And I decided to take this class as mainly like an upgrade for my skills.
-
 [01:03:12] So I'm going to show you a little bit of my skills.
-
 [01:03:14] So I'm going to show you a little bit of my skills.
-
 [01:03:16] So I'm going to show you a little bit of my skills.
-
 [01:03:18] So I'm going to show you a little bit of my skills.
-
 [01:03:20] So I'm going to show you a little bit of my skills.
-
 [01:03:22] Because.
-
 [01:03:24] ummm, I do the UI but we also have to do a lot of VFX on it.
-
 [01:03:26] ummm, I do the UI but we also have to do a lot of VFX on it.
-
 [01:03:28] And we do have a VFX artist.
-
 [01:03:30] But he's pretty busy on character work.
-
 [01:03:32] So I thought it would be a good idea for me to learn it so I can start doing it more on the UI end.
-
 [01:03:36] So I thought it would be a good idea for me to learn it so I can start doing it more on the UI end.
-
 [01:03:38] So I thought it would be a good idea for me to learn it so I can start doing it more on the UI end.
-
 [01:03:40] And maybe it will transition to helping him do the character work.
-
 [01:03:42] And maybe it will transition to helping him do the character work.
-
 [01:03:44] So that's pretty much why I'm here.
-
 [01:03:46] here so I don't really have like a a timeline or I'm not looking to switch my career or anything
-
 [01:03:53] I mean maybe I might end up liking enough that might want to do that in the future but
-
 [01:03:58] I have a feeling I'll be able to do that within the studio so I'm not too worried about that um
-
 [01:04:04] I do have drawing and illustration skills as well so um I think that will help me a lot
-
 [01:04:12] yeah yeah you're in the perfect position um I've seen multiple people be in that position
-
 [01:04:18] that's like the most comfortable position basically you can change job inside the
-
 [01:04:23] company because they have a need it's very common that there's not enough vfx artists in a studio
-
 [01:04:27] and um you can either continue your job exactly the same but with that extra skill that you can
-
 [01:04:32] leverage in order to find a job as a ui artist or you can change jobs in the same company which
-
 [01:04:38] is usually more smooth you can also keep the salaries if there are advantages or leverage
-
 [01:04:42] that too like um usually and you can do that at your own pace while not looking at a job etc and
-
 [01:04:48] having like the stigma of like oh like you're a junior or whatever so I think overall that's like
-
 [01:04:53] you have a really comfortable situation there for that yeah I've seen multiple people do that
-
 [01:04:58] so like this is this is very common especially ui artists or tech artists they're the two that
-
 [01:05:04] usually go to vfx and then either stay in there or like stay in like or shift to vfx
-
 [01:05:08] yeah I can see myself doing that just because it feels more
-
 [01:05:12] creative
-
 [01:05:12] like ui can be creative but I think doing like effects and stuff could be an added bonus
-
 [01:05:19] and you're also in Vancouver you said and so yeah you have like Vancouver is great it's the
-
 [01:05:25] right time zone too uh it's going to be easy to find uh remote work if you need remote work it's
-
 [01:05:30] going to be easy to find jobs if you need jobs I think that overall like you're in a good situation
-
 [01:05:33] there um yeah uh if you're looking for work specifically for ui focus on the first week
-
 [01:05:39] that's going to be the most important part um
-
 [01:05:42] yeah I will focus on 2d uh like usually it's 2d uh flipbooks that are the most important so
-
 [01:05:47] there and then shaders will help you a lot to make it look as crisp and good as possible
-
 [01:05:52] yeah I'm also trying to learn unreal like we just switched over to unreal so it's still it's new to me
-
 [01:05:59] okay that's fair yeah um yeah I can help with unreal as to the biggest extent I can I've worked a lot with unreal so yeah
-
 [01:06:09] awesome
-
 [01:06:10] awesome okay that's pretty straightforward
-
 [01:06:12] uh Paulina
-
 [01:06:14] hi I hope you can hear me because my headphones broke so
-
 [01:06:19] perfect perfectly it's okay
-
 [01:06:22] yeah so my name is Paulina I'm from Poland and I graduated from academy of fine arts and design last year
-
 [01:06:31] I also did some courses into the animation mostly and there I had also some special effects like addition
-
 [01:06:42] but it didn't really it was you know just the addition to all of that but I just fell in love with special effects and I really wanted to do that
-
 [01:06:54] and right now I'm working as a 2d animator and motion designer so I'm not in like in the run to find a new job but maybe next year I just wanted to specialize in special effects we'll see how it goes
-
 [01:07:11] awesome that's great do you want to...
-
 [01:07:12] So you have a lot of background in 2D animator,
-
 [01:07:15] and you did a part of Goblins 2, you did fine arts.
-
 [01:07:21] So do you want to do only 2D, or do you also
-
 [01:07:24] want to do games VFX?
-
 [01:07:27] I mostly in 2D.
-
 [01:07:28] I just didn't start 3D.
-
 [01:07:31] It's not my main focus right now,
-
 [01:07:34] but I will see how it goes when I start,
-
 [01:07:38] because I just love 2D.
-
 [01:07:40] I'm totally into that.
-
 [01:07:43] But I think that 3D animation is not for me.
-
 [01:07:48] I just try that, and I don't know what's going on.
-
 [01:07:53] It is not my thing.
-
 [01:07:55] But maybe 3D effects.
-
 [01:07:58] I started some, and it was better.
-
 [01:08:01] So maybe that.
-
 [01:08:02] OK, perfect.
-
 [01:08:03] Awesome.
-
 [01:08:04] So one thing that's really cool that I will give you this,
-
 [01:08:08] obviously the first four weeks is the thing
-
 [01:08:10] that you're going to be the most interested in, I think, here.
-
 [01:08:13] But then last four weeks is where you're going to see.
-
 [01:08:16] And here, you might have some interests
-
 [01:08:19] that are slightly different than other people.
-
 [01:08:21] So if there's anything that you feel,
-
 [01:08:22] oh, you put your finger on one thing that's really cool,
-
 [01:08:25] feel free to send me a message.
-
 [01:08:26] I'll try to indicate to you the different things
-
 [01:08:28] that you can do.
-
 [01:08:28] So notably, there's a full set of animation,
-
 [01:08:32] of like a 3D animation.
-
 [01:08:34] It's basically just taking lots of flipbooks,
-
 [01:08:36] lots of 2D animations, and putting them together
-
 [01:08:39] in a kind of creative way.
-
 [01:08:40] Usually.
-
 [01:08:40] Using cards that are put in 3D in different ways.
-
 [01:08:43] And that's really fun.
-
 [01:08:44] And it might be the thing that you're looking for.
-
 [01:08:46] So yeah.
-
 [01:08:47] Oh, thank you.
-
 [01:08:48] That's great.
-
 [01:08:50] Awesome.
-
 [01:08:51] We have this Polish delegation so far.
-
 [01:08:54] It's perfect.
-
 [01:08:54] Yes.
-
 [01:08:55] And we're from the same city, because I also
-
 [01:08:58] live in Wroclaw.
-
 [01:08:59] That's so funny.
-
 [01:09:00] That's true.
-
 [01:09:04] Awesome.
-
 [01:09:05] Great.
-
 [01:09:06] Safer.
-
 [01:09:08] Yes, hello, everyone.
-
 [01:09:10] My name is Vadim.
-
 [01:09:12] I am from Ukraine.
-
 [01:09:14] And I never worked in game dev.
-
 [01:09:19] I never had an opportunity to do that.
-
 [01:09:22] My job is not related to game dev at all.
-
 [01:09:26] But I'm really passionate about it, about game dev.
-
 [01:09:34] I used to take.
-
 [01:09:38] Oh my god.
-
 [01:09:38] I'm sorry.
-
 [01:09:39] I'm sorry.
-
 [01:09:39] I'm sorry.
-
 [01:09:40] Oh my god.
-
 [01:09:40] I forgot the word.
-
 [01:09:42] It's OK.
-
 [01:09:42] Don't worry.
-
 [01:09:44] Like, I was taking part in game games a lot.
-
 [01:09:49] Yeah, of course.
-
 [01:09:50] Working with different people.
-
 [01:09:53] And yeah, I really loved to do that.
-
 [01:09:57] And I have experience in Unity, Blender, as a hobbyist.
-
 [01:10:02] And there's anything I can say.
-
 [01:10:09] Awesome.
-
 [01:10:09] Cool.
-
 [01:10:10] So your goal is then to get some skills,
-
 [01:10:13] find a portfolio, make a portfolio, and then find a job?
-
 [01:10:16] Or do you have other objectives?
-
 [01:10:19] My main goal, I think, is to learn more about art stuff.
-
 [01:10:24] Because as I said, I have some experience in Unity and Blender.
-
 [01:10:29] So I don't really have to worry about this stuff.
-
 [01:10:33] But yeah, I really want to learn art.
-
 [01:10:38] So your first goal is to learn.
-
 [01:10:39] And then after that, you see what you want to do.
-
 [01:10:41] Awesome.
-
 [01:10:42] Yeah, that works.
-
 [01:10:42] Cool.
-
 [01:10:43] Yeah.
-
 [01:10:43] And knowing the Unity and Blender is going to help you a lot.
-
 [01:10:46] Have you ever drawn before?
-
 [01:10:48] Yes, but it was not for a long time.
-
 [01:10:52] I really burned out a lot.
-
 [01:10:55] OK.
-
 [01:10:55] OK.
-
 [01:10:56] But burning out is never worth it.
-
 [01:10:58] Remember everyone.
-
 [01:10:59] And then second, yeah.
-
 [01:11:01] Cool.
-
 [01:11:01] No problem.
-
 [01:11:02] Then we will start from scratch.
-
 [01:11:05] Yeah.
-
 [01:11:06] I think you're, yeah.
-
 [01:11:07] If your goal is just to learn, I think that's the best.
-
 [01:11:09] Mindset.
-
 [01:11:11] The easiest way to learn is to learn for the joy of learning.
-
 [01:11:14] The hardest way to learn is to learn because of who you want to become.
-
 [01:11:17] So yeah, you're in the right mindset at least.
-
 [01:11:20] Yeah.
-
 [01:11:23] Thank you.
-
 [01:11:24] Awesome.
-
 [01:11:25] Great.
-
 [01:11:27] Toph.
-
 [01:11:29] There.
-
 [01:11:30] My name's Avery.
-
 [01:11:31] I'm a student currently in between colleges.
-
 [01:11:36] I enrolled in 2018 to Ringling.
-
 [01:11:39] I live down in Stewart, Florida.
-
 [01:11:41] I used to live in Sarasota by Ringling.
-
 [01:11:44] But unfortunately, I suffered from a very long series of, starting with COVID, just like really bad burnout and failing classes.
-
 [01:11:55] And eventually the Board of Academic Affairs kind of like soft banned me from coming back there.
-
 [01:12:04] It's pretty rough and I'm kind of ashamed of it.
-
 [01:12:06] But right now.
-
 [01:12:08] I originally went for motion design.
-
 [01:12:11] So I do have some experience with animating, specifically in After Effects.
-
 [01:12:17] And I do have a lot of illustration experience.
-
 [01:12:21] I did pivot over to concept development.
-
 [01:12:25] I was told very, like before I applied that like the computer animation industry is like super like kind of hell in terms of maintaining that.
-
 [01:12:35] And I was told.
-
 [01:12:36] Very, very, very, very rude.
-
 [01:12:37] Like before I applied that like the computer animation industry is like super like kind of hell in terms of maintaining that.
-
 [01:12:38] Like before I applied that like the computer animation industry is like super like kind of hell in terms of maintaining that.
-
 [01:12:39] So that's why I applied for motion instead.
-
 [01:12:41] Anyway.
-
 [01:12:42] That's true.
-
 [01:12:44] My I learned about VFX apprentice through a friend of my mother's whose daughter did a course here and got a certificate and is now working for Blizzard, I believe.
-
 [01:12:51] Yay.
-
 [01:12:52] Yeah.
-
 [01:12:53] So like.
-
 [01:12:54] And I said, I'm taking this class.
-
 [01:12:55] The hope of, you know, expanding my skillset into VFX.
-
 [01:12:56] I mostly want to work with VFX, but I also want to work with VFX.
-
 [01:12:57] I want to work with VFX.
-
 [01:12:58] I want to work with VFX.
-
 [01:12:59] I want to work with VFX.
-
 [01:13:00] I want to work with VFX.
-
 [01:13:01] I want to work with VFX.
-
 [01:13:02] I want to work with VFX.
-
 [01:13:03] I want to work with VFX.
-
 [01:13:04] expanding my skill set into VFX.
-
 [01:13:08] I'm mostly interested in, like,
-
 [01:13:11] stylized Valorant or League-style VFX.
-
 [01:13:14] And essentially, I hope to, like,
-
 [01:13:19] by the end of this, have all I need to, like,
-
 [01:13:21] build a portfolio and, you know,
-
 [01:13:23] have a certification under my belt
-
 [01:13:25] if I don't have, you know,
-
 [01:13:26] I don't have a Bachelor's of Arts, unfortunately.
-
 [01:13:30] But this, like, hopefully,
-
 [01:13:32] maybe I can make a career out of this.
-
 [01:13:34] So no matter what studio I go to,
-
 [01:13:37] unfortunately, like, a lot of you, like,
-
 [01:13:39] have put a lot of thought into
-
 [01:13:40] where specifically you want to work after this.
-
 [01:13:44] I need to figure that out.
-
 [01:13:48] But otherwise, yeah.
-
 [01:13:52] That's my prospects.
-
 [01:13:55] And I'm also working in my spare time
-
 [01:13:58] on a multimedia webcomic project
-
 [01:14:01] with some friends of mine
-
 [01:14:02] that I think this quarter,
-
 [01:14:04] of course, will also help with.
-
 [01:14:07] Awesome.
-
 [01:14:08] That sounds super fun.
-
 [01:14:09] Okay.
-
 [01:14:09] Yeah.
-
 [01:14:09] Thanks for, like, kind of sharing,
-
 [01:14:11] even if, like, it seems a bit difficult on this.
-
 [01:14:14] I think it's, like, I'm happy
-
 [01:14:16] that you're finding new venues,
-
 [01:14:17] even if it's difficult.
-
 [01:14:19] I've struggled with motivation a lot before.
-
 [01:14:21] So if you have any questions,
-
 [01:14:22] I'm happy to try and help
-
 [01:14:23] with the modest amount that I have.
-
 [01:14:28] It's something that I find really interesting.
-
 [01:14:30] So, like, feel free to ask.
-
 [01:14:33] Thank you.
-
 [01:14:34] If it's any problem,
-
 [01:14:34] I'll repeat.
-
 [01:14:35] If at any point you feel demotivated,
-
 [01:14:38] you feel like things are just not going forward,
-
 [01:14:40] et cetera, or they're not working,
-
 [01:14:41] like, ask me.
-
 [01:14:42] I'm happy to try and help,
-
 [01:14:43] to try and find other avenues,
-
 [01:14:45] other ways to do things,
-
 [01:14:46] other things that we can do.
-
 [01:14:48] Well, I know from experience
-
 [01:14:50] that the biggest problem I had
-
 [01:14:52] when I was going to Ringling
-
 [01:14:54] is the fact that you have to juggle, like,
-
 [01:14:57] three to four studio classes
-
 [01:14:59] and, like, one to two electives.
-
 [01:15:01] And, like, it's just the amount of workload
-
 [01:15:04] and the amount of time that you have to work.
-
 [01:15:04] And having to juggle multiple things
-
 [01:15:06] that I think contributed the most to my burnout
-
 [01:15:08] because I'd focus on one class
-
 [01:15:10] and I'd fall behind in another class
-
 [01:15:11] and then I'd have one assignment due
-
 [01:15:13] that I was behind in,
-
 [01:15:14] then two assignments and three assignments
-
 [01:15:15] and I just sort of, like, shut down
-
 [01:15:18] and, like, eventually give up after a while
-
 [01:15:21] just because it was, like,
-
 [01:15:22] I need to put in 30 hours of work
-
 [01:15:25] to make up and just couldn't focus.
-
 [01:15:28] So I think, like, just having this one class
-
 [01:15:30] and will be a lot easier for me
-
 [01:15:34] though if I do end up struggling a little bit
-
 [01:15:38] I will make sure to open up and speak out
-
 [01:15:42] because that is one thing I learned
-
 [01:15:44] is that don't keep things to yourself
-
 [01:15:46] because you're just, like,
-
 [01:15:47] shooting yourself in the foot.
-
 [01:15:49] Yeah, exactly what I, like,
-
 [01:15:50] I'll repeat that too.
-
 [01:15:51] If anyone is blocked, don't wait three days.
-
 [01:15:53] Three days is too much.
-
 [01:15:54] You already lost a bunch of time, like,
-
 [01:15:56] being blocked or something.
-
 [01:15:57] Just send me a message directly.
-
 [01:15:58] Like, if you're blocked at something,
-
 [01:16:00] if you feel like things are not moving on.
-
 [01:16:03] Yeah.
-
 [01:16:03] But motivation is the most important you can have.
-
 [01:16:06] Like, honestly, you can be bad at the effects
-
 [01:16:10] and you can have enough motivation to continue.
-
 [01:16:12] If at some point you burn your motivation
-
 [01:16:13] for quick, like, gains,
-
 [01:16:15] you're never going to get it back
-
 [01:16:17] and it's going to slow your whole progress.
-
 [01:16:19] So just stay motivated.
-
 [01:16:20] And that motivation will show when you do interviews,
-
 [01:16:22] when you do stuff, and that will get you jobs.
-
 [01:16:24] So whatever you do, just work on your motivation.
-
 [01:16:27] If you have the option of grinding a little bit more
-
 [01:16:29] or, like, saving your motivation,
-
 [01:16:31] always save your motivation.
-
 [01:16:33] As a little outside,
-
 [01:16:36] I didn't study VFX initially.
-
 [01:16:39] I wanted to work in art initially.
-
 [01:16:41] Like, kind of, sort of.
-
 [01:16:42] I was like, oh, that would be interesting
-
 [01:16:44] after high school.
-
 [01:16:44] And then my parents were like,
-
 [01:16:45] what if you did a job that pays?
-
 [01:16:48] So I stopped and instead I did engineering.
-
 [01:16:50] I did engineering for five years.
-
 [01:16:51] I did general engineering,
-
 [01:16:53] studied, like, materials and stuff like that.
-
 [01:16:55] Like, physical, like, construction.
-
 [01:16:58] And then after that,
-
 [01:16:58] I went into software engineer
-
 [01:17:00] because there was also a bit of software engineer.
-
 [01:17:02] So I ended up doing some,
-
 [01:17:03] some big industrial factories.
-
 [01:17:07] And then after that, I said,
-
 [01:17:09] and there I learned a bunch of cognitive theory.
-
 [01:17:13] So basically, like, how do people learn stuff?
-
 [01:17:16] And then from there, I said, that's it.
-
 [01:17:18] I did a burnout.
-
 [01:17:19] I removed, I broke everything.
-
 [01:17:22] I just spent a whole year kind of, like, looking for paths.
-
 [01:17:25] I found VFX through working in Unity,
-
 [01:17:29] but not wanting to work in defense companies.
-
 [01:17:32] And then finally said, oh,
-
 [01:17:33] I could do this.
-
 [01:17:33] Actually, that sounds pretty cool.
-
 [01:17:35] And I learned that.
-
 [01:17:37] And it took me about six months to,
-
 [01:17:39] I started working for, in VFX,
-
 [01:17:41] like, I started trying out VFX
-
 [01:17:42] and starting to learn in April.
-
 [01:17:45] And I found my job in November.
-
 [01:17:48] So yeah, just to give you an idea.
-
 [01:17:49] And then from there,
-
 [01:17:50] I don't think you need a diploma,
-
 [01:17:53] an actual diploma to get into VFX.
-
 [01:17:55] Everyone has their own, like, paths.
-
 [01:17:57] Nobody will know.
-
 [01:17:59] So I don't think that's a big problem.
-
 [01:18:01] An older professor of mine said something very,
-
 [01:18:03] very similar that, like, where you graduate from college
-
 [01:18:06] doesn't matter as much as just your portfolio
-
 [01:18:08] and proving that you can do the work regardless
-
 [01:18:10] of what special badge you have.
-
 [01:18:11] Though, like, you know, try telling that to my parents
-
 [01:18:14] who, like, we're gonna get, you know,
-
 [01:18:16] we got you into the best art school in the country
-
 [01:18:18] and we paid thousands of dollars, so don't fuck up.
-
 [01:18:21] Well, you can tell them that.
-
 [01:18:23] I mean, you still learn some stuff.
-
 [01:18:26] You still, like, have all the skills.
-
 [01:18:27] Yeah, I did learn a lot from there.
-
 [01:18:30] In a way, you learn to fail too.
-
 [01:18:31] You learn to take care.
-
 [01:18:32] You're not coming out of a school with, like,
-
 [01:18:33] a giant ego.
-
 [01:18:34] Like, sure, you can see some negatives,
-
 [01:18:36] but you can also find some negatives in there
-
 [01:18:38] and that can become your personality and your own,
-
 [01:18:41] like, it can become not your personality, your person,
-
 [01:18:43] like, what you actually, like, the profile that you're
-
 [01:18:46] actually presenting to, like, to yourself and then
-
 [01:18:48] to job appliances.
-
 [01:18:51] I also did learn a lot of fundamentals there,
-
 [01:18:54] of course, and that's going to help me.
-
 [01:18:56] Yeah, exactly.
-
 [01:18:57] If you burnt out, it's probably that you actually
-
 [01:18:59] learned already a lot to the point
-
 [01:19:00] that you wanted to succeed in.
-
 [01:19:02] There's a lot of stuff going on.
-
 [01:19:04] Just be kind to yourself in the burnout part.
-
 [01:19:06] Just listen to the science.
-
 [01:19:08] All right.
-
 [01:19:08] I was going to jump off of that and say the same thing.
-
 [01:19:11] Like, don't let it discourage you if you don't have an art degree
-
 [01:19:13] or you don't have an art background.
-
 [01:19:15] One of the community moderators here, Renata,
-
 [01:19:18] I interviewed with her.
-
 [01:19:20] And her thing is, like, insert cat next to her name.
-
 [01:19:24] Her background is in, like, cybersecurity and stuff.
-
 [01:19:27] Yeah.
-
 [01:19:28] And so, like, she just, like, had an epiphany, kind of like me.
-
 [01:19:31] It was like, no, I'm going to go do it.
-
 [01:19:32] Yeah.
-
 [01:19:32] I'm going to do what I want to do.
-
 [01:19:33] And so, like, you don't have to have a degree in this.
-
 [01:19:36] Even, like, if you go look at the Riot Games employee, you know,
-
 [01:19:41] list of employees, like Riot August and stuff like that,
-
 [01:19:43] some of them don't have art degrees or game dev degrees.
-
 [01:19:47] So don't let it discourage you.
-
 [01:19:49] Yeah, I won't.
-
 [01:19:50] But, you know, it's just, like, my parents
-
 [01:19:52] are very conservative and stuck in their ways.
-
 [01:19:55] And, like, their impression is, like, everyone gets a degree,
-
 [01:19:58] and then you get a job.
-
 [01:19:59] That's how life works.
-
 [01:20:00] And if you don't like it, then you're
-
 [01:20:02] a snowflake.
-
 [01:20:04] Yeah.
-
 [01:20:05] Yeah.
-
 [01:20:06] That's really hard.
-
 [01:20:07] I'm happy to talk more about it if you want,
-
 [01:20:09] about, like, relationships with parents and do stuff
-
 [01:20:11] if to the modicum that I can help.
-
 [01:20:13] Well, don't worry.
-
 [01:20:13] Don't worry about it.
-
 [01:20:14] It's fine.
-
 [01:20:15] No, but not really about how you're
-
 [01:20:17] going to talk to your parents.
-
 [01:20:17] But not really about how you're going
-
 [01:20:19] to talk to your parents.
-
 [01:20:20] More about, like, how you can make sure
-
 [01:20:23] that you protect yourself from that talk, for the little voice
-
 [01:20:26] that's inside you that just tells you, hey, like,
-
 [01:20:28] the parents, what do parents say at the time,
-
 [01:20:30] and how you make it your own.
-
 [01:20:31] Because, like, actually, the parents
-
 [01:20:32] all day, what they're looking for
-
 [01:20:33] is that you actually, like, become your own thing,
-
 [01:20:37] that you actually decide your own thing.
-
 [01:20:39] My dad does say, you know, like, that the reason why I went
-
 [01:20:42] to art school is that he's very big on the,
-
 [01:20:45] if you love what you do, then you'll never
-
 [01:20:47] work a day in your life.
-
 [01:20:48] Which, you know, when I was in my burnout era,
-
 [01:20:52] I kind of started to see art as a job
-
 [01:20:55] and stopped enjoying it for a while.
-
 [01:20:58] And it took me a while to just, like, be able to sit down
-
 [01:21:01] and draw.
-
 [01:21:02] And for enjoyment after, like, seeing it
-
 [01:21:05] as like this looming source of stress.
-
 [01:21:08] I've gotten better since then, I will say.
-
 [01:21:11] Awesome.
-
 [01:21:12] Well that's already, like, really great to hear
-
 [01:21:15] that you've got better.
-
 [01:21:16] You feel like you've actually learned that part.
-
 [01:21:20] I think motivation is really and it's
-
 [01:21:24] not an easy pick.
-
 [01:21:24] It's not something that you can just, like, get there.
-
 [01:21:26] I'm not going to tell you, oh, you'll
-
 [01:21:28] see it's super easy, you can just get there.
-
 [01:21:30] But I could totally think you can, I think.
-
 [01:21:31] Yeah.
-
 [01:21:32] you can like from what you told me you have you have the fundamental so yeah if you ever feel
-
 [01:21:37] like motivation is waning just tell me etc i i will root for you to succeed and uh if you don't
-
 [01:21:42] succeed like i don't think you're going to disappoint anyone it's just that things were
-
 [01:21:45] so like feel free to accept that things are difficult move on that you're very well and
-
 [01:21:52] enough of my sob story let's move on well yeah i don't know i i think it's important to talk
-
 [01:21:58] as long as you feel like talking at some point like yeah uh i i wish that when i was in difficulty
-
 [01:22:05] like i had someone i i was very fortunate to have uh parents that were okay with like just
-
 [01:22:09] uh helping me and like supporting me at least like they were a bit scared but they were not like
-
 [01:22:16] difficult so uh i i wish i can perhaps at least like share that voice to other people at least
-
 [01:22:23] a little bit thank you thank you for that i think we should all share
-
 [01:22:28] the
-
 [01:22:28] fortune that we have in life we should all share them too um so uh next week you're gonna do lots
-
 [01:22:34] of stuff be really um so spoilers
-
 [01:22:39] so there is always uh for each week you'll find there's always a
-
 [01:22:53] yes there's always a page like this that has everything you need to know about the game
-
 [01:22:58] you need to do basically like all the other sort of like sum up of everything you're doing this week
-
 [01:23:02] okay so this week so from now on until next month this is what you're you will be doing uh you'll be
-
 [01:23:09] working on the week lessons okay the week's lessons are to the effects they're like little
-
 [01:23:15] black and white really a solid color 2d effects that are with uh the instructor called sonia that's
-
 [01:23:21] super nice that is really fun the videos are really nice to like are really uh enjoyable to
-
 [01:23:26] watch they they flow very well and i think that's really important to keep in mind as well because
-
 [01:23:28] i think that's really important to keep in mind as well because
-
 [01:23:28] and those are small little effects that every one of them is usually teaching you something
-
 [01:23:32] different um i suggest that you try and make as many as possible the quantity of them is going to
-
 [01:23:38] be really important even if they're not polished i suggest that you try and never polish if you
-
 [01:23:42] start feeling like you're like just trying to get the edges of that square perfectly in line
-
 [01:23:47] try to move to something else this is not very useful to get the the line um if you look at like
-
 [01:23:53] uh on friday i'll show you how i animate and you'll see that the process is um messy
-
 [01:23:58] but it's okay the goal what you're looking for is to learn the animation principles to learn
-
 [01:24:03] uh the different positions different things that you can do uh to learn also the potential when
-
 [01:24:07] you're exploring you're learning the potential the things that could happen and that's that's
-
 [01:24:10] the most important now you'll see those are really fun um the 2d effects label basically
-
 [01:24:17] those are all really really fun uh exercises and then the second one is the uh
-
 [01:24:24] those two here which is basically more uh theory those you'll see
-
 [01:24:28] are also very very insightful they'll teach you a lot those you can then come back so kind of watch
-
 [01:24:34] them yourself we were talking about motivation before what i suggest you do is you try to work
-
 [01:24:39] on the things that are a bit harder for instance the 2d effects playbook asks you to work on uh
-
 [01:24:44] like actually doing so each one of them it's one of those effects you are doing yourself
-
 [01:24:48] and then like posting them on the forums so that i can see them and give you feedback
-
 [01:24:53] okay if those are hard if like opening animate is hard and like getting everything started
-
 [01:24:58] painting the things find yourself a bit frustrating at that just go watch a video a video is usually
-
 [01:25:03] easier to watch than the rest just focus step yourself down this is still working watching a
-
 [01:25:07] video watching a like a an instruction instructional thing without actually doing yourself is still
-
 [01:25:13] learning so yeah try to pace yourself perhaps by doing that's that's how i did and it helped me
-
 [01:25:18] everyone is different um so yeah as an assignment try to post one of the effects that you did so
-
 [01:25:27] that means for
-
 [01:25:28] next monday try to before next monday about an hour before the live session try to post for me
-
 [01:25:35] a uh one of the the effects that you made that you're particularly proud of
-
 [01:25:39] um that you found interesting uh you can work it on the wiggle line warm-up exercise
-
 [01:25:45] which is a very classic 3d animation exercise uh or on one of the uh timing principle lectures
-
 [01:25:52] uh or the 2d effects playbook all three of them are all right so that's that's the goal
-
 [01:25:58] here um for this week on friday i'll show you how i animate i'll show you little tricks and usually
-
 [01:26:05] uh that will take about like 10 to 20 minutes of me doing a little thing and taking questions and
-
 [01:26:10] etc then from there that's a good basis for us to start a conversation about little tricks that you
-
 [01:26:15] can do to work
-
 [01:26:16] your mic doesn't work unfortunately
-
 [01:26:26] you
-
 [01:26:28] absolutely enseñ tangs
-
 [01:26:30] out to everyone
-
 [01:26:31] now i did i i had to pay another check
-
 [01:26:33] i wish it was another BlueStar
-
 [01:26:37] first everything that i edit here
-
 [01:26:40] i didn't notice it
-
 [01:26:42] just
-
 [01:26:45] the
-
 [01:26:48] um
-
 [01:26:53] uh
-
 [01:26:54] oops
-
 [01:26:57] 저
-
 [01:26:57] now yeah perfect yeah pieces of how to talk too loud happens to dark stuff with no one stop they stop there's just like no cie key stirburn Roe Rapimon
-
 [01:26:57] a bunch of the energy i'll find it the options anyway because i think i have a a few of angry spirit yes exactly the machine spirit is angry terrible anything guy would like to say that или a tool that is very useful so animate loops 10 episode social media in which i had room Maristle on top of my voice and i will dénord angered the.
-
 [01:26:58] to gifs.
-
 [01:27:00] If at any point you want to share something with me
-
 [01:27:02] without completely exporting everything,
-
 [01:27:04] you should use the tool called screen2gif.
-
 [01:27:11] OK, you type screen2gif.
-
 [01:27:13] You just like any one of those.
-
 [01:27:15] Like this is just good, for instance.
-
 [01:27:18] On GitHub, you can find gifs, but otherwise, I
-
 [01:27:22] think the base one is this one.
-
 [01:27:25] OK, and this is the tool, screen2gif.
-
 [01:27:28] And this is just really good.
-
 [01:27:30] So it's a tool that does this, screen2gif.
-
 [01:27:34] I will show you how it works, and that way you can see it.
-
 [01:27:37] I will share them, change my share screen,
-
 [01:27:41] change the stream, full screen.
-
 [01:27:46] So what it looks like is that there's this screen2gif tool.
-
 [01:27:49] When you start it, you can put it anywhere.
-
 [01:27:51] Then you can say record, and it opens a window anywhere.
-
 [01:27:55] So I'm going to, for instance, screen2gif this.
-
 [01:27:57] But you can do this.
-
 [01:27:58] It can be like your GitHub.
-
 [01:27:58] You can have your animation running in your 2D animation
-
 [01:28:00] software.
-
 [01:28:01] You press this, and it just records anything you want.
-
 [01:28:04] Then I can pass my mouse over it, and then I can stop.
-
 [01:28:06] Then from there, it gives me the full frames of everything
-
 [01:28:09] I'm interested in here.
-
 [01:28:10] You can use it to study, if you're
-
 [01:28:12] watching in a series on your computer,
-
 [01:28:15] you can just puck it out, record the section
-
 [01:28:19] that you are interested in, and then look at all the frames.
-
 [01:28:21] And it can be like, oh, there's a nice impact frame,
-
 [01:28:23] or this is really interesting, or how did they
-
 [01:28:25] do this animation, et cetera.
-
 [01:28:26] Oh, wow, there's a nice stretch frame here,
-
 [01:28:28] and then you can just save it.
-
 [01:28:30] Other things you can do is, obviously, you can just do that
-
 [01:28:32] and then save that GIF.
-
 [01:28:36] And then from there, you can just put that GIF into your forum.
-
 [01:28:39] And that's really fast to get basically feedback fast.
-
 [01:28:42] You basically post videos.
-
 [01:28:44] So yeah, I recommend you use that in the future.
-
 [01:28:46] It's a really good way to share fast what you're working on
-
 [01:28:50] without having to export the file, export the video,
-
 [01:28:52] post it in, et cetera, and check that it's
-
 [01:28:54] the right size, et cetera.
-
 [01:28:56] Here you can just delete some frames, and then work on it.
-
 [01:28:58] All right.
-
 [01:28:58] OK.
-
 [01:29:02] Is there any other questions before we leave each other?
-
 [01:29:04] I think we went around with everything.
-
 [01:29:07] I have one quick question, if I could ask.
-
 [01:29:12] I have a very weak pose.
-
 [01:29:14] When drawing, when I went through the Harmony
-
 [01:29:17] introduction, I find it very difficult to make
-
 [01:29:21] shapes and everything.
-
 [01:29:22] They would look very shaky, even when using a graphic tablet.
-
 [01:29:27] I wanted to know if there's a way
-
 [01:29:28] to make shapes and everything.
-
 [01:29:30] And I was using the line stretch thing from the pen setting.
-
 [01:29:34] I wonder if that's all right, or if there's any practice.
-
 [01:29:38] I try going straight lines and stuff like that.
-
 [01:29:41] But I don't know if that's efficient or anything.
-
 [01:29:43] I've always had a bad pose.
-
 [01:29:45] So I don't know if you can post any.
-
 [01:29:47] No, no, that's fair.
-
 [01:29:48] So you can do multiple things.
-
 [01:29:51] You'll see in the class, there's multiple examples.
-
 [01:29:54] New file, I'll show you different options
-
 [01:29:56] that you have.
-
 [01:29:57] But I'm going to show you a few examples.
-
 [01:29:58] So the first thing I suggest you do
-
 [01:30:03] is that when you use your brush, you
-
 [01:30:08] can use either that one or this one as you want.
-
 [01:30:11] Both of them work.
-
 [01:30:12] But there is stabilizer that you can put to the max.
-
 [01:30:15] There's often some smoothness that's as an option too.
-
 [01:30:20] So I think in this one, there is smoothing.
-
 [01:30:23] I use it to 100, for instance, which basically
-
 [01:30:25] means that if you have a line that goes around,
-
 [01:30:27] it's not smooth.
-
 [01:30:27] It's white.
-
 [01:30:30] It will smooth it out.
-
 [01:30:31] You see, I use my mouse as really ugly,
-
 [01:30:34] and it's still somewhat smooth.
-
 [01:30:36] It's completely smoothed that out.
-
 [01:30:37] Even if I do this, it will still kind of be smooth.
-
 [01:30:40] So I suggest that you use that.
-
 [01:30:42] On top of that, you can use pen pressure.
-
 [01:30:46] So pen pressure will help you have lines
-
 [01:30:48] that look more organic, et cetera.
-
 [01:30:50] So basically, what I'm saying is that there are options here
-
 [01:30:53] already for that.
-
 [01:30:54] Second is that you can also take your whole shape here.
-
 [01:30:57] You can make a big blob.
-
 [01:31:00] Big blob.
-
 [01:31:01] And then what you can do is that you can come in with the mouse
-
 [01:31:04] and start stretching it out around.
-
 [01:31:07] So that can also make you pretty precise shapes
-
 [01:31:09] that you might enjoy if you wanted to.
-
 [01:31:12] All right.
-
 [01:31:13] Nice.
-
 [01:31:13] Thank you so much.
-
 [01:31:14] Yeah, I was trying with just stabilizer.
-
 [01:31:18] And I found it a bit better because it was looking
-
 [01:31:20] like very, very shaky for me.
-
 [01:31:22] Awesome.
-
 [01:31:22] Thank you so much.
-
 [01:31:24] Perfect.
-
 [01:31:24] Yeah.
-
 [01:31:25] Feel free to use those kind of tools.
-
 [01:31:27] Those are really useful.
-
 [01:31:28] There's no, like, it's OK to skip this.
-
 [01:31:30] It's OK to use tools to make your job easier.
-
 [01:31:33] Your job is to actually make the art in the Engine afterwards.
-
 [01:31:38] Your job is not to be the best at having the most steady hand.
-
 [01:31:42] We're not asking you to have a steady hand.
-
 [01:31:44] Your job is never going to be to make the perfect drawing
-
 [01:31:48] in front of someone.
-
 [01:31:49] And you're not someone that's making a show on stage.
-
 [01:31:52] So yeah, use the tools at your disposition.
-
 [01:31:55] And especially when you're learning,
-
 [01:31:57] try to, like, the faster you do a single effect,
-
 [01:32:00] the more you will learn.
-
 [01:32:01] So cut corners where you can.
-
 [01:32:04] Thank you.
-
 [01:32:04] Thank you.
-
 [01:32:05] Anything else?
-
 [01:32:06] I wanted to ask if you know any animation software for iPad
-
 [01:32:13] to do exercises on the couch.
-
 [01:32:18] I do.
-
 [01:32:19] I do if you don't.
-
 [01:32:20] OK, go for it.
-
 [01:32:21] I don't.
-
 [01:32:21] That's the same.
-
 [01:32:23] If you, and this is because I've done so much animation,
-
 [01:32:27] I give just a half a grand to my roommate during school,
-
 [01:32:32] and so I've had the same struggle were I was like,
-
 [01:32:34] I really wish I could just, like, draw on my couch.
-
 [01:32:38] And so a lot of people use Procreate,
-
 [01:32:39] but it's, like, not really great for animation.
-
 [01:32:42] It's kind of, like, clunky.
-
 [01:32:44] TuneSquid.
-
 [01:32:45] It's $10, and you own it forever.
-
 [01:32:48] And it has all the same things as Animate.
-
 [01:32:51] You can tween stuff.
-
 [01:32:52] Like, there's so many really fun.
-
 [01:32:55] You can be the most basic part of animation, or you could do some,
-
 [01:32:56] like motion graphics things if you're used to um uh after effects um but yeah toon squid is also
-
 [01:33:03] they have the same pressure you can import photoshop brushes you can make your own brushes
-
 [01:33:07] um you can use vector animations like uh the default for anime i think is vector
-
 [01:33:12] um or you can do um raster um but yeah toon squid ten dollars you own it forever
-
 [01:33:17] i love it i can't sing its praises enough so awesome i didn't know that one it's it's great
-
 [01:33:24] i have it it's awesome awesome perfect excellent that's so um we have today the boot camp is
-
 [01:33:33] particularly high skill compared to other boot camps i've done um there's more people that are
-
 [01:33:38] like either in this industry or have a lot of experience etc compared to other boot camps i've
-
 [01:33:42] had camps where it was like josh 18 years old uh coming in i don't know nothing but i love video
-
 [01:33:49] games please tell me um i've had people that come in that are like just like
-
 [01:33:54] yeah i don't really know where i'm going i don't know what i'm doing i just did that because it
-
 [01:33:58] was the first thing that i saw the light here please help me so um you there's nobody in that
-
 [01:34:07] that case here and i think that all of you already have like a significant march up on that if one of
-
 [01:34:12] you feels at some point like oh my god everyone's so much better than me etc um one there's a good
-
 [01:34:17] chance that you don't see the qualities that you have in that in particular there's so many
-
 [01:34:20] transferable skills for vmx and then two just tell yourself this this is
-
 [01:34:24] kind of like a the skill here is kind of higher so compared to other other boot camps so yeah
-
 [01:34:30] rely a lot that's like such a good chance like um i think the third boot camp that i did we had
-
 [01:34:36] like someone from australia that had like incredible knowledge that was so good at like
-
 [01:34:41] lots of stuff that knew so many things and that everyone was able to benefit from that because
-
 [01:34:46] they were able to add so many new uh information about the industry that i couldn't necessarily
-
 [01:34:54] do and they were available when i wasn't so two things one uh it's really the goal of doing those
-
 [01:35:01] calls and everyone talking to everyone else is that everyone can participate and two uh there's
-
 [01:35:07] a good chance that after the boot camp if you like talk a little bit you'll have to perhaps
-
 [01:35:11] keep in touch or at least remember oh that person was doing that too that could be interesting for
-
 [01:35:16] me so yeah feel free to use everyone else's experience uh for yourself too if you're looking
-
 [01:35:24] specifically like in ui like you'll have lots of people there to talk about so yeah just as an
-
 [01:35:31] extra i think the skills of like everybody here is really nice and kind of broad in terms of like
-
 [01:35:37] the vastness like the tech the really really technical of people who can make shaders and
-
 [01:35:41] then the people who understand like the basic 2d art stuff i think it's nice that we all have
-
 [01:35:46] something that we can share with each other through this process so yeah i am expecting that
-
 [01:35:51] the people that are good at 2d will make incredible stuff and be able to
-
 [01:35:54] help a lot the others and the people that are good at tech here will be able to help we have
-
 [01:35:58] also we have all the basically the trinity like the uh tech art and games industry we have people
-
 [01:36:04] that are good at like one of the three so we'll be able to like really work well with that if
-
 [01:36:09] anything works well i'll be able to just sit back and have everyone talk about who knows
-
 [01:36:14] anyway is there other questions before we leave each other
-
 [01:36:18] oh i had a question actually uh do you remember what
-
 [01:36:24] expansion you were working on when you were working on world of warcraft doing the raid
-
 [01:36:28] the effects yeah i arrived just after um uh i arrived working on a dragon flight then after
-
 [01:36:37] that i worked on dragon flight on specific different raids and bosses that happened afterwards
-
 [01:36:41] i worked on all the bronze magic basically so the time magic uh i did the whole kit of that and then
-
 [01:36:45] i did lots of bosses um here and there then after that i worked on war within for a long time and
-
 [01:36:51] there i worked on all the web
-
 [01:36:54] kits on the diff all the different things for the first dungeon then i worked on a lot of
-
 [01:36:57] rates for that and then i stopped working there as they were coming into the goblin
-
 [01:37:05] raid kind of thing or dungeon i don't know if there was a right but yeah that's what i did
-
 [01:37:10] yep that's really cool my friend i'm not super into world of warcraft my friend is and he thought
-
 [01:37:13] it was really cool uh he wanted me to ask you about it there you go i know someone was saying
-
 [01:37:17] that they were doing mods for baldur's cape 3 uh my colleague with whom i work right now was a
-
 [01:37:23] previous
-
 [01:37:24] like worked previously for battle's gate 3 so if you're interested yeah yeah yeah yeah basically
-
 [01:37:32] like someone was talking about um how's it called uh warframe 2 uh yeah yeah i'm super new oh that's
-
 [01:37:39] so cool oh that's funny yeah that's a very small industry what i suggest you any one of you for
-
 [01:37:44] any one of you they suggest you do is never badmouth anyone because you'll see that very
-
 [01:37:48] quickly like if you don't like someone just don't talk to them but don't bat them because it's very
-
 [01:37:52] quickly you're just like oh you work on that one you're just like oh you're working on that one you're
-
 [01:37:54] working on that oh yeah i know that person that person that person and it's very awkward very
-
 [01:37:57] quickly it's very small it's very small it's pretty okay any other question
-
 [01:38:10] all right um in that case uh if you have any other question that comes up afterwards
-
 [01:38:14] never send me a message the recording will be available so that you can just come back to
-
 [01:38:18] anything that was said uh if you struggle with something that happened send me a message don't
-
 [01:38:22] stay stuck don't stay stuck
-
 [01:38:24] stay stuck and um yeah otherwise i will see you all on friday have a good one
-
 [01:38:33] to be with you all thank you for your time thank you
-
 [01:38:37] like meeting you all
-
