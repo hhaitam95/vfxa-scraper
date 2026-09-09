@@ -3,9 +3,7 @@
 set -euo pipefail
 
 REPO="$HOME/Desktop/vfxa-scraper"
-
-HTML_DIR="$REPO/VFXA HTML Archive"
-TXT_DIR="$REPO/VFXA Transcription"
+PROJECT_DIR="$REPO/VFXA HTML Project"
 
 echo "============================================================"
 echo "VFXA REPOSITORY REORGANIZATION"
@@ -22,7 +20,7 @@ fi
 
 cd "$REPO"
 
-echo "Current branch:"
+echo "Branch:"
 git branch --show-current
 
 echo
@@ -30,56 +28,44 @@ echo "Remote:"
 git remote -v | head -2
 
 echo
-echo "Creating directories..."
-mkdir -p "$HTML_DIR"
-mkdir -p "$TXT_DIR"
+echo "Creating project directory..."
+mkdir -p "$PROJECT_DIR"
 
 echo
 echo "------------------------------------------------------------"
-echo "Moving HTML files"
+echo "Moving project files"
 echo "------------------------------------------------------------"
 
-find "$REPO" \
-    -maxdepth 1 \
-    -type f \
-    -name "*.html" \
-    -print0 |
-while IFS= read -r -d '' file; do
-    echo "  $(basename "$file")"
-    mv "$file" "$HTML_DIR/"
+# Root-level archive/project file types to move.
+FILE_PATTERNS=(
+    "*.html"
+    "*.py"
+    "*.sh"
+    "*.json"
+    "*.csv"
+    "*.ipynb"
+)
+
+for pattern in "${FILE_PATTERNS[@]}"; do
+    find "$REPO" \
+        -maxdepth 1 \
+        -type f \
+        -name "$pattern" \
+        -print0 |
+    while IFS= read -r -d '' file; do
+        echo "  $(basename "$file")"
+        mv "$file" "$PROJECT_DIR/"
+    done
 done
-
-echo
-echo "------------------------------------------------------------"
-echo "Moving Python files"
-echo "------------------------------------------------------------"
-
-find "$REPO" \
-    -maxdepth 1 \
-    -type f \
-    -name "*.py" \
-    -print0 |
-while IFS= read -r -d '' file; do
-    echo "  $(basename "$file")"
-    mv "$file" "$HTML_DIR/"
-done
-
-echo
-echo "------------------------------------------------------------"
-echo "Moving VFXA notebook"
-echo "------------------------------------------------------------"
-
-if [ -f "$REPO/VFXA_All_Access_Web_Scraper.ipynb" ]; then
-    echo "  VFXA_All_Access_Web_Scraper.ipynb"
-    mv \
-        "$REPO/VFXA_All_Access_Web_Scraper.ipynb" \
-        "$HTML_DIR/"
-fi
 
 echo
 echo "------------------------------------------------------------"
 echo "Moving transcription TXT files"
 echo "------------------------------------------------------------"
+
+# TXT files belong in the transcription folder INSIDE the project.
+TRANSCRIPTION_DIR="$PROJECT_DIR/VFXA Transcription"
+mkdir -p "$TRANSCRIPTION_DIR"
 
 find "$REPO" \
     -maxdepth 1 \
@@ -88,28 +74,39 @@ find "$REPO" \
     -print0 |
 while IFS= read -r -d '' file; do
     echo "  $(basename "$file")"
-    mv "$file" "$TXT_DIR/"
+    mv "$file" "$TRANSCRIPTION_DIR/"
 done
 
 echo
 echo "============================================================"
-echo "RESULTING STRUCTURE"
+echo "FINAL PROJECT STRUCTURE"
 echo "============================================================"
 echo
 
-echo "VFXA HTML Archive:"
-find "$HTML_DIR" \
+echo "Root:"
+find "$REPO" \
     -maxdepth 1 \
-    -type f \
-    | sed "s#^$HTML_DIR/##" \
+    -mindepth 1 \
+    ! -name ".git" \
+    -print \
     | sort
 
 echo
-echo "VFXA Transcription:"
-find "$TXT_DIR" \
+echo "Project files:"
+find "$PROJECT_DIR" \
     -maxdepth 1 \
     -type f \
-    | sed "s#^$TXT_DIR/##" \
+    -print \
+    | sed "s#^$PROJECT_DIR/##" \
+    | sort
+
+echo
+echo "Transcriptions:"
+find "$TRANSCRIPTION_DIR" \
+    -maxdepth 1 \
+    -type f \
+    -print \
+    | sed "s#^$TRANSCRIPTION_DIR/##" \
     | sort
 
 echo
@@ -122,7 +119,7 @@ git status --short
 
 echo
 echo "============================================================"
-echo "STAGING CHANGES"
+echo "STAGING"
 echo "============================================================"
 echo
 
@@ -136,11 +133,11 @@ echo "COMMIT"
 echo "============================================================"
 echo
 
-git commit -m "Organize VFXA archive and transcription files"
+git commit -m "Organize VFXA HTML project files"
 
 echo
 echo "============================================================"
-echo "PUSHING TO ORIGIN/MAIN"
+echo "PUSH"
 echo "============================================================"
 echo
 
@@ -150,11 +147,11 @@ echo
 echo "============================================================"
 echo "DONE"
 echo "============================================================"
-echo
 
+echo
 echo "Latest commit:"
 git log -1 --oneline
 
 echo
-echo "Remote status:"
+echo "Final status:"
 git status
