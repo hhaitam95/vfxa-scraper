@@ -1,0 +1,86 @@
+VFX Apprentice — Week 2 Session Summary
+
+Overview
+This review session focuses on the first substantial 2D animation exercises. The instructor reviews students’ work using SyncSketch, explains how the eye reads motion, emphasizes clear leading edges and readable timing, and begins connecting 2D animation practice to how effects will eventually be built for games.
+
+Review workflow
+
+• Students place one selected piece in the assignment/submission post so the instructor can review everyone from one place.
+• SyncSketch is introduced as a professional review tool: videos/GIFs can be inspected frame-by-frame and annotated. The instructor describes it as a common tool on larger animation/VFX teams.
+• The instructor asks each student three things: how the week felt, what they are proud of, and what was difficult. This helps tailor feedback and identify the student’s strongest/weakest areas.
+
+Core animation lessons
+
+1. Learn through small exercises
+Students who did many small practices are praised because repetition exposes more problems and produces more opportunities to learn than spending an entire week trying to perfect one large piece.
+
+2. Do not be intimidated by differences in skill
+The group contains people with different backgrounds. Some already know animation; others are beginners. The instructor will give different feedback depending on what each person needs.
+
+3. Use pauses and holds deliberately
+A few held frames can create a fixation point for the viewer’s eye. This can make motion easier to read and create contrast between moving and resting moments.
+
+4. Think about where the eye is looking
+The eye tends to follow strong points such as a sharp tip/leading edge. If that leading edge repeatedly moves backward and forward, the motion can flicker and become difficult to read. In game VFX, where effects are small on screen, clear leading-edge motion is particularly important.
+
+5. Avoid flicker unless it is intentional
+One element can disappear while another appears, but replacing shapes in a way that causes both the old and new silhouettes to compete can produce an unwanted flicker. A clear visual lead should tell the eye what is continuing from frame to frame.
+
+6. Exaggerate ease-in/ease-out
+The instructor repeatedly recommends trying motions that begin very fast and slow down dramatically, or begin slowly and accelerate strongly. Strong acceleration/deceleration is a useful skill for game effects.
+
+7. Use guides and external notes
+For complicated animations, create invisible guide layers or write reminders directly into the working file. Reference images can also be placed on a separate layer and reduced in opacity so the artist can animate on top of them without losing the reference.
+
+8. Add emotion/personality to the motion
+Rather than thinking only in technical terms, students can give a line or shape an emotional description such as happy, curious, scared, or angry. The narrative constraint gives the animator a reason for what happens next and makes decisions easier.
+
+Design and readability
+
+• A strong piece can have interesting shapes without those shapes necessarily animating coherently.
+• When a shape becomes too complicated, simplify it and focus on the main motion.
+• The instructor repeatedly recommends working with big/medium/small relationships and ensuring that the dominant shape is readable.
+• A composition can use supporting shapes to frame a focal point, while smaller effects should not compete with the main element.
+• Negative space and the visual hierarchy matter just as much as the positive shapes.
+
+2D animation as game-VFX preparation
+
+A major conceptual point is that the 2D exercises are not necessarily training students to become traditional 2D animators. They are teaching them how to design motion that can later be translated into game VFX.
+
+The instructor encourages students to imagine the future engine implementation while doing the animation. A 2D effect may eventually become a flipbook, a shader-driven texture, a particle component, or some combination.
+
+For that reason, students should practice making shapes that can read clearly inside a game-engine context instead of relying on a pure black background and extreme contrast.
+
+Black versus gray backgrounds
+
+The instructor recommends using a mid-gray/neutral background rather than pure black for these exercises. Black-and-white contrast is so extreme that every flash can appear disproportionately powerful and subtle motion becomes harder to judge. A neutral background better resembles the visual conditions of an actual game and forces the artist to work more on silhouette, timing, and shape.
+
+Useful reference workflow
+
+The instructor supports working from references and transforming them into original studies. One student’s electricity study is praised because the reference is recognizable but the resulting work is still their own. References provide a concrete motion problem to analyze instead of forcing the animator to invent every detail from scratch.
+
+Student feedback patterns
+
+• Students with strong animation instincts are encouraged to keep pushing speed and readability.
+• Students struggling with animation should make smaller pieces rather than large sequences.
+• For complex effects, isolate one motion at a time instead of trying to perfect a whole multi-part sequence simultaneously.
+• If a shape is hard to animate, use simpler primitives/structures and then refine.
+• If the student already has strong 2D animation skills, the exercises can be used as preparation for engine implementation rather than as an end in themselves.
+
+Week 3 preparation
+
+The next week shifts into drawing/design fundamentals. The instructor recommends doing actual drawing practice where possible, preferably with pen or pencil, but digital drawing is acceptable. The goal is not to become an amazing illustrator; it is to become comfortable sketching ideas and communicating shapes.
+
+Students should:
+
+• Practice drawing many versions of the same subject.
+• Focus on shape language and how simple shapes combine.
+• Study water, flowers, clouds, smoke, lightning, and other VFX-relevant forms.
+• Use sketches as a way to understand position, geometry, and design principles.
+• Submit one sheet of drawings that is interesting, difficult, or useful for discussion.
+
+The instructor also notes that later weeks will allow students to choose between more 2D animation and more 2D drawing/concept work depending on their interests.
+
+Main takeaway
+
+The central lesson of Week 2 is that good VFX animation is not just about making attractive frames. It is about controlling the viewer’s eye through timing, leading edges, holds, acceleration, simplification, and hierarchy. Small exercises, repeated often, are the fastest way to build that intuition.
