@@ -1,0 +1,70 @@
+VFX Apprentice — Week 8 Session Summary
+
+Overview
+Week 8 is the final major technical lesson before students begin independent work. It focuses on shaders, distortion, parallax, layering, screen-space effects, and how to combine the course's earlier artistic principles into a final engine effect.
+
+1. The goal of shaders is confidence, not mastery
+The instructor says students do not need to become people who use shaders for everything. The goal is that the next time they encounter a shader, they are willing to ask whether it is useful, understand enough of what it does to work with it, and avoid being blocked by fear of the material.
+
+2. Use references and targeted searches when stuck
+When shader concepts feel abstract, it helps to start from a concrete desired result and search specifically for the operation needed. Seeing another explanation or example can turn a vector, depth fade, or other abstract concept into a practical tool.
+
+3. Keep applying art fundamentals inside the engine
+The instructor warns against being satisfied just because particles are moving and glowing. The engine should reproduce a specific artistic intention. Keep asking what the effect is supposed to communicate and force the engine toward that result.
+
+4. Add real motion, not only shimmering distortion
+For many effects, a simple shimmer or noise movement is not enough. Adding vertical/radial motion, masking, or another deliberate movement can give the effect a stronger sense of purpose.
+
+5. Additive should be used sparingly
+The instructor recommends using opaque materials as much as possible during learning. Additive is useful for glows, but overusing it can cause colors to blow out, make black impossible, hide shape information, and make transparency difficult to control.
+
+6. A slash can be a scrolling texture on one fixed quad
+Rather than rotating a particle over time, a slash can be a single mesh/quad with a tiled texture that scrolls across it. Starting the texture outside the visible area and using negative/offset values lets the slash enter, pass through, and disappear naturally. This is also convenient because the mesh can remain consistently aligned for gameplay/design use.
+
+7. Use curves and parameters instead of hard-coded timing when possible
+A curve or exposed parameter can give designers and artists control over timing, scaling, and movement without rebuilding the effect. For particle-driven shader animation, the instructor prefers dynamic/custom data over a general Time node when possible because it keeps the effect synchronized with the particle system.
+
+8. Ground effects need to feel connected to the surface
+Ground cracks, explosions, and similar effects need a supporting layer that visually connects them to the ground. Darker/faded shapes and matching glows can create a pedestal/grounding treatment that prevents the effect from appearing as a flat plane floating above the map.
+
+9. Parallax creates cheap depth
+A small camera-dependent UV offset can make a flat ground texture appear deeper. The effect is deliberately subtle; values that are too large break the illusion. For consistency across the screen, camera position minus vertex position, normalized, is preferable to a simple camera direction when constructing the offset.
+
+10. Camera distance changes what detail is appropriate
+Close-up effects need more texture detail. Effects seen farther from the camera can use simpler textures and still read well. This is a production judgment rather than an absolute texture-resolution rule.
+
+11. Layer colors as well as shapes
+A base color, darker outer treatment, brighter center, and additional lerps can make a simple effect feel much richer. The instructor repeatedly uses darker supporting colors rather than trying to make every layer equally bright.
+
+12. Double-sampling is a useful procedural technique
+Sampling a scrolling texture twice at different speeds and scales, then combining the results and clamping/saturating the output, can remove obvious repeating patterns and create more organic movement. This is especially useful for glows, orbs, and other soft procedural surfaces.
+
+13. Polar coordinates turn simple inputs into radial shapes
+The instructor demonstrates using polar coordinates on UVs to convert a simple texture/noise pattern into a radial or spiral arrangement. Extracting and remapping the radial component can produce circular masks, rings, and spike-like structures with very few nodes.
+
+14. Spherize can create a spherical illusion
+Applying a spherize-type distortion to a flat texture can make it appear wrapped around a sphere. This can make a simple quad read as a volumetric glowing orb from the intended camera.
+
+15. You can build surprisingly complex effects with very simple geometry
+A showcased effect uses a single camera-facing quad with shader math and multiple colored layers. Another uses several simple quads/meshes at different angles and scales. The lesson is that good shader work and layering can create the visual impression of substantial 3D complexity without requiring equally complex geometry.
+
+16. Reuse shader pieces
+The instructor commonly copies small sections of useful shader graphs into new materials rather than rebuilding every graph from zero. Larger recurring functions can be converted into subgraphs/custom functions so they can be reused across projects.
+
+17. Subgraphs are the shader equivalent of reusable functions
+A subgraph can package a recurring operation—such as a UV operation, double sampler, depth fade, or utility calculation—behind a clean interface. The instructor recommends building a personal library because it reduces future graph complexity and speeds up learning and production.
+
+18. Final week project should be treated as a fake portfolio project
+For the final week, students are encouraged to start a new effect unless they already have an exceptionally suitable piece. They should act as though they are beginning a portfolio project, combine the techniques they have enjoyed most, and deliberately work through the first technical roadblocks.
+
+19. The final project should not become an enormous undertaking
+The goal is to demonstrate synthesis of the skills learned, not to produce a giant AAA-quality effect. A simple hit effect, magical orb, shield, or another modest piece can teach the same fundamental engine skills while remaining manageable.
+
+20. Community follow-alongs are a practical bridge to autonomy
+The instructor recommends 2–3 hour follow-along/community recordings that start from an empty project and construct a complete effect. These are useful because they let students practice building something independently while still having a guided path. The shield effect is specifically recommended for learning flipbooks; magical orb and aura effects are recommended for students who need simpler practice.
+
+21. Sandbox and deeper material should be used strategically
+The course sandbox is useful for putting effects into a real game-like environment, but the instructor does not want students to get lost in it too early. It is a resource for later exploration, portfolio presentation, and studying other effects, not a replacement for making your own.
+
+Main takeaway
+Week 8 is about turning shader knowledge into practical control. Use shaders to solve specific artistic problems, keep materials understandable, layer simple elements, and expose useful parameters. For the final project, combine the techniques you have actually learned and liked rather than trying to prove that you know everything.
