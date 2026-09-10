@@ -1,0 +1,66 @@
+VFX Apprentice — Week 1 Campfire Summary
+
+Purpose
+This Campfire is a broad Q&A and professional workflow discussion. The most useful ideas are how to turn visual references into game VFX, how to establish timing before building technical complexity, how to layer effects, and how to think about style, references, and texture production.
+
+Key lessons
+
+1. References and fan art are serious learning tools
+Reproducing an existing effect is useful because the artist already has an intended result to study. You are constrained, which makes it easier to focus on how the effect works rather than inventing everything from zero. Fan art is therefore presented as a strong learning method.
+
+2. There is rarely one correct technical implementation
+The same effect can be made from 2D flipbooks, particles, meshes, or combinations. A common stylized workflow is to build a strong core element and then “dress it up” with additional glows, smoke, sparks, and other secondary elements.
+
+3. Start with the core and build outward
+For game VFX, establish the main silhouette/shape and timing first. Work from big shapes and volumes to medium elements and finally small details. Do not begin by building every spark or secondary particle, because retiming a complicated effect becomes difficult.
+
+4. Build the timing before the technical polish
+The instructor’s preferred workflow is to make a rough 2D mockup/animatic first. The mockup can be crude; its main purpose is to establish timing, silhouette, and the overall motion. Once that feels right, bring it into the engine and use it as the blueprint for the technical implementation.
+
+5. Start from the impact when useful
+Game effects often have one dominant moment. Building the impact first gives you a clear target; anticipation can then lead into it, and follow-through can be added afterward.
+
+6. Layering is fundamental
+Build a simple core effect first. Once its motion works, add additional layers with slightly different shapes, sizes, timings, or motion. Layering increases richness and can hide or soften the underlying geometry/technical construction.
+
+7. Rough animatics are valuable
+The instructor shows very rough sketches used to establish timing. These are often single-color or extremely simple. They are not intended to look good; they are timing and motion blueprints.
+
+8. Combine planned and spontaneous animation
+A useful workflow can be: plan the basic structure, animate freely inside those constraints, then do a final timing/refinement pass. Keyframing provides control while straight-ahead animation can create unexpected ideas.
+
+9. Textures are tools, not paintings
+Textures should be thought of as instructions/tools for the engine rather than artwork that has to be beautiful by itself. Strong drawing ability is not a prerequisite for making useful VFX textures. Substance Designer or procedural/noise approaches are also valid ways to create them.
+
+10. Style is bigger than the texture
+A stylized look usually comes from a combination of timing, shape design, composition, color, flipbooks, shaders/materials, outlines, post-processing, and other techniques. Simply painting a “stylized texture” does not reproduce a style by itself.
+
+11. Constraints can make a style easier to reproduce
+A tightly controlled camera, lighting setup, and composition can make a game style easier to fake with 2D assets. The more freedom the game gives the camera and environment, the more carefully the VFX artist may need to solve the 3D problem.
+
+12. Study real-world motion
+YouTube and real-life reference are major resources. Slow-motion footage is particularly useful because you can inspect frame-by-frame changes in shape, sharpness, expansion, dissipation, and secondary motion. Nature is also an excellent source for color and form references.
+
+13. Build a useful vocabulary
+Knowing the terminology for physical phenomena makes reference hunting much more effective. Understanding words that describe fluid behavior, different kinds of fire, motion, and other phenomena helps you find footage that better matches the effect you are trying to make.
+
+14. Secondary motion creates fascination
+After the primary read works, subtle additional motion is often what makes an effect feel alive rather than mechanically generated. This secondary motion should enhance the core rather than obscure it.
+
+15. Reuse is normal
+Artists commonly build libraries of sparks, glows, rings, blobs, and other reusable elements. Reuse helps maintain consistency, especially across a project. Assets can still be adjusted when a specific character or style needs something different.
+
+Important technical points
+
+• Large, detailed effects can make a single flipbook too expensive in texture memory. Splitting an effect into several smaller assets can preserve quality and control.
+• 4x4 flipbooks are described as a common production format, though other layouts are used too.
+• For readability, contrast between sharp and soft areas can be useful. Blur can help indicate motion or direct the eye, while outer glow is commonly used to soften or extend a shape.
+• Black/white contrast can be overly aggressive during 2D studies. A mid-gray background better resembles the context of an effect in an actual game and forces the artist to rely more on shape, motion, and readability.
+• In engine workflows, masks become especially important in materials and shaders even though the instructor rarely uses masking in their own 2D drawing process.
+
+Practical workflow to remember
+
+Reference → rough concept/animatic → core silhouette and timing → engine implementation → big/medium/small layering → secondary motion → polish.
+
+Mindset
+Do not try to make every exercise portfolio-quality. The purpose is to learn, experiment, repeat, and accumulate techniques. Use existing references to constrain the problem, ask how the image could become a game effect, and build the effect from its essential components first.
