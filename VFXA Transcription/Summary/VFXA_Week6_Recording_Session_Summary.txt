@@ -1,0 +1,73 @@
+VFX Apprentice — Week 6 Session Summary
+
+Overview
+Week 6 continues the move into game-engine VFX, with the main focus shifting from basic emitters/blockouts to textures, materials, layers, and better visual construction. The session repeatedly reinforces a core principle: the engine is a means of expressing an artistic decision, not something that should dictate the effect.
+
+1. Test in the actual game context
+Engine previews can be laggy and can look different from the result in the actual scene. The instructor recommends using the preview mainly as a quick guide and regularly testing the effect directly in the level/game context. An unlit preview can also help isolate the effect before lighting/post-processing changes its appearance.
+
+2. Asking for feedback is a professional skill
+The instructor explicitly calls this out as a skill. Good feedback requests are specific: identify the exact part of an effect you want reviewed instead of asking only whether the whole piece is “good.” The skill matters both in communities and in professional work.
+
+3. Avoid monochrome effects during training
+A pure single-color effect can look acceptable to the engine but become visually flat to the eye. Even within a monochrome design, small value/color differences improve readability. The instructor recommends using several colors or extracting a palette from a photograph rather than repeatedly practicing only monochrome effects.
+
+4. Engineer transitions deliberately
+When one state of an effect changes to another, do not rely on random particle lifetimes if the timing matters. Force the transition: synchronize the disappearance of particles, the appearance of the next component, and the important impact moment. This recreates the deliberate timing that would be drawn in a 2D animation.
+
+5. Do not let technical constraints dictate the art
+A recurring principle is: return to the artistic intent. If the engine cannot produce a desired result through the current technique, change the technique rather than accepting a bad-looking result. The instructor repeatedly warns against becoming “held hostage” by the engine.
+
+6. Use particles for the right job
+Small particles are useful for secondary detail, but they can become visually muddy when used to construct every major shape. Build the large recognizable primitive first, then use particles to enrich it.
+
+7. Big/medium/small applies in 3D too
+The instructor recommends mixing large, medium, and small particles/elements. For example, duplicate a particle stream, reduce the count dramatically, increase the particle size, and use those large blobs together with the smaller particles. This creates richer volume without relying only on many tiny particles.
+
+8. Duplicating emitters is normal
+Duplicating an emitter can be preferable because it gives precise control over composition, positioning, timing, and variation. In stylized effects, several separate emitters can be easier to control than one generalized system. Reuse and duplication are not “cheating”; they are common ways to build readable effects.
+
+9. Do not simulate the literal physical representation
+The instructor stresses that the artist's mental physical model is not necessarily the correct game-VFX implementation. Water, for example, may be perceived physically as countless droplets, but that does not mean the best engine implementation is one independently simulated particle per visible droplet. Look at the reference, identify the visual structure that the eye actually reads, and construct that more directly.
+
+10. Trails are a specialized tool
+If something travels in a straight line, a trail may be unnecessary; a quad or other simple representation can be cleaner and more controllable. Trails become more useful when an object follows a curved path or otherwise leaves a persistent path behind it. For lightning arcs or similar shapes, a purpose-built mesh can be preferable to forcing a trail system to do the job.
+
+11. Preheating a trail can solve spawning problems
+For a moving object whose trail should already exist when it becomes visible, the instructor describes spawning it slightly earlier at zero opacity, allowing the trail history to build, and then bringing the object/fade into visibility. This can make an instantaneous appearance read as an already-established motion rather than a trail that grows unnaturally from nothing.
+
+12. Smoke needs sufficiently large particles and depth fading
+Very small particles can make smoke muddy. Larger overlapping quads/volumes are generally preferable. When particles intersect the ground or another surface, depth fade can soften the intersection and remove the harsh clipping line.
+
+13. Emission is powerful but easy to overuse
+The instructor warns that excessive emission can destroy control over color and opacity. Large emissive values push bright regions toward white and make intermediate color changes harder to read. A little emission can help, but using it as a shortcut can hide weaknesses in the underlying color/value structure.
+
+14. Think about entering and exiting the frame/state
+For each engine component, consider how it appears, how it moves, and how it disappears. A component that pops in can often benefit from a different exit behavior than a component that smoothly enters. This “vocabulary” of appear, scale, move, fade, and stretch is useful for making 3D effects feel intentional.
+
+15. Add a glow layer to glue components together
+For effects with separate bright parts, a soft glow/outer layer can make them feel like one volume. A glow can also provide a supporting pedestal/background so that bright cracks, beams, or particles do not look pasted on top of the environment.
+
+16. Dark support shapes create volume
+When an effect contains only bright elements on a bright or neutral background, it may lose grounding and depth. A subtle darker glow, haze, smoke, or supporting shape behind the primary element can make the effect feel embedded in the scene.
+
+17. Use color/value hierarchy
+The instructor frequently recommends assigning roles to colors: a brighter/high-value color for the hottest area, a mid color for the body, and darker/less saturated colors for support. Working in grayscale can reveal problems that are difficult to see when everything is strongly colored.
+
+18. Portfolio performance is different from production performance
+For the current learning portfolio pieces, the main requirement is that the final recorded video plays correctly. The instructor says students should not prematurely constrain their learning by obsessing over game-performance budgets. At the same time, understanding that a portfolio-only setup would not necessarily be production-ready is itself useful technical knowledge.
+
+19. Use the provided course project and progress incrementally
+For students who are new to engines, continue the earlier work and blend it with Week 6 rather than feeling forced to discard incomplete Week 5 exercises. The transition is cumulative: take what worked in the blockout, then replace the simple placeholders with real textures and assets.
+
+20. Textures are technical tools
+Week 6's main goal is to gain intuition for what textures look like once they are inside the engine. A texture that looks beautiful as a standalone image can perform poorly once combined with a material, lighting, blending, and particle system. Therefore, test many simple textures directly in the engine instead of spending a very long time perfecting one image in isolation.
+
+21. Hand-painted versus procedural textures
+Both approaches are valid. The instructor personally recommends hand-painted textures because they provide a useful artistic skillset, while procedural textures through Substance Designer remain completely legitimate, especially for artists who prefer a non-drawing workflow.
+
+22. Blender should be learned narrowly for this course
+The Blender material is not intended to make students full Blender artists. For VFX purposes, the relevant subset may be very small—for example, using curves to build specific assets needed by an effect. Do not spend large amounts of time learning unrelated Blender features unless they serve a current project.
+
+Main takeaway
+Week 6 is about replacing crude engine blockouts with intentional visual assets while keeping the artistic structure established in earlier weeks. Think in primitives, hierarchy, timing, color, and layers; use particles/meshes/textures where they best communicate the design; and deliberately override convenient engine behavior whenever it conflicts with the intended result.
