@@ -1,0 +1,64 @@
+VFX Apprentice — Week 3 Session Summary
+
+Overview
+Week 3 continues the 2D/art fundamentals work, with the review increasingly focused on shape language, composition, hierarchy, movement, and how real physical behavior can be simplified into readable VFX forms.
+
+Core lessons
+
+1. Simplify instead of overbuilding
+When a piece becomes difficult to read, remove elements. Reducing an effect to a few major shapes makes it easier to understand the primary motion, then the artist can add complexity back in. The instructor repeatedly favors simple, readable construction over lots of decorative detail.
+
+2. Think in big, medium, and small
+A strong effect needs scale variation. Large forms establish the main read, medium forms support it, and small details provide richness. If everything is the same size/detail density, the composition becomes flat or noisy.
+
+3. Hierarchy controls where the viewer looks
+The most important area should have the strongest combination of shape, value, contrast, or detail. Secondary areas can be quieter. The instructor emphasizes that VFX are usually small on screen, so the hierarchy has to survive at a glance.
+
+4. Directionality matters
+Effects need a clear sense of where energy is moving. Lightning, smoke, water, and explosions should not look like disconnected collections of shapes. Their parts should reinforce a common flow or trajectory.
+
+5. Lightning
+For lightning, the instructor recommends thinking of the energy as a flowing path rather than a random collection of branches. Start with a large primary bolt, then add secondary arcs and small tertiary details. Too many flares or similarly sized branches can weaken the primary read.
+
+6. Clouds and smoke
+Study real-world references and physical behavior. Clouds should be built from understandable volumes and motion. For smoke, not every line should connect to every other line; thinner areas can use thinner, less connected structures, while denser areas can become more cohesive.
+
+7. Explosions and impact effects
+An explosion should communicate its origin and direction. The area near the impact can be relatively simple, while surrounding or expanding regions can carry more detail. Strong directional movement helps the viewer understand where the energy came from and where it is going.
+
+8. Use real references
+When a phenomenon is difficult to invent, study real footage or photographs. Simpler references and slow-motion material can be especially useful because they let you identify the major stages of the motion rather than getting lost in detail.
+
+9. Vocabulary improves reference hunting
+The instructor reinforces the importance of learning the names of physical and visual phenomena. Knowing the terminology for a type of motion, fluid behavior, smoke, fire, or other phenomenon makes it much easier to find useful references.
+
+10. Use a 2D sketch as a blueprint
+A concept or animatic does not need to be a polished illustration. It can be a construction guide showing the main shapes, flow, composition, and timing that the eventual effect should follow.
+
+11. Negative space matters
+The empty shapes between forms are part of the design. When working on an effect, consider not only the visible material but also the negative shapes created by and between it. Negative space helps organize the composition and can make motion easier to read.
+
+12. Study the principle, not only the finished picture
+When reviewing an example, ask what principle makes it work: directionality, hierarchy, asymmetry, contrast, timing, flow, or another design decision. This makes the exercise transferable to other effects.
+
+Learning/workflow advice
+
+• If a principle is difficult to remember, write it down. Looking things up repeatedly is normal while learning.
+• Pick one principle at a time instead of trying to fix every aspect of an effect simultaneously.
+• Smaller pieces allow faster iteration and make it easier to isolate a specific weakness.
+• Do not be afraid to repeat the same kind of exercise. Repetition is how the visual intuition develops.
+• Use external references and guides directly in the working file when that makes the process easier.
+
+Student feedback themes
+
+The instructor frequently praises students who experiment, make multiple pieces, and identify their own weaknesses. Common problems include over-detailing, weak directionality, too much symmetry, unclear hierarchy, and trying to make a complex effect before the basic silhouette and motion are stable.
+
+The instructor also points out that different students should not all receive identical goals. Someone already strong in animation can focus on another weakness, while a beginner can use the same exercises as repetition practice.
+
+Next step
+
+The upcoming work continues the 2D split: students can lean more toward 2D animation or concept/drawing depending on what they want to develop. The larger goal is to prepare for the transition to 3D/game-engine VFX by making stronger decisions about shapes, colors, composition, and motion.
+
+Main takeaway
+
+Week 3 is about learning to see effects as organized visual systems rather than collections of pretty shapes. Build a clear hierarchy, establish direction and flow, simplify aggressively when needed, and use real-world references to understand the behavior you are trying to stylize.
