@@ -1,0 +1,2287 @@
+[00:00:00] Hello!
+[00:00:07] Hello.
+[00:00:09] Hey.
+[00:00:10] Hey.
+[00:00:12] Hmm.
+[00:00:16] How's the week been?
+[00:00:18] How has the materials gone so far for everyone?
+[00:00:23] It's definitely the hardest week for me so far.
+[00:00:26] Oh, okay.
+[00:00:27] I'm just noodling stuff together.
+[00:00:30] I'm like, I don't even know where I'm going to apply this.
+[00:00:35] No.
+[00:00:38] I might create something cool, but then I'm like, okay, what do I do with it now?
+[00:00:44] Fair.
+[00:00:45] That's always the difficult part.
+[00:00:47] I found that the best thing, when you have something cool, but you don't know what to do about it,
+[00:00:50] is to do the dressing up technique that I told you before,
+[00:00:53] which is basically you take the thing as is, you just don't touch it,
+[00:00:56] and then you start piling onto a regular particle system.
+[00:01:02] That's the best way to, in my opinion.
+[00:01:05] When you have something cool, but you don't know what to do with it,
+[00:01:06] it's the best way to do it.
+[00:01:11] Yeah.
+[00:01:13] We're going to hop right in, because I think it's a pretty important week, usually, this one.
+[00:01:18] And there's a bunch of ways we can go, and I'm happy to answer either ways.
+[00:01:24] So A, what we can do.
+[00:01:26] Today is do a little bit of math or catch up on anything that people have not understood in general
+[00:01:31] for the shaders, for materials.
+[00:01:33] So anything you'd be interested, we can look it through.
+[00:01:36] I can do some extra explaining for anything that would help,
+[00:01:43] either for the process or for some techniques that are not clear, et cetera.
+[00:01:46] B, we can work on portfolio, and I can go through a few of you and ask, okay,
+[00:01:52] what do you want to do after, and start planning for what I call week nine.
+[00:01:56] So basically, when you're on your own for the last month,
+[00:01:58] and you can have access to everything, and you ask yourself, where do I go from there?
+[00:02:04] We can do half and half if people are interested.
+[00:02:08] Yeah.
+[00:02:09] Does anyone want to hop in and give an opinion already on that?
+[00:02:13] Anyone has a preference?
+[00:02:19] I mentioned in one of my posts that Gale Color is not working for me.
+[00:02:25] When I apply a shader material into one of my animations or my VFX,
+[00:02:36] and I don't know why.
+[00:02:38] So the scale color, OK, I can explain that.
+[00:02:40] That's pretty easy.
+[00:02:42] You're using Unreal.
+[00:02:44] Do I have a good Unreal project?
+[00:02:45] No, no, no.
+[00:02:47] But basically, it's very simple.
+[00:02:49] In your material, you need to include somewhere your background.
+[00:02:55] OK.
+[00:02:55] Particle color in order for it to work.
+[00:02:58] So basically, at the output of your color,
+[00:03:00] you need to multiply by a node called particle color, which is basically,
+[00:03:05] this will feed from that.
+[00:03:08] Did you already do that before?
+[00:03:11] So I Googled it, and that's what people were saying.
+[00:03:13] But I had trouble figuring out where to put it.
+[00:03:17] OK.
+[00:03:18] I guess, because it was like my noodle thing was crazy,
+[00:03:21] and I was trying it in different areas.
+[00:03:23] And I was like, I just don't even know where to connect this.
+[00:03:25] I just felt like everything was already connected to something.
+[00:03:29] I'm like, I don't know where to fit this in.
+[00:03:31] Yeah, no problem.
+[00:03:32] So very simply, when you have colors
+[00:03:37] and you multiply them together, most of the time,
+[00:03:40] you'll get a mix between the two.
+[00:03:43] And so you can't really go wrong by saying
+[00:03:47] you're going to multiply a color with another one,
+[00:03:49] with another one, with another one at the end
+[00:03:51] until you get the color that you're looking for.
+[00:03:53] So.
+[00:03:55] When you're talking about color, you can always just take your,
+[00:04:00] take any color you want to add to it,
+[00:04:01] just multiply it by what existed before,
+[00:04:04] and it will mostly output what you're looking for.
+[00:04:07] So when you want to add a color to something,
+[00:04:11] and it's like overall tinting something,
+[00:04:14] you can just multiply it.
+[00:04:15] It will always work.
+[00:04:18] OK.
+[00:04:19] Does it work the same way as the, sorry.
+[00:04:23] No, go ahead.
+[00:04:24] Just.
+[00:04:24] I was just going to say.
+[00:04:25] I was going to say, I'll see if I can find a place for it.
+[00:04:29] Yeah.
+[00:04:30] If you have the time to do it now,
+[00:04:31] just to quickly test it and see if it works for you, then great.
+[00:04:34] And if it doesn't work, we can, you can screen share,
+[00:04:37] and I can look at it.
+[00:04:38] And yeah, if it works that way.
+[00:04:41] I'll just show you.
+[00:04:42] It's open.
+[00:04:43] I was using the fire, the, was it the Jitwhirl,
+[00:04:48] where we were animating the flame?
+[00:04:52] Yes.
+[00:04:54] Makes sense.
+[00:04:55] And I, yeah, I was using that, and I couldn't figure out
+[00:04:59] where to do it.
+[00:05:01] Just have to open it.
+[00:05:03] Anyway.
+[00:05:05] While you open it, Jascha, you had a question.
+[00:05:08] Yeah, I just wanted to ask if the multiplying works
+[00:05:12] the same way as the multiply layer in Photoshop,
+[00:05:15] or if it's just coincidental naming.
+[00:05:19] Yes, but yes.
+[00:05:20] It overall gives roughly the same result.
+[00:05:25] Yes, it works the same.
+[00:05:27] Like if you multiply by a black, it will give you black.
+[00:05:30] If you multiply by white, it will give you
+[00:05:31] exactly the same color that you multiplied by.
+[00:05:35] And if you then multiply by the same color,
+[00:05:40] you will get exactly the same color.
+[00:05:42] But if you multiply it by another color,
+[00:05:44] you'll get the tint, like the kind of negative color
+[00:05:46] that you get.
+[00:05:49] It works roughly the same.
+[00:05:51] I Photoshop.
+[00:05:53] So the.
+[00:05:55] The layers and the effect in Photoshop,
+[00:05:57] the different types of layers, sometimes they are a bit weird.
+[00:06:01] They don't do exactly what's on the tint.
+[00:06:03] So that's why I'm not confident in saying, yes, it's 100%.
+[00:06:07] But overall, yes, I would say the same.
+[00:06:10] How does it say you have two colors
+[00:06:14] and you do the multiplication?
+[00:06:16] Does it multiply like the value out of 255 or a value?
+[00:06:25] I think it's between 0 and 1.
+[00:06:30] Let me give you a demonstration, because I
+[00:06:33] think it's easier after it.
+[00:06:35] So all the values in the shaders are between 0 and 1.
+[00:06:38] So if here we say multiply, and then we give it
+[00:06:42] to a color and another color.
+[00:06:45] Can you see this?
+[00:06:46] Does it work?
+[00:06:47] It should.
+[00:06:49] Yes.
+[00:06:50] If you give it red.
+[00:06:52] So if you have a red color here and you multiply.
+[00:06:54] Your screen is going to.
+[00:06:55] Jumping from one window to another.
+[00:06:57] Maybe you should share the whole screen.
+[00:07:00] Yes.
+[00:07:00] Yes.
+[00:07:01] Change stream.
+[00:07:06] Oh, no, that's silly.
+[00:07:10] Yes, excellent.
+[00:07:11] All right.
+[00:07:13] So yes, so the color, you have this black one.
+[00:07:17] This is the output, basically.
+[00:07:18] And so as soon as I move this to something else,
+[00:07:21] you can see that it's black when I multiply by basically 0,
+[00:07:25] which is 1.
+[00:07:25] So I'm going to multiply it by black.
+[00:07:27] And then it stays the same color red
+[00:07:29] if I multiply it by white, which is 1, basically.
+[00:07:32] 0 and 1.
+[00:07:33] And then if I start multiply, for instance, by pure blue,
+[00:07:39] it will end where the red is pure red.
+[00:07:41] You're multiplying 255 by 0.
+[00:07:47] So it's 0.
+[00:07:48] Then you're multiplying 0 by 3.
+[00:07:52] So it's 0.
+[00:07:53] And then you're multiplying 0.
+[00:07:54] And then you're multiplying 255.
+[00:07:56] So it's black.
+[00:07:58] You basically take all three of them,
+[00:08:00] and you just multiply them.
+[00:08:02] So what that means is that if I take cyan, suddenly,
+[00:08:04] it's still going to be black.
+[00:08:06] But if I start saying, OK, I want some green,
+[00:08:08] you see that the red comes back out.
+[00:08:10] If this one, I say that it has two components,
+[00:08:14] it's pure magenta, and this one, I say it's cyan,
+[00:08:19] I'll get only the blue components.
+[00:08:20] The blue and the cyan will be multiplied by 1 every time.
+[00:08:24] So it's pure blue.
+[00:08:25] And then after that, all the other ones
+[00:08:27] are multiplied by 0, so 0.
+[00:08:29] So yeah.
+[00:08:31] Quite different than Photoshop.
+[00:08:33] Because on Photoshop, if you would multiply blue by red,
+[00:08:39] it would give you a dark color.
+[00:08:46] OK, yeah.
+[00:08:46] So it was pure.
+[00:08:48] That's what I thought.
+[00:08:49] That's why I was unsure.
+[00:08:51] Yeah.
+[00:08:52] So this is because it's pure.
+[00:08:54] As soon as it's not pure colors,
+[00:08:56] you'll see that the tint is like, it makes a bit more sense.
+[00:09:00] Sorry.
+[00:09:02] Like here, now, I can't really make it go completely dark
+[00:09:05] unless I multiply it by 0.
+[00:09:08] It just will give you a slight every time.
+[00:09:14] So yeah.
+[00:09:15] But overall, this will be controllable, basically.
+[00:09:18] It will work.
+[00:09:19] And what's really good about this is
+[00:09:21] that if you want to control it with a first output,
+[00:09:24] input of color, let's say my material,
+[00:09:26] I say this is my material color.
+[00:09:28] OK?
+[00:09:29] So I say group selection material.
+[00:09:32] OK?
+[00:09:33] And then here, this is my particle color.
+[00:09:38] OK?
+[00:09:38] So the particle color is controlled
+[00:09:40] by the particle system.
+[00:09:41] And this is controlled by a material.
+[00:09:43] If suddenly I say, actually, I want this material, or this
+[00:09:47] here, I want it to be controlled by the particle color,
+[00:09:49] I can just put this one to 1, to white.
+[00:09:52] And then this is controlled here.
+[00:09:54] And then, conversely, if I say, actually, I
+[00:09:56] want the particle color to just be a gradient between black
+[00:09:59] and white, and here the material I
+[00:10:00] want to thing for mostly architectural reasons,
+[00:10:06] I can just say, OK, this one will be my color.
+[00:10:08] And this one, I put white.
+[00:10:09] And then that way, I can control it only with this one.
+[00:10:11] This is also a flexible setup where you can build a shader
+[00:10:15] and then decide how it's going to ..
+[00:10:22] All right.
+[00:10:24] So I'm going to go back to my
+[00:10:36] I'll take a look.
+[00:10:39] Yeah.
+[00:10:40] All right.
+[00:10:41] I can't stream your stream, but OK.
+[00:10:45] Shiny.
+[00:10:46] Yeah.
+[00:10:47] So I put this in.
+[00:10:50] I don't know if this is what I was supposed to put in.
+[00:10:52] It is, yes.
+[00:10:53] But then I was like, oh, this is what I was supposed to put in.
+[00:10:54] Yeah.
+[00:10:54] Where do I attach it to?
+[00:10:56] Because it feels like everything's been taken.
+[00:10:58] And then ..
+[00:10:59] Yeah.
+[00:10:59] So look at your output of color for now.
+[00:11:03] Like, go to the master node and check the output of color.
+[00:11:08] Always start at the ..
+[00:11:11] So no, the master node is the big thing in which you
+[00:11:13] plug everything in.
+[00:11:15] Oh.
+[00:11:16] All the way on the right.
+[00:11:18] All the way on the right.
+[00:11:19] Oh, this thing.
+[00:11:19] This is called the master node.
+[00:11:20] Yeah, exactly.
+[00:11:21] This is the thing where you put everything, OK?
+[00:11:23] OK.
+[00:11:24] And then you want to debug a shader.
+[00:11:25] If something is not working, it's
+[00:11:26] not doing the thing you want, always start with, like,
+[00:11:29] you start with the finished product.
+[00:11:30] Like, OK, this is, right now, we have,
+[00:11:32] we're working only with opacity and color.
+[00:11:34] So we want to work with color.
+[00:11:35] So you go back up the shader.
+[00:11:38] You're like, OK, there's a lerp here.
+[00:11:39] So that means that we're taking two colors
+[00:11:41] and we're taking a black and white image.
+[00:11:43] We're taking two colors and we're blending them together.
+[00:11:45] So far, so good.
+[00:11:47] OK.
+[00:11:47] So here, you're already setting color for everywhere
+[00:11:52] onto your piece.
+[00:11:54] So what do you want to achieve by controlling it
+[00:11:55] through the particle?
+[00:11:56] What do you want to do with it?
+[00:12:01] What's the actual goal you have of this?
+[00:12:04] So I want to be able to control the alpha
+[00:12:09] on this element, but it's not working right now.
+[00:12:12] So things aren't fading.
+[00:12:15] Yeah, because your particle color.
+[00:12:18] You see then the particle color?
+[00:12:19] There's red, green, blue, and then there's alpha on the A.
+[00:12:24] On your node.
+[00:12:25] Red, green, blue, and then there's alpha.
+[00:12:27] So that alpha.
+[00:12:29] On this node?
+[00:12:30] Yeah, this node.
+[00:12:31] Particle.
+[00:12:32] OK.
+[00:12:32] Particle color node.
+[00:12:33] There's the RGB.
+[00:12:34] So that's the color.
+[00:12:36] And then you have it split.
+[00:12:38] And then there's the A for the alpha.
+[00:12:40] That's the alpha in your particle system.
+[00:12:42] That's the same thing that you control there.
+[00:12:43] So this, you need to plug it into your opacity.
+[00:12:48] Oh, so in here.
+[00:12:49] Yeah, exactly.
+[00:12:50] But if you plug it there, you lose all the opacity
+[00:12:52] from everything else.
+[00:12:53] Obviously.
+[00:12:54] Yeah.
+[00:12:54] So opacity is very simple.
+[00:12:56] It's between 0 and 1.
+[00:12:58] So that means that if you have opacity that's between 0 and 1,
+[00:13:01] you can just multiply the two opacities that you had.
+[00:13:04] And then that means you're adding an extra parameter that
+[00:13:07] says, OK, I want this to look pretty exactly how I did it.
+[00:13:12] But in the particle system, I want
+[00:13:13] to be able to then fade it out to 0 if I want to.
+[00:13:16] I just multiply it by a value that's
+[00:13:18] at 1 when I want to see it, and at 0 when I don't want
+[00:13:21] to see it anymore.
+[00:13:24] OK, so go for it.
+[00:13:26] Yeah.
+[00:13:27] I would need to add a multiply.
+[00:13:29] Yeah.
+[00:13:29] It's so confusing.
+[00:13:31] So I'm not very good at math.
+[00:13:36] I almost failed math.
+[00:13:37] So I would need to attach A to one of these nodes.
+[00:13:46] Yeah.
+[00:13:48] And then this to this.
+[00:13:51] Yeah.
+[00:13:51] And then you need to attach the B.
+[00:13:54] Yeah.
+[00:13:54] And then you need to attach the C to the thing
+[00:13:57] that you had before.
+[00:13:58] Oh, god.
+[00:14:02] Where?
+[00:14:02] Oh, god.
+[00:14:04] Do you remember what you meant?
+[00:14:05] I'm not.
+[00:14:07] I would Control-Z, Control-Z, Control-Z,
+[00:14:10] because it'll undo all the cancels.
+[00:14:12] So you can see where the opacity originally was,
+[00:14:16] because it was up above your nodes.
+[00:14:18] So I would Control-Z until you see the opacity reconnected.
+[00:14:21] There it is.
+[00:14:21] Oh, this one.
+[00:14:23] Sorry.
+[00:14:23] It was this one.
+[00:14:23] Yeah.
+[00:14:24] This one.
+[00:14:24] Yeah.
+[00:14:25] You can just pick that up.
+[00:14:26] OK.
+[00:14:26] I was just very confused.
+[00:14:27] So I was like, OK.
+[00:14:28] Yeah.
+[00:14:29] That's what I mean.
+[00:14:30] If I don't remember where the last things were,
+[00:14:34] Yeah.
+[00:14:35] It can be very confusing.
+[00:14:36] OK.
+[00:14:37] Here it should work now.
+[00:14:39] Yeah.
+[00:14:39] Yeah.
+[00:14:40] OK, cool.
+[00:14:40] You're basically, when you do those things,
+[00:14:42] you're basically building a little machine
+[00:14:44] that then you will be able to work with after that in Engine,
+[00:14:48] in under particles.
+[00:14:49] OK.
+[00:14:51] OK.
+[00:14:51] Yeah, that makes sense.
+[00:14:52] Yeah.
+[00:14:53] I just find, like, when you start
+[00:14:53] building things really big like this,
+[00:14:56] it just gets really confusing.
+[00:15:00] Yeah.
+[00:15:00] I think that's why it was so hard for me this week,
+[00:15:02] because I was like, I was a lot of trial and error
+[00:15:06] and deleting and moving things around.
+[00:15:10] Yeah.
+[00:15:11] That makes sense.
+[00:15:12] Yeah.
+[00:15:13] I hope that, so the goal of this week
+[00:15:15] is not that you're like a master at this,
+[00:15:17] but it's just that you're comfortable at it enough
+[00:15:20] that in the future, you can see your shader and not
+[00:15:23] be lost, not be intimidated by it.
+[00:15:25] At least say, OK, I can follow back the path.
+[00:15:29] Say, OK, like, it starts with, like, this is the output
+[00:15:33] that I'm having here, and I'm trying to decompose
+[00:15:35] how I get there.
+[00:15:38] That's the main goal.
+[00:15:40] Yeah, I think it would probably take me, like, a few times
+[00:15:44] before it really clicks.
+[00:15:46] Right now, I'm still in, like, the phase of, like,
+[00:15:48] what does this do?
+[00:15:51] Yeah.
+[00:15:52] Yeah.
+[00:15:52] Yeah.
+[00:15:53] There's, shaders can be confusing.
+[00:15:55] But once you understand them, it will unlock you a lot
+[00:15:58] because you don't end up just, like, randoming stuff.
+[00:16:03] That's the biggest difficulty is, like, you just
+[00:16:05] feel like you're just adding stuff without really
+[00:16:07] knowing why you're doing it.
+[00:16:09] Yeah.
+[00:16:09] That's how I was feeling this week.
+[00:16:13] But I mean, like, I definitely started
+[00:16:15] seeing some cool stuff come out of it.
+[00:16:18] It's just a matter of, like, just understanding the system.
+[00:16:22] Yeah.
+[00:16:23] Is there some node in particular that you're confused about?
+[00:16:25] Like, is there one node in particular or one technique
+[00:16:28] in particular that you're just, like,
+[00:16:30] don't know how it works?
+[00:16:32] Not in particular.
+[00:16:34] It's more, like, just trying to piece it all together.
+[00:16:37] OK.
+[00:16:38] Yeah.
+[00:16:40] Yeah.
+[00:16:43] Yeah, does anyone else have questions
+[00:16:44] about, like, shaders in general, anything else that we can tackle?
+[00:16:49] I do have a question if there's a specific node.
+[00:16:52] Yeah, sure.
+[00:16:53] I was thinking about it.
+[00:16:54] Like, I wanted to have, like, a lightning texture be flickering on and off.
+[00:17:00] So my first thought was, like, OK, is there, like, a sine node that I can multiply by time
+[00:17:06] somehow?
+[00:17:07] There's a sine node.
+[00:17:10] Sine makes a, you know, a wave between, like, two numbers.
+[00:17:15] So I was, like, OK, you can make it go from zero to one.
+[00:17:18] Could that, like, flicker it on and off?
+[00:17:20] Is that how you would do that?
+[00:17:21] Yeah.
+[00:17:22] You would do that.
+[00:17:23] Time.
+[00:17:25] Already, time has, on Unity, time has sine time, cosine time, et cetera,
+[00:17:29] that you can get.
+[00:17:30] But otherwise, you have this.
+[00:17:31] And then here, you would remap, for instance, as an example,
+[00:17:36] from minus 1 to 1 to 0 to 1.
+[00:17:39] And this would basically make it back from one to the other.
+[00:17:42] And here, you have everything.
+[00:17:43] And then here, you can just multiply this
+[00:17:44] by any number to make it go as fast or as slow as you want.
+[00:17:51] Oh, remap.
+[00:17:52] That's what I was thinking of that I didn't know,
+[00:17:54] that I was looking for, because I didn't know how to, like,
+[00:17:56] get it from negative 1 to 1 to go to 0 to 1.
+[00:17:59] That make sense?
+[00:18:00] Yeah.
+[00:18:01] So as a reminder, a sine wave looks like this.
+[00:18:13] So you have, just for everyone, the values with time,
+[00:18:18] they go from 0 to 1 to 0.
+[00:18:21] To 0 to minus 1 to 0 to 1 to 0 to minus 1.
+[00:18:24] So what we're doing here is that we're saying, OK,
+[00:18:26] we're taking time, which is an infinite value that
+[00:18:28] goes infinitely far.
+[00:18:30] So if I was to remove it and just instead just scroll the value,
+[00:18:33] you see that it just goes from one to the other all the time.
+[00:18:37] And then this time, I'm saying that I'm multiplying it
+[00:18:40] to make it faster, basically.
+[00:18:42] This is a number that just keeps going up.
+[00:18:45] Whatever you do, it keeps going up.
+[00:18:46] That's time.
+[00:18:47] So you just give it a multiply so that it goes faster or slower.
+[00:18:50] OK.
+[00:18:51] And then the sine wave gives you the curve
+[00:18:53] that I showed you before.
+[00:18:54] And then we're taking the values and we're saying,
+[00:18:57] if minus 1, then 0.
+[00:19:00] If 1, then 1.
+[00:19:02] So if you have minus 1 in input, then we make it 0 instead.
+[00:19:07] If we have 1, then we put that 1.
+[00:19:09] And then everything in between is kind of like squished
+[00:19:12] match the same value.
+[00:19:14] So we kind of like, it's like in Photoshop
+[00:19:16] where you take an image and put it to another dimension.
+[00:19:21] You transform it around.
+[00:19:22] It's the same kind of idea.
+[00:19:26] All right.
+[00:19:28] Yeah, that's how we would do it.
+[00:19:29] Although I would suggest now, artistically,
+[00:19:33] it is often better to just use a curve,
+[00:19:35] to just use your alpha to make it flicker,
+[00:19:38] rather than using this.
+[00:19:40] I would use this only if you wanted
+[00:19:42] it to change in other ways, if you wanted some extra.
+[00:19:46] But otherwise, something that flickers
+[00:19:48] is mostly alpha and color, right?
+[00:19:51] So would that be just like, would the curve just
+[00:19:53] be like a zigzag, like up, down, up, down, up, down, up, down,
+[00:19:56] up, down?
+[00:19:56] Yeah.
+[00:19:57] Yeah.
+[00:19:57] OK, cool.
+[00:19:58] Take your curve here, and then the color curve here.
+[00:20:03] And then, I don't know.
+[00:20:05] Yeah, you can take color.
+[00:20:06] I'm going to do it with this one.
+[00:20:10] You just take your curve here, and then you
+[00:20:12] do a little triangle like this.
+[00:20:13] And you're just like, bang.
+[00:20:16] And then it disappears for a frame.
+[00:20:17] OK, cool.
+[00:20:21] That's how I do it usually.
+[00:20:22] So like, bang.
+[00:20:23] I do one, two, three, like that.
+[00:20:25] And then the middle one, you just dump it down.
+[00:20:27] And then that way, you have it flicker or disappear
+[00:20:30] for a little bit.
+[00:20:30] That's really easy to do.
+[00:20:31] And you can do like, usually, you have enough.
+[00:20:35] You have enough to do two flickers with this,
+[00:20:37] if you want it.
+[00:20:37] If you want to do more, usually that's
+[00:20:39] enough for what I want to do.
+[00:20:40] But if you want to do more, then you
+[00:20:42] need to perhaps use this technique.
+[00:20:45] Especially, remember that.
+[00:20:47] Things that are regular, so like a sine wave is regular,
+[00:20:50] it might feel a bit artificial.
+[00:20:53] So if you want it to look a bit natural,
+[00:20:55] you would probably prefer using an actual ..
+[00:21:02] Cool, sounds good.
+[00:21:04] All right.
+[00:21:07] And one last thing.
+[00:21:08] I just wanted to quickly comment.
+[00:21:10] Oh, sorry.
+[00:21:10] I just wanted to.
+[00:21:11] Yeah, go for it.
+[00:21:13] I just wanted to say that the particle thing worked.
+[00:21:16] So.
+[00:21:17] Yeah.
+[00:21:17] It's a success.
+[00:21:18] OK, yeah.
+[00:21:21] Perfect.
+[00:21:23] So you wouldn't think, you know, there's
+[00:21:25] one you can do pretty smooth, you know.
+[00:21:29] Which one is it?
+[00:21:30] Then I don't prefer both tangents.
+[00:21:47] I don't remember.
+[00:21:49] There's ways.
+[00:21:50] One thing that you can do is just do basically like do this
+[00:21:54] too on a curve.
+[00:21:55] That's quite common.
+[00:21:56] You'll find it quite a lot.
+[00:21:59] Like to have something that's just like curves
+[00:22:03] that are kind of flat like that.
+[00:22:04] There is a way to do it better, but I don't remember how.
+[00:22:08] There's a way to say to all the nodes to be just like square.
+[00:22:12] Oh, in Niagara, it's constant.
+[00:22:15] But I don't know what it is in Unity.
+[00:22:17] Yeah, I don't know either.
+[00:22:19] Yeah, but yeah, you can also do a curve like that.
+[00:22:25] Yeah, anything else we can tackle.
+[00:22:27] So when.
+[00:22:31] So my question is probably rhetorical.
+[00:22:35] But in the beginning of like learning shaders and stuff,
+[00:22:41] I'm like, so should I block out my effects and stuff
+[00:22:45] that I want to do?
+[00:22:45] And then you.
+[00:22:47] Shaders to accentuate that?
+[00:22:49] Or should I try and make effects from shaders from scratch?
+[00:22:57] So that's like all up to you.
+[00:23:00] There are some things that work way better in the shaders
+[00:23:02] and others no.
+[00:23:03] So my suggestion is shader should be used for effects
+[00:23:09] that you usually can't have, especially composition.
+[00:23:13] So one of the core things that I use shaders for is they're
+[00:23:16] going to take.
+[00:23:17] So I'm going to use like exactly this example,
+[00:23:19] because I think it was a perfectly good example for this.
+[00:23:22] This should be the run.
+[00:23:24] Edit shader.
+[00:23:25] And this here, one of the core things we can do
+[00:23:27] is use the distance fade.
+[00:23:30] I think that this is like exactly the kind of thing
+[00:23:32] where basically this is where you would want a shader that
+[00:23:36] is able to say, hey, in the center we have this color
+[00:23:40] and outward we have that other color.
+[00:23:41] I think that's like where you would have the best result.
+[00:23:47] So that's how I did this.
+[00:23:51] So I'm just anyway.
+[00:23:56] Basically, you should use shaders for stuff
+[00:24:00] that you cannot do for other stuff,
+[00:24:02] like with just regular particles is my first thing.
+[00:24:07] So anything that's based on distance,
+[00:24:09] anything that's based on depth, so that fade, et cetera.
+[00:24:15] Anything that can glue your particles together,
+[00:24:17] you should usually do.
+[00:24:18] And then dissolves are usually also the thing
+[00:24:20] that you really want to get through.
+[00:24:23] Yeah, so those are the things where you should almost always
+[00:24:27] use a shader.
+[00:24:28] Then after that, if you want to make an effect that
+[00:24:34] is more or less shader heavy, I would say it depends mostly
+[00:24:37] on your skills.
+[00:24:38] Although there are things that really need a shader.
+[00:24:42] The best example is, let's say you have a car in a game
+[00:24:45] and you want to make it on fire.
+[00:24:47] OK?
+[00:24:47] So to do that, you could add lots of particles
+[00:24:50] and try to make it look good from every angle, et cetera.
+[00:24:53] But that's going to be both bulky,
+[00:24:54] and usually it won't look very good,
+[00:24:57] because the cards won't look very good.
+[00:24:58] You'll need a lot of particles otherwise.
+[00:25:00] This is exactly the place where you would need one,
+[00:25:03] like some, basically some ribbons.
+[00:25:05] They look usually like ribbons that you put on top of the car
+[00:25:09] and that are just like a little band of flames.
+[00:25:12] Exactly the one that we did in the class.
+[00:25:14] And that's the industry.
+[00:25:16] That's the industry standard for stuff on fire, basically.
+[00:25:21] And if you also want to make effects for a character,
+[00:25:24] like if you have a character that has a head that
+[00:25:27] has flames on it, you're almost always
+[00:25:29] going to need a shader here.
+[00:25:31] You can't really do it with particles.
+[00:25:32] It's going to be either too expensive,
+[00:25:34] or it's not going to look good, because your character
+[00:25:35] is going to move too fast, or it's not going to follow
+[00:25:38] the animations well, et cetera.
+[00:25:39] That's where you really don't have a choice.
+[00:25:42] So there's other stuff.
+[00:25:46] Mostly if you have something that has a bit of an overlay,
+[00:25:50] or if you want to make some ground cracks.
+[00:25:53] Yeah, there's a bunch of stuff that just
+[00:25:55] you need a shader for that.
+[00:25:59] I suggest that you use the thing that makes the most sense.
+[00:26:03] Most of the time, you'll be able to use a shader
+[00:26:05] and just make it a tool that you use.
+[00:26:08] It doesn't need to be too complex.
+[00:26:10] You need to make a full flame inside.
+[00:26:12] But you can make a start, like a first,
+[00:26:14] let's say you're making a fire.
+[00:26:16] You can make a first candle-like fire that just flickers
+[00:26:20] and is in the center of the screen.
+[00:26:22] And then as you go, you can then add the actual fire
+[00:26:26] in the same way that we did it during week five,
+[00:26:28] and the actual particles around it, et cetera.
+[00:26:30] And that just serves as your core.
+[00:26:32] And so yeah, I think that that's typically the kind of stuff
+[00:26:35] I would try and do.
+[00:26:39] But it just depends on what you like doing.
+[00:26:44] Honestly, if in the shader, you want to make it
+[00:26:45] a little bit more complex, you can make it a little bit more
+[00:26:46] complex.
+[00:26:46] You want to make this whole explosion in the shader
+[00:26:49] as one big shader around it.
+[00:26:52] Go nuts.
+[00:26:53] Knock yourself out.
+[00:26:54] It will work.
+[00:26:55] It will look like a flat thing that's facing the camera.
+[00:26:59] But if that's not a problem for you, it will just work.
+[00:27:04] Yeah.
+[00:27:05] VFX is often like a pop-up book.
+[00:27:07] So you can kind of like, if you wanted everything
+[00:27:09] to be on one card and the thing to be animated,
+[00:27:12] et cetera, it could totally work.
+[00:27:13] But usually, the pop-up book, we like putting multiple.
+[00:27:16] So it's like, oh, I'm going to put this one behind it.
+[00:27:19] But yeah.
+[00:27:25] I wanted to ask about the, yeah, so if you go to my thread
+[00:27:36] in Discord, there's like this effect
+[00:27:39] where some runes are getting revealed.
+[00:27:43] The portal, yeah.
+[00:27:44] Yeah.
+[00:27:44] Yeah.
+[00:27:45] Yeah.
+[00:27:45] Yeah.
+[00:27:46] I think that's why I did it.
+[00:27:47] I did like a texture with a circular gradient.
+[00:27:53] Yeah.
+[00:27:53] Then I used like the step node.
+[00:27:58] But I don't know if it's like the, you know,
+[00:28:02] proper way to do it.
+[00:28:03] It's exactly the proper way to do it.
+[00:28:05] The only thing you could do differently
+[00:28:07] is use a lerp instead of a step node.
+[00:28:09] But I think like for what you did,
+[00:28:11] a step node is perfect for that.
+[00:28:13] I think that one thing that could be really cool,
+[00:28:15] when the text appears.
+[00:28:17] At the moment where it appears,
+[00:28:18] it has like it's slightly brighter when it appears.
+[00:28:20] It would make it more readable,
+[00:28:22] but otherwise this is perfect.
+[00:28:23] This is exactly what you would expect.
+[00:28:26] A problem I ran into with that is that,
+[00:28:30] so I was using like a dynamic parameter in the emitter.
+[00:28:35] And it only worked when like my material
+[00:28:39] was the parent material.
+[00:28:42] I tried to work to make it work with like a,
+[00:28:45] material instance and it just wouldn't do it
+[00:28:50] for some reason.
+[00:28:51] Say again.
+[00:28:54] So basically at the start,
+[00:28:57] I had every material in this was an instance
+[00:29:03] of one parent material.
+[00:29:04] Cause it's, you know, I just wanted to have like,
+[00:29:09] yeah, simple.
+[00:29:12] And I wanted to use a dynamic parameter
+[00:29:14] to control like the,
+[00:29:15] the reveal of the text.
+[00:29:19] And the dynamic parameter just wouldn't work
+[00:29:23] when the material was an instance.
+[00:29:25] So I had to make another parent material
+[00:29:29] and then it worked fine.
+[00:29:31] But as an instance, no.
+[00:29:34] I don't know why.
+[00:29:35] So you're getting into like why,
+[00:29:38] like the negatives of Unreal is that sometimes things
+[00:29:41] don't work and you don't know why,
+[00:29:42] and you have to just like debug it by,
+[00:29:45] by just like making a new asset or something like that.
+[00:29:49] So it's almost always resolvable.
+[00:29:51] The explanation isn't just you're dumb.
+[00:29:53] The explanation is unreal, you know?
+[00:29:56] Yeah. Yeah.
+[00:29:58] But yeah, this looks really good.
+[00:29:59] I was really impressed.
+[00:30:01] I like a lot that there's this little blur when they appear,
+[00:30:04] when the spikes appear and you have this little,
+[00:30:06] like locking in.
+[00:30:08] I think that all the subtle animations are really good.
+[00:30:10] Video encoding.
+[00:30:12] I mean, it, no, but you have a fade in, see you see?
+[00:30:15] Yeah, I have a fade in.
+[00:30:16] Yeah.
+[00:30:16] You have a tiny fade in.
+[00:30:17] And I think that makes it feel like there's like a little like
+[00:30:19] blur, which gives an impression of speed, which
+[00:30:22] is like really nice.
+[00:30:23] And the fact that none of the pieces are kind of like sync,
+[00:30:26] they don't, like they all spawn at different speeds.
+[00:30:29] I think you did a really good job at making it feel like really,
+[00:30:31] really.
+[00:30:33] Yeah.
+[00:30:33] Yeah.
+[00:30:34] One additional question, like when I control the,
+[00:30:40] kind of the reveal, with like, you know,
+[00:30:45] I have a number from, from zero to one.
+[00:30:48] Yeah.
+[00:30:49] But I feel like it's not linear.
+[00:30:52] So if I put it at 0.9, I don't have like 90% of the.
+[00:31:01] Yes.
+[00:31:01] OK.
+[00:31:03] Yeah, I think, I think I see what you mean.
+[00:31:04] Yeah, yeah.
+[00:31:05] It kind of bothers my OCD.
+[00:31:07] Yeah, no, I totally agree.
+[00:31:09] I can see that.
+[00:31:10] I can imagine.
+[00:31:11] Is that like because of the gradient or something?
+[00:31:13] Yeah, usually it's the gradient.
+[00:31:15] It's not, I don't, did you make the gradient like,
+[00:31:17] like from a software that makes a perfect gradient
+[00:31:19] or did you paint the gradient yourself?
+[00:31:20] I just did like a gradient in Photoshop,
+[00:31:24] like put it right in the middle of the thing and.
+[00:31:27] So either it's your gradient that's not perfect or,
+[00:31:33] so you're using a clamp to say like to do,
+[00:31:38] to go from words to word?
+[00:31:41] What node are you using to make it like?
+[00:31:43] A step.
+[00:31:44] A step.
+[00:31:45] OK.
+[00:31:49] It should work.
+[00:31:51] It should be smooth.
+[00:31:52] So I'm guessing it's your, your, your, your, your gradient.
+[00:31:56] Do I have?
+[00:31:56] So maybe the gradient is not perfectly linear.
+[00:32:01] Do we have some texture?
+[00:32:06] No, not in the right.
+[00:32:10] I mean, it would make sense because often like things that,
+[00:32:14] kind of appear linear to our eyes are not like linear in terms of.
+[00:32:20] Yeah, yeah, that's very true.
+[00:32:22] Numbers.
+[00:32:23] So maybe it's because of that.
+[00:32:25] Maybe, yeah.
+[00:32:26] It would, it is totally possible.
+[00:32:28] I think that you're, I, if I had to guess,
+[00:32:31] I think that this is mostly that it just,
+[00:32:34] it feels like it should be linear,
+[00:32:35] but it's not either because the text that you have
+[00:32:37] or because of the, the, the stepping that you have.
+[00:32:42] Yeah.
+[00:32:44] So let's say I have this, I want to give it,
+[00:32:49] we're stepping to reveal it every time.
+[00:32:52] So we need the texture to revisit.
+[00:32:54] This is just there.
+[00:32:55] Then we need the texture to reveal it.
+[00:32:56] We're going to use just a gradient.
+[00:32:59] So UV.
+[00:33:00] No.
+[00:33:00] We're going to say split.
+[00:33:03] Maybe I can send you my gradients so you can see if it's,
+[00:33:08] if it's, if it's, if it's, if it's, if it's, if it's,
+[00:33:14] if it's, if it's, if it's, if it's, if it's, if it's, if it's,
+[00:33:16] if it's, if it's, if it's, if it's, if it's, yeah.
+[00:33:17] I think that you wanna do it differently on your end
+[00:33:19] than in mine, right?
+[00:33:20] Yeah.
+[00:33:21] Step.
+[00:33:23] Here.
+[00:33:27] There you go.
+[00:33:44] It's in the chat of the mid-life session.
+[00:33:47] Cool.
+[00:34:12] Exteriors.
+[00:34:14] Can I save it?
+[00:34:19] Yes.
+[00:34:20] Save.
+[00:34:22] Save it.
+[00:34:23] It's on my desktop.
+[00:34:26] Where is it?
+[00:34:27] Where's my texture?
+[00:34:28] No, that's not my texture.
+[00:34:30] I don't think I've ever seen anyone use Steam Big Picture.
+[00:34:34] It's terrible.
+[00:34:35] I hate it.
+[00:34:36] Sometimes I click the button without wanting
+[00:34:38] because it's exactly at the minimize thing.
+[00:34:40] It's like, not once have I ever used Steam.
+[00:34:42] Not once have I ever used Steam.
+[00:34:43] Not once have I ever used Steam.
+[00:34:44] I know some people that do, but I don't.
+[00:34:49] Let's see your texture just to see.
+[00:34:55] It's a circular gradient.
+[00:35:05] How is it called?
+[00:35:11] Come on.
+[00:35:13] Called radial.
+[00:35:14] With a R.
+[00:35:25] So here, what we can do is we do a step.
+[00:35:31] And you see already, it's not perfect, the thing.
+[00:35:33] You have little artifacts here.
+[00:35:36] But otherwise, if we give it time,
+[00:35:44] it's going to be perfect.
+[00:35:46] Oh, yeah.
+[00:35:46] The start goes faster, it seems.
+[00:35:48] Let's see.
+[00:35:49] Yeah, that's what I was experiencing, too.
+[00:35:55] Yeah.
+[00:35:56] It's probably in your gradient.
+[00:35:58] Yeah.
+[00:35:59] Although this is a sign, so we need to be aware that it's not
+[00:36:05] perfect on it.
+[00:36:06] I want it to be how it would be the best way to see it go over
+[00:36:13] and over and over.
+[00:36:14] We would go around.
+[00:36:18] No.
+[00:36:19] No.
+[00:36:19] This.
+[00:36:22] No.
+[00:36:23] This is there.
+[00:36:25] Here.
+[00:36:25] That's.
+[00:36:27] No.
+[00:36:29] It's a.
+[00:36:34] Oh.
+[00:36:35] I see in Photoshop, I can choose the type of gradient I want.
+[00:36:40] And there's one that's called linear.
+[00:36:42] That sounds good to me.
+[00:36:43] Yeah.
+[00:36:44] I can change it to my ears.
+[00:36:45] Oh, yeah.
+[00:36:46] Perfect.
+[00:36:46] Maybe that's the one I actually wanted.
+[00:36:50] Correct.
+[00:36:53] Yes.
+[00:36:54] Yeah.
+[00:36:55] You see it goes way faster at the start.
+[00:36:56] This is even.
+[00:36:57] And you can clearly see that it goes faster and then
+[00:36:59] goes slower at the end.
+[00:37:00] The start is super fast.
+[00:37:02] And here, you can kind of see already
+[00:37:03] that it's losing it here a bit.
+[00:37:06] Do you want to try with the other one?
+[00:37:07] Yeah.
+[00:37:08] Send it my way.
+[00:37:08] If not, I can just try it.
+[00:37:10] Yeah.
+[00:37:11] I'll give it again.
+[00:37:12] OK.
+[00:37:12] It's just fun to try.
+[00:37:13] It's fun to test it out.
+[00:37:14] It's always good to test it out.
+[00:37:16] Just test it out with those kind of live stuff like that.
+[00:37:18] This is really useful to understand what
+[00:37:20] the thing is actually doing.
+[00:37:25] Just a sec.
+[00:37:37] Debugging your shader in general with a time fraction
+[00:37:42] is really good.
+[00:37:43] Basically, you have something.
+[00:37:44] It takes the fraction, basically, in your number.
+[00:37:46] So if you have a number that's like 4.75,
+[00:37:50] it will give you 0.75.
+[00:37:52] And so what's really useful is that you can give it a time
+[00:37:55] node, and it will constantly loop between 0 and 1
+[00:37:57] in a linear scale.
+[00:37:59] So if you use time fraction, you always
+[00:38:02] get the 0 to 1 looping.
+[00:38:04] That can be really useful.
+[00:38:06] This one looks way better already in terms of my being
+[00:38:12] used to.
+[00:38:13] Having those already makes me feel like this one is better.
+[00:38:17] Your spidey sense.
+[00:38:19] My spidey sense, they tingle.
+[00:38:21] They tingle so good.
+[00:38:24] All right.
+[00:38:25] And now we can try the other one.
+[00:38:27] Radial.
+[00:38:29] I think that's the same one.
+[00:38:30] Yeah, that's the same one.
+[00:38:32] Right?
+[00:38:33] Because the new one is .
+[00:38:36] Yeah, that's very funny.
+[00:38:38] It wasn't already on my thing, I think.
+[00:38:42] OK, much better.
+[00:38:43] It's just a little bit slower.
+[00:38:44] But I think overall, this is just linear.
+[00:38:45] Yeah, that looks better.
+[00:38:47] If not, it's very close to being linear.
+[00:38:48] Nice result.
+[00:38:50] Yay, success.
+[00:38:53] All right, does anyone else have any questions on shaders
+[00:38:56] or on career, on their future stuff, on portfolio,
+[00:39:02] on anything else?
+[00:39:04] I think it's pretty good.
+[00:39:05] I think it's pretty good.
+[00:39:06] I think it's pretty good.
+[00:39:07] I think it's pretty good.
+[00:39:08] I think it's pretty good.
+[00:39:09] I think it's pretty good.
+[00:39:10] It's pretty good.
+[00:39:13] I do have a question on the most recent effect I uploaded.
+[00:39:18] It's more so just like I tried to implement a lot of the suggestions you made.
+[00:39:23] But then there's one texture that I like it, but I don't know if it's too busy or if that's
+[00:39:30] a personal opinion that I have.
+[00:39:32] Or is that like, can you just look at it and be like, oh, that is too busy?
+[00:39:36] It's the ground impacts right there.
+[00:39:39] Yeah.
+[00:39:40] Like little squiggles.
+[00:39:41] Yeah.
+[00:39:42] Yeah.
+[00:39:43] Yeah.
+[00:39:44] It's very cool.
+[00:39:45] Let's watch it again.
+[00:39:46] Yeah, it's very cool.
+[00:39:47] OK.
+[00:39:48] So a few things I can say on this already.
+[00:39:53] Does this one have the frame by frame?
+[00:39:59] Oh, no.
+[00:40:00] OK.
+[00:40:01] That will do.
+[00:40:02] I think those little blobs that are going outward here are really good.
+[00:40:07] Those are really nice.
+[00:40:08] The orb itself is interesting enough.
+[00:40:10] I think it works.
+[00:40:11] You have a bit of a splash and shred.
+[00:40:12] You have the nice glows there.
+[00:40:13] I'm really happy with how much you filled in the space in general.
+[00:40:15] I think those little sparks that are too close to the ground and are on the water, I think
+[00:40:22] they're actually hurting a bit, this.
+[00:40:24] So either you can exclude the ones that are closer, or you can make something, I don't
+[00:40:31] know, perhaps avoid that they spawn closer.
+[00:40:34] But yeah.
+[00:40:35] Got it.
+[00:40:36] Yeah.
+[00:40:37] And here you have this line.
+[00:40:39] It certainly will hurt you quite a bit.
+[00:40:40] So what I suggest you do is that when the orb just falls down, have it disappear, or have
+[00:40:45] the glow disappear before it hits the ground.
+[00:40:47] Got it.
+[00:40:49] Then on the explosion itself, I think this looks good.
+[00:40:52] You have enough of a filling, I think, for it to look good.
+[00:40:55] Those parts here, if you look back in black and white, they're really bright, the things
+[00:41:00] that you have in the ground.
+[00:41:01] You probably want them to be more like a texturing of the thing.
+[00:41:04] But if you go back to our first weeks, where it's like going back to the ground, you can
+[00:41:08] see that they're really bright.
+[00:41:09] So that can be kind of a difficult one to have, especially at the end here.
+[00:41:12] You can see how they're just very high contrast for some water ripples that perhaps you would
+[00:41:16] like to be more serene, less powerful.
+[00:41:19] Also, those water ripples that you have, I know that they're water ripples because I
+[00:41:23] remember seeing them.
+[00:41:24] But here, they don't quite look like water ripples, right?
+[00:41:28] Because I think on your circle here, you have little parts.
+[00:41:33] And since you're giving them a lot of emission, you're giving them a lot of water.
+[00:41:38] And since you're giving them a lot of emission, they get lost, right?
+[00:41:41] They get lost into the emission.
+[00:41:43] And you can't see a circle anymore.
+[00:41:45] You can only see the emissive part.
+[00:41:49] So I think that's perhaps to your detriment.
+[00:41:52] I think that everything else, like the waves that you have here, everything else works
+[00:41:56] super well.
+[00:41:57] The balls that you have around, they look really good.
+[00:42:01] I like a lot the little texture that they have.
+[00:42:03] They look really well spread out.
+[00:42:05] The shapes are interesting.
+[00:42:06] I think that they look really good.
+[00:42:07] They're really good.
+[00:42:08] They could be perhaps outward.
+[00:42:10] If you manage to exclude them from inside the sphere and be only outside of this, I
+[00:42:14] think it would look even better.
+[00:42:16] Perhaps something that gives it a more interesting composition.
+[00:42:19] Because right now, this part here is a bit what I would say.
+[00:42:23] Don't hesitate when you make a glow.
+[00:42:25] You have like a, imagine this blue that you have here, or like the blue of this sphere.
+[00:42:30] Making a glow that starts from the edge of the sphere and goes very slightly outward.
+[00:42:35] That can be really nice.
+[00:42:36] It can really give a little bit of a glow.
+[00:42:37] It can give a feeling that this water sphere that you have here, the outer part of the
+[00:42:44] explosion, it makes it feel like it connects to the ground, like it has some physicality
+[00:42:51] on the ground.
+[00:42:52] It's called grounding.
+[00:42:53] It's one of those good concepts that you can have for VFX, for game VFX, trying to make
+[00:43:00] sure that your effect interacts with the ground.
+[00:43:02] So I think that that can be also very useful.
+[00:43:05] This is the part where you're working on the center part.
+[00:43:07] Just so that it's perhaps less visually jarring, perhaps it's something that is more subtle.
+[00:43:11] Like an interesting texture, but not something that's powering.
+[00:43:16] Got it.
+[00:43:17] And it's really not too much.
+[00:43:19] I think it just works pretty well.
+[00:43:23] And you have really nice colors.
+[00:43:28] Awesome, thank you.
+[00:43:30] Yeah.
+[00:43:31] Also, I like this little, like, when we come here, and it explodes.
+[00:43:34] It wiggles in the ground for a little bit.
+[00:43:37] It has a little like, wah, wah, wah.
+[00:43:40] It's funny.
+[00:43:40] I think it's because it's rotating.
+[00:43:42] Anyway, yeah, it works well.
+[00:43:47] Yeah.
+[00:43:48] Yeah, as a very small demonstration,
+[00:43:51] but it can be interesting.
+[00:43:54] If I take a text, any one of those, OK.
+[00:43:59] Let's say I take the clouds that I have here.
+[00:44:04] Because that was pretty smart.
+[00:44:12] If I'm like, oh, the clouds, blah, blah, blah,
+[00:44:15] I want them to be super bright.
+[00:44:18] OK, so I give them lots of emission.
+[00:44:21] Why do I not have ?
+[00:44:34] Why?
+[00:44:39] Sometimes game engines are ..
+[00:45:04] Anyway, it's fine.
+[00:45:13] I wanted to demonstrate something,
+[00:45:15] but it's not particularly like, it doesn't do the thing I want.
+[00:45:20] Because for some reason, my past processing is there anymore.
+[00:45:24] I don't know why.
+[00:45:25] Shader settings, settings, forward render.
+[00:45:32] Come on.
+[00:45:33] It should work.
+[00:45:34] Why do I not have ?
+[00:45:36] OK, it's fine.
+[00:45:37] We'll go to game.
+[00:45:38] I don't have a camera.
+[00:45:39] Cool.
+[00:45:40] Thank you for it.
+[00:45:42] Main camera.
+[00:45:43] Give me the main camera.
+[00:45:44] Excellent.
+[00:45:45] Ah, that's what I just ..
+[00:45:48] OK, perfect.
+[00:45:49] That's what I wanted to demonstrate.
+[00:45:50] So what I'm trying to say is it doesn't matter what
+[00:45:54] extra I'm using right now.
+[00:45:56] But if I remove a bit of the emission,
+[00:46:00] you can see that quickly.
+[00:46:01] Oh, this is a negative.
+[00:46:02] Sure.
+[00:46:03] It's a negative.
+[00:46:05] Like, wait, wait.
+[00:46:08] It's still emissive.
+[00:46:15] Oh, there's something that's still emissive.
+[00:46:18] This.
+[00:46:24] Good.
+[00:46:25] Excellent.
+[00:46:26] So now we can go back to this.
+[00:46:27] OK, so this is without any emission.
+[00:46:30] So what I wanted to show is that if you start adding a lot of emission,
+[00:46:33] very quickly, you see the texture's already in the center?
+[00:46:36] They just do not take the shape that they have anymore.
+[00:46:39] It doesn't quite matter what shape they have.
+[00:46:42] They're just going to start becoming a blur.
+[00:46:44] And the more emission you start giving them,
+[00:46:46] the more the texture itself does not matter anymore.
+[00:46:50] It matters a bit.
+[00:46:51] And it is pretty.
+[00:46:52] Everyone loves watching lights.
+[00:46:55] Yeah.
+[00:46:55] So if I have this kind of cloud, for instance,
+[00:46:58] I lose a lot of the detail of the cloud.
+[00:47:01] So yeah.
+[00:47:03] OK.
+[00:47:03] It's just important to remember that emission will lose you
+[00:47:07] a lot of the detail you're using.
+[00:47:08] And sometimes a shape that you think looks like a circle
+[00:47:15] might not look like a circle anymore.
+[00:47:16] Let's say, for instance, I have this shape here.
+[00:47:20] And I start, like, this shape is actually a circle.
+[00:47:24] I have this shape that looks like a kind of a star.
+[00:47:27] OK.
+[00:47:27] But if I add too much emission, for instance,
+[00:47:30] I'm going to start, even if I had only one,
+[00:47:32] I'm going to start.
+[00:47:33] I'm going to start not seeing the star anymore.
+[00:47:35] So I think it's important to remember that some things are
+[00:47:40] deceiving.
+[00:47:41] It's particularly true when you start
+[00:47:43] and you make what looks like a circle to you
+[00:47:45] with different parts of it from one place to another.
+[00:47:49] And then actually, like this, for instance,
+[00:47:52] it looks like a circle at the start.
+[00:47:54] But very quickly, you see that it just
+[00:47:56] becomes some blobs that are one on top of each other
+[00:48:00] and not at all like circles anymore.
+[00:48:03] So I think it's important to remember that some shapes,
+[00:48:06] when you add emission to them, might lose the intended design
+[00:48:12] that you have.
+[00:48:14] So yeah, just a little extra.
+[00:48:21] Yeah, anything else?
+[00:48:22] What else can we touch on?
+[00:48:25] Question.
+[00:48:33] Hey, it's fine.
+[00:48:35] Emission is always fun.
+[00:48:37] Anything else we can touch on?
+[00:48:39] What did you have in mind for going over math?
+[00:48:42] Because math is definitely not a strong suit of mine.
+[00:48:45] We can talk about math, sure.
+[00:48:47] So in general, a bit of what I showed here,
+[00:48:52] basically, like going from 0 to 1, all those things
+[00:48:55] are, I think, important.
+[00:48:57] I wanted to explain what a dot product is for those who haven't
+[00:49:01] done that.
+[00:49:03] I don't know if you got that yet.
+[00:49:05] The dot product is a math function
+[00:49:07] that's very, very common in games.
+[00:49:10] The idea is that you take two vectors, so like 3.
+[00:49:20] And so those are basically like little arrows
+[00:49:26] that are in 3D space.
+[00:49:27] And they point towards something.
+[00:49:29] So they have a direction.
+[00:49:30] They point towards something.
+[00:49:31] And they have a length.
+[00:49:33] OK?
+[00:49:34] So each one of them, for now, is like the length is 0, 0, 0.
+[00:49:37] So it's 0.
+[00:49:38] But if I give it a 1, this is going
+[00:49:39] to be simply an arrow that points on the x-axis one
+[00:49:43] direction, basically.
+[00:49:44] And this one, I'm going to give it a 1 on the y.
+[00:49:47] And then the dot product, what does this do?
+[00:49:49] It looks at the two vectors, so the two arrows.
+[00:49:52] It looks at them, and it asks you,
+[00:49:54] are they perpendicular or no?
+[00:49:56] If they are perpendicular, then 0.
+[00:49:59] If they're aligned, then 1.
+[00:50:01] If they're parallel, then 1.
+[00:50:02] then it outputs one.
+[00:50:04] This basically looks at an outcome
+[00:50:07] and says, like at two vectors,
+[00:50:09] and says if they're perpendicular or not.
+[00:50:12] So it has a very, very cool application,
+[00:50:14] which is the following.
+[00:50:16] If you give, so,
+[00:50:19] how am I going to, like,
+[00:50:24] normal.
+[00:50:26] So the normal vector is the vector,
+[00:50:29] if you have a quad, like this on my,
+[00:50:31] like, if you have a quad,
+[00:50:33] let's use epic.
+[00:50:34] It's going to be easier.
+[00:50:40] Is this stuff that people already know?
+[00:50:43] Or is this, is this good?
+[00:50:45] I think, I think this is still interesting.
+[00:50:49] Oh, oof.
+[00:50:50] You have a quad.
+[00:50:51] I remember doing dot products in physics,
+[00:50:52] and that sucked, so this is helpful.
+[00:50:55] And you have this.
+[00:50:56] This is called the normal vector, okay?
+[00:50:59] It's an arrow.
+[00:51:00] That's,
+[00:51:01] is like from any point onto this quad,
+[00:51:03] it's an arrow that's perpendicular to the surface, okay?
+[00:51:07] So it's usually called the normal vector.
+[00:51:09] Normal vector.
+[00:51:11] And we do the dot product of the normal vector,
+[00:51:13] and I gave it just a random, like, vector.
+[00:51:17] So one, zero, zero, okay?
+[00:51:18] And this,
+[00:51:20] I'm going to,
+[00:51:21] stop epic pen.
+[00:51:23] I'm going to output this
+[00:51:24] here
+[00:51:27] in my color.
+[00:51:30] No, in my,
+[00:51:30] yeah,
+[00:51:31] in my color.
+[00:51:32] I'll remove the alpha so that you can see exactly how it is.
+[00:51:35] Okay, cool.
+[00:51:36] And we're going to save that.
+[00:51:37] So what's going to happen, it's pretty fun.
+[00:51:39] If I turn,
+[00:51:40] and now I am aligned with the one, one, one, so the X axis,
+[00:51:44] you can see at the top, the X axis, I'm aligned with the X axis.
+[00:51:48] It's white.
+[00:51:48] But if I go to the side and now I'm, I'm perpendicular to the X axis, it's black.
+[00:51:53] And if I stay perpendicular to the X axis, it's still black.
+[00:51:57] Okay.
+[00:51:57] And then when I go back here, it would be even minus one.
+[00:52:01] Yeah, but what I can do is, because dot products, they go, if they're aligned, but on the, if they're, if they're parallel, but they go in different direction, then it becomes a negative value.
+[00:52:13] So,
+[00:52:14] um,
+[00:52:15] here we would say that we want the absolute.
+[00:52:18] Absolute in math just means that as you can see exactly on the demonstration here, it gives you negatives become positive.
+[00:52:26] Basically removes the minus one.
+[00:52:28] Now it's white when we're aligned black, when we're on the side,
+[00:52:31] white, when we're aligned black, when we're on the side.
+[00:52:35] Okay.
+[00:52:36] That's a really cool tool because what it lets you do is the very, very cool thing of saying, um, do that.
+[00:52:46] Just hack it works.
+[00:52:49] Poof.
+[00:52:50] Stick those let's do instead of a billboard, we want to mesh.
+[00:52:55] The mesh is going to be a sphere, a actual decent sphere.
+[00:53:00] That's not broken.
+[00:53:03] Cool.
+[00:53:04] This is very broken to you.
+[00:53:05] It's fine.
+[00:53:07] So I'm going to just quickly.
+[00:53:09] On site.
+[00:53:12] And we're going to say the normal vector aligned to
+[00:53:24] camera.
+[00:53:29] And then what that does,
+[00:53:29] um,
+[00:53:30] you'll see it's pretty fun.
+[00:53:32] It's that it makes what's called a Fresnel, which is basically that the outer part of my sphere is dark.
+[00:53:38] And then the center is black.
+[00:53:39] This is what people use for everything we've, we've, it wasn't the class, but I, I, this is the base use of a Fresnel.
+[00:53:45] Basically you do the camera direction.
+[00:53:48] So basically the screen it's, it's a, it's an arrow that you would imagine.
+[00:53:52] It's like goes directly from the screen, from the, from the camera.
+[00:53:57] Like if you had the camera, it like points directly outward.
+[00:54:00] From the camera.
+[00:54:01] And then you take the sphere.
+[00:54:02] So the, the surface of the sphere that faces us.
+[00:54:05] So that's like is the most flat when we look at it becomes one and the surface of the sphere that is the furthest away.
+[00:54:12] Like that is completely perpendicular to the side is black.
+[00:54:15] And then everything in between is kind of a blur.
+[00:54:17] So what that does is that we can use that as alpha.
+[00:54:21] That's the best use of it.
+[00:54:23] And suddenly we have some little faded spheres.
+[00:54:26] So obviously this is gray.
+[00:54:28] It's not the best example, but.
+[00:54:30] So you can see that.
+[00:54:31] One thing that's really useful for this is that then we can use the negative.
+[00:54:41] No one minus.
+[00:54:45] And it gives us the very iconic sphere like this, this kind of bubble sphere.
+[00:54:51] That's very used for any shock waves, anything like that.
+[00:54:55] That's like a very, very common thing to do.
+[00:55:00] Okay.
+[00:55:04] Any questions on this?
+[00:55:08] That actually made sense.
+[00:55:09] Not a, not a question, but that did make sense.
+[00:55:17] Another thing that you can do, which applies a bit to our, our, our project here.
+[00:55:24] Is the cone that we were doing before.
+[00:55:27] Now we can kind of fix it.
+[00:55:29] Because.
+[00:55:30] Now we can say, okay, I'm going to make it.
+[00:55:33] Is this why someone calling him?
+[00:55:40] Okay.
+[00:55:41] Now, one thing that we can do to fix us is we can do the following.
+[00:55:45] We can use a dot product.
+[00:55:49] Okay.
+[00:55:50] And we can take the normal.
+[00:55:55] Okay.
+[00:55:56] And we can take the camera direction.
+[00:56:00] Okay.
+[00:56:00] Same thing as before.
+[00:56:01] Okay.
+[00:56:01] And then we can put this into our color.
+[00:56:04] Okay.
+[00:56:04] And then we can put this into our color.
+[00:56:06] Okay.
+[00:56:06] And then we can put this into our color.
+[00:56:08] See on our cone.
+[00:56:10] So our cone now, as you can see the part that's facing us is white and the parts that's away is black.
+[00:56:16] That's pretty convenient.
+[00:56:18] Why?
+[00:56:18] So I'm going to move the two sided.
+[00:56:21] This is going to mess up with our stuff.
+[00:56:25] So the part that's in front, it's not quite being annoying.
+[00:56:30] Um,
+[00:56:38] Saturation.
+[00:56:40] Yes.
+[00:56:42] It just gives me the edges.
+[00:56:43] The thing is this cone that's just messed up.
+[00:56:46] The, sometimes the mesh that you might use might be like just not good.
+[00:56:52] Yeah, it seems like the cone has inverted normals.
+[00:56:55] So I used it for some part.
+[00:56:59] Yeah.
+[00:56:59] That's a very common.
+[00:57:00] thing to do.
+[00:57:01] Like you might use something for a specific use.
+[00:57:04] Oh, this is really big.
+[00:57:10] Wait.
+[00:57:12] Anyway, I was trying to demonstrate something,
+[00:57:15] but it has utterly failed, unfortunately.
+[00:57:19] Yeah, I can show it in other ways,
+[00:57:22] but as is, I'm going to show you another thing.
+[00:57:27] It's going to be, it's going to work too.
+[00:57:29] And it's going to.
+[00:57:31] You can also use the position compared to the camera
+[00:57:34] to do stuff.
+[00:57:35] So position, we've already seen the position,
+[00:57:38] the distance from the position to like anywhere.
+[00:57:41] So distance from like 0, 0, 0 to this.
+[00:57:49] And if you put it in there, you'll get stuff.
+[00:57:51] This is all white because file.
+[00:57:54] We're going to give it the scale of like 100.
+[00:57:59] So it should do the trick.
+[00:58:04] And so here you can see that the center is a bit like,
+[00:58:09] a bit brighter, but not much.
+[00:58:10] But if I make it smaller or bigger,
+[00:58:16] the closer we are to the center, and the further we get,
+[00:58:21] the brighter it is.
+[00:58:24] So if we inverse that,
+[00:58:29] And we get something that's darker the further we go
+[00:58:37] and brighter the closer we are.
+[00:58:39] Let's use a scale that's a bit more.
+[00:58:45] So that's pretty useful if you want to work with, yeah.
+[00:58:49] So that's pretty useful in general.
+[00:58:51] It's a good technique to have.
+[00:58:54] One thing that you can do with this is that you can say,
+[00:58:57] you want this distance.
+[00:58:59] You want to use only the split.
+[00:59:02] You want to use only the distance from here
+[00:59:07] to the camera.
+[00:59:09] So instead of using 0, 0, 0, you say camera position.
+[00:59:18] And so this will take every position of the object.
+[00:59:21] Maybe we'll compare it to the position of the camera.
+[00:59:25] And then you can say.
+[00:59:27] After a certain distance, you put it to 0.
+[00:59:30] So you say, add a value, so parameter.
+[00:59:44] So here it's super bright, obviously.
+[00:59:46] But if we start tweaking with it, check.
+[00:59:51] So now what we can say, oh yeah, but this is for the camera.
+[00:59:54] OK.
+[00:59:54] So what we want to do is we want to make sure that we're
+[00:59:56] going to have a little bit of a difference.
+[00:59:56] So we're going to have a little bit of a difference.
+[00:59:57] So what we want is that when it's like this,
+[00:59:58] we want to only see the front part.
+[01:00:01] But if it's at the top, we want to see everything.
+[01:00:04] So what you can do is then you can say, hey,
+[01:00:07] you can also make it so that it's only on x.
+[01:00:09] And you can cut it in half and say, hey,
+[01:00:11] I want to see only that part and that part.
+[01:00:13] And that lets you order them around.
+[01:00:16] The best way to do this is to use the normals.
+[01:00:18] But I'm just showing you different ways to use the normals.
+[01:00:22] You would basically say, hey, you make a mesh.
+[01:00:25] It has two sides.
+[01:00:26] And then you just say.
+[01:00:26] Show me only one side.
+[01:00:27] I know how I can.
+[01:00:34] And using some sort of ribbon.
+[01:00:36] I have some .
+[01:00:46] You can see that here we can see one side of it just because there's
+[01:00:56] one side.
+[01:00:56] Very silly.
+[01:01:04] One side is white.
+[01:01:05] And then the other side is black, basically.
+[01:01:07] So that's something that you can do too.
+[01:01:09] It's pretty useful since basically you
+[01:01:11] have minus 1 when it's behind and plus 1 when it's in front.
+[01:01:13] So yeah, you exploit another part.
+[01:01:16] Anyway, there's lots of little tricks that you can do,
+[01:01:18] lots of little tools that you can exploit.
+[01:01:20] So feel free to play around with that
+[01:01:23] and find something that works for you.
+[01:01:26] Any other question on this?
+[01:01:29] So math-wise, I can talk about other stuff
+[01:01:32] if there's anything that's interesting.
+[01:01:33] The biggest thing to be good at is the curves
+[01:01:37] and understanding the math between 0 to 1.
+[01:01:39] So starting with 1, going backwards, being like, OK,
+[01:01:42] color.
+[01:01:43] I'm saturating the color.
+[01:01:44] Here I'm doing the dot product.
+[01:01:45] So here the value is between minus 1 and 1.
+[01:01:47] OK.
+[01:01:47] And here I'm taking two things.
+[01:01:48] So this output is mostly about the direction from the vector.
+[01:01:53] That's the thing you usually want.
+[01:01:54] Yeah.
+[01:01:54] Yeah.
+[01:01:55] Yeah.
+[01:01:55] Yeah.
+[01:01:56] Yeah.
+[01:01:56] Yeah.
+[01:01:57] Yeah.
+[01:01:57] Yeah.
+[01:01:58] Yeah.
+[01:01:58] Just to add to that a little bit,
+[01:02:00] maybe it makes it clear for people who have been seeing
+[01:02:03] this for the first time as well.
+[01:02:04] When you're seeing games and stuff that have mountaintop
+[01:02:08] with snow or with grass, it's usually
+[01:02:11] they do the triplanar shaders, which is essentially
+[01:02:13] getting the dot product to know where the normal is pointing.
+[01:02:16] And then they apply one part to the top and one part
+[01:02:19] of the texture to another.
+[01:02:21] So you basically just put it anywhere in the terrain.
+[01:02:26] And it kind of paints the terrain by itself,
+[01:02:28] because that's how the shader works with normal.
+[01:02:30] So this is super, super useful in a bunch of ways.
+[01:02:32] Yeah.
+[01:02:33] It's really cool.
+[01:02:33] If you've ever seen a terrain generator,
+[01:02:35] it works exactly like that.
+[01:02:36] If it's too slope, it will give you a cliff shader.
+[01:02:41] If it's flat, it will give you some nice grass, et cetera.
+[01:02:45] And if it's too low, it will transform it
+[01:02:47] to water instead with a water level.
+[01:02:52] It's pretty fun.
+[01:02:56] So that would be the dot product between the normal
+[01:03:00] and then the z direction, I guess, for the telling
+[01:03:05] if it tells what the slope is?
+[01:03:08] Yeah, exactly.
+[01:03:08] You would do the normal from between the mesh
+[01:03:11] that you're doing and then the z direction.
+[01:03:14] That's very common to do in general.
+[01:03:16] Cool.
+[01:03:19] I like doing this for one thing.
+[01:03:21] I can show you one of the ways I really like doing this.
+[01:03:26] One of the things I like about product
+[01:03:28] is I like doing this like this and then just plugging back
+[01:03:31] in all our color as we had before.
+[01:03:34] Alpha, so multiply this with this.
+[01:03:43] So save.
+[01:03:51] So what I like about this is that here you have all those.
+[01:03:54] But if I don't have them facing the z direction,
+[01:03:56] I can just shut the camera out now.
+[01:03:59] I'm going to only take those.
+[01:04:01] But I don't have them facing the camera
+[01:04:02] if I have them in local space.
+[01:04:04] OK?
+[01:04:05] I can have them there.
+[01:04:06] And then when I go to the side, rather than seeing
+[01:04:08] like their ugly little sides, I can fade them.
+[01:04:12] I can make them disappear, you see,
+[01:04:14] because they're not aligned to what I'm doing.
+[01:04:16] So I need to do this properly.
+[01:04:19] I need the absolute.
+[01:04:24] And I need to do a.
+[01:04:26] Saturate.
+[01:04:29] Multiply this still.
+[01:04:33] And usually what you do is that you give it some extra parameters.
+[01:04:37] But this will also already help.
+[01:04:38] So if you go to the sides of it, they should disappear.
+[01:04:42] They're not disappear.
+[01:04:48] I don't know.
+[01:04:49] We have to debug it.
+[01:04:51] Oh, because I plugged it into the wrong thing?
+[01:04:53] No.
+[01:04:55] It's correct.
+[01:04:56] It's not two-sided.
+[01:04:57] I'm going to make it two-sided just to see.
+[01:05:00] Oh, I completely messed up.
+[01:05:01] This goes here.
+[01:05:03] And then this goes here.
+[01:05:05] Yeah.
+[01:05:07] OK.
+[01:05:08] And so here, when I go to the side of it,
+[01:05:11] it doesn't do the thing.
+[01:05:12] Why?
+[01:05:13] Eh.
+[01:05:15] I don't want to work it.
+[01:05:20] What was it?
+[01:05:21] What?
+[01:05:22] No, that's not the right one at all.
+[01:05:24] OK.
+[01:05:25] Oh, because I didn't remove that, right?
+[01:05:32] I didn't change anything.
+[01:05:34] Save.
+[01:05:39] Yeah, OK.
+[01:05:40] And so here, if I go to the side, they should start fading.
+[01:05:43] But here, they're fading way too late.
+[01:05:45] But I would like them to fade just so that I
+[01:05:47] don't see the pixelated.
+[01:05:48] Basically, what I'm trying to do, what I usually do,
+[01:05:50] is that I fade so that they don't see the pixelated thing
+[01:05:53] here.
+[01:05:55] And that's because I'm using the normal vector.
+[01:06:00] It should work.
+[01:06:01] I'm using camera direction.
+[01:06:09] It's because of that.
+[01:06:11] Instead of camera direction, I should be using the fact.
+[01:06:17] So if you subtract two points in space,
+[01:06:19] it gives you the vector between the two.
+[01:06:21] So if I have points.
+[01:06:24] well that's big, if I have point A and then point B with all their coordinates x, y, z,
+[01:06:34] okay, if I put the vector, if I do the vector a, b, okay, that vector is going to be equal to
+[01:06:45] the values of b, okay, so b minus a, okay, always. So if I go from a to b, I just do the values of b
+[01:06:56] minus the values of a. So that means that here, if I want a vector that goes from
+[01:07:08] the position of the particle,
+[01:07:14] position,
+[01:07:15] to the camera position,
+[01:07:23] okay, I just subtract the two and I will get my result.
+[01:07:31] And that should be my problem. Yeah, you see they fade just before we get there, mostly.
+[01:07:41] Now I can make that fade a bit less strong.
+[01:07:45] There you go!
+[01:07:45] Okay.
+[01:07:46] now this is the weapon thing okay.
+[01:07:46] I like the action here the slope of a子 is a more
+[01:07:50] serious reason to add this pattern.
+[01:07:51] It allows us to frame the чи to Beijing.
+[01:07:55] So,
+[01:07:56] at the moment I'm showing
+[01:08:04] you two pieces right on top.
+[01:08:05] Maybe I do over
+[01:08:11] the first eight.
+[01:08:11] you'll see that a
+[01:08:15] Oh, I edited the same one again.
+[01:08:31] Okay.
+[01:08:33] Can I do it again?
+[01:08:37] Cool.
+[01:08:38] Okay, and then here you can crank up the power.
+[01:08:41] There we go.
+[01:08:45] So here, yeah, you can see clearly when I come close to them, when I'm almost there,
+[01:08:49] they start fading quite significantly.
+[01:08:51] So that's something that, oh, it's because I'm using emissive.
+[01:08:54] Ah, the thing I just talked about.
+[01:08:57] Yeah.
+[01:08:57] So now they fade way before.
+[01:08:59] Okay, cool.
+[01:09:00] So here, every time I come closer to like not seeing them, they start fading.
+[01:09:04] So that has a really cool thing is that it makes it so that you're not, you're,
+[01:09:09] you can, cause I, I'm not sure.
+[01:09:15] You can make sure you can, you don't have to like always bother with seeing them from the side.
+[01:09:22] Usually how this looks like is that you want to still not close in.
+[01:09:31] I'm saying just to say here,
+[01:09:42] I don't saturate absolute.
+[01:09:45] So I can see them from the side, but they become transparent when I'm on the side.
+[01:09:49] Basically that's really useful.
+[01:09:51] It helps you like not, for instance, the flames that we were talking about last time.
+[01:09:56] It makes it so that you don't, you don't end up having like the flames.
+[01:10:04] You can see the mesh bit to the side.
+[01:10:06] As a result, you can see the mesh bit to the side.
+[01:10:08] That's really cool.
+[01:10:09] And then you can also, you can see the flames.
+[01:10:10] You can see the flames.
+[01:10:11] You can see the flames, the flash.
+[01:10:13] You can see the flames.
+[01:10:14] Okay.
+[01:10:14] Okay.
+[01:10:14] You can put the flags later on if you're like having like a few more
+[01:10:28] ati to do that.
+[01:10:28] One, one thing that's else.
+[01:10:29] Oh, one thing I'll that I want to say is that you might wanna have like a marker feels.
+[01:10:35] So if you are setting something up, you can put like a marker there and.
+[01:10:43] We'll call it normal.
+[01:10:44] Uh-huh.
+[01:10:44] that also don't like that.
+[01:10:46] Yeah, I can show you.
+[01:10:49] Exactly, it's exactly the same technique.
+[01:10:51] It's not exactly the same technique, but it's close.
+[01:10:54] Push.
+[01:10:55] So yes, this is the same idea.
+[01:10:58] Basically, you have this shine.
+[01:11:00] We're talking about the shine that's onto this material here.
+[01:11:03] You can see it follows here.
+[01:11:04] And this is exactly the same.
+[01:11:06] There's also this thing.
+[01:11:07] If you look at the green here, if I go closer to it,
+[01:11:09] you can see that it disappears because I have a thing that
+[01:11:12] says, if my camera is close to the point,
+[01:11:14] then it disappears.
+[01:11:15] So if I come closer to things, they start disappearing.
+[01:11:18] Not always, but the side ones, yes.
+[01:11:20] And then I have the same thing that
+[01:11:21] says, if I look at it from a certain angle,
+[01:11:24] then they start disappearing so that I don't
+[01:11:25] get those annoying glitches.
+[01:11:28] You can see it in particular when you look at the side
+[01:11:30] like that.
+[01:11:33] Yeah, but otherwise, this thing on the ground
+[01:11:35] here, not actually the same.
+[01:11:37] So this thing that you can see, it just follows you.
+[01:11:40] What I do is the following.
+[01:11:42] Draw back again.
+[01:11:44] I take this is like this is the camera is in the center,
+[01:11:48] right, of the screen.
+[01:11:50] And I draw a line between this point in space and the camera.
+[01:11:54] And then I put that line only on the x-axis.
+[01:11:57] So right now, I would have some like x, y, and z.
+[01:11:59] So I put that line only on the x-axis.
+[01:12:01] So that means that I'm drawing all the way to the ground.
+[01:12:04] And then I'm coming here.
+[01:12:05] This is like in 3D.
+[01:12:08] And so I'm taking only this axis.
+[01:12:10] And then I'm saying on this axis, anything that's
+[01:12:14] on this mesh that's close to this part,
+[01:12:16] I want it to be colored different.
+[01:12:18] So I give it a lerp of that color.
+[01:12:20] So yeah, that's the main idea.
+[01:12:23] I can show you an extra thing, thigh, head.
+[01:12:35] For that one in particular, scroll, scroll, scroll, scroll,
+[01:12:41] scroll, scroll.
+[01:12:44] Boom, boom, boom, boom, boom, boom, boom, boom.
+[01:12:47] Cha, cha.
+[01:12:51] Let me find.
+[01:12:55] This, I guess, will do the trick.
+[01:12:59] So no, not at all.
+[01:13:00] No, no, no, no, no, no, no.
+[01:13:03] This is not at all what I wanted to do.
+[01:13:05] No, not download.
+[01:13:06] How do I delete that?
+[01:13:11] Right click, delete, yes.
+[01:13:12] Yes.
+[01:13:13] Today is a big thing.
+[01:13:14] It's like fat finger day.
+[01:13:19] OK, so on this Twitter post, there's
+[01:13:22] all the breakdown of this effect that I already made.
+[01:13:25] And you'll see that it has the details of the shader
+[01:13:31] and how this technique works in particular.
+[01:13:35] Yeah, it's pretty fun.
+[01:13:39] Just to give you an idea of what I can do with it,
+[01:13:42] perhaps I can do this slightly more live.
+[01:13:44] I can show you.
+[01:13:46] I think it's pretty simple.
+[01:13:49] This part.
+[01:13:52] So someone was asking last time, so I
+[01:13:55] think it's interesting to say too.
+[01:13:56] For this effect, for instance, what I did
+[01:13:59] is that I started by doing this thing,
+[01:14:02] like the shader for this thing, like this.
+[01:14:04] And then I built on top of it.
+[01:14:06] I was working with a reference, so I knew what I wanted to do.
+[01:14:08] But I told myself, if I'm capable of making one of those swirls
+[01:14:12] like that, I'll be able to make all the swirls.
+[01:14:14] And I'll build the others afterwards.
+[01:14:16] So I started with quite a complex shader, and then I worked.
+[01:14:21] So what I want to show you is the following.
+[01:14:24] It's pretty fun.
+[01:14:27] It's coming.
+[01:14:28] It's slowed.
+[01:14:30] It's thinking really hard.
+[01:14:32] Pretty big shader.
+[01:14:35] Grain, no.
+[01:14:37] Screamer, screen space, noise, no.
+[01:14:40] Horizontal distance.
+[01:14:44] This one.
+[01:14:45] OK.
+[01:14:46] And now this is just the thing that I was talking to you about.
+[01:14:50] Just the vertical shine that we have here.
+[01:14:53] As you can see, it's just taking the center of that point,
+[01:14:56] so the little dot that's here, looking at the camera
+[01:14:59] and saying, we're going to draw a line from the camera
+[01:15:03] to the center of that point.
+[01:15:05] So it's going to be a little dot here.
+[01:15:07] And then it's going to be a little dot here.
+[01:15:09] And then it's going to be a little dot here.
+[01:15:11] And then it's going to be a little dot here.
+[01:15:13] OK.
+[01:15:13] OK.
+[01:15:13] The center of that point, as you can see.
+[01:15:15] So it takes kind of, you can imagine,
+[01:15:17] it takes kind of the bottom of this.
+[01:15:18] And it's going to trace it only on the x-axis.
+[01:15:21] And it's just going to go from there to there.
+[01:15:24] And there's great.
+[01:15:28] If I find which part of the shader does it,
+[01:15:32] you can control it by using something.
+[01:15:36] No.
+[01:15:37] Probably distance field size.
+[01:15:41] Sun scale.
+[01:15:41] Aha.
+[01:15:42] Yeah.
+[01:15:42] Control it by making it tiny.
+[01:15:45] Here you can see exactly the line.
+[01:15:59] And you can also make it more powerful, which is pretty fun.
+[01:16:07] Yeah.
+[01:16:08] So it gives you a little idea of how this works.
+[01:16:12] Yeah.
+[01:16:13] So this is distances.
+[01:16:15] It's not really using the normal.
+[01:16:17] Yeah.
+[01:16:19] Hey, hey.
+[01:16:22] And you see there's no emissive, by the way, on this at all.
+[01:16:25] This is only colors within colors within colors.
+[01:16:28] So it helps to have control, basically, over stuff.
+[01:16:32] If you add emissive to this, you'll
+[01:16:34] lose a lot of control over the different coloring.
+[01:16:38] But that's going to allow you to fix that by simply
+[01:16:39] using potions.
+[01:16:41] That's how you do it.
+[01:16:42] And if you always go back, it's great.
+[01:16:45] Yeah.
+[01:16:45] Any questions?
+[01:16:46] Any questions?
+[01:16:46] Any questions,hhh, I don't recall anything.
+[01:16:55] At what point did you go?
+[01:16:57] Anything else?
+[01:16:58] Yeah.
+[01:16:58] Tell me.
+[01:16:59] At what point did you go?
+[01:17:01] Yeah.
+[01:17:01] Tell me.
+[01:17:02] At what point did youARON?
+[01:17:05] Anything else?
+[01:17:06] Yeah.
+[01:17:06] Tell me.
+[01:17:07] At what point did you feel more comfortable?
+[01:17:12] Like, what was it?
+[01:17:12] Well, you come from a technical background, so maybe it was a lot faster for you.
+[01:17:17] But at what point did it click for you or it was, like, no longer overwhelming for shaders
+[01:17:25] and you were, like, comfortable, like, time frame-wise?
+[01:17:30] Yeah, that's a good question.
+[01:17:31] So I would say that I was dabbling a lot, but I got comfortable quite fast.
+[01:17:37] I was pretty lucky.
+[01:17:38] I would say that right now, this is Strangers are my strong suit.
+[01:17:41] And I'm pretty comfortable at it.
+[01:17:43] I would say that the best way I had to be comfortable at it is to remake over and over
+[01:17:47] and over that base shader.
+[01:17:49] Like, basically, to make a new shader for every effect that I was due, I would basically
+[01:17:54] create a new shader, create a new material, be like, OK, I am going to start from scratch.
+[01:17:59] I'm going to have just my own.
+[01:18:01] I'm going to have a bit master here.
+[01:18:02] And I'm going to say, OK, I need, like, go back to the motion basically every time, saying,
+[01:18:07] OK, I need a texture.
+[01:18:10] OK, then what else do I need?
+[01:18:13] I need a sampler for my texture.
+[01:18:15] OK, then just go for the sample, basically.
+[01:18:19] I need a texture.
+[01:18:20] OK, I have a texture.
+[01:18:21] Then I need, what do I need?
+[01:18:23] I need my color.
+[01:18:24] So in Unity, it's called vertex color.
+[01:18:27] But in Unreal, it's called particle color.
+[01:18:30] And then what else do I need after that?
+[01:18:32] I need, I don't know, like, let's say that that's all I need.
+[01:18:36] OK, so my vertex color, I need to split it between alpha, which I'm going to plug into my alpha.
+[01:18:42] And then the color, which is, take my color, multiply it by, or like, the texture does the alpha.
+[01:18:51] So I'm going to have to multiply the alpha with the texture.
+[01:18:57] Usually, I can just use this one.
+[01:19:00] OK, and then for my color, what do I need to do?
+[01:19:03] Well, I can just take my vertex color and put it inside.
+[01:19:05] And then I'm done.
+[01:19:06] Like, those four nodes, just putting them in and being like, OK, I start from scratch.
+[01:19:10] I re-put it back together all the time.
+[01:19:13] Helped so much for me to, like, be comfortable with the interface, be comfortable with the tools,
+[01:19:17] and overall, like, know when I'm looking for a node.
+[01:19:20] And slowly, I would add, like, a little bit of something else.
+[01:19:24] I think one thing that helped me a lot is when I started, basically, make quality of life for myself.
+[01:19:28] So, like, saying, OK.
+[01:19:29] Actually, now, I want a custom one that's basically just a depth fade.
+[01:19:36] So I have a depth fade subgraph, for instance, that I can just plug and play directly.
+[01:19:40] And it's not very complicated.
+[01:19:42] Like, I just, honestly, the first ones I took, I took them from the internet.
+[01:19:45] I found one that I liked more or less.
+[01:19:47] I took it, and that's it.
+[01:19:48] So you can basically take the one that I've given you.
+[01:19:50] But yeah, that's the simplest thing to do.
+[01:19:54] Make a few subgraphs that you use, and then get used to building your own stuff.
+[01:19:59] I found it.
+[01:19:59] That's the best way to, like, for me, that was the best way I got to get used to it.
+[01:20:04] I was already very agile with math, in general.
+[01:20:07] Like, I can visualize very easily the vectors and the different curves that are on top of each other.
+[01:20:12] I would say that, in general, using, like, this kind of demonstration is super good.
+[01:20:18] Like, either in Shader, that's why I'm more into Shader Graph than Amplify.
+[01:20:22] Because Shader Graph gives you live preview.
+[01:20:26] A bit like in Unreal, if you enable the live preview.
+[01:20:29] And that I find super good to, like, understand.
+[01:20:32] Like, let's say, for instance, I have a texture that I find.
+[01:20:35] OK.
+[01:20:37] And I would like to see how it dissolves.
+[01:20:38] Or I can just take this one, say, subtract, and then say, OK.
+[01:20:43] I look at it, and I can see how it dissolves.
+[01:20:47] And that is, like, such a blessing.
+[01:20:49] Like, that's so good.
+[01:20:50] And then here, what I can do is I can, like, saturate it, and then say I'm going to lerp it with, like,
+[01:20:56] lerp it with, like, a little bit of a blur.
+[01:20:58] Like, that's it.
+[01:20:59] And then I can lerp it with, like, two colors.
+[01:21:01] Color and color.
+[01:21:12] Red and the blue.
+[01:21:15] And then suddenly, I can come in and say, OK.
+[01:21:17] And now, if I set, if I, like, dissolve it, I can see, like, the transition.
+[01:21:21] And I can see, like, oh, actually, this lets me see that those glows are actually interfering a lot with what I'm doing, et cetera.
+[01:21:28] And I can also say, actually, now I want another texture that's, like, a ring.
+[01:21:38] I want to add those together.
+[01:21:41] OK.
+[01:21:45] And then here, I can say, OK, now I can see what happens if I dissolve them together.
+[01:21:50] And I get this cool, like, kind of effect on the sides where I still keep the circular part.
+[01:21:55] And those kind of experiments, like, I can see.
+[01:21:56] I can see.
+[01:21:57] I can see.
+[01:21:58] And now, instinctively, I know that that's kind of what's going to happen.
+[01:22:01] But at the time, I didn't know.
+[01:22:03] And being able to very quickly experiment and see this, instead of what I'm doing here, what you can do is do the fraction time that we talked about before.
+[01:22:13] What I suggest you do is to make yourself a right-click convert to subgraph and call it your debug node, for instance.
+[01:22:20] And then you can just call your debug node whenever you want and just plug it in.
+[01:22:23] And it gives you a bit of an idea of what's going on.
+[01:22:27] So here, I can just do this.
+[01:22:28] And I can explore.
+[01:22:42] Interesting, I think.
+[01:22:43] This is a really good tool.
+[01:22:44] And it's so quick, then, to just change the texture, to just say, OK, I want this.
+[01:22:49] And I get very different results very fast.
+[01:22:51] I can just look at it while I have those to the side.
+[01:22:53] And I'm like, OK, what happens if I put two together?
+[01:22:56] Or if I put them together like that?
+[01:22:59] Or if I multiply them together?
+[01:23:01] There's so many options to this that I find it super, super valuable, basically.
+[01:23:07] Yeah.
+[01:23:10] I can also say what happens if I multiply them together.
+[01:23:17] Yeah.
+[01:23:18] Et cetera.
+[01:23:19] So there's lots of stuff to do with this.
+[01:23:20] I find it really useful.
+[01:23:22] It's useful for tons of stuff to just have this live preview.
+[01:23:25] And just experiment.
+[01:23:26] Once you get used to this and just experimenting, either with this or just you pick this.
+[01:23:31] And you just pull it up and down until you get the result that you're looking for.
+[01:23:34] You just look at it.
+[01:23:35] And you're like, oh, this is interesting.
+[01:23:37] Or those shapes are nice, et cetera.
+[01:23:39] And you can just keep going.
+[01:23:41] So one moment I think that unlocks me a lot was when I started using noise, graded noise,
+[01:23:47] like that.
+[01:23:48] And I started saying, OK, now if I subtract it, I get this really interesting, this kind
+[01:23:54] of dissolve like this.
+[01:23:56] And that was really fun.
+[01:23:57] And I think that's the first moment.
+[01:23:58] Then another thing that you can do is if you have a graded noise and you give it another
+[01:24:01] graded noise in the UV like that, you get this really fun pattern.
+[01:24:05] And I think that that's a really fun thing to do.
+[01:24:09] To make lava or stuff like that, it's useful.
+[01:24:11] And if you want to be very psychedelic, you can also have it.
+[01:24:15] Yeah.
+[01:24:17] Any questions?
+[01:24:22] That's very useful.
+[01:24:23] Thank you.
+[01:24:24] I'm glad.
+[01:24:25] I'm glad.
+[01:24:26] Oh,
+[01:24:29] no, not whatever.
+[01:24:42] It's anyway.
+[01:24:51] Same thing.
+[01:24:54] is trippy.
+[01:24:58] This is very fun.
+[01:25:00] Yeah.
+[01:25:01] So yeah, if you experiment, you start discovering fun stuff.
+[01:25:03] And sometimes it's useless, but it's cool.
+[01:25:05] And sometimes it's useful.
+[01:25:06] Yeah.
+[01:25:10] Any other questions that we can have?
+[01:25:11] And after that, I'm going to leave you all.
+[01:25:15] Yeah, I got a question.
+[01:25:16] I just want to add something as a reference.
+[01:25:19] So if you guys want to take a look, I'll put it in chat.
+[01:25:22] There's a site called Noclip.
+[01:25:24] Which basically has some breakdowns
+[01:25:27] of some different games from different eras.
+[01:25:30] And you can see how they've done a lot of different effects
+[01:25:33] and little 3D scenes.
+[01:25:35] So you can see a lot of things there are like simply panning
+[01:25:39] textures or scrolling through the shader.
+[01:25:41] And it already does a lot, usually.
+[01:25:44] So yeah, maybe if you guys are at some point looking
+[01:25:48] at reference or seeing how they do something,
+[01:25:51] or you think of, I don't know, Wind Waker.
+[01:25:53] I know Wind Waker has a lot of stuff.
+[01:25:54] You can click into the arrows of Wind Waker
+[01:25:57] and see how they do little torches, waterfalls,
+[01:26:00] stuff like that.
+[01:26:01] It's very fun because you can clip through everything.
+[01:26:03] So you can kind of see all the silly things that they do.
+[01:26:06] And waterfalls, et cetera, they let you see like, oh, this
+[01:26:09] is just a mesh that's actually round, et cetera.
+[01:26:12] That's pretty fun.
+[01:26:14] It's my favorite website too.
+[01:26:17] Just so cool.
+[01:26:18] It's really cool.
+[01:26:18] It's very fun to do.
+[01:26:19] They have Final Fantasy X, which is amazing.
+[01:26:22] They have all the, that's so sick.
+[01:26:24] They have the abilities too.
+[01:26:25] That's awesome.
+[01:26:26] Yeah, they have tons of stuff.
+[01:26:28] Yeah, it's very cool.
+[01:26:29] It's a really good study tool.
+[01:26:33] Yeah.
+[01:26:34] I have some questions, but mostly on industry things.
+[01:26:37] Sure.
+[01:26:39] One thing that I'm curious is, how do you
+[01:26:42] think the market is today for, in terms
+[01:26:45] of contractors versus freelancer versus in-house VFX artists?
+[01:26:50] Because I know that VFX artists are some of those short,
+[01:26:54] the smallest teams in development, because there's usually not a lot,
+[01:26:57] or projects usually are not big enough to demand a lot of VFX artists.
+[01:27:02] So I think from the outside, my vision is that it's where you should see in-house VFX artists.
+[01:27:11] Most are either going to be like contractors for specific projects,
+[01:27:15] or just outsourcers in general.
+[01:27:17] You can work for an outsourcer company, and then they outsource effects in general,
+[01:27:21] and you might be assigned to one of the projects.
+[01:27:24] How's that looking today, and how do you
+[01:27:26] think it's going to look in the next upcoming years,
+[01:27:30] especially with demands getting different, and project scale changing,
+[01:27:36] and AI, and all those stuff?
+[01:27:38] So AI doesn't change anything, I think, for now.
+[01:27:40] If AI changes anything, it's elite panic.
+[01:27:43] That's about it.
+[01:27:44] It doesn't change anything about our actual jobs for now.
+[01:27:48] The rest of the question, I would say the following thing.
+[01:27:54] Most big companies now, they still have in-house VFX artists, like Riot, Blizzard.
+[01:28:06] Any big AAA studio has an in-game, a dedicated VFX team that's usually sizable.
+[01:28:16] Right now, the WoW VFX team, for instance, is 10 people, 15 people, something like that, which is still a lot.
+[01:28:23] Right now, the WoW VFX team, for instance, is 10 people, 15 people, something like that, which is still a lot.
+[01:28:24] Right now, the WoW VFX team, for instance, is 10 people, 15 people, something like that, which is still a lot.
+[01:28:24] Like, it's still quite big just for WoW, and then there's a whole team for the other games, et cetera.
+[01:28:28] And then there's a whole team for the other games, et cetera.
+[01:28:30] Contractors exist in a very, like, the Contractor, So Beyond Effect, Tuatara.
+[01:28:38] There's tons of others, but those are the big ones that you'll hear quite often.
+[01:28:41] They are really big, and they work really well for this, the tier just under.
+[01:28:47] Basically, there's like AA games, the games that are big, but not the or,
+[01:28:53] so either for those, or they're just like a bunch of games.
+[01:28:53] So either for those double A games or for games that are from a big company, but the company doesn't have, they cannot hire like a new whole team for a project that they're not sure is going to work.
+[01:29:04] So instead they hire like that.
+[01:29:06] The last thing that they do is like, for instance, Valorant, they have a core team of VFX artists that do usually the new characters.
+[01:29:13] And then they have contractors that do the maps, the skins, etc.
+[01:29:18] So if you're working on Valorant as a contractor, you're probably going to be working on new skins.
+[01:29:23] And like the skins of Valorant are really big.
+[01:29:26] And if you're working on Valorant on characters, you're usually going to be in what's called initiatives.
+[01:29:30] And you're going to be in a small team of multidisciplinary people.
+[01:29:34] And usually you're going to be contracted directly by the company.
+[01:29:36] So it depends on the structure.
+[01:29:39] Most like if you look at, I don't know, Guild Wars 2, for instance, they have like an in-house company.
+[01:29:45] They don't outsource at all.
+[01:29:46] Other companies outsource a lot.
+[01:29:48] WoW, they don't outsource at all, for instance.
+[01:29:51] So it just depends on usually on the technology that you're using.
+[01:29:53] I would say that a lot of outsourcing right now for VFX is usually on this like middle, like AA games.
+[01:30:07] Or on big companies that are trying something.
+[01:30:10] Most of the posts that you're going to find are actually not outsourcing.
+[01:30:15] They are like most of the actual slots that you'll find for VFX artists are just in-house VFX.
+[01:30:22] The main difference.
+[01:30:22] The main reason why you don't see them is because people that are in-house, they stay in-house usually.
+[01:30:28] Whereas outsourcing is constantly growing and shrinking, growing and shrinking.
+[01:30:33] Usually those projects are kind of smaller.
+[01:30:35] And so they end kind of earlier.
+[01:30:38] And so overall, that means that you like people ask for more people.
+[01:30:44] And like the outsourcing companies, they ask for more recruitment.
+[01:30:48] So you see them more.
+[01:30:49] So it perhaps feels like there's more.
+[01:30:50] But I would say that there's more.
+[01:30:52] And like.
+[01:30:53] In-house.
+[01:30:53] Post.
+[01:30:54] It's just that.
+[01:30:55] Those are usually not quite visible.
+[01:30:56] And even if they're visible.
+[01:30:58] Usually.
+[01:30:58] A new VFX artist.
+[01:31:01] That's like a VFX artist.
+[01:31:02] If there's a new project.
+[01:31:03] They're usually going to hire the VFX artist that they knew from another project before.
+[01:31:07] Rather than going through the process of trying to recruit someone, etc.
+[01:31:11] And like, as you said, recruiting VFX artists is really hard.
+[01:31:15] Because there's not that many.
+[01:31:17] Right.
+[01:31:18] Especially at the level of quality that they need for the project.
+[01:31:22] Especially at high.
+[01:31:22] Scale.
+[01:31:23] I imagine they're like.
+[01:31:24] Very.
+[01:31:25] Yeah.
+[01:31:25] That is very hard.
+[01:31:28] Yeah.
+[01:31:28] Finding a very hard topic in general.
+[01:31:30] Right.
+[01:31:31] Yeah.
+[01:31:31] There's a lot of stuff.
+[01:31:32] And only being very hard.
+[01:31:34] The other question that I had is.
+[01:31:36] Since there's a lot to do, then a lot of options to specialize.
+[01:31:41] Not just like to the 3D and technology, but just in general.
+[01:31:44] Uh, even thematically, like I can maybe be an FX guy who knows really knows how to make water, but my rocks suck.
+[01:31:52] Or something like that.
+[01:31:55] I think, I don't know.
+[01:31:56] I see that happening at least to me a lot because there's so many, there's so much stuff that I haven't even tried yet.
+[01:32:01] And I know we're going to start because it's impossible that it'll amazing the first time.
+[01:32:05] I'm not even expecting that.
+[01:32:07] But if we are going to be making like a portfolio or something, uh, at this point, uh, I would just say it would be like the best approach in that sense.
+[01:32:17] Uh, I know that the best practice probably to post, like.
+[01:32:22] Not.
+[01:32:22] Do too much stuff, but the few stuff that you do be really good and show your best skills at the moment.
+[01:32:28] But then if, if you're like, I suppose let's use the same example.
+[01:32:34] Let's let's see, let's say I'm very good on fire, for instance.
+[01:32:37] Yeah.
+[01:32:38] Would you say that we should like focus and make, just make like three amazing fire pieces and stuff, or you think there's value to varying it?
+[01:32:47] Because I don't know how the recruit is going to be expecting it.
+[01:32:50] Right.
+[01:32:50] The person looking at this stuff.
+[01:32:52] I don't know.
+[01:32:52] I have this perspective from the people making the evaluation, just being evaluated.
+[01:32:57] Yeah, that's fair.
+[01:32:58] So, um, there's a few questions in your question.
+[01:33:01] The first question is a portfolio.
+[01:33:03] Uh, your portfolio should be three pieces.
+[01:33:05] If you're a junior, my opinion, three pieces, you just do three.
+[01:33:09] Those pieces need to be like kind of sizable.
+[01:33:11] So not like just to hit the Vector, but it needs to actually like have a little bit of a, of, of like, uh, what I say usually is worth the click.
+[01:33:18] Like the recruiter needs to click on it and feel like, oh, okay.
+[01:33:20] It made sense for me to play the video.
+[01:33:22] It.
+[01:33:22] Was not like just one second of, I think.
+[01:33:25] Um, uh, and then yes, they need to represent.
+[01:33:29] That's the most important part they need to represent as in like those pieces, they need to represent what you like working on the kind of style that you like working on and the kind of things that you're good at or that you like doing.
+[01:33:40] Um, that's for me, that's the most important part.
+[01:33:42] So what you should do is assess the things that you're good at.
+[01:33:45] If you're really good at fire and fire is your favorite thing, you probably can make both a fireball, a, like a fire missile.
+[01:33:52] And, uh, a fire aura for a character or whatever.
+[01:33:56] Like you're probably capable of make, if you're really good at fire, probably capable of like taking a car asset, like a 3d asset of a car and putting it on fire.
+[01:34:05] Then you're capable of making a super cool fiery explosion.
+[01:34:08] And you're also capable of making, I don't know, like a third, like fire thing that you would have like a, like a boon or something like that that you would do like a fire portal to another world.
+[01:34:18] And like, or perhaps you're really good at making fire in all different styles, for instance.
+[01:34:21] Yeah.
+[01:34:21] So, uh, being able to like identify what you're good at one and then to make a plan to say, this is how I'm going to showcase now by like taking together all the things is the best way you, you will have to make a portfolio.
+[01:34:35] As for what portfolio will make you recruited.
+[01:34:39] I will say, as long as you look kind of consistent on the quality of what you're showing in your portfolio and that your, your portfolio shows, um, um,
+[01:34:51] I will say, as long as you look kind of consistent on the quality of what you're showing in your portfolio and that your, your portfolio shows, um, um, um,
+[01:34:52] is clean.
+[01:34:53] That's the most important, like not clean as in like the overall thing, but their effects themselves are.
+[01:34:58] So there is no like clipping and the things, uh, the timing is overall good.
+[01:35:03] The basically if, if all the bars are high enough, then you'll be fine.
+[01:35:08] Not you don't need the thing to be absolutely astonishing.
+[01:35:11] Incredible.
+[01:35:11] Yeah, sure.
+[01:35:12] It will help.
+[01:35:12] But what you need to do is to make sure that the thing is clean because who is looking at the portfolio.
+[01:35:17] It's not another VFX artist.
+[01:35:18] It's a recruiter.
+[01:35:20] The other VFX artists, they're going to talk to you.
+[01:35:21] They're not going to select you from your portfolio.
+[01:35:24] So just make something that's clean and that's like simple and don't burn out on making your portfolio because that's like always something that we might say, Oh no, but the bar is so high, et cetera.
+[01:35:33] No, don't bother about it.
+[01:35:34] Make something that's one yours too.
+[01:35:37] That's clean.
+[01:35:37] So you need to be feel represented.
+[01:35:39] It's yours.
+[01:35:39] It's something that's really about you.
+[01:35:42] And then two that's clean.
+[01:35:43] That's something that is like, just like you're making sure that this is, this represents that your skills and you're not being too ambitious.
+[01:35:51] You're not making something.
+[01:35:51] That you don't know how to do your mix.
+[01:35:54] That's like, I would say those are the two things that will get you hired.
+[01:35:58] So remember are those art principles tell yourself, okay, I need a few colors, not being watercolor.
+[01:36:04] I need things to be like, well laid on the ground.
+[01:36:06] I need the structure to be good.
+[01:36:09] The timing needs to be overall good with like the different artistic, artistic, um, uh, fund, um, fundamentals that we talked about before.
+[01:36:22] Right.
+[01:36:23] Awesome.
+[01:36:23] Thank you.
+[01:36:24] Yeah.
+[01:36:29] Anything else can, can come up with the, was we're gonna cut it.
+[01:36:32] I was gonna follow up to what you're cause you were saying, make it yours.
+[01:36:36] So like would it be a trap for me to be like, okay, well I like league.
+[01:36:41] So if I wanted to try and make like Vali bear E.
+[01:36:44] Because it, it feels like it's in that frame of something that's readable that could be readable for video game.
+[01:36:50] Yeah.
+[01:36:50] Right.
+[01:36:50] Yeah.
+[01:36:50] Yeah.
+[01:36:50] Yeah.
+[01:36:51] And like, and, and, and, and.
+[01:36:51] Yeah.
+[01:36:51] And, and, and, and, and.
+[01:36:51] Yeah.
+[01:36:51] but also i like lightning um should i make just make something my own or should i use the volley
+[01:36:58] bear e as like a uh a starting point like oh i like the way that this is and then make it
+[01:37:04] something different or is it bad to like make stuff referencing other games i guess is my question
+[01:37:12] like fan like like a fan skin some people might tell you oh fine art is really bad blah blah blah
+[01:37:19] you shouldn't be doing fan art etc i i will tell you i think that fan art contrary is super
+[01:37:24] beneficial like on you are showing to the recruiter that you are capable of taking an art style that
+[01:37:29] you saw somewhere and then redo it yourself and making it yours that means that if you're coming
+[01:37:34] into their team now and like you're going to be able to also like the recruiter tells themselves
+[01:37:39] oh if this if i hire this person they're going to be able to come onto my project and then they're
+[01:37:45] going to be able to assimilate their my my
+[01:37:49] art style it's like oh that's great that's perfect so in my opinion on the contrary like
+[01:37:54] doing fine art is not a problem the only thing that might be bad is if you make fine art and
+[01:37:58] you're not capable of actually reproducing the art style in that case if the recruiter can see
+[01:38:03] that which recruiter is usually not an artist so the recruiter can see that then you might
+[01:38:07] it might like be a negative for you but overall i think it's supposed
+[01:38:11] to have like a mix then is good so yeah and it sends a very clear signal it says i want to work
+[01:38:19] on this
+[01:38:19] kind of games like it's just like it's very clear you don't have to like oh but this art style
+[01:38:23] reminds me of this or that no no it's like i made a fan art of like i don't know hollow knight so i
+[01:38:28] want to work on metroidvania kind of games full stop and that's like at least the recruiter knows
+[01:38:33] what they're getting into okay that's that's good thank you uh so i so i have a follow-up question
+[01:38:43] so yeah sure doesn't that reduce your so in terms of like higher ability does it
+[01:38:49] if you focus like because i i guess everyone wants to work at riot or you know epic games or
+[01:38:54] so doesn't that reduce your um so there's a lot of competition in that sense that
+[01:39:00] i don't know how the recruiter would think but like everyone would try to make that same
+[01:39:05] kind of style so that would make the bar even higher for them to pick you up in comparison
+[01:39:13] if you make something like i don't know different that you are more flexible to
+[01:39:19] work on any type of studio but then i don't know later you can specialize or
+[01:39:25] because that's i don't know what kind of i don't know what kind of portfolio you would have to do
+[01:39:30] as a junior to show the recruiter that you're good at making all the different styles and all
+[01:39:36] the different artworks every time i think that's actually a portfolio that's significantly harder
+[01:39:41] than a portfolio that's a bit more targeted and uh yeah people know that when they hire a junior
+[01:39:46] the junior doesn't know how to do everything
+[01:39:49] i'll tell you one thing my partner always tells me i never like they tell me i never was hired
+[01:39:55] for a job i was competent and i think that resonated with me it has like this this this
+[01:40:00] this thing of like you have to accept that a lot of studios they use engines that you don't know
+[01:40:06] or a process that you don't know even if they use an engine that you know they probably have
+[01:40:09] like layers upon layers of extra tools that you will have to learn so um you'll never be
+[01:40:15] competent that's the thing that you do i think that like you're never going to be competent
+[01:40:19] at the the job that you're hired for immediately there's always going to be a bit of time
+[01:40:23] so i i think that you rather than thinking oh i need to make a portfolio that like tailors to
+[01:40:30] everything what i would do is that shows kind of like your strengths and then if people want to
+[01:40:35] hire you for something else that then you can still make it work also like if you've done only
+[01:40:43] like like real like a stylized vfx it's like if you have to put a
+[01:40:49] realistic vfx in your in your in your portfolio then you'll have to learn realistic vfx right
+[01:40:54] which is its own kind of worms so like yeah if you know how to do both and you feel confident
+[01:41:00] doing both sure do one of each but usually it's better to specialize in one thing make three
+[01:41:06] good pieces that are clean that are like stuff that you like and then work without rather than
+[01:41:12] trying to optimize for everything that people will want um especially like the
+[01:41:19] oh you need to have a portfolio that's able to take any job offering because all the job offerings
+[01:41:24] are like uh like like oh they're so little so you need to really make sure that you like hit every
+[01:41:31] mark that's possible i don't think i don't think that you need to hit every mark that's there like
+[01:41:37] if someone needs to hire you like they they will try to hire you especially juniors they're okay
+[01:41:42] hiring a junior that doesn't have the same art style and then say i'm going to try to like
+[01:41:46] like give you some extra money and then you're like oh i need to have a portfolio that's able to
+[01:41:49] hire skills like my first job i went in with like fully like wind walker kind of style like all like
+[01:41:54] just very cel-shaded stuff and i went directly on like horizon zero dawns or a very like already
+[01:42:00] realistic game so like i think that that's not uncommon i've seen a lot of people do like stuff
+[01:42:07] that was similar so i wouldn't think oh no like my portfolio will make it so that i'm not hireable
+[01:42:16] i would just tell me yourself the portfolio
+[01:42:19] is just to get rid of the recruit
+[01:42:21] that's yeah because what i was thinking i mean so i get confused because i like even before the
+[01:42:30] boot camp i i heard like different things so that's why it gets confusing because like for
+[01:42:35] the example you gave with your portfolio like if you if let's say a recruiter uh saw two people
+[01:42:41] and they saw someone who made who wants to work on their game like horizons and so they made like
+[01:42:47] a very specific portfolio and they made like a very specific portfolio and they made like a very
+[01:42:49] specific portfolio kind of like sort of like a fan art so would would you say like how this would
+[01:42:54] make you uh like like and yeah from the recruiter position which one would you like be like oh no
+[01:43:03] this guy already knows my art style he's uh he has more chances or rather i don't know the other
+[01:43:10] person so that's kind of like uh so i will tell you that's a really fun example it's very fun
+[01:43:15] example because actually this doesn't increase your chances at all
+[01:43:19] it's like perhaps 10 percent more chances be higher to something i have not much more because
+[01:43:23] actually like what would happen in this is like the recruiter will have like between one and five
+[01:43:28] people that are available i would say like five five five people for a a a job opening is already
+[01:43:34] quite high so they would have within one and five people okay so already if there's only one you just
+[01:43:38] don't have to discuss at all but okay but if there's there's there's like let's say there's
+[01:43:42] five okay that person who did the fan art is that they're they're gonna say okay like that's cool
+[01:43:46] they understood some stuff etc like they
+[01:43:49] pass the the recruiter comes in and says directly cool this one like passes to the interview stage
+[01:43:54] cool but the other ones they still need other people and the chances that someone has a fine
+[01:43:58] art of their own thing quite low so overall they're going to look at stuff and everything
+[01:44:04] that's mostly clean is going to pass to the interview stage three to four people is no
+[01:44:09] problem for the interview stage and the one that will not be there it's usually because they either
+[01:44:12] feel like they don't have the level that like the the fundamentals yet so again clean they're not
+[01:44:18] clean enough
+[01:44:19] and or because like of like inconsistencies in the the the i don't know the curriculum or stuff
+[01:44:27] like that like in the the resume but that's very rare like usually they'll take most of the people
+[01:44:32] that apply and that have that meets the bar will get hired and will get to the interview then in
+[01:44:39] the interview having done the project before well it doesn't actually help you that much because
+[01:44:44] mostly in the interview it's vfx artists that are talking to you to try and see if
+[01:44:49] you're going to be able to work with and if you're going to be easy to work with as a junior because
+[01:44:55] the senior that's interviewing you they're thinking this is going to be someone that i
+[01:44:59] have eight hours a day all the time that i need to give guidance to and i need to to guide over
+[01:45:06] through like different processes through the different art style to give feedback to is this
+[01:45:10] person easy to give feedback to is this person enjoyable to work with every day etc and that's
+[01:45:15] to be the thing that gets you hired like the the biggest thing that is more important is does this
+[01:45:20] person understand the job does this person like understand what i'm saying when i say okay like um
+[01:45:26] um like on this part like your your your this fundamental is not quite there or your shapes
+[01:45:32] are not quite there or your hierarchy is not right there or the layering is not quite there
+[01:45:35] like all those things like that that's the thing that the the artist is looking for and if you have
+[01:45:40] someone that's like oh this is my perfect job i'm so excited and it's really excited but does
+[01:45:45] it listen to the the person in front of them there's actually a chance that they don't get
+[01:45:48] hired so um i would say that yeah i don't know if that illustrates the the the the problem well but
+[01:45:55] yeah it's overachieving on portfolio is not useful
+[01:46:00] it is crystal clear i can see it the picture yeah it's a job after all so it's yeah i would say that
+[01:46:07] as a as a mid senior it is more useful to have a portfolio that is widespread i would say i
+[01:46:15] would say yeah it's more useful to have a portfolio that is widespread i would say i
+[01:46:15] have multiple people that told me gabby your your job like your portfolio here is too stylized and
+[01:46:22] not realistic enough therefore we can't hire you it's like okay sure like okay fine i will i will
+[01:46:29] like i i have all the horizon stuff and i have the middle of honor stuff etc but still like i
+[01:46:33] guess it's not good enough i don't know i i've had people telling me this is too stylized so
+[01:46:39] i think that that's something mid to senior people might need because you need to show that
+[01:46:45] you have like expertise over stuff but as a junior i would say never okay yeah thank you
+[01:46:53] something on the topic of hiring yeah obviously it's different for effects artists but
+[01:47:04] i would say like it's it's good to to do stuff that you like in the first place because
+[01:47:11] i was so many times in this position where you know i
+[01:47:15] was trying to to make stuff the industry would like and versus like stuff that i liked and
+[01:47:22] you know and then i would see the job opening for exactly what i would have liked
+[01:47:28] but since i did not do the thing that i liked you know that's so true i did not have the portfolio
+[01:47:34] for that job so you know i like anime and cars and like okay there's this you know one once in
+[01:47:42] a lifetime game that combines anime and cars and you know i would say that's what i would have liked
+[01:47:45] but since i did not do the thing that i liked you know i would say that's what i would have liked
+[01:47:45] but since i did not do the thing that i liked you know i would say that's what i would have liked
+[01:47:45] and cars but now i don't have either anime or cars because i was trying to fit in you know so
+[01:47:53] just yep that's a bit of perspective very relatable
+[01:47:56] i have heard this story before it's very fun yeah yeah
+[01:48:03] yeah that's very true i think that's a good philosophy too
+[01:48:11] i you will hear other people say other things in the industry
+[01:48:15] will hear people say oh no it's very important that your your portfolio does this this this and
+[01:48:19] that i'm telling you what my philosophy is what i suggest you do is if someone if you hear other
+[01:48:23] people say other things around um like listen to it ask yourself what version like of like like
+[01:48:31] try to build your own model of what you would like for like hiring and for stuff like that try to um
+[01:48:39] think about it critically and come back to it and kind of like convince yourself of a way you want
+[01:48:43] to approach portfolios i think that's a good thing to do yeah i think that's a good thing to do yeah
+[01:48:44] i think that they're kind of a tricky thing to to to put your your hands on i i know i have like
+[01:48:49] strong opinions about it now because i'm like i've went through a bunch and i've heard i've
+[01:48:53] heard multiple opinions from different sides and so i'm i this is where i'm at right now but like
+[01:48:59] perhaps i'll change my mind in the future right now like i i know that when i started for instance
+[01:49:03] every killing you need to put this in a real game it needs to be in a live game otherwise
+[01:49:09] it doesn't count it needs to have a game background otherwise it doesn't count blah blah blah and
+[01:49:14] so fine art doesn't count etc so but other people told me fine art are great and they someone told
+[01:49:22] me one day oh yeah fine art does the thing where you show that you're capable of deconstructing
+[01:49:26] the art style of someone and then suddenly it worked out so yeah i would suggest just
+[01:49:32] absorb what other people say and then make your own
+[01:49:40] yeah yeah i guess as long as for the journey as long as you have the fundamental
+[01:49:44] of of course like that's and you are being a nice person being like uh you're willing to work with
+[01:49:52] other people i guess that's like what i guess everyone is looking for uh for a starter so
+[01:49:57] it makes sense yeah yeah yeah um one thing that's really important is to be able to ask for feedback
+[01:50:04] and give feedback i this is really important so i i should have dedicated a bit more time
+[01:50:09] to it but i'm going to try and do a little thing here when you ask for feedback to someone if like
+[01:50:14] in the future in the next like three months if you continue like the space you you'll you might get
+[01:50:20] in contact with some people in the industry that are really nice and are like working artists but
+[01:50:24] they want to help you if that happens um one skill that you need to work with is how to ask for
+[01:50:31] feedback how to ask for help how to ask for for for advice when you post your work let's say in
+[01:50:38] the vfx apprentice discord you want to post your work just to like show i don't know a new effect
+[01:50:43] that you made when you post your work you want to show i don't know a new effect that you made
+[01:50:44] your work it's really important that you do a few things first off you need to ask specific
+[01:50:51] questions so explain first okay this is my video but you don't just dump the video and ask people
+[01:50:57] what like what do you think about it you say okay this is my video i am at 80 i'm currently
+[01:51:03] polishing my work i'm at 80 done i think i haven't finished on the outer shock wave of my effects
+[01:51:10] but overall the inner part is pretty much there and my timing will i don't want to
+[01:51:14] change my timing you might say my timing does not change don't give me feedback on my timing
+[01:51:19] and you might say i'm not sure about my colors for instance does anyone have advice about the colors
+[01:51:25] by being precise and if you say about the colors of the ribbons that are around specifically that's
+[01:51:29] even better by being precise on what you do not want and what you want on feedback it's perfect
+[01:51:37] it's exactly what people want especially so both if you're putting this in a public space
+[01:51:43] and people start answering you random stuff that you didn't ask for or if you're asking a
+[01:51:48] professional that's kindly spending some time to try and give you some advice there it's really
+[01:51:53] important to ask very precisely so that's easy for them to answer you directly rather than trying to
+[01:51:58] find which part to start so that's also a skill that will be very useful once you're in a company
+[01:52:05] so i would say that this is like a really good skill to try and learn when you ask for feedback
+[01:52:11] just stop and say okay
+[01:52:13] this is the stuff i have and try to force yourself to say okay i need to ask for what do i need
+[01:52:20] feedback on where am i in the project what information do i need to add to this in order
+[01:52:24] to get the corresponding result i'm like yeah yeah actually that's true not only in vfx i guess
+[01:52:32] everywhere because like i had an example in my current job where like i had to work with like
+[01:52:38] some junior people like i had to mentor them and yeah so when this just comes to you as the
+[01:52:43] like can you help me with this or like it's not like yeah so you prefer it's it's if it's more like
+[01:52:50] they give you like what they exactly need and they so that's yeah i i agree yeah
+[01:52:56] yeah i mean my job is not to give you like communications lessons so
+[01:53:01] i i could help you i i have done like non-violent communication and other like uh kind of like
+[01:53:06] techniques but i don't think they're necessary as long as you know how to use like as long as you
+[01:53:13] know how to yourself communicate with with like people i think
+[01:53:19] yeah
+[01:53:21] um it is pretty late we have done almost two hours but i hope this was valuable for you all
+[01:53:26] i thought i hope that this was something that was interesting um i'm happy to let we have one
+[01:53:31] more compiler where we can kind of do the same thing um i'm happy to do that again if you have
+[01:53:37] any questions in the meantime uh keep them ready keep them warm uh write them down perhaps and
+[01:53:43] keep keep going on those um yeah and especially if you have something that coming out of this you
+[01:53:49] have some stuff that's missing um from now on please send me a pm at some point when you have
+[01:53:57] some time each one of you where you just send me like where you think you're going afterwards so
+[01:54:03] basically like what you think you're missing or what information you think you're missing how
+[01:54:09] much time you're going to have afterwards basically so i have a little bit of a of a view
+[01:54:13] of where you are at right now and what so i can give you some advice in pms to where to go next
+[01:54:20] so what to do with that next month that you have obviously if you already have a plan if you know
+[01:54:24] exactly what you're doing you don't have to send me a message it's just if you want uh just send
+[01:54:29] me a message explain to me that that's also a good way to like train on that feedback thing
+[01:54:34] explain to me where you were at right now how you feel about things if you're you feel like
+[01:54:37] you're ready to make a pro piece or if you're lost if you're confused if you don't know where
+[01:54:42] to go and that's the way to go um so i hope that this was helpful um if you have any questions
+[01:54:42] please feel free to ask me in the comments below and i'll see you in the next video or in the next video
+[01:54:43] go if you feel like you've learned a lot of stuff but you need to still like assemble them together
+[01:54:47] and you don't know how uh if you feel like you're lacking in like you feel like you're not efficient
+[01:54:53] in like how you work or something now anything that you have there send me a pm and i'll try
+[01:54:59] to give you a concise answer on where to quit um in that case if there's no other question
+[01:55:08] i'll see you all on monday and for you know like and then we can start
+[01:55:12] the last week see you monday bye everyone
+[01:55:17] you guys

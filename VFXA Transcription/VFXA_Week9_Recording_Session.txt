@@ -1,0 +1,2198 @@
+[00:00:00] So we can do this week.
+[00:00:07] This week is last week.
+[00:00:08] I am both sad and proud at the same time.
+[00:00:12] So that's great.
+[00:00:14] All your messages about what you're going to do later
+[00:00:16] makes me feel like you really learned.
+[00:00:20] And there's so much new stuff to look at.
+[00:00:22] So I'm really excited to see.
+[00:00:23] I am really excited to see where you go next.
+[00:00:26] So I will say that I will repeat it at the end.
+[00:00:32] But I'll say it now.
+[00:00:33] Please, please, please, please, please send me any messages
+[00:00:35] if you get hired or apply somewhere
+[00:00:38] or if there's anything exciting regarding your career
+[00:00:40] in the future, anything that comes up.
+[00:00:42] I'll always be delighted to know where you're going
+[00:00:45] and how things are going.
+[00:00:46] If I can help with interviews or if I can help with anything
+[00:00:50] you would have questions on, feel free to ask me.
+[00:00:53] I still exist after this.
+[00:00:54] I will still be someone.
+[00:00:56] Just I will.
+[00:00:56] Just not to be the mentor for VFX Apprentice.
+[00:00:59] But otherwise, I am very glad to get some.
+[00:01:05] All right.
+[00:01:06] Yeah, let's do this last session.
+[00:01:07] The goal is going to be to give some more thorough feedback here.
+[00:01:11] And what I'm going to focus on here specifically is.
+[00:01:16] Where are we here compared to getting to starting to make a portfolio?
+[00:01:21] So basically, some of you, I'm going to say, hey, I think you're ready
+[00:01:24] to start a portfolio now or like in a week.
+[00:01:26] And others, I'm going to say, I think you should take the month
+[00:01:29] to settle to like wrap up the things that you've missed
+[00:01:34] or to kind of like go deeper into this and that skill.
+[00:01:38] And then after that month, try to make a portfolio.
+[00:01:41] I might also tell you, I think you should do this month like this
+[00:01:45] and then send me a message and then I'll tell you and show me
+[00:01:47] what you're doing and I'll tell you like where you're where you're standing.
+[00:01:52] So, yeah, don't take it personally or that way, it's just I think,
+[00:01:56] it's better that you know if it's the right moment or not, rather than
+[00:02:00] that you start making a portfolio and then after two months, you realize that
+[00:02:03] it was not, you were not ready or things were not to the level that you would want.
+[00:02:09] So, yeah.
+[00:02:10] Let's start with Rin.
+[00:02:14] Tell me more about this one.
+[00:02:16] Yeah, so I just created, I just worked on this more and I wanted to play around
+[00:02:20] with more like the shaders and like I got like the dissolve to work and.
+[00:02:26] I also made it impact a lot sooner.
+[00:02:31] Or not a lot, just like slightly.
+[00:02:33] And then.
+[00:02:36] It's like, try to make the ribbon a bit more, a bit smoother because it was like
+[00:02:40] kind of chunky before and I was like, it's a lot of like trial and error to try and
+[00:02:45] get that to work, to look better.
+[00:02:48] And then I, I liked those like Sailor Moon stars she left at the campfire.
+[00:02:54] So I tried to do it on the impact.
+[00:02:56] Like I wanted to.
+[00:02:56] To them to dissolve out.
+[00:02:58] So yeah, this is fun.
+[00:03:00] Um, I also worked on a lot of those, those lessons before and I was troubleshooting so
+[00:03:05] much, it was like getting frustrating and starting to have like dreams of unreal.
+[00:03:10] I had to take a break.
+[00:03:11] So yeah, I feel good.
+[00:03:14] Yeah.
+[00:03:15] But yeah, it was fun.
+[00:03:16] Was there anything that was particularly hard in this one?
+[00:03:20] Like in this effect?
+[00:03:22] Um, just like trying to get the ribbon to be smooth.
+[00:03:25] Like it's cause like.
+[00:03:26] The way it's like made, it's kind of like segmented and chunky and I couldn't figure
+[00:03:32] out a smooth it out.
+[00:03:33] So I just kind of had to like try my best with like the textures and like, kind of like
+[00:03:40] faking it.
+[00:03:43] Yeah.
+[00:03:43] I think the second, I guess it's moving fast enough that you don't really like notice.
+[00:03:49] Yep.
+[00:03:50] 100%.
+[00:03:52] I think like it's those shapes here where it like becomes so big.
+[00:03:55] It can.
+[00:03:56] Yeah.
+[00:03:56] Can often be annoying.
+[00:03:58] It doesn't quite do the thing that you want.
+[00:04:00] Whereas like here, like this part, it just looks really smooth and you have this nice
+[00:04:04] layering here.
+[00:04:05] I think it works really well.
+[00:04:07] So yeah.
+[00:04:08] Yeah.
+[00:04:08] I think you did a great job with this.
+[00:04:10] Uh, I like what you added here with the sphere.
+[00:04:12] I think it works really well too.
+[00:04:14] Um, and the fact that you went with so many like different colors and the effect overall
+[00:04:19] is really rich.
+[00:04:20] So I think that works really well.
+[00:04:22] Those little stars, they like, you have a clear shape language.
+[00:04:26] So you can kind of see the whole effect.
+[00:04:28] Um, so I think that works.
+[00:04:29] You chose a missile that goes and hits.
+[00:04:33] That can be often difficult to do at the start, because as you said, there's those technical
+[00:04:37] parts and they can be really annoying.
+[00:04:40] Um, one thing I think that in the future, if you want to make missiles, I recommend
+[00:04:44] highly instead of having a trail behind, just having a quad that's like this on this, on
+[00:04:50] which you put exactly the same texture and exactly the same shader, I think that it's way easier to work with.
+[00:04:55] So that means that when your missile starts here, it immediately has its quad with the same trail.
+[00:05:01] That's the same length, but like already the flow exactly like you want.
+[00:05:05] So that means that it stays consistent over the whole length of it.
+[00:05:09] And then when it hits, you can just like the main issue is when it hits, you want it to like, kind of like fizzle into it.
+[00:05:16] Right.
+[00:05:16] You don't want it to continue moving forward, like a quad just moving like that.
+[00:05:20] And that can be a bit more difficult.
+[00:05:21] But, um, usually.
+[00:05:24] What I do is that.
+[00:05:25] I just.
+[00:05:25] I just lay it out to transparently as soon as it impacts in a very fast manner.
+[00:05:29] And usually that's enough.
+[00:05:31] Yeah.
+[00:05:31] So instead of a ribbon effect.
+[00:05:34] Yeah.
+[00:05:34] You just put a quad that's like, Oh, okay.
+[00:05:37] Follows the faces, the faces, the camera, but it is like always aligned like that.
+[00:05:42] Where are you using?
+[00:05:43] You were using unreal, right?
+[00:05:45] Yeah.
+[00:05:46] Yeah.
+[00:05:46] So in unreal, you put the quad that's aligned to velocity for instance, or that's aligned to this axis, either velocity or axis.
+[00:05:54] And then you just like, keep it there.
+[00:05:55] All the time.
+[00:05:56] Like always, always this direction that that works pretty well.
+[00:05:59] And it's, it will help you dodge the hassle of having to manage this trail who, from what I've seen of your, your effect, it has been a pain in your foot for a long time.
+[00:06:15] Yeah.
+[00:06:15] I think the layering here.
+[00:06:16] I think the layering here.
+[00:06:16] Is just gonna get it to work.
+[00:06:18] I feel you.
+[00:06:20] The layering here is really good.
+[00:06:21] I think it just, it just works really well.
+[00:06:23] Um, I think the star shape here.
+[00:06:25] Yeah.
+[00:06:25] You're using a lot of squashed stretch on it.
+[00:06:28] And I think that you'd be a better off like keeping perhaps always the same.
+[00:06:33] It's like a light flare.
+[00:06:35] So it's the thing that will stay constantly in front of the camera.
+[00:06:38] Like it will kind of stay similar.
+[00:06:40] So I think that that's squash and stretch here.
+[00:06:43] Like here you could keep the flare just normal, basically.
+[00:06:46] And it would still work in my opinion.
+[00:06:48] Um, I think your impact looks really good.
+[00:06:50] It's really nice.
+[00:06:51] I don't know why you have specifically the flickering here.
+[00:06:54] I feel like it's more of a bug than.
+[00:06:55] Something else, but I throw that when it dissolves, it looks really good.
+[00:07:02] Like this, it flickers for one frame.
+[00:07:03] And it comes out.
+[00:07:04] I don't know if it's normal.
+[00:07:06] I have to take a look.
+[00:07:08] It's always like something happening and it's just like, where is that happening?
+[00:07:13] Yeah.
+[00:07:13] I feel you.
+[00:07:15] Um, yeah, I like a lot of the sparkles here.
+[00:07:17] This there, I think it works really well.
+[00:07:19] I think that, um, at the end here, this is still really saturated and like quite strong.
+[00:07:25] Like it's, it's, it barely goes away.
+[00:07:29] I think that here you can like, perhaps you can keep those shapes while having this be like 50% transparent.
+[00:07:35] And I think it will still work pretty well.
+[00:07:37] Cause right now it's a bit jarring at the end.
+[00:07:39] It feels like there's a lot of intensity at the end that fades out super fast.
+[00:07:43] Okay.
+[00:07:43] And then you have like tiny bit of particles here too.
+[00:07:45] That's all wrapped up.
+[00:07:46] Like that's all like clean up stuff, basically.
+[00:07:49] What I suggest you do when you clean up things, just like take your, take your, your effect and just like,
+[00:07:55] Yeah.
+[00:07:55] Yeah.
+[00:07:55] Just scroll through it and then look at all the inconsistencies as if you were looking at a, like a Photoshop painting, basically.
+[00:08:02] And every time you find one, just go in and fix it.
+[00:08:05] Like, oh, there's some stuff that's still spawning on the side.
+[00:08:07] Okay.
+[00:08:08] Or, oh, like this part, there's this that's going on here.
+[00:08:11] Just add like a little mask that's here for instance.
+[00:08:14] Like that, that can help.
+[00:08:18] Yeah.
+[00:08:18] I like a lot how you blended this flow here into this.
+[00:08:24] I think you did a good job at the fact that.
+[00:08:25] You have some pink into like deep blue also works for it.
+[00:08:31] Yeah.
+[00:08:31] In the future, I think that you, you, I saw you were still trying some fireball.
+[00:08:37] Yeah.
+[00:08:39] And that fireball seemed to be quite annoying for you.
+[00:08:42] I think the trail looks really good, but the head of the fireball, I would try to use a ball.
+[00:08:47] Show it.
+[00:08:48] Yeah.
+[00:08:49] I was having trouble getting the trail to align properly with the ball.
+[00:08:55] And I just like.
+[00:08:55] I didn't understand why it wasn't lining up.
+[00:08:58] So.
+[00:08:59] Yeah.
+[00:08:59] Yeah.
+[00:09:00] Yeah.
+[00:09:00] What I suggest you do in those moments is you just fake it and you just rotate the, the, the head a tiny bit so that it just looks good.
+[00:09:07] As after all you're, you are making a video in this specific instance.
+[00:09:11] So.
+[00:09:11] Kind of fine.
+[00:09:12] But yeah.
+[00:09:13] What I suggest you do after that is just.
+[00:09:18] Use a sphere instead of a cone for this.
+[00:09:20] Okay.
+[00:09:21] Or fake it.
+[00:09:22] Or like.
+[00:09:23] Give it a little rotation.
+[00:09:25] In the future.
+[00:09:26] When you work with the studio.
+[00:09:28] The engineers will like solve this for you usually, or make it so that this is not as much of a problem.
+[00:09:34] So yeah.
+[00:09:35] It's great.
+[00:09:36] I thought I was like.
+[00:09:37] So.
+[00:09:37] Cause like, yeah.
+[00:09:38] Like I felt like I was troubleshooting and I just couldn't, I didn't have like the technical skills.
+[00:09:43] Try and solve it.
+[00:09:45] So I kind of like walked away for it from it for a bit.
+[00:09:47] I was like, I can't do this.
+[00:09:49] That's very healthy.
+[00:09:50] Yeah.
+[00:09:50] Yeah.
+[00:09:51] I saw that you, you said you walked away from it and like, and burned out.
+[00:09:54] I think you did a great, really good job too.
+[00:09:55] Walk away, walk away from it.
+[00:09:57] Uh, and I think like, uh, what's.
+[00:10:00] What's fun is that this looks really good.
+[00:10:01] Like the, the, the trail here, it has like all the colors.
+[00:10:04] It looks really nice.
+[00:10:06] It has, it's really rich.
+[00:10:07] It's just the alignment there.
+[00:10:09] So I understand the frustration on it.
+[00:10:10] And I think that you did a really good job to like take a step back, perhaps like say, okay, this is an experiment.
+[00:10:15] Leave it to there.
+[00:10:16] Like you saw my, like I've been showing my, my, my, um, portfolio project that I use all the time.
+[00:10:22] Like my experiment, little project that I use to show you stuff.
+[00:10:25] And, uh, there's so many in like empty projects or stuff that's like half baked or that I never really reuse.
+[00:10:32] I just let it to the side and that's it.
+[00:10:34] Like it's normal to make a thing, be like, oh, it doesn't work.
+[00:10:38] I'm blocked at something.
+[00:10:39] I'm going to make something else.
+[00:10:40] So I think it's a really, really healthy habit to say I'm going to take three days, not touch it.
+[00:10:46] And then I'll come back to it, the clear mindset and do something.
+[00:10:51] Yeah.
+[00:10:51] So I was working on this and then the missile effect.
+[00:10:54] So yeah.
+[00:10:55] Yeah.
+[00:10:55] I like worked on this and I was like, okay, I'm going to stop.
+[00:10:57] And then I went back to the other one.
+[00:11:00] So just a lot easier for me to process.
+[00:11:04] Yep.
+[00:11:05] Yep.
+[00:11:05] Yep.
+[00:11:06] Um, it does, it does feel like it is not quite aligned to the velocity too.
+[00:11:11] I don't know if it's like, I don't know how you align this, this head here, but it does feel odd.
+[00:11:17] Um, one trick that you can use in the future when this happens too, is the head, like the, the tail itself.
+[00:11:25] You can move it backwards from the head.
+[00:11:28] That makes it so that it looks actually a bit better.
+[00:11:32] Like, um, here you would move it to like this spot instead of like being starting all the way in the middle and it will still kind of connect.
+[00:11:40] And the further back you, you, you put it, the better it will look.
+[00:11:44] And also another thing you can do is, uh, the head itself, you can have the center of the missile be like, actually like even outside of the metal, just a tiny bit.
+[00:11:54] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] Yeah.
+[00:11:55] So you can move the tip away from it.
+[00:11:57] I don't know if you see my mouse here.
+[00:11:59] That's actually really quite a big habit.
+[00:12:03] And the mouse isn't showing up.
+[00:12:05] Here.
+[00:12:07] That does not go to work any.
+[00:12:09] Oh, why?
+[00:12:11] It's fine.
+[00:12:12] It's fine.
+[00:12:14] Uh, change.
+[00:12:15] Poopoo.
+[00:12:17] Change here.
+[00:12:18] Ta-da.
+[00:12:18] So you can, you can go here.
+[00:12:19] Yeah.
+[00:12:20] Okay.
+[00:12:21] So almost.
+[00:12:24] Quite.
+[00:12:25] Yeah.
+[00:12:25] Pause.
+[00:12:27] Yeah, so if your center of the object is here,
+[00:12:32] then the rest of it will trail more.
+[00:12:34] Like imagine you're flying a kite, OK?
+[00:12:37] Or imagine you have a little kite at the end of a stick,
+[00:12:40] and you give it a little rope, and then you just fly that.
+[00:12:43] Like the whole thing will flow more easily
+[00:12:47] than if you held it just at the tip of it.
+[00:12:51] Like if you're here, it will have less flow behind it.
+[00:12:57] So yeah, that's just another way.
+[00:12:59] You can imagine that this object here, this point here,
+[00:13:02] is holding the whole thing behind as if it was a kite.
+[00:13:06] So I think that's also a good way to do it.
+[00:13:09] OK, cool.
+[00:13:11] I'll try that out.
+[00:13:13] Yeah.
+[00:13:15] Yeah, so otherwise, I think you have a really strong basis.
+[00:13:19] You're doing a good job with color
+[00:13:21] and it shows that you're comfortable with it.
+[00:13:24] The shapes, you're comfortable with it.
+[00:13:25] It shows that you understand how to do the effect.
+[00:13:28] I think that here what you're missing
+[00:13:30] is that you're not quite applying a artwork
+[00:13:35] to the engine itself.
+[00:13:38] You're still assembling things together
+[00:13:40] and hoping that it works because you're
+[00:13:42] having some roadblocks.
+[00:13:45] So what I highly suggest you do is go to the do one
+[00:13:51] or two of those ones, the recordings,
+[00:13:54] and try to just go through them.
+[00:13:57] And by doing that, you're going to get better
+[00:14:00] at assembling things together.
+[00:14:01] You're going to get more comfortable.
+[00:14:02] And by being more comfortable, you'll
+[00:14:04] be able to apply more and more of your artistic principles.
+[00:14:07] And that will, I think, inevitably
+[00:14:11] lead you to be able to just make things more.
+[00:14:13] So I would spend a month just dabbling it out.
+[00:14:16] Then you can start probably making a .
+[00:14:18] Yeah, I agree.
+[00:14:22] I still am struggling to put things together.
+[00:14:26] I have the visuals and the ideas.
+[00:14:28] I just don't know how to put it all together yet.
+[00:14:33] And this effect is a perfect example of technical debt,
+[00:14:38] as in you assembled it using a technique that you were not
+[00:14:43] super familiar with.
+[00:14:44] And then you tried to play around with it to make it work.
+[00:14:48] You added lots of things on top of it.
+[00:14:50] But at the end of the day, you were
+[00:14:52] plagued by the first technical decisions
+[00:14:54] you took by the setup.
+[00:14:55] You didn't quite remember how things
+[00:14:56] were set up in the first place.
+[00:14:58] Obviously, you used this also with the example that
+[00:15:01] was given on week five.
+[00:15:04] And so that led you to be stuck with this.
+[00:15:07] So I think that's where, when you're
+[00:15:10] making a portfolio piece, you start, you build it in one way.
+[00:15:12] Then you sink 10, 20 hours into it.
+[00:15:16] Then you're kind of stuck with the technical debt.
+[00:15:17] And then you're stuck with the technical decisions
+[00:15:19] you took 20 hours ago.
+[00:15:21] And you can't really back down anymore.
+[00:15:23] And every new change takes so much time and so much effort.
+[00:15:27] So I think that this is where just getting more comfortable
+[00:15:31] with the tool itself will really help you.
+[00:15:34] Yeah.
+[00:15:34] Yeah, I agree.
+[00:15:37] Awesome.
+[00:15:38] Any other question on this?
+[00:15:41] No, that pretty much covers it.
+[00:15:43] I know where I'm lacking.
+[00:15:45] So that's pretty much what I'm going
+[00:15:47] to do for this one.
+[00:15:48] But I think we do have access to a VFX artist
+[00:15:50] at work who can bother all the time.
+[00:15:53] Perfect.
+[00:15:54] Just bother your resource people.
+[00:15:57] It is important.
+[00:15:58] Yeah.
+[00:15:59] Excellent.
+[00:16:01] All right.
+[00:16:04] This was, I remember, I think this was Idol.
+[00:16:13] Hi.
+[00:16:14] Hi.
+[00:16:17] How was the week?
+[00:16:18] Yeah, I saw you did a pretty nice scenery, et cetera.
+[00:16:21] Tell me more about it.
+[00:16:22] Yeah, so I decided to go for something a bit more
+[00:16:26] related to shaders.
+[00:16:30] So I was ideally trying to make a forest kind of thing.
+[00:16:35] But then I didn't know what I could make,
+[00:16:38] aside from trees moving.
+[00:16:40] So I went for a kind of small pond with some rain.
+[00:16:46] Yeah.
+[00:16:46] Yeah.
+[00:16:47] And like a cave.
+[00:16:49] I tried to use the different techniques we were taught
+[00:16:53] in the classes.
+[00:16:56] The thing I struggled the most with was the clouds.
+[00:17:00] I don't really like them.
+[00:17:01] It's just like smoky particles going around.
+[00:17:07] I'm not very sure about the rain,
+[00:17:09] if it's well represented that way.
+[00:17:13] I used a particle system that rains down
+[00:17:15] with stretched.
+[00:17:17] Yeah.
+[00:17:17] And I had like two, I think, technical doubts.
+[00:17:23] The first one is I made a plane collision with the water.
+[00:17:30] So I have those little ripples that I kind of
+[00:17:34] like how they ended up looking.
+[00:17:36] And then there's the lightning.
+[00:17:38] So for the lightning, I wanted to do
+[00:17:40] like a collision with the ground.
+[00:17:43] That's why they only spawned in like that torus, which is like
+[00:17:46] the rocks.
+[00:17:49] But when I tried to make the collision,
+[00:17:50] they would always spawn on the middle.
+[00:17:52] And I tried like moving them.
+[00:17:55] But I wouldn't really understand because from the logic,
+[00:17:58] yeah, like the rain collides because it moves and goes down.
+[00:18:01] But the lightning doesn't.
+[00:18:04] So it's like, yeah, it's standing there.
+[00:18:05] So I didn't really have like a way to check the collision
+[00:18:09] with the ground.
+[00:18:10] I don't know if maybe I should have done like a small animation
+[00:18:13] that goes through instead of.
+[00:18:15] Because I used the lightning.
+[00:18:16] I used the lightning from the practice that I did following
+[00:18:19] the tutorial.
+[00:18:20] And I readjusted the particle, basically.
+[00:18:23] But yeah, that was my work for the week.
+[00:18:25] I tried to go for something a bit different, a bit more artsy.
+[00:18:29] I really enjoyed the course.
+[00:18:31] And I remember like day one, I joined
+[00:18:35] to be able to teach and learn it.
+[00:18:37] And now I want the full switch, a career switching to VFX.
+[00:18:42] I really liked it.
+[00:18:43] So I tried to make something a bit more out,
+[00:18:46] out of my comfort zone.
+[00:18:48] I was like, yeah.
+[00:18:50] I like it a lot.
+[00:18:51] I think it's a good, you did a good job.
+[00:18:52] But there's a show that you're kind of used to like light
+[00:18:55] scenes, already.
+[00:18:57] I think you did a good job with implementing everything.
+[00:18:59] I agree that the clouds is the weakest part, mostly
+[00:19:03] because there's some popping inside those.
+[00:19:05] If you look at it, like the cloud parts,
+[00:19:08] they just like, they're not fluid, right?
+[00:19:10] They just pop in and out.
+[00:19:12] I think that's like just, you need just more transparency
+[00:19:14] into the different parts.
+[00:19:16] That's what I would look into.
+[00:19:20] But obviously, using particles to make clouds is not like,
+[00:19:24] when you're making that in an environment,
+[00:19:25] that's just not realistic in terms of performance,
+[00:19:29] because it takes a big part of the screen
+[00:19:30] with lots of transparency.
+[00:19:32] It's usually not what's used.
+[00:19:34] What's used usually is either ray marching,
+[00:19:39] or you'll often use just some large meshes, some shaders
+[00:19:45] otherwise.
+[00:19:46] The one, for instance, in my personal project
+[00:19:48] is just one big skybox shader.
+[00:19:52] But if you want to make a small cloud, otherwise, you'll
+[00:19:56] use either some billboards, so just like the image of a cloud
+[00:20:00] in the distance.
+[00:20:01] So it's normal that it's difficult.
+[00:20:03] It's not something that's usually easy to do.
+[00:20:06] And I think with all things considered,
+[00:20:08] apart from the popping, I think you did a decent job with it.
+[00:20:12] Thank you.
+[00:20:13] So that's the first thing I would say.
+[00:20:15] The lightning itself, the collision
+[00:20:17] that you were talking about, I think
+[00:20:18] that this is a issue with you're not sure what this lightning
+[00:20:21] actually is.
+[00:20:22] Do you want this lightning to start in here and then end up
+[00:20:24] here?
+[00:20:26] Is this something that's supposed to?
+[00:20:28] I think that you're not sure what this item also
+[00:20:31] is in terms of the game itself, the scene itself.
+[00:20:35] So I think that this is more artistic direction.
+[00:20:37] You need to decide what you're going to do.
+[00:20:39] Usually lightning, if it's a gameplay thing,
+[00:20:41] it will actually be spawned at a specific point.
+[00:20:44] So that way, you can spawn it.
+[00:20:45] And anywhere, you can just decide 3D points in the world
+[00:20:48] where a lightning can be spawned.
+[00:20:50] You give an array of all those points
+[00:20:52] to the logic that spawns those lightnings.
+[00:20:56] And then the lightning itself, you just spawn the asset
+[00:20:59] from the bottom to the top.
+[00:21:01] So here, basically, you would have your lightning
+[00:21:04] come out of here with the zap that comes out of it.
+[00:21:08] Yeah, that's what I tried, exactly.
+[00:21:11] Didn't work.
+[00:21:12] OK, well, that's usually how you would set it up.
+[00:21:15] And then you would rarely use collisions.
+[00:21:17] Collisions really are a tool that looks like it should be used,
+[00:21:22] but it's actually not used much.
+[00:21:25] For environment in particular, and here,
+[00:21:28] this is something that you can't really
+[00:21:30] know, for the water drops here in particular,
+[00:21:37] rain will almost never use individual droplets.
+[00:21:41] It will use lines of water that fall
+[00:21:45] or that appear and then disappear.
+[00:21:47] It will use little splashes of water
+[00:21:49] that fall on the water or on the ground or something like that.
+[00:21:52] And then it will use sheets of water.
+[00:21:55] So it will use, imagine one big quad that's like this.
+[00:21:59] Then onto it, there's this kind of shape.
+[00:22:03] That's very common.
+[00:22:04] And you'll spawn them one behind the other, fading in and out,
+[00:22:08] like I showed before.
+[00:22:09] A bit like the examples I've shown, the campfires.
+[00:22:13] Yeah.
+[00:22:14] Yeah.
+[00:22:14] Yeah.
+[00:22:15] Yeah.
+[00:22:15] Style sheets that I've been using before,
+[00:22:17] I can show you back.
+[00:22:19] This .
+[00:22:21] The example of a flipbook, example of a .
+[00:22:31] This activates everything with
+[00:22:35] Surely, oh yeah.
+[00:22:37] Cool.
+[00:22:38] I don't know which one the big one is.
+[00:22:40] This one perhaps?
+[00:22:41] Yeah.
+[00:22:43] Jeez.
+[00:22:45] Yeah, so a bit like here, you have those individual particles.
+[00:22:54] So you would make individual raindrop with this.
+[00:22:56] And then you would have this tile sheet
+[00:22:59] with individual sheets that are just spawning.
+[00:23:02] And so you would have individual tile sheets spawning in and out.
+[00:23:06] And then that would be basically your rain.
+[00:23:09] And then you would have the individual particles spawning,
+[00:23:14] which would be your rain drops, but in a full line.
+[00:23:18] That's usually how we do it, rather than having water droplets
+[00:23:22] individually.
+[00:23:23] Yeah, I was feeling the performance issues
+[00:23:26] with the water droplets as well, yeah.
+[00:23:30] So yeah, just as a reminder, you're making effects.
+[00:23:33] So that means that you're trying to work on the effect that this
+[00:23:35] is having on your vision on the world.
+[00:23:38] So if you look at references of rain falling,
+[00:23:40] very often you don't actually see the individual raindrops.
+[00:23:44] So I think that's where you can improve, definitely,
+[00:23:48] is don't think about how you imagine things being.
+[00:23:52] But think about, basically, don't think
+[00:23:55] about the model of the world that your brain constructs
+[00:23:57] around you.
+[00:23:58] Think about what your eye sees when you talk about the thing
+[00:24:03] that's interesting.
+[00:24:03] So here, for instance, for rain, you don't actually
+[00:24:06] see individual raindrops.
+[00:24:08] You see a straight line falling most of the time,
+[00:24:11] unless there's small rain.
+[00:24:13] Yeah.
+[00:24:14] Or unless the rain is particularly light.
+[00:24:16] But most of the time, you just see the water drop
+[00:24:19] on the ground, and you see those lines falling.
+[00:24:22] So for me, that's where you can improve.
+[00:24:26] Yeah.
+[00:24:27] Otherwise, I think that one thing that you can dabble in,
+[00:24:29] if you're really interested in VFX,
+[00:24:30] is going a bit more into making one whole VFX rather than
+[00:24:34] scenery.
+[00:24:35] Because I would argue this is more,
+[00:24:37] like if you wanted to do this for a portfolio,
+[00:24:39] you'll end up more with something that looks like either
+[00:24:44] environment art, obviously, or tech art.
+[00:24:47] So that means mostly shaders, et cetera, and systems.
+[00:24:49] But as a VFX artist, you'll be asked
+[00:24:52] to do more character abilities and stuff like that.
+[00:24:55] And that will be more akin to what
+[00:24:58] you've seen in other classes.
+[00:25:00] And so I think that this is something
+[00:25:02] that if you want to make a portfolio,
+[00:25:04] this would be interesting.
+[00:25:05] But if you want to dabble more into this, it's completely fine.
+[00:25:08] And I think in a full portfolio, where you have three pieces,
+[00:25:11] having one of them that's an environment like this
+[00:25:13] is completely fine.
+[00:25:15] On the contrary, it's really good.
+[00:25:17] Yeah, I wanted to try and make something different out
+[00:25:20] of my comfort zone.
+[00:25:22] I'm kind of happy with the result.
+[00:25:25] I also tried, for example, that lightning that go,
+[00:25:29] it looks like it's ahead of the clouds.
+[00:25:32] I tried to use sorting fudge for that, but it didn't work.
+[00:25:36] So it's like the lightning, it's not coming from the clouds.
+[00:25:41] But yeah.
+[00:25:43] So I will try most likely to apply all these changes
+[00:25:48] that you mentioned and just stop it there
+[00:25:51] and continue doing character effects and stuff like that.
+[00:25:54] But while I didn't really know how to put in practice
+[00:25:59] all the shaders, I was like, all right, I'm
+[00:26:02] going to try and make it.
+[00:26:04] All the shader information was really, really useful.
+[00:26:09] A lot of the stuff that I could never find
+[00:26:11] or that there had no explanations,
+[00:26:13] I found them.
+[00:26:14] So I was very happy with it.
+[00:26:16] But I was like, all right, so how do I apply this to the face?
+[00:26:23] Or I was like, all right, I'm going
+[00:26:24] to try to first make a scenery.
+[00:26:27] That kind of apply so I don't forget.
+[00:26:29] Yeah, so it's like putting into practice.
+[00:26:32] That's something that everyone can take away from.
+[00:26:36] Leaning on anything that you think you already have,
+[00:26:38] if you're good at photography, if you're
+[00:26:40] good at anything, any skill that you think you already have,
+[00:26:43] leaning on that is a really good idea.
+[00:26:45] It will help a lot.
+[00:26:47] Yeah, it shows that you're already kind of used to it.
+[00:26:49] And it's good to get that way.
+[00:26:52] All right, awesome.
+[00:26:54] Thank you.
+[00:26:57] Gabe.
+[00:26:59] Hello.
+[00:27:01] Hello, how was the week?
+[00:27:03] The week has been fun.
+[00:27:05] I actually got to do all more than the weeks before.
+[00:27:09] There was also a lot more to do because we have that extra,
+[00:27:13] the extra phase with all the effects.
+[00:27:14] I got to work on some of them as well.
+[00:27:17] So it was really, really fun.
+[00:27:18] It's kind of cool to see everything coming together.
+[00:27:22] And it was also cool to see the things
+[00:27:24] that I got to work the least on.
+[00:27:27] So I already know that I have to put some time
+[00:27:30] into some of this stuff.
+[00:27:31] So one thing that is clear for me is, for instance,
+[00:27:34] is the solar coaster were not super easy for me to do.
+[00:27:38] So because I basically was winging it, so I just came back
+[00:27:43] and had to watch lessons.
+[00:27:45] And there was some issues with the UPE.
+[00:27:47] So I had to come back and try again
+[00:27:49] and started scrolling the texture manually in Blender
+[00:27:51] to see how it looks like before putting it in Engine again.
+[00:27:54] So yeah, this kind of process little thingies.
+[00:27:58] And in terms of technical stuff, I
+[00:28:01] think that the hardest part for me
+[00:28:03] was trying to manage the render order of stuff.
+[00:28:08] So for instance, initially, I was
+[00:28:11] thinking of these solar coasters.
+[00:28:12] And I was thinking of being partly behind the sprite
+[00:28:17] and partly in front of it.
+[00:28:18] But I didn't really manage to do that.
+[00:28:20] So I just kind of found another way to fake it
+[00:28:24] and make it like she disappeared behind the clouds in the middle.
+[00:28:28] It kind of looks OK.
+[00:28:29] But yeah.
+[00:28:31] I think it looks good.
+[00:28:32] Yeah.
+[00:28:33] I think you did a good job with it.
+[00:28:34] Yeah.
+[00:28:35] It is a render priority.
+[00:28:37] It's really hard.
+[00:28:38] It's one of the reasons why I say that you should do multiple effects.
+[00:28:42] You should be used to making them just because render priority is hard.
+[00:28:47] And it takes a bit of time to wrap your head around.
+[00:28:49] I think you did a good job.
+[00:28:51] I don't know exactly how you did.
+[00:28:53] But it feels like you made a smaller fluff of smoke here.
+[00:28:57] Then you put your swirls.
+[00:28:59] And then you put the outer part.
+[00:29:02] Yeah.
+[00:29:05] There are four actually different layers.
+[00:29:08] There's the core.
+[00:29:09] There is another layer behind the core.
+[00:29:11] There's basically the same.
+[00:29:12] But enlarged a little bit and darker so that we have this contrast.
+[00:29:18] OK.
+[00:29:19] This one.
+[00:29:19] And yeah.
+[00:29:21] Then we got the little cloud thingies.
+[00:29:23] And then behind the clouds.
+[00:29:26] Yeah.
+[00:29:26] Yeah.
+[00:29:27] Behind the clouds, there's a scrolling shader
+[00:29:30] with two different directions.
+[00:29:32] And then there's the bubble.
+[00:29:34] And the solar coaster is kind of rendered behind everything.
+[00:29:39] But because they spawn pointing to the middle,
+[00:29:42] the part that is behind the core, the darker one,
+[00:29:47] renders in front and kind of hides them.
+[00:29:51] So you don't know where the seam is.
+[00:29:53] So we kind of went around the.
+[00:29:56] If you can see it in that frame, we
+[00:29:57] have the two parts of the solar coaster rendering
+[00:30:00] at the same time, the one in front and the one in the back.
+[00:30:02] But it's not really an issue because everything
+[00:30:04] is behind the clouds.
+[00:30:05] So.
+[00:30:06] Yeah.
+[00:30:06] And this cuts it.
+[00:30:08] So I think it still looks good.
+[00:30:09] It just feels like this part is a bit.
+[00:30:12] I think this looks really good.
+[00:30:14] I was quite impressed when you showed this one.
+[00:30:16] I think you did a really good job with it.
+[00:30:19] You implemented a lot of things.
+[00:30:21] I think what I would have liked to see is in the clouds,
+[00:30:25] I feel like you already attempted a bit of color variation.
+[00:30:29] I think I would have liked to see a bit of subtle color
+[00:30:32] differences, just very slight.
+[00:30:33] But just push into the magenta, the pink, or the blues.
+[00:30:36] I think it would have been really nice to push that through.
+[00:30:39] I think that the fact that you have this already here
+[00:30:41] and you have those that have the color too does help.
+[00:30:46] I think that one thing also you can work on is the sphere here.
+[00:30:52] I think it could be slightly more opaque.
+[00:30:55] I think that this is where I'm not sure if you.
+[00:30:59] So specifically the edge.
+[00:31:02] I'm not sure you know exactly what this is physically.
+[00:31:05] Like I'm not sure if you know if this is like a glass orb in which
+[00:31:09] there's like a little storm of purple.
+[00:31:11] Like.
+[00:31:11] Clouds.
+[00:31:12] Or if this is like a wind ability, like a wind and dark ability
+[00:31:17] kind of thing.
+[00:31:19] Like in terms of evoke.
+[00:31:21] I'm not sure if you told yourself the whole story.
+[00:31:23] Yeah, initially I was thinking of making something
+[00:31:26] inside of a bubble as if it was like one of those snow globes
+[00:31:30] for Christmas and stuff.
+[00:31:32] And then I started with just the bubble with nothing else.
+[00:31:35] And then as I went along, the bubble
+[00:31:38] was kind of conflicting with the effect.
+[00:31:40] In my opinion, in terms of priority, because it was like too bright.
+[00:31:44] So I dimmed the opacity a lot and then it kind of vanished in a way.
+[00:31:49] But yeah, that was initially the idea.
+[00:31:52] Maybe I should like, I don't know, like just adjust the vertex position so
+[00:31:56] that it wobbles a little bit.
+[00:31:57] It should look a little more like water or something.
+[00:31:59] I think I would go for the glass effect.
+[00:32:01] I think a glass effect.
+[00:32:02] I imagine the Palantir kind of thing, a glass effect that you hold in your hand and it has
+[00:32:06] like this dark storm inside.
+[00:32:08] I think it would look cool.
+[00:32:09] So. Nice. That would mean like.
+[00:32:10] Making on top of everything else, you would make like a hard edge here.
+[00:32:15] That would be like the outside of the sphere, just like one hard edge.
+[00:32:18] And then on top of everything else, you can put a quad.
+[00:32:21] And on that quad, you just put a nice little highlight.
+[00:32:25] You know?
+[00:32:25] Oh, cool.
+[00:32:26] And that could like, you could on top of the quad,
+[00:32:29] basically, you could have like either like a very cartoony highlight,
+[00:32:34] or you could have something that's a bit more subtle.
+[00:32:36] Just look at like a crystal balls or something like that.
+[00:32:39] And you look a bit at how.
+[00:32:40] The outer part looks.
+[00:32:43] And then you can study that and put it on top.
+[00:32:45] Right.
+[00:32:46] Maybe you can do like a small flare too that just goes along it once every.
+[00:32:52] A lot of time just to give you like a shine.
+[00:32:56] Yes.
+[00:32:56] Like a little shine here.
+[00:32:57] Yeah.
+[00:32:58] I think this looks really good.
+[00:32:59] I think that I would have liked to see if this is like kind of a glowy purple,
+[00:33:03] then just having a slight purple glow on the ground would have helped so much.
+[00:33:06] You already have this grounding effect that goes out here.
+[00:33:10] Which I think looks really good.
+[00:33:12] I think it would look even better if your background was not like grayscale here.
+[00:33:18] But if you add a glow here, like if here on top you
+[00:33:22] add like this very slight purple glow on the ground,
+[00:33:25] then it will tie everything together and it will work even on this background.
+[00:33:31] So yeah.
+[00:33:32] I suggest also working with your lighting in your scenes in the future
+[00:33:36] so that you don't have this sharp like difference because here basically, like you can see, like,
+[00:33:38] you can see the light.
+[00:33:39] Yeah.
+[00:33:39] Like you can see how stark the difference between this part and this part is, right?
+[00:33:46] It's really aggressive.
+[00:33:47] And so that means that in general, the eye, even though you have like really nice contrast
+[00:33:52] and this little stuff here, the eye looks at this line and is like,
+[00:33:56] this is the most interesting part.
+[00:33:57] This is where I want to look because it's so like, this contrast is so sharp.
+[00:34:03] So I think that's where just dimming your shadows or working with something that's a bit like
+[00:34:09] where the lighting is a bit less strong or yeah.
+[00:34:13] Yeah.
+[00:34:14] One thing that I had a little difficulty here was matching the light that I was seeing on Niagara
+[00:34:21] preview editor when I was making the effect and the actual scene because I had to like go back
+[00:34:26] and forth a lot because it always looks darker in the preview no matter what I do.
+[00:34:33] So yeah.
+[00:34:34] It's normal.
+[00:34:35] That is the bane of working with Niagara.
+[00:34:38] There's a lot of advantage.
+[00:34:39] With Unreal, there's a lot of advantages.
+[00:34:42] But one of the difficulties is that you have to work in Engine.
+[00:34:45] You have to go back and you have to not trust what the preview says because the preview is trying to light.
+[00:34:52] Yeah.
+[00:34:52] It always bugs frequently when you're messing with like curves.
+[00:34:55] I usually have to click out or just save again or go to another module and come back.
+[00:35:01] In order to not trick myself, I work always in, when I work in Unreal,
+[00:35:05] I put the preview in unlit.
+[00:35:07] That way I know that it's false.
+[00:35:09] It's clearly false.
+[00:35:10] But at least I can work on shapes.
+[00:35:11] I can work on the timing, which will not change.
+[00:35:15] And then once that we're there, I can swap to the game effect and then work on the preview.
+[00:35:23] I feel that that does work.
+[00:35:26] So yeah, just some ideas.
+[00:35:30] Yeah.
+[00:35:31] You made also some small flares and effects.
+[00:35:33] I think they look good.
+[00:35:35] I already gave you some feedback on those, but I think you're on the right way.
+[00:35:38] Yeah.
+[00:35:38] Yeah.
+[00:35:38] Especially your use of flipbooks.
+[00:35:41] I think that this, if you were also using like on the little stars in the center,
+[00:35:45] if you were also using like small flipbooks, it would look insane.
+[00:35:50] I think it would.
+[00:35:51] Yeah.
+[00:35:52] But it shows that you have a good understanding of kind
+[00:35:54] of all the different tools that are there, the little flipbooks,
+[00:35:57] the different particles with different colors that are spinning.
+[00:36:01] You have those that are working in.
+[00:36:05] You have some very stronger layering that's working too.
+[00:36:08] And you have like, what I like a lot here is this glow here that just like really frames everything.
+[00:36:14] I think that there it means that overall you just need practice.
+[00:36:18] And once you have practice, you'll be ..
+[00:36:21] As you told me in your message, you told me that you were giving yourself a lot of time.
+[00:36:26] I think that with enough practice, you'll just be there in no time now.
+[00:36:30] I think you know where you're going, at least.
+[00:36:32] So just a bit more practice, same as what I said to Jen, and I think it will work out.
+[00:36:37] Awesome.
+[00:36:38] Cool.
+[00:36:39] Very cool.
+[00:36:40] Thank you.
+[00:36:42] Chris.
+[00:36:44] Oh, it's got me.
+[00:36:46] Oh, no, this is Cosmic.
+[00:36:46] Sorry.
+[00:36:47] Yes.
+[00:36:48] Yeah, sorry.
+[00:36:48] Good week.
+[00:36:50] I definitely got kind of lost in the weeds
+[00:36:53] with some of the other lessons doing some of the material stuff.
+[00:36:58] I was trying to make like the universal particle,
+[00:37:03] I guess, that he put a lot of stuff into.
+[00:37:05] I was definitely getting very confused with just
+[00:37:08] the amount of scalar things and labeling.
+[00:37:12] And so I definitely spent a lot of time just doing those.
+[00:37:16] I didn't quite have the time to finish those.
+[00:37:20] But no, I still had fun.
+[00:37:21] The color lecture really helped me, I found out.
+[00:37:25] Because I think that was definitely one of my biggest struggles,
+[00:37:28] was that I leans toward monochrome, and I didn't quite know how to make my colors more interesting.
+[00:37:37] Awesome.
+[00:37:38] And it was really, I think what helped me
+[00:37:40] was when they showed the different color palettes showing
+[00:37:43] different just magic, schools of magic.
+[00:37:45] That was really helpful to visualize that.
+[00:37:50] Yeah.
+[00:37:52] Yeah, I think that lesson is really fun.
+[00:37:53] I think once you master colors, you suddenly
+[00:37:56] feel like everything opens up.
+[00:37:59] Yeah.
+[00:38:00] I think that you did a really good job.
+[00:38:01] And from where you came from, sometimes it
+[00:38:03] can be frustrating when you have something that already looks
+[00:38:05] good and feels good to be like, oh, but there's so much more.
+[00:38:07] There's so much more that I need to go through, et cetera.
+[00:38:09] I think you showed lots of resilience
+[00:38:11] to be able to just stop and keep going, keep moving forward,
+[00:38:14] keep working on it.
+[00:38:15] And I think this is a good result for that.
+[00:38:17] I think the fact that you have this really blue-green ectoplasmic color around it
+[00:38:23] to give it energy, then it goes to a more monochrome effect.
+[00:38:26] But you still have all those nice highlights here.
+[00:38:28] The fact that you added some detail inside the sphere, I think works well.
+[00:38:31] Perhaps it's a bit flickering right now, as is.
+[00:38:34] But I think it works well.
+[00:38:36] I can see what you're doing here.
+[00:38:37] You're spinning this around.
+[00:38:38] I think that you can go with something that,
+[00:38:41] since it's going to be looked at from a bit far,
+[00:38:43] I think you can go from something that's a bit visible
+[00:38:47] and that spins a bit less fast.
+[00:38:51] Otherwise, I think that you did a really good job with this one here,
+[00:38:54] specifically giving it the subtle downward motion
+[00:38:58] on the little shapes here.
+[00:39:00] I think that's really satisfying.
+[00:39:03] And it makes this frame even more impactful,
+[00:39:06] as you have both to dissolve and going downward a bit.
+[00:39:09] So I think that's really, really cool.
+[00:39:11] The fact that you added this dark, I don't know if it was there before,
+[00:39:15] but the dark glow inside of the ripples
+[00:39:18] also helps a lot to make it feel damp and wet.
+[00:39:20] You also have all the ripples outside of the effect,
+[00:39:23] while this is inside.
+[00:39:24] I think that that looks really good, too.
+[00:39:26] I don't know if it was how much intentionality you gave it to,
+[00:39:31] but it looks really good.
+[00:39:33] You have big mediums all around it.
+[00:39:34] Yeah, I just had a bunch of the velocity at the start.
+[00:39:36] Yeah.
+[00:39:38] Yeah, I think it works really well.
+[00:39:40] The ground here is a bit dark, I would say.
+[00:39:42] But overall, I think it works really well.
+[00:39:44] And how it fades is really nice, too.
+[00:39:46] They all fade at the same time.
+[00:39:48] The fact that you have this blast that ends at the top
+[00:39:52] is quite nice, too, I think.
+[00:39:59] Yeah, and this frame, just the little flares that go out,
+[00:40:03] plus the little particles, you can
+[00:40:04] see how they just tie together to really make
+[00:40:06] something that is cohesive.
+[00:40:08] So I think overall, you've really understood how to do this.
+[00:40:11] And it shows that you spent a bunch of time on it.
+[00:40:14] Even the start, it just feels quite powerful.
+[00:40:16] It works quite well.
+[00:40:18] And those textures here, I think you did a good job
+[00:40:20] to keep them.
+[00:40:22] So yeah, I think the one thing that I could give as a critique
+[00:40:25] is this is very blue and in very similar tones,
+[00:40:31] especially from the center.
+[00:40:32] I think one thing that you can do is make the gradient
+[00:40:35] from the center.
+[00:40:36] So if you can make the edges, like the gradient in the center,
+[00:40:41] slightly stronger, like a tiny extra glow here,
+[00:40:43] I think that can help.
+[00:40:45] Otherwise, I think that you can be pretty happy with this.
+[00:40:48] If you were, honestly, if you wanted to tweak this a bit more
+[00:40:53] and make this into a portfolio piece,
+[00:40:55] I think this is a good standard for everyone kind of thing.
+[00:40:59] If you make a portfolio piece and it looks kind of like this,
+[00:41:02] I think you can be pretty happy.
+[00:41:04] This is a good one, two, three timing, two.
+[00:41:05] So it has a good balance.
+[00:41:06] Yeah.
+[00:41:06] It has enough.
+[00:41:07] You're working on like 150 frames, something like that.
+[00:41:12] So that's also a good amount for a video.
+[00:41:15] Basically, what a portfolio would look like,
+[00:41:17] you make a video of something similar to that,
+[00:41:19] and then you have it play twice kind of thing, and you stop.
+[00:41:25] One thing I will tell you is, and you'll understand, I think,
+[00:41:27] is you added some sound, which is great.
+[00:41:30] But also, if I am a recruiter and I want to scrub through it,
+[00:41:36] I will have to do a little bit of editing,
+[00:41:38] because it's so much more difficult to find it.
+[00:41:40] You can hear how it creates this like.
+[00:41:42] It's crunchy.
+[00:41:44] Yeah.
+[00:41:45] And that can be kind of irritating or annoying.
+[00:41:48] And so people mute it very fast.
+[00:41:50] But it's cool that you did.
+[00:41:51] I don't think it's necessary.
+[00:41:53] There's very little portfolio that are there.
+[00:41:55] So for everyone else that thinks, oh, that's cool, et cetera,
+[00:41:58] I suggest that to not put audio or unless you
+[00:42:01] feel really confident that you know how to put it
+[00:42:03] or that you know where to put it.
+[00:42:04] Otherwise, you don't really audio or anything else.
+[00:42:06] Yeah.
+[00:42:06] And you might be unlucky.
+[00:42:08] And the recruiter might be an old SFX artist
+[00:42:16] and might immediately pick up anything
+[00:42:18] that's wrong with the audio that you put in and be like,
+[00:42:20] oh, yeah, this is an amateur or whatever.
+[00:42:22] So yeah, on that part, I would suggest to be without an audio.
+[00:42:27] But I think if you have one, it's fine to have it.
+[00:42:30] People will mute it.
+[00:42:32] Most of the time, it will never be a problem.
+[00:42:34] And sometimes, it will be a benefit.
+[00:42:36] So yeah.
+[00:42:38] What else can I add on this?
+[00:42:39] Yeah.
+[00:42:40] I think that you did a good job with this.
+[00:42:41] I think that the different look, again, how you look at it,
+[00:42:45] you look at individual frame.
+[00:42:47] This individual frame looks really cool.
+[00:42:48] This individual frame with the thing around looks really cool.
+[00:42:52] This individual frame with all the little droplets
+[00:42:54] look really cool.
+[00:42:55] And this individual frame at the end looks really cool.
+[00:42:57] One thing that you can do also with the ripples on the ground
+[00:43:01] at the end here is you can use the seeded thing
+[00:43:04] that we talked about last time to make
+[00:43:06] it always spawn in a way that's interesting.
+[00:43:09] So you can go through them.
+[00:43:11] I think, for instance, this shape is more interesting
+[00:43:13] than this shape.
+[00:43:16] So you can play around with it until you find one that you like.
+[00:43:21] I forgot about the seeded spawn.
+[00:43:24] That's a good idea.
+[00:43:25] I like that.
+[00:43:26] Awesome.
+[00:43:28] Yeah, and it's also a hallmark of League stuff.
+[00:43:31] So obviously, if you're using the League background,
+[00:43:34] you might want to tailor to the League thing.
+[00:43:35] Yeah.
+[00:43:36] So for instance, that's why I told you
+[00:43:39] to add this indicator on the ground here,
+[00:43:42] because that's what League effects usually do.
+[00:43:47] That makes sense.
+[00:43:48] I really like how it came out.
+[00:43:50] Yeah, me too.
+[00:43:52] You did a great job.
+[00:43:54] Awesome.
+[00:43:54] Thank you.
+[00:43:55] As you said, I think that in the future,
+[00:43:58] you can allow yourself to be a tiny bit more
+[00:44:03] enthusiastic about colors and add
+[00:44:06] a little bit of pink, a little bit of even
+[00:44:08] if your effect has nothing to do with it.
+[00:44:10] You'll see that the highlights, like a little pink highlight
+[00:44:13] here and there, will actually do a lot.
+[00:44:15] Or instead of having pure white, having some off or something
+[00:44:20] like that, or some off yellow will really elevate your effect
+[00:44:23] in a way that's often surprising.
+[00:44:26] If you're looking for the full benthic swimming pool water,
+[00:44:34] like honestly, some greens.
+[00:44:35] And some highlights can really elevate it too,
+[00:44:38] especially on the edges.
+[00:44:39] So yeah.
+[00:44:41] Remember, this is not the color of the thing.
+[00:44:43] This is the treatment of the light through the thing.
+[00:44:47] So perhaps that can help you go to colors
+[00:44:51] that you would not associate it to it immediately.
+[00:44:55] Yeah.
+[00:44:56] Got it.
+[00:44:57] Yeah, I'll get wacky with the colors for my next stuff.
+[00:44:59] Yay, wacky colors.
+[00:45:02] All right, Chris.
+[00:45:05] So I did this, and I also spent some time on my explosion as well.
+[00:45:13] And this week was good.
+[00:45:18] It's kind of one of those things where
+[00:45:20] I find out that the more I know, the more I learn about this,
+[00:45:25] is the more I don't know.
+[00:45:27] So there's a moment where we're like, oh, wow, this is cool.
+[00:45:31] I'm getting comfortable with this.
+[00:45:32] And then I'm like, oh, there's so much more I don't know.
+[00:45:35] I don't know how to do.
+[00:45:38] And when I talked to Renata, she said the same thing.
+[00:45:40] She worked on the VFX apprentice stuff for six months.
+[00:45:44] And she was like, I'm not ready.
+[00:45:45] I'm not ready.
+[00:45:46] And I'm like, I relate to that.
+[00:45:49] There's so much more I need to learn.
+[00:45:52] But I had fun.
+[00:45:55] I liked duplicating some things with the hit impact
+[00:46:00] and giving a little bit more range.
+[00:46:03] I even incorporated it into my explosion, because I
+[00:46:05] thought it was kind of fun and cool.
+[00:46:08] But I sunk way more time into my explosion
+[00:46:12] that didn't amount to anything.
+[00:46:16] I would spend hours.
+[00:46:17] And I'm like, OK, this didn't work.
+[00:46:19] I didn't like this.
+[00:46:21] Or one of the emitters I was using,
+[00:46:26] because I wanted to have lingering particles.
+[00:46:28] But I didn't want them to stay there forever.
+[00:46:30] So I used the blowing particles, and I changed it to a spot.
+[00:46:34] Yeah.
+[00:46:34] I changed it to a spawn burst instant.
+[00:46:36] And I changed the spawn time.
+[00:46:38] And it just wouldn't spawn at the time that I wanted it to.
+[00:46:42] It just stayed there permanently, even though I changed it.
+[00:46:45] And I'm like, I don't understand why it's doing that.
+[00:46:50] But yeah.
+[00:46:51] Yeah, OK.
+[00:46:53] When you don't understand why it's doing that,
+[00:46:55] there's two options.
+[00:46:57] Option one is keep looking.
+[00:46:59] And option two is obviously just letting go and sucking
+[00:47:03] into effect.
+[00:47:03] But yeah.
+[00:47:04] Yeah.
+[00:47:04] Yeah.
+[00:47:05] It can be really frustrating.
+[00:47:06] I think that here you did something
+[00:47:08] that I think it shows that you tried to make it work.
+[00:47:12] And so you have those trails, those spikes here.
+[00:47:15] And then you stop them from moving fast exactly
+[00:47:18] at the same time as you're shrinking them.
+[00:47:20] To kind of give the effect that they're
+[00:47:23] stopping around the same spot.
+[00:47:25] But that must have been annoying to really time.
+[00:47:27] Do in the future, when you use stretched billboards
+[00:47:32] like this to make sparks, move their pivot.
+[00:47:34] To the side.
+[00:47:36] So it's further or backwards so that the pivot is here.
+[00:47:38] So that when they shrink, they go from this to this basically.
+[00:47:45] Right now they're shrinking at this spot.
+[00:47:47] So if you make them shrink here, they're
+[00:47:49] going to be like this, right?
+[00:47:51] From this.
+[00:47:53] And so if you make the pivot be here,
+[00:47:55] then they're going to be here instead of here.
+[00:47:58] Does that make sense?
+[00:48:00] Yeah, that makes sense.
+[00:48:01] That makes sense.
+[00:48:02] So I think this is the kind of stuff
+[00:48:03] that I'm going to use.
+[00:48:04] But that will help you in the future to what you want to do.
+[00:48:09] I think overall the timing is really good.
+[00:48:10] I think the one thing that you're struggling with
+[00:48:13] is that you put some squash and stretch on the center part
+[00:48:16] here, which is a circular shape with some spikes out.
+[00:48:20] And so what that means is that the squash and stretch
+[00:48:23] kind of distorts a lot, those spikes.
+[00:48:26] And if you have a light spike like this,
+[00:48:29] and if it doesn't move radially, so towards the center,
+[00:48:34] but rather it inflates from this to this to this,
+[00:48:38] it will look weird because it's a curve, we said before.
+[00:48:41] And so instead, what you usually want to do with those
+[00:48:45] is just have them, rather than have them scroll on only one
+[00:48:50] axis, have them be omni scaled, so scaled from all directions.
+[00:48:56] That will help a lot.
+[00:48:57] So I think this is the one thing I
+[00:48:59] would say is weak in this piece compared to the rest.
+[00:49:01] Everything else works well.
+[00:49:03] And then the second thing is, if you're going to have a lot of stuff,
+[00:49:04] you're going to have to have a lot of stuff.
+[00:49:04] You're going to have to have a lot of stuff.
+[00:49:04] You're going to have to have a lot of stuff.
+[00:49:04] Remember, as you're reducing intensity,
+[00:49:07] the flares like this, the impacts like this,
+[00:49:10] you usually want them to be there
+[00:49:13] for a short amount of time.
+[00:49:14] They're considered like an eye catcher, something that's
+[00:49:18] there to put the eye there.
+[00:49:20] And then after that, you put more mesmerizing things,
+[00:49:23] more things that are flowy and that are more interesting,
+[00:49:25] so like the little sparks that go around,
+[00:49:27] the little circles that you have around.
+[00:49:29] So I think that in general, this spark
+[00:49:31] is a really good texture and shape.
+[00:49:34] It's there for too long, and it appears in a way
+[00:49:38] that is distracting the eye.
+[00:49:40] It loses a lot of impact.
+[00:49:42] Honestly, if you just take this frame, this texture here,
+[00:49:45] and you just say, spawn it for two frames for 0.08 seconds,
+[00:49:48] and then you remove it.
+[00:49:49] And with no fade in, fade out, nothing, it will work super
+[00:49:52] well.
+[00:49:57] So same thing for the flare as well.
+[00:50:00] I have two background flares.
+[00:50:03] One's dark.
+[00:50:03] One's light.
+[00:50:04] And one is like the magenta one.
+[00:50:06] Oh, those you can keep.
+[00:50:07] Should those be faster?
+[00:50:08] OK, all right.
+[00:50:09] Gotcha.
+[00:50:09] You can even keep it.
+[00:50:10] You just mean like the actual flare itself.
+[00:50:13] Yeah, exactly, the texture here.
+[00:50:14] That thing.
+[00:50:15] The parts that are behind, so the glows that are behind,
+[00:50:18] the glowy glow, so the one that's bright like this,
+[00:50:21] this one, it should fade out earlier than the one that's,
+[00:50:26] sorry, later than the one that's dark.
+[00:50:28] So you should do this, spawn both of them,
+[00:50:31] and then you should have the darker, the lighter, the more
+[00:50:33] you can get, have the darker one go away as the intensity.
+[00:50:37] And basically, imagine you're blinding the eye
+[00:50:39] with something, and then the intensity becomes less strong.
+[00:50:45] So your eye is getting adjusted, and it's not as overwhelming.
+[00:50:49] And so colors from outside come back,
+[00:50:52] but you still have a warm glow in the center.
+[00:50:54] So that means that overall, you want
+[00:50:55] to have a glow in front, then a dark background.
+[00:51:00] OK?
+[00:51:01] Then you want to fade the dark background,
+[00:51:02] and at the beauty of the RP gam souvenirs,
+[00:51:05] you could add a
+[00:51:16] and use that to your library stage.
+[00:51:20] I think when we go back and color
+[00:51:32] You did a great job.
+[00:51:34] I think that you are well connected, too.
+[00:51:36] You have a good idea of where you're going.
+[00:51:39] I think you still have a bunch of work to do for to be
+[00:51:42] comfortable making a portfolio.
+[00:51:46] So yeah, just rely on people to give you feedback.
+[00:51:51] I think that just making more stuff, every time you
+[00:51:53] made a new thing, it seemed like you were getting better.
+[00:51:57] And you are interested in experimenting.
+[00:51:59] Like, you did the distortion thing before.
+[00:52:01] You're interested in trying out lots of stuff.
+[00:52:03] And you have a good culture of what can be done.
+[00:52:06] So I think that just doing more stuff
+[00:52:08] and keeping them small, keeping them simple,
+[00:52:10] and keeping them like those small effects like that,
+[00:52:13] keeping things that are down to earth
+[00:52:15] will help you a lot in the future to grow.
+[00:52:18] And I think the only thing you need right now is repetition.
+[00:52:22] Yeah, I agree with that.
+[00:52:24] Thank you.
+[00:52:24] Thank you.
+[00:52:25] Yeah.
+[00:52:26] And I think, honestly, if you do a bit of repetition,
+[00:52:28] let's say you have four weeks before,
+[00:52:31] like let's say you have four weeks.
+[00:52:32] In four weeks, if you do four, like let's say four effects,
+[00:52:36] and then you watch a few videos here and there,
+[00:52:38] you pace yourself, et cetera, I think
+[00:52:39] you would be ready to make a portfolio afterwards.
+[00:52:43] I suggest that you take your time,
+[00:52:46] that you take a tiny bit of time to make sure
+[00:52:48] that you're comfortable.
+[00:52:51] Especially, I suggest that you try and make,
+[00:52:55] like to keep making those little static round things.
+[00:52:57] And then you start making some more things
+[00:53:00] that are on the ground.
+[00:53:00] So either like a healing effect or around like a pool
+[00:53:05] of something basically that's on the ground, any form of AOE,
+[00:53:08] I think will help a lot to like start pacing yourself
+[00:53:11] and decide like, OK, I'm ready to actually layer things around
+[00:53:14] and make it work in 3D.
+[00:53:17] Thank you.
+[00:53:18] That's very good advice.
+[00:53:19] Thank you.
+[00:53:19] Awesome.
+[00:53:21] One thing before we talk here, Jascha,
+[00:53:24] I wanted to make sure, Dot, I know that you usually
+[00:53:27] have to leave quite early, and I wanted to make sure that,
+[00:53:30] you had everything you needed.
+[00:53:32] I know that you didn't submit something this week,
+[00:53:34] but I still wanted to make sure that you had everything
+[00:53:37] you needed for possibly having to leave.
+[00:53:42] You're still muted if you want to talk.
+[00:53:45] Otherwise, you can write down in the, yeah, you're writing.
+[00:53:50] I have to leave in a little, yes.
+[00:53:52] Everything I need.
+[00:53:53] Awesome.
+[00:53:54] Perfect.
+[00:53:55] Yeah, I'm glad then.
+[00:53:57] Yeah, feel free to send me messages
+[00:53:58] if you have any extra questions.
+[00:54:00] All right.
+[00:54:03] Yes, of course.
+[00:54:06] Jascha, let's go.
+[00:54:09] Yeah.
+[00:54:11] So I did get lost a little bit this week
+[00:54:15] in experimenting with the interior of the portal.
+[00:54:20] So I did all the parallax and then removed it.
+[00:54:25] So that's why it kind of looks kind of the same, but it was,
+[00:54:30] it was after a long road of doing a lot of stuff that didn't pan out.
+[00:54:35] So yeah, but overall, yeah, I feel like I've learned things.
+[00:54:39] So it's not wasted.
+[00:54:43] Yeah.
+[00:54:44] And that's usually how it goes, sadly.
+[00:54:46] You do something and you're like, oh, I have this great idea.
+[00:54:49] And then you implement it and you're like, it doesn't work.
+[00:54:52] And then you just remove it.
+[00:54:54] I think it looks really 3D, though.
+[00:54:56] I think the illusion of the 3D is really there now, like the illusion.
+[00:55:00] It's actually 3D.
+[00:55:01] Like you have the different layerings with those things.
+[00:55:03] The spikes actually do a lot to make it look.
+[00:55:10] I realized one thing, though, just today.
+[00:55:15] I don't know, maybe I can share my screen because it's easier to show
+[00:55:20] than to talk about.
+[00:55:25] Can you see my screen?
+[00:55:26] Yes.
+[00:55:28] So.
+[00:55:30] You see like the outer circle and the spikes are a mesh renderer.
+[00:55:36] And the runes are a sprite.
+[00:55:41] And when I move the camera around, the alignment gets out of whack.
+[00:55:46] Yeah, that's very funny.
+[00:55:47] Yeah, OK, yeah.
+[00:55:49] And I don't know what causes that.
+[00:55:53] How are they aligned?
+[00:55:56] Like what alignment are you using to align them?
+[00:55:59] That's really funny.
+[00:56:00] Sorry, I dropped out a little bit with the internet.
+[00:56:04] You were asking?
+[00:56:06] Yeah, so what happens if you make it face you?
+[00:56:09] Like if you look at it straight, basically the ..
+[00:56:13] Yeah, if I look at it straight in front view.
+[00:56:16] OK, it works.
+[00:56:17] OK.
+[00:56:18] Yeah, OK.
+[00:56:19] I mean, perfect.
+[00:56:20] It works.
+[00:56:21] Yeah, it works.
+[00:56:23] It's perfect.
+[00:56:24] Yeah, can you turn around again?
+[00:56:25] Just show me the turn around, like the moving the camera.
+[00:56:30] Yeah, I can.
+[00:56:31] Yeah, I can.
+[00:56:32] So the main issue is just, so it kind of works.
+[00:56:35] No, OK, yeah, it has a, yeah, it turns too much, basically.
+[00:56:42] Yeah, because I would like, and I don't
+[00:56:46] know if I have something in the material that's doing that.
+[00:56:48] But I think it's probably the alignment.
+[00:56:57] I don't think it's in the material.
+[00:56:58] I wouldn't be surprised if it's not.
+[00:57:00] I would say that it's the alignment of the particle
+[00:57:04] itself.
+[00:57:05] They're set to unaligned.
+[00:57:10] OK, what are the options you can choose here?
+[00:57:15] Velocity, custom, and automatic.
+[00:57:19] Yeah, no, that's not what we were looking for.
+[00:57:22] And the facing mode is custom facing vector set to x plus 1.
+[00:57:30] And you go to set particle sprite facing.
+[00:57:35] And yeah, there.
+[00:57:38] Yeah, OK, so you give it just a vector.
+[00:57:40] You say you're supposed to face towards x.
+[00:57:45] I don't know.
+[00:57:46] This is typical Unreal having ideas.
+[00:57:52] I mean, I can just replace everything with mesh,
+[00:57:54] with like quad meshes.
+[00:57:56] And it's going to work, because I already
+[00:57:58] did that with the circle.
+[00:58:00] So yeah, you could do that too.
+[00:58:02] Yeah, that's true.
+[00:58:04] That would work.
+[00:58:05] Yeah, you could also replace it with quad meshes.
+[00:58:10] And it would actually work.
+[00:58:12] Yeah, that's so sprites.
+[00:58:14] That's what I said.
+[00:58:16] Yeah, exactly.
+[00:58:16] Sorry.
+[00:58:17] That's what I meant.
+[00:58:18] Yeah, exactly.
+[00:58:18] Yeah, that's like, it's silly.
+[00:58:22] I think it's because the sprites tech and the quad tech
+[00:58:26] is not quite the same.
+[00:58:27] It is.
+[00:58:28] It looks weird.
+[00:58:28] It was bugging me.
+[00:58:29] It was bugging me, because before I replaced the spikes
+[00:58:34] with the mesh, it was kind of working,
+[00:58:37] because they were distorting in the same way,
+[00:58:40] since they were also a texture.
+[00:58:43] But when I put the spikes, I realized
+[00:58:45] that it's completely getting unaligned
+[00:58:48] when rotating the camera.
+[00:58:50] So yeah.
+[00:58:52] Yeah.
+[00:58:53] OK, that's really weird.
+[00:58:54] Ugh.
+[00:58:56] Yeah, I don't know.
+[00:58:56] I don't have the answer to this yet.
+[00:58:58] But I think that is OK.
+[00:58:59] This is a case of arm wrestling the engine
+[00:59:02] until it does what you want, sometimes by just saying,
+[00:59:05] OK, I'm going to use another technique,
+[00:59:06] or I'm going to use a mesh or a quad.
+[00:59:12] I think otherwise, in terms of visuals,
+[00:59:13] I think you did a good job.
+[00:59:16] One thing I didn't understand on this,
+[00:59:19] so did you in the end get the job that you were,
+[00:59:24] like at some point, I think in week three,
+[00:59:25] or in week two, you said that you got a job.
+[00:59:28] Yeah.
+[00:59:28] What happened?
+[00:59:31] I did get the job.
+[00:59:32] And then 15 days later, they told me the funding had been cut.
+[00:59:37] So I'm getting fired again at the end of the week.
+[00:59:40] Fucking god.
+[00:59:41] OK.
+[00:59:41] Yes.
+[00:59:42] Gaming industry, yay.
+[00:59:44] Yeah.
+[00:59:44] Yeah, joys of the gaming industry, exactly.
+[00:59:48] But good part is I will be 100% focused on the VFX now.
+[00:59:53] Yeah, I guess so.
+[00:59:54] Good job, Les.
+[00:59:55] OK, well.
+[00:59:57] Yeah, OK.
+[00:59:58] Well.
+[00:59:58] So I'm going to give all the strength to you.
+[01:00:01] I hope that this goes well.
+[01:00:04] But yeah, so from that on, you're still in,
+[01:00:08] like that means that you would be possibly
+[01:00:10] interested to make a portfolio after this for VFX.
+[01:00:14] Yeah, yeah, I'm interested in what
+[01:00:16] you think about the timelines.
+[01:00:19] I think in terms of like, let's say, funds to kind of, you
+[01:00:27] know.
+[01:00:28] Yeah.
+[01:00:28] Like, I think that the way that I have, like, I think I can take,
+[01:00:33] like, three months until I find something.
+[01:00:36] So realistically, it would be good to already start searching,
+[01:00:41] like, a month or two.
+[01:00:44] So from what I've seen so far, like, you seem to actually
+[01:00:49] like have an idea of where you're going with this.
+[01:00:51] And honestly, also, you seem pretty clear on the techniques
+[01:00:55] that you're willing to use and the ones that you're, like,
+[01:00:57] you're not trying to do.
+[01:00:58] So I think that you're trying to use new techniques or new shaders
+[01:01:02] or new stuff like that and, like, getting clogged into them.
+[01:01:06] Like, here you use stuff you were able to adapt quickly
+[01:01:09] to the different tools that were given
+[01:01:11] and you were able to make something that works and not
+[01:01:15] get stuck on, like, some roadblocks.
+[01:01:16] So I think that I can be pretty confident thinking
+[01:01:19] that if you were starting to make a portfolio,
+[01:01:21] you would quickly get the hang of it.
+[01:01:24] My concern is there are still some parts in what you're doing
+[01:01:27] that.
+[01:01:28] So I think you will need to wrap up, especially
+[01:01:31] on effects like this.
+[01:01:33] You have a few outliers.
+[01:01:35] Like, for instance, when the bats appear here,
+[01:01:37] it looks really blurry.
+[01:01:39] And I think that this is where someone
+[01:01:41] would look for something that's perhaps a little flare that
+[01:01:45] comes out of it or little black flares that come out just
+[01:01:49] to make it so that it feels like you literally
+[01:01:52] have a bat cannon that's projecting them out
+[01:01:55] or at least letting them out there.
+[01:01:56] Yeah.
+[01:01:56] I have, like, a little bit of a problem.
+[01:01:58] I have a few little particles that appear.
+[01:02:02] But for now, they have, like, a placeholder, just glow texture.
+[01:02:05] Yeah, OK.
+[01:02:06] I see.
+[01:02:06] You have glow.
+[01:02:07] Yeah.
+[01:02:07] That's why it looks blurry.
+[01:02:08] This is what causes the blur.
+[01:02:09] But I intended for them to have, like, a jet of smoke
+[01:02:17] or something like that, like they're
+[01:02:18] piercing through the portal.
+[01:02:21] Yeah, perfect.
+[01:02:21] OK.
+[01:02:22] So that's the first thing.
+[01:02:23] And then the second thing here is, like, the hit effects
+[01:02:26] look really good.
+[01:02:26] The gradient on them look really nice.
+[01:02:28] The edge.
+[01:02:28] The light on them look nice.
+[01:02:30] I think that it's overall a really nice texture.
+[01:02:32] It doesn't quite work with the bats going in.
+[01:02:35] They're not, like, it doesn't feel like tons of little bats
+[01:02:38] nibbling at your toes.
+[01:02:39] It looks like a big splat of, like, a few bats
+[01:02:43] that are hitting you while the others miss you.
+[01:02:46] Also, it doesn't help that from a composition standpoint,
+[01:02:48] a lot of bats, like, they fly off screen.
+[01:02:51] And this big splat, like, a lot of bats
+[01:02:53] are just, like, not into the same trajectory.
+[01:02:56] So overall, the eye kind of doesn't, like, it feels
+[01:02:58] discontinued.
+[01:03:00] So I think that that's something that you can work on,
+[01:03:04] especially, like, this splat compared
+[01:03:06] to the level of detail of this.
+[01:03:07] Like, this is way bigger than this.
+[01:03:09] So I think this is where you can, like,
+[01:03:11] tie things up a little bit.
+[01:03:12] Perhaps find a way to, like, either have it closer.
+[01:03:15] OK, it's because I was at the wrong frame.
+[01:03:18] But yeah, I think that in general,
+[01:03:20] like, just having something that feels more like,
+[01:03:22] peep, peep, peep, peep, peep, peep, peep on the hit,
+[01:03:25] and that ties it all up to bats hitting something.
+[01:03:28] Could help a lot.
+[01:03:29] That's the one weakness I see in the things
+[01:03:31] that you're doing so far.
+[01:03:33] But otherwise, I think that you'll
+[01:03:35] be ready to make, like, portfolio quite fast.
+[01:03:38] My concern that I have is that I think
+[01:03:41] this effect with those changes that I talked about,
+[01:03:44] like, so the start here and then the impact here
+[01:03:48] would be ready for it to be, like, a portfolio piece.
+[01:03:52] My concern is that after that, I haven't seen you do
+[01:03:57] a lot other effects.
+[01:03:58] I think you're going to be able to do more effects
+[01:04:01] than this one in the last four weeks.
+[01:04:03] And so I'm not sure if, like, you're
+[01:04:05] going to be able to just, like, start something new
+[01:04:07] and actually be comfortable, or if you're
+[01:04:12] actually going to find some more roadblocks.
+[01:04:15] Right now, I would say that I guess you're going to be
+[01:04:17] comfortable.
+[01:04:17] Yeah, exactly.
+[01:04:18] So that's where I think that what I would suggest you do,
+[01:04:23] actually, is spend one week to, like, or a few days, something
+[01:04:27] like that, to fix the two things that we talked about.
+[01:04:28] So, like, little spike here, and then, like, find something
+[01:04:31] to tie it all up here, either to, like, narrow in the bats
+[01:04:35] so that they keep only in the place that you want,
+[01:04:38] or to find something that says, like, that they hit, like,
+[01:04:43] always kind of the same place.
+[01:04:45] Not something too technical.
+[01:04:46] I would try to really make it artistic,
+[01:04:49] even if it means this becomes a bigger target
+[01:04:52] or that you have to restrict the movement of the bats.
+[01:04:55] But yeah, I would try to do something like that.
+[01:04:58] And then.
+[01:04:58] From there, I would start something new.
+[01:05:03] That way, you can see next week's if things are going well,
+[01:05:07] if you get into the habit of doing things,
+[01:05:10] and if the new effect kind of, like, puts you some,
+[01:05:14] gives you some problems or not.
+[01:05:15] And that way, if it gives you some problem,
+[01:05:18] we can talk about it.
+[01:05:19] Like, you can send me a message.
+[01:05:20] We can talk about it and quickly, like,
+[01:05:23] find a new direction.
+[01:05:25] I think that would be the best way.
+[01:05:27] Do you think, like, the, like, the, like, the, like, the, like,
+[01:05:28] the ideas for other effects that I put in the message
+[01:05:33] are okay for, like, a junior portfolio?
+[01:05:36] Or are those, like, not as...
+[01:05:41] I can just tell you.
+[01:05:43] Yeah, sure.
+[01:05:45] Read it.
+[01:05:46] So one idea I had was, like, a jet engine that kind of starts,
+[01:05:50] like, you know, with, like, a dark smoke.
+[01:05:52] Like, it's kind of warming up and then goes into, like,
+[01:05:58] a clean blue flame, for example.
+[01:06:01] A clean fern, yeah, with the little cone at the end.
+[01:06:03] Yeah, that's a really good idea.
+[01:06:05] Okay.
+[01:06:06] Yeah.
+[01:06:06] Cool.
+[01:06:08] And the other idea was, like, a pond with, like, maybe
+[01:06:11] a waterfall or, like, a fountain, something that has to do with water.
+[01:06:17] Yeah, it's a good idea.
+[01:06:18] Yeah, okay.
+[01:06:19] That will do a very, like, good balanced effect,
+[01:06:23] like portfolio, I think.
+[01:06:26] Are all three of those, like, more style?
+[01:06:28] Like, stylized?
+[01:06:31] Yeah.
+[01:06:32] Okay, yeah, that will work.
+[01:06:33] I think that's a good idea.
+[01:06:34] Yeah.
+[01:06:35] I suggest for the afterburners, so cam slash jet engine,
+[01:06:39] I suggest that you, like, dive a bit deeper into, like, references,
+[01:06:43] because this is something that's been done and redone.
+[01:06:45] And it has a lot of, like, little standards.
+[01:06:47] So I think it's important to keep in mind.
+[01:06:49] But otherwise, the rest, I think you're going to do great.
+[01:06:53] I'm not too concerned about that in particular.
+[01:06:55] The pond, I think you're going to have the skills
+[01:06:56] to do with the skills that you've shown
+[01:06:58] for this, and then the jet engine might give you
+[01:07:03] a few troubles in the layering part, which
+[01:07:05] you have not done as much.
+[01:07:06] But I think that you've seen enough people do it
+[01:07:08] that it shouldn't be too much of a problem.
+[01:07:09] And you did the fire engine.
+[01:07:12] The jet engine stuff is usually all about timing
+[01:07:16] and about the, like, the morphing of the animation,
+[01:07:21] like the animation morphing into one shape and et cetera.
+[01:07:24] I think that, like, you have a lot of skills
+[01:07:27] to study a reference.
+[01:07:28] And to know what's interesting or not.
+[01:07:30] And I think that's, like, so I mean,
+[01:07:31] I think that's a great target for you.
+[01:07:33] So yeah, I am, I think those are really good choices.
+[01:07:41] Yeah.
+[01:07:43] Cool.
+[01:07:47] Polina.
+[01:07:48] Push.
+[01:07:50] Yeah, so I did this fireball.
+[01:07:53] But the main problem is was I tried
+[01:07:58] to record it, but my laptop is too slow to render it.
+[01:08:04] So it looks like that.
+[01:08:05] And yeah.
+[01:08:06] Yeah.
+[01:08:10] Yeah, I did some shaders and textures.
+[01:08:14] And yeah, I know it's not, like, the best work in the universe.
+[01:08:21] But I tried my best.
+[01:08:23] Yay.
+[01:08:25] Yeah.
+[01:08:26] So one trick.
+[01:08:27] I can give you already for every time you're
+[01:08:29] using a trail to do this.
+[01:08:31] One trick I can give you is I'll give the trail a little bit
+[01:08:36] of, like, not too much time.
+[01:08:38] Right now, like, your trail is way too long.
+[01:08:41] And basically, give it, like, 0.1 to 0.5 maximum.
+[01:08:45] If you put one or more seconds to it, it's just way too long.
+[01:08:49] So yeah, 0.1 to 0.5 is kind of like the good value usually.
+[01:08:54] And you'll see that immediately it actually feels way better.
+[01:08:56] It just works.
+[01:08:57] It works when you start moving it around.
+[01:08:59] So that's the first thing I would do.
+[01:09:01] Play around with that.
+[01:09:02] The time that it's working.
+[01:09:04] Yay.
+[01:09:05] See?
+[01:09:06] It fixes also all those problems that you might have here.
+[01:09:09] Yeah.
+[01:09:09] Yeah.
+[01:09:10] It's way better.
+[01:09:10] So yeah.
+[01:09:11] That's the first thing I would do.
+[01:09:13] I think you did a great job with, like, the gradient from there to there.
+[01:09:17] It's a bit glowy.
+[01:09:18] I think you can, like, once you have this, what I suggest you do
+[01:09:21] is stack trails on top of each other.
+[01:09:25] Just duplicate your trail and make one trail that is, like,
+[01:09:27] a thin, like, white line.
+[01:09:29] Then another trail that's, like, a more, like, bigger red line,
+[01:09:33] like this.
+[01:09:33] And then a third one that's, like, a little purple one that
+[01:09:36] goes slightly further.
+[01:09:37] By making it shorter, it also means
+[01:09:40] that you have more control over making
+[01:09:41] three trails on top of each other that is one a bit longer,
+[01:09:44] one a bit shorter.
+[01:09:46] So that can help a lot.
+[01:09:47] And then finally, as we've shown during the class,
+[01:09:50] giving it some particles, just some small particles
+[01:09:52] of, like, licks of flames that are going around it,
+[01:09:55] and giving them, making them.
+[01:09:57] Spawn over distance, as we've shown in the campfire on Friday.
+[01:10:03] That can help a lot, too.
+[01:10:04] Basically, like, as we've shown here, making it so you have then
+[01:10:10] those little bubbles that spawn, like, behind that.
+[01:10:15] That will help a lot.
+[01:10:16] I'm not using the right tool, but it's fine.
+[01:10:20] So yeah, that will help a lot, too, with this.
+[01:10:22] So yeah, I suggest you play around with that.
+[01:10:25] It will add, basically, it will blend
+[01:10:27] with the rest of the trail.
+[01:10:32] That will be really nice.
+[01:10:34] Yeah.
+[01:10:36] Other than that, so I think that in terms of portfolio
+[01:10:40] and stuff like that, I think that all you need now
+[01:10:42] is repetition.
+[01:10:44] I think that if I look back at the different weeks,
+[01:10:47] I think that you need more time to cook and to get,
+[01:10:51] like, everything working.
+[01:10:52] Especially, like, I think already this
+[01:10:54] is a big upgrade from last week.
+[01:10:56] Yeah.
+[01:10:57] You did a good job with, like, kind of implementing stuff.
+[01:10:59] You're already using more darker colors, which is a sign
+[01:11:02] that you're already past the phase where everything is
+[01:11:04] glowing, and you're actually using, like, stuff.
+[01:11:07] You're still finding some roadblocks.
+[01:11:09] For instance, like, you were using a lot of additive
+[01:11:14] materials, and slowly you're getting there.
+[01:11:16] You also made a nice shader for the orb,
+[01:11:17] which shows me that you're comfortable using meshes.
+[01:11:20] You're comfortable using, like, adding glows to it.
+[01:11:24] You're comfortable doing shaders for them.
+[01:11:26] So I think that's also, like, really good.
+[01:11:30] The textures that you made at the start, too, were really nice.
+[01:11:33] I think that you can keep working on textures with that, too.
+[01:11:36] So overall, I think that all you need to do is spend more time
+[01:11:40] to do repetition.
+[01:11:44] Your color theory also, I think, is pretty good.
+[01:11:46] You are not scared of using different colors,
+[01:11:48] of adding, like, little pinks and et cetera to your colors,
+[01:11:52] like from previous effects.
+[01:11:54] So overall, I would lean on that.
+[01:11:55] And that's it.
+[01:11:56] And tell yourself that you want to do that.
+[01:11:58] I would especially start immediately
+[01:12:01] with the shield effect here to learn how to make flipbooks,
+[01:12:06] and then immediately start implementing
+[01:12:07] the really good flipbooks that you've
+[01:12:09] shown in week one to week four, and use that as a basis.
+[01:12:13] So what I'm talking about specifically,
+[01:12:15] I think that from here, you should start working
+[01:12:19] with this kind of fire that you made before.
+[01:12:22] Just, like, export it by also exporting the different
+[01:12:26] layers one at a time.
+[01:12:27] And you bring it back into the Engine,
+[01:12:29] but having the different layers one at a time.
+[01:12:31] Then you add some glows, add some extra sparks.
+[01:12:34] Basically, instead of the little sparks
+[01:12:35] that you have to decide here, like,
+[01:12:37] add some vertical systems to that.
+[01:12:39] Basically, use the vertical system not as something
+[01:12:41] that everything needs to go through it,
+[01:12:43] but instead as, like, this is a supplement,
+[01:12:46] and it helps give life to the flipbooks
+[01:12:51] that you're already used to doing.
+[01:12:53] So I think that will, like, empower you a lot.
+[01:12:56] So I would try that.
+[01:12:58] Yeah, that's great.
+[01:12:59] Can you just show me which one was this effect you would start?
+[01:13:03] I would start with the shield effect specifically,
+[01:13:05] because it will teach you how to implement flipbooks.
+[01:13:09] OK, great.
+[01:13:09] Thank you.
+[01:13:12] Yeah.
+[01:13:13] And then, yeah, the trail here.
+[01:13:14] Like, obviously, you can't know until you experiment it.
+[01:13:17] But yeah.
+[01:13:19] So I think in particular, this orb here,
+[01:13:22] if you had a flipbook instead of the orb,
+[01:13:24] I think you could make something that looks really,
+[01:13:26] really good.
+[01:13:26] And then you just give it this extra trail that goes around.
+[01:13:29] And so you elevated the flipbook into, like, 3D.
+[01:13:34] And I think that can be really fun.
+[01:13:35] So yeah.
+[01:13:36] Nice.
+[01:13:37] Yeah.
+[01:13:38] Just try and since I think that your strong suit right now
+[01:13:43] is that your flipbooks were, like, really good,
+[01:13:45] I think that you can just take that flipbook skill
+[01:13:47] and implement it in Engine and then work from there.
+[01:13:50] I think that will help you a lot.
+[01:13:52] Yeah.
+[01:13:54] I think that too.
+[01:13:55] OK.
+[01:13:56] I'm based on 2D.
+[01:13:58] So yeah.
+[01:13:58] I like flipbook part is the part I think I'm doing right.
+[01:14:05] And 3D, I'm just learning.
+[01:14:07] So yeah.
+[01:14:08] I think I can just connect it.
+[01:14:11] Yeah.
+[01:14:11] I suggest keeping dabbling into that.
+[01:14:13] I think so far you've been really good at keeping things
+[01:14:16] manageable, not doing too big of a project,
+[01:14:18] not trying to do something too big.
+[01:14:19] I suggest that you spend at least a month
+[01:14:21] keeping doing that.
+[01:14:22] And then after that, assess, see how you're feeling.
+[01:14:25] And yeah.
+[01:14:26] I think that if you're hesitating on doing a portfolio
+[01:14:30] piece or not, I think you should try and do it.
+[01:14:33] Since you're already kind of unsure or you're already quite,
+[01:14:38] you're already doing projects that are quite modest,
+[01:14:40] I think that as soon as you feel like you could perhaps do it,
+[01:14:43] you should try and throw yourself in and say,
+[01:14:45] OK, I'm going to try and do it even if I'm not quite sure.
+[01:14:48] So yeah.
+[01:14:48] That's where I would go.
+[01:14:51] Thank you.
+[01:14:52] Awesome.
+[01:14:54] Joe.
+[01:14:54] So Joe.
+[01:14:55] You said that you can't.
+[01:14:56] You can't talk today, which is completely fine.
+[01:14:58] I saw that you did lots of stuff and you showed lots of stuff.
+[01:15:01] So yeah.
+[01:15:01] You made a big torch.
+[01:15:02] I think it's really cool.
+[01:15:05] You posted an extra thing.
+[01:15:09] So yeah.
+[01:15:10] I think that what you do, the torch here,
+[01:15:11] it looks really good, the shader itself.
+[01:15:14] I think it also encompasses a nice shape.
+[01:15:16] Those strong edges on the side are really nice.
+[01:15:20] The edge itself, the flickering works really nicely too.
+[01:15:23] And it has this volume.
+[01:15:24] There's nice.
+[01:15:25] Extra shape in front of it that works really well too.
+[01:15:28] So overall, I think in terms of colors,
+[01:15:30] you did a really good job.
+[01:15:31] It's not too blowout.
+[01:15:32] There's not too much white.
+[01:15:34] It's quite concentrated here.
+[01:15:36] The one thing I would say that you can work on
+[01:15:39] is it feels like this part here that connects to the material
+[01:15:43] feels a bit off.
+[01:15:44] And in particular, it doesn't feel quite like it's burning.
+[01:15:50] In fact, in a torch, usually this part is burning.
+[01:15:54] But yeah.
+[01:15:54] Yeah.
+[01:15:55] I think that overall, this is the slight thing
+[01:15:57] that I would work on is remember that you're
+[01:16:01] making a full artwork, which is the whole screen,
+[01:16:03] not just your effect.
+[01:16:04] Your effect, I think, looks really good.
+[01:16:06] So now it's about tying it up.
+[01:16:07] So that would mean, for instance,
+[01:16:09] making a secondary effect.
+[01:16:10] If you made this fully with the shader,
+[01:16:12] like you showed in your effects there,
+[01:16:14] I think that this is where then you can work with it and say,
+[01:16:19] OK, I'm going to duplicate this and add a small one that's
+[01:16:23] just licking here.
+[01:16:24] And like.
+[01:16:24] Just makes it feel 3D.
+[01:16:26] It makes it feel like this is a whole piece.
+[01:16:29] I think that's one thing that I would work on.
+[01:16:31] Otherwise, I think that you did a great job with this.
+[01:16:35] Adding a few sparks, extra glow around it, like this,
+[01:16:39] for instance, could help too.
+[01:16:41] This is all just building through it.
+[01:16:43] But I think as a base, this is really good.
+[01:16:45] It looks really nice.
+[01:16:47] And just fluffing it up would work really well.
+[01:16:51] You're saying, I was going to add embers and smoke,
+[01:16:53] but after jumping.
+[01:16:54] Everyone from project to process getting comfortable.
+[01:16:59] This is what I had time to get.
+[01:17:00] Yeah, of course.
+[01:17:01] Yeah, that makes a lot of sense.
+[01:17:03] Yeah, don't worry.
+[01:17:05] Yeah, take your time.
+[01:17:06] So what I usually do when I do this,
+[01:17:09] I make a complicated shader that makes something
+[01:17:11] that looks really good.
+[01:17:12] And then from there, I just fluff it out.
+[01:17:15] I just add more stuff.
+[01:17:16] Feels good.
+[01:17:17] So yeah, this is the spot where you want to add.
+[01:17:20] As of for where to go next.
+[01:17:24] You did send me a message just recently, so today.
+[01:17:29] So I didn't have time to answer it.
+[01:17:31] But I think you're in a good direction in general.
+[01:17:34] I think that you need more repetition too, just
+[01:17:38] to work on stuff and see different effects, basically.
+[01:17:44] So far, you've been working on kind of 1 to 1.5 effects
+[01:17:47] per week with a lot of different small experiments.
+[01:17:50] I think that here you can try and really go
+[01:17:54] and try new stuff, basically, and do more repetition.
+[01:17:57] I think just in terms of raw amount of content,
+[01:18:00] you can just do more.
+[01:18:02] So yeah.
+[01:18:03] But I think it shows that you're really comfortable
+[01:18:06] with shaders and 3D.
+[01:18:08] So I think you can just lean on that, and it will work out.
+[01:18:15] Yeah, keep your momentum.
+[01:18:17] And as you talked about, keep your momentum.
+[01:18:21] Even if it's a slow pace, it's better to keep your momentum.
+[01:18:23] Yeah.
+[01:18:24] It's better to have a slow pace than nothing.
+[01:18:27] Always.
+[01:18:28] It's really important.
+[01:18:30] And this is really cool.
+[01:18:31] So I think you can be really happy with it.
+[01:18:34] Awesome.
+[01:18:35] Did I forget anyone?
+[01:18:36] Is there anyone else that wanted to push something but didn't?
+[01:18:39] I think the only one is Saver.
+[01:18:42] Is there anything you want to say, Saver?
+[01:18:44] Or is there anything you want to add?
+[01:18:47] I just want to say that I tried more complex stuff,
+[01:18:53] like more complex stuff.
+[01:18:53] Yeah.
+[01:18:54] Complex VFX, like bigger in scale.
+[01:18:57] But I found myself having a lot of problems
+[01:19:03] with very, very layered stuff, like too much stuff going on.
+[01:19:10] Yeah.
+[01:19:11] OK, that makes sense.
+[01:19:13] That's normal, because basically you're learning things.
+[01:19:17] So you need to structure them in order
+[01:19:18] to be able to get everything together.
+[01:19:21] And so the more things there is, the harder it is to structure.
+[01:19:23] And once you have too much stuff and it's not structured,
+[01:19:26] you can't work on it anymore.
+[01:19:28] That's called technical depth.
+[01:19:29] It's a really important thing to keep in mind.
+[01:19:32] It basically means that most of the time,
+[01:19:35] if you're not doing something that you know how to do,
+[01:19:38] you will not be able to make a full,
+[01:19:39] like for your piece, like big effect
+[01:19:41] that you can polish forever.
+[01:19:42] That can be really frustrating, but also tell yourself
+[01:19:45] that this is a normal step of learning.
+[01:19:47] So start with small things.
+[01:19:49] Stop working on things when you feel like it's over.
+[01:19:53] It's overwhelming, like it's too much.
+[01:19:55] Or like you just don't know where to go anymore.
+[01:19:58] Feel like it's too unwieldy.
+[01:19:59] And I think it will work.
+[01:20:01] I think I was really impressed by your work.
+[01:20:04] You did a good job.
+[01:20:05] I think those are all really nice.
+[01:20:07] They're just good stuff.
+[01:20:08] So yeah, the Docs one here, I think, really nice.
+[01:20:12] So yeah.
+[01:20:13] OK, thank you.
+[01:20:15] Awesome.
+[01:20:16] Cool.
+[01:20:19] Yeah, so this is going to be the end of the session.
+[01:20:23] This is going to be, unfortunately, our last session.
+[01:20:27] First off, week nine.
+[01:20:29] So normally, if you don't have access now,
+[01:20:32] you will have access soon through the League Band set.
+[01:20:39] So there's all the different suggestions.
+[01:20:44] The sandbox is really nice, too.
+[01:20:47] It's basically this scenery.
+[01:20:48] You've seen it before.
+[01:20:50] It's really, really nice to put your effects
+[01:20:52] and show them out and take recordings, et cetera.
+[01:20:55] So I suggest you look at it, play around.
+[01:20:59] You see there's lots of stuff in there.
+[01:21:00] So you can also just pick up some textures if you want.
+[01:21:03] You can pick up some.
+[01:21:04] You can look at some effects and break them down, too.
+[01:21:07] This is a really good tool.
+[01:21:08] So if at some point you feel a bit playful,
+[01:21:11] you don't really know what to do, that's a really good way to do it.
+[01:21:14] The production level breakdown, this one
+[01:21:15] is if you want to step up a bit.
+[01:21:18] If you feel like you're doing everything correctly,
+[01:21:21] but you're still not quite getting there,
+[01:21:22] you're still not quite comfortable,
+[01:21:24] this is a really good effect.
+[01:21:26] And it breaks down a lot of effects.
+[01:21:29] It's really, really good.
+[01:21:30] But it's a bit of a step up.
+[01:21:32] It's a bit hard.
+[01:21:33] But it's really interesting.
+[01:21:35] And Rob Fish is also really, really talented.
+[01:21:37] So it's good.
+[01:21:39] The color theory, I don't know if you,
+[01:21:40] I think you only had parts of it in the class.
+[01:21:44] So you'll have the full thing.
+[01:21:45] David Chauvelin is a very, very good artist.
+[01:21:48] So this one, I think, is really interesting.
+[01:21:51] And it adds, as we said, like, a little bit of color.
+[01:21:52] Like, just adding a tiny bit of extra smaller colors
+[01:21:56] here and there can help so, so much.
+[01:21:58] So that can also be really useful for you.
+[01:22:03] And then the community recordings here,
+[01:22:07] I suggest them as a routine thing to do.
+[01:22:09] If you're not quite comfortable, they will teach you the basis.
+[01:22:12] And they will help you get comfortable with the Engine
+[01:22:16] and build effects.
+[01:22:17] So those, I think, are really good.
+[01:22:19] Especially, I would focus on the old magic orb, the aura effect,
+[01:22:22] and the shield effect.
+[01:22:23] But, honestly, all of them are just, like, good.
+[01:22:26] If you want to learn how to do soul coasters or curve meshes,
+[01:22:29] it's the same thing.
+[01:22:31] This one is good.
+[01:22:31] The muzzle flash is good if you want
+[01:22:33] to learn, like, impact hits, flashes.
+[01:22:36] And all the other ones are just, like, decent.
+[01:22:38] So yeah, you can play around with them.
+[01:22:42] What else can I tell you?
+[01:22:43] On the 2D side, the 2D effects playbook by Sonja,
+[01:22:47] you already saw that before week one.
+[01:22:49] But perhaps since week one, you upgraded.
+[01:22:50] And the shield effect is good, too.
+[01:22:50] But honestly, all of them are just, like, good.
+[01:22:50] Yeah, you can play around with them.
+[01:22:51] What else can I tell you?
+[01:22:51] upgraded your repertoire and you have new things
+[01:22:54] that you want to try out, this is always good.
+[01:22:56] And it's really good training if you feel
+[01:22:57] like your timing is a bit weak.
+[01:23:00] So if you feel like your effects are lacking punch
+[01:23:02] or they're not as interesting visually,
+[01:23:05] that can be a really, really good tool to go back to.
+[01:23:10] All of those after that are all really good.
+[01:23:15] The Ignite 2D effects playbook, I think, is quite strong.
+[01:23:21] It's one, again, one step further kind of thing
+[01:23:25] where it might be a bit overwhelming,
+[01:23:28] but it's really good.
+[01:23:30] And then the little studies here, I find them really fun.
+[01:23:34] And Alex Redfish is obviously also a very famous name.
+[01:23:37] So you'll see that sometimes he works really fast,
+[01:23:41] and it's hard to follow.
+[01:23:43] But it's also really interesting.
+[01:23:44] And it's bite-sized.
+[01:23:46] It's not that big, so it works well.
+[01:23:48] So yeah, I suggest to try them out.
+[01:23:50] It also is really good.
+[01:23:51] Inspiration, you can see the colors that are worked on.
+[01:23:54] You wouldn't expect those colors initially
+[01:23:56] when you're working with a poison,
+[01:23:57] but actually it works really well.
+[01:23:59] And those kind of effects working with some purple, some greens,
+[01:24:03] and some orange-ish yellow is always interesting.
+[01:24:05] So yeah, those are good for inspiration.
+[01:24:08] So yeah, that's where I would go for.
+[01:24:13] For those who I have not answered yet,
+[01:24:15] I will find some time to answer your message directly.
+[01:24:18] Once again, if you have any questions, anything
+[01:24:20] else, if you are not sure where you're going,
+[01:24:22] especially if you're lost, especially if you're like,
+[01:24:25] I don't know what's the next step,
+[01:24:26] I don't know where to do, or I don't know if it's
+[01:24:28] to start making a portfolio or something like that,
+[01:24:31] send me a message.
+[01:24:32] Really, really, really.
+[01:24:34] In this first month, it's very common
+[01:24:36] that people send me a message.
+[01:24:37] And I will 100% be there to answer,
+[01:24:39] even if it's on a bit of a delay.
+[01:24:41] So feel free to send me a message to ask me.
+[01:24:44] And I will gladly try and find a solution with your answer
+[01:24:48] and help you out.
+[01:24:49] And then obviously, if you find a job,
+[01:24:50] if you ever send me a message, I'll
+[01:24:52] be super happy to collaborate with you.
+[01:24:54] Awesome.
+[01:24:55] Is there any questions before I leave you all?
+[01:25:05] Yeah, I think I have one.
+[01:25:07] It's kind of, I don't know.
+[01:25:10] It's weird, but it might not have a concrete answer.
+[01:25:13] But I think it feels like it's more of a feeling thing,
+[01:25:20] because I don't have enough reference, I guess.
+[01:25:24] But how do I know when my effect is, quote unquote,
+[01:25:31] good enough for portfolio?
+[01:25:33] How do I know when I'm ready to do it and when I'm not?
+[01:25:36] Because in my case, for instance,
+[01:25:38] I know I have a way to go on some stuff.
+[01:25:40] I already have some stuff planned to do.
+[01:25:42] But I don't know what's the point.
+[01:25:45] When am I going to wake up and say, OK, today's portfolio day?
+[01:25:49] I think you're not that far off.
+[01:25:50] Yeah.
+[01:25:50] I think it's just about repetition
+[01:25:52] and about getting there.
+[01:25:53] Really, I think that you don't have to tell yourself.
+[01:25:58] If you're already telling yourself that,
+[01:26:00] it means that you're indeed not quite feeling what is needed
+[01:26:04] or not.
+[01:26:05] And that means that you need to, I would set either yourself
+[01:26:07] an arbitrary date.
+[01:26:09] I would say, tell yourself you make four more effects, any one
+[01:26:12] of them, like even small stuff that's just there
+[01:26:15] or using the follow along, et cetera,
+[01:26:17] and then you start making a portfolio piece.
+[01:26:19] That's the first solution.
+[01:26:20] It's arbitrary.
+[01:26:21] If you know already that you don't have the skills
+[01:26:24] to appraise your effect and to know when it's going to be good
+[01:26:27] or not, then to appraise your skills,
+[01:26:29] then set yourself a time or a deadline or something.
+[01:26:33] Second option is find someone or, for instance,
+[01:26:37] on the VFX Apprentice Discord, find some place
+[01:26:40] where you can post your work and ask for genuine feedback saying,
+[01:26:43] hey, this is where I'm at.
+[01:26:45] Can you please tell me, am I ready to make a portfolio piece?
+[01:26:48] Do you think I'm ready or not? And, yeah, that's it.
+[01:26:50] And what could I do to get, what am I missing if I'm not?
+[01:26:55] That kind of work will help you a lot.
+[01:26:58] And you might even have some people that then follow
+[01:27:01] what you post, what you say, and say, OK, I actually think
+[01:27:05] that you're ready here or not.
+[01:27:07] That can help a lot.
+[01:27:08] Just finding people that have this eye.
+[01:27:11] If you don't have it, find someone else.
+[01:27:12] Yeah.
+[01:27:13] The Monday and Wednesday hangout, like Anna said in the chat,
+[01:27:18] the Monday and Wednesday hangout, so this is,
+[01:27:20] Monday mornings for my time.
+[01:27:23] So for you, it might be a bit early.
+[01:27:25] But then the Wednesday afternoon, same time as here,
+[01:27:29] is probably the best one.
+[01:27:31] Jason usually, or other people, might,
+[01:27:34] will look at effects and say stuff about them
+[01:27:38] and give feedback.
+[01:27:39] And that might be the perfect place
+[01:27:41] to get a good idea of, is this portfolio ready or not?
+[01:27:45] Yeah, just remember, everyone has their own opinion.
+[01:27:48] And sometimes someone might tell you,
+[01:27:50] oh, yeah, you're 100% ready to get to making a portfolio.
+[01:27:53] And other people might tell you, oh, yeah, no, you're still
+[01:27:55] lacking this, this, this, this, and that.
+[01:27:57] So judge it by yourself.
+[01:28:00] I think that if, once again, same thing,
+[01:28:03] if you're ever hesitating if you should or not,
+[01:28:05] if you ask yourself, oh, OK, should I or shouldn't I,
+[01:28:09] try it.
+[01:28:11] For me, it seems like you're in a bit of the same boat
+[01:28:14] as Paulina, where it's like, I don't know what I should do
+[01:28:17] or where I should go.
+[01:28:18] I'm not sure.
+[01:28:19] Like about.
+[01:28:19] This, like, should I make a portfolio or not?
+[01:28:23] Once you ask yourself, genuinely, OK,
+[01:28:27] could I make a portfolio piece or not here,
+[01:28:29] or should I keep training?
+[01:28:31] It's the good moment to move up.
+[01:28:33] So yeah, don't linger too much into training, training,
+[01:28:37] training.
+[01:28:39] I think, I don't know who was talking about Renate,
+[01:28:41] but Renate is a good example of someone that was like,
+[01:28:43] it's too much about, I'm stressed about not making it
+[01:28:47] good enough, so I'm going to keep training, training,
+[01:28:49] training.
+[01:28:49] And so it took six months, for instance.
+[01:28:52] So yeah, tell yourself that if you're already asking yourself
+[01:28:56] and asking yourself the question multiple times
+[01:28:58] and you're feeling like it's not enough,
+[01:29:00] usually it means that you can start making portfolios.
+[01:29:05] I think part of the feeling, too,
+[01:29:06] is because I don't know what a good portfolio looks
+[01:29:09] like for the level that we are, because we all look
+[01:29:12] at reference.
+[01:29:12] We all see this stuff for varied levels.
+[01:29:15] Mostly, we are attracted to things that we like,
+[01:29:18] so we go for the amazing things.
+[01:29:19] Yeah.
+[01:29:19] And of course, we are not at the amazing level
+[01:29:22] we're starting, but I don't know exactly what's
+[01:29:24] like a good portfolio for someone on our level.
+[01:29:27] Your portfolio will never look the same as another junior
+[01:29:31] portfolio.
+[01:29:31] Right.
+[01:29:32] Unfortunately, sadly, you will have strengths
+[01:29:33] that they don't have.
+[01:29:34] You'll see things that they don't have,
+[01:29:36] and they will see things in your effects that they don't have,
+[01:29:38] and they'll be super jealous.
+[01:29:40] So yeah, all that to say, you can't really know.
+[01:29:45] And oftentimes, your portfolio will probably have some things
+[01:29:49] that are wrong about it when you make it, and that's fine,
+[01:29:52] because you can still be hired even if your portfolio is not
+[01:29:56] perfect.
+[01:29:56] So just making one that's enough is fine.
+[01:30:03] They told her even though she didn't feel like it's
+[01:30:08] .
+[01:30:09] Yes, exactly.
+[01:30:10] Exactly what Chris said.
+[01:30:13] Yeah.
+[01:30:13] Yeah.
+[01:30:14] Remember, most people are not hired on jobs that they're
+[01:30:19] competent at immediately.
+[01:30:21] You learn through the job.
+[01:30:22] You learn through doing.
+[01:30:24] You don't have the skills immediately.
+[01:30:26] It's normal.
+[01:30:27] And so when you're making your portfolio,
+[01:30:30] you kind of have to make the jump, make some mistakes
+[01:30:33] here and there, as long as your portfolio is
+[01:30:35] to the best of your ability in the moment.
+[01:30:37] It represents you, and you feel like you've
+[01:30:39] put your best feet forward.
+[01:30:41] It's still your feet.
+[01:30:43] Feet are not that great, but you'll do your best.
+[01:30:46] So yeah.
+[01:30:48] One thing that you can tell yourself still
+[01:30:50] in terms of appraising your work is take a still image
+[01:30:55] of your effect and look at it as if it was a painting.
+[01:30:58] Usually that will help you first.
+[01:31:00] So the skills that we've looked at before.
+[01:31:02] So use the black and white tool to kind of look at it,
+[01:31:05] kind of analyzing the different things.
+[01:31:07] Ask yourself, do I have enough color variation, et cetera.
+[01:31:10] All those tools, all those things
+[01:31:11] that we talked about before, like the different fundamentals
+[01:31:14] we talked about.
+[01:31:15] Almost look back at the different weeks.
+[01:31:17] Like week one.
+[01:31:18] Week one to four.
+[01:31:19] Are you using all those things that we talked about
+[01:31:22] and doing work to four?
+[01:31:23] That's the first way to do it.
+[01:31:24] Then the second thing is how to know if your portfolio is good
+[01:31:28] or not.
+[01:31:28] Just make a portfolio.
+[01:31:30] Make it three pieces.
+[01:31:32] The three pieces, they have to be slightly different.
+[01:31:36] They don't need to be very different.
+[01:31:37] They just need to be slightly different.
+[01:31:39] And they need to do the effect itself on screen
+[01:31:42] needs to last for about two seconds, something like that.
+[01:31:45] If it lasts for less than one second, then it's too small.
+[01:31:48] And if it lasts for more than five seconds, it's too long.
+[01:31:52] And that's it.
+[01:31:53] Just after that, do whatever works.
+[01:31:56] And don't spend more than two weeks on a portfolio piece.
+[01:32:01] If you're spending more than two weeks on a portfolio piece,
+[01:32:04] it's that the portfolio piece is too complicated.
+[01:32:05] So try to abort mission or simplify
+[01:32:09] or to just satisfy yourself with this one.
+[01:32:11] Take the best video you can of it and move on.
+[01:32:14] And then perhaps you'll make four portfolio pieces.
+[01:32:16] But it's better than that.
+[01:32:17] Then to spend more time on it.
+[01:32:17] It's too complicated.
+[01:32:18] And then three months trying to make that one portfolio piece
+[01:32:21] look good.
+[01:32:22] So yeah, that's the different advice I would have.
+[01:32:27] All right, awesome.
+[01:32:27] Thank you.
+[01:32:28] Awesome.
+[01:32:31] Any questions?
+[01:32:37] All right.
+[01:32:39] I had a blast with you all.
+[01:32:41] Thank you so much for coming.
+[01:32:42] Thank you so much for showing enthusiasm into this.
+[01:32:45] This is one of the bootcamps that had the most, like,
+[01:32:47] energy going through.
+[01:32:50] And that you were all invested and you also
+[01:32:53] interacted with each other.
+[01:32:54] I think that was great.
+[01:32:55] I'm really always happy to see this energy.
+[01:32:59] If you manage to keep in touch with each other,
+[01:33:00] I highly recommend it.
+[01:33:02] This is also a really good way to progress.
+[01:33:05] So that's really nice.
+[01:33:08] Yeah, I will still be there.
+[01:33:09] As I said, feel free to send me messages.
+[01:33:11] And if you ever get carrier opportunities, feel free to tell
+[01:33:15] me.
+[01:33:16] All right.
+[01:33:16] Bye.
+[01:33:17] Have a wonderful time.
+[01:33:19] I really am behind your carriers.
+[01:33:21] And I really hope that it works out.
+[01:33:22] And I will see you all at the ..
+[01:33:25] Bye, everyone.
+[01:33:27] Bye.
+[01:33:28] Bye.
+[01:33:28] Thank you.
+[01:33:29] Thank you.
+[01:33:29] Thank you.
+[01:33:30] Bye.

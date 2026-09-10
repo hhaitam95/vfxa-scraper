@@ -1,0 +1,1837 @@
+[00:00:00] How was the overall engine work?
+[00:00:09] Did you manage?
+[00:00:12] Was it fun?
+[00:00:15] It's only crashed three times.
+[00:00:19] That's pretty good.
+[00:00:20] That's fair.
+[00:00:22] It sounds like a lot still, sadly.
+[00:00:26] Honestly, I think it was just...
+[00:00:28] I think I just need more RAM.
+[00:00:30] Because sometimes my computer will just freeze up.
+[00:00:34] How much RAM do you have?
+[00:00:35] I think only like 12 gigabytes.
+[00:00:40] Okay.
+[00:00:41] It's a very, very old computer.
+[00:00:45] Yeah.
+[00:00:46] Not a great time to buy RAM.
+[00:00:48] No, it is not.
+[00:00:51] 12 gigs you have?
+[00:00:53] 12 gigs should be okay.
+[00:00:57] I have 16.
+[00:00:58] I had the same issue.
+[00:00:59] No, I have 16.
+[00:00:59] I have 32, sorry.
+[00:01:02] 32?
+[00:01:04] Yeah, I was saying I had the same with the engine.
+[00:01:07] I installed Unity.
+[00:01:09] And I have like a MacBook Air.
+[00:01:13] And it was not like...
+[00:01:15] It was not very happy.
+[00:01:16] Yeah.
+[00:01:17] I was expecting to run smoothly.
+[00:01:19] But yeah, it was a little bit overheating.
+[00:01:24] But I guess that's the difficulties I had.
+[00:01:28] It's...
+[00:01:29] With it so far.
+[00:01:32] Yeah.
+[00:01:33] Yeah.
+[00:01:34] Yeah, that's fair.
+[00:01:37] Yeah.
+[00:01:38] It can be really difficult.
+[00:01:40] I don't know exactly what's the best way to like...
+[00:01:44] Make sure that like it doesn't play too...
+[00:01:48] It's not too like difficult.
+[00:01:50] But I think there's like stuff online.
+[00:01:53] If you want to...
+[00:01:54] I've heard of people working with like lower end PCs.
+[00:01:57] And still making it possible.
+[00:01:59] So you can check that out.
+[00:02:09] I remember someone talking about accelerometer.
+[00:02:14] As like something that you can change.
+[00:02:15] That can like in particle systems.
+[00:02:17] You can reduce the frequency at which it updates.
+[00:02:22] And that's it.
+[00:02:24] I don't remember much else.
+[00:02:27] Oh yeah.
+[00:02:28] I just checked my task.
+[00:02:29] And I didn't realize my browser takes up so much.
+[00:02:33] I'm at like 75% resting.
+[00:02:36] Just from that.
+[00:02:38] Yeah.
+[00:02:38] Browsers are like air.
+[00:02:40] They take every space that you're not using.
+[00:02:42] Like they will keep expanding.
+[00:02:45] As much as you give them.
+[00:02:46] So yeah.
+[00:02:49] That might be why I was like stuttering in Unreal.
+[00:02:52] I just got to close my browser.
+[00:02:54] But I'm also in there.
+[00:02:56] I have to be somewhere.
+[00:02:57] If you're using Chrome.
+[00:02:58] Yeah.
+[00:02:58] It's good.
+[00:02:59] I was saying like if you're using Chrome.
+[00:03:01] Google Chrome.
+[00:03:02] Chrome is pretty expensive.
+[00:03:04] Yeah.
+[00:03:05] It's just crazy.
+[00:03:07] Yeah.
+[00:03:07] One thing you can do is you can do your research.
+[00:03:10] Or you're like you're looking for references.
+[00:03:13] And stuff like that on your phone.
+[00:03:14] While you're working on the PC.
+[00:03:15] I know some people that do that.
+[00:03:17] That actually find the process quite good.
+[00:03:20] So I don't know if you want to try.
+[00:03:24] I often use two devices.
+[00:03:25] I had when I started working.
+[00:03:27] I had a tablet.
+[00:03:28] And I would use that tablet for everything.
+[00:03:29] I would use the tablets for like all the things.
+[00:03:34] And then I would work on the PC only for actual work stuff.
+[00:03:38] And then the tablet would be for all the tutorials.
+[00:03:40] Or the stuff that I would look for.
+[00:03:42] Et cetera.
+[00:03:46] Just another idea.
+[00:03:47] Actually, I didn't think about that.
+[00:03:48] Yeah.
+[00:03:49] I could put the tutorials on my tablet.
+[00:03:51] That's a good idea.
+[00:03:54] Hopefully, you don't get crashes.
+[00:03:56] Yeah.
+[00:03:57] That can be really annoying.
+[00:03:58] I agree.
+[00:03:59] I agree.
+[00:04:00] Unfortunately, it's not the right moment to buy some RAM.
+[00:04:03] Yeah.
+[00:04:03] Sadly.
+[00:04:07] Yeah.
+[00:04:11] Did you?
+[00:04:12] All of you seem to have overall managed to do stuff.
+[00:04:16] It's pretty cool.
+[00:04:18] I didn't see much about what you did.
+[00:04:20] But you've been more of the reserved type.
+[00:04:26] So I let you do.
+[00:04:29] I hope that you've all managed to install stuff and then start work.
+[00:04:33] All right.
+[00:04:35] I've noticed that there's only like four people in this meeting.
+[00:04:41] I know that one person said that they couldn't make it.
+[00:04:46] But like.
+[00:04:47] It's OK.
+[00:04:49] Sometimes it happens.
+[00:04:50] I know that this week people were told.
+[00:04:53] I had multiple people in PMs that told me that they were not available this week.
+[00:04:57] I know that.
+[00:04:58] Chris.
+[00:04:59] Chris is not available also because the plane Paulina told me that she can't make it.
+[00:05:07] Who?
+[00:05:08] Yeah.
+[00:05:09] Multiple people told me that they can't make it.
+[00:05:10] So it's fine.
+[00:05:11] And as a reminder, the Monday one is necessary as an I needs to see what you do and like
+[00:05:19] otherwise I can't really follow your work.
+[00:05:22] And if not, I need to at least have your submission.
+[00:05:24] But the Friday one, if you don't feel like coming because you have like other things
+[00:05:28] that come up.
+[00:05:29] Or other ideas.
+[00:05:30] You can not come.
+[00:05:32] Also, like as a reminder, like I'm not a professor that's going to grade you or going to give
+[00:05:38] you like, oh, like you pass or you fail or whatever.
+[00:05:41] I'm not testing you.
+[00:05:42] I'm 100% here to help you and teach as much as I can.
+[00:05:47] But transmit my knowledge.
+[00:05:49] But I'm not.
+[00:05:50] I can't tell you what to do.
+[00:05:53] If you say you don't want to come, you don't come.
+[00:05:56] Very well.
+[00:05:57] I was just like wondering why the class is so small this week.
+[00:06:01] Or this is so small this week.
+[00:06:03] Yeah, I can give you a bit of retrospective that you're curious about it.
+[00:06:07] Usually in the boot camp as the weeks go by, people like people are usually not busy for
+[00:06:12] the first weeks.
+[00:06:13] So they either like they do a lot of stuff.
+[00:06:15] But then as the weeks go by, some people like are a bit less interested or they manage to
+[00:06:19] like post a bit less.
+[00:06:20] The posts on the forums are a bit less there.
+[00:06:22] And so just to just read time because like two weeks, two months is quite a bit.
+[00:06:26] And so it's just also normal that sometimes the groups are kind of smaller or kind of
+[00:06:31] bigger.
+[00:06:32] And this is something that, yeah, it is expected at least.
+[00:06:37] For people is not much, but it's not like I'm not alarmed by it.
+[00:06:43] And I try to reach out like a bit like here.
+[00:06:45] I try to reach out to people even when they don't post much or they ask, don't ask.
+[00:06:49] Very well.
+[00:06:52] Yeah.
+[00:06:56] Sorry, I interrupted you before.
+[00:07:00] I was just saying that I didn't get to the engine part because I was still trying to
+[00:07:05] animate the fire.
+[00:07:06] Yes.
+[00:07:07] Once again.
+[00:07:08] So I will be doing the engine over the weekend.
+[00:07:11] But if you can help me with the fire.
+[00:07:15] Yeah, I just posted my failed attempt.
+[00:07:17] I saw.
+[00:07:18] It's not failed attempt.
+[00:07:19] It's cool.
+[00:07:20] It's okay.
+[00:07:21] I think that it looks more like a leak than anything else.
+[00:07:24] It doesn't loop?
+[00:07:25] No.
+[00:07:26] Yeah, it doesn't.
+[00:07:27] It does loop.
+[00:07:28] I know.
+[00:07:29] Yeah, you're right.
+[00:07:30] It has a stutter.
+[00:07:31] Yeah, it's like completely different frame and then it passes to another.
+[00:07:36] It looks like it has two fists and it's like shaking his fists back and forth.
+[00:07:40] It has like a, it looks like it's dancing a bit.
+[00:07:44] Because if I can describe the problem.
+[00:07:47] Yeah, go for it.
+[00:07:49] Basically, you know, I would do the.
+[00:07:53] Yeah.
+[00:07:54] So.
+[00:07:55] I would start at the first frame, which is also the last frame, the frame in the middle.
+[00:08:00] And then I would start, you know, moving the shape upwards and also to match the movement
+[00:08:09] of the line wiggle.
+[00:08:12] But then at the like second to last frame, you know, I would arrive at the shape that's
+[00:08:19] that's like makes sense to the movement from before.
+[00:08:23] But it, you know, it's so far away from the last frame that I don't know how to kind of
+[00:08:30] bridge.
+[00:08:31] How to merge them.
+[00:08:32] Yeah, that makes sense.
+[00:08:33] Yeah.
+[00:08:34] You know what I mean?
+[00:08:35] 100%.
+[00:08:36] Yeah, I see exactly what you mean.
+[00:08:37] That's like a common issue.
+[00:08:38] So what I recommend you do is that you make two frames.
+[00:08:44] You make the first frame.
+[00:08:47] Okay.
+[00:08:48] That's also the last frame, obviously.
+[00:08:49] Then you make the middle frame.
+[00:08:51] So you just draw the middle frame.
+[00:08:52] Those two frames, they don't need to have anything in common if you want.
+[00:08:57] Yeah, I did that.
+[00:08:58] And after that, you just merge between the two.
+[00:09:00] That's the first solution.
+[00:09:01] The second solution is to add structure to it.
+[00:09:03] So basically make either use the bubble technique.
+[00:09:06] So as we've seen before, you know, you do circles and you just have them go up like
+[00:09:11] bubbles.
+[00:09:12] And then you use that as a reference for the shapes that you're going to have.
+[00:09:15] So it forces you, since you're using like kind of generic motion, it forces you to kind
+[00:09:20] of like keep that up.
+[00:09:21] It can be difficult because so what you want to do is that you want to start with like
+[00:09:28] the first frames.
+[00:09:29] Basically, you put bubbles that are start just spawning, basically.
+[00:09:34] So you put like just bubbles at the bottom, bubbles everywhere.
+[00:09:37] Then as they go, you keep having them going up.
+[00:09:41] Okay.
+[00:09:42] And then at some point you start, you want to work backwards from your previous one so
+[00:09:49] that you kind of merge them together.
+[00:09:50] Okay.
+[00:09:51] And then as they go, you want to work backwards from your previous one so that you kind of
+[00:09:52] merge them together.
+[00:09:53] That's how I would do it personally.
+[00:09:54] But it can be really annoying if you get it.
+[00:09:57] Yeah.
+[00:09:58] So yeah, I will attempt it again at some point.
+[00:10:03] What I recommend you do, too, is that you draw like curves of what you want to happen.
+[00:10:11] So you draw like a like, like three little curves that go around that go up.
+[00:10:20] around that go up as if it was the wind currents inside the fire.
+[00:10:24] And then you pass through that.
+[00:10:25] So basically, each loop is going to be one ride of that curve.
+[00:10:31] And so that way, you're guaranteed
+[00:10:33] that you're going to start back at that curve,
+[00:10:34] and you can create a loop.
+[00:10:36] That's also a good idea.
+[00:10:37] And on that curve, you can just have a ball pass,
+[00:10:39] like a sphere pass through there, a bubble.
+[00:10:41] So then you have three bubbles that are going up,
+[00:10:43] changing speeds, and following the same curve.
+[00:10:46] And once you have that loop, you should
+[00:10:47] be able to animate the fire with something that loops.
+[00:10:50] Basically, create a structure that loops,
+[00:10:52] and then it's easier for the flame itself to .
+[00:10:54] Does that make sense?
+[00:10:55] So I can show you another thing.
+[00:10:59] Sure.
+[00:11:02] There was also something that I did that was helpful for me,
+[00:11:05] because I found that I was also really struggling
+[00:11:07] with the looping part.
+[00:11:08] Sure.
+[00:11:09] Yeah.
+[00:11:09] Is that it's an eight frame loop.
+[00:11:11] The first frame is one, and then the middle frame is five.
+[00:11:15] I would copy the first frame.
+[00:11:17] And put it in frame nine, so my onion skin would show me
+[00:11:23] the first frame again.
+[00:11:24] Because when it's looping, the onion skin
+[00:11:26] doesn't show you the first looped frame.
+[00:11:29] And I would lose track of it.
+[00:11:31] Yeah, that's what I do too.
+[00:11:35] So I posted in the assignment, I posted the guideline
+[00:11:39] that I had.
+[00:11:40] So I had exterior lines too.
+[00:11:45] So I could just run the bubbles.
+[00:11:47] And I could run the bubbles on the exterior lines.
+[00:11:51] Yeah, you could do that.
+[00:11:52] Yeah, you could run the bubbles on the exterior line.
+[00:11:55] I think that, so what I would do is I would do the following.
+[00:11:58] Let me pull this up.
+[00:12:01] Open the media, do this, that, and share my screen.
+[00:12:05] Which I'm already doing for some reason.
+[00:12:09] What I would do is the following.
+[00:12:13] I'm sorry, today I'm really tired.
+[00:12:15] I was stuck in traffic for a very long time.
+[00:12:17] It's super cooked.
+[00:12:20] OK.
+[00:12:21] So.
+[00:12:22] No worries.
+[00:12:23] You're very coherent.
+[00:12:24] I am?
+[00:12:25] OK, that's pretty good.
+[00:12:26] Yeah.
+[00:12:28] How is it called?
+[00:12:29] Epi...
+[00:12:31] Typing is not coherent.
+[00:12:35] It's good if the rest is.
+[00:12:37] So the left is the example from the course, of course.
+[00:12:39] Yeah, yeah.
+[00:12:40] The others from Sonja.
+[00:12:42] So what I would do is I would take this.
+[00:12:44] I would do one curve, a second curve,
+[00:12:47] curve. Okay, those are the curves that you have. Then I would animate bubbles. So those curves,
+[00:12:54] you just have them as references. Okay, then I would animate bubbles like so the bubbles would
+[00:12:59] start here, then they would move up to here, then to here, then to here, to here for instance. And
+[00:13:05] this one would have like small, small, small, medium, big, big. And then the same one would
+[00:13:12] have here. You can offset them in terms of motion. You can have them go bigger or smaller basically.
+[00:13:17] They would follow the different motions. You can have them go bigger and smaller, change size, etc.
+[00:13:23] You just animate them in the most simple way possible. What you want to do is
+[00:13:30] you want them to loop. So that's going to be pretty obvious that they loop. You want them to go
+[00:13:35] from here to there in nine frames, but they don't have to go from here to there in the same nine
+[00:13:41] frames. So what I would do is I would start like you have frame zero. Okay, then you have frame nine
+[00:13:47] then you have frame 18. Let's say you're doing a nine frame flip, okay? So you have frame zero,
+[00:13:54] well frame one, sorry. You have frame one, frame nine, frame 18. Okay? So what you can do,
+[00:14:00] yeah, so basically this first one here, let's call it A and then the second curve is B and the
+[00:14:06] second curve is C. So you can have A be from here to here, B be from here to here, and C be from like, so, A is from here to here, and C be from like, so, A is from here to here, and C is from here to here.
+[00:14:17] still this is still A, you agree? It's the same thing. So we can have C be like here to like here,
+[00:14:23] for instance. And so what happens is that then you can take any you can cut any part of this and it
+[00:14:30] will loop anyway, right? The spheres they will they will loop anyway. If all of those A, B, and C are
+[00:14:37] nine frames. So basically you'll have bubbles that are looping and going across those those curves.
+[00:14:42] And then what you can do is that you can just use those those balls as like a way to just carve your
+[00:14:47] So here, like this wouldn't change this one, this one could be like, like this of it as like the shape
+[00:14:52] of the flame, and then the next frame when this one is here is like this engulfs it slightly, and it
+[00:14:58] gives you like an occasion to make the flame slightly different. So that's the base idea.
+[00:15:03] What you want to do when you use the bubbles like that, you can use them in two ways. Either you use
+[00:15:07] them as a bulge that like pushes the flame around, or use it as pockets of air. If you use it as
+[00:15:13] pockets of air, the goal is to create those cavities here, okay? So they're going to be
+[00:15:17] basically pushing the flame around as if it was uh, have you seen the machines that make dough?
+[00:15:24] Yep. Okay, well exactly like that. Like a a three, three rod machine that just makes dough, and it
+[00:15:30] just pushes the flame around. Uh you can also use it like the the bubbles can also in alternatively
+[00:15:36] be basically the shape itself, and just follow around basically engulf the the balls as you want.
+[00:15:42] I prefer the this version, the version where the the balls push the flame around.
+[00:15:47] Yeah, I think it's more compelling, but if you prefer the other one it will work too.
+[00:15:54] Does that make sense? Yeah, for sure. So with my like uh if I start with with this shape that I
+[00:16:04] already have, uh that kind of already wiggles, I can use the I can animate the the balls on top of
+[00:16:15] that and... Yeah, exactly.
+[00:16:17] But they don't really need to follow the wiggle of the line?
+[00:16:22] No, no, no, no, no. There can be like one like that, one like that, and that,
+[00:16:26] like you can really have like whatever you want. This is a bit symmetrical, so
+[00:16:30] I would, I suggest that you like just find something that's a bit compelling, but yeah.
+[00:16:34] I would do two or three, not more. Two is okay, three is okay, but not more. If you do more,
+[00:16:39] you're gonna get lost with it. Sounds good. That gives me hope for that I will,
+[00:16:48] uh, succeed at some point to animate a fire at least one.
+[00:16:54] Yeah don't worry you've got this. I suggest that you go to the engine now, uh , and go back to
+[00:16:59] the the fire. Uh, I prefer the engine too . If people want to explore stuff
+[00:17:05] or have questions, we can talk about lots of stuff, yeah..
+[00:17:10] Z Hoje?
+[00:17:10] Uh, me?
+[00:17:13] Yeah, yeah.
+[00:17:14] Yeah I was just about to say I was just about to saystrapping into this. 맛있yszна escort Medien mountains here.
+[00:17:15] We're in the middle of a desert. Thanks for the people speaking swedish really wrong.
+[00:17:15] Yeah thanks, you really are a real gentleman.
+[00:17:15] Yeah all right so uh yeah let's get to negotiate as if we can solve a bigger named panel.
+[00:17:16] Just so we grow better.
+[00:17:16] It we国p balance.
+[00:17:17] McDonald farm.
+[00:17:17] McDonald farm.
+[00:17:17] say that for me like the 2D animation part is like the Brussels sprouts and spinach of
+[00:17:22] you know I feel like I need to to to eat it first so that I can do all the cool stuff
+[00:17:31] eating your vegetables so that you can eat the dessert yeah that makes sense
+[00:17:36] Brussels sprouts and spinach a little bit perfect yeah I don't know I I it's a good
+[00:17:41] picture well I get the feeling though um yeah today we can talk about the engine we can talk
+[00:17:49] about anything you want if you have any questions if anything came up if you have any topics you're
+[00:17:54] interested in we can also just explore stuff I made and you can ask like how is it made or like
+[00:17:58] going a bit more in depth if you want to start talking about next week's like textures and
+[00:18:03] materials Etc we can talk about that too if you want to talk about more about portfolio we can
+[00:18:08] talk about that and then finally uh the usual topics
+[00:18:11] motivation um like how to learn the work environment uh how to make a portfolio Etc
+[00:18:23] was there something that comes to mind something that was like that that you'd be curious to talk
+[00:18:27] about um I have yeah I have two questions um the first one is more engine related I noticed
+[00:18:37] um in the uh like follow along videos
+[00:18:41] um she would use a cone of the last like a cone uh velocity emitter um I'm sorry not a cone actually
+[00:18:50] that was my question if she'd use a point uh point emitter um and then we put it below the particles
+[00:18:56] so that it would admit them in what looked like a cone so I was curious is there a reason she used a
+[00:19:02] point emitter instead of a cone um because it looked like she was using them in like the same I
+[00:19:09] guess use cases
+[00:19:11] yeah so yeah uh there is no like it won't change much in what you want to do as long as the motion
+[00:19:18] is the same there is myriads of roads to get to the same result um some VFX artists might tell you
+[00:19:25] that one of option is more optimized or blah blah blah uh the the gains that you get from
+[00:19:31] using like a shape emitter versus like another shape emitter are like so small so
+[00:19:37] I would say a point emitter is slightly better like you have less chances of things going around
+[00:19:45] like a point emitter is just more precise but at the end of the day it doesn't change much
+[00:19:51] one thing that I'll say is if you don't need a weird shape for your emission just just use a
+[00:19:58] point like there's no reason to do anything else right um the simpler you keep things the more
+[00:20:04] you'll be able to change them afterwards and they will be easy to like basically
+[00:20:07] polish so when you're building a complex effect specifically you want to make sure that things
+[00:20:15] are polishable afterwards and there's going to be a limit if you make things too rough like if
+[00:20:22] you just make things so that they work from the first go you're not going to be able to polish
+[00:20:27] them because at some point you've you've done so many things too fast that you accumulate what's
+[00:20:32] called technical debt which is basically like you've done too much too much stuff you tried
+[00:20:37] like you went
+[00:20:37] too fast on too many things and now every change that you have to do takes you too long and so you
+[00:20:42] can never actually like polish it to the right level so that's the only reason why I would think
+[00:20:48] like better to use the the like a point here is that it's simpler and so you have less chances
+[00:20:55] that it goes wrong or you don't need to do it as much like you don't need to wiggle it too much but
+[00:21:00] I I think it doesn't change anything otherwise yeah
+[00:21:07] the other question that I had was like when you're making a portfolio is there like a I guess
+[00:21:17] not necessarily a limit but I guess a target zone for like level of complexity that you're going for
+[00:21:23] like do you want to do you want to make a really really complicated effect for your portfolio to
+[00:21:28] show that you can do all that or is it good to like have like a few really really simple ones too
+[00:21:34] yeah that's a really good question so a portfolio I would always say
+[00:21:37] I I would always say to make a portfolio in the the following way
+[00:21:43] for a beginner beginner portfolio specifically but for any portfolio you want three pieces okay
+[00:21:50] two is too little four is is just not necessary so three pieces you want three pieces that are
+[00:21:56] slightly different and that are what I call usually worth the click there if you're a recruiter you're
+[00:22:00] looking at them Etc it needs to be like like by clicking on your piece pressing play Etc it needs
+[00:22:07] to not just be a little it needs to actually be something that has a bit of meat that doesn't
+[00:22:13] mean that it needs to be long or like convoluted or stuff like that if you're making a whole
+[00:22:18] sequence with like a character animated the first thing like if your if your portfolio piece is
+[00:22:23] like a 15 minutes at 15 seconds long uh um uh like animation with like character animation Etc that's
+[00:22:30] way too much your portfolio piece can be like it can be like a few seconds like two three seconds
+[00:22:36] that's completely fine it's
+[00:22:37] needs to have stuff going for it.
+[00:22:40] So yeah, that's my take on that.
+[00:22:44] I suggest that when you're making a portfolio,
+[00:22:46] when you decide to make a portfolio,
+[00:22:48] I suggest usually that you take two weeks per portfolio piece,
+[00:22:52] and then that you spend two extra weeks
+[00:22:54] for setting it up together, putting it
+[00:22:57] on ArtStation or any other website
+[00:22:59] that you want to put it on, and editing the videos,
+[00:23:04] and making sure that it looks clean and polished,
+[00:23:06] and that you have a resume.
+[00:23:08] So that's kind of all together.
+[00:23:10] That means that three pieces plus the two weeks,
+[00:23:12] that means two months.
+[00:23:14] So that's usually what I say to people.
+[00:23:18] If you're in a good shape to make a portfolio
+[00:23:21] after the boot camp, after the third month of a boot camp,
+[00:23:24] so the month that you have on your own,
+[00:23:27] then it means there's two more months after.
+[00:23:30] That's why I usually say at the end of the boot camp,
+[00:23:32] the earlier you can start looking for a job,
+[00:23:34] is about three months after.
+[00:23:36] That makes sense.
+[00:23:39] I can show you examples of my portfolio, for instance,
+[00:23:43] that I had before when I started.
+[00:23:45] I can show you examples of my journey through a portfolio,
+[00:23:48] if you want.
+[00:23:49] We can look at other stuff.
+[00:23:51] But I would say in general that portfolios are really weird,
+[00:24:00] because you can get a job with a shitty portfolio,
+[00:24:04] and you can not get a job even if you have an incredible,
+[00:24:06] incredible portfolio, especially as a junior,
+[00:24:09] just because, honestly, job offerings are difficult.
+[00:24:17] You don't have a lot of control over if the job offering is
+[00:24:20] actually open or not.
+[00:24:21] If you've ever, when you see how it works in a video game
+[00:24:25] company, the people that decide when we need a VFX artist,
+[00:24:32] why and where, it's a lot on a whim.
+[00:24:35] It's usually stuff that's decided by someone that doesn't even do VFX
+[00:24:40] or doesn't quite understand the need of it.
+[00:24:41] And the interviews are a lot more about, does this person match the team,
+[00:24:50] and will they be able to ramp up with the technology,
+[00:24:55] than the actual skill, artistic skill of it.
+[00:24:57] There is a bunch of the artistic skill, sure, but not everything.
+[00:25:02] So yeah, I would say that as a junior,
+[00:25:05] the portfolio is more your key to enter.
+[00:25:10] And then the actual thing that gets you the job,
+[00:25:14] compared to the three other people that are in line,
+[00:25:17] is basically your knowledge of the industry,
+[00:25:20] your quote unquote soft skills, but mostly your capability
+[00:25:24] of working with other people.
+[00:25:26] Not really like your soft skills as if, oh, do you sweet talk well,
+[00:25:30] or are you charming and kind?
+[00:25:34] No.
+[00:25:34] It's more like.
+[00:25:35] Are you, do you understand the industry?
+[00:25:37] Are you capable of communicating what you're working on,
+[00:25:40] on communicating your constraints?
+[00:25:44] And then are you capable of having it like putting on deadlines,
+[00:25:48] understanding the work that something will take you,
+[00:25:50] and possibly finding a solution with someone else.
+[00:25:58] If you say, hey, I need X time to make something,
+[00:26:01] someone else says, no, it needs to be done in Y,
+[00:26:03] are you capable of having a conversation to say,
+[00:26:05] hey, OK, so actually let's cut corners on this and that?
+[00:26:09] Yeah.
+[00:26:10] That's the thing that people are more interested in.
+[00:26:14] As a VFX artist, you end up talking with lots of people.
+[00:26:17] You have to go back and talk to everyone all the time.
+[00:26:19] The animators, because you need to match your animation,
+[00:26:22] your VFX to the animators.
+[00:26:23] The designers, because you need to match your effects
+[00:26:27] to what they designed.
+[00:26:29] The sound designer, because they come just after you
+[00:26:31] and they're waiting impatiently for you to be done.
+[00:26:33] Yeah.
+[00:26:35] Lots of people.
+[00:26:46] Does that answer your question?
+[00:26:47] That does, yeah.
+[00:26:48] I'm definitely interested to see,
+[00:26:51] I guess, look like an example portfolio.
+[00:26:53] Yeah.
+[00:26:53] Well, I can show you what I had.
+[00:26:55] I think it was not very good initially, but I managed to.
+[00:26:59] So yeah.
+[00:27:01] I can show you the thing I had.
+[00:27:03] The start, it should be like.
+[00:27:03] Yeah.
+[00:27:05] I can show you the thing I had.
+[00:27:07] When you mentioned actually,
+[00:27:10] can you ramp up with technology?
+[00:27:11] Like what might, I guess, keeping up with new things,
+[00:27:17] but I guess, what might that be an example of?
+[00:27:19] Maybe like, can you eventually learn Embergen or Houdini?
+[00:27:24] Not really.
+[00:27:25] Usually a lot of studios are using very, like, how's it
+[00:27:30] called?
+[00:27:32] Studios are using.
+[00:27:33] Yeah.
+[00:27:33] Yeah.
+[00:27:34] Yeah.
+[00:27:34] Yeah.
+[00:27:35] Like proprietary technologies.
+[00:27:37] Oh, I got you.
+[00:27:37] Yeah.
+[00:27:38] Workflows.
+[00:27:39] And so it's more like, can you ramp up to the technology
+[00:27:44] that they have or the quirks of the technology?
+[00:27:47] Can you ramp up to the team's expectation,
+[00:27:50] to the workload that there is?
+[00:27:52] Can you ramp up to the art direction?
+[00:27:55] Like, oftentimes it's going to be OK.
+[00:27:56] Can you actually learn, like study and learn
+[00:28:00] the art that is there and then do something that matches?
+[00:28:03] Or is it going to take time to like,
+[00:28:05] get there?
+[00:28:06] Oh, OK.
+[00:28:07] So it's like, just can you match what they want?
+[00:28:09] Yeah, exactly.
+[00:28:11] This is the early stuff I was doing when I was like,
+[00:28:15] starting out, basically.
+[00:28:16] So this is one of my first, and as you can see,
+[00:28:21] I was doing something that I told not to do,
+[00:28:24] which is I was using a character animator, an animated character
+[00:28:29] to cast my stuff because someone told me to do that.
+[00:28:32] And then when I removed it, I started getting stuff.
+[00:28:34] So it's very funny.
+[00:28:35] But yeah, this is the first kind of effect I made.
+[00:28:40] This is the first kind of effect I made.
+[00:28:43] Why are you not happy?
+[00:28:46] Why don't I come up?
+[00:28:49] Fine, let's just open everything.
+[00:28:51] That was the first effect that I had on my portfolio.
+[00:28:53] Like, that was the first real one
+[00:28:55] that I had on my portfolio.
+[00:28:56] I tried, this one is one, the portfolio piece
+[00:28:59] I really tried to make for a very long time.
+[00:29:01] And it just didn't work.
+[00:29:02] It just didn't work.
+[00:29:03] It just didn't work.
+[00:29:04] This was way too complex for my skill at the time.
+[00:29:07] So it had lots of moving parts.
+[00:29:08] It has lots of sub-emitters.
+[00:29:10] And it just didn't quite work.
+[00:29:11] So I was, and the animated character really blocked me
+[00:29:14] from actually making the animation better, et cetera.
+[00:29:18] So this is something that really hurt me in the long term.
+[00:29:21] And as soon as I removed that one from my portfolio,
+[00:29:24] I managed to finally get it out.
+[00:29:26] And then I started having this one, this one, and this one
+[00:29:28] were the final ones that I had.
+[00:29:30] Same, this also I can show as an example of,
+[00:29:34] something that didn't work.
+[00:29:37] It was too complex once again.
+[00:29:38] And I had the character animated on it, et cetera.
+[00:29:40] It was too long.
+[00:29:41] The sequence was too long.
+[00:29:42] There was too much stuff happening.
+[00:29:44] It didn't make sense.
+[00:29:45] Basically, it was not good.
+[00:29:46] Whoa, the changing runes was cool, though.
+[00:29:49] I can't believe it.
+[00:29:50] I mean, there's tons of stuff that are really cool.
+[00:29:52] The push of the tapestry there that just pushes out and then
+[00:29:56] back in, et cetera, there's lots of stuff
+[00:29:58] that's in the layering and the changing runes, et cetera.
+[00:30:01] It's really fun.
+[00:30:02] But it's just together.
+[00:30:04] You see there's too many steps, too many motions, et cetera.
+[00:30:06] Yeah, I hear you, too, man.
+[00:30:08] Yeah.
+[00:30:08] So this I just changed.
+[00:30:11] And then I had those.
+[00:30:12] This is the three that actually got me a job, especially
+[00:30:17] this one and the other one.
+[00:30:18] So basically, this is the first one
+[00:30:19] that I had with no characters, nothing at all.
+[00:30:21] And this is the first one where I made that one.
+[00:30:24] And then I started applying.
+[00:30:25] And I started getting actual job applications.
+[00:30:29] Oh, I see what you meant by that.
+[00:30:31] That is something that I know I want to learn,
+[00:30:33] is the, what's it called, parallax effect for the total
+[00:30:38] that you're doing.
+[00:30:39] Because I've seen examples of that.
+[00:30:42] And the node graphs look insane every time I see it.
+[00:30:46] Well, you'll see I have a very, very simple way of doing it.
+[00:30:49] I can show you that.
+[00:30:50] You'll see one.
+[00:30:51] I think in week seven there is one.
+[00:30:53] So I can show you that.
+[00:30:55] This is the, I can show you that now, actually.
+[00:30:57] It's extremely simple.
+[00:30:58] But if you haven't touched any shader graphs before,
+[00:31:00] it will not work for you.
+[00:31:02] So this was the last one I was using.
+[00:31:03] I was just working with the little character.
+[00:31:05] And then I realized that, actually, it
+[00:31:08] was way better when I was just doing my own thing.
+[00:31:10] This is also the moment where my color theories were better.
+[00:31:13] The story that I was telling was better.
+[00:31:15] The impact was better, too.
+[00:31:17] So this was kind of working.
+[00:31:19] And then this is the one that I still have on my portfolio,
+[00:31:22] actually.
+[00:31:23] That I spent a lot of time polishing,
+[00:31:25] because I got a lot of feedback from someone,
+[00:31:28] from good people on the real-time VFX.
+[00:31:31] And then there, that's the moment
+[00:31:33] when I managed to actually make something
+[00:31:35] that I think was the real thing that got me the job.
+[00:31:39] So yeah, it has way slicker motions.
+[00:31:42] The color balance is better.
+[00:31:44] The silhouettes are way better.
+[00:31:47] Polishing this kind of frame, basically,
+[00:31:49] where you have those that are just really iconic,
+[00:31:52] or those that are really iconic with the lightning around,
+[00:31:54] this is all kind of calculated.
+[00:31:56] And so I think that overall, that really showed.
+[00:32:00] Also, you see there's those additional ease-ins, ease-outs
+[00:32:03] that I didn't have at the start.
+[00:32:04] I can show you that.
+[00:32:05] That's pretty interesting, I think.
+[00:32:07] It's kind of subtle, but in the motion, it does a lot.
+[00:32:17] The first ones I had were all intense all the time, basically.
+[00:32:22] Oh, this one is laggy.
+[00:32:23] I'm just going to spot it.
+[00:32:25] You see, it was all intense all the time, and moves.
+[00:32:27] And it has this really cool, just powerful thing, basically.
+[00:32:32] But.
+[00:32:33] It's like all intense all the time,
+[00:32:35] and it just keeps spinning.
+[00:32:37] So the intensity is kind of permanent, right?
+[00:32:43] And it's cool, but the intensity is kind of permanent.
+[00:32:46] And so what I managed to do at the end, if I take the end one,
+[00:32:51] is that there is a first flare, and then it
+[00:32:57] goes back to a low thing.
+[00:32:59] Then it gets to ramp back up again, and then it gets to explode
+[00:33:03] in a way more impactful moment.
+[00:33:05] And then it slurves back in, in one blink.
+[00:33:09] And that actually was like, it gives it more visual interest.
+[00:33:14] Foop.
+[00:33:16] So yeah, that's something that I got from people helping me
+[00:33:20] and giving me some tips, et cetera.
+[00:33:22] And I went through a lot of iterations.
+[00:33:23] I have.
+[00:33:27] Yeah, I went through a lot of different iterations.
+[00:33:29] Some of them are really cool.
+[00:33:30] Basically, you can see all the videos from here,
+[00:33:32] all the way to here, are all just iterations, and iterations,
+[00:33:36] and iterations.
+[00:33:37] And this is all in the videos, because I made tons of GIFs,
+[00:33:41] too.
+[00:33:41] So yeah, it just gives you an idea of how much I've
+[00:33:44] iterated on that one.
+[00:33:45] And then from there, once I had that one,
+[00:33:47] I ended up finding a job after that here.
+[00:33:50] Then everything else there is stuff that I made afterwards.
+[00:33:55] Nice.
+[00:33:55] Oh, is that a spell jammer for D&D math?
+[00:33:59] Yeah.
+[00:34:00] That's cool.
+[00:34:00] That's my giant thing.
+[00:34:02] It's a giant map.
+[00:34:04] It's on my portfolio, I think, still.
+[00:34:05] Yeah, it's a giant.
+[00:34:06] It's my custom setting for my D&D map.
+[00:34:09] Yeah, this was a big project.
+[00:34:11] Yay.
+[00:34:12] Yeah, this is my custom setting that I've GMed for, I think,
+[00:34:16] 15 years now.
+[00:34:17] So I made a giant custom map for it.
+[00:34:22] Crazy, actually.
+[00:34:23] Yeah.
+[00:34:24] They gave it to our players.
+[00:34:25] And there's all the info, et cetera.
+[00:34:27] It's pretty fun.
+[00:34:28] I think I should remake it at some point,
+[00:34:30] because there are some things that are not as good.
+[00:34:32] And also, it's horrendously out-optimized.
+[00:34:39] Yeah, that's dope.
+[00:34:40] Oh, I did also another question.
+[00:34:42] Because I've seen this in a lot of portfolios,
+[00:34:44] is how do you get the League of Legends environment
+[00:34:48] in your portfolio?
+[00:34:49] Is that just a flat plane that you put an image on,
+[00:34:53] and you have a camera angle from above?
+[00:34:55] Yeah, it's a flat plane that you put an image on.
+[00:34:58] Do I have it here?
+[00:35:00] F?
+[00:35:02] Ground.
+[00:35:06] Texture 2D.
+[00:35:11] I'm guessing.
+[00:35:12] This is a good mark.
+[00:35:15] Squashed.
+[00:35:17] I don't know.
+[00:35:18] Well, I mean, it's this texture, basically.
+[00:35:20] It's just a flat plane with this texture.
+[00:35:22] Got it.
+[00:35:23] OK.
+[00:35:24] It's pretty simple.
+[00:35:25] I can give you the texture if you want.
+[00:35:27] You can find the texture.
+[00:35:28] Basically, you can find any part of the map.
+[00:35:32] I don't remember where I found it.
+[00:35:35] How was the name?
+[00:35:42] If this was a Nintendo game, you would be by now.
+[00:35:46] Oh, yeah.
+[00:35:47] Of course.
+[00:35:47] Immediately.
+[00:35:48] They would be at my door, ringing intently.
+[00:35:51] I know it.
+[00:35:53] What's the name of it?
+[00:35:56] Map.
+[00:35:59] Oh.
+[00:36:00] Oh.
+[00:36:00] Oh.
+[00:36:01] Oh.
+[00:36:01] Oh.
+[00:36:02] Oh.
+[00:36:02] Oh.
+[00:36:03] Oh.
+[00:36:03] Oh.
+[00:36:04] Oh.
+[00:36:04] Yeah, I'm going to find ExcitedTigerOnTheGround,
+[00:36:08] blah blah blah.
+[00:36:10] There's a, I don't know where it is,
+[00:36:12] but I can find it for you if you want.
+[00:36:13] There's basically a whole map that you can just
+[00:36:19] download all the assets of the map.
+[00:36:20] You see that.
+[00:36:21] That's really cool.
+[00:36:23] I have a question regarding the map.
+[00:36:25] Do you recommend, like, in your portfolio, using such thing?
+[00:36:29] Or do you think it's, is it too distracting?
+[00:36:32] from the effect, or just to put something gray
+[00:36:35] or the standard.
+[00:36:38] So what's good about the map is that
+[00:36:40] if you look at it in gray scale,
+[00:36:42] it's actually pretty flat.
+[00:36:45] So it's really easy to put something on it.
+[00:36:46] If you look at an effect on it, it's really visible
+[00:36:49] because the map itself, as we talked about last week,
+[00:36:52] the map itself has just a very mid-tone gray
+[00:36:56] that's really easy to see.
+[00:36:57] And so what it does is that it lets your effect
+[00:37:01] kind of stand out.
+[00:37:02] So also a lot of recruiters,
+[00:37:05] they actually do like having effects
+[00:37:08] on an actual background or in a game.
+[00:37:11] There's a bit of gatekeeping, I think,
+[00:37:13] in some art, like some VFX people
+[00:37:17] or some old school people that say,
+[00:37:19] oh, but if your effect is not in a game,
+[00:37:21] then it doesn't count, it's bad, blah, blah, blah.
+[00:37:24] I think that's mostly false.
+[00:37:25] I think that's just like old people wanting to do old things.
+[00:37:28] But I think today you can just do it on a gray background
+[00:37:32] and it's completely fine.
+[00:37:33] A lot of actual in-game stuff is on a gray background.
+[00:37:36] Like if you look at a lot of portfolio pieces from,
+[00:37:40] like today, if you work on a game,
+[00:37:42] you will oftentimes have access to a test range,
+[00:37:46] a test place that you can just do everything in.
+[00:37:48] Like for instance, if you look at my latest WoW stuff here,
+[00:37:53] like this is just the test range.
+[00:37:55] It's basically a gray background.
+[00:37:57] Like there's no stuff behind.
+[00:37:59] And yet like people will never question if this is like,
+[00:38:02] legitimate or not.
+[00:38:03] So I suggest that you don't bother too much with it.
+[00:38:06] If you prefer having a colored background behind,
+[00:38:09] take your favorite games asset and put it behind.
+[00:38:14] If you prefer having a grid with like some stuff or whatever,
+[00:38:18] like do that too.
+[00:38:19] It's completely fine.
+[00:38:22] I suggest-
+[00:38:23] Yeah, I see like-
+[00:38:24] Yeah, go for it.
+[00:38:25] Yeah, I see like a song,
+[00:38:27] just like just on the Discord, for example,
+[00:38:30] I see a lot of like-
+[00:38:32] students or-
+[00:38:33] So everyone using a different background.
+[00:38:35] So I'm not sure like which one is ideal for,
+[00:38:41] you know, to enhance the effect in your portfolio.
+[00:38:45] I would say that
+[00:38:47] the thing that's ideal to enhance your portfolio
+[00:38:49] on your effect is the thing like that
+[00:38:51] your effect is designed for.
+[00:38:53] If your effect is designed to be put on anything, anywhere,
+[00:38:56] then you should put it with a,
+[00:39:00] you should like give it the gray scale.
+[00:39:04] Sorry, just a gray background.
+[00:39:06] But if you think your effect should be put like
+[00:39:09] in a specific game or a specific environment,
+[00:39:11] or if the scale is important,
+[00:39:13] then you should use a background.
+[00:39:15] For instance, like here, the scale is important.
+[00:39:17] If I make a missile that's really big,
+[00:39:19] then the scale is really important, right?
+[00:39:21] But here you wouldn't see if like,
+[00:39:24] if I did the same explosion that I showed before,
+[00:39:26] the spinny explosion there that's like this, okay?
+[00:39:28] But I think it's okay, right?
+[00:39:30] Yeah.
+[00:39:30] If I actually made it twice as big,
+[00:39:32] then it wouldn't feel the same.
+[00:39:34] It wouldn't feel as important.
+[00:39:36] Alternatively, and like also like for instance,
+[00:39:37] the scale of the small spikes there, for instance,
+[00:39:40] well, they are like, they need to adapt themselves
+[00:39:43] to the environment in which they are.
+[00:39:45] So I think it's interesting to do that too,
+[00:39:47] as like an exercise.
+[00:39:50] For instance, here on this like black shockwave
+[00:39:53] that's around there, the scale is not,
+[00:39:55] like everything else is okay,
+[00:39:56] but the scale is not good enough for the background.
+[00:39:59] And so it feels off.
+[00:40:00] So I think that's like something to keep in mind.
+[00:40:04] I think you'll learn a bit more by using a background,
+[00:40:07] is my guess, but I've went back and forth on it.
+[00:40:11] Today I work mostly with a gray background
+[00:40:13] on my portfolio project, but like I could see either way.
+[00:40:18] Okay. But like for example, the explosion example.
+[00:40:24] So from my understanding, you did that effect,
+[00:40:27] but you're not really targeting like a league effect,
+[00:40:30] right?
+[00:40:30] So I believe if you were targeting some league effect,
+[00:40:33] then that's what.
+[00:40:34] Oh yeah. You would a hundred percent.
+[00:40:36] Yeah. If you're targeting a league effect,
+[00:40:37] put a league background,
+[00:40:38] don't make a league effect in grayscale.
+[00:40:40] Like, especially if you have access to.
+[00:40:42] It's saying for like, I don't know if you want to make
+[00:40:45] like a fan art of like, I don't know, like any other game.
+[00:40:50] Let's say like you'd like Overwatch and you want to make
+[00:40:52] a fan art of Overwatch, like make a,
+[00:40:55] like a fan art of Overwatch,
+[00:40:57] like make a fan art of Overwatch,
+[00:40:59] like make a, like a fan art of Overwatch,
+[00:41:00] and then pass it on to someone else.
+[00:41:02] Kind of like, oh,
+[00:41:03] that person is like got about they've got lighting
+[00:41:05] and I think this is kind of like a,
+[00:41:08] a little bit similar to like shooting or Reach
+[00:41:12] and you can like,
+[00:41:13] for say like you do.
+[00:41:14] Okay.
+[00:41:14] Yeah.
+[00:41:15] So there's a lot of,
+[00:41:17] yes.
+[00:41:18] But there's a lot of,
+[00:41:19] like if you're targeting a group and you're like,
+[00:41:20] you're like,
+[00:41:21] there's like a bit of background,
+[00:41:22] and it will use that to kind of create like,
+[00:41:25] 컬러� like at least a screenshot of the thing.
+[00:41:28] But yeah,
+[00:41:29] that's why.
+[00:41:30] OK, that makes sense.
+[00:41:32] Yeah, thank you.
+[00:41:33] Also, in card games, sometimes you can turn off animations.
+[00:41:37] So let's say you like Hearthstone,
+[00:41:39] and you want to play, or you like, I don't know,
+[00:41:40] like the Magic Arena, and you want
+[00:41:44] to make a fine art for a card that you like.
+[00:41:47] You can just turn off animations, play the card,
+[00:41:49] and then add whatever you want on top of it.
+[00:41:53] Yeah, that's what I would do.
+[00:42:03] Any other question?
+[00:42:06] Actually, a question about the background and map.
+[00:42:10] Would you go for something that's a direct top-down view
+[00:42:15] so that you can angle the camera yourself?
+[00:42:18] Because for example, I did find a really high resolution
+[00:42:22] map of some of this rift.
+[00:42:23] But it's a little bit more difficult.
+[00:42:23] Yeah.
+[00:42:23] It's a little bit angled.
+[00:42:26] I put it in the live section text chat.
+[00:42:30] I noticed it wasn't exactly like top-down,
+[00:42:32] like your texture was.
+[00:42:38] Yeah, it's a bit angled.
+[00:42:39] You're right.
+[00:42:40] I mean, that's a bit too big, I would say, right?
+[00:42:44] I think you can have it in segments.
+[00:42:46] Yeah, you could also.
+[00:42:47] I don't think it's a problem if it's a bit angled.
+[00:42:49] Honestly, I just do not think it's a problem.
+[00:42:53] Because Leek is already angled.
+[00:42:55] For instance, one thing that's really funny,
+[00:42:56] if you actually look at the 3D assets of Leek,
+[00:42:58] if you pause and you just do a free camera,
+[00:43:00] you'll see that all the characters are chin up.
+[00:43:04] They're looking up, all of them.
+[00:43:05] They're bending their neck up.
+[00:43:07] They're looking up.
+[00:43:08] Because otherwise, you wouldn't see their face.
+[00:43:11] You would see only the top of their head.
+[00:43:13] Interesting.
+[00:43:13] OK, that's cool.
+[00:43:14] It's a really fun exercise to do.
+[00:43:17] But yeah.
+[00:43:19] Yeah, you can use that.
+[00:43:21] So the advantage of using the one I showed you,
+[00:43:23] here, which I'm going to just slide in.
+[00:43:33] The advantage of using the one I have here is that I hope it's
+[00:43:37] will pass through.
+[00:43:39] The advantage of using the one I have here
+[00:43:41] is that it's at the right scale.
+[00:43:43] It's roughly the right size.
+[00:43:45] Yeah.
+[00:43:46] But it doesn't have all the terrain that's on top,
+[00:43:48] all the 3D terrain.
+[00:43:49] So it's more rough.
+[00:43:50] The one that you have will have all the terrain.
+[00:43:52] Yeah.
+[00:43:53] I mean, because it's not as important, right?
+[00:43:56] Like, it's not.
+[00:43:56] No, it's just a little distracting, if anything.
+[00:43:58] Yeah, exactly.
+[00:44:00] So I made myself, for my portfolio,
+[00:44:02] I made myself now a box like that.
+[00:44:05] That's basically quads all around.
+[00:44:07] So when I'm inside the box, I'm just like, if I'm outside,
+[00:44:11] I'm outside.
+[00:44:11] But if I'm inside the box, F. Good.
+[00:44:16] Now I can just rotate around it.
+[00:44:17] And it's getting inside.
+[00:44:18] Oh, I see.
+[00:44:19] That's interesting.
+[00:44:20] We are now.
+[00:44:21] That's pretty good.
+[00:44:22] Yeah.
+[00:44:23] So I can have like, it's like a bit of a light box.
+[00:44:25] So I can work with it.
+[00:44:27] And this is not actually a light, the thing that's
+[00:44:29] on the ground.
+[00:44:29] It's like, it's just fake.
+[00:44:31] It's fake on the ground thing.
+[00:44:36] There's just a, inside the ground,
+[00:44:38] I don't know which one.
+[00:44:39] This one?
+[00:44:40] Yeah.
+[00:44:41] It's on the ground thing.
+[00:44:43] There's like, inside the ground thing,
+[00:44:44] I just have like a little script that says,
+[00:44:46] if you're away from this distance of the camera,
+[00:44:48] then you do that.
+[00:44:49] Yeah.
+[00:44:51] I think it's like that.
+[00:44:52] Or it's, oh yeah, that's it.
+[00:44:55] Even if you move it like that, the light
+[00:44:58] is always at the same spot, but it's completely fake.
+[00:45:00] It's just basically a distance from the camera.
+[00:45:07] I think I can augment it with something here.
+[00:45:10] Somehow, I don't know where.
+[00:45:11] One of those one million parameters.
+[00:45:14] You see, I am very keyed on making sure
+[00:45:16] that things are clean and that I know global strength.
+[00:45:22] I have no idea.
+[00:45:23] Anyway.
+[00:45:23] Yeah.
+[00:45:29] I don't know.
+[00:45:29] Any other question?
+[00:45:35] I'm happy to show anything.
+[00:45:36] I have a question about, so you were mentioning
+[00:45:41] like working in production with like communicating
+[00:45:44] with other team and things like that.
+[00:45:46] So I was thinking when I was watching the tutorials,
+[00:45:49] I realized like, just like to make this something,
+[00:45:52] make this sort of a little bit smaller and smaller
+[00:45:55] but still a little bit different.
+[00:45:56] It's hard toπει including like the like,
+[00:45:57] the literal making stuff,
+[00:45:59] like you have to keep like building that structure
+[00:46:01] or building everything yourself.
+[00:46:03] Is there a way where to get that to a point
+[00:46:05] or a strategy that someone is in?
+[00:46:07] Even if I'm solo.
+[00:46:09] I was actually always like to create
+[00:46:10] or do different bit of work then.
+[00:46:13] But, you know, most of the kids had different cube
+[00:46:15] or picture at home.
+[00:46:22] Yeah.
+[00:46:22] Yeah.
+[00:46:22] all the assets and managing them,
+[00:46:24] and saving that knowledge.
+[00:46:27] Let's say you have a graph with certain effect that's
+[00:46:30] more certain way, but you have to keep that time
+[00:46:34] and so you can use it on a future effect or things like that.
+[00:46:41] How do you work fast basically?
+[00:46:44] Sort of, yeah.
+[00:46:47] First off, you actually have some time to work.
+[00:46:49] Honestly, you're making one effect per day.
+[00:46:52] Roughly.
+[00:46:53] Or one or like sometimes you're making two effects per day.
+[00:46:56] Most of the time you have multiple days
+[00:46:58] to make one effect.
+[00:46:58] Like one actual ability or something like that.
+[00:47:01] Per day?
+[00:47:03] You have multiple days sometimes to make an effect.
+[00:47:05] Yeah.
+[00:47:06] Yeah.
+[00:47:07] Oh, OK.
+[00:47:08] So for instance, in the job I'm working right now,
+[00:47:11] I am more of doing character select animation.
+[00:47:15] Like the animation, the VFX that plays when a character is
+[00:47:18] selected.
+[00:47:19] And I have three days per character or something like
+[00:47:21] that.
+[00:47:22] So you still have some time to do stuff.
+[00:47:24] Like you have the time to set up stuff and do it.
+[00:47:28] But if you were more junior, you would have more time for this.
+[00:47:32] And on Valorant, for instance, when the character select
+[00:47:36] is more intense, I would have a whole week or sometimes more.
+[00:47:41] So that's just to give you an idea.
+[00:47:42] If you're making just a little poof,
+[00:47:44] you might have half a day to work on something.
+[00:47:47] But I have never seen a task be less than half a day.
+[00:47:51] But you mean just like the.
+[00:47:52] Product type of the effect.
+[00:47:54] I understand that you're still going to iterate on top of it.
+[00:47:57] And like.
+[00:47:57] Yeah.
+[00:47:58] So one thing we do almost all the time
+[00:48:00] is that we never really start from scratch.
+[00:48:01] I'm going to say, OK, I'm going to make a new effect.
+[00:48:03] It looks mostly like that other effect.
+[00:48:06] So I'm going to just take an effect like I would do.
+[00:48:08] I would just copy and paste it.
+[00:48:10] Say call it like a new effect.
+[00:48:13] And then I would like open it up, say, OK, it looks like this.
+[00:48:16] It has like a light and a flipbook.
+[00:48:19] Great.
+[00:48:20] I need a flipbook for my effect, so I'm going to like,
+[00:48:22] I'm going to respond another flipbook for it instead.
+[00:48:24] So I'll just like, if there's already a material, great.
+[00:48:27] If there's the other one.
+[00:48:28] Yeah, there's already the material.
+[00:48:30] I might just change the material.
+[00:48:31] There's already a giant resource, like a giant library
+[00:48:35] of material usually in the whole project.
+[00:48:36] So you just pick up whatever you're interested in.
+[00:48:38] And you just say, OK, I just want like a ring for this.
+[00:48:41] Cool, perfect.
+[00:48:42] I have the ring of it.
+[00:48:43] And then like you say, OK, I want them to, I don't know,
+[00:48:47] scale size my lifetime.
+[00:48:50] OK, cool.
+[00:48:51] It makes the ripples.
+[00:48:52] I want them to fade at the end.
+[00:48:53] So I want them to have a color of a lifetime.
+[00:48:56] And I would say, gone.
+[00:48:58] And then that's it.
+[00:48:59] Like, I don't know why the ring is not happy with that.
+[00:49:02] I'll do something else.
+[00:49:02] But basically, like, that's the main idea.
+[00:49:09] Yeah, something like that.
+[00:49:10] And then you just keep going until, like, yeah,
+[00:49:14] let's say this is what I wanted to do.
+[00:49:15] I don't know why, but let's say this is what I wanted to do.
+[00:49:18] And then like you keep going until you're happy with it.
+[00:49:20] Usually, like, you start like, basically,
+[00:49:22] hacking through the thing that already existed
+[00:49:24] until you're happy with it.
+[00:49:25] That's usually the trick.
+[00:49:27] 0.1, 2, 0.3, 0.5.
+[00:49:31] And then you suddenly have like something that just like,
+[00:49:33] as you keep going, you're going to end up with something
+[00:49:36] that you like at some point, hopefully.
+[00:49:39] And then, yeah, that's it.
+[00:49:41] That's the main idea, basically.
+[00:49:42] You're going to try and do something about.
+[00:49:44] And then, yeah.
+[00:49:45] And then like, let's say this is a power up.
+[00:49:47] I might say, OK, now I'm going to like,
+[00:49:50] instead of creating a new material, et cetera,
+[00:49:51] I'm going to duplicate this one.
+[00:49:53] This is the, no, not this one.
+[00:49:54] I'm going to duplicate the glow.
+[00:49:55] And the glow, I'm going to say that it's actually
+[00:49:57] like little particles that are going up.
+[00:49:59] So I'm going to make it small, 0.2.
+[00:50:01] I'm going to say that it's like, its emission is like 20.
+[00:50:04] And that it goes vertically.
+[00:50:06] So I'm going to say velocity over lifetime, vertical.
+[00:50:12] OK, now it's too fast.
+[00:50:13] So I'm going to give it 1 instead.
+[00:50:16] It has some orbital for some reason.
+[00:50:19] Now it's pretty good, but I want it
+[00:50:21] to go into a better shape.
+[00:50:23] So I'm going to say that it's, sure, Cohen,
+[00:50:26] why is it spinning?
+[00:50:27] Because I have to get the orbital 5.
+[00:50:29] Cool.
+[00:50:30] Then this is too big, et cetera.
+[00:50:31] And you see, like, I would just like, 0.2, 0.3.
+[00:50:38] OK, good.
+[00:50:39] And then I would say that this is still way too big.
+[00:50:42] So 0.0, yeah, 0.5.
+[00:50:48] And then here, I would say that they have 0.1.
+[00:50:50] OK.
+[00:50:51] And then I would say, OK, I'm going to do something.
+[00:50:53] I'm going to do something.
+[00:50:55] And then as you continue, you just, like, hack the thing.
+[00:50:57] You say, OK, I actually want more particles.
+[00:50:59] I have some bigger particles in there.
+[00:51:00] So I'm going to just duplicate that one and keep moving.
+[00:51:02] And then as you go, you just duplicate, keep moving,
+[00:51:04] duplicate, keep moving.
+[00:51:05] And at some point, you just pick it all.
+[00:51:07] You just say, hey, I'm going to make it all red.
+[00:51:09] And now it's all red.
+[00:51:12] You see what I mean?
+[00:51:13] Yeah, yeah, that makes sense.
+[00:51:14] Yeah, yeah, yeah.
+[00:51:15] Then you can just say that I want them all
+[00:51:16] to be random to colors of, like, red and, I don't know,
+[00:51:19] like, orange.
+[00:51:19] Like, some colors.
+[00:51:21] And then as you keep continuing, you can do whatever you want.
+[00:51:25] But obviously, you are working with other teams.
+[00:51:27] Like, so do you, like, so you build, like, something,
+[00:51:29] like, simple like this.
+[00:51:30] And I imagine, like, you, I don't know,
+[00:51:32] you go to your lead or something like, hey,
+[00:51:34] is this what we want in the game?
+[00:51:35] And they were like, oh, you should,
+[00:51:37] motion should be a little bit like this.
+[00:51:39] And then you, right, you start to iterate on it.
+[00:51:42] Yeah, that's a really good question.
+[00:51:44] So basically, how this works is the following.
+[00:51:48] You're going to be under a lead, usually.
+[00:51:49] Hopefully.
+[00:51:51] The lead is going to have told you already, have budgeted,
+[00:51:55] basically, have said, OK, we talked to the designers,
+[00:51:58] to everyone, and we need to do an environment team, et cetera.
+[00:52:01] We need this.
+[00:52:02] This is the budget that we said we would do.
+[00:52:05] Usually, there is a budget per task, not always.
+[00:52:07] And then they're going to say, OK, either they're
+[00:52:10] going to assign you one of the tasks,
+[00:52:12] or they're going to say, pick something.
+[00:52:14] That happens very often that someone comes in and says,
+[00:52:16] pick a thing in the list that you like.
+[00:52:18] And yeah.
+[00:52:19] So you just pick the list, and then you go down the list.
+[00:52:22] And then once you're done budgeting,
+[00:52:23] like once you're done with the list, you do something else.
+[00:52:25] And then oftentimes, you look at the list,
+[00:52:27] you're like, oh, we're never going to make it.
+[00:52:29] OK, let's do some cuts.
+[00:52:30] But overall, that's usually how it goes.
+[00:52:33] There's oftentimes some priorities.
+[00:52:35] So in the games in general, there's
+[00:52:38] people called producers.
+[00:52:40] Producers are basically your project managers
+[00:52:42] that don't decide anything.
+[00:52:45] They are not project leaders.
+[00:52:46] They're not managers.
+[00:52:48] They manage the projects.
+[00:52:49] They manage the project.
+[00:52:50] They don't manage you.
+[00:52:51] And so producers are here to make sure
+[00:52:53] that everyone is in time and that all the communication is
+[00:52:56] done correctly.
+[00:52:57] So yeah.
+[00:53:00] That's the important thing.
+[00:53:01] Yeah, yeah, yeah.
+[00:53:02] OK, I got an idea.
+[00:53:03] Yeah.
+[00:53:05] So that's the main idea.
+[00:53:06] So you would ask producers and say, hey, producers,
+[00:53:09] we're going to be late on that.
+[00:53:10] What's like, what's priority?
+[00:53:12] What's not?
+[00:53:13] Where do we do after?
+[00:53:14] Yeah, that's usually how it goes.
+[00:53:16] And when you go to see a vehicle,
+[00:53:19] like a designer or an environment artist
+[00:53:21] or anyone else or an animator, you're
+[00:53:23] usually coming in with either concerns
+[00:53:26] or an additional question.
+[00:53:27] Like almost all my work starts by going to the game designer
+[00:53:32] and saying, so what's important?
+[00:53:34] What's not, et cetera?
+[00:53:35] Like for instance, if I'm making this power up effect
+[00:53:38] and I say that it's like a Super Saiyan aura
+[00:53:41] and the designer says, no, no, no, no, no, no.
+[00:53:42] This is not a Super Saiyan aura.
+[00:53:44] We want this to really not look like anime.
+[00:53:46] We actually want this to look more like comics.
+[00:53:49] Cartoons or something like that.
+[00:53:50] Or like another reference.
+[00:53:52] Or, oh, no, no, no, the designer usually,
+[00:53:54] like that's mostly the art director
+[00:53:56] that's going to say that.
+[00:53:56] The designer might say, oh, no, no, no, no.
+[00:53:58] This is not actually someone powering up in like long bursts.
+[00:54:01] This is a one time like level up thing.
+[00:54:03] So it needs to feel like a one time thing, for instance.
+[00:54:06] Or the designer might say, oh, no, this is not actually
+[00:54:09] powering them up.
+[00:54:09] It has like both a negative and a positive connotation.
+[00:54:12] It gives them a buff, but at the trade of something else.
+[00:54:15] So it needs to show in the effect
+[00:54:17] that they're losing something.
+[00:54:19] And so by asking the designer, this gives you a lot of ways
+[00:54:22] to explore that.
+[00:54:27] I got it.
+[00:54:28] More information.
+[00:54:28] I understand.
+[00:54:29] Yeah, yeah, yeah.
+[00:54:30] Awesome.
+[00:54:31] Yeah.
+[00:54:32] And obviously, like I believe like if within an indie team,
+[00:54:36] it might be not too much.
+[00:54:38] So maybe it's more relaxed way.
+[00:54:41] I don't know yet, but.
+[00:54:43] Hopefully your indie team is a bit structure.
+[00:54:45] Yeah, at least hopefully, like if you don't see a producer,
+[00:54:49] you have to tell yourself that you're
+[00:54:51] going to have a lot of work to do in order to make sure
+[00:54:53] that things are on track.
+[00:54:56] But hopefully, if you're with an indie team,
+[00:55:00] as the producer or someone budgeting stuff, if there's not,
+[00:55:03] it's your job to budget stuff.
+[00:55:04] So to see what needs to be done in order
+[00:55:06] to finish the project and then to slowly add
+[00:55:09] to the list the different tasks that there are,
+[00:55:13] try to budget them and then come back ultimately to designer
+[00:55:16] and say, hey, your design says that I need to work
+[00:55:19] 118 days.
+[00:55:20] There are only X amount of days in the year.
+[00:55:24] How do I do?
+[00:55:25] Like that's quite a common thing.
+[00:55:28] Like I can work 250 days this year
+[00:55:31] and you are giving me the equivalent of 300 days
+[00:55:34] and are releasing in six months.
+[00:55:35] What do we do?
+[00:55:36] And that's a common start of a conversation.
+[00:55:40] So yeah, you just budget.
+[00:55:42] And usually you budget quite, as I said,
+[00:55:44] like no effect is less than 0.5 days.
+[00:55:49] Because there's like in that budget,
+[00:55:51] it's not just like tweaking the numbers.
+[00:55:52] It's also iterations, people asking questions, the feedback,
+[00:55:58] setting it up in game usually.
+[00:56:01] Yeah, so that can be also annoying.
+[00:56:04] Like for instance, on the current job I'm making,
+[00:56:06] because of how iteration can be so long,
+[00:56:09] no task is less than one day.
+[00:56:13] Everything is at least one in my budget.
+[00:56:17] So yeah.
+[00:56:18] Your job is not supposed to be creating a pipeline
+[00:56:21] and setting up an expectation, et cetera.
+[00:56:23] As you work, you start having a feel of how much time
+[00:56:26] something will take.
+[00:56:27] But for now, that's not your job.
+[00:56:29] So yeah.
+[00:56:31] OK, yeah, just to get an idea of the actual job.
+[00:56:34] Yeah.
+[00:56:34] Thank you.
+[00:56:35] I understand.
+[00:56:37] Yeah, thank you.
+[00:56:38] That was helpful.
+[00:56:38] It's really important.
+[00:56:39] One thing that you said, Dijs, I think it's interesting too,
+[00:56:42] is in the job you often do reviews.
+[00:56:46] So for instance, every day.
+[00:56:48] At World of Warcraft, for instance, there was every week,
+[00:56:55] there was a two hour meeting where everyone would submit
+[00:56:58] everything they had done during the week.
+[00:57:00] And then we would just review them and just look at them,
+[00:57:03] see if they're good enough for the game
+[00:57:06] to be pushed into the game itself,
+[00:57:12] or if there needs to be more tweaks, et cetera.
+[00:57:15] I don't know how comfortable you are with.
+[00:57:17] Yeah.
+[00:57:18] I mean, we have a lot of tools like Perforce and other like Git
+[00:57:22] and other tools to do versioning.
+[00:57:24] Yeah.
+[00:57:25] But we rarely use Git in games because Git is a bit more
+[00:57:30] for smaller projects.
+[00:57:31] And we use a tool called Perforce, for instance,
+[00:57:34] that's like a more powerful tool.
+[00:57:38] So that's a good thing to know if people say,
+[00:57:40] like Perforce is really the industry standard otherwise.
+[00:57:43] And this is like for large, large projects
+[00:57:46] for you to download them.
+[00:57:48] And I'm told to install a Perforce and then just wait.
+[00:57:52] I waited like I think five days to download the whole project
+[00:57:55] because the project was almost one terabyte.
+[00:57:57] It was crazy.
+[00:57:58] So yeah, some things are kind of crazy.
+[00:58:01] So the count the quantity of files.
+[00:58:03] That was on the horizon.
+[00:58:05] Yeah.
+[00:58:07] Yeah, there are some projects that are long,
+[00:58:08] other projects that are small.
+[00:58:09] But yeah, versioning is really important.
+[00:58:11] So basically, you're going to make multiple versions of stuff.
+[00:58:14] So it's important that you commit your work from time
+[00:58:17] to time to the repository.
+[00:58:18] Yeah.
+[00:58:18] So you can have a big server where everything is.
+[00:58:20] And then sometimes you pull it back to like stay in check
+[00:58:24] with the current version of the actual game
+[00:58:27] so that you don't have conflicts with whatever, whoever else
+[00:58:29] is working around.
+[00:58:31] Yeah.
+[00:58:31] That's like an important thing to do too.
+[00:58:35] So what you're working on, while you're messing things around,
+[00:58:38] you're not impacting other people's.
+[00:58:40] And you're not like putting random stuff in the game.
+[00:58:43] Yeah.
+[00:58:44] There's also in game companies, there's also
+[00:58:47] often mandatory.
+[00:58:48] There's mandatory play tests.
+[00:58:49] So every once a week, every week, there's
+[00:58:52] going to be like a play session for the game
+[00:58:55] so that you can participate with other people,
+[00:58:58] see a bit of everything.
+[00:58:59] So it's usually the moment where people say, oh, there's
+[00:59:01] a new VFX, that's cool.
+[00:59:03] And it's also the moment where you can kind of like see really
+[00:59:08] in a game situation actually people playing your effect.
+[00:59:12] And sometimes it gives you good insight.
+[00:59:16] Interesting.
+[00:59:17] OK.
+[00:59:18] And then finally, one part of the job
+[00:59:20] is answer bugs or considerations.
+[00:59:24] So for instance, in the play test,
+[00:59:26] at the end of the play test, usually people
+[00:59:28] make a little bullet point of lists of things that felt wrong
+[00:59:31] or like some bugs that they saw.
+[00:59:33] And then you'll have a little video that's there either to QA.
+[00:59:37] QA is usually the people that do the tests for you.
+[00:59:42] There are the team that their sole goal
+[00:59:44] is to break the game and test things out until they break.
+[00:59:47] So they'll come back.
+[00:59:48] And then you'll come back with a weird video of like jump three
+[00:59:50] times backwards and then do a flip and then press X five times.
+[00:59:54] And then your VFX is slightly broken.
+[00:59:56] And then you're like, ugh, OK, fine.
+[00:59:57] I'll break it.
+[01:00:00] So yeah, a bunch of the job is also
+[01:00:03] to do bugs and sometimes performance.
+[01:00:06] Sometimes someone is going to come on and say, well,
+[01:00:08] actually, we spawned your effect 20 times, one
+[01:00:11] on top of the other.
+[01:00:12] And the performance slightly dipped.
+[01:00:14] It's unacceptable.
+[01:00:15] And you're like, fine, OK, I'll remove some particles.
+[01:00:18] But yeah, that's about it.
+[01:00:19] And to get a lot of iterations
+[01:00:24] from the person that's judging your work
+[01:00:29] or because in concept, you mostly do like you
+[01:00:37] do the concept for one day and then the five days,
+[01:00:40] it's just, you know.
+[01:00:43] So I think there's an incredible advantage to be a concept artist.
+[01:00:47] And a VFX artist, in my opinion, because you can quickly
+[01:00:50] make a concept and then be like, is this what you wanted?
+[01:00:53] And then after that, people might say yes.
+[01:00:55] And then you work on it.
+[01:00:56] And then it's not how they imagined it once it's a game.
+[01:00:59] And you're like, but you validated the concept, right?
+[01:01:01] And usually that puts them enough against the wall
+[01:01:03] that they say yes.
+[01:01:04] But yeah, there is iteration.
+[01:01:07] It depends on the jobs.
+[01:01:09] I found that.
+[01:01:10] So at Riot and Blizzard, I had way more iterations than today.
+[01:01:13] Today on my jobs, there's not much iteration.
+[01:01:15] I do stuff.
+[01:01:16] Usually people are happy with it.
+[01:01:17] But the big thing on iteration is that in VFX,
+[01:01:24] it can be long to do iterations sometimes.
+[01:01:26] So people are a bit more scared of doing iteration.
+[01:01:29] Whereas in concept art, the perception
+[01:01:33] of how long an iteration can be is sometimes
+[01:01:36] like people are just like, oh, it's not that long.
+[01:01:39] Do another one.
+[01:01:40] And so it's like, or change that thing.
+[01:01:42] It feels like more easy to change the thing.
+[01:01:45] So people are like, people are more
+[01:01:47] ready to do it.
+[01:01:48] And also, I think there's just a culture of the art director
+[01:01:51] being like, oh, no, change the concept,
+[01:01:53] because it's not my vision or whatever.
+[01:01:55] Whereas when it's something that's built in game,
+[01:01:57] people are already like, OK, it's built in game.
+[01:01:58] Good.
+[01:01:59] Let's not touch it.
+[01:02:00] Let's keep going.
+[01:02:01] So yeah, I think there's a bit less.
+[01:02:02] But there were still quite a bit.
+[01:02:04] I think I've had a lot of effects
+[01:02:06] where there was just I had multiple iterations,
+[01:02:10] especially at Riot and Blizzard, where something was just not
+[01:02:13] either it's not the art style, or it's not artistically good
+[01:02:17] enough.
+[01:02:17] Or there's other stuff that there's some constraints,
+[01:02:21] especially gameplay constraints that need to be met.
+[01:02:26] I would say I haven't had more than five or six iterations.
+[01:02:29] But still, yeah, it's something to keep in mind.
+[01:02:39] Yeah, I'm thinking about iterations.
+[01:02:41] Is there something else where I was doing a lot of iterations?
+[01:02:44] As you saw on the portfolio piece that I was showing before,
+[01:02:47] there are some things where you will do a lot of iterations.
+[01:02:50] But I think it's more like self-iterations.
+[01:02:52] Or you might talk with a few VFX artists.
+[01:02:55] But once it goes up to the art director, it usually passes.
+[01:03:00] Like after one or two iterations, it usually passes.
+[01:03:05] And what has more chances of happening
+[01:03:07] is that you make an effect, you're
+[01:03:09] really happy of that effect, it lives one month in the game,
+[01:03:12] and then the designers change the ability
+[01:03:14] that you were doing or whatever, or the function.
+[01:03:17] Yeah.
+[01:03:17] And your effect is basically just cut.
+[01:03:19] Not because your effect was bad, but because the thing that it
+[01:03:22] is for is cut.
+[01:03:24] That happens a lot in story-based games,
+[01:03:26] where you make a really cool explosion for that sequence
+[01:03:29] where that character dies and where the ship crashes
+[01:03:31] in the middle of the thing.
+[01:03:32] And then they're like, we don't have the budget
+[01:03:35] to make that mission, so we're going to remove it.
+[01:03:36] And you're like, but I made the cool thing.
+[01:03:39] That's very common.
+[01:03:42] Yeah, in concept, don't get me started.
+[01:03:47] I'm not surprised.
+[01:03:51] 90% of everything lands in the trash.
+[01:03:54] Yeah, yeah, yeah.
+[01:03:55] You have to be comfortable with that.
+[01:03:56] I would say in VFX, it's more like 40% that lands in the trash.
+[01:04:02] 30% to 40% that lands in the trash.
+[01:04:04] And if you're lucky, it's pretty good.
+[01:04:07] Yeah.
+[01:04:09] And you just have to be comfortable.
+[01:04:11] When you're making a portfolio piece,
+[01:04:12] you can be like, this is my baby.
+[01:04:13] When you're doing projects, you can just, you have to accept,
+[01:04:17] that some stuff will be scrapped, and it's fine.
+[01:04:22] Even if it's cool.
+[01:04:23] Just remember that when something is scrapped,
+[01:04:25] you can always put it in your portfolio afterwards, usually.
+[01:04:29] You have to ask permission, but usually you
+[01:04:31] can put it in your portfolio.
+[01:04:35] They usually don't care.
+[01:04:39] So yeah.
+[01:04:40] Actually, with that in mind then, do you like,
+[01:04:42] as you, I guess, work on games and you do things like that,
+[01:04:47] do you like slowly?
+[01:04:47] Yeah.
+[01:04:47] Do you like slowly rotate your portfolio?
+[01:04:49] Because you mentioned you only keep it to like three about things.
+[01:04:53] So you keep it to three when you make a portfolio for your junior.
+[01:04:56] Oh, okay.
+[01:04:58] Okay.
+[01:04:59] Okay.
+[01:04:59] After that, I suggest that you, so your portfolio shows two things.
+[01:05:03] It shows one, your capacity to, so it shows two things to your recruiter.
+[01:05:11] One, it says how good you are at your craft itself.
+[01:05:17] So that's the best part.
+[01:05:17] It's the base thing, like just like what you're capable of doing.
+[01:05:20] And hopefully it shows the best that you can basically use.
+[01:05:23] That's why I say when you make a portfolio piece,
+[01:05:25] you need to make something that you're very comfortable with.
+[01:05:28] You're not learning a new skill with it.
+[01:05:30] This is the stuff that you already know how to do,
+[01:05:32] or at least that you're comfortable.
+[01:05:33] Sure, you will learn a bit using it,
+[01:05:35] but it needs to be something that you're comfortable doing.
+[01:05:40] And then the second thing you're saying
+[01:05:41] is your appreciation of art.
+[01:05:43] Basically, it also shows to the recruiter how good you think,
+[01:05:47] how good you think the things are.
+[01:05:49] So that means that if you're posting something
+[01:05:51] and one thing is really good and the other one is really bad,
+[01:05:54] and you posted, you put both of them as your portfolio pieces,
+[01:05:58] the art director might, the recruiter might say, wait a minute,
+[01:06:01] does this person not know that that thing is trash and the other is good?
+[01:06:04] Like they don't have an appreciation for art.
+[01:06:06] They don't, they can't read that.
+[01:06:08] And so that's like something that you're also telling.
+[01:06:10] That's why it's important to have a mostly homogenous,
+[01:06:13] artistically homogenous portfolio,
+[01:06:17] but after that, once you have like a bunch of experience,
+[01:06:20] you can just add stuff.
+[01:06:21] It's kind of fine.
+[01:06:22] Like you can have a portfolio that's a bit longer.
+[01:06:26] If it's a website like ArtStation,
+[01:06:30] like you can have a portfolio that's really long
+[01:06:31] and it really doesn't matter.
+[01:06:32] Like just you can have something that's like,
+[01:06:35] mine is like two lines like that and it's kind of fine.
+[01:06:37] And you will find people that have like immense pages of it.
+[01:06:41] It's fine.
+[01:06:42] It just really doesn't matter as much
+[01:06:43] because like here now this tells a story.
+[01:06:47] It's not like it's like a snapshot of my skills.
+[01:06:49] Like it says, okay, like I started like here
+[01:06:52] and then this is all timeline.
+[01:06:54] And so you can start by the top
+[01:06:56] and then go down to other stuff.
+[01:06:58] Like, and those can kind of create a little series
+[01:06:59] of like all different like colors.
+[01:07:02] And so overall it has a bit of continuity.
+[01:07:04] And then at the end I put the traditional stuff
+[01:07:06] because it's not the same.
+[01:07:07] If you have skills that are like artistic
+[01:07:10] or video games or other stuff,
+[01:07:12] but they are not your primary letter,
+[01:07:15] they're not like VFX,
+[01:07:17] that is not your job.
+[01:07:18] You can put it as like an extra portfolio piece
+[01:07:20] at the end of it.
+[01:07:21] So a fourth portfolio piece here at the end of it
+[01:07:24] as like one batch.
+[01:07:25] So here I have like a whole batch of 2D animations.
+[01:07:29] Now I don't feel like they would make a good portfolio
+[01:07:31] on their own, but I still wanted to showcase it
+[01:07:34] because I think it's fun.
+[01:07:35] And I think some, a lot of recruiters value it.
+[01:07:37] So I just said, hey, I'm gonna make like one page of that.
+[01:07:41] Basically.
+[01:07:43] So yeah, that's how I think of it.
+[01:07:47] So now when I look at this, I can be like, okay,
+[01:07:49] so like a recruiter can come in and say, okay,
+[01:07:51] this is five years ago and this is one year ago.
+[01:07:54] So, okay.
+[01:07:54] So I see the different evolution and the different things.
+[01:07:57] Some things look more professional,
+[01:07:58] others less, et cetera.
+[01:08:01] Yeah.
+[01:08:06] Does that answer your question?
+[01:08:08] It does, yes.
+[01:08:10] Yeah, yeah, yeah.
+[01:08:11] Take this.
+[01:08:12] So you have also to make like a demo reel
+[01:08:16] Yeah. Or just like,
+[01:08:17] put like stuff on ArtStation.
+[01:08:20] So you can, you can do either,
+[01:08:23] but both of them were completely fair.
+[01:08:25] I prefer this because for me, it made more sense.
+[01:08:30] For me, it was easier to present and say, hey,
+[01:08:33] those are all the things that you can watch,
+[01:08:35] watch whichever you like.
+[01:08:37] I also, it also lets me,
+[01:08:39] I started with like a lot of technical knowledge.
+[01:08:41] I was pretty good at shaders quite fast.
+[01:08:43] And so I wanted to be able to showcase slightly,
+[01:08:46] like, oh, look, I have also a side view
+[01:08:49] and also like some textures or some stuff like that,
+[01:08:52] that I liked.
+[01:08:53] What I was told to do is never show technical stuff.
+[01:08:59] Like don't show like shader graphs or stuff like that.
+[01:09:01] People, because art recruiters don't care about that.
+[01:09:03] They can't read it.
+[01:09:04] And so they're like, when you're trying to impress someone
+[01:09:08] and you just tell them something that they can't understand.
+[01:09:11] You mean the, you mean like in the, the page of the art,
+[01:09:16] that's your post and don't show,
+[01:09:18] you mean the breakdown, right?
+[01:09:19] The, of the effect.
+[01:09:21] You can show the breakdown artistically,
+[01:09:23] but not the breakdown technically.
+[01:09:25] Like if you want to break it down by saying, okay,
+[01:09:27] like those are, I think I have it on this one.
+[01:09:29] No, I don't.
+[01:09:31] If you want to break down something like,
+[01:09:32] do I have it here?
+[01:09:34] No.
+[01:09:36] Like here I have some photos for instance.
+[01:09:38] If you wanted to break it down by saying, okay,
+[01:09:40] like let's just slice it up and just removing all the pieces
+[01:09:43] so that you can see the different pieces of it, et cetera.
+[01:09:45] Artistically, that's something that,
+[01:09:46] that everyone can just appreciate and understand.
+[01:09:48] And it's like, oh, you're explaining the magic trick.
+[01:09:50] That's cool.
+[01:09:51] But if you start writing down, okay,
+[01:09:54] it's a technically this is made using this and this,
+[01:09:56] this and using jargon and using like complicated,
+[01:10:01] like explaining the math behind it, for instance,
+[01:10:03] then you will lose people quite fast, I think.
+[01:10:05] And that will feel more like you're trying to muffle
+[01:10:09] like things around or, or try to impress people
+[01:10:12] than anything else.
+[01:10:13] So that's something I recommend.
+[01:10:14] Sounds good.
+[01:10:16] Yeah.
+[01:10:17] The adding little pictures I found like was good success.
+[01:10:20] So if you want to do that in the future too,
+[01:10:23] like just adding like extra pictures or like extra,
+[01:10:26] like gifts or side views of what you're doing, et cetera,
+[01:10:29] I think is a pretty good way to do things too.
+[01:10:33] Yeah. That's pretty fun.
+[01:10:37] Yeah.
+[01:10:37] But if you wanted to make a reel,
+[01:10:39] you could totally make a reel.
+[01:10:40] The rules for a reel is less than one minute,
+[01:10:43] 59 seconds if you want, but less than one minute,
+[01:10:45] whatever you do.
+[01:10:49] Try to avoid obnoxious music, but frankly,
+[01:10:52] every recruiter will just turn off the music immediately
+[01:10:57] when you put it.
+[01:10:57] So don't bother too much with the music.
+[01:10:59] It doesn't matter.
+[01:11:01] And then try to have every effect that you
+[01:11:04] play on the thing repeat once.
+[01:11:06] So first they have a time to see it like, oh, this is cool.
+[01:11:08] That's the second time.
+[01:11:09] OK, like I can read it.
+[01:11:10] Now I can see it.
+[01:11:11] And then use a good like video player, like YouTube or whatever,
+[01:11:15] but something that's really, really good.
+[01:11:15] Something that they can look frame by frame into.
+[01:11:19] They can just like click one side and another.
+[01:11:21] And then yeah, that's about it.
+[01:11:24] Everything else like, oh yeah.
+[01:11:26] And try to have a name and credits at the bottom of it.
+[01:11:29] So if you're like having it play somewhere,
+[01:11:32] like every time there's a new effect that comes on,
+[01:11:34] try to like have at the bottom a sort of like thing that comes up
+[01:11:37] and says, OK, the name of the effect,
+[01:11:40] what's like the purpose of it, and stuff like that.
+[01:11:42] A bit like if you had something not as long
+[01:11:45] as this, but like I made a little paragraph that
+[01:11:48] explained what it was doing and what it's made in, et cetera.
+[01:11:50] You can just say Fire Blast VFX and then like different things,
+[01:11:55] like just whatever you want, like one line of extra comment
+[01:11:58] on it.
+[01:11:59] I think that's like a good way to convey what you're saying
+[01:12:03] and to add an extra element.
+[01:12:06] The danger of a portfolio is if you come in
+[01:12:09] and the recruiter comes out of it thinking there is not enough.
+[01:12:14] So yeah, that's why I'm saying.
+[01:12:15] Like make something that like add a bit of content,
+[01:12:18] a bit of explanation or something like that to give the recruiter
+[01:12:22] some content.
+[01:12:23] You win if the recruiter comes out of your real portfolio
+[01:12:28] and thinks, oh, I can see this in my game.
+[01:12:31] Oh, yeah, this is like this is exactly what I want in my game
+[01:12:34] or like wants to take one of your portfolio pieces
+[01:12:36] and put it in their game.
+[01:12:37] That's like when you win.
+[01:12:38] That's when you know that you're going
+[01:12:40] to be on top of the pile.
+[01:12:41] So yeah.
+[01:12:42] I remember I saw like one of the.
+[01:12:45] Live session from the free training on VFX Apprentice.
+[01:12:50] Yeah.
+[01:12:51] I remember there was a comment from Jason.
+[01:12:53] He mentioned like the.
+[01:12:55] It was funny to me because he mentioned like the recruiters
+[01:12:58] are just sitting like with their mouths like this and just
+[01:13:01] and they have like 30 seconds or something so you can impress them.
+[01:13:05] Otherwise they would click away.
+[01:13:06] And so.
+[01:13:08] Yes, yes.
+[01:13:09] 30 seconds is about true.
+[01:13:11] Yeah, it's true.
+[01:13:11] It's true.
+[01:13:12] They're ready to click away.
+[01:13:13] They they look, they look at a lot of stuff.
+[01:13:15] And in VFX we have a little bit.
+[01:13:17] We have a bit of chance.
+[01:13:18] They will look a little bit longer because they
+[01:13:20] don't have a lot of time.
+[01:13:21] Like they don't have a lot of applications.
+[01:13:22] But it's more than their logo.
+[01:13:24] They're they're just used to look 30 seconds.
+[01:13:26] So they're going to look 30 seconds whatever you do.
+[01:13:28] But they will come back to you in the future.
+[01:13:30] So you have a second chance.
+[01:13:31] But they will still skim through your video
+[01:13:33] or like not watch the full one minute
+[01:13:35] or put it in like in fast mode, something like that.
+[01:13:38] What's good is that once you pass the recruiter,
+[01:13:41] there's the VFX artists that will watch your reel
+[01:13:43] and they will usually watch everything.
+[01:13:45] So yeah.
+[01:13:46] Cool.
+[01:13:48] It's a start.
+[01:13:50] Any last questions?
+[01:13:52] We're at time.
+[01:13:52] But I'm happy to ask to answer your last question
+[01:13:55] if anyone has something.
+[01:13:58] Oh, more of a question
+[01:14:02] for Unreal that I just noticed is the version
+[01:14:07] that she's using the videos.
+[01:14:10] My node is a little different.
+[01:14:13] She used a Vortex.
+[01:14:14] Vortex.
+[01:14:15] Vortex.
+[01:14:15] I really like Vortex.
+[01:14:18] That was quite interesting.
+[01:14:20] I saw the Vortex's weather reading
+[01:14:21] and it seemed like it had something
+[01:14:22] to do with theayan moderated gas buildup thing.
+[01:14:24] And so I was taking mypod lavorater
+[01:14:26] and over to Amrun.
+[01:14:27] And I hadffa sent me that.
+[01:14:28] And I got to ROTC out there and I was thinking,
+[01:14:30] I'm going to do this
+[01:14:31] to place Ghast terrain
+[01:14:43] and then to create something for that.
+[01:14:44] And then I pressed that,
+[01:14:45] to get it to not do that.
+[01:14:46] I used a point of traction force,
+[01:14:49] and that kind of fixed it a little bit.
+[01:14:51] Yeah.
+[01:14:52] OK.
+[01:14:54] So I don't know, because I haven't.
+[01:14:57] So one thing that's really funny is that in games,
+[01:15:04] why is it not happy?
+[01:15:05] It's fine.
+[01:15:06] In games, one thing that's really funny
+[01:15:08] is that we very often work with, yeah, this one works well.
+[01:15:15] In games, what's really funny is that we often
+[01:15:18] work with really ancient versions,
+[01:15:20] because it's a real cost to change the engine version.
+[01:15:25] So it's very rare that someone will use a recent version.
+[01:15:30] For my Unity, I actually use a 2019 version here.
+[01:15:34] I have tons of versions.
+[01:15:35] Yeah, I have tons of versions of it.
+[01:15:37] I have 2019.
+[01:15:39] I have the 6,000, so that's way after.
+[01:15:42] But I have lots of 2019s.
+[01:15:44] I have the 6,000, so that's way after.
+[01:15:48] It's fine to use older versions.
+[01:15:49] It doesn't change that much.
+[01:15:51] The new features are not always worth the newer versions.
+[01:15:57] I don't know how the force thing works,
+[01:15:58] so I can't really tell you.
+[01:16:01] Every time I can get velocity rather than force,
+[01:16:03] I'm happy with it.
+[01:16:04] I just prefer any form of velocities over forces.
+[01:16:07] So forces are, it will use the physics engine
+[01:16:10] to push things around, whereas velocities will just give it
+[01:16:13] like a.
+[01:16:14] For every tick of the engine, you will get a motion.
+[01:16:19] And so I prefer velocities, but what I suggest
+[01:16:23] is to try and make it work with what you have.
+[01:16:25] If it doesn't work, then try to find another way.
+[01:16:28] But yeah, normally, I would say it does work pretty well.
+[01:16:33] But has it had a .
+[01:16:36] It did end up working fine with the vortex,
+[01:16:38] or the attraction force.
+[01:16:40] I just put an attraction force so the particles as they
+[01:16:42] got lost just pulled back.
+[01:16:44] OK.
+[01:16:44] Yeah.
+[01:16:46] OK.
+[01:16:47] Cool.
+[01:16:48] Perfect, yeah.
+[01:16:48] Yeah, OK.
+[01:16:49] But that's a classic Unreal, right?
+[01:16:51] You have to do the first thing.
+[01:16:53] You have to do both.
+[01:16:54] Like you have to add an extra velocity in order
+[01:16:56] to keep the first one to working.
+[01:16:58] That's very funny.
+[01:17:00] Oh, yeah.
+[01:17:02] Unreal sometimes has those weird things.
+[01:17:04] Like the alignment in Unreal, you
+[01:17:06] have to give it the tiny velocity and then
+[01:17:07] align to velocity if you want the thing to be aligned
+[01:17:09] in the correct direction, something like that.
+[01:17:11] Yeah, that was an interesting one too.
+[01:17:14] Thanks, Ben.
+[01:17:15] Yeah, perfect.
+[01:17:16] Ben just answered about the force velocity.
+[01:17:18] It's something that comes up quite often.
+[01:17:20] You're the third person in the group to mention it.
+[01:17:23] So this makes it .
+[01:17:28] Much better.
+[01:17:28] Yeah, it works.
+[01:17:29] That's fine.
+[01:17:32] Yeah.
+[01:17:33] It's Ben.
+[01:17:34] Yeah.
+[01:17:35] OK, well, we're out of time.
+[01:17:38] If you have any, and I have to zap out.
+[01:17:40] If you have any other question, if anything else comes up,
+[01:17:42] feel free to ask me.
+[01:17:43] Otherwise, I hope you're all good.
+[01:17:44] I hope you're having fun with Hadeed's class.
+[01:17:46] They're incredible.
+[01:17:48] Honestly, I think that class, I took two years in the industry,
+[01:17:52] and I still learned a lot of stuff.
+[01:17:53] So yeah.
+[01:17:55] Yeah, so feel free to ask.
+[01:17:58] For the submissions, feel free to post
+[01:18:01] any submissions that come up, anything
+[01:18:03] that you're particularly proud of that you made.
+[01:18:06] The submissions this week will be more of an occasion
+[01:18:09] to talk about the difficulties that people
+[01:18:10] had with the engines, anything that came up.
+[01:18:13] And then I'll try to give some.
+[01:18:14] Some advice on how to use the engine more efficiently.
+[01:18:20] Try to find ways to make it do what you want.
+[01:18:23] That's the most important part.
+[01:18:25] Because you remember, you need to tame the engine.
+[01:18:27] You need to tell the engine, no, you do what I want.
+[01:18:30] You're not my boss.
+[01:18:31] So yeah.
+[01:18:35] Awesome.
+[01:18:36] With that note, I will see you all on Monday then.
+[01:18:39] Bye, everyone.
+[01:18:39] All right, see you Monday.
+[01:18:40] Thank you.
+[01:18:41] Thank you.
+[01:18:41] Bye.
+[01:18:42] Bye.
+[01:18:42] Bye.
+[01:18:43] Bye.
+[01:18:44] Bye.

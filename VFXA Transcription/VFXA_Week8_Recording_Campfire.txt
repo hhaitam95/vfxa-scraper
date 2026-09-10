@@ -1,0 +1,2733 @@
+[00:00:00] Hello, hello, hello, hello. How are you doing?
+[00:00:09] Thank you, thank you, how about you?
+[00:00:14] Yes, I am doing okay. Doing okay. Open a few things. Camera.
+[00:00:23] All right, all right, all right, okay. So we can start directly and then people will
+[00:00:34] trickle in. I have a bunch of stuff I want to touch on today and I'm guessing that you
+[00:00:39] all also have a bunch of questions. So I want to make the most out of this. I can't go too
+[00:00:46] late today, but I will try to be as available as possible. A lot of you have already sent me
+[00:00:53] cool stuff on NPM just to ask where you want to go afterwards. I think this was pretty productive,
+[00:00:58] so if you have not done it yet, feel free to send me a message. But so far you've all
+[00:01:05] played the game and done that and it's been great.
+[00:01:11] Yeah, cool, cool, cool. I had a few questions, a few things that came up, but I wanted to make
+[00:01:18] sure that first I addressed any questions you all might have. I might have any topics that
+[00:01:22] I might have to address. I might have any questions you all might have to address. I might have any
+[00:01:23] questions that you would really like to get tackled during this session so that I manage to
+[00:01:27] get everything. I'll open a notepad to write it down and that way you can just give me the things
+[00:01:32] that you want to talk about and then I can schedule it out. So yeah, anyone wants to start,
+[00:01:37] anyone have like any thing they would like to talk about today?
+[00:01:45] I guess I'll ask. If I wanted to have, so say I have a sprite sheet,
+[00:01:51] would, say before I make the sprite sheet I guess, I wanted to have something that looked like a flip
+[00:01:59] book. Should I do the flip book or should I create a sprite sheet and then have a effect where like
+[00:02:07] it cycles through the sections of the sprite sheet? Does that make sense?
+[00:02:12] Okay, so you want to do, like the first thing is you want to do a flip book?
+[00:02:17] Yeah, that's, I'm deciding that like if I want to do the flip book or if I want to do
+[00:02:21] like a sprite sheet that rotates between different sprites. I don't know if that makes sense but.
+[00:02:28] So a flip book is going to be animated whereas a sprite sheet is just going to be for
+[00:02:32] like selecting effects like. Yeah, like if you're just spawning some sparks you can have different
+[00:02:38] sparks and you just select the one. Yeah, so. I guess, I guess the question I'm having like
+[00:02:44] if I'm creating like the lightning effect around like a distortion portal, if I want to do like a
+[00:02:51] I want it to look more alive, I probably should just make like a flip book of like little quick
+[00:02:56] effects and then have those spawn around as opposed to different sprites. I think I just
+[00:03:01] answered my question. It just depends on what you want to do. Both of them does work.
+[00:03:06] Yes, exactly. Perfect. If you're making, do you know what pixie dust is?
+[00:03:12] Pixie dust is a very classic Disney animation. It is, you see when, well when Tinkerbell moves around.
+[00:03:19] Oh yeah.
+[00:03:21] Or when Cinderella has the transformation dress, those are the most famous, but they're
+[00:03:25] a bit everywhere. They do those little four star cost kind of thing that like flicker around. It
+[00:03:30] looks like little like glittery dust. That's a very classic Disney aesthetic. And if you wanted
+[00:03:35] to do that, you have to make a flip book for instance. But if on the contrary, you want to
+[00:03:38] make just like little sparks that move around, then what's important is that you have variety
+[00:03:42] across the piece rather than something that's animated around. So it just depends on what you
+[00:03:47] want. Okay. We can talk a bit about flip books and when to use flip books.
+[00:03:51] Anyone else has a topic that they would like to see tackled today and that we haven't
+[00:03:58] got time to touch or yeah. Just so that I can schedule this.
+[00:04:01] Yeah, I guess I have one. There is, I've been trying to do stuff from scratch and I've
+[00:04:07] seen that one of the things that I have the most difficult with is doing like things that look
+[00:04:14] organic in the sense that they're, can I explain it? Like curly and squiggly, things that are like
+[00:04:21] things that move in a non-logical pattern. Yeah.
+[00:04:25] So I never know if I need to make a flip book, if I have to do a mesh, if they're really small,
+[00:04:31] is it like something that I should do only in the particle or like if I have multiple movements,
+[00:04:36] if it's going up, but also to the side at the same time, but it has to be like random and stuff.
+[00:04:42] There's a lot of times where I see these things and I have no idea how to start or how to break
+[00:04:47] them down in order to understand and reproduce them.
+[00:04:51] So you would say that it, how to, to represent multiple motions at the same time.
+[00:04:56] Yeah. Yeah. Also.
+[00:04:57] Yeah, sure. Okay. Yeah, we can tackle that. I can, I can do a little demonstration of that
+[00:05:03] and kind of like explain how I do it and then perhaps that will help. It's a good idea.
+[00:05:10] Anyone else write that down?
+[00:05:17] Any other question, anything else you'd like me to tackle?
+[00:05:21] Or you'd like me to spend time on?
+[00:05:22] This, it might not be needed to go over or it could be like really quick.
+[00:05:27] Sure.
+[00:05:27] But like, I'm not working on it right now, but the Volibear E,
+[00:05:31] I was watching some people make like lightning effects and a lot of people were doing like,
+[00:05:36] it was randomized, but I'm like, I feel like I watched the Volibear effect in League and I'm like,
+[00:05:43] I feel like you would want something consistent that people would always recognize.
+[00:05:47] Yes.
+[00:05:47] So,
+[00:05:51] I had, I had the train of thought.
+[00:05:53] I guess.
+[00:05:54] You're talking about random versus, like randomized versus like set up kind of effect.
+[00:05:59] Yeah.
+[00:06:00] And how to manage that.
+[00:06:01] Yeah.
+[00:06:02] And I don't know if that would also be like a flipbook or if that would be on like a mesh or something, but.
+[00:06:07] Yeah. Yeah. I see exactly what you mean.
+[00:06:10] Yeah, of course we can, we can tackle that.
+[00:06:13] Random versus seeded effects.
+[00:06:17] Yeah, that's totally feasible.
+[00:06:19] We can, we can touch on that. You'll see that.
+[00:06:21] It's actually significantly more interesting as a question than like people initially expect.
+[00:06:26] So, and then you're, you're correct.
+[00:06:28] The Volibear E is almost always the same.
+[00:06:30] It's very, very little random.
+[00:06:32] Partly because of the engine and partly because it just, you're right.
+[00:06:37] This just looks better that way.
+[00:06:41] Yeah. Anything else?
+[00:06:42] I'll take two more.
+[00:06:44] Two more and preferably from people that usually talk much or might have questions.
+[00:06:50] Not that it's a problem.
+[00:06:51] That people talk a lot because that way there's actually someone that's talking, which is great.
+[00:06:55] But also because yeah, I don't hear some of you.
+[00:06:59] I don't hear anything else.
+[00:07:04] Anything in particular.
+[00:07:05] It can be about motivation.
+[00:07:06] It can be about, it can even be about your own stuff.
+[00:07:08] If you have any questions on that.
+[00:07:12] But the industry portfolios.
+[00:07:17] Yeah, I think motivation.
+[00:07:20] So motivation topic could be a good point.
+[00:07:24] Is there something in particular in terms of motivation that you think would be interesting?
+[00:07:29] I think in general, like, like how to keep like working all the time, like consistently.
+[00:07:38] Okay. That's a good one.
+[00:07:39] Yeah. How to keep working consistently.
+[00:07:44] And like that, obviously how to keep working also means when, when to work.
+[00:07:49] And then when, when to know when to stop.
+[00:07:54] Like when to take a break.
+[00:07:57] Okay.
+[00:07:59] Okay. One more.
+[00:08:00] I need one more.
+[00:08:01] It's important.
+[00:08:02] Someone needs to contribute and help me.
+[00:08:04] Otherwise I'm going to be stuck in this forever.
+[00:08:12] It would be a shame.
+[00:08:13] I'm sure someone will find the question.
+[00:08:15] Can you go over like the,
+[00:08:18] the quad technique that you use like to practice?
+[00:08:22] I would love, I'd like to see more of it because I reviewed a little bit from the lectures that like the campfires as we had.
+[00:08:33] So I still don't understand how you layer stuff.
+[00:08:36] And so I saw like, okay, so the question is that do you just like stick to the quad as objects and you don't use the particle system?
+[00:08:46] So I guess like you,
+[00:08:47] you can move like stuff with the shader using like a time function,
+[00:08:50] which makes sense.
+[00:08:52] But in this case,
+[00:08:53] it's just like stuff moving in a,
+[00:08:55] you know,
+[00:08:56] on like a fixed quad.
+[00:08:57] So there is no particle system.
+[00:08:59] So I was thinking like,
+[00:09:00] what's the point of the particle system in that case?
+[00:09:03] Okay.
+[00:09:04] That's a very good question.
+[00:09:05] What's the point of the yes if we have just the quad?
+[00:09:12] So this is kind of like,
+[00:09:15] so I,
+[00:09:16] I feel like I can understand shaders a little bit better maybe because I have a little bit of a technical background.
+[00:09:23] So I wanted to do kind of like to use that strain to,
+[00:09:27] you know,
+[00:09:29] like kind of like paint with shaders.
+[00:09:31] So I want to do this practice where I try to layer stuff and just like understand step by step shaders.
+[00:09:37] So yeah,
+[00:09:38] I would love to see just a little bit more.
+[00:09:41] Sure.
+[00:09:42] Yeah.
+[00:09:43] Of course.
+[00:09:44] That's a good question.
+[00:09:45] So I have five questions apart.
+[00:09:46] That doesn't mean that we're stuck on questions.
+[00:09:48] So if someone else has more in the future,
+[00:09:51] you can come back up and add more.
+[00:09:53] That's not a problem.
+[00:09:55] Yeah.
+[00:09:58] Some people have also asked me as a bonus question that I will write down afterwards is to show how I paint.
+[00:10:05] So I will,
+[00:10:11] and some,
+[00:10:12] some small advices on like how,
+[00:10:13] how it can be.
+[00:10:14] So I'll just show that too as a,
+[00:10:15] as a,
+[00:10:16] okay.
+[00:10:17] So we have a few questions.
+[00:10:18] I'm going to put this to the side now and we can start working on this.
+[00:10:23] We were here last time and I didn't touch it.
+[00:10:27] So,
+[00:10:28] all right.
+[00:10:31] Let's this one,
+[00:10:33] this one.
+[00:10:34] Cool.
+[00:10:37] We can remove that one too.
+[00:10:39] Excellent.
+[00:10:40] All right.
+[00:10:41] So the first one we had was,
+[00:10:43] um,
+[00:10:44] what is the effect of the little books in general?
+[00:10:46] So you can do a few things.
+[00:10:48] Uh,
+[00:10:49] um,
+[00:10:50] I already answered a little bit of it,
+[00:10:51] but I'm going to make it just a new project with my little tool,
+[00:10:54] just to make sure that we can,
+[00:10:56] we have something to start with.
+[00:10:58] How does it make it?
+[00:10:59] Because it already exists.
+[00:11:02] Uh,
+[00:11:03] example,
+[00:11:04] uh,
+[00:11:06] okay.
+[00:11:07] I'm going to try to combine multiple of the things that we talked about here into one.
+[00:11:11] So let's make a new effect.
+[00:11:13] We need a little orb.
+[00:11:14] So,
+[00:11:15] um,
+[00:11:16] let's flip a part.
+[00:11:17] Uh,
+[00:11:18] so the question was specifically about when to use a flip book versus when to use some
+[00:11:23] sparks,
+[00:11:24] basically some little,
+[00:11:25] little parts.
+[00:11:26] So,
+[00:11:27] um,
+[00:11:28] that's,
+[00:11:29] that's in itself a question.
+[00:11:30] The other question will be when to use a flip book versus using like,
+[00:11:33] I don't know,
+[00:11:34] uh,
+[00:11:35] an actual like animated sphere or something like that.
+[00:11:37] But for now we're just going to focus on when to use a flip book and like small,
+[00:11:41] small little things around.
+[00:11:42] So,
+[00:11:43] um,
+[00:11:44] the actual main question is you have three choices.
+[00:11:46] You can either do one.
+[00:11:48] You can either.
+[00:11:49] So let's say I have this orb here.
+[00:11:51] And what I'm going to do is I say,
+[00:11:53] I'm going to make two new ones.
+[00:11:56] Okay.
+[00:11:57] The first one here,
+[00:11:58] I'm going to say that this is going to be a bit better,
+[00:12:02] bigger.
+[00:12:03] So I'm going to make it into a shape.
+[00:12:04] That's going to be a sphere.
+[00:12:05] That's here.
+[00:12:06] Give it smaller.
+[00:12:07] Five.
+[00:12:08] Okay,
+[00:12:09] cool.
+[00:12:10] I'm going to,
+[00:12:11] uh,
+[00:12:12] I'm going to make it into a,
+[00:12:13] uh,
+[00:12:14] I don't know.
+[00:12:15] Okay.
+[00:12:16] We're going to stay there and we're going to say that the spawns,
+[00:12:21] uh,
+[00:12:22] 20 around there and that they are small.
+[00:12:29] Like there's five.
+[00:12:30] Excellent.
+[00:12:31] And then we're going to say that those shapes,
+[00:12:33] those,
+[00:12:34] uh,
+[00:12:35] they have color over lifetime.
+[00:12:36] And we're going to say that they go up and down.
+[00:12:42] And then two.
+[00:12:44] Excellent.
+[00:12:45] And they last a little bit too long here.
+[00:12:46] So we're going to make them five.
+[00:12:48] And then we're going to say go.
+[00:12:49] Okay,
+[00:12:50] cool.
+[00:12:51] So we're pretty happy with this.
+[00:12:52] That's going to do the job that we wanted.
+[00:12:53] Okay.
+[00:12:54] So we have those little orbs that come in and come out.
+[00:12:55] Okay.
+[00:12:56] Um,
+[00:12:57] so here,
+[00:12:58] what we could do,
+[00:12:59] we can do multiple.
+[00:13:00] Go select.
+[00:13:01] It works.
+[00:13:02] All right.
+[00:13:03] So what we could do here,
+[00:13:04] there's multiple options.
+[00:13:05] First off,
+[00:13:06] what we're going to do is we're just going to take our texture,
+[00:13:09] give it a flip book.
+[00:13:10] And we could say,
+[00:13:11] we wanted to use a flip book.
+[00:13:12] So for that,
+[00:13:13] we're going to go get a texture.
+[00:13:14] That is a book.
+[00:13:15] So.
+[00:13:16] Uh,
+[00:13:17] let's take this one for instance,
+[00:13:18] because it's simple.
+[00:13:19] Okay.
+[00:13:20] So we're going to say that,
+[00:13:21] what is it?
+[00:13:22] It's a two by two.
+[00:13:23] Okay.
+[00:13:24] And then this two by two,
+[00:13:25] we're going to give it a,
+[00:13:26] uh,
+[00:13:27] floor.
+[00:13:28] And then we're going to say,
+[00:13:29] we're going to use our,
+[00:13:30] uh,
+[00:13:31] dynamic parameters and just dump it here.
+[00:13:32] Okay.
+[00:13:33] And so here,
+[00:13:34] now,
+[00:13:35] we're going to say,
+[00:13:36] we're going to use our,
+[00:13:37] uh,
+[00:13:38] dynamic parameters and just dump it here.
+[00:13:39] Okay.
+[00:13:40] And so here,
+[00:13:41] uh,
+[00:13:42] now for now,
+[00:13:43] they're like that.
+[00:13:44] And they don't have the,
+[00:13:45] uh,
+[00:13:46] transparency.
+[00:13:47] We'll have the transparency.
+[00:13:48] But they're stuck on this.
+[00:13:49] So now if I just do this,
+[00:13:50] they're playing just a period in this appearing.
+[00:13:51] I want to do is play their animation.
+[00:13:52] So for that,
+[00:13:53] I'm just going to go in here.
+[00:13:54] I need to plug in.
+[00:13:55] Normally you already know how to do that,
+[00:13:56] but if you don't know how to do it,
+[00:13:57] you basically go to custom,
+[00:13:58] custom one,
+[00:13:59] and then you have access to the custom.
+[00:14:00] And then you can see that,
+[00:14:01] uh,
+[00:14:02] you can see that it's,
+[00:14:03] it's,
+[00:14:04] it's,
+[00:14:05] it's,
+[00:14:06] it's,
+[00:14:07] it's,
+[00:14:08] it's,
+[00:14:09] it's,
+[00:14:10] it's,
+[00:14:11] uh,
+[00:14:12] we put the rules of this
+[00:14:13] descendants in the Link wrapped to a men.
+[00:14:14] Give them a set ofthis.
+[00:14:15] Give them a set of almost understand our community balance,
+[00:14:16] right?
+[00:14:17] So what I did was,
+[00:14:18] and this is really cool,
+[00:14:19] but I mean,
+[00:14:20] we could have트�ificar의 설� spousehips.
+[00:14:21] All this would be like one point in the world.
+[00:14:22] Ter rudimentilize give we can have the
+[00:14:39] switch to then I mean
+[00:14:40] I have the last frame.
+[00:14:42] I'll go to 4.
+[00:14:44] OK.
+[00:14:48] So I could do this.
+[00:14:49] Those are a bit fast.
+[00:14:50] They're a bit big, but I can just adjust them.
+[00:14:55] So yeah, that's pretty fun.
+[00:14:56] It works.
+[00:14:57] I don't need the alpha now, because I have this.
+[00:15:02] Now I get this sort of like little anime effect.
+[00:15:04] It's pretty fun.
+[00:15:05] It's pretty nice.
+[00:15:06] I can give them some random rotations if I wanted to.
+[00:15:10] Start rotation.
+[00:15:12] I'm going to do like minus 30 to 30.
+[00:15:17] They can all be kind of different,
+[00:15:19] or I can just do 0 to 360 and just see how that goes.
+[00:15:22] I think it looks better when they were all in the same angle,
+[00:15:25] so I'm just going to keep it up.
+[00:15:26] Cool.
+[00:15:27] And I can give them a random size
+[00:15:28] so that it gives a little bit of depth to it.
+[00:15:30] 0.1 to 0.2.
+[00:15:33] Excellent.
+[00:15:34] All right.
+[00:15:35] I might want this to be slightly smaller.
+[00:15:37] So here, you see how the first benefit of this
+[00:15:40] is obviously with this, you get sort of like Sailor Moon kind
+[00:15:44] of effect.
+[00:15:48] Obviously, what you get first is you get on the outwards of it,
+[00:15:51] you get this really strong animation.
+[00:15:53] You get those flares.
+[00:15:54] You get very quickly a lot of things
+[00:15:57] that really attract the eye.
+[00:15:58] So the rest of your effect can be really slow, really moving.
+[00:16:02] It can be very simple.
+[00:16:03] And those little elements, they will add a lot.
+[00:16:07] That's why in Japanese animation, for instance,
+[00:16:10] you'll have a lot of those small flares
+[00:16:12] or those little animated things.
+[00:16:13] And in Disney, too, those small little particles
+[00:16:16] will be overly animated.
+[00:16:18] They'll have so much going on just so that the rest of it
+[00:16:22] can focus on slow, big, long animations that
+[00:16:26] are quite structured and that are easy to follow.
+[00:16:30] OK?
+[00:16:31] That's the first thing you can do.
+[00:16:32] The second thing you can do is you can like,
+[00:16:35] so this is if you had something of static
+[00:16:37] and you want to add some motion.
+[00:16:39] Second thing you can do.
+[00:16:40] You can go back into the shader is to do dissolve.
+[00:16:45] We're going to put this one to the side.
+[00:16:46] We're going to do a new one.
+[00:16:54] So dissolve, you're just going to come in here.
+[00:16:56] You're going to take, let's take something a bit,
+[00:17:01] this for instance.
+[00:17:02] You're going to take this and then you're going to take
+[00:17:05] another texture like this.
+[00:17:10] We're going to make it very simple, actually.
+[00:17:12] It's going to take UV, direct, 0.5.
+[00:17:30] OK.
+[00:17:31] And we do a dot product.
+[00:17:32] Those are them.
+[00:17:35] Then we have to just adjust it.
+[00:17:37] So we're going to do a dot product.
+[00:17:40] Multiply.
+[00:17:41] Multiply.
+[00:18:05] To make it simpler, I guess.
+[00:18:07] OK, cool.
+[00:18:09] And done.
+[00:18:09] And what we'll do is.
+[00:18:10] We'll take this one and we'll subtract it by the other one.
+[00:18:13] So subtract.
+[00:18:15] Oh, it's first separated.
+[00:18:24] So just I need to multiply by a value and then put it here.
+[00:18:30] And this is going to start at 0.
+[00:18:32] So no, it's the opposite.
+[00:18:34] It's this that subtracts.
+[00:18:37] OK, cool.
+[00:18:38] And then this we're going to put into here.
+[00:18:40] Here.
+[00:18:40] All right.
+[00:18:42] And so here, this is the parameter that I want to drive.
+[00:18:44] So now I'm going to take this again.
+[00:18:47] And I'm going to say put it here.
+[00:18:49] Not here because bloop.
+[00:18:53] All right.
+[00:18:54] So here now we have all those.
+[00:18:57] And then we can just connect our new one.
+[00:18:59] And what we're going to do, we're going to create a curve.
+[00:19:01] And say I want to connect it from 0 to 1.
+[00:19:08] Multiply.
+[00:19:09] If I put 1 here, it should work.
+[00:19:10] No?
+[00:19:12] 1, 2, 3, OK.
+[00:19:17] 4, OK.
+[00:19:17] So I just need to put a bigger value.
+[00:19:19] Cool.
+[00:19:21] See, this is the best way to debug.
+[00:19:23] We just take it and you just add values until you're done with it.
+[00:19:26] So let's do 5 and go there.
+[00:19:29] So I'm having some negative effects because some negative elements here
+[00:19:32] because I'm not cleaning up my data here afterwards.
+[00:19:36] So here I should saturate that.
+[00:19:40] Every time you see your screen have those little black pops like that,
+[00:19:43] it's usually because of that.
+[00:19:45] And then the emissive is significantly too high, I think,
+[00:19:48] or something like that.
+[00:19:51] Does it not work?
+[00:19:52] Interesting.
+[00:19:53] Hmm.
+[00:19:53] Let's see again.
+[00:19:54] So if this, I replace it with 5, it should look like this.
+[00:19:59] But it doesn't.
+[00:20:00] Hmm.
+[00:20:01] It's suspicious.
+[00:20:04] I think I connected the wrong one.
+[00:20:06] Question mark.
+[00:20:10] Here?
+[00:20:17] Let's remove that one.
+[00:20:23] Bunny?
+[00:20:24] No.
+[00:20:25] I need the other way.
+[00:20:26] Huh.
+[00:20:27] What did I do?
+[00:20:27] What's the problem?
+[00:20:29] This is good.
+[00:20:31] Text 1 custom.
+[00:20:35] Why not working?
+[00:20:39] Should work.
+[00:20:40] Oh.
+[00:20:40] I didn't save this.
+[00:20:41] It's possible.
+[00:20:44] No.
+[00:20:47] I don't know why.
+[00:20:52] Hmm.
+[00:20:57] It should be this one, right?
+[00:21:00] It should be y because it was doubled.
+[00:21:05] So it should be the correct one.
+[00:21:10] Did I forget to plug something in?
+[00:21:14] Huh.
+[00:21:18] There.
+[00:21:20] All right.
+[00:21:21] I don't know why.
+[00:21:22] Oh.
+[00:21:24] It's fine.
+[00:21:26] Should be able to just, why not?
+[00:21:29] Oh, I need to do the texture.
+[00:21:31] It's fine.
+[00:21:33] Sorry.
+[00:21:34] It's taking more time than I wanted.
+[00:21:40] Play.
+[00:21:41] Cool.
+[00:21:42] We'll do the same thing, but better.
+[00:21:44] This is still not working.
+[00:21:46] Oh, no.
+[00:21:47] Because I did not do.
+[00:21:47] Oh, yeah.
+[00:21:48] Cool.
+[00:21:48] That works.
+[00:21:49] All right.
+[00:21:49] Let's go.
+[00:21:51] Six.
+[00:21:53] Cool.
+[00:21:55] That's the thing.
+[00:21:56] Excellent.
+[00:21:56] So here we can do like pop, pop, pop, pop, pop, pop, pop, pop, pop, pop, pop.
+[00:21:59] So you get the same effect here.
+[00:22:01] The same thing.
+[00:22:02] That's where I want it to go.
+[00:22:04] Finally.
+[00:22:05] You get the same effect, the same thing.
+[00:22:09] But with a different style.
+[00:22:12] So here, obviously, you could do, like this is very similar to what we had before.
+[00:22:16] It's less overly animated.
+[00:22:18] And you could argue that it's less jarring to the eye, for instance.
+[00:22:22] But I think it adds very similar things.
+[00:22:24] It has this very small motion.
+[00:22:26] It pushes around the shapes a lot.
+[00:22:28] And overall, this gets the same result.
+[00:22:34] This is cheaper to do.
+[00:22:35] It's usually simpler to implement.
+[00:22:38] And it's more robust.
+[00:22:39] And you don't have to spend a lot of time making it.
+[00:22:42] So I would argue that this is, those two have the same result.
+[00:22:48] Just one of the two gives you, is like simpler.
+[00:22:51] Like I literally took like a dots texture like this, my texture, and then I separated it.
+[00:22:57] If I delete all the convoluted thing I did, it is extremely simple.
+[00:23:05] Like I just took my, my, my, my texture.
+[00:23:09] And I just did a little dynamic parameter.
+[00:23:12] And I just said, like, there you go.
+[00:23:14] That's all you need.
+[00:23:15] So yeah, that's just a very simple way to get the same result.
+[00:23:21] So I would argue that overall, a dissolve is preferred in most cases just because it's simpler.
+[00:23:26] And the simpler your technique, the less chances you have of like messing it up.
+[00:23:30] But if you're really used to making flipbooks, just make flipbooks.
+[00:23:33] Flipbooks are also a really good way to do this.
+[00:23:36] Now, for your question, you were asking if this is better than you think.
+[00:23:38] If this is better than using a sprite sheet.
+[00:23:41] The main difference is that if you're using a sprite sheet.
+[00:23:44] So now we duplicate this again.
+[00:23:46] We just duplicate exactly that one.
+[00:23:52] Put this in, but instead of that texture, we say that we want, we have a sprite sheet here, probably.
+[00:24:02] I'm guessing the cost difference between a sprite sheet and the flipbook, like,
+[00:24:07] it's not very, neither of them are, like, it's negligibly expensive, I'm guessing.
+[00:24:11] Like, it doesn't matter.
+[00:24:12] Very negligible.
+[00:24:13] Yeah, 100%.
+[00:24:14] It's extremely negligible.
+[00:24:19] So yeah.
+[00:24:20] So this is the third option.
+[00:24:22] And in the third option, basically, instead of doing a curve, you do a random between
+[00:24:26] and like anything.
+[00:24:28] And here you can add more randomness.
+[00:24:30] That's the main interesting thing of using a sprite sheet or using small individual particles.
+[00:24:35] Is that you can add.
+[00:24:37] Random extra stuff.
+[00:24:38] So you can actually say, okay, now I'm going to give it an extra start rotation.
+[00:24:42] Like, I'm going to give it like more extra size.
+[00:24:46] Like to make it really like have a lot of depth and look very different.
+[00:24:51] And you get an effect that looks more volumetric in my opinion.
+[00:24:54] Less animated, but more volumetric.
+[00:24:56] And here, if I put back the color of a lifetime, you'll see that you get something that looks
+[00:25:00] really volumetric and really like animated.
+[00:25:04] I find in a way that's not the same.
+[00:25:07] You can also add subtle motion to it that I find gives a lot of like feels very potent.
+[00:25:13] So if I add this tiny bit of like 0.5, what I like to do is there's a speed modifier
+[00:25:19] here.
+[00:25:20] You can just give it like 0.1 and you can work with like regular numbers here.
+[00:25:23] So I can give it a one here and then a random between like minus one and one.
+[00:25:31] Okay.
+[00:25:32] And then like that can really.
+[00:25:33] Yeah.
+[00:25:34] Yeah.
+[00:25:35] Yeah.
+[00:25:36] So you can have something that looks really, really, here I can say 0.05 and then this
+[00:25:40] I want three for instance.
+[00:25:42] And so you can have something that looks really just has a lot of very subtle motion.
+[00:25:47] What I would do here probably is give it a random between like two time.
+[00:25:53] So two and 0.5 is a good way to like have really some that are a bit fast and that are
+[00:25:57] a bit slow.
+[00:25:58] And here you can see that this looks, this starts to look really eerie.
+[00:26:01] It has like starts to have a lot of detail, a lot of subtle motions that are not actually
+[00:26:05] as poppy as the previous one that don't attract the eye as much, but that are more fascinating
+[00:26:10] and mesmerizing.
+[00:26:11] So that's something that overall you can find the more there is subtle motions that
+[00:26:15] are working together as we were talking about in our previous list.
+[00:26:19] This like several motion we're kind of touching on the quad at the same time and trying to
+[00:26:24] like mix a bunch of stuff together.
+[00:26:26] But basically you're the more you use this technique with like subtle motions moving
+[00:26:33] around.
+[00:26:34] So the more you get something that's a bit mesmerizing, like imagine some an effect
+[00:26:38] that you see that static that's there all the time and you just keep looking at it over
+[00:26:42] and over and over again.
+[00:26:43] And then on the contrary, the more you add little like effects, little sparkles, little
+[00:26:47] extra flipbooks or dissolves, et cetera, the more the effect is interesting in the moment
+[00:26:51] catches your eye, but it doesn't keep you.
+[00:26:54] So that's how I would like describe it.
+[00:26:56] And that's a good way to remember.
+[00:26:59] One thing to remember too, that the like like neuroscience is a very important part of the
+[00:27:02] world.
+[00:27:03] And neuroscience identifies that the eye is capable of like the eye loves motion that
+[00:27:11] is curves.
+[00:27:13] So if you do a motion that's linear, a motion that's linear will feel like it bounces.
+[00:27:18] When you look at my arm here and then I go straight from the other side, you're going
+[00:27:22] to immediately go look back here.
+[00:27:23] Whereas if I do an arching motion, you're going to end up at the end point of where
+[00:27:27] I am.
+[00:27:28] And so what that does is that this is a really good way to think, okay, if I add an arc,
+[00:27:32] if I add some orbital motion or some stuff like that, there's a higher chance that I
+[00:27:36] bring the eye to where I'm interested.
+[00:27:38] And so it will create, you know, like those, those videos you might see, or these images
+[00:27:42] you might see where people show an artwork and say, if you want this artwork to be interesting,
+[00:27:47] there needs to be a loop of like, I look at this piece.
+[00:27:49] So I look at the tree.
+[00:27:50] So I look at the character.
+[00:27:51] So I look back at the sun.
+[00:27:52] So I look back at the tree of the character of the sun.
+[00:27:54] That's make what makes it mesmerizing.
+[00:27:56] That's why those kinds of effects in order for them to be like, to attract your attention,
+[00:28:00] you want them to have something that's interesting.
+[00:28:01] You want them to have several curves that go around.
+[00:28:04] And so that they never bring you back to the previous destination and you're never kind
+[00:28:08] of like block blocked it.
+[00:28:10] Whereas the other one, the goal is to like give you one big moment where there's a lot
+[00:28:14] of things happening at the same time.
+[00:28:16] So it's, the goal is to submerge you with stuff.
+[00:28:18] And so those are two different goals that you might have.
+[00:28:22] So, yeah.
+[00:28:24] So I don't think this is necessarily like, like there's no correct way to do it.
+[00:28:30] Both for the design.
+[00:28:31] Both tools is trying to help you.
+[00:28:32] So like, you know, one of the things that I all try to do is just put you back in different
+[00:28:33] positions to the left side of the subject, especially the mousedong.
+[00:28:35] And so one of the things that I can offhand is kind of just putting the mouse button
+[00:28:36] as one button on here.
+[00:28:37] But for that I like to give you an interior body character.
+[00:28:38] Like, I don't like it.
+[00:28:39] You take theedor of the mouse plant on here.
+[00:28:40] And I put it just like this.
+[00:28:41] Right?
+[00:28:42] And then when you're like, when you're at this point, like you're on very high level
+[00:28:43] を hace 어머.
+[00:28:44] But what I see is a lot of looks like imagination that I saw in other work and other things
+[00:28:45] that I didn't see 가장 눌러處.
+[00:28:46] And I think it's a really nice foundation.
+[00:28:47] OK, actually, I want it to have some randomness.
+[00:28:49] And on top of that, I'm going to add,
+[00:28:51] I showed you last time, the technique.
+[00:28:53] I'm going to add a sprite sheet behind it, which is this.
+[00:28:56] And then this is going to be a several sprite sheet.
+[00:28:58] It's going to be like, there's going to be a color of a lifetime
+[00:29:03] that's like, as we showed, exactly the same as before.
+[00:29:07] One, two, one, done.
+[00:29:09] And then we're going to give it a little bit more,
+[00:29:12] like we're going to spawn like perhaps three.
+[00:29:14] This we're going to remove.
+[00:29:15] And then we're going to give them,
+[00:29:18] their size is pretty OK compared to what we're doing.
+[00:29:20] But we want them to be kind of random, and random direction,
+[00:29:23] random everything, basically.
+[00:29:25] One to two, start rotation, 360, et cetera.
+[00:29:30] And suddenly, we're getting kind of the same result
+[00:29:32] as what we were looking for.
+[00:29:33] Whereas the back one and the front one, they blend together.
+[00:29:37] Probably this one, we would want it to spawn like five.
+[00:29:41] But yeah, otherwise, you get exactly the same result
+[00:29:44] as what we were kind of looking for.
+[00:29:45] And yeah.
+[00:29:48] All right.
+[00:29:49] That definitely helped.
+[00:29:50] It makes me think that it depends on the intent.
+[00:29:54] Like the particle system one with the sprite sheet
+[00:29:58] maybe could be more of like an environmental effect.
+[00:30:00] Maybe it's something that creates the mood for the area,
+[00:30:03] like you were saying, something creepy.
+[00:30:04] Or maybe it's for an item pickup.
+[00:30:06] But it's not something that requires a bunch of animation.
+[00:30:08] But if maybe something hits the ground,
+[00:30:11] and you need something that's more animated, then maybe
+[00:30:14] the flipbook is the way to go.
+[00:30:15] So I understand it now.
+[00:30:17] Thank you.
+[00:30:18] Awesome.
+[00:30:19] All right.
+[00:30:21] So this, we talked about it for now.
+[00:30:23] Does anyone have any questions for this, on this,
+[00:30:26] or more than that, like anything else?
+[00:30:36] All right.
+[00:30:37] Second off, we talked about starting from scratch.
+[00:30:40] So this is what we did here.
+[00:30:41] And then we talked about non-organic,
+[00:30:43] like looking organic and nonlinear here.
+[00:30:45] So I think we touched a bit on this.
+[00:30:46] But we can go a bit deeper into that too,
+[00:30:50] and specifically how to layer motions together.
+[00:30:55] So I think that here, one thing that's clearly missing
+[00:30:58] to our piece in order to do this layering motion together
+[00:31:01] is adding a, add one, just an example, adding a soul coaster.
+[00:31:09] So soul coaster is basically what you want to do.
+[00:31:11] Create a mesh.
+[00:31:13] That mesh, you just give it a.
+[00:31:15] You just add a path that you would make in Blender.
+[00:31:18] So for instance, let's use this one.
+[00:31:21] Click too many times.
+[00:31:22] OK.
+[00:31:23] So this will add a path.
+[00:31:25] I don't know where my path is.
+[00:31:30] It's tiny.
+[00:31:32] Hi.
+[00:31:32] OK.
+[00:31:35] We'll put it at local.
+[00:31:37] We'll give it, we'll spawn like, I don't know,
+[00:31:39] like we'll get it bigger already.
+[00:31:42] 10.
+[00:31:42] OK.
+[00:31:45] OK.
+[00:31:45] Good.
+[00:31:46] OK.
+[00:31:47] So I'm happy with this one.
+[00:31:48] It looks pretty.
+[00:31:49] I want it to be random in all directions, all the time,
+[00:31:52] everywhere, so random constants.
+[00:31:56] 360, 360, 360.
+[00:31:58] Good.
+[00:31:59] And then we're going to restart just because we're
+[00:32:01] spawning multiple of them.
+[00:32:02] 0, 30.
+[00:32:04] 30 is a lot.
+[00:32:05] 10.
+[00:32:06] 10 is cool.
+[00:32:08] OK.
+[00:32:09] So here we're spawning all those.
+[00:32:11] That's a bit, that's a bit much.
+[00:32:13] I'm not sure I want that many.
+[00:32:14] But perhaps once I put the shader, it will be better.
+[00:32:17] So here, what I want to do is obviously,
+[00:32:19] I want to take this little dot here or any other texture.
+[00:32:23] I want to not repeat it, but clamp it.
+[00:32:25] I want to give it a add multiply.
+[00:32:35] OK.
+[00:32:36] Here, I want to say that, so I have it here for now.
+[00:32:39] So here, I can say that this is 1.
+[00:32:44] That's not 1.
+[00:32:44] That's 2.
+[00:32:45] OK.
+[00:32:46] And then I want to say that actually it's like 4.
+[00:32:51] Then this is on the sphere.
+[00:32:55] Quad.
+[00:32:56] Put it on the quad so that I can test it out.
+[00:32:58] And then I can say that here, I want a vector 2.
+[00:33:03] And then here, I want to say that again,
+[00:33:06] my little dynamic parameter.
+[00:33:07] And say on the x, I want this to move on the x depending on that.
+[00:33:12] Cool.
+[00:33:13] Save it.
+[00:33:14] Now I have this little tendrils that are all messed up.
+[00:33:18] But if I help it out, custom, I just set it up again.
+[00:33:23] And we say, all right, now we can just move our little textures
+[00:33:29] onto it.
+[00:33:29] Whee!
+[00:33:30] Yay!
+[00:33:32] This is obviously very pretty.
+[00:33:33] We can see that it's not quite aligned in the center.
+[00:33:36] So we can use the pivot here to align it perfectly
+[00:33:39] in the center.
+[00:33:42] Excellent.
+[00:33:43] It's going to be way prettier.
+[00:33:44] OK.
+[00:33:45] And then here, we can use our motion.
+[00:33:46] So you can just scrub through it and look at where the start is.
+[00:33:49] So here, the start is here.
+[00:33:55] So we're going to do 0.76 curve from 0.8 all the way to there.
+[00:34:02] So what that does, they come back in, back out, back in, back out.
+[00:34:06] So we see that at the start, they're a bit too far.
+[00:34:09] So that means that we're going to do,
+[00:34:12] I need to look at the outer bound of this.
+[00:34:14] So that means that we need to look at the other side.
+[00:34:17] When do they disappear?
+[00:34:18] Here.
+[00:34:19] They disappear here.
+[00:34:20] So that's minus 4.3.
+[00:34:22] So curve minus 4.3 to 0.76.
+[00:34:28] Suddenly, we have our little things that are just floating around.
+[00:34:31] Whee!
+[00:34:32] OK.
+[00:34:33] So obviously, this isn't very fun.
+[00:34:34] And this is a very easy thing to set up, too.
+[00:34:37] And this is really good to create this kind of organic motion that
+[00:34:40] is also really mesmerizing.
+[00:34:41] You can see that we have some little artifacts here.
+[00:34:44] I think part of the path that we're having,
+[00:34:46] we can try with another path.
+[00:34:48] Yeah.
+[00:34:48] Because I obviously don't have the best files all the time.
+[00:34:53] Is there a path that works well and that's way too big?
+[00:34:56] Most of them are going to be way too big.
+[00:34:57] We can try.
+[00:34:59] I think that one was really good.
+[00:35:01] We're going to keep that one.
+[00:35:01] We're going to just correct it.
+[00:35:03] So to correct it, it's very easy.
+[00:35:05] You just come in.
+[00:35:07] You just do a Fresnel.
+[00:35:09] OK.
+[00:35:10] Just plug that Fresnel in with the rest of it.
+[00:35:13] So we're going to use this multiply that's here.
+[00:35:17] So again, as usual, when you add new masks,
+[00:35:19] so as in a black and white texture that's
+[00:35:21] supposed to clear things up, you just take the black and white.
+[00:35:25] You multiply it.
+[00:35:26] Because after that, everything we're talking about,
+[00:35:28] all those blue lines here, they're
+[00:35:29] values between 0 and 1.
+[00:35:30] So if you multiply a value, everything that's black
+[00:35:32] is going to stay black.
+[00:35:33] Everything that's white is going to stay exactly the same as before.
+[00:35:35] It's called the mask.
+[00:35:36] We saw that last week.
+[00:35:38] So here now, so we're still seeing some artifacts,
+[00:35:41] but less than before.
+[00:35:42] So we're going to try and adjust that.
+[00:35:43] 5, 2, no, 5, 5, question mark?
+[00:35:52] No.
+[00:35:52] Still didn't manage to fix it.
+[00:35:55] I don't know how much it's helping here.
+[00:35:57] So when I'm not sure of something, I just plug it in.
+[00:36:00] Then we can see.
+[00:36:02] So here, I don't see it making a big difference,
+[00:36:06] honestly, to be honest with you.
+[00:36:08] I don't see this Fresnel.
+[00:36:09] Perhaps there's no normals on my effect,
+[00:36:11] and that's why it's not working.
+[00:36:13] But anyway, I don't have the time today to debug this.
+[00:36:20] So I'm just going to consider that we will ignore it,
+[00:36:23] and or we will find another one.
+[00:36:25] But for now, we're going to just simply ignore it.
+[00:36:27] And we're going to say that the size of this
+[00:36:30] is going to be between 20 and 5.
+[00:36:35] So now we have this extra subtle motion inside
+[00:36:38] that when we turn around gives also this very nice 3D effect.
+[00:36:41] Everything else moves a bit with it.
+[00:36:43] But those parts, they're physical.
+[00:36:47] When you move there, they make sense in the world
+[00:36:49] because they're a mesh.
+[00:36:50] So that's really easy to do.
+[00:36:51] So that I recommend you try.
+[00:36:53] Another way you can do to add extra volume
+[00:36:56] is to actually work with a random between two constants 3D size.
+[00:37:02] So there, you can actually play around with 20 to 5, and then 20
+[00:37:09] to 5.
+[00:37:10] So what that does is that on each axis, it gives it a random.
+[00:37:13] So now it's even more randomly distributed.
+[00:37:16] And that can give the sense of the more random parts.
+[00:37:20] I suggest that you always try to have at least three parts
+[00:37:23] of your effect that are random.
+[00:37:24] So here we have the 3D size that's random.
+[00:37:26] We have the 3D rotation that's random.
+[00:37:28] And we have technically that every 3D part is random.
+[00:37:35] So that overall gives us this mesmerizing effect.
+[00:37:39] We can say that we could have also the lifetime that's random.
+[00:37:42] So from 1 to 2.
+[00:37:43] We get some that are faster, some that are smaller,
+[00:37:45] and to make it overall feel a bit more aligned.
+[00:37:48] So yeah, this is what I would do in general.
+[00:37:50] And this is already without even using a texture.
+[00:37:52] If I wanted to go in and just say, actually, I want to use,
+[00:37:55] I don't know, specific textures that I find more interesting.
+[00:37:59] So this one has a double thing.
+[00:38:01] Those are more star shaped.
+[00:38:04] This is more of a flat image.
+[00:38:08] I can have little parts of lots of stuff.
+[00:38:13] And I can have a more distinct shape.
+[00:38:16] The spike, yeah, this kind of spike,
+[00:38:19] that doesn't look good at all.
+[00:38:20] It has some issues.
+[00:38:22] Texture has some issues.
+[00:38:23] Anyway, I hope this gives you some ideas on this.
+[00:38:26] And it answers a bit about the motion part.
+[00:38:29] Is there other questions about the motion part in ?
+[00:38:32] I think that it's a good question.
+[00:38:34] And I'm curious to see if other people have questions
+[00:38:37] about it of where this can go.
+[00:38:43] I think that it's a good question.
+[00:38:44] But I don't think that it's a good question.
+[00:38:46] I think that it's a good question.
+[00:38:48] So I'm just going to go ahead and just comment on this.
+[00:38:51] OK.
+[00:38:52] I'm guessing not.
+[00:38:54] So I'll just keep that one.
+[00:38:57] Yeah.
+[00:38:57] So here, overall, I'm pretty happy with this effect.
+[00:39:00] I think this is pretty fun.
+[00:39:01] This works pretty well.
+[00:39:02] So then the rest of it that we talked about,
+[00:39:07] random seeded versus seeded effects.
+[00:39:09] So that's a really interesting one.
+[00:39:10] So let's say, for instance, I want
+[00:39:13] to go back just a little bit.
+[00:39:15] Just to give an example of when we're
+[00:39:18] talking about this organic kind of motion,
+[00:39:20] that when I have difficulty breaking it down,
+[00:39:22] I'll also link in the chat an image that, at first, I would
+[00:39:29] not know where to start to do all the little yellow things
+[00:39:33] that comes out of the body.
+[00:39:34] I don't know if this technique can be used in here as well.
+[00:39:37] But to be honest, I would be super lost on how
+[00:39:41] to start making this.
+[00:39:42] Right.
+[00:39:42] Yeah.
+[00:39:43] Yeah.
+[00:39:43] Yeah.
+[00:39:44] That makes sense.
+[00:39:45] I wouldn't be super lost.
+[00:39:46] So I guess the thing that I want us to know
+[00:39:50] is, how can I break down things like this
+[00:39:51] when I don't understand them?
+[00:39:52] Is that anything that we can do?
+[00:39:53] Yeah.
+[00:39:54] We can talk about that.
+[00:39:55] Do I have a big panel?
+[00:39:58] Cool.
+[00:39:59] So this is, unfortunately, quite annoying.
+[00:40:02] Because every time you see a character effect, it's annoying.
+[00:40:05] You have to start with that idea that it's
+[00:40:07] going to be not what you want.
+[00:40:08] The characters' effects are just hard.
+[00:40:12] Because they have to match the mesh.
+[00:40:14] They have to match the animation, et cetera,
+[00:40:16] and just .
+[00:40:17] One thing that you can do that's really useful that you perhaps
+[00:40:20] don't know yet, but I think it's pretty fun,
+[00:40:23] is here, we're using a mesh here.
+[00:40:26] But we can also use a mesh for the mission itself.
+[00:40:30] Very cool.
+[00:40:32] Basically, you can, like, oh, yeah, in shape, obviously.
+[00:40:35] In shape, we can give it, I'm not going to use this one.
+[00:40:39] Let's use this one.
+[00:40:41] And this one.
+[00:40:41] Instead of using just a sphere here,
+[00:40:43] I could say that I want a mesh.
+[00:40:45] And then here, I could give it a mesh.
+[00:40:48] And here, if I had a character, I can just give it a character.
+[00:40:51] So here, I'm going to give it a cube, for instance.
+[00:40:53] Now, my particles all spawn in this cube.
+[00:40:57] But I could give it any mesh that I want.
+[00:40:59] I could give it the cylinder.
+[00:41:00] And now, you can see they're spawning in the cylinder mesh.
+[00:41:04] If I give it this kind of weird mesh,
+[00:41:06] you see it spawns only in this end up.
+[00:41:08] So you could give it your character mesh
+[00:41:10] that you're having here.
+[00:41:15] And then that will already help you with this.
+[00:41:18] Then the second thing that's really annoying
+[00:41:20] is those tendrils, especially tendrils that have to go from down here.
+[00:41:27] Tendrils that go from down here.
+[00:41:30] Yellow is already down here.
+[00:41:34] They come up here.
+[00:41:35] That's super annoying, because it has to connect here and here.
+[00:41:38] You have very little control over something
+[00:41:39] that can connect here and here.
+[00:41:40] There are some ways to do it, but they're all either very technical,
+[00:41:43] as in you need someone to actually write some code for you for this to work,
+[00:41:47] generate some meshes on the fly.
+[00:41:49] They're going to basically say, here's a packet of vertices.
+[00:41:52] And we're going to create some vertices here, here, here, here, here, and here,
+[00:41:55] with those normals and this way to do it in order for it to look good.
+[00:41:58] That's kind of a technique that works,
+[00:42:00] but it's also kind of expensive and also a bit buggy,
+[00:42:05] especially if the character is going to move around all the time.
+[00:42:07] It's possible.
+[00:42:09] It's annoying.
+[00:42:10] So if you don't have the support, the technical support or the technical know-how,
+[00:42:15] it's really hard to make.
+[00:42:16] So how would you make this?
+[00:42:18] You would try and cheat on everything that you can.
+[00:42:22] If this is a 2D game, like let's say this is a 2D platformer
+[00:42:25] and this is your character, then it becomes way simpler, right?
+[00:42:28] You just take the silhouette of your character here, OK,
+[00:42:30] or the sprite of your character, OK, and then you say, OK,
+[00:42:35] on the sprite of my character, I am going to make a flip button
+[00:42:39] that just does this little vertical noodle arc,
+[00:42:43] lightning instance, and then you just spawn it randomly on top of it.
+[00:42:47] Bettermore, what is usually done, because the character might be very animated
+[00:42:52] in that case, you can't anticipate where the things will spawn.
+[00:42:55] What is usually done is that you're going to have a socket on the character.
+[00:42:58] So you're going to have points on the character that are decided on the bones
+[00:43:04] so that every time the bones move, they're always there.
+[00:43:06] Then you're going to attach an effect.
+[00:43:09] So you're going to attach an effect to each one of those sockets, OK?
+[00:43:12] And so here I'm going to spawn this little squiggly line here.
+[00:43:15] It comes out, and so I can control when it's going to spawn and how it's going to spawn.
+[00:43:19] Because I can also say, spawn it only when my character goes into idle pose,
+[00:43:24] for instance, so that it doesn't move around and it doesn't have everything.
+[00:43:28] At the end of the day, if you want little ribbons like that that spawn dynamically
+[00:43:32] and that spawn for every animation that the character has, this is an animator.
+[00:43:36] It's not your job.
+[00:43:37] Or it's like a technical artist's job.
+[00:43:38] But it's a very, very simple job.
+[00:43:39] It's very complicated.
+[00:43:40] So yeah, I wouldn't try too much to go deep into that.
+[00:43:45] If it's in 2D, it's significantly simpler.
+[00:43:48] If it's in 3D, it's quite harder.
+[00:43:51] Another thing to see, those parts at the bottom are significantly simpler
+[00:43:55] because you always have the ground to clip through and to kind of do all of your stuff with it.
+[00:44:01] You can just add some extra stuff to the ground.
+[00:44:03] It's like a shadow.
+[00:44:04] It's totally feasible.
+[00:44:06] You can have those little lightning arcs.
+[00:44:08] You can have yellow lightning arcs that go around it.
+[00:44:10] That's super easy.
+[00:44:11] So what you could do is that you could just attach an event to the feet of the character.
+[00:44:17] So every time they step, you spawn some of them around the feet.
+[00:44:23] And then on top of that, you just say, wherever the collider of my character goes on the ground,
+[00:44:30] we spawn a trail of effects.
+[00:44:32] To do that, the best way to do it is a part of the effects called,
+[00:44:37] the effects called spawn over distance.
+[00:44:41] That's really fun to use.
+[00:44:43] I highly recommend it because it's extremely fun.
+[00:44:47] So what you would do, what would you be doing?
+[00:44:50] Sphere this.
+[00:44:52] So what we do is that instead of having all these, let's say I'm going to take only this one.
+[00:44:58] This one, instead of having 20 here, we're going to put 20 here.
+[00:45:02] And then now when I move it, it's like I spawn lots of them.
+[00:45:06] And then when I stop moving it, they disappear.
+[00:45:09] That's super fun to do.
+[00:45:11] It's even more fun when we're spawning them in world space because then we can do,
+[00:45:18] and that's obviously the most fun thing to do, right?
+[00:45:21] Just paint around things until they all work out.
+[00:45:24] So that's a really good technique if you want to have something that's a bit dynamic.
+[00:45:29] Very often, if you want things to work with a moving character,
+[00:45:34] you want to have a combination of things.
+[00:45:36] So you want to have a combination of stuff that is left behind.
+[00:45:39] So exactly like what I showed just here.
+[00:45:42] If I knew how to click.
+[00:45:44] Like that.
+[00:45:45] So your character moves and just spawns some bubbles.
+[00:45:48] What you would usually have is that you would have like 20 here and actually 20 here.
+[00:45:52] So it spawns like that.
+[00:45:53] But when you move, you spawn extra particles so that it feels fluid.
+[00:45:57] And the more you move, the more particles you spawn.
+[00:45:59] That means that because if I remove this for the demonstration,
+[00:46:03] when I move now,
+[00:46:04] I have one poor particle in the middle.
+[00:46:06] Right?
+[00:46:07] It just feels super lame, right?
+[00:46:09] It doesn't work.
+[00:46:10] So you add extra spawns here.
+[00:46:12] That's the most common thing.
+[00:46:13] You add like another extra spawn, which means that it looks good like that.
+[00:46:16] And when you move, it kind of keeps the consistency.
+[00:46:19] So that's very, very common for missiles, for lots of stuff, but mostly for character effects.
+[00:46:24] All right.
+[00:46:25] And then you want to combine this.
+[00:46:27] I would almost duplicate this and say, OK, I want the second one.
+[00:46:32] Parent it just for the example.
+[00:46:34] And this one, I want it to be.
+[00:46:36] And then I want it to be in local space.
+[00:46:41] You usually want to kind of combine both.
+[00:46:43] So that not necessarily exactly the same thing.
+[00:46:46] But that way, when you move them around, there's always something at the end.
+[00:46:51] It's not obvious.
+[00:46:53] But now, you can see that actually the edge looks always like really clean.
+[00:46:58] There's always something at the edge of it here.
+[00:47:01] Whereas, if you remove, I don't know, perhaps I didn't.
+[00:47:06] Yeah.
+[00:47:07] You can see that there's always something at the edge.
+[00:47:09] It still feels like we're moving our little thing.
+[00:47:11] Whereas otherwise, usually what you want to do is that this one, you want to make it smaller and a bit thicker.
+[00:47:16] Or you want it to make, you can just use actually like one of those.
+[00:47:20] That's the best way to do it.
+[00:47:23] OK.
+[00:47:24] This, this, we can remove that one.
+[00:47:26] We can replay.
+[00:47:27] So play.
+[00:47:30] No work key.
+[00:47:31] Oh, because it's not 0, 0, 0.
+[00:47:34] Excellent.
+[00:47:35] OK.
+[00:47:36] So now, this is the most common thing you might want to do.
+[00:47:39] You're going to put a sprite sheet that is fixed.
+[00:47:42] So this one is just this little orb here that's fixed, that's not moving.
+[00:47:46] It's in local space.
+[00:47:48] So when you move it around, it just moves exactly how you want.
+[00:47:52] And then you're going to have those that spawn behind it.
+[00:47:54] And so now, what happens if we move it back is that it really looks like we're moving a little ball that has this really cool little trail that goes around it.
+[00:48:04] I think that's the best way to do those.
+[00:48:05] So when you're doing those, always try to keep one part that are attached to the character that are actually moving exactly with the source and one part that is trailing behind.
+[00:48:15] Don't do everything trailing behind and don't do everything attached to the character.
+[00:48:20] Even if it forces you to add extra sparks that you didn't think about just so that they're trailing behind.
+[00:48:25] And even if it forces you to add extra glows that are attached to the character, even if you think that everything should be trailing behind.
+[00:48:32] Does that answer your question?
+[00:48:33] Yeah, yeah.
+[00:48:34] Nice.
+[00:48:35] Thank you very much.
+[00:48:36] That was really cool.
+[00:48:37] Yeah.
+[00:48:38] So the cheapest solution to that effect in 3D would be just to make, like what you were saying, have it attached to the character mesh, almost like an aura, and then have the ground one where it's kind of like faking the effect of like it's coming from the character?
+[00:48:57] Yeah.
+[00:48:58] Is my question okay?
+[00:49:00] That makes sense.
+[00:49:01] Yeah.
+[00:49:02] Yeah, exactly.
+[00:49:03] Yeah.
+[00:49:04] So this is really hard to do.
+[00:49:05] Just the tendrils at the top are really hard to do.
+[00:49:08] The little sparks are easy.
+[00:49:09] The little tendrils here are tough.
+[00:49:10] In general, every time you see tendrils like that, you can already tell yourself, okay, this is not easy.
+[00:49:15] Anything that goes and connects and touches back is really annoying to make.
+[00:49:19] You usually need special tech to do it.
+[00:49:21] It's possible, but it's annoying.
+[00:49:23] Yeah.
+[00:49:24] All right.
+[00:49:26] So what else do we have?
+[00:49:31] Random seed versus...
+[00:49:32] Yeah.
+[00:49:33] Random seed versus seeded effect.
+[00:49:34] Okay.
+[00:49:35] So let's say that I want...
+[00:49:40] I'm going to take back little tendrils that are here because I like them.
+[00:49:46] All right.
+[00:49:47] And I'm going to say that I want them to actually not be random rotation.
+[00:49:51] I'm going to say...
+[00:49:53] So for now, they're all coming from the same direction every time.
+[00:49:56] They're coming from that direction.
+[00:49:57] And they're kind of always the same.
+[00:49:58] So I'm going to try and give them...
+[00:49:59] I want them to come vertically, like a ball.
+[00:50:00] So I'm going to say that they're coming from the same direction every time.
+[00:50:01] They're coming from that direction every time.
+[00:50:02] They're coming from that direction every time.
+[00:50:03] So I'm going to do a random rotation.
+[00:50:04] I'm going to say, okay, I want you to come vertically.
+[00:50:05] That's not going to help me.
+[00:50:06] Okay.
+[00:50:07] Last one, probably.
+[00:50:08] Yeah.
+[00:50:09] Spin.
+[00:50:10] How does this look like?
+[00:50:11] Look like this.
+[00:50:12] Yeah, that works.
+[00:50:13] Okay.
+[00:50:14] There's this little cyclone.
+[00:50:15] So everything else...
+[00:50:16] This one, I'm going to keep it 225.
+[00:50:17] And the other ones, I'm going to put that...
+[00:50:18] Oh, that's not going to work.
+[00:50:19] Okay.
+[00:50:20] So I'm going to put that in the middle.
+[00:50:21] And then I'm going to put that in the middle.
+[00:50:22] Okay.
+[00:50:23] So that's the first one.
+[00:50:24] Okay.
+[00:50:25] So I'm going to put that in the middle.
+[00:50:26] It's like clone, so everything else, this one I'm going to keep it 225 and the other
+[00:50:30] ones I'm going to put that 360.
+[00:50:32] 225.
+[00:50:34] So this creates, no, it doesn't quite work because I think one of them I need to not
+[00:50:39] use.
+[00:50:40] Yeah, perfect.
+[00:50:41] All right.
+[00:50:42] So this creates this little thing.
+[00:50:43] Apart from my visual glitch, they're all coming from the top.
+[00:50:46] I'm really happy with that.
+[00:50:47] I love it.
+[00:50:48] I want also this to be like the Y, I think should be the one, to be 100 to 20.
+[00:50:56] Excellent. And now I have, apart from the glitch, which is annoying, but I will ignore it for now.
+[00:51:01] I know why it's there, but I know how to fix it.
+[00:51:07] Fine, I'll fix it.
+[00:51:10] Split.
+[00:51:15] Apply.
+[00:51:16] So here, I want to add one.
+[00:51:24] Minus one.
+[00:51:25] Does that work?
+[00:51:30] No.
+[00:51:35] Didn't do it just now.
+[00:51:37] No.
+[00:51:38] Oh, I mean, that was one minus.
+[00:51:40] One minus.
+[00:51:42] Multiply both.
+[00:51:44] Okay, so I have a little chunk like that.
+[00:51:47] And then I want to...
+[00:51:50] Yeah, no.
+[00:51:53] I need to do that.
+[00:51:54] So...
+[00:51:55] Multiply by four.
+[00:51:57] I did four, right?
+[00:51:59] Yeah, four.
+[00:52:00] Five by four.
+[00:52:02] This needs to be...
+[00:52:02] No.
+[00:52:07] This needs to be...
+[00:52:11] Yes, perfect.
+[00:52:13] Then we multiply both.
+[00:52:16] Okay.
+[00:52:17] And so I made a mask.
+[00:52:18] What you can do is that you can just paint the mask too.
+[00:52:20] And then here, this...
+[00:52:23] I'm going to multiply by like...
+[00:52:25] Four.
+[00:52:26] Four.
+[00:52:27] That way, I still have like something that's strong.
+[00:52:28] Saturated, obviously, to keep it clean.
+[00:52:31] And then we just multiply this with our friend.
+[00:52:33] And we make sure that this one follows exactly the other one.
+[00:52:39] So we say that here on all this, every time we want to have also this.
+[00:52:48] So this is the same one as this.
+[00:52:50] So we can just use exactly the same UVs here.
+[00:52:52] But we need to use...
+[00:52:53] This.
+[00:52:55] We need to use the split here.
+[00:52:56] And then we need to remove this one, so bypass it.
+[00:52:57] Tada.
+[00:52:58] Cool.
+[00:52:59] So this should still work exactly the same.
+[00:53:00] And now we don't have the bug anymore.
+[00:53:01] Feels way better.
+[00:53:02] Okay.
+[00:53:03] So I made a mask that looks like this using the UVs.
+[00:53:04] So as a reminder, the UVs, what they look like is basically like...
+[00:53:05] Show like...
+[00:53:06] Why if I show just like what they look like.
+[00:53:07] Those are just like the same.
+[00:53:08] So I'm not going to change them.
+[00:53:09] I'm going to change the size of those ones.
+[00:53:10] You can see that I'm going to change the size of the UVs.
+[00:53:11] I'm going to change the size of the mask.
+[00:53:12] I'm going to change the size of the mask.
+[00:53:13] So, you can see that I just changed the size of the mask.
+[00:53:14] So as a reminder, the UVs, what they look like is basically like,
+[00:53:21] why if I show just like what they look like, those initially, the UVs, they,
+[00:53:29] as a reminder, the UVs, what they look like is basically just a gradient from zero to one
+[00:53:34] on one side, and then the other UVs, they, the gradient between zero to one on the other side.
+[00:53:39] So in order to map a texture, when I give it the texture, like I give it
+[00:53:42] like this particle texture, for instance, it says it maps it from zero at the bottom left
+[00:53:50] to one and then zero to one and then one, one. So that's how that works. And so you can just
+[00:53:56] use that to have a free gradient texture that goes from zero to one. And then you can use that to do
+[00:54:02] like any form of masks that you would want. Just don't forget to saturate otherwise you'll get
+[00:54:07] some bugs. All right. So I managed to fix it mostly.
+[00:54:11] So,
+[00:54:12] so,
+[00:54:12] okay. So here we're having this, but we're really happy with it. But the main problem is that this
+[00:54:17] is super random, right? We're having so much random stuff going around. We don't quite know,
+[00:54:21] like, like it could come really far or really close basically for this. And we might want that,
+[00:54:27] but this randomness adds like a lot of it. If we wanted this part here to have like a really
+[00:54:32] strong, like striking look, we can't quite do that. If we want them to always come in the shape
+[00:54:36] of a heart, for instance, we can't really do that. Apart from like modifying the shape,
+[00:54:39] we want them to come. So there's a few things that we can do.
+[00:54:42] The first one is that we can just come here and in Unity and in Unreal, there is a random seed.
+[00:54:48] And then you can click here and then you can say you want a random seed. And so I've got,
+[00:54:52] I want to wrap, like, let's say I like this seed. You can go through seeds until you find one that
+[00:54:57] you like, and then it will always do exactly the same. So in order to illustrate this,
+[00:55:00] what we're going to do is that random, rather than doing 10 there, we're going to do a hundred,
+[00:55:05] like 10 in one go like that. So they, here, they will always come there.
+[00:55:09] There's going to be the first one. And then the second one, the second wave.
+[00:55:11] There. Okay. They're always doing the same thing. Zoom, zoom, zoom, zoom. If I go back to like just
+[00:55:18] one, despite the randomness, it will always come from that side. It will always be that one. It
+[00:55:23] will always be exactly like that. So if I give it any random seed, I do reseed for instance,
+[00:55:28] and I'll get another one. That's different. That one comes fast. This one comes from the side.
+[00:55:33] I might get one from the other side there. Yeah. Of note, like this is not repeating.
+[00:55:40] So the next particle will come differently.
+[00:55:41] And the next one will come differently, but they'll always, if I press restart,
+[00:55:44] they will always do the same. All right. So that's the advantage of like, so that's how you
+[00:55:49] get it seeded. All right. So what's the advantage of seeded? Well, the advantage of seeded is if I
+[00:55:53] come in and I have a lot of randomness. So let's say I have like, I have a 30 pieces and they all
+[00:56:00] come in kind of like a random pattern. Let's say I also, what happens too is that you also get a
+[00:56:05] random delay. So that means that it starts like this between zero and 0.2. So
+[00:56:11] you get them to like come in like a little, like a little miss out with some of them starting a bit
+[00:56:16] later. Okay. And so here you might have some frames that you really want to control, right?
+[00:56:22] Like those ones like here, where you really want to make sure that you have something that looks
+[00:56:26] good here. And so here, this is a moment where you can just come in with your frames and just reset
+[00:56:31] it until you find one. So you can just play, play, play, play until you find like, let's say that
+[00:56:35] this one I like a lot. So you can just because it finishes like in a sort of twist, for instance,
+[00:56:39] let's say they don't have you with that one. So I can just
+[00:56:41] without another thing. So you just like scroll until you find the part that you like, you can
+[00:56:46] just play around with the random seed. You can also, if that works particularly well, if you
+[00:56:51] have like, let's say I want like minus 20 to 20, for instance, or minus 50 to. So here I have even
+[00:57:01] more randomness and this is the moment where having like, when you have this and you start
+[00:57:05] being able to control random seed until you have one, like, let's say you have like, you know,
+[00:57:10] this one, this one is particular.
+[00:57:11] Really bad. It comes from the sides. It's not exactly what I want. I want this to be more
+[00:57:15] vertical, but I still want the randomness. I still want something that looks good. So what you can do
+[00:57:19] is just like get the random seed until you, you get one that's a bit more vertical. So this one
+[00:57:23] has a lot of vertical places. So you just look at it and you're like, oh, actually those, those parts
+[00:57:27] that are coming directly from the top are nice. That's using the random seed. All right. The third
+[00:57:33] way to do this is I'm going to completely remove this. Third way to do this is to just make a
+[00:57:38] particle system.
+[00:57:41] I'm going to do exactly the same thing as before. So I'm going to do a mesh. I say that this mesh
+[00:57:47] is using this. We're going to use exactly the same material because lazy and it was,
+[00:57:53] it was a pretty good material. I don't need it. I could have used exactly the same thing.
+[00:58:01] Ah, yeah. I did use mesh. Yeah. Break mesh.
+[00:58:07] Uh, the core.
+[00:58:11] No. Oh yeah. Because I need to do all this stuff. Yeah. I could have just duplicated it.
+[00:58:18] Perhaps, perhaps, perhaps I could have, uh, I didn't do this. So it's not working.
+[00:58:28] It was like minus 4.5, something like that.
+[00:58:36] Why not?
+[00:58:40] Why? Why are you not having?
+[00:58:41] What are we? What is this?
+[00:58:46] Uh, of course. Okay. Five is, five is decent. We can work with that.
+[00:58:51] Okay. We have this. Cool. Why is it so off center?
+[00:59:00] It works before. Why, why no work key?
+[00:59:04] Hmm.
+[00:59:05] Anyway, you had to move the pivot on the other one, but I don't, I didn't,
+[00:59:13] but that sounds like a lot of moving pivots, but yeah, it's okay. I'll do it.
+[00:59:21] It wants me to move the pivot down with the good.
+[00:59:25] Okay. That's how I'm happy with that. Um, oh, I know why this is weird. It's also because this
+[00:59:33] is supposed to be lower. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah.
+[00:59:35] Yeah. Cool. Okay. And then, so let's say that this is the first thing I'm doing
+[00:59:39] and I wanted to make sure that this is let's say in the four in a specific shape in the form of a
+[00:59:44] heart or whatever. So what I'm going to do is that here, rather than doing this, I'm going to say
+[00:59:48] random rotations here and I'm going to put no randoms at all. I'm just going to say this one,
+[00:59:52] I want it to be, um, like, uh, what usually what I do is actually, I just take it
+[00:59:59] in directly in the engine here. And I just say, okay, I actually want that to be this.
+[01:00:05] Um, I want it to go there. So it has this little, this little swirl at the end. Okay. And so
+[01:00:12] at the start, sorry, starts there. So I wanted to connect there. Okay. So I'm going to say, okay,
+[01:00:18] I like this one. So let's do, I'm going to duplicate that effect. I'm going to say the
+[01:00:21] second one. I want it to be, uh, kind of like that way in a bit turned here. So that way my
+[01:00:28] frame is pretty good. Okay. And, um, yeah, I want it to be slightly higher. So we're going to say,
+[01:00:35] okay, like here when it falls, I want it to fall in the shape of a heart slightly.
+[01:00:39] So like, kind of like that, and then that way you get this effect where you can, you can really
+[01:00:45] control the result that you're getting here. So here, since I'm working with like this too,
+[01:00:50] what I can do is that I can say now those, I want to connect, start connecting at the start of them.
+[01:00:54] So to do that, I can start rotating my effects too. Since I know that they're all going to connect
+[01:01:00] exactly in the same spot. I can do that for this one and this one, I can do this for that one.
+[01:01:05] And I can be like, yay. And now they don't quite connect in the shape of a heart, but
+[01:01:09] you see the idea. I think it was better when they were just like that.
+[01:01:16] Yeah. So here, what I can do too, is if I like this, I can be like, okay, actually the size
+[01:01:22] over lifetime, the size I want it to be like right now I had 30, 30, 30, and this one,
+[01:01:28] actually I want it to be, uh, 50 in or 60 in size. So one of them is bigger than the other.
+[01:01:34] But it still has like the same, the shape that I want. Both of them, I want them to be slightly
+[01:01:39] higher. So the framing is better. So I'm going to put them up here and they go around this and
+[01:01:45] overall, perhaps they're a bit big, et cetera. And as, as you go, you can start playing around
+[01:01:48] with that. So this one, I'm going to pick up 20 for instance, and this one I'm going to put that
+[01:01:52] 20, 20, uh, 30, for instance, or something like that. 40. Okay. And then as we go,
+[01:02:01] as we continue, we can start playing around with that. I can say, okay, I like those, but I want to
+[01:02:04] an extra second, smaller heart in the middle. So what I'm going to do is that now I'm going to say
+[01:02:08] that, and then, uh, I am going to say, I want this delayed by 0.1. I want those to be, uh, 1.5 in
+[01:02:18] length. And then, uh, I want to be, uh, so already you see that they're, they're offsets. They don't
+[01:02:26] do exactly the same thing. I could, I could want them to all finish around the same space, the same
+[01:02:30] place, for instance. And so if I'm giving a 0.2 delay, I want to get a 0.2 delay. So I'm going
+[01:02:34] to say that I want this delayed by 0.1. I want those to be, uh, 1.5 in length. And then, uh, I want
+[01:02:34] to give them a 1.8 lifetime so that they all finish exactly in the same spot. So I can go a
+[01:02:40] bit more drastic on that. I think I can be like, I'm going to give them a size of like 10, for
+[01:02:45] instance, and then I want them to finish all at the same spot. So here they're going to do,
+[01:02:50] they all finished there. So I can be more drastic on the timeline. So 0.5 and 1.2. So I'm, uh,
+[01:02:59] so here we have like all of them finishing at the same time. And I could decide that I wanted to do
+[01:03:04] that like three times, for instance. So here they're all like physically, so I can say those,
+[01:03:09] actually, I want to rotate them slightly. And then I'm going to duplicate all this once again.
+[01:03:14] And I'm going to say, actually, I want this to be rotated 45 degrees slightly. And then suddenly you
+[01:03:19] have something that's really calculated that is, will always look exactly the same. And that does
+[01:03:24] exactly what you want from every angle. Obviously this is an example, but you'll see a lot of those
+[01:03:29] structures where there's like one particle system that's going to be duplicated many times. And then
+[01:03:33] you can just go in and just do that. And then you can just go in and just do that. And then you can
+[01:03:34] adjust them every time. So this one, I want it to be one and one. Those ones I want it to be, um,
+[01:03:41] like, uh, 2.1 length so that they just finished just slightly late, for instance. And, uh, yeah,
+[01:03:48] as you go, you can start getting like those really cool kind of effects that come in, come in and out.
+[01:03:53] Um, and then you can just pick them up all and move them around if you prefer having them slightly
+[01:03:58] under, or if they're too big or too slow. I think if you scale them down here, no, not work here.
+[01:04:04] Well, perhaps it will. Yeah. It does work. So if you want to scale them up and down too,
+[01:04:10] it shouldn't inherit everything. And so you should be able to just like
+[01:04:13] scale them until you have exactly the right, the right size and everything that you wanted.
+[01:04:18] All right. So that's, that's a really cool technique to, to do to get exactly the result
+[01:04:22] that you want. So for instance, on the Volibear alt on the Volibear E what you do is that you set
+[01:04:27] up all the lightnings and everything so that it looks exactly the way you want every time,
+[01:04:31] all the time. Sounds good. Okay. So that's it. I think that's it. So if you have any questions,
+[01:04:33] I'll just leave it in the comments. And, uh, I'll see you in the next session. Bye.
+[01:04:33] Sounds good. Obviously what you can do is you can just say, Hey, on top of this,
+[01:04:40] I actually want some random ones to come in at the same time. Like you can actually say
+[01:04:44] that you can have this and also like one of them that's like,
+[01:04:49] actually like this one is going to be like a, a, like an emission that doesn't have a start
+[01:04:56] and says that it's like a random between all the values that you said.
+[01:04:59] Okay.
+[01:05:00] Okay.
+[01:05:00] Okay.
+[01:05:01] Okay.
+[01:05:01] Okay.
+[01:05:01] Okay.
+[01:05:02] Okay.
+[01:05:02] Okay.
+[01:05:02] Okay.
+[01:05:02] Okay.
+[01:05:03] Okay.
+[01:05:03] Okay.
+[01:05:03] Okay.
+[01:05:03] Okay.
+[01:05:03] Okay.
+[01:05:03] Okay.
+[01:05:03] Okay.
+[01:05:04] Yeah.
+[01:05:04] Okay.
+[01:05:05] Okay.
+[01:05:06] Okay.
+[01:05:06] So think about any three.
+[01:05:07] So it's different, we know we have it goes way down and we're going to have some issues
+[01:05:11] with that, but it should, it should be okay.
+[01:05:13] Otherwise let's let's give it no delays of lifetime, two at random between like 20 and,
+[01:05:23] and then we say that it has rotation constant three 60.
+[01:05:30] For instance.
+[01:05:31] Perhaps not that one.
+[01:05:34] Yeah, you see that there's those extras that are coming in.
+[01:05:37] While you keep frame there.
+[01:05:39] So perhaps those, they would need to be tamer.
+[01:05:41] So we would say, actually, I want them to be kind of like,
+[01:05:46] perhaps alpha, lower, so that they don't feel as present
+[01:05:51] than the ones that are actually important, et cetera.
+[01:05:53] That's a really common way to do things.
+[01:05:55] And it lets you craft your whole piece
+[01:05:58] wherever you want without really having anything interfering.
+[01:06:02] Sorry?
+[01:06:03] I hope that helped.
+[01:06:06] It did.
+[01:06:07] It definitely helped.
+[01:06:08] Awesome.
+[01:06:09] All right.
+[01:06:11] The quad technique, we talked a lot about it.
+[01:06:15] So I tried to already explain the idea of you make a quad,
+[01:06:19] then you look around.
+[01:06:20] Obviously, it's not exactly around all the time.
+[01:06:22] You can see that there are some parts that are within 3D.
+[01:06:24] But overall, you just want to make the first quad,
+[01:06:27] and the second quad, and the third quad.
+[01:06:28] So that means that if we were to remove all of those,
+[01:06:32] and we just had this little orb, what you would want to do
+[01:06:35] is then add a second orb on top of it that's 0.5 size.
+[01:06:42] And that is, so the one in the back is a darker blue.
+[01:06:48] And then the one in the front is already,
+[01:06:50] you can see the effects of this.
+[01:06:51] And you get something that's way more vibrant.
+[01:06:53] And if you add that, this one, I'm
+[01:06:55] going to put some cyan, for instance.
+[01:06:57] It is the simplest way.
+[01:06:58] It's the easiest way to do it.
+[01:06:59] So already, you get a lot of color richness
+[01:07:01] by just doing that.
+[01:07:02] And you can just keep continuing and saying, actually, now, what
+[01:07:05] I want to do is create the pulsating one on top of this.
+[01:07:08] I'm going to add this one.
+[01:07:10] This one, I'm going to say that it's pulsating.
+[01:07:11] So pulsating means that you're going to just make it both.
+[01:07:17] Size over lifetime, we're going to get a bit of a void.
+[01:07:20] So we're going to say that it goes there.
+[01:07:22] This one goes here, there.
+[01:07:24] And we just keep going.
+[01:07:26] And this one will pulsate slightly.
+[01:07:27] It's quite subtle here.
+[01:07:28] So we're going to increase it a little bit,
+[01:07:30] that we have a little bit more.
+[01:07:32] And we're going to say that size, the start size,
+[01:07:34] is going to be between 0.5 and 1.5.
+[01:07:39] It's going to be a more middle ling blue.
+[01:07:43] And it's going to be behind the glow, the base glow.
+[01:07:46] So we're going to put it, this one is going to be 5.
+[01:07:48] And then the big glow will be 10.
+[01:07:53] So we have this big glow, the darker glow behind.
+[01:07:56] And then we have a glow that's pulsing there every time.
+[01:07:59] So already we can see the effects of it.
+[01:08:01] What I recommend to do is every time you have something pulsing,
+[01:08:03] always give it percent opacity or something like that,
+[01:08:06] so that you have a bit of results there.
+[01:08:08] And then finally, on the mission, you
+[01:08:10] can actually do two or three pulsating at the same time.
+[01:08:13] The more you put, the more opacity you need to put.
+[01:08:16] But that will help a lot, because then you
+[01:08:18] can add some randomness to the lifetime.
+[01:08:21] So you can do them 0.5 to 2, for instance.
+[01:08:24] But some pulsations feel bigger or smaller.
+[01:08:26] And so here you have something that really feels like a candle
+[01:08:29] light or something.
+[01:08:30] I don't know if it's visible.
+[01:08:31] I can exaggerate it, I think.
+[01:08:34] Size 0.5 to 3.
+[01:08:42] Here you should be able to see it significantly more.
+[01:08:44] I can exaggerate the size motion.
+[01:08:47] Yeah, here you can see that it's really just pulsating a lot,
+[01:08:50] et cetera.
+[01:08:51] So then the third thing that you can do
+[01:08:53] is do exactly the same thing as what we have here.
+[01:08:56] But say, OK, we're going to do another one.
+[01:08:59] And then this one, we say that we actually
+[01:09:01] want a ripple kind of texture that goes out from it.
+[01:09:05] So we're going to find this ripple effect.
+[01:09:07] Do I have any form of ripples?
+[01:09:09] Not really.
+[01:09:10] That's fine.
+[01:09:11] That will do the trick.
+[01:09:12] Cool.
+[01:09:13] And we just take the ripple, and we should just
+[01:09:16] say that this is a single ripple that goes out.
+[01:09:18] We're going to put it in one of our lighter blues colors,
+[01:09:22] slightly there.
+[01:09:24] And we're going to say that it is
+[01:09:26] kind of soft in alpha 2, so that that doesn't take too much
+[01:09:30] space from our center.
+[01:09:32] So always before animating things,
+[01:09:33] try to make sure that they are well layered,
+[01:09:36] they're the right color.
+[01:09:37] So this one, for instance, I think it's too blue.
+[01:09:39] We can go a bit deeper.
+[01:09:41] That way we match a bit of our dark glow.
+[01:09:44] It supports the rest of it a bit better.
+[01:09:45] And we're going to put it on top of our pulsations, so at 6,
+[01:09:49] so that we can better see everything that we're doing.
+[01:09:53] And then here, what we're going to do is just say,
+[01:09:56] we're going to say size over lifetime.
+[01:09:59] And it just comes in.
+[01:10:00] So we can make it start a little bit bigger.
+[01:10:04] It scales in.
+[01:10:06] And we're going to say that it does like this.
+[01:10:09] So that way, it scales in, and then we're going to fade it out.
+[01:10:12] Cool.
+[01:10:13] Now we're going to do color over lifetime.
+[01:10:16] And here, we're going to say that we want it to fade out.
+[01:10:22] So it comes out, and then it disappears.
+[01:10:23] And then we can just have an emission that's
+[01:10:25] a random emission.
+[01:10:26] So we can just say that it's like 0.1, between 0 and 10,
+[01:10:28] for instance.
+[01:10:29] So we get this little ping in the void.
+[01:10:33] And we can just say that there's between 1 and 2 size.
+[01:10:37] So they're slightly different.
+[01:10:38] 2 is a bit much, but 1.5 is a pretty good one.
+[01:10:41] And I think in terms of emissions,
+[01:10:43] we can have a little bit more, so like 30 should work out.
+[01:10:49] Here, we can see that it has a lot of light.
+[01:10:52] And here, we have not spawned any particles other than single
+[01:10:55] over mesh that are just there, that are ready to like,
+[01:10:58] that you can put however you want there.
+[01:11:00] So I think that already kind of shows some of the benefits
+[01:11:03] of using this technique.
+[01:11:05] Obviously, you can use anything else that you'd want.
+[01:11:07] You can add, as we saw on the pickup effect,
+[01:11:10] you can add little particles, little sparkles around there.
+[01:11:12] You can add a sphere emitter to move it around.
+[01:11:16] There's a lot of stuff that you can do.
+[01:11:17] But as a starter, I think that's a good way to see this space.
+[01:11:22] It's like this little head of camera.
+[01:11:25] I'm going to go a bit closer.
+[01:11:26] But basically, yeah.
+[01:11:28] I think this is a good way to imagine this.
+[01:11:32] OK, so the way I understood it first,
+[01:11:34] because right now, you are actually duplicating
+[01:11:38] the particle effect itself.
+[01:11:41] So the way I understood it is like, because I saw the,
+[01:11:46] we discussed about the enemy explosion that you made,
+[01:11:50] like with just shaders.
+[01:11:52] And you mentioned it was just like quad,
+[01:11:55] like not the particle system, but you
+[01:11:57] use like an actual 3D object as quad.
+[01:12:02] And you just like run shaders on it, move in, or what was?
+[01:12:06] Yeah, I can do that.
+[01:12:08] I can show you that.
+[01:12:08] That's really fun.
+[01:12:09] OK, yeah, I understand what you mean.
+[01:12:11] So what I'm going to usually do is
+[01:12:12] I'm going to take two textures, two scrolling textures.
+[01:12:15] So I think those, they actually don't tile as much
+[01:12:17] as I would want to.
+[01:12:18] So I had some other ones.
+[01:12:21] Surely, I have a tiling texture in here that's like,
+[01:12:23] this one is tiling.
+[01:12:24] Tiling bubble.
+[01:12:25] Surely, they tile, right?
+[01:12:31] Check before I do stuff.
+[01:12:33] Yes, and yes, they tile.
+[01:12:37] Excellent.
+[01:12:38] OK, so I'm going to use those.
+[01:12:39] OK, so what I do, what my favorite way to do things
+[01:12:42] is to do a double tiling.
+[01:12:44] So basically what you do is a double sampling.
+[01:12:46] So basically what you do is that you do a vector too.
+[01:12:48] OK, this is going to be the moving for that one.
+[01:12:51] So I'm just going to plug in some time here.
+[01:12:53] I'm going to give it a multiply just
+[01:12:54] to be able to control it.
+[01:12:56] Time.
+[01:13:00] No, that's cosine.
+[01:13:02] All right, all right, we have the first one that's scrolling.
+[01:13:04] Cool.
+[01:13:05] I'm going to scroll it at one.
+[01:13:06] All right, then we're going to do what's
+[01:13:07] called the double sampling.
+[01:13:08] So basically, we're going to take,
+[01:13:10] you can take almost everything.
+[01:13:12] But I'm going to take everything here just for the example.
+[01:13:15] You just dump it there.
+[01:13:17] So what you usually want to do is that this one here,
+[01:13:20] that you want to kind of have it all feed from the same thing.
+[01:13:23] The UV stay.
+[01:13:23] Stay.
+[01:13:24] They are the same too.
+[01:13:25] So you could have it however you want.
+[01:13:27] For the example, those are exactly the same.
+[01:13:30] So we have this double sampling.
+[01:13:32] And so what you can do then, and then is just like say,
+[01:13:36] can multiply it so that you have a different scale.
+[01:13:38] So here I can say that actually I
+[01:13:40] want this one to be like a scale of like 1.2 and then 1.2.
+[01:13:44] Then the other one I want it to be a 1.1.
+[01:13:46] OK.
+[01:13:47] And then here, this, I'm getting the same speed.
+[01:13:52] So I'm going to .5.
+[01:13:53] Speed.
+[01:13:55] This, I'm going to have one of the scrolling
+[01:14:00] to be a speed of like 0.5 and one of the scrolling
+[01:14:04] to be a speed of 0.87, for instance,
+[01:14:07] so that they're not like a duplicate of each other.
+[01:14:10] And then here, I'm just going to take those two.
+[01:14:12] And I'm going to, let's say, .
+[01:14:17] A, B, 0.5.
+[01:14:22] And then here, I get like this sort of blend.
+[01:14:23] And then I'm just going to say, look,
+[01:14:25] they're already blended already, which
+[01:14:27] I can be pretty happy of.
+[01:14:28] And then here, what I can do is just
+[01:14:30] like multiply that with our base texture here.
+[01:14:34] And then say, call it a day.
+[01:14:36] All right.
+[01:14:36] I have a cool first thing with like some little lights
+[01:14:40] that are there.
+[01:14:41] And it adds some detail to it.
+[01:14:42] And that's fine.
+[01:14:43] You can say that.
+[01:14:45] We can go one step deeper.
+[01:14:46] So lerping and multiplying, mix it so that if you squint,
+[01:14:50] you can still see the details, right?
+[01:14:52] So what you want to do is you want to erase some, like,
+[01:14:53] sparse detail.
+[01:14:53] parts of it. So to do that you always want to use add and saturate. So if you add those two textures
+[01:14:59] together and then you set, so already you can see this is way more mesmerizing, and then you saturate
+[01:15:04] it. Obviously this is just for the example but it gives you those like little pieces that are
+[01:15:10] missing that can be way more interesting and already you can't see the patterns anymore. So here
+[01:15:15] we're using textures that are perhaps too strong. I don't think I have another tiling texture that's
+[01:15:19] like both sides of tiling that is also, I mean we're just scrolling it, quite matter. We could use
+[01:15:26] like a, this is not tiling, this is tiling. You could use this one, but you can use multiple tiling textures
+[01:15:32] so that way you get a different result every time. It's already here you can see that this is
+[01:15:36] quite like it has a bunch of stuff. I'm going to use twice the same one. I like using twice the same one.
+[01:15:43] I think it looks, it gives you better results. It was this one, it was this one but I need to
+[01:15:49] do one on this. So yeah already you see this is a bit more, it has a bit more
+[01:15:57] pattern to it. So here you already get some like really nice results here where you get this
+[01:16:02] really e-reduke. I think this, this, which one is it that's doing the pulsating?
+[01:16:13] One of them is doing the pulsating and I think it's not looking very good. This one.
+[01:16:19] Yeah that one. So I'm just going to disable it for now but basically you can see how like you can
+[01:16:24] already see the results of this by just keeping it there and using that kind of tech. So
+[01:16:30] you can play around, keep doing stuff, but double sampling is just a really good technique. You just
+[01:16:34] take a scrolling texture, you add the, you give them a slightly different in the speed that
+[01:16:39] they're going at and the scale that they are at and you just add them together and then you saturate
+[01:16:44] and then you multiply that by your your little dot and you get those really nice orbs like that.
+[01:16:49] Another thing that you can do that's really fun is on those rather than directly doing that
+[01:16:53] is to do a um spheroise.
+[01:17:01] Spheroise, what it does is that it pushes the texture a bit around.
+[01:17:04] I think I need to put it here. You can see already what it's doing there.
+[01:17:09] Uh to check because this is broken a little bit I think. I'm going to show you what it does anyway
+[01:17:16] and uh yeah. So yeah.
+[01:17:18] Spheroise is pretty good. I'm going to show you what it does anyway and uh yeah. So yeah. Spheroise is pretty good.
+[01:17:19] fun because it creates this like kind of like you see about sphere kind of thing so
+[01:17:25] strength like if I put like 50 in the strength and 50 here it really feels like you see how it
+[01:17:33] deforms it so that can be really fun because you create the illusion that this is a sphere
+[01:17:38] that you the illusion that this is like spherical that's really fun to do is it is it not yeah that
+[01:17:45] I was like that's a little okay cool this is going to be better already.
+[01:17:48] Yeah okay now it's now it's correct so here you can really create the illusion that this is like
+[01:17:53] just completely a sphere from from afar you really have the idea that this is like
+[01:17:58] just a sphere now so that can also be a really fun technique to use um what else is there there's a
+[01:18:05] bunch of ways to do things but double sample is the best the simplest way you can have you can
+[01:18:10] play with tons of stuff but double sampling plus a mask just works uh yeah does that answer your question?
+[01:18:18] Yeah a little bit so uh okay so this is interesting also well the question I had is that like so if you use an actual like if you um maybe if you can go back to the explosion uh example from uh that you have.
+[01:18:28] Yeah uh the explosion example which one you made lots of things so an example that I made before?
+[01:18:46] Yeah I made lots of things.
+[01:18:48] This one?
+[01:18:49] No no no no the the one from your portfolio the anime explosion.
+[01:18:53] The league one yeah the one that's on like the league uh.
+[01:18:56] Ah it's in the other project yeah of course of course I can open the other project.
+[01:19:00] I tried to revise some parts of it last time but it's not working very well yeah sure so yeah I'm
+[01:19:06] gonna open it it's gonna take a bit of time because it's in the previous topic so in in
+[01:19:11] the in the meantime if you have another question but yeah.
+[01:19:15] Oh what does the saturate node do?
+[01:19:18] The saturate what?
+[01:19:21] The saturate node uh that you were using after um.
+[01:19:23] Yeah it's called saturate you know?
+[01:19:28] This?
+[01:19:30] Yeah.
+[01:19:32] Where is it in Unreal?
+[01:19:35] Um no I just what does it do I maybe I.
+[01:19:37] This what does it do?
+[01:19:38] Yeah yeah of course of course of course what does it do it takes values that are from zero to uh
+[01:19:45] like from like any range and it puts them back from zero to one.
+[01:19:48] So basically it clamps from zero to one.
+[01:19:49] Oh okay.
+[01:19:50] It says everything that's under zero becomes zero everything that's above one.
+[01:19:54] So if I didn't have this I would get either some artifacts or I would get some extra like weird
+[01:19:59] stuff so here uh it's pretty okay because those those don't add too much but in the center you
+[01:20:06] have stuff that's a bit stronger so if you look slightly in the center here you can see that this
+[01:20:09] is a bit stronger than what you have here like this is a bit more faded.
+[01:20:13] Yeah okay that makes sense.
+[01:20:14] That one is a bit stronger but it's very subtle here but you would get a lot more bugs if you.
+[01:20:18] Were not sometimes you want to keep things unsaturated for instance for this next example
+[01:20:23] if I do this and instead of what I'm doing here I want to
+[01:20:33] use this one because I haven't prepared and because I knew already what I want showcased out
+[01:20:41] and then say the dots and I want to
+[01:20:45] so it's basically the same as this this dot here
+[01:20:48] does exactly what we're doing here which is it does a dot like this okay so if you're on a quad
+[01:20:54] it does literally exactly the same thing as what we have here but the values around it are negative
+[01:20:58] and so what we can do is that we can say okay I want to actually add to this my thing that
+[01:21:04] I that is here and then dump it back into my alpha here I need to adjust some stuff
+[01:21:13] but you can see how the kind of results that we can get that's like even more fun.
+[01:21:18] And
+[01:21:20] all right so you guys can
+[01:21:28] get it so we're rote if you don't though.
+[01:21:31] Plus.
+[01:21:38] And.
+[01:21:39] Oh yeah.
+[01:21:42] And so here we're getting lots of artifacts because it is saturated.
+[01:21:45] Ta da.
+[01:21:46] OK.
+[01:21:47] And here you get this like really awesome effect with like lots of stuff around it because we're just after like getting all those details, obviously I think that this is a too much sample from a very complex community like Twitter and everybody really want to make it that very much bigger.
+[01:21:47] I don't want to do it but I've gotten into hell here I don't want to do it but I obvious to know that the thing is that you get a just like政治ka you've got all of these things within a matter of time.
+[01:21:47] hypert decoration.
+[01:21:48] much. So instead of having that, you would probably want to have it a bit stronger.
+[01:21:55] And already you can see the kind of really cool effects we're getting here.
+[01:21:59] And then we just bring it back up a little bit so that it keeps its sphere form.
+[01:22:04] And what that does is that it makes us keep the overall shape of the thing we're doing,
+[01:22:08] while also getting the details in, not having a hard edge around it.
+[01:22:15] So yeah, I would say that that's another really fun way of doing things. And that looks extremely
+[01:22:21] 3D. You could totally argue that this is just a 3D object if you were looking at it and you
+[01:22:26] were not quite sure. So adding, when you do an add instead of a multiply, you get this kind of
+[01:22:38] faded edges. With the add, you get those really sharper edges and those shapes that are really
+[01:22:43] more present.
+[01:22:45] But so yeah, they have their positives and negatives.
+[01:22:49] To do this shape, I'll show you, I have a little shader. You want to use polar coordinates. So
+[01:22:56] polar coordinates, UVs, they put them into polar. So what that does is the following.
+[01:23:03] If I do polar coordinates and I give it a texture, sample texture 2D.
+[01:23:15] That's fine.
+[01:23:20] I give it any texture. Let's say for instance, this ring. You can see that the polar coordinates
+[01:23:24] are going to block it like that. They're going to try and put it in a round. So that means that if
+[01:23:28] I give it not something that's centered, but just my little whirls like that, they're going to put
+[01:23:33] it into a spiral. Okay. This polar coordinates makes spirals. It's pretty simple. So what we're
+[01:23:40] doing here is that we're doing polar coordinates. We're taking only...
+[01:23:43] What do I do?
+[01:23:45] Those UVs. Oh yeah, because I need to be like that. What they're afraid to look like. So we're
+[01:23:49] doing polar coordinates and when we're splitting it to get only this, only the R. And there you
+[01:23:55] get immediately a dot. So that's really useful technique. If you want to use it for yourself,
+[01:23:59] just take your UVs, take your polar coordinates, split them and just get a one minus them. And
+[01:24:05] you'll immediately get the perfect dot that has negative values at the edges. All right.
+[01:24:10] And then everything else that's in here is just stuff to adjust it. So to add,
+[01:24:15] to multiply, do stuff like that. You can completely ignore the top part here because
+[01:24:20] this is to make beams. So it's to make this, to make those shapes like this. All right.
+[01:24:30] So those you can completely ignore. We don't care about them. The only thing that... It looks
+[01:24:33] complicated, but actually the only thing we're doing here is we are making the dots that we saw
+[01:24:39] there. So I can show it dot that is here. So just the only thing you need is...
+[01:24:45] So UV polar coordinates, take the R value only, then one minus add and multiply. The add is
+[01:24:53] obviously to modify it. So when I add it, it becomes smaller and bigger. Okay. And then when
+[01:25:02] I multiply it, as you can guess, it becomes stronger. So the faded edges becomes stronger
+[01:25:08] or like obviously like less, but it's mostly to make it stronger. So you just want to use it. So
+[01:25:15] the size, the other one gets you that. So you can just adjust it. If then I take a texture,
+[01:25:22] any texture, any texture I want at all, like those bubbles, for instance, and then I add this to that
+[01:25:29] together, I will always be able to just say, okay, now I'm going to multiply it. So the shape becomes
+[01:25:34] stronger. And then I'm always going to be able to add to this to be like, okay, I want it to be
+[01:25:38] smaller or bigger. Very good technique. It's very easy to use. And you can put literally any texture
+[01:25:43] in this, and this will work. You can do it. You can do it. You can do it. You can do it. You can
+[01:25:45] put like absolutely anything. Some clouds, some extra stuff, and it will just blend it together.
+[01:25:51] It works particularly well with like some textures like that, but it works for everything. All right.
+[01:26:00] Sounds good. If you make, sorry. Yeah. Tell me. I was going to say, if you make like a complex
+[01:26:05] shader, do you ever like have it like, oh, I made this really complex shader and you'll reuse that
+[01:26:13] shader, but plug in different textures for different layers? Yeah. I think it's really,
+[01:26:14] it's a really good question. I think it's really, really good question. I think it's really,
+[01:26:15] it's a really good question. I think it's really, it's really, it's a really good question.
+[01:26:15] I think it's really, it's a really good question. It's a really good question.
+[01:26:16] Or will you reuse textures that you've made and like transform them in a way that calls for an
+[01:26:21] effect or, you know, meshes? Do you basically, do you ever reuse assets to transform it into a
+[01:26:27] different effect? And at work? Yes. All the time. Absolutely. All the time. I have like a,
+[01:26:33] called a heat bullet that I use all the time. That's using some effects like that,
+[01:26:38] but they're using a 3d noise, for instance, that's like layered on the world space. And so,
+[01:26:44] it lets me do like little bullets that are everywhere all the time that I don't have to
+[01:26:48] adjust fast. And so, I can just use it everywhere. That shader, I use it for almost all the effects.
+[01:26:53] The actual thing that I do the most is I take like, let's say I like this, for instance,
+[01:26:58] I take this, I take this effect here that I have. I like this shader that I made here.
+[01:27:03] So, what I'll do is I'll just say, okay, I'll take this. I'll just control C, control V into
+[01:27:09] my other shader that I'm working on. And I'll put it there. And I'll use those little snippets
+[01:27:13] of stuff that I made.
+[01:27:14] To like copy and paste them wherever I want. That's way more common than actually reusing a
+[01:27:19] full shader. Although it's not that crazy. Like I think it's totally feasible to just say, I'm going
+[01:27:23] to reuse. So yeah, that's, that's where I have a question. Sure. I have a question about this, like,
+[01:27:31] like a technical question because I understand shaders. So that's like this example of like polar
+[01:27:37] coordinates is kind of like a function. So is there, I assume there is probably like, is there
+[01:27:43] like a way to combine them into a shader? Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah.
+[01:27:44] Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. I'm going to find them into like a custom function where you can just call it every time you use a new shader. I don't know if that's possible on Shader Graph.
+[01:27:54] But this is a shader function basically. So what this does is that those are the entries here.
+[01:28:02] And then this is the other entries that are here. And then this is the output that I'm giving it.
+[01:28:06] And so if you look back at the one we were modifying.
+[01:28:12] Yeah. Here, this is the same one. So it's
+[01:28:14] same name and then it has like the two the three entries i had and this and then i can just move
+[01:28:19] it i have a bunch of them i have one for depth fade that fades of graph that just does me my
+[01:28:25] depth fade i have like some probit everything it's pretty useful custom function you you saved
+[01:28:32] from shaders right yeah it's very easy to make custom function yeah exactly so let's say you
+[01:28:37] wanted to make a double sampler and those are the ones i want i can just right click make a
+[01:28:41] convert to subgraph and that will create the file that's like exactly them and will already create
+[01:28:47] and in unity in unreal you can do exactly the same and it's really really useful so i suggest once
+[01:28:52] you make one kind of like compartment that you enjoy or that you like just take it and just make
+[01:28:58] it to a subgraph and then that way you have everything i know some people for instance
+[01:29:01] that take a little starter pack of like your little master node and then your little texture
+[01:29:06] sampler and then your little vertex color or particle color in unreal and then your little
+[01:29:11] little color like all those little things you just like they just take it and immediately
+[01:29:16] like make a little subgraph so that they're sure to always be able to use it um uh yeah they're
+[01:29:22] really useful uh they're very fun to do and i know also some people that do something that you might
+[01:29:28] want to do that instead of like they have like polar coordinates for instance but i never remember
+[01:29:32] the name of it or they always add let's say they have polar coordinates but their cooler coordinates
+[01:29:37] they always add a multiply after after work let's say let's say this is something that you do all
+[01:29:41] the time i don't know if you've ever done that but i think it's really cool to see that you can do
+[01:29:41] this so let's say you have like a little subgraph and you want to make it like a little subgraph
+[01:29:41] why but this is something that you do all the time you can just create a subgraph of that call it
+[01:29:46] uh my strawberry and then this is your you can just call it exactly the name that you want
+[01:29:51] most notably in unreal can be sometimes quite annoying to find the names if you're working
+[01:29:55] from different engines for instance uh the names are not the same for every engine like
+[01:30:01] in unreal it's text scored here it's uvs for instance so in unreal for instance i have on
+[01:30:06] one of my jobs i have created the subgraph the only thing that it does is that it's a text
+[01:30:11] scored node that's called uvs and that way when i search my thing i can be like uvs and it gives me
+[01:30:16] the uv that i want but yeah so the make it your own make sure that uh if if it's useful for you
+[01:30:23] make it your own make sure that you have everything okay that makes sense yeah because i
+[01:30:30] was thinking like all the time you when you create a new shader you always forget like the formula
+[01:30:34] that you have to use to create that shader graph so yep it makes sense like uh and in programming
+[01:30:41] there are functions to group stuff together by just one thing so yeah it will reduce the complexity
+[01:30:47] if there's like a huge shader uh exactly you can just call that yeah yeah okay thank you i
+[01:30:53] understand that anything that makes you work faster is also like for yourself just if you
+[01:30:58] can work faster when whilst you're learning you will learn uh yeah all right uh is there
+[01:31:05] any other questions on on like on this on the engine and stuff i have a question
+[01:31:11] is a question on subgraph yeah so like uh is it possible to use subgraph on different projects
+[01:31:19] like yeah of course you export it somehow yeah i have exported my subgraphs many times already yeah
+[01:31:27] oh you can export like scripts you can export textures
+[01:31:30] um like i suggest that you make yourself a very big library of textures and then like you just
+[01:31:37] export them from shader from project to project depending on what you need and then that way
+[01:31:41] you can export them to whatever you want so every time you click on the little like look for a
+[01:31:46] texture button like that you just have a wave of stuff that you can just pick whatever you want
+[01:31:50] that's really okay so you can basically just like drag and drop uh sub graphs from like one project
+[01:32:01] to another okay yeah thank you awesome yeah it works in a unity and in unreal and in good all
+[01:32:08] right any other question on this
+[01:32:11] yeah i had the uh the anime explosion thing that's oh yeah we want to look at it so so just what was
+[01:32:22] the question on it i don't remember so the question is like how it was built because
+[01:32:27] uh you said it was just quads and so i just want to see like uh well it's not just quads
+[01:32:35] like there's a lot of meshes about the thing that's just quads is this part the the the lightning
+[01:32:41] like that there's no bus processing so it doesn't blow as much i think i was talking about the fire
+[01:32:46] one in this same area there was a fire one and it was literally like it looked three-dimensional but
+[01:32:52] it was like it was like four quads oh yeah i see which one it is that's one yeah yeah that's one
+[01:32:57] also yeah yeah but it was really that's what that was that was my question like what is the purpose
+[01:33:04] in uh of a particle system in that case like if there's just like quads uh moving with shaders
+[01:33:11] yeah i need to i see exactly what you're looking for oh did i lose that one that would be sad
+[01:33:19] fiery explosion if that's not the one not the one fire explosion system probably not but who knows
+[01:33:29] now there's something inside there's only an impact frame suspicious uh fiery blast
+[01:33:39] obviously oh yeah naming your stuff is very important
+[01:33:41] so you can't see it you can't see it but you can see it you can see it
+[01:33:41] no it's all broken uh i don't think i have it but but but but but
+[01:33:48] i have this one which is very similar right it's built exactly the same way right
+[01:33:56] that's that counts right so same thing the faces there those are basically just like
+[01:34:02] flat quads but you can see that they're still like they're put in the in this like in a way that that
+[01:34:10] makes sense right so it's like i'm just going to go ahead and i'm going to go ahead and i'm going to
+[01:34:12] and they are they're basically only quads everywhere uh
+[01:34:19] so you uh you move them and i hear them like ah okay yeah that's that that was my question so
+[01:34:27] okay i see so yeah and then here the ps1 technique yes and this is parallax as i said i would show
+[01:34:37] parallax this was very important okay we're going to do a little tangent on parallax i remember they
+[01:34:41] did very important you're ready for parallax it's very necessary so we're going to go back to our
+[01:34:47] little effect now i want on the ground there to be parallax obvious i'm going to make another one
+[01:34:53] cool uh this one we're going to replay we're going to go down to the ground so we're going
+[01:34:59] to say that it's down there and we're going to make big ground cracks so we're going to do it
+[01:35:02] with five we're going to say that it's uh local and then it's rotated length and then it's rotated length
+[01:35:11] 90 degrees not in itself no
+[01:35:18] 90 degrees excellent okay and so here we're going to do the ground cracks with them
+[01:35:22] so what we're going to do is edit change we're going to say we want some
+[01:35:30] cracks on the ground oh we're going to
+[01:35:36] cracks on the ground we're going to use those ones because they're fun those ones
+[01:35:42] okay all right we're going to make it simple for now and then we're going to make it complicated
+[01:35:47] okay so here bang ground cracks we're really happy with it right great so now we're going to we're
+[01:35:53] going to do is parallax with it so we're going to make another texture here like it just so happens
+[01:35:57] that i already have another texture that's ready for that which is the same one but thinner
+[01:36:03] and then we're going to say uh we're going to learn okay and we're going to say everything that's one
+[01:36:11] Is this one or I think that zero is the other one?
+[01:36:15] All right.
+[01:36:17] And I want to do that.
+[01:36:21] No, that's not how I want it.
+[01:36:23] I want to do a blur between two colors.
+[01:36:30] And this is the thing that will determine what the color is.
+[01:36:33] Well, this one is the alpha.
+[01:36:36] This is the alpha.
+[01:36:37] This determines the color.
+[01:36:38] So that means that if I plug this in
+[01:36:41] from one to zero,
+[01:36:44] obviously it will be black and white.
+[01:36:47] Okay. So far so good.
+[01:36:48] So now I'm going to show you how to make the parallax.
+[01:36:50] To make the parallax, it's quite simple.
+[01:36:54] You have our UVs here.
+[01:36:55] This is so far, this is normal.
+[01:36:57] And we're going to say, quad.
+[01:36:59] We're going to say, we're going to add
+[01:37:02] tiny bit of value.
+[01:37:03] And that value is going to be,
+[01:37:06] I'm going to put a multiply just to get it there.
+[01:37:09] And then camera direction.
+[01:37:11] Okay.
+[01:37:12] Okay. And here, I'm going to give it a little vector one,
+[01:37:15] just to be able to control it
+[01:37:17] because the values need to be released really low.
+[01:37:20] Okay. This is all, nothing else.
+[01:37:22] So what happens is that for now we see nothing,
+[01:37:24] but as soon as we give it the tiny bit of value,
+[01:37:26] you can see that it goes down.
+[01:37:31] So now it's a bit fucked because,
+[01:37:34] as it's not in the center, it's just rotated.
+[01:37:41] So apparently it's gettinginder.
+[01:37:43] What's the problem?
+[01:37:45] So the 14th fifth isinea,
+[01:37:46] the axioms numbers up,
+[01:37:47] they're really good at Wise,
+[01:37:49] but there is no vector
+[01:38:10] that can do that.
+[01:38:10] So thoseあっ,
+[01:38:10] We should have it like that.
+[01:38:13] Let's do this and camera.
+[01:38:26] We need to get this.
+[01:38:30] We need to get it onto the xy plane.
+[01:38:33] So when we're like that, we need to remember how to do this.
+[01:38:37] Sorry.
+[01:38:38] This should work still.
+[01:38:39] But it's a vector 2 to vector 3.
+[01:38:41] So it should have split vector 2.
+[01:38:51] Cool.
+[01:38:52] Try again.
+[01:38:54] OK.
+[01:38:54] OK, and here it works.
+[01:38:56] It's not in the right direction.
+[01:38:57] So we just need to put that value to minus 0.1.
+[01:39:01] OK, and now, ta-da.
+[01:39:03] It doesn't work on the other side
+[01:39:05] because the value is negative.
+[01:39:06] Fine.
+[01:39:07] We can do, just say, OK.
+[01:39:09] Negative 4.
+[01:39:14] Adjusting it.
+[01:39:15] I don't know why it doesn't.
+[01:39:17] No, it works.
+[01:39:17] It's just negative.
+[01:39:18] So OK, cool.
+[01:39:23] Ta-da.
+[01:39:23] And we have very, very simple parallax.
+[01:39:26] So 0.1 is obviously too much.
+[01:39:31] 5, 2.
+[01:39:32] OK, cool.
+[01:39:32] And then here we have, yeah, a bit of parallax.
+[01:39:36] Ta-da.
+[01:39:36] So this is the simplest way to get some parallax.
+[01:39:38] It's very simple.
+[01:39:39] Very easy to put in.
+[01:39:40] As you saw, it didn't take a lot of time.
+[01:39:42] And the amount of nodes that you need is very small,
+[01:39:47] literally just a few nodes.
+[01:39:48] And this is to control it.
+[01:39:49] You could have a hard value, and it would be even shorter.
+[01:39:53] Yeah, it's just a little bit of fiddling around.
+[01:39:55] Obviously, if you put 1, it will just not work.
+[01:39:59] And also, this is styling.
+[01:40:01] So yeah, if you put 0, if you want something that's 0,
+[01:40:04] that's really deep, like 0.2, you can see that it just doesn't work.
+[01:40:09] It doesn't work anymore.
+[01:40:10] But if you want stuff that's kind of small, like 0.05 or 0.02,
+[01:40:15] you get something that looks really good, that feels really good,
+[01:40:18] with minimal effort.
+[01:40:19] Then from there, as you saw before, we're between black and white.
+[01:40:23] But we can actually play around with color to do a few colors here.
+[01:40:30] We can have some gradients from it.
+[01:40:32] We can do lots of stuff.
+[01:40:33] So we can say color here.
+[01:40:35] This one, we're going to say that it's kind of a hot cyan.
+[01:40:38] We're going to do a little bit of black.
+[01:40:39] And then we're going to do some like HDR.
+[01:40:41] So we're going to give it a little bit of emission.
+[01:40:43] And then here, we're going to say that this is actually
+[01:40:46] like some yellowish brown that comes out of it.
+[01:40:50] And yeah, we can do some stuff like that.
+[01:40:52] And then from here, you actually see this is way too much.
+[01:40:55] But yeah, just a little bit of emission.
+[01:40:58] I was about to ask the same thing.
+[01:41:00] Because in Diablo 3, there's a section, which
+[01:41:02] I'm assuming they're doing this, where it's
+[01:41:06] almost like a cavernous cracks like this.
+[01:41:08] Yeah.
+[01:41:09] And it's parallax like that.
+[01:41:10] But it looks a little bit deeper.
+[01:41:12] But I'm pretty sure they're doing this.
+[01:41:14] Yeah, that's a very simple one.
+[01:41:15] It's very simple.
+[01:41:16] There's lots of other ways to do it.
+[01:41:18] And you see, the more you make glow,
+[01:41:19] the more you can get away with something that's a bit deeper.
+[01:41:23] I think this one just doesn't work anymore.
+[01:41:24] It works until 0.5, I would say.
+[01:41:27] This still works quite well.
+[01:41:29] So yeah, and depending on if you're far from the camera,
+[01:41:31] the effect works way better.
+[01:41:33] If you're really close to the camera like that,
+[01:41:35] the effect will work way less.
+[01:41:37] So you have to also adjust.
+[01:41:39] If you're really close to the camera,
+[01:41:40] you probably want to use textures that have more detail.
+[01:41:43] If you're really far from the camera,
+[01:41:45] if your game is placed from here, it's fine.
+[01:41:48] The other thing that looks really good is to do two things.
+[01:41:52] One, this you can have actually, you
+[01:41:55] can multiply it by, let's say, like a dot texture.
+[01:42:00] Just take this, say that I have just a regular plain old dot
+[01:42:07] here.
+[01:42:08] And you multiply that here.
+[01:42:12] What that does is that now in the middle,
+[01:42:16] it's deeper than in the edges.
+[01:42:18] If I put 0.2, you can see that the center is way deeper,
+[01:42:23] but the edges is less.
+[01:42:25] So that can let you do really cool effects.
+[01:42:27] If you have some cracks that have a different shape,
+[01:42:29] you can have some stuff that's like cracks are there a bit
+[01:42:32] deeper and they're a bit less.
+[01:42:34] And so what you can also do is that you can use this texture as,
+[01:42:37] like, an extra layer.
+[01:42:38] So you can do that.
+[01:42:38] You can also do a multiplier here.
+[01:42:43] Just say, actually, I also, the less deep it is,
+[01:42:48] the more grounded it is.
+[01:42:50] And here, you get a really cool effect
+[01:42:51] where it really feels hot under and deeper,
+[01:42:54] but also it doesn't feel as intense on the sides.
+[01:42:57] So yeah, I think this is also a really good way to do things.
+[01:43:00] Obviously, you can adjust it.
+[01:43:01] There's lots of different things you can do,
+[01:43:03] but this is a good way to do it.
+[01:43:04] Finally, you can also have an extra Lerp.
+[01:43:08] Like this to Lerp, this to Lerp.
+[01:43:09] But you could also say inside the glow here,
+[01:43:13] instead of doing this, for instance,
+[01:43:14] you could say that inside the glow here,
+[01:43:16] you want to have another Lerp.
+[01:43:19] That depends on the glow that's here.
+[01:43:20] So let's say, you would say that it's one here in the center,
+[01:43:30] but rather this one would be sort of like, let's say, more deepish.
+[01:43:38] So let's say, you would say that it's more deepish blue around it.
+[01:43:43] And then that way, you could have an extra layer of Lerp pink here.
+[01:43:48] There, you get some extra richness on your color.
+[01:43:52] Save.
+[01:43:53] Then here, you can see that we're having this extra richness
+[01:43:56] on the colors around it.
+[01:43:57] And then you can combine everything
+[01:43:58] if you wanted to do to get even more,
+[01:44:01] like an even stronger result.
+[01:44:03] Obviously, you lose a little bit of the purple here.
+[01:44:05] But I think you can go deeper on the purple
+[01:44:08] and you can see that it's not really, but we can try.
+[01:44:13] Do we need another texture?
+[01:44:14] But yeah, you can see how with some layers,
+[01:44:16] you can get some really cool results.
+[01:44:18] When you do those kind of things, always remember
+[01:44:20] that the next step to all this is almost always
+[01:44:24] to just bring everything down to the ground kind of close.
+[01:44:28] Add an extra glow on top of the ground
+[01:44:30] to make sure you're encompassing everything,
+[01:44:32] and overall making sure that your ground
+[01:44:34] cracks match with everything else.
+[01:44:36] So probably here.
+[01:44:37] Do it like this.
+[01:44:38] That's like two, for instance.
+[01:44:39] And to make sure that this feels cohesive, basically,
+[01:44:42] at that point.
+[01:44:43] So yeah.
+[01:44:45] You match it all, colors, et cetera.
+[01:44:48] All right.
+[01:44:48] Does that answer your questions?
+[01:44:50] Is this like, was this informative?
+[01:44:52] Yeah, yeah, yeah.
+[01:44:54] Yeah, thank you.
+[01:44:55] That was very interesting.
+[01:44:56] Yeah, I understand now.
+[01:44:57] I didn't know what parallax is, so now I understand.
+[01:45:01] Yeah, I think Yasha also asked about parallax like that.
+[01:45:04] And I almost forgot to do that.
+[01:45:06] So yeah.
+[01:45:07] I'm going to try to implement that in my portal.
+[01:45:10] Yeah, awesome.
+[01:45:11] Yeah.
+[01:45:12] Just the nodes are just there.
+[01:45:15] You don't need anything else.
+[01:45:18] You don't need this.
+[01:45:19] You don't need that.
+[01:45:20] All you need is like.
+[01:45:21] The camera direction, is there like a ready-made node
+[01:45:24] in Unreal for that?
+[01:45:26] Yes.
+[01:45:27] There's an already-made node.
+[01:45:28] Otherwise, the other way that you can do is that,
+[01:45:31] and this is more clean.
+[01:45:32] So one thing that you will have is
+[01:45:33] that you see how if it's on the edges of the screen,
+[01:45:37] it doesn't come back.
+[01:45:38] If it's on the edges of the screen,
+[01:45:40] you'll see that it doesn't work as well.
+[01:45:42] Let's increase it.
+[01:45:43] 3.
+[01:45:45] 3.
+[01:45:47] 3.
+[01:45:47] OK.
+[01:45:48] You see that if it's on the edges of the screen,
+[01:45:50] it doesn't look good at all.
+[01:45:52] If it's in front, it still looks decent.
+[01:45:55] It's just because it's too deep.
+[01:45:56] But you see how it can just like.
+[01:45:59] 2.
+[01:45:59] Yeah, OK, cool.
+[01:46:00] But if it's on the edges, it just completely breaks.
+[01:46:02] It doesn't work at all anymore.
+[01:46:04] And that's because it works only if it's in the center.
+[01:46:06] If it's on the sides, you can see how it just doesn't work.
+[01:46:11] It looks blanky.
+[01:46:12] That's because the camera direction
+[01:46:15] is in the center of the screen.
+[01:46:17] And it just always points toward the center of the screen.
+[01:46:19] But if you're here, it's completely fine.
+[01:46:21] But if you're here, it's not.
+[01:46:22] So because of the field of view.
+[01:46:24] So what you want to do instead of using the camera direction
+[01:46:26] is you want to use the camera position subtracted
+[01:46:29] by the vertex position.
+[01:46:35] Position.
+[01:46:36] OK.
+[01:46:36] And then you put that in.
+[01:46:38] And it's basically exactly the same.
+[01:46:41] Except that it also needs to be normalized.
+[01:46:48] I forgot that it needs to be normalized.
+[01:46:54] So normalized is the same as saturate, but for vector.
+[01:46:57] It takes a vector, and it puts it at the length of 1.
+[01:47:02] This is already better.
+[01:47:03] It's way too strong.
+[01:47:04] 0.1.
+[01:47:06] OK.
+[01:47:06] It's minus 0.1.
+[01:47:09] And here you get the same result.
+[01:47:11] But now if I put it on the side, it still works.
+[01:47:15] OK.
+[01:47:16] So I suggest to always use that normalized thing.
+[01:47:20] I usually, this formula here, I usually
+[01:47:23] make myself just a little node there.
+[01:47:25] And I use it all the time.
+[01:47:30] So yeah.
+[01:47:33] That was the little extra.
+[01:47:34] So as a reminder, you take the vector.
+[01:47:35] You take.
+[01:47:36] You just basically do a line between your camera
+[01:47:40] and the vertex.
+[01:47:41] That gives you a vector.
+[01:47:42] Use that vector.
+[01:47:43] The flat coordinates of that, you use them
+[01:47:46] to guide your mesh.
+[01:47:48] And you're good.
+[01:47:49] All right.
+[01:47:51] The last thing we wanted to talk today about was motivation.
+[01:47:55] I want to talk a little bit about that before leaving you.
+[01:47:57] I know this was a long session.
+[01:47:58] But it was the last one.
+[01:47:59] So I wanted to make sure that you had
+[01:48:01] extra information.
+[01:48:04] So motivation specifically, I think there's a lot of, like,
+[01:48:09] first off, this is really personal.
+[01:48:10] So this is something that you really know how to do yourself.
+[01:48:16] For me, I believe that the most important part of staying
+[01:48:21] motivated is to actually think what is motivating.
+[01:48:25] What is the actual thing that you find fun in this
+[01:48:28] or that you find interesting?
+[01:48:30] I truly believe that you learn by playing.
+[01:48:33] You learn by acting.
+[01:48:34] You learn by having fun.
+[01:48:35] You learn by being kind of a kid that still continues
+[01:48:38] to learn stuff.
+[01:48:39] You will learn through repetition, through,
+[01:48:42] like, there's a lot of other things.
+[01:48:43] Like, for instance, forget it seven times.
+[01:48:45] And at some point, you will learn.
+[01:48:47] But the most effective way to actually learn a craft
+[01:48:49] or learn new tools is to find the fun in it.
+[01:48:52] So a bit of a Mary Poppins kind of thing of,
+[01:48:55] like, you find the fun in the jobs of game.
+[01:48:59] I think that's a good way to see life in general.
+[01:49:03] So the most important part is to really think about what's
+[01:49:04] fun.
+[01:49:05] And the most effective way to do that is to recognize when
+[01:49:07] it's not fun anymore.
+[01:49:08] When you're starting to slip, when things are being difficult.
+[01:49:11] Not because you have to, like, it's the moment where you have
+[01:49:13] to, like, take your loyages and cut your costs.
+[01:49:17] But more when it's the moment to hear and say, hey, I can't.
+[01:49:21] Like, I need to find something else that I can do.
+[01:49:25] I need to find another task.
+[01:49:26] I need to find something else that is fun for me.
+[01:49:28] Or I need to take a break.
+[01:49:30] That, for me, is, like, by far the most important part
+[01:49:33] of the motivation part.
+[01:49:35] Especially for VFX.
+[01:49:36] I would say that VFX, the tools can be really frustrating.
+[01:49:40] The tools can be sometimes limiting in the way that, like,
+[01:49:43] oh, it never works.
+[01:49:44] Or I don't manage to get the thing that I want.
+[01:49:47] Looking for a job, obviously, in the games industry sometimes
+[01:49:49] can be really frustrating.
+[01:49:50] Because some companies just don't give you any news,
+[01:49:52] give you anything.
+[01:49:53] So in that part, I think it's important to really just keep
+[01:49:58] having fun making effects.
+[01:50:00] And it will be easier for them.
+[01:50:03] So try to keep finding something that's fun,
+[01:50:05] even if it's not strategically sound.
+[01:50:06] Even if it doesn't make sense to try and make, like,
+[01:50:09] that extra, like, fireball, the 10th fireball that you make.
+[01:50:14] Just try to find something that you like.
+[01:50:17] And write that down.
+[01:50:18] Like, just write down the things that you like doing.
+[01:50:21] I suggest that when you are making effects, et cetera,
+[01:50:25] try to stop and try to, like, brainstorm with yourself.
+[01:50:27] I think that's something that perhaps the bootcamp doesn't
+[01:50:30] teach enough.
+[01:50:31] But just, like, you can do it.
+[01:50:32] You can see, like, I'm at new 77.
+[01:50:35] And this whole thing is, like, I don't know,
+[01:50:39] like, six months long.
+[01:50:40] I have tons of them.
+[01:50:42] And I just write down random stuff every time.
+[01:50:44] Every time someone comes to me and asks me something,
+[01:50:46] I'm like, OK, I'm just going to write down stuff.
+[01:50:48] And sometimes I'm in front of my PC.
+[01:50:49] I'm not quite sure what I'm going to do at work.
+[01:50:51] And I'm just like, OK, let's reset.
+[01:50:53] Let's write down five things that I think I need to do.
+[01:50:57] And that actually helps a lot.
+[01:50:59] So what I recommend to do is to try and do that.
+[01:51:01] Try and do, basically, a bunch of things.
+[01:51:02] And then, basically, writing down stuff, writing down
+[01:51:04] what you already know how to do.
+[01:51:06] As when you're learning, it's really important to write down
+[01:51:09] and to have an idea of what you already know
+[01:51:11] and what you don't know.
+[01:51:12] Because that's, like, the driver of your learning,
+[01:51:17] knowing where you're going and what you would like to learn
+[01:51:20] and knowing what you already know how to do.
+[01:51:22] Because otherwise, you will .
+[01:51:24] So yeah.
+[01:51:27] For the consistency part, I think the best thing
+[01:51:30] is to take a break, to have, like,
+[01:51:32] little reminders.
+[01:51:33] So if you're not very good at, like, self-reflection
+[01:51:35] or you don't have, like, you're not used to do self-reflection
+[01:51:37] a lot, what I recommend you do is to put in your schedule,
+[01:51:41] let's say, every day when you start working.
+[01:51:44] Or if you work, like, one day, like,
+[01:51:46] have a little, like, 10-minute routine where you force yourself
+[01:51:49] to just be in front of a white, like, just a sheet of paper.
+[01:51:52] Just write down what you're going to do today
+[01:51:54] or write down what you learned yesterday or, like, something
+[01:51:57] like that.
+[01:51:58] I find that super, super effective.
+[01:52:00] And it motivates you for the moment.
+[01:52:02] And it forces you to slow down.
+[01:52:04] I think that that's, like, a good way to, like, you know,
+[01:52:07] slowing down, wins the race, something, something.
+[01:52:09] It just helps a lot to pace yourself and to make sure
+[01:52:12] that you know where you're going.
+[01:52:14] Whereas if you just always sit in front of things
+[01:52:16] and you expect yourself to always be productive,
+[01:52:18] it will be really difficult.
+[01:52:20] So yeah.
+[01:52:22] Yeah.
+[01:52:22] This is a bit of, like, more, like, generic stuff.
+[01:52:25] Or perhaps it's a bit confusing.
+[01:52:27] But I think that it's important to at least tackle it or at least
+[01:52:30] to .
+[01:52:32] What I usually say is that it's important to make it legitimate.
+[01:52:35] It is something legitimate that you need to learn.
+[01:52:37] It's not something that's obvious.
+[01:52:38] It's a skill that everyone needs to learn.
+[01:52:40] Nobody's born with, like, motivation or good ways
+[01:52:43] to manage their time or their skills.
+[01:52:45] So I think that it's important to sit down and tell yourself
+[01:52:48] this is something that's precious, something that is worth your time,
+[01:52:51] worth your .
+[01:52:52] It is often more productive to do that than to actually, like,
+[01:52:57] draw on your tablet or do some drawing, do some effects in games.
+[01:53:02] So sit down, tell yourself that this is productive,
+[01:53:05] and convince yourself that this is useful.
+[01:53:07] So yeah.
+[01:53:08] And if you're struggling with realizing that you're burning out,
+[01:53:12] then give yourself, like, force yourself to have in your routine,
+[01:53:16] in your plans, however, just to sit down 10 minutes in front of a thing,
+[01:53:20] you put a timer and you sit down in it.
+[01:53:22] And if you spend 10 minutes looking at the thing without writing anything,
+[01:53:25] that's OK.
+[01:53:26] It's fine.
+[01:53:27] Just force yourself to sit down.
+[01:53:29] And if five minutes is enough, because you often just look at it,
+[01:53:31] and don't do anything while you're drinking your coffee, for instance,
+[01:53:34] it's fine.
+[01:53:35] But at least force yourself to have the time to do that.
+[01:53:38] And you'll see that I find that at least it has, like, a lot of benefits.
+[01:53:43] Is there any questions on the motivation part?
+[01:53:45] Any questions that I can perhaps answer with the little humble knowledge
+[01:53:49] that I have?
+[01:53:54] I think you answered all the questions needed.
+[01:53:57] Yeah, yeah.
+[01:54:01] When I was learning VFX, I had, like, a really big hit.
+[01:54:04] It's my, like, after three months, I had a really big hit from, like,
+[01:54:07] my personal life.
+[01:54:10] And it was really hard.
+[01:54:11] I didn't know what to do with it.
+[01:54:12] I was, like, really stuck because I was, like, I'm in such a good, like, train.
+[01:54:16] Things are going so well.
+[01:54:17] I'm learning so much.
+[01:54:18] And I have this that's falling on me.
+[01:54:19] I'm really, really mad.
+[01:54:21] I'm really, like, frustrated because I feel like I have to,
+[01:54:24] I don't have the energy anymore to do everything.
+[01:54:26] Whereas I was, like, on such a good roll.
+[01:54:28] And I found that, actually, I was, like, really, really, really, really, really,
+[01:54:31] really, really good at it.
+[01:54:34] And I put it all behind me.
+[01:54:36] It was so important.
+[01:54:37] I should have tried this.
+[01:54:38] I should have stopped.
+[01:54:39] I should have told myself it's fine.
+[01:54:41] I'm just going to ice everything, put everything to the side, deal with the
+[01:54:43] first thing first.
+[01:54:44] And then, like, after that come back to it.
+[01:54:47] It does come back.
+[01:54:48] And if the motivation was there before, the motivation will come back later.
+[01:54:52] But by forcing, you might associate the negative event with, like, doing VFX,
+[01:54:57] for instance, and that will be even worse.
+[01:55:00] like suddenly you have a really bad event and you have to put a lot of energy into something,
+[01:55:06] I really highly recommend just put things to stop, put things to the side,
+[01:55:11] don't touch much things, fix your problems, even if it takes a few months,
+[01:55:16] come back to it and you'll see that, I find at least,
+[01:55:19] you'll see that things are still relatively fresh.
+[01:55:22] Even leaving it a bit of time will have solidified some of the knowledge
+[01:55:25] and you'll be able to more quickly come back to it.
+[01:55:28] Yeah, you will lose some time.
+[01:55:29] Yes, it's really unfortunate, but life is like that.
+[01:55:35] Sometimes you don't have time.
+[01:55:37] If something bad happens while you're learning or while you're making a portfolio
+[01:55:41] or something like that, try to allow yourself to take a bit of break to say,
+[01:55:45] okay, I'm not going to touch this precious thing that I'm trying to nurture
+[01:55:48] and I'm going to deal with my problems and then I'm going to come back
+[01:55:51] to this precious thing afterwards.
+[01:55:55] Anything else I can add?
+[01:55:56] Any questions?
+[01:55:57] Anything else I can elaborate?
+[01:55:59] Any other question about the effects in general,
+[01:56:06] about anything else that you're interested in?
+[01:56:11] I have a question.
+[01:56:13] Maybe let's not go too deep into this,
+[01:56:16] but just to get me started on this idea.
+[01:56:23] How do you approach effects where you're kind of,
+[01:56:29] you're kind of distorting the scene that you see behind?
+[01:56:32] So it's like, you know.
+[01:56:35] Distortion.
+[01:56:39] Yeah.
+[01:56:40] You're not just starting your texture, but you're distorting your, the scene itself.
+[01:56:45] Yeah, I see exactly what you mean.
+[01:56:47] This is very simple.
+[01:56:47] I will show you.
+[01:56:50] Uh, 30.
+[01:56:52] Okay.
+[01:56:53] I'll do that.
+[01:56:53] And then we're going to make this a five.
+[01:56:56] Okay, cool.
+[01:56:57] We have big texture.
+[01:56:58] Okay.
+[01:56:59] And then edit shader.
+[01:57:01] So what do you want to do?
+[01:57:03] If I recall correctly how to do this in a while,
+[01:57:05] since I did that, but I'll find it.
+[01:57:07] Uh, what we're going to do is that we're going to take the screen.
+[01:57:13] Uh, scene color.
+[01:57:15] Yeah.
+[01:57:20] And our effect is completely gone.
+[01:57:21] Like a similar note in unreal.
+[01:57:24] Yeah, exactly.
+[01:57:25] It's called scene color.
+[01:57:26] I think.
+[01:57:27] Okay.
+[01:57:28] And then here,
+[01:57:29] those this, what does this do?
+[01:57:30] Basically, I'm going to multiply it by 0.5 so that you can see, or by two.
+[01:57:34] Sure.
+[01:57:34] What does this do?
+[01:57:36] It takes exactly the color that's behind it.
+[01:57:39] So like, for instance, if I take my, my little skies there, you can see that it has exactly the color.
+[01:57:43] So here I multiply that by two.
+[01:57:45] So you can see that it's just blooming it all, all around.
+[01:57:47] It's like emissive all around, but otherwise it's, this is basically just taking the color that's behind and then like multiply it by two.
+[01:57:53] Obviously it doesn't get the particles that are behind because this is a particle.
+[01:57:58] So it's like a particle itself and it doesn't render at the same moment.
+[01:58:02] So like the scene color just picks up what's behind without picking up those of notes.
+[01:58:07] If I wanted, I could put, take my ground cracks and instead of making them transparent here, I could make them opaque.
+[01:58:16] Okay.
+[01:58:17] I would lose some things that could work.
+[01:58:21] And what this would do is that then my texture would take it to a.
+[01:58:27] So that's just an option.
+[01:58:28] In order for it to still work while doing that, I would need to.
+[01:58:33] To do.
+[01:58:40] This.
+[01:58:44] Oh, I think.
+[01:58:48] This and.
+[01:58:51] Cool.
+[01:58:52] Okay.
+[01:58:54] So I could still have my ground cracks like that.
+[01:58:56] Obviously they're not like as faded.
+[01:58:58] This was before, but I could still have them and have this on top of it.
+[01:59:02] That works.
+[01:59:03] Okay.
+[01:59:03] So just, just to show you the particles cannot be used for this, but otherwise the rest can.
+[01:59:09] So what you want to do then.
+[01:59:09] So that's why usually distortion is behind the particles.
+[01:59:12] So here, if I put it at zero, for instance, I have more like all my particles on top.
+[01:59:16] Then I have the rest behind.
+[01:59:18] All right.
+[01:59:20] So, um, how are you going to do this now that you have that, how you want to do this?
+[01:59:24] This is the same color.
+[01:59:25] So if I do this, it looks exactly the same.
+[01:59:28] As the other side, even though you have selection outline, you can see that quad is still there.
+[01:59:32] This looks exactly the same.
+[01:59:34] And so what we're doing here now is that we can just take this, the UVs.
+[01:59:38] So screen position, this, the defaults there that's there is the screen position.
+[01:59:43] It's exactly the same.
+[01:59:44] If I recall.
+[01:59:45] Yes, exactly.
+[01:59:46] And so here, what we can do is that we can just add, so we're going to do some funny things.
+[01:59:50] For instance, we add time to this.
+[01:59:54] Let's put an example.
+[01:59:57] You can see it though.
+[01:59:58] It becomes city very fast.
+[02:00:00] No.
+[02:00:02] Uh, sign time.
+[02:00:06] You can see that it goes from we.
+[02:00:11] We.
+[02:00:13] Okay.
+[02:00:13] So that's, that's very fun.
+[02:00:14] So now that we know that what we can do is that we can just add, uh, uh, a tiny texture.
+[02:00:20] So we're going to multiply that and we're going to say that it's a, um, uh, a texture, a noise.
+[02:00:28] Uh, a gradient noise.
+[02:00:30] Sure.
+[02:00:32] Gradients.
+[02:00:34] Cool.
+[02:00:35] I say that it's there.
+[02:00:36] Uh, here I did multiply it specifically.
+[02:00:39] So like zero, like a really small value.
+[02:00:42] And then here and save that.
+[02:00:44] And already you can see that we're getting a little bit of a wobbly, right?
+[02:00:47] As if it was glass and there was water behind it.
+[02:00:49] Right.
+[02:00:51] We can see it.
+[02:00:54] That's, that's already really fun.
+[02:00:55] We're going to put it slightly stronger.
+[02:00:57] So that.
+[02:00:58] It's, it's really visible.
+[02:01:00] Here.
+[02:01:00] It's like very much visible now.
+[02:01:02] Whoa, whoa, whoa, whoa.
+[02:01:03] Perfect.
+[02:01:04] Usually this is from a zero.
+[02:01:06] This is from zero to one.
+[02:01:08] Since we're adding to this, we want to kind of add and subtract.
+[02:01:10] So it will usually look better if we do like, um, uh, minus 0.5 subtracts from one five.
+[02:01:21] And so that way we have something that is, uh, on both sides, it's the same thing, but it usually ends up.
+[02:01:28] It looks better.
+[02:01:29] Okay.
+[02:01:29] So here we have our little wobbly thing.
+[02:01:31] That's pretty fun already to do.
+[02:01:32] Uh, usually what you want to do then on the edges here, if I remove the, this, you'll see that on the edges, it will show like, you'll see the difference of like we get into it directly.
+[02:01:43] So what you want to do usually is give it a little like round texture to your, to your thing.
+[02:01:49] So you want to do a simple texture.
+[02:01:54] And you want to just give it the little classic round texture.
+[02:01:57] Okay.
+[02:01:58] For instance, and you want to multiply that here to just give it a mask once again, so that only the center is of your texture is wobbly.
+[02:02:10] And then what's an outer is less.
+[02:02:13] And then the closer you are, the more wobbly it is.
+[02:02:16] Right.
+[02:02:17] You can also do like really fun stuff.
+[02:02:18] Like you can say, actually, I'm going to use this and I'm going to add this value to my texture here.
+[02:02:26] So here you would get the fun result.
+[02:02:27] Where like everything that's closer to this texture is going to be like slightly brighter, basically.
+[02:02:34] That's also really fun to do.
+[02:02:36] So like here, if I go there, it's going to be both wobbly and bright.
+[02:02:40] So here you start getting like really fun effects.
+[02:02:42] Uh, I think it's going to be better with fly.
+[02:02:46] It's really going to bloom things out.
+[02:02:50] More fun.
+[02:02:52] Want fun.
+[02:02:54] Uh, and do this thing I want to do.
+[02:02:57] Yeah.
+[02:02:59] With this idea with the scene color.
+[02:03:01] If this is too complex of a question, you don't, you don't have to answer it.
+[02:03:05] But like whenever people do those effects were like, it like distorts the colors where they become like the world in that area becomes black and white or inverted.
+[02:03:13] I'm assuming this is like the application that they're trying to, they're using is like a scene color thing.
+[02:03:19] Uh, second.
+[02:03:21] So basically like there are some people who have done effects, like even in fighting games or something where like the effect.
+[02:03:27] Will actually distort the world around it.
+[02:03:30] We're like the colors of that section become like black and white or black, white and red.
+[02:03:35] And then it disappears and goes back to normal.
+[02:03:38] Yeah.
+[02:03:38] Yeah.
+[02:03:40] Yeah.
+[02:03:40] Okay.
+[02:03:40] Uh, uh, do I have it?
+[02:03:45] I don't know.
+[02:03:45] I'm explaining it terribly, but I think, you know what I'm talking about?
+[02:03:49] Lucky what you're talking about.
+[02:03:50] Don't worry.
+[02:03:51] Uh, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah.
+[02:03:56] Uh,
+[02:03:56] Ta-ta.
+[02:03:57] Ta-ta.
+[02:03:58] Ta-ta.
+[02:03:58] Like how sometimes there's that like charge up before a blast and it like the, the absorbing ring like changes colors.
+[02:04:05] Yeah.
+[02:04:06] Yeah.
+[02:04:06] Yeah.
+[02:04:06] Like changes the world space.
+[02:04:08] And so, yeah, yeah.
+[02:04:08] Like that.
+[02:04:09] Yeah.
+[02:04:09] Yes.
+[02:04:10] Okay.
+[02:04:10] Yeah.
+[02:04:12] Yeah.
+[02:04:13] Yeah.
+[02:04:14] So this is basically a tech I made that like does this exactly that it does like you can change if you want it to be like to fully take the whole screen or make it like just around the same space.
+[02:04:25] And basically it lets you make impact.
+[02:04:27] Frames like that.
+[02:04:28] So it takes the back of the background there.
+[02:04:29] It puts it in black and white and then it pushes around.
+[02:04:32] So that's like one.
+[02:04:33] And then you can also do this kind of stuff like that.
+[02:04:35] Yeah, exactly.
+[02:04:36] That's you can push the UVs around that.
+[02:04:39] So how that works.
+[02:04:40] I can show you two, uh, in here.
+[02:04:43] So how that works is a bit of around.
+[02:04:47] We're going to take, we're going to keep that one and that's a good idea.
+[02:04:51] Okay.
+[02:04:52] We want to keep this and then we want to keep our little distortion tool, which is basically.
+[02:04:57] Okay.
+[02:04:57] Okay.
+[02:04:57] So we're going to take the screen position and that's all we want to keep right now.
+[02:05:01] Okay.
+[02:05:01] And so what you're, what you're describing is that we're pushing things from the center.
+[02:05:06] So pushing things from the center means that, uh, we need to say, we need to state the center.
+[02:05:11] So what we're going to do is that we're going to use the UVs.
+[02:05:14] Okay.
+[02:05:15] And then in the UVs, we're going to, uh, add minus 0.5.
+[02:05:20] So, uh, one.
+[02:05:27] Okay.
+[02:05:28] So we have them centered and then here we're going to use that multiply.
+[02:05:33] I think this will work.
+[02:05:36] By a state like a vector.
+[02:05:39] Uh, no.
+[02:05:40] By, yeah, this is the intensity.
+[02:05:44] So we want it to be very small and then we're going to add that.
+[02:05:47] It should work.
+[02:05:49] Uh, what do I, is this correct?
+[02:05:55] Probably no.
+[02:05:57] We'll see.
+[02:05:58] So this is not correct because I didn't fade it out.
+[02:06:02] I guess using this.
+[02:06:05] I think this will work.
+[02:06:12] Should work perhaps.
+[02:06:14] Mayhaps.
+[02:06:15] Okay.
+[02:06:16] And so here you can see that in the center, it's a bit stronger.
+[02:06:22] So I lost my parameter.
+[02:06:25] Vector property.
+[02:06:27] That kind of stuff.
+[02:06:34] So basically here we have this thing that's like just shares around in the center.
+[02:06:39] So if I make it a bit smaller, like three, you can see that it really serves as a little
+[02:06:44] bubble that we can like just use to like completely break around in the story.
+[02:06:47] I think that's what you were talking about.
+[02:06:49] Like you were talking about that and impact frames, basically.
+[02:06:51] Yes.
+[02:06:52] Yeah.
+[02:06:53] Yeah.
+[02:06:54] Basically it's the same.
+[02:06:55] It's the same concept.
+[02:06:56] It's the same thing.
+[02:06:57] And then impact frame is really simple too.
+[02:06:59] Impact frame will look like this.
+[02:07:01] So I will focus.
+[02:07:04] So instead of using all this, we're going to, again, all this out of frame, removing
+[02:07:08] this so we don't need to use this anymore.
+[02:07:11] And then instead we just use the screen position, the same color.
+[02:07:16] And then here we say we lerp.
+[02:07:19] Okay.
+[02:07:20] We take our thing here.
+[02:07:21] We can do gray scale.
+[02:07:22] I think there's a gray scale.
+[02:07:26] So we can do a little bit of a blur.
+[02:07:34] Sure.
+[02:07:35] I guess this is where we...
+[02:07:40] Yeah.
+[02:07:42] And then we can just do a lerp using that between two colors and then put it back in.
+[02:07:49] And so this will make a thing that makes it into gray scale now.
+[02:07:53] So here you can see that it's mostly gray scale.
+[02:07:55] It's not saturated.
+[02:07:56] I think this is not.
+[02:08:00] I'm not sure.
+[02:08:03] It's going to be in that.
+[02:08:08] Okay.
+[02:08:09] Yeah.
+[02:08:10] This is gray scale now.
+[02:08:11] It doesn't work for the skybox, but otherwise you see that this is completely gray scale.
+[02:08:16] And so now what we can do is we can just say, actually, we want to lerp between color and
+[02:08:21] color.
+[02:08:22] So let's say the black, I want it to always be black.
+[02:08:23] The white, I want it to be...
+[02:08:24] Come on.
+[02:08:25] Okay.
+[02:08:26] So let's say the white, I want it to be, let's say, cyan.
+[02:08:29] Big, big cyan with a little bit of the...
+[02:08:30] Ta-da.
+[02:08:31] And so now everywhere I go, the white is bloom.
+[02:08:32] The white is that.
+[02:08:33] The black is there.
+[02:08:34] It doesn't work for the skybox, but it works for everything else.
+[02:08:35] So yeah, that's usually what you are going to do.
+[02:08:36] The other thing that is usually done is that then you, instead of using this raw directly,
+[02:08:37] you can just choose to say to make it gray.
+[02:08:38] So that's what we're going to do.
+[02:08:39] So let's say we want to make it gray.
+[02:08:40] So let's say we want to make it blue.
+[02:08:41] And then we can just say, okay, let's make it gray.
+[02:08:42] And then we can just say, okay, let's make it blue.
+[02:08:43] Pretty sure it's bright blue.
+[02:08:44] Or let's say we want to make something that's harder.
+[02:08:45] Okay.
+[02:08:46] Okay.
+[02:08:47] Okay, super cool.
+[02:08:48] But you can just dump that in.
+[02:08:49] And everything else has a chance to go bad.
+[02:08:50] You'll go bigger, you'll go wh millionaire.
+[02:08:51] Oh, he's a hitter.
+[02:08:52] Whoops.
+[02:08:53] There's an cần 보.
+[02:08:54] Channel 4 on GuestStorminghub.
+[02:08:55] But you will bomb but almost there.
+[02:08:57] It happens.
+[02:08:59] So let's say you do a...
+[02:09:01] Wow.
+[02:09:02] It opens up like this right here.
+[02:09:04] So what that does is that as I did earlier, it栆 queer not onlyShould be a went, so
+[02:09:06] instead of thing in this box also, this.
+[02:09:09] If you had one seine object, we have this high point here.
+[02:09:10] So what you're doing here is you'reMe can't just close the lid.
+[02:09:11] that you do.
+[02:09:11] Again, we can ignore the particle.
+[02:09:13] Basically, it just says, if it's closer, it's there.
+[02:09:16] If it's not closer, it's there.
+[02:09:17] So 0.2, 0.25, something like that.
+[02:09:28] And so you can see that already our piece is like,
+[02:09:31] it only shows those specific layers.
+[02:09:33] I'm guessing that that's what you were looking for.
+[02:09:36] Yeah, I was curious how they did those impact frames
+[02:09:39] and make everything else disappear just like that.
+[02:09:41] So that makes sense.
+[02:09:42] Thank you.
+[02:09:44] Awesome.
+[02:09:46] Here, one thing that you can do is also you can learn facts.
+[02:09:55] Position, bring it out here.
+[02:09:59] You can do position and camera.
+[02:10:07] And then.
+[02:10:09] And then you can do the vertex.
+[02:10:12] So this should work.
+[02:10:14] If it's at 0.
+[02:10:23] I know it's the opposite.
+[02:10:24] This here.
+[02:10:26] Think.
+[02:10:29] Might be correct.
+[02:10:29] I might not.
+[02:10:33] 1.
+[02:10:39] I think I have got a negative somewhere.
+[02:10:42] Anyway, it's not doing the thing I want.
+[02:10:49] It is OK.
+[02:10:55] I forgot the negative somewhere, but I don't know where.
+[02:10:57] It's fine.
+[02:10:58] Anyway, I guess this is the problem, but I don't know how.
+[02:11:01] Yeah, anyway, I rambled for quite a bit.
+[02:11:04] Yeah, this is kind of what I wanted to do,
+[02:11:06] but not exactly how it should.
+[02:11:08] So I'm going to just ignore it.
+[02:11:09] Just ignore it for now.
+[02:11:10] And I'll show you this later.
+[02:11:13] Anyway, yeah, is there any other question
+[02:11:15] before we leave each other?
+[02:11:16] We've done two big hours of this.
+[02:11:19] I think it was pretty good.
+[02:11:22] And yes.
+[02:11:28] Cool.
+[02:11:29] Well, this is the last campfire.
+[02:11:32] So obviously, I'll still be available to talk
+[02:11:35] about anything if there's anything that comes up.
+[02:11:37] For those who haven't.
+[02:11:38] Please, please, please send me a PM to know
+[02:11:40] what you want to do later.
+[02:11:43] And otherwise, keep sending me stuff on the forums,
+[02:11:48] and I'll gladly answer.
+[02:11:49] I've answered a few.
+[02:11:51] I've seen a few that were really, really cool.
+[02:11:53] I'm really impressed at what you're all able to do.
+[02:11:55] And yeah, I'm super curious to see what you all
+[02:11:59] end up doing for Monday.
+[02:12:00] So yeah, on Monday, we'll have an extra long session
+[02:12:03] to finish this all up.
+[02:12:04] And then yeah, it will be the end of our boot camp.
+[02:12:08] But yeah.
+[02:12:08] I already.
+[02:12:09] Thanks, everyone.
+[02:12:12] Any last questions before we leave each other?
+[02:12:14] Yeah, B.
+[02:12:15] Mm-hmm.
+[02:12:20] All right.
+[02:12:22] Have a good one, and I will see you all on Monday.
+[02:12:24] Bye.
+[02:12:24] Bye, everyone.
+[02:12:25] Thank you.
+[02:12:25] Bye, guys.
+[02:12:27] Thank you.
+[02:12:27] Bye.
+[02:12:28] Thank you.
+[02:12:28] Thank you.

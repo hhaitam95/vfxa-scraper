@@ -1,0 +1,1851 @@
+[00:00:00] Awesome.
+[00:00:06] We have lots of people once again.
+[00:00:07] Great, great, great.
+[00:00:09] Perfect.
+[00:00:10] OK, I'll leave five minutes for people to come in.
+[00:00:14] Yeah, how has it been so far?
+[00:00:16] This week usually is a bit harder.
+[00:00:18] So I expect some people to either have some questions
+[00:00:21] or to have some struggles and possibly break it up
+[00:00:25] so that everyone can learn from it.
+[00:00:27] And then otherwise, usually the week four campfire,
+[00:00:30] I use it to give some feedback and try
+[00:00:32] to give you some direction and have a conversation on where
+[00:00:36] to go, how to structure your work, perhaps
+[00:00:39] how to find ideas.
+[00:00:40] Because here, it's the first time you have to actually
+[00:00:43] decide something.
+[00:00:44] Decide one thing.
+[00:00:45] You can't do everything.
+[00:00:46] So that can always be a bit difficult.
+[00:00:48] So yeah.
+[00:00:51] Yeah, any ideas on that?
+[00:00:52] Anyone who has had some struggles
+[00:00:54] or is looking for some advice?
+[00:00:57] I was going to say, I was working on lightning, of course.
+[00:01:02] Yeah.
+[00:01:03] And so I was like, well, I was practicing from the video.
+[00:01:07] So I'm like, OK, well, I've done the animation of lightning.
+[00:01:10] And we've already gotten feedback before.
+[00:01:13] And I'm like, OK, should I do concept of my animation
+[00:01:18] lightning that I've already done,
+[00:01:20] but do it in a concept form with the feedback I've already
+[00:01:23] gotten?
+[00:01:24] Yeah, I think that's a good question.
+[00:01:25] I think that's a good question.
+[00:01:26] Yeah.
+[00:01:27] Sure.
+[00:01:28] Yeah, I think that's a good idea.
+[00:01:30] So you're talking about the lightning animation you made
+[00:01:33] or the lightning concept?
+[00:01:34] Yes, the animation I made.
+[00:01:38] Because last week, you posted the concept.
+[00:01:43] So the animation is not the big fire, not this one.
+[00:01:49] When did you do the lightning?
+[00:01:51] From the first week, the very first week.
+[00:01:53] I think it's week one, yeah.
+[00:01:54] I will check it out.
+[00:01:55] Zap, boom.
+[00:01:56] And boom.
+[00:01:57] Turning the third strike into a concept.
+[00:02:02] Oh, that was the three strikes that fall, right?
+[00:02:04] Yes.
+[00:02:05] That you were doing.
+[00:02:05] I remember that.
+[00:02:06] Yeah, OK.
+[00:02:07] So this.
+[00:02:13] I can't use this.
+[00:02:14] This.
+[00:02:15] Put you all here.
+[00:02:16] Share the screen.
+[00:02:21] Yeah, this one.
+[00:02:24] OK, yeah.
+[00:02:25] Yeah, I think it would be nice to expand.
+[00:02:26] It would be nice to expand this.
+[00:02:28] I think here what you have is like you have lightning strikes,
+[00:02:31] but you don't have a concept art for an effect that goes
+[00:02:35] into a game of lightning strikes.
+[00:02:36] That's what we're kind of going for.
+[00:02:38] Basically, when you make a concept art,
+[00:02:41] you're looking for something that can be used then
+[00:02:47] by other people, including yourself.
+[00:02:50] So you're looking for something that will communicate
+[00:02:52] the different elements that will let
+[00:02:54] you have a safe environment where you can just
+[00:02:56] dig for ideas, dig for what will work, what won't.
+[00:03:01] So that you worked on your color palette,
+[00:03:03] you work on the different shapes that you want,
+[00:03:05] so that when you go into the game,
+[00:03:07] you already have a plan.
+[00:03:08] You already know.
+[00:03:09] Basically, you see it as your concept art
+[00:03:11] is indeed a pretty painting, but it's also
+[00:03:14] your blueprint for when you're going to work afterwards.
+[00:03:16] So it has a sort of technicality to it.
+[00:03:21] Does that make sense?
+[00:03:23] Yeah, that makes sense.
+[00:03:24] Yeah, I'm thinking like if I'm going
+[00:03:26] to do this, if I turn this one into the third strike
+[00:03:29] is what I want to do right there.
+[00:03:31] If I turn that one into a concept and refine the feedback
+[00:03:36] that you gave me in week one about big, medium, small,
+[00:03:40] and making it look more dimensional,
+[00:03:44] I think doing that and then being
+[00:03:46] able to take and translate this concept into an effect
+[00:03:51] in Unreal Engine would be nice.
+[00:03:54] Awesome.
+[00:03:55] I think that's a great idea then.
+[00:03:56] I think you should take the third one then
+[00:03:58] and start working on that.
+[00:04:00] What I suggest you work on is color gradients.
+[00:04:03] So right now, you're using mostly white and a bit
+[00:04:05] of color on the side.
+[00:04:06] I think you can go a bit deeper on that.
+[00:04:08] Try to have a bit more colors, perhaps color
+[00:04:11] your lightning itself.
+[00:04:13] You can have other elements to it.
+[00:04:14] So think about primary, secondary, tertiary.
+[00:04:18] So the primary is the lightning bolt at the center.
+[00:04:20] It needs to be the thing that's the most prevalent,
+[00:04:22] the brightest, that has the most contrast, the most detail,
+[00:04:24] et cetera.
+[00:04:25] The secondary is dyslexia.
+[00:04:26] It's the arc of lightning that's around it.
+[00:04:29] It needs to feel like it's the same matter,
+[00:04:31] but it feels like an after effect of it, basically.
+[00:04:34] And then the third element, it is some tertiary elements.
+[00:04:38] So some small sparks, some smoke, some ground scorches,
+[00:04:42] anything else you want to add that will basically
+[00:04:44] is the effect of your lightning around.
+[00:04:47] So that's what will help you build the effect,
+[00:04:51] end up with something that's easier to translate into.
+[00:04:55] Yeah.
+[00:04:56] Like with different emitters and stuff like that,
+[00:04:58] I can be like, OK, this is the section of the effect.
+[00:05:01] Yeah.
+[00:05:01] OK.
+[00:05:02] Just try to think about what will look good in your drawing.
+[00:05:07] And try to separate the different elements,
+[00:05:09] but thinking still what looks good,
+[00:05:11] rather than directly thinking, OK, what do I put in?
+[00:05:14] But yeah, still.
+[00:05:15] Yeah, OK.
+[00:05:16] You're correct to keep that in.
+[00:05:20] OK.
+[00:05:21] Awesome.
+[00:05:22] I think that's a great idea.
+[00:05:23] I think it's a great plan to have.
+[00:05:25] Like that lightning strike, I think, is good.
+[00:05:27] It's meaty.
+[00:05:28] It has a bunch of stuff going on.
+[00:05:30] It's just not simple.
+[00:05:31] It has arc around it, et cetera.
+[00:05:33] So I think it will be fun.
+[00:05:34] It has a three-dimensionality to it.
+[00:05:36] It has the lightning strike itself.
+[00:05:37] And it has the circle around it.
+[00:05:39] So that will also help.
+[00:05:40] And if you add a little bit, it has a little bit
+[00:05:42] of anticipation too.
+[00:05:43] So I think that will help.
+[00:05:45] You can either go back to the timing things
+[00:05:47] that we talked about last time, or you can directly
+[00:05:49] make a static 2D concept art.
+[00:05:51] I think that's all.
+[00:05:53] OK.
+[00:05:53] OK.
+[00:05:55] I just don't recommend you do a colored flip.
+[00:05:59] Because that's you're going to miss.
+[00:06:01] That would be crazy.
+[00:06:02] Yeah.
+[00:06:03] Perfect.
+[00:06:04] OK.
+[00:06:05] Nice.
+[00:06:06] Yeah.
+[00:06:07] Any other questions?
+[00:06:09] No.
+[00:06:10] That was good advice.
+[00:06:11] Yee-hee.
+[00:06:13] Anyone else wants to chat about stuff?
+[00:06:15] I have a plan.
+[00:06:16] Otherwise, if anybody wants to talk.
+[00:06:17] But I'm guessing usually people want to.
+[00:06:23] So I've been trying to do some stuff
+[00:06:25] with some GUI explosion stuff.
+[00:06:28] Uh-huh.
+[00:06:29] And it was really a struggle for me.
+[00:06:32] Like, I was doing a big amount of sketches.
+[00:06:35] But it was so hard to keep in mind everything needed.
+[00:06:40] I don't know.
+[00:06:41] It's not a system.
+[00:06:42] Not this one?
+[00:06:43] Yeah.
+[00:06:44] Yeah.
+[00:06:45] It's just an explosion that I did after.
+[00:06:47] Because I was burned out from GUI explosions.
+[00:06:52] Like, it's just a problem.
+[00:06:53] Yeah.
+[00:06:54] Yeah.
+[00:06:55] It's so hard to consider everything needed to do this GUI explosion.
+[00:07:02] Like, I don't understand the shapes.
+[00:07:05] Uh-huh.
+[00:07:06] Can you help with?
+[00:07:07] Yeah, of course.
+[00:07:08] So you're talking about the green GUI explosion, like the one in the last.
+[00:07:11] Yes.
+[00:07:12] Yeah.
+[00:07:13] Yeah, of course.
+[00:07:14] Yeah, yeah.
+[00:07:15] I can try and help with the shape.
+[00:07:16] So for that, print this up.
+[00:07:21] Build.
+[00:07:22] Yeah.
+[00:07:23] Yeah.
+[00:07:24] Yeah.
+[00:07:25] Exactly.
+[00:07:26] So that's what I'm doing.
+[00:07:28] And I'm going to share my screen again because I was .
+[00:07:33] Well, I am going to share .
+[00:07:39] Change the stream to .
+[00:07:44] Excellent.
+[00:07:45] So in this, I'm going to sound.
+[00:07:48] You know that I do this often.
+[00:07:50] So, some of the shapes you're interested in is the green, the green.
+[00:07:54] you're interested in is for the goo, for me,
+[00:07:57] what's the best thing to do is to really think
+[00:08:00] about the shapes.
+[00:08:00] So here, what you have is that we get to see Jason.
+[00:08:06] Great.
+[00:08:10] So what you have here is that you have this kind of like bowl
+[00:08:15] you can see as a primitive, basically.
+[00:08:20] Right?
+[00:08:21] Then you have this outer kind of.
+[00:08:24] Cone, basically.
+[00:08:28] Right?
+[00:08:30] That goes around there.
+[00:08:31] Then in the center, there seems to be
+[00:08:33] like some sort of like spike goes like this,
+[00:08:35] that we can represent more like a sort of like flat extra part
+[00:08:39] that here in the game.
+[00:08:41] But right now for us, it's down.
+[00:08:44] That's a good way to think about it,
+[00:08:45] is to basically decompose it into its primitives.
+[00:08:49] So that could be one way to decompose it.
+[00:08:51] You could decompose it other ways if you wanted to do.
+[00:08:54] But that can be one way to decompose it.
+[00:08:57] For liquids in general, it can be really overwhelming
+[00:09:01] to see all the tendrils of liquid, et cetera,
+[00:09:03] and to ask yourself, how can I possibly do that?
+[00:09:06] So the best way to do it, in my opinion,
+[00:09:07] is to do those primitives, to think,
+[00:09:09] how do you want to break it down?
+[00:09:11] So you could break it down in many different ways.
+[00:09:14] What you could do is that you could say, actually,
+[00:09:16] like my explosion, I want it to be vertical.
+[00:09:20] So for instance, I want it to be first and foremost, a like,
+[00:09:24] like a geyser of like bubbles that go up.
+[00:09:28] And then from there, I want it to have like a wave here.
+[00:09:34] So we're going to do waves that go out.
+[00:09:36] And so that would be like your shape.
+[00:09:38] And you want them to go outward.
+[00:09:41] And that would totally be something
+[00:09:44] that you could want to do instead as an explosion.
+[00:09:46] I think that lasts for a little bit longer.
+[00:09:48] You could have the explosion could be like more of a water
+[00:09:52] drop.
+[00:09:53] So a water drop has usually like some sort
+[00:09:55] of like really high like gooey shape, perhaps,
+[00:09:58] that goes that does a sort of wave,
+[00:10:00] and then like have a little bit of water,
+[00:10:03] and then in the center have this massive gooey ripple
+[00:10:06] like wave shape that's going outward like a ripple.
+[00:10:12] That's also an option.
+[00:10:13] Like there's a bunch of stuff that you could do,
+[00:10:15] like basically vertical and like cylinder always works,
+[00:10:19] which is really solid.
+[00:10:21] You could do as full speed.
+[00:10:22] So you can say actually like my explosion will
+[00:10:25] be some sort of like gooey sphere.
+[00:10:28] So the primitive is really just like an actual sphere
+[00:10:31] that goes like this.
+[00:10:32] And then you could have, let's say, an extra like wave
+[00:10:36] at the bottom of it, like a donut.
+[00:10:38] That's like an extra donut that's around it, like a buoy.
+[00:10:42] So that could mean that, for instance,
+[00:10:44] if we wanted to make it more pretty and fit inside the thing,
+[00:10:48] could have the buoy here, here that goes all the way around.
+[00:10:52] OK?
+[00:10:54] Goes around.
+[00:10:54] And then here you could have like a sort of like bulging
+[00:11:00] like explosion here.
+[00:11:01] So and as we said before, what that means
+[00:11:04] is mostly that then in our explosion,
+[00:11:08] we would just match those.
+[00:11:09] So that would mean that here we would have like some sparkly
+[00:11:13] like bits here that goes around, like tendril that lashes,
+[00:11:19] like goes around it, like that.
+[00:11:20] Like that.
+[00:11:21] Like that.
+[00:11:21] And then we would have a second one.
+[00:11:22] The second one here, that's the sphere that itself is going
+[00:11:26] probably outward like this.
+[00:11:27] So like some tendrils of water that are going there.
+[00:11:31] I move it there and then like there and then
+[00:11:35] like some droplets here, here, here.
+[00:11:38] So you would have this like both in terms of yellow.
+[00:11:43] You would have this like outward motion that goes that way
+[00:11:45] and that way.
+[00:11:46] And then you have this motion that goes that way,
+[00:11:49] for instance.
+[00:11:50] So defining your.
+[00:11:52] Your motion and your primitives is something
+[00:11:56] that will help you a lot then to be able to like decide
+[00:12:00] your shape.
+[00:12:00] That's the first thing.
+[00:12:03] The second thing.
+[00:12:04] So it's basically just like simplifying things first,
+[00:12:07] right?
+[00:12:07] Yeah.
+[00:12:08] But you can just decide some shapes that go well together.
+[00:12:11] Like honestly, if you have like Legos at home
+[00:12:13] or if you have like some sort of like just simple objects,
+[00:12:17] like I don't know, like I know someone that uses toys kids that
+[00:12:22] just like are.
+[00:12:22] Like just round wooden objects and just like assembles them.
+[00:12:26] But you could use anything you want as long as like basically
+[00:12:31] like cubes, spheres, and like cylinders are like the only
+[00:12:38] thing you need.
+[00:12:39] And you just like assemble them until something works.
+[00:12:41] You saw I was just assembling them.
+[00:12:42] Obviously, I have some ideas because I already did lots.
+[00:12:46] But just assemble them, see if it looks good or not
+[00:12:49] with the 3D spheres, with just the shapes that you draw.
+[00:12:51] shapes that you draw.
+[00:12:52] And if it looks good, if you just
+[00:12:54] use it to guide where the water goes, it will probably work well.
+[00:12:59] Basically, you have to imagine that those spheres that you're
+[00:13:02] putting, then your goo, your water,
+[00:13:07] will follow the outer part of it,
+[00:13:11] as if it was running onto the surface of those shapes.
+[00:13:15] So here, my sphere, it would run onto the surface.
+[00:13:17] So that's how I would start with that.
+[00:13:22] It is a first good way to start.
+[00:13:25] And then from there, you can build your different tendrils
+[00:13:28] or different parts.
+[00:13:30] And then from there, you can start working on the hierarchy.
+[00:13:34] So big, medium, and small.
+[00:13:36] Where is the highest contrast?
+[00:13:38] Where are the highest values?
+[00:13:41] That's the first thing you could do.
+[00:13:42] The second thing you can do, that's the first thing.
+[00:13:45] The first technique is just make perspectives.
+[00:13:47] The second technique you can do is start with the bottom.
+[00:13:52] So as Jason is doing here, start with the bottom
+[00:13:56] and work from there.
+[00:13:57] So start with this, basically.
+[00:13:59] And then what you do afterwards is that you say, OK,
+[00:14:03] I'm going to have a circle there.
+[00:14:04] You just draw a circle.
+[00:14:05] And then you're like, OK, I'm going
+[00:14:07] to say that I have this scorch like this.
+[00:14:09] So you draw the first scorch like that.
+[00:14:10] And then you say, OK, now I'm going to draw like,
+[00:14:14] and you draw this completely flat.
+[00:14:16] Then you say, OK.
+[00:14:17] Now I'm going to draw, what do I imagine?
+[00:14:18] This is splatting on here.
+[00:14:20] Then I have like, I'm going to draw some tendrils
+[00:14:23] that are on top of it.
+[00:14:23] OK.
+[00:14:24] So I'm going to draw some tendrils that are in.
+[00:14:26] OK, cool.
+[00:14:26] And then I'm going to draw them with a bit of 3D and et cetera.
+[00:14:30] OK.
+[00:14:30] And then I'm going to say, OK, this is my second shape.
+[00:14:33] Only flat shapes with one flat silhouette.
+[00:14:34] No details, nothing.
+[00:14:36] OK.
+[00:14:36] And then you say, OK, now I'm going
+[00:14:38] to draw a third thing that's going
+[00:14:39] to be basically like this.
+[00:14:40] OK.
+[00:14:41] And you just draw the silhouette.
+[00:14:42] It has to be still like, look liquidy, et cetera,
+[00:14:44] like you did.
+[00:14:45] But you see, those are pretty rough.
+[00:14:47] OK.
+[00:14:48] You draw those three.
+[00:14:48] OK.
+[00:14:49] And you're like, OK, I'm happy with this.
+[00:14:51] Just only the silhouettes of the three of them.
+[00:14:53] Preferably, the background one should be a certain color.
+[00:14:56] The middle one should be another color.
+[00:14:57] The third one should be roughly something from your color
+[00:15:01] palette and mostly dark colors, not bright colors.
+[00:15:04] OK.
+[00:15:04] They need to be the kind of the darkest color.
+[00:15:08] And then from there, you can just
+[00:15:09] have to, you can move them around using the smudge tool.
+[00:15:13] You can adjust it however you want.
+[00:15:16] They're in different layers.
+[00:15:17] So you can move them around or size them around
+[00:15:19] until you're happy with them.
+[00:15:20] And then once you're happy with them,
+[00:15:22] you can start and refine the shapes.
+[00:15:23] So one at a time, you go in and you're like, OK, now I'm
+[00:15:26] going to add a small gradient.
+[00:15:27] But you take your shape and you start saying, OK,
+[00:15:29] I'm going to add a gradient from the center onto the black,
+[00:15:32] the background here.
+[00:15:33] I'm going to say that everything in the center
+[00:15:36] is slightly brighter than everything in the outer.
+[00:15:38] OK.
+[00:15:38] And you do the same for the three of them.
+[00:15:40] And you slowly build your whole effect.
+[00:15:42] You slowly build the different graces of color,
+[00:15:44] the different contrasts until you arrive, you know,
+[00:15:47] arrive to like sharper edges, the different highlights,
+[00:15:51] et cetera.
+[00:15:52] And then you're done with it.
+[00:15:53] So basically, this is building from the shadows.
+[00:15:56] So you build from the shadows.
+[00:15:57] You build the different layers.
+[00:15:59] And then you build up until you're
+[00:16:01] at the end of the process.
+[00:16:02] You should have something that looks good,
+[00:16:03] but feels a bit decomposed.
+[00:16:05] That's where you need to start blending
+[00:16:07] the three different layers, this one, this one, this one.
+[00:16:10] You need to start blending them together
+[00:16:11] by slowly adding some color blends around them, et cetera.
+[00:16:15] But yeah.
+[00:16:17] If you already managed to do the other thing, you'll be fine.
+[00:16:20] One trick there is in goo that I find really, really good,
+[00:16:23] and this one in particular, I think it's really potent,
+[00:16:26] is to the use of like all this goo is basically
+[00:16:30] this sharp edge like that.
+[00:16:32] OK.
+[00:16:32] But there is this fuzzy part like here that you can see.
+[00:16:36] OK.
+[00:16:36] Like those kind of shapes.
+[00:16:38] Those are really potent.
+[00:16:39] What they do is that basically you
+[00:16:40] can see how they fuzzy out the edges here, for instance.
+[00:16:43] That is really powerful because what it does is that it gives
+[00:16:47] you a tool to basically fuzzy out the edges wherever you want.
+[00:16:50] And then that means that suddenly if this edge is fuzzy,
+[00:16:53] this one becomes way more prominent.
+[00:16:55] So the eye is looking here first.
+[00:16:57] So it's this kind of vapor, like some small micro particle
+[00:17:02] of goo in the air, of liquid in the air,
+[00:17:05] is actually really good at softening up
+[00:17:17] and softening the shape around.
+[00:17:18] Sorry.
+[00:17:23] Yeah.
+[00:17:24] Anyway, softening the shapes around.
+[00:17:26] I hope that you can see it, or at least
+[00:17:28] that it's pretty visible.
+[00:17:29] But that's a really good tool to kind of at the end
+[00:17:32] when you have everything that's kind of feels crisp,
+[00:17:34] to start refining your shape and adding some volume.
+[00:17:38] Does that answer your question?
+[00:17:40] Yeah, and it kind of adds like a dimensionality.
+[00:17:44] Yeah, exactly.
+[00:17:46] What's in front?
+[00:17:46] OK.
+[00:17:46] of you and what's in back exactly that yeah okay thank you yeah you're welcome all right uh what
+[00:17:58] else who is that i wanted to ask a additional question to this one uh like uh for the
+[00:18:10] kind of diffused shapes uh do you start with uh heart shapes and then smudge them like
+[00:18:16] say we're talking about 2d for now uh just to just to uh like keep mindful of the shapes because
+[00:18:27] for myself i find that if i start with the soft brush to begin with it tends to uh to be kind of
+[00:18:36] like direction lessons i find it hard to to kind of keep in mind the the shapes that i'm making
+[00:18:45] yeah okay
+[00:18:46] it's a very neat love of drawing that um
+[00:18:49] i don't usually start with something i find that some brushes are used afterwards to kind
+[00:18:55] of like add some subtlety but i usually start with um a pretty rough pretty large brush
+[00:19:02] and then i just carve some shapes from there uh i usually go and erase and put it backward
+[00:19:08] in front i work almost only with silhouettes like with one color silhouette i rarely work with like
+[00:19:14] black and white as in the the thumbnail exercise
+[00:19:16] like with one color, one silhouette,
+[00:19:18] either there's color or there's not, and that's it.
+[00:19:21] A crown that's like a gray tone, my silhouette
+[00:19:23] is usually a slightly darker gray tone,
+[00:19:26] and then I work with that.
+[00:19:27] That's usually how I like it.
+[00:19:28] Because I think that actually if the silhouette that you have
+[00:19:31] around is good, then everything will work out.
+[00:19:35] Because the color, it's not that difficult
+[00:19:39] to make a gradient inside the shape,
+[00:19:41] but the silhouette is hard to get.
+[00:19:42] And if you don't have a good silhouette,
+[00:19:44] it's hard to fix afterwards.
+[00:19:45] And then do you smudge the silhouettes
+[00:19:48] to get the soft shape, or do you?
+[00:19:51] I usually carve it, but I do smudge it first time, yeah.
+[00:19:55] Carve with a soft brush?
+[00:19:58] With a hard brush mostly.
+[00:20:00] I do my silhouettes a lot with a hard brush.
+[00:20:02] Yeah, but say you want to have a smoky, you know, soft.
+[00:20:06] A smoky feel?
+[00:20:07] Yeah.
+[00:20:09] I'll use a soft brush then to carve through it
+[00:20:12] and to break it.
+[00:20:14] But usually my silhouettes, I'm not
+[00:20:15] going to do that.
+[00:20:16] So I'm going to do a soft brush.
+[00:20:18] And then I'm going to make a gradient.
+[00:20:20] If I want to make a soft edge, I'll
+[00:20:22] use very, very soft.
+[00:20:24] I'll make it very soft.
+[00:20:26] But that said, I think that my art style and the way
+[00:20:29] I do things, very often I use a lot of hard edges.
+[00:20:34] But I would argue that there is hard edge and there's hard edge.
+[00:20:37] There's two different types.
+[00:20:38] If you look at the video here, there's
+[00:20:44] this hard edge here.
+[00:20:45] It's super hard, right?
+[00:20:46] Like this one too.
+[00:20:47] Those are super hard.
+[00:20:48] Those are really, really rough.
+[00:20:49] OK?
+[00:20:50] This hard edge looks the same hardness,
+[00:20:51] but I think it's actually a bit more fuzzy, for instance.
+[00:20:53] And if you go to other ones, you can go even fuzzier.
+[00:20:56] I think this, for instance, is not as hard.
+[00:20:58] It looks a bit more fuzzy.
+[00:20:59] There's like a little bit more fuzziness,
+[00:21:01] even though if you would consider this clearly a hard edge.
+[00:21:04] So what I think is that in general,
+[00:21:06] by making an edge completely hard or half hard,
+[00:21:11] you're going to get a little bit more fuzziness.
+[00:21:13] But if you make an edge half hard,
+[00:21:16] you can really make a difference in the feeling.
+[00:21:18] An edge that's extremely hard is going
+[00:21:20] to be really, really visible.
+[00:21:21] And just the subtlety of a tiny bit less hard is really good.
+[00:21:25] What I like doing for that is I like layering that.
+[00:21:30] So how this works is that I'm going to draw something like
+[00:21:32] this, OK?
+[00:21:34] And then so specifically only one color.
+[00:21:37] It's really important that it's only one color.
+[00:21:40] And then from there, I will add an outer glow
+[00:21:43] that's like just really hard edged.
+[00:21:45] I'll add an outer glow that's exactly the same color, 100% opacity.
+[00:21:48] That's the amount of my edge that I want.
+[00:21:52] So that will fuzzy out all the edges uniformly
+[00:21:56] across my whole shape.
+[00:21:57] And then from there, I'll just save that.
+[00:21:59] I'll just keep it in a layer on the side.
+[00:22:01] And then I'll paint on top of it the extra hard edges that I want.
+[00:22:07] That's something I use in particular for like lightning,
+[00:22:09] if I want that, or for smoke.
+[00:22:12] I find it really useful.
+[00:22:13] Because smoke, I find that if you want some nice,
+[00:22:15] billowing smoke, you can't have it hard edged.
+[00:22:17] You need to have some sort of softness to the edges.
+[00:22:20] So I find that actually in smoke, it's really useful.
+[00:22:22] And it guarantees that you're going
+[00:22:24] to have a homogeneous fading, which sometimes people call it
+[00:22:28] feathering, around the edge that I find really useful.
+[00:22:33] Just that's the technique that I like because it's fast.
+[00:22:36] And it's good in my workflow.
+[00:22:37] But you could do it.
+[00:22:39] So once again, you do like a hard edge.
+[00:22:42] You do like a hard silhouette.
+[00:22:44] And add, yeah, maybe it's.
+[00:22:47] Yeah, don't worry.
+[00:22:48] Yeah, I think it's easier.
+[00:22:49] And that's the point of the campfire is that I can show stuff.
+[00:22:53] Still, there's still lots of.
+[00:22:56] Poop, poop, poop, poop, poop, poop, poop, poop.
+[00:22:59] Excellent.
+[00:23:01] New.
+[00:23:04] Sure.
+[00:23:05] OK.
+[00:23:07] G.
+[00:23:10] Let's see.
+[00:23:11] This?
+[00:23:12] So what I'm usually going to do is the following.
+[00:23:16] It works.
+[00:23:17] So size, hardness.
+[00:23:21] I usually go to a bunch of hardness.
+[00:23:24] And then I say, OK, I want my shape to be like, OK, I'm going.
+[00:23:27] Oh, yeah.
+[00:23:28] I almost always work with the opacity and then both the opacity.
+[00:23:36] The size of the brush, the pen pressure.
+[00:23:41] Just go over the amount of the brush.
+[00:23:42] Just go over the opacity.
+[00:23:44] On this one, you want the brush to along.
+[00:23:47] That's z.
+[00:23:48] tasc denominator.
+[00:23:49] wounds down does observed.
+[00:23:51] And the lines used is a regular space.
+[00:23:54] And this is Новокузнец.
+[00:23:54] Gives you a sad image.
+[00:23:55] and I disappear.
+[00:23:56] And running part, here.
+[00:24:03] , like a comic book.
+[00:24:05] One here.
+[00:24:06] And I just go over.
+[00:24:08] the opacity.
+[00:24:09] Excellent. Okay. So I would do something like brush, something like this, where I would do
+[00:24:20] some smoke, smoke, smoke, and some smoke here. And then I'll be happy with the smoke, let's say.
+[00:24:26] And then I would say, okay, here, I'm going to say outer glow. I'm going to say that this
+[00:24:32] outer glow is exactly this color. Okay. And then I'm going to say that its blend mode is normal
+[00:24:39] because the white screen is basically glowy. And I'm going to say that the opacity is 100%.
+[00:24:43] And then here I can do the spread as much as I want. No, not the spread, the size as much as I
+[00:24:48] want. So here it's going to be fully fuzzy. And here it's going to be fully hard. And then if I
+[00:24:53] do it a tiny bit, I can get the fade that I want, basically. And then, so I'm going to do this,
+[00:24:58] for instance, make it okay. And then from there, I can say, actually, now that I,
+[00:25:02] I'm pretty happy with that, I'm going to add a tiny bit to it. I'm going to say that I want this
+[00:25:07] part to be a bit, like a bit more there. Here, I want this part to be real, real rounded. Here,
+[00:25:12] I'm going to add the tiny bits to it. And then here, I already have a bit of gradient between
+[00:25:15] the fuzzy or not. So that's like, that can be one technique. And then the bottom, keep going.
+[00:25:20] And then the last thing I would do, probably, I would go back to like this, or those, I might
+[00:25:26] like just fuse them together once I'm happy with them. And then from there, I might duplicate them
+[00:25:31] before. So I have,
+[00:25:32] it's not destructive. Then one technique that I like using is erase. No. And then I'm going to say
+[00:25:42] that I want it to be not hard at all and super big. So what I can do then is, it feels hard still.
+[00:25:52] What I can do then is just come in here and slowly,
+[00:25:58] because I'm in the right layer, slowly
+[00:26:02] erase my shape until I have something that feels smooth on the bottom. And I like, that's, that's
+[00:26:08] usually how I'll do things. And here I have a shape that I'm pretty happy with. If I was to change
+[00:26:12] the background to like, like a darker color, for instance, like this, I think that this looks like
+[00:26:22] pretty much like a smoke I would, I would want to use for instance. So I think this,
+[00:26:31] uh,
+[00:26:31] I,
+[00:26:32] I,
+[00:26:32] I,
+[00:26:32] I would probably erase it until it's completely transparent down there. I, you can go with something
+[00:26:36] slightly smaller if you want. Yeah. Cool. And then here, like, I'm, I'm pretty happy with that. I think.
+[00:26:42] Yeah. And so from there you can just work without, uh, I think that's a technique I like to use.
+[00:26:48] Does that make sense?
+[00:26:51] Yeah, for sure. For sure.
+[00:26:52] And then the smudging technique that I was talking about that I like is my smudge.
+[00:27:02] Uh, the smudging technique, it's mostly like here, you just fade it out when you do that. Like you can just wiggle it, wiggle the shapes until they're faded to your, to your desire that adds, that makes it less uniform, that adds some interest to it.
+[00:27:16] And then otherwise, if you put this less strength, less as big, you can come and kind of like smooth out the shapes too, to make sure that they're puffier and rounder. You lose a bit of the opacity, but you could really make the shapes like more, more round, basically.
+[00:27:31] Yeah.
+[00:27:31] Yeah.
+[00:27:31] If you wanted to.
+[00:27:32] And then, uh, there's a way to sharp too, um, by adding some strength until you're happy with the strength. If you go to strength maximum, you, you really, really will smudge it. But if you take the, if you take the whole shape, you just bring it up, you might, you can kind of.
+[00:28:01] Smudge away some of the geometry.
+[00:28:05] Yeah, yeah.
+[00:28:05] Off the top of.
+[00:28:05] the
+[00:28:26] So, yeah, any other question on it.
+[00:28:28] Well, I'm happy to show, show political.
+[00:28:31] For my feedback, you mentioned something about follow through.
+[00:28:34] Like I know I didn't do a lot of that in my animation
+[00:28:39] because I was trying to get the hang of doing different elements.
+[00:28:43] But can you maybe pick one of my animations
+[00:28:47] and do a follow through on it?
+[00:28:49] Sure.
+[00:28:50] Yeah, yeah, of course.
+[00:28:51] I can do that.
+[00:28:52] It's fresh on my mind.
+[00:28:53] I just talked about it.
+[00:28:55] Jen, this one, best example, I think.
+[00:28:58] Let's do screen.
+[00:29:01] Recorder.
+[00:29:14] And then, OK.
+[00:29:19] So what we can do here that we can see already.
+[00:29:23] So this is, I think, the most interesting to analyze.
+[00:29:31] It goes.
+[00:29:31] It's all the way to this one.
+[00:29:34] OK.
+[00:29:34] So we have it here.
+[00:29:35] So the animation here is poof and then falls.
+[00:29:42] OK, so here, one of the main issues you're having
+[00:29:44] is that you have this part that falls.
+[00:29:46] It's great.
+[00:29:47] The smoke is going this way.
+[00:29:50] OK?
+[00:29:51] And then as you go, it reaches this spot.
+[00:29:54] And then from here, it doesn't move anymore.
+[00:29:56] And even it moves backwards.
+[00:29:58] Like those shapes, they stopped.
+[00:30:00] They had some motion.
+[00:30:01] Then they.
+[00:30:01] Suddenly stopped moving.
+[00:30:04] Here, they're just not moving anymore.
+[00:30:06] Right?
+[00:30:07] Yeah.
+[00:30:08] Yeah.
+[00:30:08] So in this motion, in my opinion, what you can do.
+[00:30:12] And also, like your leading edge here,
+[00:30:14] you can see that you started.
+[00:30:17] It's good with this tool.
+[00:30:18] Also, draw and it shades.
+[00:30:20] Like you start here.
+[00:30:22] Then the next frame.
+[00:30:24] Then the next frame, you're like barely here.
+[00:30:27] Then the next frame, you're barely here.
+[00:30:30] And then the next frame, you have.
+[00:30:31] A giant gap.
+[00:30:33] OK?
+[00:30:33] OK.
+[00:30:34] Yeah.
+[00:30:34] And then after that, you're like back to being slow.
+[00:30:38] And then you're back like here.
+[00:30:39] Like at this point, you're going backwards.
+[00:30:41] And yeah.
+[00:30:43] So overall, you can clearly see from the spreading
+[00:30:45] that you don't quite have.
+[00:30:48] Like if you were to draw a motion onto your shape,
+[00:30:51] let's take the one that's the most visible.
+[00:30:53] You're kind of going like this.
+[00:30:56] But I think in a.
+[00:31:00] You're.
+[00:31:00] Since.
+[00:31:01] You start already here.
+[00:31:02] If your motion went like that, then draw in another.
+[00:31:05] That.
+[00:31:09] If your motion is like this, then like already this shape
+[00:31:12] is the direction of that shape is like that doesn't work.
+[00:31:15] But even then, if you were going that way,
+[00:31:17] so that means that your leading edge is here.
+[00:31:20] Then your leading edge is here.
+[00:31:22] Then it's.
+[00:31:26] Like kind of like here already, if that's the motion.
+[00:31:30] Yeah.
+[00:31:31] And then after that, it just stops.
+[00:31:34] It doesn't move anymore.
+[00:31:35] Yeah, it's just always at the same spot.
+[00:31:37] And so you can see how basically what I suggest you do is for those
+[00:31:42] to solve this problem, just draw a line that you think
+[00:31:45] is the motion.
+[00:31:46] And then on that line, just give it like the beats of it.
+[00:31:50] And then just make sure that your smoke, however you draw it,
+[00:31:54] always ends up like the leading edge of it
+[00:31:57] just ends up at that point.
+[00:31:59] I think that's.
+[00:32:00] OK.
+[00:32:01] That's the motion.
+[00:32:01] Yeah, cool.
+[00:32:03] Yeah.
+[00:32:04] Follow through technically is when you do like when you have a cube.
+[00:32:09] OK, the first frame of your thing, you have a cube.
+[00:32:13] You have a cube.
+[00:32:16] OK, that's the first frame.
+[00:32:17] Second frame is like your cube like goes here.
+[00:32:21] OK, and then the third frame is since it's supposed to stop here,
+[00:32:25] let's say.
+[00:32:25] OK, so the third frame would be like that.
+[00:32:28] It actually like leans a tiny bit further.
+[00:32:31] Like with perhaps a little angle.
+[00:32:33] And then it would come back then.
+[00:32:37] And then it goes back a little bit.
+[00:32:39] Yeah.
+[00:32:39] The little extra here is what we call follow through.
+[00:32:41] Basically at the end of a motion,
+[00:32:43] you need to say that motion is not quite ended.
+[00:32:48] There's still a little bit of it.
+[00:32:49] In VFX, specifically in games, follow through
+[00:32:53] is used in this like not exactly in the animation principle way,
+[00:32:58] but it's used for anything that you're
+[00:33:01] supposed to have some motion and loses it artificially.
+[00:33:03] You don't know why.
+[00:33:04] So basically if there's an impact, if there's a flash,
+[00:33:08] if there's a hit, if there's something like that,
+[00:33:10] there needs to be something that represents the continuation
+[00:33:13] of the motion until it finishes.
+[00:33:14] Because oftentimes, what's VFX?
+[00:33:16] VFX oftentimes is a sudden amount of energy
+[00:33:19] that arrives somewhere, does something, and then dissipates.
+[00:33:22] Because that's how game VFX works.
+[00:33:26] It's usually something that's timely and then
+[00:33:28] needs to go away at some point.
+[00:33:31] Yeah.
+[00:33:32] Yeah, that makes sense because then it makes it feel like it's
+[00:33:34] more alive, I guess.
+[00:33:36] Like more weight to it.
+[00:33:39] Yep, exactly.
+[00:33:42] Yeah.
+[00:33:43] Oh, thanks.
+[00:33:44] Yeah, it gives it more weight.
+[00:33:45] Yeah, exactly.
+[00:33:46] But it is used like so the follow through normally gives it
+[00:33:50] more weight.
+[00:33:50] But here in particular, we're talking about just motion
+[00:33:54] itself because something that moves and then stops
+[00:33:57] immediately feels really unnatural.
+[00:33:59] And so it's going to like bother.
+[00:34:00] It bothers the brain.
+[00:34:01] The brain is like, no, no, it's not realistic.
+[00:34:03] It doesn't work.
+[00:34:04] Yeah, yeah.
+[00:34:05] There's definitely a lot of those in my loops.
+[00:34:07] I was like, there's definitely something missing here.
+[00:34:09] And I'm going to get to it when I pick a final.
+[00:34:12] I can tell you, most of your shapes, most of the flipbooks
+[00:34:18] that you made so far, the main issue is this.
+[00:34:22] It's the leading edge.
+[00:34:23] And I would say the beat, perhaps.
+[00:34:25] But even then, the motion is the main issue.
+[00:34:28] Yeah.
+[00:34:29] Yeah.
+[00:34:29] Yeah.
+[00:34:30] Yeah.
+[00:34:30] I think this smoke that we're analyzing,
+[00:34:31] I think the beat is pretty good.
+[00:34:33] Like one, two, three, one, two, three.
+[00:34:35] It just works well.
+[00:34:36] So I think it's just this leading edge that
+[00:34:38] creates what's called flickering, which
+[00:34:40] is like the different moments when the frames don't quite
+[00:34:43] match, the leading edge doesn't quite match.
+[00:34:44] And so it feels like jarring to follow.
+[00:34:47] I think that's the only thing that's missing.
+[00:34:49] That's what I have an idea in my head.
+[00:34:53] But then when I execute it, I'm like,
+[00:34:54] there's something wrong here.
+[00:34:56] And I'm still trying to identify how to fix it.
+[00:35:00] Yeah.
+[00:35:01] Yeah.
+[00:35:01] That's fair.
+[00:35:03] I feel you.
+[00:35:04] I'm giggling because I know the feel.
+[00:35:07] I wanted to show you something else.
+[00:35:10] Just once again, the ancestral art
+[00:35:14] of making sounds with your mouth.
+[00:35:17] On this one in particular, you have this.
+[00:35:20] You see how the beat is one, two, three, one, two, three,
+[00:35:24] one, two, three, one, two, three.
+[00:35:26] It's very paced, right?
+[00:35:28] The smoke goes from blam.
+[00:35:30] Then you have the expanding smoke.
+[00:35:31] And then you have the dissolving smoke.
+[00:35:33] And they're very cut.
+[00:35:34] They're very separated.
+[00:35:35] It's very obvious that they're like,
+[00:35:39] it's like there's three motions that are one after the other.
+[00:35:43] And especially since the rock itself,
+[00:35:45] it just falls on the floor.
+[00:35:47] And that's it.
+[00:35:47] I think that here you could really snap it out
+[00:35:50] by saying, OK, one, two, three.
+[00:35:54] So perhaps the ball can fall really hard.
+[00:35:56] And then the smoke can, at the end when the smoke moves,
+[00:35:59] it can.
+[00:36:00] Move like way slower.
+[00:36:01] So for instance, we could reframe this.
+[00:36:05] So the ball I'm not going to touch
+[00:36:07] because it's annoying to touch on the,
+[00:36:09] like to reframe because you would need like a big spike
+[00:36:12] or something like that.
+[00:36:13] But we could have touched it.
+[00:36:17] So let's say that the ball still falls.
+[00:36:19] So here what we would want to do is basically accelerate
+[00:36:22] the moment where we have the spike here.
+[00:36:25] So here we're going to remove.
+[00:36:27] I know this one, there was only one.
+[00:36:29] This one we're going to keep.
+[00:36:30] We're going to remove the double frames here.
+[00:36:33] And then starting here, we're going
+[00:36:35] to add one frame from each.
+[00:36:36] So we're going to say here, we can remove this one.
+[00:36:46] You already did a bit of that, I think.
+[00:36:48] I think that you can really exaggerate it.
+[00:36:51] Like usually when that's the problem,
+[00:36:53] you can just exaggerate more and more and more.
+[00:36:57] Yeah, and try it out.
+[00:36:59] By the way, when you work, you can just use screen2gif
+[00:37:02] to reframe stuff.
+[00:37:04] See if it works and put it back into your.
+[00:37:09] Are you streaming the thing that you're doing?
+[00:37:11] Or?
+[00:37:12] No, I'm silly.
+[00:37:13] Yes, I didn't change it.
+[00:37:14] Sorry.
+[00:37:16] Yeah, sorry.
+[00:37:17] I just duplicated the frames here.
+[00:37:20] So I removed the frame, one frame from this,
+[00:37:22] one frame from this.
+[00:37:23] So those are now one frame.
+[00:37:26] And then here I added one frame.
+[00:37:28] Here I added one frame.
+[00:37:29] So here I added two frames on the small ones.
+[00:37:31] And here I added two frames again.
+[00:37:33] OK?
+[00:37:34] OK.
+[00:37:36] So how this works is that I'm just
+[00:37:38] accelerating the middle part and I'm pushing down the other one.
+[00:37:47] What I want to do is.
+[00:37:50] And you see already it has more impact.
+[00:37:52] So here probably I should increase the FPS
+[00:37:55] or something like that.
+[00:37:56] You can already see that it has more.
+[00:37:57] Oh, try and switch the.
+[00:37:58] Oh, yeah.
+[00:37:58] I'm silly.
+[00:37:59] Yeah.
+[00:37:59] It doesn't.
+[00:38:00] Not everything is in the same thing.
+[00:38:02] Why?
+[00:38:02] I'm just like, just.
+[00:38:06] Which one is it?
+[00:38:10] Yeah.
+[00:38:11] OK, yeah.
+[00:38:13] So you see it already has more impact.
+[00:38:14] The last part I think we can accelerate.
+[00:38:17] But it goes fast in the middle.
+[00:38:19] Like if you were in a slide and it goes down the slide
+[00:38:22] and then back up and then down the slide and back up.
+[00:38:25] Down the slide.
+[00:38:25] That's like the motion you're doing.
+[00:38:28] For instance.
+[00:38:28] Yeah.
+[00:38:29] You could do something else.
+[00:38:30] You could be like, it falls hard and then the whole smoke
+[00:38:33] just takes some time to come up and then just fizzles away
+[00:38:38] in a gust of wind.
+[00:38:40] That could work too.
+[00:38:40] And so then it would be slow, fast, slow.
+[00:38:43] Yeah.
+[00:38:44] It makes such a difference just like how much
+[00:38:49] when you change the timing on everything.
+[00:38:50] And I know that's something that I still need to work on.
+[00:38:54] But yeah.
+[00:38:55] Yeah, don't worry.
+[00:38:56] It's always fun to see that.
+[00:38:58] I think reframing stuff to exaggerate.
+[00:39:01] You see I added lots of frames.
+[00:39:03] I actually was generous with the amount of frames.
+[00:39:05] You can really go and add.
+[00:39:07] Sure, it makes it a bit choppy here.
+[00:39:09] But it's not really a problem.
+[00:39:12] You could probably go in and smooth it out, right?
+[00:39:14] Yeah.
+[00:39:14] You could go in and smooth it out.
+[00:39:15] I usually go back and add words if I need to.
+[00:39:19] Yeah.
+[00:39:19] But I think that's a good idea for me.
+[00:39:23] Because I think that's where I get stuck on.
+[00:39:25] I think it looks choppy.
+[00:39:27] But I don't really think about going in to smooth out the frames
+[00:39:30] by just adding a little bit more.
+[00:39:34] The choppy probably comes from the leading edge that you did.
+[00:39:37] So I suggest that you work first on the edge.
+[00:39:39] And then you work on the choppy afterwards.
+[00:39:42] OK.
+[00:39:42] But you add some frames afterwards, basically.
+[00:39:44] Yeah.
+[00:39:45] Especially on the end.
+[00:39:46] When you have the little bubbles like that,
+[00:39:47] it's so easy to just dot, dot, dot, dot.
+[00:39:49] OK, I'm done.
+[00:39:50] I added some extra stuff.
+[00:39:53] Yeah, that makes sense.
+[00:39:55] Cool.
+[00:39:55] Thanks.
+[00:39:56] Yeah.
+[00:39:57] Any other question anyone else wants to come up and ask them?
+[00:40:02] I do have a question about my most recent little flipbook
+[00:40:06] that I made.
+[00:40:07] I was trying to do some either prompt with snow.
+[00:40:11] And I really could not figure out how to get snow.
+[00:40:14] So I just did ice and a little bit of snow.
+[00:40:17] And I felt like I don't know.
+[00:40:20] Something was missing at the start up.
+[00:40:22] It didn't feel very impactful.
+[00:40:23] And I didn't know.
+[00:40:24] I tried messing around with the timing and making it.
+[00:40:27] So like the one frame before the big icicle,
+[00:40:30] or another try two.
+[00:40:32] I don't know.
+[00:40:32] It just doesn't quite feel right.
+[00:40:34] I wasn't sure why.
+[00:40:34] OK.
+[00:40:35] Yeah, that's fair.
+[00:40:36] That's fair.
+[00:40:36] OK.
+[00:40:38] Let me open that up.
+[00:40:40] So this one, right?
+[00:40:44] This one.
+[00:40:45] Yeah, and I did.
+[00:40:46] I think this slowed down version looks a lot better.
+[00:40:49] It's going to be so much easier.
+[00:40:50] I was doing the 16 frame flipbooks.
+[00:40:53] And I've realized I try and stuff too much into 16 frames.
+[00:40:56] Yeah.
+[00:40:57] I think I usually end up doing like two actions.
+[00:41:00] And then I have to slow it down.
+[00:41:02] Perfect.
+[00:41:03] I mean, the 16 frames are there also
+[00:41:05] to keep you down, to make sure that you don't go overboard
+[00:41:09] with the scope.
+[00:41:10] So that's great.
+[00:41:13] Perfect.
+[00:41:13] Yeah.
+[00:41:14] So what do you want to know about this?
+[00:41:15] The snow specifically?
+[00:41:17] The icicle appearing, it felt kind of weird.
+[00:41:20] I don't know.
+[00:41:20] I wasn't sure.
+[00:41:21] Like it didn't feel very impactful.
+[00:41:23] Yeah.
+[00:41:24] OK, that's fair.
+[00:41:25] So one thing you can do is.
+[00:41:27] Squash and stretch.
+[00:41:27] Just make the icicle slightly bigger.
+[00:41:29] One trick you can do for it to not look gooey,
+[00:41:32] but still look hard is to have it basically adjust
+[00:41:35] the specific, like one of the icicles at the end.
+[00:41:38] Like basically they come out in slightly different speeds
+[00:41:42] basically.
+[00:41:43] Or like they all come out at the same time,
+[00:41:45] but they finish adjusting their shapes,
+[00:41:47] like their position just at the end.
+[00:41:50] As if like there was this big burst, but at the end
+[00:41:52] they're still kind of adjusting.
+[00:41:53] So this lets you do both the squash and stretch.
+[00:41:57] While keeping it really hard.
+[00:42:00] Does that make sense?
+[00:42:02] Yeah, because I guess that's like a little bit
+[00:42:03] of like a little tiny bit of follow through.
+[00:42:06] Yeah, exactly.
+[00:42:07] Yeah.
+[00:42:08] Yeah, exactly that.
+[00:42:09] So I think that could help a lot with the impact.
+[00:42:11] And then the other thing you can do,
+[00:42:13] which I see a lot of people do, is let's do better
+[00:42:27] with the impact.
+[00:42:28] Let's grab that.
+[00:42:28] Record.
+[00:42:31] Stop.
+[00:42:38] So what we can do here is that we can say, when you have this,
+[00:42:42] so you start with this little one.
+[00:42:44] So already one thing that you can do for impact
+[00:42:46] is rather than like doing little branches there that go out,
+[00:42:50] one thing that you can do is like really be bold
+[00:42:52] with that shape.
+[00:42:52] This shape, we don't see it much.
+[00:42:54] We don't need a lot of detail.
+[00:42:55] All you need is this shape to be.
+[00:42:56] It's really bold and really obvious what it does.
+[00:42:59] So if the shape here is this, then all you need
+[00:43:02] is a giant spike, like a giant raw spike that's
+[00:43:08] in the middle here.
+[00:43:09] That feels just really, really bold.
+[00:43:12] And then you can barely have like represents those two
+[00:43:16] if you want to.
+[00:43:16] But that's like the idea.
+[00:43:19] And then you just have that one as a first frame.
+[00:43:21] If you have it like really better drawn,
+[00:43:24] because it's not crappy software,
+[00:43:26] but yeah, you can really have like something that feels like.
+[00:43:31] This in the animation will actually
+[00:43:33] feel better than like four little spikes on the side.
+[00:43:36] Because the eye doesn't have the time to see everything.
+[00:43:39] All you see is like basically a blob around-ish.
+[00:43:45] It's like a capsule basically when
+[00:43:49] you look at it from fast, far, and good.
+[00:43:55] But yeah.
+[00:43:56] I like that you put the little edges here.
+[00:44:01] I think they look good.
+[00:44:02] I totally forgot to erase them though.
+[00:44:04] Yeah.
+[00:44:04] I was going to say, what you can do
+[00:44:07] is that you can be like little, and then like after a few frames
+[00:44:11] you remove them.
+[00:44:11] Or you have them go slightly further,
+[00:44:14] and then you just dissolve them after.
+[00:44:15] I think that was definitely the intent
+[00:44:18] that I just completely forgot about.
+[00:44:19] I got lost in the sauce.
+[00:44:21] Yeah, I understand.
+[00:44:23] And then the last thing you can do is like when it comes out,
+[00:44:25] you have this like.
+[00:44:26] You have this like hazy fog that just comes out with it,
+[00:44:29] around it.
+[00:44:30] Like just like not very hard edge that comes out with it,
+[00:44:33] and dissipates over like one or two frames.
+[00:44:35] It just like goes.
+[00:44:36] Like it starts really hard, and then it fuzzies out as it goes
+[00:44:40] into this like smoke.
+[00:44:42] Usually when we represent ice, especially in games,
+[00:44:45] there's going to be a little smoke of cold,
+[00:44:48] like a little aura of like faded cold around it.
+[00:44:53] And that helps a lot to give the sense that, A, this is,
+[00:44:56] like, very cold.
+[00:44:57] And two, this is like kind of powerful.
+[00:45:00] And it also gives you something to animate around your shape.
+[00:45:02] Because usually ice just comes out in one go, and then it's done.
+[00:45:05] And then you're like, OK, what do I do now?
+[00:45:07] So that's also a good thing that you can do.
+[00:45:10] I have no idea.
+[00:45:12] How would you do that?
+[00:45:13] Because I guess maybe when I go look at the Photoshop lectures
+[00:45:17] where he had the poison cloud, because that
+[00:45:19] was looking very similar to like how I'm imagining it.
+[00:45:22] Yeah.
+[00:45:23] So how would you do that?
+[00:45:25] You can do the poison cloud.
+[00:45:26] Yeah.
+[00:45:26] I suggest that you look for references for steam,
+[00:45:31] because it's going to be kind of similar, and it will look so.
+[00:45:41] And then anime steam, for instance.
+[00:45:49] Close.
+[00:45:50] So you can do that.
+[00:45:51] And then you can do the
+[00:46:06] Basically very energetic, I want to steam stuff.
+[00:46:11] This is the coolest website, by the way.
+[00:46:13] I'm definitely writing this down.
+[00:46:15] Yeah.
+[00:46:16] Oh, yeah.
+[00:46:16] is like the ultimate place that you can have.
+[00:46:19] Yeah.
+[00:46:20] Is there some steam stuff?
+[00:46:21] So do you see those like jets like that?
+[00:46:24] That's usually pretty good, but let's try and find.
+[00:46:26] Yeah, OK.
+[00:46:26] So jets like that.
+[00:46:27] This will help you a lot.
+[00:46:29] Like basically, this is the kind of shape
+[00:46:30] that you're looking for.
+[00:46:31] Which means by like the softness too, yeah.
+[00:46:34] Yeah.
+[00:46:34] So it starts hard like that, and then it goes quickly to like,
+[00:46:37] it starts hard, and then it quickly fades out
+[00:46:40] to more softer shapes.
+[00:46:41] So the thing on the ground here, it starts hard,
+[00:46:44] and then it goes down to like softer stuff.
+[00:46:46] This film, by the way, if nobody has ever seen it, it's like,
+[00:46:49] a really, really impressive thing.
+[00:46:50] This film has incredible VFX reference for absolutely
+[00:46:52] everything you want.
+[00:46:53] So I suggest watching it.
+[00:46:55] It has kind of all the elements in all the ways possible,
+[00:46:58] and it's really good.
+[00:47:02] Yeah.
+[00:47:02] Oh, it's from Steam Boy.
+[00:47:04] Careful, Steam Boy.
+[00:47:05] Yeah, Steam Boy, yeah.
+[00:47:07] Yeah, it's pretty easy to remember.
+[00:47:09] But yeah, OK.
+[00:47:10] That's the thing I would do.
+[00:47:11] The second thing I would do for spikes, for ice spikes like that
+[00:47:15] is working with like the particles that you use.
+[00:47:18] I think a really good idea in general,
+[00:47:20] like when you have ice that comes out,
+[00:47:21] like little shards, little spikes,
+[00:47:23] there's lots of little different elements
+[00:47:27] that you can work with to bring your smoke to life.
+[00:47:30] And I think that's a really good idea.
+[00:47:31] I see what you tried to do with the arrow kind of cutting
+[00:47:34] through it.
+[00:47:34] I don't think it quite works with the amount of frames
+[00:47:38] that you had, as you said.
+[00:47:39] I think it could have just broken off,
+[00:47:41] and it would have been pretty fine without having
+[00:47:43] the extra arrow going around it.
+[00:47:45] I actually, I kind of agree.
+[00:47:46] I have a version without the arrow.
+[00:47:48] OK.
+[00:47:49] OK.
+[00:47:49] I just added that on because I did the burst effect.
+[00:47:52] And I was like, eh, there's nothing
+[00:47:53] causing the burst effect.
+[00:47:55] So I felt like I needed to have something.
+[00:47:58] The little, at the end, by the way,
+[00:48:00] when it gets destroyed, there's like those icicles
+[00:48:02] with big, medium, small that are pretty nice,
+[00:48:04] with like the little frosty there.
+[00:48:05] I think you can totally use that for like when it appears.
+[00:48:11] You can totally have some shapes there that do exactly the same.
+[00:48:14] Oh, they like come up from the bottom.
+[00:48:17] Yeah, the large blocks can totally come from the bottom.
+[00:48:19] It's like you're puffing out some of that.
+[00:48:21] And then the small blocks can come more from the top.
+[00:48:24] So that also you create a nice hierarchy.
+[00:48:28] One other thing you can do if you're into really cute stuff,
+[00:48:31] you can look at foxes in the snow.
+[00:48:36] Aw.
+[00:48:38] And drum things.
+[00:48:43] Accidents.
+[00:48:44] Ah, yes.
+[00:48:46] What can go wrong?
+[00:48:47] Discovery channel.
+[00:48:49] Let's find a fox that jumps in the snow.
+[00:48:51] It does a big puff usually.
+[00:48:52] Jump, come on, do the thing.
+[00:48:54] Yes, perfect.
+[00:48:55] Poof.
+[00:48:56] And you see it does this big puff there.
+[00:48:58] So you can study that.
+[00:49:01] We have a beautiful job.
+[00:49:02] Look.
+[00:49:02] Poof.
+[00:49:03] Excellent.
+[00:49:04] I think this fox could have done a better job.
+[00:49:06] But you see the idea.
+[00:49:09] Do the jump.
+[00:49:10] Do the thing.
+[00:49:11] Yes, perfect.
+[00:49:12] Poof.
+[00:49:13] Yes, that's the kind of poof that you're looking for.
+[00:49:16] Excellent.
+[00:49:17] Yes, OK, this gives you good reference.
+[00:49:19] That is a good reference.
+[00:49:23] Yes, there you go.
+[00:49:28] Yeah, OK, so yeah, this is the kind of stuff that you can do.
+[00:49:31] You can look into this kind of reference
+[00:49:33] and see, OK, snow pushed around.
+[00:49:36] You see how it first looks very homogeneous.
+[00:49:38] It has this very, it's one shape almost.
+[00:49:41] And then here, this really clearly just one color.
+[00:49:46] And it's soft edged mostly.
+[00:49:48] But it's still like, if you were to blur and look at it from afar,
+[00:49:52] it's really just like one big puff of a mostly homogeneous color.
+[00:49:56] And then as it goes, it becomes little pieces.
+[00:50:00] As it goes, it becomes actual bits.
+[00:50:04] So it starts puff, one big puff of the same thing.
+[00:50:08] But since it's mature, it's the same with sand.
+[00:50:10] Sand and snow function a bit the same.
+[00:50:12] Snow is a bit more floaty, but it's still the same.
+[00:50:15] Snow puffs into one continuous shape.
+[00:50:18] And then it disappears.
+[00:50:18] It dissolves then into smaller and smaller little bits
+[00:50:21] of different colors, sizes, and shapes.
+[00:50:27] So put it in slow-mo.
+[00:50:32] I get cute foxes.
+[00:50:36] Just jump.
+[00:50:37] Poof.
+[00:50:38] And then you can see how it dissolves into small shapes
+[00:50:40] until at the end, it's basically just individual shapes.
+[00:50:45] Reference, cool.
+[00:50:46] Yay.
+[00:50:47] Nice stuff.
+[00:50:48] Love it.
+[00:50:51] Anyone else?
+[00:50:51] Any other question?
+[00:50:52] Anything else anyone wants to bring what they're working on
+[00:50:54] or had their difficulty?
+[00:50:58] We can talk about methodology, how to find ideas.
+[00:51:00] We can talk about motivation.
+[00:51:05] We can talk about some techniques that are used.
+[00:51:07] We can talk about industry, anything you can think of.
+[00:51:14] We can talk about foxes.
+[00:51:18] We can talk about how odorowa points may depend on p3d to solve the problem.
+[00:51:22] Again, this does our normal work, so learn and estas right in 3D.
+[00:51:28] Overall, what do you think you whenever this were fewer
+[00:51:45] it?
+[00:51:46] coach?
+[00:51:47] think.
+[00:51:47] easier to replicate in 3D versus harder?
+[00:51:50] Are there any key things when you see an effect that,
+[00:51:53] like, oh, that's really difficult to do in 3D?
+[00:51:56] That sounds awesome.
+[00:51:57] Yeah, perfect.
+[00:51:57] Perfect example.
+[00:51:58] Let's work with that.
+[00:51:59] So let's work with that.
+[00:52:03] So where to start?
+[00:52:05] What's the best thing to start with?
+[00:52:07] I think I need to start with ..
+[00:52:11] So I'll show you stuff that's hard to do in 3D.
+[00:52:13] I think it will give you some insights.
+[00:52:17] I think I can do it.
+[00:52:19] So for instance, I shared this reference just before.
+[00:52:22] This is really hard to do in 3D.
+[00:52:26] It's flowy.
+[00:52:28] You can't.
+[00:52:28] How do you make a primitive out of it?
+[00:52:30] What's your primitive out of this?
+[00:52:31] What do you think the primitive is?
+[00:52:33] Where do you draw a square, a line?
+[00:52:36] The only way to do this, the only way to do the fire
+[00:52:41] specifically, the only way how to do the fire
+[00:52:43] is to basically make either some sort of mesh that you animate.
+[00:52:47] Or make a giant billboard that you put on top,
+[00:52:49] and then you just animate.
+[00:52:51] You just put a flipbook onto it.
+[00:52:52] But otherwise, where do you start?
+[00:52:54] It's really hard.
+[00:52:55] Then also, all those shapes that kind of blend into each other,
+[00:52:58] that also is really hard to make.
+[00:53:00] So if you wanted to divide this into actual shapes that
+[00:53:05] move around, this is really hard.
+[00:53:07] This starts to have a bunch of them.
+[00:53:09] You can see that there's a first loop here.
+[00:53:12] There's a second loop here, a third loop here,
+[00:53:14] fourth loop here.
+[00:53:15] You could kind of tell yourself, I'm going to make
+[00:53:16] some bubbles.
+[00:53:17] And then I'm going to make some 3D shapes here.
+[00:53:20] Then I'm going to just blend them together.
+[00:53:22] That's roughly feasible.
+[00:53:25] And if you wanted to have the silhouette inside,
+[00:53:26] that's super easy.
+[00:53:27] So you would be, you can kind of do that.
+[00:53:29] The tendrils like that, you can kind of make some sort of like,
+[00:53:34] it's possible to make a tube, for instance.
+[00:53:36] You could kind of make a tube here, like all the tendrils,
+[00:53:38] and just be happy with it.
+[00:53:40] It's possible.
+[00:53:41] It's not easy.
+[00:53:42] You can also just make a soul coaster.
+[00:53:46] So basically, those are like ribbons
+[00:53:48] on which you pass stuff like a roller coaster.
+[00:53:50] Imagine a roller coaster, but instead of people onto it
+[00:53:54] that are screaming, you put like drawings that you did,
+[00:53:57] like some textures that you did.
+[00:53:59] And they just smoothly go across the thing.
+[00:54:01] And then when they're done, they go back to the start
+[00:54:04] and then continue doing it.
+[00:54:05] So you have this looping ribbon of stuff.
+[00:54:07] And so here, we could definitely do that for this.
+[00:54:10] But for here, that's kind of a nightmare.
+[00:54:12] We would have to layer multiple of those on top of each other,
+[00:54:15] possibly make like this.
+[00:54:16] Like different donuts on top of each other.
+[00:54:18] And every time you have meshes that intersect each other,
+[00:54:21] it's really bad.
+[00:54:21] It's really annoying.
+[00:54:23] So you would want to avoid that.
+[00:54:24] So this shape, for instance, that's really annoying to work.
+[00:54:27] Even though it's interesting in itself, it's really annoying.
+[00:54:32] What else can I show you that's interesting?
+[00:54:36] On the contrary, let's do this, for instance,
+[00:54:41] which is famous too.
+[00:54:44] This is really good concept art.
+[00:54:45] Why?
+[00:54:46] Because the shapes are really visible.
+[00:54:48] You can see that there's big arcs.
+[00:54:50] The white is exactly on top of the cyan.
+[00:54:53] That's really easy to use.
+[00:54:54] The smoke is under everything else.
+[00:54:56] There's those clear, flat shapes that you can follow
+[00:55:01] that are on the ground.
+[00:55:03] On those kind of things, for instance,
+[00:55:05] you have those large volumetric shapes
+[00:55:09] that you can just say, OK, I'm just going to make a large donut.
+[00:55:11] And that will work.
+[00:55:12] The spikes on the ground are clearly on top of the rest.
+[00:55:15] They're clearly like all the rocks and sparks on the ground
+[00:55:19] are clearly on top of everything else.
+[00:55:21] So you can totally work with that.
+[00:55:22] That's way easier.
+[00:55:23] There's lots of shapes that are separate from each other.
+[00:55:25] Same on those.
+[00:55:27] That's an example of something that's way easier to work with.
+[00:55:30] Things are separate from each other.
+[00:55:33] You can clearly make primitives.
+[00:55:34] And you can start working.
+[00:55:38] I'm going to show you some other stuff that's hard to make
+[00:55:40] and stuff to make.
+[00:55:41] Let's find some stuff that's hard to make.
+[00:55:43] Let's find some stuff that's hard to make.
+[00:55:44] Let's find some stuff that's hard to make.
+[00:55:45] Let's find some stuff that's hard to make.
+[00:55:49] I have some stuff.
+[00:55:53] Oh, yeah, I know.
+[00:55:54] I have a good example of something.
+[00:55:56] And it's a really good example.
+[00:56:00] I think it's in the effects inspiration.
+[00:56:08] I'm guessing.
+[00:56:12] Oh, is it here?
+[00:56:13] I know which one I want to show.
+[00:56:15] Exactly.
+[00:56:15] But I can't quite find it.
+[00:56:17] Because I struggled to make it for a long time.
+[00:56:20] Is it here?
+[00:56:23] Any questions while I look on this to start with?
+[00:56:29] Ah, this.
+[00:56:30] Perfect.
+[00:56:30] OK.
+[00:56:31] Open it up.
+[00:56:32] OK, I have found it.
+[00:56:34] So this, the shape that's here, super annoying to make.
+[00:56:41] As I said, you could do a soul coaster.
+[00:56:43] But even then, this is a lot of detail.
+[00:56:44] Soul coasters are super stretched,
+[00:56:47] like the roller coaster I explained before.
+[00:56:49] Super stretched.
+[00:56:49] So how are you going to do?
+[00:56:51] Also, there's this outline that's thin and everywhere,
+[00:56:54] every time.
+[00:56:55] So there's no real hierarchy.
+[00:56:57] You cannot really make primitives,
+[00:56:59] even though it moves a bit around.
+[00:57:02] Circles like that are pretty easy.
+[00:57:03] But this kind of flow like that, with those flat shapes here,
+[00:57:07] super annoying.
+[00:57:08] I wouldn't really know where to start with.
+[00:57:10] I would have an idea.
+[00:57:11] But it would be really hard to get to it.
+[00:57:14] On the contrary, if you go to References
+[00:57:19] and you start working with, as I've shown before,
+[00:57:23] the kind of concept arts from this person, for instance,
+[00:57:26] this is also really easy to work with.
+[00:57:28] You can see that there's clear layers.
+[00:57:30] There's a core that's on top of the other core that's
+[00:57:32] on top of the purple core that's on top of a blue smoke that's
+[00:57:35] on top of the indigo smoke that's on top of the.
+[00:57:39] And then around there, there's this big cylinder
+[00:57:44] that you can put there.
+[00:57:44] The purple cylinder.
+[00:57:46] And all this is really layered.
+[00:57:48] So you can clearly make it big, medium, small, however you want.
+[00:57:52] You can give it some volumes.
+[00:57:53] Those are all spheres.
+[00:57:55] You have clear a ring with a cone with some extra jets that
+[00:58:02] come out of it that can be just flat things that
+[00:58:04] are facing the camera.
+[00:58:06] All this, basically, the primitives
+[00:58:07] are way easier to make than what we've seen.
+[00:58:10] Does that make sense?
+[00:58:13] Yeah.
+[00:58:13] No.
+[00:58:14] Just keep to 3D objects.
+[00:58:17] So I guess that is what you were putting all the effects on.
+[00:58:19] Yeah, exactly.
+[00:58:20] Because it has basically like this, for instance,
+[00:58:22] is really good too.
+[00:58:23] You have clear donuts.
+[00:58:24] And then you have a clear thing that comes out.
+[00:58:26] Like all those.
+[00:58:27] And this is going to be hard.
+[00:58:28] This, I don't know who or where I found this screenshot.
+[00:58:32] But the one that's up there is actually quite hard.
+[00:58:34] Because this is a very large shape that there's
+[00:58:37] no real primitive.
+[00:58:38] The only thing you can do is make a big square and say,
+[00:58:41] let's go.
+[00:58:42] Or make some complex shapes that come out.
+[00:58:44] So yeah, this, for instance, is not a very good concept.
+[00:58:47] Because it's good in the color.
+[00:58:50] But it's not very good to make the shapes.
+[00:58:52] Same for this one.
+[00:58:52] The cone here, that's going to be pretty hard
+[00:58:54] to make all those shapes here.
+[00:58:55] You're going to have to make something a bit complicated.
+[00:58:58] Although this one is a bit better.
+[00:58:59] Because you can just basically layer those together.
+[00:59:04] Do I have other effects that's fun?
+[00:59:07] Oh, actually, I did have a question
+[00:59:09] about the previous reference you had with the blues
+[00:59:12] and the purples.
+[00:59:13] Yeah.
+[00:59:14] I saw a shape there that I was curious how
+[00:59:18] you got very middle one, where the person's dashing forward.
+[00:59:22] So I was just curious, how would you
+[00:59:23] do that general, almost sideways teardrop shape?
+[00:59:27] Would that be a cone and then a trail behind it?
+[00:59:31] Or would that be one big teardrop shaped mesh?
+[00:59:34] Really good question.
+[00:59:35] OK.
+[00:59:36] Let's see.
+[00:59:42] Gaging.
+[00:59:44] What?
+[00:59:53] Nice.
+[01:00:00] No.
+[01:00:00] Oh, hi.
+[01:00:01] That's not what I wanted to do.
+[01:00:03] That's so funny.
+[01:00:04] It's fine.
+[01:00:06] I want to do a .
+[01:00:12] OK.
+[01:00:12] I want to do a .
+[01:00:13] I want to do a .
+[01:00:13] I want to do a .
+[01:00:15] No.
+[01:00:15] No.
+[01:00:18] Which one was it that you wanted again?
+[01:00:19] Oh, yeah.
+[01:00:20] It was the person dashing.
+[01:00:21] Yeah, yeah.
+[01:00:23] Purple dash.
+[01:00:25] Where's the purple dash?
+[01:00:33] OK.
+[01:00:33] So here.
+[01:00:37] A smaller boop.
+[01:00:41] OK.
+[01:00:41] So.
+[01:00:42] The.
+[01:00:42] The.
+[01:00:43] The shapes that we're going to have here are.
+[01:00:47] So this, you would probably want to do it with like.
+[01:00:51] So there's two ways.
+[01:00:52] The first way is going to be to do a cone like this.
+[01:00:55] OK.
+[01:00:56] So that can be a shape like that.
+[01:00:57] Or it can be like an actual hard cone if you want to.
+[01:01:00] It can be either teardrop or not.
+[01:01:02] It works either way.
+[01:01:03] I think there's more chances that you actually
+[01:01:05] make a cone like this.
+[01:01:07] OK.
+[01:01:08] That's the first shape.
+[01:01:09] And then the second shape will be some.
+[01:01:13] Basically, you would have like a first billboard like this.
+[01:01:18] OK.
+[01:01:18] For the trail.
+[01:01:19] Then you would have like some jets of like.
+[01:01:22] So this, those, each one of those would be like.
+[01:01:26] Like.
+[01:01:27] And then like perhaps some extra ones that become smaller
+[01:01:30] as they go.
+[01:01:31] And then here like all that would be basically some extra elements
+[01:01:36] that we add probably like here.
+[01:01:38] Those are like single particles that we're throwing
+[01:01:40] and we're dissolving as we go.
+[01:01:42] Basically.
+[01:01:42] As if this was throwing them away.
+[01:01:45] Like just there was like an emitter that was here.
+[01:01:47] There was a circle that's just throwing away
+[01:01:49] some of those shapes like that.
+[01:01:52] That's like pretty common.
+[01:01:54] And I think that would be something that we could do.
+[01:01:56] The other thing that we could do instead is to say, actually,
+[01:01:58] there's a second billboard here that's just this part.
+[01:02:04] OK.
+[01:02:07] Interesting.
+[01:02:08] OK.
+[01:02:09] You would do like this cone here.
+[01:02:10] And I guess like a cone kind of hides the start
+[01:02:11] of the billboard.
+[01:02:12] Yeah.
+[01:02:13] It's very common.
+[01:02:14] If you do a fireball, it's very common to do like a half dome
+[01:02:18] here.
+[01:02:19] And then like after that, like so half dome.
+[01:02:21] And then after that, add like a series of like billboards here.
+[01:02:28] Got it.
+[01:02:28] Cool.
+[01:02:29] That's very common.
+[01:02:32] Yeah.
+[01:02:36] Any other extra questions?
+[01:02:41] No.
+[01:02:42] OK.
+[01:02:42] So yeah.
+[01:02:43] I agree that this is a lot.
+[01:02:44] I remember like a, sorry.
+[01:02:46] Yeah.
+[01:02:46] No, go for it.
+[01:02:48] No, I was going to say, I remember a VFX
+[01:02:52] that we tried to do on the game Space Punks that
+[01:02:57] kind of looked cool in principle.
+[01:03:00] But we failed to really execute it in the game.
+[01:03:04] And it was like a portal, which like it kind of came down
+[01:03:08] like lightning.
+[01:03:09] And then it opened up the portal.
+[01:03:11] Like you would open up a zipper.
+[01:03:14] Oh, that's really cool.
+[01:03:15] Yeah.
+[01:03:16] And it's kind of difficult to do because like in a 3D game,
+[01:03:22] how do you kind of manage the boundary of the portal,
+[01:03:27] you know?
+[01:03:29] It's very hard.
+[01:03:29] Yeah.
+[01:03:30] So to do that.
+[01:03:30] I will paste a screenshot of the results.
+[01:03:33] I'm happy to.
+[01:03:33] Yeah.
+[01:03:34] If you can.
+[01:03:34] Yeah.
+[01:03:35] I'm super curious.
+[01:03:35] But yeah.
+[01:03:36] Usually when you want to do that,
+[01:03:39] you want to use a flipbook.
+[01:03:40] Any time you have a motion that's
+[01:03:41] doesn't quite work with like primitives,
+[01:03:44] you just want to use a big flipbook on top of the thing
+[01:03:46] and billboard it and say, hey, this is my motion.
+[01:03:49] Oh, that's really cool.
+[01:03:50] Big triangle.
+[01:03:52] OK.
+[01:03:53] Yeah.
+[01:03:53] I think I see what you're trying to do with the zipper.
+[01:03:55] It was better in our heads than it could have been.
+[01:04:01] That's very relatable.
+[01:04:04] Oh, I can see that.
+[01:04:05] That's cool.
+[01:04:08] Portals are really hard to make.
+[01:04:09] When they work, they work super well.
+[01:04:11] When they don't, they just feel really awkward.
+[01:04:14] Because you have to sell the illusion
+[01:04:16] that there's something on the other side,
+[01:04:17] whereas there's usually not.
+[01:04:18] You're not usually rendering the actual world that's
+[01:04:21] on the other side.
+[01:04:22] And so you have to make it feel very physical.
+[01:04:25] As VFX, you can usually get out, get away with it being like,
+[01:04:29] oh, it's just energy.
+[01:04:30] It's just magic.
+[01:04:31] It's fine.
+[01:04:33] And the concept, like the thing was totally flat.
+[01:04:36] But the guy that was making the actual VFX ended up doing it.
+[01:04:39] Yeah.
+[01:04:40] Yeah.
+[01:04:40] Yeah.
+[01:04:41] Yeah.
+[01:04:41] He's doing like a, you can see there's a little bit of thickness.
+[01:04:45] Yeah.
+[01:04:45] There's a little bit of thickness.
+[01:04:46] Yeah.
+[01:04:47] I think it helps.
+[01:04:47] So it kind of, on one side it curves,
+[01:04:51] but also it kind of ruins the idea that it's just like a
+[01:04:55] Oh, yeah.
+[01:04:55] It's a zipper, of course.
+[01:04:56] In space time, you know?
+[01:04:58] Yeah, 100%.
+[01:05:00] Yeah.
+[01:05:00] Yeah.
+[01:05:01] Yeah.
+[01:05:01] That's really hard to find a good edge.
+[01:05:03] Because you need to, usually what you do
+[01:05:04] is you blur the edges of it, and you keep hard the door part,
+[01:05:09] if that makes sense.
+[01:05:11] So that really gives the feeling that it's a rip in reality.
+[01:05:15] But yeah.
+[01:05:18] Otherwise, the other solution is you summon literally
+[01:05:20] a physical door.
+[01:05:21] I think that's more the vibe that's going forth here.
+[01:05:24] And then once you summon the physical door,
+[01:05:26] you say, this is a door to the other world,
+[01:05:29] and then you're done.
+[01:05:30] But it's not zipping away reality.
+[01:05:35] Any other questions?
+[01:05:36] We are a bit of time, so let's take one more question.
+[01:05:40] I was just going to say,
+[01:05:41] Anna, could we, there's some really, really good stuff
+[01:05:44] that was talked about in this campfire.
+[01:05:46] Could we record this one for the?
+[01:05:49] It is recorded already.
+[01:05:50] Yes.
+[01:05:51] Yeah.
+[01:05:51] Oh, this one is?
+[01:05:52] OK.
+[01:05:52] I mean, it's kind of late for us to record after it's done.
+[01:05:55] But I got to do it.
+[01:05:57] OK, I didn't know if the other campfires were recorded as well.
+[01:06:00] OK, awesome.
+[01:06:00] OK, thank you.
+[01:06:01] No, we just do it on demand usually.
+[01:06:02] Joe requested it be recorded, so.
+[01:06:03] Oh, just the end.
+[01:06:04] OK, awesome.
+[01:06:05] OK.
+[01:06:05] Yes.
+[01:06:06] Good to know.
+[01:06:08] Every one of your requests benefits everyone else.
+[01:06:11] Yes.
+[01:06:11] Yeah.
+[01:06:12] Any extra question?
+[01:06:17] The last question.
+[01:06:23] If there's two good questions, I'll answer both.
+[01:06:31] OK, if nobody has a question, I have an extra for you all.
+[01:06:36] I recommend when you're working on stuff,
+[01:06:39] I'm going to demonstrate something that I find pretty
+[01:06:41] interesting.
+[01:06:42] You all didn't seem to have much issues with ideas,
+[01:06:45] like having ideas and finding out stuff.
+[01:06:46] But I know that some of you and PM give it up.
+[01:06:49] So I'm going to try and do a tiny tip top.
+[01:06:56] Let's do this.
+[01:06:57] Let's share that.
+[01:07:03] Note that was plus.
+[01:07:04] I love it.
+[01:07:06] OK, so this is I'm going to show you the process that I have when I,
+[01:07:11] like, try to look for an idea of something
+[01:07:13] that I can make for a portfolio piece or anything
+[01:07:15] that I want to do.
+[01:07:16] So let's say I want to make a portfolio piece.
+[01:07:19] This is the process that I have to start.
+[01:07:22] Starting is the hardest part, in my opinion, in art,
+[01:07:23] especially when you start, when you're just a beginner
+[01:07:26] and you're scared of not matching to finish
+[01:07:29] a thing, which is the most annoying part of learning.
+[01:07:34] So it's important to have methodology
+[01:07:36] to be able to start the process once you start the process.
+[01:07:39] Sure.
+[01:07:39] So one thing I like to do is do a list.
+[01:07:41] You just take things.
+[01:07:43] You just say, OK.
+[01:07:45] You write 10 things that you're good at.
+[01:07:48] So let's say it can be anything.
+[01:07:50] It can be something that you like, something
+[01:07:53] that you're technically good at, something
+[01:07:55] that you're artistically good at, anything.
+[01:07:57] So I'm going to say that I like clouds.
+[01:08:02] I'm going to say that I like the heart shapes.
+[01:08:07] I'm going to say that I like anime.
+[01:08:09] I'm going to say that I like explosion.
+[01:08:14] I'm going to say that I like snappy timing.
+[01:08:21] I'm going to say that I like suit coasters.
+[01:08:26] I'm going to say that I like birds.
+[01:08:31] And then I'm going to say that I like fire.
+[01:08:38] I'm going to try to be defined.
+[01:08:39] I'm going to define it more because it's not quite that.
+[01:08:41] I'm going to say that I'm good at, let's say, looping.
+[01:08:51] And I'm going to say that I am good at and I like,
+[01:08:59] what else can we put in?
+[01:09:05] Stop.
+[01:09:07] OK.
+[01:09:08] Two.
+[01:09:08] Four.
+[01:09:09] Six.
+[01:09:10] Eight.
+[01:09:10] Nine.
+[01:09:10] I need one more.
+[01:09:11] I'm going to say perfect.
+[01:09:12] Excellent.
+[01:09:13] So now that I have that, I have 10 words.
+[01:09:16] What I do when I'm like, and you see,
+[01:09:17] I just dumped my brain of stuff.
+[01:09:19] Like, obviously, you can refine it.
+[01:09:20] But at some point, you're going to be done.
+[01:09:21] You can add more than 10 words if you want.
+[01:09:23] This is just basically what you're good at,
+[01:09:26] what you like doing, technically what you're like good at,
+[01:09:29] what you already did.
+[01:09:30] Not really what you want to do or what
+[01:09:32] you want to be good at, just what you already think you.
+[01:09:34] So you can basically look back at your previous works
+[01:09:37] and just put that back.
+[01:09:38] OK.
+[01:09:38] Once you're done with that, and you see,
+[01:09:40] there's some technical stuff.
+[01:09:41] There's some themes.
+[01:09:41] There's a bit of everything.
+[01:09:43] Once you're done with that, you make combinations with those.
+[01:09:47] Three that look like they look together,
+[01:09:49] like they would look good together.
+[01:09:50] So for instance, let's do a bird looping with stars.
+[01:10:04] OK.
+[01:10:05] I like a bird, actually.
+[01:10:06] Bird sounds fun.
+[01:10:06] I didn't think about birds, so I'm
+[01:10:08] going to do bird.
+[01:10:08] I'm going to do an explosion something with suit coasters.
+[01:10:20] And then I'm going to do cloud and stars.
+[01:10:23] That sounds fun.
+[01:10:25] And I'm going to do anime for that.
+[01:10:27] And cool.
+[01:10:28] OK.
+[01:10:28] So then, once you do that, this lets
+[01:10:30] you find inspiration, find something.
+[01:10:31] And then you can just pick one and just start working.
+[01:10:34] I find that that's so much better.
+[01:10:36] You have a your.
+[01:10:38] lost in things.
+[01:10:38] You know what three elements are in there.
+[01:10:41] And that, in a way, helps you to think about big, medium,
+[01:10:44] small, primary, secondary, tertiary shapes and motions.
+[01:10:51] It helps you to structure your effects.
+[01:10:53] And then suddenly, it gives you a guideline
+[01:10:56] to start working on your effects.
+[01:10:59] And also, it keeps you safe of doing something
+[01:11:02] that you perhaps feel ambitious because you have
+[01:11:04] an idea of a finished product.
+[01:11:06] Remember that if you want to learn and have fun learning,
+[01:11:09] it's better to never be focused on the finished product.
+[01:11:11] Always be focused about what you are going to make.
+[01:11:15] Because making is the part that's fun,
+[01:11:17] the part that's interesting, and the part that you can work on.
+[01:11:19] The finished product, in a way, you have almost no control over.
+[01:11:22] You're just going to make the thing
+[01:11:23] that you know how to do until it looks good.
+[01:11:28] OK.
+[01:11:29] I don't know if that was helpful for someone,
+[01:11:31] but I hope that some of you might find that useful.
+[01:11:35] If you're blocked and you have a little,
+[01:11:36] like, white page syndrome or art block,
+[01:11:41] any questions on this matter?
+[01:11:47] Not a question, more of a comment, though.
+[01:11:50] I like it because I don't know if anyone here watches the anime
+[01:11:54] Witch Hat Atelier that's coming out right now.
+[01:11:56] There's been a lot of, like, I've been noticing cool stuff
+[01:11:59] that they mention because it's about drawing.
+[01:12:01] And they mention that listing things that you're good at
+[01:12:04] is very important.
+[01:12:05] And I don't do that enough.
+[01:12:06] So I think that's a, I like that someone does this more.
+[01:12:10] That anime has a lot of good wisdom about, like, teaching
+[01:12:14] and learning, in my opinion.
+[01:12:15] I was quite impressed.
+[01:12:18] Yeah.
+[01:12:18] It's pretty good wisdom, on top of having absolutely stellar
+[01:12:21] animation.
+[01:12:22] So good, yeah.
+[01:12:23] Yeah.
+[01:12:24] That's very satisfying.
+[01:12:26] Yeah.
+[01:12:27] Yeah.
+[01:12:28] But I think it has a good philosophy, too,
+[01:12:30] about enjoying learning and how to actually learn healthily.
+[01:12:35] I think that.
+[01:12:36] We're in a world where sometimes learning
+[01:12:38] can feel like something that you have to do.
+[01:12:40] And you have to be good at the first try that you do it.
+[01:12:42] And even if you're, like, you don't have the space,
+[01:12:46] basically, to learn.
+[01:12:46] Every time you put the pencil down, it has to be pretty.
+[01:12:49] You never have the space to actually fail and learn
+[01:12:51] and forget.
+[01:12:53] And yeah.
+[01:12:55] So yeah.
+[01:12:56] I think it's important to enjoy the process,
+[01:12:58] enjoy the progress, enjoy the journey,
+[01:13:01] and find the joy in the process rather than always thinking,
+[01:13:06] oh, what happens if I fail?
+[01:13:08] What happens if it doesn't look good at the end?
+[01:13:10] Or even just thinking, OK, what will it look like in the end?
+[01:13:13] So yeah.
+[01:13:14] That's why those kind of processes are good,
+[01:13:16] because having a good methodology will make it so
+[01:13:19] that you go directly.
+[01:13:22] You are not thinking about, you're not trying to imagine
+[01:13:25] in your head the final product.
+[01:13:27] You're just thinking, I'm going to make something that hinges
+[01:13:31] on my skills.
+[01:13:32] And then you start building the effect from the ground up, rather,
+[01:13:36] rather than thinking about it from the end.
+[01:13:38] That, for me, is like, it helps a lot to make something that looks
+[01:13:42] good.
+[01:13:44] Any other question on this or anything else?
+[01:13:46] Otherwise, we'll close.
+[01:13:55] All right.
+[01:13:56] Well, I will see you all on Monday
+[01:14:00] for the closer of week four and then the start of week five.
+[01:14:03] Five, as a reminder, is going to be getting into the Engine.
+[01:14:05] So that means installing Unity, Unreal, or any other Engine
+[01:14:09] that you're interested in.
+[01:14:10] That means just setting up everything.
+[01:14:13] I think it's going to be really fun.
+[01:14:15] If any one of you feels like they struggle usually,
+[01:14:17] like they haven't touched a game Engine before,
+[01:14:19] and they feel like they will not have a lot of time next week,
+[01:14:22] feel free to send me a message, and we'll talk.
+[01:14:25] We can perhaps anticipate stuff, et cetera.
+[01:14:28] If you have never touched a game before, week five
+[01:14:30] can be a bit rough, as it can be a bit of, there's a bunch of work.
+[01:14:34] And it's going to be a lot of work. And I'm going to be working on it.
+[01:14:35] And I'm going to be working on it. And I'm going to be working on it.
+[01:14:35] And I'm going to be working on it. And I'm going to be working on it.
+[01:14:35] And I'm going to be working on it.
+[01:14:35] And I'm going to be working on it.
+[01:14:35] Game Engines, when you have never touched them before,
+[01:14:37] they can be a bit frustrating to start with, mostly to set them up.
+[01:14:40] So that's why I try to be really mindful of anyone that's starting.
+[01:14:45] So yeah, just send me a message if that's something that,
+[01:14:48] if you feel like you're in that situation.
+[01:14:51] And then for those who are really good at drawing or at doing animation
+[01:14:55] right now, or that feel comfortable with it,
+[01:14:57] and that have not touched a 3D Engine before,
+[01:15:01] be ready to switch gears and go from,
+[01:15:05] from training to learning, which is too difficult.
+[01:15:10] It's not the same kind of energy.
+[01:15:13] Yeah.
+[01:15:14] Any questions on that?
+[01:15:15] Otherwise, we're good.
+[01:15:20] Awesome.
+[01:15:21] See you all on Monday.
+[01:15:22] Bye.
+[01:15:22] See you Monday.
+[01:15:23] See you on Monday.
+[01:15:23] Bye.
+[01:15:24] Thank you.
+[01:15:24] See you.
