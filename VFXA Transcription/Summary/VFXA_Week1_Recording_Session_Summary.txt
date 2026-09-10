@@ -1,0 +1,78 @@
+VFX Apprentice — Week 1 Session Summary
+
+Overview
+This is the bootcamp kickoff/orientation. It explains the eight-week structure, the review and Campfire rhythm, how feedback and Discord submissions work, the instructor’s professional background, and the core philosophy of the course.
+
+Bootcamp structure
+
+• Eight weeks total.
+• Monday sessions are reviews: students show what they worked on and receive feedback. The feedback is intended mainly as guidance for future work rather than instructions to endlessly polish old assignments.
+• Friday Campfires are live Q&A/discussion sessions with exercises, demonstrations, career/portfolio discussion, and other topics students want to explore.
+• Weeks 1–4 focus on 2D/art fundamentals. Week 5 introduces 3D VFX; Week 6 focuses on meshes/Photoshop and VFX assets; Week 7 covers shaders/materials; Week 8 combines the techniques into a larger effect and discusses portfolios and next steps.
+• The goal at the end is not mastery, but a clear understanding of where to go next and a practical plan for the following month.
+
+Core learning philosophy
+
+The primary goal is to learn, not to produce perfect art. Repetition, small projects, experimentation, and making new pieces are emphasized over polishing one exercise indefinitely. A piece can be useful even when it is not good, because the learning comes from discovering what works and what does not.
+
+Feedback and communication
+
+Discord forum posts are the main way progress is monitored. Students create a weekly post, put their work and progress there, and receive feedback. The instructor aims to answer posts within roughly 24 hours and explicitly encourages students to send a PM whenever they are blocked or need an important answer.
+
+The strongest rule is: do not stay stuck for several days. A blocker that lasts a few days can cost an entire week of progress, so ask for help early. The instructor is also willing to discuss motivation, energy, career questions, portfolio strategy, and work-transition problems—not only technical VFX questions.
+
+Burnout principle
+
+The instructor repeatedly emphasizes that burnout is not worth the short-term productivity gain. The point of the bootcamp is sustainable learning, so students should communicate when their available time changes or when motivation drops. Plans can be adjusted around real-life constraints.
+
+Week 1 focus
+
+The first week is mainly about getting used to the workflow and starting 2D VFX. Students work with flipbooks, timing exercises, and the 2D VFX playbook. The instructor describes 2D animation as approachable even for beginners and encourages students to have fun with it.
+
+Software
+
+For 2D work, students can use Adobe Animate, Toon Boom Harmony, Krita, or other appropriate software. Toon Boom’s basic/Essentials package is presented as sufficient for getting started; advanced features such as node-based effects are not required immediately.
+
+For 3D VFX later in the bootcamp, the work is done in a game engine such as Unity or Unreal, with Godot also possible for adventurous students. The instructor’s broader advice is to learn one tool well because the underlying principles transfer between software and engines.
+
+Portfolio and career guidance
+
+The instructor argues that students should not build their entire career plan around one dream company. Hiring depends on many factors outside the artist’s control, including staffing, location, remote-work policies, and timing.
+
+Instead, focus on the type of work and art style you want to do. For example, a student interested in stylized VFX can build work that demonstrates those qualities rather than targeting one specific employer.
+
+For junior applicants, the practical advice is to apply broadly. A posting that simply says “VFX Artist” is still worth applying to even if the listing sounds more senior. Students should be candid about what they can and cannot currently do and let the studio judge the fit.
+
+The instructor says VFX can be a comparatively less saturated specialization than general 2D art/animation, in part because training often separates art and technical skills. They also describe outsourcing studios as a common route into the industry and say remote work becomes easier once an artist has some experience.
+
+Career transitions and transferable skills
+
+Students with existing backgrounds in concept art, UI, tech art, Blender, shaders, or other areas should leverage those skills rather than treating themselves as total beginners. The instructor sees the combination of art, technical skills, and game-industry awareness as particularly valuable.
+
+A recurring message is that the industry is small and that different backgrounds can provide unusual advantages. Existing skills should be translated into VFX wherever possible.
+
+Industry/AI discussion
+
+The instructor says they keep up with AI partly to understand what it can and cannot currently do for VFX. At the time of the session, they do not consider AI a severe direct threat to VFX work, though they expect the technology and job market to evolve and therefore recommend staying informed.
+
+Week 1 submission
+
+Before the next Monday review, students should post one piece they made during the week that they are proud of, found interesting, or found difficult. The point is to give the instructor something concrete to review.
+
+Helpful workflow advice
+
+• Use the Discord weekly forum as a progress log.
+• Ask questions early instead of getting blocked.
+• Submit work even when it is unfinished.
+• Treat feedback as reusable knowledge for future pieces.
+• Use ScreenToGif to quickly capture and share animations without doing a full export.
+• For drawing/animation, stabilizers, smoothing, and pen pressure are legitimate tools; the objective is to make the art, not to prove that you have the steadiest hand.
+• For iPad-based practice, the discussion mentions ToonSquid as an animation-oriented option.
+
+Week 2 direction
+
+The next stage is drawing and artistic fundamentals. The instructor recommends practicing drawing actual shapes—preferably on paper, but digitally if necessary—and focusing on sketching, shape language, position, geometry, and design principles. The exercise should be treated as fundamentals practice rather than as an attempt to make one highly polished final illustration.
+
+Main takeaway
+
+The bootcamp is structured around a progression from fundamentals to technical implementation. The intended workflow is to experiment, get feedback, repeat, and gradually connect artistic decisions to game-VFX constraints. The most important habits from the beginning are to learn rather than polish, communicate when blocked, and leverage existing skills while building the missing fundamentals.
