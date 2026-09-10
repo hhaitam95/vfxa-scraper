@@ -1,0 +1,73 @@
+VFX Apprentice — Week 7 Session Summary
+
+Overview
+Week 7 is the transition into materials and shaders. The session combines review of texture work with a practical introduction to shader logic, color control, emission, camera-facing behavior, and the workflow for developing shader intuition.
+
+1. Judge textures inside the engine
+A texture can look excellent as a standalone image and still behave badly in-engine. The instructor strongly recommends making simple/raw versions first, putting them into the engine, and iterating from there. This is especially important with mid-tones, blending, and emission.
+
+2. Start with the simplest texture possible
+The instructor's preferred process is to begin with the raw shape—often just a few blobs—then put it directly into the engine and create the material around it. After seeing the result, refine the texture. There is no single correct order: you can start with a texture and build the shader around it, or start with a shader and make a texture that fits it.
+
+3. Soft edges and intentional blur help readability
+Very hard texture edges can look harsh once used in a particle effect. Softer/fuzzy edges are often more useful, while motion blur and smudging can be added when they support the intended movement. Hard and soft edges should be used as a hierarchy rather than applying the same treatment everywhere.
+
+4. Add glow to the texture when you want direct control
+The instructor recommends painting/airbrushing a soft glow around the important shapes when useful. This gives more control over the transition between the bright core and its surroundings than relying entirely on heavy engine emission.
+
+5. Emission and opacity can fight each other
+Large emissive values can wash out texture detail and make opacity curves difficult to interpret. The result can stay visually “on” much longer than the opacity value suggests and colors can drift toward white. Small amounts are useful; excessive emission can make the material difficult to control.
+
+6. Multiply is a foundational shader operation
+When tinting an effect, multiplying colors is a common approach. The instructor demonstrates values conceptually as channels between 0 and 1: multiplying by white preserves a value, multiplying by black drives it to zero, and multiplying by another color acts as a per-channel tint. In Unreal, Particle Color can be multiplied with the material's color to allow the particle system to control the final tint.
+
+7. Rebuild basic shaders repeatedly to learn
+The instructor explains that they became comfortable with shaders by rebuilding a small basic material from scratch over and over. A simple repeated structure—texture sample, particle/vertex color, alpha, multiplication—builds familiarity with the interface and makes node selection more instinctive.
+
+8. Build personal reusable subgraphs
+Once a technique is understood, turn useful pieces into subgraphs. Depth fade is an example. A small reusable debug subgraph can also help expose intermediate values and make experimentation much faster.
+
+9. Live preview is extremely valuable
+Shader graphs become much easier to understand when you can immediately see the effect of changing a node. The instructor recommends experimenting directly: add/subtract/multiply textures, change thresholds, lerp between colors, and inspect how the result changes instead of relying only on tutorial screenshots.
+
+10. Noise is a major experimentation tool
+Gradient noise can be subtracted from other values to create dissolves, and multiple noise sources can be combined to generate organic patterns. The instructor encourages this kind of experimentation even when some results are useless, because the visual intuition carries over to future effects.
+
+11. Dot product: a practical mental model
+The instructor introduces the dot product as a way to compare the directions of two vectors. Aligned directions produce a high positive result, perpendicular directions produce approximately zero, and opposing directions can produce a negative result. Absolute can remove the sign when only the strength of alignment matters.
+
+12. Normals + camera direction enable view-dependent effects
+A normal is a direction perpendicular to a surface. Comparing the normal to a camera-related vector lets a shader react differently depending on the viewing angle. This is the basis of common edge/fade/Fresnel-style effects.
+
+13. Fresnel is useful for bubbles and shockwaves
+Using the normal/camera relationship as a mask can produce an edge-oriented transparency pattern. Inverting/remapping that mask creates the familiar bubble-like or shockwave-like spherical treatment used often in VFX.
+
+14. Position/distance can also create masks
+Subtracting positions gives the vector between two points. Comparing the position of a particle/mesh with a camera position lets the shader create distance-dependent effects and fades. The instructor demonstrates this as another reusable way to control visibility.
+
+15. Camera-facing planes can be made less ugly from the side
+The instructor shows how normal/direction logic can fade a camera-facing element as the viewing angle becomes too oblique. This prevents the viewer from seeing an obviously flat plane or the edge of a quad and is especially useful for flames and other billboard-based effects.
+
+16. Technical math should be learned through visual experiments
+The instructor's advice is not to memorize formulas in isolation. Start from a value between 0 and 1, plug it into color/alpha, rotate the object, change the vector, and watch what the output does. Curves, vectors, dot products, and remapping become easier when connected immediately to a visible result.
+
+17. Triplanar/slope techniques use the same idea
+Comparing surface normals with world directions can tell a shader whether terrain is flat, sloped, or vertical. That information can drive different treatments, such as grass on flat areas and rock/cliff textures on steep areas.
+
+18. The engine remains a tool, not the authority
+Across the review, the instructor returns to the earlier rule: do not let convenient engine behavior determine the artistic result. If an engine default produces the wrong timing, shape, or readability, find another construction.
+
+19. Week 7 core material content
+The instructor recommends getting through the core material/shader concepts at least through color and lerp. Later topics such as distortion, output pipeline, vectors, position/distance sampling, vertex offset, and depth fade are additional techniques that can be layered on afterward.
+
+20. Unity shader-tool choice
+For Unity, the instructor personally prefers Shader Graph over Amplify Shader Editor, while acknowledging that both are valid. The important point is that the underlying concepts transfer between tools even when node names differ.
+
+21. The sandbox should be used later, not as a distraction now
+The course sandbox provides a ready-made game environment with characters and existing effects. It is useful for portfolio work and for studying/attaching effects to actual abilities, but the instructor recommends waiting until the end of the bootcamp before diving deeply into it so it does not become another source of distraction.
+
+22. Next stage: build your own effect
+Week 7 is presented as the last major technical cornerstone before students are released to combine everything. Week 8 will focus on making one larger effect using the artistic and technical principles accumulated throughout the course.
+
+Main takeaway
+The central skill of Week 7 is not memorizing shader graphs. It is developing shader intuition through repetition and live experimentation. Build small graphs, understand what values are doing, test textures in-engine, use math to generate masks, and turn successful techniques into reusable building blocks.
