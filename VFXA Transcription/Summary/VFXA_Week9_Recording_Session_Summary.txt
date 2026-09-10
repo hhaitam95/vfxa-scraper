@@ -1,0 +1,76 @@
+VFX Apprentice — Week 9 Session Summary
+
+Overview
+This is the final review session of the bootcamp. The purpose is no longer to teach a new major technical topic, but to assess where each student stands, decide whether they are ready to begin a portfolio, identify remaining weaknesses, and give direction for the next month.
+
+1. Portfolio readiness is individual
+The instructor explicitly does not expect every student to be ready at the same moment. Some students may be ready to start a portfolio immediately or within a week; others should use the extra month to strengthen missing skills first. This is a judgment about readiness, not a ranking or failure.
+
+2. Repetition is the main missing ingredient for many students
+A recurring recommendation is to keep making small effects. Students often understand the concepts but have not yet done enough repetitions to make the workflow automatic. Repetition helps with timing, layering, shader use, texture decisions, and troubleshooting.
+
+3. Start a portfolio before you feel perfectly ready
+The instructor warns against endlessly training because of anxiety about not being good enough. A portfolio will contain mistakes. It only needs to represent your best work at that moment. When you genuinely start wondering whether it is time to begin, the instructor recommends either setting an arbitrary deadline or asking knowledgeable people for feedback and then making the jump.
+
+4. Three pieces are enough
+The instructor recommends a portfolio of about three pieces. They should be somewhat different from each other but not radically different. Each should be substantial enough to communicate ability without becoming an enormous project.
+
+5. Keep portfolio pieces short and manageable
+The effect itself should generally be readable in roughly two seconds. Under about one second can be too brief to communicate the idea, while five seconds or more can be unnecessarily long for a simple effect. The instructor also recommends not spending more than about two weeks on one portfolio piece. If a piece is taking much longer, simplify it or move on.
+
+6. Do not optimize for complexity
+A complicated effect is not automatically a better portfolio piece. A clean, well-judged simple effect can be stronger than a technically ambitious but poorly controlled one. Portfolio work should show artistic judgment as well as technical knowledge.
+
+7. Evaluate a VFX piece like a painting
+One practical self-review method is to take a still image from the effect and inspect it as if it were a painting. Ask whether the composition, hierarchy, color variation, negative space, and visual focus work. The instructor also recommends using a black-and-white view to inspect value structure.
+
+8. Check the foundations from Weeks 1–4
+Before declaring a piece finished, revisit the earlier fundamentals: shape language, timing, silhouette, hierarchy, composition, color, big/medium/small relationships, and readable motion. A technically impressive shader does not fix weak artistic fundamentals.
+
+9. Use outside eyes when your own judgment is uncertain
+If you cannot tell whether a piece is portfolio-ready, ask other artists for specific feedback. The instructor suggests using VFX Apprentice community hangouts or forums for this purpose. Different people will have different opinions, so do not treat one person's judgment as absolute; look for recurring feedback and use your own judgment too.
+
+10. Different junior portfolios will look different
+There is no single template for what a “good junior portfolio” must look like. Different artists will have different strengths, styles, and weaknesses. A portfolio does not need to look like a senior artist’s reel to be useful for a junior application.
+
+11. You can be hired before you are fully competent
+The instructor strongly reinforces that people are normally hired to continue learning. Studios know juniors will need to learn internal tools and processes. The portfolio needs to show enough ability, taste, and potential to justify the hire—not prove that the applicant can already perform like a mid/senior artist.
+
+12. Use practical shortcuts when making portfolio videos
+For a portfolio, visual communication matters. It is acceptable to fake or simplify an implementation when the goal is simply to make the final video look correct, as long as the approach is honest about what it represents. In production, engineers and other specialists can help solve technical problems that would be inappropriate to spend excessive portfolio time fixing.
+
+13. Missile/trail construction
+For a missile that needs a stable visual trail, the instructor recommends a fixed camera-facing quad aligned to the missile rather than relying on a conventional trail if the latter creates unnecessary technical problems. The same texture/shader can be used so the flow stays visually consistent. At impact, the quad can quickly fade/fizzle rather than continuing forward.
+
+14. Fireball and trail construction
+For fireballs, shorter trail lifetimes are generally preferable to very long trails. The instructor suggests building several layered trails of different widths/colors and adding small particles that spawn over distance to make the movement feel richer.
+
+15. Layering remains the main polishing technique
+For many reviewed effects, the core is already good. The remaining work is adding supporting layers: darker glows, secondary smoke, extra domes, sparkles, and ground support. These elements should reinforce the existing motion and hierarchy rather than introduce a new focal point.
+
+16. Keep effects contained when possible
+Particles that fly arbitrarily far away from the main effect can weaken the composition. Supporting particles should generally remain close enough to the main shape that they still feel part of the same effect. Randomness is useful, but the overall silhouette and composition must remain intentional.
+
+17. Emission is still a common problem
+The instructor continues to advise against excessive emission. It can flatten color, make dark colors disappear, and reduce the ability to control opacity. Opaque materials with carefully chosen color/value layers often give better control, with emission used selectively.
+
+18. Use the engine as a tool you can “fight” when necessary
+A repeated theme across the final reviews is that students often know visually what they want but do not yet know how to make the engine reproduce it. That gap is normal. Simplify the construction, use alternate techniques, move things manually, duplicate elements, and choose the least painful method that produces the intended result.
+
+19. A good next project may be smaller and simpler
+For students who are not ready to jump directly into a large portfolio piece, the instructor recommends small static or looping effects first: magical orbs, healing/AOE effects, shields, ground effects, or similarly contained pieces. These build layering and engine fluency without introducing too many simultaneous problems.
+
+20. Keep momentum, even slowly
+A slow pace is explicitly preferred to stopping completely. Doing a small amount consistently keeps the skills active and makes it easier to return after difficult weeks. Momentum matters more than trying to maximize every session.
+
+21. After-bootcamp resources should be used deliberately
+Recommended follow-along/community recordings can be used to reinforce weak areas. The instructor specifically points to older magic orb, aura, shield, muzzle-flash, and other small effect breakdowns as useful practice. The sandbox is useful for testing and presenting effects and for analyzing existing game-style effects, but should not replace making original work.
+
+22. Stay connected with the cohort
+The instructor encourages students to keep in touch with one another because the group can continue to provide feedback, encouragement, and professional connections. They also invite students to send future updates about applications, jobs, or other career developments and offer to help with interviews where possible.
+
+23. What “ready” looks like
+A student does not need to know every shader, engine feature, or VFX style. The instructor looks for a combination of: enough repetition to work independently on a small effect, good fundamentals, ability to iterate, ability to recognize and fix visual problems, and enough technical understanding to get unstuck or ask a useful question.
+
+Final takeaway
+The bootcamp ends with a practical rather than absolute definition of readiness: make a few small, clean effects, judge them critically, get outside feedback, and start the portfolio once you can reliably build and iterate without being blocked by every new problem. Do not wait for perfect mastery. The next phase is repetition, portfolio building, applications, and continued learning on the job.
