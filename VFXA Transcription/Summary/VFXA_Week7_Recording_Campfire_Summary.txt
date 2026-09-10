@@ -1,0 +1,76 @@
+VFX Apprentice — Week 7 Campfire Summary
+
+Overview
+This Campfire focuses on shader/material problem-solving, simple math concepts that are useful in VFX, shader iteration habits, portfolio direction, hiring expectations, and how to ask for useful feedback. The instructor also discusses the final “Week 9” period after the bootcamp.
+
+1. When a material looks wrong, check how color is being passed into it
+For Unreal materials, the particle color needs to be included in the material if the particle system is expected to control the final tint. A common setup is to multiply the material’s color result by Particle Color. The broader lesson is to understand which parts of the appearance are controlled by the material and which are controlled by the particle system.
+
+2. Multiplication is a basic but important shader operation
+The instructor explains multiplication using values from 0 to 1. Multiplying by black drives the result toward zero; multiplying by white preserves the existing value; multiplying by another color tints each channel. The operation is worth understanding intuitively because it appears constantly in material graphs.
+
+3. Keep shader graphs experimentally understandable
+Rather than constructing a huge material graph and never knowing what individual sections do, isolate parts and test them. Live previews are particularly useful for this. Change one thing, observe the result, then build up complexity.
+
+4. Remaking base shaders repeatedly builds fluency
+The instructor says the fastest way they became comfortable with shaders was repeatedly rebuilding a basic shader from scratch for new effects. Repeating the same small structure teaches where nodes are, what they do, and how to reason about the graph without relying on memorized screenshots.
+
+5. Build reusable subgraphs and quality-of-life tools
+Once a technique is understood, turn useful pieces into reusable subgraphs. Depth fade is given as an example. The instructor also suggests making a personal “debug node”/subgraph that exposes values and makes it easy to inspect what different operations are doing.
+
+6. Live experimentation is a learning method
+A useful workflow is to plug different textures into the graph, subtract/add/multiply them, change thresholds, try different colors, and observe the result immediately. This kind of experimentation develops intuition faster than only following tutorials step-by-step.
+
+7. Noise is a powerful source of procedural variation
+Gradient noise can be manipulated with subtraction and other operations to produce dissolves and organic patterns. Combining multiple noise sources can produce interesting shapes that are useful for lava, dissolves, and other effects. The instructor emphasizes that some experiments will be useless, but experimentation itself is valuable because it builds intuition.
+
+8. Dot product: think in terms of direction
+The instructor explains the dot product as a comparison between two vectors. Aligned directions produce a high positive result, perpendicular directions produce a value around zero, and opposing directions can produce a negative result. Using Absolute removes the sign when only the amount of alignment matters.
+
+9. Normals and camera direction can drive effects
+A surface normal is a direction perpendicular to a mesh surface. Comparing the normal to the camera direction allows a shader to know how directly a surface faces the viewer. This is the basis of common Fresnel-style effects and can be used to fade or emphasize surfaces depending on viewing angle.
+
+10. Fresnel is a practical outcome of the math
+The instructor demonstrates turning the normal/camera relationship into an edge-oriented effect. With one minus or related remapping, the same information can produce a familiar bubble/shockwave-like shape. The important lesson is not memorizing a node recipe but understanding that direction information can be converted into a controllable mask.
+
+11. Position and distance can drive masks too
+Comparing an object’s position to a camera or another point lets a shader create effects based on distance. Subtracting two positions creates a vector from one point to another. This can then be used for fades, directional masks, or camera-dependent effects.
+
+12. Triplanar-style thinking uses the same principles
+The instructor connects normal/direction math to terrain-style techniques: use the direction a surface faces to decide which texture or treatment should appear on it. The example is top-facing terrain receiving one treatment while steep surfaces receive another.
+
+13. Preserve the artistic intent instead of worshipping the math
+The technical graph is only a mechanism. If a node setup is not producing the intended visual result, change the implementation. The objective is the artistic effect, not loyalty to a particular mathematical construction.
+
+14. Style and materials need portfolio context
+The instructor reiterates that portfolio work should represent what the artist actually likes and wants to work on. Junior portfolios are recommended to contain about three substantial, clean pieces rather than many weak or unfinished experiments.
+
+15. Focused specialization is acceptable for juniors
+The instructor strongly argues against trying to make a portfolio that demonstrates every possible VFX style. A junior is not expected to know everything. It is better to show a clear strength, good fundamentals, and clean work. A targeted portfolio can also clearly communicate the type of project the artist wants to work on.
+
+16. Fan art can be strategically useful
+Fan art is presented as a legitimate way to communicate interest in a particular type of game or style. A good fan-art piece demonstrates that the artist can study an existing art direction and reproduce its visual language. It sends a clear signal about the kind of projects they want to work on.
+
+17. The portfolio gets you to the interview; the interview gets you hired
+Recruiters are generally not evaluating the same technical details that a senior VFX artist will examine later. The portfolio needs to be clean enough to clear the initial bar. The interview is where the team evaluates whether the junior understands feedback, communicates well, understands the work, and will be enjoyable/easy to collaborate with.
+
+18. “Being competent” at everything is not the hiring requirement
+The instructor emphasizes that juniors will always be learning studio-specific tools and processes after they are hired. Teams expect some ramp-up. Therefore, portfolio decisions should emphasize strengths and fundamentals rather than pretending to already know every workflow.
+
+19. Portfolio quality should be consistent and clean
+A recruiter may click through several pieces quickly. The work should have good fundamentals, clean presentation, readable timing, and no obvious technical mistakes. An exceptionally complex piece is not automatically better than a simple piece that is well executed.
+
+20. Asking for feedback is a core professional skill
+When asking another artist for help, explain where the project is, what is already working, what is not finished, and what specific question you want answered. It is much more useful to say “I am unsure about the color treatment of these ribbons” than “What do you think?”
+
+21. Say what you do not want feedback on when appropriate
+A precise feedback request can also define boundaries: for example, “the timing is locked; please focus on the colors” or “I am specifically looking for feedback on the outer shockwave.” This lets the person helping you spend their time on the problem that actually matters.
+
+22. The Week 9 period should be planned intentionally
+The instructor asks students to think about what they will need after the bootcamp ends: what skills are missing, how much time they will have, whether they feel ready for a portfolio, and what they want to accomplish during the remaining access period. Students who already have a plan do not need additional structure; others can ask the instructor for guidance.
+
+23. Use remaining course access strategically
+Students have continued access to the bootcamp material and a period of broader access afterward. The instructor recommends using that time to fill actual gaps rather than automatically buying more courses. The portfolio class is presented as useful when someone specifically needs additional structure/feedback, while deeper specialized classes are not necessarily the best next step for a beginner.
+
+Main takeaway
+This Campfire ties the technical and career sides together. Learn shaders by repeatedly rebuilding and experimenting with small graphs; learn the math by connecting it to visible effects; and build a portfolio around clean fundamentals, clear interests, and work you can explain. Just as importantly, learn how to ask for precise feedback—the same skill will matter when working with senior artists after you are hired.
