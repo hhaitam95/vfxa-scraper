@@ -1,0 +1,61 @@
+VFX Apprentice — Week 4 Session Summary
+
+Overview
+Week 4 is the final major 2D/fundamentals stage before the move into 3D engine work. This review shows students combining earlier animation and design principles into more complete pieces, while the instructor focuses heavily on structure, silhouette, timing, visual hierarchy, and preparing work that can later become a 3D VFX.
+
+1. Choose a focused direction
+Students can lean toward 2D animation or concept work. The instructor encourages choosing the area that best consolidates what has been learned rather than trying to do everything at once.
+
+2. Build complex shapes from primitives
+A recurring problem is that individual frames look good, but the motion between frames breaks because the artist has no consistent construction method. The instructor recommends using primitives—spheres, cubes, cylinders, triangles, and similar basic forms—as structural anchors. Set rules for where parts begin/end and maintain those relationships across frames.
+
+3. Don't animate a finished shape as a rigid object
+Starting with one beautiful, complicated flame shape and trying to move that exact shape through time makes transitions difficult. Instead, construct the form from simpler volumes and let those volumes deform. This gives the artist a methodology for maintaining continuity.
+
+4. Remove shapes when the piece becomes confusing
+The instructor repeatedly recommends stripping an effect down to one basic form or “noodle,” then rebuilding from there. Do not become attached to individual shapes simply because they took time to create.
+
+5. Use black-and-white/silhouette studies
+When animation is the problem, remove color, lighting, and other distractions. A black-and-white silhouette study forces attention onto the actual motion and makes it easier to identify structural problems.
+
+6. Maintain continuity in the leading edge
+A motion can become unreadable when its leading edge flickers backward and forward. In fast game VFX, the viewer has very little time to interpret the action, so the leading edge should generally maintain a coherent direction even when internal details are rapidly changing.
+
+7. Simplify fast-moving objects
+When an object moves extremely quickly, you do not necessarily need to draw the full primitive at every frame. The instructor shows how a cube can dissolve into a simpler stretched silhouette, line, or other transitional shape. The eye fills in the missing geometry when the silhouettes provide enough continuity.
+
+8. Teleportation can be conveyed without continuous geometry
+The eye can infer a teleport even if the object is not literally shown traveling. A cube can become a line/flash/dots and then reappear as a cube at the destination. The important part is the timing and continuity of the visual cue rather than maintaining the exact physical object throughout.
+
+9. Fire looping needs a structural guide
+For flames, use a small number of curves representing the main flow/wind currents and then animate simple shapes along those curves. Anchor the bottom of the flame so it does not jitter, and inspect the sequence frame-by-frame for pauses, jumps, or inconsistent movement.
+
+10. Watch for accidental pauses
+If a part moves consistently and then sits in almost the same position for several frames before jumping again, it reads as an unintended stop. Check the progression of each important point, not just the overall impression of the animation.
+
+11. Glows and color gradients
+For a stylized glow, the instructor recommends a bright/white interior and a colored exterior. Examples given include white→cyan→blue/purple and white→yellow/orange→red/orange. The purpose is to preserve a convincing bright core while allowing the surrounding glow to carry the color.
+
+12. Canvas and brush choices matter
+A larger, comfortable canvas and larger brushes are recommended. Instead of constructing every contour with tiny strokes, block a larger mass and carve into it. Use hard lines where you want attention or a clear material boundary, and softer/fuzzier lines where you want the form to recede.
+
+13. Detail needs hierarchy
+When every highlight, edge, or decorative element has similar size and sharpness, the design loses hierarchy. Vary big/medium/small elements, use softer background details, and reserve stronger edges/contrast for areas that need attention.
+
+14. Stylized fire can use simple color logic
+A blue→white→yellow gradient can create a convincing stylized/natural-gas-like fire treatment. The broader lesson is that a simple technical trick can create a strong effect once the underlying decomposition is understood.
+
+15. Translate 2D principles into engine principles
+The upcoming 3D engine does not remove the previous theory. The same concepts still apply: primitives, silhouette, hierarchy, shape language, timing, and readability. The difference is that the engine's controls may make some timing decisions less direct.
+
+16. Don't let the engine dictate the timing
+Engine tools often make linear interpolation easy. The instructor warns students not to accept a convenient default if it conflicts with the intended animation. Preserve the artistic timing principle and force the engine to reproduce it as closely as possible.
+
+17. Transition mindset
+Moving into 3D will feel significantly harder for students who are unfamiliar with engines. That is expected. The correct mindset is to treat the engine as a new medium, not as evidence that previous skills were wasted. Build understanding step-by-step and ask for help when blocked.
+
+18. Week 5 preparation
+Choose an engine such as Unreal, Unity, or Godot. The instructor expects to be especially present during the transition and wants students to avoid losing days to installation or workflow blockers.
+
+Main takeaway
+Week 4 is about consolidating the 2D lessons into a repeatable construction method. Good VFX animation comes from simple primitives, coherent silhouettes, controlled timing, and deliberate hierarchy. Build structure first, animate it, simplify when needed, and only then add detail.
