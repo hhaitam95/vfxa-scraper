@@ -1,0 +1,49 @@
+VFX Apprentice — Week 5 Session Summary
+
+Overview
+Week 5 begins the engine portion of the bootcamp. The session reviews the last 2D exercises, explains how animation principles transfer to 3D, introduces the purpose of engine blockouts, and gives practical guidance on choosing and learning a game engine.
+
+1. Keep learning fun enough to continue
+The instructor discusses motivation through the idea that learning itself should remain interesting. When a student becomes stuck on a subject such as fire, it can be useful to do a small amount of targeted practice, then switch to something more enjoyable and return later rather than exhausting all motivation on one blocker.
+
+2. Reading art and making art are separate skills
+The instructor describes two complementary abilities: evaluating/understanding art and actually producing it. Training only one can create a plateau. If you can clearly see what is wrong but cannot make the improvement, you need more production practice; if you keep making something without understanding why it looks wrong, you need more study/analysis and references.
+
+3. Avoid the “axe” fire shape
+For flames, a pointed axe-like silhouette can look stiff or unsatisfying. Smoothing the point into the surrounding flow while keeping the cavity/spike idea tends to create a more fluid flame shape.
+
+4. Layering is central to VFX
+A convincing fire can be built from several overlapping flipbooks/layers with different colors and shapes. Layering allows a simple base element to become more dynamic while keeping each component manageable.
+
+5. Don't confuse a large exercise with better training
+Large, complex projects can be useful for producing a showcase, but they are not always the best way to train a specific skill. Smaller repeated exercises are better when the goal is to improve a principle such as timing, shape language, or consistency.
+
+6. Week 5 objective: learn the engine, not master it
+The engine work is primarily about becoming comfortable with the tools, understanding how the interface works, and learning how previously studied animation principles translate into 3D. Students should not expect to make their ultimate portfolio effect immediately.
+
+7. Start from a blockout
+The instructor recommends thinking of the engine version as a blockout first. You can establish color, hierarchy, timing, shape, and motion with simple elements before adding detailed assets. The important thing is to preserve the artistic intent while learning the technical medium.
+
+8. Choose an engine pragmatically
+Unity and Unreal can both achieve similar VFX results. The instructor describes Unity as slightly more favorable for someone with a technical/coding background and Unreal as slightly more favorable for an artistic background, but considers the difference small. The recommendation is essentially to use the engine you already have installed or the one that works best for you rather than optimizing around the presumed “correct” choice.
+
+9. Unity VFX Graph is a specialized GPU particle tool
+The instructor distinguishes Unity’s Shuriken and VFX Graph. Shuriken is the normal Unity particle-system workflow, while VFX Graph is designed for large numbers of GPU particles. It is especially useful for scenes with huge quantities of small particles, but is not a replacement for every other VFX technique.
+
+10. Unreal Niagara is the modern standard in the instructor's view
+The instructor describes Niagara as the current Unreal VFX system and Cascade as the older system retained mainly for older projects. Students who already know Unity may benefit from learning Niagara because it is useful across modern production work.
+
+11. Get the provided project files
+The Week 5 course contains a dedicated engine project containing the textures, meshes, and other assets used in the lessons. Students are strongly advised to download and work from that project rather than starting from an empty project, because starting from scratch can create unnecessary setup problems.
+
+12. Ask for help immediately with engine problems
+Engine installation, version differences, missing assets, and setup issues can consume days. The instructor explicitly asks students to message the instructor or other mentors immediately when they become blocked.
+
+13. Do not stay in the wrong mindset after switching mediums
+Someone who is comfortable with art may suddenly feel like a beginner when moving into technical work. The instructor encourages consciously switching mindset: accept that the engine portion is a new skill and learn it from the ground up. The same applies in reverse for technically strong students who are less comfortable with art.
+
+14. Future work will connect 2D principles to 3D
+The engine exercises are designed around previously learned concepts such as color gradients, hierarchy, easing, timing, and animation. The goal is to recognize that these principles still control the final effect even when the implementation is now particles, meshes, materials, and engine parameters.
+
+Main takeaway
+Week 5 is a medium transition, not a reset. The artistic principles developed in the first four weeks remain the foundation; the engine is the new tool through which those decisions are implemented. Prioritize blockouts, timing, hierarchy, simple construction, and rapid learning rather than trying to build a finished portfolio piece immediately.
