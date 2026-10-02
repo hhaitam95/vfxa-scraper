@@ -1,0 +1,41 @@
+TITLE: Tiling Noise
+OVERVIEW: This lesson builds a reusable seamless noise texture for effects such as trails, UV distortion, waterfall flow, and other procedural motion. It combines directional noise, multi-directional warping, multiple detail scales, blur, and parameter control, then demonstrates how the same tiling texture can be sampled at different scales and speeds in an engine. It is aimed at beginners learning a versatile procedural-noise workflow.
+KEY TOPICS:
+- Seamless/tileable noise
+- Directional and anisotropic noise
+- Multi-directional Warp
+- Large, medium, and small detail
+- Trail distortion
+- Reusing one texture at different scales
+- Shader panning and double sampling
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Anisotropic Noise
+- Multi-Directional Warp
+- Perlin Noise
+- Blur
+- Directional Warp / non-uniform warp
+- Levels
+- Output
+- Panner/UV sampling in the engine
+- Different tiling/speed values
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a directional stretched noise because many FX textures need a preferential flow direction.
+2. Warp the large structure with Perlin-based Multi-Directional Warp, then add medium and small detail passes at progressively lower influence.
+3. Use blur and another deformation pass to keep the noise from looking overly mechanical while retaining a usable large structure.
+4. Remap the result with Levels and output the final seamless texture.
+5. In the engine, sample the same texture more than once with different tiling and panning speeds to create richer flow from one source texture.
+6. Reuse the texture for trails, UV distortion, or other effects where a moving procedural pattern is helpful.
+KEY MOMENTS:
+- [00:00:06] The lesson introduces tiling noise and its broad VFX uses.
+- [00:00:14] Trails, UV distortions, meshes, and multiply operations are named as common applications.
+- [00:01:46] Anisotropic directional noise is introduced.
+- [00:02:31] Multi-Directional Warp starts the large structural deformation.
+- [00:04:17] Medium detail is added.
+- [00:05:15] Small detail is added at reduced intensity.
+- [00:05:58] Blur and a second deformation pass are used to refine the result.
+- [00:13:47] A waterfall example shows the same texture sampled twice with different tiling and speed.
+ASSIGNMENTS / TIPS:
+- Keep large-scale structure readable before adding small noise.
+- Lower the strength of fine-detail passes so they do not overwhelm the base.
+- Reusing one texture at different scales and speeds can create richer motion without extra textures.
+- Test the texture in the target effect rather than judging it only as a grayscale tile.
