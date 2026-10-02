@@ -1,0 +1,37 @@
+TITLE: Heal Impacts - Arcs & Ease In/Out
+OVERVIEW: This lesson builds a Niagara healing effect while applying physical arcs, overall story arcs, and ease-in/ease-out timing. It shows how gameplay beats can be organized into a rising action, impact, and falloff, then reinforced with curved particle motion and deliberately shaped curves. It is aimed at artists learning to make gameplay VFX feel communicative and satisfying rather than merely decorative.
+KEY TOPICS:
+- Physical motion arcs
+- Story arcs
+- Ease in and ease out
+- Gameplay telegraphing
+- Healing effect timing
+- Particle movement
+- Curve shaping
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Niagara Curves
+- Point/arc-based particle motion
+- Ease-in/ease-out S-curves
+- Lifetime-driven animation
+- Curve key editing
+- Gameplay timing planning
+STEP-BY-STEP TAKEAWAYS:
+1. Identify the gameplay beats of the heal: wind-up/anticipation, the actual heal hit, and the falloff.
+2. Plan the overall story arc so those beats communicate the gameplay event clearly.
+3. Add physical arcs to the moving particles so their paths curve naturally rather than following arbitrary straight lines.
+4. Shape timing curves with easing so energy builds into the impact and then settles out instead of moving at a constant rate.
+5. Vary how much ease is used according to the gameplay need; effects requiring more warning can spend more time easing in.
+6. Finish by checking the full effect as a communication system and deliberately adjust timing, arcs, and payoff rather than treating them as isolated settings.
+KEY MOMENTS:
+- [00:00:05] The lesson introduces the heal effect and its focus on arcs and ease in/out.
+- [00:02:18] Story arcs are defined as the rising action, peak, and falling action of an effect.
+- [00:04:05] Ease in/out is connected to energy building and dissipating.
+- [00:06:46] The heal effect construction begins in Niagara.
+- [01:06:45] The final timing is adjusted to emphasize the gameplay moment within softer ease-in/ease-out motion.
+- [01:07:11] The finished emitters are organized and commented.
+- [01:07:49] The instructor explicitly connects the result to intentional timing and gameplay communication.
+ASSIGNMENTS / TIPS:
+- Use physical arcs where they improve natural motion.
+- Treat the overall effect as a story arc with a readable payoff.
+- Vary ease lengths according to the gameplay requirement.
+- Use extra ease-in time when an effect needs a stronger telegraph.
