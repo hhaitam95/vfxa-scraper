@@ -1,0 +1,48 @@
+TITLE: Unity Hit Impact
+OVERVIEW: This lesson builds a fast hit impact from a flare, triangular spikes, color changes, velocity, and stretched billboards. It emphasizes how tiny timing changes, contrast, direction, and controlled randomness can give a very short effect a strong story arc and physicality. It is aimed at beginners learning to make punchy gameplay feedback in Unity.
+KEY TOPICS:
+- Fast impact timing
+- Contrast and color progression
+- Flare and spike layers
+- Radial motion
+- Stretched billboards
+- Velocity alignment
+- Velocity damping
+- Small-range randomness
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Universal Render Pipeline > Particles > Unlit
+- Transparent surface type
+- Burst emission
+- Random lifetime/size
+- Sphere spawn shape
+- Velocity over Lifetime > Radial
+- Renderer > Stretched Billboard
+- Texture orientation toward positive X for stretched billboards
+- Limit Velocity over Lifetime
+- Dampen
+- Speed curve
+- Color over Lifetime
+- Second Inspector tab with lock
+STEP-BY-STEP TAKEAWAYS:
+1. Create and duplicate simple particle materials for the flare, triangle, and ring textures.
+2. Build the flare as a single short-lived burst, keeping it stationary and using a quick size-over-lifetime curve with a slight end hold.
+3. Duplicate the setup for spike particles, use a small sphere spawn region, add randomized radial velocity and lifetime/size ranges, and switch the renderer to Stretched Billboard.
+4. Make sure the source texture is oriented correctly so the stretched billboard follows particle velocity visually.
+5. Add a small gravity contribution for physicality, then use Limit Velocity over Lifetime with damping and a speed curve to control how quickly spikes lose motion.
+6. Use Color over Lifetime to make the first moment white-hot, then cool the particles toward blue/aqua over their short lives.
+7. Compare against a reference effect using a locked second Inspector and make final changes only after judging the complete hit.
+KEY MOMENTS:
+- [00:00:35] Several simple shape layers are identified as the building blocks of the hit.
+- [00:00:56] A URP particle material is created and flare/ring/triangle textures are assigned.
+- [00:05:31] Base impact lifetime and size curves are tightened for a punchy read.
+- [00:08:25] The spike layer is duplicated and given randomized count and radial velocity.
+- [00:11:28] Stretched Billboard is introduced so particles align to their velocity.
+- [00:13:19] Limit Velocity and damping are added to control the spike falloff.
+- [00:14:51] Color Over Lifetime is changed to start white-hot and cool rapidly.
+- [00:15:47] The instructor explains using this rapid color transition to preserve impact rather than a soft fade.
+ASSIGNMENTS / TIPS:
+- Small timing differences matter greatly in very short effects.
+- Keep random ranges narrow when you want organic variation without chaos.
+- Use Stretched Billboard when the particle's direction should be visually obvious.
+- Disable looping before treating the result as a real gameplay hit.
+- Keep the hottest value at the impact moment and let later colors cool quickly.
