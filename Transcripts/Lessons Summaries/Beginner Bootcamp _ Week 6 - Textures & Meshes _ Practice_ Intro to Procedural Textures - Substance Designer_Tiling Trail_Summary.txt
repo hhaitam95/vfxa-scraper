@@ -1,0 +1,42 @@
+TITLE: Tiling Trail
+OVERVIEW: This lesson turns procedural tiling noise into a directional VFX trail texture. It focuses on creating a seamless elongated pattern, controlling its large/medium/small structure, and shaping the result so it reads as moving energy rather than generic noise. It is aimed at artists building reusable scrolling trail textures for projectiles and other moving effects.
+KEY TOPICS:
+- Seamless trail textures
+- Directional noise
+- Trail length and width
+- Large/medium/small detail
+- Warp and blur
+- Texture reuse
+- Engine scrolling
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Anisotropic Noise
+- Multi-Directional Warp
+- Perlin Noise
+- Directional/non-uniform Warp
+- Blur
+- Levels
+- Transform 2D
+- Output
+- UV panning/Panner
+STEP-BY-STEP TAKEAWAYS:
+1. Begin with an elongated directional noise suited to the trail's travel direction.
+2. Build the main trail structure first, then add medium and small deformation to create organic variation.
+3. Use warp and blur selectively so the trail remains readable and does not turn into undifferentiated noise.
+4. Remap the values so the center and edges have the desired visual hierarchy and export the seamless texture.
+5. Pan the texture in the engine and adjust tiling/speed according to the projectile or moving effect.
+6. Reuse the trail graph or source texture for related visual variants instead of creating unrelated textures from scratch.
+KEY MOMENTS:
+- [00:00:06] The trail texture is introduced as a practical application of the tiling-noise workflow.
+- [00:01:10] Directional noise is established for the elongated trail.
+- [00:03:30] Large-scale warp is used to create the primary flow.
+- [00:05:20] Medium and small details are layered in.
+- [00:07:15] Blur and value remapping are used to clean the texture.
+- [00:09:40] The trail length and width are adjusted.
+- [00:11:35] The finished tile is prepared for scrolling use.
+- [00:13:20] Engine panning is demonstrated as the final application.
+ASSIGNMENTS / TIPS:
+- Keep the trail directional and readable.
+- Build the large shape before adding noisy detail.
+- Preserve seamless edges throughout the graph.
+- Tune speed and tiling for the actual game use case.
+- Do not let fine noise hide the main trajectory of the trail.
