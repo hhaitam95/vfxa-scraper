@@ -1,0 +1,30 @@
+TITLE: Informative Video - Fire
+OVERVIEW: This lesson studies real fire footage to extract useful animation behaviors for Unreal VFX. It focuses on flame mass, upward motion, breakup, turbulence, intensity changes, and small-scale detail that can later become separate emitters or textures. It is intended for artists building fire reference knowledge.
+KEY TOPICS:
+- Real fire reference
+- Flame mass
+- Turbulence
+- Breakup
+- Intensity
+- Large/medium/small detail
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Slow-motion video
+- Frame-by-frame study
+- Silhouette analysis
+- Timing observation
+STEP-BY-STEP TAKEAWAYS:
+1. Study several fire clips in slow motion.
+2. Identify the primary flame mass and the direction of its motion.
+3. Observe tongues, detachments, and small turbulent details.
+4. Note changes in speed and intensity over time.
+5. Translate these behaviors into separate reusable VFX layers.
+KEY MOMENTS:
+- [00:00:00] Real fire reference begins.
+- [00:05:00] Large flame forms are discussed.
+- [00:10:00] Turbulent flame tongues are examined.
+- [00:15:00] Breakup and detached pieces are discussed.
+- [00:20:00] Intensity changes are translated into VFX ideas.
+ASSIGNMENTS / TIPS:
+- Study fire frame by frame.
+- Focus on behavior before texture detail.
+- Build from large to small.
