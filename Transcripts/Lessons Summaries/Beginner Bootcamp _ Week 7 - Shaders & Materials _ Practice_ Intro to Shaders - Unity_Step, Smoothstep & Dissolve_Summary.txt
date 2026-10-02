@@ -1,0 +1,41 @@
+TITLE: Step, Smoothstep & Dissolve
+OVERVIEW: This lesson introduces Step and Smoothstep as threshold functions for turning continuous grayscale data into hard or soft masks. It then connects those masks to dissolve-style effects, introduces Fraction and Sine as reusable shader signals, and shows how values can be remapped into a 0–1 range. It is intended for beginners learning common mask-building operations.
+KEY TOPICS:
+- Step
+- Smoothstep
+- Hard thresholds
+- Feathered transitions
+- Dissolve masks
+- Fraction
+- Sine waves
+- Remapping to 0–1
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Step
+- Smoothstep
+- One Minus
+- Fraction
+- Sine
+- Preview node
+- Threshold parameters
+- Lower/upper edge values
+STEP-BY-STEP TAKEAWAYS:
+1. Feed a grayscale texture into Step and set a threshold that turns lower values into 0 and higher values into 1.
+2. Replace Step with Smoothstep when a feathered transition is needed.
+3. Adjust the lower and upper Smoothstep edges to isolate a particular range of the texture.
+4. Use the resulting mask to drive a dissolve or other cutout effect.
+5. Use Fraction when only the repeating fractional component of a value is needed and remap a Sine output into 0–1 when building cyclic signals.
+6. Expose threshold values so the transition can be art-directed.
+KEY MOMENTS:
+- [00:00:05] Step is introduced.
+- [00:01:26] The grayscale image is visualized through a preview node.
+- [00:02:13] Step's binary output is explained.
+- [00:03:14] Smoothstep is introduced with two edges.
+- [00:04:38] Selected value ranges are isolated.
+- [00:05:21] Bright-value selection is demonstrated.
+- [00:06:46] Fraction is introduced.
+- [00:07:26] A Sine wave is shown.
+- [00:08:28] The Sine output is remapped to 0–1.
+ASSIGNMENTS / TIPS:
+- Use Step for a hard cutoff and Smoothstep for a feathered boundary.
+- Preview intermediate masks before connecting them to the final output.
+- Expose thresholds when the dissolve needs artistic control.
