@@ -1,0 +1,34 @@
+TITLE: Depth Fade
+OVERVIEW: This lesson introduces depth fade as a way for a translucent mesh to interact visually with nearby geometry. It demonstrates how depth information can soften the intersection between a VFX mesh and the ground or other objects. It is intended for beginners who want effects such as smoke and soft particles to integrate more cleanly into the world.
+KEY TOPICS:
+- Depth Fade
+- Scene depth
+- Translucent intersections
+- Soft particles
+- Ground contact
+- One-sided versus two-sided materials
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Depth Fade
+- Scene Depth
+- Translucent material
+- Emissive/Opacity
+- Two-sided material setting
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a translucent effect mesh and inspect how it intersects with nearby scene geometry.
+2. Use depth information to derive a value based on the distance between the particle/mesh and the surface behind it.
+3. Remap that value so close intersections fade more strongly while isolated portions remain intact.
+4. Connect the result into the material's opacity or another visible control and test it around the ground.
+5. Check the material's sidedness when the effect is a volume or mesh that may be viewed from multiple directions.
+KEY MOMENTS:
+- [00:00:05] Depth Fade is introduced.
+- [00:01:08] The interaction with the geometry behind the effect is shown.
+- [00:02:09] The first depth-fade setup begins.
+- [00:02:58] The depth-derived gradient is enlarged to show the effect.
+- [00:06:15] The isolated sphere remains intact while intersection areas are treated differently.
+- [00:07:04] Smoke is given as a practical use for the technique.
+- [00:08:02] Ground proximity is discussed.
+- [00:09:23] One-sided shading is discussed in relation to the mesh.
+ASSIGNMENTS / TIPS:
+- Test depth fade where the effect overlaps the environment; that is where its benefit is easiest to see.
+- Adjust the fade distance according to the softness required by the effect.
+- Check sidedness when the effect needs to be visible from both sides.
