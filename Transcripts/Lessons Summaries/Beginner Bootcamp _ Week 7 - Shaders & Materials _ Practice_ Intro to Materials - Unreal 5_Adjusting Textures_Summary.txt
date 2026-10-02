@@ -1,0 +1,40 @@
+TITLE: Adjusting Textures
+OVERVIEW: This lesson introduces simple mathematical operations for changing the values of a sampled texture. It demonstrates how adding, subtracting, multiplying, dividing, and using Power can alter brightness, contrast, and the concentration of values, and it introduces a one-minus operation and time-driven values. It is intended for beginners learning to manipulate grayscale and emissive textures procedurally in Unreal.
+KEY TOPICS:
+- Texture value adjustment
+- Add, subtract, multiply, divide
+- Power
+- One Minus
+- Contrast
+- Time-driven values
+- Clamping/fractional values
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Add
+- Subtract
+- Multiply
+- Divide
+- Power
+- One Minus
+- Fraction/Fract
+- Time
+- Emissive Color
+STEP-BY-STEP TAKEAWAYS:
+1. Sample a texture and route it into a visible output such as Emissive Color so the value changes can be seen clearly.
+2. Try adding or subtracting constants to shift the texture's values.
+3. Multiply to scale values and brightness, and divide for the inverse type of scaling.
+4. Use Power to reshape the value distribution and change contrast without simply adding a flat amount.
+5. Use One Minus to invert a grayscale relationship and Fraction to keep only the part after the decimal.
+6. Feed Time into the graph when a value should change continuously, then evaluate whether the resulting motion or brightness change is useful for the effect.
+KEY MOMENTS:
+- [00:00:05] Basic math is introduced as a way to affect texture color/value.
+- [00:01:20] Emissive Color is used to make value changes easy to see.
+- [00:03:56] Adding zero is used to establish the baseline behavior.
+- [00:06:14] Adding/subtracting changes the apparent black level.
+- [00:10:20] The lesson focuses on values between 0 and 1 and their usefulness.
+- [00:11:33] Value shifting toward zero is demonstrated.
+- [00:13:05] Nonlinear value changes are related to more natural-looking results.
+- [00:14:29] The lesson closes by moving toward texture-combination techniques.
+ASSIGNMENTS / TIPS:
+- Test one mathematical operation at a time so its effect is easy to understand.
+- Use value adjustments deliberately; a strong push can destroy useful texture information.
+- Remember that nonlinear changes can alter perceived contrast without simply making the whole texture brighter.
