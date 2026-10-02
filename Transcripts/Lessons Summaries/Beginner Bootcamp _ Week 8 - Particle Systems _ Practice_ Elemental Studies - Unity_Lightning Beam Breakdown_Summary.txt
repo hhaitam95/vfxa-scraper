@@ -1,0 +1,35 @@
+TITLE: Lightning Beam Breakdown
+OVERVIEW: This lesson breaks a lightning beam into a main beam, irregular edge/branch detail, glow, and impact accents. It focuses on building the beam from simple components while using scrolling or distorted textures to avoid a static line. It is intended for artists creating short, energetic beam attacks in Unity.
+KEY TOPICS:
+- Lightning beam construction
+- Main beam and core
+- Distortion
+- Scrolling textures
+- Secondary branches
+- Glow
+- End caps/impact
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Beam/line mesh
+- Scrolling UVs
+- Distortion texture
+- Additive material
+- Particle sparks
+- Stretched or velocity-aligned particles
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the beam direction and overall silhouette first.
+2. Add the main beam texture and make its UVs scroll to create internal movement.
+3. Distort the UVs or beam shape slightly so the beam does not read as perfectly rigid.
+4. Add secondary branches or electrical sparks for variation.
+5. Strengthen the core and end-impact areas with glow and short-lived particles.
+6. Tune the beam against the gameplay camera and keep supporting detail subordinate to the main line.
+KEY MOMENTS:
+- [00:00:00] The beam reference is introduced.
+- [00:05:00] The main beam is established.
+- [00:10:00] Scrolling UV motion is added.
+- [00:15:00] Distortion is introduced.
+- [00:20:00] Secondary electrical detail is added.
+- [00:25:00] End impact and glow are reviewed.
+ASSIGNMENTS / TIPS:
+- Keep the beam silhouette readable.
+- Avoid over-distorting the main path.
+- Use secondary branches as seasoning rather than replacing the core beam.
