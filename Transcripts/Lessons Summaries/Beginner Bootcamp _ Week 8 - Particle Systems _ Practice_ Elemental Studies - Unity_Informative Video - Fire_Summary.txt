@@ -1,0 +1,30 @@
+TITLE: Informative Video - Fire
+OVERVIEW: This lesson studies real fire reference to identify useful motion, shape, timing, and breakup patterns for a real-time VFX artist. It focuses on observing the large structure first and then extracting smaller flame behaviors that can be translated into particle systems and textures. It is intended for beginners building a visual reference library for fire.
+KEY TOPICS:
+- Real fire reference
+- Flame shape and motion
+- Large/medium/small detail
+- Ignition and dissipation
+- Turbulence and breakup
+- Reference analysis
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Slow-motion reference
+- Frame-by-frame observation
+- Silhouette analysis
+- Shape and timing notes
+STEP-BY-STEP TAKEAWAYS:
+1. Watch fire in slow motion and identify the major body before studying small tongues and sparks.
+2. Observe how the flame grows, twists, separates, and disappears rather than assuming constant upward motion.
+3. Break the reference into large, medium, and small behaviors that can later become separate VFX layers.
+4. Note the timing and shape changes of individual flame pieces and compare them across several clips.
+5. Translate the observed behavior into simple, reusable shapes for real-time effects.
+KEY MOMENTS:
+- [00:00:00] Fire reference analysis begins.
+- [00:05:00] Large flame structure is discussed.
+- [00:10:00] Smaller flame tongues and breakup are examined.
+- [00:15:00] Timing and speed changes are highlighted.
+- [00:20:00] Reference is translated into VFX-friendly layers.
+ASSIGNMENTS / TIPS:
+- Use real fire reference frequently.
+- Study the whole flame before individual details.
+- Do not copy every contour; capture the behavior.
