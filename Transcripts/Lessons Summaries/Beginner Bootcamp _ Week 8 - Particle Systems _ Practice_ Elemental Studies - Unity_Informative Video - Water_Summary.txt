@@ -1,0 +1,31 @@
+TITLE: Informative Video - Water
+OVERVIEW: This lesson studies real water motion as reference for building liquid VFX. It focuses on the interaction of large moving masses with smaller droplets, surface tension, splashes, and dissipation. It is intended for artists who want a stronger visual library for waterfall, splash, and projectile-liquid effects.
+KEY TOPICS:
+- Water reference
+- Splash behavior
+- Surface tension
+- Droplets
+- Flow and momentum
+- Large/medium/small liquid forms
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Slow-motion reference
+- Frame-by-frame observation
+- Droplet tracking
+- Silhouette analysis
+- Force/cause-and-effect study
+STEP-BY-STEP TAKEAWAYS:
+1. Observe the force causing the water to move before studying individual droplets.
+2. Identify the main sheet/mass and then the smaller jets, bubbles, and beads around it.
+3. Track how liquid stretches, separates, and reconnects through surface tension.
+4. Study how the largest droplets travel and how smaller particles dissipate.
+5. Translate the observed behavior into separate real-time layers.
+KEY MOMENTS:
+- [00:00:00] Water reference analysis begins.
+- [00:05:00] Large liquid masses are discussed.
+- [00:10:00] Splashes and secondary jets are examined.
+- [00:15:00] Surface tension and droplets are highlighted.
+- [00:20:00] Reference is translated into game-VFX layers.
+ASSIGNMENTS / TIPS:
+- Use slow-motion water reference.
+- Track the largest droplets carefully.
+- Think in terms of cause and effect.
