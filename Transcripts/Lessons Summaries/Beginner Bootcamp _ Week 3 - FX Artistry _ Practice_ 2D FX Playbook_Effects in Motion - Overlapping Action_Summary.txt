@@ -1,0 +1,37 @@
+TITLE: Effects in Motion - Overlapping Action
+OVERVIEW: This lesson applies overlap and follow-through to a small candle-fire effect. A pendulum establishes the principle of delayed secondary motion, then the fire is animated from planned movement guides so the shape reacts to the candle's movement and settles gradually. It is intended for artists learning to separate primary motion from delayed secondary motion in effects.
+KEY TOPICS:
+- Leading, main, and following motion
+- Overlap and follow-through
+- Inertia
+- Material weight
+- Settling and diminishing oscillation
+- Motion guides for FX
+- Fire deformation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Guide layer for primary movement
+- Onion Skin
+- Simple pendulum as a timing reference
+- Frame-by-frame fire drawing
+- Motion/arc guides for smear and secondary shapes
+STEP-BY-STEP TAKEAWAYS:
+1. Identify the primary motion and the attached/following part that will lag behind it.
+2. Analyze the delay before the follow-through and keep the later follow-through extremes within that general scale, reducing each successive swing.
+3. Consider the material's weight: heavier elements settle faster, while lighter ones can continue oscillating longer.
+4. For the candle exercise, animate a simple guideline first, including stops, arcs, offsets, and settles, so the fire's movement is decided before its final shape is drawn.
+5. Draw the fire along the guide, dragging the base with the candle while allowing the upper tail to preserve previous momentum.
+6. Recheck spacing, shorten the oscillation amplitudes toward the settle, and use squash/stretch and additional guides when the candle changes direction vertically.
+KEY MOMENTS:
+- [00:00:05] Overlap and follow-through are introduced through a pendulum example.
+- [00:01:14] Delayed motion and inertia are identified as the source of overlap.
+- [00:02:09] The follow-through extreme is compared with the earlier delay and successive swings are reduced.
+- [00:04:00] The pendulum principle is applied to a candle-fire effect.
+- [00:05:41] Movement guides are planned around left-right motion and a settling frame.
+- [00:06:30] The fire begins reacting to the candle with a delayed tail.
+- [00:08:02] The fire's base and tail settle at different rates.
+- [00:22:08] The instructor explains why spending time on the simple movement guide makes the final fire animation easier.
+ASSIGNMENTS / TIPS:
+- Study leading and following motion in everyday life to build a visual motion library.
+- Use the material's apparent weight to judge how long follow-through should continue.
+- Nail the guide motion before spending time on the final FX shape.
+- Do not freeze the following part immediately when the primary motion stops.
