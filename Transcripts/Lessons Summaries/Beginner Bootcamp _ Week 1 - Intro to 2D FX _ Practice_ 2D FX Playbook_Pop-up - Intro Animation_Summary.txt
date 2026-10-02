@@ -1,0 +1,37 @@
+TITLE: Pop-up
+OVERVIEW: This lesson demonstrates an appearance where an effect arrives already large, briefly settles through a larger key stage, and then lands on its final size. It first explores a triangular shape with varied corner timing and then turns the same planning into a liquid splat. It is aimed at artists who need readable, punchy appearances that do not begin from a tiny point.
+KEY TOPICS:
+- Pop-up appearance
+- Key stages and minimum readable timing
+- Corner-by-corner variation
+- Motion guides
+- Splat construction
+- Liquid stretching and settling
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Keyframe planning
+- Guide lines from the screen center
+- Onion Skin
+- Oval brush
+- Canvas rotation for drawing symmetry
+- Frame extension
+STEP-BY-STEP TAKEAWAYS:
+1. Define the initial large state, an intermediate/key stage, and the final smaller state.
+2. Ensure there is at least one frame showing entry into each key stage, then remove extra frames when tighter timing is needed.
+3. Add variation by letting different corners travel different distances and begin returning at different times.
+4. Use the point-motion guides to keep the shape organized while exaggerating the movement.
+5. Reuse the same corner movement to build a splat: animate the central blob, add differently sized bubbles, then draw the stretched connecting material.
+6. Use onion skin and canvas rotation to keep the organic connections readable while settling the final form.
+KEY MOMENTS:
+- [00:00:05] The pop-up appearance is introduced.
+- [00:00:23] The triangular example shows the large initial state settling toward a smaller final size.
+- [00:01:15] Two key stages are identified and the minimum readable frames are discussed.
+- [00:04:14] Different corner movements are added for variety.
+- [00:07:45] The triangular motion is repurposed into a splat animation.
+- [00:08:58] The central splat blob is animated first.
+- [00:10:16] Bubbles are placed using the existing corner movement.
+- [00:13:23] Connecting liquid shapes are added and refined with onion skin.
+ASSIGNMENTS / TIPS:
+- Optimize the number of frames when the timing needs to be tight, but keep enough information for the appearance to read.
+- Avoid having every point of a shape move identically.
+- Use motion guides to track pointy or complex forms.
+- Reuse a planned motion as a base for another effect instead of starting from nothing.
