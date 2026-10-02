@@ -1,0 +1,36 @@
+TITLE: Sword Swipe Breakdown
+OVERVIEW: This lesson breaks a weapon swipe into a readable arc using a swipe mesh, flipbook or scrolling texture, and supporting particles. It emphasizes the relationship between the weapon path and the effect's silhouette, plus the use of trails, distortion, and timing to sell speed. It is intended for artists creating attack-readability VFX in Unity.
+KEY TOPICS:
+- Sword-swipe silhouette
+- Arc/path construction
+- Swipe mesh
+- Trail
+- Timing
+- Distortion
+- Edge accents
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Swipe mesh
+- Scrolling texture
+- Flipbook
+- Trail system
+- Additive material
+- Distortion
+- Curve/timing controls
+STEP-BY-STEP TAKEAWAYS:
+1. Match the effect's initial arc to the actual weapon motion.
+2. Build the large swipe shape first and make its leading edge readable.
+3. Animate the texture or flipbook along the swipe so it has internal motion.
+4. Add a trail or secondary streak only after the main swipe works.
+5. Use distortion and small particles sparingly to reinforce the movement.
+6. Tune the start, peak, and dissipation so the swipe supports the attack timing.
+KEY MOMENTS:
+- [00:00:00] The sword-swipe reference is introduced.
+- [00:05:00] The weapon path and main arc are established.
+- [00:10:00] The swipe mesh/material is built.
+- [00:15:00] Internal texture motion is added.
+- [00:20:00] Trail and secondary accents are introduced.
+- [00:25:00] Timing and dissipation are refined.
+ASSIGNMENTS / TIPS:
+- Match the weapon path.
+- Make the leading edge do the main storytelling.
+- Do not let secondary particles obscure the swipe silhouette.
