@@ -1,0 +1,47 @@
+TITLE: Tech & Tools
+OVERVIEW: This lesson introduces three Niagara features that improve technical control and reuse: system-level properties, curve-index sources, and parent emitters. It explains how system and emitter looping differ, how normalized particle age makes curves adapt to variable lifetimes, and how parent emitters can be inherited or detached. It is aimed at beginners who know the basics of Niagara and want more efficient reusable setups.
+KEY TOPICS:
+- System properties
+- Loop behavior and loop duration
+- User parameters
+- Curve Index
+- Normalized Particle Age
+- Delta Time
+- Emitter Normalized Loop Age
+- Parent emitters
+- Inheritance and detachment
+TOOLS / TECHNIQUES / SHORTCUTS:
+- System State
+- Infinite / Once / Multiple loop behavior
+- Loop Count
+- User Parameters as shared variables
+- Curve Index dropdown
+- Particles Normalized Age
+- Delta Time
+- Emitter Normalized Loop Age
+- Right-click emitter > Create Asset From This
+- Parent emitter customization
+- Remove Parent Emitter
+STEP-BY-STEP TAKEAWAYS:
+1. Open the blue system-level settings and distinguish system-wide loop behavior from per-emitter lifecycle settings.
+2. Test Infinite, Once, and Multiple system loops and understand that an emitter can either inherit the system's timing or use its own lifecycle.
+3. Treat User Parameters as shared variables that can be connected to multiple emitters/modules when a project needs centralized control.
+4. Examine Curve Index sources: Particles Normalized Age maps each particle's lifetime to a 0–1 curve, while Delta Time applies behavior according to real elapsed time.
+5. Use Emitter Normalized Loop Age when a property should respond to the emitter/system loop rather than each particle's own age.
+6. Create a Parent Emitter from an existing emitter, reuse it in another system, and customize or disable inherited module values as permitted.
+7. Remove the parent relationship when a copied emitter needs free control over inherited modules that would otherwise remain locked.
+KEY MOMENTS:
+- [00:00:57] System-level properties are introduced as the controls distinct from individual emitter settings.
+- [00:02:00] Infinite, Once, and Multiple loop behaviors are demonstrated.
+- [00:04:41] User Parameters are introduced as shared system variables.
+- [00:05:17] Curve Index and normalized age are explained.
+- [00:07:07] Delta Time is contrasted with normalized particle age.
+- [00:09:59] Emitter Normalized Loop Age is demonstrated as a loop-level driver.
+- [00:11:08] Parent emitters are introduced and created from an existing emitter.
+- [00:13:22] The inheritance trade-off is explained and Remove Parent Emitter is shown for freeing a copied emitter.
+ASSIGNMENTS / TIPS:
+- Use system-level loop controls deliberately when multiple emitters should share timing.
+- Use normalized age for lifetime-relative curves when particle lifetimes vary.
+- Prefer parent emitters when many variants genuinely share a strong base; detach when inheritance becomes restrictive.
+- Think of user parameters as variables that can centralize controls across a system.
+- Do not assume parent emitters are always the best reuse mechanism; straightforward copying can be cleaner for substantially different variants.
