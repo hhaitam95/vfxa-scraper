@@ -1,0 +1,36 @@
+TITLE: Waterfall Breakdown
+OVERVIEW: This lesson rebuilds a waterfall as layered real-time elements, using a flowing main body, foam, droplets, and environmental interaction. It reinforces the earlier UV/vertex-color workflow while showing how multiple particle layers can add breakup and depth. It is intended for artists practicing natural environmental VFX in Unity.
+KEY TOPICS:
+- Waterfall body
+- UV flow
+- Foam
+- Droplets
+- Splash
+- Vertex/UV control
+- Layered particles
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Waterfall mesh
+- Panning texture
+- Vertex colors
+- Foam texture
+- Particle droplets
+- Collision/splash particles
+- Material parameters
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the large waterfall body with a simple flowing mesh and panning material.
+2. Use UV layout and/or vertex colors to vary the flow and divide calmer water from foam.
+3. Add foam layers around the edges and impact area.
+4. Add droplets and small splash particles for breakup and secondary motion.
+5. Ground the waterfall with a collision/impact region so the lower section feels connected to the world.
+6. Tune the density and motion from the gameplay camera.
+KEY MOMENTS:
+- [00:00:00] The waterfall reference is introduced.
+- [00:05:00] The main body and flow are established.
+- [00:10:00] Foam is added.
+- [00:15:00] Droplets and splash particles are introduced.
+- [00:20:00] The impact/ground interaction is checked.
+- [00:25:00] The complete layered waterfall is reviewed.
+ASSIGNMENTS / TIPS:
+- Solve the main flow before adding droplets.
+- Use foam selectively.
+- Keep secondary particles smaller and less dominant than the waterfall body.
