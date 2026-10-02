@@ -1,0 +1,39 @@
+TITLE: Fire
+OVERVIEW: This lesson builds a practical foundation for understanding and animating fire from small candle flames to larger fires and infernos. It combines simple shape design with a 3D mental model, fuel/air behavior, speed, intensity, and dissipation. It is intended for beginners who want a repeatable way to reason about fire instead of relying only on intuition.
+KEY TOPICS:
+- Candle-fire construction
+- 2D drawing with a 3D mental model
+- Fuel and oxygen
+- Fire intensity and speed
+- Pyramid/triangle fire structure
+- Negative-space dissipation
+- Design consistency
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Triangle/pyramid construction guide
+- Negative-space guides
+- Timing charts
+- Key poses and in-betweens
+- Frame-count planning
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a simple candle flame and keep the design appropriate to the small scale instead of overcomplicating the interior.
+2. Think of the fire as a three-dimensional volume even though it is drawn on a 2D plane; the hottest area is near the fuel source.
+3. Use a triangle/pyramid as a mental or visual guide, with fire strongest at the base and pinching as energy decreases toward the top.
+4. Animate the shape with attention to air movement, rising heat, changing direction, and layered foreground/background licks.
+5. Use speed to communicate intensity: faster creation and dissipation reads more energetic, while slower motion can read calmer.
+6. Keep the visual language consistent, choosing angular or rounded shapes according to the intended style.
+7. For dissipation, open negative space until the fire breaks into smaller pieces and finally disappears.
+KEY MOMENTS:
+- [00:06:58] The instructor compares candle-scale fire with a larger torch-like form and warns against overcomplicating small flames.
+- [00:08:02] Beginners are told to start simple and build understanding before scaling up.
+- [00:10:00] Fire is framed as a 3D form represented on a 2D drawing plane.
+- [00:10:49] The triangle is introduced as a useful guide for small fires.
+- [00:13:15] Fuel and oxygen are used to explain the cyclical movement of fire.
+- [00:16:17] The triangle becomes a guide for breaking apart fire through expanding negative space.
+- [00:19:36] Speed is linked directly to perceived fire intensity.
+- [00:29:11] The fire-burst assignment is introduced, followed by repeated-practice advice.
+ASSIGNMENTS / TIPS:
+- Start with candle fire before attempting larger infernos.
+- Keep a consistent shape theme throughout the animation.
+- Use timing intentionally to change the perceived intensity.
+- Practice the fire burst repeatedly; the instructor suggests doing it four or five times across a session or a few days.
+- Scrap and restart quickly when an attempt is not working rather than spending too long repairing it.
