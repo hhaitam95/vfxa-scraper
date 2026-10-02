@@ -1,0 +1,35 @@
+TITLE: Vector UVs - Texture Sampling
+OVERVIEW: This lesson explains how UV coordinates can be visualized, split into separate components, and used to sample textures. It reinforces the idea that UVs are two values from 0 to 1 and shows how the graph's texture-sampling node connects coordinates to an image. It is intended for beginners building the core mental model required for texture-driven shaders.
+KEY TOPICS:
+- UV coordinates
+- Vector components
+- Texture sampling
+- U/V channels
+- UV visualization
+- Texture Coordinate data
+TOOLS / TECHNIQUES / SHORTCUTS:
+- UV/Texture Coordinates
+- Split
+- Texture Sample
+- Color output
+- U/X and V/Y components
+STEP-BY-STEP TAKEAWAYS:
+1. Start with UV coordinates and visualize them as color to see their values across the mesh.
+2. Recognize that both UV axes are normalized from 0 to 1.
+3. Split the UV vector into its individual components when a shader needs to manipulate one axis independently.
+4. Feed the UV vector into the texture-sampling node so the image is read from the correct position.
+5. Use the component data for later operations such as panning, scaling, or distortion.
+KEY MOMENTS:
+- [00:00:05] UV maps are introduced as the basis of the lesson.
+- [00:01:12] The shader graph is opened for the demonstration.
+- [00:02:07] RGB values and three-component data are compared with vectors.
+- [00:03:07] UV values are shown as normalized values.
+- [00:04:11] The lower-left UV coordinate is identified as 0,0.
+- [00:05:05] UVs are used as color data for visualization.
+- [00:06:47] Split is introduced for separating UV components.
+- [00:08:26] The texture-sampling node is introduced.
+- [00:08:58] UV coordinates are connected to a texture.
+ASSIGNMENTS / TIPS:
+- Visualize UVs when debugging texture placement.
+- Use Split when one axis needs independent treatment.
+- Keep the 0–1 normalized range in mind before applying math.
