@@ -1,0 +1,43 @@
+TITLE: UVs in Blender
+OVERVIEW: This lesson explains what UVs are, how they unwrap a 3D model into 2D texture space, and why VFX artists can use that space creatively. It demonstrates primitive UVs, editing and relaxing UVs, seams, and practical examples such as beams, hemispheres, and clothing. It is intended for artists who need to understand UVs well enough to make game-ready effect meshes and control how textures move across them.
+KEY TOPICS:
+- UV coordinates and 0-1 space
+- Unwrapping and seams
+- Primitive UVs
+- UV scaling and deformation
+- Relax, Grab, and Pinch
+- Texture behavior on effect meshes
+- Hemisphere and tapered-cylinder UVs
+- UVs as a creative VFX tool
+TOOLS / TECHNIQUES / SHORTCUTS:
+- UV Editing workspace
+- UV 0-1 space
+- UV scaling and translation
+- UV vertex editing
+- Relax, Grab, and Pinch tools
+- Ctrl+H to hide selected object
+- Shift+H to hide everything around the selected object
+- Seams for defining unwrap boundaries
+- Unwrap
+STEP-BY-STEP TAKEAWAYS:
+1. Think of UVs as a flattened 2D version of the model, analogous to unfolding cardboard so a texture can be laid across it.
+2. Inspect the UVs that come automatically with primitive-based meshes and understand how their layout determines texture placement.
+3. Move, scale, and rotate UVs to change how a tiling texture travels across the model.
+4. For custom models, mark seams and unwrap the mesh so the 3D surface can be flattened into usable 2D islands.
+5. Use UV editing tools such as Grab, Relax, and Pinch to intentionally distort the mapping when an effect benefits from it.
+6. Check the texture directly on the model and iterate on the UV layout until the material behaves as intended.
+KEY MOMENTS:
+- [00:00:29] The lesson introduces UV fundamentals and uses a cube to explain 3D-to-2D flattening.
+- [00:07:13] The automatically generated UVs on the previously created hemisphere and cylinder are reviewed.
+- [00:09:45] Moving individual UV vertices is demonstrated as a way to deliberately distort the texture.
+- [00:11:13] A horizontal beam example shows how UV direction can drive a scrolling effect.
+- [00:12:57] A T-shirt is used as a physical analogy for seams and unfolding a complex surface.
+- [00:15:25] The instructor explains that UVs operate through seams and begins repairing a broken unwrap.
+- [00:23:31] The repaired UVs are demonstrated on a model with a moving texture.
+- [00:24:46] The lesson closes by emphasizing creative freedom and the importance of the final effect result.
+ASSIGNMENTS / TIPS:
+- Learn the mechanics of seams and unwrapping before relying on automatic tools.
+- Inspect the texture on the actual mesh; a UV layout that looks neat can still produce the wrong material behavior.
+- Use the freedom of UV editing deliberately when making VFX rather than treating one layout as universally correct.
+- Primitive-based meshes can save time because they often start with usable UVs.
+- Remember that the final effect is more important than following one “correct” UV workflow.
