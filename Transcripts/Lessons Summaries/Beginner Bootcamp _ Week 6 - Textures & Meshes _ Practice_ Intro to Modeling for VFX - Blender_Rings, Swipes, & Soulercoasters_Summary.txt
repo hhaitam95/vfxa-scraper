@@ -1,0 +1,45 @@
+TITLE: Rings, Swipes, & Soulercoasters
+OVERVIEW: This lesson presents several ways to construct common VFX meshes including flat rings, sword swipes, and “soul ercoaster” style paths. It emphasizes choosing a modeling strategy based on the desired UV behavior, using curves when a mesh needs customizable paths, and reusing or deforming simple geometry instead of searching for one correct construction. It is aimed at VFX artists who need practical effect-specific meshes.
+KEY TOPICS:
+- Flat rings
+- Swipe meshes
+- Curves and Bezier paths
+- UV-friendly geometry
+- Energy materials
+- Deformation and path-driven meshes
+- Modeling alternatives
+- Project-specific decisions
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Add > Mesh > Cylinder
+- Face deletion and Inset
+- I for Inset Faces
+- R for Scale
+- Ctrl+X for X-ray mode
+- Bezier Curve
+- Curve extrusion/bevel concepts
+- Control H to hide mesh
+- Edge/face selection
+- UV Editing
+- Energy material for UV testing
+STEP-BY-STEP TAKEAWAYS:
+1. Create a simple flat ring from a cylinder by removing end faces and using inset/scale, then compare its default UV layout.
+2. Build the ring instead from the cylinder side surface, deleting top/bottom and scaling a selected edge ring; flatten the result on Z so the side UVs remain useful for scrolling textures.
+3. Cut the flat ring in half to make a basic swipe mesh when a simple arc is sufficient.
+4. Switch to a Bezier curve when a swipe needs a more controllable/custom path and build the mesh around the curve rather than hand-editing every vertex.
+5. Explore “soul ercoaster” style elongated/path-following shapes using the same curve/mesh reasoning.
+6. Choose the simplest construction that produces the required silhouette, UVs, and animation behavior; there is no single universally correct VFX mesh method.
+KEY MOMENTS:
+- [00:00:06] Rings, swipes, and “soul ercoasters” are introduced as common VFX meshes.
+- [00:01:13] A cylinder-based flat ring is created.
+- [00:02:23] The UV problem with the first ring construction is demonstrated.
+- [00:03:17] A side-surface ring is rebuilt to obtain more useful UV behavior.
+- [00:05:10] The ring is cut into a basic swipe.
+- [00:05:47] A Bezier curve is introduced for a more customizable swipe path.
+- [00:18:08] Multiple valid approaches are emphasized as a feature of VFX mesh work.
+- [00:18:52] The final result is framed around what the player sees and feels rather than one “correct” modeling process.
+ASSIGNMENTS / TIPS:
+- Check UVs, not just geometry, when building VFX meshes for scrolling textures.
+- Use a curve when path customization matters.
+- Start with the simplest viable construction and add complexity only when it solves a real problem.
+- Reuse existing meshes when they can be reshaped faster than rebuilding.
+- Judge the technique by the final effect and project requirements.
