@@ -1,0 +1,39 @@
+TITLE: Rotating Keys - Looping Effects
+OVERVIEW: This lesson builds a loop by moving from one keyframe to another and back to the first, then disguising the repetition with additional internal motion. A squash-and-stretch blob provides the base, while carved holes, detached blobs, and varied dissipation make the loop feel layered rather than obviously repetitive. It is intended for artists learning a reusable construction for organic looping effects.
+KEY TOPICS:
+- A-to-B-to-A loop structure
+- Squash and stretch
+- Internal carved motion
+- Detached blobs
+- Offset timing
+- Dissipation inside loops
+- Layered motion
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Exposure on twos
+- Onion Skin
+- Frame duplication/copying
+- Erasing/carving shapes
+- Timing offsets
+- Reusing the first frame at the loop boundary
+- Frame-by-frame cleanup
+STEP-BY-STEP TAKEAWAYS:
+1. Prepare the loop frames, using twos where useful and keeping the first frame visible at the end of the loop for comparison.
+2. Draw a simple squash-and-stretch ball from key A to stretched key B and back through an additional squash extreme.
+3. Carve holes into the main shape and animate those cuts moving through the loop so the internal pattern does not repeat as obviously as the outer shape.
+4. Spawn blobs from the top and sides at different points in the loop, time them to the main squash/stretch motion, keep them attached briefly, then detach and dissipate them.
+5. Offset starts and endings of small secondary blobs so there is activity through the loop boundary and no obvious single reset point.
+6. Review the full loop, smooth abrupt connections, and add further internal color or motion layers only after the base loop is stable.
+KEY MOMENTS:
+- [00:00:05] The A-to-B-and-back loop structure is introduced.
+- [00:01:28] The timeline is prepared with the first/last-frame reference strategy.
+- [00:04:45] The stretched keyframe is established.
+- [00:06:17] A stronger squash extreme is added before returning to the starting state.
+- [00:09:43] The base squash-and-stretch loop is confirmed.
+- [00:10:43] Carved internal motion is added to disguise the repetition.
+- [00:15:14] Detached dissipating parts are introduced and synchronized with the main motion.
+- [00:33:57] The finished layered loop is reviewed and the construction method is summarized.
+ASSIGNMENTS / TIPS:
+- Use a simple base loop first; add complexity layer by layer.
+- Keep the first-frame boundary visible while working when the software does not automatically sync repeated frames.
+- Offset secondary motion to make the loop boundary less obvious.
+- Use the main squash/stretch rhythm to motivate when blobs detach.
