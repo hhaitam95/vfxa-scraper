@@ -1,0 +1,46 @@
+TITLE: Photoshop for VFX Artists - 1: Tools
+OVERVIEW: This lesson introduces the Photoshop tools and settings used for hand-painted visual effects. It focuses on brushes, pen pressure and tilt, the eraser, lasso selections, paint fills, gradients, and basic shortcut customization. It is intended for artists who need enough Photoshop fluency to follow hand-painted VFX lessons without learning the entire application.
+KEY TOPICS:
+- Brush setup
+- Pen pressure and tilt
+- Eraser
+- Lasso selections
+- Paint Fill
+- Gradients
+- Keyboard shortcut customization
+- Palette-based color sampling
+TOOLS / TECHNIQUES / SHORTCUTS:
+- B for Brush
+- E for Eraser
+- L for Lasso
+- I for Eyedropper
+- K for Paint Bucket in the instructor's custom setup
+- Alt while using Brush for temporary Eyedropper
+- Ctrl-H to hide/show selection edges
+- Ctrl-D to deselect
+- Edit > Keyboard Shortcuts
+- Brush Tip Shape, Shape Dynamics, Transfer, angle control with pen tilt
+- Brush roundness/chisel setup
+- Brush size with [ and ] brackets
+STEP-BY-STEP TAKEAWAYS:
+1. Open the Tools and Brushes panels, select the Brush tool, and create a new layer for predictable painting behavior.
+2. Configure a brush using a crisp or fluffy brush tip, then use Shape Dynamics and pen tilt to control thickness/orientation; check the tablet/driver if pen pressure does not respond.
+3. Save useful brushes into custom groups and use the same brush settings for the Eraser where appropriate.
+4. Use the Lasso to isolate an area, hide the selection edge with Ctrl-H when needed, and use Paint Bucket, Brush, or Gradient only inside the selection.
+5. Customize shortcuts by duplicating the Photoshop default set, such as removing Magnetic Lasso and setting Paint Bucket to K to match the instructor's Animate workflow.
+6. Use foreground/background colors or a visible palette and sample colors with the Eyedropper instead of repeatedly rebuilding exact colors.
+KEY MOMENTS:
+- [00:01:35] The Brush tool and a new layer are introduced.
+- [00:03:56] Brush Tip Shape is narrowed to crisp and fluffy options.
+- [00:04:14] Shape Dynamics and pen-pressure behavior are demonstrated.
+- [00:05:54] Brush roundness is changed to create a chisel-like brush.
+- [00:06:43] Pen tilt is used to control brush angle and create thin/wide strokes.
+- [00:08:46] The Eyedropper and temporary Alt shortcut are demonstrated.
+- [00:10:38] The Eraser and Lasso tools are introduced.
+- [00:12:14] Shortcut customization and the Lasso's clipping behavior are explained.
+ASSIGNMENTS / TIPS:
+- Use a drawing tablet/stylus for the demonstrated pressure/tilt workflow.
+- Do not try to memorize every Photoshop brush option; the instructor focuses on a small practical set.
+- Save useful custom brushes and organize them in groups.
+- Use lasso selections to constrain painting and erasing precisely.
+- Keep a small color palette visible and sample from it for consistency.
