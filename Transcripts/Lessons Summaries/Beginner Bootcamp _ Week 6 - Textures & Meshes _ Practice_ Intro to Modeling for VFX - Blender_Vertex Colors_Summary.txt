@@ -1,0 +1,45 @@
+TITLE: Vertex Colors
+OVERVIEW: This lesson shows how to paint vertex colors on a Blender mesh and use those colors as masks inside a game-engine shader. A hemisphere is painted from white to black, then the result is demonstrated in a material where vertex color multiplies a tiling texture and can also drive opacity, vertex offset, or texture blending. It is intended for VFX artists looking for lightweight masking without spending another texture on a mask.
+KEY TOPICS:
+- Vertex color painting
+- Vertex colors as masks
+- White/black vertex values
+- Brush falloff
+- Vertex-color interpolation
+- Shader masking
+- Opacity control
+- Vertex offset
+- Texture blending
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Sculpting workspace
+- Vertex Paint
+- Wireframe display
+- Flat shading for clearer color display
+- X to swap foreground/background colors
+- Left/right bracket keys to change brush size
+- Blur for smoothing painted values
+- Vertex Color viewport display
+- Shading workspace
+- Image Texture multiplied by Vertex Color
+STEP-BY-STEP TAKEAWAYS:
+1. Open the hemisphere in Sculpting/Vertex Paint and enable wireframe so the vertex layout is visible.
+2. Use flat shading to make the vertex colors easier to inspect and start from the default white vertex color.
+3. Paint the lower vertices black to create a mask, using X to switch between black and white and adjusting brush size/falloff as needed.
+4. Use Blur to soften a harsh transition by averaging neighboring vertex colors.
+5. Preview the result in the Layout/Vertex display, then build a Blender material that multiplies the tiling texture by Vertex Color.
+6. In the game engine, feed the black-and-white vertex result into opacity or another material control; reuse the same data for vertex offset or blending between textures.
+KEY MOMENTS:
+- [00:00:05] Vertex coloring is introduced as a low-cost alternative to a separate masking texture.
+- [00:01:32] Sculpting/Vertex Paint and the wireframe display are enabled.
+- [00:02:23] The default white vertex colors and the black-mask exercise are introduced.
+- [00:03:35] Black painting begins and brush falloff is used to control which vertices are affected.
+- [00:05:57] The painted mask is shown as something that can be consumed by an Unreal or Unity shader.
+- [00:06:16] Blur is used to create a smoother transition between black and white vertex regions.
+- [00:08:18] The vertex-color display and material preview workflow are demonstrated.
+- [00:10:46] The instructor shows the final mask concept and explains additional uses such as vertex offset and texture blending.
+ASSIGNMENTS / TIPS:
+- Treat vertex colors as data that can drive many shader behaviors, not only visible color.
+- Use brush falloff carefully; painting near multiple rows of vertices affects their interpolated region.
+- Blur the painted values when a hard mask edge is too abrupt.
+- Vertex density limits how smoothly a painted mask can change.
+- Use vertex colors when avoiding another texture is valuable for the project.
