@@ -1,0 +1,42 @@
+TITLE: Properties & Shader Variants
+OVERVIEW: This lesson explains how to expose Shader Graph controls as material properties and use them to create multiple visual variations from one shader. It also introduces opaque, cutout, and transparent considerations, shadow behavior, and organizing graph sections with labels. It is intended for artists who want reusable, art-directable shaders instead of duplicating the entire graph for every variation.
+KEY TOPICS:
+- Shader properties
+- Material variants
+- Surface types
+- Transparency and shadows
+- Intensity parameters
+- Texture properties
+- Graph organization
+- Reuse
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Shader Graph Properties
+- Float properties
+- Texture properties
+- Color properties
+- Opaque surface
+- Alpha clipping/transparent behavior
+- Shadow pass considerations
+- Graph labels/groups
+STEP-BY-STEP TAKEAWAYS:
+1. Identify which values should be editable outside the shader, such as intensity, color, speed, and texture.
+2. Add properties and connect their default values to the appropriate graph inputs.
+3. Choose surface behavior deliberately because opaque materials render differently from transparent/cutout materials and affect shadowing.
+4. Make the main fire/texture values externally controllable rather than hard-coding them.
+5. Save and create material instances/variants with different textures, colors, speeds, and intensities while keeping the base graph unchanged.
+6. Organize the graph with labels and groups so collaborators can understand the reusable sections.
+KEY MOMENTS:
+- [00:00:05] Shader properties are introduced after the complete fire shader.
+- [00:01:26] Sprite-specific options are distinguished from 3D materials.
+- [00:02:51] Opaque surfaces are compared with transparent alternatives.
+- [00:04:20] The relationship between unrendered pixels and shadow passes is explained.
+- [00:06:12] Changeable values such as intensity are identified for properties.
+- [00:08:19] A Float property with a default value is created.
+- [00:11:54] A fire texture is exposed as a replaceable texture property.
+- [00:15:55] Different texture/color/speed combinations are used to create variants.
+- [00:17:45] Graph organization with labels and movable groups is reviewed.
+ASSIGNMENTS / TIPS:
+- Expose the values artists/designers actually need to change.
+- Keep the base shader reusable instead of duplicating graphs unnecessarily.
+- Consider transparency and shadow behavior when choosing surface type.
+- Label graph sections so variants remain maintainable.
