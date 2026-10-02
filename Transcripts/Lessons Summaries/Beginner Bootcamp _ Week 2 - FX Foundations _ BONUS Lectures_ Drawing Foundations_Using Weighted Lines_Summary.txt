@@ -1,0 +1,38 @@
+TITLE: Using Weighted Lines
+OVERVIEW: This lesson demonstrates how varying line thickness can separate planes, suggest light and shadow, direct the viewer's eye, and make sketches feel more expressive. It emphasizes choosing a consistent line-weight system and then applying it repeatedly across the drawing. It is intended for artists developing clearer and more dimensional FX sketches.
+KEY TOPICS:
+- Line-weight systems
+- Plane separation
+- Light and shadow
+- Center of attention
+- Natural line flow
+- Softening edges
+- Suggesting forms with partial edges
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Thick outer contour
+- Medium internal edges
+- Thin texture/detail lines
+- Pressure variation for light/shadow
+- Corner-only line indications
+- Softened corners
+STEP-BY-STEP TAKEAWAYS:
+1. Decide the line-weight hierarchy before drawing and keep the rule consistent.
+2. Use the thickest lines for outer edges, medium lines for structural/internal edges, and thinner lines for small details.
+3. Vary thickness according to lighting, making darker or less-lit edges heavier than lit edges.
+4. Increase or decrease thickness around a chosen focal point so the line flow guides the viewer.
+5. Follow the natural stroke direction by varying pressure as the line travels.
+6. Soften corners and use only partial edge marks when a full outline would be too heavy, allowing the viewer's brain to complete the form.
+KEY MOMENTS:
+- [00:00:35] Consistency is established as the core rule for line-weight variation.
+- [00:01:04] A three-level hierarchy for planes is introduced.
+- [00:08:20] Line weight is connected to light and shadow.
+- [00:15:40] Line weight is used to establish a center of attention.
+- [00:21:47] Natural stroke flow is introduced as another line-weight rule.
+- [00:25:13] Softened edges are demonstrated.
+- [00:27:57] Partial corner lines are shown as a way to imply a whole form.
+- [00:34:17] The lesson closes by reiterating that the chosen line-weight idea matters most when it is applied consistently.
+ASSIGNMENTS / TIPS:
+- Choose your line-weight rule before starting a drawing.
+- Keep the same logic across the entire sketch.
+- Try combining line-weight hierarchy with focal-point emphasis.
+- Partial contours can be useful when you want the viewer to infer the form rather than drawing every edge.
