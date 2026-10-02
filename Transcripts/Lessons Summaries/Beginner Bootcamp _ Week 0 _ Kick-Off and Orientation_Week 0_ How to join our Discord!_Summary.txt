@@ -1,0 +1,40 @@
+TITLE: How to Join Our Discord!
+OVERVIEW: This lesson walks students through joining the VFX Apprentice Discord and linking it to their training account. It covers account verification, the VFXA bot, free and paid channel access, student hangouts, screen sharing, community support, and job-related resources. It is intended for new students who need to get the course community set up correctly.
+KEY TOPICS:
+- VFX Apprentice Discord setup
+- Email verification
+- Discord account creation
+- VFXA account linking
+- Free and paid channels
+- Student hangouts and live discussions
+- Screen sharing and feedback
+- Community and job resources
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Website signup and email verification
+- Discord app or browser
+- Copying the verification code from email
+- JulesBot direct-message verification
+- Mute and Deafen
+- Disconnect from voice
+- Share Screen
+- General channel introduction
+STEP-BY-STEP TAKEAWAYS:
+1. Sign up for VFX Apprentice and verify the email address.
+2. Use the Discord link from the site or welcome email and choose either the Discord app or browser rather than switching between them during setup.
+3. Create or use a Discord account, verify the Discord email, and enter the VFXA code sent in the welcome email.
+4. Send the code to JulesBot to link the Discord profile to the VFX Apprentice account and unlock the appropriate channels.
+5. Explore the live discussion, student Hangout, General, support, and job-board areas; use mute/deafen or screen sharing as needed.
+KEY MOMENTS:
+- [00:00:00] Discord is introduced as a major part of the course learning ecosystem.
+- [00:01:01] The welcome and verification emails are explained.
+- [00:02:15] Joining the Discord server through the app or browser is demonstrated.
+- [00:03:56] Discord email verification is completed.
+- [00:05:00] The VFXA code is sent to JulesBot to link the accounts.
+- [00:06:40] Weekly student Hangouts and voice-channel controls are demonstrated.
+- [00:07:39] The General channel, mentors, community manager, and community resources are introduced.
+- [00:08:25] The bulletin board and direct mentor contact are shown as career/community resources.
+ASSIGNMENTS / TIPS:
+- Complete the email and Discord verification before expecting all channels to appear.
+- Keep to either the app or browser during setup to avoid unexpected behavior.
+- Use mute/deafen when joining a Hangout only for background presence.
+- Introduce yourself in General and use the community/mentor channels for questions and feedback.
