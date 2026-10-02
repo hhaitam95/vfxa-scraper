@@ -1,0 +1,35 @@
+TITLE: Big to Small
+OVERVIEW: This lesson demonstrates a common way to make an effect disappear by shrinking it progressively. It explores how motion timing and size timing can be varied independently, how to add a final accent, and how to reuse one animation to build a multi-spark composition. It is aimed at artists practicing simple but versatile disappearance and compositing ideas.
+KEY TOPICS:
+- Shrink-to-disappear animation
+- Motion and size timing
+- Ending accents
+- Reusing animation instances
+- Big, medium, and small scale hierarchy
+- Compositional placement
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Copying and duplicating animated layers
+- Editing frame timing and holds
+- Transforming position and scale
+- Editing multiple frames
+- Holding selected frames on twos
+STEP-BY-STEP TAKEAWAYS:
+1. Animate an element from its normal size toward progressively smaller sizes until it disappears, keeping the final visible size changes cohesive.
+2. Experiment with different size-spacing curves and motion timing so the disappearance can feel slow, rapid, or accentuated.
+3. Add an ending accent either by briefly growing the original shape again or by introducing a new small puff or secondary element.
+4. Duplicate the animation several times and change each copy's scale, position, and start timing.
+5. Arrange the copies with big, medium, and small sizes along a pleasing motion arc, then adjust individual holds and disappearances so they do not feel mechanically identical.
+KEY MOMENTS:
+- [00:00:06] Shrinking is introduced as a common way to make effects disappear.
+- [00:00:55] The basic frame-by-frame size reduction is demonstrated.
+- [00:02:02] Motion timing and size timing are separated so they can be varied independently.
+- [00:03:29] A small final state is held before shrinking again to create an accent.
+- [00:10:09] A new small puff is used as an alternative ending accent.
+- [00:11:33] The existing sparkle animation is reused to build a new composition.
+- [00:13:44] Five sparkle copies are created and arranged using big, medium, and small sizes.
+- [00:20:31] Holds on twos are used to slow the largest sparkle and refine the overall rhythm.
+ASSIGNMENTS / TIPS:
+- Keep the smallest disappearing sizes visually coherent from frame to frame.
+- Vary motion and size timing instead of applying the same spacing to every parameter.
+- Reuse existing animation when building a larger effect rather than redrawing identical pieces.
+- Use size hierarchy and placement to create compositional variety.
