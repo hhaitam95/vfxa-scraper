@@ -1,0 +1,45 @@
+TITLE: Lightning Zap - Painting & Commentary
+OVERVIEW: This lesson turns a lightning thumbnail into a painted concept with a strong center impact and two distinct beats. It demonstrates lasso-based shape blocking, positive/negative shape design, dimensional ground-plane forms, layered value/color, subtle glow, and iterative feedback-driven refinement. It is aimed at artists practicing graphic but volumetric lightning concepts.
+KEY TOPICS:
+- Thumbnail-to-concept workflow
+- Lightning shape language
+- Positive and negative shapes
+- Three-dimensional form in flat shapes
+- Thick and thin variation
+- Layer Styles and glow
+- Value hierarchy
+- Design iteration and feedback
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Lasso tool for sharp blocking and carving
+- Ctrl-click layer thumbnail for alpha selection
+- Select > Modify > Contract
+- Layer Styles: Stroke, Inner Glow, Outer Glow
+- Mask on a color layer
+- Soft and crisp brushes
+- Linear Dodge/Add
+- Layer opacity
+- Reference and palette exploration
+STEP-BY-STEP TAKEAWAYS:
+1. Choose the lightning thumbnail and resize/reposition the composition so the tall strike has enough room while respecting the gameplay AOE when required.
+2. Block sharp jagged lightning shapes with the Lasso, thinking about the negative spaces between them and how those spaces imply three-dimensional flow.
+3. Build the ground and upward bowl/bending shapes so individual forms support the central impact and read as 3D before rendering.
+4. Separate dark/red/value layers and use Layer Styles to establish an emissive body, then add graphic internal shapes rather than leaving large areas as flat black.
+5. Keep the hottest value focused at the impact and use orange between black and white/yellow so the transition is not just abrupt black-white contrast.
+6. Add small sparks and supporting elements, keep glow subtle, and use feedback to split unclear transition timing into clearer impact and dissipation beats.
+7. Experiment with alternate color palettes while preserving the underlying value and shape relationships.
+KEY MOMENTS:
+- [00:00:08] The chosen lightning thumbnail is introduced and the tall composition is adjusted.
+- [00:02:42] Lasso blocking is used to create sharp jagged base shapes.
+- [00:04:02] Positive and negative shapes are discussed as a source of dimensionality.
+- [00:05:25] Three-dimensionality is built into the shapes before rendering.
+- [00:08:59] Layer Styles are used for inner/outer glow and the instructor warns against excessive bloom.
+- [00:11:01] Graphic internal shapes and supporting elements are added to avoid a plain black fill.
+- [00:15:16] Contracted black inset layers and later carving are explained.
+- [00:16:37] Detail is selectively removed to restore a focal hierarchy.
+ASSIGNMENTS / TIPS:
+- Reference other artists and nature rather than trying to invent every shape from nothing.
+- Keep the silhouette crisp and intentional.
+- Use thick/thin variation and supporting secondary shapes to reinforce motion.
+- Keep the highest contrast at the intended impact/focal point.
+- Avoid overusing glow; subtle halos are enough to imply emissive light.
+- Iterate and throw away weak versions rather than becoming attached to the first idea.
