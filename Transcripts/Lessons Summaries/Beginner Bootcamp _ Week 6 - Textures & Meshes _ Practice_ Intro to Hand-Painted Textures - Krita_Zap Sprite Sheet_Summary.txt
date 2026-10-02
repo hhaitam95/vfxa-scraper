@@ -1,0 +1,43 @@
+TITLE: Zap Sprite Sheet
+OVERVIEW: This lesson paints a set of four stylized electrical zap textures and packs them into a 2x2 sprite sheet. It emphasizes balancing visual interest with simplicity, maintaining a consistent style across variations, varying thickness and cutouts, adding controlled blur/glow, and preparing the textures for engine use. It is intended for artists creating reusable electricity textures.
+KEY TOPICS:
+- 2x2 zap sprite sheet
+- Stylized lightning
+- Shape simplicity
+- Visual consistency
+- Thickness variation
+- Glow and Gaussian Blur
+- Texture packing
+- Reusable effect textures
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 1024 x 1024 texture
+- Basic 5 Size brush
+- E for eraser
+- Layer duplication
+- Gaussian Blur
+- Glow layers
+- Transform/centering
+- Wraparound mode for packing/checking
+- 2x2 sprite-sheet layout
+STEP-BY-STEP TAKEAWAYS:
+1. Create a 1024 x 1024 texture when each packed zap needs more detail and start each zap from a simple scribbly blob.
+2. Erase cutout shapes to create sharp, varied electrical silhouettes and deliberately change thickness across each zap.
+3. Compare the variations against one another so they share a visual language while remaining different enough to avoid duplication.
+4. Make an intentionally over-detailed zap as a contrast example, then simplify it because excessive detail makes a reusable in-game texture noisy.
+5. Duplicate the core texture into glow/blur layers, retaining sharp structure underneath the softer treatment.
+6. Center and scale the completed zaps into four quadrants, check their consistency as a set, and save the sprite sheet.
+KEY MOMENTS:
+- [00:00:05] The 2x2 zap sprite-sheet exercise is introduced.
+- [00:00:44] The texture is increased to 1024 x 1024 to preserve detail after packing.
+- [00:01:42] The first zap is built from a thin scribbly blob and subtractive cutouts.
+- [00:03:48] Consistency between zap variations is emphasized.
+- [00:07:34] An intentionally over-noisy zap is created to demonstrate the problem of excessive detail.
+- [00:10:17] Thickness variation is used to make the zap more visually interesting without overcomplicating it.
+- [00:21:08] The finished 2x2 sheet is centered, named, and checked.
+- [00:22:03] The lesson recaps the simple-scribble-to-cutout-to-glow workflow and the importance of avoiding visual bombardment.
+ASSIGNMENTS / TIPS:
+- Keep sprite variations stylistically consistent.
+- Prefer simple reusable shapes over highly specific noisy designs.
+- Vary thickness and cutouts to avoid identical zaps.
+- Use glow sparingly and preserve sharp structure.
+- Consider how small the texture will be on screen before deciding how much detail to paint.
