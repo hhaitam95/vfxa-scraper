@@ -1,0 +1,34 @@
+TITLE: Gameplay Lecture
+OVERVIEW: This lesson explains how game VFX must communicate gameplay information quickly and consistently. It focuses on anticipation, impact, persistence, readability, player attention, and timing relative to game actions rather than treating an effect as an isolated animation. It is intended for artists building effects that support player understanding.
+KEY TOPICS:
+- Gameplay readability
+- Telegraphs and anticipation
+- Impact feedback
+- Timing
+- Player attention
+- Persistent versus impulse effects
+- Functional VFX
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Anticipation timing
+- Impact timing
+- Deliberate holds
+- Burst and loop structure
+- Camera-space review
+STEP-BY-STEP TAKEAWAYS:
+1. Identify what gameplay information the effect must communicate.
+2. Establish anticipation when the player needs a warning or readable wind-up.
+3. Make the impact moment immediately recognizable through timing, value, scale, or color.
+4. Keep the effect's duration appropriate to how long the information must remain readable.
+5. Separate functional layers from decorative layers and make sure decoration does not obscure the gameplay cue.
+6. Review the effect in the actual game camera and in relation to surrounding action.
+KEY MOMENTS:
+- [00:00:00] Gameplay communication is introduced as the purpose of game VFX.
+- [00:05:00] Anticipation and telegraphing are discussed.
+- [00:10:00] Impact timing and feedback are demonstrated.
+- [00:15:00] Persistent effects are contrasted with impulse effects.
+- [00:20:00] Player attention and readability are discussed.
+- [00:25:00] The lesson returns to testing in gameplay context.
+ASSIGNMENTS / TIPS:
+- Start from the gameplay question, not the visual trick.
+- Use timing to communicate before adding more particles.
+- Test from the player's camera whenever possible.
