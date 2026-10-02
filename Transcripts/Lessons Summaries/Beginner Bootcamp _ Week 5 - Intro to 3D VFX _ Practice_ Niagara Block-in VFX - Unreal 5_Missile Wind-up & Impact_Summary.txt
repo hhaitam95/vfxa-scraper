@@ -1,0 +1,48 @@
+TITLE: Missile Wind-up & Impact
+OVERVIEW: This lesson blocks out a full missile sequence using a wind-up, missile core and trail, and an existing impact effect. It uses kitbashing to work efficiently, then applies squash and stretch, overlapping action, follow-through, trails, and deliberately shortened physical behavior so the gameplay read stays clear. It is aimed at beginners learning how animation principles translate into multi-emitter Niagara effects.
+KEY TOPICS:
+- Kitbashing
+- Wind-up and anticipation
+- Overlapping action
+- Follow-through
+- Squash and stretch
+- Ribbon trails
+- Velocity alignment
+- Trail cleanup
+- Gameplay readability
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Ctrl+D to duplicate
+- Ctrl+C / Ctrl+V to copy emitters
+- Add Comment around emitters
+- Niagara template/radio-burst system
+- Ribbon Trail Leader / Follower
+- Velocity Align
+- Linear Velocity
+- Non-uniform Scale Sprite Size
+- Location Event
+- Spawn Per Unit
+- Emitter Age curve
+- System loop duration
+STEP-BY-STEP TAKEAWAYS:
+1. Duplicate the existing hit-impact emitters and disable them as a reusable impact group rather than rebuilding the impact from scratch.
+2. Create a new Niagara system from a radio-burst/template source and copy its Ribbon Trail Leader and Follower emitters into the missile system.
+3. Configure the missile core as a single velocity-aligned triangle particle with short lifetime and non-uniform size.
+4. Use a non-uniform Scale Sprite Size curve to squash and stretch the missile before launch, during rapid travel, and at the collision.
+5. Build the ribbon trail and decide whether normal Spawn Rate or Spawn Per Unit better matches the missile's variable movement through world space.
+6. Re-enable and modify the impact so sparks/trails provide follow-through after the missile stops, but deliberately shorten or simplify anything that distracts from the gameplay event.
+7. Treat overlapping action as the trailing motion caused by the primary action and follow-through as the remaining momentum after the impact.
+KEY MOMENTS:
+- [00:00:05] The missile sequence is introduced as wind-up, missile, and impact, with overlapping action and follow-through as the main principles.
+- [00:03:48] Kitbashing is introduced as the starting workflow for reusing existing effects.
+- [00:06:00] Ribbon Trail Leader and Follower are copied from a template system.
+- [00:07:09] The missile core is converted to a velocity-aligned triangle burst.
+- [00:09:13] Non-uniform scale curves are used for squash and stretch.
+- [00:13:15] The missile's speed and squash/stretch transition are reviewed before impact.
+- [00:55:43] The trail is shaped with an emitter-age curve to hang briefly after the impact.
+- [00:59:07] The final section explains separating cast, missile, and impact as independent effects for game implementation.
+ASSIGNMENTS / TIPS:
+- Reuse existing emitters and modify them rather than rebuilding common pieces.
+- Keep physicality in service of readability; the instructor intentionally shortens true follow-through when it becomes distracting.
+- Use Spawn Per Unit for variable-speed world-space motion when appropriate.
+- Think of trail motion as a connected secondary action rather than an isolated decoration.
+- Keep complex multi-stage effects separable enough that gameplay systems can spawn and control their parts independently.
