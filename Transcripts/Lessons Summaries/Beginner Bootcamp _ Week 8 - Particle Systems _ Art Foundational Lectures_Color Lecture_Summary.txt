@@ -1,0 +1,32 @@
+TITLE: Color Lecture
+OVERVIEW: This lesson revisits practical color decisions for particle-system VFX, focusing on value, saturation, hue shifts, temperature, and visual hierarchy. It emphasizes using color to communicate the material and energy of an effect while reserving the strongest values and saturation for the focal moment. It is intended for artists translating 2D color principles into real-time particles.
+KEY TOPICS:
+- Hue, saturation, value
+- Color temperature
+- Value hierarchy
+- Saturation hierarchy
+- Color progression over particle lifetime
+- Readability in game context
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Color over Life
+- Value/grayscale checking
+- Color gradients
+- Warm/cool color shifts
+- Particle color parameters
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the value hierarchy before choosing detailed color, making the main readable region the strongest visual anchor.
+2. Choose a limited palette and decide which hues represent the material or energy.
+3. Use saturation and temperature changes to separate primary, secondary, and background particles.
+4. Animate color over the particle lifetime so the effect moves through a deliberate energy progression.
+5. Review the color against the game environment rather than judging it only in isolation.
+KEY MOMENTS:
+- [00:00:00] The lesson begins with the role of color in particle effects.
+- [00:04:00] Value is discussed as the basis of readability.
+- [00:08:00] Saturation and hue relationships are applied to VFX.
+- [00:12:00] Warm/cool temperature is connected to material and energy.
+- [00:16:00] Color progression over time is demonstrated.
+- [00:20:00] Environmental context and readability are emphasized.
+ASSIGNMENTS / TIPS:
+- Check value separately from hue.
+- Keep the strongest color/value contrast around the main event.
+- Use color progression deliberately rather than changing color without a reason.
