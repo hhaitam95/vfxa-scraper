@@ -1,0 +1,36 @@
+TITLE: Stepping
+OVERVIEW: This lesson introduces the Step operation for turning continuous values into a binary threshold, then extends the idea to Smoothstep for a controlled soft transition. It uses the operations to isolate regions of a grayscale texture and to create adjustable edges that can drive dissolves and masks. It is intended for beginners learning the difference between hard and feathered shader thresholds.
+KEY TOPICS:
+- Step
+- Smoothstep
+- Thresholds
+- Binary masks
+- Feathered transitions
+- Adjustable edges
+- Dissolve-style masks
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Step
+- Smoothstep
+- One Minus
+- Preview/debug output
+- Parameterized threshold values
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a grayscale texture containing values between 0 and 1.
+2. Feed it into Step with a threshold so values below the threshold output 0 and values at/above it output 1.
+3. Replace the hard transition with Smoothstep when a feathered boundary is needed.
+4. Adjust the lower and upper edge values to isolate a specific range of the texture.
+5. Drive the threshold/edge values from parameters when the mask should be art-directable.
+6. Use the resulting binary or soft mask for effects such as cutouts, dissolves, and transitions.
+KEY MOMENTS:
+- [00:00:05] Step is introduced.
+- [00:01:11] The two inputs to Step are explained.
+- [00:01:53] Values below the threshold are shown outputting zero.
+- [00:03:14] Smoothstep is introduced with two edge values.
+- [00:04:15] The edge range is used to select a desired grayscale region.
+- [00:04:47] Parameter control is introduced.
+- [00:05:20] Feathering is compared with an After Effects-style feather concept.
+- [00:05:49] The mask position is adjusted as a parameterized value.
+ASSIGNMENTS / TIPS:
+- Use Step for a hard cutoff and Smoothstep for a soft transition.
+- Adjust both Smoothstep edges when isolating a narrow range.
+- Parameterize thresholds when the effect needs art-direction control.
