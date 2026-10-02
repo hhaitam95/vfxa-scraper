@@ -1,0 +1,31 @@
+TITLE: Impulse & Rhythm
+OVERVIEW: This lesson distinguishes short, self-contained effects impulses from persistent effects that need a coherent rhythm. It connects animation timing to beats in music and character animation, then uses fire as an example of a cycling effect whose internal actions should share a consistent tempo. It is for artists learning to build timing that feels intentional rather than mechanically uneven.
+KEY TOPICS:
+- Impulse effects
+- Persistent effects and rhythm
+- Beats and musical timing
+- Cycles
+- Dissipation timing
+- Changes of tempo
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Timing the effect to audio or character beats
+- Path-of-action planning for cycles
+- Frame-count planning for short impulses
+- Gradual tempo changes
+STEP-BY-STEP TAKEAWAYS:
+1. Decide whether the effect is an impulse that happens and resolves, or a persistent/cycling effect.
+2. For an impulse, establish the burst, keep its main motion moving forward, and dissipate it within the available duration.
+3. For a persistent effect, establish the path of action and organize repeated movements so the end can flow back into the beginning.
+4. Match small dissipation events to the rhythm of the larger effect instead of letting one element linger much longer without reason.
+5. When changing tempo, transition gradually so the new rhythm feels connected to the established one.
+KEY MOMENTS:
+- [00:00:27] Impulse is defined as a burst that appears, animates, and dissipates in one motion.
+- [00:01:35] A fire burst demonstrates a short impulse and its dissipation.
+- [00:02:43] Rhythm is introduced as the timing problem for persistent effects.
+- [00:03:27] The fire cycle is brought back to its starting state to demonstrate cyclical rhythm.
+- [00:04:45] A metronome is used as an analogy for maintaining a consistent beat.
+- [00:05:19] Gradual tempo changes are recommended rather than abrupt timing changes.
+ASSIGNMENTS / TIPS:
+- Consider the beat of character motion or audio when timing an effect.
+- Keep small motions consistent with the rhythm of the overall effect.
+- Change tempo gradually when a new timing is needed.
