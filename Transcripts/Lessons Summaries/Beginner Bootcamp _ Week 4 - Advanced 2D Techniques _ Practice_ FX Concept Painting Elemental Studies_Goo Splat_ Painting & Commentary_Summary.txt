@@ -1,0 +1,47 @@
+TITLE: Goo Splat - Painting & Commentary
+OVERVIEW: This lesson demonstrates turning a toxic-goo thumbnail into a complete painted concept while preserving strong shape relationships and a clear area of effect. It covers ground-plane perspective, translucent reflection, thick-and-thin liquid shapes, tangents, layered color, and focal depth. It is intended for artists learning how to render a stylized viscous material with deliberate form and lighting.
+KEY TOPICS:
+- Thumbnail-to-painting process
+- Ground-plane perspective
+- Goo surface tension
+- Positive/negative shapes
+- Tangents
+- Reflection and translucency
+- Thick and thin shape language
+- Value and depth hierarchy
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Brush and Lasso tools
+- Layer masks
+- Control-click alpha selection
+- Inner Glow
+- Linear Dodge/Add
+- Gradient Overlay set to Color
+- Smart Object
+- Soft brush with low opacity/flow
+- Layer-by-layer color adjustments
+STEP-BY-STEP TAKEAWAYS:
+1. Select a promising goo thumbnail and adjust its position on the template to leave useful space for the upward action.
+2. Block the ground-plane shapes first so the later upward strands have a perspective relationship to the surface.
+3. Build the main goo silhouette from the outside inward, using subdued background colors and stronger foreground values.
+4. Keep negative holes clear, avoid awkward tangents, and use connected shapes/tendrils to imply how the material was pulled apart.
+5. Render a droplet by considering reflected light, internal light scatter, and bounce light from the ground.
+6. Use round tips for detached liquid because liquid retracts into rounded forms; combine thick and thin shapes according to implied speed.
+7. Preserve strong outer silhouettes while adding soft color, glow, and subtle interior variation on separate layers.
+8. Use smart-object/gradient-overlay color experiments only as controlled variations; preserve deliberate layer-by-layer color relationships for the final treatment.
+KEY MOMENTS:
+- [00:00:59] The thumbnail is repositioned lower in the frame to leave room for upward movement.
+- [00:02:35] Ground-plane goo shapes are blocked before the vertical rising strands.
+- [00:03:32] The artist abandons the first lasso version and restarts with a crisp brush.
+- [00:04:27] Subdued background goo is contrasted against more saturated foreground goo.
+- [00:07:07] Tangents are identified and corrected by separating overlapping lines.
+- [00:09:34] A droplet is rendered through reflected and internal light.
+- [00:15:58] Rounded liquid tips are explained as a response to surface tension when strands detach.
+- [00:19:56] Real reference is recommended for understanding reflective/translucent surfaces.
+ASSIGNMENTS / TIPS:
+- Do not be afraid to throw away a few minutes of work when a shape is not working.
+- Keep silhouettes crisp during foundational passes; softness can be added later.
+- Think about positive and negative shapes together.
+- Avoid awkwardly kissing/tangent lines between overlapping forms.
+- Use reference for reflections, translucency, and surface behavior.
+- Move through the whole painting instead of polishing only one local area.
+- Keep major shape layers separate when later opacity/color control will be useful.
