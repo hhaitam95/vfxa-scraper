@@ -1,0 +1,21 @@
+TITLE: Week 5 - Intro to 3D VFX _ Practice_ Niagara Block-in VFX - Unreal 5_Explosion AoE - Anticipation, Impulse, & Rhythm
+OVERVIEW: This lesson covers Week 5 - Intro to 3D VFX _ Practice_ Niagara Block-in VFX - Unreal 5_Explosion AoE - Anticipation, Impulse, & Rhythm, using Unreal as part of the animation/VFX bootcamp. The transcript is a practical lesson and should be followed alongside the corresponding software exercise.
+KEY TOPICS:
+- Week 5 - Intro to 3D VFX _ Practice_ Niagara Block-in VFX - Unreal 5_Explosion AoE - Anticipation, Impulse, & Rhythm
+- Practical VFX workflow
+- Repetition and application
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Unreal
+STEP-BY-STEP TAKEAWAYS:
+1. Follow the lesson's demonstrated setup and workflow in Unreal.
+2. Reproduce the main procedure shown in the transcript, checking the result at each stage.
+3. Apply the demonstrated technique to the corresponding VFX exercise and review the result in context.
+KEY MOMENTS:
+- [00:00:05] Hey everyone, we are in the last video of the Niagara block-in series.
+- [00:00:11] In this video, we are going to be talking about putting together this explosion here,
+- [00:00:16] and we are going to be using it to dig into two last principles.
+- [01:27:00] a really nice little bit of learning to build towards future projects of your own, I hope
+- [01:27:07] they were helpful and I will see y'all in Discord.
+- [01:27:11] Cheers y'all.
+ASSIGNMENTS / TIPS:
+- None mentioned
