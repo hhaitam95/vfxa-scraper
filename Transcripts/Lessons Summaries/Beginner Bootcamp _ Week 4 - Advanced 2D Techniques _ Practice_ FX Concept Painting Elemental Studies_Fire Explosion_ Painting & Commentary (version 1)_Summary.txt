@@ -1,0 +1,41 @@
+TITLE: Fire Explosion - Painting & Commentary (Version 1)
+OVERVIEW: This lesson demonstrates a first-pass Photoshop concept painting of a fiery explosion based on a chosen thumbnail. It builds a radial area-of-effect shockwave, rolling smoke masses, outward fire spikes, internal illumination, glow, and sparks while repeatedly emphasizing three-dimensional shape design. It is intended for students practicing the transition from thumbnail to painted elemental concept.
+KEY TOPICS:
+- Thumbnail-to-painting workflow
+- Radial AOE design
+- Smoke and mushroom-cloud forms
+- Fire spikes and interior lighting
+- Positive/negative shape
+- Radial blur and smudge
+- Glow and additive layers
+- Sparks and hot spots
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Photoshop Lasso and Brush tools
+- Flat/chisel brush
+- Radial Blur
+- Smudge tool
+- Additive/Linear Dodge-style glow layer
+- Large fuzzy brush for glow
+- Layered orange/yellow/white color progression
+STEP-BY-STEP TAKEAWAYS:
+1. Choose the thumbnail and clarify the AOE boundary with an orange-red radial shockwave.
+2. Build irregular angular smoke shapes rolling outward from the center and add inward/outward spikes to establish the explosion's main silhouette.
+3. Block the gray masses first, using a flat brush to chisel shapes and suggest thick, volumetric smoke.
+4. Add orange internal illumination from the center outward, keeping bright colors connected through intermediate orange/red values.
+5. Break up the shockwave with radial blur and controlled smudging, then add a glow layer and more irregular fire shapes to avoid uniformity.
+6. Finish with orange/red blending, small sparks on a glow layer, and white hot spots at the highest-energy areas.
+KEY MOMENTS:
+- [00:00:15] The chosen thumbnail is clarified with an explicit orange-red AOE shockwave.
+- [00:01:33] Irregular smoke shapes are carved to roll outward from the center.
+- [00:02:21] Spiky fire forms are added inside the explosion.
+- [00:04:30] Condensed smoke is developed as volumetric pebble-like masses.
+- [00:05:48] Orange internal illumination is introduced as the source of the fiery look.
+- [00:07:22] Radial blur and smudge soften and energize the shockwave.
+- [00:08:34] An additive glow layer is used with a large fuzzy brush.
+- [00:09:55] Sparks and white hot spots complete the concept.
+ASSIGNMENTS / TIPS:
+- Make radial elements point toward the center to reinforce the explosion.
+- Use angular shapes when useful for interesting intersections and overlaps.
+- Keep positive and negative shapes in mind while painting.
+- Move from gray structure into orange/yellow/white rather than jumping directly from gray to yellow.
+- Avoid uniformity and excessive symmetry in explosion shapes.
