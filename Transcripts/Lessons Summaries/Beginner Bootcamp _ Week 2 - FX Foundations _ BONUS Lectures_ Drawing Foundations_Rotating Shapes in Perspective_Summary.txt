@@ -1,0 +1,35 @@
+TITLE: Rotating Shapes in Perspective
+OVERVIEW: This lesson explains how to draw a shape rotating within an existing perspective scene. It demonstrates how rotation changes a shape's relationship to its vanishing points and uses a projected circle/oval guide to track corner positions. It also presents a faster mental-construction approach for rotating simple forms.
+KEY TOPICS:
+- Rotating cubes in perspective
+- Vanishing-point changes during rotation
+- Projection guides
+- Rotating around a center point
+- Off-center rotation
+- Simplified mental construction
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Perspective projection guides
+- Circle/oval guides for corner paths
+- Perpendicular construction lines
+- Light construction strokes
+- Onion Skin for comparing animation frames
+STEP-BY-STEP TAKEAWAYS:
+1. Keep the scene's horizon line fixed while recognizing that the rotated object's vanishing directions change.
+2. Construct an overhead circle/oval guide representing the path of the object's corners.
+3. Project the corner positions from that guide back into the perspective scene.
+4. Connect the projected points while checking that the edges converge consistently.
+5. For a centered square/cube, simplify the construction by imagining the corners around one circle; for off-center rotations, construct separate circular paths for the corners.
+6. In animation, compare the rotated states with Onion Skin and keep construction strokes light until the final edges make sense.
+KEY MOMENTS:
+- [00:00:05] Rotation inside an existing perspective scene is introduced.
+- [00:02:42] The instructor keeps the horizon line fixed and estimates new vanishing directions.
+- [00:05:06] A top-down circle guide is introduced for projecting a rotated cube.
+- [00:08:02] The square's corners are projected onto a perspective cylinder/oval guide.
+- [00:10:15] A second rotated state is created from the same central position.
+- [00:12:56] Incorrect connections are corrected by checking the perspective logic.
+- [00:14:42] The rotated construction is related to two animation frames viewed with Onion Skin.
+- [00:22:10] Separate circles are recommended when rotating a non-square shape around an off-center pivot.
+ASSIGNMENTS / TIPS:
+- Practice rotating simple cubes before more complex objects.
+- Use light construction strokes so corrections are easy.
+- For rotations around a non-central pivot, give individual corners their own projected paths.
