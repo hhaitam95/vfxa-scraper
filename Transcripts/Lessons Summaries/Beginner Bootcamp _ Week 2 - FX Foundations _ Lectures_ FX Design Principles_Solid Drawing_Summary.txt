@@ -1,0 +1,35 @@
+TITLE: Solid Drawing
+OVERVIEW: This lesson explains how to design an effect carefully before beginning a long animation pass. It emphasizes keeping the design appropriate to the artist's current ability, planning the elements and style up front, and staying faithful to the chosen design through the animation. It is aimed at artists who need consistent, animatable FX designs.
+KEY TOPICS:
+- Pre-animation design
+- Simplicity versus complexity
+- Planning and “battle plan”
+- Design consistency
+- Material/style consistency
+- Limiting late design changes
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Multiple state drawings before animation
+- Design thumbnails/states
+- Reference drawing before animation
+- Frame-by-frame consistency checks
+STEP-BY-STEP TAKEAWAYS:
+1. Identify the purpose of the effect and decide how complex the design should be.
+2. Lay out all major design elements before animating, including lines, fills, inner elements, and shadow treatment where relevant.
+3. Create representative states or drawings so the intended design language is clear across the action.
+4. During animation, continually compare new frames against the original design and stop accidental style drift.
+5. Allow only deliberate, limited changes when they genuinely improve the result; avoid introducing a new design system halfway through a long sequence.
+KEY MOMENTS:
+- [00:00:29] Solid design is introduced as the stage immediately before animation.
+- [00:00:43] The instructor emphasizes thinking about the effect's purpose and design elements first.
+- [00:02:31] Starting with small, simple concepts is recommended for beginners.
+- [00:04:08] Planning ahead is emphasized before sequential animation.
+- [00:05:01] Designs are linked to what is realistically animatable within the artist's capability.
+- [00:06:01] Multiple effect states are suggested as preparation for animation.
+- [00:07:01] “Locking yourself in” to the chosen design is explained as protection against uncontrolled design drift.
+- [00:10:18] Frame-by-frame faithfulness to the original design is identified as the key consistency check.
+ASSIGNMENTS / TIPS:
+- Keep beginner designs simple enough to animate confidently.
+- Plan major design choices before a long frame-by-frame pass.
+- Check every frame against the established design language.
+- Treat changes discovered during animation as deliberate exceptions rather than continually redefining the design.
+- Use constraints to focus creativity rather than letting scope expand uncontrollably.
