@@ -1,0 +1,34 @@
+TITLE: Intro & Overview
+OVERVIEW: This lesson introduces node-based materials and frames shaders as a practical tool for expanding a VFX artist's visual toolbox. It explains that the course will focus on understanding the basic math, common VFX techniques, and hands-on reproduction in Unreal rather than treating shaders as a black box. It is intended for artists who are new to shader graphs or uncomfortable with the mathematical side of effects.
+KEY TOPICS:
+- Node-based shaders
+- Materials
+- Basic shader math
+- Transparency
+- Common VFX shader techniques
+- Hands-on experimentation
+- Material/shader problem solving
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Unreal material editor
+- Node-based graph
+- Material parameters
+- Texture sampling
+- Basic mathematical operations
+- Hands-on graph recreation
+STEP-BY-STEP TAKEAWAYS:
+1. Treat shaders as a set of connected operations rather than a single mysterious system.
+2. Learn the basic mathematics and data flow first.
+3. Reproduce the examples directly in Unreal so the visual result can be connected to the underlying operations.
+4. Build common VFX-specific techniques after learning the basics.
+5. Add the shader/material to the VFX workflow as another tool for controlling transparency, texture behavior, cleanup, and advanced visual effects.
+KEY MOMENTS:
+- [00:00:06] The node-based shader introduction begins.
+- [00:01:13] Transparency and particle examples are identified as early use cases.
+- [00:01:57] Basic math is included as a core learning area.
+- [00:02:48] Common VFX shader techniques are previewed.
+- [00:03:30] The lessons are framed as practical techniques rather than abstract theory.
+- [00:03:52] Hands-on reproduction is emphasized as the learning method.
+ASSIGNMENTS / TIPS:
+- Follow along inside Unreal rather than only watching.
+- Focus on understanding why nodes produce the observed result.
+- Experiment with the techniques after reproducing the lesson.
