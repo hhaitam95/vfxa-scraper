@@ -1,0 +1,41 @@
+TITLE: Unity Missile - Timeline Setup
+OVERVIEW: This lesson explains how to sequence a missile effect using Unity Timeline when its actual travel distance, lifetime, and impact location are not known in advance. Control tracks are used to activate the wind-up, missile, and impact at controlled times, and an Animation Track is introduced for the missile route. It is aimed at artists learning how to approximate game-ready sequencing without writing the gameplay script itself.
+KEY TOPICS:
+- Unity Timeline
+- Control Tracks
+- Activation timing
+- Playback range
+- Removing particle start delays
+- Animation Track
+- Animator component
+- Missile route animation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Window > Sequencing > Timeline
+- Timeline > Create
+- Control Track
+- Playback range markers
+- Animation Track
+- Window > Animation > Animation
+- Create Animation Clip
+- Animator component/controller
+STEP-BY-STEP TAKEAWAYS:
+1. Remove the top-level particle system when Timeline should control the sequence and open Timeline from Window > Sequencing > Timeline.
+2. Create a Timeline on the top-level missile object and add three Control Tracks for wind-up, missile, and impact.
+3. Drag the corresponding effect objects into the tracks and trim their active ranges to match the intended sequence.
+4. Use the Timeline playback markers to set the total preview range, then remove particle start delays because the Timeline now supplies the timing.
+5. Disable velocity-driven movement on the missile core and add an Animation Track for the missile route.
+6. Create an Animation Clip and Animator on the route object, then use that animation data to drive the missile's actual movement while Timeline controls the surrounding effects.
+KEY MOMENTS:
+- [00:00:05] Timeline is introduced as a practical way to approximate game sequencing without script.
+- [00:01:31] The parent particle system is removed and the Timeline window is opened.
+- [00:02:22] A Timeline is created on the top-level missile object.
+- [00:03:22] Three Control Tracks are added for the wind-up, missile, and impact.
+- [00:05:28] Playback markers are adjusted on the 60 FPS, 1.5-second demo.
+- [00:08:21] Particle start delays are removed because Timeline now controls activation timing.
+- [00:11:47] The effect is described as closer to game implementation once component durations are aligned.
+- [00:12:15] An Animation Track and Animator are introduced for the missile route.
+ASSIGNMENTS / TIPS:
+- Use Timeline for previewing/sequencing components when their actual game-driven positions are not known.
+- Keep separate Control Tracks for independently timed effect components.
+- Do not leave old particle start delays active after moving timing responsibility to Timeline.
+- Organize Timeline and animation assets so the sequence remains easy to inspect.
