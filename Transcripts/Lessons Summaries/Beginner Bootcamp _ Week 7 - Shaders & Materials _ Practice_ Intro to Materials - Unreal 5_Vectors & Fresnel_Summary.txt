@@ -1,0 +1,42 @@
+TITLE: Vectors & Fresnel
+OVERVIEW: This lesson introduces the dot product, normalized vectors, camera direction, and Fresnel as practical tools for controlling an effect based on surface orientation. It builds the math visually, then uses the result to create an edge/angle-based mask that can drive opacity, color, and stylized lighting. It is intended for artists who want to understand enough vector math to create useful VFX shaders in Unreal.
+KEY TOPICS:
+- Dot product
+- Vector projection
+- Normalize
+- Camera direction
+- Surface normals
+- Fresnel/rim effects
+- Angle-based masks
+- Exponential shaping
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Dot Product
+- Normalize
+- Camera Vector
+- Normal Vector
+- Subtract/Add vector operations
+- Power
+- Clamp-like value shaping
+- Opacity
+- Emissive/Color outputs
+STEP-BY-STEP TAKEAWAYS:
+1. Compare two directions with Dot Product and observe that aligned vectors produce a high result while perpendicular/opposite directions reduce it.
+2. Normalize vectors when their length should not affect the directional comparison.
+3. Use the camera direction and surface normal together to produce a view-dependent value.
+4. Feed that value into opacity or color to create a Fresnel-style edge response.
+5. Use Power to concentrate the effect toward the desired range and tune the result for the material.
+6. Apply the same directional mask to curved meshes and experiment with different powers to create stylized rims and magical effects.
+KEY MOMENTS:
+- [00:00:07] The lesson warns that the material becomes more mathematical while introducing vector relationships.
+- [00:02:33] Dot Product is explained through vector projection.
+- [00:04:48] Perpendicular vectors are shown producing a near-zero projection.
+- [00:06:52] Dot Product is framed as a common and powerful VFX tool.
+- [00:09:10] Camera direction becomes part of the directional comparison.
+- [00:10:56] The resulting value is connected to opacity on a translucent material.
+- [00:13:04] Normalize is introduced to force vector length to one.
+- [00:17:16] The final Fresnel-like softball effect is demonstrated.
+ASSIGNMENTS / TIPS:
+- Visualize vector results while learning so the math has an immediate visual meaning.
+- Normalize before relying on direction-only comparisons.
+- Use Power to tune how concentrated an edge effect becomes.
+- Apply the same idea to different meshes to understand what part of the result depends on geometry.
