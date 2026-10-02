@@ -1,0 +1,41 @@
+TITLE: Photoshop for VFX Artists - 4: Pro Tips
+OVERVIEW: This final Photoshop introduction is a catch-all of practical techniques that make hand-painted VFX work faster and easier to inspect. It covers history-based undo, proof colors for checking values, alpha-based layer selection, screen-space cleanup, Liquify, foreground/background color swapping, and palette sampling. It is intended as a final utility lesson after the earlier Photoshop tools, layers, and adjustment lessons.
+KEY TOPICS:
+- History and undo/redo
+- Proof Colors and value checking
+- Alpha-based selections
+- Selection refinement
+- Liquify
+- Foreground/background colors
+- Palette sampling
+- Screen-space efficiency
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Ctrl-Z / Ctrl-Shift-Z for history navigation as demonstrated
+- Ctrl-Y for Proof Colors in the recorded Photoshop version
+- Ctrl-click layer thumbnail to select by alpha
+- Select > Modify > Contract/Expand
+- Ctrl-H to hide/show selection
+- Ctrl-D to deselect
+- F to cycle screen-space display modes
+- Liquify
+- Show Backdrop in Liquify
+- X to swap foreground/background colors
+STEP-BY-STEP TAKEAWAYS:
+1. Use the History panel and the recorded undo/redo shortcuts to move through recent painting changes.
+2. Toggle Proof Colors with Ctrl-Y to inspect value structure, focal-point readability, and contrast independently of the visible color treatment.
+3. Ctrl-click a layer thumbnail to select its opaque alpha range, then contract or expand that selection and paint on a new layer while preserving the selected transparency.
+4. Use Liquify on the correct layer to push and pull shapes while retaining cleaner edge fidelity, checking the result against the backdrop when necessary.
+5. Use X to switch between foreground and background colors and keep a small palette nearby for consistent color sampling.
+KEY MOMENTS:
+- [00:00:37] History navigation and the recorded undo/redo behavior are reviewed.
+- [00:01:47] Ctrl-Y Proof Colors is introduced for value checking.
+- [00:04:39] Ctrl-clicking a layer thumbnail creates an alpha-based selection.
+- [00:05:13] The selection is expanded/contracted and reused for painting on another layer.
+- [00:06:43] F is introduced for cycling through cleaner screen-space views.
+- [00:07:01] Liquify is demonstrated as a controlled alternative to smudging.
+- [00:08:14] The instructor reviews the everyday Photoshop features needed for the hand-painted VFX workflow.
+ASSIGNMENTS / TIPS:
+- Check values regularly rather than judging an effect only by its color.
+- Make alpha selections from the layer thumbnail when you need to preserve existing transparency.
+- Use Liquify selectively; the instructor presents it as a useful but not universal tool.
+- Keep foreground/background colors and a small palette available for consistent painting.
