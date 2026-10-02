@@ -1,0 +1,40 @@
+TITLE: Lightning & Flash Frames
+OVERVIEW: This lesson explains how lightning differs from slower elemental effects and how its near-instant appearance should influence timing. It covers lightning creation and dissipation, flash-frame/color-card techniques, drop frames, environmental interaction, and sharp shape changes. It is aimed at beginners learning to make lightning read quickly and energetically.
+KEY TOPICS:
+- Lightning timing
+- Lightning creation and dissipation
+- Flash frames
+- Color cards
+- Detailed flash frames
+- Drop/blank frames
+- Shape snapping and holds
+- Lightning reference
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Color card/full-screen color frame
+- Blank/drop frames
+- Black/white environment inversions
+- Quick shape holds followed by abrupt changes
+- Real-life lightning reference
+- Spark/twinkle leftovers on dissipation
+STEP-BY-STEP TAKEAWAYS:
+1. Treat lightning as essentially appearing or disappearing rather than visibly traveling across the screen unless travel is specifically required.
+2. Create lightning by growing the design/thickness into view over a very short span, then dissipate it in reverse or with small residual sparks.
+3. Add simple color-card flash frames for impact, optionally matching the lightning's color.
+4. For important shots, use more detailed flash frames that interact with the background; for less important lightning, keep the flash simpler.
+5. Mix in blank/drop frames to create stuttered, erratic rhythm, then balance them with the lightning's own holds and snaps.
+6. Hold a general lightning shape for a few frames before abruptly switching to a new shape so the eye registers a design before it changes.
+KEY MOMENTS:
+- [00:00:05] Lightning is introduced as a distinct element and flash frames are added to the lesson.
+- [00:01:48] Lightning's near-instantaneous visual timing is used to explain why it should not normally be animated traveling across the screen.
+- [00:03:32] A short lightning creation is built by growing its design rather than translating a tip.
+- [00:05:09] Full-screen color cards are introduced as flash frames.
+- [00:06:57] Environmental/detail flash frames are demonstrated.
+- [00:10:26] Blank/drop frames are introduced for a more erratic lightning rhythm.
+- [00:12:51] Real-life lightning reference is recommended for timing and design.
+- [00:14:24] Holding a lightning shape briefly before snapping to a new shape is shown as an energetic timing technique.
+ASSIGNMENTS / TIPS:
+- Practice lightning strikes and combine them with drop frames and flash frames.
+- Use real-life lightning footage to study timing and shape.
+- Do not automatically animate travel; decide whether the effect needs to move across screen.
+- Match flash-frame complexity to the importance of the shot.
+- Experiment until the visual rhythm feels right; the lesson presents the techniques as approaches rather than rigid rules.
