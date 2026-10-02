@@ -1,0 +1,43 @@
+TITLE: Software Setup
+OVERVIEW: This lesson configures Adobe Animate 2020 for the instructor's preferred 2D FX workflow. It covers importing or creating preferences, arranging panels, adjusting keyboard shortcuts, and understanding the main workspace areas before beginning drawing and animation work. It is intended for beginners who are setting up Animate for the class.
+KEY TOPICS:
+- Adobe Animate 2020 workspace setup
+- Preferences import/export
+- Keyboard shortcut customization
+- Object Mode, Camera, and Bone tool shortcuts
+- Panel docking and workspace organization
+- Tools panel customization
+- Layers, guide layers, and properties
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Edit > Preferences
+- Import Preferences / Export Preferences using an ANP preferences file
+- Edit > Keyboard Shortcuts
+- Removing J from Object Drawing Mode
+- Removing C from Camera
+- Removing M from Bone tool
+- K for Paint Fill in the instructor's custom setup
+- Window menu for opening panels
+- Panel drag-and-drop docking, stacking, collapsing, and minimizing
+- Three-dot Tools panel customization
+- V for Selection tool; B for Brush tool
+- Guide layers to keep reference artwork from exporting
+STEP-BY-STEP TAKEAWAYS:
+1. Import the instructor's ANP preferences or reproduce the workspace manually through Window and Keyboard Shortcuts.
+2. Remove J from Object Mode, C from Camera, and M from Bone in the custom 2D FX shortcut set.
+3. Arrange Color, Align, Properties, Tools, Timeline, Edit Bar, and other panels for a workable drawing layout.
+4. Customize the Tools panel and save/export the resulting ANP preference file.
+5. Learn the role of fill/stroke colors, layers, guide layers, and the Properties panel before moving into drawing.
+KEY MOMENTS:
+- [00:00:44] The instructor opens Preferences and explains the dark theme and ANP settings file.
+- [00:02:38] Keyboard Shortcuts are opened and the custom shortcut set is introduced.
+- [00:03:34] Object Mode is explained and J is removed in the custom workflow.
+- [00:04:15] Camera on C and Bone on M are removed.
+- [00:05:39] Panel docking, stacking, minimizing, and collapsing are demonstrated.
+- [00:07:14] The Tools panel is customized with the three-dot menu.
+- [00:09:41] Fill and stroke color controls are explained.
+- [00:12:54] The Properties panel and its Tool/Object/Frame/document settings are introduced.
+ASSIGNMENTS / TIPS:
+- Import the provided preference set or build the workspace manually.
+- Treat shortcut choices as workflow preferences rather than universal requirements.
+- Keep reference artwork on guide layers when it should not export.
+- Save/export the preference set after customizing the interface.
