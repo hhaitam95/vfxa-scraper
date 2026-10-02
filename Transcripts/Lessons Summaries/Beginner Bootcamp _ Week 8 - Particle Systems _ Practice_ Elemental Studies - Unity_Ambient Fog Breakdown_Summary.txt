@@ -1,0 +1,21 @@
+TITLE: Week 8 - Particle Systems _ Practice_ Elemental Studies - Unity_Ambient Fog Breakdown
+OVERVIEW: This lesson covers Week 8 - Particle Systems _ Practice_ Elemental Studies - Unity_Ambient Fog Breakdown, using Unity as part of the animation/VFX bootcamp. The transcript is a practical lesson and should be followed alongside the corresponding software exercise.
+KEY TOPICS:
+- Week 8 - Particle Systems _ Practice_ Elemental Studies - Unity_Ambient Fog Breakdown
+- Practical VFX workflow
+- Repetition and application
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Unity
+STEP-BY-STEP TAKEAWAYS:
+1. Follow the lesson's demonstrated setup and workflow in Unity.
+2. Reproduce the main procedure shown in the transcript, checking the result at each stage.
+3. Apply the demonstrated technique to the corresponding VFX exercise and review the result in context.
+KEY MOMENTS:
+- [00:00:05] Hello everyone, welcome to the Ambient Fog Breakdown video of the Elemental Studies course.
+- [00:00:10] In this video, we'll see how to make a fog effect with complex movement through a simple
+- [00:00:15] shader technique shown by Julian Love during its 2013 GDC presentation, the VFX of Diablo
+- [00:16:51] I hope you've enjoyed this video, and I see you in the next one for a more complex
+- [00:16:56] and stylish effect with Statised Comfire.
+- [00:16:59] Bye!
+ASSIGNMENTS / TIPS:
+- None mentioned
