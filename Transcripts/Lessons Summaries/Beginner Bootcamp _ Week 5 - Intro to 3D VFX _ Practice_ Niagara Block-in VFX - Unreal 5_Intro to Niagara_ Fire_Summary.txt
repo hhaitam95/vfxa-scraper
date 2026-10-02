@@ -1,0 +1,48 @@
+TITLE: Intro to Niagara: Fire
+OVERVIEW: This lesson introduces Unreal Engine's Niagara editor from the ground up by explaining the relationship between systems, emitters, and modules and then building a simple fire. It also introduces preview-scene hygiene and the basic particle material setup needed to see the particles correctly. It is intended for complete beginners to game VFX and Niagara.
+KEY TOPICS:
+- Niagara systems
+- Niagara emitters
+- Niagara modules
+- Spawn Rate
+- Initialize Particle
+- Sprite Renderer
+- Particle materials
+- Controlled randomness
+- Preview exposure/environment
+- Fire shape and motion
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Niagara System creation
+- Add Emitter > Fountain
+- Delete unused modules
+- Spawn Rate
+- Initialize Particle
+- Random minimum/maximum ranges
+- Material duplication
+- Particle Color to Emissive and Alpha to Opacity
+- Window > Preview Scene Settings
+- Auto Exposure off / EV adjustment
+- Point Attraction Force
+STEP-BY-STEP TAKEAWAYS:
+1. Understand the three major Niagara layers: the System contains the effect, Emitters apply consistent particle behaviors, and Modules provide the individual instructions that produce those behaviors.
+2. Create an empty Niagara System and add a Fountain emitter as the starting point for a simple fire.
+3. Remove unneeded gravity/drag modules, set a lower Spawn Rate, then use Initialize Particle to establish lifetime, color, and sprite size.
+4. Create or duplicate a simple particle material and connect Particle Color to Emissive Color and Alpha to Opacity so the particle can display its Niagara data.
+5. Correct the preview environment/exposure when the Niagara preview does not match the actual scene.
+6. Add and tune additional emitters such as embers and smoke, using controlled random ranges, curved motion, and attraction forces so the fire remains mostly cohesive while occasional particles escape.
+7. Review the whole fire as a layered effect rather than treating each emitter independently.
+KEY MOMENTS:
+- [00:00:05] Niagara is introduced as an approachable game-VFX environment for beginners.
+- [00:01:31] System, emitter, and module are explained as the three major building blocks.
+- [00:02:14] Emitters are compared using flames, embers, and smoke to show why separate behaviors deserve separate emitters.
+- [00:04:09] Modules are explained through Spawn Rate, Shape Location, and Scale Color.
+- [00:06:02] A new empty Niagara system is created and a Fountain emitter is added.
+- [00:08:15] Initialize Particle is used for the fire's basic lifetime, color, and size.
+- [00:12:09] Preview Scene Settings and exposure are adjusted so Niagara looks closer to the real scene.
+- [00:58:23] Point Attraction Force is tuned with a small random range so the fire remains cohesive while occasional flames escape.
+ASSIGNMENTS / TIPS:
+- Learn the System/Emitter/Module mental model before memorizing individual modules.
+- Use small random ranges to bridge uniformity and uncontrolled chaos.
+- Check the actual scene because Niagara's preview exposure can be misleading.
+- Do not add physically based settings just because they exist; use them when the effect needs that behavior.
+- Keep the effect playful and experiment with different fire variants once the basic structure works.
