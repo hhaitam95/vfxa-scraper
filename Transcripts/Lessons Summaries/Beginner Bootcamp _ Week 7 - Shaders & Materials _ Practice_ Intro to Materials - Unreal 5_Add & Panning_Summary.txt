@@ -1,0 +1,35 @@
+TITLE: Add & Panning
+OVERVIEW: This lesson explains how adding values to UV coordinates moves a texture across a surface. It introduces Vector2-style UV manipulation, exposes parameters for interactive control, and distinguishes wrapped textures from clamped ones at the edges. It is intended for beginners learning the basic math behind scrolling VFX textures in Unreal.
+KEY TOPICS:
+- UV panning
+- Adding values to coordinates
+- U and V movement
+- Wrap versus Clamp
+- Material instance parameters
+- Diagonal panning
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Texture Coordinate
+- Add node
+- Vector2
+- Material Instance parameter
+- Wrap
+- Clamp
+- Middle-mouse graph navigation
+STEP-BY-STEP TAKEAWAYS:
+1. Start with the texture coordinate and recognize U and V as the two values describing the texture position.
+2. Add a Vector2 value to the texture coordinates to shift the texture along U, V, or both at once.
+3. Expose the value as a material parameter so the amount of movement can be adjusted from the material instance.
+4. Use the same value for both U and V when diagonal movement is desired.
+5. Check the texture's edge behavior and choose wrapping when the texture should repeat or clamping when it should stop at the boundary.
+KEY MOMENTS:
+- [00:00:05] Panning is introduced as the topic of the lesson.
+- [00:00:38] Adding a value to UV coordinates is introduced as the basic panning operation.
+- [00:01:17] A parameter is used to drive the coordinate value.
+- [00:02:33] The material instance is used to test the parameter interactively.
+- [00:03:54] A Vector2 input is explained as the two-coordinate value used for UV movement.
+- [00:05:20] Using the same value for U and V produces diagonal movement.
+- [00:06:52] Wrap and Clamp edge behavior are compared.
+ASSIGNMENTS / TIPS:
+- Experiment with panning in U only, V only, and both directions.
+- Expose frequently changed values rather than hard-coding them in the graph.
+- Check texture edge behavior when choosing between Wrap and Clamp.
