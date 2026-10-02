@@ -1,0 +1,46 @@
+TITLE: Timeline Controls
+OVERVIEW: This lesson teaches how Adobe Animate's timeline behaves when creating, holding, moving, and editing animation frames. It focuses on keyframes, blank keyframes, frame extension, auto keyframe behavior, onion skinning, and editing multiple frames together. It is aimed at beginners who need practical control over timing and layer-based animation.
+KEY TOPICS:
+- Timeline layers and holds
+- Keyframes and blank keyframes
+- Auto keyframe behavior
+- Moving and extending frames
+- Onion Skin and outline modes
+- Edit Multiple Frames
+- Transforming animation across multiple frames
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Ctrl-S to save
+- Ctrl-Enter to generate/preview the SWF
+- F5 to extend a frame
+- F6 to create a keyframe with the existing artwork
+- F7 to create a blank keyframe
+- Shift-F6 to remove a keyframe
+- Shift-F5 to remove extended frames
+- Comma and period keys to step between frames
+- Alt plus comma/period to jump between previous/next keyframes
+- Ctrl-X and Ctrl-Shift-V for cutting and pasting in place
+- Onion Skin
+- Outline mode
+- Edit Multiple Frames
+- Q for Free Transform
+STEP-BY-STEP TAKEAWAYS:
+1. Save the Animate file, organize artwork into named layers, and use F7/F6/F5 to create blank keyframes, duplicate existing artwork as new keyframes, or extend existing holds.
+2. Turn off Auto Keyframe when it interferes with manual frame-by-frame drawing, then create the exact blank or held frames needed for each layer.
+3. Move frames by dragging them on the timeline, watching the layer's existing holds and where later keyframes begin so timing does not change unexpectedly.
+4. Use Onion Skin and outline/color settings to inspect neighboring frames without excessive visual clutter, and lock unrelated layers while editing.
+5. Turn on Edit Multiple Frames to select the animation across a range, then use Free Transform to move, rotate, scale, or skew the selected frames together; more advanced deformations may need to be handled one layer at a time.
+KEY MOMENTS:
+- [00:00:47] The instructor emphasizes saving the Animate file and explains the FLA/SWF relationship.
+- [00:02:16] Timeline animation is introduced through separate layers and named rough-animation artwork.
+- [00:03:33] Auto Keyframe is discussed and then disabled for the instructor's manual frame-by-frame workflow.
+- [00:08:27] A frame is dragged later in time to demonstrate how moving keyframes changes when an event occurs.
+- [00:10:18] F7 is used to create a blank hold so an element can appear for only the desired frames.
+- [00:11:09] F5, F6, F7, Shift-F6, and Shift-F5 are compared as the main frame-management shortcuts.
+- [00:13:00] Onion Skin is configured with locking and outline/color options for cleaner frame comparison.
+- [00:15:28] Edit Multiple Frames is enabled and Q is used to transform the animation as a group.
+ASSIGNMENTS / TIPS:
+- Practice moving frames around deliberately so you learn how holds and later keyframes affect playback.
+- Lock layers that are not being edited to reduce accidental changes and onion-skin clutter.
+- Check your animation frequently rather than waiting until the end.
+- Rough animation does not need perfectly clean drawings; polish can come after the motion works.
+- Use Edit Multiple Frames for shared transforms, but do not assume every deformation tool works across multiple frames.

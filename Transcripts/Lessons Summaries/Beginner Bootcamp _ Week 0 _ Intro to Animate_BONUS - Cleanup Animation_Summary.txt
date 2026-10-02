@@ -1,0 +1,41 @@
+TITLE: Cleanup Animation
+OVERVIEW: This bonus lesson is a time-lapse of refining a rough 2D effect into a cleaner and more deliberate animation. The instructor reworks shapes while preserving the basic motion, improving line flow, sharpening silhouettes, varying breakup timing, adding secondary motion, extending the timing, and checking for visual glitches. It demonstrates the iterative cleanup stage after the rough animation already works.
+KEY TOPICS:
+- Animation cleanup and refinement
+- Shape design and line flow
+- Sharp points and aerodynamic silhouettes
+- Secondary shapes and follow-through
+- Varied breakup timing
+- Extending an animation from 9 to 16 frames
+- Frame-by-frame review and blink checking
+TOOLS / TECHNIQUES / SHORTCUTS:
+- New symbol for isolating the rough animation
+- Brush and Eraser used repeatedly during cleanup
+- Frame-by-frame playback and checking
+- Select Multiple Frames
+- F5 to extend the animation
+- S for selection/fill behavior as demonstrated
+- Outline mode and Snap to Pixels
+- After Effects mentioned as a possible post-processing stage for glow
+STEP-BY-STEP TAKEAWAYS:
+1. Copy the existing animation into a new symbol so the original geometry and snapping do not interfere with cleanup.
+2. Re-draw the effect frame by frame using the rough animation as a motion guide, keeping the main flow while sharpening silhouettes and adding deliberate nicks, grooves, and secondary shapes.
+3. Vary when different parts break apart or dissolve instead of shrinking every component uniformly, and check the sequence repeatedly while adjusting awkward transitions.
+4. Once the motion reads well, add secondary bands or shapes with slightly different timing, correct color inconsistencies, refine blunt or wobbly edges, and extend the animation from the short version toward 16 frames where needed.
+5. Flip through every frame to catch blinking or discontinuities, make final timing and shape adjustments, then consider post-processing such as glow after the clean animation is complete.
+KEY MOMENTS:
+- [00:00:05] The instructor compares the rough effect with the refined version and notes improvements in detail, sharpness, smoothness, and jitter.
+- [00:01:56] The rough animation is copied into a new symbol so the cleanup drawing is isolated from the original line geometry.
+- [00:02:56] The instructor describes staying loose while deliberately controlling line flow and adding small chunks and nicks.
+- [00:06:09] Fast motion is analyzed and the cleanup shapes are made sharper and more aerodynamic.
+- [00:08:37] New secondary motion is introduced in the middle of the effect, with repeated frame checking.
+- [00:12:21] The instructor stresses that cleanup can deviate from the rough drawing as long as it preserves the intended motion.
+- [00:14:45] The 9-frame version is reviewed and the instructor decides to add more rest time and secondary shapes.
+- [00:24:45] The animation is extended toward 16 frames so the ending slows down and gets a smoother blend.
+ASSIGNMENTS / TIPS:
+- Use the rough animation as a guide, not as a rigid drawing that must be copied exactly.
+- Vary shape breakup and timing to avoid mechanical uniformity.
+- Get the overall motion working before spending time on fine cleanup.
+- Practice cleanup regularly; the instructor describes it as repetitive work that becomes faster with practice.
+- Do not over-fuss about tiny harmless wobble, but fix noticeable inconsistent line offsets.
+- Flip through the finished animation to catch blinking frames or parts that accidentally appear and disappear.
