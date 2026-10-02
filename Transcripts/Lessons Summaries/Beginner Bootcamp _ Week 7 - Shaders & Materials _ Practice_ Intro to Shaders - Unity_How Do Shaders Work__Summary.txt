@@ -1,0 +1,37 @@
+TITLE: How Do Shaders Work?
+OVERVIEW: This lesson gives a conceptual introduction to materials and shaders by explaining how a material controls what a surface looks like and how shader data is evaluated across the surface. It uses color channels, UV coordinates, emissive values, and surface points to show how visual effects are built from smaller operations. It is intended for beginners who have not previously worked with shaders.
+KEY TOPICS:
+- Materials and shaders
+- Surface rendering
+- RGB color
+- UV coordinates
+- Emissive values
+- Pixel/surface data
+- Building-block approach
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Material
+- Shader
+- RGB components
+- UV coordinates
+- Emission
+- Surface/vertex data
+STEP-BY-STEP TAKEAWAYS:
+1. Think of a material as the set of instructions/data that determines how a surface is rendered.
+2. Understand that the shader evaluates information across the surface rather than applying only one fixed value.
+3. Use RGB components to understand how a full color can be built from smaller channels.
+4. Understand UV coordinates as a per-surface mapping used for locating texture information.
+5. Recognize that emissive values can make surfaces appear self-lit and support glow-like VFX.
+6. Treat shaders as combinations of small building blocks that can be connected into a larger visual result.
+KEY MOMENTS:
+- [00:00:05] The conceptual shader introduction begins.
+- [00:00:45] Rays and scene interaction are used to establish the rendering context.
+- [00:01:32] A material is defined as something that hooks rendering behavior to a surface.
+- [00:03:04] RGB combinations are used to explain color.
+- [00:03:49] Surface coordinates are introduced.
+- [00:05:17] A shader operation is used to create an example effect.
+- [00:06:07] Emissive values are discussed.
+- [00:07:28] Shaders are described as collections of building blocks.
+ASSIGNMENTS / TIPS:
+- Learn the concept of data flowing through small operations before worrying about complex shader code.
+- Visualize the output frequently while learning.
+- Relate every node to something visible on the rendered surface.
