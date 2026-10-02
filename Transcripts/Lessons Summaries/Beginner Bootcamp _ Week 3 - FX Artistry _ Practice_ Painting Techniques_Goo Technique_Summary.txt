@@ -1,0 +1,42 @@
+TITLE: Goo Technique
+OVERVIEW: This lesson demonstrates how to paint a translucent goo-like material using a simple palette and layered lighting treatment. It focuses on reflected/specular light, interior glow, lowlights, cavitation, highlights, and soft blending, while also showing how selection techniques can keep edges controlled. It is intended for artists learning to render stylized translucent or fluid materials in Photoshop.
+KEY TOPICS:
+- Translucent goo material
+- Specular and bounce light
+- Interior glow and translucency
+- Cavitation shapes
+- Lowlights and highlights
+- Foreground/background depth
+- Avoiding tangents
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Simple dark green/light green/white palette
+- Inner Glow layer style
+- Linear Dodge/Additive blending
+- Lasso selections
+- Shift to add to a selection; Alt to subtract; Shift+Alt for intersection
+- Soft and hard brushes/erasers
+- Copying/using layer styles
+- Wacom touch strip for brush-size control
+STEP-BY-STEP TAKEAWAYS:
+1. Establish a simple material palette with dark, light, and highlight colors.
+2. Block the goo droplet as an opaque/translucent form and identify the lighting direction.
+3. Add a strong specular highlight and a shaped ground/bounce reflection, then use an Inner Glow to suggest light scattering through the translucent material.
+4. Build the form with separate dark and luminous layers and carve interior cavities or eaten-away regions with masks rather than destroying the base unnecessarily.
+5. Add lowlights and subtle surface texture while checking for tangents and preserving the rounded volume.
+6. Add bright linear-dodge highlights to important foreground areas and reduce background intensity so the effect retains depth.
+7. Use soft blending or sparse smudging only to finish transitions and maintain readable, controlled shapes.
+KEY MOMENTS:
+- [00:00:55] The basic goo material treatment is introduced.
+- [00:02:27] The instructor explains the goo's opacity, translucency, and light behavior.
+- [00:08:00] Specular light, bounce/reflected ground shape, and translucency are combined.
+- [00:09:34] Inner Glow is used to create light scattering through the material.
+- [00:11:21] The form is rebuilt with deliberate breakup and shape control.
+- [00:15:27] A darker base and lowlights are added to reinforce the material.
+- [00:18:28] Selection add/subtract/intersection behavior is demonstrated.
+- [00:21:38] Bright highlights and linear dodge are used to finish the foreground goo.
+ASSIGNMENTS / TIPS:
+- Keep the palette simple and let lighting relationships do much of the work.
+- Avoid tangents when adding interior shapes.
+- Use masks when you want to reveal underlying layers without permanently erasing the painted material.
+- Keep background goo quieter than the foreground.
+- Use the Smudge tool sparingly and prefer deliberate painting/erasing for important shapes.
