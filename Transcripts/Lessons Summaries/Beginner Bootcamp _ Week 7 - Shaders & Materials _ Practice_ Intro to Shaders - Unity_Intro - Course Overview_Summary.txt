@@ -1,0 +1,34 @@
+TITLE: Intro - Course Overview
+OVERVIEW: This lesson introduces the Unity shader and material series and explains why shaders are useful to game VFX artists. It promises a progression from basic material theory through common shader techniques, a complete shader, and more advanced effects. It is intended for artists who are new to shaders or uncomfortable with the technical and mathematical side.
+KEY TOPICS:
+- Shaders for VFX
+- Materials
+- Basic theory
+- Common shader techniques
+- Complete shader construction
+- Advanced effects
+- Artistic experimentation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Unity Shader Graph
+- Materials
+- Shader properties
+- Texture-based effects
+STEP-BY-STEP TAKEAWAYS:
+1. Start with basic theory about how Unity materials and shaders work.
+2. Learn a limited set of common shader techniques that repeatedly appear in VFX.
+3. Combine those techniques into a complete shader.
+4. Continue into more advanced effects after the foundation is comfortable.
+5. Experiment with the tools to create original effects rather than only reproducing demonstrations.
+KEY MOMENTS:
+- [00:00:05] The Unity shader series is introduced.
+- [00:00:15] Shaders are described as a powerful tool for noticeable game effects.
+- [00:00:25] Examples include magic, weapons, environment art, and object effects.
+- [00:00:38] The lesson notes that strong game effects often rely on shaders.
+- [00:00:44] Shader technicality is acknowledged as potentially intimidating for artists.
+- [00:00:54] The course promises simplified explanations for artists who are not comfortable with math.
+- [00:01:10] The progression from theory to techniques to a complete shader is outlined.
+- [00:01:29] Experimentation and shader creativity are encouraged.
+ASSIGNMENTS / TIPS:
+- Follow the lessons actively rather than only watching.
+- Do not let the technical side prevent experimentation.
+- Use the foundation to create and modify your own effects.
