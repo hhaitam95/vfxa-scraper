@@ -1,0 +1,33 @@
+TITLE: Adding & Panning
+OVERVIEW: This lesson explains how adding values to UV coordinates can move a sampled texture across a surface. It connects the math to the Texture Sample input and shows how positive and negative values control direction and speed. It is intended for beginners learning the basic operation behind scrolling VFX textures in Unity.
+KEY TOPICS:
+- UV coordinates
+- Adding values to UVs
+- Texture sampling
+- Horizontal and vertical panning
+- Direction and speed
+TOOLS / TECHNIQUES / SHORTCUTS:
+- UV/Texture Coordinates
+- Texture Sample
+- Add
+- Float
+- Vector2
+- Time-driven values
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a texture and inspect the UV coordinates used to sample it.
+2. Add a second value to the UVs before the Texture Sample to shift where the texture is read.
+3. Use a Vector2 when both horizontal and vertical coordinates need independent values.
+4. Connect a value to Time when the UV offset should continue changing automatically.
+5. Use positive or negative values to control direction and change the magnitude to control speed.
+KEY MOMENTS:
+- [00:00:05] UV addition and panning are introduced.
+- [00:01:39] The relationship between UV coordinates and the object is demonstrated.
+- [00:02:41] The texture-sampling behavior is explained.
+- [00:04:25] A sideways UV shift is tested.
+- [00:06:09] The Vector2 requirement for UV coordinates is explained.
+- [00:07:27] A Float value is introduced as a simple parameter.
+- [00:09:24] Positive and negative values move the texture in opposite directions.
+ASSIGNMENTS / TIPS:
+- Test U-only, V-only, and diagonal panning.
+- Start with small values and change the magnitude to understand speed.
+- Check the sampled texture after each graph change so the UV math stays understandable.
