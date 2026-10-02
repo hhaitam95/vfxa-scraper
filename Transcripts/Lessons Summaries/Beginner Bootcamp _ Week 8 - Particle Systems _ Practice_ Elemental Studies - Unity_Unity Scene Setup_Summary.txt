@@ -1,0 +1,30 @@
+TITLE: Unity Scene Setup
+OVERVIEW: This lesson prepares the Unity test environment used for the elemental particle studies. It establishes a consistent camera, lighting/exposure, ground/context, and project setup so effects can be compared under the same conditions. It is intended for students who need a repeatable scene for real-time VFX experimentation.
+KEY TOPICS:
+- Unity VFX test scene
+- Camera and framing
+- Lighting/exposure
+- Ground/context
+- Consistent evaluation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Scene/Game view
+- Camera placement
+- Lighting controls
+- Ground plane
+- Particle-system preview
+STEP-BY-STEP TAKEAWAYS:
+1. Open or create the Unity test scene and establish the intended camera framing.
+2. Add simple lighting and a ground/context surface so scale and interaction can be read.
+3. Keep the scene settings consistent across different elemental studies.
+4. Place the particle effect at a known origin and compare its size, brightness, and motion from the game camera.
+5. Reuse the scene for later breakdowns rather than changing the viewing context for each effect.
+KEY MOMENTS:
+- [00:00:00] The Unity test scene is introduced.
+- [00:05:00] Camera/framing is established.
+- [00:10:00] Lighting is adjusted.
+- [00:15:00] Ground/context is added.
+- [00:20:00] The scene is prepared for elemental studies.
+ASSIGNMENTS / TIPS:
+- Keep the test scene consistent.
+- Judge effects from the gameplay camera.
+- Reuse the same context when comparing different studies.
