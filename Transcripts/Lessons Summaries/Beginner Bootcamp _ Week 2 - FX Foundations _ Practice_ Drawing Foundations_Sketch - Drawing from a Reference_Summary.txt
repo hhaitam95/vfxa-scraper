@@ -1,0 +1,39 @@
+TITLE: Sketch - Drawing from a Reference
+OVERVIEW: This lesson applies the preceding construction and line-weight ideas to a fire-on-a-flower reference. The instructor first builds the flower from simple guides and then places a large fire shape over it, adding secondary flame forms, overlaps, and line-weight changes to keep the drawing readable. It is aimed at students practicing the complete reference-to-stylized-sketch workflow.
+KEY TOPICS:
+- Reference breakdown
+- Simple-form construction
+- Petal layout and symmetry
+- Fire shape construction
+- Overlap
+- Line weight
+- Visual hierarchy
+- Implied transparency
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Red construction guides followed by black final lines
+- Cones and ovals for the flower base
+- Dividing six petals into three large and three slimmer petals
+- Overlap lines
+- Line-weight emphasis
+- Thin lines to imply lighter or more transparent material
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the flower base with a cone/oval construction and divide the six petals into large and slim groups.
+2. Build the petal folds, overlaps, and inner center before committing to final contour lines.
+3. Block the main fire mass as one large simple shape, then add smaller internal flames and connecting pieces.
+4. Simplify crowded regions instead of adding detail everywhere, especially where many petals already converge.
+5. Redraw the important contours in darker black lines and use line weight to distinguish foreground, overlap, and focal areas.
+6. Use thinner lines in selected flame areas to suggest transparency or reduced visual prominence.
+KEY MOMENTS:
+- [00:00:42] Red guide lines are chosen as the construction stage.
+- [00:01:50] The six-petal layout is established as three large and three slim petals.
+- [00:06:34] The flower's central structure is completed.
+- [00:07:13] The main fire shape is blocked over the flower.
+- [00:09:56] The large fire mass is broken into smaller internal shapes.
+- [00:13:30] The sketch transitions from rough construction to clearer final contours.
+- [00:23:38] Line weight is used to make the drawing more readable.
+- [00:28:29] Thinner flame lines are used to suggest transparency.
+ASSIGNMENTS / TIPS:
+- Keep the first construction simple and establish the big shapes before details.
+- Simplify crowded regions rather than adding every possible element.
+- Use overlaps to clarify which forms are in front.
+- Use line weight deliberately to establish hierarchy and readability.
