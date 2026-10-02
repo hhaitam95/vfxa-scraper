@@ -1,0 +1,36 @@
+TITLE: Sword Swipe Breakdown
+OVERVIEW: This lesson reconstructs a stylized sword swipe from the weapon's motion arc and combines a large swipe shape with internal texture movement and smaller accents. It emphasizes matching the effect to the weapon path and keeping the leading edge readable. It is intended for artists building attack VFX in Niagara.
+KEY TOPICS:
+- Weapon-path matching
+- Swipe arc
+- Leading edge
+- Scrolling/flipbook texture
+- Trail
+- Distortion
+- Attack timing
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Swipe mesh
+- Ribbon/trail
+- Scrolling UV
+- Flipbook
+- Additive material
+- Distortion
+- Curve/timing controls
+STEP-BY-STEP TAKEAWAYS:
+1. Match the main effect arc to the weapon's actual movement.
+2. Build the large swipe silhouette before adding detail.
+3. Animate internal texture movement to sell speed.
+4. Add a trail or secondary streak only after the main swipe reads.
+5. Use distortion and particles as supporting accents.
+6. Tighten the start, peak, and dissipation to the attack timing.
+KEY MOMENTS:
+- [00:00:00] The weapon reference is introduced.
+- [00:05:00] The weapon path is analyzed.
+- [00:10:00] The swipe shape is built.
+- [00:15:00] Internal motion is added.
+- [00:20:00] Trail and secondary accents are introduced.
+- [00:25:00] Timing and dissipation are refined.
+ASSIGNMENTS / TIPS:
+- Match the weapon path.
+- Make the leading edge readable.
+- Keep accents secondary.
