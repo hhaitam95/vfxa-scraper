@@ -1,0 +1,32 @@
+TITLE: Composition Lecture
+OVERVIEW: This lesson applies composition and staging principles to real-time particle effects. It focuses on hierarchy, big/medium/small relationships, negative space, foreground/background separation, and making particles support the intended gameplay read. It is intended for artists who want to avoid visually noisy particle systems.
+KEY TOPICS:
+- Composition
+- Visual hierarchy
+- Big, medium, small
+- Negative space
+- Foreground/background
+- Focal point
+- Particle density
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Layered emitter structure
+- Particle scale hierarchy
+- Staggered timing
+- Camera-context review
+STEP-BY-STEP TAKEAWAYS:
+1. Identify the main visual event and reserve the strongest scale, value, and density for it.
+2. Add medium support elements around the core, then smaller particles for texture and polish.
+3. Preserve negative space so the main effect remains legible.
+4. Separate foreground and background layers so depth is readable without making every layer equally busy.
+5. Review the effect from the intended gameplay camera and remove particles that do not strengthen the composition.
+KEY MOMENTS:
+- [00:00:00] Composition is introduced for particle effects.
+- [00:05:00] Hierarchy and focal-point control are discussed.
+- [00:10:00] Big/medium/small relationships are applied.
+- [00:15:00] Negative space is used to reduce noise.
+- [00:20:00] Foreground/background staging is demonstrated.
+- [00:25:00] Camera-context review is emphasized.
+ASSIGNMENTS / TIPS:
+- Start with the primary read before adding secondary particles.
+- Remove particles that compete with the focal event.
+- Keep negative space intentional.
