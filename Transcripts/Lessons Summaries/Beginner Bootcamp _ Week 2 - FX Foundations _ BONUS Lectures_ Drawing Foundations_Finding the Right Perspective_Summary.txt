@@ -1,0 +1,33 @@
+TITLE: Finding the Right Perspective
+OVERVIEW: This lesson explains how to choose a perspective setup from observation and how to estimate the horizon line and vanishing points from what you see. It starts from the viewer's relation to the object, then uses observed edges to locate vanishing points more precisely. It is intended for artists who want to apply perspective to reference-based drawings without over-constructing every detail.
+KEY TOPICS:
+- Choosing perspective from observation
+- Horizon line placement
+- Finding vanishing points
+- One-, two-, and three-point perspective
+- Reading object angle and camera height
+- Applying perspective to movement and FX
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Observation drawing before grid construction
+- Extending observed edges to an imagined horizon
+- Perspective guides for motion
+- Oval width/compression as a distance cue
+STEP-BY-STEP TAKEAWAYS:
+1. Decide how directly or obliquely the viewer is looking at the object.
+2. Choose one-point perspective for a direct view and two- or three-point perspective when the viewing angle introduces additional directions of convergence.
+3. Estimate the horizon line from the viewer's eye level and whether that line falls inside or outside the frame.
+4. Sketch what is actually observed first, then extend representative edges until they intersect the horizon to locate vanishing points.
+5. Rebuild the drawing using those vanishing points and use the same rules for cylindrical movement or FX traveling through perspective.
+KEY MOMENTS:
+- [00:00:25] The viewer's relation to the object is identified as the first perspective decision.
+- [00:01:34] Two- and three-point perspective are distinguished from a direct one-point view.
+- [00:04:11] The horizon line is derived from the viewer's eye level parallel to the ground.
+- [00:05:38] A higher camera view is used to show when the horizon moves outside the frame.
+- [00:07:09] A strong top-down example demonstrates when three-point perspective appears.
+- [00:08:45] The instructor sketches the observed object first and projects edges to find vanishing points.
+- [00:11:30] Practice with cubes and cylinders is recommended before relying on imagined perspective.
+- [00:14:08] Perspective rules are extended from static objects to movement and FX guides.
+ASSIGNMENTS / TIPS:
+- Practice from real objects rather than relying only on preset grids.
+- Use grids freely while learning, then gradually internalize the vanishing points.
+- Do not chase perfect construction at the expense of the overall perspective feeling.
