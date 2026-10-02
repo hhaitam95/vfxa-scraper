@@ -1,0 +1,21 @@
+TITLE: Week 8 - Particle Systems _ Art Foundational Lectures_Timing Lecture
+OVERVIEW: This lesson covers Week 8 - Particle Systems _ Art Foundational Lectures_Timing Lecture, using the bootcamp's VFX tools as part of the animation/VFX bootcamp. The transcript is a practical lesson and should be followed alongside the corresponding software exercise.
+KEY TOPICS:
+- Week 8 - Particle Systems _ Art Foundational Lectures_Timing Lecture
+- Practical VFX workflow
+- Repetition and application
+TOOLS / TECHNIQUES / SHORTCUTS:
+- the bootcamp's VFX tools
+STEP-BY-STEP TAKEAWAYS:
+1. Follow the lesson's demonstrated setup and workflow in the bootcamp's VFX tools.
+2. Reproduce the main procedure shown in the transcript, checking the result at each stage.
+3. Apply the demonstrated technique to the corresponding VFX exercise and review the result in context.
+KEY MOMENTS:
+- [00:00:00] Oh hey guys, welcome to the video on timing.
+- [00:00:05] This is gonna wrap us up on the fifth
+- [00:00:07] of all of the artistic principles
+- [00:23:00] I've really enjoyed doing this series for you.
+- [00:23:02] I hope you get a lot out of it
+- [00:23:03] and most of all, I hope you keep making awesome.
+ASSIGNMENTS / TIPS:
+- None mentioned
