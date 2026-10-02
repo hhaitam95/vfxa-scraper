@@ -1,0 +1,48 @@
+TITLE: Node Setup & Compositing
+OVERVIEW: This lesson introduces Harmony's Node View and Node Library and uses them to improve a simple effect through compositing, glow, blur, transparency, grouping, and masking. It also explains how node order maps to layer order and how to render transparent PNG frames for game use. It is aimed at beginners moving from drawing into effect compositing and finishing.
+KEY TOPICS:
+- Display and Composite nodes
+- PNG rendering
+- Pass Through and Bitmap compositing
+- Node order and layer order
+- Glow and blur
+- Matte Resize and Transparency
+- Blur Radial Zoom
+- Pegs and transformations
+- Cutter and masking
+- Timing and render review
+TOOLS / TECHNIQUES / SHORTCUTS:
+- File > Export > Render Right Nodes
+- PNG as drawing output for transparent frames
+- Ctrl+C / Ctrl+B for creating a separate copied column/layer
+- Ctrl+V for composites
+- Node View > Order Node View Up
+- Glow, Color Card, Matte Resize, Transparency, Blur Box, Blur Radial Zoom, Cutter
+- Ctrl+P to create a Peg
+- Ctrl+G to group nodes
+- Advanced Animation Translate tool
+- Animate Current Frame on/off
+- 4/5 to mirror and Alt+3 to rotate, as demonstrated
+- Create keyframes on every frame
+STEP-BY-STEP TAKEAWAYS:
+1. Set the Display node to PNG and connect the intended composite so transparent frames can be rendered.
+2. Separate the effect into logical layers such as dots and ball and connect them through a Composite, using the leftmost input for the foreground layer.
+3. Use Pass Through or Bitmap mode deliberately, then add glow, blur, Matte Resize, and transparency nodes to build layered visual treatment.
+4. Animate Blur Radial Zoom so the blur is absent at the start and increases around the impact; add a Peg if the focus point needs to be moved.
+5. Group repeated node structures, add transformed/transparently treated back and front elements, and build secondary bullets after the collision.
+6. Use Cutter for masks, make final timing changes, extend the effect to 23 frames, and export the rendered result.
+KEY MOMENTS:
+- [00:00:43] PNG output is configured for transparent rendered frames.
+- [00:01:21] Composite nodes and their relationship to the timeline are introduced.
+- [00:05:01] Blur Box is recommended over Gaussian Blur in the demonstrated workflow because of render cost.
+- [00:08:52] Blur Radial Zoom is keyframed from zero blur into the impact.
+- [00:09:37] A Peg is introduced to control the blur focus point.
+- [00:12:24] Front/back transparency and secondary bullet elements are built.
+- [00:18:17] Cutter masking and inverted selection are demonstrated.
+- [00:21:49] Timing is adjusted and the animation is extended to 23 frames before export.
+ASSIGNMENTS / TIPS:
+- Keep the node graph organized as it grows.
+- Use the leftmost Composite input intentionally because it determines front-to-back order.
+- Prefer the lighter-weight blur approach demonstrated when render time is a concern.
+- Keyframe starting values at zero when an effect should not appear immediately.
+- Check the rendered result after compositing because timing can change while effects are being added.
