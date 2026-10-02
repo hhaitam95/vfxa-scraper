@@ -1,0 +1,35 @@
+TITLE: Using Positions & Distance
+OVERVIEW: This lesson introduces world-space position as shader data and uses it to create gradients and distance-based masks. It demonstrates how a position value changes as an object moves through the scene and how that information can drive color, opacity, or other world-space interactions. It is intended for beginners learning how materials can respond to scene location rather than only local texture coordinates.
+KEY TOPICS:
+- World-space position
+- Position gradients
+- Distance
+- Spatial masks
+- World interaction
+- Position-driven effects
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Position
+- World Position
+- Distance
+- Remap/in-range values
+- Color output
+- Material properties
+STEP-BY-STEP TAKEAWAYS:
+1. Create a world-space position output and visualize it as color to understand what data the shader receives.
+2. Move the object and inspect how the values change in world space rather than remaining fixed to the object's local surface.
+3. Isolate the relevant axis to create a height/position gradient when needed.
+4. Use a distance value to define a range where the effect should activate or fade.
+5. Remap the distance or position into a useful 0–1 value and use it for color, opacity, or another shader control.
+KEY MOMENTS:
+- [00:00:05] World position is introduced as the new data source.
+- [00:00:50] A 3D capsule is placed at the origin for the exercise.
+- [00:01:48] Position is visualized as color and changes when the object moves.
+- [00:02:32] The position center is explained.
+- [00:03:15] A bottom-to-top gradient is planned.
+- [00:04:00] Height-based position data is generalized to other objects.
+- [00:05:27] A numeric input range is adjusted.
+- [00:08:14] Position is presented as a way to add a new level of interaction.
+ASSIGNMENTS / TIPS:
+- Visualize position before using it in a complex material.
+- Choose world or local space deliberately depending on the desired behavior.
+- Remap raw position ranges before connecting them to art-facing controls.
