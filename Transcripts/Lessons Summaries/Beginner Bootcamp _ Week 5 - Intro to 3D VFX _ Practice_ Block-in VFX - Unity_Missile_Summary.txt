@@ -1,0 +1,21 @@
+TITLE: Week 5 - Intro to 3D VFX _ Practice_ Block-in VFX - Unity_Missile
+OVERVIEW: This lesson covers Week 5 - Intro to 3D VFX _ Practice_ Block-in VFX - Unity_Missile, using Unity as part of the animation/VFX bootcamp. The transcript is a practical lesson and should be followed alongside the corresponding software exercise.
+KEY TOPICS:
+- Week 5 - Intro to 3D VFX _ Practice_ Block-in VFX - Unity_Missile
+- Practical VFX workflow
+- Repetition and application
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Unity
+STEP-BY-STEP TAKEAWAYS:
+1. Follow the lesson's demonstrated setup and workflow in Unity.
+2. Reproduce the main procedure shown in the transcript, checking the result at each stage.
+3. Apply the demonstrated technique to the corresponding VFX exercise and review the result in context.
+KEY MOMENTS:
+- [00:00:05] Hey everyone, welcome back, I hope you're doing well.
+- [00:00:09] In this video we are going to be going over how to make this little magic missile here.
+- [00:00:14] And even though we've got a whole stack of emitters over here, this is actually really
+- [01:01:59] projectile you've got the projectile itself with both this local core that's moving around
+- [01:02:06] and this trail or tracer or what have you that is following it around in world space
+- [01:02:14] and then you've got your impact
+ASSIGNMENTS / TIPS:
+- None mentioned
