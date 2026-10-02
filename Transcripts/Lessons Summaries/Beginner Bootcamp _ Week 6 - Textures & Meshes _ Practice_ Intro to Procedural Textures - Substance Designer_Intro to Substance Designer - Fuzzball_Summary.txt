@@ -1,0 +1,47 @@
+TITLE: Intro to Substance Designer - Fuzzball
+OVERVIEW: This lesson is the first hands-on Substance Designer exercise and introduces the application's graph-based workflow through a simple glowing “force wall” or fuzzball texture. It teaches how to create nodes, connect them, blend shapes, expose parameters, reuse one graph input across multiple nodes, and export the result. It is intended for complete beginners who want to understand how procedural VFX textures are constructed.
+KEY TOPICS:
+- Substance Designer interface
+- Node creation and navigation
+- Shape nodes
+- Blend nodes
+- Foreground/background inputs
+- Graph inputs and exposed parameters
+- Shared controls
+- Levels
+- Bitmap export
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Empty graph
+- Spacebar or Tab to create/search nodes
+- Middle mouse for pan/zoom
+- Shape node
+- Blend node
+- Copy blend mode
+- Expose as New Graph Input
+- Use Existing Graph Input
+- Levels
+- Output
+- Export Output as Bitmap
+STEP-BY-STEP TAKEAWAYS:
+1. Create an empty Substance Designer graph, choose a comfortable working resolution, and arrange the 2D view and Graph View for more room to work.
+2. Create a Shape node and experiment with a simple shape such as a cone/paraboloid while observing its parameters.
+3. Add a second shape and combine the two with a Blend node, learning how foreground/background order and grayscale/color input types affect connections.
+4. Expose the blend opacity as a custom graph parameter so the main variation can be changed from one central location.
+5. Expose the size of the shapes and connect both size controls to one existing graph input so one slider changes both together.
+6. Use Levels to remap the final grayscale result and expose useful Level controls.
+7. Add an Output node, assign an output identifier, export as a bitmap, and iterate by returning to the exposed custom parameters.
+KEY MOMENTS:
+- [00:00:05] The first practical Substance Designer lesson begins.
+- [00:00:51] The Empty graph template and resolution settings are chosen.
+- [00:02:34] Node creation from the Library and with Spacebar/Tab is demonstrated.
+- [00:05:32] Blend-node inputs, opacity, and connection order are explained.
+- [00:07:41] Exposing a parameter as a graph input is introduced.
+- [00:10:17] The same graph input is reused to control multiple node sizes.
+- [00:12:47] The non-destructive parameter-driven workflow is emphasized.
+- [00:13:17] Output setup and bitmap export are demonstrated, followed by another quick iteration.
+ASSIGNMENTS / TIPS:
+- Learn graph navigation and node connections before building large graphs.
+- Expose useful parameters instead of opening deep node branches for every variation.
+- Keep related controls together and name parameters clearly.
+- Save periodically.
+- The instructor emphasizes that procedural graphs are valuable because the same setup can produce many iterations quickly.
