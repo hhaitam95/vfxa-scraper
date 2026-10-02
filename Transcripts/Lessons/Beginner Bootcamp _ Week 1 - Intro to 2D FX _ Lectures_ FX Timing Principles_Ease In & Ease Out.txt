@@ -1,0 +1,74 @@
+[00:00:05] Hello, welcome to the lesson. Today we are going to be covering the topic of
+[00:00:13] Easing
+[00:00:14] Easing's are a subclass of
+[00:00:18] Timing. Timing is a very broad subject. It includes many many things
+[00:00:23] We're going to hone in a little bit on to this one specific topic because it's important. There's all of
+[00:00:30] animation. You're dealing with Easing's
+[00:00:33] Like pretty much at at all times depending on the action here and there you're not but
+[00:00:39] More often than not
+[00:00:42] Easing's in the very general sense of the term come in two variations
+[00:00:47] there's the ease in and
+[00:00:49] The ease out these refer to the frames at which they're applied to
+[00:00:54] You can ease into a frame or ease out of a frame and then when you start stacking these up with
+[00:01:00] Many keyframes you start messing around with the rhythm of the animation and how of the beats hit
+[00:01:06] So in order to show you what I'm talking about in more of a visual sense
+[00:01:11] I have some drawings here for you this first example. I just wanted to show it's sort of a basis for
+[00:01:19] Where we're starting from with which is just no Easing's at all
+[00:01:24] This is our timing chart
+[00:01:26] Everything is very even from frame to frame throughout
+[00:01:30] This would translate down into this
+[00:01:34] Each frame which chugs along
+[00:01:38] And then this animation would start and stop with no variation in between
+[00:01:45] So the first thing we'll be talking about are is easing out according to our timing chart
+[00:01:50] We can see that the mid frame has been pushed back
+[00:01:54] From our no Easing's timing chart
+[00:01:58] This is because when we ease out of a frame which we're talking about frame one here
+[00:02:06] the ease out part
+[00:02:09] Refers to the compression of the frames
+[00:02:12] So we want to compress the first frames closer in towards
+[00:02:18] That first keyframe leaving us fewer frames to travel from our midpoint
+[00:02:24] To our final position now. There's nothing here that describes the
+[00:02:31] kinds of
+[00:02:32] Compression you should use it's totally up to you
+[00:02:36] obviously the more you stack and compress towards the first frame the slower something will move initially and then the
+[00:02:45] fewer frames you have
+[00:02:48] after your mid frame
+[00:02:50] The more bursty that will be it'll be very quick because you have fewer frames traveling more distant
+[00:02:57] Easing in rather than referring to the first frame in this example refers to the last frame, frame 9
+[00:03:05] We can see our timing chart is essentially just flip
+[00:03:11] All the same things apply there
+[00:03:13] There's nothing saying where you have to put any of these frames you distribute them in order to get the feeling in the animation
+[00:03:20] You're looking for and in terms of the timing and like I said before the more you compress towards the final frame
+[00:03:27] The quicker the animation will be going from frame 1 into frame 9 obviously slowing down
+[00:03:34] quite substantially
+[00:03:36] at the end
+[00:03:37] So this is a combination easing the easing in and out of the same frame in in this case
+[00:03:46] The in and out both refers to the mid frame
+[00:03:51] and not
+[00:03:53] the first or the last
+[00:03:56] This is because in our animation we ease out of the first frame and we ease into the last frame
+[00:04:03] But you can't ease out of the last frame because it's the last frame and vice versa with the first frame
+[00:04:09] So in this particular circumstance
+[00:04:12] Easing in and out of a frame has to apply to the mid frame
+[00:04:18] Now this means
+[00:04:20] The animation would be very quick
+[00:04:23] At the beginning it would slow down in the center
+[00:04:26] It would slow out from the center and then be very quick to the final frame. Now there would be
+[00:04:34] one more example
+[00:04:36] Which ramps up the complexity you can ease out of the first frame then ease
+[00:04:43] Into the mid frame then ease out of the mid frame and then ease
+[00:04:50] into the final frame that would be sort of the whole spectrum of the animation where
+[00:04:57] All the frames are pretty much bunched up around the keyframes and the breakdown
+[00:05:04] There would be pretty much next to nothing unless you had a lot of frames to deal with here
+[00:05:10] We're only dealing with nine but
+[00:05:13] There would be large gaps of nothing in between these three frames
+[00:05:20] And then as you go on you can basically deal with the the easings how however you want as a concept
+[00:05:27] I mean that's basically it
+[00:05:29] You apply easings to the frames that you need to you can use the timing charts in order to describe them
+[00:05:37] and
+[00:05:39] When you're properly using easings, that's when you start to get into
+[00:05:43] Sort of flow of animation because you'll you'll start messing around with quick actions
+[00:05:50] slowing into other
+[00:05:52] Poses or frames what whatever it is you may be animating
+[00:05:56] So easing is a very important timing concept to not only keep in mind
+[00:06:02] But to practice as you're animating

@@ -1,0 +1,70 @@
+[00:00:05] Hello again, I'm Jayden, and in this lesson we will be looking at the step node.
+[00:00:10] There are a lot of things we can use it for. So we can convert soft textures into hard shapes,
+[00:00:16] and we can also use it to dissolve objects in or out.
+[00:00:21] So we can burn objects up with fire, or we can spawn objects in like a dynamic hologram.
+[00:00:28] We can make liquids dissipate like a water splash. There's a lot we can do.
+[00:00:33] So to get started, create a new shader graph, and you can call it dissolve.
+[00:00:38] Create a material and apply that to a quad, and then open your shader workspace.
+[00:00:43] And let's create a step node. So you'll notice that step has two inputs. Let's create a texture
+[00:00:53] to connect to in. The project has a nice built-in texture called fireball flame hemisphere.
+[00:01:07] And you'll notice this is kind of an odd looking texture. That's because this texture was made
+[00:01:13] using channel packing. When you're making textures, you can actually paint black and white values into
+[00:01:19] the individual color channels, so R, G, and B. And you can pack three black and white textures into
+[00:01:26] one image. If you want to visualize this, you can create a preview node and plug in only the red
+[00:01:37] channel. Either way, we only want the red parts of this texture. So connect the red channel to the
+[00:01:46] step node. And when you plug it in, it will look weird. Let's start by putting 0.5 in here. And
+[00:01:51] that looks closer to the original. So what step does is it takes in a range of values. Typically
+[00:01:59] those are between 0 and 1. And for any values that are above the edge, those will come out as
+[00:02:06] pure white. Any values that are below the edge come out as pure black. So the output is binary,
+[00:02:13] meaning it only outputs one or zero and nothing in between. And that's why it converts soft shapes
+[00:02:20] into hard shapes. Try moving that number around just to see what happens. And you can start to
+[00:02:27] see the dissolve effect. You might also want to invert this, and we've already seen the node that
+[00:02:34] does that, one minus. And you can move that value around, just like we would expect. So this is
+[00:02:48] really cool. But again, there's no smoothing, and we actually have another node just like step that
+[00:02:54] will give us smoothing. Let's add a smooth step node. Plug the red channel into the in. And the
+[00:03:08] output now looks very similar to the red input. Let's try changing these numbers. I'll put in
+[00:03:14] 0.5 and 0.7. So just like the step node, it has an in value, but this time it has two edges. And
+[00:03:25] it's very similar, except it doesn't output only white or black. It also puts in between values.
+[00:03:31] What it does is it looks at the lower edge 0.5, and any values that are below 0.5 will come through
+[00:03:39] as pure black. Any values that are above the higher edge 0.7, those come through as pure
+[00:03:45] white. Then it will smooth out all the values between the lower edge and the upper edge to
+[00:03:51] create a nice transition between white and black. So instead of that hard cutoff, it's a smooth
+[00:03:58] transition. So play around with these values and see what happens. Something you might notice is
+[00:04:09] that if you put the upper edge above the lower edge, it'll flip the result, basically like a
+[00:04:15] one minus node. And even though we're only working with two numbers here, these offer a lot of
+[00:04:21] control. For example, if you're making a shader that you'll use for multiple effects, we can take
+[00:04:27] in whatever texture we want and pull out only certain values. So we might decide that we only
+[00:04:33] want to see the brightest values, or only the darkest values, or anywhere in between. With
+[00:04:38] just those two numbers, we can pick out whichever values we want, and this offers a lot of
+[00:04:42] customization. So let's try something else with the Smooth Step node. And we'll take a look at a
+[00:04:51] new node called Gradient Noise. Basically, gradient noise is an infinite, cloudy texture that's made
+[00:05:02] using randomness. There are many, many different ways to use this in shaders. This is just one
+[00:05:08] example. You'll see that you can scale it if you want to. And let's plug this into our Smooth Step
+[00:05:15] in. And if you play with those numbers, you'll see a different effect. For now, I'm going to put in
+[00:05:21] 0.9 for the lower edge, and 1 for the upper edge. And so this is only pulling out the brightest
+[00:05:28] values between 0.9 and 1. And it turned this very cloudy texture into just these little dots. It
+[00:05:35] almost looks like snow. In fact, let's create a basic panning setup. And now it's snowing.
+[00:06:11] All right, let's come back up to our Step node and look at that dissolve again. So what we want
+[00:06:18] to do is animate this up and down. Typically, we'd like to use Time for that, but Time will go up to
+[00:06:26] a very, very high number. This edge should be a number between 1 and 0. One thing we could try
+[00:06:33] is like the Fraction node. If you remember, the Fraction node takes in any value, and it only
+[00:06:46] puts out the numbers that are after the decimal point, ignoring everything before the decimal
+[00:06:50] point. Again, that means that we only get values between 0 and 1. If you plug this in, you'll see
+[00:06:56] the effect. But that's still not quite what we're going for. What I would like to do for this
+[00:07:06] example is just make a number that goes up and down between 0 and 1. And there's another node
+[00:07:11] that can help us with that, the Sine node. So what we will do is run Time through a Sine function.
+[00:07:20] And I actually have a graphing calculator to show what that would look like. This is the
+[00:07:26] Sine function, and this is a sine wave. You'll notice that it goes on forever, and it creates
+[00:07:32] this wave that goes up and down. And it goes up and down between the values negative 1 and 1. So
+[00:07:41] let's plug that in and see what happens. And it's almost good, but it's not quite right. The problem
+[00:07:59] is that it's going to the negative, but we need this between 0 and 1. For that, we can use another
+[00:08:05] node called a Remap. So what Remap does is we plug a value in, there is an input range. So Sine,
+[00:08:20] for example, goes between negative 1 and 1. So this is what we want for the input. And we want
+[00:08:28] it to be remapped to 0 to 1. So it'll take those same numbers and just scale them in between the
+[00:08:34] two values that we want, which is perfect. So now we can plug this in, and there we go. So using the
+[00:08:49] Step node, we created this really nice Dissolve effect. And we could use this for all kinds of
+[00:08:53] effects like liquids, smokes, or even environmental artwork. And we also learned about the Sine node,
+[00:09:00] which is useful whenever we need a value that goes up and down. And we also learned about Smooth Step,
+[00:09:06] which is useful whenever we just want a small range of values within a texture. But we are
+[00:09:12] still missing one of the most important components to VFX, and that is color. So in the next lesson,
+[00:09:18] we will start breathing more life into our effects using color. It's only going to get more fun from here.

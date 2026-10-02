@@ -1,0 +1,863 @@
+BEGINNER BOOTCAMP CURRICULUM MAP
+=================================
+
+Path: Beginner Bootcamp > Week 0 > Kick-Off and Orientation
+Title: Week 0: Bootcamp Structure
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737424/posts/2188003454
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Kick-Off and Orientation
+Title: Week 0: How to join our Discord!
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737424/posts/2188003455
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Kick-Off and Orientation
+Title: Week 0: Tips, Tricks & Preparations
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737424/posts/2188003456
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Animate
+Title: Start Animating!
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737795/posts/2188005007
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Animate
+Title: Software Setup
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737795/posts/2188005010
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Animate
+Title: The Drawing Tools
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737795/posts/2188005026
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Animate
+Title: Timeline Controls
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737795/posts/2188005049
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Animate
+Title: Creating Flipbooks
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737795/posts/2188005061
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Animate
+Title: Creating Irregular Flipbooks
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737795/posts/2188005064
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Animate
+Title: BONUS - Cleanup Animation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737795/posts/2188005069
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Harmony
+Title: Begin to Animate!
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738419/posts/2188008360
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Harmony
+Title: Software Setup
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738419/posts/2188008364
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Harmony
+Title: Tools & Timeline
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738419/posts/2188008365
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 0 > Intro to Harmony
+Title: Node Setup & Compositing
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738419/posts/2188008382
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Assignment & Session Recordings
+Title: Week 1: Kick-off & Orientation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737425/posts/2188003458
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Assignment & Session Recordings
+Title: Week 1: Session Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737425/posts/2189335070
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Assignment & Session Recordings
+Title: Week 1: Campfire Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737425/posts/2189483334
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Lectures: FX Timing Principles
+Title: Number of Frames
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738451/posts/2188009254
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Lectures: FX Timing Principles
+Title: Straight-Ahead & Key Framing
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738451/posts/2188009258
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Lectures: FX Timing Principles
+Title: Ease In & Ease Out
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738451/posts/2188009285
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Lectures: FX Timing Principles
+Title: Anticipation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738451/posts/2188009295
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Lectures: FX Timing Principles
+Title: Impulse & Rhythm
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738451/posts/2188009292
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Lectures: FX Timing Principles
+Title: Follow-through
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738451/posts/2188009301
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Lectures: FX Timing Principles
+Title: Arcs
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738451/posts/2188009309
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Lectures: FX Timing Principles
+Title: Stretch & Smear
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738451/posts/2188009313
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Practice: Line Wiggle Warmup
+Title: Introduction & First Batch Animation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738444/posts/2188008451
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Practice: Line Wiggle Warmup
+Title: First Batch Cleanup
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738444/posts/2188008454
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Practice: 2D FX Playbook
+Title: Small to Big - Intro Animation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738772/posts/2188009673
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Practice: 2D FX Playbook
+Title: Pop-up - Intro Animation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738772/posts/2188009678
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Practice: 2D FX Playbook
+Title: Squash & Stretch - Intro Animation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738772/posts/2188009687
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Practice: 2D FX Playbook
+Title: In-motion - Intro Animation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738772/posts/2188009799
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Practice: 2D FX Playbook
+Title: Big to Small - Outro Animation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738772/posts/2188009865
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Practice: 2D FX Playbook
+Title: Break into Pieces - Outro Animation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738772/posts/2188009931
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 1 - Intro to 2D FX > Practice: 2D FX Playbook
+Title: Carving out Shapes - Outro Animation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157738772/posts/2188009942
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Assignment & Session Recordings
+Title: Week 2: FX Foundations
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737426/posts/2188003461
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Assignment & Session Recordings
+Title: Lecture: Design & Motivation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737426/posts/2188003462
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Assignment & Session Recordings
+Title: Week 2: Session Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737426/posts/2189533725
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Lectures: FX Design Principles
+Title: Intention
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739271/posts/2188011357
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Lectures: FX Design Principles
+Title: Physical Properties
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739271/posts/2188011362
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Lectures: FX Design Principles
+Title: Composition (Staging)
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739271/posts/2188011368
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Lectures: FX Design Principles
+Title: Solid Drawing
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739271/posts/2188011374
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Practice: Drawing Foundations
+Title: Drawing with Confidence
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739359/posts/2188011913
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Practice: Drawing Foundations
+Title: Drawing From References
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739359/posts/2188011915
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Practice: Drawing Foundations
+Title: Sketch - Drawing with Confidence
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739359/posts/2188012005
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Practice: Drawing Foundations
+Title: Sketch - Thinking in 3D
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739359/posts/2188012008
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Practice: Drawing Foundations
+Title: Sketch - Drawing in Perspective
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739359/posts/2188012015
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Practice: Drawing Foundations
+Title: Sketch - Using Weighted Lines (Water Practice)
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739359/posts/2188012019
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > Practice: Drawing Foundations
+Title: Sketch - Drawing from a Reference
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739359/posts/2188012021
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > BONUS Lectures: Drawing Foundations
+Title: Thinking in 3D
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739503/posts/2188012131
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > BONUS Lectures: Drawing Foundations
+Title: Drawing in Perspective
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739503/posts/2188012133
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > BONUS Lectures: Drawing Foundations
+Title: Cylinders in Perspective
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739503/posts/2188012138
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > BONUS Lectures: Drawing Foundations
+Title: Finding the Right Perspective
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739503/posts/2188012143
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > BONUS Lectures: Drawing Foundations
+Title: Combining Shapes in Perspective
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739503/posts/2188012166
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > BONUS Lectures: Drawing Foundations
+Title: Rotating Shapes in Perspective
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739503/posts/2188012170
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 2 - FX Foundations > BONUS Lectures: Drawing Foundations
+Title: Using Weighted Lines
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739503/posts/2188012172
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Assignment & Session Recordings
+Title: Week 3: FX Artistry
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737427/posts/2188003465
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Assignment & Session Recordings
+Title: Week 3: Wave Principle Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737427/posts/2188003466
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Assignment & Session Recordings
+Title: Week 3: Session Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737427/posts/2188003467
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Practice: 2D FX Playbook
+Title: Timing Offset - Looping Effects
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739524/posts/2188012247
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Practice: 2D FX Playbook
+Title: Rotating Keys - Looping Effects
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739524/posts/2188012250
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Practice: 2D FX Playbook
+Title: Wave Principle - Looping Effects
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739524/posts/2188012252
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Practice: 2D FX Playbook
+Title: Linear Keyframes - Looping Effects
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739524/posts/2188012253
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Practice: 2D FX Playbook
+Title: Effects in Motion - Overlapping Action
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739524/posts/2188012256
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Lectures: Intro to Photoshop
+Title: Photoshop for VFX Artists - 1: Tools
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739557/posts/2188012339
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Lectures: Intro to Photoshop
+Title: Photoshop for VFX Artists - 2: Layers
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739557/posts/2188012343
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Lectures: Intro to Photoshop
+Title: Photoshop for VFX Artists - 3: Adjustments
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739557/posts/2188012346
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Lectures: Intro to Photoshop
+Title: Photoshop for VFX Artists - 4: Pro Tips
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739557/posts/2188012349
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Practice: Painting Techniques
+Title: Intro & Fire Techniques
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739602/posts/2188012447
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Practice: Painting Techniques
+Title: Wisp Technique
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739602/posts/2188012449
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Practice: Painting Techniques
+Title: Zap Technique
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739602/posts/2188012451
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 3 - FX Artistry > Practice: Painting Techniques
+Title: Goo Technique
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739602/posts/2188012453
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques
+Title: Lecture: Color Foundations
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737563/posts/2188012482
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Assignment & Session Recordings
+Title: Week 4: Advanced 2D Techniques
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737428/posts/2188003470
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Assignment & Session Recordings
+Title: Week 4: Concept Art Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737428/posts/2188003471
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Assignment & Session Recordings
+Title: Week 4: Session Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737428/posts/2188003472
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Assignment & Session Recordings
+Title: Week 4: Campfire Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737428/posts/2188003473
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Lectures: Elemental Foundations
+Title: Design Commentary
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739616/posts/2188012501
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Lectures: Elemental Foundations
+Title: The Wave Principle
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739616/posts/2188012505
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Lectures: Elemental Foundations
+Title: Creation & Dissipation
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739616/posts/2188012512
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Lectures: Elemental Foundations
+Title: Cycles
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739616/posts/2188012514
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Lectures: Elemental Foundations
+Title: Fire
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739616/posts/2188012516
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Lectures: Elemental Foundations
+Title: Water
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739616/posts/2188012520
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Lectures: Elemental Foundations
+Title: Smoke & Dust
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739616/posts/2188012524
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Lectures: Elemental Foundations
+Title: Lightning & Flash Frames
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739616/posts/2188012530
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Lectures: Elemental Foundations
+Title: Debris
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739616/posts/2188012539
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Practice: FX Concept Painting Elemental Studies
+Title: Fire Explosion: Thumbnails
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739652/posts/2188012631
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Practice: FX Concept Painting Elemental Studies
+Title: Fire Explosion: Painting & Commentary (version 1)
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739652/posts/2188012635
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Practice: FX Concept Painting Elemental Studies
+Title: Fire Explosion: Painting & Commentary (version 2)
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739652/posts/2188012638
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Practice: FX Concept Painting Elemental Studies
+Title: Fire Explosion: Paintover - Jeff Gates
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739652/posts/2188012639
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Practice: FX Concept Painting Elemental Studies
+Title: Wispy Cloud - Painting & Commentary
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739652/posts/2188012643
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Practice: FX Concept Painting Elemental Studies
+Title: Lightning Zap: Thumbnails
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739652/posts/2188012653
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Practice: FX Concept Painting Elemental Studies
+Title: Lightning Zap: Painting & Commentary
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739652/posts/2188012657
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Practice: FX Concept Painting Elemental Studies
+Title: Goo Splat: Thumbnails
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739652/posts/2188012658
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Practice: FX Concept Painting Elemental Studies
+Title: Goo Splat: Painting & Commentary
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739652/posts/2188012661
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 4 - Advanced 2D Techniques > Practice: FX Concept Painting Elemental Studies
+Title: Sparker & Aquanna Illustration: Painting & Commentary
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157739652/posts/2188012680
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Assignment & Session Recordings
+Title: Week 5: Intro to 3D VFX
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737429/posts/2188003474
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Assignment & Session Recordings
+Title: Week 5: 3D Animation Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737429/posts/2188003475
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Assignment & Session Recordings
+Title: Project Download
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737429/posts/2188372730
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Assignment & Session Recordings
+Title: Block-in Overview
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737429/posts/2188032844
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Assignment & Session Recordings
+Title: Week 5: Session Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737429/posts/2188003476
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Assignment & Session Recordings
+Title: Week 5: Campfire Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737429/posts/2188003477
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Niagara Block-in VFX - Unreal 5
+Title: Intro to Niagara: Fire
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744625/posts/2188032831
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Niagara Block-in VFX - Unreal 5
+Title: Item Aura & Visual Hierarchy
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744625/posts/2188032841
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Niagara Block-in VFX - Unreal 5
+Title: Tech & Tools
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744625/posts/2188032842
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Niagara Block-in VFX - Unreal 5
+Title: Damage Impact - Timing & Punch
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744625/posts/2188032846
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Niagara Block-in VFX - Unreal 5
+Title: Heal Impacts - Arcs & Ease In/Out
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744625/posts/2188032847
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Niagara Block-in VFX - Unreal 5
+Title: Missile Wind-up & Impact
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744625/posts/2188032852
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Niagara Block-in VFX - Unreal 5
+Title: Sequencer Addendum - Projectile Setup for Games
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744625/posts/2188032856
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Niagara Block-in VFX - Unreal 5
+Title: Explosion AoE - Anticipation, Impulse, & Rhythm
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744625/posts/2188032860
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Block-in VFX - Unity
+Title: Intro to Unity: Fire
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744606/posts/2188032735
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Block-in VFX - Unity
+Title: Hit Impact
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744606/posts/2188032740
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Block-in VFX - Unity
+Title: Healing Loop
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744606/posts/2188032747
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Block-in VFX - Unity
+Title: Explosion
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744606/posts/2188032755
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Block-in VFX - Unity
+Title: Missile
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744606/posts/2188032761
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 5 - Intro to 3D VFX > Practice: Block-in VFX - Unity
+Title: Missile - Timeline Setup
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744606/posts/2188032762
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Assignment & Session Recordings
+Title: Week 6: Composition Foundations
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737430/posts/2188003478
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Assignment & Session Recordings
+Title: Week 6: Composition Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737430/posts/2188003479
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Assignment & Session Recordings
+Title: Week 6: Session Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737430/posts/2188003480
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Modeling for VFX - Blender
+Title: Intro to Blender
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744914/posts/2188034220
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Modeling for VFX - Blender
+Title: Dome & Tapered Cylinder
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744914/posts/2188034223
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Modeling for VFX - Blender
+Title: UVs in Blender
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744914/posts/2188034227
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Modeling for VFX - Blender
+Title: Vertex Colors
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744914/posts/2188034233
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Modeling for VFX - Blender
+Title: Modifiers
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744914/posts/2188034237
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Modeling for VFX - Blender
+Title: Rings, Swipes, & Soulercoasters
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744914/posts/2188034238
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Modeling for VFX - Blender
+Title: Waterfall
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744914/posts/2188034243
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Hand-Painted Textures - Krita
+Title: Intro to Krita
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744917/posts/2188034340
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Hand-Painted Textures - Krita
+Title: Impact Flair
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744917/posts/2188034343
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Hand-Painted Textures - Krita
+Title: Ring
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744917/posts/2188034347
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Hand-Painted Textures - Krita
+Title: Embers Sprite Sheet
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744917/posts/2188034349
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Hand-Painted Textures - Krita
+Title: Zap Sprite Sheet
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744917/posts/2188034351
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Hand-Painted Textures - Krita
+Title: Wisp Sprite Sheet
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744917/posts/2188034354
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Hand-Painted Textures - Krita
+Title: Liquid Splatter
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744917/posts/2188034356
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Hand-Painted Textures - Krita
+Title: Tiling Noise
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744917/posts/2188034359
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Hand-Painted Textures - Krita
+Title: Tiling Trail
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744917/posts/2188034360
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Intro to Procedural Thinking
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034365
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Intro to Substance Designer - Fuzzball
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034366
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Lens Flare
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034368
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Ringburst
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034370
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Embers - Spritesheet
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034374
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Lightning - Spritesheet
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034375
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Wisps - Spritesheet
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034390
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Splash
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034396
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Tiling Noise
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034398
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Tiling Trail
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034482
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 6 - Textures & Meshes > Practice: Intro to Procedural Textures - Substance Designer
+Title: Ground Crack
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157744921/posts/2188034568
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Assignment & Session Recordings
+Title: Week 7: Shader Foundations
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737431/posts/2188003482
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Assignment & Session Recordings
+Title: Week 7: Session Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737431/posts/2188003483
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Assignment & Session Recordings
+Title: Week 7: Campfire Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737431/posts/2188003484
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Intro & Overview
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035025
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Node-based Shader Interface
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035087
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Vector, UVs, & Texture Sampling
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035135
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Add & Panning
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035194
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Multiply & Scaling
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035233
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Adjusting Textures
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035269
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Combining Textures
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035314
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Stepping
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035330
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Lerp & Color
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035336
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Distortion
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035340
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Output Pipeline
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035354
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Vectors & Fresnel
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035357
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Positions & Distance Sampling
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035360
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Vertex Offset
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035364
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Materials - Unreal 5
+Title: Depth Fade
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745020/posts/2188035368
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Intro - Course Overview
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034850
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: How Do Shaders Work?
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034852
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Node-based Shader Interface
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034856
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Vector UVs - Texture Sampling
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034861
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Adding & Panning
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034863
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Multiply & Scaling
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034864
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Adjusting Texture Intensity
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034866
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Combining Textures
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034868
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Step, Smoothstep & Dissolve
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034871
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Color Lerp & Gradients
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034885
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Distortion
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034888
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Creating a Full Shader
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034892
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Properties & Shader Variants
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034895
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Surface Direction Fresnel
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034897
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Using Positions & Distance
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034902
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Depth Fade
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034907
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Vertex Offset
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034905
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 7 - Shaders & Materials > Practice: Intro to Shaders - Unity
+Title: Shaders & Particle System
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745014/posts/2188034908
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Assignment & Session Recordings
+Title: Week 8: Elemental Particle Systems
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737432/posts/2188003485
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Assignment & Session Recordings
+Title: Week 8: Session Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737432/posts/2188003486
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Assignment & Session Recordings
+Title: Week 8: Campfire Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737432/posts/2188003487
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Assignment & Session Recordings
+Title: Week 9: Session Recording
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737432/posts/2188003488
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Assignment & Session Recordings
+Title: Week 9: What's Next?
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157737432/posts/2188003490
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Art Foundational Lectures
+Title: Guiding Principles Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745083/posts/2188035555
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Art Foundational Lectures
+Title: Gameplay Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745083/posts/2188035566
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Art Foundational Lectures
+Title: Shape Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745083/posts/2188035568
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Art Foundational Lectures
+Title: Value Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745083/posts/2188035569
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Art Foundational Lectures
+Title: Color Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745083/posts/2188035571
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Art Foundational Lectures
+Title: Timing Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745083/posts/2188035574
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Art Foundational Lectures
+Title: Composition Lecture
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745083/posts/2188035575
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Unreal Scene Setup
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035696
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Fog Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035700
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Informative Video - Fire
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035707
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Hit Impact Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035720
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Campfire Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035718
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Informative Video - Lightning
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035722
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Lightning Beam Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035724
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Sword Swipe Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035727
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Fireball Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035730
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Informative Video - Water
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035731
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unreal
+Title: Waterfall Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745092/posts/2188035735
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Unity Scene Setup
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035610
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Ambient Fog Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035627
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Informative Video - Fire
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035631
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Campfire Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035632
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Hit Impact Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035635
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Informative Video - Lightning
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035636
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Lightning Beam Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035639
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Sword Swipe Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035643
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Fireball Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035648
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Informative Video - Water
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035655
+--------------------------------------------------
+Path: Beginner Bootcamp > Week 8 - Particle Systems > Practice: Elemental Studies - Unity
+Title: Waterfall Breakdown
+URL: https://www.vfxapprentice.com/products/beginner-bootcamp/categories/2157745087/posts/2188035679
+--------------------------------------------------

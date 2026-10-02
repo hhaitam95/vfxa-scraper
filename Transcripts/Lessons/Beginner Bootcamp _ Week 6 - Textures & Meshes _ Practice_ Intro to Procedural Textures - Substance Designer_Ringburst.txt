@@ -1,0 +1,140 @@
+[00:00:04] Hi guys! Today I'm really excited with this lesson because we are going to create a Rainburst
+[00:00:12] Test Tour, also called a Shockwave Burst, and it's another test tour while using the VFX and really
+[00:00:18] important in the gameplay. It's super versatile and can be used in many situations, for example
+[00:00:25] one about the impact zone for an attack or the way where this impact will damage you. But also
+[00:00:32] I told you there are many ways to use this test tour and many ways to rethink how to create it.
+[00:00:39] Let's see the principle of this test tour and how to create it!
+[00:00:43] First let's take time to analyze the test tour we want to create and what aspect we are looking for.
+[00:00:51] I found this different test tour to have reference of what is the principal aspect
+[00:00:56] that we need to consider and the visual that we are looking for.
+[00:01:01] This test tour doesn't have many separately elements but it doesn't have common parts that
+[00:01:07] we can analyze to get the first sight of what we need. The first and the principal element
+[00:01:13] that we see is a ring, this will mark the area in our VFX. And then we can see different visual
+[00:01:22] secondary elements that will give us grayscale diversity like velocity lines to accentuate the
+[00:01:29] impact areas or noise that break and deform the shape a little bit. I like the style of this
+[00:01:36] test tour and I'm going to take as reference to create something similar but more functional.
+[00:01:44] Well, I'm going to open the file I'm working on but feel free if you want another workflow.
+[00:01:50] Then I'm going to create a new graph, clicking to the name of our file and configure the graph
+[00:01:57] and rename it. Fine, we are going to start with the principal element and this is the ring,
+[00:02:04] and it would be fine if the ring has a smooth border. For that we are going to start creating
+[00:02:10] a gradient linear tree. Here in Designer there are many ways to create the shapes but I would
+[00:02:18] like to show you ways to have the most control when we are creating the test tour that we want.
+[00:02:24] This is a gradient that has a sharp curve in the grayscale where the middle point is
+[00:02:29] very accentuated and you can see very clear the line but smooth to the size very fast.
+[00:02:37] You can control the position offset in this line and rotate the gradient if you need it.
+[00:02:42] For this case we are going to keep the gradient as default. I like the curve of this gradient
+[00:02:48] but I think the middle is too accentuated and for that we are going to blur only the middle
+[00:02:55] creating a non-uniform blur scale and the blur mass it could be the same gradient where is the
+[00:03:01] most blur will be in the center. We change the intensity of the blur and in this case I think
+[00:03:08] we need to set it with a high value. Fine, we have the gradient for our ring and as we have
+[00:03:15] done in the other location we are going to use the shape mapper to map the gradient along the
+[00:03:21] cycle shape and we will have more control. Alright, we can see the ring is quite close
+[00:03:28] to the borders for the test tour and less configurated to avoid that. The first thing
+[00:03:33] I'm going to do is set the parameter amount to 1 to map once the gradient along the cycle.
+[00:03:40] Then we change the radius a little bit to ensure the borders. Also a bit the width of the ring.
+[00:03:48] We will expose the radius and the width to control it later if we need it.
+[00:03:54] Also I'm going to put this parameter in a group to organize the parameters.
+[00:03:59] At the moment we only have the ring, which is the manual element we need to have.
+[00:04:05] We will need to break the shape a bit in order to give more detail and the best way
+[00:04:11] is blending with a noise. On designer we can find the most common noise that will make it easy
+[00:04:17] for us to work. For our case it will be fine to break the shape with a noise that has a big
+[00:04:26] scale to not lose the printable shape and the best for this case is the perlin noise.
+[00:04:32] Let's create it! The perlin noise is usually composed of
+[00:04:38] soft and random blobs. It's a noise cheap and quite simple to use.
+[00:04:43] We can control the scale of the noise, this in particular we have a high range,
+[00:04:48] especially at lower scale values to get a big scale of the noise. I think this scale is perfect
+[00:04:55] to break the ring shape. Also we can control the disorder of the blobs that allow us to introduce
+[00:05:02] a small variation. Fine, we have the noise and we will create a blend node. In this case we are
+[00:05:11] going to use substrate mold. This will cause the grayscale value for the noise to substrate
+[00:05:18] information from the printable shape creating areas where there'll be no information and new
+[00:05:24] shapes in the borders of the ring. The substrate mold usually gives us a
+[00:05:30] tester with low grayscale values and designer has a node that adjusts the values for the input
+[00:05:37] using the full range from the black to white values automatically. We create auto levels.
+[00:05:43] You can see that we are back to the higher values in the tester. This node has no parameters.
+[00:05:51] Fine, we will already have the second part of the tester where we have broken the shape a little
+[00:05:57] bit creating new shapes. Now we are going to create the middle small detail for the tester
+[00:06:04] which will make it more interesting. We will continue along the way, create more detail with
+[00:06:11] more noises. This time I would like to show you one interesting way to create new noises from
+[00:06:17] the basic noises. Our goal in this tester is to create mid-small detail to show different grayscale
+[00:06:23] but without overloading because we want to preserve the printable shape. Let's keep doing
+[00:06:29] but creating another pearling noise. This time we set the scale of the noise with a higher value to
+[00:06:39] have more small detail in the texture. We expose the scale and disorder parameters to control
+[00:06:46] later. I think this parameter we could add in another group. One way to create a new noise is
+[00:06:54] by distorting or deformation. We will start from this pearling noise that we have set up.
+[00:07:01] To distort we need another tester where we indicate which part will be distorted and with
+[00:07:07] what intensity. In order not complicated things too much let's create another pearling noise.
+[00:07:13] This node is really versatile and I usually use a lot. We set the noise to a different scale,
+[00:07:21] maybe with a lower value, to not create more this small detail that we have in the tester that we
+[00:07:28] are going to distort. So to not lose our habit we expose the scale and disorder parameters
+[00:07:35] and add in the same group that we have created. Cool, we get the two texture, the main tester
+[00:07:41] and the tester that we distort the first. We are going to create a multi-directional
+[00:07:47] warp grayscale from the tester that we want to distort. In the second input we will put the
+[00:07:53] tester that reads the grayscale as as intensity. This node applies a directional deformation
+[00:08:00] multiple times in opposite direction while the displaced tester stays in place.
+[00:08:07] Another important note of this node is that it can be pushed in the multiple direction
+[00:08:13] differentiated it from the crassid directional warp. Well, it's better to look what is happening
+[00:08:19] with the parameters. We can control the intensity of the deformation and we set the distortion with
+[00:08:25] a higher number to move away from the aspect we started from. We will need to type the value.
+[00:08:32] I think 90 or 100 will start to have an interesting result. We can change the angle
+[00:08:39] where is the forming with the warp angle. We are going to set this until we see what angle we like
+[00:08:46] it more. Right, I think it looks nice. We have an interesting noise right now but to adapt this
+[00:08:53] noise better to the main shape we are going to create a Cartesian tuplear so that we convert
+[00:09:00] the tester to polar and we will get the noise from the center. I see a lot of mid values here
+[00:09:06] without reaching the white values so let's create auto levels now to adjust it. Wow, much better.
+[00:09:15] Then we are going to blur a little bit the tester in the higher values to have the tester
+[00:09:21] don't have a lot of hard detail. We create a non-uniform blur scale and we are going to use
+[00:09:27] the same tester like an input to blur itself. Only we need to lose a little bit to the hard
+[00:09:34] shape in the noise and we set the intensity with a low value. Cool, I think this tester is perfect.
+[00:09:42] This time we don't use the blend node to combine both tester. We are going to use this tester to
+[00:09:48] distort the main shape to get another result. We are going to use the multi-directional warp
+[00:09:55] grayscale and in the first input the tester we want to distort and in the second input the
+[00:10:01] tester that we create the intensity to distort the first one. Fine, as the same in the other case to
+[00:10:08] get another shape we need to set the value with a higher number. This will only happen if we want
+[00:10:15] to get totally different shape and it will depend on the case. Let's type and set with a higher
+[00:10:22] value. I think it's starting to have a really good aspect. Also, we are going to expose this
+[00:10:29] parameter because I think it's interesting in the case you need to change in the future.
+[00:10:36] Fine, we better to change the angle of the distortion. Let's try to see what has happened
+[00:10:43] and we can try with negative values. Fine, here we have a really good result.
+[00:10:52] We already have the tester to expose and functionality for our VFX. As you can see,
+[00:10:59] we can identify the main shape, the rim, the big detail that breaks the shape give us a new more
+[00:11:07] interesting shape and the mid detail that the tester that provides us different grayscale value
+[00:11:14] and make it more interesting. At that point we can spot it here and this tester will warp perfectly
+[00:11:22] but I want to highlight a little bit the values in the center to have a more complex texture.
+[00:11:28] Feel free if you want to skip this part and go to the last minute to see what it looks like
+[00:11:33] in the engine. It's not necessary for this lesson and will not differ much for the one that we see
+[00:11:40] here. Alright, for people that will stay here until the final we are going to highlight some
+[00:11:47] part in the tester to have more interesting tester. For that we are going to review the
+[00:11:53] same trick process that I made in the previous lesson but applying for this tester. In the
+[00:11:59] previous lesson we started using a slow blue grayscale to sharpen and deform the tester with
+[00:12:06] a mask that determine where it will go. So, let's start recreate the mask first. As we want to
+[00:12:13] sharp the high values in the tester we are going to start inverting the grayscale of the tester.
+[00:12:20] Then we have areas very defined and we are going to blur with a blur grayscale so that we get a
+[00:12:27] mask so far because we don't want to have a sharpen really really hard. Let's set the
+[00:12:33] intensity of the blur and I think it's nice like this and we got the slope mask.
+[00:12:39] Now we just need to create the slope grayscale node. From the tester that we want to deform
+[00:12:46] and in the second input we connect the mask. Perfect! Set the samples to 32 to have the best
+[00:12:54] quality and then the intensity, just a little bit. Now we are going to create the normal node
+[00:13:02] to have a representation of the slope for the tester. Higher values, more slope, we will see.
+[00:13:10] Let's set the intensity for the normal and we need to type a higher number to have a good
+[00:13:15] slope representation. Then we are going to create a curvature smooth that reads the normal map that
+[00:13:22] we get the grayscale map that will depend on the difference of the slope of the normal.
+[00:13:29] Alright, now we already have these white values accentuated in the tester that we have done.
+[00:13:35] And we are going to combine it with a blend with the tester that we are creating.
+[00:13:41] We create a blend node and we are going to select the soft light mode.
+[00:13:49] Oh, we have done! And it looks really really nice!
+[00:13:54] Before exporting I would like to show you the difference between the two final tester.
+[00:14:00] The first has the same elements but a little bit bluer and less defined.
+[00:14:06] The other one with the last chains we will get a tester more defined
+[00:14:11] highlighting the white values and the shapes. Both tester are awesome and work perfectly for
+[00:14:17] VFX, so feel free to choose whatever you want. The last thing that we need is create the open
+[00:14:24] node to export the tester. As always we will do, change the name of the identifier of the output.
+[00:14:32] And then when we are going to export the tester, the folder and the format that we want to export
+[00:14:38] it. Done! And exported! Well, to finish this lesson I'm going to show you one example to
+[00:14:46] use of this tester and for that I created an Impact VFX. In this effect I combined the two
+[00:14:54] tester that we created in the previous lesson, the lens flare and the first ball. With very
+[00:15:00] little you can make very interesting scenes and you don't always need to complicate it too much
+[00:15:05] to have something beautiful. I'm going to show you each emitter separately.
+[00:15:13] One of the emitter is applied in the way of the impact in the ground that delimited the
+[00:15:18] damaged area of the impact. The other one I added to give more immersive effect like an
+[00:15:24] expansive wave but more softer. I hope you enjoyed with this lesson and really excited
+[00:15:31] about what we'll do with this new tester that is super versatile. See you!

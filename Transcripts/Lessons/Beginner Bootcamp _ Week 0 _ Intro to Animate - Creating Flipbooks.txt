@@ -1,0 +1,432 @@
+[00:00:00] Oh hey guys it's time to make a flipbook. Alright so we've learned about flash,
+[00:00:10] we've learned about how to draw in flash, we've learned about how to animate in flash,
+[00:00:15] and now let's figure out how to get that cool animation ready for a video game. So I'm gonna
+[00:00:20] go over how to do flipbooks. I'm gonna do a 3x3 first and then we're gonna show other formats
+[00:00:26] as well. So that's gonna encompass the duration of the video. If you just want to watch the one
+[00:00:31] part and you know how to make all the other sizes after that, there's really not going to be much
+[00:00:35] more after we make the first one. So okay let's dive right in. So we've got this going on here,
+[00:00:41] it's nice nine frame animation right that we made in the previous videos. And we want to
+[00:00:49] make something new. So we go to file new to create a whole new template for ourselves.
+[00:00:56] And let's set the width and the height to 2048 is as good as any. You could do 1024, 2048,
+[00:01:04] or if you've got a more detailed flipbook you might want to do a 4096. It's four zero nine six.
+[00:01:11] So those are the standard sizes that you're gonna want to stick with. I don't recommend if you're
+[00:01:17] doing more of a close-up type of game, going with a 512 for a flipbook. If it's smaller on the
+[00:01:24] screen like it's a top-down game like a real-time game, you might want to go with a 512. If it's a
+[00:01:26] smaller on the screen like it's a top-down game like a real-time game, you might want to go with a
+[00:01:26] real-time strategy or a MOBA or something like that. Maybe 512 is gonna work just great for you
+[00:01:31] for optimization. But if it's gonna be like a fighting game or a side scroller where that
+[00:01:36] effect is bigger on the screen, you might want to go with one of these higher ones, at least 1024,
+[00:01:41] maybe 2048. Okay, so let's go with 2048. And we'll create that as our template. Okay,
+[00:01:50] so let's make a box. R brings up the rectangle tool. Now if you
+[00:01:55] make a rectangle, it will be a rectangle and not a square. But if you hold shift,
+[00:02:01] it's a square. And the sides will be equilateral. So I've made my square. That's awesome. Now I want
+[00:02:09] to click on the fill. Now this is important because I've only selected the fill and not
+[00:02:13] the outline, but I want both. They're both going to be useful for me. You'll see why in a minute.
+[00:02:17] So if I double click on the fill, it will also select every stroke that touches the fill,
+[00:02:24] which is kind of cool, right? So I'm going to double click on the fill. And I'm going to
+[00:02:25] go ahead and I'm going to go down here. And I'm going to go to the fill. And I'm going to go to the
+[00:02:27] fill. And I'm going to go to the fill. And I'm going to go to the fill. And I'm going to go to the fill.
+[00:02:28] Then I go ahead and I resize that thing. Let's see, under the object properties, not the frame
+[00:02:33] properties, the object, I come down here and I go 512. Because that was the size of our animation,
+[00:02:40] right? And this is why you want your flipbooks to be massive is because this little box here is
+[00:02:47] 512 by 512. Well, I mean, that's how big this blip was, right? Now, what we're going to do from
+[00:02:55] here is we're going to actually go with a nicer flipbook that I actually spent a little bit more
+[00:02:59] time on that is also nine frames. I like this a lot more. If you guys want this flipbook,
+[00:03:05] you can get it for free. There's a link in the description. You can go over and sign it for the
+[00:03:09] email list. I'll send it out to you. No problem. No questions asked. You just get free stuff. It's
+[00:03:14] pretty sweet. So I'm going to use that nine frame thing. But this stage size also, you'll see it's
+[00:03:19] 512 by 512, right? So that's going to be basically the same as the previous one. So I'm going to go
+[00:03:25] ahead and hit F8 when this is selected. All right. I'm going to call it 512. 512 by 512.
+[00:03:41] How about we call it flipbook 512 by 512 nine frame.
+[00:03:52] So you can see that this is a nice little blip. I'm going to go ahead and hit F8 when this is
+[00:03:55] selected. So I'm going to hit F8 when this is selected. All right. So this is a super creative
+[00:03:56] name. You're going to have a lot of these. So having them named clearly is actually going to
+[00:03:59] be really valuable because sometimes you're going to want to do four by four or five by five or one
+[00:04:05] by eight or two by eight or whatever. So there's all kinds of dimensions. Let's make sure we name
+[00:04:11] it appropriately. Now we're going to get into something fun about animate. You'll notice that
+[00:04:16] this is now inside of a container. All right. This here is a symbol. And if we open up our library
+[00:04:23] here, we see this yellow box. And if we open up our library here, we see this yellow box. And if
+[00:04:25] we open up our library here, we see this yellow box. And if we open up our library here, we see this
+[00:04:26] yellow box here in our library. And there it is with the name that we gave it. So symbols are
+[00:04:32] different than just regular artwork. A symbol is a container. So if we double click on the symbol,
+[00:04:39] it changes up here from scene one. See if I double click off of it, I go back to scene one.
+[00:04:44] I double click on it. I go into it. And so this is like a hierarchy. So inside of scene one
+[00:04:51] exists this symbol, flipbook 512 by 512 nine frame. Right?
+[00:04:55] And now I can edit this artwork just like I normally would. It gets confusing, because it
+[00:05:06] looks like you're still on scene one. Now, the way that you know the difference is, let's say,
+[00:05:12] out here on scene one, you have some other artwork, and what nots. And then you double
+[00:05:18] click inside of here. The artwork kind of changes color. I don't know if you notice the difference.
+[00:05:22] When I'm inside of here, the yellow here is more vibrant, the artwork here is more vibrant. And the
+[00:05:25] out here becomes less saturated, closer to gray, right?
+[00:05:30] So it's a little helpful to see,
+[00:05:34] but people still get lost a lot.
+[00:05:36] So don't feel bad if you're getting a little lost
+[00:05:38] going in and out of symbols, just keep an eye on it up here.
+[00:05:42] This is your guide to tell you, this is where you are.
+[00:05:45] Try not to get lost.
+[00:05:47] Always pay attention to that.
+[00:05:48] Okay, I'm gonna click on that, delete it
+[00:05:49] because it's totally in the way.
+[00:05:52] So I've got this little thing here.
+[00:05:53] Now, what am I gonna do with it?
+[00:05:55] All right, well, let's get rid of the library
+[00:05:58] so I can see my properties over here.
+[00:06:00] So if I come over here, I can click on, oh gosh,
+[00:06:06] the V tool, if I deselect,
+[00:06:09] I think I need to like deselect the square
+[00:06:11] for this to show up, yeah, I do.
+[00:06:12] So if you type V with nothing selected,
+[00:06:16] which is to say, you just click off on the stage, right?
+[00:06:19] And then it's deselected.
+[00:06:21] You have these nice snap options.
+[00:06:23] Now this is very important.
+[00:06:24] You're gonna wanna turn on,
+[00:06:25] you're gonna wanna put the value here,
+[00:06:27] like you see here over here in my strategy control.
+[00:06:30] So now it's entering long and short.
+[00:06:33] This is as the row changes to roll,
+[00:06:35] when you do this,
+[00:06:36] it's actually gonna shut the set napp dental performance
+[00:06:41] or it's gonna
+[00:06:44] show you something like tape
+[00:06:46] that's in your browserclick and every time you do that,
+[00:06:48] actually thatproduces the set?
+[00:06:51] So that looks kind of.
+[00:06:53] just like that.
+[00:06:54] We're gonna put this little dudette up here in the corner.
+[00:06:59] All right, so we've got one of them.
+[00:07:01] Now before I duplicate it out,
+[00:07:03] there's a couple things I wanna make sure that I do.
+[00:07:05] The first and most important is I go inside of it
+[00:07:08] by double clicking it,
+[00:07:10] and then I go over here to frame nine,
+[00:07:14] and I hit F5.
+[00:07:16] Now that's gonna make sure that I have nine frames
+[00:07:19] of animation inside of my symbol.
+[00:07:22] Notice if I go back up to scene one, clicking up here,
+[00:07:25] I still only have one frame of animation on scene one.
+[00:07:30] And I can name these, I'll go away
+[00:07:31] so that you can see a little more clearly what's going on.
+[00:07:33] I can name these what I like.
+[00:07:35] So this is like flipbook layer, right here.
+[00:07:41] And then I go inside of here
+[00:07:43] and I can name this like animation.
+[00:07:46] So this is another indication that I'm inside of the symbol
+[00:07:50] versus when I'm outside of the symbol
+[00:07:51] up in the scene.
+[00:07:52] So I'm up in the scene and I have my flipbook,
+[00:07:54] I double click on it and I have animation, right?
+[00:07:57] Now what I wanna do is, you know, on the flipbook layer,
+[00:08:02] I just want it to hold on one frame.
+[00:08:05] Like I don't actually want it to animate up here
+[00:08:07] because I wanna show all my frames.
+[00:08:09] So right here, I'm gonna select that,
+[00:08:11] and I'm gonna come over here to looping,
+[00:08:14] and I'm gonna select this one,
+[00:08:16] play single frame for the graphic.
+[00:08:19] And that's gonna ensure that it's not just a single frame,
+[00:08:22] that it stays on a single frame.
+[00:08:24] Another important thing,
+[00:08:25] make sure that this up here says graphic,
+[00:08:27] and it does not say movie clip or button.
+[00:08:29] You want a graphic.
+[00:08:31] When we first created it, we hit F8, remember?
+[00:08:34] We had the option to choose graphic or something else.
+[00:08:36] You definitely wanna be using graphic here.
+[00:08:38] There's not gonna be a time
+[00:08:40] where we're using movie clip in the class.
+[00:08:43] If we do, it'll be extremely rare and very unlikely.
+[00:08:46] Movie clips are more for scripting and programming
+[00:08:49] and that kind of thing for like, you know,
+[00:08:51] JavaScript on websites or CSS or that kind of thing.
+[00:08:55] We don't wanna use movie clips.
+[00:08:57] We wanna use graphics.
+[00:08:59] Okay, cancel that
+[00:09:00] because I don't wanna create another graphic
+[00:09:02] inside of a graphic.
+[00:09:03] That would just be crazy bonkers,
+[00:09:05] and we're not ready for that yet.
+[00:09:07] All right, so that's gonna just hold for a single frame.
+[00:09:10] So if I extend this out for nine frames as well,
+[00:09:16] it's not gonna play an animation.
+[00:09:18] Now, inside of here, there's no animation yet,
+[00:09:20] so let's give it one.
+[00:09:22] Let's go here and hit F6.
+[00:09:24] Remember, F6 keeps the frame intact,
+[00:09:26] all the artwork intact, but it creates a new frame.
+[00:09:29] So when I'm here, I want the frame to be blue.
+[00:09:34] All right, I want the artwork to be blue.
+[00:09:38] And then when I'm over here, I want it to be red.
+[00:09:43] All right, so now it's red, red, red, red, red,
+[00:09:46] and then it changes to blue on the last frame.
+[00:09:49] So that's what we should have, right?
+[00:09:51] Then you wanna right-click on anywhere
+[00:09:53] that this frame is being held,
+[00:09:55] and you want to select Create Shape Tween.
+[00:09:59] Now, what that's gonna do is it's gonna transition it
+[00:10:02] through the shades to blue.
+[00:10:05] So now we've animated in Animate with an automated feature.
+[00:10:10] Now, the troublesome part here is that I have this outline still,
+[00:10:15] and I didn't actually mean to leave it there, and that's fine.
+[00:10:17] You're gonna run into stuff like this all the time,
+[00:10:19] so here's how you fix it.
+[00:10:21] So if I click once, I select one segment of that blue outline, right?
+[00:10:24] If I click twice, it selects all of it.
+[00:10:27] I can hit Control-X, create a new layer,
+[00:10:32] Control-Shift-V, and it'll paste it in place,
+[00:10:35] because I actually like having a border.
+[00:10:38] There we go.
+[00:10:39] And I'll just move that, well, I'll just change it to a guide layer
+[00:10:43] so it doesn't show up, and then we'll change the stroke color
+[00:10:46] while it's still selected, right?
+[00:10:47] Or if you deselected it, then...
+[00:10:49] Double-click on it again, and then change it to white.
+[00:10:53] So now we have a nice white border,
+[00:10:56] and then if I hide that layer,
+[00:10:58] notice that the blue is still here on this frame,
+[00:11:03] and it blends in with the other blue, which is unfortunate.
+[00:11:06] But you'll want to double-click on it here on the blue frame
+[00:11:09] and then delete that as well so that it's gone.
+[00:11:11] I can unhide that.
+[00:11:13] Now I've got my border that is there that I can use as a nice guide
+[00:11:17] when I'm lining up my animation, and I can actually hide that.
+[00:11:21] So now when I'm inside of here, I have the color hidden,
+[00:11:25] but I just have this nice clean held border
+[00:11:29] that will let me line up my animation very nicely.
+[00:11:33] I can come back out to Scene 1,
+[00:11:35] and we see that all we have is the color,
+[00:11:38] and it is not animating.
+[00:11:41] Well, let's get that thing to work.
+[00:11:43] So let's hit Control-C and Control-V,
+[00:11:47] and remember we wanted to do a 3x3,
+[00:11:51] so we'll do 3 wide, like so.
+[00:11:54] We're going to stop short.
+[00:11:56] I'll do a 4x4 next.
+[00:11:58] But for now we're doing 3x3, and then I can select...
+[00:12:01] Let me show you what I did.
+[00:12:02] I can select all of these with the click and drag,
+[00:12:05] Control-C, Control-V,
+[00:12:08] and then a snap because we turned on that handy snapping feature.
+[00:12:12] Control-V again, and snap.
+[00:12:14] Now this looks great, except one problem.
+[00:12:17] The color is holding across all of them.
+[00:12:20] So this here is Frame 1, which is great,
+[00:12:23] but we don't want this to be Frame 1.
+[00:12:24] We want this to be Frame 2.
+[00:12:26] And then we click on this one and make it Frame 3,
+[00:12:29] and then this one and make it Frame 4,
+[00:12:32] and this one, Frame 5,
+[00:12:35] and so on.
+[00:12:36] You get the idea.
+[00:12:38] I'll go on left to right because that's how game engines like it.
+[00:12:41] They like to read it left to right.
+[00:12:44] Oops.
+[00:12:45] I just hit the number 9.
+[00:12:46] It did nothing until I clicked on that.
+[00:12:48] All right.
+[00:12:49] So now the only problem is it's not filling our whole area.
+[00:12:52] So this is a really simple thing to solve.
+[00:12:54] I can click and drag all of these, hit Control-G just to quickly group them together,
+[00:13:00] and then I can hit the Q button, and I can simply resize.
+[00:13:05] Now if I hold Alt and Shift, it will resize uniformly from a corner.
+[00:13:13] And there we go.
+[00:13:16] We've got that there.
+[00:13:17] Now we don't want that group to stay together,
+[00:13:19] so we click on it again and we hit Control-B,
+[00:13:21] and that will break it into these.
+[00:13:23] You don't want to hit Control-B again.
+[00:13:25] That's important.
+[00:13:26] If I hit Control-B again, it will break my symbol,
+[00:13:30] and now this is no longer an instance of the symbol.
+[00:13:34] So that's a really, really important one.
+[00:13:37] If you ever do break one of your frames, like you break it open like this,
+[00:13:41] you see it's got like the outline is showing up now.
+[00:13:44] It's not hidden anymore.
+[00:13:45] And, you know, there's no sense of like the frames in here or anything like that.
+[00:13:51] I've basically broken it.
+[00:13:53] But if you do break it, you can delete it,
+[00:13:56] copy one of these others that is still working,
+[00:13:58] copy and paste it, put it in place,
+[00:14:01] and set the frame to whatever it was that was the frame that you deleted.
+[00:14:06] So that was the frame one.
+[00:14:07] So just replace that.
+[00:14:09] All right.
+[00:14:10] So here you've got your template.
+[00:14:12] Let's save that.
+[00:14:13] Let's call this...
+[00:14:15] Let's see here.
+[00:14:19] 3 by 3, 2048.
+[00:14:24] Again, super creative.
+[00:14:26] All right.
+[00:14:27] So there we go.
+[00:14:29] We have our first template, and now we're going to use it for this.
+[00:14:33] So here's just our raw frames and all these layers.
+[00:14:36] I want to include the guide layers too because they're useful,
+[00:14:39] having those little blips on there.
+[00:14:42] So I can click and drag over all of this.
+[00:14:45] Right-click on that.
+[00:14:47] Hit Copy, Frames, right there.
+[00:14:50] And then I can go over here.
+[00:14:53] I can go inside.
+[00:14:54] Remember, we don't want to paste the frames out here.
+[00:14:56] We want to go inside, create a new layer.
+[00:15:00] And now this is the funky part.
+[00:15:02] So if I just right-click here and I say Paste Frames,
+[00:15:07] it's going to create this little stem coming out because what it's doing is
+[00:15:12] it's leaving this whole section that was not selected.
+[00:15:15] intact.
+[00:15:17] So if you want to be clean about it, you can highlight that whole section
+[00:15:21] and then right-click and click Paste Frames.
+[00:15:23] And then it just does the frames that you wanted.
+[00:15:26] Now I cheated.
+[00:15:28] This actually goes for 10 frames, so that's fine.
+[00:15:30] The 10th frame will just get cut off.
+[00:15:33] All right.
+[00:15:34] So this is not lined up with the rest of that box.
+[00:15:38] So now what we want to do is let's see.
+[00:15:42] Let's lock the border layer because we don't want to move the border.
+[00:15:45] That one's set.
+[00:15:46] That one's good.
+[00:15:47] And we'll also lock the animation layer.
+[00:15:48] Even though it's hidden here, we'll just lock it to be safe.
+[00:15:51] And then we use our handy-dandy Edit Multiple Frames feature, right?
+[00:15:56] We used that before in a previous video.
+[00:16:00] Size this to here.
+[00:16:02] Hit Control-A.
+[00:16:03] We've now got all of our frames.
+[00:16:05] And we can move that thing right there.
+[00:16:09] And we know the maximum size that it's going to hit.
+[00:16:13] And so we kind of want to stay within the bounds.
+[00:16:15] So we don't want to go all the way to the edge.
+[00:16:18] This is actually super important.
+[00:16:19] And I want to mention this, a couple of things about that.
+[00:16:22] When you're working in a game engine, it might have features that simplify things down, right?
+[00:16:29] And so it'll end up clipping off some pixels or blurring some pixels.
+[00:16:33] Or maybe if you add a glow in Photoshop to this, it might glow out beyond it quite a ways.
+[00:16:39] And you don't want that glow from this frame to go over into this frame.
+[00:16:43] And so that's very important to keep.
+[00:16:45] The separation of edges.
+[00:16:48] And that's another reason why you want your flipbook to be pretty dang high resolution.
+[00:16:53] So you have this extra area and this extra space to play around with.
+[00:16:59] And yeah.
+[00:17:01] Generally a downside of flipbooks is they end up being larger texture sizes.
+[00:17:05] But relatively simple materials.
+[00:17:07] So it's kind of a give and take in different areas.
+[00:17:10] Talk with your local tech artist about the pros and cons.
+[00:17:13] One other thing that's worth mentioning.
+[00:17:14] When I did the 3x3.
+[00:17:19] I guess I'll get to that in a second.
+[00:17:20] But for now, okay.
+[00:17:21] We've resized it.
+[00:17:22] And there we go.
+[00:17:24] I'll just turn off the edit multiple frames.
+[00:17:27] I can double click in any blank spot to get back out to the stage.
+[00:17:31] And there we go.
+[00:17:33] We've got all of our frames all neatly lined up there in a flipbook.
+[00:17:36] I wanted to mention when I resize this.
+[00:17:40] So if I click on one of these boxes, right?
+[00:17:43] One of these instances of our symbol.
+[00:17:46] You'll notice over here that the size has got a decimal value.
+[00:17:50] And it will be a little different based on the exact method that you used or how you got it here.
+[00:17:56] But 2048, right?
+[00:18:01] 2048 by 2048 does not divide evenly by 3.
+[00:18:06] At least I don't think it does.
+[00:18:08] But it didn't divide evenly by 3 here.
+[00:18:10] So that's a problem.
+[00:18:11] Because what ends up happening.
+[00:18:13] Is this tiny, tiny, tiny little difference.
+[00:18:16] I don't know if you're going to see it.
+[00:18:18] Yeah, you can kind of make it out at this edge.
+[00:18:21] There's a little bit of extra space.
+[00:18:23] Right?
+[00:18:24] Because it had to round down to fit within the space.
+[00:18:26] It's like a part of a pixel.
+[00:18:28] Now, it's not a big deal.
+[00:18:30] It's not going to be a big deal for us because it's such a high resolution image.
+[00:18:33] But just keep that in mind if you're working in really low resolution.
+[00:18:37] It might actually like cause a weird sort of offset like by a pixel to all of these.
+[00:18:42] And if precision is important, you might want to go with a 4 by 4 to get more precise to the edge.
+[00:18:48] But honestly, 3 by 3, there's no other downsides to it that I'm aware of.
+[00:18:52] You're going to be just fine.
+[00:18:54] One thing we do not want is this colorful background.
+[00:18:58] Because now we have a real animation playing.
+[00:19:00] So we can come down to this color.
+[00:19:04] Come down here.
+[00:19:06] I can right click.
+[00:19:07] Turn that into a guide layer.
+[00:19:09] All right.
+[00:19:10] So there we go.
+[00:19:11] We come back out.
+[00:19:12] And this is a bug.
+[00:19:13] This is a very common thing in animate.
+[00:19:16] Don't freak out.
+[00:19:17] We turned it into a guide layer.
+[00:19:18] It got rid of it on the one that we were inside of.
+[00:19:21] But all the others did not.
+[00:19:22] There's a couple ways you can address this.
+[00:19:24] You can go inside, hide and unhide it, and then hide it again.
+[00:19:29] I'm not kidding.
+[00:19:30] That actually fixes it.
+[00:19:31] Or like go into another symbol, and that will fix it.
+[00:19:34] And then another one, and that will fix it.
+[00:19:37] It's craziness, I know.
+[00:19:41] Yeah.
+[00:19:42] But if I just do that, that's probably the easiest way.
+[00:19:44] And then they all go away.
+[00:19:46] Maybe they'll get it fixed in the future.
+[00:19:48] Who knows?
+[00:19:49] It's on them.
+[00:19:50] Hopefully it's on the bugs list.
+[00:19:51] Or if they're watching this video, Adobe, you've got a bug to fix.
+[00:19:55] All right.
+[00:19:56] So there we go.
+[00:19:57] We've got our nice handy dandy flipbook.
+[00:19:59] It is ready to export.
+[00:20:01] So you can hit control.
+[00:20:02] Oops.
+[00:20:03] Don't do that.
+[00:20:05] Go file, export.
+[00:20:08] Export image.
+[00:20:11] There we go.
+[00:20:13] And then you're going to select the PNG options.
+[00:20:17] It does a really big, I don't know why it gets so big.
+[00:20:20] My other monitor is kind of big.
+[00:20:22] And so it goes with the biggest possible size by default, I guess.
+[00:20:26] I don't know.
+[00:20:27] You can see here it's got the nice transparency.
+[00:20:31] Ooh.
+[00:20:32] Yeah.
+[00:20:33] Don't be fooled by that.
+[00:20:34] Actually, if you pan, you can see the whole image.
+[00:20:36] It's just a very high resolution image, and it's zoomed all the way in.
+[00:20:39] You can come in here.
+[00:20:40] You can come in here and say like 50% or whatever you want to do.
+[00:20:45] Here it was 16 to view the whole thing.
+[00:20:47] So yeah.
+[00:20:48] There we go.
+[00:20:49] And you can keep the size there.
+[00:20:52] Export it to a PNG, and then you can import that PNG into Photoshop or what have you.
+[00:20:59] I'm going to build the template in After Effects as well that takes the PNG and makes it back into a video.
+[00:21:05] And you can do all kinds of video editing and spit it back out however you want.
+[00:21:08] So.
+[00:21:09] Yeah.
+[00:21:10] All that's coming down the line.
+[00:21:12] I guess I can come back now.
+[00:21:14] It's exciting.
+[00:21:15] I'm not in the way of it anymore.
+[00:21:17] So that's how you create your flipbook.
+[00:21:19] I'm now going to end this segment of the video.
+[00:21:23] And I guess I'll just go ahead and create a new video to say like odd shape flipbooks or something like that because there's no point in tacking onto a video where this is pretty much a self-contained point and that it's going to take a while for me to create all the others.
+[00:21:38] So if you're interested in creating all the odd shaped different kinds of flipbooks, watch the next video for that.
+[00:21:45] Otherwise, you've got everything you need to do.
+[00:21:47] Just go ahead.
+[00:21:49] Sign up link for the class is in the description.
+[00:21:52] If you want to go and learn how to make all the different stuff that we're making, we're on Twitter.
+[00:21:57] You can go get a preview of all the crazy effects that are going on over there.
+[00:22:01] And yeah, it's really exciting stuff.
+[00:22:03] So I'll see you in class.
+[00:22:05] If you have any questions or comments, leave it below.
+[00:22:06] I'll see you in class.
+[00:22:07] If you have any questions or comments, leave it below.
+[00:22:09] And I'll catch up with you later.
+[00:22:10] See you guys.

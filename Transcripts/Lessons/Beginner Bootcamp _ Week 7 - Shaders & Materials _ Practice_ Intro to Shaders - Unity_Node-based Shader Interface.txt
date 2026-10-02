@@ -1,0 +1,125 @@
+[00:00:05] Hello again, I'm Jayden, and in this lesson we will be looking at the Shader Editor and how to use it.
+[00:00:11] Then we'll cover some tips on how you can set up Unity to make it easier to edit shaders.
+[00:00:16] So let's start off by creating our first shader graph. In the project window, you'll click the plus,
+[00:00:21] find Shader Graph,
+[00:00:23] under URP, a new Unlit Shader Graph. I'm going to name this Texture Panning.
+[00:00:34] Open that up with a double-click, and
+[00:00:37] here's the Graph Editor. I do want to make it a little bit bigger,
+[00:00:45] and here we are. So the first thing you can do is drag around by holding your middle mouse button, and
+[00:00:52] that'll allow you to pan around the canvas. You can scroll up and down to zoom, and
+[00:00:58] let's add our first node by pressing spacebar, and we'll just type in noise.
+[00:01:04] Here's this option Gradient Noise. We'll double-click that, and let's make one more node.
+[00:01:13] The Multiply node.
+[00:01:16] Double-click that. So in Shader Graph, we can connect any node by dragging from one node to another.
+[00:01:27] We can delete this connection by clicking on it and pressing Delete.
+[00:01:32] You can delete a node by doing the same, clicking it, pressing Delete, and as always, Ctrl-Z to undo.
+[00:01:41] Shader Graph is amazing because it's a completely visual workspace.
+[00:01:46] This is great news if you don't like math because everything we do is highly visual and very artistic.
+[00:01:52] We will definitely be using math, but having the visual for everything makes it a lot easier to view and
+[00:01:59] understand what's going on. If you do like math,
+[00:02:02] you're also really gonna enjoy Shader Graph because this is a great way to have fun with numbers.
+[00:02:06] Either way, Shader Graph is very artist friendly, and it makes it very fun to just experiment and try different things.
+[00:02:13] So in Shader Graph, we can press F on our keyboard to frame everything.
+[00:02:18] You can box select by just clicking and dragging to select multiple nodes.
+[00:02:24] And you can also select individual nodes by holding Ctrl and clicking to select multiple.
+[00:02:29] You'll also see that each node has default values, and we can plug whatever we want into these values.
+[00:02:39] For example, we have this noise, and we are multiplying it to basically brighten the value by two.
+[00:02:45] We can click here and type in 0.1, and now it's gonna darken that value.
+[00:02:54] We can also click and drag on any value to quickly change the number.
+[00:03:02] Later on, it will be helpful to keep nodes organized.
+[00:03:05] So if we select multiple, we can press Ctrl G to group the nodes.
+[00:03:10] You can also do that by right-clicking and press group selection.
+[00:03:16] And if you ever want to remind yourself of what you're doing in a shader,
+[00:03:21] you can right-click and choose create sticky note, and you can type in whatever you want here.
+[00:03:32] So this here is the master node.
+[00:03:34] It's the output for the shader, and it ultimately determines what color ends up being on the model.
+[00:03:40] There are lots of outputs.
+[00:03:42] We'll use some of those later, but the most basic one is color.
+[00:03:46] If we plug data into that color, it'll put that right on the mesh.
+[00:03:51] There's also this little preview on the bottom right corner.
+[00:03:54] This will show you what your shader will look like on a basic sphere.
+[00:03:59] You can also right-click it to choose to preview a different mesh.
+[00:04:06] There's the basic primitives, but you can also use any mesh you want.
+[00:04:10] And again, you can press spacebar to add a node,
+[00:04:13] and this will take you to the node browser where you can see all of the available nodes.
+[00:04:18] There are a lot of different nodes in Shader Graph, but do not be overwhelmed by these.
+[00:04:22] There's only a small handful of nodes that we'll actually use.
+[00:04:26] And the ones we do use, we'll get familiar with those as we go.
+[00:04:29] In fact, let me show you, because I have a list of all the nodes we'll use.
+[00:04:33] So this here is a list of the most common nodes that we'll use in VFX.
+[00:04:39] These are some of our most basic inputs.
+[00:04:41] So we have a texture, colors, we'll use gradients, and then basic numbers.
+[00:04:50] We'll also use UV information from the mesh.
+[00:04:54] We have all the basic math operations.
+[00:04:56] So addition, subtraction, multiplication.
+[00:04:59] If you can handle these, then you're going to be all right.
+[00:05:03] And then these are some other math functions that we'll use.
+[00:05:05] We're going to go through these one by one, and they're very simple once you know what they do.
+[00:05:11] Each one will basically apply an image effect onto your texture.
+[00:05:16] And this isn't a complete list, but this is most of the nodes that we'll use to create our VFX shaders.
+[00:05:22] Later on, you'll definitely have a chance to experiment with these
+[00:05:25] and also just browse through the list of nodes and see what else is out there.
+[00:05:36] So we already talked a little bit about how shaders work
+[00:05:39] and every pixel on your mesh that is seen by the camera will run through the shader.
+[00:05:45] All of these calculations are done once for every pixel that you see on the screen.
+[00:05:49] And every shader is going to use an input and an output.
+[00:05:53] The most basic input is just a color.
+[00:05:56] For example, if we choose green, that means if your mesh is visible, it's green.
+[00:06:00] Nothing more to it.
+[00:06:06] But we can also receive other information from the mesh, like its UVs,
+[00:06:10] and we can process that data however we want to.
+[00:06:13] So you start with an input, process it, send it to the output, and you have a shader.
+[00:06:20] This is why shaders are fun, because we start with a basic input like the surface of a mesh.
+[00:06:25] We can do whatever we want with it and then send it to the color.
+[00:06:29] So we have a lot of power, a lot of control, and we can experiment to create some really fun effects.
+[00:06:34] The most common input is going to be UVs from the mesh.
+[00:06:38] So this just tells the mesh to select a color from a texture and put that on the surface.
+[00:06:45] So before we start messing with these, let's just get a little bit more organized.
+[00:06:48] I'm going to go back to the scene view.
+[00:06:51] And you'll probably want to create a folder to keep all your shaders in.
+[00:06:55] I'll just call mine shaders.
+[00:06:59] And personally, I don't like the default Unity layout when it comes to editing shaders.
+[00:07:09] It just feels a little bit cramped and there's all these windows blocking our view.
+[00:07:13] So I like to set up a special layout that's just meant for shader editing.
+[00:07:17] If you want to make the layout look like this, what I like to do is group together the project into the hierarchy on the top left here.
+[00:07:26] I'll also put the console there.
+[00:07:30] I'll also put the inspector there.
+[00:07:34] Then you can put the game view and the scene view right underneath those.
+[00:07:41] And they're together on the same tab.
+[00:07:46] And now you can see we have a lot more room.
+[00:07:48] I also like to put these windows over toward the right so they're all in the same place.
+[00:07:53] And then with the scene view on the bottom left here, we can still view our world and we can also zoom in on our material.
+[00:08:01] I want to save this, so I'm going to go up to the top right here.
+[00:08:06] Clicking on the default layout, I'm going to choose save layout.
+[00:08:09] I like to call mine shader editor and save that.
+[00:08:14] One more quirk about editing shaders in Unity is that each shader opens its own tab.
+[00:08:21] If this closes, it'll make your layout look crazy like this.
+[00:08:25] What you can do is find your shader and open it up again.
+[00:08:30] And then if you grab that tab and drag it all the way to the right in the middle.
+[00:08:36] So that it occupies the whole right side of the screen and then you can drag it toward the left.
+[00:08:41] Using this editor workspace like this feels a little bit clunky and it does take some getting used to.
+[00:08:49] And what I've found, there's really not a better way around it.
+[00:08:52] So you get used to it after you do it a few times.
+[00:08:56] Let's go back into our default layout.
+[00:08:59] One more thing we need to do is add post processing for bloom.
+[00:09:06] Later when we add glowing effects, we need bloom so that we can see the glow.
+[00:09:10] This isn't in the project by default, so we need to add it manually.
+[00:09:14] You can do that by going to the plus sign in the hierarchy,
+[00:09:18] volume, global volume, then you can create a new profile, add override,
+[00:09:28] and bloom is the first option.
+[00:09:32] The defaults should be okay, though you can change those by default.
+[00:09:35] Also, you won't see bloom in the scene unless you enable this option right here
+[00:09:40] called toggle skybox, fog, and various effects.
+[00:09:45] On the drop down, you just want to make sure that you have post processing enabled.
+[00:09:49] You can also check your camera under rendering, make sure it has post processing enabled.
+[00:09:59] And I know that was a lot just to set up bloom in the scene.
+[00:10:02] I do recommend that you save this scene and use it for all your effects.
+[00:10:05] And just remember that if you don't see things glowing,
+[00:10:08] it's because you need a global volume with bloom enabled.
+[00:10:11] And I like to use a layout that's different from the default, so don't be disoriented
+[00:10:16] if you see my layout here.
+[00:10:17] You can follow along in the same way.
+[00:10:20] So in the next lesson, we'll start passing data through those nodes
+[00:10:23] so that we can create our first shader.
+[00:10:26] So in the next lesson, we'll start passing data through those nodes
+[00:10:29] so that we can create our first shader.

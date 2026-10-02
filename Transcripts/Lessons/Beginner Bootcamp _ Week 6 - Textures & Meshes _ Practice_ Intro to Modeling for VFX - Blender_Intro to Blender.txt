@@ -1,0 +1,195 @@
+[00:00:05] Hello and welcome to VFX Apprentice's Intro to VFX Meshes in Blender series. My name is Josh McDonald
+[00:00:12] I am also known as Noosh. My pronouns are he and him and I'm going to be your instructor for this series
+[00:00:18] Throughout the series. We're going to talk about the fundamentals of 3d modeling in Blender and the fundamentals of 3d modeling period
+[00:00:25] After this course
+[00:00:26] I fully expect you to be able to talk intelligently about what makes a 3d model how to make a 3d model and
+[00:00:32] You'll even be able to take the skill sets that we learn here from Blender into Macs or Maya or whatever other
+[00:00:39] 3d modeling package your studio uses and if you want to stick with Blender, that's awesome
+[00:00:45] That's kind of what I do nowadays too anyway, so it's totally fine
+[00:00:48] But the point is we're gonna learn how to 3d model. We're gonna learn how to do it in a 3d package
+[00:00:53] We're gonna learn how to 3d model
+[00:00:55] specific meshes that you can use in your effects and we're gonna cover a lot of the common
+[00:01:00] 3d models that you can find and expect to find in your 3d effects things like
+[00:01:06] cubes, planes, domes, spheres
+[00:01:10] tapered cylinders
+[00:01:12] Strips, slashes, all that stuff
+[00:01:14] After these series of courses, you'll be able to handle all this stuff and tackle all this stuff yourself
+[00:01:20] So no longer will you ever have to contact a 3d modeler or a character artist again and be like, hey
+[00:01:26] I need a tesla to plane or I need this swipe
+[00:01:29] You can be like, hey, I know how to do that and I'm gonna do that myself bam. It's gonna be awesome
+[00:01:35] It's gonna be fun. It's gonna be a fairly low stakes course
+[00:01:39] we're gonna be handling a lot of the introductory stuff for 3d packages and
+[00:01:43] It's just gonna be a fun time and if you're not familiar with 3d at all
+[00:01:48] This is gonna be a really good place to start if you are familiar with 3d if you like
+[00:01:53] 3ds max or Maya already and you just want to learn about blender
+[00:01:57] This will also be a good fundamental place to start as well
+[00:02:00] This is gonna be a course for everybody if you have any questions
+[00:02:04] Please please let me know and I'd be happy to walk anybody through any extra stuff
+[00:02:09] It's gonna be a lot of fun. So let's go ahead and get started
+[00:02:13] Believe it or not. One of the first things that we need to do before we model anything in blender is
+[00:02:18] download blender
+[00:02:20] Luckily, it's free very easy to get to just go to your favorite search engine and search for blender, which is what I did here
+[00:02:27] Or you can go to www.blender.org
+[00:02:30] Go here download blender and feel free to download blender 3.2.0 at the time of this recording
+[00:02:37] This is the latest version of blender. I highly recommend you follow along with this version
+[00:02:41] It'll just make things a little bit easier and it'll help to avoid any conflicts where I'm seeing something and you're not
+[00:02:48] Or anywhere that our UIs are gonna be different
+[00:02:51] So one of the great things about blender as well is you can have multiple installs
+[00:02:56] So every one of these versions counts as own install
+[00:02:59] So if you have blender 3.1 or 2.8 or whatever that you like
+[00:03:03] You can have 3.2 installed as well and follow along with that one. Go ahead and download that and let's get started
+[00:03:10] After you've downloaded blender when you start up blender for the first time
+[00:03:14] Likely you're going to see a pop-up that asks you about your what kind of
+[00:03:19] Color scheme you want and what kind of key mapping scheme you want. Now. This part is really important
+[00:03:24] So one of the major hangups that the 3D
+[00:03:29] Games industry in 3D as a whole has had with blender in the past is that blender has traditionally had a
+[00:03:35] Very very unique and very and hotkey heavy
+[00:03:40] Key mapping and it's been the blender key mapping things like, you know
+[00:03:44] Even things like left-clicking doesn't select because everything is different in blender. I
+[00:03:49] Believe in 2.8 and forward they gave the option of having an industry compatible key mapping
+[00:03:55] And that's what we're gonna be using for this for this series. I know that me as a 3d modeler
+[00:04:01] I stayed away from blender before they did that just because it was
+[00:04:05] Difficult to learn and I already was proficient in 3ds max and Maya
+[00:04:09] So I didn't have a good enough reason to jump into it. But now that they have this
+[00:04:13] It just opened up all the doors and it blender is such a wonderful package and for being free
+[00:04:18] It's bonkers how much you can do with it. And I'm really excited to get into this with you
+[00:04:23] So if you have opened up blender before and you're familiar with the blender key map system
+[00:04:28] But you want to follow along or if you've already blown by that introductory pop-up
+[00:04:33] And you don't know if you selected the correct key mapping or not
+[00:04:36] We can actually set that whenever you want and to do it is really simple. If you go up to edit
+[00:04:43] preferences
+[00:04:45] Key map, you'll see that there's a drop down at the top. There's blender blender 27 X and industry compatible
+[00:04:50] We're gonna want to keep industry compatible there or set it if it's not there already for you
+[00:04:55] What this does is make things very familiar to you things like left click for select right click for your options your context menu
+[00:05:04] things like W E and R for your movement rotation and scale and one two and three for your vertices edges and
+[00:05:12] Faces, so this is important because this makes this very easy to learn and very easy to follow along and very easy to code switch
+[00:05:20] between
+[00:05:20] Working in blender and working in a different engine like unity or unreal
+[00:05:25] So if you're familiar with those other, you know game engines like unity and unreal this industry compatible key mapping should be very familiar
+[00:05:33] To you and it should be feel pretty comfortable
+[00:05:36] So you'll also notice that on the left side of my screen
+[00:05:39] I have this handy-dandy a little map here that will show you exactly what I'm clicking when I'm clicking it
+[00:05:44] What my keystrokes and all that kind of fun stuff is this is here to kind of help explain exactly what I'm doing
+[00:05:50] I'm going to try to
+[00:05:52] Remember to call out exactly what I do as I do it
+[00:05:55] But for those of us visual learners myself included I find it's just always easier to have an extra little
+[00:06:02] Indicator of exactly what I'm doing because sometimes you can get moving and keystrokes just get get kind of lost
+[00:06:08] So hopefully this makes this a little bit easier. So let's jump in
+[00:06:12] let's cover some of the fundamentals of moving around in blender again, if you're familiar with unreal and
+[00:06:19] Unity, this is probably going to be a refresher for you. And this is probably going to be already very familiar
+[00:06:25] left click is select right click is your context menu if
+[00:06:29] You hold down alt and left click you'll get your orbit
+[00:06:33] Which is very cool
+[00:06:34] If you hold on alt and right click you can get zoom
+[00:06:37] you can also zoom by just moving up and down in the scroll wheel if
+[00:06:42] You hold on alt and hold down the scroll wheel itself. You can get your dolly pan, which is very cool
+[00:06:48] So with all of those combined you can pretty much move around however
+[00:06:52] You need to this should feel really familiar to how you navigate in unity and unreal as well
+[00:06:58] For the 3d models themselves if you press 1 if you want to modify these things
+[00:07:05] Pressing 1 will give you the vertices
+[00:07:07] Options, you can also get to these vertices edges and faces by coming up here to the top left
+[00:07:12] Vertices up here edges here and faces here. So we're going to start with vertices, which is hotkey number one
+[00:07:19] vertices are what actually makes up a 3d model so a 3d model or 3d object is really just a
+[00:07:26] Collection of points that are in the world space connected by edges and those edges are shaded using faces
+[00:07:34] that's really all it is you can kind of think of it as like a mesh with a
+[00:07:38] Like a cellophane skin over it and that cellophane is what you actually see in the game
+[00:07:43] Everything else is the kind of skeleton to bring that up
+[00:07:46] So you can modify these meshes by grabbing a hold of these vertices here. You can see if you just grab one
+[00:07:53] You can move it around and fundamentally change the
+[00:07:58] You know change what this model looks like
+[00:08:01] Press it or like grabbing one of these vertices and hitting w will allow you to move
+[00:08:05] Hitting e will allow you to rotate but since we're rotating one point it doesn't do anything
+[00:08:10] and the same thing with scale if you select more than one vertice which you can do that by marquee selecting or just
+[00:08:18] Clicking on one and shift clicking on another
+[00:08:21] shift click on any one of these and it'll
+[00:08:24] select multiples
+[00:08:26] You can see that after i've shift collected. I'm sorry shift clicked
+[00:08:30] All four of these vertices i've selected them all and it's actually blender has actually highlighted
+[00:08:34] The face that makes up those four vertices to make it a little bit easier for us to to navigate
+[00:08:39] Um to move those around again, it's w to rotate them
+[00:08:44] You can press e and you can rotate these
+[00:08:46] And use the cardinal direction rotations
+[00:08:49] And r will bring you to scale you can scale these in
+[00:08:53] One dimension by using you know, the actual axes here
+[00:08:58] Or you can scale in all dimensions by
+[00:09:01] selecting the
+[00:09:03] white
+[00:09:04] Circle over here and just scaling up and down
+[00:09:07] You can see immediately that we're already fundamentally changing the shape of this object and that is actually going to be the major
+[00:09:15] The major takeaway from a lot of this stuff believe it or not
+[00:09:18] What we just went through is how most 3d meshes are made how they're modified if you can get the hang of that
+[00:09:26] You can do a lot of stuff, which is really cool
+[00:09:29] If you press the key four
+[00:09:31] We'll go back into object mode
+[00:09:34] So if you're if you're in object mode, you'll select the object itself
+[00:09:37] It's very much like moving a prefab or just an object in unreal or unity
+[00:09:42] Yeah, it doesn't allow you to change any of the underlying pieces like vertices or edges
+[00:09:48] But it does allow you to move rotate and scale the entire object
+[00:09:52] um
+[00:09:53] All at once which is immensely helpful as well
+[00:10:00] One of the first things that you're going to notice when you open up blender for the first time is you're going to see
+[00:10:05] a screen much like
+[00:10:08] this
+[00:10:09] You're going to see a light
+[00:10:10] a camera
+[00:10:12] And our very helpful default cube this default cube is famous in the blender community because it's
+[00:10:18] At the start of every new scene and it's just there. It's a very loyal companion just there wants to help you out
+[00:10:25] And um, he's really just this nice
+[00:10:28] friendly cube that wants to uh
+[00:10:31] wants to be changed so
+[00:10:34] We're gonna do that by unfortunately
+[00:10:39] Selecting it with left click and deleting it
+[00:10:42] There we go. Uh, if you feel bad like I do you can control z bring the cube back
+[00:10:47] He's got a second lease on life. Whoo
+[00:10:50] Let's leave him again
+[00:10:52] What we're going to do now is we're going to make a plane
+[00:10:56] we're going to move on from
+[00:10:58] our poor cube
+[00:11:00] And make a plane so a plane is going to be one of the fundamentals
+[00:11:04] And probably the thing that as a vfx artist you're going to be the most familiar with
+[00:11:08] to make a new object
+[00:11:11] You go up to add
+[00:11:13] mesh
+[00:11:15] Plane you can also see we can add our cube back here, which is pretty cool. You can add them from
+[00:11:20] from the add mesh cube
+[00:11:22] But we're going to delete them again add
+[00:11:25] mesh
+[00:11:26] plane
+[00:11:27] There we go
+[00:11:29] so believe it or not if you're familiar with a 3d vfx system in
+[00:11:35] Unity or unreal already, which i'm sure you are
+[00:11:38] Um, whenever you see a 3d particle emitter that is shooting out fire or sparks or motes or anything else
+[00:11:45] It's really shooting out a bunch of planes just like the one that you just created
+[00:11:50] That has a texture or a shader on it and that's the fundamental
+[00:11:55] Building block of almost every particle systems unless you tell it to do something else
+[00:12:00] So this is already what the engine does for you and by creating a new plane
+[00:12:05] You have officially taken your first step into creating
+[00:12:09] Your first 3d model, which is a huge monument. You should be very proud of yourself. I'm very proud of you and
+[00:12:17] We're going to learn so much more after this
+[00:12:22] if you want to
+[00:12:25] Export this model into your engine
+[00:12:28] One of the first things we're going to be doing it's very easy
+[00:12:31] Um, you're going to left click on it click
+[00:12:34] Go to file
+[00:12:36] Export
+[00:12:38] Now you're going to search for fbx. So within 3d game engines the fbx is the primary
+[00:12:46] Format for 3d models it allows for
+[00:12:50] shading for um vertice
+[00:12:53] Animation for vertex colors for all kinds of stuff including skeletal animations
+[00:12:58] It's basically just if you ever see a 3d mesh in a game engine likely is an fbx
+[00:13:03] And we're going to be using that ourselves
+[00:13:05] um export as fbx
+[00:13:08] Export it to where you're going where you want it to live. I'm going to put it in desktop for now
+[00:13:12] And remember to limit to your selected objects
+[00:13:15] So what this does is it just says I only want to export exactly what I have selected
+[00:13:21] Everything else is going to stay in the scene
+[00:13:23] Otherwise, if you don't have this checked it's going to export your whole scene including your light and your camera
+[00:13:29] So anytime you want to just export one thing from your scene
+[00:13:33] Keep that checked
+[00:13:35] Call it your
+[00:13:36] fbx plane
+[00:13:38] and export
+[00:13:41] Now you're free to import that into unreal or copy
+[00:13:46] That into your unity project and you can actually use that model right now
+[00:13:52] Awesome. You just did your first 3d model
+[00:13:55] We'll catch up on the next one. Good job

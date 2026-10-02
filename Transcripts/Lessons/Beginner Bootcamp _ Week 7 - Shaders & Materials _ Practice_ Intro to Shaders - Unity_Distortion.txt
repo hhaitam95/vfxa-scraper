@@ -1,0 +1,116 @@
+[00:00:05] Hello again, I'm Jaden, and so far we've looked at many foundational techniques to create shaders.
+[00:00:12] There is one more important technique we're going to look at, then we'll bring it all together and create a full shader.
+[00:00:18] And this last technique is distortion.
+[00:00:21] Distortion adds fluidity or unique motion to our effects, and we can use it to create water, fire, gases, anything with dynamic movement, or things that wiggle or bend or morph.
+[00:00:34] So let's learn how to do that.
+[00:00:36] To get started, create a new unlit shader graph called distortion, create a material and apply that to a quad, and open up your graph workspace.
+[00:00:45] So let's start with a base texture, and this is an image that will distort.
+[00:00:50] Personally, I like to use a photograph or an image for this because they do a better job at showing the distortion.
+[00:00:57] I'm using a photo I took, and I brought that into my project assets.
+[00:01:02] This is a shortcut. If you drag a texture into your graph, it creates a sampler for you automatically.
+[00:01:10] And you can use any image that you have saved, preferably a square, or if you'd rather, you can use a built-in texture.
+[00:01:18] This campfire texture is pretty good.
+[00:01:24] And then next we will create another sampler.
+[00:01:28] This will be used for our distortion texture, and I'd like to use the built-in flare.
+[00:01:34] So for distortion, we're going to be using the base UV coordinates, so let's add a UV node.
+[00:01:45] And what we're going to be doing is modifying these coordinates to gently push them in different directions.
+[00:01:54] That will cause our sampler to pull pixels from slightly different positions.
+[00:01:59] To do this, we'll take our UVs and add values to them.
+[00:02:04] The values we'll add are from this texture.
+[00:02:07] So we'll create an add node, add the texture to the coordinates, and plug that in.
+[00:02:19] You'll see the texture looks mostly the same, but there's a slight outline around it.
+[00:02:26] Let's fix that.
+[00:02:28] What we want to do is change the texture values to weaken them.
+[00:02:33] We'll do that with a multiply node.
+[00:02:35] Plug the multiply values into the add node.
+[00:02:40] And let's put in a small value here, like 0.1.
+[00:02:46] Okay, now we can see the effect.
+[00:02:49] So if you look at the texture now, what you'll see is that within that shape, the pixels have been moved down and to the left.
+[00:02:56] So here's what happens.
+[00:03:01] We start with our base UV coordinates.
+[00:03:03] So for example, this middle position is 0.5, 0.5.
+[00:03:08] So we're taking this texture and using it to add values to our coordinates.
+[00:03:17] In this case, we're adding 0.1 to the original UVs, and this is the result.
+[00:03:24] So don't be confused here, because you see color, but all of this modification that we're doing is not color.
+[00:03:32] You remember that we've used multiply to change the brightness of the image?
+[00:03:36] We're not really trying to affect the brightness right now.
+[00:03:39] We're affecting the addresses of these pixels.
+[00:03:42] So we're working with coordinates, not color.
+[00:03:45] But as we know, we can see this data as color.
+[00:03:48] So looking at this texture as two values, one in the middle and zero on the outside.
+[00:03:54] We are multiplying that to reduce it.
+[00:03:56] So now it's 0.1, still zero on the outside.
+[00:04:00] Within this shape, all of the pixels will sample up into the right.
+[00:04:05] Outside of the shape, they just sample right where they are, because we're not changing them.
+[00:04:10] So at this position, we're grabbing pixels from up and to the right and pulling them down here,
+[00:04:21] which is why this whole shape appears to be moved down and left.
+[00:04:25] Okay, so we're doing this with a simple hard shape.
+[00:04:30] Let's try the default particle.
+[00:04:36] Now move this strength value around.
+[00:04:38] The math is the same here.
+[00:04:42] So in the middle of the texture, we have the full value of one.
+[00:04:46] On the outside, we have zero, but we also have these in-between values.
+[00:04:50] So at this position, we're going to sample the full distance, which is this distance.
+[00:04:56] At this position, we add nothing, so it's the same position.
+[00:05:00] And with these in-between values, we're still moving up and to the right, but just at a shorter distance.
+[00:05:06] So that shows up in our texture as a smoother distortion.
+[00:05:13] We can also, instead of using a texture, we can use our noise.
+[00:05:17] Add a gradient noise node, plug that in, and I want to make mine a little bit larger.
+[00:05:28] And there's our texture.
+[00:05:32] So again, same concept here.
+[00:05:40] The darker parts of the noise sample zero units away.
+[00:05:44] The brightest parts sample the full distance away, this distance.
+[00:05:49] And then we have all these smooth in-between values.
+[00:05:52] You can see the way this affects the image, and you can also start to imagine what kind of effects we can make with this.
+[00:06:00] One thing I want to fix is this border going around here.
+[00:06:04] This is happening because we are wrapping and going to the other side of the texture because we're stepping outside of the bounds.
+[00:06:11] Remember our third input for the texture sampler, the sampler state.
+[00:06:16] Let's add one of those. Plug that in.
+[00:06:22] What's happening here is that these pixels, since we are adding to their coordinates, they're sampling outside of the range of the square, above one.
+[00:06:32] We can change the wrap mode to be clamp, and that'll fix the effect right away.
+[00:06:38] What's happening here is that whenever pixels along the border, when they're trying to reach outside of the range of one, it'll just pull the pixel from the border.
+[00:06:50] So these border pixels get extended infinitely, and anything outside of those will just wrap to the border position.
+[00:06:58] We can also use the mirror mode. This is a little different, but it's similar.
+[00:07:06] What happens is that if the pixels try to reach outside of the image, it'll just mirror it in the other direction, and they'll instead reach inside of the image.
+[00:07:17] So along the edge, it'll create like a seamless mirror effect, which can look nice if the texture works.
+[00:07:25] It can be hard to see, which is kind of the point.
+[00:07:32] One other thing I'd like to fix. We can see that as we distort that pixels are always moving up and to the right.
+[00:07:38] We don't always want that because they should be moving in multiple directions instead of all moving in the same direction.
+[00:07:45] This is happening because we are always adding to the X and the Y position, meaning we're always moving up and to the right, and it's always the same direction.
+[00:07:55] This is fine in some areas, but what I'd like to do is in the darker areas, we can subtract instead of adding to move the opposite direction.
+[00:08:05] That way we have multiple directions and the effect will look more natural.
+[00:08:10] So to do that, let's create a remap node.
+[00:08:13] Plug your noise into that, and then plug the remap into multiply.
+[00:08:19] So this node takes input values and output values.
+[00:08:28] The input values come from the gradient noise, which goes from 0 to 1.
+[00:08:34] So let's put that in.
+[00:08:36] And we'd like to output numbers between negative 1 and 1.
+[00:08:44] And again, the way remap works is wherever it sees input values of 0, it'll convert those into negative 1.
+[00:08:53] Whenever it sees an input value of 1, it'll convert that to 1. It actually stays the same.
+[00:09:01] Then it uses math to remap all the in-between values.
+[00:09:04] So for example, if we have a value that's right in between 0 and 1, it'll still output as a number right between 0 and 1.
+[00:09:14] So before we had 0.5, this will change to 0.
+[00:09:19] So it just takes a range of input values and converts those to a different range of output values.
+[00:09:26] So this will improve our effect.
+[00:09:31] If you move the strength around, you'll see now it's multidirectional.
+[00:09:36] So that covers distortion, but we still don't have any motion.
+[00:09:40] Let's add that.
+[00:09:42] You'll see that noise also takes in UVs, so we can use a panning setup to move our noise around.
+[00:09:48] We'll create a basic panning setup.
+[00:09:51] We'll use time, multiply, vector 2, and the tiling and offset node.
+[00:10:07] We'll start by multiplying time to slow it down.
+[00:10:10] We'll make it so it only modifies the X values, and then we'll use that as the offset.
+[00:10:18] Alright, so now we have some movement, and you can see the effect on the texture.
+[00:10:26] It's very fluid and quite nice to look at.
+[00:10:30] You can also change the strength.
+[00:10:36] You can take it to a certain point where the noise is just very intense.
+[00:10:41] And that covers distortion.
+[00:10:46] So there's more that you can do with distortion.
+[00:10:49] For example, you can affect the X coordinates differently from the Y coordinates to create horizontal and vertical distortion.
+[00:10:56] You can use any texture you want for lots of different effects, and you can combine those.
+[00:11:02] So if you were to pan noise upwards, you can create fire.
+[00:11:06] If you pan it downwards, you can make a waterfall.
+[00:11:10] You could use a circular distortion texture to create a magic portal.
+[00:11:15] Those are just some examples. There is a lot you can do with this.
+[00:11:18] And now that we understand distortion, that covers the foundational techniques for VFX shaders.
+[00:11:25] So in the next lesson, we will put all of this together and create our first complete shader.

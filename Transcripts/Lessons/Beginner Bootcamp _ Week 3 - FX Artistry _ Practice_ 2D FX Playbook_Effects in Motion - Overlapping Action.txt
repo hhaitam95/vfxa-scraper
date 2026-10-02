@@ -1,0 +1,416 @@
+[00:00:05] Hello everyone! In this video we will talk about the overlap and follow-through and how it can be applied in effects.
+[00:00:13] We will start with the basic pendulum overview to establish the main idea and then we'll create a small candle fire effect using those ideas.
+[00:00:22] So in general we can separate this animation in two parts.
+[00:00:27] So we have a leading motion, main motion and the following motion.
+[00:00:33] So the parts that will be following our main motion and we can do the same with effects to make it easier to work with them.
+[00:00:42] So in pendulum animation we have the base that moves and then it stops at the end of animation.
+[00:00:53] But what's interesting here is what's happening with the following part, which is the line with the sphere on it.
+[00:01:02] So it is like moving with a delay or some may say that it wants to stay in the previous position while the main action is happening.
+[00:01:14] So it's like the main action starts but this one has a bit of a delay in its motion and it creates this overlap in the animation.
+[00:01:26] And while the main motion already stopped, the following still has some inertia that makes it go through these points of calm.
+[00:01:40] And it needs some time to settle down to be completely calm again.
+[00:01:47] So tricky part with this might be how much of an overlap, like follow through motion we should apply on the secondary part, the following part.
+[00:02:00] And I usually look at how much of a delay I had before, how much of a delay I portrayed in the animation.
+[00:02:09] And then this follow through peak, the extreme for it should be not bigger than it was delayed.
+[00:02:20] So while it settles, each next swing extreme will be less and less prominent until it completely settles.
+[00:02:32] So we can apply the same between this maximum angle change to the left and this maximum angle change to the right.
+[00:02:42] The amount of frames you need for the settle and the amount of wiggle left and right will depend on what is the material of this scene that you're portraying.
+[00:02:56] So the more weight it will have, the more gravity will be applied to the object.
+[00:03:05] So the faster it will settle down to the calm point.
+[00:03:11] And if it's something lightweight, it will swing back and forth many, many, many times.
+[00:03:16] And I encourage you to look for some main and following motions in your life and analyze them for a bit when you see them.
+[00:03:26] It will help to collect your visual library of this motion so you could apply it to different materials with something back in mind and seen by yourself if it's right or not.
+[00:03:40] But it's all about trying and seeing if it works or not for what you're going for.
+[00:03:48] So yeah, we have like some leading motion and following motion that is delayed and then has some follow through and settle time.
+[00:04:00] Now let's apply it in the effects animation. We will animate this candle fire effect.
+[00:04:09] So if you use Stomping Harmony 2, I encourage you to use the same candle animation, just save your time and focus more on effects.
+[00:04:18] But if you are going to recreate the candle animation, try to not go into much details of the candle itself.
+[00:04:31] It can just have movement from one place to another and then back to it.
+[00:04:36] Because like the main focus will be on the fire itself.
+[00:04:40] So yeah, with the fire effect to start it off, we will animate the guideline, which we'll draw on top of our candle movement.
+[00:04:50] And with this guideline, we will focus on how the fire will be reacting to the movement, how it can follow the main motion, how much it will be offsetted.
+[00:05:03] How much wiggles do we need for it to settle down and all of that.
+[00:05:09] So then when we will start drawing fire, we can just not think about it at that time and just focus on shape language and shape of the fire.
+[00:05:20] Now let's recreate the guides.
+[00:05:22] I will start with marking the kind of first frame size of my candle fire, just a vertical line at the top.
+[00:05:33] And I can actually copy this and see like, so we have two parts of the movement.
+[00:05:41] It goes from left to right, stops, and then goes from right to left with an arc.
+[00:05:47] So between these movements, I want my candle fire to like settle down just for a frame.
+[00:05:54] So right before it starts moving again here, it will be settled.
+[00:05:59] So I can just copy paste these guides.
+[00:06:04] It will help me when I will be working with settles here to see where I want my fire to settle in.
+[00:06:15] And we'll do the same for the very last frame.
+[00:06:19] So this guide will be in the same position at the very end.
+[00:06:25] Okay, now we can go and create our animation.
+[00:06:30] So when the movement just starts, the base of our fire is being dragged by the candle.
+[00:06:39] But the tip is still like in the previous position.
+[00:06:45] Now on the next frame, we have this pretty drastic change of position.
+[00:06:51] So the fire will be like offset it pretty much because it's like it still wants to be in there, but it doesn't have enough lengths, you know.
+[00:07:05] So yeah, now we see that our candle, like the main action is stopping.
+[00:07:12] So the distance between these two frames is bigger than between these next two frames.
+[00:07:18] So we can start like angling our fire like more to the right, maybe even more.
+[00:07:29] So this change would be visible because like the candle is like stopping, losing its momentum.
+[00:07:38] But the fire shape, the top part is still moving with this kind of force.
+[00:07:44] So it's like going to the right.
+[00:07:49] Now again, candle is slowing down and again, fire is still moving forward, something like this.
+[00:08:02] Now candle settles and the same goes with our fire.
+[00:08:08] So the bottom part is moving to the left already a little bit, but the tail is still having some more of this inertia going forward.
+[00:08:24] So we have this kind of line wiggle situation in here.
+[00:08:30] And now on the next frame, it's like bouncing to the left before the settle.
+[00:08:41] So we have this like to the right, to the left and then settle down kind of motion.
+[00:08:48] So yeah, we can start moving the base a little bit to the right.
+[00:08:55] Detail continues.
+[00:08:59] And yeah, where do we have the last like stop frame will be?
+[00:09:09] In tool, just I could see where are we going.
+[00:09:14] So yeah, I can make the base go almost to the settle.
+[00:09:24] Here the tail of the flame bounces a little bit to the left.
+[00:09:31] And then here we will have that like the most parts of the fire are already settled down, but the tail has a little bit of an offset.
+[00:09:46] Now we can see that I made the fire tail a little bit too short.
+[00:09:54] So I'll need to make it a little bit longer.
+[00:09:58] So like just going back and forth between the frames when I see like my keyframe here with the lens I want.
+[00:10:09] And now we can check it in motion how it looks.
+[00:10:13] And it looks pretty good.
+[00:10:18] Yeah.
+[00:10:26] Let me check.
+[00:10:28] Yeah, it's all good.
+[00:10:31] Just rechecking the amount of like wiggle I had to the right with the amount of wiggle I had to the left to make sure that we have like this a lot lesser, lesser like last position.
+[00:10:47] So we have the amplitudes going small.
+[00:10:51] Okay, now the next motion.
+[00:10:53] Next motion we have going from right to left in an arc movement.
+[00:10:59] So here we'll have a little bit more complicated stuff to think about because we have not only left and right movement and inertia, but also like up and down vertical part of the movement.
+[00:11:14] So for example, here our candle moves up.
+[00:11:18] So the fire like it's up and a little bit to the right.
+[00:11:23] So the fire will be like still the tail will be on the left, but also because we have a little bit of movement up.
+[00:11:34] I want to add some like squash to the fire.
+[00:11:40] So it will like bend a bit more than it actually could have bent.
+[00:11:47] So yeah, something like this.
+[00:11:50] Maybe the tail closer to the previous position.
+[00:11:54] Okay, now next frame it goes to the right.
+[00:11:59] So here we can bend this position.
+[00:12:07] I'm not like sticking the tail of my line in the very same position because we already had it here.
+[00:12:17] And if you do it for too much, it feels like it got stuck something.
+[00:12:22] So usually just like a little bit of motion to the right.
+[00:12:27] It will help to still sell the staying in the same place kind of thing, but also it will not feel stuck in there.
+[00:12:37] Okay, so now the candle moves to the right and down.
+[00:12:44] So we can like still bend it a bit, but maybe yeah, we will not bend it too much.
+[00:12:58] I think because it's like stretching down again.
+[00:13:04] Maybe the tail should be a little closer in there.
+[00:13:12] Yeah, now it's going to the left and down and like the tail still has this inertia to the right that we had like a little bit.
+[00:13:27] But the bottom part is being kind of drugged with the candle.
+[00:13:32] So we have this nice curve in here.
+[00:13:36] Now this again big gap between the positions and we can create some nice curve in here.
+[00:13:46] I will not be like probably drawing this whole thing as the one part of a fire, but maybe you can do it.
+[00:13:56] We'll see.
+[00:13:57] But yeah, in this like drastic changes, I like to draw a larger guide because it can help me with my fallen off parts that I want to add.
+[00:14:10] Like if I want to add smear, I can follow this kind of guide.
+[00:14:14] It helps a lot.
+[00:14:15] So yeah, the tail probably should be closer again because we have a little bit of inertia to the right, but it's actually now going to the left.
+[00:14:25] So we still have a little bit like righter than before, but not that much.
+[00:14:32] So it's slowing down and this part is just bending and being drugged.
+[00:14:38] Now the candle moves from right to left and a little bit up.
+[00:14:45] So we have like this base of the candle is being like pushed down with the air that we have here, kinda.
+[00:14:59] And like the tail, we can drag it like here, like if it went with this kind of motion.
+[00:15:14] Yeah, so now the candle begins to stop.
+[00:15:22] So we can push this angle up.
+[00:15:26] And again, the tail is still being dragged more.
+[00:15:37] But like with the force from candle movement, we have like initial vector of pushing for this guide, something like this.
+[00:15:49] So we push it there.
+[00:15:53] Okay.
+[00:15:54] Yes, so we continue this vector and it's going up something like this.
+[00:16:05] More curved because it felt too stiff for this kind of frame.
+[00:16:18] Okay, I feel like I should like re-check the frames I drew before.
+[00:16:25] I feel like this one should be closer, like in between, but a little bit favoring the next frame.
+[00:16:35] So I just correct it.
+[00:16:41] Okay, now like our candle stopped.
+[00:16:44] So what we are doing is this saddle wiggle.
+[00:16:49] So we can start the base of our fire to wiggle to the right, just starting with this motion.
+[00:16:58] But the tail of the fire still has inertia like this.
+[00:17:04] So it moves up a bit more.
+[00:17:09] I'm looking that our spacing is going smaller because it settles down and stops bit by bit.
+[00:17:19] In the next frame, like the bottom part of the fire is going forward with its saddle wiggle to the right.
+[00:17:30] And the tail part is slowing down.
+[00:17:36] So again, the spacing between here is smaller.
+[00:17:45] And now the bottom part of the fire is like slowing in the extreme to the right.
+[00:17:58] And the middle part is catching up the movement to the right.
+[00:18:03] And the tail is again like making a little bit of stop on the extreme before going to the right.
+[00:18:15] So something like this, maybe just more smooth arc.
+[00:18:25] Okay, now it's going to the, like the tail goes to the right.
+[00:18:35] The bottom part was already in this extreme right position for two frames.
+[00:18:39] So we can start to move it to the left, move it to the left a little bit more in the next frame.
+[00:18:49] And the tail continues its motion to the right.
+[00:18:55] And this motion, like we already had like settled to the left at this angle.
+[00:19:02] So settled to the right would be in the smaller angle.
+[00:19:09] Here the tail a little bit, going more, something like this.
+[00:19:16] Now I actually wanna again to see where we're settling to.
+[00:19:23] Okay, so I see that I made the lengths of my candle too big.
+[00:19:30] We will handle that in a moment.
+[00:19:34] Yeah, so this will be lower, something like this.
+[00:19:41] This will be lower and this will be much lower.
+[00:19:52] And this will be much lower.
+[00:19:59] Okay, these two, these one, two.
+[00:20:10] It's gonna be a little bit like bigger for now because like we had this moment, like pretty drastic moment.
+[00:20:21] And it's like maybe a little bit stretched, especially like around here.
+[00:20:28] And then we will be making it like the actual size.
+[00:20:34] Yeah, so now the base is a little bit to the left and the tail is just starting moving to the left.
+[00:20:49] And now the base, where is it?
+[00:20:57] Something like this.
+[00:21:04] So we like, we move this part to the end.
+[00:21:08] Now in the next round we move this part to the end.
+[00:21:12] And the tail maybe doing a little bit, the smallest wiggle possible.
+[00:21:19] And now we settle it like final super small very end of this part is a little bit to the left.
+[00:21:32] Yeah, now let's see the second part in motion.
+[00:21:37] Okay, now let's see all together.
+[00:21:42] Okay, looking good.
+[00:22:08] Okay, so we are done with the guide and we spent quite some time on it.
+[00:22:15] But I just want to emphasize that on this stage if we spent a lot of time,
+[00:22:21] it will be much, much, much more easier than to draw fire on top of it in our case.
+[00:22:27] But with more complex effects, it's even more important to really nail down your main idea for the movement
+[00:22:36] on the like this kind of simple guide shape.
+[00:22:41] Because then you can focus on like details and shape language and some polishes in the movement
+[00:22:49] when you have already established a solid movement in the like some kind of guide layer.
+[00:22:58] So yeah, now let's do the fire.
+[00:23:05] And yeah, I'll use just black color.
+[00:23:11] I will turn on this scene probably to like ink it in.
+[00:23:18] And yeah, let's see.
+[00:23:21] I'll make this layer like 40% transparent just so I could use the onion skin and see what I'm doing in there.
+[00:23:34] So yeah, now let's draw a fire shape.
+[00:23:40] It's too small.
+[00:23:43] So I want just simple kind of triangular shape for the candle, something like this.
+[00:24:01] And it will be our like keyframe for the candle.
+[00:24:08] And I can again copy it as we did with the guides and paste it in the places where I know my fire will be settled down.
+[00:24:22] So it's these three frames.
+[00:24:26] And now we can draw all the other frames.
+[00:24:29] So here I see that we did like a little bit of a drag to the left.
+[00:24:40] So we are moving that part.
+[00:24:45] Inking in.
+[00:24:48] Correcting the edges a little bit.
+[00:24:52] Yeah, something like this.
+[00:24:54] Now this part.
+[00:24:58] So we kinda wanna bend it here.
+[00:25:07] And so on this side of the fire, we have like this kind of stretch.
+[00:25:13] And then this side, it's a little bit of a squash.
+[00:25:17] So it's like in posing for characters in animation.
+[00:25:25] We can add maybe some kind of a bump in here.
+[00:25:31] If it was squashed a bit, you know.
+[00:25:36] Yeah, we will add these kind of parts in separate path around the animation as always.
+[00:25:44] So just focusing on the main shape right now.
+[00:25:48] Okay, now we settled down a little bit.
+[00:25:56] So something like this will still have kind of a stretch in here.
+[00:26:02] Like this.
+[00:26:14] Now it's going to the right.
+[00:26:18] I'm just drawing my bump of the fire.
+[00:26:23] And here.
+[00:26:30] So I kinda just like extend from this point to the left and right to have my width of the fire.
+[00:26:37] But also like bend these lines.
+[00:26:42] So they would make sense with the guideline that we did and the motion that it has.
+[00:26:49] Okay, so now we can kinda emphasize this bump.
+[00:26:55] Then connect it to the tail of our line.
+[00:27:02] And here, like we have a little bit of the motion for the base to the right.
+[00:27:12] Yeah, something like this.
+[00:27:20] Now, oh, we have the settle frame soon.
+[00:27:29] Okay, I was confused with the green frame.
+[00:27:33] I'll just make it a bit shorter so I could look at it a bit later.
+[00:27:39] Anyway, so yeah, we move this left part more.
+[00:27:45] So now right part has this kind of squash on the side.
+[00:27:59] Something like this.
+[00:28:09] Now the bottom part is going to move a little bit to the right.
+[00:28:18] So like we have this bit of motion there.
+[00:28:21] Something like this.
+[00:28:27] And now just connecting with my line.
+[00:28:33] Yes, so we have two frames till our settle.
+[00:28:42] So we can, the bottom part here will already like settle down.
+[00:28:53] So I can draw probably just an in-between for those.
+[00:28:58] And here the tail has a little bit of wiggle to the left.
+[00:29:07] Whoop, okay, like this.
+[00:29:14] And now the last frame between our movement and settle.
+[00:29:22] So I can just, this part of the shape is already in place.
+[00:29:31] But just the tail still goes a little bit with a wiggle.
+[00:29:37] Okay, now let's actually bump the transparency a bit more.
+[00:29:43] It's kind of hard to see actually.
+[00:29:47] So let's look at it in motion.
+[00:29:50] Yeah, looking good actually.
+[00:29:57] It has a bit of like jitter with the like silhouette shape.
+[00:30:03] That kind of stuff.
+[00:30:05] But it's like meant to be something small.
+[00:30:08] So on this kind of scale it's okay.
+[00:30:11] But yeah, if you want to polish it, you can just make the scale even more.
+[00:30:18] And add a little bit of more accurate shapes.
+[00:30:23] You just don't want to wiggle super scale up animation back and forth.
+[00:30:32] But yeah, so the movement actually looks great.
+[00:30:37] Now we can start the second part of it.
+[00:30:40] The arced movement from right to left.
+[00:30:44] So yeah, here we have like a bit of a squash to the right.
+[00:30:52] So like even on the left side I think I will add like a bit more width to the candle fire.
+[00:31:05] Just to emphasize that it's been squashed a little bit.
+[00:31:18] Like this.
+[00:31:20] Now on the next frame it's still a bit squashed.
+[00:31:28] Kinda.
+[00:31:36] Yeah, we can make the right side be thinner a bit.
+[00:31:47] And this a bit fuller.
+[00:31:50] So it would look smoother between these frames.
+[00:31:55] Now it still has some like angle to the left.
+[00:32:01] But now it's moving, the candle moves down a bit, so we can make it a bit thinner.
+[00:32:15] So now it's kinda stretching a little bit.
+[00:32:22] Maybe a bit less.
+[00:32:24] But yeah.
+[00:32:25] And now it moves to the left.
+[00:32:30] So we can make this kind of a scene for it.
+[00:32:38] Some nice shapes for fire along the guideline that we have.
+[00:32:54] Now here, then we're drawing it along the guideline.
+[00:33:06] This part is kinda squashed.
+[00:33:15] So I still want to have like a little bit of this bump.
+[00:33:19] Because we have it in our candle shape language.
+[00:33:24] So it's like I wanted to have some bumps always.
+[00:33:29] As a style choice.
+[00:33:32] Yeah, and we'll use this bit a bit later.
+[00:33:36] To add like additional mini flames that's going off our fire.
+[00:33:43] Yeah, and next frame.
+[00:33:49] Again, have our bump in here.
+[00:33:53] In here.
+[00:33:59] Here's just a little bit of a bump left.
+[00:34:02] Because it was stretched and bent so, so much with the movement.
+[00:34:09] Okay.
+[00:34:14] Now the fire starts rising up by inertia.
+[00:34:31] Has this very prominent bend.
+[00:34:36] Yeah, and the tail is pointing to the previous position.
+[00:34:56] Kinda like this.
+[00:35:02] Okay, and now the wiggle to the left on the saddle starts.
+[00:35:09] The tail is still offset and pointing to the previous one.
+[00:35:14] Okay.
+[00:35:26] Now we have like the bottom part starts to wiggle to the right.
+[00:35:31] So I'm drawing it to the right from the previous position.
+[00:35:36] Here we can add like emphasize this bend that we have on the silhouette shape too.
+[00:35:44] I'm connecting with the tail end.
+[00:35:51] Like this.
+[00:35:59] Now the right side continues to move to the right.
+[00:36:07] But the tail is going to the left so we have kinda stretch between these two parts of our fire.
+[00:36:19] So we can see now this portion.
+[00:36:23] And then...
+[00:36:27] Yeah, so the bottom part is going to the right.
+[00:36:37] And here like I added the bump on the top of this just to show like emphasize that we have like this change of direction of the curve.
+[00:36:54] So I can emphasize this beat.
+[00:36:56] And then we will use it also for the dissipating small parts.
+[00:37:01] Okay, now continuing with the motion.
+[00:37:14] So motion to the right for the base part is like almost nothing in that part.
+[00:37:25] And the tail starts going to the right.
+[00:37:30] It's going to be something like this.
+[00:37:41] Feel the name.
+[00:37:42] Okay.
+[00:37:55] Now the bottom part starts to go to the left a little bit.
+[00:38:00] The tail continues moving to the right.
+[00:38:04] Here we had this kind of arc.
+[00:38:09] But now as it's moved to the right we can make this kind of arc for the shape.
+[00:38:18] Okay.
+[00:38:27] Now we have like one more rebooted left and it settles.
+[00:38:42] So yeah, bottom part is there.
+[00:38:51] A little bit of curve for the top part.
+[00:39:02] Yeah, so we're more like almost in the same position but changing the curves and the tail of the fire bending.
+[00:39:16] Here again, the most wiggly part that's left is our tail.
+[00:39:29] Here it's kind of almost the same at the bottom.
+[00:39:43] Okay, just repeating the arcs that we have in our guideline.
+[00:40:03] Okay, and two frames before the full stop of the fire.
+[00:40:19] So here it will actually be...
+[00:40:22] I can just show the next frame to be more precise.
+[00:40:27] So all I want is a little bit of change in tail position.
+[00:40:36] But the bottom part is almost the same.
+[00:40:40] Now let's see it in action.
+[00:40:48] Yeah, it's a bit like the bump in here has a little bit of jitter that I'm not super happy about.
+[00:41:03] I was not super precise.
+[00:41:05] So we can just polish it while looking at the frames in front because we have like this is our keyframe, our goal.
+[00:41:14] This one can be a little bit lower.
+[00:41:20] Now this one should be a little bit more to the left.
+[00:41:38] And here is the biggest bump that I lost.
+[00:41:43] So we can add it back in here.
+[00:41:49] And here I just need to push this curve that I did just a bit lower to make it work.
+[00:42:00] So yeah.
+[00:42:03] Okay, looking better.
+[00:42:05] Now I want to make it 100% seen and place our guide on top.
+[00:42:14] So now we can see it fully opaque to get the movement.
+[00:42:23] But we can still show on the guide to draw these additional frames.
+[00:42:30] So in these kind of big changes in position for the main action,
+[00:42:38] we want to smooth out the motion so the viewer would see where it went from in the easiest way for them.
+[00:42:47] And like this overlap offset that we added is already kind of telling them what's going on because we show that like kind of this was there.
+[00:42:59] But we also can emphasize it with adding this kind of, not like smear, but additional shapes that would connect this previous position with the next position.
+[00:43:16] And for the fire or like, you know, water elements, it's really easy because they like fall apart on different bits quite easily.
+[00:43:26] So we can use their specific of them, you know, benefits.
+[00:43:33] See, I can draw something like this.
+[00:43:36] And now to like, again, emphasize that it's moving from left to right.
+[00:43:43] And also just to like show that even these parts, they also have inertia from the initial movement.
+[00:43:52] We will move them to the right too, like this, but also a bit up because it's like fire and it wants to go up because it's lighter than the air and stuff, if I'm not mistaken.
+[00:44:11] So yeah, on the next, it's going smaller, like moving up.
+[00:44:18] Again, going smaller and moving up, something like this, and then it's gone.
+[00:44:25] We can look at it in action.
+[00:44:27] Okay, looking good.
+[00:44:32] Now, so here I added a little bit of an additional flaming part just to connect them better because here, like, they are pretty connected.
+[00:44:47] But here, as these are flying on their own, they are not getting as much of a speed as the main part.
+[00:44:57] So the gap here is pretty big, so we can add just another small bit to connect with this line.
+[00:45:06] And I like to think about them, even if they're not connected to the main shape already, think about how could I connect them in a pleasant way.
+[00:45:16] So I imagine that there is like this kind of curve.
+[00:45:19] So I draw this part on that curve, so it's visually still connected and pretty.
+[00:45:27] So yeah, now this part can kinda go up, but maybe still visually be connected with this.
+[00:45:40] And now it's gone because it's super small and like the scale of this animation is pretty small too, so yeah, it's gone.
+[00:45:51] Now, we can also emphasize with these additional bits the inertia that the fire has.
+[00:45:59] So here we can add a little bit of fire flaming thingy.
+[00:46:08] We can, like, show maybe a little bit of bump in here to justify why it's showing up in here.
+[00:46:18] And now, so as the fire, it had like this kind of motion, so this small bit will actually just continue this kind of motion,
+[00:46:30] because it's like it got disattached at the moment when the fire had that kind of force in it.
+[00:46:40] So yeah, so it's again moving to the right, but also a little bit up, because it's fire.
+[00:46:47] Something like this.
+[00:46:56] And it probably should be gone in the next, because we had this shape as the minimum one.
+[00:47:03] Oh, also we had this one. Okay, we can make it. No, I still think it should be gone in the next.
+[00:47:11] Anyways, let's see it in action.
+[00:47:18] Yeah, maybe, yeah, okay.
+[00:47:22] Let's add one more frame with smaller shape.
+[00:47:31] It feels smoother that way.
+[00:47:35] Okay, now let's get to this thing.
+[00:47:38] So here again, like, we have this guide when we did a guideline, so we, like, imagined that this tail went through this arc in a moment,
+[00:47:52] so we can actually spawn this additional little flame that got separated from the main fire along this line.
+[00:48:06] Now we can drag it to that line a little bit. Something like this.
+[00:48:20] Yeah, so as before, I want to have this, like, upper movement, so I'm showing this kind of bump in here to, like, justify that I have even more of a bump on the next frame,
+[00:48:39] because, like, it just kind of makes sense if we, like, have some shape and we move it up, like, we push it from below.
+[00:48:50] It creates this kind of a bump, so when we have this kind of shape moving upwards, it just looks pretty.
+[00:49:03] And it makes more sense than if we would, like, move up just, you know, brick like this.
+[00:49:11] But anyways.
+[00:49:14] Yeah, so we move the shape up and we make it smaller a little bit and smaller here.
+[00:49:30] We can see it in action.
+[00:49:32] Okay, makes sense.
+[00:49:35] Now here we also can, again, spawn some small bit to connect visually with that stuff.
+[00:49:46] And we can drag it here, probably more, and, like, stretch it out maybe a little bit.
+[00:50:04] No, we can actually make it even smaller and just kill it in the next frame, just so we had more separation between these two bits in timings.
+[00:50:17] Okay, and now these, these bits.
+[00:50:20] So we added it because we wanted to emphasize the line curve that we had, and we can actually do the same on the previous frame.
+[00:50:36] And yeah, on the next one, so this bump traveled, like, this amount of distance.
+[00:50:46] So we can now make it travel a little bit smaller amount of distance, and it will be somewhere like here, separated from the main shape.
+[00:50:58] We can, like, curve our little tail a little bit more, so they would be, like, connected in this kind of stuff.
+[00:51:06] So here's our tail and here's our, like, shape.
+[00:51:11] Okay, so the tail goes to the right, and here I decided that I want to stretch this shape.
+[00:51:23] And again, I'm kinda visually connecting this, so I know that I can spawn, not like spawn, but stretch it along this kind of guide in there.
+[00:51:35] Just to create visually pleasing kind of shape.
+[00:51:40] Yeah, and this small thing is gone, and this slightly bigger thing is getting this upwards movement.
+[00:51:55] So it had, like, still inertia from this movement, spawned here.
+[00:52:01] Now it's slowing down, going down and stretching along with the fire shape.
+[00:52:08] And now it's going a little bit to the up because of air turbulence and stuff, you know.
+[00:52:17] But anyways, yeah, we can see it now without the guides and with all of our additional stuff.
+[00:52:25] We can look at it in the scale that it's supposed to be.
+[00:52:29] Yeah, looking great, looking smooth.
+[00:52:33] Everything is good. Congrats!
+[00:52:37] Yeah, so we created the fire candle effect, thinking about the main action and how it applies then to following action, how our fire reacts on the candle movement.
+[00:52:53] And to sum it up a bit, when we show how following action moves in response to the main action,
+[00:53:02] it helps firstly to show where your object came from, so it would be for the viewer easier to understand what's going on.
+[00:53:11] And also it can help with believability of what is happening on the screen, because as effects artists we don't always work with something that is in real life.
+[00:53:25] But if even for elements that are imaginary we will show some physics that work in real life, it will make them more believable and like, you know, fit in the world that we are showing a little bit better.
+[00:53:45] Now I will show you a few examples just to, you know, some different places where you can apply that kind of thing.
+[00:53:54] So yeah, this one is the sketch of the potion moving left and right.
+[00:53:59] And here like water in containers is a very good example of the idea that following action wants to stay in the previous place it was.
+[00:54:10] So like even though the potion bottle moves to the right, the liquid wants to stay in the previous position kind of stuff.
+[00:54:19] And this is an exercise that they did by the lesson on VFX Apprentice platform.
+[00:54:26] And it is a really like cool, more complicated example of this following actions in action, I guess.
+[00:54:36] So you have this like fireball that's doing its stuff. It is the main action they are fireball moving, but the tail of fireball is following that movement.
+[00:54:47] It's like wiggles around the stops and it's like doing the scene of following the main action.
+[00:54:53] So yeah, and this one is like an experimental sketch, but I really had a lot of fun with the idea of following and main action for the line.
+[00:55:04] So when it starts, the very right part of the line is leading the action and the rest of the line is just following it.
+[00:55:13] But then before it starts to be a ball, like the middle of the line starting to be the leading parts of the action and other parts of the line are following.
+[00:55:26] So it's like maybe a wind cut up on the line or just it has some conscious stuff.
+[00:55:32] But I think like you get it. It's just a fun experiment and I find it a lot of fun to play with the idea of leading motion, following motion and how they can change in time.
+[00:55:46] So yeah, I hope you will also find something exciting about this principle and you will apply it to effects and I don't know, be happy with it.
+[00:55:58] Anyways, bye!

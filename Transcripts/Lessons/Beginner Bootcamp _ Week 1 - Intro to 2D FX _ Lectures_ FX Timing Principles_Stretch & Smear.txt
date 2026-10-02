@@ -1,0 +1,67 @@
+[00:00:05] Hello, welcome to this lesson. In this lesson, we are going to be learning about stretching
+[00:00:11] and smears. Stretching and smears can be very fun. Oftentimes in animation, there are actions
+[00:00:20] that need to happen, which are very, very quick, sometimes so quick, the eye has a hard
+[00:00:27] time picking up on what should have been happening in between the start and the finish. So in
+[00:00:34] order to help assist the eye and sort of bridge those gaps, we like to use stretching and
+[00:00:39] smearing. Stretching and smearing is very creatively freeing because there's no right
+[00:00:45] way to do it. As with other lessons, like there's a right way to animate an arc or something
+[00:00:51] like that. However, stretching and smearing is mostly about the style that you're going
+[00:00:56] for and style. You know, professional setting is dictated by the art director or someone
+[00:01:04] who is trying to control the style of the entire show. There might be rules and barriers
+[00:01:11] around what you can do in terms of smearing for something like that. However, though,
+[00:01:16] it's basically just up to someone's personal opinion of what they think looks best and
+[00:01:22] how the smears should go. Back in the old days, we're talking like the like Flintstones,
+[00:01:32] what's his name, the bear, the camping bear, yogi, the Jetsons, cartoons like that. The
+[00:01:39] popular way to do stretching and smearing was a technique because everything was hand
+[00:01:44] drawn was a technique called dry brushing. All the programs nowadays have ways to replicate
+[00:01:50] this look and feel. But back then it was done with a literal dry brush. You take a
+[00:01:55] little bit of ink or paint or whatever onto a dry brush and you lightly brush it across
+[00:02:02] the paper and it leaves a little bit of sort of a hazy smeary effect. So dry brushing quick
+[00:02:10] actions was a popular way of trying to give it that visual leg to make it seem like it
+[00:02:16] was a really energetic movement. However, you can fool around with dry brushing and
+[00:02:21] try it yourself and see if you like it, but there are a bunch of different ways to do
+[00:02:26] it. And because it's so graphical, there's not really a wrong way. There's only a subjective
+[00:02:34] way things looking better or worse, and it's kind of a personal preference. So I've animated
+[00:02:41] three different types of smears here. We're going to go through them and watch them a
+[00:02:45] bunch of times and talk about them. And actually for this, I will probably go through it frame
+[00:02:52] by frame after we watch it a bit here. I want to give you a chance to sort of take in the
+[00:02:59] top one, watch the middle one a couple times, and then the bottom one, and then I'll pause
+[00:03:09] and we will go through these just so you can see exactly what's going on frame by frame.
+[00:03:14] So these top two, I have added in a thing called an anticipation. It's a movement before
+[00:03:19] the main movement. We go over it in another lesson. Please go watch that if you're interested
+[00:03:26] in understanding the reasons why I did this, but we won't be going over it right now because
+[00:03:32] what we want to do is we want to talk about these smear frames. So we can play around
+[00:03:37] with some spacing here. We can see between this frame and this frame, we go from pulling
+[00:03:44] back to taking up a lot of visual space here before almost being on the opposite side completely
+[00:03:55] and then slowing into our final frame. Now that's going to give you one feel because
+[00:04:02] on purpose you're filling up the screen with a singular drawing. You're really trying to
+[00:04:09] catch the eye with that one. We do a different kind of anticipation with this middle one
+[00:04:16] where we sort of skew it back before traveling forward. And in this one, instead of taking
+[00:04:22] up so much visual real estate like we did with this top one, we leave a lot of it blank
+[00:04:29] and we front load most of the visuals over here. And then these are sort of a kind of
+[00:04:41] style approach to smearing, which I like to call ghosting. You leave kind of remnants
+[00:04:50] of the shape or the action either in front of or behind the object while you're doing
+[00:04:56] the smear. So it gives a little bit of like a tracer effect. You could also do this like,
+[00:05:01] you know, like this as well. Speedlines also help. Speedlines give you a sense of volume
+[00:05:10] without having a solid color. So that's another kind of option you can do with smearing. And
+[00:05:18] then very quickly we get into almost the final frame. And with these things, all we're doing
+[00:05:23] is keeping around a bit of this kind of idea. So we're carrying this forward into the next
+[00:05:29] drawing before completely getting rid of it and going into the final square. So you
+[00:05:37] can see like smears can be done pretty quickly, especially when you're dealing with just like
+[00:05:42] a simple shape, something like that. And then this last example I wanted to, I added the
+[00:05:47] anticipations in these first two because I specifically wanted to not have an anticipation
+[00:05:52] in this last one. And the reason for that is because I wanted you to get a feel for
+[00:05:58] what it looks like when something is stationary without anticipating the action and then pulling
+[00:06:04] parts of the shape forward. And then we don't mess around on this one. We go from the start
+[00:06:10] position to almost the finish position. We keep some of the same language with the smear
+[00:06:18] instead of it traveling forward though. It's now, it's gone from traveling forward to now
+[00:06:23] lagging behind. And then we get rid of it completely and go into the final frames. And
+[00:06:33] this one overshoots. So this square goes too far and then it pulls back a little bit. So
+[00:06:45] having explained each one of these by the frame, we will now watch them. I'll get rid
+[00:06:50] of my drawings or my scribbles and we will watch them again. So now that you understand
+[00:07:00] more of what's going on on a frame by frame basis, you can see sort of the techniques
+[00:07:07] being used in order to accomplish all three of these smears. So that being said, smears
+[00:07:22] can be really fun. And if the action is fast enough and you think it justifies it, then
+[00:07:28] you should try throwing in a smear and see how it feels and see if you like it. And just
+[00:07:35] consider this another tool in your toolbox for being able to enhance and improve your
+[00:07:42] animation in cool and neat ways.

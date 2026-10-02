@@ -1,0 +1,408 @@
+[00:00:05] Hey everyone, glad you're back in this Intro to Unity video.
+[00:00:09] We are going to be going over how to make this looping heel effect here.
+[00:00:15] And we're going to be using this to talk about two more things.
+[00:00:18] We're going to be talking a little bit about some basic ways to make an effect feel friendly
+[00:00:23] versus unfriendly.
+[00:00:25] And we're going to be talking about how to set up these little animated flip books here.
+[00:00:32] So we've got plenty to go over.
+[00:00:35] Let's go ahead and jump in.
+[00:00:36] Start.
+[00:00:37] We're just going to do all of the usual stuff.
+[00:00:41] We are going to set up our first extremely basic effect.
+[00:01:05] And this one is just going to be the ring that we've got down here.
+[00:01:15] So the only things that we actually need to do for this one are, in our render mode, we're
+[00:01:23] going to set that to a horizontal billboard so that it just sticks to the floor.
+[00:01:32] And everything up here gets to stay the same.
+[00:01:36] In a mission, we're just going to switch this from a constant rate to bursting one.
+[00:01:44] Since our lifetime and our duration are the same, this is going to be fine.
+[00:01:50] If we wind up seeing like a one-frame hitch in there, then we can do something like that
+[00:01:55] with the lifetime.
+[00:01:59] And we're just going to go ahead and set this to kind of a medium green with a little bit
+[00:02:08] less alpha.
+[00:02:13] And that's all we need to do there.
+[00:02:14] I'm going to duplicate off two versions of this.
+[00:02:19] We're going to save one for later for our rings and glows there.
+[00:02:26] And we're going to switch this other one to talk about some sparkles.
+[00:02:35] Go ahead and parent that.
+[00:02:39] Now flipbook textures are obviously a little bit different from the textures that we've
+[00:02:45] been using so far, which are very, very straightforward and static.
+[00:02:51] You just take an image, image goes on the ground, you're good to go.
+[00:02:57] The way that flipbooks work, if I pull my image over here, is you've got basically several
+[00:03:06] textures crammed into one texture.
+[00:03:11] And in Unity, your material isn't actually going to look any different.
+[00:03:16] We look at this one, and then we jump down to say this sparkle.
+[00:03:27] There's not actually any difference between them in the material.
+[00:03:32] Where we start seeing changes is in how we actually set it up and implement it within
+[00:03:39] the particle system itself.
+[00:03:42] So in here, I'm just going to go ahead and jump in here.
+[00:03:46] I'm going to switch this back to a regular billboard, and I'm going to switch it to our
+[00:03:52] sparkle flipbook.
+[00:03:55] And I'm going to drag this off to the side a little bit so you can see it a little more
+[00:04:02] easily.
+[00:04:03] Now to start with, obviously, this is behaving exactly like a normal texture.
+[00:04:08] And how we're going to change this is we're going to go down to this section, texture
+[00:04:16] sheet animation.
+[00:04:19] If we expand this, then one of the first things that we're going to do in here is down where
+[00:04:26] it says tiles, we're going to switch that to two by two.
+[00:04:33] And you can immediately see kind of what this is doing.
+[00:04:38] This is taking our texture, splitting it into quarters, because we said it's two by two.
+[00:04:48] And then this frame over time section down here is just animating through this.
+[00:04:52] If we said this was four by four, then we would get little quarters of it, and so on.
+[00:05:01] Now this point, we're obviously going through these really slow, so they're not really achieving
+[00:05:09] their goal.
+[00:05:10] The biggest purpose of flipbook textures is to create animation and movement that is really,
+[00:05:19] really difficult to achieve with just a static texture or a material or stuff like that.
+[00:05:27] So we actually want to be making sure that this is creating a nice smooth animation in
+[00:05:33] order to actually do what we want it to, because we want our little bursty sparkles
+[00:05:42] there.
+[00:05:45] So we're going to go ahead and up in emission, switch this to a constant rate of 12.
+[00:05:53] We're going to randomize our start lifetimes to be much shorter, 1 to 1.25.
+[00:06:03] And we are going to make these much, much smaller.
+[00:06:12] And then we're going to go ahead and add a shape to this.
+[00:06:18] So this is much, much closer to what we actually want these to be doing.
+[00:06:23] If we jump back down to our texture sheet animation, then just to run through a couple
+[00:06:29] more things here, we're using the grid mode.
+[00:06:33] So it's just taking our texture, splitting it up along the grid.
+[00:06:39] In animation, you can either use a whole sheet or the single row.
+[00:06:44] Single row is just going to do exactly what it sounds like.
+[00:06:48] It's going to grab one row of these and animate through those instead of through the entire
+[00:06:52] thing.
+[00:06:54] It's really nice for getting a lot more different types of small animations crammed into one
+[00:07:02] texture.
+[00:07:03] So not something you need to worry about right now, but great for even more randomness within
+[00:07:08] flipbooks, which flipbooks tend to be one of the less random types of particles.
+[00:07:16] So it can be really nice for that.
+[00:07:20] For our time mode, we're just going to stick with lifetime.
+[00:07:27] And frame over time is the big one that I want to talk about here.
+[00:07:34] And for this, we could very, very well just leave this as a straight linear curve.
+[00:07:41] And then it would just take how many frames of animation we have.
+[00:07:45] We have the cycle set to one, so it's just going to loop through all of them once over
+[00:07:50] the course of its lifetime.
+[00:07:53] But if we want to, we can just go ahead and add two extra keys in here.
+[00:08:00] And we're just going to set those to hit the first frame a little bit sooner, and the
+[00:08:11] last frame a little bit later.
+[00:08:20] We'll just go ahead and break those tangents.
+[00:08:28] And then Unity will proceed to break my heart.
+[00:08:34] There we go.
+[00:08:35] Okay.
+[00:08:42] And this is just going to let us spend a little bit less time on the first and last frames.
+[00:08:52] And that's just going to give us a little bit more of a sparkling effect out of this.
+[00:08:59] Which is kind of a polishy feel thing in this case, but now you know it's an option.
+[00:09:08] And that's everything that we need to do for the texture sheet.
+[00:09:14] One other thing, actually, one thing that...
+[00:09:19] The other way that you might see flipbook-like textures like this, where you've got four
+[00:09:26] textures in a trench coat, used a lot is in what I call pickbooks.
+[00:09:33] And pickbooks are where you use that exact same setup, but for our frame over time, instead
+[00:09:43] of using a curve so that it progresses through all of them, we're going to set it to random
+[00:09:51] between two constants.
+[00:09:52] And we're just going to set this to zero to three.
+[00:09:59] And if you watch them now, you'll see that none of them are animating, but each of them
+[00:10:05] is picking a random frame from our material.
+[00:10:10] Now, for the material and texture that we have, which are very much designed to transition
+[00:10:17] from one frame to the next, this isn't the most useful.
+[00:10:22] It still gets us some nice little variants and sparkles that we don't have otherwise.
+[00:10:27] But this is really, really common and incredibly useful in things like electrical sparks, in
+[00:10:34] smoke, in flames, in anything where you want just kind of some subtle or even not so subtle
+[00:10:43] variation between particles within the same emitter.
+[00:10:48] So the pickbook approach to this that I'm using here is really, really, really useful
+[00:10:55] for just another layer of organicness and randomness within a ton of different situations.
+[00:11:06] So that is the other big use of these.
+[00:11:09] It's probably, honestly, the more common one.
+[00:11:14] But for what we're doing here, we're going to switch back to our progression through
+[00:11:21] the entire set of frames, and then we're just going to finish setting this up.
+[00:11:26] So we will bring it back over to our ring friend.
+[00:11:34] We're going to finish setting up our cone here.
+[00:11:38] So zero out the angle, bring the radius down, set this to minus 90, and then double check
+[00:11:49] our radius.
+[00:11:54] And we're going to go ahead and set our radius thickness to 0.05.
+[00:12:01] So we'll have a little bitty bit of randomness in where they spawn, but they're pretty much
+[00:12:08] just going to be sticking to the border.
+[00:12:15] There is a case for making that ring a little bit bigger.
+[00:12:21] The reason why I didn't do that originally is just because we're going to have, you can
+[00:12:31] see a little bit of it over here.
+[00:12:34] We're going to have some places where this ring isn't quite thick enough to be like a
+[00:12:41] catch-all for anything clipping through it.
+[00:12:45] So keeping these a little bit more inside the ring just helps the whole thing feel a
+[00:12:53] little bit more cohesive, a little tiny bit.
+[00:12:58] And finally in emit from, where it's set to the base right now, we're just going to switch
+[00:13:03] this too.
+[00:13:04] So volume is going to get very tall.
+[00:13:09] This is exactly what it says on the box, it's just going to be emitting from anywhere within
+[00:13:17] both the radius and the height of this now.
+[00:13:20] We're going to set our height, our length, to 0.6 instead of 5.
+[00:13:29] And that's everything we need there.
+[00:13:32] We're going to go ahead and hop down into our velocity over lifetime and just give that
+[00:13:38] a nice little 0.3 so that they travel up a little bit.
+[00:13:43] And then we are going to do our color over lifetime.
+[00:13:52] This is also the effect where we're going to start playing around a fair bit more with
+[00:13:59] color.
+[00:14:00] So we're going to start with a nice kind of green there and then we're going to duplicate
+[00:14:08] out that for a little bit later.
+[00:14:13] We're going to add a really pale gold here and I'm just going to copy the hex on that
+[00:14:23] so that I can add a little bit of a hold frame here.
+[00:14:35] I am going to realize that these are still transparent and being made extremely green
+[00:14:41] in the start color.
+[00:14:42] So let's set our start color back to a flat white and jumping back down to our color over
+[00:14:54] lifetime, which is now a lot more effective, we're going to go ahead and adjust this one
+[00:15:02] to be a little bit more of a blue-green.
+[00:15:09] And we'll add one last frame over here that goes all the way into a really nice teal color.
+[00:15:24] And then up in our alpha, we're just going to fade these out a little bit towards the
+[00:15:29] end because this flipbook doesn't actually have enough frames to fully resolve those
+[00:15:36] sparkles on its own.
+[00:15:37] So we're going to let them fade out a little bit as well.
+[00:15:49] I get really nervous about this one looking like poison because it's very, very easy.
+[00:15:56] We zoom out on these a little bit.
+[00:16:00] If these sparkles get too much bigger or move too much faster, they start to feel like poison
+[00:16:05] bubbles because we've got some really classic yellow and green colors that tend to, in video
+[00:16:13] game language, tend to be shorthand for either, this is super friendly, it's this beautiful,
+[00:16:19] wonderful healing magic from nature, it loves you, the planet loves you, come stand in it,
+[00:16:25] or it's this is horrible corrosive acid, don't stand in it or you'll die.
+[00:16:31] And there's no in between.
+[00:16:33] So I'm trying to bring a little bit of the blue in there and just really play up the
+[00:16:40] softer, more shimmery aspects of this to try and stay away from that.
+[00:16:49] And last but not least, we're going to jump into our size over lifetime.
+[00:16:56] And we're just going to play up that sparkliness a little bit more even.
+[00:17:03] So the major thing I'm going for here is just giving them a little bit of bounce when they
+[00:17:19] spawn in, and then flatten these out.
+[00:17:37] We're going to increase the size pretty quickly right when we hit that last frame.
+[00:17:47] So we can actually make sure that we're queuing these up a little bit.
+[00:17:57] Now Unity's upset, but you get the idea.
+[00:18:01] So we get a little bit of a bounce at the beginning.
+[00:18:08] And then when they pop, they expand outward at the same time.
+[00:18:12] So you do get a little bit of that kind of cute bubble motion still, hopefully without
+[00:18:18] the acidic poison aspects.
+[00:18:24] So that's our sparkles in pretty good shape.
+[00:18:29] One last thing that I wanted to talk about with these and with flipbooks in general.
+[00:18:36] I've got two different variants of these sparkles in the original effect.
+[00:18:47] One of them is disabled by default.
+[00:18:52] So we've got the flipbook sparkles that we just went over how to make that you can also
+[00:19:00] jump into here real quick, turn into a pick book if you want.
+[00:19:11] And what these sparkles are, these are just a very, very normal texture.
+[00:19:21] One texture.
+[00:19:23] And with these ones, what I'm doing instead is I'm really, really leaning on the size
+[00:19:31] over lifetime.
+[00:19:32] I've got these split into two different axes, three technically, but Z doesn't exist for
+[00:19:40] these because they're flat.
+[00:19:42] So I've got my X and Y axes of these particles really, really heavily animated.
+[00:19:49] They're very, very bouncy.
+[00:19:53] And they're a fair bit different from each other.
+[00:19:56] And they're also really, really carefully tuned to play nicely with my force over lifetime,
+[00:20:03] which is really picking up speed as it goes on.
+[00:20:08] So these are just another example of ways that even if you're not using pick books,
+[00:20:15] whether that's because you aren't super keen on 2D animation or you don't have the budget
+[00:20:23] for it or the time, anything like that, there's still a lot that you can do even with a very,
+[00:20:29] very simple material like this to get something that's really, really bouncy and fun and animated
+[00:20:38] and stuff like that.
+[00:20:39] So flip books are a tool like anything else.
+[00:20:43] They're one that works really well for us here, but I just wanted to show one more way
+[00:20:48] that you can achieve kind of not exactly the same, but another very kind of cute, bouncy,
+[00:20:55] sparkly vibe in a different way.
+[00:21:03] All right, switching back over to our main effect, we're going to go ahead and create
+[00:21:10] these light beams over here.
+[00:21:11] We're going to be using a lot of the same techniques that we talked about in the hit
+[00:21:17] impact spike particles in a very, very different way here.
+[00:21:23] So we'll just go ahead and duplicate and rename this real quick.
+[00:21:31] We're going to switch our material to this little half glow gradient, so it's just flipped
+[00:21:42] off at the bottom there.
+[00:21:45] And you can see our texture sheet animation immediately going to work there.
+[00:21:51] Thank you, texture sheet animation.
+[00:21:54] We can go ahead and disable that, and we're going to do a fair bit of setup on this real
+[00:22:01] quick before we really dive into putting everything together here.
+[00:22:10] So starters, we're going to slow these way, way down.
+[00:22:15] We're going to give them a start lifetime of 3 to 3.5.
+[00:22:20] You can go ahead and disable our velocity over lifetime.
+[00:22:27] Then in our start size, we're going to switch to 3D start size, very fancy, and we're going
+[00:22:34] to set our X to 0.75 to 1, and we're going to set our Y to 3 to 4.
+[00:22:43] So we start getting these really long skinny beams.
+[00:22:48] In our shape, we're just going to go ahead and switch our volume back to a base really
+[00:22:54] quick.
+[00:22:55] And at this point, we're ready to jump back down here.
+[00:22:59] So first thing we're going to do, if I rotate around this, then the particles are going
+[00:23:20] to keep facing towards me because that's what billboards do.
+[00:23:24] That's what billboards are supposed to do, what we need them to do.
+[00:23:28] We want them to always be facing towards the camera.
+[00:23:33] That's not what we want for light beams because these light beams are super, super directional,
+[00:23:39] and we want them to be adhering as much as possible to that border ring.
+[00:23:47] So what we're going to do here is in render mode, we're going to switch our billboard
+[00:23:51] to a vertical billboard.
+[00:23:53] This is exactly like a horizontal billboard, but opposite.
+[00:23:58] So horizontal billboard, vertical billboard, these are both really, really nice useful
+[00:24:08] settings that Unity has just built in.
+[00:24:17] And then down in our pivot in our renderer, we're just going to set our pivot to 0.5 on
+[00:24:28] Y.
+[00:24:30] We're going to set our max particle size to 3.
+[00:24:33] And if we go ahead and check visualize pivot, now you can see our pivots down at the very
+[00:24:44] bottom of the particle instead of in the middle.
+[00:24:47] And so that's giving us, A, the ability for these to stick to the ground without wasting
+[00:24:54] half of the texture embedding it into the ground, like we would have to do with a full
+[00:24:59] glow here.
+[00:25:02] And it's also going to let us do a lot of that same kind of squash and stretch from
+[00:25:06] a different point on the particle, just like we were doing with our spiky modes.
+[00:25:12] So that's everything down here.
+[00:25:16] And now we can just finish cleaning this up.
+[00:25:21] So for starters, we're going to jump into our emission, and we're going to take this
+[00:25:27] down to 4 because those were really, really stacking up.
+[00:25:35] If we hop into this real quickly, then this is really, really showing off the usefulness
+[00:25:41] of additive materials.
+[00:25:44] So additive and alpha or transparent materials are going to be two of the most common types
+[00:25:51] of materials that you're going to be using.
+[00:25:57] If we switch this one over to alpha, same as we saw with the fire.
+[00:26:02] Now these are mostly opaque, and it's just whoever's in the front wins.
+[00:26:07] Switch them back to additive.
+[00:26:09] They all start building up that really nice glow because they're all adding their brightness
+[00:26:14] together on top of each other instead of just saying, I'm opaque and I'm in front of you.
+[00:26:19] I win.
+[00:26:21] So it's really, really nice for building up these softer, glowier effects and blending
+[00:26:27] them together and creating that cohesion.
+[00:26:33] Then just to push that softness even further, we're going to jump back up to our start color.
+[00:26:41] We're going to set this first one to kind of a soft yellow-green.
+[00:26:51] And we're going to drop the alpha on this all the way down to 0.2.
+[00:26:55] And then for our second one, we're going to switch this over to kind of a bright blue-green.
+[00:27:04] And we're going to set the alpha on that one to 0.4.
+[00:27:08] So we start getting a lot more transparency in these.
+[00:27:16] Down in our color over life, we're going to simplify the heck out of this.
+[00:27:21] So we're going to get rid of all the colors.
+[00:27:23] We're just going to let them be white so that they just carry that color throughout
+[00:27:29] their entire lifetime.
+[00:27:31] And instead, what we're going to do is we're going to take this fully opaque key and drag
+[00:27:37] it all the way over to like 10%.
+[00:27:42] And then for the starting key, we're going to set the alpha on that to 0.
+[00:27:46] So we get a little bit of a fade in and then we get this really, really soft fall off.
+[00:27:52] So this is going to be another one of those things where we're just really trying to chase
+[00:27:58] this being kind of slow and warm and welcoming, more in the vein of like a campfire that you
+[00:28:05] want to go sit next to and rest, rather than something that's got a lot of energy and sudden
+[00:28:13] motions and chaos and stuff like that.
+[00:28:16] We're just leaning towards something that is really, really slow, slower than a resting
+[00:28:22] heart rate is one of the ways that I really like to think about it.
+[00:28:27] So if it's slower than a resting heart rate, it's probably going to feel friendly, or it's
+[00:28:32] going to feel super sinister, depending.
+[00:28:36] And if it's faster than a resting heart rate, then it's probably going to start feeling
+[00:28:41] more threatening and stuff like that.
+[00:28:43] So a little bit of a litmus test that you can use there.
+[00:28:51] So these slow way, way down.
+[00:28:53] They have this nice soft fall off.
+[00:28:56] And then the last thing we're going to do here is we're just going to go ahead and pop
+[00:29:00] our size over lifetime open, and we're going to hit separate axes in here too.
+[00:29:09] So again, sorry Z. Z can do anything he wants because he doesn't exist as far as these particles
+[00:29:17] are concerned.
+[00:29:19] In our X axis, we're going to simplify this a bit.
+[00:29:28] We're just going to increase the size relatively quickly up front, and then give it a nice
+[00:29:39] little bit of a soft fall off for the rest of its lifetime.
+[00:29:46] And then in Y, all we're going to do is set the multiplier of the axis here to 1.5 instead
+[00:29:55] of 1.
+[00:29:56] So you can see that's where I start getting these really tall particles.
+[00:30:00] Now in a case like this, where A, this is super simple, and B, I've got separate axes
+[00:30:09] turned on in the start size as well.
+[00:30:12] I can also just do this by multiplying both of my start sizes by 1.5.
+[00:30:22] Either one is fine, but now you know that this is an option too.
+[00:30:29] So what I'm going for in the overall motion between these two is just that kind of slow
+[00:30:37] spreading light beam feel that you tend to see a lot of times if you're looking at really,
+[00:30:43] really stylized animated light beams.
+[00:30:47] So these either tend to start relatively wide and then just slowly expand up, which is kind
+[00:30:56] of what I'm doing here, or you've got the alternative if it's something that's like
+[00:31:00] really peeking through the cracks or stuff like that, then you might wind up with the
+[00:31:06] opposite where maybe your X is pretty consistent, but then your Y spikes up really tall, really
+[00:31:20] quickly, and the rest of it is just letting that X value expand and the overall light
+[00:31:28] widen.
+[00:31:31] This one gets us, as you can probably see here, a fairly different effect.
+[00:31:37] This one really feels like it's peeking up and out through something, especially if we
+[00:31:43] go over and make our X even wider, whereas this one feels a lot softer.
+[00:31:55] So given that we don't want this to feel like it's peeking through damaged cracks or splitting
+[00:32:03] the ground apart or anything like that, we are going to go for the wider version of this,
+[00:32:20] another place where just those little nuances of how something even just moves and scales
+[00:32:28] over its lifetime can give you a pretty different feeling.
+[00:32:33] So last but not least, we are going to go back to this little ring emitter that's been
+[00:32:42] waiting patiently down here this whole time, and we're just going to add a little bit of
+[00:32:48] extra motion into that base to kind of draw your eye to it, give you more of that, hey,
+[00:32:55] stand here, bullseye kind of feeling.
+[00:32:59] So we've already got our ring set up, and in this one, what we want to do here is we
+[00:33:09] just want to create this kind of pulse that we've got going on here.
+[00:33:16] Get rid of these pivots real quick.
+[00:33:23] So in our start lifetime, we're just going to go ahead and switch this to get them a
+[00:33:32] little bit shorter of a lifetime and a little bit more variation.
+[00:33:40] The size we're going to leave the same because we ultimately want them to be matching with
+[00:33:46] that outer ring.
+[00:33:50] We're going to go ahead and set our start color to white because we do want to animate
+[00:33:54] the color of these a lot more later on, and we don't really need any extra tint from up
+[00:33:59] here.
+[00:34:00] And then in our emission, we're going to add two more entries onto here, and we're going
+[00:34:13] to stagger these out by a quarter second each.
+[00:34:23] And then if we turn on our size over lifetime, you immediately start to see how these all
+[00:34:29] play out together.
+[00:34:35] So in that size over lifetime, we're just going to go ahead and use this default ease
+[00:34:41] out so that we get a nice little bit of a ripple effect in there, and then they all
+[00:34:47] kind of meet up on top of each other that much faster.
+[00:34:53] And then in our color over lifetime, we're just going to go ahead and end these at kind
+[00:35:03] of a nice green-gold.
+[00:35:09] And we're going to start them again at a little bit more of that teal kind of color that we've
+[00:35:16] got some hints of in the sparkles as well.
+[00:35:27] And then we're going to fade out the alpha on the ends of these so that we don't get
+[00:35:35] any of those pops in or out.
+[00:35:44] And that's our rings.
+[00:35:46] Very, very last piece.
+[00:35:47] We're going to duplicate those rings.
+[00:35:50] We're going to switch it to a glow.
+[00:35:53] This is actually an emitter that I had in some early versions.
+[00:35:58] I had it disabled.
+[00:35:59] You can see I've got a couple of disabled things here that we'll talk about in a sec.
+[00:36:04] And I added these back in because they just add another really, really nice soft glowing
+[00:36:12] element to this.
+[00:36:14] And having those sorts of things in this, just because of what people in games are kind
+[00:36:22] of trained to see as friendly or unfriendly and especially healing, shape language-wise,
+[00:36:32] having one more of these softer glowing elements really, really just kind of pushed how much
+[00:36:43] this really felt like a heal.
+[00:36:46] And it also created a lot more of an integrated base here.
+[00:36:53] So it really helped ground the entire thing, really tied the room together.
+[00:36:59] So I brought it back.
+[00:37:01] Let's go ahead and add our glow material here.
+[00:37:11] You're going to have these hang out for not quite as long because we want a little bit
+[00:37:21] of a pulse there.
+[00:37:25] We're going to go ahead and get rid of these and replace them with a constant rate of two
+[00:37:30] so that we're getting that more even pulse.
+[00:37:34] And then in our start size, we're going to make these way, way bigger because this texture
+[00:37:43] just spends so much of its time and space on that fade out compared to these alpha ones.
+[00:37:54] So just got to scale it up to match.
+[00:37:57] And from there, the only thing left to do is we're going to swap our colors around here.
+[00:38:06] We're going to shift this one to be a little bit more gold-gold and this one more into
+[00:38:14] a yellow-green just so that we're getting a little bit more variety down here because
+[00:38:24] why not?
+[00:38:27] And then we're going to shift the alpha on these so that these also have, similar to
+[00:38:35] our other soft lights, more of that quick initial pulse and then that really, really
+[00:38:40] slow fall off and fade out.
+[00:38:46] And that is everything on our heal loop.
+[00:38:50] So this one is probably, hopefully, one of the most versatile ones so far in terms of
+[00:39:00] just the number of ways that you could play with this because these sorts of aura effects
+[00:39:06] can be a basis for anything.
+[00:39:07] It can be a good aura, it can be a bad aura, it can be an item pickup.
+[00:39:12] There's tons of different ways that you can play around with this.
+[00:39:18] And this is kind of what's, you know, indicated by all of these particles that I stashed in
+[00:39:29] here is there's a bunch of stuff that, when you put it all in here together, it was stacking
+[00:39:41] up to something that was way too busy.
+[00:39:44] Like there's just a ton going on here.
+[00:39:48] And so I was just going through and picking and choosing which elements I actually wanted
+[00:39:55] to incorporate into something that had a nice level of noise instead.
+[00:40:03] But if you have the files, then dig around in these because hopefully there's some really
+[00:40:09] useful examples of just other options, how to really get mileage out of size over lifetime
+[00:40:17] or stuff like that.
+[00:40:20] And there's this example of these cute little bokeh dots if you just want a little bit of
+[00:40:28] disco shimmer.
+[00:40:31] These are just mostly leaning on a little tiny bit of noise.
+[00:40:38] And the last thing that I wanted to touch on really quickly was just with the light
+[00:40:44] beams, you might notice if you look closely.
+[00:40:49] These don't perfectly line up with the edges of the perimeter or anything at this distance
+[00:41:00] or stuff like that.
+[00:41:01] This still works really well.
+[00:41:03] And this is a really, really quick way to put this together, to have a lot of nice organic
+[00:41:09] randomness to it and stuff like that.
+[00:41:12] But if you wanted something that's really, really pixel perfect, then you could also
+[00:41:18] create a very similar sort of effect with a mesh particle or a combination of mesh particles
+[00:41:25] and regular particles.
+[00:41:28] We're going to be talking about those soon in the explosion.
+[00:41:32] We're going to be taking a look at meshes there.
+[00:41:34] So just if the weird little mismatches here are wounding your soul, then just know we're
+[00:41:45] going to be taking a look at that soon, I promise.
+[00:41:48] And then you'll have even more tools in your toolkit.
+[00:41:53] So I hope this is a great base for you to just go play around, experiment, and have
+[00:42:01] a lot of fun.
+[00:42:02] I'll see you all in the next one.
+[00:42:04] Take care.

@@ -1,0 +1,81 @@
+[00:00:05] Hey, in this video we will talk about one of the ways you can make something appear on the screen, from small size to big size.
+[00:00:12] We will look at an example of one shape appearing, of two shapes appearing with the same timing, and two shapes appearing with different timings.
+[00:00:22] I'm using the blob shapes, but feel free to use different things because these principles are also applicable to any of the shapes of your choice.
+[00:00:33] So don't feel constrained by using only blobs here.
+[00:00:38] To follow the lesson I suggest you to download the Toon Boom Harmony file or Adobe Animate file that is attached to the lesson if you are working in one of those programs.
+[00:00:53] But if you are not, there are also GIF and video example of animation attached there, so you can import it into the program of your choice.
+[00:01:05] Then what you will need to do is to create a new layer and draw your interpretation of this animation next to the animation in the example.
+[00:01:21] You can recreate examples by doing the exact same frames for practice, but also feel free to experiment with it a bit more.
+[00:01:30] You can change the timing or the position of objects, maybe the idea of the shape, maybe it's a triangle or a square or anything else. Just have fun with it.
+[00:01:40] Let's start with looking to our first animation, one blob appearing on the screen.
+[00:01:46] Here I want to talk about distribution of spacing in this animation. To make it easier to look at this animation with onion skin on, I will make the layer opacity be 50%.
+[00:02:00] So now I can see the previous frame while I'm going through it.
+[00:02:05] The first thing I want to discuss here is spacing, as I told you before.
+[00:02:10] So I like to think about it like the force that's being applied to the shape.
+[00:02:19] And with time this force is going down, so the expansion of the shape is slowing down.
+[00:02:28] So from first two frames we have this kind of spacing, and for the next one this amount of expansion is going down, the force is slowing down too.
+[00:02:45] So till the last frame the shape is setting down to its final form, where it is quite big.
+[00:02:58] Another thing here is that I want to make an accent on the last frame of this animation.
+[00:03:06] So this is what's important in my animation, that this shape appeared here to this size.
+[00:03:15] So that's why I'm skipping through this start of the shape, I'm not easing in from this shape, and my timing chart overall looks like this.
+[00:03:31] I'm going to slow down to this phase, this final form of the shape, but I'm not adding slow start of the expansion here.
+[00:03:44] I just cut off this thing, so this way I'm making the accent on the last part of my animation.
+[00:03:53] The other way we can think about it is that before this first frame the shape was so small or so far away from the screen that we basically just don't see it, it's not here yet.
+[00:04:09] And then it starts to grow bigger and bigger and we see it settle down on the last frame.
+[00:04:17] In the next example I'm doing basically the same thing with spacing.
+[00:04:26] As we can see I start with pretty small shapes and they grow bigger and bigger and bigger.
+[00:04:34] But the thing that changed here, besides that it's like two shapes instead of one, is that I'm imagining that the force is being applied not to the center of the shape as it was in the previous example here, but it's applied to the sides of the shape more.
+[00:04:58] So I can see that from here my blob grew bigger, but this side is going to expand more than this side.
+[00:05:14] And the same happens to the next frame. This side is growing bigger than this side.
+[00:05:23] If we come back to the previous example here, all the expansion happens the same for every side of the shape.
+[00:05:36] So in this example the force is being applied from the center of the shape and on the second one we portray that these shapes were hit not to its center.
+[00:05:53] That's why it expands a bit differently.
+[00:05:57] I'm doing the same thing with the second shape, but here I will clean up my notes a bit.
+[00:06:10] So the left shape here is like I apply that force is being used from right to left to it, so now the right side of the shape is growing bigger than the left side of the shape.
+[00:06:31] So applying this principle to our animation creates more variety to it and it looks a little bit more interesting.
+[00:06:43] And the third one, the third example, here I'm applying the same principle with spacing and the same principle with different point of applying the force, but also I'm adding new variable to the mix, which is timing.
+[00:07:05] So in this animation each blob appears with different timing, while this one on the right is already settling down on this frame, the left one is still growing and settling down a little bit later.
+[00:07:26] So with doing things like this I can show that each blob has different way of reacting to the force.
+[00:07:36] Maybe the one that's on the right was closer to the viewer and more far from the force, that's why it gained less power to grow, so it's settling down earlier.
+[00:07:49] Or maybe the left blob was less weighted, like more lightweighted, that's why it was more easy for force to make it move or grow.
+[00:08:05] So adding this into animation brings even more variety and points of interest to the animation.
+[00:08:17] So now let's recreate these two blobs together.
+[00:08:24] I'll create a layer here, we'll set up the opacity here to 50% too, just to see the onion skin.
+[00:08:38] I will choose the brush that has no flow depending on the way I'm pushing it, so it's like the same size, no matter how hard I push it on my tablet, so it would be a little bit easier to work with.
+[00:08:58] And I'll start animating with one blob, I'll animate it to the last frame and then I'll animate the second one. This way it will be easier to process what is going on with the shapes.
+[00:09:15] So yeah, let's start with adding the first blob here, it will be like this.
+[00:09:25] Now let's go to the next frame and turn on the onion skin.
+[00:09:32] In this frame it grows bigger and the right side of the shape is growing slightly bigger than the left side of the shape.
+[00:09:48] Okay, next frame. Here I see that this shape is settling down already, so the spacing becomes smaller, like the difference in size between this frame and previous one.
+[00:10:13] And next frame. Here we also see that it's becoming even smaller, the difference, so I'm animating just a little bit of size on the left side and slightly bigger on the right side.
+[00:10:42] Fitting in the shape.
+[00:10:54] Okay, and next frame. It's almost the same, so I'm just going over it, filling in, correcting a little bit the shape.
+[00:11:27] Next one. Again, it's almost the same, so I'm just tracing it over, expanding it a little bit to add this kind of like moving hold on the animation.
+[00:11:45] So it's almost stopped, but the force isn't being stopped abruptly, but just really slowing down here on this shape.
+[00:11:59] And the next one. Again, doing the same, trying to do like this little expansion that I can get here, like this. We can actually use like a bucket tool to fill the shape, but also like filling it with brushstroke works, too.
+[00:12:47] I'll just recheck how it looks right now with going through the frames without onion skin, just going to the right and to the left through my timeline.
+[00:13:04] I see that this become a little bit wobbly, so I'll just try to smooth it out a little bit and we'll create the last frame for this shape.
+[00:13:24] I will use my eraser tool just to clean it up a little bit because I overflow the amount of expansion I wanted to add here.
+[00:13:48] Just a little bit and fill in the shape inside.
+[00:13:54] Okay, and now I will extend the amount this frame is showing up on the screen to the end of my animation so we can see it to the end.
+[00:14:11] Now we can check how it works. It's growing up nicely and we can start working with our second shape.
+[00:14:24] So the second shape is starting with even smaller size than the first one and on the next frame it grows pretty rapidly.
+[00:14:38] And again I'm looking to like expanding it to the left side a little bit more than to the right side.
+[00:14:46] On the next frame like the right shape is already settling down, but this left shape that we are working on right now is still continuous to expand.
+[00:14:58] So I'm making it bigger, probably even more big, like this.
+[00:15:16] On the next frame it starts to slow down but still has some pretty seen expansion.
+[00:15:27] So I'm drawing it like this, filling in the shape.
+[00:15:36] Okay, now we see that I drew the expansion like almost the same on the different sides of the shape so I'll fix it by adding more expansion to the left like this.
+[00:15:53] Fix this blob here with the eraser and go to the next frame.
+[00:16:08] Here it's settling down so the expansion is not so big, pretty small like this.
+[00:16:27] And again slightly bigger to the left side, filling the shape here, probably need to fix it a little bit.
+[00:16:48] So this idea of expanding to the left would be more thin and clean like this.
+[00:16:56] Okay, and next frame again, slowing down.
+[00:17:03] So now I'm just settling this shape so the amount of expanding is not big, pretty small, filling the shape.
+[00:17:51] And the next frame is our almost last frame, the next one will be the last one, so the expansion here is really really small.
+[00:18:15] Here need to clean this up a little bit, okay, and here filling the shape and let's draw the last frame like this.
+[00:18:58] Let's see how it looks, it's working pretty nicely.
+[00:19:07] Okay, so this animation is done, we've made our shapes appear from small to big size using slightly different ideas behind it.
+[00:19:17] Now we can do the same with different shapes, you can use lines, you can use ovals, squares, triangles, like any shape you want.
+[00:19:25] You can exaggerate spacing and timing, use different placements of shapes or add more of them to the mix to make it harder for you, more challenging for you.
+[00:19:39] Yeah, and these principles can be applied basically to anything you want to make appear on the screen, so have fun and see you in the next video. Bye!

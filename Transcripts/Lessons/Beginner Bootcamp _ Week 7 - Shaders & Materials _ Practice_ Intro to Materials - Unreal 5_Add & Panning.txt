@@ -1,0 +1,60 @@
+[00:00:05] Hey friends and welcome to this new video. I'm Gabi and today we're going to talk about panning.
+[00:00:11] So what's panning? Panning is the most basic effect you can do inside the material.
+[00:00:16] Panning is literally moving your texture around, displacing it. You will use for that of course
+[00:00:23] the UVs. Basically what are we doing in order to move around our texture? We are tricking
+[00:00:30] the sampler to read other points. We're moving the coordinates before actually using them.
+[00:00:38] So in order to pan, you perhaps already guessed it, we'll need to add a value. The same way that
+[00:00:46] the row one in your excel sheet, if we add one to all the rows everywhere, the row one becomes row
+[00:00:53] two, row two becomes row three, etc. And you just end up with your whole sheet being moved one row
+[00:00:59] to the side. Here we're going to do the same, just adding a value to our already existing
+[00:01:07] uv.x. You can see that if I plug this into the emissive, this is what we get. So we're going to
+[00:01:17] use this example parameter in order to drive what we're working with here. If we get an example
+[00:01:23] parameter of zero, this is what we get. What we had previously, ruv.x unmodified. And now
+[00:01:32] changing the values of this example parameter, we'll get a different result. 0.5 will push
+[00:01:38] everything towards the left. So now we can see that this is what we had before, and then this
+[00:01:44] is the rest. This is values that are above one. So what's happening here, these values here that
+[00:01:51] were zero before, now are zero plus 0.5. So they're 0.15. These values in the center that
+[00:02:00] were 0.5 or 0.5 plus 0.5, they're one. So now you see the line of one. And then everything after,
+[00:02:06] when you plug something into emissive color, one that's above one, Unreal usually ends up
+[00:02:12] saying this is one. The same way, if we put minus 0.5, you get our line here and everything moved
+[00:02:21] to the right. And everything here are negative values. So again, Unreal sees it as a zero.
+[00:02:29] So far so good. Let's go into the material instance in order to have a better idea of
+[00:02:33] what's actually going on here. So the material instance here, we can play with the parameter in
+[00:02:38] real time. And you can see that as we can expect. And just move the parameter and it will just
+[00:02:43] displace our whole texture. All right. If we put minus one, we don't see anything. If we put one,
+[00:02:55] it's completely white. And then everything in between will give us our UVs. From there,
+[00:03:03] how do we apply this to a texture? Well, I just have a texture sampler here. But you could also
+[00:03:08] just right click. All right. And then here you have access to all the nodes. So if you type the
+[00:03:14] name of the node, for instance, texture sample, this one, you can use exactly the same one. All
+[00:03:23] right. So from here, we already decomposed our UVs into just the uv.x. We want to recompose it
+[00:03:32] back into a UV, which is two coordinates, uv.x and uv.y. To do so, we'll need an extra node that
+[00:03:38] we haven't seen yet, but is extremely useful and is the counterpart to the mask node called append.
+[00:03:45] So if you search append, you'll end up with this one here. This will basically take two inputs
+[00:03:54] and spew out one vector two. That's the first input and the second input.
+[00:04:01] So here, I just get our two values. And then this is back to our UVs. All right. But you see that
+[00:04:10] the red has been moved, as we've done here. If we remove this one, we're back to the same UVs
+[00:04:15] as before. Okay. So from here, if we plug this back into our UVs of these coordinates and then
+[00:04:24] back here, we just get our texture. And here, we can move our texture, for instance, minus 0.5.
+[00:04:32] Now we moved our texture 0.5 to the side. Let's go into the material instance now to test this
+[00:04:38] out and see how this looks now. So now, in the same way as we did before, we can move this around
+[00:04:46] to the side. Okay. So one problem you might encounter is if you don't decompose and then
+[00:05:02] recompose, if you just add this here and then combine it back out, and we save this and go
+[00:05:12] back into our material instance, you'll see that we're moving this diagonally because we're adding
+[00:05:20] this value to both the U and the V. So we're moving in a perfect diagonal, adding always the
+[00:05:27] same amount to U than to V. All right. Usually, you don't want this, so you'll want to decompose
+[00:05:35] and then recompose. Finally, what you could do is want to just add a time node here instead of our
+[00:05:46] parameter. So we can just take any block we have here and then drag and drop in the middle. It will
+[00:05:54] give us the same search bar, and we can search for time. Time is just going to give us a time
+[00:06:00] node that is just a value that is the time. By adding this, it's the same as our parameter. We're
+[00:06:05] adding exactly the same value to everything, to all the values on our texture coordinate, and so
+[00:06:12] we end up with this. Our texture is just panning at the same pace. All right. By multiplying this
+[00:06:21] value by two, for instance, we can have it pan twice as fast. All right. Those are just examples
+[00:06:34] of things you can do with panning. One last thing to keep in mind is, we're going to re-plug this
+[00:06:42] here, clamp versus wrap. So if you click on the texture sampler here, if you go to sampler source,
+[00:06:52] you'll see that you have options either wrap or clamp. Wrap means that it's going to repeat like
+[00:06:59] this here. Your texture is going to repeat between zero and one, one and two, two and three, etc.
+[00:07:04] If you select clamp, in that case, your texture is not going to repeat. Everything that is outside
+[00:07:11] of the bands of zero and one will just be clamped to what is on the border of your image. So this
+[00:07:18] just depends on what you want. If you want to have just one thing that can like just a bit tremble,
+[00:07:23] or if you want something that will flow like a wave. All right. I think this is good for now.
+[00:07:30] Next time, we'll talk about scaling textures. Until then.

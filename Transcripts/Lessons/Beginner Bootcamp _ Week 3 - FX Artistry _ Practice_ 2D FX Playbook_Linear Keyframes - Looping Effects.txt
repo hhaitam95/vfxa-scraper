@@ -1,0 +1,247 @@
+[00:00:05] Hello everyone, in this video we will talk about loops again, but this time we will be
+[00:00:11] planning with keyframes and the motion will go seamlessly through our second keyframe
+[00:00:20] instead of going back to the first keyframe.
+[00:00:24] So we will have our keyframe A, keyframe B, and then additional dissipating bits that
+[00:00:32] are going on with offset from our starting and end point of the loop.
+[00:00:38] And during this lesson we will create this kind of fiery loop starting with simple line
+[00:00:48] wiggle and then adding all the fiery shapes on top of it.
+[00:00:55] So yeah, the first step will be to create our line wiggle.
+[00:01:03] I have all my layers prepared for this on all the frames, so we can start.
+[00:01:10] First off we are going to draw our first key, which is this kind of S-shape, something like
+[00:01:25] this, and it will be repeated at the very last frame.
+[00:01:34] And now we want to add our second keyframe, which will be the flip version of the previous
+[00:01:44] keyframe that we did, so it will be like evenly wiggling during our animation from like one
+[00:01:55] scarf to another scarf.
+[00:01:58] Okay, and now we need to in between these frames.
+[00:02:05] So I will make sure I can see my frame that I am going forward to, and now let's see,
+[00:02:15] so here we can start the bump appear for this line.
+[00:02:23] Now this curve, I usually just make it as if it just moved up here, so it's a bit easier
+[00:02:35] to see how the wave goes.
+[00:02:41] Now on the next frame this bit is going up too, and this one too, something like this.
+[00:02:58] Here we want to make sure that our end of the line starts to slow down on the extreme,
+[00:03:09] like around here, so we will have this kind of spacing that has some slowdown here, slowdown
+[00:03:21] here, and fast motion in between.
+[00:03:25] So here it's the last in between that we have, so we can just in between it pretty
+[00:03:37] straightforwardly between one key and another, maybe favouring a little bit more the previous
+[00:03:43] one, now here it will be something like this.
+[00:03:59] Alright, so we have our first half of the animation, now let's do the other half.
+[00:04:09] Again we start to show off the small bump at the bottom here already, just a little
+[00:04:14] bit, this line will go up, now here I will make previous frames visible, just to make
+[00:04:30] it easier to see what I am doing.
+[00:04:34] Okay, so here the tail continues to move to the right a little bit, something like this,
+[00:04:48] probably need to move this bump a little bit to the right to make it more even.
+[00:04:56] Now on the next frame, again moving up this line, here the bump becomes bigger, like this.
+[00:05:12] So at the bottom of the bump, as you can see, I make it like, first it moves a little bit,
+[00:05:22] then bigger, so on the next frame we can go even bigger, and then pretty much almost linear,
+[00:05:30] to the end of it, just to make sure that this bump fails, like it gradually starts to grow
+[00:05:39] and then moves up.
+[00:05:41] Anyways, so yeah, here it's probably be more prominent curve, this, and now we can move
+[00:05:59] the bumps and lines further, sometimes it's easier to see what's going on with your motion
+[00:06:11] if you just flip, instead of looking in the onion skin, so I do it from time to time.
+[00:06:19] Okay, let's see how it goes in motion, yeah, yeah, I think I can make it a bit more prominent
+[00:06:35] to this side, because it feels more like maybe to this side right now, so just redo
+[00:06:42] a little bit this part here, it will be something like this then, and this will be something
+[00:06:53] like this.
+[00:06:55] So in the loops it's pretty usual that you go forward and backwards a few times, because
+[00:07:04] you want your motion to be seamless and nicely looking, and it's not something that can
+[00:07:13] be done from the first try sometimes, so it's okay to just correct yourself and move a bit
+[00:07:22] back if you need to.
+[00:07:24] And especially on the first steps, when we do something simple like line wiggle, then
+[00:07:31] if you will go forward with the base motion that you did, that you are not fully satisfied
+[00:07:38] and hope that you will fix it later, it usually brings more frustration than if you just correct
+[00:07:45] it on the first steps.
+[00:07:49] So yeah, our line wiggle is ready and it's moving pretty good, and we can now get to
+[00:07:58] the fire sketch that we will do on top of our line wiggle.
+[00:08:06] So what I usually do for animating while I have already the guides for my animation,
+[00:08:15] I decide how I want to use my guides for my animation, so it would not be just a scene
+[00:08:22] that plays alone, but something that I can base my shapes on.
+[00:08:28] So for example, the most obvious way would be just maybe push to the left and to the
+[00:08:38] right of my line wiggle and animate this kind of shape, and it can work for example for
+[00:08:44] some octopus legs or something.
+[00:08:49] But for fire, I usually use a bit more complicated guides, I imagine if this chorus, they have
+[00:09:01] their accent points here, so if I draw a tangent, it will be something around here, and if I
+[00:09:10] then make a perpendicular line to this accent, I can prolong my accent to the side.
+[00:09:18] It sounds more complicated that it is in reality just you can notice where your bump
+[00:09:25] goes from this to this, and you want to extend it somewhere, like to the side, somewhere
+[00:09:33] in there.
+[00:09:34] And this will be defining where my accent in the fire shape will be.
+[00:09:41] So here I prolonged it here, so I will make sure that I make curves making the accent
+[00:09:50] in here too.
+[00:09:52] Now for example some parts can stick to the line when they go up, so it will be super
+[00:10:01] easy to animate along this line.
+[00:10:04] Here for example, again we have some accent, I prolonged it here, so here will be another
+[00:10:12] accent point for my fire shape, the inner negative shape, again can stick a bit to the
+[00:10:21] line wiggle thing, and here we can imagine that this curve prolongs somewhere around
+[00:10:28] here, and that the perpendicular line will be somewhere around here, and now we can kinda
+[00:10:37] create it, the accent in our fire shape.
+[00:10:41] So with drawing fire it of course depends on what style you want to do, maybe it's more
+[00:10:47] like this kind of stuff, so I usually prefer to do this a bit angular shapes, just because
+[00:10:57] it's super easy to track them in animation, especially with this method of binding to
+[00:11:05] the guideline, and I just like how it looks.
+[00:11:10] But yeah, you can find in your base how you want to stick to your guideline, but the main
+[00:11:17] idea is that you need to have an idea how you will use your guideline and all this curves
+[00:11:24] and stuff that it has.
+[00:11:25] But anyways, so we made our first keyframe, this bit will appear later when we'll be animating
+[00:11:34] the main shape, for now we want to focus only on the main shape of the fire, and now we
+[00:11:40] will do the same for our keyframe B here, and again I will just prolong where my accent
+[00:11:51] shapes will be, here it will go somewhere around here, small beep, negative shape appearing,
+[00:12:11] and here it will be somewhere in there, something like this.
+[00:12:26] And don't stress out too much on your keyframes, especially for first pass of the loop, because
+[00:12:37] they usually change a little bit while you loop in the stuff, because again, you can't
+[00:12:45] perfectly predict all the spacing and motion that will be going on in your loop, so these
+[00:12:51] frames usually change a bit during animation, so it's okay.
+[00:12:57] So we created our keyframes for fiery shapes, and now all we need to do is just in between
+[00:13:04] them using the guide.
+[00:13:07] So let's turn on our onion skin and just continue with it.
+[00:13:14] So here, like this accent point moves a bit up, so we move up our fiery shape, here it
+[00:13:25] was stuck with the line around here, so we can stack it now here, as the line moved up,
+[00:13:33] now this bit became somewhere around here, so we can move the accent point, and like
+[00:13:47] this side is just stuck with the line already, so we can continue this idea for it.
+[00:13:54] Okay, now this moved here, so we prolong it, and it goes somewhere like here.
+[00:14:11] Now the negative shape bit starts to grow, and probably, like, if I leave it here, like
+[00:14:25] this, it will create this kinda square shape, which I don't like, so I just cut it a bit
+[00:14:32] more here, and I will need to correct a bit my starting frame already to, like, edit here
+[00:14:42] too.
+[00:14:43] So, yeah, now moving forward, this bit, again prolonging it, so it goes somewhere around
+[00:14:56] here, now here it was stuck with the line, now it's somewhere around here, so we just
+[00:15:04] connect, now this one will go somewhere in there, probably.
+[00:15:17] And with the stuff that we dissipate in fire, like these bits that detach from the shape,
+[00:15:26] I usually tend to, like, make this connection bridge thinner and thinner, till it's completely
+[00:15:36] like, gone from the main shape, and it helps to sell, like, the stretchiness of fiery plasma
+[00:15:46] scene or something, and just, like, connects it to the main shape, so, yeah, usually, like,
+[00:15:52] the easy method is just push it up and make the bridge thinner till it breaks fully.
+[00:15:59] Yeah, so now this accent is somewhere around here, we can draw it somewhere around here
+[00:16:12] too, oop, now the negative shape here is, like, growing and stuff, it's probably, should
+[00:16:29] be a bit lower, feels like it.
+[00:16:35] Okay, now, oop, so we have an in-between frame, between our keyframe and the last frame between
+[00:16:45] betweens, so we can try, like, see how it goes, so accent line is somewhere around here,
+[00:16:57] so it will be something like this, now the bit that's stuck with our line, this accent
+[00:17:13] will be somewhere here, so something like this, and this, like, bump will need to start
+[00:17:26] growing here, maybe a bit smaller, and now here we have, like, a huge gap, and here we
+[00:17:36] almost don't have this gap, so we probably will need to correct the previous frame a
+[00:17:43] bit, so I will make some gaps that I like for this frame, something like this, maybe
+[00:17:53] a bit lower, and actually I will correct this frame, it's not much into much, but these
+[00:18:06] two feel right, so yeah, this one can be a bit lower to connect better with, like, this
+[00:18:20] bit that we have.
+[00:18:22] Okay, now let's, yeah, also with, like, this disappointing part, this frame, it's already
+[00:18:31] not with the main shape, so I don't think about it for now, just, I forget about it
+[00:18:37] and work with main shape first, and then on the, when I will be done with my main shape,
+[00:18:44] I will come back to dissipating stuff just to make sure that I get my main shape right
+[00:18:52] and then think about other stuff, so yeah, continuing and betweening the second part
+[00:19:00] of animation, again, here is my accent bit, and it will be somewhere around here, now
+[00:19:12] here I stuck my inner shape with line already, so I can continue doing it here, and this
+[00:19:23] bit will be in here, again, this side is stuck, so I can just repeat my guideline, I can also
+[00:19:39] maybe push it a bit further to make this bridge really seem already, and now, and then
+[00:19:47] accent part moved somewhere around here, I will make one more frame visible for me to
+[00:19:57] better in between stuff, now, okay, so accent around here, connecting with my bridge, growing
+[00:20:15] the bump in here, making the shape a little bit prettier, yeah, okay, next frame, so here
+[00:20:35] my, this stuff is disattached, so I don't think about it, this scene moved somewhere
+[00:20:44] here, so I'm growing it, this bit is attached to my line in here, so I just connect, connect
+[00:20:57] the shape, like also looking in the, like spacing between my bumps and stuff, okay,
+[00:21:10] now on this side, oop, it should be here, okay, connecting with my line, okay, now the
+[00:21:27] inner shape is growing like this, I'll probably want this, this frame need to be a bit bigger,
+[00:21:43] just to make the spacing be accurate, kinda, so it like gradually grows up, and now what
+[00:21:56] we have, again frame between our like keyframe and last in between, the last in between we
+[00:22:02] need to do with shorter, so yeah, we want to have a bump here, that will grow, now here
+[00:22:13] the line is stuck with this point, we can like almost stuck it to the line on this frame,
+[00:22:23] now this accent should be somewhere between these lines that we had, to be somewhere around
+[00:22:33] here, now here it's connected, it's connected, so we just make it connected again, because
+[00:22:43] it's already connected, somewhere like this, and now, okay, here accent point will be here,
+[00:22:54] connected with the line, this inner shape, yeah, so I can actually connect it to here
+[00:23:00] too, and now we just need to connect this line, now let's recheck what's going on, I
+[00:23:18] don't quite like this, like, see we have here line, then it goes to the right and then goes
+[00:23:28] to the left again, I want to smooth it out, so I will just prolong it to the right a bit
+[00:23:38] to make it go like to the right, then slower to the right, and then it will change direction
+[00:23:44] slowly, here we can make it a bit to the right too, just checking how this frame looks like,
+[00:24:00] so also we have here like these two accents, so I'll probably need to make it more angular
+[00:24:12] here, but yeah, we can check how it looks in motion, we can hide the guides, yeah, it's
+[00:24:20] pretty, it's moving as it should, so what we do now, we are like handling the dissipating
+[00:24:31] parts, so here we can move the dissipating part further, and I usually like to like imagine
+[00:24:47] that if this line would be still in connection with my main shape, it would go like this,
+[00:24:56] so because of that I draw my like part of this shape also pointing to this connecting
+[00:25:05] part, it just like feels like it is connected a bit longer, even though it is not, so it
+[00:25:14] just looks pretty nice, yeah, and I want to rotate this part like this while it's dissipating,
+[00:25:25] so I push more the right side of the shape to that side, and continuing with this like
+[00:25:35] idea, again like I'm sinking that hoop, what if it would be connected, something like this,
+[00:25:48] and then the bin goes smaller, and just a small part that then disappears, and we will
+[00:26:00] do the same with this shape, so again if it would be connected, it would be something
+[00:26:07] like this, and again I kind of want it to just rotate and dissipate to that direction,
+[00:26:27] so here, yeah, you can imagine that this line would connect like this, and dissipate
+[00:26:40] this side more to like sell this kind of rotating to the side idea, and continuing with it,
+[00:26:52] slowing down the movement on this bottom side, and increasing the dissipation on this
+[00:27:00] side, and just a small bit, and it, now let's look at it all together, and it's like, it's
+[00:27:16] doing its job, it's fire, it's slipping, and everything works, but I want to show you how
+[00:27:25] we then kind of make it cleaner, so the next step that I usually do is I like turn off
+[00:27:35] my guideline, and now I look at stuff like part by part, so for example I will start
+[00:27:45] with like cleaning a bit this side of my fire, and I look like here it's here, now it's going
+[00:27:54] to the side, and then here in my initial frame it's stuck in the same position, and
+[00:28:07] then went to the left, so now as I am polishing it, I know that I should like move it to the
+[00:28:15] left a bit here already to make it look more smooth, so here I can just delete my lines
+[00:28:23] that I don't need, and again like I see that in the next frame it moves to the left again,
+[00:28:29] so I need to like more accurate in between my frames, again like seeing what's going
+[00:28:42] on.
+[00:28:43] On the next frame it kind of goes to the right already, so I want to slow down the expansion
+[00:28:52] to the left, just to have like this kind of slow point, and then it's like will go
+[00:29:01] to the other side.
+[00:29:09] Now here we have like the bump that appears, maybe we can just start it a bit in here,
+[00:29:23] now I want to show this kind of bump that we created, okay, now just clean up the lines,
+[00:29:42] okay now again I see that I have like this big change, and maybe it's fine, but I would
+[00:29:52] probably add a bump here just a little bit earlier to make it smoother, and yeah we went
+[00:30:08] through our whole loop, I can actually erase these arrows that I did, because I don't need
+[00:30:18] them anymore, now we can look at our right side again to make sure that everything is
+[00:30:24] fine, so it moves to the left and then to the right, so I would probably want it to
+[00:30:31] be closer between each frame here, so it would be like a bit of a stop point before it starts
+[00:30:42] to move to the side, and this movement to the side of the line I would probably make
+[00:30:48] it a bit closer to the start position, again just to make it a bit more cleaner, then yeah
+[00:31:00] it goes to the side, yeah and again like I have this that I pushed this line to the right
+[00:31:08] but then goes to the left and then again to the right, so it's not good, so I will erase
+[00:31:15] it to make it go a bit less to the right, so then in the next frame it continues its movement,
+[00:31:26] it's kind of slowing down with this to the right motion, and yeah it's continuing, going to the
+[00:31:40] right, continuing slowly, going there, slowing down, okay now this bump, I feel like it should
+[00:32:02] be smaller, here closer to this part, and here like it rapidly went to the extreme and stayed
+[00:32:15] in this extreme, so I want to make it like slow down a bit again, extreme now goes to the right
+[00:32:27] side, and we can like check it again just looking at this portion of animation, and we can just do
+[00:32:39] the same with full sides of the motion, not only the bottom, I usually like pay a lot of attention
+[00:32:47] to the bottom of the animation, because when it flickers it's really showing, like if something
+[00:32:56] is not super smooth in this area, it might not get as much attention as in here, because here
+[00:33:07] we have like super static part of animation, like our ground, and something that moves,
+[00:33:12] and it creates a lot of contrast on itself, and if there is some flickering it's more obvious,
+[00:33:20] so yeah now we can go and recheck the spacing of our sides, so here it feels a bit wrong,
+[00:33:30] should be closer, here it should be higher a bit, yeah so now I kind of like curve the shape
+[00:33:50] inside, so I want to check how it's going on, and I feel like here it should be a bit pointier,
+[00:34:05] and here, oh okay, so it moves up there, right, so we need to change this position quite
+[00:34:18] drastically to make it work maybe even higher in there, and this also now, these two frames
+[00:34:36] don't make sense with the spacing we created, so I'll probably change this one, so it will go
+[00:34:48] more smooth like this, okay, okay, okay, so yeah as you see I change like these keyframes,
+[00:35:16] and these keyframes still, and that's why I said that we don't need to spend too much time on
+[00:35:27] these keyframes when we started working with animation, because when I started doing effects
+[00:35:34] I usually spent a lot of time on the first frame, because it was something that we did in character
+[00:35:41] animation, when you want your keyframe to be super excellent before you start in between them,
+[00:35:52] but yeah character animation works a bit different than effects, and effects and especially fire is
+[00:35:59] more wild, so you're just like polishing your motions, and look at it in motion more than in
+[00:36:12] one static frame, so yeah, here I also see that I have like this kind of curve, then this kind of
+[00:36:22] curve, and then this kind of curve again, so this frame falls off, and like not frame, but this line
+[00:36:34] on this frame, so I need in between it's more correct in here, yeah, okay, let me erase all
+[00:36:48] the arrows just to not get distracted by them, and we will look at animation again,
+[00:37:00] okay, left side goes okay, negative space in the left side goes okay, now right side,
+[00:37:13] okay, okay, okay, now negative space, yeah, makes sense, the bumps, oh, line,
+[00:37:39] okay, now we can check the dissipation, dissipation part here, yeah, I think this line should be lower,
+[00:37:54] like with the whole motion that we created in mind, here it can be a bit lower too,
+[00:38:06] yeah, now let's look at it, yeah, after like a round of cleanup, it looks smoother and better,
+[00:38:20] and I think we will call it done here, and like the essential work for looping this animation is
+[00:38:28] done, we got the motion throughout the loop, we got the dissipating parts, we nailed down the main
+[00:38:35] like spacing of our shapes and lines in motion, but you can continue as long as you want, for
+[00:38:45] example, you can create like a cleaned, cleaned up and filled version of it, yeah, you can add maybe
+[00:38:54] the inner shape of the fire moving along the guideline too and stuff, so you can go forward
+[00:39:02] as long as you wish, I usually go from this sketch with like fill tool later, and again it's usually
+[00:39:10] a bit of more cleaning up again, because even though like we checked everything here,
+[00:39:18] these lines are still a bit like, you know, sketchy, so while you go with the fill tool,
+[00:39:27] you have more control and more context on how it looks with the fill, but anyways,
+[00:39:36] with this same idea you can create different kind of loops, like the flags or like smokes and stuff,
+[00:39:43] you can make this base idea a bit more complicated, for example, what if your
+[00:39:48] start of your line wiggle will move also, not stay in the same place, or maybe you can also
+[00:39:55] span some additional bits here, like we did with the offset looping stuff in the first lesson, or
+[00:40:03] you can make your line wiggle to go not one time, like left, right, one loop of wiggle, you can make
+[00:40:11] it go with different amplitudes throughout the loop, so you can create more complicated
+[00:40:16] motions inside the loop with still the same idea of one line wiggling as a base, and I hope you
+[00:40:25] will have fun with any idea that you will come up with for your loop in the future. See you!

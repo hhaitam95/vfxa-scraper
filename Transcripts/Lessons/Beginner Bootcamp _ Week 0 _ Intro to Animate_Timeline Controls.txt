@@ -1,0 +1,464 @@
+[00:00:05] Oh, hey guys, we are diving right in
+[00:00:09] to animating in animate,
+[00:00:12] which is the most confusing sentence I might say all day.
+[00:00:15] I don't know why they named it animate
+[00:00:17] and changed it from flash.
+[00:00:19] I think probably it was a PR move
+[00:00:20] because the word flash has a bad rap on the interweb.
+[00:00:24] But oh well, here we are working in animate,
+[00:00:27] animating in animate, whatever.
+[00:00:30] All right, so in the last video,
+[00:00:32] I had been messing around on another layer
+[00:00:35] and you can just hide that layer
+[00:00:36] if you were following along, or you can delete it.
+[00:00:41] I'm not really too attached to network,
+[00:00:42] so I'm just gonna remove that.
+[00:00:44] I've realized that in the course of all these videos,
+[00:00:47] I have not saved.
+[00:00:49] So save your work.
+[00:00:51] I'm amazed that it hasn't crashed on me.
+[00:00:53] It must be getting more stable, which is awesome.
+[00:00:55] Go Adobe, way to be, hit Control S
+[00:00:58] and I'm gonna save over Blip 04 because I want to.
+[00:01:03] So save it whatever you want to.
+[00:01:05] You'll notice after you've saved it,
+[00:01:06] when you hit Control Enter,
+[00:01:08] the .swf that is generated here
+[00:01:12] will be in the same folder as the .fla,
+[00:01:16] which the fla is this file.
+[00:01:17] This is like the flash file.
+[00:01:20] They still left that, but they changed the other name.
+[00:01:22] So the fla and the swf, which is shockwave flash,
+[00:01:27] for those who are curious why it's called a SWF,
+[00:01:30] will be in the same folder.
+[00:01:31] And SWFs are actually really, really handy.
+[00:01:33] A SWF works with Adobe After Effects quite well.
+[00:01:37] You can import it into After Effects.
+[00:01:38] It's lossless in its resolution.
+[00:01:41] So you know how with vector,
+[00:01:42] it maintains that same crisp shape.
+[00:01:44] It doesn't get pixelated.
+[00:01:46] Well, you can scale those things way up
+[00:01:48] and then in After Effects,
+[00:01:49] you have a very high resolution edge
+[00:01:52] and stuff to work with.
+[00:01:54] It comes in handy.
+[00:01:55] So yeah, SWFs and flash files.
+[00:02:00] All right, so how are we doing this here?
+[00:02:01] We're scrubbing here.
+[00:02:02] I'm clicking and dragging on this blue marker.
+[00:02:06] You can click down here on the numbers
+[00:02:07] or up above the numbers.
+[00:02:08] Either one works just fine.
+[00:02:11] How do we create animation in Animate?
+[00:02:15] This is a very important thing to learn.
+[00:02:17] I'm gonna get out of the way
+[00:02:18] because I'm right where we need to be looking here.
+[00:02:21] I'm just gonna go by.
+[00:02:23] Okay, there I'm gone.
+[00:02:25] All right, so we've got layer one
+[00:02:27] and we can just rename that over here by double clicking
+[00:02:31] and we can call that rough animation, right?
+[00:02:36] So special characters are not permitted.
+[00:02:38] Oh, because I had a space,
+[00:02:41] so it wants an underscore.
+[00:02:43] That's fine.
+[00:02:44] So if I add a new layer here,
+[00:02:46] I can create more animation on a different layer
+[00:02:49] and remember this is just like drawing
+[00:02:51] but now we can do it over time.
+[00:02:53] So I can come in and I can say,
+[00:02:55] oh gosh, I don't know what do I want.
+[00:02:58] It's like yellow, so maybe I'll add some yellow here.
+[00:03:03] Right, something like that.
+[00:03:06] I can fill that in.
+[00:03:07] I can convert this to just be an outline
+[00:03:10] which makes it a lot easier to draw on top of it like so.
+[00:03:14] And then remember I had to hit an F7 constantly.
+[00:03:17] F7 is really nice.
+[00:03:18] What it does is it creates a blank keyframe
+[00:03:21] and it leaves the one that you already had done
+[00:03:24] intact behind it.
+[00:03:26] So if I come back here, it's F7.
+[00:03:28] Now something before I go any further
+[00:03:30] that I wanna distinguish is you want to come over here
+[00:03:33] and I think by default,
+[00:03:35] you're gonna have this auto keyframe feature turned on.
+[00:03:38] And that might have been sort of throwing you for a loop
+[00:03:40] if you were trying to, you know,
+[00:03:43] freestyle while we were animating before
+[00:03:46] and not hitting F7
+[00:03:47] but trying to do some other stuff instead.
+[00:03:49] I'll explain that really briefly
+[00:03:51] and you can decide for yourself if you like it or not.
+[00:03:54] Basically with auto keyframe,
+[00:03:56] let's say that, you know, I'm drawing here.
+[00:03:59] Maybe I want some of that yellow down on here
+[00:04:03] or something, right?
+[00:04:05] And then I move to the next frame.
+[00:04:08] You can actually use the period key
+[00:04:12] or the comma key to go back and forth.
+[00:04:14] They have the little greater than or less than signs
+[00:04:17] above them on the keyboard.
+[00:04:19] Remember that document I had right here.
+[00:04:24] Next frame, previous frame, and the little arrows.
+[00:04:27] If you hold Alt and do it, it'll actually leap.
+[00:04:31] And it's funny because this was a plugin
+[00:04:33] that I had to build previously
+[00:04:34] but now it's actually built in.
+[00:04:37] So there it is.
+[00:04:39] Step forward to next frame,
+[00:04:40] step backward to previous keyframe.
+[00:04:42] I don't know if they saw my videos
+[00:04:43] and built that into Flash
+[00:04:45] but you don't have to download the plugin anymore.
+[00:04:47] It's kind of handy.
+[00:04:49] The keyframe jumper that I made back in the day
+[00:04:51] is now just a normal part of it.
+[00:04:55] Adobe, you are welcome for the idea.
+[00:04:57] I will expect payment when you want to admit
+[00:05:01] that I gave you the idea.
+[00:05:02] Okay, anyway.
+[00:05:03] So coming down in here, if I just move over
+[00:05:06] and if I have auto, what is that called?
+[00:05:09] Auto insert keyframe activated and I start painting,
+[00:05:14] you'll see what happened down in my timeline.
+[00:05:17] And it's kind of weird.
+[00:05:17] This is why I turn it off
+[00:05:19] because it actually leaves this previous piece in place.
+[00:05:24] But it adds the new one and it creates a new frame.
+[00:05:27] So like on this frame, I had one of them
+[00:05:30] and on this frame, I have both of them
+[00:05:32] but I don't want both of them.
+[00:05:33] I just want the one.
+[00:05:35] And so I have to end up deleting it, which is why
+[00:05:39] for me, auto keyframe, not the most useful
+[00:05:42] when you're doing it by hand and so forth.
+[00:05:44] So just click on that so the A goes away
+[00:05:47] and it'll behave like expected.
+[00:05:50] So now when I go to this next frame here
+[00:05:53] and I'm like, adding something on or whatever
+[00:05:58] it's keeping it the way that it was back here.
+[00:06:02] Like it's just the same on both frames.
+[00:06:05] Does that make sense?
+[00:06:05] Because it's not creating a new black dot here
+[00:06:08] that's holding for the rest.
+[00:06:11] So I actually have to come and manually say
+[00:06:13] I want a blank keyframe with F7.
+[00:06:16] And then I can like, I don't know.
+[00:06:20] I don't even know if this is gonna look good guys.
+[00:06:21] I'm just putting in shapes here, shimmery, shiny shapes
+[00:06:27] because I like them.
+[00:06:29] And then you can just keep hitting F7, et cetera.
+[00:06:32] Now let's say for whatever reason, on this frame
+[00:06:36] I was like, yeah, and then I want it to kind of do this
+[00:06:41] and like, I want it to spike out a little bit over here
+[00:06:45] to have a little glint and glimmer, right?
+[00:06:48] And I'm like, that's super cool.
+[00:06:51] But then I was like, wait, no,
+[00:06:52] it's not happening at the right time.
+[00:06:54] I want that to happen like way sooner, right?
+[00:06:59] Well, there's a couple of ways that I can do that.
+[00:07:01] I can come over here and notice that it's selected.
+[00:07:04] And this is a really weird thing in flash
+[00:07:07] that I'm just gonna call it flash.
+[00:07:08] I don't know, call it animate or flash.
+[00:07:10] You know what I'm talking about when I say either one
+[00:07:13] where it's selected.
+[00:07:14] So if I click and drag it, it just moves the whole thing.
+[00:07:18] If I want to deselect it,
+[00:07:19] I just click off of it and then I can like, you know,
+[00:07:24] do all the edits that I want.
+[00:07:25] But if I select it here, hit control X,
+[00:07:29] then come over here.
+[00:07:30] And they actually added this feature to Photoshop
+[00:07:32] where you have to do control shift V
+[00:07:35] to paste it in the same place.
+[00:07:36] Because if you do control V,
+[00:07:39] it puts it in the middle of the camera,
+[00:07:41] like wherever the center of your view is,
+[00:07:43] that's where it puts it.
+[00:07:45] So you want to do control and shift and V at the same time
+[00:07:49] to get it there.
+[00:07:51] So I can do that.
+[00:07:52] Now, if I wanted to say, move this whole frame somewhere.
+[00:07:56] So now we're talking about,
+[00:07:58] let me turn on the onion scheme here.
+[00:08:01] So now we're talking about,
+[00:08:04] maybe there was like a frame where, you know,
+[00:08:06] it was like all popped out like this or something.
+[00:08:13] Maybe that one comes back in.
+[00:08:15] This one's like popped out
+[00:08:18] and it's like starting to get really thin,
+[00:08:22] almost ready to dissolve.
+[00:08:24] And I'm looking at my animation now and I'm like,
+[00:08:27] oh, that's happening too soon.
+[00:08:29] I want it to happen later.
+[00:08:31] You can come in here, click on the frame itself,
+[00:08:34] make sure you're clicking on the right layer too.
+[00:08:36] Cause remember this layer down here
+[00:08:39] is the white shapes behind.
+[00:08:41] And this is the yellow shapes on top, right?
+[00:08:44] And I can click it and hold it
+[00:08:46] and I can drag this little thing around
+[00:08:48] and I can put it anywhere.
+[00:08:49] I can put it on a different layer.
+[00:08:51] I can put it on the same layer.
+[00:08:53] Notice what starts happening though.
+[00:08:55] It starts doing some wonky stuff because,
+[00:08:58] and this, again, it just takes some getting used to,
+[00:09:00] animates a little weird.
+[00:09:02] And I would just recommend that at home,
+[00:09:04] you practice a lot with like moving these frames around
+[00:09:07] and just seeing what's happening.
+[00:09:10] By default, if there's no other key frame after it,
+[00:09:13] it's just gonna hold that same image
+[00:09:17] for the rest of the animation
+[00:09:19] until it hits the end of the blankness.
+[00:09:22] So, noticed when I create a new layer,
+[00:09:26] there's this dark gray.
+[00:09:28] Well, this is a frame and this frame is holding
+[00:09:31] from frame one all the way to frame 20, right?
+[00:09:34] But there's just nothing on it.
+[00:09:36] But the moment I put anything on it,
+[00:09:38] at any point in that hold,
+[00:09:41] it is now gonna hold from frame one
+[00:09:44] all the way to the end of frame 20.
+[00:09:47] It's kind of crazy, but it gives you a lot of flexibility
+[00:09:50] that you can have some things holding
+[00:09:52] and some things animating.
+[00:09:54] I like that there's a bit of complexity here
+[00:09:56] because it just really depends on what you need going on
+[00:09:59] from layer to layer.
+[00:10:00] Sometimes you want things to hold in place
+[00:10:02] and sometimes you want them to move.
+[00:10:04] So, you got all this going on, right?
+[00:10:08] Well, for me to just have this play for one frame,
+[00:10:11] I would go right after it, hit F7,
+[00:10:13] and it would just create this blank hold right after it.
+[00:10:18] So, let's say I just wanted that sparkle shine
+[00:10:21] to happen there.
+[00:10:22] Now I moved it over and now it's holding for two frames.
+[00:10:24] So, you gotta watch for that.
+[00:10:27] Over here, it's holding for two frames too
+[00:10:28] when I move that away.
+[00:10:29] So, that's kind of weird.
+[00:10:31] So, I have to click there and hit F7
+[00:10:33] and I have to click there and hit F7.
+[00:10:35] And then down here, I have some messiness
+[00:10:36] of like some blank ones that are holding,
+[00:10:39] but it doesn't really matter because it's all blank.
+[00:10:41] And honestly, you could clean it up if you wanted.
+[00:10:44] It doesn't really make a difference.
+[00:10:46] To clean that up, by the way,
+[00:10:48] if you're curious on how to clean up some of these frames
+[00:10:50] that you don't want,
+[00:10:52] if you click on that thing and you hit shift F6,
+[00:10:57] so that's shift plus F6, you will remove it.
+[00:11:00] And you'll notice in that document I had,
+[00:11:02] the shift key is gonna take things away.
+[00:11:06] So, F5 is to create a frame.
+[00:11:09] I'll show you that one in a second.
+[00:11:11] F6 is to create a key frame,
+[00:11:13] which is to say it takes whatever you had already
+[00:11:16] and it creates a new key frame with that same artwork on it,
+[00:11:19] but it's a separate frame, right?
+[00:11:22] And then F7 is a blank key frame.
+[00:11:24] And that's my favorite one to use
+[00:11:26] because it's the most common
+[00:11:27] to create a new blank key frame, right?
+[00:11:30] So, if I do shift F6 here and shift F6 here,
+[00:11:36] that's good.
+[00:11:37] If you don't wanna be tedious about it,
+[00:11:38] you can actually click and drag.
+[00:11:41] Now, this is important because if I click and drag
+[00:11:43] starting on the frame that's selected,
+[00:11:46] it moves that frame around, right?
+[00:11:49] If I'm already selecting this and I click and drag it,
+[00:11:51] it will move it.
+[00:11:53] If I start my selection on a frame that's not selected
+[00:11:57] and I click and drag, then it can select multiple frames.
+[00:12:00] You can even select multiple layers like so.
+[00:12:04] And you can even drag all of this
+[00:12:06] and move all of this all together all at once,
+[00:12:09] which is really fun.
+[00:12:10] And then you can do a nice shift F6
+[00:12:13] and it cleans out all those key frames.
+[00:12:15] Now, what is F5?
+[00:12:18] So, F5 is going to extend a key frame.
+[00:12:22] It adds a frame, but it also extends what's there.
+[00:12:24] So, if I am selected on a layer here and I hit F5,
+[00:12:27] you'll notice that it starts extending this out
+[00:12:29] one frame at a time.
+[00:12:31] If I select multiple frames and hit F5,
+[00:12:34] it will add that many frames all at once,
+[00:12:37] which is kind of cool.
+[00:12:39] If I want to get rid of this extra thing poking out here,
+[00:12:42] I can select all of it and hit shift F5.
+[00:12:45] And now has removed all of those frames.
+[00:12:49] Super duper handy, right?
+[00:12:51] There's some other fun things that we can do.
+[00:12:52] Let me just finish this little bit here.
+[00:12:56] I'll turn on onion skinning
+[00:12:58] and I'll show you what I'm talking about.
+[00:13:00] Onion skinning is really great.
+[00:13:01] You'll notice that when this is turned on,
+[00:13:04] you can see before and after, right?
+[00:13:05] We learned that in the very first video
+[00:13:06] that we could see what's going on.
+[00:13:08] If you don't want to see as many frames,
+[00:13:11] there's a couple things you can do.
+[00:13:13] First thing I like to do is I like to lock the layers
+[00:13:16] I'm not working on.
+[00:13:17] That's really important.
+[00:13:18] So, that way, this one up here,
+[00:13:22] it has all of the ghosting going on,
+[00:13:24] but as far as this white thing below it is concerned,
+[00:13:27] it's just the current layer.
+[00:13:29] It's not going to create all this mess
+[00:13:31] of like so much green and blue everywhere and so forth.
+[00:13:36] So, that's helpful.
+[00:13:37] Also, you can turn on outline mode.
+[00:13:39] So, then it's super subtle
+[00:13:41] and you just see what's beneath it there.
+[00:13:43] If you want to change the color of the outline,
+[00:13:45] just double click on that color box there
+[00:13:48] and you can switch it to whatever you want.
+[00:13:51] Super nice.
+[00:13:52] The subtlest of all is gray.
+[00:13:55] It's kind of fun.
+[00:13:56] It's like, yeah, even dark gray
+[00:13:58] if you're on a black background
+[00:14:01] and then it just like barely shows up,
+[00:14:03] which is super, super handy.
+[00:14:05] Look, it doesn't even, it matches the color here
+[00:14:07] and so the gray is just like invisible completely.
+[00:14:10] But now it's just very subtle
+[00:14:12] and you can really focus on what you're doing.
+[00:14:14] The other thing is you can select
+[00:14:16] how many frames you want to do
+[00:14:17] by mousing over this little blue line
+[00:14:22] or this little green line.
+[00:14:23] And it's a nice reminder here that the green is coming up
+[00:14:26] and the blue is what's already happened.
+[00:14:29] So the blue already happened to be there.
+[00:14:32] So for this frame, I'm gonna do something like this.
+[00:14:41] This is super gloopy, rough animation
+[00:14:44] but it doesn't really need to be clean
+[00:14:46] for the purposes of this video.
+[00:14:47] Also, when you're roughing out something,
+[00:14:50] you'd be amazed at what you can get away with roughness
+[00:14:54] and what professionals do get away with on a regular basis.
+[00:14:57] Actually, it's kind of fun.
+[00:14:59] When you look closely at their work,
+[00:15:01] it can be pretty clumpy and gloopy, but still gorgeous.
+[00:15:04] You look at it as a whole.
+[00:15:07] All right, and then we'll just end with something like that.
+[00:15:12] Okay, so there we go.
+[00:15:14] It ends one frame before the other.
+[00:15:16] Some other fun features,
+[00:15:18] like let's say I wanted to take all of this animation
+[00:15:22] and I wanted to like move it or rotate it or something.
+[00:15:26] I can totally do that.
+[00:15:28] Over here, you have edit multiple frames,
+[00:15:30] which the bars turn white.
+[00:15:33] You see, they're not green and blue anymore.
+[00:15:35] So that means if I go to at least where there's artwork
+[00:15:40] and I hit Ctrl A or I can use the select tool
+[00:15:43] and I can like select it like so.
+[00:15:46] And that's weird because it's still in outline mode.
+[00:15:47] Let me turn off the outline mode.
+[00:15:50] That's actually kind of confusing the dark gray like that.
+[00:15:53] I'll lighten it a shade
+[00:15:54] so you can at least see the outline down there.
+[00:15:55] There we go.
+[00:15:57] Turn off outline mode.
+[00:15:58] So now this is all of our frames all selected all at once.
+[00:16:02] And I can hit Q,
+[00:16:04] which you can see up here is the free transform tool.
+[00:16:06] I know it's the quick mask tool in Photoshop.
+[00:16:09] So I apologize that it's such a weird conflicting hotkey,
+[00:16:14] but such it is, such is life.
+[00:16:18] And I can just grab these handles here and I can transform
+[00:16:21] and it moves my whole animation.
+[00:16:23] So when I turn off that edit multiple frames,
+[00:16:27] you can see the whole animation has rotated.
+[00:16:30] I can do the same thing if I undo, let's see.
+[00:16:33] I can do the same thing with like scaling it or whatever.
+[00:16:37] The one thing that I have trouble doing
+[00:16:40] because you'll notice the free transform
+[00:16:42] has like extra features over here,
+[00:16:46] like distort for instance.
+[00:16:49] And it won't, like it'll let me skew the whole animation.
+[00:16:54] Let's see if it worked.
+[00:16:57] Free transform, oh, yeah, it'll scale and skew.
+[00:17:01] But if you want to do like any deformations beyond that,
+[00:17:05] you have to do it one layer at a time.
+[00:17:08] So like it's coming here in Q key.
+[00:17:11] And if you want to do like envelope,
+[00:17:14] which is this really fun, like, you know,
+[00:17:16] sort of liquefied distort, you cannot do this.
+[00:17:19] I think it's because of memory issues.
+[00:17:21] They're worried that your computer might explode
+[00:17:23] if you try doing this to multiple frames at once.
+[00:17:26] I actually don't know why.
+[00:17:27] Adobe, if you're watching this video,
+[00:17:29] please give us envelope on multiple frames editing.
+[00:17:32] I don't know if that's a bug or intentional or what.
+[00:17:35] But yeah, you can edit multiple frames that way.
+[00:17:37] Also something fun you can do to multiple frames.
+[00:17:40] If you select a range of frames, now in Adobe Animate,
+[00:17:44] you get the option to scale them up, which is really handy.
+[00:17:48] So it evenly spaces them out
+[00:17:50] and it can totally retime your animation
+[00:17:52] in a very, very, very quick way.
+[00:17:55] So you can grab it and it'll tell you when you've hit double.
+[00:17:58] So there's double, it has little times two,
+[00:18:01] and then there's triple, and then there's quadruple.
+[00:18:05] So this is now gonna have one, two, three frames
+[00:18:09] between each main frame.
+[00:18:10] So it holds for four frames
+[00:18:12] instead of just holding for one frame.
+[00:18:15] And that's with that little scale button right there.
+[00:18:18] So I can like grab one frame
+[00:18:20] and just scale that one frame out as well,
+[00:18:22] which is actually really handy.
+[00:18:23] I've used that a few times and I like that feature.
+[00:18:27] It's a fun thing to play around with in the timeline.
+[00:18:31] Undo all of that biz.
+[00:18:33] What else have we got down here?
+[00:18:35] There's so many fun features.
+[00:18:36] So we got all frames, yep, yep, yep.
+[00:18:40] Onion skinning.
+[00:18:42] Onion skinning is a little different.
+[00:18:43] If you're used to the old version of onion skinning,
+[00:18:45] it does take some adapting.
+[00:18:47] Basically they simplified it so outline mode is here
+[00:18:51] and then you just turn on or off onion skinning.
+[00:18:56] And then you've got your controls over here,
+[00:18:58] like play and step forward one frame, et cetera.
+[00:19:03] Yeah, step forward to the next key frame, which is the alt.
+[00:19:06] A lot of nice things with like a hotkey hints.
+[00:19:10] It tells you what the hotkeys are so you can never forget.
+[00:19:14] All right, so over here you've got the zoom in and out,
+[00:19:17] which is pretty straightforward.
+[00:19:18] Just lets you customize this.
+[00:19:21] Oh gosh, oh gosh, I ruined it.
+[00:19:25] I think that's what it originally was.
+[00:19:28] That's kind of nice if you have a really long animation.
+[00:19:31] We're not gonna do anything super long in the class.
+[00:19:33] It's all gonna be built for video games.
+[00:19:35] So you won't have to worry too much about that.
+[00:19:38] All right, well, that pretty much covers it for me.
+[00:19:40] I think you guys are ready to dive
+[00:19:42] into actually making a flip book
+[00:19:45] and getting this prepped for in-game.
+[00:19:47] We're gonna go into that in the next video.
+[00:19:50] I'm gonna show you a little bit
+[00:19:51] about how to create a layout.
+[00:19:54] Here it's a nine frame animation.
+[00:19:56] So we're gonna do with three by three,
+[00:19:58] but I'll also show you how to do all kinds of formats
+[00:20:01] so you can have your templates ready to go,
+[00:20:03] ready for production.
+[00:20:04] All right, see you in the next one.

@@ -1,0 +1,94 @@
+[00:00:05] Welcome to our first lesson of Substance Designer.
+[00:00:08] If you stay here, it's because you want more about how to create testers in Substance Designer and I didn't scare in the introduction lesson.
+[00:00:17] Today we are going to see how to create a first world tester and introduce to some designer workflow that allow us to have more control and versatility in our scene.
+[00:00:29] The first world is usually used to make a fake light in our VFX,
+[00:00:34] a glow at the beginning or littlest parts, so I think it's a good point to start. Are you ready?
+[00:00:42] When we open the Designer for the first time, we can open a recent document or create a new one. Let's do it!
+[00:00:51] Here we have a lot of templates that we don't use for VFX, so we will choose the empty one.
+[00:00:58] And in the other side we put the name of the graph and the resolution.
+[00:01:04] I prefer to start with a bigger resolution because we can reduce it later and not lose detail.
+[00:01:12] Alright, this is the principal layout and on the top we have the main toolbar and on the right we have the parameters of the selected node.
+[00:01:22] On the bottom we have two viewers, the 2D view, here we see the tester that we are making and the 3D view. We don't use these windows for create testers for VFX.
+[00:01:34] On the left we have the library of all of nodes and the splurrer is where we see our graph and our output's textures.
+[00:01:43] And finally in the center the graph viewer where we are going to make the magic with our nodes.
+[00:01:49] We can change the configuration of the layout as we want, only move and drag the position of the different windows.
+[00:01:57] All the changes will be applied the next time we open the Designer. Also if you want to come back to default viewers, go to the windows and press reset layout.
+[00:02:08] Ok, I'm going to delete this and I'm going to move the 2D view to my left for half more space here on the graph, but feel free if you wanted another configuration.
+[00:02:23] Seeing a little bit the principal parts of Designer we are going to put our first node. There are many ways to create them, one of them is creating from the library.
+[00:02:34] You can find all of them and if you don't remember the name of the node it's super easy to find it.
+[00:02:40] We are going to put our first node is the shape node and you can find here on the pattern and only just click and drag into the graph and we have the node.
+[00:02:56] Another way to create node and for me is the way that I usually use is pressing the space bar or the tab and if you come from Unreal or Houdini maybe you feel more comfortable pressing tab.
+[00:03:10] And here we have the filters node that you can write the name of the graph to find them and here below we have the current node of Substance Designer.
+[00:03:22] Ok, we are going to put the shape node, perfect.
+[00:03:28] One node here, having this we need to know how to navigate into the graph and to navigate into it only just click and maintain the middle mouse button and move.
+[00:03:39] To zoom move up or down the same button, this is the same as moving into the 2D viewer and it's super super easy.
+[00:03:48] We are going to see how this works, the first node that we are going to see, only just double click to the shape node and here on the right we have the main parameters that we can change in this node.
+[00:04:03] Here we have the pattern and this is the most important parameter in this node and you can find a lot of shapes that allow this node.
+[00:04:13] And for now we are going to start with a cone shape, alright.
+[00:04:20] This pattern is a ring gradient, super smooth, that has a uniform gradient and also we can change the tiling, the scale, uniform, per axis and the angle of the shape.
+[00:04:36] For now we are going to reset all the parameters and we keep only just the cone shape.
+[00:04:44] This is not a coincidence that I keep this shape node on the top because I want to show you a little step that is super important for Substance Designer.
+[00:04:57] In this time we are going to change the pattern and select the paraboil shape and this is similar to the other one but the curve of the gradient in the shape is a little bit different.
+[00:05:10] Having this I would like to have control which shape I want to use depend of each circumstances and for that we need a blend node.
+[00:05:20] To create a new connection only just click on the dot and drag and you have the filter node. This time we are search the blend node.
+[00:05:32] Alright, this node as the name describes can blend two textures with different blending modes and has three inputs.
+[00:05:43] Ok, I zoomed a little bit the graph to see the inputs of the blending node and we can find the foreground and the background.
+[00:05:51] Depending of the order of these two inputs we have different result. Also we can find the opacity and this is the mask of the blend.
+[00:06:00] I'm going to change the connection of the thread to the foreground input and for that only just click shift into the dot and drag to another input.
+[00:06:11] If you want to delete the connection only press Alt into the dot.
+[00:06:16] Ok, I want to explain one thing here because as you can see the foreground and the background has two different colors in the input but the opacity only has a gray color in the input.
+[00:06:28] The opacity only can receive a grayscale input but the foreground and the background can receive the color inputs or the grayscale.
+[00:06:38] Depending of the node you can see only just input with only the orange color and only can receive the color input or only just receive the grayscale input.
+[00:06:53] Ok, to reconnect our inputs only just click and drag into the inputs.
+[00:07:00] Perfect, double click into the blend node. This now has two different important parameters. The opacity to control the blending of the two inputs and here we have the blending mode and you can find all of the modes that you can blend the two inputs.
+[00:07:18] If you work with another software you'll be familiar with this. For the moment we keep with the selection the copy one.
+[00:07:26] I would like to switch both shapes. This will be controlled by the opacity slider but when we have a lot of nodes it could be a mess if you need to navigate into the node to change some of these parameters in each node.
+[00:07:41] To have faster workflow we can expose the parameters that could be the most important for us to have control in one custom parameter for our texture.
+[00:07:52] It's quite easy. Just go to the parameter that you want to expose here as a new graph input.
+[00:08:02] Ok, here we have a new windows where we can change the name of the parameters to identifier. In this case I want to put the name like switch shape for example.
+[00:08:16] And I put the name of the parameters here in the label because the identifier is an internal name that has Substance Designer.
+[00:08:25] Also we can organize into a group, put an description and change the default parameters. When we have all as we want only just press ok. Perfect.
+[00:08:37] As you can see the opacity has different color in the blue one and this is the meaning that has exposed.
+[00:08:44] And if you want to find the exposed parameters only go into the explorer double click into the name of our graph and here in the preview tab we can find the switch shapes.
+[00:09:00] This helps us to have our growth flow more organized and all the parameters that we are going to use in the creation of the texture are in the same location.
+[00:09:12] And having this in our mind we could do the same with the size of each shape for more control.
+[00:09:18] Here we have two nodes so it could be interesting if we use the switch parameters to change the shape that we are using.
+[00:09:28] Only use one slider to control the size of the resulting shape. This could be more versatile and not control both shapes separately.
+[00:09:37] The first part is the same and we are going to name size. Double click into the shape we are going to expose the scale of the first shape and this is the same only just rename the name. Perfect. Click ok.
+[00:09:55] When we are going to do to the next one double click into another shape node, go to the escape parameters, click in the 3D lines button and we are not going to use expose as a new graph.
+[00:10:09] We have here another option use existing graph input.
+[00:10:17] At this moment we only have two flowadds parameters here, expose, but if you have more parameters with the same type like flowadd, vector, color, etc.
+[00:10:30] We could shade the same parameter to make a lot of combination with only one controller that change some of the behavior of various nodes.
+[00:10:41] For example, we could have a unique controller so that when it change it control several size of different node at the same time.
+[00:10:53] Ok, let's click into the size and combine both scales and we are going to see what is happen only just control the size here, expose parameters.
+[00:11:08] As you can see all the shapes are resize in one slider. Perfect.
+[00:11:17] Keep in your mind because it's very powerful feature that the procedural technical has and now it could be fine if we could remap the grayscale values of the result so we are going to create a levels node.
+[00:11:32] Only just click and drag and here we have the level node and let's create it. Perfect.
+[00:11:40] This node shows an Instagram preview where on the top we have three points here to change the value.
+[00:11:47] The lower value, the middle value and the higher value.
+[00:11:54] On the bottom we can clamp the lower value and the higher value. Perfect.
+[00:12:06] To expose this value only just click in this button and you can see all the parameters separately.
+[00:12:13] We can expose each parameters to have more control in our expose parameters but we are going to group together in the same group name levels and have more organize our parameters.
+[00:12:27] Okay.
+[00:12:29] Only just change here the name of the group and we are going to do the same and we can see how it works.
+[00:12:47] We have our graph configured with the best way to know and spend a lot of time of integration in a non-destructive way.
+[00:12:56] We only go to the custom parameter tab here that we have exposed to make necessary change and when we are happy with the result export again.
+[00:13:06] It's really easy because you can change the switch shapes, the size, the levels in only just one tab.
+[00:13:17] The only thing that we need to export our tester is to create an output node.
+[00:13:24] We are going to say process. Perfect.
+[00:13:29] Only we put the name that we want to export for our tester on the identifier parameter I call ForceWall. Perfect.
+[00:13:40] We are going to the Explorer and below of our graph we have the name of our texture output.
+[00:13:48] Only just right click into the graph name and select export output as Bismuth.
+[00:13:54] This window is super easy. Only just have the destination folder where we want to export.
+[00:14:02] The format of the texture I usually work with Targa but if you want another it's perfect too.
+[00:14:08] The last one is the pattern and he usually keep the identifier as name of our texture.
+[00:14:16] Only just delete the name of the graph and here we can see the preview of our name of our texture. Perfect.
+[00:14:25] Here we have the output that we want to export. Today we only have one output but keep in your mind that we can have more output in one graph.
+[00:14:35] For the moment we are going to export in raw color space but we are going to learn more about it because I think it's better to stop and explain it more slowly in another lesson.
+[00:14:47] Click to export output and we have the texture.
+[00:14:52] If you don't like the result of our texture only just go to the texture parameters, change a little bit the parameters and do the same process.
+[00:15:05] Only just export output as Bismuth and export again.
+[00:15:09] As you can see it's super easy to do a lot of iterations for our texture in a few minutes.
+[00:15:16] Now that we have created this texture let's see how this works in the game engine like in real. We will see this example at the end of every lesson.
+[00:15:27] As you can see I made an effort to show you guys how with a simple texture you can make something awesome. It's a simple but very versatile.
+[00:15:37] Well, that's all for now. I hope you enjoyed this lesson and see you in the next one!

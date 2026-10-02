@@ -1,0 +1,269 @@
+[00:00:05] Hello everybody. Welcome back to texture painting in Krita. Today we are on lesson six, which means that we're going to be making a two by two wisp sprite sheet today.
+[00:00:15] Kind of similar to the ember sprite sheet and the zap sprite sheet that we've done for the last two lessons. This one's going to be a two by two.
+[00:00:23] And it's going to be a bit more of a challenge than the other ones, I think, because this texture in particular requires you to have really nailed down painting both sharp and soft shapes into a texture to make it feel both magical but still tangible.
+[00:00:43] So even though it's going to be a bit of a challenge, I know that we can do it. So let us go ahead and get started.
+[00:00:51] All right, here we are again in Krita. Let us go ahead and make a new file.
+[00:00:57] And similar to the last lesson, the zaps lesson, I'm going to stay at 1024 by 1024 for my file size, just so that each quadrant of the texture has a little bit more fidelity so that when it's at full size, it doesn't look pixelated.
+[00:01:14] So going to keep that file size, going to go ahead and create. And here we are with our blank texture. We already have our first layer made that we can paint on.
+[00:01:25] So I'm going to go ahead and take the basic five size brush. This is like my go to brush for everything, I swear.
+[00:01:33] We're going to be sort of following the same thematic as previous lessons and making sort of a scribbly blob.
+[00:01:41] But I'm going to try to err on the round side for this shape, mostly so that when the texture is in engine and rotating or if it's being used as smoke and is rotating, it won't look unnatural when it's rotating.
+[00:01:56] So I'm going to try to stay sort of round with my shapes, but also want it to feel a bit random as well.
+[00:02:03] And like in previous lessons, I'm going to be using this whole texture space for each texture that I make until they are in a completed state.
+[00:02:12] And then I'll be sizing them down into each of the quadrants we have here. So here we go. Let's get painting.
+[00:02:20] You know, I'm actually not really liking how this is looking, so I am actually going to start the new shape from scratch.
+[00:02:28] So I'm going to grab the airbrush and I'm going to make a big, big sort of blobby shape that I can erase away some interesting shapes from.
+[00:02:43] I think I might erase away with the airbrush tool first. Try this out, see how this goes.
+[00:02:48] Well, actually, it might be better if I do it with the Opacity 2 brush and size this up a bunch.
+[00:03:09] I do want to keep that circle there. I want to find a better way to transition from this hard edge here.
+[00:03:16] Alright, I kind of like this, like this and this situation I got going on, but I feel like this arc here should end about down here instead of where it's currently at.
+[00:03:52] So I'm going to grab the cotton swab brush and kind of manipulate this lower area here so that it ends more where I expect, which is about right here-ish.
+[00:04:08] And once I've gotten that all sort of in the area I want, I can go back to the Basic 2 Opacity brush and erase away just a bit.
+[00:04:18] Now, this isn't really looking like a wisp quite yet, but we take our airbrush and maybe add some more softness to certain parts of the texture,
+[00:04:34] make it feel a little bit softer, a little bit less tangible, maybe.
+[00:04:40] I might take the cotton swab brush a bit and just play with that too, because I'm not really liking how this is looking quite yet, but cotton swab brush might be able to save the day.
+[00:05:17] By doing little strokes like this, I'm actually trying to push more of these darker values out in a more controlled way.
+[00:05:25] There we go, now we're getting some cool stuff out of this, starting to feel more wispy and less like a big paint blob with no direction.
+[00:05:48] Even though I'm smudging out a lot of this and softening a lot of it up, I definitely want to retain a certain level of that hard-edged-ness that I had before.
+[00:06:01] So you can see here I have a bit of a hard edge here, but it softens out because of the strokes that I'm doing with the cotton swab brush.
+[00:06:10] Sometimes all it takes is a heck of a lot of smudging, but you know, a controlled amount of smudging too, you don't want to go too out of control with it.
+[00:06:26] There are some areas that I do want to go back and clean up, like I feel like this flare down here is too much and this here is getting too close to the edge.
+[00:06:38] And there's this little bit sticking out here that I want to erase as well, but I'm going to focus on smudging out the rest of this texture before I go back and clean those things up, I think.
+[00:06:49] The crazy thing is we're still on wisp one right now. We have three more to go after this.
+[00:07:12] I'm probably going to be speeding up a ton of this footage just so that we can cover all the bases.
+[00:07:19] It almost looks like a ghost or something. This is like his hood and his robes all flailed out.
+[00:07:34] Okay, I'm going to move this texture over since it's not super centered.
+[00:08:07] And then I'm going to go back and grab the airbrush tool and start cleaning up some of these areas that I feel like could use a little assistance.
+[00:08:17] I do want to try to keep a little bit of the soft wisp look on some of these areas, but I do want to remove a good portion of the material.
+[00:08:32] Like that, yeah. I'm just using little tiny brush taps to take away material from this so that it's not like I'm going like this and removing a big chunk.
+[00:08:47] I'm just taking away little itty bitty pieces to get the shapes that I want.
+[00:08:53] I honestly didn't think that the cotton swab brush was going to be so integral to being able to paint these textures, but turns out that it is super, super handy for these.
+[00:09:14] I really like the majority of the texture overall, but this sort of central shape kind of feels weird to me.
+[00:09:34] It feels like almost like, I don't know, a keyhole shape or something and the rest of this is really cool and wispy.
+[00:09:40] Okay, I'm going to save my document before I go any further just because I don't want to lose any of my progress.
+[00:09:45] So I'm going to save this as tea, wisps, and then do my usual two rows by two columns because even though it's not currently in sprite sheet form, it's good to have that as an indicator of how many rows and columns I'm ultimately going to have.
+[00:10:01] I might actually try to cotton swab up this area a little bit, maybe do some painting, some cotton swabbing, and see if I can get a more interesting shape out of it.
+[00:10:30] Okay, even though this looks like a hot mess now, I do like it a bit better, so I'm just going to go in and erase away some of this extra material that I've smudged around.
+[00:10:39] I'm basically going in with the airbrush now and erasing away some of this center material and also seeing if there's any interesting areas where I can erase away that will kind of add some cool motion or separation between the different elements of the wisps that I have going on here.
+[00:11:11] I'm actually going to swap to the cotton swab brush for a sec just to smudge this a little bit here.
+[00:11:23] I feel a little bit more attached.
+[00:11:26] Okay, I think that that looks decent for our first wisp, and now we've got to figure out some more interesting shapes for other wisps that can match this look and style.
+[00:11:48] But now that I've done the first one, I think I know sort of the process that I want to use to tackle the other ones as well.
+[00:11:55] I'm going to take these initial tests that I did and delete them since I'm not going to be using them, and I'm going to call this layer here wisp one.
+[00:12:07] I decided to come back to this first wisp because I wanted to make sure that it looked sort of like it could fit an effect at any rotation, and I do feel like it's maybe a little bit too detailed.
+[00:12:19] I think that I might have added too much detail into this inner portion here, but all in all I think it looks pretty good being rotated around, so I think I'm going to keep this one as is and continue on to the second wisp.
+[00:12:31] Go ahead and make a new layer and hide our old wisp and name this wisp two and start the process all over again.
+[00:12:40] So I'm going to start with a big airbrush blob, but maybe with a different sort of shape weight than my last one.
+[00:12:47] My last one was just sort of like big like this and took up most of the texture space.
+[00:12:53] I think for this one I might actually try to focus most of the brightness down here at the bottom just to see sort of what happens.
+[00:13:03] I'm going to take the basic two opacity brush and start the erasing process once again.
+[00:13:10] I'm going to start playing with the cotton swab brush a bit just to see what kind of results we can get out of it.
+[00:13:30] As I'm progressing with this wisp, something that I'm focusing on is the flow of the shape overall.
+[00:13:56] Because I had this nice sort of curve coming down this way, sort of an s-curve, and as it got down towards this bottom area here I was trying to think of how to get that to transition smoothly into the rest of the shape.
+[00:14:09] I think that by curving it down and into this bottom section here, I think that it adds sort of a nice resolution to the overall shape.
+[00:14:18] This is definitely a bit of a mess, I need to work on that, but I'm focusing on this lower portion first.
+[00:14:25] So I'm wrapping up this wisp here and I wasn't sure if I was happy with this upper piece, so I think I might try to smudge it around a little bit.
+[00:15:17] But if my smudging experiments don't go well, I think I might just sort of leave it as is because I think that it is an interesting shape and sort of kind of complements the rest of what's going on.
+[00:15:29] But oh yeah, maybe if it is just softened up a little bit that might help.
+[00:15:34] There's a couple of harsh lines here that are really drawing my eye as well.
+[00:15:52] So I think I'm going to smudge them out a little bit so that they're not quite so eye-catching.
+[00:16:03] I do want to keep a little bit of that sharpness, but I don't want it to be so brightened in my face that it's drawing my eye directly here.
+[00:16:12] Alright, now let's go ahead and do some final cleanup on this guy and then we can move on to wisdom number three.
+[00:16:24] Trying to keep your brush strokes following whatever flow that you're painting in helps immensely with the look of your texture.
+[00:16:36] Alright, I think that's good for wisdom number two.
+[00:16:45] It looks like my texture might be exceeding the bounds here, so I'm just going to manually drag this to the center of the texture here and rotate it around to see how it looks at different orientations.
+[00:17:01] And I think it can work, so I'm going to keep this wisp as is and move on to wisdom number three.
+[00:17:08] So let's go ahead and hide wisp two and then make a new layer for wisp three.
+[00:17:14] Alright, let's get started with our third wisp.
+[00:17:18] I actually already made a third one as you can see here, but I forgot to start recording while I was painting that.
+[00:17:26] So I'm going to be remaking that again so that you guys can see sort of the process I went through.
+[00:17:32] So for the third wisp, a goal that I had in mind was to have sort of a crescent shape to it, sort of a C shape to it.
+[00:17:38] Since I have some like varied shapes here, I wanted to have a shape with the emphasis sort of towards the outer edges of the wisp.
+[00:17:48] So I'm going to call this wisp, whoops, not all caps, wisp three with a dash in there so I know it's the most recent third wisp I've made.
+[00:17:57] And we're going to take the airbrush and sort of make a big swooping crescent shape.
+[00:18:06] And then from here I can take away some material with the opacity brush.
+[00:18:13] One thing that you can do with the opacity brush that I don't think I've covered yet is you can control opacity with the pressure that you're using on your tablet.
+[00:18:22] You can also alter the opacity of the brush using this slider up here.
+[00:18:26] So say that you wanted the maximum amount you erase to be about 50 percent.
+[00:18:31] You could lower this to 50 percent and that way when you are erasing or when you're painting, you're only painting at 50 percent opacity or erasing at 50 percent opacity.
+[00:18:43] So if you tend to press harder on your brush, if you don't want to completely erase away some material, you can use this to help control that a little bit.
+[00:18:52] But I like to have my opacity all the way up, so I'm going to keep mine at 100.
+[00:18:56] I'm going to start erasing away some shapes from this texture here.
+[00:19:02] OK, this looks like a bit of a mess, but if I go to the cotton swab brush, I think I could smudge this around a little bit and get some really cool and interesting shapes.
+[00:19:30] So I'm going to swap over to that and just start smudging.
+[00:19:34] There are a couple of common shapes that you'll probably see me drawing while I'm painting out these wisps.
+[00:19:53] Those shapes are C shapes, which is like this crescent shape here, and S shapes like this little shape I'm trying to incorporate here.
+[00:20:01] Having those sorts of letters as guidelines can sort of help you add interesting flow to your texture as you're going, or it can be a great basis for where to start.
+[00:20:11] So you could start with sort of an S-shaped wisp and look for ways to add C's to it or vice versa.
+[00:20:18] It's just a nice starting point for this kind of a texture.
+[00:20:22] I might be getting a little bit complicated here, but I also think it's kind of cool.
+[00:20:35] So I'm going to see if I can make this work.
+[00:20:38] I'm going to swap back to the airbrush just for a sec to erase away some of this extra material that I've got in here because of all the smudging I've been doing.
+[00:20:55] Just to help things fall off a bit smoother and to fall off in an interesting shape.
+[00:21:02] And by fall off, I mean sort of like fade out into an interesting shape.
+[00:21:17] I think that looks really cool.
+[00:21:19] I'm going to smudge this area out a little bit and back to the airbrush to erase a little.
+[00:21:34] Trying to make this transition from this light area to this super dark area a little bit smoother.
+[00:21:40] Okay, back to cotton swab brush.
+[00:21:49] I might actually try to paint in a little bit of lightness.
+[00:22:11] By erasing away the edges here, I'm trying to make sort of interesting soft edges to the wisps to add some visual interest to the edges.
+[00:22:20] I'm just going to see really quick what this looks like without this S-curve in there.
+[00:22:43] I can't tell whether I like it better this way or not, so I'm going to keep the S-curve in there for now.
+[00:22:52] And I'm going to go back to the cotton swab brush and keep smudging.
+[00:22:58] Just trying out some different things, seeing what sticks and seeing what doesn't.
+[00:23:13] I'm actually going to go back to the opacity brush really quick and see if I can erase away some interesting shapes up here.
+[00:23:33] Maybe if I swab it instead of painting, it'll make it feel a little less harsh, a little more natural.
+[00:23:48] Right, we're getting pretty close to finished with this wisp.
+[00:24:07] Just a couple of minor areas I still have to figure out some stuff for.
+[00:24:12] I think that these two shapes are maybe too similar in width, so it's starting to feel a bit repeaty.
+[00:24:19] So I think what I'm going to do there is take the lasso tool and select this upper half very carefully.
+[00:24:28] There we go.
+[00:24:30] And I'm going to try moving that around with the transform tool, maybe squashing it a little.
+[00:24:37] Maybe if I squash it and separate it entirely, maybe something like that.
+[00:24:44] Obviously the edges of it are really harsh now, so I'm going to keep this selected and go to Filter, Blur, Gaussian Blur.
+[00:24:53] It might only blur at the top though.
+[00:24:56] Make a slightly bigger selection and then try blurring maybe.
+[00:25:02] Yeah, that helps a little bit.
+[00:25:04] I would do the same for the bottom shape, but I think instead what I'm going to do is just cotton swab that area instead, just to help blend it together a little bit.
+[00:25:14] That edge a little bit less harsh.
+[00:25:18] There we go.
+[00:25:21] I do think this texture is getting a little too close to the edge, so I'm going to Ctrl T the whole texture and move this little pivot point over to the center so that I can click this side widget here and then press Alt and Shift to scale it down towards the center.
+[00:25:37] I might actually move the texture a little bit more to the left hand side to try to get it centered.
+[00:25:45] It looks like I actually have a big fluffy tail thing down here, so I'm going to go ahead and erase that while it has my attention.
+[00:25:54] I'm also going to erase away some of this bottom area.
+[00:25:58] Maybe see if I can add in some more interesting motion here by erasing.
+[00:26:04] Neat, I think that looks pretty dang cool.
+[00:26:12] I'm going to smudge it around just a little bit more because I feel like this edge is maybe a little too soft now.
+[00:26:18] I like this side of the edge being soft, but I think that this edge could be harder and it would actually look a bit nicer because it has that nice contrast of soft shape and hard shape if I harden this up a little bit.
+[00:26:32] There we go. I think that looks nice.
+[00:26:49] This tail bit is really cool.
+[00:26:51] I like that it basically is a complete shape all the way around. I think that's pretty nifty.
+[00:26:56] Especially because the other shapes that I have...
+[00:26:59] Oh, that's the other third wisp I made.
+[00:27:01] The other shapes I have, there isn't really a complete shape from one end to the other.
+[00:27:06] I mean, there's a lot of smudging and stuff in between, whereas this one has a little bit more of a complete shape to it, which I think is a cool bit of variation that is in there.
+[00:27:16] By smudging this area here and this area here, I reintroduced some sort of glowy softness in there.
+[00:27:22] I'm going to go in and just clean it up a little bit with the airbrush as my eraser.
+[00:27:29] I'll actually try to soften this up a little more by erasing away with the airbrush.
+[00:27:34] Cool. I think this one turned out really fun.
+[00:27:44] So I'm going to reposition this just a little bit.
+[00:27:47] Because it's a little bit more squat than the other textures that I've made, I'm actually going to grab this top widget and hold alt so that I can scale it vertically.
+[00:27:58] There we go. Cool.
+[00:28:00] Alright, that's our third wisp and we have one more to go, our fourth wisp.
+[00:28:05] Let me think about what kind of shape I want to do for this one.
+[00:28:08] Oh, one thing that I should mention to you guys before I hop into this fourth wisp is that, generally speaking, it's good to keep your value ranges at least similar on each of your wisps.
+[00:28:19] I feel like I've been relatively consistent so far.
+[00:28:23] Oops.
+[00:28:24] Though it looks like my first two wisps might have a bit more brightness to them.
+[00:28:30] My third one is a little bit on the darker side, which is okay, but let's say that my third wisp texture out of four was super dark, somewhere down in this range.
+[00:28:42] And I had the other ones still bright like this as they are.
+[00:28:48] That wouldn't necessarily be a good thing because the value ranges are so different.
+[00:28:52] It's okay to have a little bit of variety as far as your values go on your texture, but it's important not to go overboard with that because then they'll feel a bit too disparate from each other.
+[00:29:03] I'm going to bring that opacity back up and we're going to start on our fourth wisp.
+[00:29:07] For this one, this one I'm honestly not sure visually what I want to go for with it.
+[00:29:15] So start with a little bit of a bean shape with this one.
+[00:29:23] Vary things up a little bit.
+[00:29:25] And I might actually transform this. I might flip it horizontally.
+[00:29:29] And you can do that by pressing Ctrl T to go into the transform tool.
+[00:29:34] Then you can right click on the widget here and there's these two options, mirror horizontal and mirror vertical.
+[00:29:41] And I'm going to do mirror horizontal so that I can flip the shape, start off with something a little bit different.
+[00:29:47] And going back to the brush tool and I'm going to go to the opacity brush to start erasing away some shapes from this.
+[00:29:54] I already tell this one's going to be a weird one.
+[00:30:03] Okay, I think that this is interesting enough as a starting point.
+[00:30:14] So I'm going to go start smudging with the cotton swab brush.
+[00:30:18] Struggling a little bit with this center piece here, how to get that to transition well.
+[00:30:42] I might be able to figure it out just by experimenting.
+[00:30:45] I think for now I might try to get an interesting flow from here down into this area.
+[00:30:51] I'm going to do that with the airbrush by erasing.
+[00:30:55] I'm going to size it down first.
+[00:30:57] I'm actually going to use the opacity brush just for a sec to get some of those harsh edges in there.
+[00:31:10] Yeah, something like that works.
+[00:31:12] Alright, going to go back to the airbrush to erase away a little bit more.
+[00:31:25] I'm probably leaning too heavy into the S shape for this one, but I think it's really cool at the same time.
+[00:31:37] So I'm going to try to keep it and see what kind of interesting things I can get out of it.
+[00:31:42] There's something about this shape that's bothering me.
+[00:31:49] I think it might be because it's echoing this too heavily.
+[00:31:53] I just need to thin it out.
+[00:32:01] Or maybe this shape is too solid.
+[00:32:05] I can't quite nail down what it is about that that is bothering me.
+[00:32:10] Okay, I have an idea with this one that I haven't really done with the other ones.
+[00:32:21] I want to try motion blurring it in a diagonal direction.
+[00:32:24] So I'm going to go up to filter, blur, motion blur.
+[00:32:29] And set the angle to 45.
+[00:32:33] Let's start blurring it.
+[00:32:35] It looks pretty cool, but I'm afraid that I'm starting to lose some of the hard edges I had.
+[00:32:44] Maybe I will try duplicating this out and call this wisp for blur and then hide the original.
+[00:32:53] And now I can go to filter, blur, motion blur.
+[00:32:55] Set the angle to 45.
+[00:32:57] There we go.
+[00:32:58] And then I think I'm going to set the length to 42.
+[00:33:02] And from here I think I'm going to try to get back some of the harsh edges that the blurring took away.
+[00:33:10] I think that that'll help this out a little bit.
+[00:33:13] I really like the effect that it gave to this middle section though.
+[00:33:16] It sort of blended those shapes together.
+[00:33:19] Actually I think I will use the airbrush to erase away the edges.
+[00:33:22] I'm going to size down the brush though so that it acts like the edge of the brush is a little harder.
+[00:33:27] So I can get those harsh edges.
+[00:33:38] And if you find that you've erased and you have sort of a visible line like this,
+[00:33:42] you can always grab the cotton swab brush and just blend it out a little bit.
+[00:33:47] So that it's a little bit less stark, a little less visible.
+[00:33:51] I usually do that by pressing down on the tablet lightly and then just wiggling the pen back and forth.
+[00:33:56] Just to smudge it out, blend it in.
+[00:33:59] And I'll go back to the airbrush to erase.
+[00:34:02] I wanted to try to add in some streaky bits to this just because it feels like it's such a big solid shape
+[00:34:19] and everything else is feeling a bit more soft and whimsical.
+[00:34:24] So I might try to play with that a little bit more just to see if I can vary this big shape up a little bit.
+[00:34:30] Okay I do like this though I feel like it's a bit too soft.
+[00:34:40] So ironically I'm going to grab the cotton swab brush and try to shorten up a couple of the edges here.
+[00:34:46] Cotton swab brush really is such a versatile tool.
+[00:34:53] You can use it for so many different things.
+[00:34:56] You can use it for blending, you can use it to create these like dynamic soft versus hard shapes.
+[00:35:02] I might have gone a little overboard.
+[00:35:05] So let's try blending it out a little bit by squiggling back and forth along the harsh line.
+[00:35:11] There we go.
+[00:35:15] Then for here I'm still not quite sure what to do with this shape.
+[00:35:21] Maybe if I down and around like this might be kind of cool.
+[00:35:28] A bit messy but it's all right.
+[00:35:33] Any mess we make we can always clean up later either by erasing or by blending.
+[00:35:38] I think to emphasize this change that I've made I am going to grab the airbrush.
+[00:35:46] Do a little erasing, doing very light strokes as I go along so that I'm not getting like a big harsh line.
+[00:35:58] I do need to blend that a bit so back to the cotton swab brush.
+[00:36:03] I'm going to try to flick this sort of like tail thing out a little.
+[00:36:19] Cool.
+[00:36:20] All right I'm going to erase away a bit here and a little bit here where there's an extra curl I added by accident.
+[00:36:26] Cool there we go.
+[00:36:31] I'm going to do some big broad strokes to see if I can get some neat effects out of that.
+[00:36:38] This might be a bit too iconic and by iconic I mean graphic.
+[00:36:46] Actually a lot of the stuff that I have painted here might be too iconic but I really like sort of the look of each one.
+[00:36:53] I feel like they have their own kind of personality per se.
+[00:36:58] Let us go ahead and start doing the process of putting these each into their own quadrant.
+[00:37:05] So for that for WISP1 we're going to go through the same sort of process that we did for both the embers and the zap sheet.
+[00:37:12] Which requires us to make the visible layers here into one layer that we can then adjust the scale of.
+[00:37:21] So with WISP1 selected, actually I don't know if it needs to be selected but I'm going to right click WISP1 and click new layer from visible.
+[00:37:29] This will be WISP1 combined and I'm going to enable my grid again and size it to 256 so we can get that nice clean grid.
+[00:37:38] I'm going to press CTRL T to enter transform mode and it's a nice perfect square just like the zaps were last time.
+[00:37:46] So I'm going to click the bottom right widget here and then press shift to scale down the texture evenly and size it down into this quadrant just like that.
+[00:37:55] And we're going to do the same for the other ones as well.
+[00:37:58] Toggle off visibility for WISP1, toggle on visibility for WISP2, right click WISP2 and say new layer from visible.
+[00:38:05] Call that new layer WISP2 combined and oh looks like this one is not perfectly square.
+[00:38:12] What I will do with that is grab the basic 5 size brush, go into eraser mode, press B to go into brush mode and I'm going to size up the brush pretty considerably.
+[00:38:24] And press V to activate the line tool and click and drag just along the edges of the texture so that we can get rid of that extra material outside of this square.
+[00:38:34] And press CTRL T and great now we have a perfect square that we can work with.
+[00:38:38] And with this I can size this down from the bottom left hand widget holding shift to scale the texture evenly and there's WISP2.
+[00:38:48] Let's get to WISP3 and WISP4 taken care of as well.
+[00:38:52] Alright perfect now we can disable visibility on WISP4 and show all of our WISPs together.
+[00:39:15] So looking at this I would give myself some feedback on these textures honestly. I feel like they're probably a little bit too noisy.
+[00:39:24] I think that I could have done something much more simplified and it probably would have served me better.
+[00:39:30] So I could go back and simplify these but that would frankly be a lot of work.
+[00:39:35] But yeah so that's just something to keep in mind is that complexity isn't always the answer to every texture you make.
+[00:39:42] Oftentimes keeping things more simple is going to make them more versatile but hopefully this helped you learn how to paint harsh and soft edges together nicely.
+[00:39:52] I do feel like using the airbrush, the Opacity 2 brush and the cotton swab brush together, those are the big three powerhouses for making WISP shapes.
+[00:40:02] So even though these ended up being a bit more complicated than I would ultimately need them to be for an effect,
+[00:40:08] I think that it still successfully shows how to approach making WISPs.
+[00:40:12] So yeah hopefully this lesson helped you with learning how to paint WISPs and sort of seeing that even if a texture starts out looking not super great,
+[00:40:20] it can evolve into something that works for the WISP that you need to make for your project.
+[00:40:25] Yeah thank you all so much for being with me here today, thank you for watching this video.
+[00:40:29] I hope that you found it helpful and I look forward to seeing you all in lesson 7 where we are going to be going over a liquid splatter.
+[00:40:35] It's going to be definitely different from the lesson that we did here, the past few lessons actually.
+[00:40:41] So there will be some new filters, some new interesting techniques that we'll be going over so I look forward to seeing you all there.
+[00:40:48] Thank you so much for watching!

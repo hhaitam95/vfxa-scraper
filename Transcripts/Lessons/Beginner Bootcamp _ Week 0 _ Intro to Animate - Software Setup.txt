@@ -1,0 +1,326 @@
+[00:00:00] Oh, hey, guys.
+[00:00:06] We're back with part two of our introduction to Animate series.
+[00:00:10] If you missed part one, you want to go back and check that out.
+[00:00:14] That's where we created this awesome effect here that we've got
+[00:00:18] with like the little swooshy bam going on.
+[00:00:20] So, all right, we've got this animation going on.
+[00:00:24] Let's move on and see what's going on in Adobe Animate.
+[00:00:28] This is version 2020.
+[00:00:31] Now, there's a lot of new stuff that they've recently been developing.
+[00:00:34] So we're going to cover all of that in the series to try and get you
+[00:00:38] what you need to know to do all of the different animation
+[00:00:41] that we're going to take on throughout the rest of the class.
+[00:00:44] All right, so if we come up here to Edit, Preferences,
+[00:00:51] we want to take a look at the dark theme.
+[00:00:54] So some people like the light theme.
+[00:00:57] I prefer the dark theme.
+[00:00:58] That's something that might have been different when you first opened Adobe Animate.
+[00:01:01] That's why it looks dark.
+[00:01:02] That's a big one.
+[00:01:03] I always wondered that when I was starting into these programs.
+[00:01:05] Like, why does theirs look completely different than mine?
+[00:01:08] That can be a big one.
+[00:01:09] If you guys want these settings already good to go,
+[00:01:13] you can go and download my settings project.
+[00:01:16] I've got it in the link in the description.
+[00:01:18] If you just sign up for our email list, I'll send that out to you.
+[00:01:21] No problem.
+[00:01:22] It's totally free.
+[00:01:24] And that file is going to be right here.
+[00:01:28] Intro to Animate.
+[00:01:30] And that's going to give you this little guy that sort of does a little blip.
+[00:01:34] I'll just hit Control Enter so you can see that going on.
+[00:01:36] You're going to get this for free along with, like,
+[00:01:38] all the different settings we're going to take a look at today.
+[00:01:42] Then you would come down here and you'd say Edit, Preferences, Import Preferences,
+[00:01:48] and then you'll have the ANP file.
+[00:01:51] I called it Kaiser Original when I exported it here.
+[00:01:53] I might name it something different that's a little less vain
+[00:01:56] when we're looking at it online.
+[00:01:58] All right.
+[00:01:59] So you're going to find that ANP file that you download and import it,
+[00:02:03] and then you'll have it set up like I do.
+[00:02:06] If you want to customize it yourself from scratch, that's totally cool.
+[00:02:09] Here's how you might do that.
+[00:02:10] So you'd want to go into Window, and here's all the different windows
+[00:02:13] that I have open.
+[00:02:15] So I've got the Color Panel, the Align Panel, which is over here,
+[00:02:19] shared with the Color Panel.
+[00:02:22] I've got the Properties Panel, of course.
+[00:02:24] That's going to be very important.
+[00:02:26] Tools, Timeline, and Edit Bar.
+[00:02:28] I don't know what the Edit Bar is.
+[00:02:30] Oh, that's the Edit Bar.
+[00:02:32] Edit Bar is important, guys.
+[00:02:33] Make sure it's turned on.
+[00:02:35] All right.
+[00:02:35] So we've got all these going on.
+[00:02:38] Now, if you come over to Edit Keyboard Shortcuts,
+[00:02:40] that's the other big one that you're going to get when you install the preferences
+[00:02:44] file automatically.
+[00:02:45] There's just a few key things that I've edited in the keyboard shortcuts
+[00:02:51] that I think are super valuable so you don't fat-finger certain keys
+[00:02:54] and mess yourself up.
+[00:02:56] The first one is going to be Object Mode.
+[00:02:58] So Object Mode.
+[00:03:00] There are a lot of things with the word Object in them.
+[00:03:03] And by default, the key that would have been here would be Shortcut
+[00:03:06] when you open up the default set.
+[00:03:08] Yeah, that would be J.
+[00:03:11] And what you do is if you want to customize this so that J does not do object drawing mode,
+[00:03:17] which I highly recommend, you would duplicate it here and say Shortcuts.
+[00:03:21] Yes, create something called Shortcuts there.
+[00:03:25] And then you just come in here and you get that little X next to the J.
+[00:03:28] And voila, it is gone.
+[00:03:31] Now, what is Object Mode, you might ask?
+[00:03:33] And why did we just remove it?
+[00:03:35] Well, Object Mode essentially puts every brush stroke that you make inside its own container,
+[00:03:41] its own little box.
+[00:03:43] And it makes it separate from all the other brush strokes
+[00:03:46] so they don't blend together nicely like you would expect in Photoshop.
+[00:03:50] This is much more akin to painting in, say, Adobe Illustrator
+[00:03:55] where every stroke is kind of its own contained object, et cetera.
+[00:03:58] So it might be handy if you love Illustrator and you want to work that way.
+[00:04:02] It might be terrible if you're more used to Photoshop.
+[00:04:05] So choose wisely.
+[00:04:07] I like to turn it off because it just messes up my flow when I accidentally press the J key.
+[00:04:12] The next one you want to get rid of is Camera.
+[00:04:15] That's going to be on the C key, so another one that's very easy to hit.
+[00:04:19] And I like to just remove that out of there, get rid of that.
+[00:04:22] So let's go ahead and get rid of Camera.
+[00:04:25] And finally, the Bone tool,
+[00:04:27] which is on the M key, another one you want to get rid of.
+[00:04:31] All right.
+[00:04:32] If you want to experiment with these tools and find out what they do, that's great.
+[00:04:35] But in my workflow, when I'm making 2D effects, I just never use them, guys.
+[00:04:39] So just get them out of the way.
+[00:04:41] Another one to note, let's see.
+[00:04:44] I'll save that set. Why not?
+[00:04:46] Would be under the Tools panel right here, the Tools dropdown.
+[00:04:52] Over here, you notice in the previous tutorial, I was saying press K for Paint Fill.
+[00:04:57] That's a really great one, but I know a lot of you might be used to having that on the G key if you use Photoshop a lot.
+[00:05:03] I actually change it in Photoshop to also be K because I started using Adobe Flash first, like years ago, before I even started using Photoshop.
+[00:05:12] And I think it's strange that, like, Gradient Fill is G, but also Regular Fill is also G in Photoshop.
+[00:05:19] And so I like having them separate.
+[00:05:21] That's just me.
+[00:05:22] You can change this.
+[00:05:23] It's your key set.
+[00:05:24] You can set up whatever you want.
+[00:05:26] All right.
+[00:05:27] Moving right along.
+[00:05:29] We've got keyboard shortcuts and we've got panels.
+[00:05:32] All right.
+[00:05:33] So a few things that I've set up here for you to check out.
+[00:05:36] If you look here, there's a couple things.
+[00:05:39] It's pretty standard functionality for how you can move stuff around inside of here.
+[00:05:44] You've got different panels that can tear away.
+[00:05:47] So if I click and drag on the word color up here, I can actually drag that whole panel out and do as I will with it, right?
+[00:05:54] And then if I hover it, there's a few things that I can do.
+[00:05:56] There's a few things that will happen.
+[00:05:57] It will either dock there, and so it will be aligned next to the entire thing there.
+[00:06:02] Or I can hold it and hover it, and it will dock above.
+[00:06:06] And now it creates another stack over here on top of the others.
+[00:06:09] Or I can hover it until it does a box.
+[00:06:12] And that will put it inside of the same thing as whatever partner was in there.
+[00:06:17] And then I can conserve space here by squeezing these up.
+[00:06:21] I can also conserve space by double-clicking.
+[00:06:24] So if I double-click in the open area here, it will actually minimize that whole panel and give me a lot more real estate to look at whatever I want to look at here.
+[00:06:34] Double-click again brings it out.
+[00:06:36] I can also minimize the entire stack by collapsing it here with this.
+[00:06:41] And then I can pop them out as individual icons like so.
+[00:06:44] It's kind of handy.
+[00:06:45] It's kind of nice.
+[00:06:47] And, yeah, that's basically how I arrived at where it is now.
+[00:06:51] I have the scene panel here.
+[00:06:53] I usually use scenes.
+[00:06:55] So I can just drag that out here, and I can close that, and it just goes away forever.
+[00:07:01] All right.
+[00:07:02] Now what do I want to show you guys next?
+[00:07:04] Oh, yeah, the tools panel.
+[00:07:06] All right.
+[00:07:07] So tools panel over here on the left side of the screen is very handy.
+[00:07:11] Super useful stuff going on over here.
+[00:07:14] You can edit what's on here by hitting these three dots.
+[00:07:17] This is new in the newer versions of Adobe Animate.
+[00:07:19] So if you used it in the past and you haven't used it in a while, this is going to be really cool.
+[00:07:23] So you can easily just come over here and say, oh, I like this tool, and so I want it to be a part of my panel.
+[00:07:29] So I like the paintbrush tool.
+[00:07:32] So I'm going to drag that over here underneath my regular brush tool because I have the room.
+[00:07:38] I don't have to embed them on top of each other.
+[00:07:41] If you are compressed for space, you can actually grab this and put it on top of another one.
+[00:07:46] And then when you click and hold, you see that you can choose between them.
+[00:07:50] Now you want to click and drag on it.
+[00:07:52] So you want to click and drag on it here and then move it off if you want to separate them.
+[00:07:58] I found that clicking and dragging on the pop out doesn't work.
+[00:08:01] Oh, you see, I just put the brush tool back in the box there.
+[00:08:04] I don't want to do that.
+[00:08:06] You can also add little dividers, which is kind of fun.
+[00:08:08] It's like I want the paintbrushes to have their own thing and be divided off.
+[00:08:12] And then I want, let's see, subselection tool is pretty useful sometimes.
+[00:08:18] I'll use that.
+[00:08:19] The lasso tool is really great.
+[00:08:21] Put that up here in my selection things.
+[00:08:24] I'll put the polygon lasso on top of there.
+[00:08:26] That's kind of nice to have.
+[00:08:28] So kind of easily switch between those.
+[00:08:32] Let's see.
+[00:08:33] Eyedropper, sure, why not.
+[00:08:35] Eyedropper goes down here in the paint bucket area.
+[00:08:38] And also this one here, the ink bottle tool.
+[00:08:42] I just use hotkeys for all of these anyway, so why not layer them on top of each other.
+[00:08:47] All right.
+[00:08:48] Bone tool I never use.
+[00:08:49] A lot of these I just don't use.
+[00:08:51] The pencil tool is now the paintbrush tool, which is really confusing because classic brush tool and paintbrush tool are really similar.
+[00:09:03] And I actually don't even know the difference between the pencil tool and the new paintbrush tool.
+[00:09:08] They seem to do the same thing.
+[00:09:10] I'm going to go into what they do in a later video.
+[00:09:12] But we're going to dive into like painting and drawing and anime and all those things.
+[00:09:16] Don't worry.
+[00:09:17] We're going to have plenty of time to go over it.
+[00:09:19] Okay.
+[00:09:20] So moving on down, we can hit this three button thing.
+[00:09:24] That's good for now.
+[00:09:26] And I probably should have saved my dot A and P file after doing all this.
+[00:09:30] So you can come down and you can say preferences and export preferences.
+[00:09:35] And that will save out that A and P file one more time.
+[00:09:39] Finally, we have the two different colors.
+[00:09:41] We've got fill color and stroke color.
+[00:09:44] So this solid box here is the paint fill.
+[00:09:48] And then the stroke color is going to be the really, really thin line.
+[00:09:52] I guess you can also make them thick lines.
+[00:09:54] But think of it as like a border around a box.
+[00:09:57] And then the stuff inside the box is the paint.
+[00:10:00] So, again, I'm going to go into that when we do drawing tools.
+[00:10:04] Just so you know as a heads up for now, you can switch those colors here so that, you know, it puts the black line into the fill.
+[00:10:11] And I'll fill into the line and you can switch them back.
+[00:10:14] It's a fun little feature.
+[00:10:16] And then over in the color panel here, you'll see that these two colors are identical to these two colors.
+[00:10:23] And any time you change one, like so, you can pick whatever you want, it will change it over here in the other.
+[00:10:30] Okay.
+[00:10:32] So moving right along, I'm going to go away for a second so that we can see down here in the timeline.
+[00:10:39] All right.
+[00:10:40] So in the timeline before, it was very simple.
+[00:10:43] We had our animation going on here.
+[00:10:46] We had our layer with just one layer.
+[00:10:48] And then in this file that you can go and get from VFXapprentice.com, we have multiple layers.
+[00:10:56] And we have a lot going on.
+[00:10:58] So I'll dive into this.
+[00:11:00] There's going to be a lesson devoted to just managing the timeline.
+[00:11:02] I'll look for that in a video shortly after this one in the same playlist.
+[00:11:07] But for now, just look and see.
+[00:11:09] You can click around in different layers.
+[00:11:11] And it's selecting the artwork from those layers as I click around.
+[00:11:15] Right?
+[00:11:16] So I can see the color and the splat layer.
+[00:11:18] And then I can create new layers.
+[00:11:20] And then I can click and drag that layer around.
+[00:11:22] I can double click it and rename it with whatever name I want.
+[00:11:26] I can click here and I can convert these into outlines.
+[00:11:31] So that's kind of hard to see that purple.
+[00:11:34] But there you can see that orange pretty good.
+[00:11:37] So by clicking this, it switches the preview to just the outlines of it, which is really handy when you're trying to do really complicated things and seeing what's going on.
+[00:11:45] And that layer, as I scrub through, which I can do by clicking up top here on this little blue marker, I can see that it's orange.
+[00:11:54] And then I can always switch it back to its colored version.
+[00:11:57] Also, you've got hide and show, which I can click up here.
+[00:12:01] It hides and shows everything.
+[00:12:03] There were two layers down here that were hidden, the ring layer and the lines layer.
+[00:12:08] And that's just the guide layers that I used when I was animating.
+[00:12:12] I put in a ring and some lines.
+[00:12:14] It makes it a lot easier to understand what's going on there.
+[00:12:18] All right.
+[00:12:19] So those are set to guide layers.
+[00:12:22] So I can right click here and I can say guide.
+[00:12:26] And basically the difference is they will not export if it's got this icon next to it that makes it a guide.
+[00:12:33] So it's just something for you for reference and help you to understand where you're at in the file.
+[00:12:38] And it's not something that you want to be in your final artwork.
+[00:12:41] It's really handy for that.
+[00:12:44] You can also click here on a layer and hit the trash button or the delete key on the keyboard to remove that.
+[00:12:51] Finally, moving over to the properties panel.
+[00:12:54] So properties changes.
+[00:12:56] You might have noticed this has been changing the whole time.
+[00:12:59] I'm going to give it some more space because there's a lot going on over here on properties.
+[00:13:04] I'm going to double click on the library to get that out of the way because we've got all this stuff over here.
+[00:13:10] I guess now that we're on the right side, I can come back.
+[00:13:13] I'm back.
+[00:13:15] All right.
+[00:13:16] So properties panel.
+[00:13:18] Notice that this is new in the new version of Adobe Animate 2020.
+[00:13:24] It's got tool or doc or object or frame.
+[00:13:29] Now the reason why object and frame are not lit up is because no frame is selected and no object is selected.
+[00:13:37] So.
+[00:13:40] If we select an object with the selection tool or V.
+[00:13:42] For short.
+[00:13:44] Oops, I hit B.
+[00:13:45] My bad.
+[00:13:46] Excuse me.
+[00:13:50] So sorry about that.
+[00:13:53] If you select that there, now object lights up as does frame because coincidentally we are selecting an object on a certain frame.
+[00:14:02] So I can come through here.
+[00:14:05] And I can say all these different fun things I want to do.
+[00:14:08] The tool is no longer lit up because I had the selection tool chosen.
+[00:14:11] But if I hit B, now I can also go over to the brush properties.
+[00:14:17] So this is really fun.
+[00:14:19] You can check this out on your own time.
+[00:14:21] You can see all the different properties you can change on your brush.
+[00:14:24] You know whether you want to make it like a big brush.
+[00:14:27] So now I've got like this big thick brush.
+[00:14:30] Or I can go back down to like, you know, teeny tiny brush or maybe somewhere in between.
+[00:14:35] Find what works for you.
+[00:14:37] One weird thing that they did was they left some of the things that they wanted to do.
+[00:14:39] So.
+[00:14:40] They left some of the properties for the brush over here which is where they used to be.
+[00:14:44] Over here on the tools panel.
+[00:14:46] But also duplicated them over here.
+[00:14:48] It's kind of nice to kind of have both.
+[00:14:50] Whatever suits your fancy.
+[00:14:52] If you go to the document settings, that's where I change the background color.
+[00:14:56] You can come down and switch the stage color.
+[00:14:59] You can change it to black.
+[00:15:01] Change it to green.
+[00:15:02] Whatever you want to do.
+[00:15:04] Now the stage color in Animate by default is just transparency.
+[00:15:08] Even if you press the button.
+[00:15:09] Even if you choose a color here.
+[00:15:11] It's still going to be transparent.
+[00:15:12] Hang on one second.
+[00:15:14] Been at this for a while.
+[00:15:19] Got to take a little bit of a water break.
+[00:15:22] Clear that throat.
+[00:15:24] So.
+[00:15:25] Stage colors there.
+[00:15:27] You can also change the stage dimensions.
+[00:15:29] You can make it much bigger if you'd like.
+[00:15:30] We went with 512 when we first created it.
+[00:15:32] So that's fine.
+[00:15:34] You can scale the content with it.
+[00:15:35] Which is a fun feature.
+[00:15:37] If you want to scale the whole thing up.
+[00:15:39] Not just the stage size bigger.
+[00:15:41] You want to actually make the artwork bigger with it.
+[00:15:43] That can be really cool.
+[00:15:45] And so on and so forth.
+[00:15:48] Okay.
+[00:15:50] So that's the properties panel.
+[00:15:52] Frame.
+[00:15:53] I won't go too much into frame.
+[00:15:55] Because it starts getting a little much when we haven't even talked really much about the timeline.
+[00:15:59] So.
+[00:16:00] Yeah.
+[00:16:02] That's all the fun things with all the different settings and properties in Windows.
+[00:16:06] Have fun tinkering with that.
+[00:16:08] Next up.
+[00:16:09] We're going to go into painting inside of Flash.
+[00:16:13] Sorry.
+[00:16:14] My eyes are watering.
+[00:16:16] I have to cough so bad.
+[00:16:17] We're going to go into painting and really what was that that we were doing in the first video.
+[00:16:22] Making a really quick effect.
+[00:16:24] And how do we make it better.
+[00:16:26] More advanced.
+[00:16:27] More awesome.
+[00:16:29] And where are all those tools located anyway?
+[00:16:31] All right.
+[00:16:32] Stay tuned for the next one.
+[00:16:33] See ya.
+[00:16:36] Bye.

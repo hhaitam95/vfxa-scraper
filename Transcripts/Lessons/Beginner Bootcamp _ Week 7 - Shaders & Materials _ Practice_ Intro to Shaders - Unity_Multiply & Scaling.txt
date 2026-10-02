@@ -1,0 +1,102 @@
+[00:00:05] Hello again, I'm Jayden, and in the last lesson we used addition to move a texture around. In this lesson
+[00:00:12] we're going to use multiplication to scale a texture.
+[00:00:16] So let's switch back to our scene editing workspace, and
+[00:00:20] let's create a new shader. We'll go to the plus sign under project,
+[00:00:24] shader graph,
+[00:00:25] URP,
+[00:00:27] unlit shader graph.
+[00:00:28] Let's call this one texture scaling.
+[00:00:31] We also need to create a new material so we can right-click that new shader,
+[00:00:37] create,
+[00:00:39] material. Then let's apply that new material onto the quad, and
+[00:00:47] head back to the shader workspace.
+[00:00:51] Find our shader in the project and double-click it, move it over to the right.
+[00:00:58] So as we get farther into messing with the UVs, it can start to bend your brain and get really confusing.
+[00:01:08] That's normal. This is a new way of thinking and it takes some time to build intuition around it.
+[00:01:15] Let's start with the basic setup just to flip our texture. We'll add a UV node, a split node, a
+[00:01:28] texture sampler, a
+[00:01:33] vector too, and we'll set these up.
+[00:01:45] Use this circle to select the texture. I like the one that comes with this project called try, and
+[00:01:54] let's just plug in our basic UVs.
+[00:01:57] So let's use a new node called one minus, and we'll use the x-axis.
+[00:02:10] So if you notice the original texture was pointing to the left, this one's flipped horizontally.
+[00:02:19] Let's take a look at this one minus node. So the one minus node literally does exactly what the name says it does.
+[00:02:27] Let's look at the math for this. So we're still using our x-coordinates. On the left we have 0,
+[00:02:33] 0.5, and 1.
+[00:02:36] Here we take 1 minus 0, and we get 1.
+[00:02:40] On the right we do
+[00:02:43] 1 minus 1, and we get 0. And the middle is unchanged. It's 1 minus 0.5,
+[00:02:51] which gets us 0.5. So what the 1 minus node is is an invert filter.
+[00:03:01] It literally just takes your white and black values and flips them as long as the values are between 0 and 1.
+[00:03:08] Outside of that you're going to get different results, so you only use this if you're working with values between 0 and 1.
+[00:03:15] So let's also look at another node.
+[00:03:17] It's called the fraction node.
+[00:03:20] Now we won't be working with the fraction node, so it's not really important to understand it.
+[00:03:26] Let's plug our modified UVs into that.
+[00:03:30] So what the fraction node does is you can put any number in with a decimal point, and
+[00:03:35] it just puts out the numbers that come after the decimal point, so there's no whole numbers.
+[00:03:40] In other words, it'll always give you 0 through 1 with some decimal.
+[00:03:45] Previously we looked at texture samplers and how they can wrap if you go above 1 or below 0.
+[00:03:51] The fraction node uses the same math, so it's a really cool tool to visualize the wrapping.
+[00:03:56] We can see that the green on the left side of the original UVs is now on the right side here,
+[00:04:02] but the red is still the same.
+[00:04:04] So we're just going to use the fraction node to visualize things, but it's not actually going to modify the material.
+[00:04:11] Okay, so that's how we flip a texture. Let's now scale the texture. We actually won't need these nodes.
+[00:04:18] We will need the multiply node. Let's plug this into our texture and
+[00:04:29] the visualizer, and
+[00:04:32] let's use a simple float to multiply. So let's move this number around and see what happens.
+[00:04:45] So we can see the scaling effect.
+[00:04:47] Let's put this value at 2 for now, just to take a look at the math, and let's look at our fraction node.
+[00:04:56] So as always, we'll look at the X values for our original UVs,
+[00:05:02] and we're multiplying by 2. So 0 times 2 equals 0.
+[00:05:08] 0.5 times 2 equals 1.
+[00:05:12] 1 times 2 equals 2.
+[00:05:15] So this makes sense because we're getting 0 through 1 in this range.
+[00:05:20] And 1 through 2 in this range, and it's just wrapping like we explored last time. Let's now try 0.5.
+[00:05:30] This will zoom in and enlarge the texture.
+[00:05:35] So we can see some dimmer values here because since we're multiplying by 0.5, we don't even get up to 1.
+[00:05:43] 0 times 0.5 is 0, and 1 times 0.5 is 0.5.
+[00:05:48] So that's all the farther we get across the texture. We only get halfway across the texture.
+[00:05:53] So feel free to just play around with this number and watch what happens.
+[00:06:00] Okay, so as you'll notice, the value actually scales from the corner. You can see that on this square.
+[00:06:07] And also down here in the visual.
+[00:06:10] What if we wanted to scale from the center instead of the corner?
+[00:06:13] We're gonna try this, and it's okay if you don't understand it because it is a lot to wrap your head around.
+[00:06:19] It's not super common to scale from the center, so it's really okay if you don't remember this.
+[00:06:24] So basically what we're gonna do is center this UV before we multiply it. To do that,
+[00:06:31] we're gonna pull it out and create an add node.
+[00:06:34] We also want to use a float for this, and we will subtract 0.5 by adding negative 0.5.
+[00:06:54] And now you can see that 0 is in the center of this, which is what we want. Next up, we do our normal scaling.
+[00:07:03] Now it is still scaling, but it's not quite done yet because we still have that corner in the center here.
+[00:07:15] Basically, we need to now uncenter it. We can copy and paste this. You can press ctrl D to duplicate,
+[00:07:24] plug it in, and then instead of subtracting 0.5,
+[00:07:34] we want to add 0.5 back in. And that should get us the effect we want. You'll notice some blue values coming in here.
+[00:07:48] Don't worry about that. That's just the fraction node.
+[00:07:51] But with the simple three node setup, we have scaled this from the center.
+[00:07:55] And so again, remember that going up in the scale will make the texture smaller.
+[00:08:03] Again, this is because we're manipulating the UVs,
+[00:08:06] not the texture itself. And the UVs kind of act like a camera to look at the texture.
+[00:08:12] So if the viewport gets bigger, the texture will look smaller.
+[00:08:17] So you can play around with this if you want to, but I have some great news,
+[00:08:21] because we don't have to do all this math manually every time. Shader Graph has a really cool built-in node called the Tiling and
+[00:08:28] Offset node.
+[00:08:30] Go ahead and add this node in. This is one we're going to use a lot.
+[00:08:39] So we've looked at how we can use addition and subtraction to move the texture around and multiplying to scale.
+[00:08:49] This node does all of that for us.
+[00:08:52] If you take a closer look, you'll see it accepts four values. First is tiling and
+[00:08:58] tiling is the multiplication. If you drag one of these values, you can see that it's tiling on that axis.
+[00:09:08] And offset is the addition part, so that'll push the texture around to the side.
+[00:09:12] So we did all that math manually just to understand what was going on,
+[00:09:18] but this node will save us a lot of time in the future.
+[00:09:20] Feel free to pause here and mess around with this node if you want.
+[00:09:24] But let's now look at how we would change these values, because right now we can change them by hand here.
+[00:09:29] If we want to change them automatically, we're going to need to assemble a new Vector2.
+[00:09:34] We can create a Vector2 and plug it in. And now we can change these values in the same way.
+[00:09:43] And this is nice because we can plug other nodes in, such as time. And there is our scrolling effect again.
+[00:09:56] And you can try plugging different nodes into different places and see what things do.
+[00:10:00] But at this point we have unlocked the power of movement over time with addition and multiplication.
+[00:10:07] So we know how to move the texture.
+[00:10:09] Now we're actually going to move to a completely different topic, which is color.
+[00:10:13] This is where things are really going to start to get fun,
+[00:10:15] because we're going to see how much we're actually able to do to create really awesome effects.
+[00:10:20] I'm pretty excited to show you all that, so let's do some color math.

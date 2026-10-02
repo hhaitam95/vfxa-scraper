@@ -1,0 +1,117 @@
+[00:00:05] Hello everyone, welcome to the Sword Swipe Breakdown video of the Elemental Studios course.
+[00:00:10] As for previous breakdown videos, let's first take a look at the rough concept of
+[00:00:15] the effect before going through its technical breakdown.
+[00:00:19] We got here a pretty simple sword swipe effect that will support our fast sword animation.
+[00:00:27] The effect will be divided into two layers, a bright swipe following the tip of the sword
+[00:00:32] that indicates well the range and damage area of the weapon, and a more subtle swipe
+[00:00:37] that will bring contrast to the first layer.
+[00:00:41] There is no much differences this time between the concept art and the final result in Game
+[00:00:45] Engine for this effect.
+[00:00:49] Now let's dive into the technical breakdown of the sword swipe effect.
+[00:00:53] Both components of the effect are quite similar and use the same technique, a sliding texture
+[00:00:59] on a curved mesh synced with the particle system's lifetime.
+[00:01:04] We first start with the bright swipe component.
+[00:01:08] The shader used for this component is the same used for the circle component of the
+[00:01:12] hit impact effect.
+[00:01:14] This shader allows us to control the tiling and offset of a texture directly in the particle
+[00:01:21] system thanks to custom vertex data and have a dynamic smooth step opacity masking feature
+[00:01:28] that we can adjust depending on the UV unwrap of the mesh.
+[00:01:34] You might have to change smooth step masking properties values after we've made the 3D
+[00:01:39] curved mesh in Blender, but before that, let's make the swipe effect texture in Photoshop.
+[00:01:46] The swipe texture is quite peculiar to make because we need to think about the look of
+[00:01:51] the texture when it will be distorted and stretched when applied on the curvy mesh.
+[00:01:57] Also the texture will be offsetted from the right to the left of the UV space of our mesh,
+[00:02:03] so we need to orient the texture in a specific direction when making it.
+[00:02:08] I'll paint the left and top side of the texture with a hard brush to make it kinda clean and
+[00:02:14] bright to truly empower the tip of the sword and the damaged area, without any noise in
+[00:02:20] it to be easily readable.
+[00:02:23] The right side will be painted using a soft brush and will be less luminous, spiky and
+[00:02:29] a bit blurry to accentuate the speed and power of the swipe.
+[00:02:33] And finally, the texture will shrink and fade a bit at the bottom of it to let the second
+[00:02:38] layer visible in this area of lesser intensity.
+[00:02:45] Now that we got our texture done, we're switching to Blender to make the curvy 3D
+[00:02:50] mesh.
+[00:02:51] We'll use a handy tool called Busy Curves.
+[00:02:54] I'll adjust the curve to my sword animation by tracking the arc movement of the sword
+[00:03:00] and adding curve points when necessary.
+[00:03:10] When it is done, in the Object Data property tab, I'll add some depth to the curve while
+[00:03:15] keeping the resolution value to 0 to make a low poly preview mesh out of my curve.
+[00:03:23] To truly convert it into a 3D mesh while being in edit mode, right click on your mesh and
+[00:03:29] click on the Convert to a Mesh option.
+[00:03:33] I'll flatten this sloppily extruded square mesh by deleting all faces in its lower half
+[00:03:41] and scale down the middle edge of our mesh.
+[00:03:45] In my case, I've made the curvy mesh a bit too long, so I'll just delete the undesirable
+[00:03:50] part of it.
+[00:03:53] Our curvy based mesh is done, but we need to make some adjustments to our UVs to make
+[00:03:57] it work with our shader in Unity Engine.
+[00:04:01] Since we only want the texture to slide once on our mesh, we need our UV unwrapped to not
+[00:04:05] take the entire UV space, that way, our texture won't visually loop on our 3D curvy mesh
+[00:04:11] after being off-seated at our UV space once.
+[00:04:16] To edit our mesh UVs, we'll click on the UV tab to switch to the UV Editor workspace.
+[00:04:23] By deleting the faces like we did a minute ago, our UVs might look like this, with two
+[00:04:28] isolated UV islands.
+[00:04:31] The middle edge vertices of our mesh are not facing each other in the UV space.
+[00:04:36] We need to stitch them back together if we want one unified UV island.
+[00:04:42] For that, we will move the UV island in a way that those vertices are facing each other.
+[00:04:48] After that, in the UV's vertex selection point mode, select the vertices you want to
+[00:04:52] stick back together.
+[00:04:54] We'll draw them close to each other by scaling down the selection on the Y axis.
+[00:04:58] Go to the UV Soft tab, Mesh, and select By Distance.
+[00:05:04] We'll also scale up our UV island to make it take the entire UV space.
+[00:05:10] When it is done, we'll select the entire UV island of our curvy mesh and scale down
+[00:05:15] its X axis.
+[00:05:17] And that's all we need for this part.
+[00:05:21] With our 3D curvy mesh done, let's go back to Unity and have a look at how we handle
+[00:05:26] the particle system setup.
+[00:05:29] It's quite simple, the particle system spawning our curvy mesh and making the texture slide
+[00:05:34] on it during its short lifetime.
+[00:05:38] In the Render module, we'll set the Render mode to Mesh and assign the curvy mesh we've
+[00:05:43] just made in Blender.
+[00:05:45] Don't forget to set its render alignment to local.
+[00:05:48] We'll also use custom vertex data later on, so we'll activate a custom vertex streams
+[00:05:53] option and add the custom1 XYZW attribute.
+[00:05:59] In the General module, we'll set a delay value close to the start of the swiping animation
+[00:06:04] of the sword, to sync the spawn of our particle system and the swipe animation.
+[00:06:09] And we'll set a small lifetime value, it's not supposed to be a long effect after all.
+[00:06:14] Something like 0.3 seconds should be alright.
+[00:06:18] If needed, you can set the right rotation of your mesh on a specific axis, in the Start
+[00:06:22] Rotation property, with 3D Start Rotation option ticked.
+[00:06:27] Same thing with the Start Size value.
+[00:06:29] With the right Blender export settings, we've made a 3D curvy mesh at the right size following
+[00:06:34] the animation of our sword mesh, so we shouldn't have to push it above orbital 1.
+[00:06:41] We can then set a Bright Start color.
+[00:06:45] In the Emission module, we'll set to 0 the rate over time, and add a new burst list.
+[00:06:50] We'll set the particle count to 1, to make the particles spawn instantly at the start
+[00:06:55] of the particle system.
+[00:06:58] In the Color Overlifetime module, we'll set both starting and ending alpha keys to 0,
+[00:07:03] to make the mesh fade in and fade out, and we'll set two alpha keys at 100% alpha value
+[00:07:09] around the start and end of the gradient, to make the alpha intensity peak happen early
+[00:07:15] in the particle's lifetime, and audit for most of the mesh particle system's lifetime.
+[00:07:21] We'll now activate a custom data module to set up the animation curves that will control
+[00:07:26] the offsetting of our sword texture on our curvy 3D mesh.
+[00:07:30] We'll set the Custom1 mode to Vector, the number of components to 4, set the X, Y and
+[00:07:37] W values to 1, and make an Ease Out curve for the Z property, to make the texture slide
+[00:07:44] quickly at the beginning, and slowly damp at the end.
+[00:07:49] Note that this curve's value will highly depend on your texture's width and placement,
+[00:07:54] and also your 3D mesh width unwrapped.
+[00:07:58] This will be a good time to also tweak your Smoothstep opacity properties values in your
+[00:08:03] module, to only make transparent the starting and ending part of our 3D mesh.
+[00:08:09] Well, we got our first bright layer, but it kinda looks sad alone.
+[00:08:16] As said earlier, both layers are quite similar, so let's just duplicate the first layer
+[00:08:21] of model, texture, and particle system, and make some adjustments to those duplicated
+[00:08:27] components.
+[00:08:29] The second layer sword texture is quite similar to the first one.
+[00:08:33] We just need to open it in Photoshop, make it a bit wider, with less pronounced pointy
+[00:08:38] shapes, and less contrast, and we got our second sword texture done.
+[00:08:44] We'll save it as a new texture to avoid replacing the first one.
+[00:08:49] For our second layer's particle system setup, we'll go to the Render module, apply the
+[00:08:54] new material we've duplicated with the new texture we've made applied in it, and lower
+[00:08:59] the Order in Layer value to make our second layer being rendered behind the first one.
+[00:09:05] We select a less luminous colour that will bring contrast to our first layer's swipes
+[00:09:09] and add some lifetime to it to make it last a bit longer than our bright swipe and delay
+[00:09:15] its dying time.
+[00:09:18] That concludes this quick breakdown video with this nice looking basic sword swipe effect.
+[00:09:24] You can add more appeal to it by adding additional particles, or by using the UV distortion functionality
+[00:09:30] in the shader.
+[00:09:34] I hope you liked this content, and I see you in the next video.
+[00:09:37] Bye bye!

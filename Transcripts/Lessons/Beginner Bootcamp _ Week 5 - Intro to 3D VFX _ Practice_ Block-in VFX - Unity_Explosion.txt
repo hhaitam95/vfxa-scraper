@@ -1,0 +1,502 @@
+[00:00:05] Hey everyone! In this video we are going to be going over how to make this explosion here.
+[00:00:12] We are going to be using this to bring together a whole lot of the tools and the techniques that
+[00:00:18] we've been going over so far. We're going to be using it to really start to dig in a little bit
+[00:00:23] more to how animation can make something really fun and punchy and also really really sell and
+[00:00:30] communicate the gameplay. And we're going to be adding two more tools to your particle system
+[00:00:38] toolkit in Unity. We are going to be talking about how to make 3D mesh particles and we're going to
+[00:00:45] be talking about how to create collision that your particles can interact with, bounce off of,
+[00:00:52] fun stuff like that. So we're going to go really quickly over how to create 3D mesh particles and
+[00:01:00] collision up front just so you kind of have that in your head. And then we will go through this
+[00:01:07] whole explosion with all of the kind of block in stages that we have been in previous tutorials
+[00:01:13] and integrate our new particles into that as we go. So I've already got a couple of emitters
+[00:01:20] down here set up just because I figure you've probably seen me create enough emitters from
+[00:01:25] scratch at this point. So if we jump into this first one for our hemisphere then we're just
+[00:01:33] going to go ahead and disable the speed and the shape really quickly and switch this over to a
+[00:01:41] burst of one particle just because it's going to make it a lot easier to see. We don't need all
+[00:01:46] that other stuff. The only thing that you actually need to do to change this over to
+[00:01:55] a 3D mesh particle, because none of that stuff was essential, you can use whatever settings you want
+[00:02:02] up here and your mesh will still be happy, is down in the renderer in render mode we're going
+[00:02:08] to switch this over to mesh. This is going to automatically populate with a cube so you can
+[00:02:16] see a little bit that the material is drawing on six sides there now instead of one and we're just
+[00:02:25] going to hit our little search widget next to the mesh and for our explosion we're going to replace
+[00:02:32] that cube with a hemisphere and then down in our material we're just going to grab
+[00:02:41] one of our square materials so that we just have a really complete simple shape.
+[00:02:50] Now this one is still camera facing by default. It has that in common with
+[00:02:56] sprites. It's going to have basically all of the same behaviors as a sprite aside from
+[00:03:02] an extra dimension but because what I want out of this mesh particle specifically
+[00:03:10] is, if we pause here and scrub back a little bit, I want that mesh to specifically
+[00:03:23] be maintaining the same rotation from a bunch of different viewing angles so that we're
+[00:03:29] really getting the feeling that that is a 3d dome to our explosion. So to do that on ours
+[00:03:40] down in the render again we're just going to go down to the render alignment and we're going to
+[00:03:44] switch this from view down to local and now that's going to stay put no matter what. Like I said
+[00:03:56] everything else in here is going to behave basically the same since we've got a particle
+[00:04:03] material on here it's still going to use all of our color information normally and stuff like
+[00:04:07] that. The only major difference between 3d mesh particles and standard 2d sprites behaviorally
+[00:04:19] in anything up here is that these meshes are going to get their initial transform information
+[00:04:29] from whatever your mesh was imported as rather than sprites where they just have this universal
+[00:04:38] default within Unity because Unity is just creating them on the fly. So if I had another
+[00:04:45] version of this hemisphere that I had imported that was twice as big and rotated 90 degrees
+[00:04:55] then when I swapped to it in here
+[00:05:01] a start size of one and a start rotation of zero would still be twice as big and rotated
+[00:05:08] 90 degrees compared to this one's one and zero. So those default settings will be based on your mesh
+[00:05:16] instead everything else pretty much stays the same and that's all we need for that friend for now.
+[00:05:24] Now jumping down to our debris we're going to do a little bit more of the setup work on this one
+[00:05:30] just so that we can really see how all this stuff works. So down in our renderer
+[00:05:38] this one gets to stay a billboard but we're going to switch it over to dots.
+[00:05:42] We are going to make these dots a whole lot smaller. I'm going to do something like
+[00:05:54] 0.08 and 0.14 for our lifetime. We're going to give them a really big range and down in our
+[00:06:12] mission we're going to switch this over to a burst something like 16 to 20 particles.
+[00:06:21] And down in our shape we're just going to switch this to a hemisphere and we're going to rotate it
+[00:06:28] negative 90 degrees on x so that it's facing up. Now down in our velocity over lifetime
+[00:06:39] we're going to give these a bunch of upward momentum so seven on y to start with.
+[00:06:47] We're going to get very impatient and switch our duration to two
+[00:06:54] and we're going to give these a little bit of radial motion something like a range of
+[00:07:01] 8 to 12 so that we've got a whole bunch of upward velocity like you would get from explosion also
+[00:07:09] some outward velocity to really emphasize the hemisphere shape of this. And then we're just
+[00:07:16] going to hop back up into our defaults and we're going to set our gravity modifier all the way to
+[00:07:20] three. So this is what we really want to start with here for what we want out of our collision.
+[00:07:30] You just want this nice big upward burst and then for gravity to really kick in and pull these down
+[00:07:36] to the ground. So now if we go down to our collision and enable that then heckle is going
+[00:07:45] to happen to start with because these still don't have anything to collide with. We don't have any
+[00:07:50] planes in here. We don't have a world for them to bounce off of so we need to give them something
+[00:07:57] to actually collide with. So we're going to hit the plus sign down below that empty list
+[00:08:04] and because I don't have anything custom that I want these to bounce off of I'm going to go
+[00:08:08] ahead and hit the extra tiny plus sign over here and that's going to automatically create this
+[00:08:14] plane parented underneath the debris and that's what this will now bounce off of. Now this isn't
+[00:08:23] doing anything super obvious right off the bat. You can see some stuff bouncing off in the corners
+[00:08:29] there every once in a while which makes me think that the offset on this is really weird.
+[00:08:34] So if we just jump down to this then sure enough we've got
+[00:08:42] a weird offset in z and we've got a weird rotation in x so we're just going to
+[00:08:46] disable those and now you can see these starting to act like a bunch of happy little ping pong balls.
+[00:08:53] If we jump back up to the debris emitter then this also apparently fixes a bug where the plane
+[00:09:03] won't draw until you click off of it. So now we can see our plane. Our stuff is bouncing around.
+[00:09:13] You can see out of the edges here they're colliding with the plane even beyond the bounds
+[00:09:21] of the plane that are being drawn. So cool thank you Unity. That's helpful for us because we want
+[00:09:28] these to bounce no matter what. And just to show off a couple of places that you can start tweaking
+[00:09:36] these we can do things here like add some dampening so that they lose momentum each
+[00:09:42] time that they collide. We can also do things like just cut the bounce amount so that they don't
+[00:09:49] bounce quite so high and we're going to go ahead and switch our visualization from solid to grid
+[00:09:56] just so that's a little bit less loud and that's your basic bouncy collision.
+[00:10:07] So with those two out of the way let's hide those for a bit and again let's go up and start making
+[00:10:14] our explosion. So something I wanted to note really really quickly on the explosion in both
+[00:10:23] this emitter here and in my original explosion here I've got this completely empty emitter at
+[00:10:32] the top and there's kind of a two-part reason for this. Part of it is just once I've got an effect
+[00:10:40] that's getting a little bit more complex like this I like having an empty parent for the
+[00:10:46] entire thing because that just creates a very easy route for everything to live under and I can
+[00:10:53] offset things, rotate things, whatever I need to do with the transforms without it impacting
+[00:10:59] everything that's underneath it. So I could very reasonably have this entire thing parented under
+[00:11:06] innate radius and not have this empty explosion emitter exist at all.
+[00:11:15] That would be very similar to you know what we've done with every effect up until now where it's
+[00:11:20] just parented to you know some part of the hit impact some part of the heel anything like that.
+[00:11:28] For simpler effects like that where there's not a whole lot of emitters running around
+[00:11:34] that's totally fine. It's also technically fine for this but if I need to offset anything in any
+[00:11:43] of these or anything like that then I'm going to have to counter offset everything that's
+[00:11:47] parented underneath it and it's just kind of a pain in the butt when it happens so
+[00:11:56] hence where that habit comes from. Now that part you could just do with
+[00:12:01] an empty game object up here. The reason why I have a empty particle system up here is because
+[00:12:10] Unity won't play everything parented underneath this when I hit play or restart or anything
+[00:12:17] unless the top level has a particle system on it. So if I remove this component real quick
+[00:12:24] and then restart this then it does one piece of it and which piece it plays isn't always even
+[00:12:37] super consistent. So if your preferred workflow is to be selecting the pieces that you want to be
+[00:12:51] previewing and just have it playing those pieces then not having a particle system
+[00:12:57] up here is actually great because that means that you can just select whichever chunks you want and
+[00:13:03] preview it in those chunks without having to like you know disable bits over here or anything like
+[00:13:11] that. But for me personally just workflow wise I really really like being able to
+[00:13:24] preview the entire thing really easily so that's why I've got the particle system up here.
+[00:13:29] That's why I've got the particle system up here just so I can select
+[00:13:33] any old place within this stack and it'll play the entire thing for me.
+[00:13:40] Totally a workflow preference. No wrong answer. VFX is chaos. Do what works for you.
+[00:13:49] Back down to our explosion. So the first part of this that I am going to be
+[00:13:57] blocking in is our radii and we're going to be using this to create a kind of wind-up timer for
+[00:14:07] the whole thing so it's pretty akin to a countdown timer a bomb fuse anything in that sort of vein.
+[00:14:17] So we're going to go ahead and in our renderer we'll just assign an octagon there and we're
+[00:14:26] going to switch this over to a horizontal billboard because we want this to lie flat
+[00:14:31] along the ground so that it is both defining the area that is going to be affected by the blast
+[00:14:37] and always really really easy to see that countdown. And then in our mission
+[00:14:46] we're going to just burst one of these then up in our lifetime we're going to switch that
+[00:14:57] to 1.5. We're going to get rid of the speed on this and because I am impatient we're going to
+[00:15:06] switch the duration to two instead of five for now and then down in our start size we're going
+[00:15:17] to switch that to five so that this is defining that entire area that the blast will eventually
+[00:15:24] affect. Down in our color over lifetime just going to go ahead and give this a little bit
+[00:15:36] of a fade in not a ton got this like 10% of the way through and then we're going to start this out
+[00:15:43] at just a really rich pure red and we're going to take it down to something that's fairly obvious
+[00:15:55] transition between colors so we'll do like a bright gold there
+[00:15:58] and we'll just go ahead and drag that red in so that it doesn't start the switch from red to gold
+[00:16:06] until it's finished fading in. So this gets us one axis where we've got a clear change over
+[00:16:15] the course of its lifetime it's going from red to gold it's implicitly getting a lot hotter
+[00:16:21] stuff like that so that's one axis for us. This by itself doesn't really start to convey danger yet
+[00:16:34] and it's also always just a more fun if you have this going on on a couple of different axes
+[00:16:41] and b not everyone is going to be able to see the difference between red and yellow super easily
+[00:16:49] so having some other sort of way of counting down helps everyone better at the game.
+[00:16:57] So we're going to use a rotation over lifetime to get a shape change in there as well.
+[00:17:05] We're going to switch our velocity over to a curve and we're going to switch that to just one of
+[00:17:13] those pretty gentle slopes so that it's going to start out pretty slow and then it's going to
+[00:17:23] really ramp up over time this is going to give us something that's a lot more dramatic and noticeable
+[00:17:30] compared to just this linear increase. The other thing we're going to do here is we're going to
+[00:17:38] switch that 45 all the way up to 400 so that that change is extra extra obvious.
+[00:17:46] At this point if you jump between a linear curve and that ease in curve you start to see a little
+[00:17:53] bit more of where this ease in just gives you some extra drama and makes it a little bit easier to
+[00:18:00] catch that it's really really speeding up in what is still a relatively short 1.5 seconds
+[00:18:07] especially in the middle of a game where there's like 50 other things going on.
+[00:18:13] And we can exaggerate this even a little bit more by just adding another key in here breaking it
+[00:18:21] and just giving that an even more dramatic uptick at the end there.
+[00:18:30] So we really really start to get that speed up towards the end.
+[00:18:34] Now this is everything that we're going to do on this for now even though this isn't
+[00:18:41] our entire radius animation because I'm going to split the radius up into two chunks.
+[00:18:50] The reason for this is just because for things like this that are really really defining
+[00:18:57] large swaths of our timing for something where timing is so heavily influenced by the gameplay
+[00:19:04] and the mechanic and if I have a bunch of kind of even slightly complex animations on this if I have
+[00:19:15] a rotation that stops really suddenly, spoilers, or I have some pretty dramatic shifts in its size
+[00:19:26] over life, its color over life, any of those sorts of things, then if the duration of this
+[00:19:32] knit radius switches to even something like two then that would impact all of my curves that I had
+[00:19:40] going on down here and I would have to go in and update every single one of these if I just wanted
+[00:19:49] if I just wanted that wind up period to be faster but for the hold period to stay the same length
+[00:19:57] and that's just a really really kind of miserable way to tune timing so by breaking this up into two
+[00:20:04] sections all we're going to have to do is mess with the lifetime and the delay on either of
+[00:20:13] these pieces in order to tweak the timing and everything within the lifetime of each
+[00:20:21] of those pieces we won't have to update update update with every single one of those changes
+[00:20:28] if we really really needed to optimize the heck out of this and have as few emitters as humanly
+[00:20:33] possible then once we had this entire thing done and we knew that the timing was just like chef
+[00:20:39] kiss good to go then we could take all of the animations and the lifetime from one of these
+[00:20:50] and add it onto the other one and delete whichever one we have stolen everything from
+[00:20:56] but in that situation we only have to do that once at the very end and only if we
+[00:21:01] really need this to be like perfectly optimized as opposed to noodling it over and over
+[00:21:08] as we try to fine-tune our timing here so for our hold radius where we want this to
+[00:21:17] feel like it's just a continuation of the innate radius we are going to set the start delay to 1.5
+[00:21:27] so that it just picks up where the init drops off and then we're going to switch our start lifetime
+[00:21:34] start lifetime to 0.25 start size stays the same because we want it to feel like it's segueing
+[00:21:44] we're going to disable our color over lifetime and our rotation over lifetime for now
+[00:21:49] because what i actually want for this to do is once we've hit the end of the timer i want this
+[00:21:57] to just freeze and snap into place you'll hear this called a hold frame a lot you'll see this
+[00:22:01] a ton in movies in anime in a lot a lot of games having this sort of moment of like a freeze or a
+[00:22:11] pause even if it's just a couple of frames is really really going to help exaggerate whatever
+[00:22:17] motion happens afterwards so this is going to add a little extra bit of anticipation and make the
+[00:22:25] explosion feel that much bigger and more dramatic for it so we get rid of the rotation we'll turn
+[00:22:34] our color over lifetime back on and get rid of our fade in and because we want this to be continuing
+[00:22:42] really precisely from the init radius we're going to get rid of this red pull our gold there all the
+[00:22:50] way over to the end here and since this goes all the way up to the explosion we're going to make
+[00:22:56] the end point there this pure bright white and then just to make this even a little bit more
+[00:23:03] dramatic in the size over lifetime i'm just going to flatten that to start with and i'm going to
+[00:23:13] grab this end key and just pull it down a little bit so that we not only have that freeze in the
+[00:23:21] rotation but we have this little bit of a shrink that's kind of like that like lock-on moment
+[00:23:28] and that's all we need to do on there for now the last major part of
+[00:23:37] blocking in all of the timing for our explosion here is going to be bringing back our best new
+[00:23:43] friend hemisphere so we'll just drag that under the explosion and if we scrub through this and
+[00:23:56] you can see that the radius already kind of locks to the base size of this which is handy but we're
+[00:24:05] going to put a bunch of the same delays on this to match it up with where the explosion should
+[00:24:11] actually be happening and then we're going to be animating the heck out of it so i'm going to
+[00:24:16] switch both of my radii back to a duration of five so we've got everything looping nicely
+[00:24:22] together again down in the hemisphere i'm going to go ahead and delay this to
+[00:24:32] 1.5 give it a lifetime of two and the start size of 2.5 and i'm going to go ahead and give this
+[00:24:42] a real funky size over lifetime animation the only thing that we really need out of this
+[00:24:54] motion wise is for this to expand and give us that area of effect and because this is an explosion
+[00:25:04] we're going to give this a very similar curve to have our hit impact where we scale this
+[00:25:11] most of the way up something like 0.8 really really quickly so that you get that really
+[00:25:17] aggressive burst and then we'll just let it hang out and linger a little bit with just a teeny
+[00:25:25] tiny bit of motion to stop it from feeling like weirdly static for the rest of its lifetime but
+[00:25:34] if we reactivate the rest of this and put that delay back in there
+[00:25:42] then this doesn't get us nearly as much drama or nearly as much integration with the rest of this
+[00:25:49] effect as i want it to and so we've got this whole hold radius that's getting completely lost under
+[00:25:58] it stuff like that so i'm going to take these keys and just drag them over to about 0.2 in this case
+[00:26:09] and if i restart and pause and just scrub through then what i'm looking for is for this to pop
+[00:26:21] just a little bit before that whole ring vanishes i'm going to drag this into about two
+[00:26:37] and then i'm going to add a key here at the very beginning and this is just going to start with it
+[00:26:44] at full size let me break this one and grab the other handle real quick too
+[00:26:54] all right there we go now right now this looks kind of goofy but what i want to create here is
+[00:27:14] a this little bit of an intake on it so this is going to really really nicely complement
+[00:27:21] that little bit of a pop inward that we have on the hold and this is also going to be another
+[00:27:29] thing that makes the explosion outward even more dramatic at the end and it gives us a little bit
+[00:27:39] of a nice overlap between these elements so that you don't just have rotation freeze explosion you
+[00:27:47] start to have overlaps between parts of this and you get some really really nice nuanced
+[00:27:53] animation out of that now again in the spirit of complementing that hold frame
+[00:28:02] i'm going to add two more keys here and i'm just going to flatten the handles on
+[00:28:09] both of those and these ones i'm just going to actually kind of noodle on a little bit
+[00:28:28] to get them to the point where we've got that pop inward they they complement that radius
+[00:28:38] really nicely so boom freeze and then we have our hold and then right about where this starts
+[00:28:46] really really shrinking in that's where we want to time with the hold radius actually vanishing
+[00:28:55] so that everything kind of leads into and leaves room for this explosion at the end
+[00:29:05] so you can see kind of how much more interesting of a motion that's already getting us
+[00:29:14] and we'll select all of these and switch the duration to something like
+[00:29:18] three so that everything still has room all right now second half of our hemisphere here
+[00:29:29] is our color here we're going to really really try to complement everything that's going on
+[00:29:38] motion wise so in the color section that means that we want to have some of these really really
+[00:29:45] dramatic transitions between colors so i'm going to go ahead and switch this to a nice dark orange
+[00:29:54] at both edges so that we start a little bit cooler and then we're going to have this heat up to
+[00:30:13] a nice bright gold right up until it just pops over to that hot white and then here
+[00:30:25] on the back side where we've got a lot longer for this to kind of cool down and dissipate
+[00:30:31] will give that gold a lot more space oh we're just going to do a whole bunch of scrubbing
+[00:30:48] to make sure that all of those elements are syncing up so pop in great shrink down
+[00:30:59] i'm going to go ahead and add my alphas in here before i forget so add a fade in at the beginning
+[00:31:10] and then we'll give this a very long fade out at the end all right now now we'll do a bunch
+[00:31:18] now now we'll do a bunch of scrubbing so start with now we've got this pop in
+[00:31:27] where it's also fading in at the same time and i'm not super duper stoked with
+[00:31:40] where the timing on these two is matching up so i'm just going to go ahead and down in here
+[00:31:54] hit that lock a little bit sooner all right since we're basically zeroed out here i think i want to
+[00:32:26] just switch our start delay over to 1.45 instead of 1.5 this is just going to give us a little bit
+[00:32:36] more room for that kind of in order to happen so now if we scrub dome starts coming in
+[00:32:48] right about when everything is starting to freeze and then it can have that time to pull inward
+[00:32:56] along with everything else and everything can hit that freeze point at the same time so we'll just
+[00:33:04] do that a teeny tiny bit sooner and i think i want to have that be the point where this actually hits
+[00:33:21] full opacity as well scrub scrub scrub scrub close enough for now and then if we scrub through
+[00:33:34] the rest of this then this starts to shrink down because i moved it forward a little bit
+[00:33:45] now the radius is hanging out for a little bit longer and i think instead of delaying this
+[00:33:54] i think instead of delaying this what more fun thing to do would be is jump back over
+[00:34:01] to our hold radius real quick and in our size over lifetime there let's just add
+[00:34:10] a key here so add one more key that's really really flat on this so that we've still got
+[00:34:22] that hold and then add another key at the end and shrink that one in so now if we get our timing
+[00:34:31] just right there yeah then we'll have all of the pieces of this shrinking in at the same time
+[00:34:39] and it'll just complement it even that much better i'm going to cheat this curve a little
+[00:34:45] bit all right back over to our hemisphere the other piece that i want to make sure
+[00:34:58] is really really syncing up on this is making sure that this is where we hit
+[00:35:10] that really nice bright white so i'm going to drag this pair over bit by bit until we just kind of
+[00:35:25] find about where no about where the radius is starting to turn white as well so we get some
+[00:36:00] really nice cohesion between those two so this is probably a good spot and then just to make sure
+[00:36:16] that that part where it's turning white hot is really dramatic we'll just pull these two together
+[00:36:23] so that that stays a really really finite point in time where it's this white hot before it starts
+[00:36:29] really cooling off and then we can just make this cool off even more dramatic by pulling this yellow
+[00:36:41] in a whole bunch pulling this orange in a whole bunch and then we'll give this a little bit more
+[00:36:49] of a red as it's really fading out and this really rapid rapid shift through kind of cooling colors
+[00:37:02] is going to help us emphasize again that curve that we've got going on down here where it's got
+[00:37:10] this really really intense burst and then this really really gradual fall off and this is
+[00:37:17] something that you're going to see a ton of in real life explosions and stuff like that where
+[00:37:21] there's this massive initial burst of energy and then between the energy source being gone
+[00:37:28] pretty much instantaneously and how much air resistance and stuff like that it's going to hit
+[00:37:34] you're going to get this massive expansion followed by this really really dramatic loss
+[00:37:39] of energy and everything kind of starting to slow down cool down really really quickly so
+[00:37:45] this curve right here and this gradient right here both help to emphasize that and this
+[00:37:57] is the body of our explosion now so at this point there are a couple things that i want to
+[00:38:04] add in on the tail end let's go ahead and bring this in set its duration to three so that it's
+[00:38:13] matching everything else in here and first early i'm just going to go ahead and hit restart and
+[00:38:22] pause and i'm just going to scrub through here again to see kind of where i want this to start
+[00:38:29] spawning in at probably around like one point one point eight one point five that's far enough into
+[00:38:43] the explosion to where it's not going to feel like the debris is weirdly big but it'll still
+[00:38:50] feel like it's part of that initial blast so let's give that a go hit restart see what we think all
+[00:39:00] right yeah i think that winds up working pretty well and the other part of this that's really
+[00:39:11] important i'm checking this by scrubbing through it you can also just check it by
+[00:39:16] you know opening the shape do both honestly uh but the other thing i'm checking for is just to
+[00:39:22] make sure that where this debris is emitting from feels like it's riding the shock wave of
+[00:39:31] the hemisphere like this is getting this is getting pushed out by the force of the explosion
+[00:39:37] so you want it to kind of be like riding the edge of that initially before it just gets
+[00:39:45] flung all over the place so we're doing good there and from here we can just do
+[00:39:56] some little bits of refinement on our debris so we already set up a whole bunch of our stuff back
+[00:40:07] when we initially gave did it let's set our start speed to one just so the motion that we gave it on
+[00:40:13] purpose is doing a little bit more and we're going to add a limit velocity over lifetime
+[00:40:24] speed of one is fine and we're going to set the drag to something like
+[00:40:28] 10 and all this is doing is just stopping it from flying quite so far out
+[00:40:35] this is kind of more of a depends on what look you're going for kind of thing
+[00:40:44] but what i kind of like about it is that it keeps this a little bit more self-contained
+[00:40:52] to the area of the explosion itself so it's cluttering up less of the screen if you disable
+[00:41:00] the skin you can see it's getting flung just super super far out if we re-enable this then you can
+[00:41:06] see a lot more of it falls in the kind of immediate area of the explosion keeps a little
+[00:41:12] bit more self-contained obviously there are tons of other things you can do here you can vary the
+[00:41:19] amount of radial motion a lot more or stuff like that um i actually kind of like that too this is
+[00:41:27] a change that is very specific to my goals for this where i want this explosion to feel really
+[00:41:32] powerful but still relatively self-contained if you wanted an explosion that was just all about
+[00:41:38] how much power and force and drama i had behind it then you might not have this limit in here or
+[00:41:44] yours might be set up very differently so that you are getting pieces that were just flying way out
+[00:41:50] to anywhere take or leave that one it's whatever works for you is what matters i'm going to go
+[00:41:58] ahead and add a quick little size over lifetime so we will do that rapid expansion just to hide
+[00:42:14] them coming in a little bit and we're going to give them a little bit of an increase in motion
+[00:42:23] for most of their lifetime just so that they don't feel completely static this is um not how rocks
+[00:42:31] work in real life spoilers but it works for what we want and then i'm going to give them a pretty
+[00:42:39] long scale out at the end because what i really want here is just for them to kind of be able to
+[00:42:47] be able to go away fairly quickly and again you know declutter the screen
+[00:42:54] without it being really really obvious so hence why it's a little bit longer makes it a little
+[00:43:01] bit slower and quieter and makes it easier for your eye to be elsewhere and finally for our color
+[00:43:10] over lifetime we're just going to start these out at a super duper bright gold and we're going to
+[00:43:22] pull them off to kind of a slightly desaturated kind of red orange
+[00:43:32] and then down into just kind of a rock brown towards the end here so that gives us
+[00:43:45] in the case of these ones where i'm kind of thinking of them as you know physical rock debris
+[00:43:50] chunks it gives them a little bit of that magma feeling up front and then they cool down really
+[00:43:57] quickly and then we'll just give them a little bit of a fade out so that they can a little bit
+[00:44:08] less than that because we want the bouncies but this will let them just have one more way to be
+[00:44:15] a little bit quieter when they are exiting the game screen in a very not rock fashion
+[00:44:27] so that's everything on our debris and looking at this so far one thing that's kind of standing out
+[00:44:34] to me is that i'm not really getting as much drama as i want out of this section color wise
+[00:44:44] and we've also got a pretty big mismatch in parts of the radius versus the hemisphere here
+[00:44:54] but i really don't want the hemisphere to be turning bright white this early because
+[00:44:59] that's going to really kind of de-emphasize that really dramatic pop so i think for my
+[00:45:11] initial radius here i'm actually going to make this a lot less dramatic so we'll just kind of
+[00:45:23] take this to like a medium orange and then i'm going to copy the hex off of that so that i can
+[00:45:35] paste it over to here we'll add that nice bright gold back in later on
+[00:45:47] and now we'll just scrub through to make sure that that transition still works
+[00:45:52] this winds up meshing up really nicely with the orange that we put in the beginning of the
+[00:45:56] hemisphere so that's nice and now all right we have this really nice match through here
+[00:46:02] and as these start shrinking in then we start to get a much much better match
+[00:46:09] on that bright white so watch this whole thing through that winds up integrating a lot better
+[00:46:18] awesome and the last two things that i want to add on to the explosion end of this are
+[00:46:28] some cracks and some smoke the cracks are going to be super duper simple we're just going to
+[00:46:34] duplicate one of our radius emitters nice because this will also be a very basic horizontal
+[00:46:45] billboard and of the stuff i've got i'm going to go ahead and use my flare material
+[00:46:57] and i want this to appear and be revealed underneath the explosion so
+[00:47:04] so we're going to need to fix that i'm going to scrub scrub scrub this is probably a pretty
+[00:47:18] good place for the cracks to start appearing i could also just pop them in like right here
+[00:47:29] so let's go ahead and set the delay on this to 2.2 and then we'll give this a really long fade out
+[00:47:55] disable the rotation and at this point we start really needing to extend everything
+[00:48:07] back to a duration of five so we're going to switch this to be
+[00:48:13] 1.8 so that it totals out to five so this isn't hanging out afterwards
+[00:48:20] and now we start to get the nice reveal from those cracks this has obviously got something
+[00:48:40] funky going on because i don't want the cracks to be showing up this dramatically underneath
+[00:48:48] the hemisphere so part one of how to fix this we're just going to
+[00:48:57] jump down into our sorting fudge and set that to one everything else is a zero so now it'll draw
+[00:49:04] under the hemisphere and since it's coming in when the hemisphere is fully opaque that just works the
+[00:49:16] other thing that we are going to do just to wrap this up is give it a really long fade out
+[00:49:29] and get that color gradient on it well i'm going to bring this in a little bit brighter to start
+[00:49:52] with just so this can have a slightly different pull down than the stuff on top of it so heat
+[00:50:07] adjusting this so that those cracks retain heat for a little bit longer than the dome
+[00:50:28] that's in there i'm good to go on the cracks the last thing that i want to add into the
+[00:50:38] end here is just our smoke so for this one i'm going to go ahead and duplicate the debris
+[00:50:49] just because it's easier than starting from scratch but we can delete the plane
+[00:50:55] transform out of there and we can disable the collision because we're not going to be using
+[00:51:01] either of those in this case now this is another one same as the debris i'm going to be emitting
+[00:51:10] it at pretty much the same time and i still want it to be kind of riding the edge of the hemisphere
+[00:51:16] this is another thing that's going to be getting pushed out by that initial shock wave so
+[00:51:28] we're going to keep the same material but we're going to let this hang out for
+[00:51:35] a lot longer and a way longer range of time so anywhere between one and three point two seconds
+[00:51:43] and these are going to be much bigger puffs down in our emission we're just going to
+[00:52:00] randomize this a little bit and next up in our shape this is one of the major ones
+[00:52:09] we're going to switch this back to a cone and we're going to have no angle on it we just want
+[00:52:17] this to be forcing smoke outward in a ring and if i scrub this to 1.85 then we can figure out
+[00:52:32] roughly what we want the radius on this to be we'll start by trying out one
+[00:52:38] down in our arc mode we're going to switch from random to burst spread this is just going to give
+[00:52:43] us a nice even distribution of smoke around the ring based on that burst and instead of emitting
+[00:52:49] from just the base we're going to emit from the volume and we're going to reduce our length to
+[00:52:58] point two so that we just have a little bit of height variation in these see how that winds up
+[00:53:10] see how that winds up looking we're still giving it a bunch of upward velocity so
+[00:53:17] weird for now so we'll call that shape good for a second and now we're going to hop over to our
+[00:53:27] velocity over lifetime we're going to get rid of all of this upward motion this isn't strictly
+[00:53:35] physically accurate but it keeps things simple for now we're going to get rid of our gravity modifier
+[00:53:51] up in our velocity over lifetime we're just going to bring those radial velocities a lot closer
+[00:53:57] together something like five and six so that they're really adhering to that ring to start
+[00:54:03] with and then we'll go ahead and just add a teeny tiny bit not rotation a teeny tiny bit of
+[00:54:16] gravity back into this something like now point oh one two point oh five
+[00:54:25] just so they get a little little bitty bit of downward drift so that they have a little bit
+[00:54:31] of weight to them which is really nice for a really like kind of heavy smoke like this one
+[00:54:38] and then down in our limit velocity over lifetime we're going to go ahead and get rid of those
+[00:54:44] drag we're going to switch our speed to a curve and we're going to add one extra key to this
+[00:54:54] and drag this just way way down fairly quickly so that the speed that we max out at changes
+[00:55:05] pretty quickly and we're going to set our max speed to eight and then we're going to switch
+[00:55:13] our dampen from zero to one so that anything that's over that max speed starts getting its
+[00:55:21] speed limited really really fast so this is going to again just help us out with having
+[00:55:32] more of that initial ring and then this really really kind of fast drifty fall off
+[00:55:44] and from here we are just going to adjust our colors so that we get something that's
+[00:55:56] nice and smoky feeling so we'll just steal all of our debris colors and then
+[00:56:02] make them a little bit grayer at the end and we're going to start fading these out
+[00:56:08] much much more quickly and i'm going to go ahead and reduce
+[00:56:24] the top lifetime on these a whole bunch just so that we don't have them shifting color
+[00:56:31] at quite such dramatic intervals for something like this if i wanted some smoke to just hang
+[00:56:39] around for a really really long time and for some of it to fall off a lot faster this is a
+[00:56:45] case where i would probably again just use two emitters and just animate the size over lifetime
+[00:56:53] the limit velocity the color stuff like that differently for each one so that they both lost
+[00:56:58] all of that glow around the same time both hit about their max size around the same time but
+[00:57:06] then had much much different fall off durations and speaking of our size over lifetime
+[00:57:15] you're just going to go ahead and go on the velocity simplify this a whole bunch so we'll
+[00:57:23] get rid of that last key and we will just burst the heck out of the scale of these
+[00:57:32] and i'm just going to set our scale to 2.4 instead of one here so now we're getting those
+[00:57:39] nice nice big smoke puffs they're traveling in this really nice clean initial ring
+[00:57:48] and i think i want to break up that ring a little bit more as time goes on so we're going to be
+[00:58:00] so we're going to be real chaotic
+[00:58:07] go back to our limit velocity here and we're going to switch this to a random between two curves
+[00:58:14] and we're just going to put a little bit more variation between those curves so that we
+[00:58:32] get a little bit more space between them over time so this winds up giving us that nice initial
+[00:58:42] ring but a little bit more organicness afterwards so that's cool so this is the entire
+[00:58:51] end point of the explosion we've got the whole actual explosion explosion in there now i want
+[00:58:57] to do a little bit more with the wind up before we just call this good to go
+[00:59:02] so i'm going to go ahead and hide all of these not wind up sections just so we can focus a little
+[00:59:09] bit more easily and we can switch the duration on these back to two again as is tradition and
+[00:59:20] now i'm going to go ahead and add two things in here just to really really exaggerate
+[00:59:30] and add some nice varying details into this build up so the first thing that i'm going to do
+[00:59:43] is i'm going to add a knit glow into this this one's nice and easy we're going to switch this
+[00:59:52] back to a regular billboard swap this to a glow material and now we're going to for starters jump
+[01:00:03] up into our emission rate and set our rate over time to a curve going to set this to five and then
+[01:00:19] going to set this to five and then drag the end point of this over to like point nine so that it
+[01:00:31] cuts off pretty quickly and now you can see already we start to get a little bit of a flicker here
+[01:00:40] we're going to leave this initial one just so we always have something to start with
+[01:00:43] right and from here now we're going to do a bunch of goofy stuff up in our initialization
+[01:00:52] so we're going to set the start lifetime of all of these to 0.5 and we're going to set our start
+[01:00:59] size to a curve and curves up here curves and gradients up in the initialization area you can
+[01:01:12] see already here behave a little bit differently these curves operate instead of over the course
+[01:01:20] over the course of the particle's lifetime like any of the over lifetime things
+[01:01:25] these curves look at the duration of the emitter and that's what they're normalizing along zero to
+[01:01:31] one so right now the size of these is going to change nothing at the beginning of the emitter
+[01:01:42] four by the very end of the emitter so you wind up getting this nice sort of increase in the size
+[01:01:52] of the particle we're going to do the same thing down in start color we're going to switch this
+[01:01:56] to a gradient and we're going to use the same old gradient in there though we pretty much did for
+[01:02:04] our innate radius so a little bit more gold towards the end since these are going to hang
+[01:02:14] out for a little bit longer and you start to get this really really fun build up now we're
+[01:02:27] just going to go ahead and in our color over life we're going to simplify this since we really want
+[01:02:35] these colors up here to show through and we're going to have this fade in and a little bit of
+[01:02:42] fade out so you start to get this really really nice clear pulse and get rid of that rotation over
+[01:02:49] lifetime and in our size over lifetime we're just going to tidy this up into a little bit more of
+[01:03:02] whoop table that add one more key in here and now this curve one gives us even more kind of
+[01:03:23] that flashing pulse so this gives us this really nice kind of pulsing core to this explosion wind
+[01:03:30] up really helps to sell that this is getting kind of increasingly dangerous and winding up and up
+[01:03:35] and up gives us an interesting difference in shape language clear focal point stuff like that
+[01:03:42] because our curves and gradients for start size start color start lifetime if we wanted to mess
+[01:03:50] with that everything like that are keying off of the duration here we have a couple different
+[01:03:56] options for how we can make sure that this really syncs up with the radius because what we ultimately
+[01:04:02] want is for these to vanish really quickly once we hit that hold frame so right now they're hanging
+[01:04:10] out a little bit too long the first option here is that we can reduce the duration to 1.5
+[01:04:20] since that puts it out of sync with our other durations we would also need to disable looping
+[01:04:25] on that and this kind of gets into a situation that on the one hand is really nice because now
+[01:04:36] your zero to one in anything up here is just your actual zero to one so it's really really nice for
+[01:04:44] that the part of it that kind of sucks is that since we had to disable looping on this you can
+[01:04:50] see as parts of this do keep looping now we have to hit restart every freaking time that we want to
+[01:04:59] see the glow in the middle so if we want those all to match up then we would set that to point two
+[01:05:07] and we would just counter animate for that in all of the curves that care about the duration
+[01:05:15] this is a point where if we were going to chase that path then i would also probably switch
+[01:05:22] everything here back to the duration of five that the entire effect is at because otherwise
+[01:05:28] i'm going to have to counter animate all of these again once i turn everything back on
+[01:05:34] so for this one i'm just going to disable the looping and switch it to 1.5 and now if we scrub
+[01:05:45] if we scrub through this then you can see we lose that last flow right about
+[01:05:52] when this whole thing freezes so that works out super well for us now for our last thing
+[01:06:01] that i want to add to this i want to give us a nice moat intake on this so this is going to be
+[01:06:09] a really nice little tertiary small detail and it's going to be one more type of
+[01:06:18] motion exaggeration all those good things in the wind-up of this so first off we're
+[01:06:25] going to switch our material over to a dot just so we have something a little bit sharper in there
+[01:06:29] we're going to keep the start colors pretty similar we're gonna move a little bit further
+[01:06:40] back into the orange so we don't get quite so bright and we're going to switch our start size
+[01:06:53] back to just being a little fashioned random between two constants we'll do 0.05 0.07
+[01:06:59] for our start lifetime we are going to do 0.35 0.45 and we're going to hop down and tune
+[01:07:15] a couple of things in here real quick one we're just going to go ahead and get rid of the color
+[01:07:21] over lifetime and get rid of our size over lifetime we're going to switch our emission
+[01:07:32] around so we're going to have this be a gradually increasing emission rate something like two five
+[01:07:47] let's see how that winds up looking let me put this back on looping for a bit back at two for
+[01:07:53] a bit all right so we start getting a little bit of a speed up on here in the shape we're going to
+[01:08:03] switch this over to a hemisphere and we're going to give this a really really big radius rotate it
+[01:08:12] so that it's along the ground like everything else and then we're going to remove all of the
+[01:08:18] radius thickness from this so these are only emitting along the shell of this so what this
+[01:08:25] sets us up to do now is pull all of these moats into the center like this thing is absorbing
+[01:08:30] energy let's go ahead and hide that like this for a sec and we're going to go up and tweak our speed
+[01:08:49] so whoop so for our start speed we're going to go ahead and set this to nine to start with
+[01:08:59] and then we're going to set this from zero down to negative nine at
+[01:09:07] about the halfway point so this starts to get us that intake that we want there
+[01:09:21] and at this point we can also go ahead and
+[01:09:24] jump down and where we removed that size over lifetime we're going to add a size by speed instead
+[01:09:31] so we're going to put these on separate axes and then have a random between two constants
+[01:09:41] and we're just going to set our second x to 0.6 second y to six leave everything else at one
+[01:09:50] and now if we jump down into our renderer and our render mode and switch these to stretch billboards
+[01:09:57] now we really start to get something nice here now we can just go ahead and start fine tuning
+[01:10:10] those speeds so make sure that it has at least a little bit of initial speed so that you're
+[01:10:14] getting that intake and then we're going to go ahead and play around with those start lifetime
+[01:10:27] so that they aren't ever surviving past kind of that central point and we're going to go
+[01:10:32] with the duration approach again on this stuff since we already committed to it in the glow
+[01:10:36] so disable the looping switch the duration of this to like 1.3 and then if we restart
+[01:10:46] that starts to get us a really really cool last bit of the intake and the
+[01:10:52] very very lasty bit that i'm going to add in here is in the emission i'm going to
+[01:11:03] swap this burst that i left lying around to burst at 1.25 and i'm going to switch this to something
+[01:11:12] like 10 to 12 particles and now we get that very last bit of an intake right at the last moment
+[01:11:24] of this whole thing so now if we re-enable everything down here switch all of our durations
+[01:11:43] that aren't intentionally set to something weird to five and then zoom out on this a little bit
+[01:11:50] we've got a pretty cool base to an explosion on our hands and this is using a lot of different
+[01:11:58] techniques this is getting to be a pretty nuanced effect where you've got this really multi-layered
+[01:12:03] intro that is warning you about that countdown in a bunch of different ways while also telegraphing
+[01:12:09] the eventual size of this explosion you've got that really nice dramatic hold frame to really
+[01:12:17] exaggerate the explosion afterwards and then you've got the explosion itself with all these
+[01:12:24] different elements that are falling off at different times you've got lingering ones you've
+[01:12:28] got really quick ones you've got that bouncing debris so thanks for powering through this whole
+[01:12:35] thing with me i hope this is a really really good base for anything else that you want to
+[01:12:42] play with in this space turn this into this is another of those points where you just unlock
+[01:12:49] a bunch of stuff to really start kind of going wild getting super creative getting a little
+[01:12:55] bit more complex so have fun with it and i hope that it helps you make awesome stuff
+[01:13:02] i will see y'all in the next tutorial cheers y'all

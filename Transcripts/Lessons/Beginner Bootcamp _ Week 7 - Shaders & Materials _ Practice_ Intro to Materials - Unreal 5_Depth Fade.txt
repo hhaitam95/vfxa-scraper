@@ -1,0 +1,232 @@
+[00:00:05] Hey, friend, and welcome.
+[00:00:07] All right, this is our final video for now.
+[00:00:11] It's been a pleasure to have you through this whole course,
+[00:00:14] and I hope you'll enjoy the other videos that
+[00:00:16] are coming after.
+[00:00:18] For now, let's touch on the last core element
+[00:00:22] that you'll find in materials in almost every game
+[00:00:26] you'll work in, apart from some very low-budget ones.
+[00:00:30] It's called Depth Fade.
+[00:00:32] So Depth Fade is a bit of a complicated tool
+[00:00:34] to grasp at start, but all node-based shaders
+[00:00:38] should have access to a node called Depth Fade.
+[00:00:44] What does Depth Fade do?
+[00:00:45] Depth Fade reads the distance between the camera,
+[00:00:49] the object you have where the shader is applying,
+[00:00:52] and what's behind it.
+[00:00:53] And it says if it gives you a value,
+[00:00:57] if the object you're looking at is close or far to what's
+[00:01:01] just behind.
+[00:01:02] So obviously, this works only for transparent materials,
+[00:01:05] and this will give you a bit of an idea of basically
+[00:01:08] what's behind.
+[00:01:09] It can be a bit expensive, but usually it
+[00:01:11] is very optimized for what you want to do.
+[00:01:14] What this will do is that this will remove the pesky seam
+[00:01:17] you will usually see when one of your quads
+[00:01:21] will hit a hard surface.
+[00:01:22] So just to give an example, I will just
+[00:01:25] put this little sphere here, that texture,
+[00:01:30] inside our little shader.
+[00:01:32] I have prepared a little particle system in Niagara
+[00:01:35] just to test it out.
+[00:01:37] And let's throw this into a level.
+[00:01:39] So now we go into the level.
+[00:01:42] I have a little sphere particle here.
+[00:01:47] And if I put it down, you can see
+[00:01:50] that it starts to collide with the ground.
+[00:01:52] And you can see that it creates this little seam here.
+[00:01:57] It's pesky, pesky seam, but we can see a bit everywhere.
+[00:02:01] For some things, it's not a problem.
+[00:02:03] But for others, like if you have one large decal or one
+[00:02:06] large surface, it can be quite of a bummer.
+[00:02:09] So the first thing we want to use for depth fade
+[00:02:11] is to remove this little seam.
+[00:02:13] So I'm going to show you what the depth fade usually does,
+[00:02:17] and then we can work together to try and remove
+[00:02:19] the little seam.
+[00:02:20] So the depth fade node, basically,
+[00:02:24] if you just plug it in raw, you have some parameters
+[00:02:27] to work with.
+[00:02:29] Let's start with just this.
+[00:02:31] It gives you this output.
+[00:02:33] So at 0, it gives you basically a sort of distance.
+[00:02:35] It says at 0, a distance when the two are colliding,
+[00:02:40] basically.
+[00:02:41] Then it gives you black.
+[00:02:42] And then as you go up, as you go away from it,
+[00:02:45] it gives you white.
+[00:02:47] So if you look at it exactly from the side,
+[00:02:49] the distance, the gradient here, is smaller
+[00:02:51] because it's looking at points that are further away.
+[00:02:53] Again, this is based on distance.
+[00:02:56] If you're looking at it from the side, very flat,
+[00:02:58] you can see that suddenly the gradient is way bigger.
+[00:03:02] So what does this mean for us?
+[00:03:03] Well, this means that we can just use this.
+[00:03:06] And here, you have opacity.
+[00:03:09] Here, you have the fade distance.
+[00:03:10] So the distance is basically the gradient we can use.
+[00:03:13] So if I use this here, and let's say we change the distance.
+[00:03:17] So here, the distance here will be, for instance,
+[00:03:21] we're working with a distance of 1.
+[00:03:23] The default dynamic parameters are equal to 1.
+[00:03:26] You'll see that we get something that's
+[00:03:28] very, very small.
+[00:03:29] Basically, what this fade distance value is
+[00:03:31] is the moment where the value becomes 1.
+[00:03:35] So there's always going to be 0 at the point of impact.
+[00:03:38] And then the fade distance is the moment where it becomes 1.
+[00:03:42] So if you say that the fade distance is equal to 1,
+[00:03:44] you will get a very, very sharp edge.
+[00:03:47] It's almost imperceivable.
+[00:03:49] There's this tiny, tiny black element here.
+[00:03:54] But it's very, very, very small.
+[00:03:56] All right?
+[00:03:58] If we say now that our value, we want it to be 1,000,
+[00:04:02] then you'll see that suddenly, we
+[00:04:04] get access to something that is way more faded out.
+[00:04:08] Our gradient is always very big.
+[00:04:10] And it's because it's the point where it's completely white.
+[00:04:14] It's 1,000 distance.
+[00:04:16] So it's very, very big.
+[00:04:18] All right?
+[00:04:18] So from there, how can we use this as a tool in our shaders?
+[00:04:24] Well, we can use it simply to fade out in the opacity.
+[00:04:30] So what happens if we do this?
+[00:04:33] If we just use this as our opacity,
+[00:04:36] this is going to cut down on our mesh
+[00:04:41] and make it transparent when it's closer to the surface.
+[00:04:44] And what this does is that now, we have this is very tame.
+[00:04:49] So I'm going to put back 100.
+[00:04:54] It will just let us have something
+[00:04:56] that's way smoother, that blends better
+[00:04:58] into the background.
+[00:04:59] So here now, if we go back into it,
+[00:05:02] we just see that our mesh is never quite aggressive here.
+[00:05:07] We have always something that blends into the background.
+[00:05:11] There's still the outer part, of course,
+[00:05:13] but it will become transparent.
+[00:05:14] And we never have the pesky scene.
+[00:05:18] So now, if we want to, we can just
+[00:05:21] multiply this by whatever we were doing before.
+[00:05:27] So for instance, here, we were using this little dot.
+[00:05:30] And now, we have access to our little dot that also
+[00:05:33] doesn't do the little seam.
+[00:05:35] Because if it comes to the floor, it will blend instead.
+[00:05:41] So here, we have our little dot that also blends nicely
+[00:05:48] into the ground.
+[00:05:49] All right?
+[00:05:50] I am just going to, in order to demonstrate this better,
+[00:05:54] I'm going to come here, initialize particle,
+[00:05:58] and say that I'm going to set its size is 500 by 500,
+[00:06:06] just so that we have something better to look at.
+[00:06:10] Now, you can see that we have no more seams anymore.
+[00:06:13] Just have our little sphere.
+[00:06:14] We move it up.
+[00:06:15] Our little sphere is completely intact.
+[00:06:18] And then if we put it down, there's no more seam anymore.
+[00:06:22] Fades it in.
+[00:06:23] OK?
+[00:06:24] So this is the first use you can have.
+[00:06:26] And now, I can play around with my value.
+[00:06:28] I can do whatever I want.
+[00:06:30] This will always blend it in.
+[00:06:32] If I put, like, 20, for instance,
+[00:06:35] I'll have something that's close to a seam,
+[00:06:37] but will blend it in smaller.
+[00:06:40] The other use there is from the Depth Fade.
+[00:06:43] So Depth Fade is used all the time.
+[00:06:45] I suggest you really, really look into it
+[00:06:47] and use it all the time.
+[00:06:49] The other use there is of Depth Fade
+[00:06:51] is to use it to outline when there is an interaction.
+[00:06:55] So let me show you that.
+[00:06:56] So here, you can see just our example.
+[00:06:59] You can see a little seam, but it's way less hard.
+[00:07:03] It's softer.
+[00:07:04] So you can use that for smokes and stuff like that.
+[00:07:07] All right?
+[00:07:07] So just play around with the values.
+[00:07:09] The base thing in Unreal is usually enough.
+[00:07:13] This one, just at 100.
+[00:07:15] But sometimes, you want something slightly different.
+[00:07:18] All right.
+[00:07:19] So now, the second element you can do is say, well,
+[00:07:23] you want this texture to show up only
+[00:07:26] if it's on the edge of something,
+[00:07:27] because you want it, for instance, to glow on the edges.
+[00:07:31] All right?
+[00:07:32] So for instance, if you wanted to make a shield, a force
+[00:07:35] field, a force field, you would want it to glow on the edges.
+[00:07:39] To do that, you can just take this and do 1 minus.
+[00:07:44] So you're just going to get the inverse of this,
+[00:07:46] and then you're going to multiply it back.
+[00:07:49] What will happen is that now, we are only
+[00:07:56] taking the things that are at the edges of it.
+[00:07:59] All right?
+[00:08:00] And so our particle will show only
+[00:08:02] if it is close to the ground.
+[00:08:07] So now, our particle is invisible.
+[00:08:08] And now, our particle is visible,
+[00:08:10] because it's close to the ground.
+[00:08:11] So here, for our little quad, it's not very interesting.
+[00:08:14] But let's say now, we want to use it for a sphere.
+[00:08:20] So let's go here.
+[00:08:22] Let's say Renderer.
+[00:08:23] Change our sprites to a mesh renderer.
+[00:08:27] And here, we're going to add a mesh.
+[00:08:29] We're going to take a sphere.
+[00:08:32] Boop.
+[00:08:34] We're going to override material to add back
+[00:08:36] our little material, which is called m underscore depth fade.
+[00:08:52] It's going to prepare our little shaders, cook it all up for us.
+[00:08:56] And then we can work on it and see
+[00:09:00] what we want to do with it.
+[00:09:02] So it's thinking.
+[00:09:14] So here, you can see that we're still missing something,
+[00:09:19] because we're using the dot.
+[00:09:21] And so we can only see it from behind.
+[00:09:23] Plus, our shader is not two-sided.
+[00:09:26] So I'm going to change this very quickly.
+[00:09:28] We can two-sided our material.
+[00:09:31] And we will stop using our little dot.
+[00:09:35] All right?
+[00:09:36] Just going to put it here.
+[00:09:43] So what this will do is that it will
+[00:09:44] create just a little surface on the ground close to the ground.
+[00:09:50] So what that will do is that it will
+[00:09:52] create a sort of little block of force field on the ground.
+[00:09:59] All right?
+[00:09:59] So now, we can see that it gives us only the edges.
+[00:10:05] All right?
+[00:10:06] It looks kind of nice from everything.
+[00:10:08] And if we keep it close to the side,
+[00:10:11] it also gives us the edges like this.
+[00:10:13] So here, you can make absolutely amazing, for instance,
+[00:10:16] ground indicators, because this is always extremely clear.
+[00:10:20] I duplicated it.
+[00:10:22] This is always extremely clear to say
+[00:10:24] this is going to be the distance that it is.
+[00:10:26] It's always going to be there.
+[00:10:27] If you're creating a grenade or an AOE in 3D space,
+[00:10:31] this is absolutely perfect.
+[00:10:33] All right?
+[00:10:35] One last thing.
+[00:10:35] You could combine this with a Fresnel
+[00:10:37] to create a perfect sphere that hits the ground
+[00:10:41] and looks very nice.
+[00:10:42] This is what you find a lot in force fields
+[00:10:44] or in shock waves, 3D shock waves.
+[00:10:47] Anyway, I hope this was interesting.
+[00:10:50] Keep this in mind.
+[00:10:51] Depth fade is always something that is used.
+[00:10:54] Otherwise, it has been a pleasure
+[00:10:56] to have you through all this.
+[00:10:57] And I hope you are appreciating VFX Apprentice so far.
+[00:11:01] And I hope you appreciated those few lessons on shaders.
+[00:11:05] And we'll see each other next time, perhaps,
+[00:11:08] for even more in-depth shader tricks and ideas.
+[00:11:11] In the meantime, I wish you the best of days,
+[00:11:14] the best of journey through VFX.
+[00:11:17] And until then.

@@ -1,0 +1,276 @@
+[00:00:05] Hello everybody and welcome back to lesson nine of texture painting in Krita. Today is our very last lesson together
+[00:00:12] which is absolutely crazy to think about that. We've already done nine different lessons with a bunch of different things that we've learned and
+[00:00:19] this lesson which is about making a tiling trail texture is an excellent way to take all of the different things that we've learned through all
+[00:00:25] of the different lessons that we've done and
+[00:00:27] put them all together into one texture. Sort of like we did with the noise texture last time. Tiling trail textures can be used for
+[00:00:35] physical projectiles and also for magical projectiles, just depending on what the trail looks like and what you intend to use it for.
+[00:00:43] So yeah, here we go. Last lesson. Let's get started.
+[00:00:47] All right, here we go. Let's go ahead and create a new file.
+[00:00:52] All right, gonna stick to my usual 512 by 512
+[00:00:55] but you could also do a 256 by 512 if you want to paint the tiling trail vertically or you could also do
+[00:01:03] 512 by 256 if you want to paint the trail
+[00:01:06] horizontally and you want more space in the trail to to paint the trail shape. I'm gonna go ahead and press create and
+[00:01:15] here we are with our massive airbrush once again.
+[00:01:18] I'm gonna go to the basic five size brush and start off with that like I usually do just because it's a nice fun brush
+[00:01:24] to use. Make sure I'm painting in white which looks like I am and
+[00:01:28] sort of similar to the tiling noise that we worked on last time
+[00:01:31] I'm going to be using wraparound mode pretty frequently while working on this texture.
+[00:01:36] So to start out, I think I am going to do our usual sort of wild scribble and
+[00:01:44] refine it from there.
+[00:01:46] Cool. Now I've got sort of a random scribbly shape.
+[00:01:51] I can press shift W to go into wraparound mode and I'm going to back out a little bit and
+[00:01:58] tie the shape together there.
+[00:02:00] So since I like to paint subtractively, I'm actually going to thicken up this shape quite a bit so that when I erase
+[00:02:05] I'm not making the trail too thin.
+[00:02:08] I want it to stay relatively thick so that I can play with some fun inner detail maybe later on.
+[00:02:14] So just gonna go through and
+[00:02:17] thicken up some of these shapes while also trying to retain a little bit of line weight variety.
+[00:02:24] Something like that.
+[00:02:30] I'm going to press shift W again just to make sure that my layer is still centered which looks like it is.
+[00:02:37] I could probably widen this. I could go into transform tool mode
+[00:02:41] which I can go to by pressing ctrl T and I could hold alt and
+[00:02:46] click to widen this out so that I'm taking up more texture space, but I don't necessarily
+[00:02:52] want this to take up more space at the moment just because I might end up adding filters later on that add glow which
+[00:02:59] would increase the size of the texture and I wouldn't want that clipping at the edges there.
+[00:03:04] So I'm gonna move the texture a little bit to the left though
+[00:03:07] just using the arrow keys so that it looks a little bit more centered.
+[00:03:11] I'm looking at the size of these black rectangles and trying to compare them to
+[00:03:17] make sure that they're equal and that this looks like it's in the middle.
+[00:03:21] Well, I'll go back into brush mode and press shift W again. We're gonna start
+[00:03:28] refining this shape a little bit by painting on top of it and also by erasing away more interesting
+[00:03:34] flowing shapes in here.
+[00:03:37] Something that I think is really important to add to tiling trail textures like this is a little bit of motion which
+[00:03:47] starting out with a scribble helps with that because it sort of gives you motion to start with. Obviously
+[00:03:52] you don't want to go too ham with the motion because then your trail will end up looking just like a big old scribble like
+[00:03:58] this once you get it into engine and hooked up to whatever projectile that you're working on.
+[00:04:03] But you do want to have some interesting flow, interesting rhythm throughout your trail.
+[00:04:08] And I do plan on adding some softer shapes to this later on just focusing on
+[00:04:17] getting interesting shapes in here to start though. It might be kind of cool to have a little
+[00:04:26] break like this. It might also be kind of distracting so
+[00:04:30] we'll have to see. I might end up finagling with that a little bit.
+[00:04:39] Actually, I might connect the two and then use a soft eraser further down the line just to
+[00:04:46] make it look like these shapes are
+[00:04:49] overlapping and interacting in an interesting way sort of like it's rolling on top of itself.
+[00:04:54] I like that but I think that it's repeating the same shape twice and I don't necessarily want
+[00:05:04] to do that.
+[00:05:06] I might actually add in a
+[00:05:14] whole shape in here somewhere maybe like
+[00:05:19] here-ish.
+[00:05:25] Maybe I'll try it on the opposite side just to see what that looks like.
+[00:05:29] Yeah, something like that's kind of cool. I like that.
+[00:05:36] Let me think of how I want it to resolve if I want it to stay round
+[00:05:45] in this portion or if I want to have sort of a pointy shape like I do right here.
+[00:05:50] I might try reconnecting these and then using softer tools like the airbrush or the cotton swab brush to
+[00:06:02] move this out later or add some interesting opacity differences.
+[00:06:07] Just trying out a few different things seeing if there's certain things that I think feel cool.
+[00:06:21] Might be kind of neat if I have a bigger blank shape here and then have this reconnect back in.
+[00:06:28] Yeah, something like that's kind of neat.
+[00:06:36] All right, I'm gonna press shift W again just to see where we're at as far as centeredness and it looks like we're good.
+[00:06:41] So go back into brush mode
+[00:06:44] and wraparound mode.
+[00:06:47] Trying to make this line weight in this area a little bit more interesting, but I think it's sort of messing with
+[00:06:58] the shape here.
+[00:07:01] If I
+[00:07:03] work on this side instead of this larger side, maybe that'll help. Kind of hard to tell until I try.
+[00:07:11] Okay, I think that I like this as sort of a general shape to start with and now I think what I will do is
+[00:07:25] try adding some interesting shapes
+[00:07:28] into this using some different brushes. Like I might actually start with the airbrush and add some darker areas in here.
+[00:07:36] Might also play around with some filters. Let's actually do that first.
+[00:07:40] So I'm gonna take this base layer that I have and press ctrl J to duplicate it and then hide the original and
+[00:07:47] then I'm gonna go up to filter, blur, gaussian blur and
+[00:07:50] oh, I actually should be in wraparound mode before I do this so that we don't get any weird or awkward seams.
+[00:07:56] So now that I'm in wraparound mode, filter, blur, gaussian blur,
+[00:08:01] make it pretty fuzzy.
+[00:08:05] Something like that.
+[00:08:08] Obviously this makes it look super blown out and glowy and I don't necessarily want that.
+[00:08:14] Looks kind of neat, but I think I'll just sort of keep that in my back pocket.
+[00:08:18] Maybe if I just blur it a little bit though, I'm gonna duplicate my original layer again. Hide the original,
+[00:08:25] filter, blur, gaussian blur.
+[00:08:28] Yeah, I think I'll actually go without it being blurred for now and
+[00:08:33] since I didn't actually end up doing anything with this layer, I'm just going to delete it and
+[00:08:38] unhide the original and
+[00:08:41] now I'm going to
+[00:08:43] I'm actually gonna add a new layer and use the opacity to brush to paint in black,
+[00:08:51] which you can do by pressing X to swap which color you're using. I'm gonna paint in black and I'm going to
+[00:08:57] darken up some areas of this and keep some areas lighter just to add some interest to this texture.
+[00:09:05] Make it look like there's some more interesting stuff
+[00:09:10] happening within the motion that's already been painted.
+[00:09:13] This is sort of what I was talking about earlier when I was saying that I was going to add in some
+[00:09:22] darkness to the texture just to make it look like certain parts of the texture are like rolling.
+[00:09:28] So now that this section here is darker,
+[00:09:30] it looks like it's going underneath this lighter section and I'm going to attempt to do the same here
+[00:09:36] to make it look like this piece is going underneath this larger piece. I don't want to darken it up too much, but
+[00:09:48] I'm gonna darken it up at least a little bit so it communicates that there's some depth motion happening here.
+[00:10:01] Something like that's kind of cool. It might be too much, but I might try that.
+[00:10:08] Yeah, it might be too much, but I'm gonna I'm just gonna keep trying some new things and see what sticks.
+[00:10:21] Let's see what feels good. I think that feels pretty cool.
+[00:10:26] But obviously since I'm using the Opacity 2 brush, the edges of the brush are pretty hard
+[00:10:31] so I'm gonna need to use the cotton swab brush to sort of blend those together.
+[00:10:34] I could also use the Gaussian blur filter
+[00:10:38] but then I would lose sort of this nice hard edge that I've gotten on
+[00:10:42] these areas where I want the texture to feel like it's moving over itself.
+[00:10:46] So I'm gonna swap down to the cotton swab brush down here, and I'm just gonna smudge
+[00:10:51] these dark areas around that I've made.
+[00:10:59] Obviously you don't want to smudge around here too much just because I want to keep that nice hard edge
+[00:11:04] for both of these little sections here.
+[00:11:07] Yeah, I think that's starting to feel a little bit nicer, a little bit smoother.
+[00:11:16] Just sort of moving my brush back and forth over these hard edged areas
+[00:11:26] in the motion of the curve that I've painted them in so that as I'm smudging I'm sort of smudging
+[00:11:32] these values into that curve shape.
+[00:11:39] Whoa, I think that looks so nice, nice and smooth.
+[00:11:45] I might actually take the airbrush tool and
+[00:11:49] erase away just a little bit of the darkness that I've added here.
+[00:11:52] There's some areas that I think could use a little bit of cleaning up like in here
+[00:11:57] I think and in here maybe a little too fuzzy.
+[00:12:00] I might have blurred them a bit much, but I wanted to make sure that those hard edges weren't visible.
+[00:12:03] So I'm gonna swap to the airbrush tool and enable
+[00:12:06] Eraser mode, and I'm just gonna really carefully
+[00:12:10] erase away in areas where I want the values to be a bit lighter.
+[00:12:16] I'm gonna take care not to mess up this hard edge that I've introduced.
+[00:12:22] And I want to bring down
+[00:12:29] this sort of curve into this edge here.
+[00:12:33] I don't want it to be too bright.
+[00:12:36] Just being really gentle, really gentle with my brush.
+[00:12:45] Yeah, I think something like that looks good.
+[00:12:50] All right, I might actually smudge this just a bit more.
+[00:12:58] There we go, just trying to control this curve a little bit more.
+[00:13:03] There we go. Cool. I think that looks good.
+[00:13:12] Awesome. So something I want to try is sort of similar to what I did towards the end of the last lesson, which is
+[00:13:20] adding a new layer, and I'm gonna use black and the Opacity 2 brush.
+[00:13:27] I think that's this one. Yes, and I'm gonna try
+[00:13:31] scribbling a couple of shapes into this shape and then using some filters to try to blur it or to
+[00:13:38] yeah, make it so that it's not the main focus, but just so that it adds a little bit of more inner detail to this shape.
+[00:13:46] See how this goes. I might have to be a little bit more specific with
+[00:13:51] scribblies.
+[00:13:54] It also might be a bad idea to do it for this type of texture, but I do want to try.
+[00:14:00] I'm actually going really light with my brush.
+[00:14:02] I'm actually gonna, I was pressing really lightly on the last couple of strokes, so I'm gonna try scribbling a little bit darker.
+[00:14:11] Well, let's try that out. I'm going to go to Filter, Blur, Gaussian Blur, blur this out.
+[00:14:20] I think that's kind of cool. It's sort of some interesting inner motion,
+[00:14:23] but I'm gonna cancel out of that and I'm also gonna try
+[00:14:26] Motion Blur just to see what that looks like. I'm gonna change the angle to 90 and let's up the length quite a bit.
+[00:14:34] Yeah, I definitely like the Gaussian Blur better, so I'm gonna go back to that.
+[00:14:39] Never hurts to try it.
+[00:14:42] And the beauty of having scribbled this on a different layer is that I can control the opacity
+[00:14:48] here and I can turn that down or up it as much as I feel like will be useful to me.
+[00:14:55] So there are some scribbles in here that I feel like help with the textures
+[00:14:59] motion and some of them that I feel like hinder.
+[00:15:01] Like there's this sort of odd scribbly shape that I put here that I feel like doesn't necessarily
+[00:15:06] help, so I might end up erasing that with the airbrush.
+[00:15:13] But keeping some of the other elements that I've got in here now,
+[00:15:17] I think that it added some neat extra motion to some of these areas.
+[00:15:23] For now, I'm just going through and sort of finessing
+[00:15:26] the opacity and
+[00:15:29] the thickness of each of these lines.
+[00:15:32] So I want there to be
+[00:15:34] variance in the width of these marks that I've made and also variance in the opacity that I have them at.
+[00:15:42] Yeah, I think this is turning out really cool so far. I really like that. Cool. I think I might tone it down
+[00:15:53] just a bit more.
+[00:15:55] Or maybe not. Something like that I think is maybe good and now I think what I'll do is take the base texture
+[00:16:02] and duplicate it and I'm going to try smudging the base texture around to try to add some motion and some softness to
+[00:16:10] what essentially right now is just a hard edge texture. Taking the cotton swab brush and
+[00:16:16] we're gonna add some softness into this. I think that this hook that I just added looks really cool.
+[00:16:27] It's really nice when you try something out and it's like, oh, yeah, that is helping.
+[00:16:31] Helping the texture feel really cool.
+[00:16:36] Yeah, that's kind of cool.
+[00:16:42] It's unfortunate that it takes out this kind of neat little hook that I have going on here
+[00:16:47] but I think that adding the softness to this
+[00:16:50] is worth losing that little
+[00:16:53] hook shape I had in there.
+[00:16:59] A good thing to remember that the worst thing that can happen when you're trying to add new stuff to a texture
+[00:17:04] is that it doesn't work and you can always undo.
+[00:17:07] Or almost always undo. Usually it's not too hard to go back and
+[00:17:13] repaint what it was that you're not able to undo and that's also why I save out or duplicate
+[00:17:19] versions of different layers so that if I do make a mistake and I run out of undos
+[00:17:25] I should be able to go back and edit the texture to how I want it to look without having to repaint the whole thing completely.
+[00:17:32] I might have gone a little ham with the smudging right here, but I plan to clean that up a little bit with the airbrush.
+[00:17:45] Hopefully that'll help.
+[00:17:50] I kind of want to try adding a little hook here.
+[00:17:53] Nothing that's too bright or noticeable. Just a little hook to add some interest.
+[00:18:01] I actually did the same thing here if I can get away with it.
+[00:18:04] Might be a bit much, but I think I want to try that and see how that looks.
+[00:18:13] Okay, I don't really like that hook that I added so I'm going to undo that and I think I might actually go in and clean
+[00:18:19] up some of these shapes that I've added with the airbrush as my eraser.
+[00:18:25] Just clean up these little hook shapes so that they're a little bit more
+[00:18:31] rounded and that they taper off a little bit more nicely so that they're not just like a big sort of
+[00:18:37] shape sticking out there.
+[00:18:39] There we are. Awesome. Alright, I'm going to press Shift-W to exit wraparound mode. I think I could clean up in here a bit as well.
+[00:18:54] Once again, being really gentle with my brush strokes so that any change I make is relatively subtle.
+[00:19:06] I think I might actually smudge this darkened texture a little bit more just because I'm getting a little bit of weird shapes in here.
+[00:19:13] Go back to the cotton swab brush. A little bit of upkeep.
+[00:19:17] Back into wraparound mode so I can see the whole thing.
+[00:19:21] I think that this area was the only area that really needed it. I'm trying to think of what else I might want to try.
+[00:19:29] Alright, I think what I'm going to do is go to my topmost layer here and
+[00:19:35] right click on it and say a new layer from visible and then I'm going to go to filter, blur,
+[00:19:40] motion blur. I'm going to change the direction to 90 so that it's blurring vertically.
+[00:19:47] I'm going to try blurring this just a bit. Maybe I'll try cranking it just to see what it looks like.
+[00:19:55] Something like that could be cool. I keep it at 20 and then I'm going to do what I did last time and
+[00:19:59] change the layer blend mode to screen, maybe to lighten. It's actually kind of freaking my
+[00:20:10] eyes out. I don't necessarily like the effect that that's giving me so I'm going to go ahead
+[00:20:13] and disable that layer and I'm going to do the same thing again so make a new layer from visible
+[00:20:19] and I'm going to try gaussian blurring it instead. Just a bit and doing the same sort of thing.
+[00:20:26] Trying out screen. I think it's blowing out some of the values that I put in there.
+[00:20:31] Lighten looks kind of cool. Maybe I'll keep this effect and erase away some of the areas where I
+[00:20:38] feel like it's too bright so I'm going to go back to the airbrush tool and on this layer that I've
+[00:20:44] blurred and is now in the lighten blend mode use the eraser to take away some of that brightness
+[00:20:50] from certain areas. A nice bit of glow. Trying to decide what areas should be not glowy though.
+[00:21:00] A bit of a challenge. All right the effect it's giving me is pretty slight but I do like it so
+[00:21:10] I think I will keep that. Let me think here. Is there anything else I want to do? I guess something
+[00:21:19] fun that I could try is adding a new layer on top of the ones that I've made and it looks like I
+[00:21:24] might have accidentally selected three at some point so I'm going to press d to get my black
+[00:21:28] and white colors back. I'm going to keep my airbrush in paint mode and I'm actually going to trace
+[00:21:35] along these shapes that I scribbled in earlier and add some darkness to those areas where I added
+[00:21:44] that scribble. See if I can add in a little bit more variance and opacity and a little bit more
+[00:21:49] visual interest in the overall flow of the texture. I might be doing too much visually to
+[00:21:58] the texture at this point but I just want to try out some stuff and see if the end result is better
+[00:22:05] than what I started with because, you know, never hurts to try. I can always go back to previous
+[00:22:12] versions of the texture if I want to since I'm working on a bunch of different layers.
+[00:22:22] I really like this flow right here. I think that's really cool. I tried erasing away this darkness
+[00:22:32] here just to see what it looked like and I think I actually like it with the dark in there so I'm
+[00:22:37] going to keep it in there. And here I'm actually trying to broaden out the amount of darkness and
+[00:22:45] in some areas I feel like it's getting too dark so I'm actually just really lightly pressing the
+[00:22:50] eraser in the areas that I feel like getting a bit too dark. The whole thing might be able to be
+[00:22:56] lightened up a bit. There we go, that's pretty cool. All right, awesome. I think this is turning out
+[00:23:08] really cool so far and from here I might try... I'm actually going to make another new layer from
+[00:23:15] Visible and I'm going to take the cotton swab brush. Oh, here we are. I'm going to take the
+[00:23:21] cotton swab brush and I'm just going to try to smudge around some of the light and dark shapes
+[00:23:26] that I have in here now in combination just to see, you know, what sort of interesting results
+[00:23:31] I can get out of that if there's anything new or interesting that I can do with this tool.
+[00:23:38] And already I'm seeing some coolness coming out of this, what the heck?
+[00:23:43] That's really neat. Just sort of smudging these different values around trying to find some
+[00:23:54] interesting s-curves within the larger s-curve that I already have as part of the texture.
+[00:24:01] Like there was this dark line that was coming up here but there wasn't really a place for it to
+[00:24:04] meet up up here so I dragged down these darker values just to try to meet them together in an
+[00:24:12] interesting flowy kind of way and I think it turned out really neat. I think that looks really cool.
+[00:24:18] Bringing out a little bit more lightness into this hook. Yeah, I think that looks so cool. This
+[00:24:28] is turning out so neat. I'm really pleased with this so far. Beautiful. I think that turned out
+[00:24:37] really really cool. All right, well I honestly think that that does it for this texture. I might
+[00:24:45] be able to either smudge out a couple of other places that might look cool. I kind of like that
+[00:24:54] being hard edged. It's kind of a nice contrast but it is drawing a lot of attention to itself.
+[00:25:00] Maybe if I do that and then take the airbrush and paint black really lightly around this edge here
+[00:25:08] just to harden up the edge a little bit but keep a little bit of softness as well.
+[00:25:17] Excellent. I think that looks really cool. All right, there she is. There is our finished tiling
+[00:25:27] trail texture. I think that the original shape that I made, I think that this might actually be
+[00:25:34] too crazy of a curve and I should have noticed that earlier but overall I really like the
+[00:25:40] different flowing shapes that I'm getting in this. I think that it flows into itself really
+[00:25:44] nicely in a bunch of different areas and in different ways. We once again basically used
+[00:25:50] our whole tool set in this lesson. I'm going to add in some soft shapes by smudging things around
+[00:25:56] and adding in hard shapes by starting off with a hard brush and also adding some softness with some
+[00:26:02] filters like the gaussian blur filter that we used. I think that turned out to be a really
+[00:26:08] cool tiling texture. One thing that I forgot to mention about tiling trail textures is that
+[00:26:13] you'll need to have them oriented differently for different engines. So for unreal you would
+[00:26:19] actually want to take this texture and rotate it horizontally. For unity you would want it to stay
+[00:26:24] vertical like this and there's a couple of different ways that you can go about rotating
+[00:26:29] your texture. If you want to rotate the entire canvas you can always go to image, rotate and then
+[00:26:36] choose rotate image 90 degrees to the right or left. In my case I think I would want to rotate
+[00:26:41] it to the left. Yeah I think that would work and same if you were to paint this horizontally and
+[00:26:47] you need to export it vertically. You can just use that same image, rotate and rotate your image
+[00:26:53] accordingly. Alright everyone that basically does it for the final lesson of texture painting in
+[00:27:00] Krita. I really hope that throughout this course you feel like you have really come to understand
+[00:27:04] how Krita works as a program and how you can use it to create a lot of different types of textures
+[00:27:10] that you'll be using throughout all sorts of different kinds of effects in different projects
+[00:27:16] that you'll be working on in your career. You are all so so lovely and I really appreciate you
+[00:27:20] joining me throughout this entire journey of texture painting through Krita. I sincerely
+[00:27:25] wish you all the very best of luck pursuing visual effects in your career. It's an absolutely awesome
+[00:27:30] discipline to be in as part of the video games industry and yeah thank you again so much for
+[00:27:34] watching and for joining me and I will see you all later. Take care everyone!

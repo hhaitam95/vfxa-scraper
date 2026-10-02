@@ -1,0 +1,182 @@
+[00:00:05] Hello again, I'm Jayden, and in this lesson we will look at new techniques that will allow our effects to interact with the world around them.
+[00:00:13] As we know, shaders use inputs to produce color outputs.
+[00:00:17] And so far we've only worked with one input, which is mesh UVs.
+[00:00:21] But there's a lot of other information that we can gather about the mesh and other objects.
+[00:00:26] And this allows for a bunch of new exciting effects.
+[00:00:29] So we have access to lots of really interesting information.
+[00:00:33] We can find the world location of any point on our surface.
+[00:00:37] We can find the direction that the surface is facing.
+[00:00:40] We can check the distance from other objects.
+[00:00:42] We can see which direction the camera is facing.
+[00:00:45] And we can take this data, combine it, and do all sorts of cool things.
+[00:00:50] For the rest of the effects we make, we will not be relying on UVs.
+[00:00:54] Instead, our materials will get their color by interacting with the world around them.
+[00:00:59] In my opinion, this is where shaders start to get really fun.
+[00:01:03] Okay, so this first effect is referred to as the Fresnel effect.
+[00:01:08] And you can see how it highlights the edges of curved surfaces.
+[00:01:12] We'll start by exploring the theory of how this works, and then we'll build the shader.
+[00:01:17] So notice how this object is unlit, and it's not being affected by any lighting from the scene.
+[00:01:23] And see how the color behaves as I rotate around it.
+[00:01:27] You can see how the middle stays dark, but the edges light up.
+[00:01:31] We can do this with a single math operation called the dot product.
+[00:01:35] The dot product will compare two directions, and then output a single float.
+[00:01:41] And direction is just an arrow pointing in a direction.
+[00:01:46] And we'll be using two directions.
+[00:01:48] We'll use the direction that the camera is facing, and we'll use the direction of the surface.
+[00:01:54] And every point on the surface will be facing a different direction.
+[00:01:58] So we'll run this calculation many times over the whole surface.
+[00:02:02] So let's see how dot product works.
+[00:02:05] It takes two direction vectors.
+[00:02:07] So let's say this is vector A, and it will compare it with another vector.
+[00:02:13] And it will look at how close these are to each other.
+[00:02:17] So if vector B is facing this direction, it'll output zero.
+[00:02:22] If it's facing the same direction, it'll output one.
+[00:02:27] If it's facing the opposite direction, it'll output negative one.
+[00:02:32] And of course, it'll output different numbers or directions in between.
+[00:02:36] So if it were here, for example, it would put out a number like 0.2.
+[00:02:43] If it were here, it would put a number like negative 0.9.
+[00:02:48] And here it might output a number like 0.5.
+[00:02:52] So the same direction is one, the opposite direction is negative one, and perpendicular is zero.
+[00:02:59] Okay, so let's set up a basic scene with some 3D objects.
+[00:03:06] Let's first add a 3D object, a sphere.
+[00:03:10] Let's also add another 3D object, a quad.
+[00:03:15] And let's also add a capsule.
+[00:03:18] Create a new unlit shader graph called Fresnel.
+[00:03:25] It is spelled like this.
+[00:03:29] Create a material for it and add it to each object.
+[00:03:37] Then open up your shader workspace.
+[00:03:47] It should be unlit and opaque.
+[00:03:49] And for now, we want to render both faces.
+[00:03:53] So let's try a new node called normal vector.
+[00:03:59] Plug that right into color.
+[00:04:02] And save asset.
+[00:04:05] You'll see this better if you look at the sphere or the capsule.
+[00:04:09] So this is getting normal information from our mesh.
+[00:04:13] Normals are the direction that each surface is facing.
+[00:04:17] So here, the surface is facing this direction.
+[00:04:20] And here, the surface is facing this direction.
+[00:04:23] And you can also see a color blend at this point too.
+[00:04:27] We're finding the direction in 3D, which means the direction is a three-dimensional vector.
+[00:04:33] As we know, any set of three numbers can be represented as color,
+[00:04:37] which is why you're getting this really interesting color effect.
+[00:04:41] You can even see the red axis and the blue axis and a blend in between those.
+[00:04:47] Let's try another node, the camera node.
+[00:04:52] The camera node will let us access a bunch of different information about the camera that's rendering the scene.
+[00:04:58] We just want to know which direction the camera is facing.
+[00:05:01] Let's plug that into color.
+[00:05:03] And save asset.
+[00:05:12] So we're just getting a single piece of data, which is the direction that the camera is facing.
+[00:05:19] Again, that's a 3D vector, which means it's color.
+[00:05:22] So our objects are just showing the direction the camera is facing.
+[00:05:26] So now that we have two directions to compare, let's get the dot product.
+[00:05:31] It doesn't matter which order they go in.
+[00:05:34] Plug in the normal vector and the camera direction and put that into color.
+[00:05:39] Save asset.
+[00:05:41] And let's look at the quad for this.
+[00:05:43] Remember that our quad only has one face.
+[00:05:47] The normal direction is this direction.
+[00:05:50] This is the back side of the quad.
+[00:05:52] It's not facing this way.
+[00:05:54] It's still facing the front.
+[00:05:56] So notice what happens when you orbit around the quad.
+[00:06:00] See how it changes color, depending on which direction you're facing.
+[00:06:04] So remember how the dot product compares the directions.
+[00:06:10] Here the camera is facing the same direction as the quad, so we get the number 1, which shows as white.
+[00:06:20] Here the camera is perpendicular to the quad, so it shows as black.
+[00:06:25] And here the value is negative 1, which will still show as black because it's a negative color.
+[00:06:31] Instead of using negatives, let's show this number as a positive number.
+[00:06:35] For that we need a math operation called absolute.
+[00:06:42] Absolute will take in any number, and it only outputs positive numbers.
+[00:06:47] If you input a negative number, it outputs the positive version of that number.
+[00:06:51] So negative 2 becomes positive 2.
+[00:06:54] Negative 10 becomes positive 10.
+[00:06:57] So our dot product looks like this now.
+[00:07:00] Choose save asset.
+[00:07:02] And now when we move around the quad, it drifts towards 0 when it's perpendicular.
+[00:07:08] And then it'll be 1 when it's parallel, whether it's facing the same direction or the opposite direction.
+[00:07:15] Let's change our graph to transparent.
+[00:07:19] And plug this result into alpha.
+[00:07:22] Save asset.
+[00:07:24] Now the same thing is happening, but instead of changing color, it's fading out whenever we're perpendicular to the quad.
+[00:07:32] We can also bring in a power node.
+[00:07:34] And as we know, this will either push the white values or push the black values.
+[00:07:42] If we put in a number below 1, like 0.5, it will make it so that the quad only fades out when it's very close to the edges.
+[00:07:51] So imagine that you're creating an effect where the camera might be perpendicular to a quad.
+[00:07:57] You don't want to see the flattened quad because it doesn't look very good.
+[00:08:01] Instead, you can use this setup and you'll never see the quad when the camera's perpendicular.
+[00:08:06] There's still a problem though, because we're only using the camera's direction.
+[00:08:14] Which means that as the camera rotates, the quad will still fade, even if it's off to the side.
+[00:08:20] Let's do something a little different.
+[00:08:24] Let's remove the camera node and replace it with a new piece of data called view direction.
+[00:08:29] View direction is very similar to the camera direction, but it's a little bit different.
+[00:08:37] It doesn't look at the direction that the camera is facing, but it looks at the direction from the camera to the surface.
+[00:08:44] So now if the object is off to the side of the camera, it gets a new direction vector.
+[00:08:51] And it only becomes transparent when we're perpendicular to the quad.
+[00:08:55] So let's take a look at an example of when this could be useful.
+[00:09:00] I have this model that's shaped like a spiral.
+[00:09:03] These are normally called solar coasters.
+[00:09:06] And I placed this soft, smoky effect on it.
+[00:09:09] And notice how you can see these hard edges right here, where the model becomes perpendicular to the camera.
+[00:09:15] I created a different shader just like this one, where I can turn the Fresnel effect on and off.
+[00:09:21] And look at the difference that it makes.
+[00:09:25] When we see those edges of the model, it doesn't look good at all.
+[00:09:29] So if we fade it based on the angle from the camera, we can look at it from any angle, and it always looks soft.
+[00:09:36] This is a great place to use the view direction and normal vector.
+[00:09:42] Okay, so now that we understand how to use directions, let's simplify things a little bit.
+[00:09:47] We're done with our quads, so we don't need that right now.
+[00:09:50] We'll just be looking at the 3D objects.
+[00:09:53] Change your graph to only render the front faces.
+[00:09:56] And Unity has provided a node which does a lot of this math for us, called the Fresnel effect.
+[00:10:04] Plug that right into the alpha.
+[00:10:07] And save asset.
+[00:10:09] Take a look at the sphere. Notice the effect.
+[00:10:12] This creates a really cool material, and it almost looks like a ghost or a hologram.
+[00:10:17] Try changing the color.
+[00:10:22] Let's take a closer look at the inputs for the Fresnel effect.
+[00:10:25] It still uses the normals of our surface, and it also uses the view direction.
+[00:10:30] And when we use this node, it will get those things for us, so we don't even need to plug them in.
+[00:10:36] It also has the power node built in, so we can change the power in the same way.
+[00:10:42] If you move that around, you'll see the effects right away.
+[00:10:47] So let's try a few other things.
+[00:10:49] Let's plug this into a 1- node.
+[00:10:55] And you'll see it produces the opposite effect, where the center is solid and the edges start to fade.
+[00:11:02] It looks like a glowing ball of energy or some type of cloud.
+[00:11:07] Now let's try something really interesting.
+[00:11:09] Add in a sample gradient node, and connect that to the color.
+[00:11:14] You can play around with this to get some pretty interesting effects.
+[00:11:19] You can use this to create some nice rim lighting on your model.
+[00:11:31] You can also change the mode to fixed.
+[00:11:34] So instead of a smooth transition, it will do a hard cutoff between colors.
+[00:11:39] This can produce some really interesting effects.
+[00:11:42] If you make a gradient like this, it looks like an eyeball.
+[00:11:46] You can even change the shader to be lit.
+[00:11:49] And it's kind of like the effect is always looking at you.
+[00:11:54] I'll change that back to unlit.
+[00:12:00] You can also create gradients like this for a tune lighting effect.
+[00:12:07] But it doesn't look very good when it's always facing the camera.
+[00:12:11] Remember that by default, the Fresnel effect uses the camera direction.
+[00:12:15] But you can also plug in anything you want for the view direction.
+[00:12:19] Let's create a new Vector3.
+[00:12:23] And let's pretend like the effect is up and to the side.
+[00:12:27] You can use 0, 1, 1 for that.
+[00:12:30] And plug that into the view direction.
+[00:12:32] So now you get this effect that looks like tune lighting.
+[00:12:42] So we plugged in this vector, which is up and to the right.
+[00:12:47] Almost like there's a light source right here.
+[00:12:53] The Fresnel node does calculations a little bit differently from what we did up here.
+[00:12:57] What you're seeing is that parts of the surface that face that direction go towards this side of the gradient.
+[00:13:04] And parts that are perpendicular are towards this side of the gradient.
+[00:13:09] And the Fresnel node doesn't even use negative numbers.
+[00:13:12] So everything on this side will just still go towards this side of the gradient.
+[00:13:17] Again, the Fresnel effect node does the calculations differently.
+[00:13:22] So we just covered the basics on how to use the camera direction or the view direction.
+[00:13:26] As well as the surface normals.
+[00:13:28] With this technique, we can hide quads that are perpendicular to the camera.
+[00:13:32] We can decide to show only the curved edges, like with the ghost or hologram effect.
+[00:13:37] We can highlight the edges with a color for rim lighting.
+[00:13:40] Or we can do different tune shading effects.
+[00:13:43] Whenever you see lighting in any 3D application, it uses these concepts.
+[00:13:48] Including light direction, surface direction, and the dot product.
+[00:13:53] Lighting is its own complicated subject, but we can borrow a few of those simple lighting concepts to create cool effects like this.
+[00:14:01] So, in the next lesson we'll work with position.
+[00:14:04] Because we can find the world location of each pixel and create even more crazy effects.

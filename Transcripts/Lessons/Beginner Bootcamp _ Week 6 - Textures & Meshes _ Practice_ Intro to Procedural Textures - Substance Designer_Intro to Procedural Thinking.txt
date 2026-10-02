@@ -1,0 +1,81 @@
+[00:00:06] Welcome to the Substance Designer lesson.
+[00:00:09] I'm Darian, I'm a real-time VFX artist,
+[00:00:12] and I have been in the game industry more than this year.
+[00:00:16] Today, I'm really happy to be here because we are going to learn
+[00:00:20] how to make awesome testers in Substance Designer.
+[00:00:24] In this lesson, we are going to take a look at how we need to think
+[00:00:28] when we are working with procedural softwares and the principal aspects.
+[00:00:32] So let's start learning how this works.
+[00:00:36] First of all, if you didn't ever use any procedural softwares,
+[00:00:40] maybe we need to know how this works and what are the most common uses.
+[00:00:45] Proceduralist is the art of non-manual creation,
+[00:00:49] using functions or rules to transform waxy shapes into a pretty complex result.
+[00:00:55] But how we can translate into a create a tester?
+[00:00:59] And what are the main differences between manual tester creation process and procedural?
+[00:01:05] When we create tester manually, we have total flexibility to create anything,
+[00:01:10] because you can draw anything with a pen
+[00:01:13] and you have total control of any stroke of the draw.
+[00:01:17] Manually, we could create tester like a head easily,
+[00:01:21] and the only limitation is our hand.
+[00:01:24] When we are creating tester proceduralist, we start from a waxy shape
+[00:01:28] and build a set of functions that transform the shape constantly to get our final goal.
+[00:01:35] This technique is usually used to create patterns or organic shapes
+[00:01:40] in cases where we can break down the final tester
+[00:01:43] into a set of smaller shapes, transformations or functions.
+[00:01:48] This usually will be quicker than drawing the shape manually
+[00:01:52] and we will have total control of every step of the process at any time.
+[00:01:57] This allows us to iterate and get different variations of the tester quicker,
+[00:02:03] because we don't have to redraw anything.
+[00:02:06] But to build something specific like a head we would need a lot of function
+[00:02:11] and it would take us more time than drawing manually.
+[00:02:15] Manually drawing is more flexible because you can draw anything
+[00:02:19] but iterations usually are slower and sometimes required to redraw something.
+[00:02:25] Also it will take more time to draw patterns or organic shapes.
+[00:02:31] Let me show an example on how this works.
+[00:02:34] Fine, here we have a square and we are going to add a function that is scaled in one axis.
+[00:02:41] Now we are going to repeat it several times.
+[00:02:45] Notice that if we delete the transformation function, the workflow is still working,
+[00:02:51] generating a different result using the same set of rules that we have created.
+[00:02:56] In another software where isn't procedural we will have to do it again from the beginning.
+[00:03:02] We can change the earliest step of a process without destroying the workflow.
+[00:03:07] Fine, let's dive into Substance Designer.
+[00:03:10] Well, I'm going to show you an example that I made to become familiar with these procedural limbs.
+[00:03:16] Let's see it to learn how to approach Substance Designer.
+[00:03:20] Ok, let's start with this texture.
+[00:03:23] It's a seamless dose texture and here is only one simple shape, the dot.
+[00:03:29] Right, seeing that the first thing that could come into our mind
+[00:03:33] is that we need to repeat this shape in different positions, with different sizes and colors.
+[00:03:41] As you can see, I have two nodes for that, one for creating the shape
+[00:03:46] and the other for repeating the shape in a grid.
+[00:03:49] Really easy, right?
+[00:03:51] Ok, let's see another example, we are going to analyze a Bernoulli seamless texture
+[00:03:57] that is super common to have in a VFX library.
+[00:04:01] Well, it's the same as the previous example but with a few different changes.
+[00:04:06] We have a simple shape that is repeated here, a gradient cycle.
+[00:04:11] Here there is almost no space between the cycles and some of them are overlapping.
+[00:04:17] Here you can see the graph and how it is made.
+[00:04:20] The only substantial difference here is that these gradient cycles have their color inverted.
+[00:04:26] Ok, for the next example I want to show you another one to analyze and I'm going to increase the level.
+[00:04:34] This cloud texture looks like it might be difficult to grade, but let's see how to approach it.
+[00:04:40] As we can see here and identify are a simple form, a gradient cycle and a noise that seems to multiply by the gradient texture.
+[00:04:49] Right, having this, let's quickly see how the graph looks like.
+[00:04:54] We have more nodes here and we use a different kind of blending mode to get the final result.
+[00:05:01] As you can see the formation flows from left to right and is modified by these nodes that are like a function.
+[00:05:08] To get our goal we need to stack them like a building blocks.
+[00:05:12] Having these little tips in our mind and seeing how we approach this procedural texture,
+[00:05:18] we see that it's quite easy if we think first and we have a sketch in our mind before starting the texture.
+[00:05:26] Alright, now I want to show you the most common issues and things to keep in mind when we were using procedural leaves.
+[00:05:34] As you can see here we have the same texture like the other that I showed you before but lacks the smaller detail and randomness.
+[00:05:43] We have the same radius in each dot, the same color and the same spacings.
+[00:05:49] We can even see the grid, we always have to try to not see too much the shape that is repeating in the texture.
+[00:05:56] It's the most common problem when we use this technique.
+[00:06:00] To avoid that if we change a little bit the random size, the color and position we have a texture more interesting.
+[00:06:09] Right, we are going to see another issue.
+[00:06:12] Many times when we create a procedural texture we are not thinking about how the texture behaves and how it is going to be tiled.
+[00:06:21] It's super important to see how it is repeating the texture to ensure that we don't see the pattern.
+[00:06:27] When we have more information in our texture it's easier to not see the pattern.
+[00:06:33] Right, we are starting to understand how we need to think when we are using procedural software.
+[00:06:40] Perhaps if you have never used procedural softwares there is a lot of information in this lesson that needs to rest in our minds.
+[00:06:48] But I tried to make your journey better with Designer.
+[00:06:52] In this bundle of lessons we are going to see how did easy is work with this software and we will create awesome textures that don't seem procedural.
+[00:07:01] I hope you enjoyed this lesson and see you in the next one!

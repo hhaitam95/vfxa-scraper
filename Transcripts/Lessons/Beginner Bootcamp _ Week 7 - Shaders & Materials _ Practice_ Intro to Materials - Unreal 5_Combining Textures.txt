@@ -1,0 +1,111 @@
+[00:00:05] Hey friends and welcome. Today we look at combining textures. So last time we saw how to
+[00:00:12] adjust our textures using flat values. Today we're going to try and adjust our textures using
+[00:00:17] other textures. So usually in VFX we end up with a few textures we're going to work with together.
+[00:00:23] For instance we're going to have a nice mask that lets us define a whole shape of what we want to
+[00:00:29] work with or perhaps gives a little bit of a fade out so that we can't see completely the big
+[00:00:39] differences, the big edges or where the effects start and where the effects end.
+[00:00:44] Okay keeping the illusion going and then we'll have a texture that has nice shapes and has
+[00:00:49] perhaps spiky bits and in general lets us add a bit more visual interest. Okay so
+[00:00:56] in general when we want to combine the textures one of the textures will be our grain, what
+[00:01:04] gives visual interest and the other one will be our more gameplay oriented or dry. But that's not
+[00:01:12] always the case. Sometimes we want to combine textures to create motion, we want to combine
+[00:01:16] textures to ease gameplay elements, we want to combine textures to clean up perhaps some smaller
+[00:01:22] options that can happen. Whatever the case we want to be sure that we're combining them in the
+[00:01:29] right way. There's multiple ways to combine the textures. So without further ado the first one
+[00:01:35] we're going to look at is maximum. Maximum averages to max again you can find it just by searching
+[00:01:42] into max you'll find it directly math max. This for each little pixel we have in our texture
+[00:01:50] will take the maximum between our two textures. Okay so here in the preview you can see
+[00:01:59] everything that's white here will be kept white and then all the other values that are black here
+[00:02:05] and that are slightly higher here we're going to use as a slightly higher value. It takes for each
+[00:02:11] pixel it looks at the two textures and says what value is higher okay I keep the highest one.
+[00:02:17] This is very good to lose almost no data just going to keep all your textures all your values.
+[00:02:22] This is also very good if every texture you already have is already masked it already
+[00:02:28] contains all the information you need for the transparency for instance. It's also very good
+[00:02:34] if you are working with textures that will scroll together and that are already completely filling
+[00:02:39] the brain for instance you have a smoke texture that's just going to flow throughout your whole
+[00:02:44] effect and you just have it panning then at that point you can just maximize two of those together
+[00:02:50] and get a nice result that will feel like it's flowing. This solution is not at its best when
+[00:02:57] there's either one mask and then one texture you want to slap on top of it. It's also not at its
+[00:03:04] best when there's multiple textures that have high gradients for like this one it will leave you with
+[00:03:10] hard edges if you have two like little dots like this you'll end up with like bumps it
+[00:03:15] doesn't look quite good so in general you want to use it when you're sure that the two textures
+[00:03:20] themselves are independently are pretty good but you want to still try and stack them together
+[00:03:28] on together. Max is particularly good if you already planned on having for instance a little
+[00:03:33] star and then a little glow behind you had those two particles by combining them together
+[00:03:39] you can just reduce over drop so get better performances because you're getting less
+[00:03:44] particles out and you get less transparent sheets that are stacking on top of each other all right
+[00:03:52] so this is max second option we can explore is lerp so lerp is a node that you'll find a lot
+[00:03:59] in vfx and in shaders in general it's an abbreviation from linear interpolation so
+[00:04:05] linear means that we're going to go in a linear fashion through two values and then interpolation
+[00:04:13] means that we will be trying to interpolate to average between two values so what happens is
+[00:04:22] that we have on the linear interpolation node we have three values the first one a the second one b
+[00:04:28] and the alpha the alpha is going to be our factor basically if the alpha is zero we're going to use
+[00:04:36] only a if the alpha is one we're going to use only b and if the alpha is anything in between
+[00:04:44] we will average between the two for each pixel again so if we have just a flat value for alpha
+[00:04:50] just going to average our value between the two as an example here i have 0.2 so by putting this
+[00:04:58] into our texture we can see that we are taking 80 of the a and 20 of the b we're averaging with
+[00:05:10] a bias so 0.2 is closer to zero which means that we're averaging with a bias of a okay so here
+[00:05:17] we're using mostly this texture that's the one that's the most visible but we also have this
+[00:05:23] one in the background which is second texture we're using here but this is just a gradient
+[00:05:29] as we've seen before okay and here i'm using this for the demonstration because now i can play around
+[00:05:36] with this parameter and you can see that i can push it up and down as we've seen before and
+[00:05:43] we're just averaging between the two so this parameter as we've seen before when you go into
+[00:05:48] negative values has negative values so you can see that we can quickly quickly make quite an
+[00:05:55] interesting take actually on this this almost looks like there's wind blowing on it or something
+[00:06:00] like that you can have this is one of the first examples where stacking textures on top of each
+[00:06:06] other can create quite nice effects all right so here this is just averaging and this value here
+[00:06:16] we're using only the 0.2 percent but we could use it more if we put 0.5 suddenly the value down
+[00:06:23] there is way more important and now when i modify this and i push my texture up and down you see that
+[00:06:31] it's way more striking okay that's average you lerp between a value you take the average between
+[00:06:44] two points the third one i want to go through is dissolve so again we're going to use this
+[00:06:49] bottom texture here and dissolving is a bit like average but in a different way and this
+[00:06:55] will use our faithful add value so here i took a bit of freedom to modify the values in order
+[00:07:04] to show you better but basically what happens is that we get a similar result to the average but
+[00:07:11] stronger what this does is that it will dissolve our texture in an interesting way it will cut
+[00:07:19] through our texture so the two textures will eat each other up you see it has a bit of the same
+[00:07:28] effect but in a stronger way the center you see is brighter as we use the add alternatively
+[00:07:35] whereas in the lerp it was more all faded out but the edges are stronger and most importantly
+[00:07:43] we get a full black at the end okay that means we can just use this to dissolve this through
+[00:07:53] as in remove values and make it become smaller and smaller until there's nothing left
+[00:08:01] so you can see that lerp and average have two similar uses in general lerp will be used
+[00:08:11] if you want to create something softer create an average that you want at the end to use
+[00:08:18] perhaps for textures or an average that you want to then combine with other textures add is usually
+[00:08:25] a good tool in order to create opacity in order to like work on your transparency to make your
+[00:08:31] particle disappear sometimes adding like this will also be called cutting because you're cutting
+[00:08:39] directly into your texture until there's nothing left all right again you've understood when we
+[00:08:47] add a value to this we're basically taking this value every pixel of this and adding it to the
+[00:08:55] other value so if we're adding negative values suddenly we're cutting through this texture
+[00:09:01] directly and the more we remove if we add minus one to those whole texture we can't see anything
+[00:09:09] anymore and so by playing with those properties we can get interesting results so remember add
+[00:09:18] will take one of the textures and dissolve it with the other one lerp and add work particularly well
+[00:09:24] with gradients with textures that have a smooth curve between zero and one all right it doesn't
+[00:09:32] work very well with textures that have just a silhouette a clean black and white so
+[00:09:42] again those two tools are not very good for clean textures
+[00:09:48] finally we're going to look at multiply which is arguably one of the most important ones
+[00:09:53] i want to keep it last so that you refocus on it and remember it so what does multiply do
+[00:10:00] where well it's very simple it masks so imagine this as a little window it says the two textures
+[00:10:07] we're going to overlap them one on top of each other and look at them through one another and
+[00:10:14] it applies like a little window here it's like if i was looking into this texture this texture as
+[00:10:21] a sort of window and i was seeing the other one through it okay so what happens here is that if
+[00:10:28] i move this first window you can see that i can still see the other texture without it having
+[00:10:34] moved and if i move it the other side you'll see that it's also there so what what is happening
+[00:10:41] here is that we are masking each other so mathematically now if we look through it
+[00:10:49] the black if we multiply the two textures the black stays black the white stays if there's
+[00:10:54] two whites it stays white but everything else if one of the two is black it will all become black
+[00:11:02] that's why it looks like it's cutting through it that's why it looks like it's it's just a little
+[00:11:07] window because we're basically taking a value of one only if we get a higher value if we get a one
+[00:11:14] and the other one is not zero so that's particularly useful as you've guessed it
+[00:11:19] for opacity for transparency because this is how we make masks hence the name masking
+[00:11:27] we create a texture that's black and white the white will stay the same as before and the black
+[00:11:33] will become black so what happens here is that we can stack multiple
+[00:11:40] masks on top of each other very easily because for each mask we're going to add we're just
+[00:11:44] going to be carving a tiny little bit of a texture more and more so if i want to create another mask
+[00:11:50] that's a smaller star here i can put it inside and it's going to cut through our existing uh
+[00:11:55] texture and we can just add more and refine more and more our little masks it's particularly useful
+[00:12:01] while we don't want to add masks that will be animated through our texture we'll see that when
+[00:12:06] we do the applications in the next step but basically it's very useful if you want to add
+[00:12:14] a mask that will for instance scroll through our whole effect and just clear our mesh or perhaps
+[00:12:20] a mask that will remove our particle in an interesting way all right on that note that's
+[00:12:29] all for combining textures for today in the next step we're going to look at a bit more about
+[00:12:35] masking and about stepping and smooth step we talked about that last time but you'll see this is
+[00:12:41] quite a useful tool to do what we just described here

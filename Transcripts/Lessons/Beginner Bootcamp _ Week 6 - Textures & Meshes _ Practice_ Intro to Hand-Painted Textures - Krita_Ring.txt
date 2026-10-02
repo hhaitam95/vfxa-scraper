@@ -1,0 +1,417 @@
+[00:00:05] Hello, everybody, and welcome back to Krita Lesson 3.
+[00:00:08] Today we're talking about shockwaves and AOE indicators.
+[00:00:12] I am really, really excited about this one,
+[00:00:15] just because AOEs are pretty prevalent, I would say,
+[00:00:18] in video games across the board.
+[00:00:21] So it's a super useful thing to be able to learn how to make.
+[00:00:24] AOEs are used relatively often,
+[00:00:27] either to communicate healing or to communicate damage,
+[00:00:30] but also to add a sense of motion
+[00:00:32] at the same time as you're communicating that area.
+[00:00:34] And I'm really excited to show you guys
+[00:00:35] sort of an example of how I would approach it.
+[00:00:38] So let's go ahead and get started.
+[00:00:41] I'm going to go ahead and make a new file.
+[00:00:44] And for this, I think I am going to stick with 512 by 512,
+[00:00:48] but think about how big your texture is going to appear
+[00:00:51] on screen and size accordingly.
+[00:00:54] My background color is still black.
+[00:00:56] Let's go ahead and create.
+[00:00:58] A good way that I like to go about starting
+[00:01:01] making AOE textures or, yeah, I guess shockwave textures
+[00:01:04] or AOE textures is by using the ellipse tool over here.
+[00:01:10] So right now I have the airbrush selected.
+[00:01:12] I'm actually going to go to the basic five-size brush,
+[00:01:16] which the default size is a lot smaller,
+[00:01:18] and it's 100% opaque when you paint.
+[00:01:21] So what I can do is grab the ellipse tool over here,
+[00:01:23] and I can click, and then I can press shift
+[00:01:27] to have the circle that I'm drawing
+[00:01:30] be not elliptical, but circular all the way around.
+[00:01:33] I'm going to go ahead and make a ring about like that.
+[00:01:37] And if you want the ring to be thicker,
+[00:01:38] what you can do is just size up your brush
+[00:01:40] using the right bracket key,
+[00:01:41] and I want my ring to start out relatively thick.
+[00:01:47] It's a good thickness, but I need to get the sizing right.
+[00:01:51] There we go.
+[00:01:52] Transform tools, try to get it about into the center.
+[00:01:56] Yeah, that seems good.
+[00:01:58] Something that I should talk about here
+[00:02:00] before I get started is that some people work better
+[00:02:03] when they paint additively,
+[00:02:05] and some people work better
+[00:02:07] when they are painting subtractively.
+[00:02:10] And I'm going to give you sort of a quick example
+[00:02:12] of what that looks like.
+[00:02:13] So my personal preference is to paint subtractively.
+[00:02:18] And what that means is I start with a larger,
+[00:02:21] thicker shape like this,
+[00:02:23] and then I take the eraser tool on the brush,
+[00:02:28] and I'm actually going to use the basic tool,
+[00:02:32] Opacity Brush, as a quick example.
+[00:02:35] I'm going to make sure I have the eraser enabled.
+[00:02:38] Painting subtractively is where you start
+[00:02:40] with a shape like this,
+[00:02:41] and you take away from it as you go.
+[00:02:45] Let's say that I want to make like a...
+[00:02:49] I want to make like a kind of a swirly AOA texture.
+[00:02:53] I actually probably made this ring too thick.
+[00:02:56] Yeah, so this is sort of what it means
+[00:02:58] to be a subtractive painter,
+[00:02:59] is to start with something larger
+[00:03:01] and then take away as you're going.
+[00:03:03] And then if you paint additively,
+[00:03:05] what I would recommend you do is to use this ring shape
+[00:03:10] as just sort of a template
+[00:03:12] for where you end up painting your final texture.
+[00:03:16] What I can do to make this be more of a reference
+[00:03:19] rather than having it be my final product
+[00:03:21] is to take the layer that my ring is on,
+[00:03:24] and I can bring down the opacity.
+[00:03:28] Do like 14%.
+[00:03:31] Then I can add a new layer,
+[00:03:33] and I can grab the brush tool.
+[00:03:35] No, I'm actually going to go back to this basic five brush,
+[00:03:40] or five size. There we go.
+[00:03:43] I can basically paint an AOE circle from here.
+[00:03:47] Just using that ring is sort of a guideline for me to follow
+[00:03:51] or where my shockwave texture should end up.
+[00:03:55] So since I prefer to paint subtractively,
+[00:03:58] what I'm going to do is bring this back to full opacity.
+[00:04:02] And I think that I might thin out this.
+[00:04:07] Oh, dear.
+[00:04:09] I'm going to thin out this ring just a little bit
+[00:04:12] using the eraser on that basic five size brush.
+[00:04:17] And then out just a little.
+[00:04:18] Okay, I feel like this is a pretty good start.
+[00:04:21] So what I'm going to do from here
+[00:04:22] is try to erase away some of this ring
+[00:04:26] to make a more interesting shape
+[00:04:29] so that it's not completely even all the way around.
+[00:04:33] Let's play a little bit.
+[00:04:34] Let's see what kind of cool stuff I can come up with.
+[00:04:39] I actually haven't painted an AOE texture in a while,
+[00:04:41] so I might be a little rusty.
+[00:04:46] I think I'm going to try to keep
+[00:04:47] the outer edge relatively untouched
+[00:04:52] just so that that area is clear.
+[00:04:58] It's kind of fun to just cut out shapes like this,
+[00:05:01] like I just did using the eraser tool.
+[00:05:04] Maybe I'll do a larger cutout over here.
+[00:05:07] Let's see how that feels.
+[00:05:12] I sort of had it in my head that I wanted to make a texture
+[00:05:15] that looked like it was spinning.
+[00:05:17] But I think for now I'm just going to focus
+[00:05:19] on trying to cut out some interesting shapes
+[00:05:23] from this ring.
+[00:05:26] Looks like this basic five size brush
+[00:05:28] is actually like has a sharper edge
+[00:05:31] than the basic two opacity that I was using.
+[00:05:35] It has a harder edge to it,
+[00:05:36] which feels nicer for like sharper cutout shapes like this.
+[00:05:45] You know, the ring is still too thick,
+[00:05:48] so I think what I'm going to do
+[00:05:49] is just thin it out even more.
+[00:05:52] I think the initial thickness that I started out with
+[00:05:55] was probably a decent thickness.
+[00:06:04] I'm going to try to get some of that neat
+[00:06:06] sort of spinny feeling to this, I think.
+[00:06:11] I'm going to try it out at least.
+[00:06:12] We'll see how it goes.
+[00:06:23] I might be getting too graphic with the designs.
+[00:06:28] We'll see as I go.
+[00:06:29] It might be too much.
+[00:06:41] I'm actually really digging the look of this.
+[00:06:44] I feel like I've always tended towards
+[00:06:47] enjoying harder shaped stuff like this.
+[00:06:51] And it's sort of the type of stuff
+[00:06:52] that I've been working on recently,
+[00:06:54] so I feel like that definitely has an influence here as well.
+[00:06:59] You'll find that the work that you do professionally
+[00:07:02] definitely affects your personal artwork as well,
+[00:07:07] which isn't a bad thing.
+[00:07:08] It's just something I've observed.
+[00:07:16] Trying some quick rough and tumble shape cutout stuff,
+[00:07:21] see if I like the result.
+[00:07:24] And I think I do.
+[00:07:28] Because the area is still relatively readable,
+[00:07:32] I would say.
+[00:07:33] Or not even relatively.
+[00:07:34] I would say that the area is pretty readable.
+[00:07:37] And for spots like this,
+[00:07:40] I could actually come back in with a brush.
+[00:07:44] I really wanted there to be a connection.
+[00:07:47] I could just undo too, either way.
+[00:07:49] I feel like this is a little easier, maybe,
+[00:07:52] because then I don't have to redo
+[00:07:53] these cutout shapes as well.
+[00:08:01] Well, I really like this.
+[00:08:03] I think that I want to add some effects to this,
+[00:08:06] either some blur or some spinning blur.
+[00:08:09] And I feel like the ring might be too close to the edge
+[00:08:12] for me to add blur.
+[00:08:14] So I'm actually going to Ctrl-T
+[00:08:16] to activate our transform tool over here.
+[00:08:21] Grab the edge and then hold Alt and Shift
+[00:08:23] so that I can scale evenly
+[00:08:26] towards the center of the texture.
+[00:08:28] I feel like that might give me enough space.
+[00:08:30] I actually really like the sort of softness
+[00:08:33] that this extra dark bit is giving me.
+[00:08:35] So I think what I'm going to do is press B
+[00:08:39] to activate my brush,
+[00:08:40] come back up to the Basic 2 Opacity brush,
+[00:08:44] and make sure I have Eraser Mode on.
+[00:08:47] And I'm actually just going to use this brush
+[00:08:51] to sort of soften up some of these spiky areas.
+[00:08:57] I might be softening these up a bit too much,
+[00:09:01] but I'm kind of liking what I'm getting here.
+[00:09:12] Ooh, yeah, that's cool.
+[00:09:17] Okay, let's get this bit figured out.
+[00:09:22] This almost feels like it could be a tattoo design or something.
+[00:09:27] I like it, though. I think it's turned out pretty cool.
+[00:09:37] All right, now let's get this left-hand side.
+[00:09:50] Okay, I think that turned out really cool.
+[00:09:54] I think what I'm going to try from here
+[00:09:56] is duplicate this texture.
+[00:09:58] I can actually select the layer that I want to do,
+[00:10:02] and I can press Ctrl and J,
+[00:10:05] and it will duplicate that layer for me.
+[00:10:09] So I'm going to try a couple of things just for fun,
+[00:10:11] just to see what kind of cool effects that we can get out of it.
+[00:10:15] Pop over to my mouse,
+[00:10:16] and I'm going to go up to Filter, Blur.
+[00:10:23] I think Motion Blur only gives us horizontal options.
+[00:10:26] I don't think it gives us...
+[00:10:30] Yeah, I think that's only going to give us horizontal options.
+[00:10:32] So I'm going to press Cancel.
+[00:10:35] I'm going to go to Filter, and I'm going to go to Start GMIC-QT.
+[00:10:40] So I'm still on the Radial Blur
+[00:10:42] from the Sparkle Burst lesson that I recorded,
+[00:10:46] and I think that that actually looks really cool,
+[00:10:48] but the amplitude is definitely a bit much.
+[00:10:53] Though I kind of like it.
+[00:10:55] I'm just going to try applying this and see what happens.
+[00:10:59] Whoa, that is so cool.
+[00:11:02] Oh, my gosh.
+[00:11:03] Wow, okay.
+[00:11:04] So it's obviously too strong, so I'm going to un...
+[00:11:08] Oop, I'm going to cancel out of here and Undo.
+[00:11:12] Move our texture over.
+[00:11:13] Let's open GMIC-QT.
+[00:11:19] Okay, let's try something a bit less extreme, like 3.
+[00:11:24] That looks pretty cool.
+[00:11:25] I think that I would still need to edit around the edges
+[00:11:28] just to make sure that it doesn't go beyond the boundaries,
+[00:11:31] like you can see it's happening up here.
+[00:11:33] So I'm actually going to keep that as its own layer,
+[00:11:37] and I'm going to dupe the AOE indicator layer again,
+[00:11:41] and I'm going to see if I can find a version of this Radial Blur
+[00:11:46] that, instead of looking like it's zooming,
+[00:11:49] having it look like it's spinning instead.
+[00:11:52] Unfortunately, I went online and did a little bit of research
+[00:11:55] to see if anyone else had figured out how to get Krita
+[00:11:59] to do a spinning Radial Blur,
+[00:12:02] and unfortunately, it seems like Krita is not able to do this right now.
+[00:12:07] There's just not the functionality for that in Krita.
+[00:12:09] You can do this in Photoshop, however,
+[00:12:11] if you really want to have that spinny look to your AOE,
+[00:12:15] you can either use Photoshop, or I'll show you in just a minute here
+[00:12:19] how you can accomplish that same look without having to use a filter.
+[00:12:23] It's a little bit more of a painstaking or time-consuming process,
+[00:12:27] but it gives you a similar look to what that filter would give you.
+[00:12:33] Ooh, that's kind of cool.
+[00:12:34] I was looking through all of the filters,
+[00:12:36] trying to find one to make sort of a spinning blur,
+[00:12:40] but under the Deformations dropdown,
+[00:12:44] there's one called Wave, and it added some neat sort of visual noise
+[00:12:49] to my AOE indicator.
+[00:12:51] Kind of neat, it looks like a water ripple or something.
+[00:12:57] I feel like this is the closest I'm going to get.
+[00:13:00] So under the same Deformations dropdown,
+[00:13:03] there is a Twirl option,
+[00:13:05] and it isn't giving me exactly what I was hoping for,
+[00:13:09] which was a blurred version of my currently selected layer,
+[00:13:15] but it is giving me some cool options,
+[00:13:19] adding some more of that twirling motion to my texture.
+[00:13:23] So I went ahead and I bumped up the amplitude
+[00:13:26] to I think the highest it could go, which maybe is too much.
+[00:13:30] So let me actually take a look.
+[00:13:34] Actually, it does look pretty cool.
+[00:13:37] Maybe I can incorporate this into my current texture somehow.
+[00:13:42] Size this up a little bit
+[00:13:45] so that it matches our current ring a little better,
+[00:13:50] but it sticks out a little bit.
+[00:13:51] I want to see some of those cool streaky lines.
+[00:13:55] And then from here, I think what I'm going to do
+[00:13:57] is go to Blur, Gaussian Blur.
+[00:14:04] Maybe that's not the right answer.
+[00:14:07] Let's try doing a different type of blur.
+[00:14:12] The Emotion Blur.
+[00:14:14] I really wish that I could find a way to spin blur the texture
+[00:14:21] because spin, like radial blur is what I'm used to calling it.
+[00:14:24] Radial blur is a really cool way to be able to blur a texture like this
+[00:14:30] because it adds circular motion.
+[00:14:32] So it adds a really cool sense of motion
+[00:14:34] while still maintaining the AOE shape.
+[00:14:36] It doesn't look like Krita has the ability to use that kind of filter,
+[00:14:40] which is a huge bummer, actually.
+[00:14:43] I guess one thing that I could try
+[00:14:45] is to duplicate our original layer again.
+[00:14:50] And I'm going to Blur, Gaussian Blur.
+[00:14:56] Give this a little bit of glow.
+[00:14:59] You're probably thinking that's too much glow,
+[00:15:01] but what I can do is I can bring in the glow
+[00:15:04] and then I can tone it down.
+[00:15:07] I can bring down the opacity, so it's not quite so intense.
+[00:15:12] Now, I think what I'm going to try
+[00:15:14] is I'm going to take the cotton swab brush.
+[00:15:19] Here it is. I'm going to take the cotton swab brush.
+[00:15:22] And I'm just going to play around a little bit.
+[00:15:27] See if I can add some of my own sort of radial blur to this situation.
+[00:15:37] This is actually turning out to be way more subtle
+[00:15:39] than I had initially intended.
+[00:15:40] So I'm going to duplicate the original texture
+[00:15:45] and try smudging that out a bit.
+[00:15:53] This is kind of what I was looking for,
+[00:15:57] sort of this radial smudge.
+[00:16:01] Well, it looks like I might have to clean that up a little bit in some areas.
+[00:16:07] This is sort of giving me what I wanted out of that filter.
+[00:16:13] I'm glad there's a way to achieve it,
+[00:16:15] even if it's a bit more time-consuming and painstaking to do.
+[00:16:19] Now that I've smudged this around a bit,
+[00:16:34] I think I'm going to take the airbrush tool
+[00:16:38] and size it down, because it's always massive.
+[00:16:42] Size it down, make sure I have eraser mode enabled,
+[00:16:45] and I'm just going to go through and remove some of this smudging
+[00:16:51] that I've done in areas where I feel like it doesn't need it as much,
+[00:17:01] or in areas where I feel like the brightness could be toned down a little bit.
+[00:17:19] I guess the ending result ended up being pretty subtle,
+[00:17:22] but I kind of like the way it looks.
+[00:17:24] I think it looks kind of cool.
+[00:17:26] And just for kicks and giggles, I'm going to try Gaussian blurring.
+[00:17:34] Yeah, I think I'm going to stick with this,
+[00:17:38] because I can always add the Gaussian blur on top of that radial blur I've got going on.
+[00:17:42] Okay.
+[00:17:48] We tried a bunch of different things here.
+[00:17:50] But I really like how that looks, too.
+[00:17:54] It's always a difficult decision choosing between a radial blur
+[00:17:59] or a zoom blur like this and a radial blur.
+[00:18:03] It's always a tough choice, for sure.
+[00:18:06] I think I might keep some of this streaky stuff going in here.
+[00:18:11] Just tone it down, maybe.
+[00:18:14] Adding in these light streaks, these sort of light rays,
+[00:18:18] absolutely adds a feeling of motion, a feeling of outward motion.
+[00:18:23] So it definitely helps having lines like this
+[00:18:25] to help sell that sort of feeling of an explosion, I guess.
+[00:18:33] Just going to go around the edges, edit it a bit
+[00:18:36] so that we're not getting any harsh edges
+[00:18:40] towards the outside of our texture.
+[00:18:45] Another way to resolve this issue would just be to take the ring...
+[00:18:48] Actually, you know what? I think I am going to do that.
+[00:18:51] I'm just going to follow my own advice.
+[00:18:52] I'm going to delete this.
+[00:18:55] I'm going to try putting these layers in a group
+[00:18:57] and see if I can scale the group.
+[00:19:00] How I can do that is by going to this little plus sign.
+[00:19:03] There's an arrow next to it.
+[00:19:05] If I click that and press Add Group Layer,
+[00:19:09] it will add this little group layer to the list here
+[00:19:12] that has a little folder icon.
+[00:19:14] From there, I can grab the visible layers
+[00:19:17] that I want to add to that group,
+[00:19:19] which is all the layers except for the background.
+[00:19:23] And I can drag them on top of this group layer,
+[00:19:28] and that will group them all.
+[00:19:30] And then I can collapse the group.
+[00:19:32] Now that I have this group selected,
+[00:19:33] I'm going to see if the Transform tool will allow me to...
+[00:19:39] Nice. This allows me to size down all of the layers
+[00:19:42] that I have in that group at once,
+[00:19:44] instead of having to resize each layer one by one.
+[00:19:48] Though I don't know why it says that there's something
+[00:19:52] I've drawn all the way over here,
+[00:19:54] but what I can do is take this center point here.
+[00:19:57] This is where the texture will scale.
+[00:20:00] If you're scaling it from the center,
+[00:20:02] what I can do is take this and move it to the center of the ring.
+[00:20:09] And then I can do my handy-dandy Shift and Alt
+[00:20:13] to scale it down evenly.
+[00:20:18] And I think that'll give us enough space for those light rays.
+[00:20:20] So let's go ahead and give it a try.
+[00:20:24] Here's our original layer.
+[00:20:27] Here's our duplicate that we were going to make light rays
+[00:20:30] with, so let me go ahead and open DMIC-QT
+[00:20:34] and go back to Degradation and go to Radial Blur.
+[00:20:40] I think 3 is about what I had before, so I'm just going to apply.
+[00:20:44] Yeah, that looks great.
+[00:20:45] And it's definitely not as close to the edges as it was before.
+[00:20:49] So now I can go ahead and edit all around the edges
+[00:20:53] just to make sure that the stronger rays over here aren't clipping.
+[00:20:59] All right, I think this looks awesome.
+[00:21:13] So what I'm going to do is I'm actually going to tone down
+[00:21:15] these light rays just a bit.
+[00:21:19] See what it looks like with them a bit less prominent.
+[00:21:26] I think I do actually like them around 50% or 60% opacity.
+[00:21:31] And then for the original layer, I think I might try...
+[00:21:36] Toning it down all the way might make it too soft.
+[00:21:41] Kind of like the harsh edges that I have in here.
+[00:21:43] So I think I'm actually going to keep that relatively high as well.
+[00:21:47] I'm going to go for 75% on that one.
+[00:21:51] And I think we are ready for a test to make sure that our texture isn't clipping.
+[00:21:57] So I'm going to right-click the group and say New Layer from Visible.
+[00:22:05] That will make a new layer from everything that I had visible.
+[00:22:10] So all the layers that are inside the group, including the background.
+[00:22:13] And I'm going to go to Filter, Adjust Threshold.
+[00:22:19] And if I drag this arrow all the way down,
+[00:22:23] I can see there's some issues down here on the bottom right-hand side.
+[00:22:28] So I'm going to go ahead and take care of that really quick
+[00:22:34] by going to our light-raised layer, which is this one,
+[00:22:38] and Erasing Away.
+[00:22:44] All right, let's give that another try.
+[00:22:46] New Layer from Visible.
+[00:22:49] Adjust Threshold.
+[00:22:52] All the way down.
+[00:22:54] It's weird that it's still showing that there.
+[00:22:59] If you're really concerned about this, what you can do is work on this combined layer.
+[00:23:03] I'm going to make sure that Eraser is off.
+[00:23:06] And I have black selected.
+[00:23:08] Then I can just paint black on this corner here
+[00:23:11] just to ensure that whatever lightness I had going on over there is not a problem.
+[00:23:18] Let's do one more test.
+[00:23:20] There we go. Nice and solved.
+[00:23:23] Okay, so there you have it. That is our shockwave texture.
+[00:23:27] It's really incredible to me just how useful the different filters are
+[00:23:31] for making textures like this.
+[00:23:33] I mean, obviously, there's some aspect of it that's hand-painted,
+[00:23:37] which I feel like is the, I would maybe say, the most time-consuming part.
+[00:23:42] But the filters really add so much motion and so much energy to the textures.
+[00:23:47] So I hope that you utilize filters because they will help immensely
+[00:23:52] with adding the feeling of motion to your texture.
+[00:23:56] One thing that I didn't really cover while I was painting
+[00:23:58] is that there's some lines here that are sharp,
+[00:24:03] and there's some that are soft and blurry.
+[00:24:06] And it's really good to have a mixture of those two
+[00:24:08] for sort of the same reasons as we had the sharp light rays
+[00:24:12] and soft light rays in our sparkle burst texture.
+[00:24:14] It's really good to have some lines crisp for readability
+[00:24:17] and then some lines softer for the sake of variety
+[00:24:20] and also to help add sort of a cool, glowy feeling,
+[00:24:23] almost like it's magical or that there's energy being expended here.
+[00:24:31] There you have it. You did it.
+[00:24:33] Congrats on making your first shockwave texture.
+[00:24:36] It's so useful for being able to communicate
+[00:24:38] both the energy that is coming out of an effect
+[00:24:41] and the area that is being affected by whatever spell is being cast
+[00:24:46] or weapon hitting the ground
+[00:24:48] or like there's any number of things that this could represent.
+[00:24:51] So I hope that you find it's useful and helpful
+[00:24:53] for whatever game project that you're working on.
+[00:24:56] And next time, in Lesson 4, we're going to talk about embers.
+[00:25:00] We're going to make an ember sprite sheet
+[00:25:01] where there's four different variations of embers,
+[00:25:06] either for a fire or to add to a projectile from a spell.
+[00:25:09] There's any number of uses that you could use it for.
+[00:25:12] But yeah, I will see you all then.
+[00:25:14] Thank you so much for watching. I'll see you next time.

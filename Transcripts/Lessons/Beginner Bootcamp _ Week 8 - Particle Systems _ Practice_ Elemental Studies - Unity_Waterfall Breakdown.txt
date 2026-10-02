@@ -1,0 +1,375 @@
+[00:00:05] Hello everyone, welcome to the last breakdown video of the Elemental Studio's course about
+[00:00:09] the Waterfall effect.
+[00:00:11] As usual, we'll start this video by having a quick talk on the concept art of the effect,
+[00:00:16] and we'll continue on with the technical breakdown of each of its components.
+[00:00:21] So let's get started.
+[00:00:23] You can see on screen the concept art of the Waterfall effect.
+[00:00:27] Our notes here will help us visualise how we will build it.
+[00:00:31] As usual, we'll have to establish a clear hierarchy between components and pick the
+[00:00:36] right area where we'll allow ourselves to push color and shape contrast.
+[00:00:41] We can easily identify three buildings' layers in the concept.
+[00:00:45] The first one will be the base of the waterfall with its plunge pool, the second one will
+[00:00:50] be the multiple form effects attached to the first layer, and the third one will be about
+[00:00:56] subtle elements such as reflection, water mist and regional fin waves.
+[00:01:02] This time, it seems that we won't be able to reuse previous assets to build our waterfall.
+[00:01:07] It might take a bit more time to create the entire effect.
+[00:01:11] In Unity Engine, our final effect looks like a bit different from the concept and seems
+[00:01:16] less contrasted, but all layers and individual components are here.
+[00:01:22] I've added some little rocks to have a preview of the effect with environments assets built
+[00:01:27] around it.
+[00:01:28] Let's now take a look at the technical breakdown of the effect.
+[00:01:35] The effect is built around multiple components and this time, as said earlier, we won't
+[00:01:40] be able to reuse a lot of previously made assets, for they won't quite fit our needs.
+[00:01:46] This effect won't mostly be built around particle systems.
+[00:01:50] In fact, most of those components are just meshes that do not cast shadows with transparent
+[00:01:57] materials applied on them.
+[00:02:00] So most of the work here will be to create shaders that we will be able to use for most
+[00:02:05] components and create multiple materials out of them, with the right textures and properties
+[00:02:12] set up to achieve the desired final visual render.
+[00:02:17] We start this breakdown part by reviewing the two components of the main building layer
+[00:02:21] of the effect, the Base Waterfall and Base Plunge Pool components.
+[00:02:28] For the Base Water component, it is a simple 3D mesh where the visual render is handled
+[00:02:33] only by its model.
+[00:02:34] This component, as well as other parts of the waterfall effect, is using a new texture
+[00:02:41] and a new shader that we will review right now.
+[00:02:45] This is the Base Water shader, a duplicated and modified version of the main Flame shader
+[00:02:49] from the Campfire effect.
+[00:02:52] Its main purpose is quite the same than the main Flame shader, to allow us to apply a
+[00:02:57] UV distortion effect on our emissive texture and animate our 3D meshes thanks to a simple
+[00:03:03] vertex offset setup.
+[00:03:07] The key difference here will be the possibility to dynamically control the opacity masking
+[00:03:11] of our mesh thanks to a smooth step setup with UV's linear gradients.
+[00:03:17] In the Graph Inspector window, we note that this shader is an unlit alphabet transparent
+[00:03:22] shader with blackface culling, meaning that the shader is not affected by the lighting
+[00:03:27] of the scene that it is able to handle transparency and render only front faces of 3D meshes it
+[00:03:35] is applied on.
+[00:03:38] We also see through the Blackboard window that there is a big list of properties.
+[00:03:43] As said earlier, most components of the waterfall effect won't use particle systems, but
+[00:03:49] only the metal applied on their respective 3D meshes bundles our final visual render.
+[00:03:56] Just like most shaders made during this course, we observe the presence of only one 2D texture
+[00:04:02] in the shader, meaning that we are using the ChannelPacking method to save pen firmances
+[00:04:07] and reduce texture culls.
+[00:04:11] We are not using the red channel, but we are using the green channel to store an opacity
+[00:04:15] mask texture and the blue channel to store the base color and UV distortion noise texture.
+[00:04:22] Let's take a quick look at our shader features.
+[00:04:25] We've already made most of those features in previous videos, so it will be faster to
+[00:04:30] review this entire shader.
+[00:04:32] We got a simple UV distortion feature with its Endmade Pen function, linked to our Emissive
+[00:04:38] and Opacity Mask texture sample.
+[00:04:42] We control the contrast and color over Emissive texture through this color setup right there
+[00:04:47] before linking its result to the base color of the master node.
+[00:04:53] We want some displacement on our mesh to animate it and simulate water flows, so we reuse the
+[00:04:59] Vadex offset feature we've made for the main flame shader and let it connect it to the
+[00:05:05] position input of the master node.
+[00:05:10] Here's the new part of the duplicated shader, the UV Smoothstep Masking.
+[00:05:15] It's a feature we've already made during the circle shader of the It Impact Breakdown video,
+[00:05:20] remember?
+[00:05:21] We're using linear gradients from the UV node to mask off borders of our UV space.
+[00:05:27] That will mask off parts of our meshes depending on their UV unwrap.
+[00:05:35] So the final result of our UV Masking feature is a multiplied or defined node subgraph that
+[00:05:41] will avoid our water meshes to have clear cut lines at their intersection with other
+[00:05:46] meshes.
+[00:05:48] The result of this multiplication of those two shader features is then multiplied to
+[00:05:53] the green channel of our texture, containing the Opacity Mask.
+[00:05:57] Finally, we're creating here a LARP setup to choose whether we want to use the Opacity
+[00:06:04] setup with or without taking into account the Opacity Mask contained in the grid channel
+[00:06:10] of our texture.
+[00:06:14] The result is then linked to the alpha input of the master node.
+[00:06:18] With the shader review done, we can now create the base waterfall material out of it.
+[00:06:24] We'll edit its properties right after we've made the 3D mesh for it and its texture.
+[00:06:30] We'll first make the texture for our material in Photoshop.
+[00:06:35] It will be fast to make.
+[00:06:37] We will reuse the noise texture contained in the blue channel of the main flame texture
+[00:06:43] of the campfire effect.
+[00:06:48] After saving the texture, we'll close Photoshop and put up Blender.
+[00:06:53] The base waterfall mesh will be quite simple to make in Blender.
+[00:06:57] It's a subdivided folded plane.
+[00:07:01] We can make it by creating a simple plane, extruding its edge down the Z axis by maintaining
+[00:07:09] Z on your keyboard to create the 90 degree angle.
+[00:07:14] After that, bevel the said angle with additional subdivisions, thanks to the bevel tool window.
+[00:07:23] And subdivide the rest of the mesh with the Cut Loop tool to allow it to handle well the
+[00:07:28] vertex offset feature of our shader that will simulate the water flow.
+[00:07:35] Finally, select the entire mesh.
+[00:07:38] And in the UV window, right click and select Unwrap to display the current UV unwrap of
+[00:07:43] your mesh.
+[00:07:45] You might need to scale it to make it take the entire UV space.
+[00:07:50] And that's it, we got our waterfall mesh done.
+[00:07:54] Back to Unity, we'll first apply our newly created metal to our waterfall mesh, and assign
+[00:08:00] our new texture that we just made in Photoshop to it.
+[00:08:05] Our metal property trick session for most components of the waterfall effect is where
+[00:08:09] most of our production time will be required.
+[00:08:13] We'll have to play around with multiple metal properties to get the desired visual render
+[00:08:17] for each component.
+[00:08:19] Here is my final metal setup.
+[00:08:23] It might not work for all of you, for, I said numerous times during previous videos, properties
+[00:08:28] values being in a metal or particle system won't give the same result where we won't
+[00:08:33] necessarily have the same exact scene scale, texture, meshes, UVs and so on.
+[00:08:40] The properties that are important to tweak here are the smooth step X and Y values to
+[00:08:45] control the contrast of our emissive texture and the colour associated to it.
+[00:08:52] The emissive and UV distortion texture telling and speed will be quite important too.
+[00:08:57] We want non-uniform values to stretch said textures and accentuate the feeling of flow,
+[00:09:03] speed and directionality of the waterfall.
+[00:09:08] We will want, of course, some UV distortion and vertex offset to animate our 3D mesh.
+[00:09:13] And since our texture is just a black and white noisy texture, we don't want to use
+[00:09:18] its screen channel as the opacity mask, we just want our UV smooth step masking feature
+[00:09:23] to handle the opacity masking of the border of our mesh.
+[00:09:27] That way, we'll have transparent borders on our mesh and transparent intersections
+[00:09:32] with other meshes thanks to the Defade feature.
+[00:09:38] I encourage you to pause this video and take some time to get the desired result with any
+[00:09:43] metal setup that we are going to review in this video.
+[00:09:49] After tweaking the waterfall matter properties, time to make the second component of the main
+[00:09:53] layer of the waterfall effect, the plunge pool.
+[00:09:58] This component is using the same shader and texture than the base waterfall component
+[00:10:04] so we'll directly review its 3D mesh and metal setup.
+[00:10:10] The plunge pool is half of a flattened hemisphere that will allow us to use the polar coordinates
+[00:10:15] principle, meaning we will be using straight bloodline in our texture and they will be
+[00:10:20] displayed as a fragile bloodline on our mesh.
+[00:10:26] In Blender, to make the plunge pool mesh, we can create a sphere, cut it in half, flatten
+[00:10:36] it, and cut it in half once again, to only get half of a flattened hemisphere.
+[00:10:48] We then rescale our base UV's unwrap to take the entire UV space.
+[00:10:54] We might also want to add some subdivisions to smooth the vertex offset effect of our
+[00:10:58] shader.
+[00:10:59] If you want, we can accentuate the UV stretching of our texture for the center of our mesh
+[00:11:05] and squashing that occurs at the bottom of our mesh by using the Smooth Selection tool
+[00:11:11] to scale down the top of our UV island.
+[00:11:17] Back to Unity, we'll duplicate the waterfall component material and tweak its values to
+[00:11:21] make it suit better this new mesh.
+[00:11:24] We'll keep the colour and contrast of the emissive part of the material, as well as
+[00:11:29] the UV noise intensity and also keep the vertex offset intensity value.
+[00:11:35] We will however tweak the UV smooth step properties since our mesh has changed and the tiling
+[00:11:40] and speed of our emissive and UV distortion texture to better fit our new mesh.
+[00:11:47] Next component will be the Effects Reflection effect.
+[00:11:51] This component adds that extra physically based effect that is nice to look at and help
+[00:11:55] underline the change in the angle of the waterfall.
+[00:12:00] It's using the same shaders as the two previous components, so let's review its texture, 3D
+[00:12:07] mesh and metal setup.
+[00:12:11] Rooting up Photoshop once more, we'll create the effect reflection texture.
+[00:12:17] We're going to paint with a hard brush simple straight vertical lines and blur them thanks
+[00:12:22] to the Motion Blur filter.
+[00:12:25] Don't forget to add some width and spacing variations.
+[00:12:30] We can keep the same texture for the red and green channel since we aren't using the red
+[00:12:34] channel in the shader.
+[00:12:37] And in the blue channel, we'll use the same UV distortion noise texture used in the main
+[00:12:42] flames texture for the campfire effect.
+[00:12:48] When we're done with Photoshop, we'll switch to Auto Blender.
+[00:12:51] The mesh we're going to make is quite similar to the waterfall mesh we've made earlier.
+[00:12:56] You just have to make a regular folded plane with its 90 degree angle beveled and without
+[00:13:02] any additional subdivisions, for we won't use the vertex offset shader feature on this
+[00:13:08] mesh.
+[00:13:10] After exporting it to Unity, we'll duplicate the base waterfall material, assign our newly
+[00:13:16] made texture to it, and apply this material to our mesh.
+[00:13:21] We then tweak the material properties.
+[00:13:24] Despite being a tertiary building element, in the visual hierarchy of the waterfall effect,
+[00:13:30] we want our reflection to be more luminous and contrasted than the rest of the components.
+[00:13:37] We'll use the opacity texture multiplied to the UV smooth stack masking feature, deactivate
+[00:13:43] the vertex offset feature, and tweak tiling and speed values for the emissive and UV distortion
+[00:13:49] noise texture.
+[00:13:52] We also want this component to be rendered on top of other effects.
+[00:13:56] However, we don't have an order in layer property like in a particle system.
+[00:14:01] So we are using the sorting priority option in the advanced options of our shader to do
+[00:14:07] the same thing.
+[00:14:09] All our materials have a default value of zero, so we just have to set its value above
+[00:14:14] zero to make this material rendered on top of other materials.
+[00:14:21] Now we'll review the second building layer of our waterfall, containing two components
+[00:14:26] that add some visual complexity to the overall effect.
+[00:14:32] Both components are using the same shader used by our previous components, plus with
+[00:14:37] different textures and properties set up.
+[00:14:41] First, we'll take a look at the secondary water layer located under the Effect Reflection
+[00:14:47] component.
+[00:14:49] It's using a slightly modified version of the Effect Reflection 3D mesh with longer
+[00:14:54] planar borders, and a subtle change in color, shape and contrast.
+[00:15:04] We need a new texture to make those animated bloodlines.
+[00:15:08] In Photoshop, paint a square with a soft brush, while keeping borders of the texture blacked
+[00:15:14] out, and apply some luminous variations in straight vertical lines.
+[00:15:20] We can keep the same texture for the red and green channel, but we'll need different
+[00:15:24] luminosity variations in the blue channel that will serve as a UV distortion noise and
+[00:15:29] kind of animate our vertical lines.
+[00:15:33] Once our newly created texture is applied to our material, and the material assigned
+[00:15:37] to our mesh, we can focus on its properties set up.
+[00:15:41] This material is using the Opacity Mask in our texture alongside the UV Opacity Smoothstep
+[00:15:47] Masking feature.
+[00:15:49] It doesn't have any balance offset applied to it, but do have some UV distortion.
+[00:15:55] We modified the contrast level and color of the texture, and applied a non-uniform tiling
+[00:16:01] on the static base texture and scrolling UV distortion noise texture.
+[00:16:05] We'll now take a look at the secondary water layer component located on top of the plunge
+[00:16:13] pool.
+[00:16:17] This component is using the same exact mesh used for the base plunge pool, however its
+[00:16:22] metal and texture are a bit different.
+[00:16:26] It brings those slow contrasted cum elongated shapes that stretches from the center of the
+[00:16:32] plunging pool.
+[00:16:33] They will support well our formed components that I am going to make a bit later in the
+[00:16:40] video.
+[00:16:42] Now for the texture, the green channel contains multiple soft blurred vertical lines with
+[00:16:48] various widths and lengths.
+[00:16:50] In the blue channel, this is quite a similar texture but with some luminosity and solid
+[00:16:55] shapes variations applied to it.
+[00:16:59] When your texture is done and applied on the new model created for this component, we'll
+[00:17:04] edit its properties.
+[00:17:08] We got some UV distortion and a vertex offset while using the Opacity Mask in our texture
+[00:17:13] alongside the UV Opacity Smoothstep Masking feature.
+[00:17:17] To mask off borders of our flattened semi-emisphere.
+[00:17:22] We also note that we got a uniform tiling on our emissive texture and a non-uniform
+[00:17:28] tiling on our UV distortion noise texture, and both textures are slowly scrolling on
+[00:17:34] the mesh but at different speed.
+[00:17:37] And we got some colour and contrast variations done here to have bright, less bright and
+[00:17:43] semi-transparent parts on our texture.
+[00:17:46] We'll now make those cool foam effects.
+[00:17:51] Those two components are visually important by bringing contrast and details in the intersection
+[00:17:57] area between the waterfall and its plunging pool.
+[00:18:02] Those components are using a curvy 3D plane and a flattened semi-emisphere.
+[00:18:08] We already know how to make those, but most importantly, are using a new shader.
+[00:18:14] Let's see what this one is all about.
+[00:18:17] We could have just used the shader we created for the base waterfall component at the start
+[00:18:22] of this breakdown video, but for educational purposes, let's be crazy and make this one
+[00:18:28] which is basically the same but make full use of Shader Graph's Voronoi node to get
+[00:18:33] a dynamic Voronoi noise applied as both Emissive and Opacity Mask.
+[00:18:39] And to be honest, I find it pretty cool.
+[00:18:43] The visual of the Voronoi noise is perfect to make some foam-branching curvy lines.
+[00:18:49] And of course, this shader is using most features of the base water shader, like UV Smoothstep
+[00:18:55] Masking, Defade and Vertex Offset.
+[00:19:01] This shader has the same rendering options than the base water shader.
+[00:19:08] It's an unlit alpha-blind transparent shader with backface culling.
+[00:19:12] Each final visual render is mostly handled through this big list of properties.
+[00:19:18] As you can see, there isn't any texture cull this time, because we are using the Voronoi
+[00:19:23] node, which is a mathematically generated noise.
+[00:19:29] We start this shader review with the new part of the shader, the Voronoi noise node.
+[00:19:35] We got a Shader Graph's Voronoi node controlled by a handmade panel function to make it scroll
+[00:19:40] and edit the noise styling.
+[00:19:44] And the most important thing here, the Angle Offset modifier.
+[00:19:48] With this property multiplied to a Time node, we can make our static scrolling Voronoi dynamic.
+[00:19:55] The result is then linked to a Smoothstep node to control the contrast of the noise.
+[00:20:02] Next, we'll make a non-linear gradient setup to have a more organic gradient.
+[00:20:10] We multiply the green output of the UV node to the Smoothstep input to first apply a vertical
+[00:20:16] linear gradient on our noise.
+[00:20:19] Then, to get our non-linear organic gradient, we subtract the inverted green channel of
+[00:20:26] the UV node to our linear noisy gradient, and subtract the result to the regular UV's
+[00:20:34] green output.
+[00:20:36] And voila, we got an interesting organic bubbly gradient.
+[00:20:42] After we've inverted it to get back those spreadsheet curves that we want from the original
+[00:20:46] Voronoi noise, we can plug the result to our contrast and color setup that is connected
+[00:20:52] to the Base Color input of the master node to control the opacity masking in a way and
+[00:20:58] the luminosity level of the base color part.
+[00:21:03] Before going on the opacity setup, we got here the vertex offset feature.
+[00:21:07] Nothing new, with its final result connected to the Position input of the master node.
+[00:21:15] And the final part of the shader, the opacity setup, we got once more the UV Smoothstep
+[00:21:20] masking feature multiplied to a Deflate node subgraph.
+[00:21:24] The result of the multiplication of those two shader features is then multiplied to
+[00:21:31] the contrast controller of our Voronoi noise that we serve as an opacity mask.
+[00:21:38] And just like the original shader, in case of, we have a love setup to choose whether
+[00:21:43] or not we want to use the opacity setup with our Voronoi opacity mask.
+[00:21:49] The result is then linked to the Alpha input of the master node.
+[00:21:55] And with the shader review done, you can now create the plunge pool for a model out of
+[00:22:00] it.
+[00:22:01] I'm going to edit its properties right after we've made the 3D mesh for it.
+[00:22:06] The mesh used for the plunge pool form effect is a duplicated version of the Base Plunge
+[00:22:11] Pool component, but I've used the Soft Selection tool to edit its UVs to reduce the stretching
+[00:22:20] and damping of the texture at the centre and border of the mesh.
+[00:22:27] For its model setup, we got our Voronoi noise being multiplied with our UV Smoothstep feature
+[00:22:33] and Defade effect for the opacity mask applied on our mesh.
+[00:22:37] We have a solid vertex offset effect, and our Voronoi noise is made dynamic thanks to
+[00:22:42] the Voronoi animated cell speed property.
+[00:22:46] After some colour and contrast value tweaking, we've set non-uniform tailing on our scrolling
+[00:22:51] Voronoi noise and vertex offset noise.
+[00:22:56] We absolutely want this model to be rendered on top of all other models, so we set a high
+[00:23:01] Sorting Priority value.
+[00:23:05] Once you are happy with the final render of this component, we can continue on with the
+[00:23:09] second form component, which is the Vertical Falling Form effect.
+[00:23:14] To make the vertical form mesh, in Blender, we are going to create a simple plane, subdivide
+[00:23:22] it, activate the Smooth Selection tool, set its Proportional Editing Falloff type to Sphere,
+[00:23:31] and push the middle edge of the plane to get this curvy mesh that looks like a cylinder
+[00:23:36] cut in half.
+[00:23:40] When our mesh is done, we'll just duplicate the Plunge Pool form material, edit the tailing
+[00:23:47] of the Voronoi noise and vertex offset noise while also tweaking opacity masking properties
+[00:23:54] to get a more stretched form noise on our mesh with a more fading opacity mask.
+[00:24:00] And to avoid any transparency sorting issues, we can set a higher sorting priority value.
+[00:24:09] And that's it!
+[00:24:10] Look at those nice foamy shapes blending at the intersection of our waterfall and its
+[00:24:15] plunge pool.
+[00:24:17] We'll continue this breakdown video by reviewing more subtle components.
+[00:24:24] Now we'll cover one of the two components of the Waterfall effect that has a particle
+[00:24:27] system setup, the Water Mist component.
+[00:24:31] This effect would be perfect to help blend the space where the waterfall and plunge pool
+[00:24:36] connects.
+[00:24:38] The Water Mist material is a duplicated version of the Smoke material from the Campfire effect,
+[00:24:45] using the same Smoke Texture spreadsheet and Emissive Intensity.
+[00:24:49] The difference here is that the Emissive Intensity is not driven by the vertex color alpha.
+[00:24:56] That way, we can have bright water mist particles with a low opacity.
+[00:25:02] Now for the particle system setup.
+[00:25:04] In the Render module, we are using the Billboard render mode, with our Water Mist module assigned
+[00:25:09] in the particle system.
+[00:25:11] The Render alignment is set to View, and the Order and Layer to 1.
+[00:25:17] We are using a 2x2 texture spreadsheet, so we'll activate the Texture Sheet Animation
+[00:25:22] module, set the Tiles to 2x2, and the Frame Over Time value from frame 0 to 4.
+[00:25:29] In the General module, we have ticked the Looping and Preform option, to have our particle
+[00:25:34] system directly start in the middle of a loop and avoid waiting them to spawn.
+[00:25:39] We have set high values in the Start Lifetime property to make those particles last sometimes
+[00:25:45] and avoid having them fading too quickly.
+[00:25:48] We also have added some speed values to make them move, and we got some random values in
+[00:25:54] the Start Size property to have uniform scaling variations on our water mist particles.
+[00:25:59] Don't forget to add some rotation variations to our particles, and to set a color with
+[00:26:05] a low alpha value.
+[00:26:08] In the Emission module, we are using the Write Over Time method to continuously spawn our
+[00:26:12] particles.
+[00:26:14] And in the Shape module, we are using an Edge shape to spawn our particles along the width
+[00:26:19] of the waterfall plane.
+[00:26:23] Since our particles have some speed, we'll make them slowly damp at the end of the lifetime
+[00:26:28] to the Limit Velocity Over Lifetime module, with the Dampen and Drag property set to 1,
+[00:26:34] and an inverted S curve with a Max Speed set to 2.
+[00:26:40] In the Color Over Lifetime module, we are using a simple Fade In Fade Out gradient with
+[00:26:44] a low alpha peak.
+[00:26:48] In the Size Over Lifetime module, we use a Is Out curve to make our particles quickly
+[00:26:53] grow in size before stabilizing at the end of the lifetime.
+[00:26:58] Finally, you can activate the Noise module to add some randomness to the behavior of
+[00:27:02] your particles.
+[00:27:04] We have set a low Strength value, with a decent Frequency and Screw Speed values.
+[00:27:08] Note that we are applying our Noise module to the position and rotation of our particles
+[00:27:15] same to those properties down there.
+[00:27:18] And we got now our nice Water Mist blending component done.
+[00:27:23] Time to tackle the last component of the waterfall effect, the radial thin waves.
+[00:27:29] This final component is about the simulation of waves being pushed away from the waterfall
+[00:27:33] contact area with its plunge pool.
+[00:27:37] We are using the same flattened semi-emissure mesh from the radial second water layer, on
+[00:27:43] which we will apply flat lines from our texture and make them move in a radial way thanks
+[00:27:48] to the Polar Coordinate principle we saw during the Heat Impact Breakdown video.
+[00:27:52] Let's start by reviewing its model.
+[00:27:57] The shader used is the Heat Impact Circles shader that allows us to control through our
+[00:28:03] particle system's custom vertex data curves the offset and tailing of our texture.
+[00:28:10] We got a minimal emissive intensity and a low UV distortion intensity with a static
+[00:28:15] non-uniform distortion texture tailing.
+[00:28:21] The texture we use is quite simple to make, the red and green channels are the same, containing
+[00:28:26] three straight lines with intensity variations and a bloom filter applied on them that will
+[00:28:31] be used as emissive and opacity masks.
+[00:28:36] The blue channel will be used for the UV distortion effect and contains a slightly different version
+[00:28:40] of the UV distortion noise texture or the main flames texture from the Campfire effect.
+[00:28:48] As with we got our mesh, model and texture ready, let's review the particle system
+[00:28:54] setup.
+[00:28:55] In the render module, we set the render mode to Mesh and assign the radial second water
+[00:29:01] layer mesh with the radial waves model.
+[00:29:03] The render alignment is set to local and the order layer to 0.
+[00:29:09] We know we will use later on custom data, so we will tick the custom vertex streams
+[00:29:14] option and add the custom1.xyzw property.
+[00:29:20] In the general module, we have ticked the looping and preform options.
+[00:29:24] We have set high values in the start lifetime property to make those particles last a long
+[00:29:28] time, and as usual, we got random values in the start size property to have uniform scaling
+[00:29:34] variations on our water radial waves particles, with the correct mesh rotation applied on
+[00:29:39] them.
+[00:29:41] In my case, I have applied a light blue color in the start color property with a high alpha
+[00:29:46] value.
+[00:29:47] In the emission module, we will use the rate over time method with a random value between
+[00:29:54] two small constants.
+[00:29:56] Don't forget that each particle will display between 2 to 3 lines, so keep the particle
+[00:30:00] spawning number quite low.
+[00:30:04] In the color over lifetime module, we are using a simple fade in fade out gradient.
+[00:30:09] As said earlier, we will be using custom data, so let's activate the fade module.
+[00:30:14] The x and y property will be set to 1, for they control the tidying of our texture in
+[00:30:19] our shader, and we don't want to change those over time.
+[00:30:22] However, we will use the w property to push away those waves slowly by using two ez curves
+[00:30:29] and the z property to add some solid rotation on our line textures with two curves limited
+[00:30:35] by a low max value.
+[00:30:38] After some time to tweak and refine our custom data curves, we got our final component done.
+[00:30:44] That concludes this last breakdown video.
+[00:30:47] That was for sure one of the most complex effects of the entire course, but I'm sure
+[00:30:51] you managed to replicate it.
+[00:30:53] Don't hesitate to share your progress on social medias and on the VFX Apprentice Discord server.
+[00:31:00] I hope you liked this content, and I see you in the next video.
+[00:31:03] Bye!

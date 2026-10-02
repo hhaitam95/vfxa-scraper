@@ -1,0 +1,98 @@
+[00:00:05] Hello, welcome to this lesson in this one we're going to be talking about
+[00:00:10] arcs
+[00:00:13] arcs very
+[00:00:15] important in
+[00:00:16] Animation not only are they more visually interesting than just a straight line
+[00:00:22] But I would probably argue that they happen more than things just traveling it in a straight line
+[00:00:29] straight lines are best used for
+[00:00:33] Something that is traveling either to like a fixed location
+[00:00:38] Obviously like a train or something like that like a train in profile looks like it's traveling straight or
+[00:00:44] Say an example of a baseball being thrown really really hard and fast would be essentially traveling straight, right? However
+[00:00:52] You give the baseball example enough time
+[00:00:56] That
+[00:00:58] Ball is going to start to be affected by gravity and guess where that leads to
+[00:01:04] Leads to the ball traveling towards the ground and you are now dealing with an arc not a straight line
+[00:01:11] You can look at this in terms of physiology as well your body your joints move your wrist move your elbow
+[00:01:18] those things the if you move your elbow your wrist traveling from point A to point B if
+[00:01:26] Your shoulders is in a fixed position
+[00:01:29] That's not traveling in a straight line that's traveling in an arc
+[00:01:33] even when you're dealing with a straight line
+[00:01:35] You can throw a little bit of an arc to it and that little bit of variation in the motion is going to be
+[00:01:42] Just slightly more visually appealing than something going straight from point A to point B. So
+[00:01:48] if you can
+[00:01:49] Lean into the idea of arcs because not only is it more naturalistic it looks better as well
+[00:01:57] When we're dealing with anything that travels in two dimensions
+[00:02:02] So the second we move away from one dimension
+[00:02:05] so we'll just call it like the y-axis like the idea of up and down the second we add any x-axis to
+[00:02:13] Something traveling in the y-plane up and down as soon as you add in X left to right
+[00:02:18] You're dealing with an arc over time when we're thinking about all the different types of animations and stuff we can do
+[00:02:26] Once again, there's just very few things that only travel in
+[00:02:29] Either just the y-axis or the x-axis. It's almost always a combination of the two
+[00:02:37] so I wanted to use a couple drawings here to try to give you a better idea of
+[00:02:42] Exactly what it is. I mean
+[00:02:44] So we have our three positions here
+[00:02:47] Position A as you can see is or sorry position C is different than position A
+[00:02:53] so this means that we are dealing with
+[00:02:57] The y-axis of the object traveling up and down and the x-axis of it traveling
+[00:03:04] In this specific case left to right
+[00:03:07] So the reason why you don't want to go straight line
+[00:03:11] From position A to B and then from position B to C is because the energy
+[00:03:18] The physics of it all even though we don't need to understand it mathematically
+[00:03:23] We know it intuitively because we see it every day in the things around us. Nothing travels like this
+[00:03:30] There are going to be energy
+[00:03:32] That affects the y-axis and there's going to be energy that affects the x-axis
+[00:03:38] Now when we're talking about the energy that affects these things we're ultimately talking about easings
+[00:03:45] Because as something goes up, we know that the speed at which it travels up
+[00:03:50] It starts very fast. And then as the force of gravity pushes down it starts to compress
+[00:03:56] So if we are dealing with a timing chart
+[00:03:59] We would be talking about the easing in the timing chart of having more frames
+[00:04:04] Near the top of the action the very top of the action being pose B here now
+[00:04:13] Because of those easings and because we're moving on an x-axis
+[00:04:17] The ultimate shape of something like this is going to be let me choose a different color
+[00:04:22] The ultimate motion of this over time is going to be an arc
+[00:04:28] It's not going to be a straight line like in this just call this example a here
+[00:04:34] So something starts off in the y-axis
+[00:04:39] It starts off with quite a bit of speed
+[00:04:42] And then we know that gravity is pushing down on it. So we're going to compress the frames at the top
+[00:04:47] This is a timing chart or this and then once gravity takes over and starts pulling it down
+[00:04:53] It will speed back up again until it hits the ground and the entire time while this is happening
+[00:05:02] The object is also moving across the x-axis much in the same way
+[00:05:09] Depending on what's happening like we're depending on the energy of it with with what's happening in
+[00:05:15] the arc
+[00:05:16] So when you when you throw all those things together
+[00:05:19] You start to realize that very few things travel in a straight line
+[00:05:24] So when we have something that has to in this case hop from position A to position B
+[00:05:30] We want to make sure that we're applying an arc to it and we're avoiding the straight line
+[00:05:36] in terms of specifically effects arcs are everywhere so much of what we do and what we animate is a
+[00:05:44] replication of the physical properties and
+[00:05:48] Sort of the intuitive nature of well mostly gravity and there's some other there's some other forces
+[00:05:54] in there as well, but a lot of what we do with
+[00:05:58] splashes and
+[00:06:00] water
+[00:06:01] Waters intensely affected by this like the old saying goes anything that goes up must come back down
+[00:06:07] So the forces involved in a splash as you can see on screen has water traveling in all different directions
+[00:06:14] But all of those are arcs
+[00:06:17] So realistically when you're doing a splash you are tracking arcs for all the little bits
+[00:06:23] Probably one of the worst
+[00:06:26] newbie pitfalls that I find
+[00:06:29] Students and new employees fall into is that they don't follow through on their arcs
+[00:06:35] They start off with the arcs because they know intuitively that a splash will just use the splash for the example here
+[00:06:41] They know intuitively that the splash
+[00:06:44] Has to burst and travel outwards. However, when they're dealing with these little bits and stuff here
+[00:06:52] They won't give it the the respect to the energy that it deserves so often what will happen
+[00:06:59] this is the natural, you know, this would be a natural looking arc for something like this and
+[00:07:06] Then often what happens what I'll see is they'll care about the arc
+[00:07:10] They'll care about the arc and then they want to get rid of the effect and it literally goes like that
+[00:07:14] So there'll be water and then it like hits a wall and falls
+[00:07:18] Because they've gotten into this mindset that now is the time to dissipate the water dissipating water falls
+[00:07:26] So they combine the two thoughts and they do this
+[00:07:30] Action, which is a mistake. They're on the right track
+[00:07:33] However, they do need it to fall and they do need it to dissipate
+[00:07:37] All they had to do though is take these drawings here
+[00:07:41] Which are misplaced and follow the arc a little bit further out and you have to do this for all the arts
+[00:07:47] Yep, you have to care about everything that's being flung around. It's your job to
+[00:07:52] animate as
+[00:07:54] Naturalistically as possible and arcs is primary way of how we get most things
+[00:08:01] Through the air when it's affected by by gravity
+[00:08:05] I hope this lesson helped make a bit of
+[00:08:09] Sense of arcs and the next time you're animating something you keep this in mind and it improves whatever it is you're working on

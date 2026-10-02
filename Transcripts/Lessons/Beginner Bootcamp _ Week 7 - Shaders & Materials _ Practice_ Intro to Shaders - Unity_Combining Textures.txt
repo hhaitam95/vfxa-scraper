@@ -1,0 +1,105 @@
+[00:00:05] Hello again, I'm Jayden, and previously we adjusted textures using math.
+[00:00:11] Now we will adjust textures using other textures.
+[00:00:14] So to get started, create a new shader graph called Combining Textures.
+[00:00:18] Create a material for it and apply it to your quad, then open up your graph workspace.
+[00:00:23] And we're going to be using two textures,
+[00:00:26] so let's make two samplers. And you can just press Ctrl D to duplicate. For the first one,
+[00:00:39] let's choose Unity's default particle.
+[00:00:44] And the project also includes a texture called Flare.
+[00:00:51] So it's very common in VFX that we'll want to use two textures together.
+[00:00:55] And we can use different combinations of hard shapes and soft shapes like we see here.
+[00:01:00] And we can blend these together in lots of different ways to create different shapes and effects.
+[00:01:06] So let's start with the Add node.
+[00:01:11] And since these are grayscale textures, all the channels are the same.
+[00:01:14] We'll just use the red channel.
+[00:01:16] And when we add two textures together, basically they will brighten each other.
+[00:01:21] So what happens is this node takes the two inputs and it looks at each position.
+[00:01:26] So the same position in each square, and it will just add those two values together.
+[00:01:32] So on the outer edges, we have zero plus zero, so that remains dark.
+[00:01:36] And in the middle, we have brighter values adding on top of brighter values.
+[00:01:40] So this does go above one.
+[00:01:42] As we know, that'll create a glow.
+[00:01:44] And so we can saturate that if we want to take out the extra.
+[00:01:49] Next, let's try maximum.
+[00:01:56] And as you can see with these two textures, the effect looks exactly the same as add, but there's a difference.
+[00:02:02] So this does not go above one because what we're doing is comparing the values between these two textures at each point and just picking whichever one is brighter.
+[00:02:11] This can be a good way to add soft glow to a hard shape like this, but maximum does not work so well with two soft textures like two gradients.
+[00:02:22] This isn't a very common technique, but it's an option.
+[00:02:26] Next up, we'll look at the lerp node.
+[00:02:30] And lerp is not a word that you use every day.
+[00:02:34] It's short for linear interpolation.
+[00:02:36] Interpolation is when you find a single value that's in between two values.
+[00:02:40] So let's plug these in.
+[00:02:43] And by default, we just see the first texture.
+[00:02:46] But if we move this number around, we can see the effect.
+[00:02:50] Let's put that at 0.5.
+[00:02:53] And by using 0.5, we are finding the value that's halfway in between these two textures if you blend them together.
+[00:03:02] So basically, we're finding the average between these two.
+[00:03:06] And the T value will basically bias towards one of the textures.
+[00:03:11] So if we go all the way to one, it'll show this texture perfectly.
+[00:03:16] And if we go to zero, it'll show this texture perfectly.
+[00:03:19] And everything in between will blend those two.
+[00:03:24] And you can start to see some strange results if you go above one or below zero.
+[00:03:29] So make sure the input is always in that range.
+[00:03:35] OK, so next is the subtract node.
+[00:03:38] And what this does is it will basically cut one texture out of the other texture.
+[00:03:44] So in this example, we have our glow, but then we just cut that hard shape out of it.
+[00:03:49] And the way it works is that you start with A and then cut B out of it.
+[00:03:53] So the order does matter.
+[00:03:55] If you switch these two around, you get different results.
+[00:04:01] And so since we're subtracting, the values can go below zero.
+[00:04:05] So this is another situation where you may want to saturate the result.
+[00:04:10] All right, and we saved the best for last, the multiply node.
+[00:04:14] And multiply is one of the most important
+[00:04:16] and one of the most common operations that you'll use in shaders.
+[00:04:20] It produces an effect called masking, which is kind of like if you're looking
+[00:04:25] at one texture through a window of the other texture.
+[00:04:30] So you find the value at one texture, zero through one,
+[00:04:34] and you multiply it by the value of the other texture.
+[00:04:37] In a way, this means the darker values are more powerful
+[00:04:41] because zero times one equals zero.
+[00:04:44] So the darker values will pull down the brighter values.
+[00:04:48] The brighter values cannot pull the darker values up.
+[00:04:52] So the resulting texture can only be as bright as the brightest
+[00:04:56] parts of either texture, but the darker parts will darken it.
+[00:05:01] And the math makes sense
+[00:05:02] if you were to think about multiplying a texture by a float.
+[00:05:07] For example, if we multiply this texture by 0.5,
+[00:05:10] it darkens the whole thing.
+[00:05:12] So on the outer edges, it's zero times 0.5.
+[00:05:16] In the middle, it's one times 0.5.
+[00:05:18] But basically all of the values here are half as bright as they were before.
+[00:05:23] When we use a texture, we're saying that the brightness
+[00:05:26] is determined by this texture instead of a flat value.
+[00:05:30] And this is how all math operations work between two textures.
+[00:05:34] Instead of using a single value across the whole texture,
+[00:05:38] the value varies depending on where you're at in the other texture.
+[00:05:42] So if you want to, this could be a good time to pause
+[00:05:45] and try some other textures with the math operations that we've looked at.
+[00:05:49] See what different types of effects you can create.
+[00:05:54] OK, so where this can really get interesting is animation,
+[00:05:57] because we can move these textures, but we can move them differently
+[00:06:01] from each other.
+[00:06:02] And you would use these for things like water, fire, smoke or magic.
+[00:06:07] Anything with dynamic fluid motion.
+[00:06:10] So let's create a basic panning setup.
+[00:06:14] We'll start with time, multiply.
+[00:06:19] Vector two, tiling and offset.
+[00:06:25] And then let's arrange these.
+[00:06:33] I'll plug multiply into Y,
+[00:06:38] and then that'll make a new vector two, which we can plug into the offset.
+[00:06:44] I'll put in a value of negative 0.5 here.
+[00:06:49] And let's choose a new texture here.
+[00:06:51] The project has a built in texture called waterfall base water.
+[00:07:00] Plug that in here.
+[00:07:04] And then we can see like a smoky effect with this one.
+[00:07:10] Let's use a subtract note instead.
+[00:07:20] OK, so this creates a very cool effect.
+[00:07:23] It looks like smoke or a fire or some kind of fluid simulation.
+[00:07:28] It's got this beautiful dynamic motion and it almost looks 3D.
+[00:07:32] And we got this from two textures.
+[00:07:35] So you can start to see the power of combining textures
+[00:07:38] and giving each one their own motion.
+[00:07:42] This would be a good time to pause and experiment with more effects.
+[00:07:45] In the next lesson, we'll look at more things we can do
+[00:07:48] after we've combined textures.

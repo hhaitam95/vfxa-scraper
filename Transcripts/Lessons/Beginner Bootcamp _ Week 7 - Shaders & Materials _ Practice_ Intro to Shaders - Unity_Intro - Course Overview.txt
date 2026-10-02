@@ -1,0 +1,12 @@
+[00:00:05] Hello there, I'm Jaden and I am a game programmer and VFX artist.
+[00:00:10] In this series of lessons we'll be introducing shaders and materials in Unity.
+[00:00:15] And personally I love shaders because they are one of the most powerful tools that you can use to create effects that people will notice and remember when they play your games.
+[00:00:25] Once you understand a little bit about how shaders work, you can start using them to add life to your magic and weapons and you can even use them to create environment art assets and cool object effects.
+[00:00:38] In fact, whenever you see a great effect in a game, it's likely that a shader is what made it possible.
+[00:00:44] But shaders can be technical, which can be intimidating, especially for artists who are mainly focused on the creative and artistic side of effects.
+[00:00:54] But in these lessons we are going to simplify things, so even if you're not a technical person or you're not very comfortable with mathematics, you'll be able to follow along and actually understand what's happening.
+[00:01:05] And by the end you'll be experimenting and creating your own artwork.
+[00:01:10] So we'll start with the basic theory about how materials work, then we'll look at a bunch of common techniques that are used in shaders, then we'll bring that all together to create a complete shader.
+[00:01:21] After that we'll look at some more advanced effects, and throughout this whole process you will see that shaders are not as scary as you think they are.
+[00:01:29] Shaders can add so much beauty to your effects, and you may even find that they're one of the most fun ways to create game artwork.
+[00:01:37] So let's get started and look at all the amazing things that shaders can do.

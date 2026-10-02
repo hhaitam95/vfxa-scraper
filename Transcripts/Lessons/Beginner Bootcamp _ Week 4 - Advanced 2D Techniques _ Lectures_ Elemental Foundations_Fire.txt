@@ -1,0 +1,446 @@
+[00:00:05] And now we're going to be looking at fire.
+[00:00:07] So let's jump right in.
+[00:00:13] This is a little bit more of a general comment,
+[00:00:16] but when we're first starting to try to wrap our head around
+[00:00:21] an effect, the best way to do it is to start small.
+[00:00:26] So with fire, we're going to bring it down
+[00:00:31] to one of the smallest approaches that is commonly
+[00:00:37] used amongst studios and animated shows
+[00:00:43] and stuff like that.
+[00:00:44] It's the candle flame.
+[00:00:48] So a piece of terminology I want to pass along
+[00:00:51] is the term wick.
+[00:00:55] Wick is just a term commonly used
+[00:00:58] to refer to bits and pieces that come off
+[00:01:02] a main body of an effect.
+[00:01:05] So at the end here on this slide where I say the candle flame is
+[00:01:11] not big enough to wick away, as it itself is essentially
+[00:01:15] a controlled wick grounded by a candle,
+[00:01:20] all I'm referring to there is that the fire is so small,
+[00:01:26] it could be referred to as a wick,
+[00:01:28] but it's kept around by the wick of a candle.
+[00:01:33] So going forward with any of these lessons,
+[00:01:41] if I use the term wick, I'm just referring
+[00:01:43] to the small bits that can possibly
+[00:01:47] flake or droplet or anything like that.
+[00:01:51] If they come off the main body, they're wicking away.
+[00:01:59] So the candle flame is pretty basic.
+[00:02:03] You don't want to go too complicated with things
+[00:02:07] because complication in design is usually something
+[00:02:12] that's attributed to scale.
+[00:02:15] So the larger you get, the more complicated the design.
+[00:02:18] The smaller you are trying to work,
+[00:02:20] the more simplistic you want to make things.
+[00:02:25] We will just jump into a drawing layer here.
+[00:02:36] So the most basic form of a candle
+[00:02:41] would just be a little bit of a teardrop shape.
+[00:02:47] The difference here, the way it acts compared to something
+[00:02:53] that is fire and not actually a teardrop
+[00:02:57] is it's going to be anchored at some point to a candle wick.
+[00:03:06] So we can picture something like that.
+[00:03:10] If you look at some real life reference of a candle,
+[00:03:15] you will notice that even the smallest little bit
+[00:03:19] of turbulence in the air is what causes the candle to dance,
+[00:03:24] which is where we start to get into a little bit of design
+[00:03:30] variation.
+[00:03:33] We want to use, we want to imagine
+[00:03:40] that the candle is being affected by turbulations
+[00:03:45] in the air.
+[00:03:46] And in order to do this, we want to play around
+[00:03:49] with peaks and valleys.
+[00:03:51] We want to separate them.
+[00:03:57] We want to exaggerate them by having large dips in frames
+[00:04:03] before bouncing back.
+[00:04:05] And something like this could even
+[00:04:07] bounce back to not having the second peak.
+[00:04:12] But the thing you want to keep in mind
+[00:04:13] is that it's always anchored.
+[00:04:17] So everything this does comes back to this point.
+[00:04:21] If we want to break the candle flame down to the wave
+[00:04:27] principle, we can, like these would be individual frames,
+[00:04:34] right?
+[00:04:40] So that's a good way to wrap your head around
+[00:04:43] to sort of think about how you want to try to control this
+[00:04:49] in order to have it bounce and bob around
+[00:04:53] like it's a candle flame.
+[00:04:55] Now, another thing we do to add a little bit of depth
+[00:04:59] to the candle flame, and this goes for a lot of fire,
+[00:05:03] is we add an interior portion to it.
+[00:05:06] Now, the interior part of a fire is not supposed to directly
+[00:05:16] mirror the main body of it.
+[00:05:19] Now, you might be looking at this,
+[00:05:20] and you might say, well, it's pretty much mirroring it
+[00:05:24] right now.
+[00:05:25] And to a degree, it is.
+[00:05:28] But a true mirror would be placing this right
+[00:05:35] in the center so all these areas are more or less equal.
+[00:05:44] So by taking this and pushing it down,
+[00:05:47] and the reason why we push it down and we don't push it up
+[00:05:51] is because the hottest point of any fire
+[00:05:53] is going to be the point at which it's receiving its fuel.
+[00:05:58] In the case of a candle flame, it would be the wick.
+[00:06:04] So if this interior part of the fire
+[00:06:08] is going to be the hottest point,
+[00:06:10] we want the main body of it being
+[00:06:12] near the wick of the candle.
+[00:06:19] Now, having it mirror the outer body to this extent
+[00:06:25] isn't a huge deal.
+[00:06:28] It's just something while you're animating,
+[00:06:31] you want to think about and you want to try to avoid.
+[00:06:35] And fire is pretty forgiving in terms
+[00:06:40] of what you can get away with.
+[00:06:44] Like I mentioned earlier, we don't
+[00:06:46] want to go crazy, crazy complicated with a candle
+[00:06:50] flame.
+[00:06:52] You could, but right away to me as I'm drawing this,
+[00:06:58] we'll complicate the interior frame a little bit more.
+[00:07:03] Right away to me, this something reads as fire.
+[00:07:08] That scale is larger.
+[00:07:11] So this is more of a torch.
+[00:07:14] I don't look at this and see candle flame.
+[00:07:17] I look at this and see candle flame.
+[00:07:20] But because we went too complicated with the design,
+[00:07:24] it feels like the scale is inappropriate for what
+[00:07:27] we're trying to achieve.
+[00:07:33] Now, the interior flame, just like the outer part
+[00:07:38] of the candle, once you've played around
+[00:07:44] and you've tried to animate this a couple times with a candle
+[00:07:47] bobbing and the interior flame, all this stuff
+[00:07:50] can be scaled up to larger and larger fires.
+[00:07:55] And we will take a look at that in the next couple of slides
+[00:07:59] here.
+[00:08:02] But if this is your first time animating fire,
+[00:08:05] start simple, start small, and start
+[00:08:10] wrapping your head around these ideas of how fire behaves
+[00:08:14] and how you want to make it look before going on
+[00:08:17] to bigger things.
+[00:08:20] With that being said, we'll go on to the next slide.
+[00:08:26] So now we're going to go a little bit deeper into fire.
+[00:08:32] Mainly, the deeper look of fire, I
+[00:08:40] created this so you can start to think
+[00:08:44] about fire in a little bit more of a more logical approach.
+[00:08:51] There's no specific right or wrong way.
+[00:08:54] Some people approach fire animation completely
+[00:08:57] from an artistic perspective.
+[00:09:00] And they just intuitively, whether they know it or not,
+[00:09:05] they just intuitively have the eye for the way fire reacts,
+[00:09:10] whether or not they've looked at campfires for hours on end
+[00:09:14] or something like that.
+[00:09:16] Other people, myself included, need a little bit more
+[00:09:22] of a base to work off of.
+[00:09:24] So when they're drawing or animating, things make sense.
+[00:09:31] Choices being made make sense when you're doing the drawings.
+[00:09:37] And this is two ways that I like to approach it.
+[00:09:43] So the first thing we want to do is,
+[00:09:47] and I'll head back into drawing mode here.
+[00:09:58] This comes up quite often.
+[00:10:00] Even though we might be drawing a fire,
+[00:10:04] and obviously everything we do is on a 2D flat plane,
+[00:10:09] we don't want to be thinking about things in a 2D fashion.
+[00:10:12] We want to make sure that even though we're dealing with a 2D
+[00:10:15] plane in order to create our art,
+[00:10:17] we're still thinking about this thing,
+[00:10:20] whether it's fire or other effects or even characters
+[00:10:22] or whatever, exists in a 3D world.
+[00:10:26] We are only representing it in a 2D fashion.
+[00:10:30] So we have our triangle here.
+[00:10:35] I'll get into briefly why the triangle is a good form
+[00:10:41] for fire.
+[00:10:44] And then I'll go back to the 3D world portion.
+[00:10:49] A triangle is a good form for smaller fires,
+[00:10:52] like campfires or torches, stuff like that,
+[00:10:56] because as we were talking with the candle, fire needs fuel.
+[00:11:04] The fuel usually comes from the base of the fire.
+[00:11:09] And when a fire is burning, it is burning fuel.
+[00:11:14] The burning of the fuel creates the fire.
+[00:11:17] Fire is hot.
+[00:11:20] Most people know that fire rises and cool air sinks.
+[00:11:26] So the fire burning the fuel is rising.
+[00:11:31] But as it's rising, it's losing energy.
+[00:11:36] So it's most intense at the base.
+[00:11:38] And as we go up and up, we start to pinch off the top
+[00:11:43] because it's losing energy.
+[00:11:44] So the fire itself is dissipating
+[00:11:47] as the higher it goes up.
+[00:11:50] Now, the taller the fire you might have,
+[00:11:57] the only thing this really indicates
+[00:11:59] is a more intense source for the fuel.
+[00:12:05] So if this is your source for fuel,
+[00:12:08] it can be literally whatever you want, wood, gas, jet fuel,
+[00:12:12] or whatever.
+[00:12:14] But if you have a fire like this,
+[00:12:17] and then in another animation, you
+[00:12:19] have a fire like this, which one's
+[00:12:21] going to read more energetic to you?
+[00:12:24] This is almost like a fire you might see on a gas stove
+[00:12:29] or something like that.
+[00:12:30] It's feeding just enough fuel to keep the fire going.
+[00:12:34] But it's staying very, very low, whereas this
+[00:12:38] is intense, lots of fuel.
+[00:12:40] So the fire goes higher.
+[00:12:45] Now, as it's dissipating and being pinched off,
+[00:12:53] the air around it, which obviously we don't see,
+[00:12:57] is being heated up.
+[00:12:59] And it's also traveling up as well.
+[00:13:02] Hot air rises, cool air falls.
+[00:13:05] So as the hot air rises, the cool air falls.
+[00:13:10] And at the base of the fire, because we
+[00:13:15] Fire needs two things in order to work, right?
+[00:13:18] It needs fuel, and it needs oxygen.
+[00:13:21] So the way a fire generally works
+[00:13:24] is that as it's burning, the hot air that's rising,
+[00:13:28] displacing the cool air, the cool air is falling.
+[00:13:31] And then the base of the fire is sucking up the cool air
+[00:13:34] to fuel the fire.
+[00:13:35] And so that's how we end up with this sort
+[00:13:41] of cyclical approach to fire.
+[00:13:48] Now, we've been talking about this on a flat triangle.
+[00:13:51] But obviously, when we try to picture this
+[00:13:56] in a bit more of a 3D realm, and this would be,
+[00:14:01] we're looking at a down angle, just in case that isn't clear.
+[00:14:11] On this flat 2D representation, it looks like this.
+[00:14:15] But in reality, what's happening is the cool air
+[00:14:19] is being sucked in from all sides, from all areas.
+[00:14:25] And the fire is traveling up, but it's not
+[00:14:28] traveling up like a box.
+[00:14:31] It's traveling up like a pyramid.
+[00:14:33] So it's being pinched at the top once again from all angles.
+[00:14:43] So you can start to do some cool things
+[00:14:45] if you are thinking about the layers of the fire.
+[00:14:50] You might have something like this,
+[00:14:53] but you can start playing around with the idea
+[00:14:55] that there might be little tongues or licks of fire
+[00:14:59] that this part is a little bit more in front of our face.
+[00:15:05] Here, I'll see if I can represent this right here.
+[00:15:10] This stuff is coming a little bit more
+[00:15:15] from behind the mass of the fire.
+[00:15:20] They might even actually link up at a certain place.
+[00:15:38] So these bottom diagrams are the same thing as the top.
+[00:15:47] We're just dealing, again, once with the 2D flat
+[00:15:51] representation, but we're thinking about the cool air
+[00:15:54] that's being brought in, that's being
+[00:15:57] brought in from all angles.
+[00:16:00] And then once we get to the top, depending
+[00:16:10] on what you're wanting to do with your fire animation,
+[00:16:14] once we get to the top of the triangle,
+[00:16:17] if you're using the triangle as a guide,
+[00:16:20] then this is a good indication that it is time to fully break
+[00:16:30] apart your fire.
+[00:16:32] And so these two pieces would essentially
+[00:16:35] be the same from this frame to this frame.
+[00:16:38] Turn this off so it's a little bit more visible.
+[00:16:52] And then you can start using the triangle
+[00:16:55] to earmark places where you're opening up negative space.
+[00:17:02] So if you're opening up negative space,
+[00:17:04] originally, if it started down here, and by this frame,
+[00:17:09] you want it expanded, but further up.
+[00:17:15] And then by this frame, you want it really expanded,
+[00:17:19] much larger than this.
+[00:17:21] And then by expanding the negative spaces,
+[00:17:25] we get to the point where we've totally pinched off the fire.
+[00:17:29] And now it's a question of taking it from something
+[00:17:32] like this to taking it to something like this,
+[00:17:36] where we're working with the Wix.
+[00:17:39] This is what I refer to when I talk about Wix.
+[00:17:48] So start thinking about fire in a little bit more
+[00:17:50] of a deeper, meaningful way.
+[00:17:53] And you might find that it works better for you
+[00:17:57] if you just naturally pick up fire animation
+[00:18:00] and you're good at it.
+[00:18:02] Then I say keep going.
+[00:18:06] We will go on to the next slide here.
+[00:18:13] So this is kind of what I've been getting at for the last 15
+[00:18:20] minutes or so, is as we scale up,
+[00:18:24] we want to make sure we're doing it appropriately
+[00:18:26] and that we understand what we're
+[00:18:28] doing from the smallest fire to big infernos.
+[00:18:35] There's nothing different from this to this.
+[00:18:40] It's all the same ideas and concepts.
+[00:18:42] We've just expanded it and put in the time and effort
+[00:18:47] to really go large with this scale of fire.
+[00:18:57] Obviously, fully animating this, very difficult and time
+[00:19:03] consuming to fully animating this,
+[00:19:06] which is why we start here and we work our way up.
+[00:19:13] But if you're fully animating this into a cycle,
+[00:19:16] then I would say at that point, you
+[00:19:19] have a solid understanding of fire
+[00:19:23] and what it takes in order to animate it right.
+[00:19:36] So the next slide here, speed and follow through.
+[00:19:40] I'm just going to read this part verbatim.
+[00:19:42] When it comes to effects, a thing to keep in mind
+[00:19:45] is that speed dictates intensity,
+[00:19:47] kind of like what I was discussing a couple of slides
+[00:19:50] ago.
+[00:19:51] This can be applied to any effect that you're animating,
+[00:19:54] but it is especially important in regards to fire.
+[00:19:58] The amount of air fueling the fire
+[00:20:00] and the material it is combusting
+[00:20:02] can at times play a narrative role.
+[00:20:04] A slow, lazy campfire will help set a scene for the characters
+[00:20:07] to feel like they're in a comfortable, relaxed setting,
+[00:20:10] whereas something like dragon fire
+[00:20:12] needs to be intense and energetic.
+[00:20:19] So there's two points I want to make
+[00:20:22] when considering what you're trying to do with the fire.
+[00:20:28] The first I want to talk about is design.
+[00:20:38] Naturally, when we think of fire,
+[00:20:43] the first thing that pops into lots of people's heads
+[00:20:46] is sort of this old school way of doing,
+[00:20:53] I think it's called pinstriping on cars,
+[00:20:56] or maybe tattoos or something like that,
+[00:21:00] where there's a lot of sharp points,
+[00:21:06] a lot with this kind of shape.
+[00:21:08] It almost, to a degree, can sometimes
+[00:21:12] look like a chainsaw blade or something like that.
+[00:21:19] It's not the best in terms of design.
+[00:21:24] Just because something naturally seems sharp and pointy to you,
+[00:21:30] which fire definitely can be, you
+[00:21:34] can also play around with the same concepts
+[00:21:37] but using softer shapes.
+[00:21:39] And this goes back into the slow, lazy campfire
+[00:21:44] being a more comfortable, approachable fire
+[00:21:48] than something that has to be really energetic and sharp.
+[00:21:53] So we can use rounder shapes.
+[00:21:55] Don't be scared to use rounder shapes.
+[00:22:00] You just want to make sure that if you're setting out
+[00:22:04] to design or animate some fire that uses rounder shapes,
+[00:22:11] that you're sticking to this concept as a theme
+[00:22:14] within the design or the animation.
+[00:22:19] What you don't want to have happen
+[00:22:22] is you don't want to start off animating idea A,
+[00:22:28] and then it turns into idea B, which idea B obviously
+[00:22:33] being a lot sharper, angular.
+[00:22:37] Both of these can work.
+[00:22:39] We just don't want to confuse them in the same animation.
+[00:22:41] As one-off drawings, they're both fine.
+[00:22:44] But we wouldn't want to include both of these
+[00:22:46] in the same animation.
+[00:22:51] And you can play around with it, too.
+[00:22:55] This uses a lot more angular, hard shapes.
+[00:22:59] But that doesn't mean that you can't use a lot of softer arcs
+[00:23:06] but also incorporating the straight shapes.
+[00:23:11] Well, not shapes, but the straight lines as well.
+[00:23:16] You can do a combination of a lot of these things.
+[00:23:21] You can go crazy, too, once again, depending on style.
+[00:23:26] But if you wanted to, everything could be really boxy.
+[00:23:33] I find doing these exercises where you really
+[00:23:37] try to push your own idea of what something should be
+[00:23:45] can not only turn out cool but can also
+[00:23:49] expand your view of how you are going
+[00:23:55] to end up approaching a design or animation,
+[00:23:59] especially if you ever find yourself
+[00:24:02] working professionally.
+[00:24:05] You sometimes need to make the effect fit into the world
+[00:24:11] and the surroundings.
+[00:24:12] And there might come a time in someone's career
+[00:24:15] where this is actually applicable
+[00:24:17] and this is the path you need to walk.
+[00:24:21] So if you've done this before, you're on it.
+[00:24:24] You're golden because you took the time to play around with it
+[00:24:28] and explore.
+[00:24:32] So the other thing that when talking about intensity
+[00:24:37] of a fire that we want to keep in mind
+[00:24:40] is the way we create the shapes and dissipate them.
+[00:24:46] The faster we do this, like we talked about earlier,
+[00:24:49] the more intense the fire.
+[00:24:51] So when you're doing something like we have this block of fire
+[00:24:55] here, the positive, in order to dissipate it,
+[00:25:01] we want to open up this negative shape.
+[00:25:04] And you can see here throughout the frames, we open it up.
+[00:25:08] And we continue to open it up until it's
+[00:25:11] completely dissipated.
+[00:25:14] Now, the thing that's going to matter here
+[00:25:16] is do you do this in four frames?
+[00:25:21] Or do you do this in eight frames or 12 frames?
+[00:25:25] The longer you take to do this, you've
+[00:25:27] got to keep in mind that if we are going from this frame
+[00:25:34] to frame four, the longer we take to do this,
+[00:25:46] either the fire has to move further in space
+[00:25:51] or we put in more frames in the same distance.
+[00:25:57] Putting in more frames in the same distance
+[00:26:00] is going to slow it down.
+[00:26:02] It will give you enough time to open up that negative space.
+[00:26:10] Or we open up that negative space still,
+[00:26:14] we do it over more frames.
+[00:26:16] But then you have to expand your work area
+[00:26:20] and allow for the fire to come up higher.
+[00:26:28] And when I do this kind of stuff,
+[00:26:30] this is just sort of an old school timing chart.
+[00:26:35] This would be frame one, and this
+[00:26:37] is whatever your end frame is.
+[00:26:40] And these dashes are the frames in between.
+[00:26:44] So for instance, in this example,
+[00:26:46] we'd be talking about one, two, three, four, or five.
+[00:26:49] We'd be talking about a six frame animation.
+[00:26:53] Timing charts are useful to express
+[00:26:57] the idea of drawing placement and length of something
+[00:27:02] in a quick, easily visual manner.
+[00:27:08] So if you stick to this four frames,
+[00:27:14] a thing that often gets said is that in typical 2D animation,
+[00:27:25] I should say, there's 24 frames in a second
+[00:27:29] and a blink of an eye.
+[00:27:31] So you see someone who, as you're talking to them,
+[00:27:35] they blink their eye.
+[00:27:37] Generally, depending on how quickly they blink,
+[00:27:40] it's six to eight frames.
+[00:27:43] If they blink really fast, it could be as low as four.
+[00:27:47] So if we were to do this dissipation in four frames
+[00:27:51] really fast, you would probably want to put in,
+[00:27:55] if these are frames, we would probably
+[00:27:58] want to put in in-betweens, turning this
+[00:28:02] into an eight frame fire burst.
+[00:28:05] An eight frame fire burst would be on the same timeline
+[00:28:08] as sort of a slower blink, but obviously still a blink.
+[00:28:12] So it's still quite quick.
+[00:28:16] But if you dissipate this in eight frames or 16 frames,
+[00:28:19] you're doubling the amount of frames you're doing it in,
+[00:28:23] thus increasing the speed of the fire, how long things visually
+[00:28:28] read on screen.
+[00:28:29] So once again, there's not necessarily
+[00:28:32] a right or wrong duration for fire to last.
+[00:28:36] It depends on what you're trying to go for.
+[00:28:38] But think about this and keep it in your head.
+[00:28:40] And shoot, like come up with a plan
+[00:28:43] and shoot for that feeling in your animation.
+[00:28:52] Hop on to the last slide here.
+[00:28:58] That's basically all I have to say
+[00:29:01] about sort of beginner foundation of approaching fire
+[00:29:05] and things to keep in your head.
+[00:29:07] If you're going to be doing the assignments that come along
+[00:29:11] with this, the assignment for the fire,
+[00:29:14] something that is fun and challenging
+[00:29:19] can be accomplished in not too many frames,
+[00:29:24] but is a little bit more advanced than candle fire
+[00:29:30] would be the fire burst.
+[00:29:32] And these are just some really quick roughs
+[00:29:36] that I drew up so you can see what
+[00:29:40] you should be shooting for.
+[00:29:42] Once again, you don't have to put it on an angle.
+[00:29:44] It can shoot off in any direction.
+[00:29:47] What we're going for here though is a creation for the fire.
+[00:29:54] You want it to start.
+[00:29:55] You want it to plume out, if you will.
+[00:29:58] You want it to expand.
+[00:30:01] And then you want to bring in that dissipation idea
+[00:30:06] that we were just talking about in the last slide.
+[00:30:09] And you want to get rid of the fire.
+[00:30:11] You want to wick it down into small little bits.
+[00:30:16] And then at a certain frame, your final frame
+[00:30:21] will just be blank.
+[00:30:23] It'll be nothing.
+[00:30:29] So have fun with that.
+[00:30:31] It's a fun little exercise.
+[00:30:33] If the first attempt is difficult,
+[00:30:37] you're having problems with it.
+[00:30:38] Don't worry about it.
+[00:30:40] Something like this could be animated so quickly
+[00:30:42] that you can just scrap it, if you want, and start over again.
+[00:30:48] Do this, if you've got the time and the motivation,
+[00:30:52] do this four or five times in a single session
+[00:30:56] or over the span of a couple of days.
+[00:30:58] And the repetition of animating this kind of thing
+[00:31:01] over and over and over again, that's
+[00:31:04] what will get you comfortable with the element
+[00:31:07] and improving probably faster than you expected.
+[00:31:12] So that's it for fire.
+[00:31:13] Thanks for tuning in.

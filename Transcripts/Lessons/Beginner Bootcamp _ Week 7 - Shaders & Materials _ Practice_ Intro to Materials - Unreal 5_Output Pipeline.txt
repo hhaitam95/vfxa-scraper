@@ -1,0 +1,225 @@
+[00:00:05] Hey friends! Welcome to a new video. Today we are culminating this section on the
+[00:00:13] theory in shaders by trying to create, from scratch, a new material that we can
+[00:00:20] use then for any of our effects. Here we want to use everything we've learned, how
+[00:00:26] to combine textures, how UVs work, how to distort your textures, how to add color
+[00:00:32] to them, how to use them to mask, combine them together. Everything we've seen so
+[00:00:37] far we're going to try to get a nice result at the end and work with it
+[00:00:43] together, while still keeping the scope of this shader rather simple.
+[00:00:50] We are going to start here by simply creating a new material. I'm going to
+[00:00:54] right-click, material, and call this material M practical exam.
+[00:01:05] Alright, opening this practical example we arrive to this. As we did in our first
+[00:01:14] video we will first change the material here to translucent and the shading
+[00:01:22] model to unlit. In order to test our shader we will change the preview to a
+[00:01:28] mesh and in order to test further we will change the preview mode from lit to
+[00:01:36] unlit. Alright, already we are doing great. Second part we are now going to look for
+[00:01:44] a texture we are going to use. Here I was thinking about doing some flames so the
+[00:01:49] first thing we want to do is to find a texture sampler. Usually that's the
+[00:01:54] fastest thing you will be looking for so texture sample. I suggest mostly
+[00:02:03] starting with your texture sampler and then expanding to the right through your
+[00:02:08] color to your stacking textures together or to the left to distort to pan to
+[00:02:15] modify. Let's look for texture. I was thinking about a lot of textures here
+[00:02:22] this is a really great project. I was thinking about some flames. Let's look
+[00:02:28] for some flames and once you start working a lot with
+[00:02:35] textures the more textures you do the more options you have to work with. So
+[00:02:40] right now if I just use those flames and put them into my opacity you'll just end
+[00:02:45] up with something pretty planned. That's pretty simple so far. Alright those
+[00:02:49] flames right now they're not moving they're not doing anything we want we
+[00:02:53] want to animate them a little bit. So the first thing we're going to do
+[00:02:56] is to try and just pan them or at least try and give them a little bit of
+[00:03:02] brightness. So how can we give them a little bit of life? To do so we're
+[00:03:09] going to use a second texture. So to do that we're going to look for another
+[00:03:13] texture sampler and here I suggest this is one thing I suggest you do a lot is
+[00:03:17] just ctrl C ctrl V to get another texture sampler and here we're
+[00:03:22] going to find some sort of a very simple gradient. Let's take for now just a dot
+[00:03:26] glow like this. Alright and what we're gonna do is we're going to add this glow
+[00:03:36] to our first element and then multiply it back by its friend. So what do
+[00:03:42] we do here? You should remember we already did this before but basically
+[00:03:46] what this does is that it will here you can't see quite quite well but what this
+[00:03:53] does is that if we add the two textures together we end up with this and we're
+[00:03:58] going to use the emissive color in order to build. I suggest you use the
+[00:04:02] color in order to build initially so you know exactly what you're working with
+[00:04:05] then once you want to work with the color you just swap it into your
+[00:04:09] opacity again. So adding this will just give us this so basically what we do is
+[00:04:15] this glow if we re-multiply it back into here anything that is not
+[00:04:20] touched by the glow will be just basically powered by two it will be
+[00:04:24] multiplied by itself so it's just gonna dim it down a little bit but anything
+[00:04:27] that is touched by the glow is suddenly going to be multiplied back like this
+[00:04:31] and strengthened so you'll end up with something that's a bit wavering and
+[00:04:36] you'll understand what we're doing just after but basically we want to combine
+[00:04:40] the two textures to get a little result here and then we want to pan this one
+[00:04:46] this one we want to stay here because flames that usually don't move that much
+[00:04:50] like they don't you're not gonna pan your flames there somewhere you want the
+[00:04:55] licks of flames to stay here so we're gonna pan the glow inside because we
+[00:04:59] want them to flicker. To do so we're gonna pan this whole place so to pan we
+[00:05:05] remember we just add a value to them so we take our texture coordinates and we
+[00:05:12] add a value to them so let's add time for now just for the example now already
+[00:05:18] you can see the effect we're trying to do we're getting a little glow that goes
+[00:05:24] through our texture this is pretty nice so far but what is actually happening
+[00:05:31] here and perhaps not something we actually want is that here our texture
+[00:05:37] is actually going up diagonally and we probably want the flames the the glow to
+[00:05:44] actually go only like horizontally perhaps or vertically so in order to do
+[00:05:50] this we can just add a mask you can duplicate this mask to have a mask for
+[00:06:05] the G so remember our texture coordinate is U and V two values U and V and so
+[00:06:15] we're gonna separate them in two right now we're adding to both textures so it
+[00:06:18] goes diagonally but if we separate them in two add to only one of the two and
+[00:06:23] since only the R because we want it to pan horizontally so on the R axis and
+[00:06:29] then at the end you get them all back together to create back a vector two and
+[00:06:41] now we're panning on only on the x-axis good now if we get back what we were
+[00:06:48] doing before now suddenly our glow is only on the
+[00:06:52] licks and it has more of a wave to it which works when you see like little
+[00:06:59] winds and stuff like that all right so from here we're pretty happy with this
+[00:07:06] first start but our flames our licks still look very static in order to
+[00:07:11] improve on this we are going to distort this texture to move around the vertices
+[00:07:16] ever so slightly but enough so to do so we are going to use another texture so
+[00:07:26] we're gonna duplicate just this whole part and in the future you'll see that
+[00:07:29] this is something you do a lot you just have like this kind of setup and you
+[00:07:32] just duplicate it so we're gonna just duplicate it here and we'll find a nice
+[00:07:36] texture we can use to distort let's find a noise texture that's a bit that works
+[00:07:43] with a bit everything I'm going to take sort of soft noise like this so I chose
+[00:07:52] this one specifically because it has a lot of gradients it feels like it moves
+[00:07:56] back and forth and you'll see why afterwards this texture we're gonna keep
+[00:08:00] the same tiling because well it works pretty well so far and we're gonna use
+[00:08:08] this to distort this texture so distorting is the same as panning but
+[00:08:15] it's not an even panning we're panning only with those values where here if the
+[00:08:23] texture is completely dark and the value is zero then we don't pan at all and the
+[00:08:28] texture is one we pan fully that will create a sort of wave so in order to do
+[00:08:35] this we just need to multiply the output of this by a small value which is our
+[00:08:42] distortion value and then we will just take this again since we want to
+[00:08:51] distort in the right way and to distort on the x-axis just dump it here and
+[00:08:58] already you can see the effects of this but this is perhaps slightly too strong
+[00:09:02] we could argue and so although the effect is quite nice it's probably a bit
+[00:09:09] too much for what we want to do so we will tone it down this value here we
+[00:09:14] multiply this value to say instead if basically this value is the range of
+[00:09:20] which we want to push things so here by having one we say that basically some
+[00:09:26] values if the texture here is completely white we will move the values by one
+[00:09:32] full so just completely go to the other side of the UVs so that's that's way too
+[00:09:39] much so let's try a 0.1 and already you can see that we're getting a way better
+[00:09:44] result we're getting closer to what we want to do so now we're coming into a
+[00:09:49] problem this is kind of what we were looking for but at the same time there
+[00:09:56] is a clear problem here we are having we are distorting the whole thing
+[00:10:03] uniformly and that's just clearly not what we want we want to distort mostly
+[00:10:10] the licks and more the licks than anything else so we are going to use the
+[00:10:15] UVs dot G here so remind a reminder these look like this to decide where
+[00:10:25] what this texture needs to look like all right so to do so we first of all we
+[00:10:32] want basically to not distort when it's at the bottom and to distort fully when
+[00:10:38] it's at the top so we want the inverse of this not distort means zero start
+[00:10:43] fully means one so we want to multiply this we want to minus one this one minus
+[00:10:50] which means that now we have the opposite and then we want to use the
+[00:10:56] power as we said before to try and get a result close the other ones that pushes
+[00:11:04] us up and down we'll see what we want to use afterwards let's for now let's just
+[00:11:08] multiply this so mask our distortion with this one put it back in and now
+[00:11:16] rather than distorting just the other thing we're just starting only the
+[00:11:21] flames and already this is looking better using this power now we can try
+[00:11:27] and make something that's affects exactly the flames and nothing else so
+[00:11:35] for instance this little thing here not moving is still kind of a problem so
+[00:11:39] let's let's let's play around with it let's go for 0.5 all right this is not
+[00:11:43] bad at all all right let's let's keep 0.5 for now this is this is looking
+[00:11:48] pretty great and you see the flames the top of the flames are working way better
+[00:11:51] than the bottom ones and we can increase the waving to 0.2 perhaps yeah okay so
+[00:11:58] now already we're getting like a little bit better of an effect
+[00:12:03] all right so from here what do we want to do well we could add now a little bit
+[00:12:14] of color so to add color how can we do that well we want to just simply take
+[00:12:23] one of the textures and lerp it so let's use a lerp linear interpolation linear
+[00:12:31] interpolate we take this texture which is the black and white and we're going
+[00:12:38] to say we have a color so a constant three then the second one ctrl C ctrl V
+[00:12:45] gets you same one as you had selected and let's just put both inside here put
+[00:12:52] this into the opacity this into the color and already we're off to the
+[00:12:57] braces all right so what colors do we want we want flames so here we want the
+[00:13:02] the center part so this is the part that's one we want it to be more orange
+[00:13:07] so this one we're gonna make it a bright saturated orange and then this one we
+[00:13:15] want it to be a more red for the licks of the flames let's just like do a 1 0
+[00:13:19] 0 all right so already we have kind of our little licks of flames that are here
+[00:13:27] and then the other ones that are there but you can see that this looks a bit
+[00:13:31] flat and our orange here is like very prominent probably too prominent so what
+[00:13:37] we can do is use a power again to try and push our values up and down to get
+[00:13:42] a better result because here already the texture we're using is kind of biased
+[00:13:46] there's a lot of white and a lot of black and not a lot of gradients in the
+[00:13:49] middle but that's okay so already this is kind of better with this but we can
+[00:13:53] like go up to perhaps 10 and already you can see like a big difference but the
+[00:14:00] colors are moving in the same way as a texture and that's kind of a problem so
+[00:14:05] here what we can do and a cool trick you can use in the future is if you're
+[00:14:10] distorting things or adding stuff to your textures and everything just
+[00:14:14] duplicate your sampler without any distortion and use it for your color and
+[00:14:20] you'll see that this gives you a cool effect of giving you tools to like work
+[00:14:26] with already so we're gonna reduce a little bit the the the power of the
+[00:14:32] distortion which is perhaps a bit strong all right already we can see that we're
+[00:14:39] getting something a bit better and here the bottom is really not moving much so
+[00:14:43] let's let's push it back even more so 0.2 even and here we can perhaps bump
+[00:14:51] this up to 0.2 again just having those values you see lets you play around try
+[00:14:57] and make something nice all right 0.2 is still off we'll come back to it
+[00:15:02] afterwards that's not a problem already you can see that we're getting better
+[00:15:05] results but we're still missing something we had this this glow before
+[00:15:09] here but really it's it's not doing the thing anymore it's not giving us that
+[00:15:13] much of a glow we should probably add it to our color so to do that we can just
+[00:15:18] simply use an add and take this put it in put it back into our color and I'm
+[00:15:29] not already here we're having something that's really interesting our flames are
+[00:15:33] really looking like little flames that are coming alive all right so this is
+[00:15:37] working this is kind of the thing we want to do so let's let's try and push
+[00:15:40] towards that direction so now that we're getting this where can we go what can we
+[00:15:46] do well this is working out now we could add a little bit of a stronger vibe but
+[00:15:54] one of the things that that's bothering me still is this big orange block at the
+[00:15:59] bottom it's bigger orange block is kind of a pain so here we're going to want to
+[00:16:04] remove this by masking it so where can we find a mask that fits this well if we
+[00:16:10] take for instance this texture here or even this one but start with this one
+[00:16:16] and we invert it the black becomes white and white becomes black one minus we get
+[00:16:27] something that's close to the mask we're looking for all right that's that's not
+[00:16:32] bad let's let's try it with using this so to do that as you remember we're
+[00:16:37] gonna try and strengthen it to keep because we don't want the things that
+[00:16:40] are like gray that we're still using for interesting colors we want to keep it so
+[00:16:45] let's multiply this by a little bit to strengthen our mask if I put 10 here you
+[00:16:52] can see that this mask is gonna be super harsh we don't want it to be extra harsh
+[00:16:56] but perhaps five is good and let's multiply it back by our alpha basically
+[00:17:08] we're saying everything that is black in here will just disappear and already
+[00:17:12] apart from the little line at the bottom we're getting something interesting so
+[00:17:19] here there are a few things that are still kind of missing but overall I
+[00:17:25] think we're doing great here we're having great progress one of the things
+[00:17:31] that's bothering me is that right now everything is flowing on the y-axis we
+[00:17:35] have nothing that's going up and distortion usually pushes licks up
+[00:17:39] rather than having them waiver the glow goes through because that's the wind
+[00:17:44] bringing oxygen into the flames but the wavering usually goes up so let's just
+[00:17:49] inverse this to have it pan from X and X to Y rather than the other way around
+[00:17:56] already we're getting something better you can see that already the flames are
+[00:18:00] just flowing up all right this is good this is what we were looking for one of
+[00:18:07] the things we're seeing too is that those two those two textures are
+[00:18:10] completely synchronized because this is where they're using the same time so
+[00:18:15] they're they're just completely synchronized so in order to break this
+[00:18:17] we're just gonna multiply this time by a small value by a slightly different
+[00:18:24] value so let's say 0.85 that way they're not in sync anymore and already we see a
+[00:18:31] little bit more life in there all right well we're pretty happy with this
+[00:18:35] already we have a little bit of glow a little bit of everything it's it's
+[00:18:39] working out pretty well what else could we do here well not much to be honest
+[00:18:45] this is this is this has ended up being some nice flames we're happy we're
+[00:18:50] happy with we're getting some nice color depth some nice color values we're still
+[00:18:54] getting the the yellow the little white here the one thing that's regrettable
+[00:18:58] here for now is this little line here we have a little artifact that it can be a
+[00:19:03] problem but also not that much since those artifacts can be cleared like very
+[00:19:09] easily fixed by just adding a little gradient to remember here we had our
+[00:19:13] little y-1 minus gradient here by just using this and multiplying it we're
+[00:19:22] going to make it clean just take those three notes here
+[00:19:26] bring them back to the forefront and use them as a mask and here we need to
+[00:19:46] multiply it a little bit to not and saturate it of course to not break
+[00:19:53] everything and here we should saturate it too because this is a mask if you
+[00:19:57] don't then you're gonna buy us everything else all right we're gonna
+[00:20:02] multiply and saturate it here too and we're probably multiplied by 10 and here
+[00:20:09] we got rid of the other thing okay not bad we could even multiply it by more
+[00:20:15] you can always see the texture here here we're having just a little bar at the
+[00:20:21] bottom so this is this is supposed to be pretty good all right so yeah if you
+[00:20:26] have like little bars little elements that are bothering we could even fade
+[00:20:30] it on the sides if you wanted to have something nice there's a lot of
+[00:20:35] different options but for now I think we're gonna stop we created what we were
+[00:20:38] looking for and we managed to make the things we were looking for if we can we
+[00:20:45] can possibly increase this to get even more value out of our texture the more
+[00:20:51] you increase this value here the the harder the edge at the bottom will be
+[00:20:56] but the more value you will get out of your texture so it's just a back and
+[00:21:01] forth this you need to decide what you want all right I think we're going to
+[00:21:04] stop here for now but I hope this was insightful and this gave you a good idea
+[00:21:10] of what's possible and how you can very quickly with a little bit of shader
+[00:21:15] magic get some good results and as you've seen at the start it didn't look
+[00:21:20] that great we had little little problems but as soon as you start just adding
+[00:21:25] more towards the goal you have you want the licks to look a bit orange you want
+[00:21:29] the the flames to waver just add elements one by one and you'll converge
+[00:21:34] towards a result that's believable that's convincing all right this marks
+[00:21:42] the end of the theory of shaders and the next opus we are going to touch on all
+[00:21:50] the VFX specific tricks you can use to push your VFX to the next level I'm
+[00:21:57] super super excited to see what we do there and I'm looking forward to the
+[00:22:03] next lessons until then

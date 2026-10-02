@@ -1,0 +1,115 @@
+[00:00:00] Oh hey guys I'm assuming that you're watching this video because you want to learn how to
+[00:00:09] animate 2d effects so I'm just gonna dive right into it we'll get into the details as we go but
+[00:00:16] there's no need to dilly-dally alright so when you open up Adobe animate should see something
+[00:00:21] like this maybe you don't have all these files going on down here like me and all you really
+[00:00:26] need to get started is just four key presses on your keyboard and a tablet I've got my Cintiq here
+[00:00:32] the stylus going on you could do it with any kind of Wacom tablet also there's other brands
+[00:00:37] of tablets you don't have to get walking brand necessarily but let's just dive in so if you come
+[00:00:43] over here to the create new option and click on that right there come up with this pop-up
+[00:00:51] here and what you want is something I don't know for this we'll just do 512 by 512 and
+[00:00:56] you'll see that it's going to pop up here and you can see that it's going to pop up here and
+[00:00:56] something simple nice and small easy to manage then you're gonna go 30 frames per second even
+[00:01:03] should be pixels you can make that the default if you want it's just for easier reference later go
+[00:01:08] ahead and hit create some reason my clicks aren't registering for me okay here we go all right and
+[00:01:17] your Adobe animate might look a little different than that than what you see here but that's okay
+[00:01:22] we'll get into that later I'll kind of explain that all you need to know for now is that when
+[00:01:26] you have a tablet up there you can if you have it whenever you want you can either you could
+[00:01:26] have with your tablet or whatever you want to have it up there you could have on your tablet
+[00:01:26] your stylus like so it'll have a little icon here I pushed B for the brush tool
+[00:01:32] that's the first key that you're gonna want to know is B as you can see it can
+[00:01:36] do this now if you don't have white selected you don't want to come over
+[00:01:39] here to this little color picker and select white right there just like that
+[00:01:43] you can hit ctrl Z that's the second button press that you want to know and
+[00:01:47] then when you've done a closed loop you hit K and that's the paint fill alright
+[00:01:55] so B ctrl Z and K what was the other one oh yeah f7 f7 makes it go blank
+[00:02:02] really what's happening down here is it's creating a new frame you see down
+[00:02:06] here on my timeline it has created a new one if I hit undo and then f7 again you
+[00:02:12] can see that what it's done is it's created a new blank frame for me to
+[00:02:16] animate on alright so I'm gonna undo again get rid of that let's get
+[00:02:20] animating people we want to make something awesome something fun let's see
+[00:02:24] what we can come up with
+[00:02:25] alright so if I come down here I'm gonna do just a nice big bold diagonal
+[00:02:30] line like that and then I'm gonna come up here so yeah that's a fun shape okay
+[00:02:36] fill that in by the way if you're running into trouble here you might
+[00:02:39] notice sometimes like that's erased out right those two points aren't touching
+[00:02:44] quite okay it won't work that's a pretty common thing that'll happen so make sure
+[00:02:48] that you get these filled in sorry I cheated I typed E for eraser just to
+[00:02:54] demonstrate that it's not working so I'm gonna hit ctrl Z and then I'm gonna hit
+[00:02:55] that real quick but you won't need the eraser because you're not gonna make any
+[00:02:57] mistakes alright so I hit f7 again now I need to know what my frame was so you're
+[00:03:03] gonna want to come over here to this little option that says onion skin right
+[00:03:07] and then it's gonna show you the frame before yours might not be blue it might
+[00:03:11] not sure what the default settings are but you'll see some kind of other color
+[00:03:15] than white of what you painted with originally okay so that's our first
+[00:03:20] frame is a nice big stripe like that right and I'm gonna go ahead and just
+[00:03:24] move out of the way so you can see the frames down there a little better
+[00:03:29] alright so I want this to come out a little further and maybe come down
+[00:03:35] something like this yeah that's cool alright fill that in and hit f7 again and
+[00:03:41] then what I'm doing here is I have the flash frame and then I very quickly want
+[00:03:45] it to grow back into this sort of like cool-looking saw blade thing that's where I'm gonna draw my brush with because if you can't see that brush where I'm just gonna highlight that edge for a nice little detail so now it has a worriesome one right now so I'm gonna recommend and create it at the top of this frame by clicking the top reliusca
+[00:03:54] sort of mimics what the flash frame was all about. Maybe some kind of like swipe
+[00:04:04] or like a shield block kind of effect going on here. Alright just hit F7
+[00:04:08] again and then I come up here. I'm not gonna move this outer edge out too far.
+[00:04:13] I'm just gonna kind of keep it moving very subtle and play around with the
+[00:04:21] shapes here guys. Just do whatever you want. Then I'm gonna have it hook back
+[00:04:26] around so it's kind of like a sheen shimmer shine. That is a technical term
+[00:04:31] that we like to use in the biz. Alright there we go. So now these two lines are
+[00:04:39] kind of pointing in at each other. Let's see I'll break this off there on
+[00:04:50] frame five. You can see that it's kind of like a shadow block. I'm gonna hit F7
+[00:04:51] and see the frame number right here is frame five. Break that off there too.
+[00:05:05] We're only gonna fill nine frames here so it's not gonna be very much. Alright
+[00:05:13] get that going in. Shooting out across there. Let's see
+[00:05:21] whoops
+[00:05:21] I hit a different key. I should have hit F7. Okay so it's going. We're on frame six
+[00:05:28] so we got to be wrapping this thing up soon. So I'm gonna do just a little
+[00:05:31] indication of a shield block here. Some kind of little thing going on there. Okay
+[00:05:44] looking good. This needs to start resolving because we're running out of
+[00:05:48] frames pretty quick.
+[00:05:51] All righty. Maybe that kind of zips in there. Notice the differences of distances. So this
+[00:06:00] here has a bigger distance but then it's like closer on top of it over here. I like to just
+[00:06:04] vary it up. I'll go into more details on that on some future effects in the class. But for
+[00:06:09] now we just want to get you guys animating. Okay so that one started big so I'll shrink
+[00:06:14] it in. That one started small so I'll grow it out. Give it a nice little variation there.
+[00:06:18] That one started small so I'll grow it out. Give it a nice little variation there. Nice
+[00:06:19] enough. Now we can pick up some of those far out. If you're ready to go we're gonna do
+[00:06:20] that now.so I'm gonna hit F7. Okay so we're gonna hit F7 and then it's gonna start resolving.
+[00:06:21] and suck in that tail a little bit.
+[00:06:24] The advantage too of going really fast
+[00:06:26] is that your animation tends to be a little more cohesive,
+[00:06:29] tends to kind of find its own life, so to speak.
+[00:06:35] And the motion, it's easy to remember
+[00:06:38] how things were moving on the previous frames, you know?
+[00:06:41] So just helps it all come together.
+[00:06:46] F7 again, love that F7 key.
+[00:06:49] Just start from scratch.
+[00:06:52] Give that one kind of long.
+[00:06:53] This one's gonna be super short now.
+[00:06:57] Go just like that.
+[00:07:00] This is just kind of resolving in towards here,
+[00:07:03] that little flat edged piece there.
+[00:07:06] And this will be gone on this frame.
+[00:07:08] It's the second to last frame.
+[00:07:09] Everything's gotta be wrapping up.
+[00:07:12] And last frame.
+[00:07:13] Okay, so this is coming in here.
+[00:07:16] So I'm gonna go ahead and hit F7 11 times.
+[00:07:23] One, two, three, four, five, six, seven, eight, nine, 10, 11.
+[00:07:26] So it's on frame 20.
+[00:07:29] Go ahead and hit Control Enter.
+[00:07:31] And there you go.
+[00:07:32] You've got your animation.
+[00:07:34] Way to go, everybody.
+[00:07:35] You have now animated in Adobe Animate CC 2020.
+[00:07:39] Let's go ahead and hit the next one.
+[00:07:41] And this is gonna be a little bit more complicated.
+[00:07:44] So I'm gonna go ahead and hit F7.
+[00:07:46] Now it's time to kind of circle back around
+[00:07:48] and talk about what the heck all these tools are,
+[00:07:50] how they work, where they're located.
+[00:07:52] And we're gonna use this effect here as a starting point,
+[00:07:56] as a demo to kind of show like, you know,
+[00:07:59] how do you edit this?
+[00:08:00] How do you make it better?
+[00:08:01] How do you retime it and add stuff to it?
+[00:08:03] I'm gonna dive into that in the next videos.
+[00:08:05] So stay with me.

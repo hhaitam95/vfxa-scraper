@@ -1,0 +1,183 @@
+[00:00:05] Hi, this is Dave Shelvin with VFX Apprentice, and we're going to be talking about color theory today.
+[00:00:11] So what exactly is color?
+[00:00:13] You might know that light is a type of electromagnetic radiation, which we here can most usefully classify according to its wavelength.
+[00:00:22] Most of these classes are invisible, with infrared, microwave, and radio wavelengths being too long for our eyes to see for various physical reasons,
+[00:00:31] and ultraviolet X and gamma rays being too short.
+[00:00:35] Most humans have trichromatic vision, meaning that our retinas contain three different types of photoreceptive cone cells,
+[00:00:40] short, medium, and long, or, you know, S or M or L for short.
+[00:00:45] They're called cone cells because they have these little cone shapes at the end of them.
+[00:00:50] These each see overlapping sections of this little band of EM frequency range, and that's what we call the visible spectrum.
+[00:00:58] Red is our word for the longest wavelength that we can see, and blue is what we call the shortest, with green being somewhere in the middle.
+[00:01:06] Violet or purple appears to us as a color between red and blue because our L cones are ever so slightly receptive to the frequencies at the very shortest end of the spectrum, where our S cone range falls off.
+[00:01:19] So, all the colors you see are your brain interpreting the activation patterns of these three types of cones.
+[00:01:26] Your brain makes up all the colors in between, including colors that don't exist in the spectrum, like magenta, which is its interpretation of a mix of very short and very long wavelengths.
+[00:01:36] This is why color can be modeled as a wheel as well as a straight line.
+[00:01:41] This is also why primary colors mix to form secondary ones, and monitors only need to emit light in three wavelengths to simulate the entire visible spectrum.
+[00:01:51] Now, this idea of primary and secondary colors changes relative to the medium that you're working in.
+[00:01:56] Before color monitors, the idea of primary color was defined in the art world by the behavior of physical media.
+[00:02:03] The application of pigment or dye causes the surface to absorb the majority of the light hitting it, so that it reflects back only a single wavelength, which is why pigments, like those in a printer cartridge, always darken when you blend them.
+[00:02:16] And a green made by mixing blue and yellow paint will always be less vibrant than one made from a single green light reflecting chemical.
+[00:02:24] Of course, a monitor pixel works the opposite way, adding light to a black surface instead of subtracting it from a white one, so the secondary colors often end up being brighter than the primary ones.
+[00:02:35] Okay, now that we've got that crash course and optics out of the way, let's have a look at Unreal's color picker.
+[00:02:41] It's very similar to the one that you'll find in Photoshop or Procreate or Flash or Unity or whatever you're using.
+[00:02:48] We've got that color wheel that we discussed and our RGB values right underneath here.
+[00:02:54] You've also got alpha, or transparency, which is how much the color blends with whatever's behind it.
+[00:03:00] Apart from these, you'll see another set of three values, and that's HSV, which stands for Hue, Saturation, and Value.
+[00:03:10] Instead of value, you'll sometimes see B for brightness or L for luminance, but it all means the same thing.
+[00:03:17] And these are the three main characteristics we think of A color as having.
+[00:03:22] S and V are also these two sliders here next to the color wheel because the wheel itself is H.
+[00:03:30] Hue describes which side of the color wheel a color is closest to.
+[00:03:34] Is it more bluish or is it more yellowish?
+[00:03:39] Value describes how close to pure white or black it is, or so how dark or bright it is.
+[00:03:50] Saturation is the purity or vibrance of the color.
+[00:03:55] You could also describe it as the difference between the highest and lowest RGB values in a given color.
+[00:04:01] Colors with more uniform RGB values like your grays or your office space colors like mauve or beige or taupe are said to be desaturated.
+[00:04:13] Now this color wheel stuff's long been considered one of the most foundational concepts in visual art.
+[00:04:19] In order to use color effectively, you need to develop an intuitive understanding of how hues blend and their location relative to each other on the color wheel.
+[00:04:28] This comes to some people more quickly than others, so if you're new to this, a real simple little exercise you can do is just color matching as if you were painting with RGB.
+[00:04:38] Think of or look at a color you want to make and see if you can guess its RGB value, then punch it in to see if you're right.
+[00:04:45] You'll end up surprising yourself by how close you can get.
+[00:04:49] Now that we have a sort of foundational understanding of what color is, let's talk about how we use it as artists.
+[00:04:58] Now the most important characteristic of color is I think what some people might describe as its absence.
+[00:05:06] Which is to say, value. How light or dark something is trumps pretty much all other visual information when it comes to describing its form and its silhouette and its structure,
+[00:05:15] which is why in my concept painting class I suggest doing your thumbnails in just black and white so you can focus exclusively on these ideas.
+[00:05:23] And a characteristic value shares with the other properties of color is that it's used to create contrast or to blend it away.
+[00:05:30] Check out our guy Rembrandt here. He's all about this idea.
+[00:05:35] What's the focus of this portrait?
+[00:05:37] Those eyes are practically popping off the canvas and it's because they've got the most stark value contrast.
+[00:05:43] Pure black, pure white, hard edge.
+[00:05:46] The face pops out from the background because it's spotlit, giving it that clear value contrast.
+[00:05:51] Notice how the further you get from the direct lighting on the face, the more vague and fuzzy the shapes get,
+[00:05:57] and how much less of a value difference there is between adjacent areas of color.
+[00:06:01] Another thing to notice here is how the higher value areas of color appear to advance toward the viewer.
+[00:06:08] Most of how your brain processes visual input is unconscious.
+[00:06:12] Your brain knows that recessed area of a lit surface receives less light and will appear darker.
+[00:06:19] So when you see a black shape on a white surface, you think whole.
+[00:06:22] Conversely, a white area on a black surface appears to sort of pop out at you here.
+[00:06:28] And a good example of what I'm talking about can be found in this particle system here.
+[00:06:32] So as you can see, all the particles in this system are white,
+[00:06:36] which means that the maximum amount of value contrast that we can create with it is going to be limited by the lightness or darkness of the background.
+[00:06:47] And unfortunately, because it's white, it pretty much disappears against a white background.
+[00:06:55] And it reads extremely loud against a dark one.
+[00:06:58] So how do we get it to read more consistently?
+[00:07:01] Assuming that this is an effect associated with a gameplay event that can happen in a variety of different contexts.
+[00:07:09] The answer is that we create the value contrast we want within the effect.
+[00:07:13] Now a lot of games out there will take this a step further and actually clamp,
+[00:07:19] which is to say, limit the possible range of values that the environment and characters have so that VFX just has more room.
+[00:07:30] So the lightest lights and the darkest darks are reserved for the VFX and the UI,
+[00:07:36] and the character and environment have their own value ranges so that they don't necessarily interfere with each other.
+[00:07:45] We talked about value and whatever some general ideas about how it's typically used to support our VFX.
+[00:07:50] In this, we're going to be discussing saturation and hue.
+[00:07:54] As a reminder, saturation is the property that determines the purity or vibrance of a color.
+[00:08:00] If we look at our color picker here and we fiddle with the saturation slider, you can see what it's doing to these corresponding RGB values.
+[00:08:10] And so if we set it to max saturation so that it's at the outer edge of the color wheel and we move it around like this,
+[00:08:18] you'll notice that one of the RGB values is always at zero and while at least one other one is at or close to one.
+[00:08:29] If you do it like this, one of them will always be one.
+[00:08:32] So in terms of RGB, how saturated color is, is how far apart your biggest and smallest RGB values are.
+[00:08:39] As a result of this, a color has the potential to be most saturated at the center point between our two value extremes.
+[00:08:46] Right. So if it's entirely white, then it's obviously desaturated.
+[00:08:51] It has no apparent color information. The same is true of it being entirely black.
+[00:08:57] A torch effect like this one is often going to present us with a good example of how the saturated flames can contrast with the desaturated smoke and ashes they produce.
+[00:09:07] I feel like this sort of correlation between value and saturation focal points is what makes fire and fiery palettes in general so interesting to look at.
+[00:09:16] Now, it's difficult to talk about saturation without also talking about hue.
+[00:09:21] They're such closely related concepts. So here's the most complex property of color as we're describing it here.
+[00:09:28] Because the way that we see color, it isn't as easy to divide into binaries like we can with value and saturation.
+[00:09:36] Right. Which is why instead of a slider, it's depicted in the color picker here is just a wheel and it's depicted as a wheel everywhere else for reasons that I described elsewhere.
+[00:09:47] And so, yeah, no discernible polar extremes or so one would think.
+[00:09:54] In actuality, different hues have inherently different values, even at maximum saturation, regardless of what you set the value slider at.
+[00:10:03] Right. Unless you're turning it black.
+[00:10:06] And you can see these differences by just looking at this color wheel here and toggling the grayscale color filter in Windows.
+[00:10:15] I'm sure Mac has some equivalent to being able to do this.
+[00:10:18] The hotkey, if you set it up, is Windows control C and you can just toggle that on and off and you can see how much brighter yellow is than blue.
+[00:10:31] Right. There's a subtle value difference there that's just inherent to the way that the color is represented on the monitor.
+[00:10:38] If we look, we can see that in some cases there's a correlation between this value difference and the temperature of the color.
+[00:10:46] Now, in most color theory classes, temperature will refer to the idea of how red or blue a pigment is.
+[00:10:53] One of the most popular and appealing of all hue harmonies is an analogous one plotted along the color wheel from violet to yellow sunset colors.
+[00:11:02] Now, say you tried to blend violet to yellow without going through red and orange first.
+[00:11:08] Well, you get a loss in saturation here in the middle of your curve since you have to cut through this less saturated part of the color wheel.
+[00:11:17] This is probably the number one rookie mistake we see when it comes to color use.
+[00:11:22] You want to be deliberate with your saturation curves when you're blending non-adjacent hues, and you also want to be mindful of your values here.
+[00:11:31] Now, since another property of optics is that colors become less discernible in low light, you'll often want to desaturate colors in lower value ranges.
+[00:11:42] We touched very briefly on how a color wheel, which is to say the property of hue, can be split into temperature extremes.
+[00:11:49] Temperature is just hands down your strongest tool when you're using hue in your effects.
+[00:11:54] Even if your effect is mostly green or magenta, you can suggest a lot about it with this kind of binary idea of color temperature.
+[00:12:02] Now, obviously there are cold things that are blue and fire is orange and so forth, so blue is a cool color, typically, and red is a warm.
+[00:12:13] You also see this concept used to describe incandescent light bulbs, where ironically, the hotter the bulb, the cooler the light it emits.
+[00:12:21] Bulb luminance is measured in degrees Kelvin, with less energetic being reddish and more energetic being bluish.
+[00:12:28] I'd suggest googling incandescence and blackbody radiation.
+[00:12:32] They both have excellent Wikipedia articles if you're curious about why, for example, fire is orange, and sometimes blue.
+[00:12:42] Homes and workplaces are often very deliberate about the temperature of their lighting choices.
+[00:12:46] Warm lighting makes space feel cozy, and cool lighting feels crisp and supposedly promotes focus and wakefulness, one of the many reasons they say to limit your screen time before bed.
+[00:12:57] There are physically accurate materials that you can build in a game engine that will emit a color based on temperature like this,
+[00:13:06] and you can see this kind of gradient not only in the stuff that I just mentioned, but also in something like a candle or lighter flame.
+[00:13:14] And if you've ever wondered why these types of flames are blue at the bottom, it's because the orange color actually comes from the incandescence of the soot created by the reaction,
+[00:13:22] which cools as it rises upward shifting into red.
+[00:13:26] Because the heat carries the bright glowing soot particles upward away from the base, the fire there can pull in more oxygen from the surrounding air and burn more cleanly.
+[00:13:36] Incidentally, this ends up being a good example of what's called a split complementary palette.
+[00:13:41] The blue is fairly monochromatic, but the worms are the focused here, assuming of course that warmth is what this candle flame is meant to evoke.
+[00:13:50] And the hue shift supports our value shift as well, emphasizing the brighter core of the flame with the higher value hue.
+[00:13:59] Fires are cool to observe partly because they create these kinds of interesting color harmonies.
+[00:14:05] So you'll often see these sorts of palettes where you've got an accent color for your primary hues to pop against.
+[00:14:12] And because they're defined by the relationship between the hues based on their position on the color wheel relative to one another, you can rotate the whole scheme,
+[00:14:22] and you'll still be able to make it work in most cases, maybe allowing for a few value and saturation adjustments to keep your gradients clean.
+[00:14:30] And there are a whole bunch of these template schemes. You've got monochromatic, analogous, complementary, but also triadic, tetradic, and so on.
+[00:14:41] Don't look at these and think of them as like rules or prescriptions for color use though, just sort of reminders of ways hues can play together.
+[00:14:50] I personally don't think about a lot of this kind of stuff when I'm working because frankly, a lot of it can be subjective.
+[00:14:56] After all, this comes to us from traditional media where hues occupy completely different positions on the color wheel.
+[00:15:02] And it all seems to work out just fine with the same harmonies of RGB.
+[00:15:07] We were talking about color temperature and discussed a few approaches to working with multiple hues in our effects.
+[00:15:16] As digital artists working the RGB space, another way that we can and sometimes need to think about hue extremes is in terms of our primary and secondary colors.
+[00:15:26] You might have noticed when we were hue shifting our candle flame around last lesson that cyan is a brighter color than blue.
+[00:15:33] But it's also going to be a brighter color than green because it's a combination of two monitor subpixels and activates two of our color receptors.
+[00:15:43] Remember I mentioned this briefly way back in lesson one.
+[00:15:46] And the same, of course, is true of yellow and magenta with respect to their neighboring primaries.
+[00:15:50] You can have a dark green cloud with cyan hotspots and it'll look cool and spooky, but you can also have just as much success with green's other adjacent secondary color, yellow.
+[00:16:00] And like I said before, you want to be mindful of your values when you're hue shifting an entire effect or composition because the positions of your primary and secondary colors aren't always going to be completely interchangeable.
+[00:16:13] There's another reason to favor secondary colors for the more energetic focal points of your effects and that's dodging or addition.
+[00:16:22] Linear Dodge or Add is a blending mode in Photoshop that adds the RGB value of the selected layer or brush stroke to all the layers underneath of it.
+[00:16:33] Now I want to talk about what I think might be the most important sensibility an artist can have when working with color.
+[00:16:44] And that's restraint. Restraint makes everything possible.
+[00:16:49] It is why focus exists. It's how you lead the eye of your viewer.
+[00:16:53] Earlier on, we touched on the idea of having a hierarchy, not only within our effect, but within our project as well to assist with focus and clarity.
+[00:17:03] And in this hierarchy, we talked about the avoidance of extremes.
+[00:17:09] You want to reserve your juiciest, most saturated colors, your highest points of value contrast for the areas of the composition that require the player's most urgent attention.
+[00:17:21] Exaggeration is something that draws a lot of us to the arts in the first place because it's so much fun.
+[00:17:27] As a young artist, I wanted to exaggerate everything.
+[00:17:31] I leaned hard into all bright and saturated colors all through school.
+[00:17:35] I'd do pastel drawings with no attempts made at blending whatsoever.
+[00:17:39] I'd use paint right out of the tube.
+[00:17:41] And when I got my first art job, it was in video slots where there's a huge incentive to make every single thing on the screen as bright and vibrant as possible.
+[00:17:52] Everything was 100% saturated all the time because the goal wasn't to make you look at any particular part of the screen.
+[00:17:58] It was just to make you look at the screen.
+[00:18:01] Display quality in casino machines is a big deal.
+[00:18:04] And some of the earliest adopters of custom OLED displays were slots manufacturers for the simple reason that you could produce brighter and more saturated images than your competition.
+[00:18:16] And thereby stand apart from them on the casino floor, which if you've ever been on one is extremely loud, extremely noisy.
+[00:18:24] You need a lot to cut through it.
+[00:18:26] A video game made this way would be completely insane and incomprehensible.
+[00:18:32] Remember, as VFX artists, we're usually going to be the last members of a visual discipline to touch the product.
+[00:18:38] And consequently, the first to get blamed for messy and unreadable gameplay.
+[00:18:43] The more of your saturation range you leave in reserve, the greater the amount of local saturation contrast you can generate with it.
+[00:18:52] You can see extreme examples of the power of saturation contrast in movies, like Schindler's List with the girl in the red jacket.
+[00:19:01] And Sin City with the blonde lady and the yellow dude.
+[00:19:06] Or in games like Superhot, where you've got just like one thing in the whole experience that's saturated and it makes it pop.
+[00:19:15] Makes it immediately noticeable.
+[00:19:16] Less extreme examples, of course, can be found in almost any video game that has a deliberate visual hierarchy, like we talked about.
+[00:19:24] Try taking a screen grab and color picking from the environment in like Breath of the Wild or Diablo or League or even some photo-real games like Horizon.
+[00:19:33] You'll often be very, very surprised by how muted the palette choices actually are, despite how breathtakingly lush and beautiful these worlds they render are.
+[00:19:44] And that's because of the artist's mastery of local contrast.
+[00:19:49] Try this with shows, try this with paintings.
+[00:19:52] You can do away with whole sections of the color wheel and your audience won't even notice their absence.
+[00:19:59] There's a 19th century Swedish painter named Anders Zorn who was famous for executing these limited palette pieces.
+[00:20:06] His favorite palette contained no blue at all, but the contrast he created between his warm and his desaturated colors was such that he was able to suggest cool colors without actually using any, just with saturation contrast.
+[00:20:22] Zorn likely got this idea from a much older ancient Greek painter named Apelles.
+[00:20:26] Interesting thing about that is that modern words for blue appear so infrequently in ancient literature that there's some debate over how the shortwave end of the spectrum was even perceived by ancient people.
+[00:20:44] A larger percentage of the population than you might think has some form of colorblindness, so understanding how your effects can stand up to the absence of part of the color wheel can really help you succeed at making your game accessible.
+[00:20:57] Speaking of painting, when I was in art school learning oil on canvas, the palette my teacher prescribed for us didn't even have black in it.
+[00:21:05] We had a warm and a cool version of all three of the primary colors plus a warm and a cool brown and a neutral white.
+[00:21:13] And the reason for this was she found that when she gave her students black they'd mix it with everything and essentially just do value studies with some color splashed in.
+[00:21:22] What she wanted was for them to focus on the color.
+[00:21:26] Having a palette of all warms and cools forced us to think about temperature. Was it a shadow cast by a warm light? Consider your cool brown and your cool blue to create a hue contrast and the opposite with a cool light.
+[00:21:39] Context is everything. Context can make red look brown and brown look blue, and as we all saw, it can even make black look white.
+[00:21:50] Well, that's it for me folks, and I hope that you've gotten some new ideas, some new ways of thinking about color from this segment.
+[00:22:00] Even if you are a seasoned veteran, the best way to really master these things, just like with anything else, is to just make a thing, look at some other things, make a thing, look at some other things.
+[00:22:13] Just get that cycle going. There's no substitute for experience. So go out and get your hands dirty, and thank you very much.

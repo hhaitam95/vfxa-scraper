@@ -1,0 +1,58 @@
+[00:00:05] Hey friends! Welcome to this new video. I'm Gabi. Here we're going to go through UVs. So what are UVs?
+[00:00:13] UVs are the medium you're going to use to connect your mesh to your texture. You could say that this
+[00:00:20] is the role of your material, but really this is just the role of your UVs. Your material can do
+[00:00:24] way more stuff. For this video I suggest you just follow along, see what I'm doing, and just put
+[00:00:31] your pens down, your mouse down, and just look at it. Next time we'll do a bit more of practice.
+[00:00:39] First off, what are UVs? So UVs is two values. The value of u, the value of v. You also hear it said
+[00:00:47] uv.x, uv.y. At this point you're probably already confused. There's the RGVA value,
+[00:00:55] there's the uvw value, there's the xyz value. Yes, this is a mess and you're allowed to be
+[00:01:05] confused. This is normal. Unreal kind of mixes it all together, but all you need to remember is that
+[00:01:12] it doesn't matter what letter is used. All those values that are going around, they're just a
+[00:01:18] vector. A vector is one entity that contains multiple values that are in order. For instance,
+[00:01:26] a vector 4 will have four values, one behind the other. Here, whatever the vector 4 is,
+[00:01:35] r will always be the first one, g will always be the second one, b will always be the third one,
+[00:01:39] etc. x, y, z is the same, etc. So for all intents and purposes, just remember that those letters
+[00:01:46] mean the same. x, u, and r are always the same, y and g are always the same, etc.
+[00:01:53] I know this is confusing, but this is usually how things work because they all represent different
+[00:01:58] things. x, y, and z are usually for world coordinates, RGV are usually for colors, etc.
+[00:02:05] So back to uvs. What are uvs? Well, uvs are a set of coordinates, two values in fact, that you'll
+[00:02:15] use to map around on your mesh. This will basically tell you, using those two coordinates,
+[00:02:23] where each point on your mesh is, and so you can then map it to a texture sampler.
+[00:02:31] If you made a super cool image in Photoshop, you can basically find, using those coordinates,
+[00:02:37] what pixel corresponds at which part of the mesh. The simplest mesh possible is a quad. We have a
+[00:02:42] quad here, and this quad, we can plug everything, which looks black, and has, it's very simple,
+[00:02:51] looking almost like an image in Photoshop, of coordinates. So what does it look like if we
+[00:02:58] just put in the raw uvs in there? So this is the uv texture, also called texture coordinates,
+[00:03:06] or text chord. In Unreal, we'll be using this one all the time. I plug it into the emissive.
+[00:03:13] The emissive, as I explained before, Unreal tries to simplify things for you. So the emissive color
+[00:03:19] is looking for an RGB, red, green, blue. So it's looking for three values. Here, my texture
+[00:03:26] coordinates are two values, so it's just going to amalgamate that and just take the two first ones,
+[00:03:31] and then the third one, it will be zero. So red, green, R, G. So if we look at R, G here,
+[00:03:40] what do we have? Well, a few things. First off, here, everything is black. That means that we're
+[00:03:49] at zero, zero. Here we have red, but no green at all. So that means we are at one, zero.
+[00:03:58] Here, we're all green, but no red. So you got it, zero, one. And here, yellow is red plus green,
+[00:04:06] so one, one. All right? So what does that mean? That means that our mapping here is just like
+[00:04:12] a big Excel sheet with our rows and our columns. We have this big Excel sheet, and we're going to
+[00:04:22] be putting our texture on top of it using those same coordinates. So for instance,
+[00:04:27] if we made our image in Photoshop using the same thing, the pixel that's here would probably be
+[00:04:33] 0.8 and then 0.2, something like that, and we'll have a point here. All right? From there,
+[00:04:39] we'll go into our texture, look it up, look at what the color of this pixel is supposed to be
+[00:04:45] in our texture, and put it back out. Don't worry. We'll go back to this afterwards. The goal here
+[00:04:50] is just to understand how UVs look like. So now, if I'm having those, what does it look like if I
+[00:04:59] just remove the colors? Well, just to confirm, we're going to show here and demonstrate the node
+[00:05:05] mask. Mask is a very handy one. Once you understand that r equals x, et cetera, mask
+[00:05:12] just takes in a vector that has multiple values inside, like our UV that has UV dot x, UV dot y,
+[00:05:20] and it decomposes it to only keep one. So for instance, RGB, if you say mask r, you will only
+[00:05:30] get the red component. Here, if we say mask r for our UVs, only keep the first component, which is
+[00:05:36] our U, which is the first one, the red here we had here. So we're going to put this into the
+[00:05:42] emissive. And then we get only the red. So here, we're only looking at the first component. So
+[00:05:48] this is all black. And then this is all white. And from here, there's a gradient between the two.
+[00:05:52] All right? We can do the same for G. And just as a handy, you've probably seen it by now, but
+[00:05:57] by clicking this little arrow, you can spawn or despawn a little preview. This little preview is
+[00:06:04] actually what the output of this would be if you just plugged it into the emissive and onto a quad.
+[00:06:11] We have the same. So I suggest you use this all the time, because as VFX, we're often working
+[00:06:16] with quads. And this will be extremely useful in the future for you to just see what's going on
+[00:06:22] and have a bit of an idea of where you're going, perhaps if there's a mistake somewhere, something's
+[00:06:26] not moving there, et cetera. On that note, that's all we're going to look at for now on UVs.
+[00:06:34] Next time, we're going to see how we can manipulate those UVs to create interesting effects.
+[00:06:40] Until then.

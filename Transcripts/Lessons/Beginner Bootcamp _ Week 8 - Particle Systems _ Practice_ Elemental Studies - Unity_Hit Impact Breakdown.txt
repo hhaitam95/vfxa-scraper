@@ -1,0 +1,388 @@
+[00:00:05] Hello everyone, welcome to the It Impact breakdown video of the Elemental3D schools.
+[00:00:12] As for previous breakdown videos, we'll first take a look at the rough concept of
+[00:00:16] the effect, and then going through a technical breakdown of each individual components of
+[00:00:22] these VFX, where we'll talk about shaders, textures, 3D meshes and particle system emitter
+[00:00:29] setup.
+[00:00:30] So, let's begin shall we?
+[00:00:33] On screen is displayed the rough concept art made for the It Impact effect.
+[00:00:39] Just like other concepts in previous breakdown videos, we got a visual representation of
+[00:00:44] the effect, some notes, and some artistic and technical references.
+[00:00:50] The visual hierarchy seems organised and clear, with a bright star shape at the centre of
+[00:00:56] the effect that will be the most visually impacting component, supported by light rays
+[00:01:01] and a circle, while being surrounded by multiple low intensity elements, such as impact shapes
+[00:01:07] and stretched particles.
+[00:01:11] If we compare our concept art with our effect inside Unity Engine, we can see some differences,
+[00:01:17] but it still maintains the essence of the concept.
+[00:01:22] The effect needed some adjustments concerning its visual hierarchy.
+[00:01:26] So I've got rid of the external impact shapes, reduced the number of stretched particles,
+[00:01:32] and lowered the luminosity intensity of the light rays.
+[00:01:36] Let's take a couple of minutes to observe animation principles in the final Game Engine
+[00:01:41] version of the effects.
+[00:01:44] We note that each element has different lifetime, to avoid every particles to die at the same
+[00:01:50] time, and set up a clear hierarchy between the climax and the aftermath of the effect.
+[00:01:57] This will reinforce the visual hierarchy between components, with bright and intense components,
+[00:02:02] such as the starry shape and circle, not lasting very long but being visually intense, and
+[00:02:07] more subtle and secondary components, such as the fake glow effect or stretched particles,
+[00:02:14] lasting longer to support the aftermath of the effect.
+[00:02:21] Now for the technical breakdown part, as done previously, we will review each component
+[00:02:26] of the effect.
+[00:02:29] Note that values inserted in shaders or particle system module properties might have to be
+[00:02:34] different for everyone due to project settings, particle effects case, or even scene size.
+[00:02:42] We'll first start with the most visually important component of the heat impact effect, the starry
+[00:02:47] impact.
+[00:02:50] The shader used for this component is the same used for the tiny flames and smoke components
+[00:02:55] of the campfire effect, a regular, lit alpha blend shader, with an emissive and vertex
+[00:03:00] colour controller feature.
+[00:03:03] We just have to create a material, assign the right shader to it, select the opacity
+[00:03:11] fade option, add some emissive intensity to make the star shape glow, and reference the
+[00:03:17] texture we are going to make right now.
+[00:03:21] In Photoshop, we are going to make the starry impact shape texture.
+[00:03:26] This is a symmetrical shape, so let's use the symmetry tool, with the symmetry axis
+[00:03:32] set to dual axis mode.
+[00:03:35] Using a hard brush, I start to paint the big branches of the star and then the smaller
+[00:03:40] ones.
+[00:03:42] We can use the smudge tool to accentuate directionality and flow on some branches.
+[00:03:50] Once it is done, we can make it glow by duplicating the layer containing the star impact shape,
+[00:03:55] and apply a blur that better respects our global shape, a radial zoom blur.
+[00:04:02] To apply this effect, go to the Filter tab, Blur, Radial Blur, set a big value to be able
+[00:04:11] to perceive the effect, select Zoom as the blur method, and set the quality option to
+[00:04:17] best.
+[00:04:19] You might have to apply the filter multiple times and erase blur paths that are too close
+[00:04:24] to the limits of our document.
+[00:04:27] That's one way to quickly make a star texture.
+[00:04:32] For regular particles like this one, we can just use the standard billboard plane 3D mesh
+[00:04:36] of the Shrinken Particle System Editor.
+[00:04:40] Back in Unity, let's take a look at how we handle this star shaped particle system setup.
+[00:04:46] It is quite simple, it's a particle system spawning a single particle, facing the camera
+[00:04:51] for a short period of time.
+[00:04:54] In the Render module, we set up the render mode to Billboard, and assign the starry impact
+[00:04:59] shaped model we've made earlier.
+[00:05:02] We set the render alignment to View, and its Order in Layer value to 5, so it will be rendered
+[00:05:08] on top of all effects with lower value in the Order in Layer property.
+[00:05:15] Then we will go to the General module to set a small value in the Start Lifetime property,
+[00:05:20] like 0.2 seconds.
+[00:05:22] Making this kind of component last too long would make the entire effect less snappy.
+[00:05:27] We then play around with the size of the billboard plane, and set a Start Color.
+[00:05:33] In the Emission module, we set to 0 the rate over time, and add a new birth list, and set
+[00:05:38] the count to 1, to make the particle spawn instantly instead of waiting the first second
+[00:05:43] of the particle system's duration.
+[00:05:47] In the Color Over Lifetime module, we set both starting and ending alpha keys to 0,
+[00:05:52] to make the particle fade in and fade out, and set two alpha keys around the start of
+[00:05:57] the gradient, to make the alpha intensity peak up and early in the particle's lifetime,
+[00:06:02] and also hold the peak intensity for a short time.
+[00:06:08] And we are done!
+[00:06:09] We can polish this component by playing around with this Size Over Lifetime module, and simulate
+[00:06:14] a Squash and Stretch effect.
+[00:06:17] Squash and Stretch is a basic animation principle that is used to emphasise the speed, momentum,
+[00:06:24] weight, and mass of an object by changing its shape over time.
+[00:06:30] To do that, activate the Separate Axes option, and make two different curves for the X and
+[00:06:36] Y axis.
+[00:06:37] An Ease Out 1, going from a small value like 0.3 to 1, quite quickly, and another Ease
+[00:06:44] Out curve that will take the entire particle's lifetime to go from 0 to 1.
+[00:06:51] It might be a subtle change, but it definitely brings something more to the component.
+[00:06:56] We'll now talk about the Circle component.
+[00:07:04] This component is a bit special, for we are using the principle of polar coordinates.
+[00:07:10] It's a bit complex to explain, but to simplify it for this specific case, by using a flat
+[00:07:15] hemisphere with a basic linear uv and rha, and applying a linear line as a texture on
+[00:07:21] it, rather than the texture being displayed as a flat line, it will be warped around the
+[00:07:26] centre point of the mesh.
+[00:07:30] This is quite a useful principle, especially when making circular effects like auras or
+[00:07:37] portals.
+[00:07:39] We use this principle for the Circle component to reinforce the feeling of damping of the
+[00:07:44] texture by distorting it when it reaches the end of the flat hemisphere mesh.
+[00:07:52] To be able to control the tiling and offset of the flat line texture during the lifetime
+[00:07:57] of the particle it is applied on directly in the particle system, it will require a
+[00:08:02] new shader.
+[00:08:04] Each new shader will be used for the Circle component and, later on, for the sword swipe
+[00:08:09] effect.
+[00:08:13] Its main purpose will be to render a transparent particle with the possibility to add a UV
+[00:08:19] distortion effect on it.
+[00:08:21] This shader will also allow us to control the offset and tiling of our base color and
+[00:08:26] alpha texture directly through the particle system thanks to custom vertex data attributes.
+[00:08:34] And it will also let us control the opacity masking of the borders of the UV space, not
+[00:08:40] with an opacity masked texture, but directly in the shader using UV's linear gradient.
+[00:08:48] These shader global properties are the following.
+[00:08:51] It is an unlit alphabrent transparent shader with backface cutting with multiple properties.
+[00:08:58] A presence of only one 2D texture with multiple outputs connected to the rest of the shader
+[00:09:04] indicates that we can use the channel packing method we've seen in previous videos.
+[00:09:11] In this shader, we can use the red channel to store the base color texture, the green
+[00:09:15] channel to store the opacity mask, and the blue channel to store a north texture to use
+[00:09:21] for the UV distortion effect.
+[00:09:24] For the second component, we won't use all shaders feature presented in this video, and
+[00:09:29] we will only need a base color texture of a flat line that we will make after the shader
+[00:09:34] showcase.
+[00:09:35] We will start with the UV distortion setup.
+[00:09:39] This part of the shader won't be used in the Circle component but might be useful in
+[00:09:44] the sort side effects.
+[00:09:47] So make sure to have it in your shader to be able to use this feature later on.
+[00:09:53] We got a sample 2D texture with a panna setup next to it to be able to control the tiling
+[00:09:58] and offset of the noise texture.
+[00:10:01] The texture's blue channel is then multiplied to a float property to control the noise intensity.
+[00:10:09] The result is then added to our special custom vertex data setup.
+[00:10:15] This setup will allow us to control directly, in the particle system, the tiling and offset
+[00:10:21] of texture's red and green channels by using custom vertex datas.
+[00:10:27] But what are custom vertex datas you might ask?
+[00:10:31] It is a set of attributes that we can reference and edit in the shader and in the particle
+[00:10:38] system.
+[00:10:40] One of the cool things with those attributes is that we can have value variations during
+[00:10:45] the lifetime of our particles through particle system's curve properties, perfect to offset
+[00:10:51] our texture on its mesh using animation curves.
+[00:10:56] Those attributes depend on texture coordinates sets and values.
+[00:11:02] How to use those is quite confusing at first because we need to know which texture coordinates
+[00:11:07] value correspond to which custom vertex data value.
+[00:11:12] Using the particle system setup part, we will add the custom vertex stream option custom1.xyzw.
+[00:11:22] Those 4 values, being x, y, z, w, will act as a vector 4 and let us control the tiling
+[00:11:29] and offset of our texture on the x and y axis.
+[00:11:33] Here's a quick description about those elements' relation between the shader and particle system.
+[00:11:42] custom1 is a set of custom attributes that can be found in the custom data module of
+[00:11:47] the particle system.
+[00:11:50] We can have either custom1 or custom2.
+[00:11:55] x y z w are the properties values of the set of custom attributes in the particle system.
+[00:12:04] textCode refers to the UV set.
+[00:12:07] In this case, textCode 0 is the default UV set, labelled UV0 in the UV node inside the
+[00:12:14] shader.
+[00:12:16] And the z w x y values represent the RGB 8 channels of the UV set in our shader.
+[00:12:24] As you can see, our x y z w values are splitted between 2 UV sets, with the UV set 0 containing
+[00:12:31] the x and y values as its blue and alpha channel, and the UV set 1 containing the z and w values
+[00:12:39] as its red and blue channel.
+[00:12:43] It is that way because we can't use the red and green channel of the default UV set for
+[00:12:47] our custom vertex data.
+[00:12:50] Because we can only use 2 out of the 4 channels, we then use the 2 last channels of the default
+[00:12:55] UV set, and the 2 first channels of the second UV set.
+[00:13:02] Now in our shader, the custom vertex data setup looks like this.
+[00:13:06] We won't be able to use the r and g output of the UV set 0, for they control the default
+[00:13:11] UV space of our texture.
+[00:13:14] So we'll use the blue and alpha outputs as the x and y custom vertex data values in the
+[00:13:19] particle system to handle the tiling of our texture.
+[00:13:24] For the offset of our texture, we'll use the red and green channel of the UV set 01,
+[00:13:29] to edit the z and w custom vertex data values in the custom data module of the particle
+[00:13:35] system.
+[00:13:36] We will now cover how the shader handles its base color input.
+[00:13:43] We want to colorize our particle through the particle system emitter.
+[00:13:47] To do so, we multiply the vertex color RGB channels to the red channel of our 2D sample
+[00:13:53] texture node.
+[00:13:55] We then multiply the output to a float property to control the emission intensity, in case
+[00:14:01] we want our particle to react with our bloom post process effect, and then we multiply
+[00:14:06] it to the vertex color's alpha, before connecting the result to the base color input of the
+[00:14:11] master node.
+[00:14:12] Now, let's see how the shader handles opacity.
+[00:14:18] We've got here 3 main features, regular fading opacity, depth fade effect, and a UV smooth
+[00:14:24] step masking.
+[00:14:26] We multiply the green channel of our texture to the alpha of the vertex color's node, to
+[00:14:31] be able to control the alpha of our particles in our particle system.
+[00:14:36] We then multiply the result to the subgraph depth fade node we've made during the breakdown
+[00:14:40] video of the campfire.
+[00:14:42] Now, let's take a closer look at the final and spiciest part of the shader, the UV smooth
+[00:14:49] step masking feature.
+[00:14:52] We are going to use the red and green channels of the UV node to get a vertical and an horizontal
+[00:14:57] linear gradient, and use smooth step nodes to edit the contrast of those gradients.
+[00:15:06] The goal here is to have a soft square mask that will be applied as a radial mask on our
+[00:15:11] flat hemisphere mesh, to make transparent the center, borders and UV seam's edge of
+[00:15:17] our mesh.
+[00:15:19] We are first going to use the red channel of the UV node to get a vertical gradient
+[00:15:24] and multiply it with the same gradient but invert it to get a vertical line with dark
+[00:15:30] sides.
+[00:15:32] Same thing but with the green channel to get an horizontal line with darker top and bottom
+[00:15:38] sides.
+[00:15:40] We multiply both line masks together to have a soft square mask, and apply it to our mesh
+[00:15:46] as an opacity mask to get our radial opacity mask done.
+[00:15:51] Note that this technique only works if parts of the mesh we want to be masked off are close
+[00:15:56] to the borders of our UV space.
+[00:15:59] We'll first use the red channel of the UV's node.
+[00:16:03] We'll first plug it to a smooth step node, then link it to a 1- node to invert the gradient
+[00:16:09] that will be connected to another smooth step node.
+[00:16:12] A Vector4 property will control the contrast of the curve for both smooth step nodes.
+[00:16:20] We then multiply them together to have this big vertical line with dark sides.
+[00:16:25] We'll do the same thing but using the UV screen channel to have an horizontal line.
+[00:16:31] We then multiply them together and multiply the result to a float value to control the
+[00:16:36] luminosity intensity of the opacity mask.
+[00:16:40] Don't forget to saturate the result to avoid weird opacity values that usually occurs when
+[00:16:46] going above 1 or below 0.
+[00:16:50] You need now just have to multiply it to the multiplication of our Defade effect and Fading
+[00:16:55] Opacity feature, and connect the result to the alpha input of the master node.
+[00:17:02] And we are done with this shader.
+[00:17:04] You can now create a metal out of it.
+[00:17:06] Remember that you will have to edit your float and vector properties after that.
+[00:17:11] We can now carry on with the texture part.
+[00:17:15] Now we are going to start Photoshop and create this line texture.
+[00:17:19] We can use a soft brush with a small radius and make a right line by holding Shift at
+[00:17:25] the top of our document.
+[00:17:27] We will add some luminosity variations by applying some soft brushed eraser strokes
+[00:17:32] with low opacity on our line texture.
+[00:17:36] Once it is done, we will apply the caution blur tip we saw during the campfire video
+[00:17:41] on it.
+[00:17:43] If you want to make a more funky texture and have a preview of how it will look once it
+[00:17:47] will be warped around the center point of our 3D mesh, you can use the Polar Coordinates
+[00:17:52] filter, located in the Filter tab in the Distort subtab.
+[00:17:58] After applying the filter with the Rectangular to Polar mode, we can have a preview of our
+[00:18:04] warped texture.
+[00:18:06] If you want to increase your texture's distance to the center point, you have to bring the
+[00:18:11] linear texture at the bottom of your document.
+[00:18:15] Once done, after importing our texture in Unity Engine, don't forget to assign the
+[00:18:20] texture in the material.
+[00:18:23] In Blender, we need to make a flat hemisphere with a linear UV unwrap.
+[00:18:29] We are going to create a 3D UV sphere, delete half of it, scale what's left to zero to
+[00:18:35] flatten it, and rescale the UVs to leave no unused UV space.
+[00:18:42] Don't forget to apply the object transformation to its data and smooth the object so that
+[00:18:48] the surface does not appear faceted before exporting it to Unity Engine.
+[00:18:53] Once imported in Unity Engine, select your mesh in the Project window.
+[00:18:57] We'll untick all Rig and Animation options and set the Model creation mode to None to
+[00:19:05] avoid having a default model in the project created only for this mesh.
+[00:19:11] Back to Unity, we see which modules we are going to use for this circle effect.
+[00:19:18] We want a particle system that will emit one 3D mesh facing our camera with an offsetting
+[00:19:23] texture applied on it.
+[00:19:25] We'll first check out the Render tab, set the Render mode to Mesh, assign the 3D flat
+[00:19:30] hemisphere we just made in Blender, assign the Ring model, set the Render alignment to
+[00:19:36] View, and set its Order in Layer to 2, so it will be rendered on top of most particles
+[00:19:42] of the Hit Impact effect.
+[00:19:46] Then we'll go to the General module, we'll set the Lifetime value to a small value, more
+[00:19:51] than the starry shape but not too much, something close to 0.35 seems to work just fine.
+[00:19:57] We'll set a Descent Size and Rotation to the particle, to make it bigger than the starry
+[00:20:02] shape, and making the 3D mesh face the camera if import settings were, let's say, questionable.
+[00:20:10] The final touch in the General module will be to choose a nice start color.
+[00:20:16] In the Emission module, we set the Rate over Time to 0 and add a Burst list with the particle
+[00:20:21] count to 1.
+[00:20:23] We'll deactivate the Shape module because we don't need it here.
+[00:20:28] In the Color over Lifetime module, we set a basic fading In and Out gradient with an
+[00:20:33] alpha intensity peak at the start of the particle's lifetime.
+[00:20:38] And the final touch, the custom vertex data setup.
+[00:20:41] We'll go back to the Render module, tick the Custom Vertex Stream option, and add the
+[00:20:47] custom1.xyzw parameter.
+[00:20:52] We can now use the custom vertex data attributes referenced in our shader.
+[00:20:57] For that, we'll activate the Custom Data module, set the custom1 number mode to Vector,
+[00:21:03] and set the number of components to 4.
+[00:21:07] The X and Y values control the tiling of our texture.
+[00:21:12] We'll set 1 for both properties, we do not need them to change over time.
+[00:21:17] However, we want the Z and W values, which will control the offset of our texture on
+[00:21:23] the X and Y UV axis, to evolve over the particle's lifetime.
+[00:21:28] We can add some subtle rotation to the texture over the particle's lifetime by using the
+[00:21:33] Z value as a Ease Out curve with a small max value, something like 0.2 is working great
+[00:21:39] for me, not too slow, not too fast.
+[00:21:44] And finally, the most important one, we'll use the W value as an Ease Out curve with
+[00:21:49] a max value of 1 to offset our texture on the 3D mesh and make it damp at the end of
+[00:21:55] its lifetime.
+[00:21:57] These curve settings will highly depend on the position and width of your texture.
+[00:22:04] When it is done, we've reviewed the most complex component of the Hit Impact effect.
+[00:22:09] Let's check out the other ones.
+[00:22:12] Our next component will be those light rays that make our starry shape more glowy and
+[00:22:16] impactful.
+[00:22:17] Our regular Unlit Alpha Blend shader with an intensity and vertex colour controller
+[00:22:24] feature will be perfect for this effect, just like the one used for the Star Impact Shape
+[00:22:29] component we've seen earlier in the video.
+[00:22:33] Reaching to Photoshop, we are going to take a minute or two to make this light ray texture.
+[00:22:40] With the Symmetry tool activated and set to Vertical Axis mode, we are going to draw some
+[00:22:45] sort of cone shape with a soft brush.
+[00:22:48] We will then apply some strokes of Eraser with the same soft brush to have a more luminous
+[00:22:54] part at the tip of the cone shape.
+[00:22:58] After that, just like for the other textures, I make it glow with the Caution Blur technique.
+[00:23:05] Those light rays will be applied on default billboard 3D planes.
+[00:23:09] Those meshes will be used when we will select Billboard as the render mode in the Render
+[00:23:14] module of the particle system.
+[00:23:18] The particle system setup of the ray component will spawn multiple billboards of different
+[00:23:23] sizes and lifetimes that share the same spawning pivot point and are pointing outwards their
+[00:23:29] spawning point.
+[00:23:32] As usual, we cover the Render module first.
+[00:23:35] We need to set the render mode to Billboard, assign the ray model, set the render alignment
+[00:23:40] property to View, and set its order in Layer to a value below 0, just to make it rendered
+[00:23:46] behind basic elements such as the Starry Impact Shape and Ring Circle.
+[00:23:52] In the General module, we set the lifetime value to a random value between two constants.
+[00:23:58] We want them to last at least a bit longer than the Starry Shape, so a value between
+[00:24:03] 0.25 and 0.4 should be alright.
+[00:24:08] We want some variation in sizes and orientations on specific axes.
+[00:24:15] We can do that by ticking the 3D Start Size and Rotation Boolean property.
+[00:24:20] We will set higher values in the Y Scaling axis than in the X axis, to have long and
+[00:24:26] thin rays, and set a random value between minus 360 and 360 on the Z Rotation axis,
+[00:24:34] to have our rays being able to spawn and point outward in a 360 angle.
+[00:24:41] We can then choose a nice fitting colour for our light rays.
+[00:24:46] In the Emission module, we are going to add a Bust list and set a small amount of particles
+[00:24:51] in the Count property.
+[00:24:53] Too much light rays might make the effect too noisy to look at, it's a solid layer
+[00:24:57] of the effect and doesn't need to draw too much attention.
+[00:25:00] In the Shape module, we set the shape to a sphere and most importantly, set the radius
+[00:25:07] to the minimum value possible, to make sure the spawning pivot point of all our rays will
+[00:25:13] be the same.
+[00:25:15] We then set the Arc Mode to Burst Bread to evenly distribute the spawning angles of our
+[00:25:20] particles.
+[00:25:22] For the colour of a lifetime, we'll make those particles fade in and fade out, and
+[00:25:26] reach their intensity peak quite early in their lifetime.
+[00:25:31] With all those settings, the particle system should look like this.
+[00:25:37] We got here a pivot issue, where the pivot of our billboards is located at the centre
+[00:25:42] of the 3D plane, resulting in our meshes being spawned on top of each other, instead of pointing
+[00:25:48] outward of the spawning point.
+[00:25:52] We need to edit the pivot of our billboard by offsetting it from the centre of the plane
+[00:25:56] on the Y axis.
+[00:25:58] That way, Billboard's plane will spawn with a luminous part of the rays near the centre
+[00:26:02] of the spawning point.
+[00:26:05] One final touch that can be added to this component would be to better control each
+[00:26:10] generation of the particle system.
+[00:26:12] As you can see, each time we play the particle system, we got a random result with our rays'
+[00:26:18] particles, and sometimes, it doesn't look very good, with particles not being evenly
+[00:26:22] distributed.
+[00:26:24] To avoid that, in the General module, you can deactivate the Autorandom Seed switch,
+[00:26:29] press the Reseed button, and restart the particle system until you find a good looking seed.
+[00:26:37] And with that done, we got our subtle light ray component.
+[00:26:40] It's now time to talk about the Multiple Stretch Particles component.
+[00:26:47] To make those stretch particles, the same shader and material we've used for the Sparks
+[00:26:51] component of the campfire will do the job just fine, so let's reuse them.
+[00:26:57] Just like the Spark component of the campfire effect, the particle system setup will use
+[00:27:02] multiple different modules.
+[00:27:04] It will be a bursting particle system emitting multiple stretch billboards of different sizes
+[00:27:09] and lifetimes that damp at the end of their lifetime.
+[00:27:14] In the Render module, we need to set a render mode to Stretch Billboards, set the speed
+[00:27:18] scale to 0.1, and assign the spark material of the campfire effect.
+[00:27:25] In the General module, we set the lifetime value to a random value between two constants.
+[00:27:30] These stretched billboards should last some time, but not too much, so its impact is a
+[00:27:35] quick effect after all.
+[00:27:37] Something around 0.3 to 0.7 seconds for the lifetime seems fine.
+[00:27:43] We want some variation in size and speed, while also choosing a fading colour that goes
+[00:27:48] well with our heat impact effect.
+[00:27:52] In the Emission module, we set the rate over time to 0, and add a burst list with a decent
+[00:27:57] amount of particles in the Count property.
+[00:28:01] Within the Shape module, we set the shape to a sphere with a small radius size.
+[00:28:07] Just like what we've done for the Spark particle system, we'll activate the Texture
+[00:28:11] Sheet animation, set the number of ties to 2x2, and set the frame over time on a random
+[00:28:17] constant between frame 0 and 4.
+[00:28:22] Stretched particles will damp at the end of their lifetime thanks to the Limit Velocity
+[00:28:26] Over Lifetime module, where I've set the Dampen and Drag property to 1.
+[00:28:32] For the Speed curve, I've made a curve with its max speed value set to 30 that do not
+[00:28:37] limit particles' velocity at the start of their lifetime, but quickly cut it to a small
+[00:28:42] value near 20% of their lifetime.
+[00:28:45] Remember to not set a value too close to zero with this curve, for with the Stretch Billboard
+[00:28:50] mode, the particle's size is multiplied to its speed, so if the particles don't move,
+[00:28:56] it will just brutally disappear with its size scaled down to zero instead of fading away.
+[00:29:03] Speaking of fading away, time to set up the Color Over Lifetime module.
+[00:29:07] We'll make our stretched particles fade in and fade out through those two alpha keys.
+[00:29:13] We want those particles to be very intense and bright at the start of their lifetime,
+[00:29:17] lower their alpha value by quite a lot a short time after their intensity peak, and slowly
+[00:29:23] let them fade away.
+[00:29:25] Finally, we will use the Size Over Lifetime module to make our particles hold their maximum
+[00:29:30] size for 70% of their lifetime before slowly shrinking down with this inverted S curve.
+[00:29:39] We now got our nice little stretched particles component done.
+[00:29:44] And now, for the last component of the Heat Impact effect, we'll make a fake glow effect
+[00:29:49] with some real-time light included in its particle system emitter.
+[00:29:55] We've already made a particle system like this during the campfire breakdown video,
+[00:29:59] so we're just going to duplicate it by selecting it in the campfire prefab, and by pressing
+[00:30:04] Ctrl plus D. We now have a duplicate of our particle system that we're going to place
+[00:30:11] in our Heat Impact prefab.
+[00:30:15] We just need to make sure adjustments to it.
+[00:30:18] In the Global module, we're going to set the duration to 1, untick the Looping option,
+[00:30:24] and set a Lifetime value that make it last longer than the SteadyShape impact.
+[00:30:29] Something like 0.4 works well in my case.
+[00:30:33] We can also untick the 3D Start Size parameter to have an identical size scale on all axes
+[00:30:40] of our fake glow 3D plane, and finally set a fading color.
+[00:30:46] In the Color Over Lifetime module, we want the starting and ending alpha keys to be at
+[00:30:51] 0, and we will add an alpha key at 100% value at the very beginning of its lifetime.
+[00:30:58] We will deactivate the Noise module, and activate the Size Over Lifetime one.
+[00:31:02] In this module, we'll set an Ease In, Ease Out curve to make the fake glow particle slowly
+[00:31:07] grow bigger in size at the start of its lifetime, and slowly reach its maximum size at the end
+[00:31:13] of it.
+[00:31:15] We can also edit some values in the Light module to adjust the real-time light intensity
+[00:31:20] and range.
+[00:31:22] And that concludes this breakdown video.
+[00:31:25] We got a nice looking basic impact effect done quite quickly by reusing some of our
+[00:31:30] previous work, and thus drastically reducing our production time.
+[00:31:35] And we also had the opportunity to start talking about technical stuff like custom VELIX data
+[00:31:41] and polar coordinates, and animation principles in VFX, and how it can really push an effect
+[00:31:47] to the next level.
+[00:31:51] I hope you like this content, and I see you in the next video.
+[00:31:54] Goodbye!

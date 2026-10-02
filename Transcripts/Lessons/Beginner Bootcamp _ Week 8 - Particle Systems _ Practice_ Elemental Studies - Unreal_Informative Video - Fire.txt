@@ -1,0 +1,89 @@
+[00:00:05] Hello everyone, welcome to the Elementals 2D's course.
+[00:00:08] We'll first start our journey with a quick informative video about fire.
+[00:00:12] This video will be structured around three main axes, we'll talk about what is fire,
+[00:00:17] how does it work, and what does it look that way. So let's get started and define what is fire.
+[00:00:25] Fire is an exothermic chemical reaction. It's a process where a substance changes into another
+[00:00:30] substance while constantly releasing energy. It involves a rapid oxidation of an entity
+[00:00:37] through combustion, which causes the release of energy. So specific words might seem a bit
+[00:00:43] uncanny, but do not worry, we will explain them through simplified visuals to make them easy to
+[00:00:48] understand. First, let's start with oxidation. Oxidation can be defined as a process in which
+[00:00:55] a chemical substance or a chemical element changes because of the addition of oxygen,
+[00:01:01] just like how iron rests with time, mainly because of oxygen.
+[00:01:06] Now that we have defined oxidation, it would be easier to understand what combustion is.
+[00:01:12] Combustion is a rapid oxidation reaction that produces heat and often light, like burning coal.
+[00:01:19] You can think of it as something resting so fast it kinda starts burning.
+[00:01:26] Now the question, how does it work? We'll talk about how to start, maintain and kill a fire.
+[00:01:32] To start and maintain a fire, you will need 3 elements reacting together at the same time.
+[00:01:38] We'll need an oxygen source that will mainly use air, for air contains approximately 21% of oxygen.
+[00:01:45] We'll also need a fuel source that will use any combustible materials like coal,
+[00:01:50] alcohol or even propane, and finally a heat source to help start the fire by reaching
+[00:01:56] ignition temperature, usually by friction or combustion by letting a match for example.
+[00:02:03] We call this group of elements the fire triangle, and if you wanna put down a fire,
+[00:02:07] you just have to suppress one of those 3 elements. Just like when you blow off a candle by displacing
+[00:02:13] the candle's flame and blowing cold air for a sufficient amount of time on the candle,
+[00:02:18] the fire won't be able to sustain itself without the heat source, the fire then will be
+[00:02:23] extinguished. Now let's talk about how fire moves. Fire has multiple ways to spread through space,
+[00:02:31] more specifically, it has multiple ways to spread through space and by spreading, completing the
+[00:02:37] fire triangle to allow fire to spread using available air and combustible around it.
+[00:02:43] Here are some of the most common ways fire can spread.
+[00:02:46] Through convection, where heat moves through gases or liquids like the hot steam or the hot cup of
+[00:02:52] coffee. Through conduction, where heat moves through material or objects like a hot frying
+[00:02:58] pan cooking your meal, or through radiation, where heat is transferred through electromagnetic waves
+[00:03:04] like a burning campfire or the radiation of the sun keep us warm. Note that fire isn't limited
+[00:03:11] to use only one way of spreading. For example, during summertime in the forests, with very dry
+[00:03:17] foliage as combustible, wildfires will be able to easily use all 3 ways of spreading at the same
+[00:03:23] time and gain a lot of terrain quickly. So why does fire look that way?
+[00:03:30] This axis will be divided into 3 sub-parts. We will define the main components of a fire,
+[00:03:35] detail how fire and smoke can have different colours, and how a flame's moving shape is
+[00:03:41] sculpted. We will start with the most iconic component of a fire, the flame.
+[00:03:47] The flame is a visible gaseous part of a fire. Basically, it's gas burning at very high
+[00:03:52] temperature. To have a better comprehension of what composes a flame, let's take a look at this
+[00:03:59] candle flame example, where we can distinguish 3 visible parts.
+[00:04:04] This dark concentrated zone is called the inner zone. Located near the wick, this is the least
+[00:04:10] hot part of the candle flame, where molecules from the material are heated enough, they start
+[00:04:16] to vaporize and turn into gas. This bright part is called the middle zone. This is the brightest
+[00:04:22] visible part of the flame, but not the hottest. Molecules won't fully burn up in the inner zone,
+[00:04:28] but are hot enough to emit light. They will move and swirl inside the body of the flame,
+[00:04:33] and at some point, clump together to form packs of particles called soot. That temperature will
+[00:04:40] drop when reaching the tip of the flame, when they will eventually cease to emit light and
+[00:04:44] will be carried away by air currents. Finally, we got the outer zone of the flame.
+[00:04:50] It is the outer zone of the flame despite being faintly visible. This is where complete burning
+[00:04:55] of the fuel takes place due to the space being richer in oxygen than the other zones,
+[00:05:00] giving this light blue tint to it. The flame is for sure the most iconic
+[00:05:06] component of fire. But what about the others? By taking as an example a campfire, we can
+[00:05:12] identify most of the remaining components. Smoke, the result of an incomplete combustion
+[00:05:17] and contains multiple elements, including soot. Sparks, incandescent particles or flaming debris
+[00:05:24] exposed from burning materials. Heat distortion or heat haze, a visual phenomenon that occurs
+[00:05:30] when light is refracted through air of different densities. Hot air coming from the fire is
+[00:05:37] dissipated into cooler air, modifying the air density and thus creating these effects that
+[00:05:42] distort our perception. And finally, ashes, a powdery residue left after the combustion of
+[00:05:50] materials, composed of non-combustible elements. Now that we have identified most visual components
+[00:05:56] of a fire, let's take a closer look at the colour of the flame and smoke, for it carries a lot of
+[00:06:02] information. First, the flame's colour. It will highly depend on the temperature of the fire
+[00:06:08] and the type of material currently burning. For example, if some sodium chloride, also known as
+[00:06:15] kitchen salt, is burning, it will produce a yellowish-orange flame. If we want more unusual
+[00:06:21] colours, by burning some copper, you can obtain an unsettling green tinted flame that will be ideal
+[00:06:28] for some undead crypt environment, or by burning some potassium chloride, you can get a purple
+[00:06:34] flame, perfect for any fire spell of an arcanist mage. We can even have a white flame by using
+[00:06:41] nitromethane with some added alcohol. Now let's see what information smoke's
+[00:06:46] colour can give away. A white smoke usually indicates that light and flashy fuels such as
+[00:06:52] paper or twigs are burning. The white colour is mainly due to the presence of a lot of water vapour
+[00:06:59] being driven off by the smoke, often signs of the incipient stage of a fire where water hasn't been
+[00:07:05] completely vaporised from the burning materials. A thick black smoke indicates that heavy fuels,
+[00:07:12] like synthetic or man-made materials, are currently burning. This kind of smoke is quite
+[00:07:18] opaque for it contains a lot of not fully burnt particles, and it is quite toxic and dangerous
+[00:07:24] to breathe. This kind of details might be interesting to keep in mind if the art direction
+[00:07:29] or the gim's law lean towards scientifically accurate representation of burning materials.
+[00:07:35] And now, the final part of this video. We will discuss why a flame has this intriguing shape
+[00:07:41] that we all know and are fascinated about. The shape of the flame is mainly the result
+[00:07:46] of the relation between air and gravity, sculpting air currents. Gravity will attract cool air down
+[00:07:53] and push hot air up. Distance between air currents is what gives the flame its hypnotic wavy elongated
+[00:08:00] shape, pointing upward. It also helps differentiate a candle's flame from a campfire's flame,
+[00:08:07] for the flame will flicker and dance with more or less energy depending on the airflow.
+[00:08:13] But how does a flame look like when the gravity is different from Earth gravity,
+[00:08:17] let's say in space? This was an interesting experiment made on the International Space
+[00:08:23] Station. In microgravity, the visual of the flame looks quite different. Without gravity
+[00:08:29] influencing on air currents to get that elongated shape, the flame emits from all angles in a
+[00:08:34] spherical way and doesn't flicker that much. That's pretty neat. And this is with this pretty
+[00:08:40] unique example that this video ends. I hope you've learned something new, and I see you next time.
+[00:08:46] Bye!

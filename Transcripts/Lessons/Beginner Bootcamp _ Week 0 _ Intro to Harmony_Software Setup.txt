@@ -1,0 +1,54 @@
+[00:00:04] Hello, I'm Liam Panik and welcome to the second part, introduction to Toon Boom Harmony for
+[00:00:09] special effects artists. In this tutorial we're gonna learn how to adjust our window to our needs
+[00:00:17] to make it look simpler so we will work quite faster. The first thing we're gonna do, we're
+[00:00:26] gonna go to the edit preferences and we're gonna go to the general tab and save scene automatically.
+[00:00:36] You can promise me thousand times that we're gonna save with ctrl s your scene dozens of time but
+[00:00:44] there will be that one day when you will lose couple hours of your work you don't want to have
+[00:00:49] that save scene automatically 10 minutes interval is okay so please please do this the next thing
+[00:00:58] we're gonna do is use the dark style sheet if you don't have the dark style sheet but
+[00:01:06] light is better for the eyes I believe so I always have it on the next one will be in
+[00:01:15] exposure sheet we're gonna select the extend exposure of previous drawing I'm gonna talk
+[00:01:24] about it later then we're gonna go to drawing and my personal preference is a colored outline
+[00:01:34] you will notice on the previous tutorial that you had the colored selected as default
+[00:01:41] and you had it like this and what I like to have is
+[00:01:48] under drawing colored outline like this it's a personal preference I like to have it on all the
+[00:01:54] time under timeline click the reduce indentation don't ask too many question why that's useful
+[00:02:04] and under advanced app support overlay and underlay arts we're gonna talk about this
+[00:02:11] later as well all right so once we have the preferences you can always go to edit and keyboard
+[00:02:20] shortcuts to change whatever shortcut you need I always like to search for brush
+[00:02:27] and I always change my shortcuts to the ones that I like the most ALT B for me is a quite a big
+[00:02:38] stretch so I like to use something like ALT shift W because I have my left arm on WSAD
+[00:02:47] position like I'm playing FPS game so that's more natural than ALT B but just for now for
+[00:02:53] this tutorial I'm gonna stick to ALT B okay now we're gonna move around the window to adjust it to
+[00:03:00] our best efficiency all the windows you can resize adjust to what you need you can take the window
+[00:03:11] out of the software and you can put it on another screen or whatever you can split the view like
+[00:03:18] this and you can also merge them together that's very useful if you need more windows you can
+[00:03:25] simply press this plus icon and select what you need for now for now we don't need anything
+[00:03:32] other than we have on the screen camera drawing two properties color library we're gonna talk
+[00:03:39] about it later node view later timeline and note library later I have the 3d graph here
+[00:03:48] here just to not cover the timeline with myself and this is it now let's clean the window more
+[00:03:58] on the very top you have the display at the very beginning this display is responsible for
+[00:04:07] export movie export from display node we are selecting it here we always want to render
+[00:04:15] whenever it's connected to that display port not display rb display all because some of our layers
+[00:04:21] might not be connected to this display and we don't want them to be rendered but maybe we don't
+[00:04:30] need this display you probably have the edit and file but who clicks this undo icon or cut you
+[00:04:41] we are doing this with shortcuts right so edit is not needed save as well because we
+[00:04:49] actually clicked auto save so that's not necessary this thing here is coordinate we probably don't
+[00:05:00] need it at least now and this toolbar here is for something we might use at the last tutorial
+[00:05:13] and the other one is this advanced animation which I use pretty often but I use shortcuts for it
+[00:05:23] I'm gonna talk about it later as well can I put it there there we go so now the top row
+[00:05:31] is gone and we have a little bit more space on the screen something to remember is if you will
+[00:05:40] click on the camera view and click ctrl f it will remove the top bar and control f again to center
+[00:05:49] on this window that's cool there is one toolbar that you might be interested in which is for
+[00:06:03] battery smooth lines pen settings which is there if you'll go up like this and you will draw a line
+[00:06:14] it's a tool that you can see on photoshop for example to make batteries move lines
+[00:06:21] but I don't need it okay moving on we're gonna go to our timeline view and we're gonna clean
+[00:06:31] this mess that we have here there are so many shortcuts that we're not gonna use probably
+[00:06:40] surely so let's click on this toolbar and go to customize and we're gonna select everything
+[00:06:50] until the central selection we're gonna use that occasionally create keyframes on
+[00:06:56] why not and the last two should be gone probably like this apply there we go now it's a little more
+[00:07:09] approachable and that's pretty much all as you can see our window is looking much cleaner
+[00:07:17] and that's very very cool so that's it for this tutorial on the on the next one we're gonna
+[00:07:25] learn more deeply about the properties about the tools and after that we can start adjusting our
+[00:07:34] animation to make it look much much better thank you so much for watching and see you on the next
+[00:07:40] one cheers

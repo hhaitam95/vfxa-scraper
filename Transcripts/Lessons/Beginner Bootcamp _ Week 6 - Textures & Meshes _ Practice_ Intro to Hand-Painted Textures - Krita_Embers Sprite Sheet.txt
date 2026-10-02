@@ -1,0 +1,304 @@
+[00:00:05] Hello everybody and welcome back to texture painting in Krita.
+[00:00:09] Today we're on lesson four, which means we're going to be painting a two by two ember sprite sheet,
+[00:00:14] which means that we will have four different embers to choose from.
+[00:00:18] And embers are great for a lot of different things in effects.
+[00:00:21] They are really great for adding the next level of detail for certain effects.
+[00:00:26] They're really great for adding a lingering element to an effect that doesn't take a lot of visual real estate.
+[00:00:33] And they are also really great for making certain effects feel magical, which is really cool.
+[00:00:38] So let's hop right into it. Let's get painting.
+[00:00:42] All right, here we are again in Krita. Let's go ahead and make a new file.
+[00:00:48] And as usual, I'm going to keep it 512 by 512.
+[00:00:51] One thing that's important to note when making sprite sheets is that your texture is essentially being split up into four separate textures.
+[00:01:00] So if you're working on a high fidelity game, I would probably recommend going up to 1024 by 1024 so that each quadrant of the texture is about 256 by 256.
+[00:01:12] But since I'm just making a sprite sheet for myself and for an example for you all, I am going to keep it at 512 by 512,
+[00:01:20] which means that each quadrant that one ember takes up will be approximately 128 by 128, which is perfect for me.
+[00:01:29] So I'm going to go ahead and create.
+[00:01:32] And for now, I'm not going to worry about splitting the texture up into four different pieces. I'm going to do that later.
+[00:01:37] So for the time being, I'm actually going to paint the ember as if it were taking up this whole texture space.
+[00:01:45] So I already have a blank layer that I can start painting on.
+[00:01:48] So I am going to go up to the basic five size brush.
+[00:01:55] There we go. And we're going to start painting, actually size up the brush a bit.
+[00:02:00] Same as before, I like to paint subtractively, so I'm going to make like a big sort of blobby looking shape to start.
+[00:02:09] Oh, and I'm painting in black.
+[00:02:11] Going to press X on my keyboard so that I can swap to white.
+[00:02:16] Go with something approximately like that.
+[00:02:19] Then I can press E to toggle on eraser mode and start chunking away some shapes out of this.
+[00:02:28] That it feels a bit more like an ember and less like a blob.
+[00:02:33] Cool. All right. That's our first ember.
+[00:02:41] I'm actually going to press control T and just rotate it a bit.
+[00:02:45] There we go. I want to make sure that the pointy bit is at least relatively vertical.
+[00:02:49] Then I can press enter to apply that transformation and I can press B again to go back to brush.
+[00:02:56] And I'm actually going to make a layer for each ember that I make.
+[00:03:01] So go ahead. I'm just going to I'm going to name my layers this time.
+[00:03:05] I usually don't do this, but just so that I can have things be a little bit more organized.
+[00:03:12] The way that you can rename layers is by either clicking on it and pressing F2 or by double clicking on your layer name.
+[00:03:18] And you can rename it from there. Since I painted this ember on the ember one layer.
+[00:03:23] I don't want to see this while I'm painting the other embers that I'm planning on painting.
+[00:03:28] So what I can do is click this little eye icon and it will hide it for me, which is great.
+[00:03:33] And then I can click on the ember two layer and I can start painting from there.
+[00:03:38] Alright, so for this next ember I'm going to size up the brush a bit.
+[00:03:41] And I'm going to do maybe like eraser modes on.
+[00:03:47] There we go. I'm going to do sort of like a blobby, I'm going to do like a stout, maybe a more stout ember.
+[00:03:56] There we go. I like the look of that, though I honestly wonder if this bottom part should be the top part.
+[00:04:08] So I'm actually going to try to rotate it. Yeah, I think I do like the pointier bit up top.
+[00:04:19] The way that I am flipping back and forth between these is by pressing CTRL-Z to undo the transformation and then pressing CTRL-SHIFT-Z to redo the transformation.
+[00:04:28] So I can sort of test it out and see which I like better. And I do like this better, so I'm going to go ahead and keep that as our second ember.
+[00:04:38] Go ahead, make another layer, name it ember three, and also going to toggle off visibility on ember two.
+[00:04:47] So ember number three, let's see here. Let us once again make a big old blob and cut away some shapes from it.
+[00:04:58] It's a bit of a messier one, but I kind of like it.
+[00:05:07] I think I'm actually going to keep this one with the bigger spike on the bottom, just for the sake of variety.
+[00:05:14] I'm going to move it a bit more towards the center, though, and I think I might clean up a little bit some of these edges.
+[00:05:26] To me, they feel a slight bit messy. Not horribly, but I could use a little bit of cleanup.
+[00:05:34] It feels like any time I'm trying to fix this bottom line here, I'm just making it worse.
+[00:05:42] So I think I'm just going to keep this ember as it is and move on to ember four.
+[00:05:46] Starting with the same sort of solution, starting with a big old blob.
+[00:05:56] Oopsie daisies. I didn't mean to just delete the whole thing.
+[00:06:01] This one is a bit of a weird looking one. Let's see if I can find a way to make this more interesting.
+[00:06:10] Yeah, I think that looks cool. Nice and spiky. I am going to try to flip this one around just to see what it looks like.
+[00:06:24] As strange as it sounds, I think I actually like this sort of duller top for the front of the ember.
+[00:06:30] So I'm going to leave this oriented like this.
+[00:06:35] Okay, so the next sort of steps that I want to try out with this is to try adding some glow to each of these embers.
+[00:06:43] And obviously I painted them pretty big, so I think I might size them down first and then add the glow,
+[00:06:49] just so that we don't have any of that glow clipping past the edges of the texture.
+[00:06:53] So I'm going to try that out with this first ember that we made.
+[00:06:56] I'm going to grab the top right widget here and then press Shift and Alt to scale it down evenly towards the center.
+[00:07:05] I feel like that's pretty good.
+[00:07:07] And I don't want to add the blur to the original layer, so I'm going to duplicate this ember one layer by pressing Ctrl J.
+[00:07:18] And you can see a copy of ember one now.
+[00:07:20] And then I'm going to go to Filter, Blur, Gaussian Blur.
+[00:07:25] Then we're just going to crank this up so that it has a nice soft falloff.
+[00:07:32] And right now it's too strong for sure, but I can tone that down later.
+[00:07:38] I just want to sort of get some nice glow in there.
+[00:07:41] I think I'm going to go with 106.
+[00:07:44] Go ahead and apply that.
+[00:07:46] And then from here we can tone down that glow a little bit.
+[00:07:50] This is like a softer glow.
+[00:07:52] And then I think I actually want to blur the ember just a little.
+[00:07:57] I didn't think that I wanted to, but now that I'm seeing it next to the softer glow that I added, I think I want to.
+[00:08:02] So I'm going to go to Filter, Blur, Gaussian Blur again.
+[00:08:08] And I actually think I want some sharpness in there, so I'm going to cancel out of this.
+[00:08:13] Duplicate the ember one texture again, which is the sharp-edged one.
+[00:08:18] And I should actually name these two blurs so I know which one is which.
+[00:08:22] I'm going to go with the soft blur that we added and go ember one soft.
+[00:08:29] And then ember one hard.
+[00:08:34] And for ember one hard, what I want to try is just to add a little bit of glow,
+[00:08:39] but still have that harsh edge underneath so that there's still that sharpness to it.
+[00:08:44] I think I like that, around 20, anywhere from like 25 to 30.
+[00:08:51] Yeah, I just wanted a little bit more of that hot glow right around the sharp texture that we have going on.
+[00:08:57] So I will go ahead and apply that.
+[00:08:59] I really like this, but I think that adding some motion blur specifically to the bottom part of the ember
+[00:09:06] will help it feel like it's moving through the air once we actually have it in engine and in a particle system and moving around.
+[00:09:12] So what I'm going to do to get that feeling is combine all of the elements here into one layer
+[00:09:22] by going to ember soft, which is my top-most layer out of this group here that's visible.
+[00:09:29] And I'm going to say new layer from visible, which combines our background ember one, which is the sharp texture,
+[00:09:37] ember one hard, which is like brighter glow, and then ember one soft, which is the soft falloff we have,
+[00:09:42] and combines it all into one texture for us.
+[00:09:45] And from here, what I'm going to do is go to filter, blur, motion blur.
+[00:09:50] And right now the angle is at zero, which means that it's pointing directly off to the right.
+[00:09:55] And I want it to be vertical instead of horizontal.
+[00:09:58] So I'm going to change the angle to 90.
+[00:10:02] And there we go.
+[00:10:04] You can see if I crank this up a little bit that it's adding some really cool vertical motion blur to the ember itself.
+[00:10:11] I think that looks so cool.
+[00:10:12] You can see the sharp edge here that the motion blur is giving us, but it also gives us these nice soft areas as well.
+[00:10:19] It's a really cool combination of soft and hard shapes.
+[00:10:22] It's pleasing to the eye. My eyes feel happy looking at this.
+[00:10:25] I'm going to really crank this up and see how far I can get away with.
+[00:10:30] And I honestly think I'm going to go with 70.
+[00:10:35] We're going to try. We're going to try 70 and see how this goes.
+[00:10:38] So I'm going to apply this.
+[00:10:40] And then what I'm going to try is I'm going to select my brush tool again, go up to the airbrush, and then put it into eraser mode.
+[00:10:51] Now my plan here is to erase the top part of this texture so that the top part of the ember is really hard edged.
+[00:10:58] So it's sort of like that nice crisp leading edge.
+[00:11:01] And then have the rest of the ember still be blurred and soft down here so that it looks like it has a sharp leading edge and then a nice soft fall off towards the bottom of the ember.
+[00:11:10] So let's try erasing this away.
+[00:11:13] See if I can get a nice transition between the two without it looking too funky.
+[00:11:21] Looks like this area is giving me a tiny bit of trouble.
+[00:11:27] I'm going to undo a little bit. I think I might have erased a bit too much.
+[00:11:32] And then I can actually tone this down a bit.
+[00:11:39] Toning it down just to see what it looks like. I think I actually like it at 100% opacity.
+[00:11:45] I think that I might try motion blurring it again just to have that trail off at the bottom be a little bit more extreme.
+[00:11:54] Oh dear, it's horizontal. I need to change it back to 90 degrees. There we go.
+[00:12:00] And that's probably good.
+[00:12:04] Around 70 again looks like.
+[00:12:07] Get rid of the blur up at the top so that the top can be nice and crisp.
+[00:12:12] And let's try toning this down one more time.
+[00:12:17] I think that looks pretty good.
+[00:12:20] And then just for the sake of making sure we don't have any clipping, I'm going to make a new layer from Visible.
+[00:12:27] Which combines everything that we've done all together into one layer.
+[00:12:32] I'm going to go to Adjust Threshold and bring it all the way to the bottom.
+[00:12:38] Okay, looks like it might clip at the top and might clip at the bottom.
+[00:12:44] I will just need to go in here and add a little bit of black just towards the very edge.
+[00:12:52] Just to make sure we don't have any of that clipping going on.
+[00:12:56] Cool. Alright, so we've done this with our first ember. Let's go ahead and do this with our other three embers as well.
+[00:13:02] Actually, before I do that, I'm going to grab the ember one layers that I've made.
+[00:13:08] I'm going to bring them all down so that they're all together.
+[00:13:14] And then I'm going to make a group layer here and call this ember one group.
+[00:13:21] And then I'll move that up to the top of the ember one layers I have.
+[00:13:29] And click and then shift click the layers that I want to drag into that group.
+[00:13:36] And there we go. Now it's in a nice little group that I can turn the visibility on and off for really easily.
+[00:13:45] Cool. Alright, so ember one is finished. Let's move on to ember two.
+[00:13:49] And we're going to go through a similar process with this one.
+[00:13:51] I'm going to start out by repositioning it a little so that we can have that glow in there and have it not clip or hopefully not clip at the edges.
+[00:14:01] Alright, so like before, I'm going to take my base layer and duplicate it.
+[00:14:06] Filter, blur, gaussian blur and just really crank it up.
+[00:14:13] Maybe not that far because you can see it's starting to clip at the edges here.
+[00:14:18] Looks like somewhere around 110.
+[00:14:22] And I can tone down the opacity of this layer a bit so that that soft falloff isn't too intense.
+[00:14:29] You want it to be soft after all.
+[00:14:31] Then I'll duplicate our base layer again.
+[00:14:35] Go to filter, blur, gaussian blur and just give it a little bit of a glow around these harsh edges here.
+[00:14:43] 26 looks good. I'm going to go ahead and keep that.
+[00:14:48] Now let's go ahead and rename these layers.
+[00:14:51] So this is ember two hard for the harder glow that we have.
+[00:14:56] And then ember two soft for the soft falloff glow.
+[00:15:00] And just like before, I'm going to go to the highest visible layer in this list, which is ember two soft and say new layer from visible, which combines everything together into one layer.
+[00:15:12] We'll go to filter, blur, gaussian blur.
+[00:15:15] Make sure the angle is 90 so it's vertical and then blur the crap out of it.
+[00:15:21] I was going around 70 last time.
+[00:15:23] I think I am just going to go as high as I can and I can erase or reduce from there.
+[00:15:29] So let's go ahead and accept this and then we can go back to our brush, which is still the airbrush.
+[00:15:36] And I'm going to erase away the upper portion.
+[00:15:41] Oh, I'm painting black. I was like, why is that?
+[00:15:44] Why is it not revealing underneath? It's because I'm painting in black instead of erasing.
+[00:15:48] So let me swap to eraser mode.
+[00:15:50] There we go.
+[00:15:52] Erase away the upper part of this motion blurred portion of the texture.
+[00:15:57] OK, so I've erased away the areas that I wanted to from the motion blurred portion of the texture,
+[00:16:08] but I feel like it would be cool if I added some darker streaky points in here instead of having it be all soft and blurry.
+[00:16:16] So I think what I'm going to do is toggle off eraser mode so that I'm painting in black and up my brush size just a little.
+[00:16:25] And I'm actually going to try to paint in a couple of dark streaks here.
+[00:16:32] I don't want it to necessarily get rid of that nice falloff glow that we have.
+[00:16:36] So I'm trying to be kind of careful about where I'm painting and how much pressure I'm using with my brush.
+[00:16:45] Worst case scenario, I can always go back in and either use the cotton swab tool to blend the glow and the texture together,
+[00:16:55] but I would like not to do that if it's not necessary to.
+[00:17:00] Cool. I think that looks really cool.
+[00:17:06] So obviously you can see there's a dark spot in here now, though, so I'm going to try to cover it up with a little bit.
+[00:17:13] Oh, dear. That's a bit too much. A little bit of white.
+[00:17:19] I think that looks all right. Now I can try to blend it together with the cotton swab brush.
+[00:17:25] Let's give it a nice little blend.
+[00:17:31] It probably doesn't look like I'm doing much, but I'm giving it a nice little smudge so it blends together a bit better.
+[00:17:38] I'm probably spending way too much time trying to smudge this to make it look nice, but I want it to look good, you know?
+[00:17:50] So I might as well spend the time to make it look nice.
+[00:17:54] Okay, I feel like that looks decent.
+[00:17:57] So from here, we can do what we did before.
+[00:18:02] Take the layers that we've made and I'm going to call this one ember two motion for the motion blur bit that we added.
+[00:18:13] I'm going to make a new group layer that I can put all of these in called ember two group.
+[00:18:22] I'm going to click and then shift click the layers that I want to add to the group and then drag them on in there.
+[00:18:29] As you can see, there's sort of a pattern that I'm going through here with each ember.
+[00:18:34] For the next couple, I probably won't be saying anything different than I said for the last two.
+[00:18:39] So yeah, I will just get these other embers nice and blurred and then I will get back to you.
+[00:18:48] We can talk about sizing down each of these textures into their own quadrant for our sprite sheet.
+[00:18:54] So something I didn't do with the other embers that I'm going to be doing with this one is sizing it down.
+[00:19:27] Because after I added all the blurs together, I looked at this bottom area where the glow is clipping with the bottom.
+[00:19:35] I think that I could just size down the texture overall.
+[00:19:38] So I'm going to grab the corner widget here and then use alt and shift together to size down the ember texture just a bit.
+[00:19:48] You can see the clipping down here is pretty obvious now.
+[00:19:52] So I'm going to go ahead and take the cotton swab brush and fix that up.
+[00:19:57] There we go. I think that looks good now.
+[00:20:06] On to our fourth ember.
+[00:20:08] Okay, so now that we have all of our embers all painted out and with all the cool glows and motion blurs applied, I am going to save my document.
+[00:21:07] You should absolutely do this earlier in the process.
+[00:21:10] But here I am doing it late.
+[00:21:12] I'm going to name it T embers and then I actually like to put, if it's a sprite sheet that I'm saving out, I like to put how many rows and columns I have in that sprite sheet.
+[00:21:22] So I'm going to call this T underscore embers underscore two by two since I'm planning on having two rows and two columns.
+[00:21:30] I can go ahead and save that.
+[00:21:32] And now we can actually get to moving each of these to their own quadrant of the sprite sheet.
+[00:21:39] So let us start with our first ember here.
+[00:21:42] And if I press control T on this group, it looks like the texture actually extends further beyond the visual space here.
+[00:21:51] I only want to shrink down the visual space into a quadrant.
+[00:21:56] So in order to make this set of layers that I have in this group completely square, I am going to right click on the ember one motion layer.
+[00:22:10] There we go.
+[00:22:11] I'm going to click on the ember one motion layer, which is the top most layer in this group, and say new layer from visible.
+[00:22:17] I thought that would actually crop it to a square, but it doesn't look like it did, which is interesting.
+[00:22:24] Hmm.
+[00:22:25] All right.
+[00:22:26] There is a way around this.
+[00:22:28] It's just a bit of a hassle.
+[00:22:30] What I can do is I can take my brush tool and I'm going to go to the basic five size brush.
+[00:22:38] I'm going to use my mouse to erase in a line right along the edges of the texture so that we have a nice even square to work with.
+[00:22:55] This is a bit of a hassle to do, but I can't honestly think of any other way to get the texture to be completely square
+[00:23:06] without having to erase away some material on the outside here.
+[00:23:11] It's sort of like cropping, but not really.
+[00:23:16] OK, it looks like there's still something up here that needs to be erased.
+[00:23:21] And there was something here as well.
+[00:23:30] There we go.
+[00:23:31] Now we have our nice square.
+[00:23:33] It is a bit of a hassle to do that, and I might have to do that for the other embers as well,
+[00:23:37] but I really wanted this to be a nice square so that it would be easy for us to fit it into the quadrant.
+[00:23:44] What I'm going to do now is enable our grid, and I haven't resized or re-spaced it.
+[00:23:51] So I'm going to set the spacing to 128, which will give us a nice sort of four quadrant grid here.
+[00:23:59] Then I'm going to take this texture.
+[00:24:01] I want this texture to end up in the top left quadrant here.
+[00:24:04] So I'm going to grab the bottom right hand widget here.
+[00:24:07] Then I'm going to press shift so that the texture remains squares and resizing it.
+[00:24:12] And size it approximately to that quadrant.
+[00:24:17] And the grid is a great way to make sure that you're not overlapping with glow or with any other quadrants.
+[00:24:24] And we're going to do the same process for the other embers as well.
+[00:24:28] So let's go to ember two.
+[00:24:31] Oh, that eraser mark is ugly, but you won't be able to see it once these are all in their own quadrants.
+[00:24:37] I'm actually going to hide this ember one that we sized down.
+[00:24:41] And I'm going to click on the group and say new layer from visible.
+[00:24:45] I'm going to take a look at...
+[00:24:48] It looks like this one has some extra material on top.
+[00:24:51] So let's go back to brush and erase away that extra material that's up there.
+[00:24:57] Perfect.
+[00:24:59] Okay, so we're going to take this ember two and grab the bottom left hand widget here.
+[00:25:07] Click and then press shift so that it scales evenly up into the corner like that.
+[00:25:12] Cool.
+[00:25:14] Alright, and then same thing for ember three.
+[00:25:18] Right click new layer from visible.
+[00:25:21] And this one has some extra material on the bottom.
+[00:25:24] Let's go ahead and get rid of that.
+[00:25:27] Perfect. Now it's a square.
+[00:25:31] I want this one to be in the bottom left hand quadrant.
+[00:25:34] So I'm going to grab the top right widget and then press shift to scale it down into that quadrant.
+[00:25:42] And then ember four.
+[00:25:45] Right click new layer from visible.
+[00:25:49] Okay, this one's got some extra material on the bottom and on the right hand side and the tiniest little bit on the top as well.
+[00:25:56] So let's go ahead and get that taken care of.
+[00:25:59] There we go.
+[00:26:05] We have a little extra bit on the bottom, but I'm not too concerned about having an amount that slight that's sticking out of the bottom there.
+[00:26:13] So let's go ahead and size this guy down into the bottom right hand quadrant.
+[00:26:19] About like that.
+[00:26:21] And now if I re-enable all of these, you can see we have our sprite sheet.
+[00:26:27] I can turn off the grid now that these are all in their own slot.
+[00:26:31] And what's nice about having them in a grid like this is you can actually see where it's cutting off.
+[00:26:36] At least for the top two textures, it might be harder to see for these bottom ones because they clip at the bottom there.
+[00:26:44] There is one awesome feature about Krita that I was planning on going over later, but I might as well go for it now.
+[00:26:50] If you click on this candy little node up here, this is wraparound mode, which means that if you zoom out a bunch, you can see that it infinitely wraps your texture, which is really great for ribbons or beams, any sort of texture like that.
+[00:27:08] But in our case here with the embers, it's actually a really awesome way for us to look at the edges of the texture here to see if the glow is clipping at the edges.
+[00:27:18] And it looks like it might be the tiniest bit right here, but it definitely is right here and right here for the bottom of two and the top of three.
+[00:27:27] So what I'm going to do with that information is grab the layer that has this ember on it, and I'm going to take the cotton swab tool again, and I'm going to smudge up from the bottom.
+[00:27:44] So that way I know that the glow won't be extending down into this quadrant. I want all of the glow for this ember to remain in this quadrant.
+[00:27:54] And same story for ember three as well, this one here, except I'm going to be cotton swapping down from the top so that the glow of ember three doesn't clip into our first ember.
+[00:28:09] There we go. Much cleaner. I might actually do a little bit of cleanup on the bottom of ember four as well.
+[00:28:20] Cotton swab up from the bottom. Don't be too aggressive with it. If you really go ham, you'll end up smudging all of the cool motion blur work that you did with your texture.
+[00:28:32] So that looked kind of cool when I did that. There's something kind of cool about that. So maybe do be aggressive with your cotton swabbing.
+[00:28:46] All right, I'm on the wrong layer. I'm going to try it out with these other embers as well just to see if there's any cool results I can get out of it.
+[00:28:57] All right, and then up to number two. Number two looked pretty cool already, but I think adding a little bit of blur on the side here might bump it up to the next level.
+[00:29:16] Trying to lose a little bit of that glow, so I'm smudging this out just a tad. I ended up going a little ham with the cotton swab tool.
+[00:29:35] Hopefully it didn't make all of them look too similar to each other. I think they all look pretty cool still.
+[00:29:41] So I'm going to go ahead and zoom out. Turn off wraparound mode. You can do that by pressing shift w or by clicking this little icon up here.
+[00:29:49] And there we have it. We have our embers. I think that I honestly could have added a little bit more of a soft glow around the fourth ember.
+[00:29:58] I might actually see if I can do that above all of these layers. I'm going to put another one. Go back to airbrush and toggle off eraser mode.
+[00:30:08] Swap the color to white. And let's just try adding in a little dollop of light on each ember.
+[00:30:19] It might be too much light on each one, but I wanted to at least give it a try. A little bit more on the fourth one.
+[00:30:29] I feel like this one was the darkest out of all of them. I probably didn't bump up the glow on this one enough because it was a taller ember in comparison to the rest.
+[00:30:40] I was trying to be wary of that soft glow clipping at the edges. I'm erasing a little bit of that excess glow just because I don't want it to be too outrageous for each ember.
+[00:30:53] And there we go. Beautiful. Just double check our grid. Looking pretty good. Awesome.
+[00:31:02] If you wanted to have more glow on your ember, what I would recommend is just sizing down each of these individual textures further and then adding the glow on top of that so you could have a really nice glow to your ember.
+[00:31:14] Something else I should mention about this is if you're working on a mobile game, I would recommend doing simpler embers like these.
+[00:31:22] I wouldn't worry so much about adding super intense detail because it's a mobile game, so any embers that you put into your effects or into the game are going to be really, really small on screen, so you don't need to add any super intense detail.
+[00:31:37] But if you're working on a game where you need it to be in 4k and the embers play a really big part in each of the effects, then I would absolutely try to think about how you can add some cool detail to your embers.
+[00:31:51] Maybe there's little flecks or dots in your embers. Try to add some here, but I don't think that it would really do the idea justice.
+[00:32:01] But yeah, so it's just something to think about whether you're working on mobile or whether you're working on a game that is expected to run in 4k.
+[00:32:08] Just think about the importance that the embers play in your effects and whether or not they need more detail or if they're fine at the level of detail that you've painted them.
+[00:32:17] There's one more thing I wanted to cover, and that's the difference between making a sprite sheet for Unreal and making a sprite sheet for Unity.
+[00:32:25] I made this sprite sheet with Unreal in mind. If you were to make a sprite sheet like this for Unity, all of the tops of these embers would need to be facing this direction.
+[00:32:37] I'm honestly not sure why Unity decided to make their textures with this direction as the top for embers or for velocity aligned sprites like these, but that's just something that's important to note for sure.
+[00:32:53] There you have it! There's our embers, and now you guys know how to paint them for your game project.
+[00:32:59] They really are an awesome way to add a little bit of extra motion or flair to your effects, and I'm really excited to see how you use them in your projects.
+[00:33:07] Thank you all so much for watching, and I will see you all in Lesson 5 where we are going to go over painting lightning zaps.
+[00:33:15] It'll be a sprite sheet similar to this one, but it'll be lightning instead of embers.
+[00:33:20] I look forward to seeing you there. Bye for now!

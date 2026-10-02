@@ -1,0 +1,77 @@
+[00:00:05] Hello, welcome to this lesson. Today we are going to be talking about
+[00:00:11] Impulse and rhythm. Impulse and rhythm is neat because
+[00:00:16] Animation can be so heavily tied to music
+[00:00:19] so it's a good thing in terms of flow, beat, rhythm in order to make sure you are getting the most out of
+[00:00:27] The effects animation that you are doing. Impulse is kind of like a burst of effects
+[00:00:34] It would be like a single strong note where the effect appears
+[00:00:41] animates through and dissipates all in one motion
+[00:00:46] Rhythm would be something a little bit more akin to an effect that is on screen
+[00:00:52] But it has more permanency in order to keep something on screen
+[00:00:56] You want to make sure that it has a nice flow
+[00:00:59] It's working to the beats of the animation
+[00:01:03] Especially if it is tied to something like the character animation or even the audio
+[00:01:10] It's possible that you might have to animate to
+[00:01:13] The audio at some point in which case it can be really beneficial
+[00:01:17] To sort of figure out the beats and the rhythm that you have to be working to
+[00:01:22] So I just wanted to show you
+[00:01:24] What each of these look like in a more
+[00:01:29] Visual manner and we can see here for the impulse the the effect needs to be created
+[00:01:35] Which happens at the beginning and then dissipates which happens here at the end
+[00:01:42] Now the numbers down here are just drawing numbers
+[00:01:44] They're not actual frames something like this would probably take place over, you know
+[00:01:50] It could be anywhere from really really quick like six frames to
+[00:01:54] 16 or maybe even 20 depending on how much screen presence you wanted it to have but the fire bursts out
+[00:02:02] You create a big body and
+[00:02:06] Then we come in from behind keeping the motion going forward, but the dissipation is slightly faster
+[00:02:14] Than the main body
+[00:02:16] And eventually it breaks up into nothing
+[00:02:19] So
+[00:02:21] That would be an impulse kind of type effect very common with fire but can also be used for like little energy bursts
+[00:02:29] smoke
+[00:02:30] little water kicks all these effects are kind of like one-offs where
+[00:02:36] They happen and then they resolve all in the same setting
+[00:02:42] rhythm is
+[00:02:43] more of a persistent effect
+[00:02:46] concept
+[00:02:47] When you have something in this example
+[00:02:49] we're going to use the fire cycle we can see here trying to demonstrate the path of action and also
+[00:02:56] Demonstrating the if we look at here the dissipation as well
+[00:03:01] so as the main body starts way over here, we start to flow to the right with it and
+[00:03:09] eventually
+[00:03:10] We kick it back over this this top part is
+[00:03:14] Still flowing to screen right and we start to move it screen left and
+[00:03:20] Then we move it enough so that when we get to the end here on drawing number five
+[00:03:27] We can potentially bring it back to frame one and have the entire thing start over again
+[00:03:33] This is also called cycle
+[00:03:35] But within that cycle we want to find a nice rhythm to the animation where we are bringing in
+[00:03:43] things like negative space into the design and
+[00:03:47] a nice beat for when the
+[00:03:50] Shapes of the fire near the top are going to be dissipating
+[00:03:56] For example something that would be bad is taking too many frames to dissipate a lick of fire here if we take too many frames
+[00:04:04] whereas everything is only taking one or two frames the
+[00:04:08] The timing the the rhythm for that lick of fire is going to feel off
+[00:04:13] So we want to make sure we kind of stay consistent with the overall
+[00:04:19] animation and
+[00:04:21] That we have a good flow with everything that's going on
+[00:04:26] So here just to drive the the sort of the idea home a little bit more is I got rid of the fire and now
+[00:04:34] We're just kind of dealing with the the path of actions from frame
+[00:04:39] One two and and so on
+[00:04:41] And a good way to sort of think about this and conceptualize
+[00:04:45] It is you can you can equate it kind of like to a metronome as the metronome comes over
+[00:04:51] Yeah, it has its little beat and pause and then it'll come back and the metronome
+[00:04:58] Depending on the setting obviously the head is where you set the timing of it
+[00:05:03] But
+[00:05:04] It's an apt analogy because as the metronome ticks the rhythm it has is constant and we want to make sure we hold that
+[00:05:13] Throughout the animation as well now that isn't to say that like music
+[00:05:19] The rhythm can be changed in order to help emphasize or punctuate slower
+[00:05:25] motions in the music the big thing you want to avoid though is you don't want to do it abruptly and
+[00:05:31] For a short period of time if you are going to change up tempo you want to make sure you do it
+[00:05:38] Gradually and that the the changing of the tempo makes sense
+[00:05:42] It's the same thing in animation
+[00:05:45] Once we establish this flow to the to the line of action of the effect
+[00:05:51] We can potentially break it
+[00:05:53] but if we do we want to make sure that the motion stays at least consistent as we work into a
+[00:06:00] new timing or a new rhythm
+[00:06:03] So that's just a couple thoughts on impulse and rhythm
+[00:06:06] I hope it gave you a little bit of a different way to
+[00:06:10] Think about the animation and the way that you approach it

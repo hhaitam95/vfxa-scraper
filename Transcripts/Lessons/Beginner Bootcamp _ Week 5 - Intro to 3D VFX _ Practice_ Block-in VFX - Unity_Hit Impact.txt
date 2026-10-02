@@ -1,0 +1,225 @@
+[00:00:05] Hey everyone, welcome back to our intro to Unity VFX series.
+[00:00:10] In this tutorial, we are going to be talking about how to make a hit impact, like this one here,
+[00:00:16] and we are going to be using this to talk a little bit about timing, contrast,
+[00:00:22] and how you can use those to create a really punchy effect with a really nice little story arc to it,
+[00:00:29] even in an effect as quick as this.
+[00:00:32] So, let's go ahead and get started.
+[00:00:35] Now, you can see here, we've got a couple different shapes going on here, a lot more than our torch.
+[00:00:41] So the first thing that I want to do is just set up all of our materials for this so that we don't have to think about them later.
+[00:00:48] So, we are going to jump down into our materials folder, and we'll just again right-click anywhere in the empty space,
+[00:00:56] go up to Create, Material, and then we're going to switch this to Universal Render Pipeline, Particles, Unlit.
+[00:01:12] And then we are going to hop down into our textures, and we're just going to go ahead and grab our flare here,
+[00:01:21] and drag and drop it into our base map.
+[00:01:24] After this, we are going to go ahead and set our surface type to Transparent, and then we're good to go on this one.
+[00:01:34] So, let's hop back up into Materials, slow double-click that, and we'll rename it to MI Flare Demo.
+[00:01:46] And we're just going to go ahead and duplicate this twice.
+[00:01:50] So, CTRL-D, and we are going to rename these to Tri Demo, Ring Demo.
+[00:02:09] And rather than navigating back to the textures folder, I'm just going to go ahead and click this little circle here next to the base map,
+[00:02:18] and search Ring here, and it'll just pop that up. I can double-click it to assign it.
+[00:02:24] And same thing with our Tri Demo. Click here, search for Tri, and then just assign our triangle texture.
+[00:02:33] And that's all the textures that we're going to need. So, now let's go ahead and just dive into making our effect.
+[00:02:40] I'm going to, again, go back up to my base block in folder. We're going to need that in a sec.
+[00:02:46] Go over to the Hierarchy, right-click, go down to Effects, Particle System, and we're just going to rename this,
+[00:02:57] and then we'll zero everything over here out so that it's back at the origin, and jump over there.
+[00:03:09] Now, I'm going to start with the flare. So, the very first thing we're going to do is jump down to our Emission tab.
+[00:03:17] We're going to zero out the rate over time so that this isn't emitting anything repeatedly.
+[00:03:23] And instead, down below in bursts, we're going to hit the plus sign, and we're going to change the count to one.
+[00:03:32] And that's the only thing we need to do in our emission rate. This is just now going to emit one particle once, you can see on the cycles,
+[00:03:46] every time that the duration of this loops. If we disabled looping on this, it would just never come back.
+[00:03:53] Now, I'm just going to jump down to our renderer, and I'm going to search for flare demo.
+[00:04:04] And now we'll just get rolling on all of the other steps on this.
+[00:04:12] One thing that I wanted to show really quickly before I dive any deeper into this is just how you can create a setup
+[00:04:20] where it's really easy to reference other effects or anything that you would look at in Inspector while you're working on an existing one.
+[00:04:30] So, I've got a second Inspector tab hiding out up here. You can add one just by right-clicking on either of these tabs,
+[00:04:38] and then going to Add Tab and hitting Inspector. That would add a third one in our case.
+[00:04:43] But on this second one, I'm going to go ahead and go to my reference effect,
+[00:04:53] and then I'm just going to go ahead and hit this little lock icon up here, drag this out so that it's detached.
+[00:05:04] And if I go back down to select my new one over here, you can see this one stays the same.
+[00:05:10] I can pop things open in here, check stuff out, and I can drag this off to the side and reference it as much as I want while I'm working on something new.
+[00:05:22] This is super, super helpful when you're trying to recreate a behavior or just dig around in anything for reference.
+[00:05:31] So, back to our base effect. I'm just going to go ahead and set up some base parameters for this.
+[00:05:40] So, I'm going to switch our duration just to one, just so that we're getting that burst more often.
+[00:05:46] I'm going to leave looping on just because it's way easier to preview here,
+[00:05:51] but in normal game circumstances for something like this where you really don't want it looping,
+[00:05:57] you would go ahead and turn this off before you checked it in or implemented it.
+[00:06:02] And I also want this to be super, super quick, so we are going to switch our start lifetime down to 0.1, 0.12,
+[00:06:15] and we're going to get rid of this start speed because we just want this to stay put.
+[00:06:19] Now, we also want to get rid of the randomness and where this is spawning at,
+[00:06:25] so we're just going to disable that shape in our size over lifetime.
+[00:06:33] This is where we start really getting into what makes this impact feel like an impact.
+[00:06:38] So, for this, I'm just going to give it a really, really quick initial growth so that we get that burst,
+[00:06:48] and then I'm going to let it have this fairly flat falloff because this is so, so short-lived.
+[00:07:00] This gives us just a little tiny bit of a hold at the end there compared to this where it's quicker,
+[00:07:08] but it feels just not quite as nuanced, just by a tiny, tiny bit,
+[00:07:13] and those sorts of little nuances in something this fast, something that is all about how you feel about it,
+[00:07:21] can really make a big difference.
+[00:07:25] So, that's all that we need to do here.
+[00:07:28] Up in our color over lifetime, I'm just going to give this a little bit of a falloff over time.
+[00:07:37] We're doing a bright blue effect, so I'm going to turn this to bright blue over time,
+[00:07:41] and I'm going to pull our white in a little bit, actually, let's do a lot of it,
+[00:07:48] so that we start out white hot and then we get a little bit of cooling towards the end.
+[00:07:53] So, this is going to be the base for our effect.
+[00:07:59] In certain styles, if you were doing something really simple, like, this is enough, you did it, you're done.
+[00:08:05] Congratulations. End of tutorial.
+[00:08:10] Obviously, that wouldn't be the most thorough tutorial in the world,
+[00:08:14] so we're going to keep going on this and just add an extra layer.
+[00:08:18] I just want to mention that this is a totally valid effect if it matches your style.
+[00:08:25] So, next up, we're going to go ahead and add some of that kind of variation and randomness that we're getting from the spikes.
+[00:08:37] So, we'll go ahead and duplicate this.
+[00:08:42] We're just going to the spikes, and then we will drag and drop it right under there,
+[00:08:52] and then down in our renderer, we're just going to search for try demo,
+[00:09:01] and over here in my reference, I'm just going to bring this back over, I'm going to unclick that little lock icon,
+[00:09:15] I'm going to click on our spikes instead, lock it again,
+[00:09:20] and now I've got our demo over here to reference for anything that we need here.
+[00:09:26] So, for our spikes, the first thing I'm going to do is jump down into the emission,
+[00:09:34] and I'm going to click on the little arrow next to counter, do a random there as well,
+[00:09:39] and we'll just do that between something like 7 and 9,
+[00:09:44] and next, I'm going to re-enable our shape,
+[00:09:50] and I'm going to switch this from a cone to a sphere,
+[00:09:57] and we're just going to bring the radius on this way, way down.
+[00:10:01] Again, we want this really, really small point that they're emitting from,
+[00:10:05] and next, we're going to jump down into our velocity over lifetime,
+[00:10:15] and we're just going to ignore all of the stuff up here that we were working with last time,
+[00:10:20] we're going to jump right down to radial, and we're going to randomize that,
+[00:10:25] and we're going to do 4.5 to 5.5 here.
+[00:10:30] So you can see a little bit of what this is starting to do now.
+[00:10:33] Radial is just adding velocity from the center of the system,
+[00:10:39] so that, combined with our shape, is going to give us this really, really nice outward motion.
+[00:10:45] Now, obviously, our outward motion right now isn't the best,
+[00:10:51] so the first thing we're going to do is just give these a little bit longer of a lifetime,
+[00:10:57] so we'll do something like 0.2 to 0.5,
+[00:11:03] and we're going to adjust their start size,
+[00:11:08] give them a little bit of randomness there with something like 0.15 and 0.24.
+[00:11:15] This starts to get us closer, but obviously having these all facing the same direction looks really, really weird.
+[00:11:24] There's actually a really, really easy solution for this, thankfully.
+[00:11:28] So if we jump back down to our renderer,
+[00:11:32] then we're just going to go ahead and switch our render mode from billboard down to stretched billboard.
+[00:11:41] And without changing anything else, this is just going to instantly make all of these point along their velocity.
+[00:11:50] Now, you need your texture to be facing to the left to positive x for this to work.
+[00:11:57] If I did it with an arrow that was facing up, then now it would all be sideways.
+[00:12:03] But once you've got that set up, this is a really, really nice way to just have your particles follow along with any motion that you're applying to them.
+[00:12:13] If we jump back up and we put a little bit of a gravity modifier on this,
+[00:12:20] then you can see where the ones, just bump that up for the demo's sake,
+[00:12:24] you can see how they actually follow along with those changes in gravity too.
+[00:12:29] So this is just a really, really nice way to give something just a little bit of extra oomph,
+[00:12:35] a little bit of extra physicality or feeling of speed, anything like that.
+[00:12:41] We will be using stretched billboards in a lot of different places and a fair number of different ways going forward.
+[00:12:50] These are really, really useful.
+[00:12:52] But now that we're done singing the praises of that, we're actually going to leave the gravity in there just because it'll give it a nice little bit of fall off.
+[00:13:01] And for something that is a little bit more physically based, like an implicitly punch or something like that in the case of this hit impact,
+[00:13:09] having something that feels like it's really obeying the laws of physics at least a little bit will just add to that, which is nice.
+[00:13:19] We're going to next jump down to our limit velocity over lifetime.
+[00:13:26] And the two things that we're going to do here, we're going to switch our dampen to one so that these just slow down really, really quickly.
+[00:13:35] This is doing a wonderful job of demoing how stretched billboards work, but a little too quickly.
+[00:13:41] And we're going to switch our speed to a curve.
+[00:13:45] So now we can go ahead and just swap our maximum speed to six.
+[00:13:57] Move this up a little bit.
+[00:14:01] And we'll add one more key in here.
+[00:14:05] Right around.
+[00:14:07] Put it up two-ish.
+[00:14:10] Flatten this out.
+[00:14:14] And then add a little bit of curve back here to smooth it out a little more.
+[00:14:18] And what all of this is doing is just deciding how much and when to apply this dampening.
+[00:14:27] So if we just have the constant, obviously it's going to apply it immediately.
+[00:14:34] And in this case, because our threshold is so high, it's not really going to do much of anything.
+[00:14:40] We bring our curve back and now it starts out with our maximum speed being six, which is pretty high.
+[00:14:48] And then it's going to pull it down over time.
+[00:14:51] Next up, we're just going to go ahead and go back to our color over life.
+[00:14:57] And we're going to give these ones a little bit different of an arc.
+[00:15:03] So we will pull our white in all the way to the beginning.
+[00:15:08] And then for these ones, we're going to really, really quickly start cooling them down.
+[00:15:14] So I'm going to bring in a little bit more of a bright aqua here just so we have a little bit of variance.
+[00:15:21] And then we'll cool off to that blue at the end.
+[00:15:24] And having that burst of white up front is just, again, going to reinforce that initial kind of white hot energy.
+[00:15:32] And then we're just going to cool it down really, really quickly so that it stays like this really impactful flash,
+[00:15:38] instead of just this kind of, get rid of this real quick, this sort of soft gradual one.
+[00:15:47] And then we can spend the rest of this lifetime transitioning over to this blue that our central hit impact is hitting much, much quicker.
+[00:15:57] And finally, we will just go down to our size over life curve.
+[00:16:02] Let's hide our limit velocity so that we aren't having to fight with it.
+[00:16:08] We are going to just tune this so that we've got a little bit of an increase up front and then this taper down towards the end.
+[00:16:32] So this is just how we're going to resolve these instead of fading them out.
+[00:16:44] And one last thing.
+[00:16:47] If we go back down into our render, something else that we can do down here that stretched billboard reveals for us is now we've got speed scale and length scale.
+[00:16:57] Right now the length scale is a two.
+[00:16:59] If we just set that back down to one and you see that it stops stretching them along their velocity by default.
+[00:17:06] But if we add just 0.1 to the speed scaling, and let's go ahead and disable our size over lifetime a little bit, then you can see a little bit.
+[00:17:20] Okay, not bumping it up that much. That's not a helpful demo.
+[00:17:24] If we bump this up to 0.2, then you can see how these are going to start out much, much more stretched out along that x axis.
+[00:17:34] And then as they slow down, they're also getting shorter.
+[00:17:38] So this is just going to scale and stretch these out based on how fast they're moving.
+[00:17:43] I mean, you can do this in size by speed as well, but this is a really, really nice easy way to get a little bit of this without any tuning at all.
+[00:17:57] So combine that with our size over lifetime again, and we're good to go on this one.
+[00:18:04] So last but not least, we're going to go ahead and add in that ring material over here.
+[00:18:10] So we'll just go back up to our base flare impact, CTRL D to duplicate it, get rid of the spikes, rename this to ring, and parent it under our flare.
+[00:18:25] And in this one, we're just going to real quickly switch to our ring demo material.
+[00:18:36] We're going to extend the lifetime of this a whole bunch compared to the flare.
+[00:18:46] And let's just go ahead and hide our spikes for a second so we can focus on these two.
+[00:18:52] The role that I want these two to be playing is to have a lot of contrast against each other.
+[00:18:58] So we've got this really spiky shape in the flare. It's really short-lived. It's got a lot of energy and this kind of...
+[00:19:07] It's not a super friendly shape. It looks like a damage-y kind of shape.
+[00:19:13] We don't want this ring to tell you everything's actually okay, but having something that is softer, that is moving at a very different rate,
+[00:19:23] stuff like that is not only going to give you this nice little bit of fall-off, even in something as fast as this,
+[00:19:29] it's also just going to help frame this entire thing up by giving you...
+[00:19:36] Let's bring our spikes back. A little bit of this like bullseye feeling there.
+[00:19:41] So hide our spikes again.
+[00:19:46] And what we're going to focus on here is just making these two work as nicely as possible together and using them to create as much contrast against each other as possible.
+[00:20:00] So with our lifetime contrast taken care of, we're going to jump down and randomize our start size a tiny bit between 0.8 and 0.9.
+[00:20:12] Our emission and shape settings stay the same.
+[00:20:16] Our size over lifetime stays very, very similar.
+[00:20:22] I'm actually going to add one more key in here just to fine-tune this even a little bit more so that we really, really get that sudden expansion and then that nice little bit of fall-off
+[00:20:38] that once you're up to even not quite half a second, you really start to see the difference between having a tailored fall-off curve in here and just the flat one.
+[00:20:51] And in our color over life, we're just going to steal what we did with the spikes and add this bright white start over into the green transition and then transitioning over into the blue.
+[00:21:16] We're also going to add a little bit of an alpha fall-off to this so that we don't just have this popping out of existence.
+[00:21:38] In a really, really punchy effect like this one where it's something super, super quick, if you just want things to vanish like this, like this still looks fine.
+[00:21:47] It's not exactly what I want to go for here for maximum contrast. I want that fade because there are so many things that are just appearing and popping in and out.
+[00:22:01] Having this little bit of fade on it does another really nice thing to give it that little bit of fall-off and stuff, but it doesn't mean that you have to.
+[00:22:10] It's just a matter of style taste at this point.
+[00:22:14] Now, that's everything for our ring here. And we've got, in a lot of ways, a pretty good little effect going on here at this point.
+[00:22:24] But it's very samey, kind of. Everything is pushing in the same direction even though we have these nice little bits of contrast and varying motion, varying shapes, stuff like that coming out.
+[00:22:39] Everything is outward.
+[00:22:42] So what I actually want to do here, speaking of that contrast between the flare and the ring, I'm going to hide my spikes again, and I'm going to go back up to our flare.
+[00:22:55] And I'm going to make two changes here.
+[00:22:59] One, I'm going to go down to our size over lifetime, and I'm just going to switch this to an s-curve in.
+[00:23:08] So now this is actually truly just popping into existence from nowhere.
+[00:23:16] If we scrub through, then you can see I'm breaking every rule of easing in or animation or anticipation that you might be used to if you have an animation background.
+[00:23:33] But it looks really punchy, and that's what matters here.
+[00:23:41] And bring the spikes back, and in our color over lifetime, I'm just going to go ahead and get rid of that blue.
+[00:23:49] I'm going to add a new key up here at the beginning, and I'm just going to make this like a bright gold.
+[00:23:58] And then I'm going to switch it over to white really, really fast.
+[00:24:05] Maybe lighten this up a little bit.
+[00:24:08] Using that bit of contrasting color in the beginning, keeping this flare so, so quick compared to everything else that's going on here,
+[00:24:16] means that we're getting this really, really nice bit of contrast and inward impact to kind of force all of that other stuff outward.
+[00:24:25] So it gives us this much, much more interesting energy.
+[00:24:31] Even though if we scrub through this, good job little spikes, then these aren't creating a one-two punch.
+[00:24:40] This is all happening at the same time.
+[00:24:43] But because that flash is so fast, it still creates the illusion that it's what's forcing everything outward.
+[00:24:54] If we delay the spikes in the ring a little bit, see, so our hit impact is about 0.1.
+[00:25:03] So we'll put a start delay of like 0.1 on the spikes and the ring.
+[00:25:10] You can see that that still creates something that looks really cool, looks really impactful, has this nice lead in and then burst out.
+[00:25:20] But it doesn't have quite the same sort of force or suddenness to it as this one does.
+[00:25:27] You can play around with something in the middle here too.
+[00:25:31] You can see as soon as you start to introduce that like actual genuine one-two cause and effect, it just becomes a slightly different effect.
+[00:25:40] It's not bad, it's not worse, it's just for a slightly different sort of feeling than what we're going for here.
+[00:25:50] So that's basically our effect.
+[00:25:53] We've got a lot of really, really nice contrasting shapes, colors, motion, lifetimes, all of this stuff.
+[00:26:01] We've got the randomness from the spikes, which really, really helps to break up those sorts of very consistent cores of the impact flare and the ring.
+[00:26:13] One last thing that I want to do here is I've been talking a lot with the ring and the spikes in particular about giving it this little bit of falloff.
+[00:26:24] And I want to do just a little bit more of that.
+[00:26:29] So I'm going to go ahead and duplicate out the spikes, rename those flinger, and I'm just going to switch the start lifetime of these ones to something like 0.5 and 0.9.
+[00:26:46] And then I'm going to switch our emission to like 2 and 3.
+[00:26:53] And all this is going to do, you can see a lot of it here, we can bump this up to 0.7 instead, is it's going to create 2 to 3 particles that have to hang out longer than everything in the base spikes.
+[00:27:10] Your motion is effectively the same, your colors and shapes are effectively the same, but this is going to just guarantee that we always have that extra little bit of a falloff at the end of that trail after that initial punch.
+[00:27:29] One last thing I want to fix here, if we hit stop on this and we just scrub through real quickly, then you'll see starting out these aren't exactly where we want them to be.
+[00:27:40] They get into their nice random spiky shape really quickly, and in the grand scheme of things it's not a huge deal.
+[00:27:48] But so that you know how to fix this, so that we can get something that's really nice and clean here, what we're going to do is just go down to about halfway through the renderer to this pivot here, and on Y in this case we're going to switch this to 0.5.
+[00:28:05] And you can see when we make that change that they contract more towards the middle.
+[00:28:11] All this is doing is you've got your card effectively for each of these sprites, and by default the pivot is in the center of each of these sprites, and these pivot settings just let us move where that pivot is within this emitter's particles.
+[00:28:33] So our pivot's in the middle by default, that's the part that's going to start in the middle of the sphere, and so it's going to stretch out to both sides, move our pivot down to the end with 1, or like you know 75% of the way with 0.5, and now you start getting these sorts of starting points for its alignment to your sphere.
+[00:28:57] So 0.5 gets us a really really nice balance. If we do our scrub one more time, then you can see there's still a little bit of break up here when we do 0.5.
+[00:29:13] 1 fixes that in a really really nice way, we just go straight to spiky silhouette, but then if we actually hit play, when we start to scale these, because they are also scaling along that pivot, they start doing goofy shrinky stuff.
+[00:29:31] There's a lot of fine tuning you can do to work around this, but 0.5 got us squarely close enough, so we can work with that and continue from here.
+[00:29:43] So that is our hit impact. I hope this was helpful. The goal of this is very much to give you all of the general elements that you'll usually see in a hit impact.
+[00:29:57] So as I've been talking about a couple of times through here, if you just take pretty much any one or two elements of this effect, then you're still going to have a really solid little hit impact.
+[00:30:11] And this is something that also hopefully is really easy to extend into a really big dramatic hit impact, stuff like that.
+[00:30:20] So as with all of these, super encourage you to just play around, try out one of these with a lot of velocity, or with different colors or shapes, or a slightly different motion pattern, different tiers of strength of this.
+[00:30:36] There's a ton of different things that you can mess with here. I hope you have a ton of fun, and I will see you in the next tutorial. Take care, y'all.

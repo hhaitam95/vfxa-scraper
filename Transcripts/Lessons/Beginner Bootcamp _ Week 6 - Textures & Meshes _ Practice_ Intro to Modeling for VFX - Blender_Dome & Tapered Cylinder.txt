@@ -1,0 +1,170 @@
+[00:00:05] Hello, and welcome back to VFX Apprentice's Intro to VFX Meshes and Blender series.
+[00:00:10] Now that we've covered some of the basics of moving around and navigating in Blender,
+[00:00:14] in this video we're going to cover some of the basics of modeling in Blender, some
+[00:00:17] of the stuff that we're all here for.
+[00:00:19] And by the end of this video, you will be able to create two of what I consider to be
+[00:00:24] some of the most versatile and useful VFX Meshes in a VFX Artist's arsenal.
+[00:00:30] Those are the Hemisphere, or dome, and the tapered cylinder.
+[00:00:35] So let's get into it.
+[00:00:37] So one of the really, really useful things, and one of the super nice things about these
+[00:00:40] Meshes is that one, they're super easy to make, and two, they come from primitives,
+[00:00:45] which we get a lot of fun, free stuff for free, like the UVs are generally already done,
+[00:00:51] and they're just really easy to make.
+[00:00:53] So let's go ahead and get started.
+[00:00:55] So the first thing we're going to want to do is make a sphere.
+[00:00:58] So let's go up to Add, Mesh, and UV Sphere.
+[00:01:03] This is going to create the sphere for us, which is super cool.
+[00:01:06] You can see down on the left, you've got this dialog here that has a bunch of options.
+[00:01:10] If it doesn't look like this, it might look like this, just go ahead and click on that
+[00:01:13] to open it up.
+[00:01:14] You can see that we have the Segments, which is the vertical cuts in the sphere, and the
+[00:01:19] Rings, which is the horizontal cuts in the sphere.
+[00:01:21] Modifying these numbers will give you a denser or less dense sphere.
+[00:01:26] For the sake of what I like to do, I typically like to keep these as even numbers, it makes
+[00:01:32] it really easy to cut the sphere up into equal parts, and so for this, I'm going to keep
+[00:01:37] this at 36, and we'll make this at 24.
+[00:01:40] It's going to be relatively square, and relatively even, which is super nice.
+[00:01:46] Over here, you can see Radius, you can move this up and down to make the sphere larger
+[00:01:49] or smaller.
+[00:01:50] Again, keeping this at 1 is typically a pretty good idea, because it just makes it really
+[00:01:54] easy to move around in the editor and scale it up and down, and a lot of projects are
+[00:01:58] already set with their scale at 1, so it's perfect.
+[00:02:02] If you are having a difficult time seeing these lines, and if you can't see them, you
+[00:02:07] can turn on and turn off Wireframe by going up here, clicking this dropdown kind of next
+[00:02:12] to these two spheres here, and turning on and turning off Wireframe.
+[00:02:17] So if I have Wireframe off, you can see that this kind of looks a little bit like a golf
+[00:02:21] ball, and this is because this is shaded to flat, and what that means is that all of
+[00:02:26] these faces are not smooth to each other, so each one of them, effectively, is just
+[00:02:32] a flat plane.
+[00:02:34] We can fix that by left-clicking on this, right-clicking, and hitting Shade Smooth.
+[00:02:39] What that does is smooths the whole thing and just makes it look higher fidelity than
+[00:02:44] it actually is.
+[00:02:46] In other engines, this is also called a smoothing group, this is functionally the same thing.
+[00:02:50] It's also important to note that smoothing groups and smooth faces like this do translate
+[00:02:55] from Blender to game engines, so if you have a sphere that's set to Shade Flat, and you
+[00:03:00] export this into Unity or Unreal, it'll show up like this, and anything that you try, any
+[00:03:05] material that you put on it, you'll still be able to see these faces.
+[00:03:08] So we're going to keep this at Shaded Smooth.
+[00:03:10] I'm going to turn my Wireframe back on so it's a little bit easier to see what we're
+[00:03:14] going to be doing.
+[00:03:15] So in order to make our hemisphere, we need to cut this thing in half.
+[00:03:19] So we're going to move into the Poly mode.
+[00:03:22] And what I like to do with that is click on it with left-click and hit the number three
+[00:03:25] on your numpad, and this will drop us into face editing or poly editing.
+[00:03:32] And now's a pretty good time to talk about some of the things we can do in here.
+[00:03:36] So you can select any one of these faces, you can shift-select to select multiple faces.
+[00:03:41] If you double-click on a face, you'll get a ring, which is pretty cool.
+[00:03:45] Depending on the side of the edge that you're closest to, it will go either sideways or
+[00:03:50] up.
+[00:03:51] So if we see if I click down, like right about here, it's going to make a ring that's up
+[00:03:56] and down.
+[00:03:57] Check this out.
+[00:03:58] Bam.
+[00:03:59] And if we click over like over here, we're on this polygon, but it's over closer to this
+[00:04:03] edge, it's going to make a horizontal ring.
+[00:04:07] So that's really handy and really great to make like quick cuts and really quick selections.
+[00:04:11] I love that feature about this.
+[00:04:13] When you have any polygon selected, you can hit up on the numpad and you will select more,
+[00:04:20] hit down, you'll select less.
+[00:04:22] If you hit the bracket key to the right, you'll select everything, which is also really handy,
+[00:04:27] especially if you need to select all of one element, it's just a lot of those tools are
+[00:04:31] just really easy to use.
+[00:04:33] Yeah.
+[00:04:34] So let's go ahead and cut this thing in half.
+[00:04:35] So one of the easiest ways to do this is to go into an orthographic view, and we can do
+[00:04:39] that super easily by going up to our little view guy here and click on one of these axes.
+[00:04:45] This will drop us in an orthographic view from there.
+[00:04:48] And from here, you can see it's going to be super easy.
+[00:04:49] If we just marquee select this, we can select that a whole side of the cylinder.
+[00:04:55] Now this part is really important.
+[00:04:57] Not all editors do this, but Blender does.
+[00:04:59] So you'll notice that if we do this and if we go back into perspective mode, if we rotate
+[00:05:04] around this, we've only selected the ones that we can see.
+[00:05:08] I'm not the biggest fan of this feature.
+[00:05:11] Some other polygon modeling packages like 3ds max doesn't do this, but basically what's
+[00:05:16] happening is it's not allowing you to select back faces or anything that you can't see.
+[00:05:19] We can fix this by turning on a thing called x-ray and x-rays up here, click on this, and
+[00:05:25] now you can see everything.
+[00:05:26] It can get a little bit hairy to see everything when you can, you know, it takes a little
+[00:05:30] bit of practice to kind of be able to parse what's going on between the front and the
+[00:05:33] back, but it will allow you to select everything.
+[00:05:36] So if we're in x-ray and we go back to our x view mode here and we select everything,
+[00:05:43] now you can see we've selected everything that all the polys that were within that box.
+[00:05:49] Go ahead and hit delete and delete faces.
+[00:05:53] There we go.
+[00:05:54] Now you've created a hemisphere.
+[00:05:57] So as you can see, this can be a super, super useful mesh.
+[00:06:00] You can use this for shields for kind of like health domes or really any kind of stuff.
+[00:06:05] You can stretch this out by hitting R to go into your scaling and now it could be it could
+[00:06:13] be a projectile again, rotating with E if you need to set this to the side, while rotating
+[00:06:19] if you hold down control, you can rotate in snaps of five, five degree increments, which
+[00:06:25] is really handy if you need to keep on a specific axis or a specific scale.
+[00:06:30] You can also see that if we go into item up here, you can actually just rotate this
+[00:06:36] way if you need to be super precise.
+[00:06:37] So if you need this to be at 90, go ahead and rotate it 90, do that for all individual
+[00:06:43] axes if you need and keep this at zero and keep the scale at one.
+[00:06:51] So there we go.
+[00:06:52] That's the hemisphere.
+[00:06:53] So let's go ahead and get into the tapered cylinder.
+[00:06:57] First thing that we need to do, kind of like the hemisphere here, is make us a cylinder.
+[00:07:03] It's going to be much the same way.
+[00:07:05] You can go to add mesh cylinder.
+[00:07:09] You'll also have a lot of the same options here, vertices.
+[00:07:13] This is going to, so this vertices of this 32 is going to be how many sides of the, of
+[00:07:18] this that you have.
+[00:07:19] 32 is fine.
+[00:07:22] Radius is once again going to be the size of this depth is going to be the height.
+[00:07:27] So for now we'll just keep this at like two.
+[00:07:31] There we go.
+[00:07:32] So now we have our handy dandy cylinder.
+[00:07:34] So what we want for this though, because a lot of your effects when they have to do with
+[00:07:39] the cylinder, is you're not going to want to see these top and bottom faces.
+[00:07:43] So we're going to take those away.
+[00:07:45] Just like with the hemisphere, we're just going to drop right into poly facing by hitting
+[00:07:50] three, selecting this face and selecting the bottom face.
+[00:07:55] We'll do this at the same time.
+[00:07:56] So if you left click on the top face, hold down alt and scoot around.
+[00:08:03] Now hold down shift and select the bottom face.
+[00:08:05] You'll have both of these faces selected at once.
+[00:08:09] Hit delete faces, and now you have a hollow cylinder.
+[00:08:14] Very cool.
+[00:08:15] Just like the hemisphere, we need to shade the smooth.
+[00:08:19] Otherwise again, we're going to have these kind of stair stepped great, like hard gradient
+[00:08:23] feel to it.
+[00:08:25] Shade smooth.
+[00:08:26] There we go.
+[00:08:30] So now we have our cylinder, which is super useful.
+[00:08:33] We're going to want to make sure that the bottom of this guy is at the zero line.
+[00:08:39] So luckily a cylinder right now, it's going to be, I think it's two units tall.
+[00:08:43] Yeah.
+[00:08:44] So it's two units tall, which means that if we bump this up on one, it's going to be the
+[00:08:50] bottom is going to be right here, which is awesome.
+[00:08:53] So to taper this guy out, really easy.
+[00:08:56] Instead of going into face mode, but with three, we're going to go into vertices mode
+[00:09:00] with one.
+[00:09:01] So press one on your D pad, or I'm sorry, on your numpad, or alternatively you can go
+[00:09:05] up here and hit one as a refresher up here.
+[00:09:08] This menu appears vertices over here, edges in the middle and faces on the right.
+[00:09:15] And to go back into object mode, so you're not an editing anymore, you can hit four also
+[00:09:21] do that over here.
+[00:09:25] For now vertices.
+[00:09:28] So this is interesting.
+[00:09:29] If we just like how before, if we are not in X-ray mode, like we're not in X-ray mode
+[00:09:35] right now, if I select all of these, you can see, I did not select these, but since we
+[00:09:40] can see all the vertices right now, if we do that, we can select this whole thing.
+[00:09:45] Alternatively, what you could do go into edge mode by hitting two, select the top edge here
+[00:09:52] and double click, and it will select all of that.
+[00:09:55] It'll just, it'll take your edge and follow that, that edge line all the way across, which
+[00:10:01] is really handy.
+[00:10:02] You can scale or you can move this up and down.
+[00:10:04] So to taper this, we're just going to want to scale it, hit R to scale, go ahead and
+[00:10:08] select this white ring on the edge here, and you can scale it up to make it a kind of a
+[00:10:15] upward shooting tapered cone, or a cylinder rather, or scaling it in even if you wanted
+[00:10:22] to go the other way.
+[00:10:25] Typically you'll usually find it like this though.
+[00:10:28] There you go.
+[00:10:29] These are two of the most useful and versatile meshes that a VFX artist can use.
+[00:10:34] You will find that you'll be using these all the time and we'll get into some UV mapping
+[00:10:38] and UV mapping tricks and definitions in the next video.
+[00:10:41] Thank you so much.
+[00:10:42] We'll see you then.

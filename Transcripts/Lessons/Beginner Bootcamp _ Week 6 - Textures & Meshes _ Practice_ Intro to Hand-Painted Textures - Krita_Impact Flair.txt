@@ -1,0 +1,224 @@
+[00:00:05] Hello, everybody, and welcome back to Krita lesson two,
+[00:00:08] where we are going to talk about how to paint sparkle bursts and impact flares.
+[00:00:14] There's so many different names for the exact same thing,
+[00:00:17] which is basically the flash that appears whenever one object hits another object,
+[00:00:22] whether it's a projectile hitting a character or a projectile hitting the ground.
+[00:00:27] It's that flash that appears.
+[00:00:29] So, yeah, we're going to focus on painting one of those today.
+[00:00:32] It's going to be a good time.
+[00:00:33] So let's hop right in.
+[00:00:36] So something that's important to think about when you're starting to make a sparkle burst or impact flare
+[00:00:41] is what the source of that impact flare is and what the style of your game is.
+[00:00:45] There are so many different ways that you can paint impact flares.
+[00:00:48] And today I'm going to be focusing on one that's a little bit of a combination of realistic and stylized.
+[00:00:54] But it's always important to think about the story behind the sparkle.
+[00:00:57] Or if you are in need of a sparkle and don't necessarily have a story prepared for it,
+[00:01:02] what you can do is think about what kind of sparkle would be most helpful or most versatile for your project.
+[00:01:08] All right, so we're going to dive right into this.
+[00:01:11] Let's go ahead and create a new file.
+[00:01:14] I'm going to keep mine 512 by 512 as far as image size goes,
+[00:01:18] because I don't really at this moment in time have a specific idea of what size my flare is going to be on screen.
+[00:01:26] So 512 by 512 seems decent.
+[00:01:29] I'm not planning on making a giant screen wide flare.
+[00:01:32] So yeah, that should work.
+[00:01:34] Background color is already black, so we can go ahead and click create.
+[00:01:40] All right, there are a few ways that you can approach painting impact flares.
+[00:01:45] And I'm going to be creating a flare today that's, I wouldn't say realistic, but not necessarily stylized either.
+[00:01:51] It's kind of a mixture of the two.
+[00:01:53] So what I'm going to do is start out with the airbrush tool.
+[00:01:57] And as you can see, I have black selected.
+[00:01:59] I can press X on my keyboard and it will swap those two colors.
+[00:02:04] So I want to paint with white.
+[00:02:06] And I'm going to start out with just a little glow guy like this.
+[00:02:11] What I'm going to do from here is add another layer and a size down my airbrush tool.
+[00:02:17] And what I'm going to do is take this airbrush tool and press V to activate the line tool.
+[00:02:24] And I'm just going to drag some lines from relatively close to the edges of the texture here towards the center of this glow.
+[00:02:32] So press V to activate the line tool.
+[00:02:35] And then I start with light brush pressure.
+[00:02:38] And then as I go, I get a little heavier so that there's this nice fade from dim to bright or less opaque to opaque.
+[00:02:47] And I'm just going to randomly do this.
+[00:02:50] The awesome part about making textures for effects is that randomness is your friend.
+[00:02:55] Randomness and variety is super good to have in basically any texture that you make.
+[00:03:00] And as you can see, I'm going back over a couple of these that I feel like are too dim.
+[00:03:09] Some of them are shorter, some of them longer.
+[00:03:11] Just sort of depends on feeling of variety.
+[00:03:14] Like I definitely don't want the flare to have equal arms on each side for lack of a better term.
+[00:03:20] Because right now this sort of looks like a stick person with the head up here and the arms and legs splayed out.
+[00:03:25] But I want the flare to be compositionally interesting.
+[00:03:29] And in order for that to be possible, I need to have some randomness in how these bits of the flare are laid out.
+[00:03:40] This seems like a decent start.
+[00:03:42] So what I can do from here is take the airbrush tool, press E, then I'm actually going to size it down and start erasing away.
+[00:03:53] Either along the edge of the brush strokes that I made or towards the center to get some spikier looking rays, some spikier looking lines.
+[00:04:06] I could also just paint on the outsides of the brush strokes that I made before so that I can make these little ray spikes.
+[00:04:19] Now this obviously looks pretty blobby and gross right now.
+[00:04:22] But thankfully, a bit later, we're going to add some more interesting, sharper shapes on top of this initial blobby shape.
+[00:04:36] If you find that you're getting sort of this, I'm getting a bit of this repetition looking stuff going on, you can always remove some of the rays if you feel like they're not really fitting.
+[00:04:46] Or if you wanted to, you could toggle the eraser off and then go back and add some more.
+[00:05:01] A lot of the time that I spend painting textures, I'm listening to music or podcasts or something like that.
+[00:05:07] So it's funny.
+[00:05:09] I'm not really used to talking while texture painting.
+[00:05:12] It's certainly a skill because I feel like the texture painting itself takes focus and talking also takes focus.
+[00:05:19] So it's an interesting observation, I guess.
+[00:05:22] I'm actually going to add another to the bottom here and then go ahead and erase on the edges like I did before to make a nice little spike.
+[00:05:43] Now you're probably looking at this thing going, oh my gosh, Ali, really?
+[00:05:47] Are you an effects artist?
+[00:05:48] Are you sure?
+[00:05:50] And I promise you that this will become something cooler than what it is right now.
+[00:05:59] I think that that looks interesting in the very least.
+[00:06:04] So we've got kind of a flare texture going on here.
+[00:06:09] I'm going to blur it out by going to filter, blur, Gaussian blur.
+[00:06:14] Get it to be a little softer, maybe.
+[00:06:20] So we have two layers right now.
+[00:06:22] We have one that's just a generic glow and then we have the other that is vaguely impact flare shaped.
+[00:06:28] What I'm going to do now is get a sharper edged brush.
+[00:06:32] I'm going to go with this brush here, the basic five size brush.
+[00:06:37] And this brush is way harder edge than what I was using before.
+[00:06:41] I'm going to go ahead and make a new layer as well so that I'm not affecting the previous work that I've done.
+[00:06:45] And what I plan to do with this tool is to make a much harsher edged impact flare shape.
+[00:06:53] But I'm going to follow sort of these guidelines that I've given myself for where the rays should go.
+[00:06:58] So using the line tool again, I'm going to start with light pressure and towards the center, use harder pressure.
+[00:07:04] You can go over it a couple of times with the line tool if you're not really getting the thickness of line that you want.
+[00:07:10] One important thing to keep in mind with this is that you want to bring your brush back to a central point on your texture.
+[00:07:20] You can use the grid. Oh, dear.
+[00:07:23] I'm going to change my spacing really quick. There we go.
+[00:07:25] You can use the grid to help you with this if you want, but I usually just eyeball it.
+[00:07:34] You can always size up your brush or size it down to if you find that, generally speaking, the lines you're getting are too thin or too thick.
+[00:07:42] Brush pressure is your friend. You can get some really cool pressure changes or brush size changes with brush pressure.
+[00:07:52] I'm going to mention variety again really quickly.
+[00:07:55] So as you can see, these sharp spiky shapes that I'm making, I'm definitely varying up the length and also the thickness of them.
+[00:08:03] And that's very, very important to keep the texture looking interesting.
+[00:08:09] You don't want all of the different spikes to be the same length or thickness because your eye will get bored with that really quick.
+[00:08:17] Or at least mine will. I don't know about you guys.
+[00:08:26] Also, something to keep in mind is you don't need all of these spiky bits to have super sharp tips.
+[00:08:31] You can always go back in with the eraser tool and sharpen them up if you're planning on sticking with the shape being this sharp.
+[00:08:37] But I'm going to show you a trick later that will make these sharp tips not matter so much.
+[00:08:43] Adding more spikes, adding more spikes, adding more spikes, hey, hey, hey, hey.
+[00:08:53] I'm probably actually going too spike heavy.
+[00:08:55] This is a pretty visually intense lens layer, but I'm having fun with it.
+[00:09:02] So we'll see how it turns out.
+[00:09:05] All right, so now what I'm going to do is turn off the grid here.
+[00:09:10] And I'm going to show you guys the trick that I was talking about that will take care of these, the sharp tips of this particular texture that we've made.
+[00:09:21] So if you go up to filter, there is this start GMIC-QT, which I actually don't know what that stands for.
+[00:09:28] I'm actually going to move my texture over to the side here so that I can have this GMIC-QT filter open and be able to look at my texture at the same time.
+[00:09:38] Because the preview window here only shows you the layer that you have selected.
+[00:09:45] And obviously I have this super sharp, bright texture selected and I want to be able to see both of them at the same time.
+[00:09:52] So I can kind of visualize what this is going to look like applied on top of this soft glow and such that we have going on in the background.
+[00:10:02] The filter that we want to use on this is under the Degradation dropdown.
+[00:10:08] It's right here under deformations.
+[00:10:10] In Degradation, there is what's called Blur Radial.
+[00:10:14] And what this does is it takes your texture and it makes it look like you're going into warp space.
+[00:10:21] It softens up the edges of the texture and makes it look like you're zooming towards the center of the texture.
+[00:10:27] We can alter how much it's affecting the texture right up here using amplitude.
+[00:10:32] So the lower the amplitude, the less it's affecting the texture, the higher the amplitude, the more it's affecting the texture.
+[00:10:38] You can see it can get pretty crazy.
+[00:10:40] So I'm going to go with a value that sort of keeps the center intact, but also fuzzies up these spiky edges.
+[00:10:52] So right around six, I think, six-ish, and press apply.
+[00:10:57] And as you can see, it has made our flare texture extend way beyond the bounds that we want it to.
+[00:11:05] So we can go in and we can edit this with the airbrush tool again.
+[00:11:11] So grab your airbrush tool.
+[00:11:13] Mine is already in eraser mode, but if it's not, you can press E.
+[00:11:17] And what we're going to do here is paint along the edges of the rays.
+[00:11:23] And what this does is it makes the rays shorter without having a blunt cut off like this.
+[00:11:31] So it keeps that nice soft spike, but also shortens the ray up so that it's not extending so far beyond where we want it to be.
+[00:11:40] You could also undo the filter and try again with less amplitude.
+[00:11:47] That would help solve this issue for sure.
+[00:11:51] But I really like the softness that this has given to the rays.
+[00:11:54] So I'm just going to go ahead and edit by erasing some of these thinner rays.
+[00:12:09] I'm actually going to make a bit shorter, as you can see, because a lot of them ended up being super long.
+[00:12:15] And I still want that variety that I was talking about earlier.
+[00:12:19] Also going to try to make sure that none of these rays extend beyond the edges of the texture here.
+[00:12:33] All right.
+[00:12:34] While I generally really like this shape, I think that these rays are still a bit too sharp.
+[00:12:40] So I'm actually going to try to go to Filter, Blur, Gaussian Blur, and OK, this actually softens them up too much.
+[00:12:48] So I kind of want a combination of the two.
+[00:12:51] So what I'm going to do is duplicate this super harsh edge texture I've got going on and hide the uppermost one so that I can work with the one that was underneath.
+[00:13:01] Go back to Filter, Blur, Gaussian Blur, and I'm going to pump this up to, let's say, 16.
+[00:13:11] Here we go.
+[00:13:12] OK, and now what I'm going to do is I'm going to make sure I'm still on that under layer, make sure that I have the eraser selected.
+[00:13:22] I'm going to make sure that the fuzzy glow that I just added with the Gaussian Blur is more towards the center of the texture than towards the edges here.
+[00:13:34] I think that's looking pretty good.
+[00:13:35] I actually want a bit more like glow towards the center.
+[00:13:39] So I'm going to go back to our glow here, a little more glow in general towards the center.
+[00:13:47] It oddly looks dark in these little cracks here.
+[00:13:51] OK, so instead of adding the glow there, what I'm going to do is go down to the cotton swab brush, which works pretty similarly to the smudge tool in Photoshop.
+[00:14:04] It's the closest thing that I found to it, at least.
+[00:14:06] And so what this does is it smudges instead of paints.
+[00:14:11] So if I'm just giving a quick example, if I'm just like drawing on here, it's smudging whatever I'm touching rather than painting a new color on there.
+[00:14:20] So what I'm going to do is I'm actually going to start drawing from the center of the flare here, go out just slightly in the crevices so that the center is a little bit softer.
+[00:14:34] And we'll see, I might end up not liking the way that this looks, but it's always good to try to play around with things, try it out, see if you end up liking the result.
+[00:14:46] What if I rotate the...
+[00:14:50] It looks pretty cool.
+[00:14:52] I was expecting it to get too noisy.
+[00:14:54] I think if I blur it a bit more, it might help.
+[00:14:58] Blur, blur, blur.
+[00:15:02] I might actually tone down the visibility on this glow sphere a little bit.
+[00:15:09] I think that actually looks pretty good.
+[00:15:11] And there you have it.
+[00:15:11] We have an impact flare.
+[00:15:13] This is sort of a, I don't know, I guess I would call it a mixture between realistic and stylized.
+[00:15:20] I do think it's a bit noisy.
+[00:15:22] I could probably do without some of these tinier rays that I've made.
+[00:15:26] If you find that you've made too many rays, you can just smudge them out like I'm doing here.
+[00:15:32] It's a bit of a pain in the neck process, but if it helps simplify things in a good way, then it's absolutely worth doing.
+[00:15:48] I think I'm actually going to go to that blurred layer that we have underneath and erase a bit of the complexity under there as well.
+[00:15:56] Just because as much as I like the extra soft rays that it's giving me, I think that it is a bit much in some places, especially over here.
+[00:16:10] I might actually try to get rid of this guy or not get rid of him.
+[00:16:14] Yeah, just maybe make him shorter like that.
+[00:16:21] Cool.
+[00:16:22] I think this looks pretty good.
+[00:16:26] All right.
+[00:16:26] So now that we have this all painted and done, what we can do is save out a source file, which I should have done from the beginning to save it as impact flare two.
+[00:16:38] There we go.
+[00:16:38] Now we have our create a source file made and now we can save it out as a Targa in the correct folder.
+[00:16:50] There we go.
+[00:16:53] And now it is in engine.
+[00:16:55] Oh, there's actually one more thing.
+[00:16:57] To double check that our texture isn't exceeding the edges here to make sure that we don't see those sharp edges where the edges of the texture are in engine.
+[00:17:07] What I can do is select the topmost layer over here in the layers tab and click new layer from visible.
+[00:17:15] And what that does is it literally combines all of the layers underneath that are not hidden into one layer.
+[00:17:21] So now if I were to erase, it would look no different because the layers underneath this are the exact same thing, but it's all combined on this layer.
+[00:17:31] What we can do to make sure that the light isn't extending beyond the edges is to go to filter, adjust threshold in order to see the flare at its brightest.
+[00:17:42] We can drag this little arrow all the way down to the bottom.
+[00:17:45] And as you can see, it does extend beyond the edges in a couple of places.
+[00:17:50] So what I can do is press cancel and I'll just work with this combined layer instead of working on the layers underneath.
+[00:17:58] What I can do is take the airbrush tool, make sure that I have eraser mode off, make sure I have black selected.
+[00:18:04] You can carefully just double check, make sure paint along the rays, but paint in sort of like a V shape to make sure that the ray ends before it hits the edge of the texture.
+[00:18:15] I think that ought to do it.
+[00:18:19] So let's go ahead and try that threshold filter again.
+[00:18:24] Drag the arrow all the way down.
+[00:18:26] Looks like that bottom one still has a little bit, but I'm going to go ahead and take care of that and save this back out.
+[00:18:33] All right, there's one other thing that we can do with our texture here.
+[00:18:37] So right now, this is an omnidirectional impact flare.
+[00:18:40] And in some cases, it's actually useful to have impact flares that are directional so that it looks like maybe something is popping up out of the ground or something along those lines.
+[00:18:52] And what you can do for that is we can take our handy dandy combined texture here and let's actually duplicate it so that we have the original in case we need it for anything.
+[00:19:04] All right, so now we have our combined texture.
+[00:19:08] What we can do is press control and T to go into transform mode.
+[00:19:13] And what I'm going to do is actually scale this, zoom out a bit so that I can actually scale it correctly, scale it so that it looks about like this.
+[00:19:24] So I have the transform tool selected here.
+[00:19:27] And when I right click on one of the corner widgets that you can grab, there's a few different options that come up and one of them is perspective.
+[00:19:34] And perspective allows you to stretch the texture in really interesting ways.
+[00:19:39] And how I wanted to use it for this is to pinch one side of the texture so that it stretches out the other side of the texture so that we get sort of that cool streaking light ray effect.
+[00:19:50] And I'm also rotating the texture around because the pinched side ended up being on the top and I was not expecting that.
+[00:19:58] If you click rotation and then press shift, it will snap to different degrees so that you can get a straight up and down rotated texture pretty easily.
+[00:20:10] So I rotated it so that the longer light streaks were coming out of the bottom of the texture like this.
+[00:20:16] And I think that that looks really cool.
+[00:20:19] That works really well for our directional texture.
+[00:20:23] So what I'm going to do from here is click here and then press alt so that I can stretch out the texture a little bit.
+[00:20:32] Obviously, this texture is clipping really terribly down at the bottom here.
+[00:20:37] So I'm going to make a new layer, zoom in a bit.
+[00:20:42] I am going to take the airbrush tool in black.
+[00:20:47] And I'm just going to go ahead and paint along the rays towards this focal point down at the bottom.
+[00:20:54] And then I'm going to paint along the edge here about like this so that it's not clipping.
+[00:21:03] There we go.
+[00:21:03] I think that looks great.
+[00:21:07] Awesome.
+[00:21:07] So that's how you can make a omnidirectional flare into a directional flare.
+[00:21:12] And then we can bring this into engine.
+[00:21:17] So as a quick test, I brought the impact flare into engine and have it set just on this simple burst emitter.
+[00:21:24] And I honestly think that it's still a bit too noisy.
+[00:21:27] I think I could simplify it up a bit and it would look a bit better.
+[00:21:32] But yeah, I think that it works decently for what I would need it for, which in this case is, I guess you could call it placeholder, could be a placeholder flare.
+[00:21:41] Yeah, I sincerely hope that you guys found this lesson useful and that you feel like you know how to handle painting sparkle bursts.
+[00:21:50] Thanks so much for watching and I will see you guys in lesson three.
+[00:21:52] We're going to be talking about AOEs and shock waves and it's going to be a good time.
+[00:21:57] So I will see you guys there.

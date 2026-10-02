@@ -1,0 +1,217 @@
+[00:00:05] Hi guys! In this lesson we are going to create a embers tester. It's super common to use to keep
+[00:00:12] the small details in our VFX and you can find for example in a spell or in a fire or in a magic VFX.
+[00:00:21] To have more variation we are going to create a spreadsheet tester and introduce to us to this
+[00:00:27] technique that is really quite used and so we are going to learn new nodes that give us more
+[00:00:34] control when we are creating tester and I'm really excited to show you more so let's start!
+[00:00:42] First we are going to analyze the embers with the reference to make it more clear
+[00:00:47] what we are going to do and what tester we are looking for.
+[00:00:51] The embers usually have a regular shape because it's the result of the final moment of combustion
+[00:00:57] and depending of many circumstances we can find the common silhouette in all of them.
+[00:01:02] We can see in this reference what they all share in common. It's a shape that is cut
+[00:01:08] in the borders in a regular form that they are different from each other,
+[00:01:13] has different grayscale values, velocity and glow. For this we are going to create
+[00:01:19] a spreadsheet to have more variation when we use tester in our VFX.
+[00:01:25] As always I'm going to open the file I'm working on and create a new graph for our embers.
+[00:01:32] Perfect! We are ready to start!
+[00:01:35] Today we are going to create a 2x2 sprite sheet and our workflow will be quite different.
+[00:01:41] The sprite sheet is a way to have multiple images distributed in an imaginary grid inside
+[00:01:48] one single texture. If we have a 2x2 spreadsheet we have to pay attention that our final resolution
+[00:01:55] will be divided from the total texture by two for each image. In this lesson we are going to
+[00:02:02] create the 4 embers variation at the same times because designer helps to have this workflow,
+[00:02:09] although there will be sometimes that the complexity of the forms will make us to do
+[00:02:13] each texture of the sprites separately. So we are going to start creating the main shape.
+[00:02:20] For that we create the shape node. For our case we need something like an oval shape with a gradient
+[00:02:29] at the borders. We are going to start with a paraboil pattern and then to have this oval shape
+[00:02:35] we are going to change the X size to squash the shape so we get the shape that we are looking for.
+[00:02:42] Then to have 4 shapes we set the tiling parameter to 2 and we already have the shape repeating
+[00:02:50] in 2x2 grid. One thing that I'm watching here in the test tour is that we don't have much
+[00:02:55] space between the shapes and in the borders of the test tour, so to ensure that this doesn't
+[00:03:02] happen we are going to rescale the whole shape a bit in the size. Perfect, we already have the
+[00:03:09] principal shape that we are going to cut, so let's leave this aside and start creating the
+[00:03:14] test tour that we cut and break it to get the silhouette that we are looking for. Right,
+[00:03:20] to have the scenes more clearly and know what we'll do in the next steps I'm going to explain
+[00:03:26] how we are going to create this test tour that we got the main shape. We need a test tour composed
+[00:03:33] of multiple cycles that cut only in the borders of the shape without compromising the center of
+[00:03:39] the shape. For it we need first a mask starting from the same shape that we created so define
+[00:03:47] what part will not be compromised. With this in our mind let's start making this mask. For that
+[00:03:54] we are going to start creating a bevel node from the shape that we have created. The bevel node
+[00:04:01] reads the grayscale information of the input and makes a bevel effect on the borders of the shape
+[00:04:08] of that. By default the bevel distance is usually very high so don't worry about what you are seeing
+[00:04:15] right now. First we have the distance of the bevel and we can set this bevel in positive or negative.
+[00:04:22] For this case we are going to set in positive with a low value because we want to remove
+[00:04:28] the smooth gradient that we started with and have a clean shape with a little bit of bevel
+[00:04:35] in the border to don't have the borders too hard. Then we are going to invert this grayscale to have
+[00:04:42] these shapes in black to determine that this area will be conserved. Cool we already have the mask
+[00:04:50] so let's start creating the test tour that we got. In order to get this we are going to create a
+[00:04:57] tile sample, a node that is very intuitive that allows us to repeat a shape unimaginably to create
+[00:05:06] a new texture pattern. It has a lot of inputs and a first size seems quite complex but don't worry
+[00:05:13] it's only just because we can create really complex patterns using all the inputs for what
+[00:05:19] we are going to do is not necessary and if I'm honest I never use all the inputs. Today we only
+[00:05:27] use one input we are going to connect the mask that we have done in the input mask map input
+[00:05:33] to determine the areas where the shape is not going to repeat. In the next step we are going
+[00:05:39] to see the principal parameters that we have in this node. The instance parameters will determine
+[00:05:46] how many repetitions we are going to have in each axis. Let's lower the number a little bit and maybe
+[00:05:53] lower the y-axis more so that we don't have the same number on both axes. Then we have the pattern
+[00:06:00] here is where we can choose which shape we want to repeat in the grid. You can select between all the
+[00:06:06] selection of passage shapes that give you the node or select from the input but for now we are going
+[00:06:12] to select the paraboil because we want to repeat the cycles. Having this doesn't not seem really nice
+[00:06:20] right? All the shapes have the same distance between each other the same grayscale color and the size
+[00:06:27] really boring so we are going to avoid that and create more interesting pattern. First we are going
+[00:06:33] to change the size of the stances to get the most variation of it. We have the size per axis in all
+[00:06:39] stances and the random sign between them. Also we can uniformly scale all the stances and here I
+[00:06:46] think we need to have more scale because it's quite small. We have the scale random to have more
+[00:06:52] variation of the scale of the stances and I think it's going well for our case. Randomness is always
+[00:06:59] our ally and the pattern is still boring so now we are going to set the position. Position random
+[00:07:05] will break the grid that we are looking at. This parameter randomizes the position over both axes.
+[00:07:13] To have more variation we are going to change the offset to shift instance depending on the offset
+[00:07:19] type. If we see the pattern that we don't like it we have the global offset to display all the
+[00:07:24] patterns in both axes separately. We could do the same as position with the rotation. Then we have
+[00:07:31] the same kind of parameter line randomize the rotation of the instance or all at once but for
+[00:07:38] this specific case we are not looking for rotation cycle so as not to lose the directionality of the
+[00:07:45] cycles. The last instance that we are going to do is set and randomize the color of the instance
+[00:07:51] and do you remember the last that we have created right? For this master work we'll have to set in
+[00:07:58] the color selection so let's do it! For that we have here the mass max threshold and you can
+[00:08:05] control the threshold on the mass. It's not only true or false but for this case we set it to 1
+[00:08:12] and we see that the instance is removing in the areas where the mass is. The other parameter that
+[00:08:17] we are going to set is the color random of the instance to have more grayscale variation.
+[00:08:25] Okay we have done with the title sample. The next step that we are going to do is create a
+[00:08:30] levels null because I think the grayscale of the tester needs to be raised a little bit to get
+[00:08:36] better. We are going to set the middle values a little bit to the blacks and the higher values
+[00:08:42] the same. This will make everything whiter and the areas more definite. We are ready to use this
+[00:08:48] tester to get the pretty ball shape that we are creating before so we are going to create a blend
+[00:08:54] node. In the first input the mass and in the second the main shape because we are going to
+[00:08:58] subtract the first with the second one. Okay we are going to select the subtract mode and right
+[00:09:04] now we have the pretty ball shape with the silhouette borders that make it more interesting.
+[00:09:09] I'm going to make a small intermediate step also to show you new concepts and
+[00:09:14] we are fixing designers to keep in our minds. I would like to get inverse a little bit in the
+[00:09:20] button to use the corners of the shape in this part and I think the radial gradient that blends
+[00:09:26] in the button is going well. Okay we need a radial gradient and we will be able to create a shape
+[00:09:32] node but sometimes there are some nodes that give you another type of parameters to help us more
+[00:09:39] with what we are looking for. This is going well for us to know more nodes and step by step to know
+[00:09:45] more designers. So let's see! For this case we will create a gradient radial and yes you have
+[00:09:52] the same shape that you can obtain with the shape node right? But let's see the difference and
+[00:09:57] because this node fits better for this occasion. With this node you can select the shape that you
+[00:10:03] want and you can find only in 2, the cone and hemisphere shape. In this case we select the cone
+[00:10:11] shape. The difference of this node is that you can control where the center of the gradient is with
+[00:10:17] the point 1 and the position of the radius to determine the extent of the gradient with the point 2.
+[00:10:24] As I told you before we would like to have a gradient in the bottom of the mask
+[00:10:29] so we are going to set the parameter to have the gradient in the bottom,
+[00:10:33] a semi-sphere. We are going to go down the position in the y-axis of the center until we see
+[00:10:40] that it is at the bottom of the texture. The two points are linked in order to not lose the shape,
+[00:10:45] it scared the proportionality, so I wouldn't like to have a cut in the gradient in the edges of the
+[00:10:50] x-axis so we are going to set the point 2 to fix it. Now we have the hemisphere in the bottom but
+[00:11:01] we need to have this in the foreshade for the spreadsheet that we are creating.
+[00:11:06] So we are going to create a Transform2D for that. This node is a normal transform where we can
+[00:11:13] change the position of the texture, scale or rotate. But one of the things that has designer
+[00:11:19] is all of the textures that we are creating always are hidden, although we don't see it at the first
+[00:11:25] site. We can do it manually in any edit software in the 2D viewer. Another way to do that is in
+[00:11:33] the parameter setting the width and the height and here we have the transformation preset,
+[00:11:38] quite interesting of the principal transformation. For this case we are going to use that and select
+[00:11:44] the division of two. Ok, we already see the shape are repeating and have the scale that we are
+[00:11:51] looking for but the position is incorrect. Let's set the offset of the texture. We need to offset
+[00:11:57] 0.5 in x to centrate the shape and come back to see the width correctly. And offset in y 0.5 to
+[00:12:05] position the shape of the button. Then the hemisphere is a little bit big so we are going
+[00:12:11] to create a levels node to reduce the middle values and keep the shape more concentrated
+[00:12:17] in the center. Let's move the middle point to the high value and we got it! Fine, let's blend with
+[00:12:23] the texture that we are creating. We use the substrate mode to erase a bit the bottom of the
+[00:12:29] shape and I think we are going to set the opacity blend a little bit. Ok, the shape that we have is
+[00:12:35] quite nice but we are going to work more to have better result. The following steps are working in
+[00:12:42] three parts. The first one is to define smooth borders and give more movement warping a little
+[00:12:49] bit the shape to avoid a uniform shape. The second one will work in the center and give
+[00:12:55] more volumetric fade light. And the third step will be for the most adventures that will consist
+[00:13:02] of working in the final retakes giving more movement and directionality. Ok, let's start with
+[00:13:09] the first step. To get the smooth borders in the shape first we need to cover all the shape in white
+[00:13:15] and black color and work from this point. Today we are going to make this with a histogram scan.
+[00:13:22] This node is very useful and easy to use. Now we don't see anything because the position is zero.
+[00:13:29] This parameter shift the middle point of the result and is very similar to control the
+[00:13:33] brightness value so let's set this value to start to see the shape again and add more brightness.
+[00:13:40] The contrast parameter I use the contrast of the result to set the hardness of the transition
+[00:13:47] so that the middle value that we have in the corners we will more define it. Set a little bit
+[00:13:53] the position. Alright, now to control the borders we are going to use the bevel null. This time we
+[00:14:00] are going to set the distance in negative to don't have the shape bigger. Now we are going to
+[00:14:06] warp the shade a little bit to give more curved form but first we are going to create the shape
+[00:14:12] that is going to distort the shape. For that we are going to create a pearling noise as always
+[00:14:18] because it's the noise that is going to give us a grayscale to distort the texture without being
+[00:14:24] too strong. Set the scale with a bigger scale and we got it. To distort the texture a bit this time
+[00:14:32] we will create a warp null. This null is easier and only transforms the input pushing the pixel
+[00:14:39] by the gradient texture which will be the pearling noise. This null only has the intensity of the
+[00:14:45] warp so let's set a bit less and we have pushed the shade with a big noise. Now we are going to
+[00:14:52] repeat the process but with a smaller pearling noise to give more movement in the shapes.
+[00:14:58] This time let's set the warp intensity a little less than the last time. I would like to show you
+[00:15:05] the difference between without applying warp and with the warp. We have given the shape a little
+[00:15:11] bit more curvature in the shapes. The last step for this part we will create a levels null to
+[00:15:18] adjust the center with a higher value to blend well the center of the shape with the second
+[00:15:23] step that we are going to create later. Set a bit the bezel and the high value to get the center
+[00:15:29] white and we will have the first step. Okay for the second step we are going to create two nose
+[00:15:36] that need to work together. In this step we are going to get something similar to fade light in
+[00:15:42] the center of the shape where we are going to look for the bottom of the center to be
+[00:15:47] darker than the top. Let's read a full fill null from the Instagram scan because this input only
+[00:15:53] has a black and white values and this is the condition for this null to don't have issues.
+[00:16:00] This null converts the input information into a data information and this null needs to be used
+[00:16:06] with another node for the same category to work. As you can see we have a gradient color with the
+[00:16:12] same direction for all the shape. This color is only data and we can interpret it in many ways.
+[00:16:20] Now we are going to interpret the data to the grayscale with a form frame to gradient.
+[00:16:25] This null transforms the data into a gradient. It's very useful for creating a height map or
+[00:16:32] like this case in a fake light and shadow. The only parameter that we are going to set
+[00:16:37] is the angle to change the position of the fake shadow to the bottom and have the light on the
+[00:16:43] top. Well we got the second step. We have the two first step and we are going to blend together and
+[00:16:50] have the borders on one side and the volumetric grayscale in the center. We are going to use
+[00:16:57] a multiple mode. We got the two steps together and the testers where the silhouettes are quite
+[00:17:03] nice so I'm going to take a break here and add one last node to finish the tester well for the
+[00:17:09] people who want to skip the third step because it's not necessary to do if you don't want it.
+[00:17:15] We're going to create a glow to simulate the light of the embers and this node is quite simple and
+[00:17:21] adds a fading gradient outline around the input. We have the glow amount that is the global opacity
+[00:17:28] of the glow effect. Then we have the clean amount and threshold for when cut off the glow effect.
+[00:17:34] I'm going to set just a little bit on the glow side that controls how far the glow effect reaches
+[00:17:41] and here we're going to set with a higher number. I change a little bit the parameters to get the
+[00:17:48] best threshold. Okay, we got the embers spreadsheet tester and we can spot it here.
+[00:17:55] Fine, for the most adventures let's go for the third step and create the final retakes. Okay,
+[00:18:02] we are going to continue from the blend node without the glow that we are going to add later.
+[00:18:08] The first step is going to create a non-uniform blur scale to blur this
+[00:18:13] cell a little bit to unify the forms because we can't see the strong outline there.
+[00:18:20] Then we are going to distort and push the final shape and for that we create a multi-directional
+[00:18:25] wrap grayscale. As you know this node needs an input to apply the distortion, so let's do it.
+[00:18:31] For this case I think the purling noise is not the best idea so I'm going to create a noise like
+[00:18:37] a flame or something like that with the two purlies noise that we have in the graph. To get this we
+[00:18:42] are going to create another multi-directional wrap and this node for me is super versatile.
+[00:18:49] We will distort the purling noise that has the largest scale and the other will be used as the
+[00:18:54] intensity. We have already used this node so we are going to increase the intensity until we get
+[00:19:01] a result that we like. I think the noise is very good, isn't it? So we are going to connect with
+[00:19:07] the multi-directional wrap and let's see what can we get out of this. Let's set the intensity,
+[00:19:13] as always we need to type a higher number. Hmm, ok, here we can see perfectly the forward
+[00:19:21] direction where the noise is pushing the shape, so I think it's time to explore the mode and I'm
+[00:19:26] going to explain better how this works. To see the mode better I'm going to explain the mode with a
+[00:19:32] this shape and with a higher intensity. Fine, the mode only works when we have more than two
+[00:19:45] directions. Average is the default and the most common to use where we can see all the direction
+[00:19:51] that the noise is pushing the shape. The mask get all the direction and fill it. The min only paints
+[00:19:59] the shape where the forward direction match and the last one, chains will deform the shape in the
+[00:20:05] forward direction consecutively like a chain process. With this in our minds I'm going to back
+[00:20:11] to our tester and I think the more accurate method for this tester is to use the mind mode.
+[00:20:19] Ok, we already have an effect that pushing a little bit the shape and has more movement. Now
+[00:20:25] what we are going to look for is the directionality and we will create a directional wrap. This node
+[00:20:31] is stored in one direction that also need a grayscale intensity to push the shape in the
+[00:20:36] direction that we want and the intensity. We are not going to complicate the scenes too much and
+[00:20:42] the thing that we are going to do is blur our tester and add this like a grayscale to distort it.
+[00:20:49] We create a blur scale and I think it's perfect like this without setting anything so connect to
+[00:20:55] the directional warp. The directional warp is quite easy only we have the intensity of the warp
+[00:21:01] and the angle we want to apply it. We are very clear that we are looking for the up direction
+[00:21:07] so let's see 90 degrees first and the intensity until we like it. Perfect! I see in the tester
+[00:21:14] that we have a lot of mid values and I think it's a little bit off so let's create a levels node to
+[00:21:20] fix it. Only just move a little bit the mid and high value and we got it. The next step we are
+[00:21:27] going to sharpen a shape with a slow blue grayscale and we are going to use the invert
+[00:21:32] of the tester to do that, like in the older times. Always the sample to 32 to have more detail
+[00:21:39] and adjust the intensity only a little bit. Also we are going to change the model to max.
+[00:21:46] The shape now is really nice. I think it's turning out quite well with the last change
+[00:21:51] and let's go to the last node. We are going to finish this lesson with the glow that we
+[00:21:56] have seen before to give some light to the texture. Set the glow amount with a high number
+[00:22:01] to have the global opacity of the glow very high. Set the clear amount and with less and the glow
+[00:22:07] size increase until you see that it's over the shape. Ok, we get the tester and it's really
+[00:22:13] awesome and the only thing that we need to do is add as always the output node and export it.
+[00:22:20] As always the last part is to see how the tester works in the engine. I used the tester in the
+[00:22:26] BFX that I have shown in the last lesson and I added some numbers at the end of the impact
+[00:22:32] to add more detail in the BFX. This lesson has been a little bit complex because we have seen
+[00:22:38] new nodes and new techniques but little by little we have started to see the potential of
+[00:22:43] Sustain Designer. I encourage you to play with all the parameters of the node that we have seen
+[00:22:49] in this lesson without fear and put into a practice so we don't forget the knowledge we
+[00:22:54] have acquired. This will reinforce the knowledge from this lesson.
+[00:22:59] I can't wait to see what you make with this lesson. See you in the next lesson!

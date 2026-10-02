@@ -1,0 +1,148 @@
+[00:00:05] Hey friends, welcome back. Today we're gonna do another video and we want to
+[00:00:11] talk about texture adjustments. So last time we saw how to modify our UVs to pan
+[00:00:18] our textures to have them animate, play around, do incredible things. Today we
+[00:00:24] want to see after a texture sampler what we can do to give slight adjustments to
+[00:00:29] our textures. Perhaps make them glow a bit more. Perhaps when we painted them in
+[00:00:34] Photoshop it just didn't quite look how you wanted it to look in game. Perhaps
+[00:00:40] you feel like this texture just doesn't fit anymore or perhaps in order to
+[00:00:47] combine it with your next texture you need to do slight adjustments. All in all
+[00:00:52] the goal here is to give you the simplest tool possible in order to be
+[00:00:59] able to have control over those textures and not be bound by just what you're
+[00:01:03] given or what you get. So first off we're going to talk about what this
+[00:01:10] represents here. So here we have our little texture this is again a preview
+[00:01:15] of if this was outputted on the quad. We're gonna put it back into the
+[00:01:20] emissive color just so that we have a little example here. So this on this
+[00:01:30] texture for each pixel of our little quad we could just go through the whole
+[00:01:34] graph and do a simple mathematical equation just draw it down and then at
+[00:01:41] the end of the day have the results. This here pixel is black because on the whole
+[00:01:48] network if we follow the whole spaghetti just for this pixel we're gonna get
+[00:01:52] black and the computer does this for every single pixel of your texture.
+[00:01:56] Alright so what that means is that by adding just a small value somewhere or
+[00:02:03] by doing a small modification for each pixel if we calculate it right if we do
+[00:02:09] the right modification we can do one big change that makes sense for us viewer on
+[00:02:16] the scale of the texture. So the first one I want to talk about is the
+[00:02:21] brightness. We want to add a value to all the pixels the same value to all the
+[00:02:28] pixels. What that will do is just raise overall the values uniformly on the
+[00:02:34] whole texture. So imagine this like a big bucket of water you have your big bucket
+[00:02:42] of water like this okay and your texture is like so okay the values we're
+[00:02:48] basically looking at if it's white it's higher if it's black it's lower so
+[00:02:52] imagine you're sort of water bender your texture right now like this is
+[00:02:58] completely flat this is like there's no water here and here there's a one water
+[00:03:02] if we add a value uniformly to this we're just pushing the waters up so what
+[00:03:09] happens is that we're just having all our thing just go up by the same value
+[00:03:16] and this value here is the value we're adding okay it's like raising the level
+[00:03:22] of the water in general it just pushes up everything else although the best way
+[00:03:27] to imagine this is this is a sort of floaty cone and you're just raising the
+[00:03:31] level of it all right that's that's basically what we're gonna do here and
+[00:03:35] you'll see that the results looks a lot like what you're used to see and like
+[00:03:40] when you change the level of a texture on the Photoshop for instance or when
+[00:03:45] you do basic adjustments so what we're going to do is just use this brightness
+[00:03:49] the parameter in there then let it in here so we're gonna first start at zero
+[00:03:56] so adding zero everywhere just doesn't do anything obviously we're adding zero
+[00:04:00] everywhere but adding 0.1 you'll see already our texture suddenly brightens
+[00:04:05] up and the more we add the more our texture brightens up all right so this
+[00:04:12] is just gonna push the brightness in a very very simple way one thing to be
+[00:04:17] careful and you can already see this there's this like circle in the center
+[00:04:21] that's starting to be very visible and it creating this hard edge around here
+[00:04:26] so what that is is just our texture here those values here are above one because
+[00:04:34] we're adding to a value that was one another value so basically this is all
+[00:04:38] going higher than one as we said before our output is looking for a value
+[00:04:44] between 0 and 1 if it's above it starts to do weird things it doesn't quite know
+[00:04:48] how to do it has some ideas and it will try to do stuff most notably it will
+[00:04:52] interact with bloom but otherwise it might mess up how you want your texture
+[00:04:58] to look okay so add will induce this kind of problem so you have to be ready
+[00:05:04] for it and perhaps it's not the right solution for you but it is an option and
+[00:05:08] it overall brightens your whole texture one thing that you can do most notably
+[00:05:15] that's in my opinion quite interesting is that you can take your ad and if you
+[00:05:21] want to make a texture that is transparent for instance you don't want
+[00:05:25] this white here it's a little trick is to take this one and then multiply it by
+[00:05:29] itself well that will do and that's just a very very simple idea that you'll find
+[00:05:37] everywhere what that will do is just keep the things black while still
+[00:05:40] pushing your values up so if I continue pushing I'll still get a brighter
+[00:05:45] texture without having the whole color around it that's just a tip all right
+[00:05:52] overall brightness it's pretty useful you'll want to use it quite a bit it's
+[00:05:57] particularly useful if you have one big tiling texture that you want to move
+[00:06:01] around and I suggest sometimes adding just a little 0.1 to our texture can be
+[00:06:07] very useful the difference between just this and then a little 0.1 to this can
+[00:06:14] make a big difference it and it can make it like feel not completely black or
+[00:06:18] completely white second thing I want to touch on is strengthen so strengthen
+[00:06:30] also called multiplying is just multiplying the different values here in
+[00:06:36] order to get the result so here if we multiply any pixel here we have values
+[00:06:42] between 0 and 1 which means that if we multiply any value by 0 we will get
+[00:06:48] still 0 if you multiply any value by 1 we'll get that value and anything in
+[00:06:54] between will just be lerp towards it so what's good with multiply is that it
+[00:06:59] will always keep your values of 0 that's particularly good if you want to keep
+[00:07:06] your opacity if you want to keep your transparency to 0 okay so the multiply
+[00:07:11] you will use a lot and what that does is you'll see it strengthens the edges of
+[00:07:16] your texture so right now we have a very fuzzy ball it's very nice but if we
+[00:07:20] start multiplying it you'll see that our fuzzy balls edges become less and less
+[00:07:26] fuzzy so if we start multiplying it you'll see that we get less and less
+[00:07:31] fuzzy edges until we get a full sphere okay and if I push it like a lot you get
+[00:07:38] just one clear shape okay so obviously that's pushed a lot there's little
+[00:07:44] artifacts here and there but you get the idea the goal here I put like a thousand
+[00:07:50] for instance you'll get a nice sphere that's perfectly sharp in general you
+[00:07:57] can strengthen any texture in order to just push the values a bit higher it's
+[00:08:02] particularly useful for masks where you want usually you want masks to be kind
+[00:08:07] of a clear cut in order to avoid artifacts in order to get clearer
+[00:08:12] gameplay the limitations or other results you would look for strengthen
+[00:08:19] again pushes your values above one so again be careful with your use of
+[00:08:24] strengthen finally if you go to lower values you will push down your values
+[00:08:33] closer to zero that can be dangerous because you don't want you don't want
+[00:08:40] your values to go too far down if they're going to look strange but what
+[00:08:44] you can do is do that in your opacity in order to just play around with opacity
+[00:08:50] here this multiply will just do the same as if in your particle system you were
+[00:08:55] changing the opacity down if you want a texture on the background that's like
+[00:09:00] half visible it's pretty good to just add an opacity to be sure that your
+[00:09:05] texture will be always I kind of fainted all right finally and this one is quite
+[00:09:15] important and we'll give you a bit of a sense of what we can do we're gonna work
+[00:09:22] on contrast so what does contrast do here I call this contrast but this is
+[00:09:28] basically a power node so a power node if you remember a bit like math school
+[00:09:33] power is basically multiplying what you'll put in the base by itself a
+[00:09:40] number of times equal to the exp so if I put in a value of 2 and I the exp is 2
+[00:09:48] I'm gonna multiply 2 by 2 which is 4 so immediately you can see the value this
+[00:09:54] has with our usual textures that are between 0 and 1 we'll multiply 0 any
+[00:10:00] number of times we want we will still get 0 if we multiply 1 any number of
+[00:10:05] times we want we will still get 1 so power never changes values that are
+[00:10:12] exactly 0 and 1 that said our modifies in an interesting way what we're
+[00:10:20] interested in the values between 0 and 1 ok one thing you might be scared about
+[00:10:28] now is that well what happens if we put like change values here like power of 2
+[00:10:35] is pretty simple you multiply the base one time by itself it's pretty simple
+[00:10:39] our 3 is simple you multiply the base by itself and then by itself again and then
+[00:10:44] by itself again if your power of 4 etc but what about 2.5 that's a totally
+[00:10:49] valid answer we're not gonna answer this now because this is way too
+[00:10:53] complicated what I want you to focus on is how can I use this in my VFX all
+[00:10:59] right so in order to use this in your VFX all you need to know is that the
+[00:11:03] higher the value the more times it's gonna multiply by itself and the lower
+[00:11:06] the value the closer to 0 not negative the closer to 0 the value the more times
+[00:11:12] it's gonna multiply it by itself just don't worry too much about it what's
+[00:11:16] important is the result the result is the following if you plug in this into
+[00:11:21] this you will push the values down so the result here is going to be that you
+[00:11:28] see between our value here the 1 stays 1 0 says 0 but all the other values are
+[00:11:33] kind of pushed towards 0 on the other way if I put 0.5 so any value that's
+[00:11:40] under 1 our values are pushed up so the values that were just above 0 are
+[00:11:47] suddenly pushed up higher okay and the value that's 1 is still 1 so it creates
+[00:11:55] this nice dome okay a value of 1 obviously on the power just gives you
+[00:12:01] nothing it just gives you exactly the same texture okay so from here how can
+[00:12:10] we use this again a little graph in order to illustrate what I'm doing if we
+[00:12:15] have a little graph here okay and this is our initial texture this is 1 1 0 0
+[00:12:27] okay if we have a value that is if you put a power of 2 or 0.5 here I will
+[00:12:40] multiply by itself so it's 0.5 times 0.5 is 0.25 so we end up here okay and so
+[00:12:46] we're gonna get a curve that still goes to 0 and 1 but that's gonna look like
+[00:12:50] this we multiply by 0.25 we're gonna get a curve that goes even further down
+[00:12:54] etc so you see how we get a curve that's lowered down and it has a nicer tangent
+[00:13:01] towards the edges too which means that you're gonna get a value that perhaps
+[00:13:05] feels more natural feels less linear anything that's linear in general the eye
+[00:13:10] will kind of catch up with everything that's more of a curve has more of a
+[00:13:14] tangent will suddenly feel more special in a similar way if we have a power of
+[00:13:22] 0.5 we're gonna end up on a symmetric from this so again just gonna end up
+[00:13:26] with this even higher up we're gonna end up with this again we never go under 0
+[00:13:32] and we can never go above 1 okay so this is a very useful mathematical tool that
+[00:13:40] will help us a lot when we work to just push our values up and down as you can
+[00:13:47] see if I just come in here and just push my values up I can get a nice soft fade
+[00:13:54] of my otherwise quite linear type texture the higher the value obviously
+[00:14:00] the bigger it will be but we'll always get the one okay so those are three good
+[00:14:07] tools that you can use and play around I hope this has give you a first idea
+[00:14:14] and what we can do in the next video we'll spend a bit more time on combining
+[00:14:19] textures together so the different ways that if we have two textures we can
+[00:14:23] combine them together and get a result that satisfying that looks good alright
+[00:14:29] so until then

@@ -1,0 +1,152 @@
+[00:00:06] All right, welcome. We are going to be talking about the wave principle, a concept that holds
+[00:00:15] a lot of promise and sway over the effects that you're going to be animating. Fundamentally,
+[00:00:25] this is a very important concept, so it's worth digging into and finding out all the
+[00:00:31] little ins and outs of what you can do with the wave principle. We're going to jump in
+[00:00:37] here. One of many fundamental animation concepts, but it has a special significance in effects
+[00:00:49] animation. Let us take a look at how to animate the line with a wave and to control for speed
+[00:00:54] and energy. I'm going to jump into a sketching frame here. It'll wash out the background.
+[00:01:14] This is just a timing chart. It's a simple and easy way to convey information about drawings
+[00:01:21] and the spacing between them. We can picture timing charts as such. This is frame one if
+[00:01:29] you're reading left to right. All the dashes in between are other frames and that will
+[00:01:37] dictate how many frames are in the total animation. One, two, three, four, five, six,
+[00:01:44] seven, eight, nine, ten, eleven. This would be an eleven frame animation, but most importantly,
+[00:01:55] the dashes tell us where we are putting the frames in terms of timing. For a timing chart
+[00:02:04] like this, we are favoring the ends. We are doing what is called an ease out. The largest
+[00:02:23] gaps in between drawings will be in the center. And then at the other end, we are easing in.
+[00:02:34] So in the video here, I can literally represent this with my cursor. We are going slow, fast,
+[00:02:42] slow. That's what this timing chart represents. The reason why we want this kind of feeling
+[00:02:52] to the wave that we're creating is because when this wave arcs over, we want it to slow
+[00:03:04] in with the base being anchored and the top being free flowing. As this top continues
+[00:03:14] to travel, our motion is coming from the base. So this keeps going and the base starts
+[00:03:24] to change direction. And what will happen here is this arc, we'll call this frame one
+[00:03:36] for now and this frame two, but this arc right here is going to do this. It's going to slow
+[00:03:44] in and then slow out. So on the other side here, this is just a visualization to try
+[00:03:58] to better understand what's going on with the arcs in the line as you are animating
+[00:04:06] it. We can picture little balls of, I don't know, kind of like motion, but they're shooting
+[00:04:21] up from the anchor point. And as the balls shoot up, the line will conform to their location.
+[00:04:33] And as these ones are going up, new ones will come out. So what you end up dealing with,
+[00:04:41] you're basically dealing with a lot of arcs with the base being anchored. Once again,
+[00:04:49] that's super important because all the action being driven from the base affects what happens
+[00:04:56] at the top. So with the action coming out this direction, it's going to eventually snap.
+[00:05:04] Well not snap, depends on the amount of energy, but it's going to pull the top over and then
+[00:05:11] at a certain point, tops being pulled, but from the base direction changes. So you get
+[00:05:25] this kind of stuff, depending on how crazy you want to go with it. If we were dealing,
+[00:05:31] say like if we were going as far as like little mermaid hair, like hair underwater, that kind
+[00:05:39] of stuff flows very freely. The hardest part with something like this is controlling for
+[00:05:47] the length of your line because you don't want a frame that's your base. You don't want
+[00:05:53] a frame that starts off like this. And then by the time you have it waving over here,
+[00:06:00] it's like this because this is obviously a lot larger than this. So we let, we let the
+[00:06:08] length of the wave get away from us. If you're dealing with something like something crazy,
+[00:06:17] like magic or something like that, this kind of stuff is okay. If it's growing and shrinking,
+[00:06:23] it doesn't really matter that much. But if you're dealing with something very tangible,
+[00:06:27] like the length of hair, that you do want to be specific with and you don't want to
+[00:06:31] get too crazy. This is just another way to visualize the frames as the arc is being pushed
+[00:06:39] up through the line. Like I said before, it's going to pull the top over and then it changes
+[00:06:56] direction and it pulls it in the other direction. Sounds kind of easy. Once you actually start
+[00:07:07] animating it, it can take a while to wrap your head around this idea of pushing and pulling
+[00:07:13] the line. But once you get comfortable with it, very important. And I'll go on to the
+[00:07:20] next slide here and I will explain why it's very important. Oh, I'll explain that in the
+[00:07:29] next slide. Yes, the next slide. We are going to take a little bit of a deeper look into
+[00:07:35] the wave itself just to understand, try to fully understand how we can manipulate it
+[00:07:45] to get the look of what we want out of our animations. So spacing dictates speed. The
+[00:08:01] larger the space you have in between two drawings, the faster something will look like it's going.
+[00:08:10] So the amount of compression you put on the wave and one way to visualize this is you
+[00:08:19] can look at sound waves or light waves. I believe that the deeper a sound wave is, the
+[00:08:29] more drawn out and lengthened the waves are. But the more higher pitched, the more arcs
+[00:08:45] and curves we get in the line. Both of these can be applied to the animations. It's just
+[00:08:53] something that you want to be familiar with. You don't want to get stuck in animating a
+[00:09:01] wave in only one speed or one type of compression in terms of the folds. You can also take this
+[00:09:11] a step further too and you can start to really vary up the arcs and where they're going.
+[00:09:20] You just got to keep in mind the energies that are pushing and pulling this thing. Once
+[00:09:27] you really master it, you can start doing crazy things with the line. And this is what
+[00:09:36] we were talking about before. The distance between frames will dictate the speed. So
+[00:09:44] going back to our timing chart, something like this will have a certain beat timing
+[00:10:06] to it. This is 9 frames, 9 frames, 9, 18, 27, just a little bit longer than a second.
+[00:10:23] Once you start packing in more and more frames, the slower the arc is going to go. So keep
+[00:10:33] that in mind, the amount of frames and the distance between the drawings. That is what
+[00:10:41] will give you velocity and speed. Now, how does this apply to effects animation? Well,
+[00:10:48] it implies in almost every possible way you can think of. Here we have a big complicated
+[00:10:55] fire. Let's break this down to simpler shapes. So we break it down to simpler shapes. We
+[00:11:07] have something like this. Let's break this down even further. Let's get rid of any volume
+[00:11:17] at all. Well, that looks kind of familiar, doesn't it? This is a line. As the fire burns,
+[00:11:33] this line is going to be animating up. As it animates up from the base, the anchor point,
+[00:11:41] it's going to pull the top back and forth. When we apply this to effects animation, we
+[00:11:53] won't get a fire that just burns. Even though this is a good way to start, if we were to
+[00:12:03] stay within the confines of this triangle, we're going to get a fire that is kind of
+[00:12:10] boring in terms of its activity because it stays confined within the triangle and only
+[00:12:16] ever burns straight up. It burns in, but only ever straight up. We apply the wave principle
+[00:12:23] to it and now throughout our drawings, the fire is whipping back and forth. Now you don't
+[00:12:33] want all your fires to whip, but if there is a fire in some kind of strong wind or maybe
+[00:12:42] this was a campfire and for some reason pressure was applied to it, then it does need to start
+[00:12:53] whipping over to one direction. And that is where we start to use the wave principle
+[00:12:58] because the initial push, depending on how strong it is, will push the effect over to
+[00:13:05] one side. However, if we need to keep the effect going, we are looking to control it.
+[00:13:13] However, we want to control it in a naturalistic fashion. And we do that through the wave.
+[00:13:28] So the wave principle, the conclusion, whether a fire cycle, a continuous stream of water,
+[00:13:34] a blowing piece of cloth, or a burst of debris, the wave principle has so many uses and applications
+[00:13:44] and is an easy concept to become familiar with. You have every reason to become familiar
+[00:13:50] with it and have it increase the visual appeal of your work. And these are just some very
+[00:13:56] quick examples that I could come up with that all use the wave principle. The flag
+[00:14:02] being fabric just uses it straight up. The top and bottom lines on the flag here are
+[00:14:09] straight up animating the wave. We just talked about the fire. This can also apply to smoke
+[00:14:18] and wisps. This would be something a little bit more... a fire you might want to have
+[00:14:28] like a really good whip on. Something like this animates within the confines of a reverse
+[00:14:39] triangle. You can have the odd piece that peeks out, but in general, when you create...
+[00:14:49] this is more of a specific thing, specific to smoke, but if you're using guides, using
+[00:14:56] a guide for smoke like this, so when we create this arc, this arc travels consistently amongst
+[00:15:03] this line because one of the mistakes, and I think it's important to know about mistakes
+[00:15:10] so you can try to avoid them. One of the mistakes a lot of animators will go through when they're
+[00:15:16] not using their onion skin, which is an ability in most programs to look at previous and future
+[00:15:26] drawings, is their arcs will do this. So they'll deviate in and out, which for some effects
+[00:15:41] might work, but for the smoke, it doesn't work. For the smoke, that would be a revision
+[00:15:48] where I would ask you to try to control your line better so that arc is constantly traveling
+[00:15:56] along the same point. This can apply to some kind of gushing water. Sometimes water flows
+[00:16:08] evenly and straight, sometimes it doesn't, so those times when it doesn't, we want to
+[00:16:14] add in points in time where there's a stronger spurt that levels off to a little bit more
+[00:16:24] of a less energetic part, and we will do that through the wave. It even can apply to debris.
+[00:16:38] So one of the things I say a lot is visual appeal. One of the problems with visual appeal
+[00:16:47] is not pushing yourself far enough to explore things that can travel in different directions
+[00:16:54] and at different speeds. So debris shooting out from some kind of ground impact, if this
+[00:16:59] is the point of impact, it can shoot out like this, it can shotgun out like this, and if
+[00:17:06] that's what you're looking for, then perfect. But if you're looking to spice it up a little
+[00:17:12] bit, sure this main part might shoot out like this, but there should be some parts
+[00:17:18] that can fire out outside of that. So I know I just talked about this example, we wanted
+[00:17:28] to stay within it and be dedicated to this line of action. Other times we want to break
+[00:17:37] that. It really depends on the effect you're doing. However, this all ties back into this
+[00:17:43] idea of the wave. So the assignment is pretty straightforward. There's not too many different
+[00:17:54] spins you can do on something like this, but we want to start you off with the simplest
+[00:18:01] concept of the wave principle, which is just doing a wave, putting a wave into a line.
+[00:18:11] Now if you want to ramp this up in difficulty, this is easy mode. This is medium mode and
+[00:18:19] this is hard mode. This is medium mode because now you're controlling for more than just
+[00:18:27] a line. You can draw a line in literally less than a second, but now when you're doing this
+[00:18:34] and depending on how far you want to go with it, you can add depth to it as well. But if
+[00:18:38] you have any kind of interior bits and pieces, you have to control for these and make sure
+[00:18:43] that as this is flowing, something that's packed this tight doesn't become like that.
+[00:18:50] Because if it becomes like that, you lost the line and the drawings are getting away
+[00:18:55] from you. I like to say it means that you're not being true to the nature of the design.
+[00:19:04] This is hard mode because now instead of just the line, we are dealing with something that
+[00:19:11] has a bit more dimension. And with dimension comes this kind of stuff, which is folding.
+[00:19:25] So as this goes back and forth, certain parts are going to start twisting and coming forward
+[00:19:33] and going back in depth. And it can get quite challenging when you're doing this kind of
+[00:19:40] stuff. For overall animations, this is what you want to master. If you are really trying
+[00:19:47] to take it to the next level, you want to start looking at these two. If you've never
+[00:19:52] done this before, start with just the line. The last thing we can do to the wave principle,
+[00:20:00] and I would suggest that everyone tackles this at a certain point, is if you've noticed
+[00:20:08] whenever we've been talking about the wave, we've been talking about anchoring it. And
+[00:20:12] that is important. You need to consider your anchor and you need to consider the piece
+[00:20:16] that's free floating. However, there's nothing stopping this anchor from moving, but that
+[00:20:24] adds a heavy level of complexity to the wave. So there is an additional optional assignment
+[00:20:33] with this, which is to do the moving wave. And when we do this, we want to take this
+[00:20:42] anchor point and we want to animate it across the line. You don't have to put eases on it.
+[00:20:53] It can be just straight up flat. This is okay, too, because the way the top and the arcs
+[00:21:06] are going to react to this timing chart is going to be different than the way they react
+[00:21:13] to this timing chart. And both are just as applicable. They're going to be times. I know
+[00:21:22] there's times in my professional career I've needed to use both. So if you're trying to
+[00:21:27] really expand your repertoire and get comfortable with this idea of the wave, you should probably
+[00:21:35] attempt both of these at at some point in time. But if you start off with this. Once
+[00:21:43] you have that mastered, go on to this. And if you want to keep going, then go on to the
+[00:21:48] harder versions. And then if you still want to keep going, if you think that you're just
+[00:21:53] some kind of wise guy that has this like down to a science, then obviously the hardest of
+[00:21:59] the hard would be a complicated wave design, which has a moving base. If you can do that,
+[00:22:07] then you've totally mastered this principle and you should be that much better of an animator
+[00:22:12] for it. Thanks for listening to this lesson.

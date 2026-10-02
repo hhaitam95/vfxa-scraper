@@ -1,0 +1,82 @@
+[00:00:05] Hello again, I'm Jayden and in this lesson we'll learn how to use world
+[00:00:09] positions in our effects and we can also check the distance between two points
+[00:00:14] and use this data to influence color. And we'll use the particle system for this
+[00:00:19] effect so let's create that. Click the plus sign under the hierarchy, choose
+[00:00:24] effects, particle system. Let's give it a very small speed like 0.1 and under the
+[00:00:35] shape module let's change that to a sphere. The default settings are good for
+[00:00:40] that. And then also make sure the position is 0 0 0. Let's also create a
+[00:00:50] 3d capsule. That should be at position 0 as well. Next in the project let's create
+[00:01:00] a new unlit shader graph. Create a material for it and apply that to both
+[00:01:08] the particle system and the capsule. Next open up your graph workspace. We'll
+[00:01:20] start by looking at the capsule so select the particle system and disable
+[00:01:24] that in the inspector. And let's bring out the position node. Plug that right into
+[00:01:34] color. So the position node will look at each point on the surface and output its
+[00:01:42] position in world space. That position is a vector 3 which of course means that it
+[00:01:48] can be seen as color. And notice what happens when you move it around, the
+[00:01:52] colors are not moving with it. That's because this is world position data and
+[00:01:57] that changes as the object moves around. Click on this drop-down and change that
+[00:02:02] to object space and save asset. Now try moving it around. You can also
+[00:02:10] rotate it and scale it. And now you'll see that as we move it around the colors
+[00:02:18] move with it. This is because we're using object space which is relative to
+[00:02:22] only this object. That means that the rotation and scale and position will all
+[00:02:26] be transformed automatically to move with this object. This means that the 0
+[00:02:32] position is in the center of this object even if it's not in the center of the
+[00:02:36] world. So let's take this position and we'll split it. And let's plug only the
+[00:02:47] Y values into the color which is the green channel. Save asset.
+[00:02:53] And since we're only using one channel we're getting the white to black
+[00:02:56] gradient. The default capsule that comes with unity is two units tall and you can
+[00:03:03] see right through the middle is the zero line. The top goes up through one and the
+[00:03:09] bottom goes down through negative one. So what if we wanted this gradient to go
+[00:03:15] from the bottom to the top? Well we know we can accomplish that through the
+[00:03:19] remap node. Plug the y-axis into the remap and the default settings are
+[00:03:28] perfect. We want negative one to become zero and
+[00:03:33] one to stay as one. And so with that we have successfully remapped this gradient.
+[00:03:40] And now that we have a gradient that goes from top to bottom we can of course
+[00:03:45] use color. Let's try a sample gradient node. So let's make a dark color on the
+[00:03:55] bottom that fades to a light color on the top. And now we have a nice gradient
+[00:04:00] which uses the height of the object and we can use this on any object. We chose
+[00:04:05] to use the y-axis but we can do this effect on any other axis as well. And
+[00:04:10] since we're using object space it will rotate with it. Okay so we're done with
+[00:04:17] the capsule for now. I'm going to disable that. Go to the hierarchy and find the
+[00:04:22] particle system and enable that in the inspector. And if you have it selected
+[00:04:28] you can choose play in the scene view. And it's still using our height based
+[00:04:34] gradient. Something really important to know about particle systems is that they
+[00:04:38] do not have object position. They only use world position. It'll convert object
+[00:04:44] position to world position so you can't do effects that use local space. So for
+[00:04:49] the effects that we're about to try make sure that it's at the zero position. So
+[00:04:57] remove the split node and add in a distance node. Plug in position to that
+[00:05:05] and plug that into the remap. So distance will take in two positions which are
+[00:05:11] vector threes and compare the distance and output a number which tells you how
+[00:05:16] far apart they are. So what we'll do is we'll look at each position on the
+[00:05:21] effect and see how far away it is from zero zero zero. In the remap let's plug
+[00:05:27] in zero and 1.5 as the in values and save asset. It's kind of hard to see
+[00:05:37] right now so let's change our particles just a little bit. Open your graph
+[00:05:42] settings and change the surface type to transparent. And now we have the alpha
+[00:05:48] value available. Add in a sample texture 2d. Let's use the default particle for
+[00:05:57] this and plug that into alpha. Okay now we can see this much better. So what
+[00:06:09] we're doing here is we're looking at the center point zero zero zero and we're
+[00:06:15] looking at each pixel to see how far away it is. If it's 1.5 units away it'll
+[00:06:24] go towards one, the right side of the gradient, and anything closer to zero
+[00:06:29] will go towards zero. So this gives us a spatial effect and we can try other
+[00:06:39] gradients on that. Instead of using zero zero zero let's use the camera's position.
+[00:06:49] Get the camera node and this gives us all the data about the camera rendering
+[00:06:56] the scene. Plug in the position. We'll need to remap this again. Let's use five
+[00:07:05] units. Save asset. Now try moving your camera around and see what happens. So if
+[00:07:15] a particle is five units away it'll go towards one and zero units away will go
+[00:07:22] towards zero. So this effect changes depending on how close we are to it.
+[00:07:27] Okay let's try one more thing. Go ahead and delete the camera and we'll just
+[00:07:32] compare with position zero. And let's delete the sample gradient and replace
+[00:07:38] it with a sine node. Save asset. And you won't see this effect just yet. Let's run
+[00:07:49] this over a very small distance like 0.01. Try that. And now we get this very
+[00:08:01] trippy effect. So we're looking at the distance from the center and running
+[00:08:06] that through a sine function over a very small distance which produces this
+[00:08:10] repeating wave. And these are just a few effects that we can accomplish by
+[00:08:14] looking at position. As you can see this adds a new level of interaction because
+[00:08:19] now we can have VFX and environmental effects which respond to world inputs. So
+[00:08:24] we can change color based on the height of an object or we can look at where
+[00:08:28] it's at in the game world. And we can also see where the camera is facing or
+[00:08:32] how far away it is from the camera. And we can use all this information to
+[00:08:37] connect the effect with the surroundings. So in the next lesson we'll see a whole
+[00:08:41] new level of power. We just learned how to get information from the mesh geometry.
+[00:08:46] In the next lesson we will change the mesh geometry. I am very excited for that
+[00:08:51] one.

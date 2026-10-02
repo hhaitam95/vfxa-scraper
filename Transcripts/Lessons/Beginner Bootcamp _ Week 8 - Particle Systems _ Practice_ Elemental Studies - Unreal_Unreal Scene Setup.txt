@@ -1,0 +1,60 @@
+[00:00:05] Hey! In this quick video we are going to see how we can create a showcase scene like this one.
+[00:00:12] This is going to be very useful to check how our effects look as we make changes,
+[00:00:17] see how different environment conditions affect the result and correct accordingly.
+[00:00:24] And also why not is going to serve us to showcase our effects in the best light possible.
+[00:00:31] So the first thing we need to do is create a new Unreal level,
+[00:00:35] which can be done by right clicking anywhere in the content browser and selecting level,
+[00:00:40] and that's going to give us a completely blank map.
+[00:00:44] There isn't even any lights or anything to reflect them, so everything looks pitch black.
+[00:00:50] So let's start by creating some lights.
+[00:00:52] We are going to add a directional light that works like our sun,
+[00:00:57] and you can do that by going up here and selecting it inside the lights folder.
+[00:01:03] It looks like nothing has changed,
+[00:01:05] but that's because there is still nothing in the scene for that light to illuminate,
+[00:01:09] so hang in there just a second,
+[00:01:11] as we are also adding under the visual effects menu,
+[00:01:14] sky atmosphere and an exponential height fall.
+[00:01:20] And these two are going to give us a basic sky background.
+[00:01:24] If I now create a simple cube, you can see it thanks to the directional light,
+[00:01:29] but you can also notice the shadows feel a little too harsh.
+[00:01:34] To fix that, we are going to also create a skylight under the same menu,
+[00:01:39] which is going to add some indirect lighting.
+[00:01:42] Now with these four elements we have a basic light setup,
+[00:01:46] and we can play with the intensity values and the rotation of the directional light
+[00:01:51] to get the style of lighting that we want.
+[00:01:54] Let's try to keep it somewhat neutral for now,
+[00:02:00] and with the lights on it's time to add some environment to put our effects in.
+[00:02:05] Most of the time we are going to need some floor to place either our effect
+[00:02:10] or the character module that's going to hold it.
+[00:02:13] For the series I've placed the effects on top of these meshes
+[00:02:17] that act as a base with some background wall,
+[00:02:20] but you could go with a simple plane with a grid or checkerboard texture
+[00:02:24] to serve as a reference for scale.
+[00:02:27] And that's relevant, just like in a composition where adding a tiny person
+[00:02:32] next to a giant robot helps to communicate the size of that thing.
+[00:02:37] These checkerboard textures serve to better understand the scale
+[00:02:42] and perspective of what's happening in our effect.
+[00:02:45] The kind of environment that you set up around your effect
+[00:02:48] is going to contextualize things like scale, color or the mood.
+[00:02:54] So in our case we're going to add a plane
+[00:02:57] and we are going to create a simple material that shows a checkerboard texture
+[00:03:02] according to the world position, to the world scale.
+[00:03:06] We have our texture sample, the input is the world position
+[00:03:11] and we are dividing that by a parameter that lets us change the size of the squares
+[00:03:16] so that we can tweak it depending on the scale we are going to be working with.
+[00:03:21] I've applied that material to our plane
+[00:03:27] and we can make it as big as we want without distorting our grid texture
+[00:03:32] since it's using the world position as a reference.
+[00:03:36] Once these basic elements are there
+[00:03:39] you can also add a post-processing volume
+[00:03:42] and play with all the filters and effects available there.
+[00:03:47] You can add different lights to the environment to set the mood
+[00:03:51] even some spotlights to highlight different elements.
+[00:03:54] Just keep in mind that in most cases what you want is a neutral setup
+[00:03:59] that's going to help you see the actual colors and values that you are using in your effect
+[00:04:05] and make sure that you are not creating an effect
+[00:04:08] that is somehow dependent on your specific environment in order to look great.
+[00:04:14] And I think that's going to serve as a kind of quick start guide to have something to work with.
+[00:04:23] There is a lot more to be explored regarding Unreal Lightning
+[00:04:27] and all the tools available for environment creation
+[00:04:31] but let's not get lost in the weeds and let's move on to the VFX lessons.

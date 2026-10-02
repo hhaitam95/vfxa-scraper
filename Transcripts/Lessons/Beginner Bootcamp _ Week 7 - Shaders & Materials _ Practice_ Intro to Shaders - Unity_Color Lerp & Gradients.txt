@@ -1,0 +1,69 @@
+[00:00:05] Hello again, I'm Jaden and in this lesson we will introduce color into our shaders.
+[00:00:11] So far we've only worked with black and white values.
+[00:00:14] Color normally comes in near the end of a shader after we've already adjusted our grayscale textures.
+[00:00:21] When we build shaders this way it'll keep them flexible so that we can use a single shader to produce a bunch of different color
+[00:00:28] variants.
+[00:00:29] So to get started create an unlit shader graph called the color, make a material and apply that to a quad.
+[00:00:35] And open up your graph workspace.
+[00:00:37] Let's start by adding a texture and we'll use Unity's default particle. And then we'll add a simple color node and
+[00:00:56] select here to pick a color. And of course color is a vector 3,
+[00:01:04] but this node is a vector 4 because we can also use the alpha channel if we want to.
+[00:01:10] But we'll just ignore that for now.
+[00:01:12] So let's multiply these.
+[00:01:14] So by multiplying our grayscale texture with a color,
+[00:01:24] we just apply a tint to that color. And we can still manipulate colored textures in the same way
+[00:01:36] we did with grayscale textures.
+[00:01:49] Remember that color is just a set of three numbers. And
+[00:01:54] so when we do math to it, we just apply that math to all three numbers as well.
+[00:01:59] So what if we want to put multiple colors in our effect?
+[00:02:05] Well, we still want the flexibility of working with grayscale textures,
+[00:02:09] but we can convert the black and white values into multiple colors using the lerp node. Let's add another color.
+[00:02:20] So before we would lerp between two textures and use a single value to pick between them.
+[00:02:37] Now we're going to lerp between two colors and use a texture to pick between them.
+[00:02:42] So we have color A and color B. And on the texture we have 0 on the outside,
+[00:02:52] so that'll pick color A. And then 1 in the middle will pick color B.
+[00:02:58] And then in between we will average between those colors.
+[00:03:01] So this opens up the ability to bring more colors into our effects,
+[00:03:05] but you can get weird results when you start lerping between colors.
+[00:03:09] Because what lerp does is it creates a new color in between those two colors using their individual
+[00:03:16] RGB values. So we could switch these around if we want to.
+[00:03:20] So you can see that we have that bright red on the outside and the saturated cyan color on the middle.
+[00:03:29] But then there's this outer range here that has these grayish,
+[00:03:34] desaturated colors. So let's look at what's happening there. So let's look at the RGB values here.
+[00:03:43] We chose cyan, which is no red, full green, and full blue.
+[00:03:49] Then for the other color we chose red, which is full red, no green, and no blue.
+[00:03:56] And you can see how they're opposites, and that's also why they're opposite from each other on the color wheel.
+[00:04:02] So when we lerp between these two, it's almost like we are drawing a line directly across the color wheel.
+[00:04:09] And in the middle, it's kind of like we cross through a range of
+[00:04:14] desaturated, grayish colors.
+[00:04:16] This is what we don't want to do. It's because during this transition,
+[00:04:19] all of the colors are in the middle and they go through this middle range where they're all gray.
+[00:04:24] And there's an easy way to avoid that. What you generally want to do when you're picking two different colors is
+[00:04:33] pick colors that are close to each other on the color wheel. For example, if you fade between red and
+[00:04:39] a yellow color, yellow actually contains red, so it'll be a nice easy transition between the two.
+[00:04:47] And so if you draw a line here, it's almost like you're staying on the color wheel.
+[00:04:51] So whenever picking two colors, as long as you stay somewhat close by each other and go around the color wheel,
+[00:05:01] you'll have better results.
+[00:05:03] So that's just something to keep in mind when you're picking colors. And here we're using a soft shape,
+[00:05:15] but we can also do the same with a hard shape. And we can also use our texture adjustments before the lerp to
+[00:05:34] bias towards one color. For example, the power node that we used before.
+[00:05:39] So instead of moving the texture towards white or black, it'll move it either towards the first color or the second color.
+[00:05:51] And that's how we can apply adjustments to the result. Of course, we can also combine textures just like we did before and
+[00:06:09] adjust them before that to produce even more customized results.
+[00:06:14] So we're just combining the things we've learned already to create more options.
+[00:06:18] So lerp only uses two colors, but we did learn about a node that lets us use any number of colors.
+[00:06:27] A sample gradient node.
+[00:06:36] And this will use our black and white values to select a color from the gradient.
+[00:06:40] And so we have this choice between lerp and gradients.
+[00:06:55] Gradients are very cool, and they're very powerful for specific effects,
+[00:06:59] but they're not very flexible because you cannot change a gradient outside of the shader.
+[00:07:05] But lerp uses two colors, so we can create different materials with different color options, but gradients cannot do that.
+[00:07:12] We can also change colors and animate them at runtime, but we cannot change a gradient.
+[00:07:18] So there's pros and cons to each method.
+[00:07:22] So you can see that as we bring things together, we have a ton of control over the final output.
+[00:07:28] We know how to adjust black and white textures, then we can combine those textures,
+[00:07:33] then we can add color to those textures.
+[00:07:35] And so we can use all this to create complex shaders and make basically anything you can imagine.
+[00:07:42] This could be a good time to start playing around. Try the different nodes that we've learned and see what you can make.
+[00:07:48] So that covers all the basics on how to use color, and in the next lesson
+[00:07:52] we will learn how to distort our textures to apply fluid motion effects. That one is going to be fun.

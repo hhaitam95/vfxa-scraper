@@ -1,0 +1,383 @@
+[00:00:05] Hey everyone, now that you're hopefully feeling a little bit more comfortable with the basics
+[00:00:09] of Niagara, you're having some fun from the fire tutorial, we want to use the second tutorial
+[00:00:15] and our item pickup effect here to dig a little bit more into effects on two axes.
+[00:00:23] The first is just continuing with the technical.
+[00:00:27] We want to keep building on that knowledge from the last tutorial, start giving you some
+[00:00:32] insight into all of the different ways that you can really dig in and start customizing
+[00:00:38] Niagara to build exactly the effect that you want.
+[00:00:42] And we're going to be creating some custom materials to let us add our different textures
+[00:00:48] that you see here, our rings, our sparkle, really, really tailoring those shapes in your
+[00:00:56] individual particles in a way that will really let you have a huge amount of artistic control
+[00:01:02] over your effect.
+[00:01:05] And the second axis that we want to start digging in on is just some of those basic
+[00:01:13] fundamentals that will help you make awesome effects anywhere with any tool.
+[00:01:19] So we're going to be using this effect to talk a little bit about gameplay and animation
+[00:01:25] and timing and a little bit of color, composition, stuff like that.
+[00:01:33] So I think there's hopefully a lot of fun stuff in this tutorial.
+[00:01:38] I think the information here will really, really start to unlock you to hopefully make
+[00:01:47] any effect that you can come up with and really start making that with a lot of intentionality
+[00:01:53] and confidence, hopefully.
+[00:01:56] So yeah, let's get going.
+[00:02:00] So we're going to start again by just making our effect.
+[00:02:08] So right click anywhere in the content browser, create a new Niagara system.
+[00:02:13] We're going to do an empty one.
+[00:02:15] All right.
+[00:02:17] And we will go ahead and name this.
+[00:02:21] So PSO2 item demo, you're just going to double click to crack that open, dock it.
+[00:02:34] And we're just going to make our first emitter real quick.
+[00:02:37] So we're going to right click, go to add emitter, and we're just going to do an empty one this
+[00:02:43] time because this first emitter is going to be really simple.
+[00:02:48] So we're going to rename this real quick to MEGLOW.
+[00:02:53] And then really, really quickly in our emitter update, we're going to left click and we're
+[00:03:01] going to type spawn rate.
+[00:03:05] We're just going to go ahead and add a spawn rate and we're going to set that to something
+[00:03:11] really slow like two.
+[00:03:16] And now we are going to remember that we need to fix our exposure value.
+[00:03:21] So we're just going to uncheck auto inlet and take this down to zero so that it matches
+[00:03:26] what's going on in the actual scene here a little better.
+[00:03:32] In our initialized particle, we're going to go ahead and randomize our lifetime a little
+[00:03:41] bit and make these kind of long.
+[00:03:48] This is going to be the core of our entire effect.
+[00:03:53] So if you've got some sort of magic item that you really want people to pick up, then this
+[00:04:05] effect goes behind it.
+[00:04:07] Now our chicken is glowing.
+[00:04:11] This is easier to illustrate here.
+[00:04:14] So this glow is going to be the main thing that goes behind the chicken to really draw
+[00:04:18] your eye to it.
+[00:04:19] And then the rings, the sparkles, the little bokeh dots will sort of flesh that out.
+[00:04:25] But the core of the composition of this effect is using that glow to really, really pull
+[00:04:33] your eye to it.
+[00:04:34] So that's why we're starting with the glow because this is kind of the core of this entire
+[00:04:39] effect, both in terms of its pacing and its composition.
+[00:04:43] So next for our color mode, we're going to go ahead and set this to a random range.
+[00:04:51] And we're going to keep these pretty close together because we don't want anything wildly
+[00:05:00] variant.
+[00:05:01] We want a little bit of variance to give this a little bit more organicness in life.
+[00:05:05] So we're going to do like a pale gold and a pale orange and then that's all we need
+[00:05:11] to worry about there.
+[00:05:14] For our sprite size mode, we're again going to do a random uniform, but again with very
+[00:05:22] small amounts of randomness.
+[00:05:26] And that's all we need to worry about here because this is always going to be round and
+[00:05:32] round so we don't need to worry about rotation or anything.
+[00:05:36] Next up in particle update, we're going to add a scale color.
+[00:05:45] We're going to switch this over to the linear color curve.
+[00:05:52] And we're going to keep this pretty simple.
+[00:05:58] So we're going to drag this one to about the halfway point and then we're just going
+[00:06:06] to double click it and we're just going to set the value to two just so that it starts
+[00:06:11] out kind of nice and glowy.
+[00:06:14] We're not going to mess with the color itself because our range up here is already pretty
+[00:06:22] narrow so we'll just let those do whatever they're going to do.
+[00:06:26] And if we go over to our second key at the end here, just double click that and make
+[00:06:32] this a little bit more light orange pink so that it just has a little bit more fade over
+[00:06:41] its lifetime.
+[00:06:43] And then down at the bottom in our alpha, we're going to drag this second key over or
+[00:06:51] this first key over.
+[00:06:55] We can just right click on both of these and set them to 0.5 so that the fade on both
+[00:07:04] of these starts at the same time.
+[00:07:06] We'll add one more key over here and just right click and set it to 0.1.
+[00:07:11] And we're going to add a fourth key over here and just double click and set its value to
+[00:07:18] zero so that we have a little bit of a fade over here.
+[00:07:24] And that's all we've got to do for that one.
+[00:07:28] And for our last module that we're going to be adding to this one, we're just going to
+[00:07:33] add a scale sprite size and for this we can pretty much just click on this ease in template
+[00:07:47] up here.
+[00:07:49] We can select this key in the middle, just drag select and then just hit delete because
+[00:07:54] we don't actually even need that much complexity.
+[00:07:59] And this key is great.
+[00:08:03] This first key we're going to drag select and then we'll set it to start at a size of
+[00:08:09] like 0.35.
+[00:08:14] This just again helps this whole thing feel a little bit softer and gentler because you're
+[00:08:19] not going to have to do that whole scale up and so that's going to be a little less motion
+[00:08:24] overall which is really nice for this kind of soft welcoming glow in this in the base
+[00:08:32] of this effect.
+[00:08:34] So we'll just go ahead and grab this handle here and flatten out this tangent.
+[00:08:41] So we've got a nice soft ease here.
+[00:08:45] This is just going to be a really, really nice soft pulse overall and that's everything
+[00:08:52] for our emitters on this.
+[00:08:53] So we're just going to go down to our sprite renderer and we're going to be looking to
+[00:09:00] replace this material with something that's a lot softer like what we've got going on
+[00:09:07] in the middle here.
+[00:09:11] So we're going to go ahead and go back to our content browser.
+[00:09:16] I'm going to go into the materials folder here and I'm going to right-click and create
+[00:09:21] a new material and we are going to call this mm score article demo.
+[00:09:35] Double-click to open this and again this material is going to be really, really simple.
+[00:09:44] We're going to right-click anywhere empty and type in particle color and then there
+[00:09:54] are two new things that we need for this compared to the little square we made in the
+[00:09:58] last one.
+[00:10:00] We need a texture parameter so we can hold down T and click anywhere and that's the hot
+[00:10:07] key to just create a new texture sample for us.
+[00:10:10] This is what will let us pull in the rings or the sparkles or anything like that and
+[00:10:17] really, really fine-tune those shapes and we need to combine these two.
+[00:10:24] For that we're going to multiply them together so that they just stack on top of each other
+[00:10:34] and to add a multiply node we're just going to hold down M and click and that's everything
+[00:10:44] we need there.
+[00:10:46] So we don't have access to our opacity right now so we need to fix up some basic
+[00:11:00] properties of the material.
+[00:11:02] So to do that make sure that you don't have anything selected here and then in the details
+[00:11:09] over here to go down to material where it says blend mode we're going to switch it to
+[00:11:15] translucent.
+[00:11:16] You can see that that changes a lot of the options we have over here and for our shading
+[00:11:23] model we're just going to go ahead and switch this to unlit.
+[00:11:29] The reason why we're doing that is just because most particles, especially for stylized effects,
+[00:11:37] don't need to pick up a ton of environmental lighting from whatever level they're in or
+[00:11:45] stuff like that.
+[00:11:46] We kind of want them to be consistent and a lot of them also tend to be very glowy.
+[00:11:51] Stuff like that.
+[00:11:52] So by switching this to unlit we're going to save a ton on performance by not forcing
+[00:12:00] all of these particles to constantly be calculating new lighting information and it doesn't really
+[00:12:09] impact the final result in many cases or in some cases looks even better.
+[00:12:14] So unlit isn't the end-all be-all of particles.
+[00:12:20] There are a lot of cases where you will want lighting affecting your particles but for
+[00:12:24] what we're doing here this is good.
+[00:12:29] And you can see this has significantly impacted the settings that we have available over here.
+[00:12:36] So for our emissive color just like last time we're going to take this white pin in the
+[00:12:41] particle color that's our RGB combined and we're just going to left click and drag that
+[00:12:46] straight into the emissive color and for our opacity we're going to grab the gray alpha
+[00:12:54] pin from the particle color and drag that into A on our multiply and we're going to
+[00:12:59] take the RGB pin for our texture sample and plug that into B and then we'll go ahead and
+[00:13:10] plug this into our opacity and then it will yell at us because we haven't actually assigned
+[00:13:17] a texture here yet.
+[00:13:19] So if we click on this down here there's going to be the section that says texture where
+[00:13:25] it says none we're going to go ahead and search and we're going to grab we're going to search
+[00:13:29] for ring and we're just going to grab this first result and now if we click on any of
+[00:13:39] these little circles up here mostly this middle one with the plane you can see we've
+[00:13:43] got our ring.
+[00:13:47] So that's our entire material this is going to let us create basically any shape of particle
+[00:13:54] that we want but there's one more thing that I want to do while we're in here and that
+[00:14:01] is set this up so that we can make material instances.
+[00:14:08] Material instances are going to be copies of this material that only show information
+[00:14:15] that we have specifically told them to so they're a lot simpler to work with and because
+[00:14:22] they'll be taking all of their instructions other than that from this parent material
+[00:14:28] it means that we can make changes in the parent material if we need to add a new feature if
+[00:14:38] we need to fix a bug if we need to go back and do some performance cleanups or anything
+[00:14:44] like that you can do those in the parent material and that will propagate over to all of your
+[00:14:52] material instances so it is an absolute lifesaver in larger projects and stuff like that.
+[00:15:01] So in the case of this one the only thing that we want to reveal and edit is our texture
+[00:15:08] so that we can swap to the sparkle the soft glow stuff like that.
+[00:15:12] So on our texture sample we're just going to go ahead and right click and convert to
+[00:15:18] parameter down here and then we're going to need to give this a parameter name so we'll
+[00:15:24] name it main texture and now we're good so we'll go ahead and hit save and that's everything
+[00:15:36] there.
+[00:15:37] If we go back here into the content browser then we can right click on this and now you
+[00:15:43] can see at the top we've got create material instance we'll go ahead and name this one
+[00:15:49] mi rings demo and if we double click pop this open you can see we've got our ring material
+[00:16:03] we've got our main texture over here and other than that is a lot lot simpler you can see
+[00:16:09] we've got our parent material down here so we're going to make the rest of our materials
+[00:16:15] real quick just because we're here and then we'll get back into Niagara.
+[00:16:18] So we're going to go ahead and just copy paste a few of these so this will be mi sparkle
+[00:16:30] demo we'll see control v mi glow demo v mi dot demo and we'll just go ahead and pop
+[00:16:53] all of these open all right now for our each of these we're just going to go ahead and
+[00:16:58] check main texture to enable being able to edit it and then we'll just click the drop
+[00:17:06] down here and we'll search for example sparkle hit save enable the glow save remote save
+[00:17:27] and that's everything for our materials so let's just go ahead and hop back into Niagara
+[00:17:34] and for this first one our glow in the sprite render material let's go ahead and just search
+[00:17:41] glow demo and now we have our glow all taken care of and you can see how much softer that
+[00:17:51] pulse gets and stuff which is really nice so we're going to create the rest of our effect
+[00:17:58] next so we'll just drag select this we'll see and control v to create a new one and
+[00:18:05] we will rename this to our rings this is going to be our nice secondary element that adds
+[00:18:13] some extra texture and interest to that core glow and also really you know helps to draw
+[00:18:22] your eye towards the center of that even more so this will be a really really nice piece
+[00:18:27] compositionally let's go ahead and change our material first so that we're working with
+[00:18:38] everything from the start there and we are going to delete this spawn rate because we want this
+[00:18:49] to be kind of an irregular pulse of three rather than just like a constant on we want a little bit
+[00:18:55] more variety than that so in our emitter update instead we're going to add a new module and we're
+[00:19:01] going to add this spawn burst instantaneous and what spawn burst instantaneous does is it emits
+[00:19:11] however many particles you tell it to at exactly the time that you tell it to so this is really
+[00:19:18] really nice for having really precise control over well bursts mostly but anywhere that you
+[00:19:28] want to emit particles very very precisely spawn burst instantaneous is great and because we want
+[00:19:36] a set of three of these we're actually just going to go ahead and we'll see and control v twice to
+[00:19:43] add two of these and we'll just set the spawn times on each of these a quarter second apart
+[00:19:51] so now we get that nice little ripple there and that's all that we need to worry about there so
+[00:20:01] next in our initialized particle we're going to drop the lifetime of these just a little bit just
+[00:20:14] so that they play a little more nicely we're going to switch to just a single color for simplicity's
+[00:20:24] sake and we're going to do kind of again one of those nice light bold colors and we're going to
+[00:20:32] set the alpha to 50% this just allows us to get a little bit of visual overlap there which I think
+[00:20:43] it's kind of nice and it also pushes these into the background a little bit so that the glow is
+[00:20:48] still much more obvious focal point of all of this for our sprite size we're not actually gonna worry
+[00:20:57] about doing anything but we are going to add some more stuff in the color so to start with in our
+[00:21:09] color we're going to add a key at the top here and we're actually going to start these a little bit
+[00:21:13] cooler than they will be at their peak this is just to kind of give them we want to give them
+[00:21:20] a nice color arc so that they start a little bit cool and then they become bright kind of get that
+[00:21:26] nice peak to them and then they kind of fall back off and fade away cool off all of that sort of
+[00:21:32] stuff at the same time this is just kind of more fun and visually interesting which is always a
+[00:21:41] bonus but it also means that by cooling those down and knocking them into the background a
+[00:21:48] little bit faster it helps even more to maintain that composition where the glow and the item in
+[00:21:54] the center of the glow are always the main focus so we're just going to start these a little bit
+[00:22:03] of a pale orange just a tiny bit darker than they will be at their peak we're going to drag our
+[00:22:13] white key with a value of two up to do about 0.15 and we'll get rid of this second full opacity key
+[00:22:33] so they start fading off even that much more quickly and then we're going to go ahead and
+[00:22:39] just add a few more keys in here to give it a little bit more of a hue shift as it fades
+[00:22:45] away so we'll add we'll fade it down a little bit more yellow to start with we'll transition
+[00:22:54] it through a little bit of a nice pale orange and then we're going to go even a little bit pink
+[00:23:06] towards the end here as it's fading completely away and you can see a little of how that plays
+[00:23:13] out over here now it winds up kind of nice and that's everything for our rings so we're going
+[00:23:25] to go ahead and copy our glow instead of the rings for this next one because our last two
+[00:23:33] emitters are also going to be using the spawn rate instead of the spawn bursts so a little
+[00:23:38] easier so we're going to rename this to any bokeh dots and for our sprite renderer we are going to
+[00:23:48] go ahead and search mi dot and let's go ahead and isolate these ones for now so that they're
+[00:24:00] a little bit easier to see so the point of these is just going to be to add some really really
+[00:24:08] subtle shimmer to the effect overall if we isolate these here you can see how subtle we're talking
+[00:24:17] but then if we disable the renderer you can see how it loses a little bit of that kind of magic
+[00:24:27] sparkle feeling to it without them so that's what we're kind of hoping to add with this one so the
+[00:24:34] first thing that we're going to do with our bokeh dots we're just going to up our spawn rate very
+[00:24:41] slightly because these are going to wind up being a little bit smaller and in our initialized
+[00:24:48] particle we're going to reduce the lifetime quite a bit because we just kind of want these little
+[00:24:59] pops of shimmer color hanging around for our colors we're going to go we're gonna go a lot
+[00:25:10] broader with these ones because we want a lot of kind of fun range in these so we're actually
+[00:25:16] going to start all the way over and kind of a bright pinkish purple sort of color and we're
+[00:25:25] going to set this to just be an incredibly low alpha like you know 0.1 or something and for our
+[00:25:41] second color we're going to go a little bit richer of a gold and we're going to set that even lower
+[00:25:48] on the alpha we're going to set it to like 0.05 and now we're just going to again make size a lot
+[00:26:04] smaller something like 10 to 24 so these are something where we can afford to get a lot more
+[00:26:10] variance in the size because again they're a little bit more sparkly irregular magical
+[00:26:15] and now if we un-isolate this you can see that they're completely lost so the thing that the
+[00:26:29] last thing that we want to do in our spawn is just randomize where they're showing up so that we can
+[00:26:34] actually see them and how they kind of flesh out this effect overall so we're going to go ahead and
+[00:26:41] add a location module one of these shape locations it's already set to a sphere we're going to set
+[00:26:50] the radius to 25 and that's everything we need to do there and you can see how even just that starts
+[00:26:59] to bring them out to the edges in a really nice way well let's isolate this again and we're
+[00:27:05] actually going to get rid of this sprite size all together and just let the fade in and out do most
+[00:27:14] of the most of the work here as far as preventing them from popping in and out and in that vein
+[00:27:26] we're actually going to switch back to off of the color curve and into RGB and alpha separately we
+[00:27:36] aren't actually going to be adjusting the color over life on these we just want to adjust the
+[00:27:41] alpha so in alpha we're going to click on the little arrow over here we're going to do a float
+[00:27:49] from curve and we're going to customize this a bunch to really get kind of these nice little
+[00:27:57] pops in the alpha that will help make this feel really nice and animated so we'll set this first
+[00:28:05] key to zero so that it fades in and out nicely we're going to add a key right about like two
+[00:28:20] seems good and we'll just set this to be where it's full bright so it pops up to being bright
+[00:28:28] fairly quickly and then we're going to add two more keys whoop deselect that right click
+[00:28:38] add our key again and then we're just going to drag select both of these and set the value of
+[00:28:45] both of them to 0.5 so this gives us an initial little pop of brightness and then lets them have
+[00:28:57] kind of a long little trail off and this kind of gets us a really nice motion compared to say
+[00:29:06] something like this that's a lot more even undo that real quick and the last thing we're just
+[00:29:15] going to do is go ahead and select drag and select all of these right click any of the
+[00:29:23] keys and then set the tangents to auto and then we will do a little bit of cleanup here so flatten
+[00:29:36] those use this out a little more soften this transition in a little bit and then we sort of
+[00:29:51] have like this fun poppy sparkle going on over here now I still want a little bit of motion to
+[00:29:58] this we've kind of lost that aspect with taking away the scale we but if you are familiar with
+[00:30:09] bokeh dots in real life or how bokeh tends to look in a lot of scenes where you're trying to
+[00:30:16] create something that feels kind of like a little bit magical and ephemeral and fun and stuff like
+[00:30:21] that they tend to drift around a little tiny bit and one of my favorite modules for creating just
+[00:30:28] like a little bit of organic drift is the crawl noise force module so we're going to go ahead and
+[00:30:37] add one of those it's going to yell at us because this does mean that we're updating the location
+[00:30:45] of the particles and so we need to add that solve forces and velocity so just fix issue and we can
+[00:31:00] we can give a really extreme example of what this can look like real quick because that went so well
+[00:31:07] last time so yeah if we set this up to something the noise strength up to something really high
+[00:31:15] like 250 then you can see how much drift you start getting if we set the noise frequency
+[00:31:24] down to something smaller then start seeing you just get a lot of really kind of organic drifts
+[00:31:33] we don't want anything nearly that extreme so we'll go ahead and reset our noise
+[00:31:40] frequency to the default let's go ahead and un-isolate these real quick so that we're
+[00:31:47] just you know looking at looking at the amount of motion in context of the entire thing
+[00:31:55] and we'll set our noise strength down back to the default as well
+[00:32:03] and this starts to give us some really really nice tiny bits of motion which is
+[00:32:14] about all we want it winds up being pretty subtle in this situation
+[00:32:22] um you can obviously tune it to whatever you like but we don't actually want a huge amount
+[00:32:28] of motion here because we still want your eyes to be here we don't want these to become distracting
+[00:32:35] we just want them to add a little bit scroll noise force also builds up over time
+[00:32:45] so i'm actually going to go ahead and add a drag module and set this to something really high like
+[00:32:54] three just so that we're really really keeping the amount of motion on these
+[00:33:00] small and more in line with how bokeh tends to move in real life so that's three out of
+[00:33:11] four the last thing that we're going to do is our sparkles which i think are the most fun
+[00:33:19] out of all of these modules by a lot so we will go ahead and rename this to any sparkles
+[00:33:33] we will swap this to material whoop to mi sparkle and let's go ahead and take a look at those
+[00:33:48] so i'm going to set our outflows higher first and foremost just
+[00:33:56] so that you can see them a little bit better but we're going to
+[00:34:01] bump our spawn rate way up to something like 12. we're going to
+[00:34:08] pop down into our initialized particle and take our lifetimes way down in exchange so that we
+[00:34:18] aren't getting too too many on the screen and for our color we're going to go down to random range
+[00:34:27] hue saturation value again we're going to give this a nice sort of pale gold and then we're
+[00:34:40] and then we will we don't want a huge amount of range on these so something like
+[00:34:48] positive 0.005 for a range ends up getting us a little bit of pink in there which is nice
+[00:34:58] um that's sort of let's get rid of let's disable these real quick so you can see them a little
+[00:35:08] bit better uh bump up the saturation on these a little i think and then for our others we're
+[00:35:19] just going to enable all of these we're going to make sure that our saturation is always fully
+[00:35:25] bright that our alpha is always at a hundred percent and for our value range we're just
+[00:35:32] gonna sprinkle a little bit of extra glow in here keep it between 1 and 1.5
+[00:35:43] and for our shape location we'll just make this sphere a tiny tiny bit bigger because the sparkles
+[00:35:51] are smaller so you can see how this kind of winds up filling out all the way to the perimeter of
+[00:36:00] the rings so that winds up really nicely for us so that's everything there we're going to go
+[00:36:10] re-enable our scale color and hop back over to a linear color curve
+[00:36:17] i'm actually gonna i'm gonna go ahead and delete all three of these and we're gonna
+[00:36:29] steal our scale color from our rings by copy pasting it over here and we're just gonna make
+[00:36:39] adjustments to this one because this one is a little closer to what we're going to what we're
+[00:36:45] going for so we'll go ahead and delete this gold key and we will just drag our kind of pale orange
+[00:36:53] key in a little more we will drag this final key in a little bit more and whoop and we'll double
+[00:37:05] click that and we'll just make this kind of like genuinely soft pink and or our brightest key here
+[00:37:18] we're just going to shift this to be a little bit more of a pale gold something like that is nice
+[00:37:30] and next up we're going to bring back our scale sprite size and this is another case where we're
+[00:37:46] gonna we're gonna start having some fun with our curves um similar to how in our scale color here
+[00:37:55] we were able to really kind of fine tune that little bit of magical pop on the bokeh dots
+[00:38:02] through the alpha in our scale sprite size here we're going to be going for something
+[00:38:08] similar so we like this starting at zero we're going to go ahead and set our end size to
+[00:38:19] 0.5 and around the we'll add a key at about the point at the point one mark at another one at
+[00:38:35] 0.2 and let's bump the value of both of those up to like 1.2
+[00:38:47] and then then what we're going to do is we're going to
+[00:38:54] immediately add another key around like 0.3 and drop them back down in size a little bit
+[00:39:04] so you can see this starts to really give us some of that like star twinkle sort of pop to them
+[00:39:12] and we'll go ahead and select all of these auto the tangents smooth these out a little bit if
+[00:39:32] working on them if fine tuning them over here sucks for you or the window's too small you can
+[00:39:37] always do it down here in the curve editor as well i love a lot more real estate i think that's
+[00:39:46] i feel good about that for now so the last thing that we want to do is just give these a little
+[00:39:52] bit of upward motion so there's a little bit of anti-gravity there's a little bit of extra magic
+[00:39:57] going on there that will be the last major part of this so we are going to go ahead and
+[00:40:07] add an acceleration force and we are going to switch this over to a vector from curve
+[00:40:18] so that we can animate the axes a little bit more now what we want to do with this
+[00:40:26] is we want these sparkles to only be traveling upwards and we want them to
+[00:40:34] gain speed over their lifetimes so the first thing i'm going to do is i'm going to
+[00:40:41] hide our z-axis in our curve over here i'm just going to click this little pin icon next to it
+[00:40:47] and that will hide it and i'm going to select the first key for both x and y curves and just set
+[00:40:54] that to zero so these aren't doing anything anymore we can just ignore them and then
+[00:41:01] invert that so hi both of these reveal our z key and for our first for our first key here
+[00:41:11] we're going to set this to something like 50 and for our key at the end of their lifetime we're
+[00:41:19] going to set it to something like 250 we can just hit f to re-center that and you can see now that
+[00:41:26] they really start gaining some momentum over their lifetime which is a nice bit of kind of fun texture
+[00:41:35] in general but is also starting to play really nicely with what we've got going on in our scale
+[00:41:41] size where they kind of pop in and they're relatively static and then they gain speed
+[00:41:46] over their lifetime so those actually wind up working quite nicely together
+[00:41:52] i want to make them work a little bit
+[00:41:58] nicer still though so if we actually go back up to our sprite size
+[00:42:04] then we will switch this from a uniform curve to a non-uniform curve and we will
+[00:42:14] contemplate the choices that led us to not make that change in the first place we're going to
+[00:42:23] add our keys again really quickly at point one and point two selecting both and put them at point
+[00:42:32] one or at one point two at our third key take that down to 0.95 at three select all of those
+[00:42:43] and soften the curves a little bit and this is the point where we're going to start doing
+[00:42:57] we're start going to start doing something a little bit cheeky so as these sparkles
+[00:43:06] gain momentum i want them to actually stretch along that axis a little bit
+[00:43:13] so really really reinforce that movement upwards and to do that i'm just going to
+[00:43:22] hide our x curve real quick select the end point of the y instead and we're just going to bump
+[00:43:33] this up to something like 1.25 at the end there and if we bring back our x key you can see that
+[00:43:49] that's stayed down at 0.5 and what this winds up doing is creating a nice little bit of motion
+[00:43:58] where they will also kind of preserve their mass a little bit as they get a little bit bigger on y
+[00:44:07] they're going to be getting a little bit smaller on x and that not only helps reinforce the motion
+[00:44:13] but also helps them feel a little bit more physically accurate and the last thing i'm
+[00:44:21] going to do while we're here just to kind of make this whole thing a little bit nicer
+[00:44:28] is i'm going to add one last key at 0.4 and we're going to bounce this back up to something like
+[00:44:38] one and that's just going to get us to disable our acceleration force a little bit real quick
+[00:44:46] it gets us a little bit more bounce uh up and then back up a little bit so that you get a little
+[00:44:55] bit of a rubber band to that pop in of them and that's just a nice last little bit of sparkle to
+[00:45:06] our sparkles it's a very technical term and then since we've added a new key here we'll just go
+[00:45:15] ahead and clean up our curves here a little bit so we're going to right click on these and now
+[00:45:26] that they're auto we're going to set them to break and that will let us that'll let us
+[00:45:36] that'll let us manipulate these ones a little bit more tidally so that we're getting a fairly even
+[00:45:49] curve there be close enough and on this side of them we'll just soften these curves out
+[00:46:06] a little bit something like that okay so that's a that's a little bit of sort of
+[00:46:16] the sorts of things that you can start having fun with with curves where you can really really
+[00:46:21] start getting some of that precise control into them and finally we're just going to add
+[00:46:29] one last emitter here we're going to add a drag again just to make sure they don't go flying
+[00:46:38] too far off into space and we'll just bump that up to something like three again and
+[00:46:49] that's our effect now like i mentioned at the beginning of the video this is very indicative
+[00:46:56] of the kinds of effects that just are in every game it's using all of the same components it's
+[00:47:04] the same components it's starting to use a lot of the same general fundamentals so hopefully
+[00:47:11] it's really really exciting to you that you've gotten as far as this hopefully this lets you
+[00:47:17] feel really empowered to keep riffing on these and either making your own variants or just making
+[00:47:24] your own effects all together and really having a lot of fun with that since we've also started
+[00:47:32] digging into some of the higher level kind of fundamentals separate from niagara things like
+[00:47:40] gameplay clarity things like composition and visual interest those are the sorts of fundamentals
+[00:47:48] that we're going to start digging into a lot more really soon in the block in series and i am really
+[00:47:55] excited for that i really really love those fundamentals they are super valuable for making
+[00:48:03] effects there are a couple more just really quick technical things that i want to dive into for
+[00:48:10] niagara before then just things that they didn't really fit super well into making the torch or
+[00:48:18] making the item pickup but they will be really really helpful for you in letting you really
+[00:48:26] really make exactly the effects that you want and having a lot more control and tailoring within
+[00:48:32] those effects so we're going to jump over and look at those really quickly and i'll see you
+[00:48:40] are there

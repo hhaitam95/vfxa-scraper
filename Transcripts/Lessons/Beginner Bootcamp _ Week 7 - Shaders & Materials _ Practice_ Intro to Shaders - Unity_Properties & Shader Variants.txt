@@ -1,0 +1,165 @@
+[00:00:05] Hello again, I'm Jayden, and in the last lesson we created a basic fire shader.
+[00:00:11] Now we want to make some variations on this effect. Things will stay mostly the same,
+[00:00:16] but we might want to change things like the color of the fire or the speed, and we should avoid making multiple shaders for that.
+[00:00:23] Instead we can use variables to control simple things like color or floats.
+[00:00:30] So I created this little backdrop here.
+[00:00:33] You don't need to do this, but what you can do is improve the view by disabling the grid.
+[00:00:39] You can also right-click here to hide this widget, and
+[00:00:43] also, if you don't see it, this menu has an option called always refresh. Turn that on and
+[00:00:52] that'll make it where this view stays up-to-date.
+[00:00:55] So before we get started, let's look at different ways we can make the material.
+[00:01:00] You can view this in the graph inspector, and here we have our material settings. Up to this point
+[00:01:06] we've always been using unlit, which means that our surface is not affected by the scene lighting. If we choose lit,
+[00:01:13] it will be affected by the scene lighting. So if the quad is in a dark room, we won't see it very well.
+[00:01:19] But if we choose unlit, it doesn't matter if it's in a dark environment or a light environment, we'll see it the same.
+[00:01:26] Whenever you see these sprite options, those are for 2D shaders and
+[00:01:31] decals are something we won't use for now. If you choose lit, you have more surface options.
+[00:01:37] We already know about base color and alpha.
+[00:01:40] You can also pick the overall smoothness, or you can control this using a texture. If a surface is very smooth,
+[00:01:47] it will look glossy and create clean reflections. If it's a rough surface, it won't reflect light much at all.
+[00:01:55] We can plug in normal data if we want to add details to the surface.
+[00:02:00] Normal details can make it look like there's bumps on a surface, and those will be affected by lighting.
+[00:02:06] We know that emission makes it look like the surface is emitting light. With the emission output,
+[00:02:11] we can control emissions separate from the base color.
+[00:02:15] We can use ambient occlusion to darken areas that won't receive as much light, and
+[00:02:20] we can use metallic for metal surfaces.
+[00:02:24] These inputs are mainly useful for surface materials and not VFX shaders,
+[00:02:30] but sometimes they can add extra detail to VFX. They're not as common for VFX, so we'll continue to use unlit for now.
+[00:02:39] We can also control the surface type. If we choose opaque, that means there will be no transparent geometry.
+[00:02:46] This is useful because transparency takes extra processing power.
+[00:02:51] Opaque surfaces are faster to render.
+[00:02:54] By default, we do not see the back faces of our meshes. We can choose to render only the back faces, and
+[00:03:05] we can also render both faces.
+[00:03:08] This is also to save processing power, so don't use both faces if you don't need them.
+[00:03:14] Depth write and depth test are for more advanced effects. We don't need to understand those right now.
+[00:03:23] If we turn on alpha clipping, it'll add an extra surface output here.
+[00:03:28] We can control the alpha, and what this does is any alpha values that fall below this number won't be rendered.
+[00:03:38] So you can see what that looks like here.
+[00:03:41] You're seeing that any values that fall below 0.5 are being cut off, and the graphics engine isn't even looking at those pixels.
+[00:03:49] This can save on performance, but generally you don't need to worry about it, and you can ignore alpha clipping.
+[00:03:55] You can probably guess what cast shadows does. Here we can see the quad casting a shadow.
+[00:04:04] If we turn the surface to transparent,
+[00:04:07] you'll see that even though we have that transparency, it's casting the shadow for the whole quad.
+[00:04:13] It's interesting if you turn on alpha clipping,
+[00:04:18] and turn this value down.
+[00:04:20] These pixels that are not rendered, they're also not included in the shadow pass, so the shadows will be more accurate.
+[00:04:30] For all of the VFX we'll be making, we won't be casting shadows, and we don't need alpha clipping.
+[00:04:41] Lastly, we'll look at blending modes, and alpha is the default.
+[00:04:45] That just means that if a pixel is opaque, it will cover the surfaces behind it. If it's transparent,
+[00:04:52] it'll show the colors behind it, and we can see through any values that are slightly transparent.
+[00:05:00] If you choose additive, this will make the surface look like it's made out of light.
+[00:05:05] It's just like using the add node. It'll brighten the colors behind it,
+[00:05:10] and this is useful for things like fire, or anything that is made out of light.
+[00:05:16] Then we have multiply.
+[00:05:19] This is just like using a multiply node,
+[00:05:22] and you'll see it doesn't use the alpha anymore.
+[00:05:26] This tints all the colors behind it. So if we were to put just a solid color,
+[00:05:34] you'll see it's just applying a tint. If you choose white, it is multiplying all the colors
+[00:05:44] by one, and therefore you can't even see it. We can also darken pixels this way.
+[00:05:59] Let's change back to transparent alpha. Great. Okay, so let's create some variables.
+[00:06:12] We have several numbers here that we may want to change for different effects, and we labeled
+[00:06:17] those with sticky notes. We don't really need the sticky notes because those were temporary.
+[00:06:22] Instead, we should use properties. This here is the properties window, and we can use this to
+[00:06:29] add properties that will be controlled outside of the shader. So instead of typing in a value
+[00:06:35] for the offset speed here, let's use a property instead. Click the plus sign on this window,
+[00:06:41] and add a float. And let's use the same name, offset speed. So now we can add offset speed as
+[00:06:52] a node to our graph, and plug it in. And now this value is driving this multiply. And if you look,
+[00:07:02] you'll see that things are not moving anymore. If you click on this, it'll show you its settings
+[00:07:09] up here, and it has a default value of zero. All the previews on the graph will use the default
+[00:07:16] value. So let's put negative 0.5 back in. And now it's moving again. Let's replace some other
+[00:07:25] variables. And I'll delete this sticky note. Here is our distortion gradient. So we should create a
+[00:07:33] new float for that as well. And I'll copy the name right from here. Add it as a float, paste the name,
+[00:07:43] put that in the graph, and plug it in. We can use the default value of two. We also have the
+[00:07:55] distortion intensity. Right now we have the value 1.8 in there. I'll copy this name, add it as a
+[00:08:04] float. And let's put the default value as 0.2. And there's one more, the glow speed. That has
+[00:08:19] a default value of two. Add a new float, click on that, and plug in the default value to plug that
+[00:08:29] into the graph. Okay, now let's choose save asset. If you click on your quad and look at the inspector,
+[00:08:42] it'll show you the material that's on the mesh. If you double click that material,
+[00:08:47] it'll open the settings. And then now we can see surface inputs. These come from the properties
+[00:08:54] that we made over here. It automatically plugged in our default values as well.
+[00:09:00] And now we can change these on the material outside of the shader. If you start moving
+[00:09:05] these numbers around, you'll see that it affects the material immediately. So now let's look at
+[00:09:12] color. Right now we are using a gradient to drive the color. And if you click plus, you'll see
+[00:09:17] there's lots of different types of data we can send into the shader. If you choose gradient,
+[00:09:23] you'll notice something interesting. All of these properties have a green dot next to them,
+[00:09:29] gradient doesn't. And if you choose save asset, it still doesn't show a gradient over in the
+[00:09:35] inspector. This is because gradients cannot be exposed in the inspector. And in fact,
+[00:09:41] there's a bunch of these data types that can't be shown in the inspector.
+[00:09:46] If you have a dot next to it, that means you will be able to see it.
+[00:09:50] All of the shader calculations are done on the graphics card. And it's more complicated than you
+[00:09:56] might think to send a gradient to the graphics card. But that's okay. Our gradient uses two
+[00:10:02] colors. And we can achieve the same effect using a lerp node. Remember that black areas pull from
+[00:10:09] the left side of this color, and the white areas pull from the white side. This is the same as a
+[00:10:15] lerp node. Let's delete our gradient and replace it with lerp. And we don't need the gradient
+[00:10:26] property. Instead, we can add two color properties. So I'll add color and name it color one.
+[00:10:34] I'll add another color and name it color two. And we'll use those two colors to use this texture
+[00:10:44] to lerp between color one and color two. So let's pull these onto the graph and plug them into lerp
+[00:10:52] A and lerp B. And they still have those default values of black, which is why you're not seeing
+[00:11:00] anything here. Let's choose the dark orange for color one and then color two. We want to choose
+[00:11:10] that bright yellow. Before we used HDR colors to create the glow effect, we had that intensity
+[00:11:18] slider here that's now missing. If you go to the property, you'll see that it has a mode of default.
+[00:11:26] We can change this to HDR. And that makes it an HDR color, which means we can push the values above
+[00:11:32] one. And now it looks pretty much the same as we had it before. Let's plug that into the color.
+[00:11:41] And then if you choose save asset, now the material has two color inputs and we can use
+[00:11:47] those with lerp. This is one benefit of using lerp over a gradient. The last thing we may want to
+[00:11:54] change is the fire texture. We're using this hand painted texture here, but we could just as easily
+[00:12:00] create other textures with different fire shapes. So we should allow for that on the material as
+[00:12:06] well. Let's add another property here called a texture 2D. Let's call it main texture and plug
+[00:12:16] that in. You'll notice as the red wire because that's for a texture. And then we still need to
+[00:12:25] set a default value for this. If you choose the circle, we can use the upward fire and save asset.
+[00:12:35] So you see that it didn't carry over to the material. And we changed a bunch of these numbers
+[00:12:39] here so they don't match the default values. When you have the material selected, there's this menu
+[00:12:45] with three dots. You choose that and choose reset. It'll change all the values back to the defaults.
+[00:12:52] Just make sure you choose the right menu. And there's one other setting that's pretty cool.
+[00:12:58] In fact, this is something I forgot to add is the distortion intensity. Let's put that in here
+[00:13:06] and plug that into the multiply. There's a bunch of settings up here. Most of these we don't need
+[00:13:13] to mess with, but the mode has different options and slider is something we might want to use.
+[00:13:21] This creates a slider in the inspector and let's see what that looks like. Choose save asset.
+[00:13:28] And now this distortion intensity changed to a slider that we can move up and down rather than
+[00:13:34] typing in a number. And that can be very convenient if you have things that you know you want to be
+[00:13:40] in a certain range like this. We will never want to take this intensity above one, so we can just
+[00:13:47] use a zero through one slider for that. Okay, so now let's make some material variants. Let's switch
+[00:13:54] to the scene workspace. What I'll do is duplicate this main quad with control D. I'll do it again.
+[00:14:09] And let's create a new material in the project. I'll call this one fire one. I have this material
+[00:14:21] selected and I can pick the shader that we're using. I'll choose this, go to shader graphs,
+[00:14:27] which is where all of our shader graphs are stored, and choose fire. So now it's using the
+[00:14:33] shader that we just created. I also want to select this and duplicate it twice. So control D, control
+[00:14:40] D. I'll apply fire one to the first quad, fire two to the second quad, fire three to the third quad.
+[00:14:50] If I select the quad it will show it to me in the inspector, and on the bottom it shows the
+[00:14:54] material we're using. So let's make this fire look a little bit different. I'll go to the middle fire
+[00:15:08] and here I can choose that material. I'll give this one a different shape using a different
+[00:15:14] texture. Let's try this sword swipe. That looks pretty interesting. We can also change the color.
+[00:15:30] And this one we can choose yet a different material. Let's try this mote blurred.
+[00:15:44] So here we go. We have three different effects. They are all using the same shader and we didn't
+[00:15:49] have to change anything in the shader after we added those variables. We could create more effects
+[00:15:55] with different textures, different colors, different speeds, and we'll get a different look.
+[00:16:00] Each using the same principles that we used to build the fire.
+[00:16:05] Before we move on let's organize. Going back to our graph workspace I will select one of these
+[00:16:12] quads and I can double click the material, choose edit. This is just a different way to open up your
+[00:16:19] shader. We should organize our graph a little bit especially now that we're done with it.
+[00:16:28] There's a lot going on here, a bunch of different nodes, and if we ever come back to the shader
+[00:16:33] in the future we'll want to remember what's going on. We can do this by following all of the nodes
+[00:16:38] and thinking about what they do or we can just label them so that we can read what they do
+[00:16:43] instead of thinking about it every time. So first I'll set these up in a nicer format
+[00:16:56] and this whole chain right here is all producing this last effect. This is the end result and
+[00:17:04] really the only thing we care about, not so much these. So what we can do is highlight all of them
+[00:17:10] and press ctrl g. We can also right click and choose group selection. That will put them all
+[00:17:18] into a group and allow us to name the group. Let's call this scrolling noise. So now whenever we see
+[00:17:27] this we don't really need to think about what it does, we just need to know the effect scrolling
+[00:17:32] noise. Same thing up here I'll press ctrl g and name it distortion gradient and then we can also
+[00:17:45] move these around easily to keep them organized. Here we combine them so I won't label that.
+[00:17:51] This is also where we cause the distortion. ctrl g distortion. This chain here all produces this
+[00:18:10] one scrolling glow. ctrl g scrolling glow. I'll label these as glow and I'll label this as color.
+[00:18:47] Perhaps we made too many groups here. It's up to you how detailed you want to get with these,
+[00:18:52] but really they're just going to help us keep things organized and also make it easier to move
+[00:18:57] groups around. I recommend that you don't bother with this while you're making the shader because
+[00:19:02] you'll often go and reorganize things later, but it's great to do at the end of the shader
+[00:19:07] once you know what everything does. Okay so we still have some more techniques to learn
+[00:19:15] and as we continue through these lessons we won't make full shaders like this. We'll just make small
+[00:19:20] example shaders. For that reason we may or may not use properties during the lessons,
+[00:19:25] but you should always be in the habit of using properties when you're creating shaders.
+[00:19:31] Most shaders use properties and you can add them while you're creating the shader or you
+[00:19:37] can come back at the end and add them where you think they're necessary. So that's all for
+[00:19:42] properties. In the next series of lessons we will look at various effects that will allow our
+[00:19:48] materials to respond to the environment around them. I find these effects to be very fun and
+[00:19:54] I can't wait to get into them, so let's see what else we can do.

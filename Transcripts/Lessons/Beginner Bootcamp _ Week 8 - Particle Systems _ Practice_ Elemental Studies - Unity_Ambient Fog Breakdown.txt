@@ -1,0 +1,193 @@
+[00:00:05] Hello everyone, welcome to the Ambient Fog Breakdown video of the Elemental Studies course.
+[00:00:10] In this video, we'll see how to make a fog effect with complex movement through a simple
+[00:00:15] shader technique shown by Julian Love during its 2013 GDC presentation, the VFX of Diablo
+[00:00:22] 3.
+[00:00:23] We'll first go through a quick concept art phase to have an overview of the ideas and
+[00:00:29] technical constraints of the effect.
+[00:00:32] Then, in the technical breakdown part of the video, we'll talk about cool shaders functionalities
+[00:00:38] in Shader Graph, simple texture procedural generation and painting in Photoshop, and
+[00:00:44] simple particle system emitter setup within the Shuriken particle system editor.
+[00:00:49] So let's get started.
+[00:00:53] This is a quick concept art made before making the effect in Unity Engine.
+[00:00:58] We'll take more time to talk about concept art for VFX in general during the campfire
+[00:01:02] breakdown video.
+[00:01:05] As you can see, I've got a rough sketch of my fog right there, to have a visual preview
+[00:01:10] of the effect.
+[00:01:12] Some ideas and constraints written down next to the visual, and some references to have
+[00:01:18] an idea on how to make the effect and what it looks like in other medias.
+[00:01:24] The most important here will be the constraints notes.
+[00:01:28] I want my fog effect to be a looping subtle environment effect that do not move too much
+[00:01:34] but that has complex movements in it.
+[00:01:37] And most importantly, I want the effect to be light performance wise, by only requiring
+[00:01:43] one particle system and one texture.
+[00:01:46] Fortunately, during my references research, I had the chance to find a GDC presentation
+[00:01:53] made by Julian Love that explained a shader technique they used in Diablo 3 to make optimised
+[00:02:00] complex looking smoke and fog effect, using only one texture.
+[00:02:06] I highly encourage you to take the time to watch the entire presentation.
+[00:02:12] In this video, we'll explain the optimised complex looking smoke technique and how to
+[00:02:18] apply it in our shader during the shader showcase part of the video.
+[00:02:24] We now have a rough idea of what have to be done for the fog effect and the constraints
+[00:02:29] that goes with it.
+[00:02:31] Time for the technical breakdown, where we'll see in depth the entire creation process of
+[00:02:36] the ambient fog effect.
+[00:02:40] We will go through an in-depth shader showcase inside Unity Engine, using the Unity's built-in
+[00:02:45] shader editor, Shader Graph, to understand the purpose of the shader and comprehend the
+[00:02:51] structure and logic of each functionality.
+[00:02:56] We will talk about texture creation within multiple colour channels, and tools inside
+[00:03:01] Photoshop to help us generate noise textures and stylise them.
+[00:03:08] And finally, we will review the particle system emitter setup, and its modules within the
+[00:03:13] Shuriken particle system editor in Unity Engine.
+[00:03:18] Note that values inserted in shaders or particle system module properties might have to be
+[00:03:24] different for everyone, due to the project settings, particle effect scale, or even the
+[00:03:30] scene size.
+[00:03:34] This is the Ambient Fog Shader.
+[00:03:36] Greatly inspired by the shader technique shown by Julian Love during his GDC presentation
+[00:03:41] about Tableau3's VFX, its main purpose is to create the illusion of a complex movement
+[00:03:47] by adding multiple layers of moving noise textures together.
+[00:03:54] We'll isolate and analyse each shader functionality and explain their purpose.
+[00:04:00] But before that, let's have an overview of the shader itself.
+[00:04:05] In the Graph Inspector window, under the Graph Settings tab, we can see general information
+[00:04:11] about the shader.
+[00:04:13] We note that this shader is an unlit, alpha-blind, transparent shader with backface culling,
+[00:04:19] meaning that the shader is not affected by the lighting of the scene, that it is able
+[00:04:24] to handle transparency, and render only front faces of 3D meshes it is applied on.
+[00:04:33] Our smoke particles, with this shader applied on, will be parallel to the scene's ground,
+[00:04:39] meaning we won't be able to see the backfaces of those meshes, so let's just not render
+[00:04:45] said faces and save some rendering performances.
+[00:04:51] We also see through the Blackboard window that there are multiple properties, mostly
+[00:04:56] to control the tidying and speed of noise textures.
+[00:05:00] We can expect that this is mostly a property-driven shader, meaning the final visual is mainly
+[00:05:07] controlled through the multiple material properties, not through the particle system module's
+[00:05:13] properties.
+[00:05:15] We also observe the presence of only one 2D texture called in the shader.
+[00:05:21] This weird looking texture will be used for our shader, and actually contains two usable
+[00:05:26] different black and white textures, respectively a cloud noise texture in the red channel,
+[00:05:33] and some kind of cloud shape in the green channel that will serve as our opacity mask.
+[00:05:40] This method is called Channel Packing, and is a great method to avoid multiple texture
+[00:05:45] culls that can have a negative impact on shader performances.
+[00:05:51] We see how to create one of these in Photoshop during the texture part of this video in a
+[00:05:56] couple of minutes.
+[00:05:59] Let's start this shader analysis by its main functionality, shall we?
+[00:06:05] Referenced as Dynamic Alpha Shape by Julian Love, the principle behind this technique
+[00:06:10] is to create the illusion of complex movements by multiplying the same scrolling noise texture
+[00:06:16] together but with different tidying and scroll speeds.
+[00:06:22] We got here the first cloud noise texture setup.
+[00:06:26] Here we have a Texture2D property referenced in the Blackboard window, and in this Main
+[00:06:31] Texture Sample 2D node, we will use its red output to use the cloud noise texture stored
+[00:06:38] in the red channel of the 2D texture.
+[00:06:42] Connected to it, we got a group of nodes that serves as a panel function.
+[00:06:48] Thanks to this node setup, we'll be able to control the tidying and offset speed on
+[00:06:52] both the X and Y axis of the cloud noise texture through this Vector4 property.
+[00:07:02] The result of this first setup is then multiplied to another cloud noise texture setup, itself
+[00:07:08] multiplied to another cloud texture setup, with for each setup different tidying and
+[00:07:13] scrolling speed for the cloud noise texture.
+[00:07:18] This represents the base of the Dynamic Alpha Shape setup, with 3 textures multiplied together.
+[00:07:26] The Dynamic Alpha Shape setup is then linked to a Bower node to control its luminosity
+[00:07:31] level, and then linked to our Multiply node with a Float property to control the luminosity
+[00:07:37] intensity.
+[00:07:39] We then saturate the entire result to avoid weird values.
+[00:07:44] From here, we split the shader into two parts, Base Color and Opacity.
+[00:07:49] For the Base Color part, we want to colorize our fog particles through the Particle System
+[00:07:57] Emitters.Color property, or the Color Overlifetime module.
+[00:08:04] To do so, we multiply the Vertex Color RGB channels to the result of the Dynamic Alpha
+[00:08:10] Shape setup, and connect it to the Base Color input of the Master node.
+[00:08:17] Now for the opacity part of the shader, we want to be able to edit it at any time in
+[00:08:22] this particle system.
+[00:08:25] For that, we're going to multiply the Alpha Shape setup to the Vertex Color's Alpha.
+[00:08:31] That way, we can control the opacity of our fog particles through the Start Color property
+[00:08:36] or the Color Overlifetime module of our Particle System.
+[00:08:41] Now we need to get a more organic opacity shape, because right now, our particles will
+[00:08:47] look like weird cloud square planes.
+[00:08:52] This is the part where we'll use the green output of the 2D texture as an opacity mask.
+[00:08:58] In it, it's stored an end painted cloud mask.
+[00:09:02] We just have to multiply the green channel of the texture 2D to the result of the multiplication
+[00:09:09] of the Vertex Color's Alpha and Alpha Shape setup.
+[00:09:14] And we are nearly done with the shader showcase.
+[00:09:17] We will just add one final shader feature.
+[00:09:20] This is the most technical feature of the shader, the Defade effect.
+[00:09:24] It's a very important effect that will be pretty useful in most of our shaders.
+[00:09:31] This effect is mostly used to detect the intersection between two objects using the Def Render Path.
+[00:09:38] This is why, back in the Scene Setup video, you've activated in your Camera Options.
+[00:09:45] We are going to use this feature to smooth the said intersection by making the white
+[00:09:50] parts opaque and the black parts transparent.
+[00:09:54] It will greatly help in avoiding those hard edges when our particles will be close to
+[00:09:59] another 3D element.
+[00:10:02] I won't go too much into the technical details here, but by multiplying the Scene Def to
+[00:10:08] the camera's far plane, subtracting it to the subtraction of the screen's position's
+[00:10:14] Alpha and a float property used as the intersection distance with a default value of 0, and saturating
+[00:10:22] the final result to avoid weird values, we got our Defade effect.
+[00:10:29] In the next video, the VFX breakdown of the campfire, we'll see how to group those nodes
+[00:10:34] together in one and create a subgraph out of it.
+[00:10:39] We then multiply the Defade effect to the rest of the opacity part of our shader and
+[00:10:44] connect the result to the Alpha input of the master node.
+[00:10:50] This concludes the Shader Showcase part.
+[00:10:53] You can now quickly create a material out of the shader by right-clicking on the shader,
+[00:10:58] Create and select Material.
+[00:11:01] Remember that you have set default values for each properties and that you might need
+[00:11:05] to adjust them after creating the model to find the right tanning and scroll speed of
+[00:11:10] your textures.
+[00:11:11] Time to make our weird looking texture.
+[00:11:16] Let's switch to Photoshop.
+[00:11:18] As said earlier during the Shader Showcase, we'll only use one texture containing two
+[00:11:24] textures stored in the red and green channel.
+[00:11:29] When using Photoshop, you can access, select and ease those channels directly through the
+[00:11:36] Channels window.
+[00:11:37] First, let's take a look at the red channel.
+[00:11:41] It will contain the cloud noise texture.
+[00:11:44] Don't forget to select it in the Channels tab to edit only this specific channel.
+[00:11:51] The quick way to make a cloud noise texture, also known as a pale noise in Photoshop, is
+[00:11:57] by using the Cloud Filter, located in the Filter tab, under the Subtab Render.
+[00:12:03] It will procedurally generate a pale noise using your Active Dual Color palette.
+[00:12:11] To make the texture more solo and less noisy, we can use the Gaussian Blur filter located
+[00:12:17] in the Filter tab within the Blur category and apply it with a small value.
+[00:12:22] If the result is still too noisy, we can also apply a Dust and Scratch It filter located
+[00:12:31] in the Filter tab within the Noise category with a small value in Radius and a value close
+[00:12:38] to zero in the Threshold property.
+[00:12:42] Finally, we need this texture to loop to avoid weird cuts while our textures are scrolling.
+[00:12:51] Photoshop CC 2021 has a great tool to help you for that, the Preview Palette tool.
+[00:12:58] You can find it in the View tab.
+[00:13:01] It will display on screen a tiling preview of your image, and updated each time, you
+[00:13:06] will use basic tools such as the eraser or the tool brush.
+[00:13:12] We will then apply multiple soft brush strokes to erase, in some sort, any non-tiling part
+[00:13:19] of the texture.
+[00:13:22] With the cloud noise texture done, we need now to make the cloud opacity mask.
+[00:13:27] After switching to the green channel, you can quickly get some kind of cloudy shape
+[00:13:31] by using a soft brush and make each stroke with a different brush size to create interest
+[00:13:39] and variation inside your shape.
+[00:13:43] And that's it, we got our texture containing our cloud noise and cloud opacity mask ready
+[00:13:48] to be imported inside Unity Engine.
+[00:13:53] Following the 3D modelling phase, we are going to apply our material on a simple plane.
+[00:13:59] The default buildport plane's 3D mesh that can be selected in the Render module of the
+[00:14:04] Shuriken Particle System Editor will do the job just fine.
+[00:14:09] Back to Unity, we will now take a look at the particle system setup.
+[00:14:14] It will be pretty straightforward and simple, without a looping particle system spawning
+[00:14:20] horizontal planes supporting our fog material.
+[00:14:24] First, let's set up the right render options in the Render module.
+[00:14:30] We will set up the render mode to horizontal buildports, to have simple 3D planes parallel
+[00:14:35] to the ground of the scene and assign the fog material we've made earlier.
+[00:14:42] Then in the General module, we will tick the Looping property, set the duration to 5, and
+[00:14:49] set a start lifetime value between 2 to 5 seconds, to have our fog particles continuously
+[00:14:56] emitted and last some time.
+[00:15:00] It is a subtle environment effect, we need it to spawn and fade slowly, to avoid having
+[00:15:06] too much movement and noise and thus having the effect steal all the focus.
+[00:15:13] We will give a bit of randomness to our particles by setting a start size and a start rotation
+[00:15:19] values between 2 constants, and have 2 start colors with different alphas, to have particles
+[00:15:26] with different opacity levels.
+[00:15:30] In the Emission module, we set the emission rate to 2.
+[00:15:34] We will open the Shape module, and set the Shape property to a circle, and set a small
+[00:15:42] radius size to have spawning points variation for particles.
+[00:15:49] And finally, we will activate the Color over Lifetime module.
+[00:15:54] Set both alpha keys at the start and end of the gradient to 0, and add an alpha key
+[00:16:00] at 100% alpha value at the middle of the gradient.
+[00:16:04] This alpha setup will make our fog particles appear and fade slowly.
+[00:16:12] And we're done!
+[00:16:13] If you want, you can add complexity to your fog effect by adding more moving texture noises
+[00:16:19] with different visuals in the shader, or increase the number of fog particles in the particle
+[00:16:25] system.
+[00:16:28] And that concludes this breakdown video.
+[00:16:30] We got a decent looking smoke with complex movements using only 1 texture and few particles.
+[00:16:39] And most importantly, we've covered some very interesting shader features that you
+[00:16:44] might wanna use later on in your own effects, being smoke, fog or gas.
+[00:16:51] I hope you've enjoyed this video, and I see you in the next one for a more complex
+[00:16:56] and stylish effect with Statised Comfire.
+[00:16:59] Bye!

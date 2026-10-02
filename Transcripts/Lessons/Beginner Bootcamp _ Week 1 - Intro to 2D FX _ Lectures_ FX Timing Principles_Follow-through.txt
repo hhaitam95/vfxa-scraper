@@ -1,0 +1,83 @@
+[00:00:05] Hello, welcome to the foundational effects animation series today's lesson is going to be
+[00:00:14] Follow through
+[00:00:16] Follow through it's
+[00:00:18] important in the sense that
+[00:00:21] there will be
+[00:00:22] Many times in which you are animating something when the energy or the direction of that thing changes
+[00:00:30] however, the thing that you are animating needs to
+[00:00:34] Duh-duh-duh follow through its natural course of action
+[00:00:41] Sometimes follow through can be referred to as secondary action or overlap animation
+[00:00:47] It's used a little bit interchangeably. It can apply to a couple different things, but it's important that
+[00:00:55] When you are animating something if this applies you want to take it to its natural
+[00:01:01] conclusion and not work against yourself by trying to
+[00:01:05] Take the animation into a direction that on screen won't read properly
+[00:01:10] So this concept will help you to avoid that I wanted to
+[00:01:15] try to give a visual representation of what we mean when
+[00:01:20] We talk about follow through in this example. Let's say we have
+[00:01:26] some kind of ball or orb that has
+[00:01:29] Liquid attached to it. I won't necessarily say it's water because water wouldn't stay attached to a ball
+[00:01:36] Necessarily if the gravity is pushing pushing down on it. So maybe it's something a little bit thicker
+[00:01:41] But so the action of the ball is it's moving screen, right?
+[00:01:47] It stops and then moves screen left. However, the effect we have on it the liquid
+[00:01:53] Is considered secondary animation because although it is anchored to the ball
+[00:02:00] It still has to act on its own but its actions are based upon the actions of the ball
+[00:02:07] So the ball stops the liquid doesn't stop
+[00:02:12] The liquid is still traveling because what is it Newton's first law of physics?
+[00:02:20] Anything in motion stays in motion unless acted upon by an equal or opposite force
+[00:02:26] So the liquid must even though the ball is stopped the ball is stationary
+[00:02:31] The liquid must continue moving if it suddenly stops. It will look unnatural
+[00:02:36] If unnatural is what you're going for then you nailed it. But in this case, we want to make sure that we are animating through
+[00:02:45] The ball starts to reverse in motion
+[00:02:49] So that would be the opposite force
+[00:02:52] However, the liquid is still traveling this way, but the ball is now traveling this way
+[00:02:57] So that is going to cause the follow-through of the liquid
+[00:03:03] Possibly peeling off the ball. It depends on
+[00:03:08] Specifically what kind of liquid you're dealing with and how it would be attached to the ball. However
+[00:03:14] this
+[00:03:16] liquid
+[00:03:17] It doesn't change that we want to continue animating this liquid in this direction now some of it
+[00:03:25] Once again, like I said depending on how it's connected some of it may be traveling back in the direction with the ball
+[00:03:34] But the majority of it will continue on its way and it will animate off
+[00:03:39] and then you have to decide how you're going to animate it off is it going to
+[00:03:44] Dissipate or fall off-screen or whatever
+[00:03:48] but for the purpose of this lesson the importance here is that we recognize the
+[00:03:54] physics and what's going on with the ball and
+[00:03:58] then when when the energy of the ball changes that we
+[00:04:02] Properly animate the follow-through of the effects on the ball
+[00:04:08] So a good example of animating follow-through
+[00:04:11] I find especially when you're first trying to wrap your head around it is to have something
+[00:04:17] Something that's anchored to a position rather than attached to something that's moving follow
+[00:04:23] This is a good example to show follow-through because of the moving object, but to really start to grasp
+[00:04:30] animating it it's better to have
+[00:04:33] Something that would be anchored such as in this example
+[00:04:37] Let's say it's like a scarf or some kind of piece of cloth
+[00:04:41] The the wind is traveling in this direction
+[00:04:45] However, we know that wind alone
+[00:04:49] Effecting cloth doesn't make it blow flat and straight
+[00:04:54] There is vortices and forces working on the cloth
+[00:04:58] They if you've ever looked at any kind of flag will give it that flap and that that bend
+[00:05:03] Now the reason why the follow-through in this is important is because if this was full-on
+[00:05:09] animation
+[00:05:11] When we are animating this part of the force of the wind
+[00:05:18] That's pushing through this has to start back here and
+[00:05:24] Then that action has to be frame by frame has to be carried forward
+[00:05:30] throughout the flag
+[00:05:32] until that force is gone and then the direction of the flag will have
+[00:05:38] Changed so if this is traveling there
+[00:05:42] This tip will eventually pull back
+[00:05:45] because the force into the cloth has
+[00:05:54] Pulled up so much
+[00:05:56] that it's now acting on the leading edge and then the frame after that, you know would be
+[00:06:11] Something
+[00:06:14] Something like this where now the tip is totally
+[00:06:18] flipped sides as
+[00:06:19] This force is traveling through the entirety
+[00:06:24] of the cloth
+[00:06:28] finally resulting in in the cloth bending back the
+[00:06:33] the other way and
+[00:06:35] Then as the cloth bends back the other way we will have started a force in the opposite direction
+[00:06:43] And then we have to follow that through
+[00:06:45] so it's a good way to start thinking about the forces that are affecting the
+[00:06:51] Things that you're animating but if it requires secondary or overlapping action
+[00:06:56] You have to make sure that you're putting in the time and the effort to stay true to the the physics
+[00:07:02] Involved and replicate that to the best of your ability and that will lead to ultimately the best product

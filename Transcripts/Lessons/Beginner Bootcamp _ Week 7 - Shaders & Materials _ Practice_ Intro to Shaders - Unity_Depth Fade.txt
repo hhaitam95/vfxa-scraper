@@ -1,0 +1,202 @@
+[00:00:05] Hello again, I'm Jaden, and in this lesson we'll look at a new technique called the depth fade.
+[00:00:10] When a shader uses depth, it can measure how far away the effect is from other surfaces.
+[00:00:16] It's a simple technique, but it has a surprising number of uses.
+[00:00:20] So this effect requires certain settings in order to work. Go to your main camera and
+[00:00:26] under rendering, you'll see depth texture. Make sure that's enabled. If you notice these effects are not working,
+[00:00:33] this is probably why. And we're gonna set up a basic scene. We'll need an environment for this.
+[00:00:38] I'll add a few spheres, a capsule, and a quad, and I'll also create a ground and a wall. So let's create that.
+[00:00:59] Okay, so here's the little scene that I set up. I also created this wall with a doorway.
+[00:01:04] You don't need to do this, but it'll just help show off some of the effects.
+[00:01:08] Now let's create a new unlit shader graph called the depth fade.
+[00:01:18] Create a material for it, but don't put it on the environment.
+[00:01:21] Just put it on the other 3D objects, and make sure to leave one sphere that doesn't have the material.
+[00:01:27] Then open up your graph workspace. I will also dock my game view up on the corner. This will just give us another perspective.
+[00:01:41] And the first thing you should do when you open your graph is change the surface type to transparent. This is required for depth effects.
+[00:01:49] I'll also turn off my grid because it always shows in front of transparent objects, which is a little confusing.
+[00:01:56] Okay, so let's set up our shader. We'll get a new node called scene depth, and
+[00:02:04] this needs to be set to the eye mode. That's very important. And
+[00:02:09] try plugging that right into color.
+[00:02:12] So you'll see immediately that the objects become very bright.
+[00:02:15] That's not really what we want. That happens because this is data about the scene, and it goes from 0 to infinity.
+[00:02:23] Instead, let's remap this data.
+[00:02:28] Plug the scene depth to the in, and
+[00:02:31] we want the output to go from 0 through 1. For the input, let's do 0 through 10, and
+[00:02:39] plug that into the color.
+[00:02:43] Okay, so that's better, but it's still too bright. Let's also saturate this effect.
+[00:02:54] Okay, there we go.
+[00:02:55] We had numbers that were going above 1. Saturate will make sure it stays between 0 and 1, and
+[00:03:01] let's see what this effect is actually doing.
+[00:03:04] So this is another example of color representing data.
+[00:03:08] What the scene depth node is doing is it's looking at all objects in the scene, and it's telling us how far away
+[00:03:14] they are from the camera.
+[00:03:16] It's really important to know that it's not looking at the quad itself.
+[00:03:20] It's looking through the quad at the surrounding environment.
+[00:03:24] Since we marked the shader as transparent, the depth effects do not see transparent objects,
+[00:03:30] which is why we can see through the quad. So from the scene depth node,
+[00:03:37] we have this input data, which is the distance. And if an object is 10 units away from the camera,
+[00:03:44] that is remapped to a value of 1, which shows as white. If
+[00:03:48] objects are closer to the camera, like 0 units from the camera, they'll be remapped towards 0.
+[00:03:54] So the color is showing us how far away different objects are, and
+[00:03:59] anything outside of that range will be remapped to 0 or 1 because of the saturate node.
+[00:04:07] Okay, let's try looking at a different piece of data. Let's get the screen position node.
+[00:04:12] So screen position is useful for screen based effects.
+[00:04:19] We're actually not even going to use it for its main purpose. Instead, we'll split it.
+[00:04:26] Make sure it's in the raw mode. That's very important.
+[00:04:30] And when we do that, the alpha value will give us an interesting output.
+[00:04:36] You'll see that the objects are still too bright. Again, this is a value that goes from 0 through infinity.
+[00:04:42] Let's try remapping this one in the same way.
+[00:04:46] Plug the alpha into the remap, and let's go from 0 to 3.
+[00:04:51] We'll saturate that and plug it into the color again, and save asset.
+[00:04:55] So screen position is different because it doesn't look at the surrounding environment. It only looks at the object.
+[00:05:03] So this is just a weird way to get that output, but it's telling us how far away the object is from the camera.
+[00:05:11] Because we're remapping it, if the object is 3 units away from the camera,
+[00:05:16] it'll become white, and if it's closer to the camera, it'll move towards black between 0 and 3.
+[00:05:22] And we're saturating it, so it never goes above 1.
+[00:05:27] So now we have these two helpful pieces of data that we can access.
+[00:05:31] The way we access them is a little weird, so let's make sure they're labeled.
+[00:05:35] So the scene depth will tell us the distance from the camera to the environment,
+[00:05:45] and the screen position alpha will tell us the distance from the camera to the object that we're rendering.
+[00:05:51] I will also label how we should set these up. So we should use i-mode for scene depth.
+[00:05:58] And for a screen position, we need to be in raw mode and split out the alpha channel.
+[00:06:05] Okay, so let's look at how we're going to set up the depth effect.
+[00:06:08] We have access to this new information, so we need to see how to use it.
+[00:06:13] So scene depth will check the distance from the camera to any point in the scene, and it does it through the object.
+[00:06:23] The screen position alpha will tell us the distance from the camera to the object, and it does it on the surface of the object.
+[00:06:31] And we can compare this data to find the distance from the object to the environment.
+[00:06:37] This length is all we care about.
+[00:06:43] So to do that, we just need to know the difference between these two distances, and we can find difference by subtracting.
+[00:06:52] The order does matter here.
+[00:06:54] So we'll start with scene depth and subtract the distance from the object.
+[00:06:58] And let's see what that does.
+[00:07:03] So again, that's very bright because the value is going above one.
+[00:07:07] We still need to remap this, but we're going to do it a little bit differently.
+[00:07:11] Instead, let's do division.
+[00:07:14] Add a divide node and plug in the distance.
+[00:07:21] And we should also saturate this as well.
+[00:07:27] Plug all of that into the base color.
+[00:07:30] And save asset.
+[00:07:36] OK, so this is the number we're using for the remap.
+[00:07:40] Prior to that, we find the distance from the object to the environment behind it, and then we divide it over this distance.
+[00:07:49] I'll make this number a little bit higher so we can see it.
+[00:07:54] So if we think about the math here, if an object is zero units away from the object behind it, it's zero over five, which equals zero.
+[00:08:03] If the object is five units away from the object behind it, it'll be five over five, which equals one.
+[00:08:11] And then, of course, we saturate the result so it stays between zero and one.
+[00:08:16] That means if the environment is more than five units away from the quad, it becomes perfectly white.
+[00:08:21] And if it's closer, it becomes gray.
+[00:08:25] If the object is extremely close to the environment, it becomes black.
+[00:08:30] So we're just doing simple division to remap those distances between zero and one.
+[00:08:36] OK, so let's look at how we'll use this effect.
+[00:08:39] Instead of base color, plug that into alpha and let's pick a light color.
+[00:08:49] So now watch how the object behaves with the environment.
+[00:08:57] So this is our fade distance.
+[00:08:59] And if you choose a smaller distance here, objects will fade out faster.
+[00:09:06] And basically what you're seeing is that the quad looks like fog.
+[00:09:11] You can also try this on other 3D objects.
+[00:09:14] You'll notice that when they get close to the environment, they start to fade away.
+[00:09:21] Let's see why this can be useful.
+[00:09:23] Add in a texture sampler.
+[00:09:28] We'll just use the default particle for this and plug that into the alpha.
+[00:09:39] Let's also turn off shadows and save asset.
+[00:09:44] So this is a typical particle.
+[00:09:47] Notice what happens when it overlaps with the ground.
+[00:09:51] We get this ugly hard edge where it's overlapping.
+[00:09:55] Let's take our depth fade effect and we'll group all these nodes with control G.
+[00:10:02] I'll call it depth fade.
+[00:10:04] What we'd like to do is fade out our texture when it's getting close to the environment.
+[00:10:12] So we can change the strength of this effect by using multiply.
+[00:10:22] We'll use the depth fade as a mask for the texture and plug that into alpha.
+[00:10:29] The effect is too strong right now.
+[00:10:31] Let's make this a very small distance.
+[00:10:34] I'll use 0.1.
+[00:10:38] And now watch what happens when the quad starts to overlap.
+[00:10:42] You'll see that instead of that hard edge, it looks like it softly fades into the environment, almost like smoke.
+[00:10:49] That looks much better.
+[00:10:52] OK, so that's very useful, but we don't need the texture sampler for now.
+[00:10:57] Before we move on, one thing you should know about this effect is that it cannot see other transparent objects.
+[00:11:06] The scene depth node doesn't pick up transparent objects.
+[00:11:09] It only looks at opaque objects.
+[00:11:12] This is normally what you want, but just keep in mind that there's no fade in front of other objects that are transparent.
+[00:11:21] I'll plug this result back into the alpha to make it shaped like a quad again.
+[00:11:27] And I'll turn the distance back up to one unit and I'm going to put it in this doorway.
+[00:11:37] So watch the effects this has.
+[00:11:40] It looks like fog, so if I move an object through it, it's like it's coming through a cloud.
+[00:11:46] We could also change our color to black, which will give us a darkness effect.
+[00:11:53] Now it looks like the object is emerging through darkness.
+[00:11:57] It's a very satisfying effect that looks really nice.
+[00:12:01] OK, so let's try something else.
+[00:12:04] Let's plug this result into a one minus node, plug that into alpha and save asset.
+[00:12:15] Now you'll see something different.
+[00:12:16] The objects will only show where they overlap with the environment, so it's the opposite effect.
+[00:12:23] You can try putting in some different numbers here for distance.
+[00:12:30] You could also make this double sided so you can see the effect from both sides.
+[00:12:36] But I'm going to keep it as the front faces only for now.
+[00:12:41] Whenever you have an object that is transparent and renders both faces, you start to get weird rendering issues.
+[00:12:48] Normally, you won't want to render both faces and be transparent.
+[00:12:51] There are ways around it, but often it's simpler just to render front faces only.
+[00:12:57] Anyway, let's give this some color.
+[00:13:02] And this looks like the start of a cool effect.
+[00:13:05] You'll notice that this looks pretty similar to the Fresnel node.
+[00:13:09] Let's see that node again.
+[00:13:12] Plug Fresnel into the alpha.
+[00:13:17] So the Fresnel creates a similar effect, but you'll notice it still has that overlap with the ground that doesn't look very good.
+[00:13:25] Right now we're just making the edges glow, but we can also make the overlap glow as well.
+[00:13:32] Let's add these effects together.
+[00:13:37] Plug both of those into the alpha.
+[00:13:41] And let's do a smaller distance like 0.2.
+[00:13:46] OK, so look at that.
+[00:13:48] This effect becomes more clear when it overlaps with the environment.
+[00:13:54] The Fresnel makes it look like a force field, but the edge glow really makes it interact with the environment.
+[00:14:01] But right now it's not actually glowing, it's just transparent.
+[00:14:05] Let's introduce an HDR color.
+[00:14:09] Bring out a color node and change the mode to HDR.
+[00:14:13] And remember, we can tint any color by multiplying.
+[00:14:17] Let's multiply our output to the HDR color and pick a color.
+[00:14:27] Make sure to give the color some intensity and then it'll glow.
+[00:14:32] And plug that into the color.
+[00:14:34] Now it looks really cool and it really looks like the effect is touching the environment.
+[00:14:43] So this is a really nice hologram shield, but we're not even done yet.
+[00:14:47] Let's bring in some texture to this.
+[00:14:49] Let's add a texture and let's use one of the built-in textures.
+[00:14:54] This fireball texture is perfect.
+[00:14:56] And of course, we just want the red channel.
+[00:14:59] Just like before, we added the depth glow to the Fresnel effect to brighten each other.
+[00:15:08] Let's add this texture to both of those.
+[00:15:11] So take this combination of edge glow and Fresnel and add that to the texture.
+[00:15:21] And plug that into both the color and the alpha and save asset.
+[00:15:29] So now we have a really nice effect here.
+[00:15:32] It looks like a fire shield.
+[00:15:34] We're using the UV to add texture, we're using the surface direction to add the Fresnel and we're using the depth to add edge glow.
+[00:15:42] So we're using a bunch of different inputs with techniques that we've already learned, combining them and now we have a really complex effect.
+[00:15:49] In fact, let's keep going.
+[00:15:51] Let's add in a scrolling setup for our texture.
+[00:15:55] Let's make this move downward slowly.
+[00:16:06] Connect it to the Y axis, connect it to the offset and plug that into the texture UVs.
+[00:16:16] Very nice.
+[00:16:18] We can also add another time setup right above for the X axis.
+[00:16:28] We want it to move even slower, so let's use like 0.2 and plug that into the X axis.
+[00:16:34] Save that.
+[00:16:35] So look at that.
+[00:16:36] Very cool.
+[00:16:42] We could even enlarge this and bring a character inside of it.
+[00:16:48] And we have a really nice fire shield.
+[00:16:51] So we took a UV effect, a world based effect, another world based effect and combine them.
+[00:16:57] And this would be a great time to add properties.
+[00:17:00] So here you would put the distance for the fade.
+[00:17:04] You could make Fresnel power.
+[00:17:07] You could turn the texture into a property to make different textures.
+[00:17:11] You could make a color property to change the color.
+[00:17:15] And by converting all these into properties, you can make a bunch of different customizable effects using this same shader.
+[00:17:22] So that covers the basics of how we use depth effects.
+[00:17:25] We can use it to hide that ugly overlap where a particle is intercepting the surface.
+[00:17:30] We can use it to create a plane of fog or a plane of darkness.
+[00:17:35] And these also work great with elemental effects.
+[00:17:38] You can put this on fire, which will make it look like the fire is wrapping around the fire source.
+[00:17:43] You can put it on water so that it's harder to see objects as they get deeper and deeper.
+[00:17:47] You can put it on smoke, which is basically the same as fog.
+[00:17:51] And you can make edge glow for force fields and holograms and shields.
+[00:17:55] It's a very powerful technique.
+[00:17:58] And this is actually the last technique that we're going to learn.
+[00:18:01] Shaders have so much more to offer, but most visual effects are built using just these foundational techniques and also the particle system.
+[00:18:10] The particle system is another very important part of the effects.
+[00:18:14] And right now we don't know how to make our shaders interact with the particle system.
+[00:18:18] That's what we'll cover in the next lesson.

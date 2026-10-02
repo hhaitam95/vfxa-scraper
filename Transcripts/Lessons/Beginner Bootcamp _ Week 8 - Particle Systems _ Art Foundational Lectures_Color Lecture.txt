@@ -1,0 +1,323 @@
+[00:00:00] Oh hey guys, welcome to the Principle of Color as it relates to visual effects.
+[00:00:07] This is number four in the series of five, and admittedly color is probably the one that
+[00:00:13] I struggle the most with personally.
+[00:00:15] I am not necessarily naturally good with color.
+[00:00:20] I've had to really study a lot about it and learn a lot from my peers to get a good grasp
+[00:00:26] on it.
+[00:00:27] Hopefully I can convey some of those lessons that I've learned to you guys.
+[00:00:31] Color is an interesting thing because you have such wide uses for it.
+[00:00:38] Really what I want to talk the most about in this video is how color can define schools
+[00:00:43] of magic and it can also define within those schools of magic or within those elements
+[00:00:50] how the energy behaves, if that makes sense.
+[00:00:54] For example, take yellow.
+[00:00:57] Yellow here on these ones on the left, it's like fey or light.
+[00:01:02] It's this nice bright, friendly, glowy color, but then put it at the center of a saturated
+[00:01:09] red and it becomes this infernal, intense heat.
+[00:01:14] You can see yellow being used actually in quite a few of these.
+[00:01:17] Every color is the same, but depending on the context that you put it in, it completely
+[00:01:22] changes what it's communicating and the vibe that it's putting off.
+[00:01:26] With effects, this is very elusive because we can even change color over a lifetime.
+[00:01:31] We also typically have a lot of colors layered on top of each other that are blending together,
+[00:01:37] so it's a challenge to wrangle those.
+[00:01:38] I'm not going to talk about the specifics of how I do that in the tools, but I'm just
+[00:01:44] going to explain some of the principle of color to help you guys make good judgment
+[00:01:51] calls as you're down in the tool.
+[00:01:54] Looking at all these different icons from Elementalist Lux, we can start to see some
+[00:02:02] overlap.
+[00:02:03] This is because I took out the color depth in these.
+[00:02:06] You'll notice that each one of these only has one hue.
+[00:02:11] There's only one color, one RGB value per element, and then it's just ranging in brightness
+[00:02:20] and intensity.
+[00:02:22] What we get is things like light and air have a lot of overlap where they kind of feel like
+[00:02:28] distinct elements a bit, but realistically when you start putting that into practice
+[00:02:32] in game and you have those side by side, they're going to look really similar because it's
+[00:02:38] only a little bit of blue in the air and even then it's very desaturated, which comes close
+[00:02:43] to just the more grayscale of the light.
+[00:02:47] Even more extreme is the example of water and ice.
+[00:02:50] Sometimes you might say, well, the shape is going to make them different.
+[00:02:54] That might be true, but in the case of Elementalist Lux, it's the same abilities for all of these,
+[00:02:58] and so literally the shapes and the AOEs and the missiles are going to be very, very similar
+[00:03:06] shape-wise.
+[00:03:08] We're going to have to have some color depth to distinguish them.
+[00:03:13] We see the versions that actually shipped, and you can already tell immediately, oh my
+[00:03:19] gosh, yes, the color depth is there, like the school of magic is so much more distinct.
+[00:03:26] It's funny because this is the kind of thing where when you first create an effect, you
+[00:03:30] might think, oh, this looks great.
+[00:03:32] It's got some nice dynamic shape to it, it might even be moving nicely, it might be timed
+[00:03:36] nicely, but adding that color depth gives it that nice, magical, polished feeling.
+[00:03:43] This may not be the game you're working on.
+[00:03:45] Admittedly, some games decidedly go for monochromatic schools of magic or elements, whatever that
+[00:03:52] is, like healing is just green and it's just one solid green, or fire is just this red,
+[00:03:59] and that does make it very clear if you have fewer elements that you're working with.
+[00:04:04] But in the case of League of Legends, there's like hundreds and hundreds of skins, right,
+[00:04:10] and they all have this unique color identity, and the only way we can have them all distinguished
+[00:04:15] is by having color depth, and when I say color depth, I mean basically more than just
+[00:04:20] one hue, right?
+[00:04:22] So taking a look at these, you can see that fire and magma are distinguished because most
+[00:04:29] of the colors are pretty similar, actually, but then here at the end we have more of the
+[00:04:35] pinks versus more just like the dark, dark reds, and thanks, by the way, to Hadidja Chamberlain
+[00:04:41] for helping to prepare these.
+[00:04:44] This was a great idea that she had when we were collaborating on a talk together, so
+[00:04:48] my hat's off to her for getting this together.
+[00:04:51] All right, so fire reeds is hot, and adding in more of the pinkish stuff feels a little
+[00:04:57] more menacing, right?
+[00:05:00] So air and ice.
+[00:05:02] Here's a great example how air is basically all the same hues as ice, but just more desaturated.
+[00:05:11] So you've got hue, which you can adjust, which is like red, blue, purple, whatever, right?
+[00:05:17] But then you've also got saturation, and then finally value, and value we gave its own lesson,
+[00:05:23] so in this video we're talking about saturation and hue, but not as much value, although I
+[00:05:29] will touch on that a little bit.
+[00:05:32] So holy and mystic.
+[00:05:33] This is another example of saturation where this feels more like serious and like intense.
+[00:05:40] It feels more holy, obviously, and then this one, by being more saturated, it just feels
+[00:05:45] more playful and magical and that kind of thing.
+[00:05:49] Okay, so moving on to the awesome style guide that my good friend Jin Yang put together.
+[00:05:56] We're going to see what is recorded in the league rule book for artists on what we follow
+[00:06:05] for color.
+[00:06:06] All right, so you remember a graph very similar to this in the value section, right?
+[00:06:13] Where it was VFX value range over here, and then the value range of UI characters and
+[00:06:18] environment, right?
+[00:06:19] Well, oddly enough, this follows pretty much the same ranges, but this time for saturation.
+[00:06:27] And so what that means is we can have visual effects that are both really, really desaturated,
+[00:06:33] really gray down here, or then just really, really colorful up here, but then we don't
+[00:06:38] want to go full blown out, and that's when you're typing in like 255 red or 255 of anything
+[00:06:44] that's going to fully saturate it when you're color picking.
+[00:06:48] Okay, so what does that get us?
+[00:06:53] It gets us these nice different schools of magic.
+[00:06:55] And again, this is the way League of Legends operates, and even the previous slide as well.
+[00:06:59] You may have a different rule book for your game, and it's totally legit.
+[00:07:03] Same goes for all these tutorials.
+[00:07:04] By the way, I know sometimes I've been talking definitively about how to think about things.
+[00:07:09] I'd love to hear your thoughts in the comments about, hey, on our game, we actually have
+[00:07:12] a different approach.
+[00:07:13] Here's how we think of it.
+[00:07:14] I'd love to get a conversation going on that.
+[00:07:17] So anyway, we've got different schools of magic, and you can see the effects.
+[00:07:20] They mimic the colors of the characters, and that way it marries to the character.
+[00:07:24] It makes it believable that that character shot off that ability, and it's important
+[00:07:28] to have that color harmony between the two.
+[00:07:31] Now, complementary colors.
+[00:07:34] So this is interesting, because the temptation is to make something pop off of the screen
+[00:07:43] by placing it next to its complementary.
+[00:07:45] You know, red and green, purple and yellow, and blue and orange are the classic complementaries,
+[00:07:50] right?
+[00:07:52] That's great, except you need to remember that one of the two needs to be more desaturated,
+[00:08:00] or more transparent, or less of it, or all of the above.
+[00:08:05] Because if you don't, you'll notice if you stare at any one of these for a while, it
+[00:08:09] starts to vibrate.
+[00:08:11] It's like assaulting the eyes, you know?
+[00:08:13] It's just like, there's this kind of visual dissonance on, I don't know which one's more
+[00:08:20] important for me to look at.
+[00:08:21] They're both commanding my attention, and they're really fighting with each other really
+[00:08:24] badly.
+[00:08:25] So as you're working on effects, be aware of placing two highly saturated colors.
+[00:08:30] Even if they're not totally complementary, sometimes they're near complementary, but
+[00:08:34] if they're both highly, highly saturated and they're right next to each other, it's going
+[00:08:38] to be a tricky time getting them to read.
+[00:08:41] You've got the example here on Lulu's shield, where she's got really, really saturated colors
+[00:08:47] just altogether, and also it's struggling with value control.
+[00:08:51] The values are really contrasty as well.
+[00:08:54] But then the saturation is contrasty.
+[00:08:56] Usually the two happen hand-in-hand, because you crank up the value all the way, crank
+[00:08:59] up the saturation all the way, throw it in, typically how it goes.
+[00:09:04] Whereas on Bard, you'll notice that the yellows up here are very dominant, very saturated,
+[00:09:09] and the purples back here are transparent, desaturated, and there's less of it.
+[00:09:14] So that makes it read as a nice secondary touch, but it does have the effect of making
+[00:09:19] the yellow feel more yellow.
+[00:09:22] That's the advantage of putting complementary colors next to each other.
+[00:09:28] More examples of common palettes that we like to use.
+[00:09:32] It's interesting.
+[00:09:33] Like I said, differentiating things in League is a real challenge, and honestly, we don't
+[00:09:38] do the perfect job all the time.
+[00:09:40] We don't claim to follow our own rules perfectly, and I'm sure some of you will call me out
+[00:09:44] on this if I don't give that caveat.
+[00:09:48] But yeah, generally, you want to distinguish a heal from a poison, and it's not easy to
+[00:09:53] do.
+[00:09:54] They both have green in them, and then you just add these touches of other things in
+[00:09:57] them to sell the difference.
+[00:10:00] And how you do this exactly in game by game, it may not be these exact palettes.
+[00:10:03] It's totally fine.
+[00:10:06] Moving on, you've got Frost and Arcane.
+[00:10:07] Again, very similar, but then Arcane definitely indexes higher more on the purples.
+[00:10:13] And also, of course, the shapes make a big difference as well here, but the color is
+[00:10:18] going to be a big distinguisher on the type of magic it is.
+[00:10:23] Gunpowder over here, pretty straightforward, understandable.
+[00:10:27] This is worth mentioning as well.
+[00:10:30] Fire is a really good case study of how energy burns, and I'm going to go into this a little
+[00:10:36] more in a few slides later with other types of energy.
+[00:10:41] Here, you'll notice if you observe fire, it burns more of these hot yellows close to white
+[00:10:48] in the core where it's warmest, and then as it burns outward, it moves into more of the
+[00:10:53] orangish and then the reds, and then it has the smoky browns on the outer.
+[00:10:59] So keep that in mind.
+[00:11:00] If you want to represent fire burning the way that it does more realistically, then
+[00:11:06] you'll want to have the hotter yellowish whites in the core, and then more of the reddish
+[00:11:11] oranges and then browns towards the outer edge where the air is cooler and the energy
+[00:11:17] is quickly cooling off as it expands.
+[00:11:22] On the other hand, you can always invert it for interesting effects, too.
+[00:11:25] So just knowing the rule and being aware of how it works in real life is helpful.
+[00:11:29] All right, so more examples, you've got celestial, shadow, nature, et cetera.
+[00:11:37] I'll let you guys browse through these on your own time sometime.
+[00:11:41] Moving right along.
+[00:11:42] All right, indicators.
+[00:11:43] So this is a fun one because, you know, at first glance, you might think, oh, yeah, blue
+[00:11:49] and red, and while, yes, this one is primarily blue and this one is primarily red, you'll
+[00:11:56] notice in these, both in the bar down here and in the rings up top, that there's a variation
+[00:12:01] of hue, and the saturation doesn't really vary, and the value doesn't really vary, right?
+[00:12:09] So I guess over here the value lightens up a little, but not by much, but the thought
+[00:12:14] is here that there's just this subtle transition of hues, and by adding that in, that little
+[00:12:20] bit of flavor, it makes it feel nice and magical, nice and just like there's something to it
+[00:12:26] that's hard to put your finger on unless you were the one making it and then you know what
+[00:12:30] the secret sauce is.
+[00:12:32] So just try that out.
+[00:12:33] When you're making something pure red, just shift it a little bit to pink, a little bit
+[00:12:37] to orange with red in the middle, and just see how that feels when you vary that up a
+[00:12:42] little.
+[00:12:43] All right, so we've got super galaxy Shyvana here, and she's shooting off an ability, and
+[00:12:52] here it is paused.
+[00:12:53] So basically what we have here, you know I mentioned how fire burns, right?
+[00:12:58] Well you can play around with how energy burns, especially made up space energy, right?
+[00:13:05] Here we've got it burning kind of like a pale pink at the core with like yellows and oranges
+[00:13:13] out at the tip for some reason, I don't know why, just looks kind of cool, and then it
+[00:13:18] burns off to a very saturated pink, but then also to nice blues and purples, and it's accented
+[00:13:24] by these interesting greens.
+[00:13:26] Now the hierarchy is really nice here, right, because the most saturated parts are in the
+[00:13:32] glowiness, in the sorts of fringes, and you'll notice the glow out here around, even though
+[00:13:37] it's darker, the value is darker, the saturation is much higher than it is in the core, right?
+[00:13:44] And this is a lot like, you know, you've seen those glowy space swords that are like white
+[00:13:50] in the core, and they have like color around the edge, you know?
+[00:13:57] You know what I'm talking about.
+[00:13:58] So the glowiness, the color around the edge is where the energy is like cooling off, right?
+[00:14:05] But then the hot core is like a, it simulates a camera effect where the camera can't adjust
+[00:14:11] to take in all the detail of the hot core and super dark parts, and there's such a bright
+[00:14:17] light source there that it just gets blown out in the camera, right?
+[00:14:21] But then as the energy fades off around the outsides, you start to see what the color
+[00:14:27] of that energy is.
+[00:14:28] Hope that makes sense.
+[00:14:30] All right, so let's talk a little bit about Yorick.
+[00:14:33] So for this example, I went ahead and I stripped out all hue and saturation variation.
+[00:14:42] Well mostly just hue variation.
+[00:14:44] So looks okay, kind of all right.
+[00:14:48] Also maybe a little bit like poison, you know?
+[00:14:51] It's kind of funny because as I was doing this example, I realized in World of Warcraft,
+[00:14:56] you know, the Legion magic, the undead magic, actually this actually fits that pretty well
+[00:15:02] because it's like pretty much green.
+[00:15:04] Like it is the green magic in the game and it's undead and it works great.
+[00:15:09] So for us, we have in League of Legends, we have Shadow Isles magic.
+[00:15:15] In Shadow Isles magic, Mork follows the palette of Yorick right here that you see like in
+[00:15:19] his cape and, you know, the modeled like bruised colors like the cyans and stuff like that
+[00:15:25] with green as well.
+[00:15:27] So basically this is the one-note version, right?
+[00:15:33] Now what's funny about this version, and this is like, you know, you can see all the hues
+[00:15:38] I used, it actually doesn't feel too terrible.
+[00:15:45] But this is the funny thing about hues is if you're not careful, your values will confuse
+[00:15:52] you and make you think that everything is fine, that everything is working, that you've
+[00:15:57] got good hierarchy going.
+[00:15:59] And the values, meaning the lights and the darks, can actually bury the hues underneath
+[00:16:03] them.
+[00:16:04] So that's why I put the fade out here at the top.
+[00:16:07] Because if you read across the top here, there's actually not a big difference between
+[00:16:10] all of them.
+[00:16:11] But trust me, underneath, I went ahead and saturated everything like crazy, which gives
+[00:16:15] it this sort of dissonance.
+[00:16:17] It's not quite right.
+[00:16:20] And so just be aware of what's going on with the colors underneath the values that you've
+[00:16:25] got laid down.
+[00:16:26] Of course, do your values first and get good grayscale going.
+[00:16:31] But when you start layering on color, try to avoid doing high saturation colors right
+[00:16:38] next to each other, like I did here.
+[00:16:43] All right.
+[00:16:44] So here's the version that we have in the game.
+[00:16:47] And here they all are together.
+[00:16:50] So yeah, so basically, you know, you can see we've got, you know, the highlight here, it's
+[00:16:57] like really cyan.
+[00:16:58] And then you've got the mottled greens and blues, and they're kind of chilling out.
+[00:17:04] They're slightly more saturated, especially the blues, slightly more saturated around
+[00:17:07] the outer edges.
+[00:17:10] But it's really dark.
+[00:17:11] And so it's dark and saturated, which still gives us what we need.
+[00:17:15] You don't always have to have your saturated colors seeing with high values.
+[00:17:19] Sometimes you can mix and match.
+[00:17:21] So yeah, there's the York example.
+[00:17:25] Next up, we have – sorry, I'm feeling a little under the weather today.
+[00:17:30] We have Thresh – sorry, I was spacing – Dark Star Thresh and Guardian of the Sands, Xerath.
+[00:17:41] And we're going to talk a little bit about them in isolation and how their two energy
+[00:17:44] types were used by two different artists to convey cohesive abilities so that all their
+[00:17:51] abilities that they fire feel like they're united with each other and not just randomly
+[00:17:57] tacked on.
+[00:17:59] Cool.
+[00:18:00] So first up, we've got Threshster.
+[00:18:03] So here we've got Thresh with his – three of his abilities.
+[00:18:09] He's got his attack, his hook, and his lantern.
+[00:18:14] And if we open these up, you can see the hit impact here.
+[00:18:18] Now what's fun about this is that each of these abilities are all pulling from the same
+[00:18:23] palette, but they're pulling different amounts of color from that same palette, right?
+[00:18:28] Like here we definitely have way more yellow than we see in the other ones.
+[00:18:32] In fact, this one – well, this one has yellow on the missile that flies out, but that's
+[00:18:37] about it.
+[00:18:38] This one just has little touches of yellow here in the trail.
+[00:18:42] It has like yellow in the glow of the hook itself that's just always there so that it's
+[00:18:48] clear when he's twirling that around and ready to fire.
+[00:18:51] It's very clear contrast there.
+[00:18:55] And yeah, the artist is able to play around within this palette of colors to create really
+[00:19:00] dynamic and diverse range of color and energy and all that stuff while still keeping it
+[00:19:08] cohesive within the same character.
+[00:19:11] This was Adam Kupratas.
+[00:19:12] He did an awesome job on this.
+[00:19:14] He's another one of my mentors on the League team.
+[00:19:17] Really talented guy.
+[00:19:18] Right, so then we have another Brian Thompson original.
+[00:19:24] He did these awesome abilities and as you can see, there's a lot to take in so we'll
+[00:19:28] do two at a time.
+[00:19:31] We've got the basic attack up at the top and then we've got his awesome Q down at the bottom.
+[00:19:38] This has kind of put me on the spot.
+[00:19:39] I've got to remember which abilities are all for which characters because I don't play
+[00:19:42] all the characters.
+[00:19:43] All right, something that you'll notice about, well, I mean obviously the basic attack.
+[00:19:48] We'll just start there.
+[00:19:49] It's pretty basic, right?
+[00:19:51] You've got more saturated yellow here and then you've got more pale yellows here that
+[00:19:55] also shift a little bit more towards red meaning they're just slightly more orange, just barely
+[00:20:03] and then they're desaturated as well.
+[00:20:06] And always remember the different axes that you can move it on.
+[00:20:08] You don't have to move it with hue and saturation and value all at once.
+[00:20:13] You can do those independent to kind of get different variety.
+[00:20:16] Down here, he really wanted this one to feel much more impactful, right?
+[00:20:20] So what we have is we have the near white at the core.
+[00:20:23] Remember we talked about going close to white but not quite all the way.
+[00:20:25] The near white at the core and then the yellow which is pretty saturated, pretty saturated
+[00:20:32] yellow, maybe not all the way because we can see that the orange around it is fully saturated.
+[00:20:38] It's like super saturated orange but because it's darkened, it doesn't like scream off
+[00:20:44] of the screen.
+[00:20:45] It still supports the core right here and makes that the primary read and this nice
+[00:20:50] dark saturated halo kicks in and then down here we have the nice subtle sand that we
+[00:20:58] saw up on the basic attack.
+[00:21:01] All right, so we got a couple more abilities from Xerath.
+[00:21:06] I mean this is one of those missiles that you definitely don't want to hit you.
+[00:21:09] We mentioned those in the other one before about value, in the other video about value
+[00:21:14] and you can see that it has nice contrast of course.
+[00:21:17] It's got a dark halo around it with a really nice bright core but then also the saturation
+[00:21:24] rules and the hue rules of the energy are consistent both here and over here where you've
+[00:21:30] got that near white core to the yellow, to the orange and then the sandy brown around
+[00:21:37] the outside.
+[00:21:39] Just creates a nice vibe overall.
+[00:21:42] So for those of you who are new to the series, I've been talking a lot about this forum that's
+[00:21:47] out there.
+[00:21:48] It's realtimevfx.com.
+[00:21:49] I'll leave a link in the description.
+[00:21:52] Go ahead and check it out.
+[00:21:53] If you're interested in learning about effects or meeting other effects artists or sharing
+[00:21:57] knowledge of your own, this is a fantastic place to go and do all of the above.
+[00:22:03] Also the job board which I own and operate, it's attached to the forum.
+[00:22:08] You can just click jobs at the top to navigate to it and we try to provide some good services.
+[00:22:13] We don't try to provide good services.
+[00:22:15] We do provide good services to anyone who's out there trying to look for a job or anyone
+[00:22:21] who's trying to look for a realtime visual effects artist.
+[00:22:24] I realize as a realtime view effects artist myself that we are hard to come by.
+[00:22:30] It's hard to hire for that position.
+[00:22:33] So head on over to the job board and check it out.
+[00:22:38] As always, if you want to look me up, the best place to reach me is on realtimevfx on
+[00:22:43] the forum.
+[00:22:44] I'm at Kaiserito where you can go to Kaiserhouse.com and check out my other content.
+[00:22:48] I've got Pinterest board, Twitter, DeviantArt, all the good stuff.
+[00:22:52] So there you have it.
+[00:22:54] There's the unit on color and I hope you guys all learned something and keep on making awesome.

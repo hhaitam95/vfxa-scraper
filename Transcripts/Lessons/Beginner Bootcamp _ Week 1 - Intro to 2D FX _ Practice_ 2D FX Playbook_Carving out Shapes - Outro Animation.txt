@@ -1,0 +1,282 @@
+[00:00:05] Hello, in this video we are going to look at another way to make something disappear
+[00:00:12] and it will be carving out the shapes as a way to dissolve stuff.
+[00:00:18] And we will recreate this example of goopy liquid being dissolved in place and talk about
+[00:00:23] what to pay attention to while doing that and how to make it easier to process different
+[00:00:30] stuff that are going on and work through them.
+[00:00:34] And of course, the same idea can be applied to anything you want to animate, so let's
+[00:00:40] start with recreating this.
+[00:00:43] I will create a new layer and the first thing I like to do, as always, is make a guide and
+[00:00:52] for this thing we will have a guide for the dissolving motion of the shape.
+[00:00:59] With these lines I am thinking about what is the main motion I want to portray with
+[00:01:09] my dissolve.
+[00:01:11] So here I am going from left to right up corner and I am planning out how this whole motion
+[00:01:21] will be pointing to this corner more interesting.
+[00:01:28] So instead of going just like everything evenly going there, I am trying to make them
+[00:01:35] more curved and also adding like these beads that are going to dissolve the shape from
+[00:01:42] another side of this square.
+[00:01:48] And yeah, so we are looking at some kind of pretty composition with these lines.
+[00:01:57] And yeah, so first lines, recreation, starting with the final shape that we will have and
+[00:02:12] adding the first lines.
+[00:02:16] So the main action is going to be like this there, here will be the line like this, another
+[00:02:25] one like this and one complementary that will be curving out a little bit with different
+[00:02:33] art.
+[00:02:34] Just to make things more different and interesting, it helps to make clear accent and goal for
+[00:02:44] the whole animation we will be creating.
+[00:02:48] I will make this layer more transparent and we will make it be shown for the whole duration
+[00:02:57] of the effect.
+[00:02:58] Now we will create animation layer, map, animation, okay, so we are starting with just square
+[00:03:07] shape that's been in place, I want it to be black, okay.
+[00:03:24] And I am going to make it this layer transparent again to see what's my plan with the first
+[00:03:34] lines.
+[00:03:35] The first few frames it's sitting in place just to make the viewer like see the things
+[00:03:42] that's going on.
+[00:03:44] And now we will start to carve the shape, so copying this shape, pasting it and start
+[00:03:53] to carve with the eraser from the point we marked with the guideline.
+[00:04:04] So on the first frame, carving this little spot.
+[00:04:09] On the second frame, again copying what we had, adding it, turning on the onion skin.
+[00:04:18] So on the second frame I'm carving out pretty big chunk of the shape, so increasing the
+[00:04:28] spacing here and starting to show the carving of the second spot that will be dissolving
+[00:04:45] the shape.
+[00:04:46] Also, while we are carving the shapes, we need to keep in mind that the shape itself
+[00:04:52] represents the element that you are animating.
+[00:04:56] So here I'm animating some goopy liquid being dissolved, so I need to pay attention how
+[00:05:05] the shape is being carved out, so I want to make it stick to the edges a little bit more,
+[00:05:12] so I'm adding this kind of stuff here just to make it like look more as a goopy thing.
+[00:05:28] Like this.
+[00:05:35] And now for the next frame, we are continuing to increase the spacing of this carving, again
+[00:05:44] sticking the very edge a little bit more, there like this.
+[00:06:04] The second piece is starting to accelerate, so there is not that much motion yet.
+[00:06:13] And again paying attention to the corners a little bit more just to make it feel goopy
+[00:06:20] a little bit.
+[00:06:25] And we are starting to show the new carving spot here.
+[00:06:35] Now again copying, pasting, carving out the new part, so this first spot is continuing
+[00:06:43] to increase the spacing of the carving that we do here.
+[00:06:56] And now this little spot here, again as this is the goopy stuff, it will stick, try to
+[00:07:12] stick together a little bit more.
+[00:07:16] So here like I will not just like increase the spacing of this carving the same as here,
+[00:07:29] I will show that this bridge like had some tension to it and we'll add more goopy end
+[00:07:40] at this edge.
+[00:07:44] And here maybe some more like drops, droplets here.
+[00:07:51] So instead of just carving out the ovals, I'm thinking more about what is my main shape
+[00:08:02] represents.
+[00:08:04] And this is like more goopy, drippy liquid.
+[00:08:10] Now the third part is also being more carved out, the edges are more sticky here.
+[00:08:29] And on the next frame, again copying, pasting what we have.
+[00:08:35] So this blob is slowing down, the carving process is slowing down here.
+[00:08:46] Like this, here like the motion goes more up now, less to the left, go like this, we
+[00:09:02] can fix this again by adding stuff.
+[00:09:06] Here we can just erase all of this and then add how we like it more.
+[00:09:11] This one is going to strike up more because it's been accelerating quite long.
+[00:09:19] So now it's time to bring more action into this carving spot.
+[00:09:29] Like this.
+[00:09:30] And now again, like I carved out the overall idea of this dissolve part.
+[00:09:38] But now I need to think about what is my shape about and it is about goopy stuff.
+[00:09:46] So I'm blending out the corners a little bit, making them more goopy looking.
+[00:09:56] And I'm also want to portray that this bridge here that we broke into smaller pieces, it
+[00:10:06] had tension and this way like this piece because of the tension will go a little bit up here.
+[00:10:17] And this one can show us how it was like pulled back down.
+[00:10:24] So I will move it slightly here and make it smaller just to then make it fully disappear
+[00:10:33] in the next frame.
+[00:10:35] So now the third carving shape that we have here will move further up like this.
+[00:10:56] So I'm sticking to this line that I drew, going up here, this one should have more side
+[00:11:12] motion here.
+[00:11:16] And I see that I forgot to move it to the right on the previous frame, so I'm just looking
+[00:11:21] on the corners between each frame here.
+[00:11:27] They should have more like accelerating spacing.
+[00:11:41] And now again copying, pasting, erasing the small bits because we can animate on top of
+[00:11:47] them instead.
+[00:11:49] So this one will go a little more further and become even smaller, then the next frame
+[00:11:56] it will be like even smaller.
+[00:12:01] And like at this point we have like small pieces already and then bigger pieces.
+[00:12:10] So we can start working bit by bit to keep track of one scene at a time.
+[00:12:19] So this on the next frame will be carved out more, but starting to slow down a little
+[00:12:29] bit.
+[00:12:31] Then I can select on the disconer, copy it, paste it on the next frame and carve out a
+[00:12:40] little bit more, copying, pasting, carving out even less than before.
+[00:12:55] And just the final bit, and then it's gone.
+[00:13:00] Now let's get back to this big chunks that we had before.
+[00:13:07] So this part is going to slow down with its dissolving, so we had like this big portion
+[00:13:15] added, then we are slowing down bit by bit here.
+[00:13:46] Now this part is going to be carved out more, but still for this one we are going to decrease
+[00:14:04] the speed of the dissolve.
+[00:14:08] So on the previous frame we had like this big portion of it being dissolved and now
+[00:14:14] we are slowing this down.
+[00:14:18] And here I will actually show this bridge being together a little bit more because in
+[00:14:31] this recreation I had this bit being a little bit thicker.
+[00:14:37] So I want to make a little more accent here so that it's becoming seen.
+[00:14:44] And then on the next frame we will break it into smaller pieces.
+[00:14:49] But anyways, going back to this frame.
+[00:14:51] So now I carved out the big main idea of this carving, but I need to add a little bit of
+[00:15:02] this blob that we had before.
+[00:15:05] So it's like being stretched a little bit so it's less prominent, but it's still here
+[00:15:14] just to show that again this shape is our main shape.
+[00:15:20] It's copy and we are not cutting paper.
+[00:15:26] And now we are adding our last bit of carving here.
+[00:15:37] Like this.
+[00:15:38] And ok, next frame.
+[00:15:41] On the next frame what will we have?
+[00:15:43] I will select this part of the shape, copy, paste.
+[00:15:48] So now this part is going to be carved out a little bit, I can continue to go up more.
+[00:16:02] So this whole part is being out already.
+[00:16:08] And for this bottom one, so again we had like tension here in this frame because it's again
+[00:16:17] goopy stuff.
+[00:16:20] And now we can actually show this kind of moment back down with small drapes that we
+[00:16:29] are breaking the shape into.
+[00:16:32] So here we will have like some small after.
+[00:16:41] Like small pieces that are left after this tension stick, tension part.
+[00:16:52] And with the help on the next frames we will show how this tension worked.
+[00:16:59] So on the next frame this small bead can still go up a little bit and go smaller and disappear.
+[00:17:08] This small bead is also closer to this side.
+[00:17:13] So the tension worked upwards for this and then it will disappear.
+[00:17:19] And this small piece will go down and will become smaller and then disappear in the next
+[00:17:30] frame.
+[00:17:34] This small bead, so this hole is like carving more of the shape.
+[00:17:51] So I'll make this more primed here too.
+[00:17:54] And here like it's still visible, maybe more rounded because again it's the liquid stuff.
+[00:18:10] And one more frame to look at it and it's gone.
+[00:18:15] Okay now let's get back to the bigger part of the shape.
+[00:18:20] So here this bead is slowing down with its carving.
+[00:18:28] We are carving out more to the top than to the right now.
+[00:18:41] Again sticking to the guideline that we made here.
+[00:18:46] And now the new spot that we added on the previous frame will start accelerating the
+[00:18:53] amount it's carving out of the shape.
+[00:18:59] Okay, it can be a little bit more to the left than up, like this.
+[00:19:15] And now I will copy this part of the shape, paste it and see how our carvings go.
+[00:19:27] So this one it's slowing down, so I'll carve out just a little bit and still a little bit
+[00:19:39] to the right too because we had some of that in the previous frame and if it will stay
+[00:19:44] in the same place it will be stiff, so just a little bit needs to be added, like this.
+[00:19:58] Now this part we are slowing it down too, so it will be carving out a little bit.
+[00:20:10] And this one is going to be more and more prominent, like the spacing will be increasing
+[00:20:19] because we presented these two carvings at the beginning of our dissolve and they are
+[00:20:31] losing their force already and stopping bit by bit.
+[00:20:35] And now this one, the new one, has more energy in it, so we can now change the focus of the
+[00:20:46] viewer on this new motion and it will be more interesting than if it would be one swoop
+[00:20:55] from one side.
+[00:20:57] So anyways, we carved out here and this bridge here was already pretty thin, so we can break
+[00:21:06] it here and start again with showing the tension that this bottom part is sticking to the edges
+[00:21:18] and pulling back this part of the shape down, kinda like this.
+[00:21:27] And again, because it's goopy, we will have some goopy spot at the end and some droplets
+[00:21:34] in the middle, which on the next frame this droplet will go up a little bit and may be
+[00:21:43] smaller to disappear in the next frame.
+[00:21:46] And this part we can copy it, paste it in the next frame.
+[00:21:53] And the corner part is being pulled down more and more, maybe even more.
+[00:22:07] So I'm accelerating the spacing.
+[00:22:10] And this goopy part can leave one droplet here that will move down next frame and become
+[00:22:22] super small next one and then disappear.
+[00:22:27] And this part is going to be, I'll copy it again and paste to save the corner.
+[00:22:36] So this one is accelerating and it's dissolving.
+[00:22:45] And like super small so we can make it more rounded.
+[00:22:53] And on the next last frame for it it will be even smaller.
+[00:23:06] And I'll probably add another one just because it's not small enough.
+[00:23:14] Now it can be gone on the next.
+[00:23:19] We can make this corner also less pointy.
+[00:23:26] And now I'm copying this, pasting to the next frame and continue to work on it.
+[00:23:34] So again this side it's just almost holding in the same position.
+[00:23:41] This carving part is not doing much.
+[00:23:46] This part, this one we can break more closer to the just rounded droplet here.
+[00:23:53] We can actually just erase it and draw how it moves up.
+[00:24:00] And this part it's also like slowing down so we add just a little bit.
+[00:24:10] Wait, this one can probably connect a little bit.
+[00:24:19] So what's up with this part?
+[00:24:23] So this part it still has a lot of energy to push and carve the shape.
+[00:24:35] But I'm not going to continue increasing it because I want to make kind of accent of this
+[00:24:42] last portion of the shapes that we have here.
+[00:24:53] Okay and now this corner is being colored out by two, making it more rounded to the
+[00:25:05] edge.
+[00:25:10] This one bit can continue to be shown here, breaking it into two pieces.
+[00:25:23] And in the next frame this small bit is gone.
+[00:25:27] One more frame for the upper bit.
+[00:25:32] Maybe even one more frame.
+[00:25:41] And now again copying this part, pasting it and continuing for this side the super subtle
+[00:25:55] carving motion.
+[00:26:00] This one will probably break here already because this bridge was pretty thin.
+[00:26:08] So here just continuing the motion a little bit longer to show where it was going.
+[00:26:17] And this one again it's slowing down.
+[00:26:30] Okay and our last carving spot still going up and to the side.
+[00:27:24] Just looking on the like overall motion of each side of this shape, how it's moving
+[00:27:31] throughout the frames.
+[00:27:35] And okay now copying again this part, pasting it for the left side.
+[00:27:45] Subtle motion for the bottom part of it also.
+[00:27:51] Just subtle movement, just a little bit.
+[00:27:57] And this one still continuing doing its job and carving out the shapes, the last bits
+[00:28:05] of it.
+[00:28:13] Kind of up movement right now with the carving.
+[00:28:35] To make this bridge be less thick here I will actually bring more left movement to
+[00:28:45] this.
+[00:28:48] So adding how I want it to look like here, more like this.
+[00:29:00] And now I will just fix the previous frames to do what I want to do, like do more side
+[00:29:12] motion too.
+[00:29:14] Just to bring the image to the frame I want.
+[00:29:24] Little bit of fixing.
+[00:29:28] Okay so now again copying, pasting, subtle motion here, here I can probably just erase
+[00:29:40] it and will draw it again.
+[00:29:43] Now this one is slower cutting here like this and for this piece.
+[00:30:08] So here was the thinnest point of the bridge on the previous frame.
+[00:30:16] So we can make an accent on it with small droplet like this.
+[00:30:24] And like this point, like with surface tension, it will be more rounded here.
+[00:30:37] But as it was not the edge part but still slowly dissolving from this part, I will move
+[00:30:47] it slightly upwards too.
+[00:30:50] So like this.
+[00:30:56] The next frame will still be moving a little bit up, not much, breaking into two smaller
+[00:31:09] pieces.
+[00:31:13] And then just going smaller till disappear.
+[00:31:20] Okay this last part, copy, paste, left side is almost in the same place, right side continuing
+[00:31:45] to break but slowing down, copying, pasting, again just a little bit carving, a little
+[00:32:06] bit more of carving, selecting, copying, pasting, a little bit, a little bit, more on the right
+[00:32:19] side, left is almost the same place, okay, just slowly carving it out till it's okay.
+[00:32:47] And this one should probably stay one more frame.
+[00:32:57] And now we can zoom in a little bit to see what's going on with the corners here, like
+[00:33:07] make them less pointy here, like work through them a little bit more.
+[00:33:17] And the same with this one, so here the droplet can continue the motion, then it's gone, here
+[00:33:25] more rounded already, here more rounded, and like almost just a droplet here.
+[00:33:34] And here let's look what's going on with this corner separately, just to polish how
+[00:33:41] it's moving.
+[00:33:43] So right now what I created with just carving out, the corner stays here, then big spacing,
+[00:33:56] smaller spacing, smaller spacing, again big spacing, smaller, big, smaller, so yeah it's
+[00:34:02] pretty, not pretty.
+[00:34:07] So let's fix that, so we make it stay a little bit longer here, and on the next frame I'm
+[00:34:18] slightly like increasing the spacing between these frames, the next one, so we had this
+[00:34:25] kind of spacing increasement, now we will have slightly more, it will be somewhere here.
+[00:34:32] Now probably should be somewhere here, like this, next, yeah, maybe we can make it a little
+[00:34:45] bit lower, and here a little bit lower, and now we can start to slow down the pace we
+[00:34:57] are carving the sink, but I would probably make this one a little bit higher now to make
+[00:35:04] this, like, slowing down process more subtle, carving a little bit more here, a little bit
+[00:35:16] more here, till it's gone.
+[00:35:26] Okay, let's check how it looks, oop, let's check without the underpainting with the guides,
+[00:35:35] yeah it's pretty, pretty nice, has some liquidy feeling to it, which is awesome.
+[00:35:46] Okay, let's now go back a little bit and, like, talk through the stages again.
+[00:35:58] So the first thing is to create the first lines, which will help you to guide how you
+[00:36:06] carve the shapes and how each of the carvings complement one another, another thing is to
+[00:36:13] pay attention that you are carving out not the blobs itself, you are creating your main
+[00:36:20] shape to look like the element you are drawing, so it's a lot of, like, back and forth of
+[00:36:29] erasing the shape and then adjust it to look like, in this particular example, more goop
+[00:36:36] stuff, and while you're breaking the shapes, remember about the, like, breaking two pieces
+[00:36:42] principle we talked about in the previous video, and then making them smaller, which
+[00:36:48] we talked about in the first video of making stuff disappear, so it's, like, useful concepts
+[00:36:55] here too. Another thing is, like, in this example we talked about static objects that is being
+[00:37:01] dissolved to focus on this particular topic, but a note here is that you can use this same
+[00:37:11] idea with the moving element, of course, but what I wanted to talk about here is that
+[00:37:19] you can plan your carving force lines, like, carving shapes to move in a way that will complement
+[00:37:29] the movement too, so, for example, here it's kind of fiery shape, and the main movement
+[00:37:38] represented with these blue arrows, and with red arrows I represent how I would
+[00:37:56] carve the shape, so I can plan to do it in a way that, like, if my main movement here,
+[00:38:04] I can carve the shape a little bit from the right, but then still go along this movement to kind of
+[00:38:11] push this idea of movement more with the dissolving, and then to make a more interesting
+[00:38:20] dissolve I can add some force lines that maybe represent the airflow that, like, this shape is
+[00:38:31] pushing there, so the air that was here is going to kind of move here and put the shape from the
+[00:38:38] side, so even on static image you can, like, imagine the movement you're going to do and plan
+[00:38:47] it with these little arrows that will help you while you will be animating, like, more complex
+[00:38:53] shapes too, and again here, like, another example of carving out the shape to achieve the carved
+[00:39:02] out shape to look like the element, so the carving is made with just blobs, but the main
+[00:39:11] focus is to make the shape that's being carved out to look like the element you're animating,
+[00:39:17] so it's, like, more fiery and stuff, and, like, the positive space, positive shapes representing
+[00:39:26] this element. These kind of more complicated examples where we are dissolving with motion
+[00:39:34] added to the mix, they're covered in further lessons, so if you want to get into that,
+[00:39:40] check out lessons like the blip lesson, fire's push, nether poof, poison splat, water flint,
+[00:39:46] etc. Yeah, and in this video we went through the idea of carving shapes to make them disappear
+[00:39:55] with a combination of the breaking into smaller pieces and the going small ideas we looked at
+[00:40:02] the previous lessons. Yeah, and the main tips here will be to use guidelines, as always, to help you
+[00:40:11] remember what you're aiming for in animation and to help you out with that, and the main tip here
+[00:40:18] will be is to use forest lines to help you out with what you're aiming for with your animation
+[00:40:24] and remember that you're animating your main shape rather than negative space separately.
+[00:40:33] Now go apply it to any element of your choice and don't forget to have fun! Bye!

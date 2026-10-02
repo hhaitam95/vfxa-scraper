@@ -1,0 +1,699 @@
+[00:00:05] Oh, hey guys.
+[00:00:07] Okay, so today we're gonna talk about warmup.
+[00:00:10] Now, getting loose, getting warmed up
+[00:00:12] is important with any creative practice.
+[00:00:15] There's an exercise that I found by Ryan Woodward
+[00:00:18] that I love.
+[00:00:19] This is something that he does periodically
+[00:00:21] just to get the creative juices flowing.
+[00:00:24] So you can find this over on his Twitter.
+[00:00:27] If you check out his Twitter feed,
+[00:00:28] he has this wiggly line post.
+[00:00:31] And I really, really love it
+[00:00:33] because it doesn't really require
+[00:00:36] any kind of creative instructions or goals.
+[00:00:40] It's just animating straight ahead,
+[00:00:43] which is you just start with a line
+[00:00:45] and then you make it move frame by frame.
+[00:00:48] You don't plan out the motion in advance.
+[00:00:51] You just animate as you go.
+[00:00:53] So I really like this exercise that he has
+[00:00:56] and I would love to just go through it with y'all.
+[00:01:00] Now, what I've done in this video,
+[00:01:04] that has now been recorded
+[00:01:05] and I'm gonna review how I did what I did,
+[00:01:08] is I practiced this a few times.
+[00:01:10] So we have a lot of different lines going on here
+[00:01:14] and this is what we're gonna end up with.
+[00:01:16] Each one of these exercises
+[00:01:17] should only take you about five minutes.
+[00:01:20] And the goal is to warm you up,
+[00:01:21] to just do a little bit of practice
+[00:01:23] before you start animating your actual project that day.
+[00:01:27] You do this first and it gets you loose,
+[00:01:29] it gets the creative juices flowing.
+[00:01:31] And it's also a nice practice
+[00:01:32] for little simple principles of motion and timing
+[00:01:36] and shape design and all that fun stuff.
+[00:01:38] So I really love this exercise.
+[00:01:40] Now that I've done it for this tutorial,
+[00:01:42] I promise you this is something
+[00:01:43] I'm gonna keep doing over time.
+[00:01:46] You guys are gonna get these files.
+[00:01:50] We've got a couple of files for you.
+[00:01:52] We've got the line wiggle A through D
+[00:01:55] and then the line wiggle EFG.
+[00:01:58] And each one of these has a few different ones
+[00:02:01] stacked on top of each other.
+[00:02:03] For those exports that you were seeing,
+[00:02:05] I was playing them all individually,
+[00:02:07] but they also look kind of fine
+[00:02:08] if you play them all together.
+[00:02:12] It's kind of crazy, wacky stuff, I like it.
+[00:02:15] So yeah, go ahead and pull out your Adobe Animate Suite
+[00:02:21] and get ready to follow along, dive right in.
+[00:02:26] So the first step, of course,
+[00:02:28] it's going to be to open the software
+[00:02:31] and then you're gonna go and create a new file.
+[00:02:35] I like to just create it at about 512 by 512.
+[00:02:39] You don't need to worry too much
+[00:02:41] about the exact size that you pick for this.
+[00:02:42] We're not gonna be exporting it to a flip book.
+[00:02:45] The end goal is not to put this into a game.
+[00:02:47] I can't stress this enough.
+[00:02:49] Now, the first thing I did
+[00:02:50] was I tried importing Ryan's reference
+[00:02:52] and refer to the previous videos on how to capture GIFs
+[00:02:56] if you're not already familiar
+[00:02:57] with downloading your own GIFs or capturing them online.
+[00:03:01] Here's a collection of all the different references,
+[00:03:03] spoilers for the future of all the different stuff
+[00:03:06] that we're gonna cover in future lessons.
+[00:03:08] But basically I tried importing the GIF
+[00:03:13] and his animation,
+[00:03:14] cause he just kind of did the flow of just one line
+[00:03:18] for a really, really long time,
+[00:03:20] that ended up being actually a very large file size.
+[00:03:23] And so when I pulled it in, it really chugged
+[00:03:27] and you might run into this with some of your reference.
+[00:03:28] If you have a very long GIF animation,
+[00:03:31] it's gonna be slow.
+[00:03:32] See all the frames filled up at the top in the timeline
+[00:03:35] and it's clunky and hard to work with.
+[00:03:39] I did put this inside of a symbol.
+[00:03:41] So you notice that I did, you know, insert new symbol.
+[00:03:45] You can also here at the very bottom
+[00:03:49] of the new symbols panel.
+[00:03:50] Oh, you can't see that.
+[00:03:52] Well, down here at the bottom of the new symbols panel,
+[00:03:56] there's a little plus sign that you can see
+[00:03:59] and that'll create a new symbol
+[00:04:01] and it'll add it to your library.
+[00:04:03] So anyway, I went ahead and just deleted the reference.
+[00:04:06] I tried dragging the symbol back into here.
+[00:04:10] Again, like it's just too clunky.
+[00:04:12] It's too big.
+[00:04:13] But if you're having trouble with like putting
+[00:04:16] your reference inside of a symbol
+[00:04:18] and then pulling it onto your stage for reference
+[00:04:20] for frame by frame study,
+[00:04:22] again, check out that GIF reference video.
+[00:04:25] It's gonna be really helpful for you
+[00:04:28] to see exactly what I'm doing here.
+[00:04:30] I'm just trying to figure out,
+[00:04:32] do I even wanna use this like on the stage as reference?
+[00:04:35] I think I ended up just shoving it to the bottom
+[00:04:36] then I never look at it again.
+[00:04:38] Cause the point of this exercise
+[00:04:40] is not to really get perfect timing and perfect shapes.
+[00:04:45] This is just a warmup.
+[00:04:46] And I wanted this at the very beginning of the entire class
+[00:04:49] because honestly, I think pressure is pretty high
+[00:04:53] to make like amazing art.
+[00:04:54] There's so much beautiful 2D effects out there.
+[00:04:57] And sometimes it's fun to just mess around
+[00:04:59] and just try stuff.
+[00:05:00] Just get the creative juices flowing.
+[00:05:02] You know what I'm saying?
+[00:05:04] All right, so now I'm like, all right,
+[00:05:06] I'm gonna pick my color.
+[00:05:08] I decided at first on a 25 frame loop.
+[00:05:13] And right now I'm like figuring out my brush size
+[00:05:15] over here on the side, you know,
+[00:05:17] the properties of the brush.
+[00:05:18] You can adjust it.
+[00:05:20] I probably don't want something too thick.
+[00:05:22] Although at first I was like, yeah, like really thick line.
+[00:05:26] You want something,
+[00:05:27] I ended up going with something more
+[00:05:28] around the range of seven, I believe.
+[00:05:30] 17 is probably a little too thick.
+[00:05:33] And then like a two or three is probably too thin.
+[00:05:36] So maybe something in the range of around seven pixels
+[00:05:39] would be good for that.
+[00:05:41] All right, so I have my dot first frame done,
+[00:05:44] create a new frame, make another dot.
+[00:05:47] I wanted the dot to kind of hold in place
+[00:05:49] and sort of sit there for a little bit
+[00:05:51] before it starts wiggling around.
+[00:05:54] And then on the fourth frame, make it bigger.
+[00:05:57] Now what's funny about this, spoiler alert,
+[00:06:01] I'm animating it too fast.
+[00:06:03] And you'll see that when I do my first export,
+[00:06:05] I'm actually gonna have to spread these frames out.
+[00:06:08] Like making all these transitions in just one frame,
+[00:06:12] it's 30 frames a second.
+[00:06:13] And so just one frame for it to travel that quickly,
+[00:06:17] I very rapidly start realizing
+[00:06:19] that I'm making it too dramatically different each frame,
+[00:06:23] unless you want it to be a zippy fast motion,
+[00:06:26] but I wanted it to kind of warm up at first
+[00:06:28] and kind of go slow and then get going
+[00:06:31] and then start the wiggle.
+[00:06:33] And here I'm just like making the wave move
+[00:06:37] and making it wobble like it would
+[00:06:40] if it were like a hair that had life to it or something.
+[00:06:44] I don't know, like that base on the ground
+[00:06:46] is kind of like, I imagined it like hit a plane
+[00:06:48] and it flattened out and it's like now rooted to something
+[00:06:51] as it wobbles around.
+[00:06:54] You can check your frames with the period and comma key
+[00:06:57] that's the, or the greater than, less than,
+[00:06:59] which kind of looked like little arrows on your keyboard.
+[00:07:02] You can kind of like toggle your frames,
+[00:07:04] but mostly I'm just using F7
+[00:07:06] just to create a new blank frame, draw F7,
+[00:07:09] create a new frame and keep drawing.
+[00:07:14] All right, so there it goes.
+[00:07:15] And it's like, now it's ready to pull up
+[00:07:18] and I'm kind of like sucking that shape away
+[00:07:24] and then I'm sucking it
+[00:07:25] and then like sort of like swooping it around.
+[00:07:28] I love like designing the motion in like swoopy shapes.
+[00:07:32] It'd be really, really satisfying.
+[00:07:34] I still got all this reference up on the screen.
+[00:07:36] I'm gonna go ahead and cover that real quick.
+[00:07:39] There we go.
+[00:07:40] I had the reference that I showed you at the beginning,
+[00:07:43] but it was still animating on my other screen.
+[00:07:44] It was really distracting.
+[00:07:45] So when you're moving a wave like this,
+[00:07:48] I want to like pause it real quick.
+[00:07:50] Let's see here, there's a good spot to pause that.
+[00:07:53] Yeah, right there's perfect.
+[00:07:55] So when you're having a wave travel upward,
+[00:07:59] this is just a nice, simple way to practice this concept
+[00:08:02] with just one line.
+[00:08:04] When you're not working with like a full flame of fire
+[00:08:07] or a wave of water or whatever,
+[00:08:10] is you see, I have the line coming up
+[00:08:13] and then rather than just leave the next line
+[00:08:14] right on top of it, I've kind of like pulled it,
+[00:08:17] pulled it up off of it, right?
+[00:08:19] And so that gives it the feeling like it's like lifting up.
+[00:08:23] So it's got a wind current,
+[00:08:25] like pushing it from under here
+[00:08:28] and it's like shoving that thing
+[00:08:30] and lifting it up as it's traveling.
+[00:08:31] So it has this sort of extra life to it
+[00:08:35] as opposed to a perfect snake.
+[00:08:37] Like I can't even do it with my hand,
+[00:08:39] but like you know, like when a snake moves along the ground,
+[00:08:42] sometimes they just move in a perfect line,
+[00:08:46] but even then there's often drift
+[00:08:47] if they wanna like hop their body
+[00:08:52] and like kind of crawl their way along the ground.
+[00:08:56] And you want it to feel more like
+[00:08:58] that extra type of life to it, right?
+[00:09:00] Where it's actually sort of shifting with the wind
+[00:09:05] as it wiggles around, it'll add that extra life to it.
+[00:09:08] You don't wanna just stay in the same exact track
+[00:09:11] all the time.
+[00:09:12] Now that being said,
+[00:09:13] you wanna be careful not to make it wobble.
+[00:09:16] And there what I did was it was like,
+[00:09:20] you notice it was getting wider and then I tightened it in.
+[00:09:23] So that's because I wanted it to feel like the loop
+[00:09:25] was like pulling it down and tighter as it was going.
+[00:09:30] So these are all kinds of fun things that you can play with
+[00:09:33] and you'll see, I don't really hit control enter
+[00:09:35] until I'm absolutely done
+[00:09:37] cause I wanted to stay in the flow.
+[00:09:38] But if you wanna kind of break it up
+[00:09:40] and check your work, go ahead and hit control enter
+[00:09:44] to test what your animation is currently doing.
+[00:09:47] But my thought is, I mean,
+[00:09:48] this is a five minute exercise tops,
+[00:09:51] like each one of these should not be taking too much time.
+[00:09:56] Yeah, see, it's just way too fast.
+[00:09:57] I just realized I was like, whoa, that's really zippy.
+[00:10:01] It's cool, the motion is working, I like it.
+[00:10:03] It's kind of like flipping around and stuff.
+[00:10:05] But what I'm gonna do is I'm gonna highlight
+[00:10:07] all these frames and then if you mouse over the edge of it,
+[00:10:10] there's a little arrows, you can grab it
+[00:10:12] and you wait until you see a little times two appear
+[00:10:15] like that and then you release
+[00:10:17] and then you've now stretched out your frames.
+[00:10:20] So now it's just a little choppier,
+[00:10:21] but the motion is still great, I still like it.
+[00:10:24] So it's just a warmup anyway.
+[00:10:25] I'm not gonna go back in and in between this one
+[00:10:28] because this is really just for me
+[00:10:31] to like practice and enjoy what I'm doing.
+[00:10:33] It's not at all about something polished for production.
+[00:10:39] Yeah, I'm really excited to see you guys
+[00:10:40] posting these by the way on the forum and on the Discord.
+[00:10:44] Like just share all the little wiggles that you're doing
+[00:10:48] and just all the fun you're having with it.
+[00:10:49] At the end, I'll show you how to colorize these
+[00:10:53] and like offset them so that you can have fun
+[00:10:55] like playing around with it,
+[00:10:57] making it kind of like fine art that you can present
+[00:11:01] even though it's just a fun little sketchy thing.
+[00:11:04] But I'd imagine you're gonna come up
+[00:11:06] with some really wacky zany ways to move these lines.
+[00:11:10] Okay, so for this one, I learned my lesson.
+[00:11:12] I'm slowing down, I'm just holding shift
+[00:11:15] which gives me a perfectly straight line.
+[00:11:17] So if you hold the shift key
+[00:11:18] and then drag it to the side or up,
+[00:11:20] it'll go straight up or straight to the side.
+[00:11:23] So that's really handy
+[00:11:24] and you can release shift as you're going.
+[00:11:26] So I can paint a little curve and then start holding shift
+[00:11:30] and then it'll be straight.
+[00:11:32] And then, or I can start by holding shift and then release
+[00:11:35] and then it'll let me draw curves.
+[00:11:37] It's a fun little technique to get used to.
+[00:11:40] So now I'm just having this very slowly come to life
+[00:11:43] cause I learned before I was moving it way too fast.
+[00:11:48] So just a little wave and then a second wave.
+[00:11:51] So the first one comes down
+[00:11:52] and then the second one starts waking up,
+[00:11:54] just gradually getting into this,
+[00:11:57] this fun little motion here as it goes.
+[00:12:00] And I'm pulling that right side tip in
+[00:12:03] because I wanna maintain the volume of it.
+[00:12:04] I wanna pretend that it's actually a hair.
+[00:12:07] So if I pulled slack here,
+[00:12:10] it would pull it in at the end, right?
+[00:12:12] You just pull tight.
+[00:12:15] So kind of gives it a sense of believability,
+[00:12:18] even though it's a living hair,
+[00:12:21] which should not be happening.
+[00:12:26] All right, I left a little bit of a blip up there.
+[00:12:28] Guys, it's fine.
+[00:12:30] If you have like the little like choppy bits
+[00:12:33] and things like that here and there,
+[00:12:35] just leave them in there, just keep moving.
+[00:12:37] Point is to just get as many of these out as you can
+[00:12:41] so that you can start seeing the general patterns
+[00:12:44] and getting the feel for it.
+[00:12:46] This was a fun little motion that I ended up doing actually
+[00:12:49] in a lot of these where I have like the arch like turning
+[00:12:55] and then I like bend it over on itself.
+[00:13:00] It kind of ends up being like a fun little like way
+[00:13:03] to like wiggle around the line.
+[00:13:06] It was very satisfying.
+[00:13:10] Here, I think I shouldn't have kept this curve
+[00:13:14] so similar for so many frames.
+[00:13:15] It ends up being, I mean, it's kind of cool, I guess,
+[00:13:19] but like it feels kind of unnatural.
+[00:13:21] I wish I had done something like with this tip,
+[00:13:24] like flipped it around or something to come in
+[00:13:27] and collide with this other end over here.
+[00:13:30] But one thing I do like is that I left this tail longer
+[00:13:35] so notice that the front is getting longer faster
+[00:13:39] than the tail is contracting.
+[00:13:41] So the tail is only shortening a tiny bit,
+[00:13:43] but the front is really lengthening out.
+[00:13:46] Oh, and this is where I realized the auto save
+[00:13:50] because I have this massive reference file in here,
+[00:13:55] the auto save takes forever.
+[00:13:57] And so that prompted me to come in here
+[00:13:59] and just select it in my library.
+[00:14:01] And then down at the bottom, there's a little trash can
+[00:14:03] that you can click at the bottom of your library
+[00:14:05] and that'll delete it and you can just get rid of it.
+[00:14:08] Guys, like you don't need massive reference files
+[00:14:11] sitting in your folder
+[00:14:13] because then the auto save is gonna just take forever.
+[00:14:16] And it'll be very annoying.
+[00:14:18] We just wanna work with simple lightweight files
+[00:14:20] so that we can move quickly and stay creative
+[00:14:23] and not get frustrated with our tools.
+[00:14:26] All right, now it's really moving fast.
+[00:14:28] So now I've like, remember before,
+[00:14:30] like this much distance of motion from frame to frame,
+[00:14:33] that's substantial.
+[00:14:34] So this front is really cruising
+[00:14:37] and the back is just a little bit.
+[00:14:40] It's not moving that much.
+[00:14:41] I may be accelerating it a little,
+[00:14:44] but now it's gonna crash into a wall.
+[00:14:49] I went with this like funky design
+[00:14:51] where it's like now it's a fluid
+[00:14:53] and it just splats into the wall there.
+[00:14:58] And the tail is still kind of taking its sweet time,
+[00:15:01] lagging along behind.
+[00:15:03] You know, also if you don't want these to loop,
+[00:15:06] you don't have to make them loop.
+[00:15:07] You can just make it do its thing
+[00:15:10] and then finish and it's over.
+[00:15:14] For me, I kind of wanted a looping GIF.
+[00:15:17] So I kind of wanted to return it back to where it was.
+[00:15:19] So I am eyeballing in the top in this timeline up here.
+[00:15:23] I am eyeballing how much more do I have
+[00:15:27] before I finished the loop.
+[00:15:29] And what's nice too about this
+[00:15:31] is because you're not exporting it to a flip book,
+[00:15:35] you can make your loop any number of frames you want.
+[00:15:38] I went with 50.
+[00:15:39] It felt like a good amount of time
+[00:15:41] to get that beat of animation to finish
+[00:15:45] before it starts over again.
+[00:15:47] If you go with something like, you know,
+[00:15:49] 10 to 20, anywhere in that range,
+[00:15:52] you're gonna find that it's very rapid fire
+[00:15:54] and it's gonna be like,
+[00:15:57] it just happened and it happened and it happened and happened
+[00:15:59] because it's 30 frames a second.
+[00:16:00] And so 50 is only like a second and a half
+[00:16:06] or a little more than a second and a half
+[00:16:07] where it's like one Mississippi one,
+[00:16:10] one Mississippi one, one Mississippi one.
+[00:16:13] It's gonna just be this pretty recurring thing,
+[00:16:18] but it's just enough that it's not like annoying,
+[00:16:21] like super fast.
+[00:16:22] So I don't know.
+[00:16:23] I think 50 frames is a good amount for a loop like this.
+[00:16:27] And, you know, I mean, you've been watching the speed
+[00:16:29] at which I can get these done.
+[00:16:31] I can usually do a 50 frame loop in about five minutes,
+[00:16:35] give or take.
+[00:16:36] And then, you know, that's, I mean,
+[00:16:38] five minutes out of your day, you can handle that.
+[00:16:40] 50 frames is nothing.
+[00:16:42] So now I'm having it slowly gather in
+[00:16:46] and then quickly snap.
+[00:16:48] So it was like slowly traveling.
+[00:16:50] And then I did a lot of gap closing
+[00:16:54] and then I'm gonna make it fat into a ball.
+[00:16:58] And then I'm gonna have it squish.
+[00:17:01] I think I just make it like travel back over
+[00:17:05] because I started this one as a flat line in the middle,
+[00:17:09] if I remember right.
+[00:17:10] And the nice thing is you don't have to get too caught up
+[00:17:14] in the hookup on the loop.
+[00:17:16] We're gonna go over that in the next video.
+[00:17:19] I'm gonna fix some of the things
+[00:17:21] that were broken about the loop.
+[00:17:23] Oh yeah, that's right.
+[00:17:24] I wanted to do like a wee boing.
+[00:17:26] So if I sit there and it goes over, sorry.
+[00:17:29] I did this like two days ago.
+[00:17:31] So I'm already a little fuzzy on exactly what I did
+[00:17:34] at that time and what I was thinking.
+[00:17:36] But yeah, so it's gonna like arch up and over.
+[00:17:45] It's gonna go through splat.
+[00:17:48] And I think that's like about where my line was,
+[00:17:50] but if it's not, you're gonna see in the next video,
+[00:17:52] it's very simple to fix if it doesn't match up perfectly,
+[00:17:56] as long as it's like somewhere in the realm,
+[00:17:59] you can kind of fill in the,
+[00:18:00] your mind can kind of fill in the blank.
+[00:18:03] So I'm gonna have to turn the animation layer
+[00:18:05] into a guide there,
+[00:18:06] because right now they're both playing on top of each other.
+[00:18:10] I mean, it's kind of cool
+[00:18:11] them playing on top of each other,
+[00:18:12] but if you wanna just see one,
+[00:18:14] you right click on it and turn it into a guide,
+[00:18:16] and then you can just see the motion that you did.
+[00:18:20] I mean, you may end up spending an hour doing these things
+[00:18:22] and just do like 20 of them or whatever, right?
+[00:18:25] But is that 20 in an hour?
+[00:18:30] Two times five, no, that would be an hour and a half.
+[00:18:35] Hour would be like 15, 12, it'd be 12.
+[00:18:40] Yeah, you could do 12 of these in an hour.
+[00:18:42] That's pretty cool.
+[00:18:44] I'm gonna do four in this video.
+[00:18:45] So there's still two more to go, but yeah.
+[00:18:51] See how that line is just a little below.
+[00:18:54] So it like kind of pops back up, but it's pretty close.
+[00:18:59] It's like splatting into the wall
+[00:19:01] and then flinging back over.
+[00:19:03] Kind of a fun little one
+[00:19:04] that doesn't end up being my favorite one in the series.
+[00:19:08] I think my favorite one is coming up soon.
+[00:19:11] I like them all, I'll be honest with you.
+[00:19:13] They all have their own little character personality
+[00:19:15] to them.
+[00:19:17] And you kind of learn a little single technique,
+[00:19:22] a little micro technique each time you do one.
+[00:19:24] Like I wanna try something,
+[00:19:26] like here I'm gonna try something like electricity,
+[00:19:28] like just a zap, like flings down really quick
+[00:19:33] just to try it out, you know?
+[00:19:37] Like what if I did these kinds of shapes
+[00:19:39] or what if it had this kind of timing?
+[00:19:41] And in later one, I try some other wonky stuff
+[00:19:44] that didn't work like I'd hoped it would,
+[00:19:46] but it was a fun exercise anyway.
+[00:19:51] Okay, so now suddenly it just zips out across the screen,
+[00:19:54] fast as can be.
+[00:19:58] And then once it hits its peak,
+[00:20:01] it starts wiggling.
+[00:20:04] This is not how real electricity moves,
+[00:20:06] but if you do electric shapes, people can believe it.
+[00:20:10] So this is pretty dramatic change of silhouette and shape.
+[00:20:16] Remember like this much space from frame to frame
+[00:20:19] ends up being quite a bit of motion.
+[00:20:21] So it's gonna feel really erratic.
+[00:20:24] And rather than have it dissipate like real electricity,
+[00:20:29] you'll see how I handle it so that it stays
+[00:20:30] as just one line.
+[00:20:33] Yeah, it kind of just starts bending in on itself
+[00:20:36] and collapsing and stuff.
+[00:20:37] And then it's gonna just snap
+[00:20:42] like a floppy little string again.
+[00:20:44] And it's gonna pull top,
+[00:20:47] just pull that string tight just one frame
+[00:20:49] and then let it hold so that the brain has time
+[00:20:51] to register what just happened.
+[00:20:54] Because when it's making that much motion,
+[00:20:56] you can't just keep moving that much.
+[00:20:57] You need to kind of slow down a little bit
+[00:20:59] so the brain has time to like soak in like,
+[00:21:01] whoa, what was that just happened that was really snappy?
+[00:21:04] Okay, so it's gonna snap tight
+[00:21:08] and then it's gonna turn into this hair again
+[00:21:11] that's just gonna kind of flop down
+[00:21:13] and start wiggling around and waving all over the place.
+[00:21:19] So now I'm doing that thing again
+[00:21:20] where it folds over on itself.
+[00:21:23] It's gonna pull a lot of slack out from the tail of it
+[00:21:26] when it does this motion.
+[00:21:31] Oh, that's a lot of motion again.
+[00:21:32] That's moving really fast.
+[00:21:33] It's gonna be a nice, flipping it around.
+[00:21:38] Fast as can be.
+[00:21:39] Oh yeah, and I was like, maybe it just kind of goes like flat
+[00:21:42] and I want this thing to really, really haul
+[00:21:44] and travel around.
+[00:21:48] And I'm not lingering as much on the tail.
+[00:21:50] Notice like, I'm really pulling it pretty far.
+[00:21:54] And then here, yeah, it just like,
+[00:21:58] thing is flying.
+[00:22:02] This is where you get into the fun timing
+[00:22:04] is where you really loosen up and you're just like,
+[00:22:06] I just want this thing to fly all around and zing
+[00:22:09] and wiggle and wobble and do all kinds of crazy stuff.
+[00:22:13] You end up having a lot more fun when you do that
+[00:22:15] and your animation has a lot more personality.
+[00:22:18] And so, you might find that you need to do four of these
+[00:22:21] for a good warmup.
+[00:22:22] So you might want to dedicate 20 minutes of time
+[00:22:25] to do like, did I say four in 20 minutes?
+[00:22:28] Yeah, four of these in 20 minutes
+[00:22:31] to just really get yourself loose
+[00:22:34] because the first one or two might be very stiff.
+[00:22:37] That's very normal.
+[00:22:38] I usually throw out my first drawing.
+[00:22:40] The first one I did here was okay,
+[00:22:44] but I was kind of loose from doing
+[00:22:45] some other animation exercises before this.
+[00:22:48] And so, if you're kind of coming into this cold
+[00:22:51] after non-animating or it's your first time
+[00:22:53] animating really, give yourself some time
+[00:22:57] to do a few warmups.
+[00:22:59] Okay, so I have this like little explosion shape
+[00:23:02] where it like comes into a line and then bursts out.
+[00:23:06] This is kind of a whole other beat.
+[00:23:08] And again, if it's kind of choppy and broken up,
+[00:23:10] I'm not too worried about the line quality.
+[00:23:13] As long as the general shapes are there, I'm fine with it.
+[00:23:16] Just gonna get it kind of going.
+[00:23:18] The brush in Adobe Animate does leave something
+[00:23:21] to be desired.
+[00:23:22] If you're using other software that has a better brush,
+[00:23:24] more power to you,
+[00:23:26] you might have an easier time with this exercise.
+[00:23:29] But yeah, the key is just getting something in there.
+[00:23:32] I'm actually using the choppiness to my advantage now.
+[00:23:34] I'm actually having a breakup,
+[00:23:36] like an actual explosion comes back into a dot.
+[00:23:42] And then I need to get it back up to this corner.
+[00:23:44] I remember it was somewhere up in this corner.
+[00:23:47] So I did this big loop and I'm like,
+[00:23:48] hey, that looks like a smiley face.
+[00:23:49] I just thought of it on this spot.
+[00:23:51] I'm like, oh, smiley face.
+[00:23:53] So it does that in one frame.
+[00:23:54] And so I want it to kind of hold again
+[00:23:58] so that you can kind of read what's going on.
+[00:24:01] And then I'm gonna have it zip in and make a smile.
+[00:24:06] It's like, why not?
+[00:24:08] Give it the funny little eyes.
+[00:24:16] Here's the second eye.
+[00:24:18] And then I'm like, okay, I have like four frames.
+[00:24:20] How am I gonna get it up there?
+[00:24:23] I'm gonna have this line kind of break up
+[00:24:24] so that it gets a little bit of time to read that smile
+[00:24:27] as it is dissolving kind of with the eyes as well.
+[00:24:31] Just leave bits of them remaining
+[00:24:33] as it's gonna kind of fly my way up
+[00:24:35] to the upper right corner.
+[00:24:38] Okay, there we go.
+[00:24:46] I'm curious what other shapes you guys can come up with
+[00:24:49] to have it dissipate into.
+[00:24:53] Maybe a shape of your cat or something.
+[00:24:57] Okay, it's like kind of gathering,
+[00:25:00] kind of finishing off these other shapes
+[00:25:02] as they dissolve in place.
+[00:25:08] And then I have it flinging up at the very last minute.
+[00:25:12] I waited till the last frame.
+[00:25:15] Which probably I waited a little too long.
+[00:25:17] And I think I do fix this in the next video.
+[00:25:19] I go back in and I refine it.
+[00:25:22] I mean, these are just warmups.
+[00:25:23] You don't have to go in and fix them, but yeah.
+[00:25:29] I like the zippiness.
+[00:25:32] Fun little smile face at the end.
+[00:25:35] And the wiggly at the beginning.
+[00:25:36] I didn't mention when that thing is like,
+[00:25:40] it's like this little beam that's like
+[00:25:42] about to burst with energy is vibrating
+[00:25:44] before it flings into that.
+[00:25:47] I really like how that turned out too.
+[00:25:51] Some fun little things going on in there.
+[00:25:53] It was a very satisfying warmup.
+[00:25:56] All right, now I try a very thin brush.
+[00:25:58] I went down to four pixels on my brush properties.
+[00:26:01] And that ends up being a little too thin,
+[00:26:03] but actually it's easy to thicken your lines,
+[00:26:06] which I'll show you how to do later on.
+[00:26:08] I end up thickening this one anyway.
+[00:26:10] But I wanted to try something thin.
+[00:26:12] I mean, y'all might want to try a thin brush too.
+[00:26:14] That might be more your style and you might enjoy
+[00:26:17] the elegance of the nice thin line.
+[00:26:21] I mean, give it a shot, why not?
+[00:26:22] There's no wrong or right way to do it.
+[00:26:24] I just ended up liking something
+[00:26:25] around the seven to eight pixels range myself,
+[00:26:29] but four pixels ends up being fun
+[00:26:32] because you don't have to worry about line thickness at all.
+[00:26:35] It's just the line itself.
+[00:26:39] So here I'm holding shift and I'm going perfectly up
+[00:26:41] because I hadn't done any vertical starts yet.
+[00:26:44] So now you have this nice little squiggle line going on.
+[00:26:53] Doing a lot of these waviness things.
+[00:26:55] We're gonna go more into waves in later videos as well,
+[00:26:59] like really discussing how to get beautiful, elegant waves.
+[00:27:03] I mean, really it's gonna be like at least one topic
+[00:27:07] per session that's fairly unique to just that animation.
+[00:27:13] So don't get too frustrated if your waves
+[00:27:17] aren't looking super, super amazing.
+[00:27:20] There's all kinds of things going on here
+[00:27:22] that I'm just tinkering around with, trying to experiment
+[00:27:25] how I can make this wave feel really nice.
+[00:27:27] Going on down there.
+[00:27:36] I do a lot of that, but then I don't hang on
+[00:27:40] to this like arched curve very long at all.
+[00:27:42] I just kind of bring it down.
+[00:27:45] Let's get spiral around.
+[00:27:47] I was kind of in a fling around the U shape a lot in these,
+[00:27:54] and I think I kind of recognize that.
+[00:27:56] And so with this one, I get away from it a little bit.
+[00:27:59] You'll see what I end up trying here.
+[00:28:02] So it's not just a simple U shape, but I riff on it.
+[00:28:18] Reach the apex and it gets some bumps on it
+[00:28:23] because maybe it has some turbulence or something.
+[00:28:27] And then those ridges are gonna get bigger.
+[00:28:30] And then the tip is gonna keep moving forward,
+[00:28:33] sliding along.
+[00:28:36] Now this is valuable here.
+[00:28:38] Notice that the ridges are growing non-uniformly.
+[00:28:43] So like I'm kind of keeping the valleys more or less similar
+[00:28:47] and then the peaks are flying up off of it.
+[00:28:51] And I'm trying to make it feel like it's traveling
+[00:28:54] up and to the right a little bit,
+[00:28:57] rather than just like,
+[00:28:59] then the peaks just simply growing up,
+[00:29:01] I'm kind of like sliding them up and over.
+[00:29:04] That makes sense?
+[00:29:07] It's become a little more apparent as I go.
+[00:29:15] Yeah, so they're more sliding to the side
+[00:29:17] than they are straight up.
+[00:29:19] You wanna avoid too much uniformity wherever possible.
+[00:29:23] And this exercise is meant as a very rough animation,
+[00:29:26] getting that subtle difference of like,
+[00:29:29] is it translating too much up versus is it sliding along?
+[00:29:32] Can often be addressed in like a refinement phase
+[00:29:37] or cleanup phase.
+[00:29:38] But what's nice about this exercise is like,
+[00:29:41] it's all in one.
+[00:29:42] And so this is to teach you to be loose and to flow
+[00:29:47] and to have these ideas ingrained subconsciously
+[00:29:51] in your mind as you've done this many, many times.
+[00:29:55] And you've really gotten yourself outside of that box
+[00:29:59] into the flow, working quickly,
+[00:30:01] instead of getting bogged down too much in the tedium.
+[00:30:06] So here I'm having it like contract in
+[00:30:07] and then it's starting to sag and to droop,
+[00:30:11] like it's like a liquid drop of something.
+[00:30:15] And so I'm gonna have it drop down, just turns into a line.
+[00:30:30] And then what's gonna happen?
+[00:30:32] I'm kind of thinking right now, I'm pausing to think,
+[00:30:35] I'll make it into a splash.
+[00:30:38] So it suddenly just splashes up.
+[00:30:43] And how do I want that splash to animate?
+[00:30:44] I just wanted it to be like really stylized,
+[00:30:48] really like simplified, just fat, globby, sploosh.
+[00:30:55] Really, you could do any kind of splash.
+[00:30:57] You could do one with like spikes on it.
+[00:30:58] You could do one that's more realistic
+[00:31:00] with like more droplets coming off of it.
+[00:31:03] I just wanted something nice and simple
+[00:31:04] that just widens out and then, you know,
+[00:31:08] has that timing where it holds
+[00:31:09] and then it very quickly like dissipates down and out,
+[00:31:13] flops down into a flat line.
+[00:31:21] Okay, now I'm having that moment of realization
+[00:31:23] that I only have four frames left to get it home.
+[00:31:26] And so it needs to like rest for just a couple of frames
+[00:31:30] and then kind of wiggle its way right back up
+[00:31:36] into that straight line that I had before.
+[00:31:38] And I ran out of time on the hookup, which is fine
+[00:31:41] because I know that I gave that initial vertical line
+[00:31:46] plenty of time holding in place.
+[00:31:48] And so I'll be able to do a nice hookup later.
+[00:31:52] All right, so there you go.
+[00:31:54] Wiggles around, comes on to its apex
+[00:31:57] and then flops right back down.
+[00:32:00] Now in the next video, we're gonna talk a little bit
+[00:32:04] about cleaning up these,
+[00:32:05] like getting the hookups to tie in nicely
+[00:32:07] if that's something that you wanna do
+[00:32:08] before tweeting it out to the world.
+[00:32:11] And yeah, it's gonna be pretty sweet.
+[00:32:16] Also, I'm gonna look at like coloring these,
+[00:32:18] like editing multiple frames, offsetting the beginnings
+[00:32:21] because sometimes with a GIF,
+[00:32:23] you want the first frame to be more interesting.
+[00:32:26] And so how do you get the most interesting frame
+[00:32:28] at the beginning and then set the loop
+[00:32:30] so that it goes different.
+[00:32:31] Gonna go over all that in the next video.
+[00:32:32] It's gonna be a little more technical,
+[00:32:34] less of the artsy parts of it.
+[00:32:37] So if you wanna skip that, that's fine too.
+[00:32:39] We're gonna do more artsy stuff in the following.
+[00:32:41] I'm gonna try some more of these to get,
+[00:32:44] and there's more lessons to learn there
+[00:32:46] about maybe what not to do
+[00:32:48] and also just different ways to approach this assignment.
+[00:32:50] So there you go.
+[00:32:53] I hope you enjoyed and I'll catch it in the next one.

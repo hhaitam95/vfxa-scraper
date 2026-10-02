@@ -1,0 +1,272 @@
+[00:00:05] Hello again, I'm Jayden, and in this lesson we'll learn how to connect shaders to the particle system.
+[00:00:11] Because when we create VFX, the particle system is normally one of the most important tools we use,
+[00:00:16] and it's very powerful for animation and timing.
+[00:00:19] So far, we've only used one piece of data to animate our shaders, which is time.
+[00:00:24] Time is very restrictive, because we can't pause it, and we can't speed it up or slow it down.
+[00:00:30] But the particle system uses animation curves, which gives us direct control over any visual component.
+[00:00:37] So to get started, let's create a basic particle system.
+[00:00:40] In your hierarchy, go to Effects, Particle System, and we'll change some of the basic settings here.
+[00:00:47] We'll start with Start Lifetime, which will be 2, and we'll make Start Speed 0, so these don't move.
+[00:00:55] We'll also go down to the Emission module, and we'll change this to a slower rate, let's use 0.5.
+[00:01:03] So now it'll spawn one particle every 2 seconds.
+[00:01:08] Before we create our particle shader, we need to understand more about how meshes work,
+[00:01:13] because sending data from the particle system can be pretty confusing,
+[00:01:16] but if we learn a few concepts before that, it becomes much easier to understand.
+[00:01:21] So let's take a look at the wireframe of this mesh.
+[00:01:24] As we know, every mesh is made up of vertices.
+[00:01:28] And you might think that a vertex is just a point in space, but it's more than that.
+[00:01:33] We can pack lots of data into each vertex.
+[00:01:36] And imagine that each vertex has its own little brain.
+[00:01:40] Obviously it does store its position, which describes the shape of the mesh.
+[00:01:45] It also stores the normals, so we know which direction the vertex is facing.
+[00:01:50] It stores UV coordinates, so that we know how to map a texture to the connected faces.
+[00:01:56] And each vertex also stores color, which is not the same as the surface color.
+[00:02:00] In fact, we haven't used vertex color yet.
+[00:02:03] Vertex color is just another piece of data that we can use for whatever we want.
+[00:02:07] And there's also more data that's stored in each vertex.
+[00:02:11] So the mesh packs all of this data into every vertex.
+[00:02:15] Then we send this mesh to the shader.
+[00:02:19] And the shader will unpack that data from every vertex.
+[00:02:23] And that's what happens when we use any node.
+[00:02:25] Like if we use the UV node, it's getting that data from the vertex.
+[00:02:29] Same with the position node, the normals, and vertex color, which we haven't used.
+[00:02:34] So again, we pack all of this data into every vertex when we create the mesh.
+[00:02:39] Then the shader will pull that data out.
+[00:02:42] And when you're working in Unity, specifically in 3D, everything you see on the screen is a 3D mesh.
+[00:02:48] If it's not a 3D mesh, you cannot see it.
+[00:02:52] But what about the particle system?
+[00:02:54] Because it's not a mesh, so how do we see it?
+[00:02:57] Well, the particle system actually is a mesh.
+[00:03:00] And you probably didn't know this, but the particle system builds a new mesh every frame.
+[00:03:05] You can see that if you have wireframe turned on.
+[00:03:08] It'll look at each particle and check its position and size and rotation.
+[00:03:13] And then it will build a quad mesh around that particle.
+[00:03:17] So that's why we can see the particle system in 3D.
+[00:03:21] And the system builds the mesh by building each vertex individually.
+[00:03:25] When it creates a vertex, it also fills it with that information.
+[00:03:29] Position, normal, color, UVs.
+[00:03:34] Normally this is information that we'd create in a 3D program when we're building the mesh.
+[00:03:39] Particle system builds this information into every vertex, every frame.
+[00:03:45] Okay, so let's try something here.
+[00:03:47] In the particle system, enable the color over lifetime module.
+[00:03:52] And create a simple gradient for that.
+[00:03:55] You'll see that the particle changes its color over lifetime across this gradient.
+[00:04:00] If you look at the renderer component of the particle system.
+[00:04:03] You'll see that it has this material assigned.
+[00:04:06] And by default, it uses Unity's built-in particle shader.
+[00:04:11] So let's create our own particle shader.
+[00:04:13] Create a new unlit shader graph.
+[00:04:16] You can call it particle shader.
+[00:04:18] Create a material for it and apply that to the particle system.
+[00:04:22] You can do that right here.
+[00:04:26] Then open up your shader workspace.
+[00:04:33] So let's start by making the surface type transparent.
+[00:04:37] And let's use a texture to decide the alpha.
+[00:04:40] Add a sample texture 2D.
+[00:04:42] And let's use the built-in flare texture.
+[00:04:49] Plug that into the alpha.
+[00:04:52] Save asset.
+[00:04:53] Now when you run your particle system.
+[00:04:58] You'll notice that it's not changing color over lifetime.
+[00:05:01] Even though we still have that setting enabled.
+[00:05:04] That's because right now we have no color input.
+[00:05:07] We never told this shader to change color.
+[00:05:10] We would like to input a color here.
+[00:05:12] But we need that data from the particle system.
+[00:05:15] So try this.
+[00:05:16] Create a vertex color node.
+[00:05:21] And plug that into the base color.
+[00:05:24] Save asset.
+[00:05:28] And now we can see that the color is working.
+[00:05:30] But where is that data even coming from?
+[00:05:33] Well remember that the particle system builds every vertex every frame.
+[00:05:38] And what it's doing is it's packing color data into the vertex.
+[00:05:43] And it's really important to remember that the shader has no direct connection to the particle system.
+[00:05:48] But the shader can read vertex data.
+[00:05:51] Which is what's happening here.
+[00:05:54] So the particle system puts data into the vertex.
+[00:05:57] And since the shader has a direct connection to the mesh.
+[00:06:00] It can read data out of every vertex.
+[00:06:03] So the mesh is a storage container for data.
+[00:06:06] One system can put data into it.
+[00:06:08] And another system can pull it out.
+[00:06:12] So now let's extend our shader to use more data from the particle system.
+[00:06:17] I'd like to use it to control the alpha of this texture.
+[00:06:20] So let's use a multiply node.
+[00:06:27] And for even more control.
+[00:06:29] I'd like to use two different textures.
+[00:06:31] So duplicate this.
+[00:06:35] And for the second texture, let's choose the built-in ring.
+[00:06:45] We'll use the vertex color for the color.
+[00:06:47] And we'll use these for the alpha.
+[00:06:51] And let's combine these textures using a maximum node.
+[00:07:01] We could have combined these using add.
+[00:07:03] But I don't want it to become brighter in these parts where they overlap.
+[00:07:07] If we use maximum, it'll just pick whichever texture is brighter and use that.
+[00:07:12] So it's just a different way to combine textures.
+[00:07:15] And then let's saturate this result and plug that into alpha.
+[00:07:24] So what I'd like to do is control each of these textures individually using their multiplier.
+[00:07:30] So we can make one of these fade away while the other one is still there.
+[00:07:36] And what we want to do is control each of these multipliers through the particle system.
+[00:07:42] Since the shader cannot communicate directly with the particle system,
+[00:07:45] we need to pack those numbers into the vertices.
+[00:07:49] But we have a problem because vertices only store information like position and UV and color.
+[00:07:55] There's no data type for custom data.
+[00:07:57] We can only use the built-in data types.
+[00:08:00] So basically what we'll have to do is sneak that data in somewhere else.
+[00:08:05] So let's see how we might do that.
+[00:08:07] Add in a UV node.
+[00:08:12] You may have noticed this before, but the UV has this channels option.
+[00:08:17] And you'll see here three additional channels that we never use.
+[00:08:22] Every vertex has these built-in data types.
+[00:08:25] So think of each data type as a box where we can store data.
+[00:08:29] We have color, position, normals.
+[00:08:35] Inside color, we put in an RGBA value.
+[00:08:38] Position is a vector 3.
+[00:08:41] Normals are also a vector 3.
+[00:08:43] So we can put numbers in here.
+[00:08:49] We also have UVs where we can put in a vector 2.
+[00:08:54] You might notice UV is a vector 4.
+[00:08:58] There are two other data points that we don't even use.
+[00:09:03] And not only that, but we also have other UV channels.
+[00:09:07] In fact, there's a total of four UV channels that we have available, and we never use these.
+[00:09:15] Each of these can store its own vector 4.
+[00:09:18] The first UV channel is UV0.
+[00:09:23] So you can think of these as empty boxes.
+[00:09:26] They are not being used by anything, which means that we can pack any data into these and use it however we want to.
+[00:09:33] And also we only use the vector 2 in UVs, so we have this data that we can use as well.
+[00:09:39] This is all empty space, which means that the particle system can put data into those empty UV channels,
+[00:09:45] and the shader can pull it out.
+[00:09:48] Okay, so let's set that up in our particle system.
+[00:09:51] Go back to your scene view and go to the particle system's render module at the bottom.
+[00:10:00] You'll see a checkbox for custom vertex streams.
+[00:10:03] Turn that on.
+[00:10:07] And right away, you can see the data that the particle system packs into each vertex by default.
+[00:10:13] So on the left, you can see the information that the particle system will pack into the vertex.
+[00:10:18] In the parentheses, you can see where it will put it.
+[00:10:22] The parentheses tell you which node you'll use in Shader Graph.
+[00:10:26] So you can access this position using the position node.
+[00:10:30] You can access normals using the normal node, and you can access vertex color using the color node.
+[00:10:36] And you'll see that UVs are packed into text cord 0.
+[00:10:39] Whenever you see text cord, that's just another name for UVs.
+[00:10:44] So when it says texture coordinate 0, this just means we're going to use the UV node to access that data.
+[00:10:50] So now let's scroll up.
+[00:10:53] Just above render, you'll see the custom data module.
+[00:10:57] Enable that.
+[00:10:59] And then you'll see that we can turn on custom data.
+[00:11:02] Choose vector.
+[00:11:04] We could also use color for this, but we'll just use numbers for now.
+[00:11:08] And this is the number of components that we want to change.
+[00:11:11] Let's change this to 2.
+[00:11:14] We'll use the first number to control the alpha of the main texture, and the second number to control the alpha of the ring texture.
+[00:11:22] So now go back down to the custom vertex streams, and you'll see a plus sign here.
+[00:11:27] Click on that.
+[00:11:29] And we're going to add custom data.
+[00:11:31] We only want to use two components, so we'll choose XY.
+[00:11:35] But if we wanted to use more, we could choose a different option.
+[00:11:39] And now that we're packing more data into each vertex, we can use animation curves.
+[00:11:45] If you look at the dropdown in the custom data, you could choose a curve here.
+[00:11:51] And we can edit these curves in this curve editor.
+[00:11:55] I'll just choose a different curve for each of these.
+[00:11:59] So now that we've set up custom data, let's go back to our shader graph.
+[00:12:03] So let's take a look at how we will receive this data.
+[00:12:15] Remember that the particle system tells us where it's going to put it.
+[00:12:19] You can see that the particle system is going to pack in custom data, and it's going to put it in this node.
+[00:12:25] Remember that text cord is the UV node, and it's putting it in the UV0 channel.
+[00:12:32] It also tells you where it's going to put it.
+[00:12:35] So for example, position uses a vector 3, XYZ.
+[00:12:39] Normal also uses a vector 3.
+[00:12:41] Color uses RGBA.
+[00:12:44] And when the particle system does UVs, it only packs it into the X and Y channel of UV0.
+[00:12:50] That leaves the third and fourth channel open, which is where we're going to pack that extra custom data.
+[00:12:56] To do this, we need to split the UV node.
+[00:13:02] It says RGBA, but remember that's the same as XYZW.
+[00:13:08] Channel X and Y are being used for the basic UVs.
+[00:13:13] Our custom data is being packed into C and W, and so this is where we can pull the data.
+[00:13:21] So let's hook these into our textures.
+[00:13:23] Grab the Z channel and plug that into the first texture, and the W channel and plug that into the second texture.
+[00:13:34] And remember we can double-click the wires to organize them.
+[00:13:38] So the particle system is putting our custom data into UV0, and it's doing that on these curves.
+[00:13:51] Then the shader will pull that data from the curves and use that to drive our textures.
+[00:13:56] Let's see if everything works.
+[00:14:03] So now we can see that the textures are having their alphas driven separately by the curves.
+[00:14:09] And we can do whatever we want with these curves.
+[00:14:11] So if you double-click anywhere on the curve, you can add different control points, and you can make this curve whatever you want.
+[00:14:19] So you can see that now we've unlocked the power to animate.
+[00:14:24] Let's extend our shader to receive more custom data.
+[00:14:28] What I'd like to do is also add a control for emission.
+[00:14:32] The particle system doesn't use emission by default.
+[00:14:35] In fact, vertex colors only go between 0 and 1, so we can achieve emission by multiplying this.
+[00:14:42] Add in a multiply node, and if we multiply the main color by a number higher than 1, it'll make it start to glow.
+[00:14:52] In this multiply, we need to plug in custom data from the particle system, so we need to send in more data.
+[00:14:59] Let's go back to the particle system.
+[00:15:05] Back down under the renderer, we are only using two data points, so if we want to change this, we'll need to remove it.
+[00:15:13] Let's use four data points instead. We'll use custom1 xyzw.
+[00:15:20] Then we need to go back up to the custom data and change that to be four components.
+[00:15:25] And we'll use the third component as a curve to drive emission.
+[00:15:31] And I'll just pick a curve for now.
+[00:15:34] Let's go back to our graph so we can receive this data.
+[00:15:44] So we need to plug our data in right here.
+[00:15:47] Let's look at the particle system to see where it's putting that.
+[00:15:52] So now we have something interesting here, because the parentheses tell us that we're packing our custom data into uv0 zw.
+[00:16:01] And then there's a line, and then xy.
+[00:16:05] But uv0 xy is already being used, so what's going on there?
+[00:16:10] Well, when you see this line, that means that we ran out of room in this node, so what it does is it moves to the next channel that's available.
+[00:16:20] So we used zw inside of uv0.
+[00:16:25] Then we hit the line, which means it moved over to the next available uv, which is uv1.
+[00:16:32] And inside of uv1, it packed it in xy.
+[00:16:40] So custom data 1 and 2 were sent to uv0.
+[00:16:44] Custom data 3 and 4 were sent to uv1.
+[00:16:48] So again, the line here is what tells us that it moved to the next channel.
+[00:16:53] So let's grab another uv node.
+[00:16:59] We will split it again.
+[00:17:03] And we want the third data point, which was packed into uv1 x.
+[00:17:08] So that's what we're going to use here.
+[00:17:11] We need to change the uv channel that we're pulling from to uv1.
+[00:17:16] And now it should work.
+[00:17:24] So there's one last problem with this.
+[00:17:26] Since this is an emission setup, we shouldn't be using numbers 0 through 1.
+[00:17:31] We should be using numbers above 1.
+[00:17:34] So we can change the top of the graph to whatever we want.
+[00:17:37] I'm going to make that 10.
+[00:17:40] And then we can use this graph to go between 1 and 10.
+[00:17:44] And there we go.
+[00:17:48] So we still have this extra data point that we didn't use.
+[00:17:51] And we can use that for anything in the shader.
+[00:17:54] It could be used for tiling and offset.
+[00:17:56] You could use it with a panning setup for panning speed.
+[00:18:00] You can use a step node to dissolve a texture with an animation curve.
+[00:18:04] Or literally anything else that you want to change over time.
+[00:18:08] And also you should know that there's other data you can pull from the particle system.
+[00:18:12] We decided to use custom data, but there are other useful ones.
+[00:18:16] For example, lifetime age percent.
+[00:18:19] This is a number that starts at 0 when the particle is first born.
+[00:18:23] And goes up to 1 when the particle dies.
+[00:18:26] So you could use this to drive any value over the particle's lifetime.
+[00:18:30] You could also use speed.
+[00:18:32] So for example you can change the color of a particle based on how fast it's moving.
+[00:18:36] And if you choose this data, now you know how to see where it's being sent to.
+[00:18:40] So in this case the speed is being sent to UV1 in the Z component.
+[00:18:46] And you could plug that number right into a sample gradient.
+[00:18:49] So now we know how to animate any data in our shader as long as we're using the particle system.
+[00:18:55] There are other ways you can control data from outside the shader.
+[00:18:59] And you would do that using properties which we've looked at before.
+[00:19:03] You can change properties through code using C Sharp.
+[00:19:06] Or you can use Unity's animation system.
+[00:19:09] We aren't going to look at those, but just know that they're options.
+[00:19:12] And those could be useful if you want to drive your shader based on game events.
+[00:19:17] But for most of the basic VFX that you'll create, the particle system offers everything we need.
+[00:19:22] So now that we know how to animate shaders in the particle system,
+[00:19:25] we know all of the basic foundations of VFX shaders.
+[00:19:29] You now have the knowledge to create and experiment with your own original shaders.
+[00:19:34] And obviously there are many nodes that we didn't cover and more advanced techniques that are available.
+[00:19:40] But with shaders, you don't need to know everything to start making high quality VFX.
+[00:19:45] You can start right now.
+[00:19:46] As you grow in your VFX journey, you'll see lots of crazy things people can do.
+[00:19:51] And now that you know those fundamentals, you'll be able to learn new techniques very easily.
+[00:19:56] All of that extra knowledge out there is just an extension of these foundational concepts.
+[00:20:01] So don't be afraid to learn more and try everything.
+[00:20:05] Remember, shaders are a whole new way of thinking.
+[00:20:08] And they will become more intuitive as you get more practice and create your own original artwork.
+[00:20:14] So have fun, keep learning, and good luck on your next step in your VFX journey.
+[00:20:20] I'm Jayden, and this has been your intro to materials in Unity.

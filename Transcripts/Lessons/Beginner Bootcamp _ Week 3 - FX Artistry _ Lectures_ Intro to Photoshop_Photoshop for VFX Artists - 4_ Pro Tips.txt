@@ -1,0 +1,201 @@
+[00:00:01] Oh, hey guys, you made it.
+[00:00:04] This is the final video in the introduction
+[00:00:07] to Photoshop series, video four of four.
+[00:00:10] Okay, so we've talked a lot about the different things
+[00:00:14] that Photoshop can do and how David Shovlin
+[00:00:17] created these awesome paintings that are showcased here
+[00:00:21] and also used in the class.
+[00:00:23] There's a link in the description
+[00:00:24] to the visual effects class that I'm working on.
+[00:00:27] So this last video is kind of a catch-all.
+[00:00:30] It's all the stuff that I didn't quite get to
+[00:00:32] in the other videos of what Photoshop can do.
+[00:00:35] Things that I commonly use.
+[00:00:37] Okay, so we learned a little bit about undo.
+[00:00:40] If you go to the history panel,
+[00:00:42] here's some different things that are showing up here
+[00:00:46] and stuff that we can do.
+[00:00:48] So if I brush, I don't wanna use green, I just,
+[00:00:51] so if I hold Alt, I can do,
+[00:00:55] I don't know if you wanted to do whatever, right?
+[00:00:58] This crazy brush.
+[00:01:00] And then it's got these four brush strokes.
+[00:01:02] Now if I hit Ctrl-Z multiple times,
+[00:01:04] it undoes up through the list.
+[00:01:06] You see the history goes up and up.
+[00:01:08] If I hit Ctrl-Shift-Z, it comes back down.
+[00:01:11] Now this is different than it used to be in Photoshop.
+[00:01:16] It used to be that Ctrl-Z was, now is Ctrl-Alt-Z
+[00:01:22] where it toggles between the last and the most recent,
+[00:01:26] oh my gosh, it's not quite working.
+[00:01:29] Okay, Ctrl-Alt-Z does this, right?
+[00:01:31] Or it toggles between them.
+[00:01:34] Used to be that was just Ctrl-Z
+[00:01:35] and now Ctrl-Z is what used to be Ctrl-Shift-Z
+[00:01:39] and Ctrl-Shift-Z is something.
+[00:01:41] It's all very confusing, I apologize.
+[00:01:43] But if you play around with it,
+[00:01:45] you'll know from your version of Photoshop what it is.
+[00:01:47] Ctrl-Y, which used to be redo, is now entirely different.
+[00:01:52] Ctrl-Y is now proof, like what is it called?
+[00:01:57] Proof setup or it says up here, proof colors.
+[00:02:02] So your proof colors are determined
+[00:02:06] off here in proof setup.
+[00:02:10] And right now I have it set to custom,
+[00:02:12] which is if you do device to simulate here,
+[00:02:16] it's gonna be gray, gamma.
+[00:02:19] There's way too many different ones
+[00:02:21] to even occupy your brain.
+[00:02:24] There's Epson gray, gamma.
+[00:02:26] I don't know what that is.
+[00:02:28] Gray, gamma works just fine.
+[00:02:29] You can do either one of these.
+[00:02:30] I honestly don't know the difference.
+[00:02:34] So you choose one of those, say okay.
+[00:02:37] And now when you hit Ctrl-Y, it toggles.
+[00:02:39] And this is super useful to your workflow
+[00:02:41] because in every other artistic discipline
+[00:02:47] that uses painting of any kind,
+[00:02:50] whether it's user interface design,
+[00:02:53] environment design, character design,
+[00:02:55] it's super valuable to check your values.
+[00:02:58] Get it?
+[00:02:59] So checking your values ensures
+[00:03:00] that your focal points are right
+[00:03:02] and that your contrast is working
+[00:03:04] and all that's coming together
+[00:03:05] in spite of whatever colors are on top of it.
+[00:03:08] And if you use other techniques,
+[00:03:11] especially in old Photoshop, older Photoshop,
+[00:03:14] like if you just change it using
+[00:03:20] image adjustments, like hue saturation,
+[00:03:23] and you just strip the saturation out,
+[00:03:27] especially older versions of Photoshop,
+[00:03:29] it doesn't actually give you an accurate representation
+[00:03:31] of what a desaturated thing is.
+[00:03:33] Also, it's not easy to toggle it on and off
+[00:03:35] the way it is with Ctrl-Y.
+[00:03:37] So I would just recommend using that trick,
+[00:03:41] Ctrl-Y, super, super handy.
+[00:03:44] Okay, so I wanna also talk about selecting layers
+[00:03:47] a little bit more.
+[00:03:48] And I wanna find a really soft, feathery layer to do this.
+[00:03:52] So let's maybe look at,
+[00:03:58] where's a nice, soft layer?
+[00:04:01] There's one, why not?
+[00:04:02] So this inner glow has a nice quality to it.
+[00:04:07] Now we learned before that we could lock the alpha channel
+[00:04:11] and then I can come in here and select my color.
+[00:04:18] Let's say I want it to,
+[00:04:20] glow green or something like that.
+[00:04:24] And if I lock the alpha channel,
+[00:04:25] then it will only paint the same amount of alpha
+[00:04:31] as what was on this fuzzy layer before, right?
+[00:04:34] But there's another technique which is really, really handy
+[00:04:36] and David Shevlin uses this in his tutorial videos
+[00:04:39] and that's to Ctrl-click on a layer.
+[00:04:43] And what that does,
+[00:04:44] it looks like it's only selected half of it.
+[00:04:46] That's because the outline only shows up around
+[00:04:49] where it's 50% opaque or more,
+[00:04:52] 50 up to 100%.
+[00:04:54] And then everywhere else
+[00:04:55] where it's like more subtly transparent,
+[00:04:58] it just doesn't show that outline,
+[00:05:00] but you'll see it still works the same as locking the alpha.
+[00:05:08] And this is actually really handy
+[00:05:09] because I can come in here,
+[00:05:13] I can grow or shrink that selection.
+[00:05:15] Like we learned before about like,
+[00:05:18] select, modify, and then you can like contract or expand it.
+[00:05:23] So that's handy.
+[00:05:24] Or I can undo this,
+[00:05:27] I can go to a new layer
+[00:05:29] and now in that new layer,
+[00:05:30] I'm painting that same amount of transparency in here
+[00:05:36] and I can like do whatever I want.
+[00:05:39] So super handy.
+[00:05:42] I can come along and like smudge it within that,
+[00:05:47] and play around with it,
+[00:05:48] but the transparency and the edging will stay perfect.
+[00:05:55] Just the way I want it to.
+[00:05:57] Also, you can do control H,
+[00:05:59] which we learned about in a previous tutorial
+[00:06:01] to hide the selection,
+[00:06:02] but it's still totally works.
+[00:06:05] Same as you would expect.
+[00:06:07] You can do control H again,
+[00:06:08] you can do control D to deselect that selection.
+[00:06:11] Or of course you can do V for the move tool
+[00:06:16] and you can then move that around.
+[00:06:19] Looks like a,
+[00:06:21] oh no, that's just on this layer.
+[00:06:24] Something didn't get selected.
+[00:06:28] I guess moving is a little spotty.
+[00:06:29] Sorry about that.
+[00:06:31] Okay, so that's a little more on selection and layers.
+[00:06:36] It's again, it's control clicking on the icon of the layer,
+[00:06:41] not the text, that's important.
+[00:06:43] Finally, there's the F key.
+[00:06:45] I don't think I went over the F key before.
+[00:06:47] F key is nice.
+[00:06:48] If you want to just like remove all menus around,
+[00:06:52] you just want to like maximize your screen space.
+[00:06:55] And then you just hit F again and it cycles back through.
+[00:06:58] Sometimes you'll lose menus with the F key.
+[00:07:01] And then there's liquify, liquify.
+[00:07:04] I probably should have covered liquify
+[00:07:05] in the filters tutorial.
+[00:07:09] Let's find a good layer to liquify.
+[00:07:11] That's a great one.
+[00:07:14] Okay, so let's turn all this on.
+[00:07:15] I'm gonna liquify on this.
+[00:07:16] Make sure you're on the layer that you want to liquify.
+[00:07:21] And I'm gonna come over here.
+[00:07:24] And this is the liquify pop up.
+[00:07:25] So liquify is a lot of fun.
+[00:07:27] It's like smudge, but much cleaner.
+[00:07:32] So it keeps the edge fidelity at where it was.
+[00:07:38] And you can really sort of push and pull these shapes
+[00:07:42] however you like.
+[00:07:43] Like you can come in here and really mess around with it.
+[00:07:47] And it works nicely when you've got darker shapes.
+[00:07:51] If you don't have darker shapes,
+[00:07:55] I guess you could show a backdrop.
+[00:07:59] Yeah, that works.
+[00:07:59] Just click show backdrop.
+[00:08:01] And then that way you know how it's all looking.
+[00:08:05] Whoa.
+[00:08:11] Okay.
+[00:08:12] So, yeah.
+[00:08:14] Turn it off when you're doing this.
+[00:08:15] And then show backdrop when you want to like
+[00:08:19] kind of test it out and see what it's doing.
+[00:08:23] And then you just say, when you're done with it,
+[00:08:25] you say okay.
+[00:08:26] And then now you have a distorted liquified outcome.
+[00:08:32] Kind of really handy.
+[00:08:33] So that covers pretty much everything that I use
+[00:08:39] on a daily basis.
+[00:08:41] There's some more advanced stuff,
+[00:08:43] but honestly guys, like you're gonna be great.
+[00:08:45] You're gonna do just fine.
+[00:08:46] Just with these four videos are gonna be planning for you.
+[00:08:52] I don't think you need to go out
+[00:08:53] and really dive too deep into Photoshop.
+[00:08:55] Yeah, it's a complicated tool.
+[00:08:56] Yeah, things are not intuitive.
+[00:08:58] Hopefully we've circumvented a lot of that
+[00:09:00] through these videos.
+[00:09:02] And hopefully you find enough interest in this stuff
+[00:09:04] that you want to learn how to create these paintings
+[00:09:06] and you sign up for the class.
+[00:09:07] I would love to have you.
+[00:09:09] I'm always open to feedback,
+[00:09:10] always open to having people come
+[00:09:12] and let me know what's working,
+[00:09:14] what they want to see in future classes, et cetera.
+[00:09:17] So head on over, check it out.
+[00:09:19] And thank you, thank you, thank you so much
+[00:09:21] for all your support and for watching.
+[00:09:24] And good luck making awesome visual effects.

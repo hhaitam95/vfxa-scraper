@@ -1,0 +1,152 @@
+[00:00:06] Hi! In this video we will talk about how to make something disappear by making it smaller.
+[00:00:13] And it's probably the most common concept and it is very versatile and easy to apply to different elements in one way or another.
+[00:00:23] And we will look at the example of making things small to disappear with movement,
+[00:00:30] adding small accent at the end of disappearance,
+[00:00:36] and we will create a fun sparkly composition by reusing the animation that we did in the previous step
+[00:00:46] and changing the timings and placements and positions of these sparkles.
+[00:00:51] So let's start with the first one.
+[00:00:55] So here it's pretty straightforward. With each frame, like here we just make things to appear as we did before,
+[00:01:06] and then we just go smaller and smaller with each frame till it disappears completely.
+[00:01:15] So one thing to remember with this kind of stuff is that to make it believable that it's disappearing cohesively,
+[00:01:28] you need to pay attention to what size you are deleting your shapes after.
+[00:01:34] So here's like the smallest size of my particle element here and it's kind of the same here and then it's disappearing.
+[00:01:43] And the same goes for this one. So to make it look like it's fairly disappearing throughout the effect,
+[00:01:52] make these things cohesive and pay attention to the size after which you delete the shape.
+[00:02:02] So with this way of disappearing stuff, you can make still some fun things by using different timing and spacing for the motion and like actual sizing changes.
+[00:02:22] So for example, here I just made the shape stay in the biggest form for a little bit and then it goes smaller and smaller in pretty linear way,
+[00:02:37] like maybe probably like a little bit slower size down on the first two frames and then rapidly sizing down with each next frame.
+[00:02:51] And you can make it another way. So for example, if you want to make an accent on how the shape is disappearing,
+[00:03:06] you can create some small guide for it. And so something is appearing, moving, going bigger, bigger, then smaller, smaller, smaller.
+[00:03:29] And you can make this thing go in this small state for a little bit longer to make the viewer see it clearly and then just slowly making it even smaller and smaller again.
+[00:03:46] So in this way, like the accent will be more on the last bits of the animation of the like disappearing your parts.
+[00:03:58] And also you can vary how your movement speed correlates with the size changes.
+[00:04:09] So let me delete all this stuff.
+[00:04:14] Yeah, so for example, maybe the actual movement will be with this slow down at the end. I make a chart really quick like this.
+[00:04:30] But the sizing will be, the size changes will be more rapid. So we will have something appearing here and then it goes smaller, smaller, smaller and disappears.
+[00:04:53] So it's like in this case, the accent will be somewhere around like this frame, make it less ugly because it's like the biggest frame that we see.
+[00:05:10] And it sells more like the motion feel and we don't make such big accent on the ending part of it.
+[00:05:20] So yeah, there's like a few ways you can play with it, like playing with motion and sizing down spacing changes.
+[00:05:33] And like these concepts can be applied to some dusty, smoky shapes or some fire sparkles that goes like along the way up, like going super small at the end.
+[00:05:50] It also applies to the water droplets that are like falling down from this size, like they're moving, moving, then go smaller, smaller and disappear.
+[00:06:08] So it's very useful concepts that can be applied to a lot of stuff.
+[00:06:16] And let's look at the second example.
+[00:06:21] So here I used the sparkle as we did in making things appear video.
+[00:06:31] So the start here is fairly the same.
+[00:06:35] And then with each frame, it goes smaller and smaller till the very small ties, but then it grows again and go smaller again to disappear completely.
+[00:06:50] So here it can be useful for some stuff you want to make the final bit in animation with.
+[00:07:03] So like you want the viewer to pay attention to the scene that's disappearing here.
+[00:07:11] And it can create a nice accent at the end of the animation and bring the viewer's attention to the particular part of the screen you wish they will look after the effect ends.
+[00:07:25] So here with this scene, I like to think about it in graphs as usual.
+[00:07:39] So when we start making things appear, it's growing in size, growing, growing in size, stays in this bigger form, the biggest form for some time.
+[00:08:00] It's like a plateau here. Then it goes down with like slowly increasing spacing between each frame.
+[00:08:13] So here it's a little bit smaller, then more smaller, more smaller and like the smallest, almost zero.
+[00:08:24] And then it grows back a little bit, like probably like 20% of the size.
+[00:08:36] Here again slows down at the biggest point, starts to decrease in size and disappears completely.
+[00:08:45] So it goes like woop at the end. So it's like a fun woop woop bit with this animation.
+[00:08:54] And this kind of stuff can be applied to like sparkles like here, but also can be useful for some electricity zaps that are like growing down.
+[00:09:07] But then like the final mini sparkle appears there and it can bring more attention for the viewer on this, the last bits of your effect.
+[00:09:19] And another fun thing with this kind of last bit accent, you can create it with like, but not by not growing the shape itself back,
+[00:09:37] but by bringing some additional movements that have like this going big again motion.
+[00:09:47] I'll show what I mean. In a second we'll duplicate the same sparkle and we'll just move it to the side.
+[00:10:01] And after this part, I will just delete these frames to create new ones to show what I mean.
+[00:10:09] So we can decrease the size of the element we want to disappear.
+[00:10:16] And now for the like this accent bit, I can create some smaller shapes.
+[00:10:25] So they're going out of this thing and they like a small puff that goes after the spark disappeared.
+[00:10:47] So this way we again have this like additional bit at the end, but it's not like the same shape grows back up a little bit and then disappears.
+[00:11:05] It's like a new element that this shape is puffing into kinda.
+[00:11:12] So it can be like fun to play with different instances for the shape you're making disappear.
+[00:11:23] And yeah, you can experiment with this and have fun with it.
+[00:11:33] And for the last thing I wanted to show about this is how we can reuse the animation we created to create a new like kind of full effect, like the composition of the small sparkles.
+[00:11:56] It's a very useful thing you can do to see how you can apply like the same flip book you've created.
+[00:12:03] If you're going to the engine later or just to create an effect itself by reusing the one animated part you've done already.
+[00:12:18] So to do this, I will create a copy of the sparkle that I have here already.
+[00:12:30] Duplicate, so it will be the one I'm playing with.
+[00:12:37] I will move all of these frames to the right part just to make the already created version seen there.
+[00:12:49] You can probably in the any software you're working in, there will be some function to select all the frames on your layer to replace them.
+[00:13:05] And also in Harmony you can like actually add key frames on the changes of the position, rotation and scale.
+[00:13:17] So we will use this stuff to create a combined composition.
+[00:13:24] Yeah. Okay. So to start with, I will create another copy of this and another one.
+[00:13:34] So I am aiming to add five copies to play with the sparks.
+[00:13:44] I have one, two, three, four, five of them.
+[00:13:48] And now I want to make like a composition of them.
+[00:13:53] I will select the frame where I see the final size of it and I will change the placement and sizing of the sparks I have here.
+[00:14:06] So for this layer, I can place this back here, for example, make it slightly bigger.
+[00:14:16] So it will be my like the biggest spark I have here.
+[00:14:21] Now the second one, it will be a little smaller.
+[00:14:28] So I want to apply the big, medium, small principle into my variety of shapes.
+[00:14:37] So I will have like one big sparkle, one sparkle medium size and a bunch of sparkles of the smaller size.
+[00:14:54] So let's be here. The next one, again, the small one, place it maybe here.
+[00:15:11] Let's see. And this one, oh yeah, this one will be also small. Try to place it maybe here.
+[00:15:28] Let's move things a little bit. So what I'm thinking about the like overall feeling of this composition,
+[00:15:37] I want to make it flow from left to right in this kind of arc and like finishing the effect on this big sparkle here.
+[00:15:48] So now I'm trying to just place the sparkles in a like pleasing way.
+[00:16:00] Okay, so here will be the start, starting sparkle.
+[00:16:08] What's it? What is it? Okay, this one feels like should be slightly up.
+[00:16:16] And now I see that like these two sparkles are evenly distributed one from another.
+[00:16:21] So I want to probably move this one slightly closer to this, maybe down, maybe up, maybe here.
+[00:16:36] Now see how it looks in general, feels like this one could be slightly bigger and this one too.
+[00:16:48] So yeah, kind of happy with this still frame of how the things distributed.
+[00:16:55] Now we are going to play with timings and like when things start to appear.
+[00:17:06] We can start with the smallest one on the left.
+[00:17:12] So this one will appear first. So I change the timing of it to start earlier.
+[00:17:19] Oh, I missed the sparkle. It's this one.
+[00:17:24] So it's going to appear earlier than all the other sparks.
+[00:17:31] And also I see that because I changed the size of the spark, this frame is super small already.
+[00:17:39] So it's like, like pixel wide.
+[00:17:44] So I'm going to delete this frame and I will not be making an accent on this sparkle.
+[00:17:55] So I'm deleting the frames that make it appear again.
+[00:18:01] So I have just a loop of how it appears and disappears.
+[00:18:07] Now the next sparkle that will start, it will be this one.
+[00:18:16] Yes, yes, this one.
+[00:18:21] So yeah, it can appear a little bit earlier to not make like a lot of time to wait before we see the next sparkles.
+[00:18:32] And here I'll do the same. We'll delete all the frames after the smallest size of it.
+[00:18:44] Now, let's see, to break the obvious flow of it, I will make the next sparkle to appear to be this one.
+[00:18:56] And it is, which one it is?
+[00:19:01] Oh, it's this one.
+[00:19:04] So yeah, it's at the right time and place right now.
+[00:19:09] But again, because it's super small, I will delete the last frames.
+[00:19:14] So now the next one I want to appear is this one in the middle.
+[00:19:20] And it is this spark.
+[00:19:24] So it will appear a little bit later.
+[00:19:28] And we'll see if I want to leave the last accent bit here.
+[00:19:35] Let's place the timing of our biggest sparkle.
+[00:19:41] It will appear the latest as the ending point of the motion we make with it.
+[00:19:51] And we can play and see how it looks.
+[00:19:56] So right now it feels like the sparkles here, two of them are too samey in the timing.
+[00:20:06] And I'm not super liking it, but I kind of like that they both have last accent bits.
+[00:20:16] Here I created the last accent bit only on this one biggest sparkle.
+[00:20:23] But just to show a little bit different thing, I'll try to make it work with two accent bits for the new one.
+[00:20:31] So here what we can do, if we don't want to make the timing of the overall effect of the last bit too much later than the other thing.
+[00:20:52] I wish that the start of this big sparkle appearing was like here, but I still want them to disappear in different ways.
+[00:21:02] I can play with timings of actual frames.
+[00:21:06] So for example, I can make this biggest sparkle stay a little bit longer in this biggest form.
+[00:21:18] So I add another frame, this frame stays at, so it's like on twos, all the other ones.
+[00:21:29] And maybe it starts to disappear also slower.
+[00:21:39] So we have these three frames on twos and now it still feels like it's the last bit.
+[00:21:51] But I feel like it kind of stops too much and then rapidly bounces here.
+[00:21:59] So I will make the only this frame go on twos and to make things different with this sparkle.
+[00:22:09] I would rather make additional frame here and see how it looks.
+[00:22:21] Let's see it again.
+[00:22:31] It also feels still like it has too much rapidness, if it makes sense here.
+[00:22:44] So to make it smoother, I will make this frame too on twos.
+[00:22:50] So now it feels more cohesive with the overall feeling of the shape.
+[00:22:55] Now let's look again in the overall motion of it.
+[00:22:58] So it starts here, goes there.
+[00:23:02] Also, these two sparks feel like quite samey to me right now.
+[00:23:07] And again, I like how the start of them appearing looks, but I don't like the end.
+[00:23:14] So we will differ how they disappear.
+[00:23:19] So the very first spark that we have, I can make it disappear completely earlier on one frame.
+[00:23:32] And for the second one we have, it's this one, this layer.
+[00:23:37] Let's see what can I make stay longer.
+[00:23:45] Probably this frame could be longer, like the start of disappearing.
+[00:24:01] Now they start the same, but then they disappear in slightly different timing.
+[00:24:08] And it feels more like this overall motion from left to right with an arc down.
+[00:24:17] Yeah, I quite like it, so I'm done with it.
+[00:24:21] And yeah, the things to think about while you're making this kind of composition with pre-made stuff is the variety of sizes, big, medium and small ones.
+[00:24:35] And with timing, we tried to emphasize the overall motion of the sparks appearing and disappearing.
+[00:24:46] And with the accent bit, it's probably a good idea to make them on the end of you, like this motion arc to bring attention of the viewer to this actual last bits and last motion flow of the effect.
+[00:25:07] Yeah, so again, going small to finish the effect is a very common thing to do, but also it's quite powerful.
+[00:25:18] And it applies to a lot of the different elements and effects in one way or another.
+[00:25:28] And yeah, you can play with timing and spacing and combination of those things, like regarding motion and sizing, like charts.
+[00:25:43] And you can achieve quite interesting results with it, even if it's like kind of the simplest probably way to make something disappear on your screen.
+[00:25:58] Hope you will have fun with it and see you in the next video. Bye.

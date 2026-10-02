@@ -1,0 +1,961 @@
+[00:00:08] Oh, hey, guys.
+[00:00:10] Welcome to the Guiding Principles lecture
+[00:00:13] about the effects concept art.
+[00:00:15] So in this lecture, it's gonna be focused more
+[00:00:18] on the theory and the philosophy
+[00:00:20] that guides the creation of concept art for visual effects.
+[00:00:24] Not a lot of practical hands-on,
+[00:00:26] although I am gonna give plenty of examples
+[00:00:28] that demonstrate the theories I'm gonna discuss.
+[00:00:31] Okay, so sit back like you're in college again,
+[00:00:34] or maybe you still are in college, I don't know, who knows,
+[00:00:36] and just enjoy a lecture
+[00:00:39] talking about these different topics.
+[00:00:41] Okay, I'm gonna go away so that we got plenty of space
+[00:00:46] for the lecture itself.
+[00:00:49] Okay, so here's the topics that we're gonna cover.
+[00:00:51] We're gonna start out defining the sandbox.
+[00:00:55] You know, you really need to understand
+[00:00:56] what the constraints are that you're working within,
+[00:00:58] and that's something we're gonna go into.
+[00:01:00] And then after that, we're gonna talk about the details
+[00:01:03] that you're gonna work through as you're painting.
+[00:01:07] Okay, so first, the sandbox.
+[00:01:09] Now, constraints really are critical,
+[00:01:13] and I know that sounds like real oxymoron,
+[00:01:15] but because we're artists
+[00:01:17] and we like to think outside the box,
+[00:01:19] we like to be super creative
+[00:01:21] and kind of do whatever we want to create bold new things.
+[00:01:25] But here's what I mean when I'm talking about constraints.
+[00:01:29] In a professional setting, you know, your designer,
+[00:01:32] whether it's your lead designer
+[00:01:33] or you're working with a designer one-on-one,
+[00:01:35] they're gonna come to you
+[00:01:36] and they're gonna have very specific constraints
+[00:01:40] that they need from you in order to suit the gameplay needs.
+[00:01:43] Now, those might be any number of things,
+[00:01:46] anything from combat to how they want the player to feel
+[00:01:51] to how they want the meta progression to unfold
+[00:01:54] and all that kind of stuff
+[00:01:56] might be full of different kinds of constraints.
+[00:01:59] Sometimes the creative director
+[00:02:01] or maybe even the art director
+[00:02:02] might be the one giving you the constraints as well
+[00:02:05] of how it needs to look
+[00:02:06] or what the performance needs to be, et cetera, et cetera.
+[00:02:10] Or maybe it's you.
+[00:02:12] In the absence of these two coming to you,
+[00:02:15] giving you constraints,
+[00:02:17] that means very loud and clear
+[00:02:18] that you are the one that should be going to them,
+[00:02:21] telling them some appropriate constraints.
+[00:02:23] So we're gonna kind of walk through
+[00:02:25] what an example of that might look like.
+[00:02:27] So let's say you've got a character
+[00:02:29] and a lot of this discussion, by the way,
+[00:02:30] when you're laying out constraints,
+[00:02:32] it doesn't have to be this massive document
+[00:02:35] that unfolds a huge strategy of all these constraints.
+[00:02:38] No, you can just, when you're working on an effect,
+[00:02:41] you wanna think of it as simply as possible.
+[00:02:44] So you've got a character.
+[00:02:46] Okay, well, what is the constraint
+[00:02:47] of the effect that you're gonna work on?
+[00:02:49] Is that effect going to heal that character?
+[00:02:52] Is it going to hurt that character?
+[00:02:55] If it's hurting that character,
+[00:02:57] is it an area of effect around their feet
+[00:03:00] that's hurting them?
+[00:03:02] Is it an area of effect that hurts multiple characters?
+[00:03:05] Does the area of effect hurt characters in the center
+[00:03:07] a lot more than the ones in the outer, et cetera, et cetera.
+[00:03:10] So this is an example of a design constraint
+[00:03:12] that you're gonna have,
+[00:03:13] where you're gonna need a defined area.
+[00:03:15] You're gonna need to indicate somehow
+[00:03:18] how it's gonna work, right?
+[00:03:20] And you could go through the same exercise
+[00:03:22] with a healing or a helpful effect
+[00:03:24] that is happening in a game.
+[00:03:26] So if you're working on personal work,
+[00:03:29] I think it's still enormously valuable
+[00:03:32] for you to do this exercise on your own.
+[00:03:33] So take some time, maybe loop in some friends,
+[00:03:36] maybe hop on the forum,
+[00:03:38] talk about the different kinds of constraints
+[00:03:40] that you wanna set out for yourself before you start,
+[00:03:43] and then write it down
+[00:03:44] because as you get into the weeds working on your effect,
+[00:03:47] it's gonna be important that it's easy to come back
+[00:03:49] and reference what those constraints were.
+[00:03:53] Doing this little exercise with the sketching
+[00:03:55] is enormously valuable.
+[00:03:56] It just takes a couple of minutes
+[00:03:59] to kind of lay it out in your mind
+[00:04:00] and then it'll inform what you do.
+[00:04:03] So as you're going, speaking of informing it,
+[00:04:06] you'll have options as you're working.
+[00:04:08] And this is why constraints are so valuable
+[00:04:10] is because if you're looking between A and B
+[00:04:13] as far as like an area of effect
+[00:04:16] and how you wanna execute on that,
+[00:04:17] whether it's like a really jaggedy, ragged edge
+[00:04:21] or a very crisp edge,
+[00:04:22] well, if you know that your constraint
+[00:04:24] is that this needs to be the most clear thing
+[00:04:26] in the entire game,
+[00:04:28] then you're gonna stick with that option
+[00:04:30] to make it less jaggedy.
+[00:04:31] And then it's like, okay, well, we know it's less jaggedy.
+[00:04:33] Well, that eliminates these other things.
+[00:04:35] Well, what about swirling sorts of GPU particles around it
+[00:04:41] or whatever?
+[00:04:42] And well, now you know the constraint that,
+[00:04:44] hey, this has to run on like toasters.
+[00:04:47] So no GPU particles at all.
+[00:04:49] Okay, well, that answers that question.
+[00:04:50] We know what that constraint is.
+[00:04:52] And then on and on,
+[00:04:53] you have all these different constraints
+[00:04:54] that are gonna guide the choices that you made
+[00:04:58] and help you most importantly,
+[00:04:59] avoid all of these pitfalls,
+[00:05:02] all of these other directions that you could have gone in,
+[00:05:05] but you didn't because you took
+[00:05:07] the most direct route through.
+[00:05:08] Now, honestly, this is never gonna be perfect.
+[00:05:12] All the time you're gonna back up,
+[00:05:14] backtrack some of these choices that you made.
+[00:05:17] And that's totally fine.
+[00:05:19] But the key is that constraints are going to limit
+[00:05:23] how windy and meandering this journey that you're on is
+[00:05:26] so that the choices are as simple as possible.
+[00:05:29] And by the way, if you're working along,
+[00:05:32] every choice is painful
+[00:05:33] and every choice is really hard to make.
+[00:05:35] I think that's a good indication
+[00:05:36] that you don't have enough constraints
+[00:05:39] and you don't have enough parameters set out
+[00:05:41] either by yourself or by your leadership.
+[00:05:43] And so I think having a discussion with them about,
+[00:05:46] hey, like, when is the right time for us
+[00:05:48] to start putting some constraints on this and say,
+[00:05:51] you know what, this is what we're gonna make,
+[00:05:53] this is what we're not gonna make.
+[00:05:54] And I understand that stuff's really hard to do
+[00:05:56] when you're early on in prototype,
+[00:05:58] but whatever amount of constraints you can have
+[00:06:01] is gonna help you.
+[00:06:02] Like there's obviously some things you can rule out
+[00:06:05] earlier on and that's gonna be really valuable.
+[00:06:07] Okay, so here's really what more constraints gets you.
+[00:06:12] It gets you more creative problem solving.
+[00:06:14] And that leads to a more interesting output.
+[00:06:17] Now, you might be wondering how is constraining it
+[00:06:20] gonna make it more interesting?
+[00:06:22] Well, I like to think of it on this grid, right?
+[00:06:25] Let's say options is on the Y axis
+[00:06:27] and creativity is on the X axis.
+[00:06:29] So you've taken all these stabs at it.
+[00:06:32] Let's say you take five stabs at it.
+[00:06:34] Some of these are gonna be more creative.
+[00:06:37] Some of them are going to just show different
+[00:06:41] like variations on the same thing.
+[00:06:43] Some of them are more similar to each other,
+[00:06:45] some of them are different, et cetera.
+[00:06:47] What happens is, is if you narrow down the options
+[00:06:50] of how different these all can be,
+[00:06:53] you can then invest your time and energy
+[00:06:55] on being more creative.
+[00:06:57] Because you still have five iterations
+[00:07:00] that you're gonna do.
+[00:07:01] But the key is, is that if they're more constrained,
+[00:07:03] you go more creative.
+[00:07:04] I mean, what do I mean by creative?
+[00:07:07] Creative is a sort of novel output,
+[00:07:10] something that the majority of people
+[00:07:12] would not think of first, right?
+[00:07:16] And if you're indexing clear over here
+[00:07:19] on this end of the spectrum,
+[00:07:20] I mean, that's brilliant.
+[00:07:22] That's great because people are gonna say,
+[00:07:23] wow, I never would have thought of that.
+[00:07:25] But actually it fits within the constraints
+[00:07:28] and the options perfectly.
+[00:07:30] So I think that's where you hit the nice sweet spot
+[00:07:33] is thinking outside the box
+[00:07:35] and you're able to stretch that further
+[00:07:36] if your options are more constrained.
+[00:07:39] So here's some effects by Vlad Horobets
+[00:07:43] and I apologize, Vlad, if I mispronounced your name.
+[00:07:46] And his username is, or game art,
+[00:07:48] you can look up his work on here.
+[00:07:50] By the way, I'm gonna have a few different artists
+[00:07:52] from our community on showcased on here,
+[00:07:54] just kind of show what they're up to.
+[00:07:56] So yeah, so here's an example of, you know,
+[00:08:00] fitting a nice constraint,
+[00:08:02] like things can either hurt you or they can help you.
+[00:08:05] And that's two very clear categories to put it into.
+[00:08:09] And a lot of times just having that understanding
+[00:08:12] of what it is, even when swooshes are used on both of these,
+[00:08:15] it's pretty clear one of them is threatening
+[00:08:18] and the other one is helpful
+[00:08:19] because of these sorts of common shape languages
+[00:08:22] and color usages that we're very familiar with.
+[00:08:28] All right, so unfortunately I wasn't able
+[00:08:30] to find the artist that made this.
+[00:08:31] This is a widely circulated GIF that's out there.
+[00:08:35] If you are the artist that made this,
+[00:08:36] please reach out to me and let me know.
+[00:08:37] I would love to give you credit
+[00:08:39] and forward people to your work.
+[00:08:41] Okay, so the scale of importance.
+[00:08:43] This is also known as the wow factor, the significance.
+[00:08:48] It's really how eye grabbing it is.
+[00:08:50] And when you look at these four effects,
+[00:08:52] you see that this one over here on the right is well done.
+[00:08:56] It's nicely executed, but the wow factor is much smaller.
+[00:08:59] And there's a few reasons for that, right?
+[00:09:00] The most obvious is that it's smaller on the screen.
+[00:09:03] Effects that are smaller on the screen
+[00:09:05] are typically not gonna be as eye grabbing
+[00:09:10] unless they're just like super blown out
+[00:09:12] and have like the most high contrast intense point
+[00:09:15] on the entire screen, they can still pull that off.
+[00:09:18] And then typically when you have like higher contrast
+[00:09:21] where this goes from this really, really bright white
+[00:09:23] down to this really, really dark purple,
+[00:09:25] this is really competing for a wow factor.
+[00:09:28] And then this over here is also competing
+[00:09:31] because of its size and then more interesting motion
+[00:09:34] and all that kind of stuff.
+[00:09:37] So why is scale of importance
+[00:09:41] important thing to think about when you're starting
+[00:09:44] an effect, why is this an important constraint
+[00:09:46] to put on yourself of this thing is on a scale of one to 10
+[00:09:50] this important, why have that constraint?
+[00:09:53] Well, if you think about it, if it's more important,
+[00:09:57] then it's gonna be more challenging to make,
+[00:09:59] which means you're going to grow a lot more.
+[00:10:02] So I like to think of this a lot in your personal work.
+[00:10:07] This is just huge, right?
+[00:10:09] Also on your professional work, like taking on a few effects
+[00:10:13] along with all of the background stuff
+[00:10:15] that have high importance is obviously going to accelerate
+[00:10:19] your career, it's gonna give you opportunities
+[00:10:21] to take on bigger challenges and you're gonna grow more.
+[00:10:23] So don't shy away from the effects that are more important
+[00:10:26] because obviously if they're more challenging to make,
+[00:10:29] it's gonna be more impressive and it's gonna lead
+[00:10:31] to the job that you want.
+[00:10:33] So again, like on a personal note, those of you
+[00:10:36] that are looking to get into the industry
+[00:10:38] or you're looking to progress further in the industry,
+[00:10:42] you can think of it in terms of this graph.
+[00:10:44] As the wow factor goes up and the effects that you're making
+[00:10:48] the dollars tend to go up and the graph ends up
+[00:10:50] looking something like this.
+[00:10:51] So definitely don't shy away from taking on
+[00:10:56] more challenging, more high importance effects.
+[00:10:59] If you're not finding those opportunities at your job,
+[00:11:02] do it in your personal work, don't play it safe.
+[00:11:06] Like I like to say, it's better to crash and burn
+[00:11:08] rather than trying something big than to always
+[00:11:11] just try something sort of low scope.
+[00:11:14] And I guess what I'm talking about something high scope,
+[00:11:18] by the way, I don't really mean anything more than this.
+[00:11:20] Like something about this scale of an effect
+[00:11:23] and these are the kinds of effects exactly
+[00:11:25] that we're gonna be doing in this class
+[00:11:27] is about right for a nice high level effect
+[00:11:31] that gives you a nice challenging chunk to chew on.
+[00:11:35] Okay, so area of effect is another constraint.
+[00:11:37] There's a video that I did, you can check out here
+[00:11:40] where I talk about gameplay constraints and shape
+[00:11:43] and how to get those reined in.
+[00:11:46] Obviously, if the shapes are bursting out
+[00:11:48] past the area of effect, that's not keeping to the constraint
+[00:11:54] that you gave yourself versus the shapes moving
+[00:11:56] in interesting ways, of course,
+[00:11:58] but still keeping to inside of the shape.
+[00:12:02] And of course, the bigger area of effect
+[00:12:05] has the same benefits as high spectacle.
+[00:12:08] So if you're gonna be working on your personal efforts,
+[00:12:11] try to shoot something that's more along the lines of this
+[00:12:14] and less along the lines of this.
+[00:12:16] I mean, of course, this is a nice exercise to get you going.
+[00:12:19] But when we're talking about demo reels that impress people,
+[00:12:22] if I saw somebody do this effect over here
+[00:12:24] in an application, I would never question
+[00:12:27] whether they could do the one on the left.
+[00:12:29] But the inverse is not true.
+[00:12:31] If I saw this in a portfolio,
+[00:12:33] I might still question,
+[00:12:35] but could they do a more large scale,
+[00:12:38] large AOE, more impressive effect, right?
+[00:12:41] So just keep that in mind as you're doing your work.
+[00:12:44] Always aim for the stars and try to do the really,
+[00:12:47] really cool over the top sorts of stuff.
+[00:12:51] Unless of course, your job demands
+[00:12:53] that you do small effects, then of course,
+[00:12:56] they're paying you to do it.
+[00:12:57] You need to just keep it small scale.
+[00:12:59] Maybe there's something you can do
+[00:13:00] to put some interest into there,
+[00:13:01] but don't override the importance level
+[00:13:04] and just say, they gave me importance level one,
+[00:13:07] I'm gonna make it importance level eight.
+[00:13:08] That's not what I'm saying at all.
+[00:13:10] So anyway, the few things that really matter.
+[00:13:13] So this is a huge piece of the constraints.
+[00:13:18] And this is aesthetic pillars is what I like to call them.
+[00:13:21] I found these immensely valuable on projects
+[00:13:24] that I've worked on, where we don't have a lot of pillars.
+[00:13:28] You only need like two or three pillars
+[00:13:30] to really anchor what you're working on.
+[00:13:34] So what am we talking about here?
+[00:13:36] Well, we're not talking about confusion.
+[00:13:38] So the thing about pillars is that they avoid confusion.
+[00:13:41] Here's a surefire way to fall into a trap.
+[00:13:46] And I fall into this all the time
+[00:13:47] when we don't have pillars.
+[00:13:48] So we say that everything's important.
+[00:13:51] Basically, we have infinite number of pillars.
+[00:13:53] But the more things that are important,
+[00:13:55] the fewer things are clear.
+[00:13:56] So in a sea of important things,
+[00:14:00] it's hard to understand what really matters
+[00:14:03] in the thing that you're gonna work on.
+[00:14:05] And as that happens, the team doesn't really understand
+[00:14:09] what they're looking at or what's supposed
+[00:14:11] to be more important than anything else,
+[00:14:13] which leads to convoluted feedback.
+[00:14:15] It leads to a lot of sayings like I'll know it
+[00:14:19] when I see it or my personal take on this is I like it,
+[00:14:24] but other people might not like it
+[00:14:27] because you guys aren't aligned.
+[00:14:28] I say you guys, but I mean us too.
+[00:14:31] I do it all the time.
+[00:14:32] You aren't aligned on what few things are important.
+[00:14:36] So what's really valuable is to just take a look
+[00:14:38] at all the different things that you can care about,
+[00:14:41] whether that's how juicy is the liquid
+[00:14:46] and how flowy is the fire, how sharper the shapes,
+[00:14:49] how aggressive is everything
+[00:14:52] and what among all of this really matters to us.
+[00:14:55] So what am I talking about when I talk about pillars?
+[00:14:57] Well, here's some example pillars, right?
+[00:15:00] And these aren't necessarily art,
+[00:15:05] like art style pillars.
+[00:15:08] These are more, these are aesthetic pillars.
+[00:15:10] They sit sort of above and inform the art style.
+[00:15:14] So looking through this, things like grounded in the world,
+[00:15:19] packed personality, intensely aggressive.
+[00:15:22] I mean, you might combine some of these
+[00:15:23] in some fun, unexpected ways.
+[00:15:26] Like say you've got, you know, immersion in a fantasy.
+[00:15:30] That is the most important pillar
+[00:15:32] for your effects in your game.
+[00:15:34] And then also you want them to punch you in the face.
+[00:15:36] Okay, that's great.
+[00:15:37] That's really clear.
+[00:15:39] And there's a number of ways that you can execute on that
+[00:15:41] with an art style, but it's not gonna get super muddy.
+[00:15:45] On the other hand, if you say,
+[00:15:47] I want it to be integrated with the action
+[00:15:51] and I want it to have lots of personality
+[00:15:54] and I want it to have sophisticated grace with, you know,
+[00:15:58] it's really important that it runs on like low end machines,
+[00:16:01] sub-performance, and then, you know,
+[00:16:04] let's also make it intensely aggressive at the same time.
+[00:16:07] Well, now you've got intensely aggressive,
+[00:16:09] plus it has sophisticated grace.
+[00:16:10] Those two kind of immediately,
+[00:16:13] maybe if they were your only two pillars,
+[00:16:15] they wouldn't come into conflict so heavily,
+[00:16:17] but you also combine that with everything else
+[00:16:19] that I mentioned.
+[00:16:20] Oh my gosh, you're in for it.
+[00:16:21] Like it's gonna lead to tons of confusion, tons of spin.
+[00:16:26] You're gonna iterate on the same effect so many times.
+[00:16:29] And the reason you're iterating is not because, you know,
+[00:16:32] of like, it's like improving every time,
+[00:16:36] but because it's just changing every time
+[00:16:38] because all of these different pillars
+[00:16:39] are in conflict with each other.
+[00:16:41] So these are just a few pillars, but for your game,
+[00:16:44] I'm sure you could extrapolate whatever you're working on.
+[00:16:47] You could extrapolate what those pillars might be.
+[00:16:49] If you start finding that you've got more than just two,
+[00:16:53] maybe three pillars, really, really take a hard look
+[00:16:58] at what you can trim and what you can get rid of
+[00:17:00] to just clarify it.
+[00:17:01] And you know, by the way, it's okay if you get more
+[00:17:04] than two or three here and there.
+[00:17:06] But what I'm saying is you need two or three must haves.
+[00:17:09] These are the ones that matter more than anything else
+[00:17:11] that you're not gonna compromise on.
+[00:17:13] It's okay if every now and then you get a flash of awe.
+[00:17:17] As long as it's still intensely aggressive
+[00:17:20] and immerses you in fantasy or whatever, right?
+[00:17:22] Like it's okay to still achieve more
+[00:17:25] than those couple of pillars, but these are the ones,
+[00:17:27] these are the stakes in the sand that you're gonna put.
+[00:17:30] Okay, so enough on pillars.
+[00:17:33] Okay, so we've got our constraints defined.
+[00:17:35] We're ready to roll.
+[00:17:37] We're gonna move as efficiently as possible.
+[00:17:39] We're gonna make some impressive stuff
+[00:17:40] that is gonna really shine in the game
+[00:17:43] that we're working on and in the portfolio
+[00:17:46] that we're trying to build and we're good to go, right?
+[00:17:49] Next up, we're gonna define the details.
+[00:17:51] So this is stuff to consider as you work.
+[00:17:55] All right, so we're gonna start with shape
+[00:17:58] and I won't go too far into this because honestly,
+[00:18:00] there's a video that I did about it that's out on YouTube
+[00:18:04] that just happens to cover this topic
+[00:18:06] and really says all the things that I ever wanted to say.
+[00:18:09] And here's an image from that video.
+[00:18:11] So I'll just quickly go through what this is.
+[00:18:14] The top row is all negative examples
+[00:18:17] and then the bottom row is all positive examples
+[00:18:20] of the same kind of thing happening, right?
+[00:18:22] So you can kind of pause the video here
+[00:18:24] and kind of glance through and grok
+[00:18:26] from this what I'm talking about.
+[00:18:28] You can also just go and watch the video itself.
+[00:18:31] Really, I wanna talk about how that's being applied up here.
+[00:18:33] Dave Shovland did an amazing job on this
+[00:18:35] and you guys are gonna see his process
+[00:18:37] for exactly how he created this painting.
+[00:18:40] But really, it's these kinds of principles,
+[00:18:42] these ones among others that he used
+[00:18:46] to construct this painting, right?
+[00:18:49] You look over here, he's got the negative shapes
+[00:18:51] eating away from the positive shapes
+[00:18:53] versus just a bunch of lines crisscrossing
+[00:18:56] that don't have any regard
+[00:18:57] for the negative shapes in between.
+[00:18:59] This one here is a very, very critical element to consider
+[00:19:03] when you're working both on electricity
+[00:19:05] and also ground cracks because they behave very similarly.
+[00:19:10] Also, things radiating from a central point
+[00:19:14] where they're coming out
+[00:19:16] and the directionality of it is consistent
+[00:19:19] versus just a mishmash of zappy tangle,
+[00:19:25] whatever going in that direction.
+[00:19:27] And then of course, he's got like uneven gap spacing,
+[00:19:30] which is what this one is here.
+[00:19:32] So especially this final frame in that video,
+[00:19:35] when I dive into that,
+[00:19:36] really worth looking into for you guys.
+[00:19:40] These others also apply, of course, counter curving,
+[00:19:42] where it's like straights versus curves.
+[00:19:44] You've got distribution of shapes
+[00:19:48] where you've got some longer shapes and some shorter shapes
+[00:19:50] instead of just all the same kinds of size.
+[00:19:54] And then, of course, tapering plays a huge part
+[00:19:58] throughout this where you see shapes
+[00:20:01] kind of like coming to a point
+[00:20:02] and then getting really thick and thin throughout.
+[00:20:05] Okay, so shape design, super valuable as you work.
+[00:20:10] And this is gonna help define, as I'm saying up here,
+[00:20:14] it's gonna help define the space
+[00:20:16] that you're working in, right?
+[00:20:17] Like, what is that space made up of?
+[00:20:20] What's the area of effect?
+[00:20:21] How do I want the different portions of that space to feel,
+[00:20:25] whether it's threatening or very plainer
+[00:20:29] or inviting and that kind of stuff.
+[00:20:32] Okay, so the next portion of spatial definition
+[00:20:37] would be depth of form.
+[00:20:38] So this goes beyond the silhouette
+[00:20:41] like we talked about in the last one,
+[00:20:42] which is just the flat shapes.
+[00:20:44] We also wanna discuss depth and how we can achieve that.
+[00:20:47] And this painting here that Shavlin did
+[00:20:49] is an excellent example.
+[00:20:51] And so you can see here that he followed
+[00:20:54] these sorts of principles that we've got, right?
+[00:20:56] Where instead of just painting lines
+[00:20:59] that sort of maybe kind of curve across the surface,
+[00:21:02] but have these really sharp tangents,
+[00:21:05] he's bowing it around the surface.
+[00:21:09] And so all of these lines,
+[00:21:11] they sort of run into this curve
+[00:21:13] as they arc away in perspective.
+[00:21:16] And you can see that as these lines come up on the edge,
+[00:21:20] nothing really hits the edge up here,
+[00:21:21] but down here, they definitely do.
+[00:21:23] Where they're bowing away this one,
+[00:21:25] just cause it's like straight on,
+[00:21:27] kind of has to be forced in that position
+[00:21:30] or it's doing that.
+[00:21:31] But a lot of these lines around here,
+[00:21:32] they're really hugging and curving away
+[00:21:38] as they round the corners away from the camera.
+[00:21:41] So remember that you're not ever ever drawing circles,
+[00:21:44] you're always drawing spheres.
+[00:21:46] Again, similarly, things that are gonna be out in the front
+[00:21:50] are gonna be just more circular and much,
+[00:21:53] so not just wider, but like perfectly round, right?
+[00:21:57] Generally speaking, they're gonna approach that shape,
+[00:21:59] whereas as they get squished up to the sides,
+[00:22:01] they're gonna become much thinner.
+[00:22:04] And so you can see that here
+[00:22:05] because this body here is nice and round,
+[00:22:07] and then this one's a little thinner,
+[00:22:08] and then he's got like these nice thin shapes over here,
+[00:22:12] whereas these here indicate more rounded spheres.
+[00:22:18] And then he's just got like a nice streak over here.
+[00:22:21] And then of course, how shapes intersect.
+[00:22:24] And this one's especially cool,
+[00:22:25] this one you can really see right here,
+[00:22:27] he's got this nice point.
+[00:22:29] Think about how your muscles all intersect, right?
+[00:22:31] Like they kind of overlap with each other, whoops.
+[00:22:35] They kind of overlap with each other,
+[00:22:36] they don't just sit on top of one another,
+[00:22:40] and it's like round muscle on top of round muscle.
+[00:22:43] You can find ways to just take pieces of that
+[00:22:46] and like sort of insert it into the bigger shape
+[00:22:49] and it sort of envelops and interlocks,
+[00:22:53] that's the word I'm looking for.
+[00:22:55] And so you can see other areas where he's done that
+[00:22:57] where these shapes are all kind of like
+[00:22:59] interlocking with each other.
+[00:23:00] Every now and then, yeah, sure,
+[00:23:02] you're gonna have a puff that just sits on top of
+[00:23:04] the puff behind it, and that's fine.
+[00:23:06] But if this is how you're always building your puffs,
+[00:23:09] it's gonna end up feeling really flat
+[00:23:11] and not believable as something that has depth to it.
+[00:23:14] And that's what I mean by depth of form
+[00:23:15] is something that's three dimensional
+[00:23:18] and not just 2D cut out art, right?
+[00:23:23] Paper cut out art is awesome,
+[00:23:25] but really in this unit,
+[00:23:27] we're gonna really try to get you to define things
+[00:23:31] in three dimensional space.
+[00:23:34] All right, and then of course, in spatial definition,
+[00:23:36] you wanna understand the mass.
+[00:23:38] And what I mean by mass is basically like,
+[00:23:40] how thick is it at any given point?
+[00:23:43] And this is a great example of where he's able to define
+[00:23:46] different thicknesses in mass.
+[00:23:48] And the way you do that is honestly with,
+[00:23:52] shadows and highlights.
+[00:23:53] So you can see that where there's no beveled edge,
+[00:23:58] it feels super thin.
+[00:23:59] So like this will feel super thin right here
+[00:24:01] because the transition between the two
+[00:24:05] is just like these two examples over here, right?
+[00:24:08] Where it's like highlight to shadow
+[00:24:11] and there's nothing really in between them.
+[00:24:13] Oops, sorry about that.
+[00:24:16] And then over here where you start,
+[00:24:19] leaving some thickness of mass like here,
+[00:24:22] the transition between them is a bit thicker.
+[00:24:27] And so we kind of get the illusion that like this here
+[00:24:30] has some thickness to it.
+[00:24:32] You really start to see this play out over here.
+[00:24:36] Where I'd say this is probably even more like
+[00:24:39] the final example where this highlighted edge is so thick
+[00:24:44] that it's like approaching the same thickness
+[00:24:46] as the shadowed edge,
+[00:24:47] which just gives us the feeling of this chunk here
+[00:24:50] having plenty of thickness to it.
+[00:24:53] You've also got a highlighted edge over here,
+[00:24:56] which falls probably somewhere
+[00:24:57] in this more mid thickness range, right?
+[00:24:59] Where we're getting the feeling like
+[00:25:02] that's got some thickness to it
+[00:25:03] because there's no beveled edge right here at all.
+[00:25:06] This is like feeling paper thin basically.
+[00:25:08] It's just highlight against a black background
+[00:25:12] and that's feeling like a sheet.
+[00:25:13] And where were some of the examples
+[00:25:17] of the twisted shapes that I wanted to show?
+[00:25:19] Like you can kind of make it out.
+[00:25:24] Yeah, like basically if things are gonna twist around,
+[00:25:31] I don't know, probably these bottom examples
+[00:25:33] are just better examples than the top examples.
+[00:25:35] But you can kind of get the idea of like,
+[00:25:37] oh, that's what I wanted to go with it.
+[00:25:39] Like how it bows out.
+[00:25:40] So if things are like just curving in
+[00:25:45] from both sides towards each other,
+[00:25:46] the brain kind of reads that as eating away.
+[00:25:49] So an example of that would be like right here
+[00:25:52] where this curves in from this side
+[00:25:54] and this curves in from that side.
+[00:25:55] So we get the feeling that this is just
+[00:25:57] a very skinny little shape.
+[00:26:00] But then where it's kind of just a lot of bowed outness
+[00:26:03] going on like all throughout here,
+[00:26:05] it just makes it feel more billowy
+[00:26:08] and like, I don't know, just have more mass to it.
+[00:26:13] It's really what I'm trying to say.
+[00:26:15] And that's what I was trying to show at this top one
+[00:26:16] is like more bowed out shapes on top of one another
+[00:26:20] is gonna help it just feel like it has more thickness
+[00:26:23] and mass to it versus these thinner ones.
+[00:26:26] Okay, so substance definition.
+[00:26:30] This is another detail that you're gonna define
+[00:26:32] as you paint.
+[00:26:34] So I love this term.
+[00:26:35] This was introduced to me by my physics professor years ago.
+[00:26:39] He used the term mattergy.
+[00:26:42] And so I can't say, I can't copyright it as my own term,
+[00:26:45] but I love it because everything in the universe
+[00:26:48] falls under the category of mattergy.
+[00:26:51] And what we're saying here is that matter
+[00:26:54] sometimes converts over into energy
+[00:26:57] and then energy sometimes converts into matter
+[00:27:00] and they kind of phase between each other.
+[00:27:02] So what are we talking about with mattergy?
+[00:27:04] We're talking about our classic solids, our liquids,
+[00:27:08] our gases, plasma, and light.
+[00:27:11] And these together are the categories
+[00:27:14] that I'm gonna outline.
+[00:27:15] There might be more.
+[00:27:16] I apologize for those physics nerds out there
+[00:27:19] that really understand different types of matter and energy.
+[00:27:24] You guys could like put heat in here or things,
+[00:27:28] you get the idea.
+[00:27:29] So mattergy really ends up making up
+[00:27:36] the different components of an effect.
+[00:27:38] And this is by the artist 474.
+[00:27:41] You can check out more of their work here.
+[00:27:44] So in this image, we've got the different types of mattergy.
+[00:27:49] We've got light radiating as this camera effect.
+[00:27:53] This is soft glow that's exceeding out past it.
+[00:27:57] We've got the plasma that's happening in the center
+[00:27:59] that's the burning hot core.
+[00:28:01] You've got the solids on the ground
+[00:28:03] where the bits of rubble are radiating out.
+[00:28:07] You've got no liquids probably,
+[00:28:09] but you've got the gas of the clouds coming out.
+[00:28:12] And so each of these is defined in a very different way.
+[00:28:16] And then as the energy or the mattergy transitions,
+[00:28:22] it goes from being more intensely emitted as light
+[00:28:25] to less so as the light burns away.
+[00:28:28] And then the plasma then follows afterwards.
+[00:28:31] And then the gas of course is gonna dissipate
+[00:28:35] and then you're left with just the solid rubble
+[00:28:38] that was left over.
+[00:28:39] And so be conscious of which parts of what you're painting
+[00:28:44] fall into which category of mattergy.
+[00:28:47] Are you painting light?
+[00:28:48] Are you painting plasma?
+[00:28:50] Are you painting gas, et cetera?
+[00:28:51] And understanding what you're painting,
+[00:28:54] you're gonna be able to look up reference on that thing.
+[00:28:56] It's like, oh, I'm no longer painting glowing plasma.
+[00:29:01] I am now painting clouds.
+[00:29:02] I should bring up reference on clouds
+[00:29:04] and reference on smoke.
+[00:29:05] And what did those look like?
+[00:29:07] Because they look and behave very differently than plasma.
+[00:29:11] Sometimes unfortunately we end up painting rays of light
+[00:29:15] when really what we're meaning to paint is solids
+[00:29:18] that are shooting outward from the effect.
+[00:29:20] Those two are very easy to confuse.
+[00:29:23] You can have shafts of light
+[00:29:24] or you can have shafts of rubble that are flying outward.
+[00:29:28] So keep in mind how that is coming together in your work.
+[00:29:35] So that's closely related to the color scheme
+[00:29:37] that you wanna define, right?
+[00:29:38] So think of it in terms of a fuel source,
+[00:29:41] which is the most intense hot core of things.
+[00:29:45] You've got the hot matter that's burning off
+[00:29:47] of that fuel source and radiating outward
+[00:29:49] in a very violent sort of way.
+[00:29:51] And then it becomes cooling matter
+[00:29:53] as it gets further away from the heat
+[00:29:55] and it hits the cold air around it.
+[00:29:56] It's gonna become cooling matter.
+[00:29:58] And then of course you've got the light that's being cast.
+[00:30:01] What's the color of the light coming out?
+[00:30:05] And then what's the color of the thing that it's hitting?
+[00:30:07] And that combination is gonna determine
+[00:30:09] what you're working with.
+[00:30:11] So I went ahead and gray scaled down the image
+[00:30:16] that you're gonna be working on later in the unit.
+[00:30:18] And here it is in its original form.
+[00:30:20] Now what's fun about this is when you're starting
+[00:30:23] to play with color schemes, you can say,
+[00:30:26] I don't know, like I wanna try different colors
+[00:30:29] of fuel source, different colors of hot matter.
+[00:30:31] Right here, the fuel source is this hot white in the center.
+[00:30:35] And then the hot matter is, you know,
+[00:30:38] the more like a pinkish colored stuff
+[00:30:40] along with like the cast light and hot matter
+[00:30:42] are kind of bleeding together.
+[00:30:43] I guess there's like some overlapping cast light
+[00:30:45] that's more saturated pink,
+[00:30:47] whereas the hot matter is more of a de-saturated pink.
+[00:30:50] And then of course, as it cools,
+[00:30:52] it's becoming this more purple wispiness around it.
+[00:30:56] So we can turn that on its head and say,
+[00:30:58] well, what if the hot core was some variation of pink,
+[00:31:02] but then it's like the cool matter is more of this green.
+[00:31:05] Right, it makes it feel like a plant,
+[00:31:08] like a sort of plant magic that's like wrapping around
+[00:31:11] or over here, you know,
+[00:31:13] maybe it's more of like a subtle bruised purple.
+[00:31:16] And these subtle shifts of here are really,
+[00:31:18] really interesting to include in your painting.
+[00:31:22] And when you're thinking of it in terms of like,
+[00:31:23] I want it to feel like, you know,
+[00:31:25] like noxious or poisonous or whatever,
+[00:31:28] as the gas expands,
+[00:31:31] you can make it this more bruised color, oops, spoilers.
+[00:31:35] You can do it like more traditional,
+[00:31:37] like sandy golden magic, right?
+[00:31:39] That's down here where maybe some of the cast light
+[00:31:43] hits things and they turn sort of reddish gold,
+[00:31:46] or, you know, then it's just like,
+[00:31:47] as it's more inert cooling matter, it loses the magic.
+[00:31:51] I think it's worth pointing out here that when I say
+[00:31:53] hot matter, I don't always mean literally hot.
+[00:31:56] It might just mean how magically infused is it, right?
+[00:31:59] Because if it's ultra infused with magic,
+[00:32:01] it's gonna be more intense and vibrant.
+[00:32:04] And then as it fades away into this sort of dirt sand,
+[00:32:09] it's just like regular sand,
+[00:32:11] it's losing that magic power
+[00:32:13] and just becoming something very normal.
+[00:32:17] And then of course, over here, you have the blue version,
+[00:32:21] where it's got some subtle.
+[00:32:22] And notice in here, you know,
+[00:32:24] we've got like deep saturated blues along with the cyans
+[00:32:27] and blue and cyan are very different from each other.
+[00:32:30] They work nicely together if you can put them in together.
+[00:32:32] And then of course, we've got almost going
+[00:32:35] into the purple ranges
+[00:32:37] and some of these other shadows as well.
+[00:32:39] So you can really play around with your color palette
+[00:32:43] in very subtle ways to achieve a very nice outcome.
+[00:32:48] Okay, so here's some work by,
+[00:32:50] and again, I apologize if I'm butchering the names.
+[00:32:53] It's Valdis Matas.
+[00:32:56] I don't know if I said it right at all.
+[00:32:57] You can check out his work here.
+[00:33:00] He did a really interesting exercise
+[00:33:02] where he was like posting on the forum about,
+[00:33:05] you know, things being translucent,
+[00:33:08] like having basically like a light map
+[00:33:10] of how it's receiving light
+[00:33:11] versus like emission from center.
+[00:33:13] I thought this was the perfect example
+[00:33:15] of the show, how light can behave
+[00:33:17] when you put it outside of an object
+[00:33:20] versus inside of an object that is translucent.
+[00:33:23] And you wanna think about how it radiates.
+[00:33:25] So when I say radiation,
+[00:33:27] I don't mean like nuclear radiation,
+[00:33:28] although it's very similar
+[00:33:29] because it has a fall off, right?
+[00:33:31] So as light travels, it falls off
+[00:33:34] and it loses its power.
+[00:33:36] And you can dramatize this
+[00:33:38] and make this more extreme or intense
+[00:33:42] than it is even in real life
+[00:33:43] by having a hot focal point.
+[00:33:45] And then as it comes out away from that focal point,
+[00:33:48] it very rapidly falls off to something less intense.
+[00:33:51] You know, it's not able to penetrate as much.
+[00:33:54] Similarly, you know,
+[00:33:55] you could just have these highlights up here
+[00:33:57] be more intense, but then less intense down here
+[00:34:00] as you're getting further and further
+[00:34:01] from the light source that's up here.
+[00:34:03] So that's something fun that you can do with light.
+[00:34:06] You wanna think about opaque matter
+[00:34:08] versus translucent matter, right?
+[00:34:10] This is treated as an opaque object
+[00:34:14] but then this here is a translucent.
+[00:34:17] I don't mean opaque and translucent like in a game engine.
+[00:34:19] I mean like literally in real life,
+[00:34:24] does light penetrate it?
+[00:34:26] If you shine a spotlight on it,
+[00:34:28] is it all that light gonna bounce off of it
+[00:34:30] or is it gonna pierce through?
+[00:34:32] So I guess more specifically,
+[00:34:34] if you put a spotlight behind it shining towards you,
+[00:34:37] would you see that spotlight shining in your eyes
+[00:34:40] or would the object block that light?
+[00:34:44] Or how much of that light would it block, right?
+[00:34:46] And so that's just the thing that you wanna consider
+[00:34:50] as you're painting.
+[00:34:51] Do you want it to feel like very, you know,
+[00:34:53] thick rolling imposing clouds
+[00:34:56] or do you want it to feel like infused magical clouds
+[00:35:00] that are just like bursting with heat
+[00:35:02] and the sort of radiation, I guess,
+[00:35:07] of light coming up from inside?
+[00:35:10] And of course, you know,
+[00:35:11] if the light source is more intense
+[00:35:12] or if the object is more opaque and dense,
+[00:35:16] that substance is gonna block out that light.
+[00:35:20] Okay, and then of course,
+[00:35:22] we wanna define how it's moving, right?
+[00:35:25] So you're painting what I would call the hero frame
+[00:35:29] and you're gonna have to ask yourself,
+[00:35:30] where did it come from and where is it going?
+[00:35:32] Because it's not just sitting there in isolation.
+[00:35:34] So here Max proud, he did some awesome examples
+[00:35:38] and these are both animated on the form
+[00:35:40] if you go to the link.
+[00:35:42] I guess they're on the forum,
+[00:35:43] but also he has, you know,
+[00:35:45] an asset store in unity that you can check out.
+[00:35:48] It's hard to tell exactly how this one up here is moving.
+[00:35:52] There's some side to side motion,
+[00:35:54] but there's also some conflicting like up and down motion.
+[00:35:56] And so I think it works fine.
+[00:35:59] We'll see it in motion in a second.
+[00:36:00] I think it works fine as an effect,
+[00:36:03] but as a concept painting,
+[00:36:04] it doesn't achieve describing how it would be animated,
+[00:36:09] right?
+[00:36:10] Whereas this one down here, it's very clear.
+[00:36:11] It's like, you know, that that's rotating.
+[00:36:14] It's either rotating this way or that way,
+[00:36:16] but you know that this is captured
+[00:36:19] as something that's spinning.
+[00:36:21] So when we look at both of these animated,
+[00:36:22] we see that they're both rotating
+[00:36:24] and it's actually a very beautiful effect.
+[00:36:26] It's very beautiful motion,
+[00:36:28] but there's a difference between a beautiful final execution
+[00:36:31] and a concept that would show
+[00:36:35] what that motion is going to be.
+[00:36:38] So sometimes we have to exaggerate, right?
+[00:36:40] Maybe the end goal is to do it just like this,
+[00:36:43] but you'll have to exaggerate some of the swooshes
+[00:36:46] and swoops in the single frame
+[00:36:48] in order to tell your audience
+[00:36:50] this is going to be spinning, right?
+[00:36:52] And add some more directionality,
+[00:36:54] like emphasize more of these lines
+[00:36:56] that are radial and spinning around
+[00:36:58] and de-emphasize some of these lines
+[00:37:00] that are sort of tangential or conflicting
+[00:37:04] with the primary motion that you're trying to do.
+[00:37:07] So of course, we're not just animating shapes,
+[00:37:10] we're also animating hue, saturation, value, and opacity.
+[00:37:13] And you can see, I went and took some liberties
+[00:37:16] to color shift a lot of the different things
+[00:37:20] that Shovlin had done in his painting.
+[00:37:22] This is the original on the left.
+[00:37:23] And I went in here and I shifted it to more yellows over here
+[00:37:27] I de-saturated out the clouds up here
+[00:37:30] and made them like a little bit more transparent, et cetera.
+[00:37:34] So you can see how this then animates.
+[00:37:37] And this over here is pretty dang subtle.
+[00:37:40] And the only reason I'm really showing this to you guys
+[00:37:43] is because I want you to be mindful
+[00:37:45] of how you distribute your colors throughout your painting.
+[00:37:48] So by putting the more intense color structure
+[00:37:53] in the center, it helps the rest of it feel
+[00:37:56] like it's somewhere else in its phase.
+[00:37:59] The animation is different, that this is dissipating,
+[00:38:01] it's dying off, it's becoming inert.
+[00:38:04] It's not as charged with whatever energy it is
+[00:38:07] that caused this effect to happen in the first place.
+[00:38:10] And so that can tell a story of animation
+[00:38:12] just with color in your painting.
+[00:38:14] So think about over life, over the life of the matter
+[00:38:19] as it cools off, as it goes from being the fuel source
+[00:38:22] to the hot matter to the cool matter,
+[00:38:25] how does it change in color?
+[00:38:27] What are the hue shifts?
+[00:38:28] What are the saturation shifts?
+[00:38:29] The value and opacity shifts.
+[00:38:33] All right, so that pretty much covers it.
+[00:38:36] There's lots more for you guys to look into.
+[00:38:37] There's a lot of free content out there as well.
+[00:38:39] I'd encourage you to check out
+[00:38:40] the art of visual effects series that I did on YouTube
+[00:38:45] that dives into a lot of this stuff.
+[00:38:48] There was an amazing GDC talk a few years back
+[00:38:51] about Diablo 3 by Julian Love, that one's great.
+[00:38:55] And then there's this thread on the forum
+[00:38:58] that is just a good discussion about concept art.
+[00:39:02] Also, there's lots of other things to purchase
+[00:39:07] if you're so inclined.
+[00:39:09] These are all non-free options,
+[00:39:10] but all ones that I would definitely recommend.
+[00:39:14] Elemental magic is a staple for us.
+[00:39:17] Patterns in nature was recommended to me
+[00:39:20] and to a lot of us at GDC by Jeremy Griffith.
+[00:39:23] I went ahead and picked that book up.
+[00:39:24] It's got some awesome reference on different shapes
+[00:39:27] that happen in nature that you can reference
+[00:39:29] for your paintings.
+[00:39:32] And then Sam Nelson, he teaches at the school I went to,
+[00:39:34] Brigham Young University, and he has an online course
+[00:39:37] that you can check out for digital painting.
+[00:39:39] He's really, really fantastic.
+[00:39:42] He's not an effects artist,
+[00:39:43] but he does cover all the foundations
+[00:39:46] that you're gonna need to know in lighting and painting
+[00:39:49] and that kind of thing to achieve believable forms.
+[00:39:52] So it's just one more resource in addition to this class
+[00:39:56] and the work that we're gonna do in here
+[00:39:57] that might be worth checking out if you'd like.
+[00:40:01] And then some others, of course,
+[00:40:02] that I think are also good.
+[00:40:05] Maybe not as core and essential as the other ones,
+[00:40:07] but if you're really trying to go ham
+[00:40:09] on your painting education,
+[00:40:11] there's a second volume of elements in that.
+[00:40:13] Elemental magic worth checking out.
+[00:40:14] Essential effects is a decent guide.
+[00:40:17] I would say that the elemental magic
+[00:40:18] is much more of a critical must have.
+[00:40:21] Essential effects goes into more detail on different things.
+[00:40:25] It's by a different author,
+[00:40:27] and it's just a different approach
+[00:40:29] to a lot of the same kind of content.
+[00:40:31] And then Chris Oatley.
+[00:40:31] Chris Oatley has been doing digital painting instruction
+[00:40:34] for many, many years.
+[00:40:36] Also, he has a podcast that I highly recommend
+[00:40:38] that's totally free.
+[00:40:40] You can go check that out.
+[00:40:41] I've listened to it over the years off and on
+[00:40:44] for inspiration.
+[00:40:45] He's just very good.
+[00:40:46] He talks with lots of different professional artists
+[00:40:48] and their journey into this world.
+[00:40:52] Okay, guys, so there it is.
+[00:40:54] There's the information dump for you
+[00:40:57] on how to constrain yourself,
+[00:40:59] how to think about what you're creating
+[00:41:01] and the different details that you're gonna define.
+[00:41:04] And yeah, just be thinking about all these different things
+[00:41:07] like what are the forms that you're fleshing out?
+[00:41:10] What is it made of?
+[00:41:11] What is it doing on the canvas?
+[00:41:13] And why is it doing all these things?
+[00:41:15] And then how does that fit in with the bigger constraints
+[00:41:17] of what you're trying to achieve?
+[00:41:19] Should it be super bright?
+[00:41:20] Should it be super subtle?
+[00:41:22] What's the area of effect on it?
+[00:41:25] Like what's the theming of it
+[00:41:27] and the aesthetics that you're trying to achieve?
+[00:41:29] It's a lot to take in,
+[00:41:30] but hopefully this is gonna be a beneficial
+[00:41:33] and ready resource for you
+[00:41:34] as you're trying to get your head around
+[00:41:37] concept painting for visual effects.
+[00:41:39] All right, well, hope you enjoyed the lecture
+[00:41:42] and good luck on the concept painting phase of this unit.
+[00:41:48] See you out there.

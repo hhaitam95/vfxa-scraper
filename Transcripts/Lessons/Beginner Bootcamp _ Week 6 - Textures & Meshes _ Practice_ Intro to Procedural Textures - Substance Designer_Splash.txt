@@ -1,0 +1,181 @@
+[00:00:04] Hi guys! Welcome back to another new lesson of Sustain Designer. Today we are going to create
+[00:00:11] a liquid splash test tour. If you didn't know, one of the biggest challenges in the real-time VFX
+[00:00:17] are the liquids, and today we are going to introduce some concepts and techniques
+[00:00:23] on how to work when we want to create this kind of test tour. I can't wait to show you more,
+[00:00:28] and let's go ahead! As you can imagine, one of the biggest challenges in the real-time VFX
+[00:00:34] are liquid. When working on this kind of surface, there are two common techniques,
+[00:00:39] although there are plenty more. One is making a flipbook where every square represents one frame
+[00:00:46] of the animation, like a short spreadsheet. Later, we will reproduce this sequence in Dendang,
+[00:00:53] in a particle that we show every frame in order. We could get this animated sequence
+[00:00:59] simulating something like a splash of water in a 3D software like Houdini or dragging
+[00:01:05] each frame by hand. Props are that we can get exactly what we want, but on the other hand,
+[00:01:10] we usually take a lot of time to simulate or drag all the frames. Also, if we decrease the
+[00:01:17] speed of the animation, it won't be smoother and we won't want it. The other technique is
+[00:01:23] overlay every frame on top of the previous one. Let me show an example. You can see every frame
+[00:01:30] on top and inside of each other, where the last frames are brighter than the first frame.
+[00:01:36] It's like the skin of an onion. If we eat one layer, we will see the next one below.
+[00:01:43] To do this with our test tour, we will do in our engine something like a threshold that will be
+[00:01:50] biting every frame and exposing the nest until the last frame remains. Notice that it's important
+[00:01:56] that every frame must be contained inside the previous one to make this work. Now, think about
+[00:02:03] if instead of just having a sequence of frames overlapping one on top of each other, we have
+[00:02:08] a gradient that connects every frame with the next one. Let's blur this tester and see how it
+[00:02:15] would look like. You couldn't remove a layer of this onion at once, but instead you will reduce
+[00:02:22] the thickness of each layer until it disappears completely. It would be like having an infinite
+[00:02:28] number of layers. Look how smooth the transition is. There are also better ways to get a gradient
+[00:02:35] like this than blurring a shape and we are going to see it. As always, I'm going to open the file
+[00:02:41] I'm working on and create a new graph for DustPlus. I know there is too much information
+[00:02:47] in our minds and it could be complex to understand at first, but with practice we will learn how this
+[00:02:53] work. Fine, the first step we will create the main shape. For that we are going to start creating
+[00:03:00] a shape node where then we are going to subtract a noise, as plus in many circumstances will be
+[00:03:07] circular, so we are going to select a throne. It's a bit small, so we are going to type the
+[00:03:14] scale 1.5 or so. Perfect, now fill the tester better. Then we are going to create the noise
+[00:03:21] that we will subtract this shape where we get the main splats body. To get the noise that will
+[00:03:27] define our splats body we will start using a borderline noise. This is a custom procedural
+[00:03:33] noise which is generated as a 3D noise mapped in two dimensions. With this noise we can create
+[00:03:40] different kind of versions and it's super easy to use. Ok, let's take a look at the parameters.
+[00:03:46] We can invert the grayscale with this boolean button. Then we have a uniform scale and I think
+[00:03:54] we need a noise with a bit more scale to have more detail. Then we can change the size of each
+[00:04:00] axis separately and we can do the same with the offset and the disorder. As you can appreciate,
+[00:04:06] we can change the sex axis although the noise is projected in two dimensions. It's been taken in
+[00:04:13] account to generate the noise. This time we won't use these parameters. Also, we can apply a warp
+[00:04:20] on the boronoid and we will control these two parameters. The distort intensity controls the
+[00:04:27] intensity of the deformation that is applied in the noise. We are going to use it and increase
+[00:04:32] the intensity to create a more interesting noise. Then we have here the distortion scale multiplier
+[00:04:41] that controls the scale of the deformation noise. The larger the number, the smaller the noise scale
+[00:04:48] will be. Ok, let's make the scale a little bit smaller to have more detail in the deformation.
+[00:04:55] Ok, that is perfect. The rounded curve we can use it but these parameters grow on the slope
+[00:05:01] around each point of the noiser. The distance scale adjusts the distance of the gradient
+[00:05:07] around each point of the noise. More or less will be how this pan forms the center of each point of
+[00:05:14] the noise. Well, we are going to lower a little bit to have more space between the shapes that
+[00:05:19] are generated. The distance mode sets the method to compute the distance gradient around each point
+[00:05:26] of the noise. We won't use these parameters but we can see that depending of the method we have
+[00:05:31] a very different result in the noise. And lastly we have the style that sets the rendered method
+[00:05:37] of the boronoid and changes a lot of what the final result will be like. I'm not going to go to
+[00:05:44] the technicals of how these parameters work and we are only interested in how it looks visual and
+[00:05:50] you can see the result will change drastically. For this case we are going to select F1 by F2
+[00:05:57] because we get smoother noises without hard lines. Ok, then we are going to copy and paste the same
+[00:06:04] noise and we are going to change a little bit the parameter to get another noise with a smaller
+[00:06:11] scale and then we'll multiply each other to create a new noise. Fine, let's set the scale with a
+[00:06:18] higher number to get the scale with a small detail. And then we are going to change the offset of one
+[00:06:25] of the axes, for example the y-axis to change a little bit the variation of the noise. I remind
+[00:06:32] you guys if you want another variation of the noise we can always change the random seed that
+[00:06:38] we have in all nodes and this parameter is super useful. Perfect, now let's create a blend node to
+[00:06:46] multiply the two noises that we have created. A very interesting noise has been made, it has
+[00:06:53] different smooth gradient without having very high values and this noise will define the main splash
+[00:07:00] body. Now let's create another blend node to subtract the noise that we have created to the
+[00:07:07] circular gradient. Super cool, we have the main shape of hours plus. Now it seems a little bit
+[00:07:16] weird but don't worry, we are going to work with this result and keep the shape that has been
+[00:07:22] created. For that we are going to use the levels where we are going to over expose the value until
+[00:07:29] we get an almost wide flat shape. So we are going to move the high values very close to the lower
+[00:07:37] value and maybe move a little bit the mid controller. Then we are going to lose the shape
+[00:07:44] because we don't want the hard edges that we have right now. As we only want to blur it a little bit
+[00:07:50] we will set a lower intensity. Then we are going to create the directional warp to give the shape
+[00:07:57] some direction and detail in the silhouette. For the intensity map input we are going to use a
+[00:08:04] Gaussian noise and we are going to set the scale of this noise with a lower value as we don't want
+[00:08:10] too much small detail to distort either and also I'm going to change a little bit the disorder.
+[00:08:16] Ok, I think it's perfect and we connect to the intensity map input. We don't want too much
+[00:08:22] distortion and I think the intensity could be fine. But let's try to change the angle of the
+[00:08:29] distortion to appreciate the change and get a more interesting silhouette. Well, we already have the
+[00:08:35] main body of the splash and it has a quite nice shape where we can appreciate in the edges that
+[00:08:42] it has different kind of details with a few steps. It's really fantastic. Now let's go to the next
+[00:08:48] step where we start working on the grayscale that will determine the fading behavior. In general,
+[00:08:55] the Lucas's splash tends to fade from the edges towards the center while it is expanded. It's a
+[00:09:01] simple way we could define it like this. So, let's go looking for this fading behavior.
+[00:09:07] We are going to use the bevel node that we have seen in other lessons and it will help us to get
+[00:09:13] very quickly that grayscale that we go from the borders to the inside. To get the gradient that
+[00:09:19] we are looking for we will set the distance in negative and we will start to see the borders
+[00:09:25] are darker than the center. Cool, I think this distance is perfect but let's see how this behaves.
+[00:09:33] For that I'm going to use the Instagram scan and I'm going to set the position to 0.5 to have the
+[00:09:40] same values that we have in the bevel node. If I move the slider until zero we can see how this
+[00:09:47] going to behave and for the first iteration of how this fade out is quite nice. Ok, I'm going to
+[00:09:54] disconnect the histogram scan and I'm going to leave this aside for when I want to try it again.
+[00:10:01] Already having a little bit of the main behavior of how our body splash is going to fade,
+[00:10:07] we are going to create the drops that a liquid splash usually has and add the small detail
+[00:10:13] that needs. The splash drops are usually close to the borders indicating that they have separate
+[00:10:20] from the main shape because they have had more velocity or they are fading earlier. So to get
+[00:10:26] this kind of effects and not have the drops in the middle of nowhere or in areas where it makes
+[00:10:32] no sense, we are going to create a mask on the older borders of the splash body to create the
+[00:10:39] drops only in this area, so let's go ahead. The first thing that we are going to do is blur
+[00:10:45] over the splatter to have a larger area of it. Ok, let's lower the intensity a little bit.
+[00:10:53] Fine, then we are going to create a distance node. This node works by expanding an outward linear
+[00:11:00] fade from any pixel over 0.5 value. So here we can appreciate some similarity to the bubble node
+[00:11:08] but it isn't the same and we can expand the area with the maximum distance. For this case,
+[00:11:14] we don't want the expansion to be a gradient, so we are going to use the second input to expand
+[00:11:21] a solid shape. Our source input will be the same shape adding a level node to flat the image.
+[00:11:28] Ok, we are going to set the level node until we get a flat shape and then we connect to the
+[00:11:35] second input. Ok, I'm going to move a little bit. Alright, now we don't see any change.
+[00:11:42] We need to change the combined source distance. These parameters will determine how the source
+[00:11:49] input is used. We already span the main shape using the source to color the expansion.
+[00:11:56] Fine, having a bigger area of the splats we are going to create a mass of the exterior border.
+[00:12:03] For that we are going to use the edge detect node. This node detects contrast in a black and white
+[00:12:09] image to create a mass in a white and black really useful highlighting the edge. This node works
+[00:12:16] better if the image input has a high contrast value. As you can see we have a black line that
+[00:12:22] is the shape edge. With the edge width we can control the width of the edge.
+[00:12:28] For our case we are going to increase this value to have a bigger mask. The edge roundness runs
+[00:12:34] a smoothly generated mask. And we are going to increase a little bit. Ok, really nice.
+[00:12:41] And to finish the mask we are going to invert the grayscale because we want only to create
+[00:12:47] the drops in the edge. Now we are going to use this mask to create the drops only in this area.
+[00:12:54] And we will use the tiling sample to create these drops to add some extra detail.
+[00:13:00] First we are going to connect the mask that we have created in the input
+[00:13:04] mask mask input and go to the color section to apply the mask with the max matte threshold to 1.
+[00:13:11] Then we are going to change the pattern to a gradient cycle
+[00:13:16] instead of a square. The paraboil will be fine. And then increase the number of the instance.
+[00:13:25] Perfect, now we are going to give randomness to the instance and we will start with a size.
+[00:13:32] Ok, we are going to increase the scale of the instance and we are going to expose it
+[00:13:36] if we want to iterate later. Also increasing the scale random will make more interesting,
+[00:13:44] so let's do it. Then we are going to change the position of the instance.
+[00:13:49] We change the position random and expose it. And well, we are going to do the same with the
+[00:13:58] offset. Now we have the instance with an interesting position, but we have a lot of them
+[00:14:05] and with the same grayscale, so let's change it in the color section.
+[00:14:09] We are going to increase the mask random where we have randomized the scale but
+[00:14:14] random mean decreased the number of the instance. Ok, really nice. And let's expose it,
+[00:14:21] maybe in the future is good to have if we want to change how many drops are in the splash.
+[00:14:27] Then we will add some randomness in the color with the color random.
+[00:14:34] Really cool. Lastly, we are going to decrease the main opacity of the instance because they
+[00:14:40] have a high value. We want to fade out but in the middle of the animation or so,
+[00:14:45] and not at the end. We have here the global opacity and we are going to set it more or
+[00:14:51] less in the middle. 0.5 I think is perfect. The next step will be to improve the appearance
+[00:14:59] of the drops and we are going to start blurring them a little bit. Ok, I'm going to decrease a
+[00:15:07] little bit in density. Fine. Now we are going to create the levels node and control the grayscale
+[00:15:14] values. And we will move the high values to create a flat color in the middle of the drops.
+[00:15:20] As we have moved the high values, the drops have returned to a high value, so we are going to lower
+[00:15:27] the main density with the white arrow in the bottom of the Instagram. Perfect. Now we are
+[00:15:34] going to warp a little bit the drops to give them a bit of movement, so we are going to use the
+[00:15:40] multidirectional warp. The intensity input will be the noise that we have created for the main body
+[00:15:47] of the splash. If we want to organize the wire connection we can create a dot pressing alt on
+[00:15:53] the wire. In this case to have a better result of the drops warp we are going to use the change
+[00:16:00] mode and the warp with this ball. It's really intense so we are going to decrease the intensity
+[00:16:06] value. It's just a small detail. Well, we already have the drops so let's blend with the splash
+[00:16:12] shape. I'm going to organize a little bit my nodes. We are going to use an add mode and the
+[00:16:19] texture has a lot of drops, so I'm going to change a little bit in the splash parameters
+[00:16:24] to get a better result. Okay, I'm going to text how this behaves with the Instagram scan that I
+[00:16:36] had here. Well, the splash behaves super nice and I like it, but we are going to do the final touches
+[00:16:44] and work a little bit with the grayscale to make a fadeout more interesting. Okay, I'm still seeing
+[00:16:52] a lot of drops in the splash so I'm going to make some changes to the parameters. Fine, to have some
+[00:17:05] intermediate value inside of the splash and that the fadeout is not uniform throughout the shape
+[00:17:12] we are going to blend it with that Laussian noise that we have in the graph. Fine, in this case we
+[00:17:28] are going to use the soft light mode. Now, although you don't appreciate it too much in the texture
+[00:17:37] we will have some part of the splash where they will fade out before. As a last touches we will
+[00:17:43] highlight the splash a little bit. We are going to use a new node called Ambient Occlusion that
+[00:17:50] takes the grayscale of the input and generates an ambient occlusion matte from that. An ambient
+[00:17:56] occlusion is a shadow that is generated from the cavities of the object itself. The node will
+[00:18:03] interpret the scale as a height map and use it to generate the shadows. We can control the height
+[00:18:10] depth of the object and we are going to decrease the value just a little bit. Also, with the radius
+[00:18:16] we can control the spreads of the ambient occlusion but we are not going to change it.
+[00:18:20] This map will blend with the main texture to highlight and define the shape of the splash.
+[00:18:28] Also, we are going to use the soft light. Well, it's to hide the values of the splash so we are
+[00:18:36] going to lower the intensity of the opacity. Now, it's super nice. I think we already have the splash
+[00:18:44] but let's change it one last time just in case. Wow, the behavior of the fade out looks really
+[00:18:52] really awesome. We are now ready to export the texture and take it to the engine, so let's do it!
+[00:19:00] Ok, the first thing I want to show you is the comparison of the texture in both softwares,
+[00:19:11] designer and engine, and we can see that it behaves in the same way. Also, I made a simple
+[00:19:18] water splash with this texture. I didn't want to add much detail in the VFX so you could see
+[00:19:25] as best as possible how this behaves. This kind of fading we need to make a shader that
+[00:19:31] reads the grayscale of the texture and subtract the values with the particle opacity.
+[00:19:38] Also, this technique, mostly when we want to do liquids splash, we need to care and work a lot
+[00:19:45] with the curves and randomness of the scale, rotation and the alpha that will help us to get
+[00:19:53] a good VFX. I'm going to show you only the splasmeter, where there are at least three
+[00:20:00] of four particles with different rotation and scale that makes more randomness behaves.
+[00:20:06] Then, I worked with the curve of the particle alpha where it fade out quickly at the beginning
+[00:20:13] and in the end slower, while the particle scale is increasing.
+[00:20:19] So, I hope you enjoyed this lesson and I look forward to the next one. See you!

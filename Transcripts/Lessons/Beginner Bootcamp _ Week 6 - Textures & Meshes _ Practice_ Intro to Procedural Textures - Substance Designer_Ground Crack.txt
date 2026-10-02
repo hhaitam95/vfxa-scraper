@@ -1,0 +1,123 @@
+[00:00:06] Welcome back! Today is our last lesson. I'm really sad that our lesson have to end but I still have a good feeling because now you will get a little more knowledge of this great software.
+[00:00:21] For our last lesson we are going to see how to create a grown crack tester to work with this as a vehicle in our VFX and give an extra layer of complexity in the impacts.
+[00:00:32] I'm really excited to show you more and let's go ahead!
+[00:00:36] As always I'm going to open the file I'm working on and create a new graph for the grown crack.
+[00:00:43] Well, today is our last class and we are going to create a silent complex tester where we are going to apply almost all the knowledge that we have learned in the previous lesson.
+[00:00:54] Before starting let's see the main notion of what we are going to do in order to not get lost.
+[00:01:00] To create the grown crack we will create our custom boronoid noise from points that we will distribute as we wish.
+[00:01:09] Those points we will distribute in order to have the center with more points concentrated because these will be our points of impact and then fewer points as they move away from the center.
+[00:01:22] These points we will advertise to create our custom boronoid noise and I remember that the main concept of the boronoid noise is create a pattern based on a distance to the closest point.
+[00:01:35] When we have our boronoid noise we will create a mask to have a circular craft, give it some warp to make it more organic and have a different width in its line.
+[00:01:46] Ok, let's do it! To create the points in order to get the boronoid noise we are going to use the Tylen sample and to make the distribution more accurate we are going to make different maps to create the rules for our distribution.
+[00:02:02] We will see one by one what each of them does.
+[00:02:05] First we will use the shape where we will start defining how the point is going to be distributed.
+[00:02:11] As the crack that we are going to create is going to be circular so we are going to select the paraboloid.
+[00:02:19] This shape is going to be one of the maps of our Tylen sample but also from it we are going to create the other maps that we need to create the rules for our point distribution.
+[00:02:31] Ok, we are going to connect this map in the scale map so we will define the scale of each instances so let's start setting some of the parameters of the Tylen sample.
+[00:02:44] Fine, the first thing that we are going to do is set the pattern that we are going to use, in that case we only want points so we will select the disk.
+[00:02:54] Then we will go to the side category and here we are going to activate the map that we have connected.
+[00:03:01] The parameter that controls this map is the scale map multiplier and it's a slider that goes from 0 to 1 that determinates the amount of influence our instance will have.
+[00:03:13] I think we don't need the maximum, a little less might be fine.
+[00:03:18] Ok, now we are going to set the scale of the point, we only want a point as the origin of the shape for the paraboloid noise so we are going to set the scale with a very small scale.
+[00:03:31] After this we will create another map that we will determinate the position where these are, making the points in the center closer together and the points further from the center more separate between them.
+[00:03:44] We will start creating a curve from the circular shape, we are going to remap the values of the shape which will create a completely defined cycle in the center and from the borders we will fade out.
+[00:03:58] We will create a step between these two parts, we are doing that because the next step that we are going to do is create a normal map from this gradient as this will determinate how this will boost the instance.
+[00:04:12] With this we will decide the displacement and the direction of the instance.
+[00:04:17] The color of the normal map determinates the direction of the instance that are going to be pushed and the intensity.
+[00:04:25] Today we are going to set the intensity of the normal map in negative because we want the instance to be pushed inwards and we need the color of the normal reversed.
+[00:04:36] I think with minus 50 or so we will start to appreciate the normal well.
+[00:04:42] Now let's connect the normal map to the vector map and it's the only input that's a lower color input so you can lose it.
+[00:04:51] With this map we will be able to control the scale, position or rotation.
+[00:04:57] For this example we only want to change the position so let's go to the position category.
+[00:05:04] The last parameter that we have in that category is the vector map displacement where we will control the displacement amount applied to the instance.
+[00:05:13] We will increase the value until we can appreciate the instance in the middle that are more concentrated.
+[00:05:20] If we need more we will do later but I think it's fine for the moment.
+[00:05:25] Ok, the last map that we are going to do is the mask that we have used in other case.
+[00:05:31] We will start creating the levels node from the original shape.
+[00:05:36] Here we can create a defined shape in the center and then a gradient but this time it will be smoother than the other map.
+[00:05:45] We will move the high value arrow to the center then to have more grayscale values in the mask we are going to blend it with a noise.
+[00:05:54] We will use the Perlin noise, we will use a mid scale detail of the noise and we will decrease the scale.
+[00:06:02] Fine, now we will create the blend noise from the shape and connect the noise to the first input.
+[00:06:09] We will use the Sustrand noise to subtract the shape to the noise.
+[00:06:14] This way we will keep the shape and additional noise that not lose a lot of grayscale.
+[00:06:20] Nice, now we will connect the map to the mask map and let's configure it.
+[00:06:25] As you know we will configure this map in the color category and the parameter is the mask map stress goal.
+[00:06:33] We are going to increase the value of it to delete all the points that we have in the border and zone in the center.
+[00:06:40] Ok, having these three maps configured, let's finish configuring the tile sample and give it more randomness among the other things.
+[00:06:50] Let's start from the mount of the instance, I think we have too many points so we are going to decrease the mount in the two axes equally.
+[00:06:59] Then we are going to decrease the size of the instance a bit more.
+[00:07:06] To break the grid pattern we are going to give randomness with the position random and the offset.
+[00:07:12] Lastly we will give each instance a color random because in the next step we are going to use this random color.
+[00:07:21] Ok, I think we have a really good point distribution but if we won't like later how this behaves we can play with a random seed in the tile sample to change the distribution of the point and get another result.
+[00:07:37] Alright, we are going to use the levels node and we will move the high value arrow until the final to get the points with a flat color.
+[00:07:47] Then we will create the distant node to get our custom boronoid noise.
+[00:07:52] We have used this node in the liquid splash texture but I'm going to remember a bit that this node works by expanding an awkward line fade from any pixel over 0.5 value.
+[00:08:05] Fine, let's increase the maximum distance and we can see how this behaves. It's starting to expand a gradient from each point.
+[00:08:14] Did you remember the random color that we add to the points, right?
+[00:08:19] Now we are going to use and connect in the second input to coloring each area with the color of each point.
+[00:08:27] With this we can get a flat color and not a gradient.
+[00:08:31] We will select the only source button because we only want to take the color of the second input and not combine both.
+[00:08:39] Perfect, we already have our custom boronoid noise made where each zone has different flat color.
+[00:08:46] This will be the base from where we are going to create our grown crack texture.
+[00:08:52] We already have the center with more information where the areas are smaller and they're folded away from the center, they are bigger.
+[00:09:00] Now we are going to give form and create our grown crack.
+[00:09:05] With our custom boronoid noise we are going to create the crack lines and in order to get this we will use the edge depth.
+[00:09:13] First, to avoid the intersection we are going to set the edge roundness to 0, then we will decrease the width of the edges a bit.
+[00:09:22] Now we are going to delete all these lines in the borders and make a mask to only keep the center of the crack creating a circular fadeout.
+[00:09:32] For that we will invert the lines.
+[00:09:35] Then we are going to make the mask that should strap the crack lines so we will use the shape null and we will select the paraboloid.
+[00:09:44] We will decrease the scale of it because we don't want to have all the edges go that far.
+[00:09:49] Alright, to not lose too much information in the borders when we subtract the crack lines we are going to use the levels to contrast the shape more and only have a small gradient at the borders.
+[00:10:01] We will move the high value arrow to the black values.
+[00:10:06] Now we are going to create the blend null to multiply them.
+[00:10:11] Perfect, we can appreciate the center completely defined and use the borders with a fadeout.
+[00:10:19] Ok, we have the principal crack lines and the next step we will create the lines to give it more complexity.
+[00:10:27] Ok, the first step that we are going to make is create a slope lure.
+[00:10:31] We will make the lines of the borders thinner, sharpen it and put a bit to the center.
+[00:10:37] The slope lure needs another map to create this kind of effects so let's create it.
+[00:10:43] To create the map for the slope lure we are going to create it from the same crack lines and give a different grayscale value of each chunk of the crack depending of the area.
+[00:10:54] To distinguish each chunk we will use the flat-film from the edited.
+[00:10:59] I remind you that this null will need a contrasting black and white input to work.
+[00:11:04] Then, this null doesn't do anything, it isn't complemented with another update category.
+[00:11:10] So we will have one specific null that generated a grayscale map from the area of each chunk and is the flat-film to pbbox size.
+[00:11:20] We can set how the value is meansured but width, length or both.
+[00:11:24] For the purpose that we need we will leave as default.
+[00:11:28] Now we have the small chunks darker and the bigger lighter.
+[00:11:32] To have all the grayscale in the world range we will use the auto levels.
+[00:11:37] Then we will blur the map a bit.
+[00:11:40] Now we connect it with the slope lure.
+[00:11:45] Then we will set the samples to the maximum.
+[00:11:49] The intensity is too high so we will decrease it until we have a result where we can appreciated the zener borders and have the center almost defined.
+[00:12:01] Now we are going to make two paths of deformation mid and small detail to break the strength lines.
+[00:12:09] For that we will use the multi-directional warp and as intensity input we will use the Berlin noise.
+[00:12:16] Ok, the first pass is going to be the mid detail so we will decrease the scale.
+[00:12:22] Then we will change the disorder.
+[00:12:24] When we have it in the multi-directional warp we are going to first change the mode to change to have a distortion in all four direction consecutively.
+[00:12:34] Now it's lose grade and we will increase the intensity of it.
+[00:12:39] Then the second pass will be with the small detail.
+[00:12:42] This is going to be a small touch.
+[00:12:45] We can copy and paste the two nodes or create from zero.
+[00:12:49] I'm going to copy and paste to go faster and then make the changes.
+[00:12:54] Perfect, first we will configure the Berlin noise.
+[00:12:57] We are going to increase the scale of the noise to have a small detail and change the disorder.
+[00:13:04] Then we can appreciate that the intensity is too hard and we are going to decrease until we see that this is a side deformation.
+[00:13:12] The crack is looking so nice and we are going to make it the last touches creating a bit of gradient and different width in the lines.
+[00:13:20] Normally we will use the bevel node but the lines are too thin.
+[00:13:25] So to not lose detail in the lines of the borders we are going to make an intermediate step creating first a levels node to highlight the lines more.
+[00:13:35] We will move the high value arrow to the darker areas and this we will accentuate the lines.
+[00:13:42] Now we can create the bevel node.
+[00:13:44] We want a gradient from the center of the lines to the outside so we will set the distance in negative and with a rather small value.
+[00:13:54] Great, we have the gradient in the crack lines but now is a bit darker so we will use the histogram scan to raise the grayscale and contrast the value a little bit.
+[00:14:05] We will increase the position until we see the crack again and then a bit the contrast.
+[00:14:11] Perfect, the ground crack is fully done and looks awesome.
+[00:14:19] We have different areas where the center has more concentration of breakage, different layers of deformation and different width lines to give an organic touch.
+[00:14:29] The only thing that I see here is that is a bit too small for the texture side so before exporting we will use the transformation 2D to increase the scale of the crack lines and feel the texture better.
+[00:14:43] Now we can export it and take it to the join.
+[00:14:47] Today I've reduced the impact VFX I made for the ring tester lesson and I added the ground crack tester that we have created in this one.
+[00:14:58] Honestly, it looks great and is quite integrated with the other elements. It gives an extra layer of complexity.
+[00:15:07] This tester will be suitable for all types of round impacts and we can complicate as much as we want.
+[00:15:14] For example, we can create a normal map where it seems to have a chunk or using another channel in the tester to differentiate the emissive areas.
+[00:15:25] I encourage you to try out SUSAN Designer and see what you can make with all nodes that we have seen in all the lessons.
+[00:15:34] It has been a pleasure having this lesson with you and I'm eternally grateful that you are here to watch it.
+[00:15:41] I hope you enjoy watching it and learn from it.
+[00:15:44] Thank you for watching and see you soon!

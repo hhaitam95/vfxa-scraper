@@ -1,0 +1,130 @@
+[00:00:05] Hey everyone, my name is Allie. I'm a senior real-time visual effects artist that has been part of the video game industry for about seven years now, which is crazy to think about.
+[00:00:16] I am honored to be here today to teach you guys a little bit about a 2D painting program called Krita.
+[00:00:23] Krita is a great alternative to Photoshop, not only because it's free, but because it has some customizability and some functionality even that Photoshop lacks.
+[00:00:33] But we'll get into the details of that a little bit later. For now, let's just start off with some basics.
+[00:00:40] Just a quick disclaimer to start things off. Some of you may not have a digital drawing tablet, but I would highly recommend getting one if you plan to do hand-painted textures for your projects.
+[00:00:50] Thankfully, this first fuzzy orb texture is relatively easy to make with a mouse, but the process for more complicated textures is so much easier if you have a tablet that you can use.
+[00:01:00] We'll leave some links in the description below to some tablets that shouldn't break the bank.
+[00:01:05] When you first open Krita, it's easy to feel overwhelmed. There's a lot of different buttons, different window sections.
+[00:01:11] We're going to go through each one one by one so you know exactly what you're getting into and which tools will be most helpful for you for this course.
+[00:01:19] As a quick overview, on the left side we have the toolbar. At the top we have some buttons for creating new files, opening files, and saving your current file.
+[00:01:29] I'll touch on these other options a little bit later since they take a bit more explanation.
+[00:01:33] To the right we have two different kinds of color pickers based on your preference.
+[00:01:38] And below that our layers tab and our undo history. You don't have to worry about the channels or composition tabs for now.
+[00:01:46] Then at the bottom right we have a fantastic selection of brushes that we'll be using and the tool options tab, which we'll be briefly talking about later.
+[00:01:54] The first and arguably most important tool I'll be touching on is the freehand brush tool. You can get to this tool by pressing B.
+[00:02:03] You might notice there's no specific eraser tool here like there is in Photoshop, and that's because it's part of the brush tool.
+[00:02:09] You can toggle the eraser on and off by clicking this little eraser button at the top center portion of the screen or by pressing the E key.
+[00:02:17] When it's highlighted in blue, you're in eraser mode.
+[00:02:20] The button next to the eraser button is called the preserve alpha button.
+[00:02:24] When you have this enabled, you'll only be able to paint on areas that you've already painted on a specific layer.
+[00:02:30] Next to that is the reload preset button.
+[00:02:33] If you've made any changes to your brush's size, opacity, etc, pressing this button will revert the brush back to how it originally was when you first selected it.
+[00:02:42] To the right of the size and opacity options we have the horizontal mirror tool, which is thankfully pretty straightforward.
+[00:02:49] Enabling this will mirror whatever you paint on one side of the texture to the other.
+[00:02:53] The same is true of the vertical mirror tool, but from top and bottom rather than from right and left.
+[00:02:59] The next tool is the line tool. If you ever need to make a straight line, it can be incredibly useful.
+[00:03:05] It takes into account the brush pressure you use as you're drawing the line.
+[00:03:09] If you just need a straight line and don't need to worry about brush pressure, I'd recommend using the mouse with it.
+[00:03:14] You can access this tool by pressing V. It will use whatever brush you currently have selected to draw the line.
+[00:03:21] The line starts where you press down on the canvas and ends wherever you lift your pen back off the tablet.
+[00:03:27] Here we have some shape tools. I currently don't have any hotkeys set up for these tools.
+[00:03:33] If you find you use them often I'd suggest making a hotkey for them.
+[00:03:36] These shape tools act very similarly to the line tool in that they use the brush you have selected to make the shape you have selected.
+[00:03:43] If you're looking to make a non-standard polygonal shape, the polygon tool is a great way to go because it will always make a closed shape.
+[00:03:50] For instance, if I make a strange polygon but don't close it, then shift-click, or shift and then put my pen on my tablet, the shape will auto-close for me back where I started it.
+[00:04:00] The polyline tool works the exact same way, it just doesn't close the shape for you.
+[00:04:06] If you need some fancy curvy lines, the Bezier curve tool works great.
+[00:04:10] You can click to get a start point, then on your next point, click and drag to create a curve.
+[00:04:15] The next line you make will maintain the same curve on it unless you click and drag again.
+[00:04:20] If you don't like the curve you've made, you can right-click to undo each step back until the start point.
+[00:04:26] Next is one of the tools I feel like I could mess with all day, the multi-brush tool.
+[00:04:31] You can select this brush by pressing Q.
+[00:04:33] What this tool does is take your brush and mirrors your strokes across the four quarters of the canvas.
+[00:04:38] It's very fun to use, but keep in mind that repeating shapes like this don't necessarily make the most visually interesting textures.
+[00:04:45] The next set of tools are extremely useful for moving and scaling your currently selected layer.
+[00:04:51] If you press Ctrl and T, you'll select the transform tool, which can be used to scale or move what you've painted.
+[00:04:58] To move what's on your current layer, you can click inside of the transform box and drag the texture where you want it to be.
+[00:05:04] If you want to scale the image evenly, you can hold the Shift key while clicking and dragging from one of the corners of the image.
+[00:05:11] If you want to scale from the center of the image, you can hold Alt.
+[00:05:15] And you can hold Shift and Alt together to scale the entire layer up and down evenly from the center.
+[00:05:22] The next tool, the move tool, which you can select with T, is a little redundant but can still be useful.
+[00:05:29] It works very similarly to the transform tool, though it only moves things and can't scale them.
+[00:05:34] Under those, we have the gradient tool, which you can select with G, which can be used to quickly create linear or radial gradients.
+[00:05:42] You can change what color of gradient you're making by clicking this little gradient up here.
+[00:05:47] There's a lot of neat color options, or you can choose to make your own by pressing the Add Plus button if you're going for something specific.
+[00:05:54] Next, we have the color picker tool. We won't be using this much during this course, but it's still useful to know.
+[00:06:00] You can either press P to use this tool or hold down the Ctrl key.
+[00:06:04] Holding down the Ctrl key will change your cursor to the color picker icon so you know that's what you're using.
+[00:06:10] After that, we have the fill tool, which you can select with F, which is pretty self-explanatory.
+[00:06:15] You can fill whatever empty areas of canvas with a color with this tool.
+[00:06:21] Then, near the bottom, we have the marquee selection tool in a variety of different shapes.
+[00:06:25] I often use the outline selection tool, it looks like a lasso, for a variety of different things when making textures.
+[00:06:32] You can also use the wand tool to auto-select areas of your texture that are similarly colored or shaded as the point you clicked on.
+[00:06:39] There's also a polygon selection tool and a bezier selection tool if you want to try those out for fun.
+[00:06:45] You might get some cool results!
+[00:06:47] Last but not least, we have the zoom and pan tools.
+[00:06:51] You can zoom in and out by using the scroll wheel on your mouse, or you can click while using the zoom tool to zoom in, and Ctrl-click to zoom out.
+[00:06:59] The pan tool can be used by holding spacebar and then clicking and dragging.
+[00:07:03] Alright, enough about the tools, let's actually get to the exciting stuff and get to making our texture.
+[00:07:09] Let's make a new file by pressing New File.
+[00:07:12] A pop-up window will appear asking you what dimensions you want for your texture.
+[00:07:16] This is actually more important than meets the eye.
+[00:07:19] As you can see, my texture is 512 by 512, which is a power of 2.
+[00:07:24] When making a texture in games, you should stick to powers of 2, like 64 by 64 or as big as 2048 by 2048.
+[00:07:32] You can technically make textures any size you want, but your game engine will spend unnecessary resources resizing the texture,
+[00:07:39] so it's in your best interest to go the optimized route and size your textures according to the power of 2.
+[00:07:45] One other thing to consider with texture size is how big you expect this texture to appear on screen once you have it in engine.
+[00:07:52] If you expect this texture to be a massive screen-sized effect, a 1024 by 1024 or larger might work best.
+[00:07:59] But if you're planning on making embers for a campfire or a tiny section of the screen, something as small as 64 by 64 would be optimal.
+[00:08:07] For this test, I'm going to stick with 512 by 512.
+[00:08:11] Before you hit create, hop over to the content tab on this window and change the image background color to black.
+[00:08:17] It'll save you an extra step once you've opened your file.
+[00:08:20] Go ahead and hit create to get started.
+[00:08:23] And here we are, a blank black canvas.
+[00:08:27] You'll notice over in the layers panel that the black background is a separate layer below the layer that we're working with.
+[00:08:33] This means I can paint and erase without having to worry about affecting the black background.
+[00:08:38] A simple way you can generate a soft radial gradient without using the brush tool is by selecting the gradient tool or pressing G, then going over to the tool options tab in the bottom right hand window.
+[00:08:49] Here you can decide what kind of gradient you want to make, whether it's linear, radial, etc.
+[00:08:55] To make a soft circular orb, we can select the radial option.
+[00:08:59] Now if you click and drag on the screen while holding shift, a perfectly radial gradient appears.
+[00:09:05] If you create a texture this way, it might be a bit tough to center it.
+[00:09:09] You can try to eyeball it, but the best way I've found to do this is to go to the view menu, snap to, and make sure snap image center is enabled.
+[00:09:17] Then go to settings, dockers, and click on grid and guides.
+[00:09:22] This will bring up a new window that's docked onto the lower right hand corner of the screen.
+[00:09:27] Once you have the show grid box checked, it will show you a grid across your image.
+[00:09:31] Here you can determine how many divisions you want in your grid.
+[00:09:35] If you have your image sized like mine, you can set the X and Y spacing to 128 and be able to see where the center of your texture is so you can better get your texture lined up to the center.
+[00:09:45] If you'd prefer to paint your texture, you can swap back to the brush tool by pressing B.
+[00:09:52] For some reason, Krita always starts me off with a huge airbrush, which is perfect for painting fuzzy orbs.
+[00:09:58] But in case it launched you with a different brush, you can find the airbrush down in the brush presets menu.
+[00:10:03] Now, you might notice that when I put my brush over the canvas, it's pretty massive.
+[00:10:07] I can size the brush down with left bracket, like I would use in Photoshop, until it looks like it fits the canvas.
+[00:10:13] And if the brush is too small, I can size it back up with the right bracket.
+[00:10:17] You don't want to go too small with the brush though, you should try to fill up as much empty space as possible.
+[00:10:22] Now if I center my brush on the canvas and click a couple times, voila! I have a generic fuzzy ball texture ready to go.
+[00:10:30] Now we can save it out and get it into engine.
+[00:10:33] One important thing to keep in mind with fuzzy orbs like this is that it's really easy for the falloff of the glowy orb to clip at the edges of the texture, which is extremely noticeable once you get the texture into engine.
+[00:10:44] Make sure the fuzz doesn't extend beyond the texture's edge to avoid this.
+[00:10:48] It's a good idea to double check the values of your fuzzball as well.
+[00:10:52] You can do this by selecting the color picker, then clicking and dragging over the different sections of the gradient.
+[00:10:58] Now that we have our fuzzball texture painted, we can save out a source file in case we need to make any edits to our texture in the future.
+[00:11:08] And then we can save it out to the proper format for our game engine, which is usually a .tga or target.
+[00:11:15] I have a couple of last notes I'd like to cover while talking about exporting textures, one of which is the difference between exporting a texture in a linear color space and a non-linear or gamma-corrected color space.
+[00:11:27] It turns out that our computer monitors are incapable of displaying the visual range of luminance values that our eyes can perceive.
+[00:11:35] If you had two images side by side that were in a linear and non-linear color space, you'd notice that the linear image would look dark and wouldn't be showing you all of the values you actually have in your image.
+[00:11:46] In order for computer monitors to show the correct luminance values for the textures we make, we can export the texture in an sRGB format, or the computer applies a gamma curve to the image to brighten up values that might appear darker than we want.
+[00:12:00] While it seems smarter overall to export in a gamma-corrected format, it's important to note that some textures may appear over-bright with these kinds of settings in place.
+[00:12:09] You can change the color space of the image you're working with by going to Image, Convert Image Color Space.
+[00:12:15] If you want to work linearly, you'll have to change your image to a 16-bit format. I'm going to use Krita's default color space, which is sRGB and thus gamma-corrected.
+[00:12:26] We're looking to export a grayscale image from Krita, so 8-bit or 16-bit should work for us.
+[00:12:31] If you export a color texture in the future, it's important to note that each channel your texture uses takes up 8 bits.
+[00:12:38] So let's say you have a color texture that also has a unique alpha channel. You would need to export it at 32-bit, since RGB and alpha channels take up 8 bits.
+[00:12:49] If you have a color texture that uses the RGB channels but no alpha, you would export that texture at 24-bit.
+[00:12:56] The last thing I'd like to mention is that if you find you could size your texture down and not affect the quality of your in-game effect, there's an easy way to resize your canvas.
+[00:13:05] If you press Ctrl, Alt, and I together, a pop-up menu will appear showing you the dimensions of your canvas.
+[00:13:11] If you want to size up the canvas evenly, make sure the Constrain Proportions box is checked in the lower section of the pop-up.
+[00:13:18] I know that was a lot of information to take in for our very first lesson, but what's crazy is that I actually had to do some learning too, because I didn't know what the difference was between linear and non-linear color spaces.
+[00:13:32] All in all, I hope that you feel like you're beginning to understand the ins and outs of Krita as a program, and that you feel empowered by the information that was shared during this lesson.
+[00:13:43] And I super look forward to seeing you in Lesson 2, where we get to flex our creative skills a little bit more and get to do some actual painting.
+[00:13:51] Thank you all so much for joining me, and I will see you next time!

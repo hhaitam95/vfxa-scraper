@@ -1,0 +1,335 @@
+[00:00:05] Hello everyone, in this video we will talk about some line wiggles and how we can create them and we'll
+[00:00:13] create two loops of
+[00:00:16] lines wiggling. The first one with the bottom part moving
+[00:00:21] left and right and the second one when the beginning of the line wiggle is in one place.
+[00:00:28] And
+[00:00:31] as you can see already with the guides we will use circles that are moving up to create a guide for our
+[00:00:40] line wiggle. It is a pretty powerful
+[00:00:44] instrument to get used to animating line wiggles and it's more about
+[00:00:50] imagining these circles and thinking about them when you animate in line wiggles.
+[00:00:55] But as a starter, we will actually draw them and animate
+[00:00:59] circles as guides to draw our first line wiggles.
+[00:01:05] To start this off we will need a guide.
+[00:01:08] Yeah, so we will mark
+[00:01:11] first how wide our
+[00:01:15] line wiggle will go.
+[00:01:18] Something about
+[00:01:21] maybe a bit wider, something like this.
+[00:01:25] I'll make the opacity lower
+[00:01:28] just to be able to see then what I will be drawing on top of it. And we will mark
+[00:01:35] spacing for our circles. We want it to be pretty
+[00:01:41] linear.
+[00:01:42] Just
+[00:01:44] kinda the same marks
+[00:01:48] going up.
+[00:01:52] Something like this. And
+[00:01:54] to make it even easier to
+[00:01:57] get even marks
+[00:02:00] we can just copy a part of this guide and
+[00:02:05] move it slightly up and
+[00:02:08] then we will have our
+[00:02:10] chart
+[00:02:11] ready.
+[00:02:13] So yeah, something like this.
+[00:02:17] Now we can draw a circle.
+[00:02:20] I will use some yellow. I have all my layers prepared already
+[00:02:25] but it's the usual eight frames for the loop and then the copy of the same frames. And
+[00:02:32] for this one, I'm using 12 FPS per second, but you can also just make these frames to be on twos.
+[00:02:41] But anyways, yeah, let's start with our
+[00:02:45] circles. So
+[00:02:47] we can draw
+[00:02:50] a circle somewhere here.
+[00:02:53] Now
+[00:02:55] just to get a
+[00:02:58] circle fully visible.
+[00:03:00] I'm going like a bit like
+[00:03:04] wider than the central line of our guide for the circle shape.
+[00:03:10] And now I will just
+[00:03:13] move it down
+[00:03:15] to our first
+[00:03:17] guideline. And
+[00:03:19] I will actually just copy this circle and we'll be pasting it in the next frame to save some time
+[00:03:26] because it's just a guide.
+[00:03:28] So
+[00:03:31] okay, moving here and here
+[00:03:37] and here
+[00:03:39] move up, move up.
+[00:03:45] Okay, this one should be a bit higher.
+[00:03:50] Like if we will look at the guide.
+[00:03:54] Like this.
+[00:03:56] Now, yeah, you can see that the circle touches at the bottom with this line so I can place the next one
+[00:04:05] here.
+[00:04:07] And it's the first frame of our loop again.
+[00:04:12] So we just continue.
+[00:04:15] We probably will not need this one. But yeah, something like this. So we have
+[00:04:22] our circle moving up along our guideline. Now what we can do next is to animate the second
+[00:04:30] side
+[00:04:32] for
+[00:04:33] like this second circle that goes up. But we can actually speed up this process and just
+[00:04:40] duplicate this layer and
+[00:04:43] offset it to be like half the loop offset it. So I'll just
+[00:04:52] offset it four frames before.
+[00:04:55] This marking is not
+[00:04:58] right right now.
+[00:05:00] It just moves because the frames were deleted. I can mark it some different color and
+[00:05:08] then copy and paste these frames again. So now I have
+[00:05:13] my second layer of circles offsetted. But I also need these circles to be on the right.
+[00:05:20] So what I will do is I will select all my frames
+[00:05:25] and we'll move them to this side. In Toon Boom Harmony to do so you will need to go to tool properties and select this
+[00:05:34] icon
+[00:05:35] in other
+[00:05:37] softwares. You might need to go frame by frame
+[00:05:41] as a way the idea is just to have the circles on the right side of the guide now. So
+[00:05:49] yeah, now we have these offsetted circles that are on the right and we can
+[00:05:54] draw a line wiggle on top of it. So I will make these circles to be a bit transparent
+[00:06:02] like 30%
+[00:06:04] visible.
+[00:06:06] We'll take black color
+[00:06:09] for my
+[00:06:11] line wiggle. Okay, and now I can draw my line. So what you want to do is to go
+[00:06:17] with
+[00:06:19] like this arc of the circle and then we will use like this arc of the circle.
+[00:06:27] My hands are shaky today. Too many coffee.
+[00:06:31] But yeah, and
+[00:06:33] after that you want to connect
+[00:06:35] these arcs.
+[00:06:37] Okay.
+[00:06:41] Yeah, something like this.
+[00:06:43] Now on the next frame now, I will turn on the onion skin just to be sure that I get the
+[00:06:51] curvature of this line that connects
+[00:06:55] the arcs be kinda on point
+[00:06:59] between frames so it won't get like on one frame.
+[00:07:02] It's like this and second like this and then on the third like this. We want to make it
+[00:07:07] kinda the same and if it transforms from this to this
+[00:07:12] it should transform like
+[00:07:14] gradually bit by bit to create this like
+[00:07:18] more pleasant look
+[00:07:20] in
+[00:07:22] in action.
+[00:07:23] So yeah, just connecting
+[00:07:26] the circle arc.
+[00:07:29] Circle arc here. So I will not
+[00:07:34] Yeah, I'll probably not go higher than this point.
+[00:07:40] For my line wiggle I can actually
+[00:07:43] mark it
+[00:07:44] on the
+[00:07:46] guide layer just to be sure that I'm getting it right.
+[00:07:52] Yeah, something like this.
+[00:07:59] Really struggling with lines today.
+[00:08:02] But it's okay.
+[00:08:06] Yeah, like this and now next frame
+[00:08:14] here
+[00:08:15] like this.
+[00:08:26] Yeah, so here we don't have the
+[00:08:29] circle here.
+[00:08:31] But we can imagine where it was or we can just
+[00:08:36] look at the previous position of our line and we generally like want them to be
+[00:08:43] spaced with is in is out. So we have like slowing down
+[00:08:48] close to the edge of it and then speed up, speed up, speed up and then slow down again. So it would be like pretty
+[00:08:57] motion
+[00:08:58] between the frames.
+[00:09:00] And yeah going to the next
+[00:09:05] frame
+[00:09:06] like this.
+[00:09:10] And here again, we don't have the circle here.
+[00:09:19] But we can just draw it like this for now just
+[00:09:23] assuming the spacing between
+[00:09:26] the frames and then we can correct it later.
+[00:09:30] Yeah, continuing
+[00:09:33] drawing stuff like this now to the next one.
+[00:09:56] Yeah, and now you can see that I have pretty
+[00:10:02] wide spacing here
+[00:10:04] and it's not looking that
+[00:10:06] pretty.
+[00:10:08] So I can correct this frame here
+[00:10:12] to make it make more sense
+[00:10:16] between the frames. So I'll add like a little bit of curvature here
+[00:10:22] and space out this frame more. Okay, now the next frame the arc
+[00:10:34] connecting it to the
+[00:10:37] this thing
+[00:10:40] like this
+[00:10:42] and here again looking at the spacing between the frames on the top part.
+[00:10:52] Okay, I will make next frame to be one, previous to be one because it's an in-between between
+[00:11:01] almost last frame and the first frame of the loop.
+[00:11:05] So it will be a bit easier
+[00:11:08] to understand what's going on.
+[00:11:12] Okay.
+[00:11:15] Making an arc here like this.
+[00:11:22] Okay, now we can look
+[00:11:24] what we have and it looks pretty nice.
+[00:11:33] Yeah, I feel like this frame
+[00:11:35] feels a bit off.
+[00:11:39] Let's see.
+[00:11:41] So we have two frames near the very edge and then it's like snapping.
+[00:11:52] So
+[00:11:54] we can make it a bit
+[00:11:56] to the left more
+[00:12:01] and here maybe cheat a bit
+[00:12:04] and add more curvature to the line.
+[00:12:07] Yeah,
+[00:12:09] and
+[00:12:10] looking at the action. Yeah, it works pretty good. We can turn off our guides to see.
+[00:12:17] Yeah, and
+[00:12:19] yeah, it looks good. I like it. So
+[00:12:22] congrats on your looped line wiggle, I guess.
+[00:12:26] And yeah, you can do
+[00:12:28] like a lot of stuff with it and vary
+[00:12:31] like how wide
+[00:12:33] the
+[00:12:34] line wiggle goes with the guide.
+[00:12:37] How do you space out the growing circles? These circles are the same size so they change them or
+[00:12:47] where they span to achieve like different results.
+[00:12:50] And in general, I, as I said before, I don't usually draw these circles, but I'm more like
+[00:12:56] imagining them when I work with some
+[00:12:59] wavy motion in animation.
+[00:13:02] But yeah, it's really useful to
+[00:13:05] do it at least one time so your head will stick with it with this idea.
+[00:13:10] And yeah, let's practice now the second line wiggle,
+[00:13:15] which is
+[00:13:16] this one. So here we actually will change the guides and we'll change where our
+[00:13:24] circle spawns and we will
+[00:13:27] make it
+[00:13:28] go bigger
+[00:13:29] with time to achieve like this line wiggle that goes without moving at the bottom. So yeah, to start
+[00:13:37] we will
+[00:13:39] draw a guide again.
+[00:13:42] So
+[00:13:43] yeah, to make
+[00:13:44] perfectly vertical line, I will use line tool with shift.
+[00:13:52] I will make it a bit
+[00:13:57] thinner.
+[00:13:58] Okay, and I will draw
+[00:14:02] two additional lines that will show how wide
+[00:14:09] our
+[00:14:10] line wiggle will go and I want it to expand closer to the top, something like this.
+[00:14:18] I will make it
+[00:14:20] more transparent as usual.
+[00:14:22] Now we can start
+[00:14:24] with the circle.
+[00:14:27] Let's make it blue.
+[00:14:30] Okay, so to start off I'll make the first circle go
+[00:14:37] small
+[00:14:40] and the
+[00:14:42] width of it will be half of my
+[00:14:45] guide
+[00:14:46] here.
+[00:14:48] So it's to
+[00:14:49] take into account that we don't want the
+[00:14:53] starting point of our line wiggle to go left and right.
+[00:14:57] And on the next frame I will start
+[00:15:00] growing it and pushing this left line
+[00:15:04] while still
+[00:15:06] holding onto the right line of my guide.
+[00:15:10] So we are going from like this small thing to this white thing that will
+[00:15:17] cover the whole guide, so we are moving
+[00:15:20] with each frame like in this kind of direction.
+[00:15:25] Okay, on the third frame,
+[00:15:29] oop,
+[00:15:30] I want to see two of the frames.
+[00:15:33] On the third frame we will have
+[00:15:36] our circle, probably something like this.
+[00:15:40] Yeah, it's fully grown and it's going
+[00:15:59] upwards, probably a little bit lower. So we still want our
+[00:16:14] spacing to be pretty much linear, maybe a little bit
+[00:16:18] maybe a little bit
+[00:16:21] on like expanding to the top of it.
+[00:16:27] But generally with line wiggles they go
+[00:16:32] if we're talking about like the loop that just goes on and on
+[00:16:38] it looks
+[00:16:41] more
+[00:16:42] smooth in the loop when we have pretty
+[00:16:48] linear spaced out frames.
+[00:16:59] But again, you can try out
+[00:17:02] different spacings, maybe
+[00:17:04] you will find something interesting in different motion.
+[00:17:09] Yeah, so just
+[00:17:18] continue to draw and we'll probably draw one more frame
+[00:17:29] just to be sure that we cover all
+[00:17:33] curves that can help us with drawing the line wiggle next
+[00:17:47] in the egg-shaped circle this time.
+[00:17:52] Anyways, so yeah, we have our circle and now we will do the same that we did with the previous one.
+[00:17:59] We'll duplicate
+[00:18:01] we will
+[00:18:03] offset it
+[00:18:05] for frames. So this marking of our first frame of loop would be in the middle.
+[00:18:12] I will mark the beginning
+[00:18:14] and
+[00:18:16] with different color copy
+[00:18:19] paste and we have
+[00:18:22] copy of the circles.
+[00:18:24] Now I will select
+[00:18:26] all my circles.
+[00:18:28] I have something in here. So I will just use the cut tool to erase it.
+[00:18:34] Yeah, now I have
+[00:18:36] all the frames. I'll make sure that my center line center like pivot is in the center
+[00:18:43] and I will flip it like mirror
+[00:18:47] flip
+[00:18:49] on the vertical side to make it stick now to the
+[00:18:55] right side of the guide.
+[00:18:59] Yeah, now it goes like left, right, left, right spawn.
+[00:19:04] Perfectly what we need.
+[00:19:07] Again, we'll make it
+[00:19:09] transparent.
+[00:19:13] Choose black color and let's draw using the guide again. Next frame.
+[00:19:29] So even if like our circle
+[00:19:32] moved a bit we like
+[00:19:35] as
+[00:19:36] the first idea for this line wiggle was that it stays in place. We want to make sure that the beginning of it
+[00:19:44] will actually stay in place.
+[00:19:47] So
+[00:19:48] yeah, kind of can ignore a bit the circle if it went not perfect.
+[00:19:57] Something like this
+[00:20:00] and here
+[00:20:02] will be
+[00:20:11] like this, but I will erase the top part and here too.
+[00:20:18] Okay
+[00:20:20] On to the next one
+[00:20:31] making the curve
+[00:20:39] and again looking at the
+[00:20:41] spacing here.
+[00:20:43] What's going on in there?
+[00:20:48] So here like the bottom part as you see
+[00:20:52] is a bit curved already, but to make it easier we can like
+[00:20:57] start with this frame
+[00:21:00] here
+[00:21:02] and then just in between it
+[00:21:06] that like here it starts to be a little bit
+[00:21:11] curved
+[00:21:15] and now
+[00:21:18] connecting these lines.
+[00:21:23] So now I can see that this line should be a little bit to the bottom
+[00:21:29] like a bit
+[00:21:32] curved like this
+[00:21:35] to make it more
+[00:21:37] make sense in the overall spacing.
+[00:21:41] And here
+[00:21:44] again connecting these with a bit of a curvature.
+[00:21:53] Going next
+[00:21:55] doing the arc
+[00:21:57] connecting with the bottom part
+[00:22:03] now
+[00:22:06] drawing it here
+[00:22:11] something like this
+[00:22:15] next frame
+[00:22:32] here again to be
+[00:22:34] more precise we can ignore this part and just continue with the next frame
+[00:22:39] and then come back to it later when we will have more context what's going on between our frames.
+[00:22:48] So like this and here we already have like the next
+[00:22:53] frame so we can just make a slight curve at the bottom and now
+[00:23:01] looking at the previous and next frame we can draw this line.
+[00:23:07] And now let's see it in action.
+[00:23:11] Yeah, looking pretty good. We can turn off the guide layers
+[00:23:17] and check it again.
+[00:23:18] Nothing sticks out as
+[00:23:21] wrong.
+[00:23:22] So I guess it's a
+[00:23:27] good job. I don't know. Yeah, well done. We did it.
+[00:23:31] So yeah, that's it. These line wiggles can be a solid guide for
+[00:23:38] effects or like prop animations like flags
+[00:23:42] and
+[00:23:44] like even just turning on
+[00:23:46] these
+[00:23:47] two line wiggles gives already pretty interesting result that you can work
+[00:23:54] on further with some idea. I don't know. Maybe it's a wispy stuff. Maybe it's
+[00:23:58] a part of textile, clothes, you know, some stuff.
+[00:24:05] So yeah, as always, don't forget to have fun with it and see you in the next video. Bye.

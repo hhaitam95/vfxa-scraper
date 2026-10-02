@@ -1,0 +1,53 @@
+[00:00:05] Hello welcome to this foundational lesson in this lesson. We are going to be discussing
+[00:00:12] Anticipation a very popular animation concept. Let's get into it
+[00:00:20] Anticipation is relatively simple. It refers to the action before the main action
+[00:00:28] Anticipations aren't mandatory for all animation. In fact, sometimes they are
+[00:00:34] Straight up not desired
+[00:00:37] However, if you are wanting an action to read better
+[00:00:43] Or if you're wanting to give an action a bit more punch in the animation itself then
+[00:00:50] Anticipations go a long way in order to serve that purpose
+[00:00:54] Anticipations can basically be almost anything you want in terms of direction. For this example
+[00:01:01] I just wanted to keep things simple and show you the very basic meaning of an anticipation
+[00:01:08] so if the animation happened in example A it would just travel from point A to the mid frame to the final frame pretty simple in
+[00:01:16] Example B. We are adding in an anticipation
+[00:01:20] so if we
+[00:01:22] Don't have frames we can add to the animation if we're only dealing with a set amount of frames for both animations
+[00:01:29] You are taking frames from other locations then in order to create the anticipation of the cube pulling back
+[00:01:37] Before traveling forward to the mid frame and then to the final frame now
+[00:01:42] this would be a pretty large anticipation because you the the cube would be moving in the
+[00:01:48] Exact opposite direction before going in its intended direction
+[00:01:53] you can picture this as sort of like a
+[00:01:56] Wind up on a big run of a character this gets used in effects all the time in a flame burst you you'll have
+[00:02:05] specific frames that are compressed before
+[00:02:08] Bursting out because sometimes if you just go straight into the animation
+[00:02:12] It's too quick and it doesn't read as well as you would like
+[00:02:14] so if you're looking for something to be a bit more broad in terms of how it reads visual then you can consider anticipation as
+[00:02:23] One of the tools in your toolbox to make that happen
+[00:02:27] So what I did here is I wanted to show examples of anticipations in action
+[00:02:35] So the top one we have no anticipation the middle one
+[00:02:41] Is anticipation with no easings?
+[00:02:43] Easing is just where you compress the
+[00:02:48] Frames in order to slow down and make certain actions a little bit smoother. Then the bottom one is anticipation
+[00:02:55] So all three of these animations deal with the same amount of frames
+[00:03:01] So when you have no anticipation you have more frames to go from point A to point B
+[00:03:07] When you have no easings, but you add in an anticipation you steal some of those frames. Like I said before to
+[00:03:15] Make the motion in the opposite direction
+[00:03:18] before traveling
+[00:03:19] In this example, what would be considered forward?
+[00:03:23] And then anticipation with easings the reason why I wanted to add that in there is because in order to have easings read
+[00:03:29] You need those frames compressed in the proper areas
+[00:03:33] To give the action sort of a smoothness so you can see here by the end of the animation
+[00:03:40] We have even fewer frames as we're headed into the final frame
+[00:03:44] Of the square so it it pulls back and then it travels forward
+[00:03:50] slow at first and then very very quickly
+[00:03:53] now
+[00:03:56] Anticipation doesn't necessarily mean that you travel in the opposite direction of the intended motion for the animation
+[00:04:05] Anticipation can be a crouch like a little bit of a squash or pull down and the exact opposite
+[00:04:10] It can be a raise you can go up into an anticipation before into the action really the most basic form of
+[00:04:19] Anticipation is just a small action that predates the main action
+[00:04:25] and like I said, it's strictly for
+[00:04:28] Readability and punch in your animation. It's not required
+[00:04:33] It's just an option but it's a popular one and used in a lot of stuff
+[00:04:37] So we want to I want to make sure that you're aware of it and you have practiced it in all forms
+[00:04:46] obviously, especially effects so that you are aware of it and
+[00:04:50] Implement it in the cases where it's needed

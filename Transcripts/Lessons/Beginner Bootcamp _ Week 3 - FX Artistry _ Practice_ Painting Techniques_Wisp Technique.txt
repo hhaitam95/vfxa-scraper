@@ -1,0 +1,235 @@
+[00:00:08] Alright, so let's tuck into the second example here.
+[00:00:14] We've got, whoops, let's group these.
+[00:00:44] Let's do this purple wisp thing, okay cool.
+[00:00:48] So we've got this pinkish purplish energy, well this bright pink energy contained within
+[00:00:58] this wispy ethereal purple shell.
+[00:01:06] So I'm going to start just with the ball, and I think we can probably introduce the
+[00:01:27] opacity of the ball.
+[00:01:29] We know where our light's coming from.
+[00:01:30] Yeah, I mean, there's multiple approaches we can take to this, right?
+[00:01:46] So like, something I'm feeling the impulse to do is just sample this, it's purple, right?
+[00:01:56] Multiply, we've got half of our work done for us already here.
+[00:02:01] We can do a fancier version of this, where we've got, we see that we've got like a bluish
+[00:02:14] kind of highlight here, let's hide this, and what we can do instead here is create a gradient
+[00:02:27] map.
+[00:02:28] What a gradient map does is it'll look at the grayscale values of it, right?
+[00:02:43] So when it creates a grayscale, you can think of this as just kind of being like a 0 to
+[00:02:50] 1 range.
+[00:02:51] Incidentally, this is how the multiply filter works, right?
+[00:02:54] So if you, or the multiply layer blending mode here, is if you think of all the RGB
+[00:03:08] values as being instead of 1 to 255 as being 0 to 1, then the values in the multiply filter
+[00:03:20] are being multiplied with the values below them, right?
+[00:03:23] So 0.5 times 0.5 becomes 0.25, right?
+[00:03:29] It darkens everything, is the idea there, you know?
+[00:03:35] Which makes less sense if you're thinking about it in terms of 0 to 255, right?
+[00:03:41] Because like 100 times 100 is 1,000, right?
+[00:03:45] And if you multiply gray on gray, that's not what you're going to get with the multiply
+[00:03:52] filter here.
+[00:03:54] Something interesting that you'll learn as you move into real-time VFX is that all of
+[00:03:59] these Photoshop blending modes can be expressed as functions in Unreal or Unity or whatever
+[00:04:09] shader engine that you're using to put your shaders in, which is kind of like a neat little
+[00:04:15] thing that offers you a cool little look under the hood here.
+[00:04:23] I didn't really understand mathematics very well.
+[00:04:29] There's still a lot that I don't, but there are a lot of things that really made more
+[00:04:34] sense once I was able to see them represented visually through working in a real-time engine
+[00:04:41] and writing shaders.
+[00:04:43] So yeah, the gradient mapping here.
+[00:04:53] What the gradient map does is it allows you to use a gradient to map to the black-to-white
+[00:05:02] value range here.
+[00:05:04] So this purple here is going to be the darks, and then we want to make like a bluish color
+[00:05:17] of our lights.
+[00:05:20] This little diamond here is going to be the midpoint, so you can kind of bias it in this
+[00:05:27] direction.
+[00:05:28] It might not deliver the results that we want, but it's good for the sake of just showing
+[00:05:32] you how this is done.
+[00:05:46] I think we definitely want something more.
+[00:05:48] Huh, we've got two gradient maps, huh?
+[00:06:13] Did I make the second one?
+[00:06:15] Let's give this one more shot somewhere up in here, maybe.
+[00:06:43] It's not looking too bad here, black.
+[00:06:48] We're probably not going to go with this option, but I still want to show it to you, right?
+[00:07:00] So something like this, if we want to do it.
+[00:07:03] That more or less matches the color situation that we've got going on there.
+[00:07:09] So that's an option if you want to do it like this.
+[00:07:12] A lot of people will actually paint in grayscale and then add the color later using techniques
+[00:07:18] such as this.
+[00:07:20] So it's definitely not cheating to do so.
+[00:07:26] Do whatever you need to do.
+[00:07:27] I'm just going to want to paint it in here.
+[00:07:32] So select it and let's just call this purple.
+[00:07:45] I'm referring to this just as our guide.
+[00:07:59] Let's take our brush, start with a neutral purple, not too dark, not too light.
+[00:08:13] And then we're going to, I'm going to want to add, so this, if I try and paint anymore
+[00:08:19] with this chisel tip, it's not going to quite give me what I want here.
+[00:08:24] I'm going to need a softer brush.
+[00:08:29] Still I don't think this is quite what I want.
+[00:08:32] I think I'm going to get something better if I just make it a default round.
+[00:08:56] Eyedropping the purple for more purple.
+[00:09:04] That's a little better.
+[00:09:05] We can even go super dark with this.
+[00:09:29] In a lot of cases, like I'm just eyedropping this painting here.
+[00:09:34] That's kind of cheating for the sake of this example, right?
+[00:09:38] Like what I would do under normal circumstances is I would be like, hey, you know, I want
+[00:09:45] to use like these specific colors.
+[00:09:47] I'd create like a little palette for myself here to eyedrop from.
+[00:09:57] Clear selection here.
+[00:10:00] So I'd want, you know, I'd want to like a purple here, like a darkish purple to use.
+[00:10:11] That looks pretty dark.
+[00:10:12] I'd want to, and you can even blend with your palette just as if you were using traditional
+[00:10:16] media.
+[00:10:20] See, there's a darker purple.
+[00:10:22] This is about as dark as our purples are going to get.
+[00:10:28] And then for the highlight, I'd want to move a little bit more towards blue.
+[00:10:36] This is a brighter blue than we're ever going to want, but I'm going to blend it here with
+[00:10:41] our purple.
+[00:10:46] We can pull that a little bit more towards blue, maybe a little bit more white.
+[00:10:58] Cool.
+[00:11:01] So these colors are red and we don't have to use like a fully opaque version of this.
+[00:11:08] We can just kind of kiss the painting with it using a semi-transparent brush.
+[00:11:14] Let's do that here.
+[00:11:15] And we'll call this layer palette and we can even, no, let's, oh, wait, sorry.
+[00:11:33] We're going to want, we're going to want pinks and stuff in our palette, right?
+[00:11:37] We've already color picked a pink, but here we go.
+[00:11:44] That obviously, and the pink's very energetic, right?
+[00:11:48] This is the, this is the energy in this painting.
+[00:11:52] So we can make it very bright and very saturated because we want it to contrast with our purples
+[00:11:58] and we also want it to pop and glow, right?
+[00:12:03] And I don't, I don't think we need to include white in our palette, right?
+[00:12:06] Like white is white.
+[00:12:08] Let's throw it in there anyway.
+[00:12:15] So let's take just a little bit of this.
+[00:12:20] I'm feeling like Bob Ross over here.
+[00:12:24] Let's take a little bit of that, just make a happy little, happy little bounce light
+[00:12:40] there.
+[00:12:47] Sorry, if that's copyright, I'd edit that out.
+[00:12:51] This is my bad.
+[00:12:55] And we want the opposing color to sort of be a purple, purplish, bluish, maybe that's
+[00:13:13] a little bit too much.
+[00:13:14] There we go.
+[00:13:15] Cool.
+[00:13:16] All right.
+[00:13:17] I'm liking the look of that so far.
+[00:13:18] You know what, let's just merge this down.
+[00:13:22] We don't have to be squeamish about committing to that.
+[00:13:31] So let's just call this darks, because this is going to be our darks.
+[00:13:41] And because we've spent so much time investing in this, the rendering of this little ball
+[00:13:50] right here, you know, I think we can smooth out this detail here.
+[00:13:55] This doesn't need to be there.
+[00:14:02] This is where hiding the marquee comes in handy.
+[00:14:04] Control H.
+[00:14:07] Cool, so we just see the result without being distracted by the marquee there.
+[00:14:19] And it more or less conforms to the lighting situation set up for us.
+[00:14:22] Cool.
+[00:14:23] So now we're going to add the cavitation shapes on the interior of it.
+[00:14:32] We don't have to get, I don't want to get fancy in this example, but check this out.
+[00:14:41] So we can just, I don't know, carve a slice out of it.
+[00:14:49] Oh here, yeah.
+[00:14:51] So we could just delete this, right?
+[00:14:54] And we kind of have a cavity there, more or less.
+[00:14:57] But what if we're precious about this, right?
+[00:15:00] And we don't want to lose it, right?
+[00:15:02] Because like we do that and then we start painting.
+[00:15:06] And even with the history here, we're committed to our decision, right?
+[00:15:10] Like the history can only contain so many undos.
+[00:15:13] And what if we don't, we paint something nice and we don't necessarily want to undo
+[00:15:17] it.
+[00:15:18] But we've committed to this shape that we've created here.
+[00:15:22] Well, we can either repaint it or we can expose the underlying layers, which we're going to
+[00:15:29] want to paint on, in a non-destructive way.
+[00:15:32] And by non-destructive I mean remask it.
+[00:15:39] Layer mask, hide selection.
+[00:15:45] And I'm on the wrong layer, I'm on the pallets or the darks.
+[00:15:51] Layer mask, hide selection, and voila.
+[00:15:57] The cool thing about layer masks is you can draw on them, right?
+[00:16:17] Some of you might be like, duh, I know I use layer masks, but you can't assume that everybody
+[00:16:24] knows everything, so here we go.
+[00:16:35] Maybe I want the shape to be like this, maybe I want the shape to be supported by a smaller
+[00:16:39] shape here.
+[00:16:57] That's probably fine.
+[00:17:05] Now to create the underlying part.
+[00:17:12] You know what we might want to do in order to lend some more texture to this and support
+[00:17:16] the idea that it's being eaten away, we can draw on top of it and we're going to want
+[00:17:29] to borrow from our palette here, or actually we can just borrow from the local part of
+[00:17:35] the painting that we want to touch up.
+[00:17:40] And I want a solid brush, well maybe I want some blending.
+[00:18:00] If you're using a Wacom or Wacom product, you will usually have a little strip that
+[00:18:10] you can use to slide.
+[00:18:11] I almost always map the size of my brush to that, so I can adjust.
+[00:18:17] Right now I'm just moving my finger along this touch strip on the side of the thing,
+[00:18:24] so I'm adjusting the size of my cursor and the size of my brush very quickly and very
+[00:18:29] easily without having to go up here and be like, what do you want for this size or this
+[00:18:36] size, whatever.
+[00:18:38] So yeah, it's just like a little convenience, and convenience is speed, and speed is money
+[00:18:52] in this business, so don't ever beat yourself up for making your own life easier.
+[00:19:25] It's also quality more often than not, because the faster you can iterate, the faster you'll
+[00:19:33] get notes, the faster you can improve your work, the faster you can give the client what
+[00:19:41] they want.
+[00:19:56] And what I'm trying to do here is just kind of make this feel a little bit more textured,
+[00:20:02] like there's some sort of bunching on the edges, like there's a, I don't know, like
+[00:20:16] a ridge here, you know?
+[00:20:18] We can do that here.
+[00:20:27] So the edge of this, as it's being eaten away, is catching the light, this bounce light down
+[00:20:35] here, and the opposite's happening for this up here, right?
+[00:20:43] It's catching just a little bit of this.
+[00:21:06] That's a larger brush.
+[00:21:09] Soften it, and we'll, just to give it some more kind of visual complexity, we're just
+[00:21:34] going to paint these little notches into it, right?
+[00:21:47] So it has like more shape, more texture, it feels a little bit more real.
+[00:21:56] So it's not just a sphere.
+[00:22:00] So now we're going to work on the luminous underlying part that's being exposed by this
+[00:22:04] eat away here.
+[00:22:05] We're going to move this down here, underneath the darks, and we can just call this purples
+[00:22:18] actually, since we're going with a, I don't want my naming conventions to be too pretentious
+[00:22:24] here, darks and luminance.
+[00:22:29] And another cool way to just knock in what you want your shapes to be, just use the lasso
+[00:22:36] tool, right?
+[00:22:37] Lasso tool is literally a picture of a lasso, it's right here, and I believe it's a picture
+[00:22:43] of a lasso in every edition of Photoshop that's ever been.
+[00:22:47] To create more visual interest, I think make a little cavity here, make it a little bit
+[00:22:54] bigger.
+[00:22:56] And avoiding tangents, right?
+[00:22:59] Like we don't want things intersecting in an awkward way, and by things I mean lines.
+[00:23:08] Oh yes, when using the lasso tool, alt will subtract from the current selection, right?
+[00:23:20] So you can, there.
+[00:23:23] Shift will add to the current selection.
+[00:23:26] So see how that works?
+[00:23:29] Cool.
+[00:23:31] I'm going to be using those two hotkeys as I'm drawing with the lasso tool, or at least
+[00:23:34] I would if I was going to draw any more with the lasso tool here.
+[00:23:37] I might still in this example, but I think we're going to go in with our pinks, and just,
+[00:23:44] I mean you can also use your paint bucket tool, just fill, easy peasy.
+[00:23:53] And then I've left off a little slice here at the top now that I've done this, so I can
+[00:23:58] either go back and correct my selection or I can just paint that in here.
+[00:24:03] Here we go.
+[00:24:04] That's easy and painless, and I'm coloring outside the lines again.
+[00:24:09] Sweet mercy.
+[00:24:10] Okay.
+[00:24:14] All right.
+[00:24:15] That's looking good.
+[00:24:17] Let's add a little bit more texture to this pink.
+[00:24:19] Let's select it because we want to maintain our shapes there, and we'll just add some
+[00:24:30] white to make the core of this effect a little bit more energetic, or some of this light
+[00:24:36] pank.
+[00:24:37] Pank!
+[00:24:40] Maybe.
+[00:24:43] And because this is also a translucent material and it's luminous, right, we can do our trick
+[00:24:59] with the additive again.
+[00:25:02] Let's do it.
+[00:25:04] Blending the pink, go up here, title this glow, or additive, or whatever you would like.
+[00:25:16] Layer blending mode to linear dodge.
+[00:25:22] You can even make this brighter and more saturated than the pink that we have.
+[00:25:31] Oh, that's nice.
+[00:25:37] There we go.
+[00:25:39] Cool.
+[00:25:40] Let's get a soft eraser so we can touch up the shapes that we have here.
+[00:25:48] Soft and big because we want glow shapes.
+[00:25:51] We don't want to necessarily see our brush strokes and tip our hand to the observer.
+[00:25:58] All right.
+[00:26:11] That's looking pretty good to me.
+[00:26:13] So boom, that's this example done.
+[00:26:18] Pat yourselves on the back if you followed along, everybody.
+[00:26:21] Let's hide our palette and our green map example, and we can just, cool.
+[00:26:35] All right.
+[00:26:37] On to the next one, which is this lightning.
+[00:26:39] How are we going to make a ball out of this lightning?
+[00:26:41] Let's think about it.

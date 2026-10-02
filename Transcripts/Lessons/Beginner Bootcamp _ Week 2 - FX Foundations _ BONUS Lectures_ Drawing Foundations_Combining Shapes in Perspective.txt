@@ -1,0 +1,167 @@
+[00:00:05] Okay, now let's talk about different forms extended in perspective.
+[00:00:11] Okay, let's start with drawing a plane in which we are going to extend the forms.
+[00:00:17] In this case, I will not use, I will not draw like a full two-point perspective grid.
+[00:00:24] I will draw just a plane in this grid, which will help me to align
+[00:00:31] other shapes in this perspective.
+[00:00:36] So, something like this.
+[00:00:48] Okay, so on this plane I can draw a figure.
+[00:00:55] For example, let's start with a cube.
+[00:01:02] So, I'm drawing the bottom shape of my cube, like a square in this perspective.
+[00:01:15] Now what I will do, I will extend the shape up from this bottom shape.
+[00:01:26] So, I will draw this line, this line, this line, this line.
+[00:01:34] Now I'm connecting them, like this will go like this, like this, and like this.
+[00:01:53] So, now we have a cube in perspective on this plane.
+[00:01:59] But with this technique, I can draw not only a cube, but many other shapes.
+[00:02:07] For example, I can draw again a square in this perspective, some rectangle.
+[00:02:17] But now I want to make this a pyramid.
+[00:02:21] For this, I will need to find where is the center of my square.
+[00:02:26] So, I will draw diagonal lines from these angles, and draw a vertical line from this point.
+[00:02:37] So, now I have an axis for my pyramid, and I decided that it will be like this tall,
+[00:02:49] and from this point I will connect this point with my angles of the square.
+[00:02:57] So, now I have a pyramid, and also I can draw some circles on this plane.
+[00:03:16] And again, I can just make this a cylinder, for example, so the top all will be more square, but not like that much.
+[00:03:33] So, this will be my cylinder, or I can make it a corner, so a novel on the bottom.
+[00:03:48] Now I can find the center of the soul, extend this line to the top,
+[00:03:58] and connect the most left part of my oval and the most right part of my oval with this point from the vertical line.
+[00:04:17] And for, for example, conuses that are pointing towards me, I can use the technique which we used for cylinders in perspective.
+[00:04:29] So, I can draw an axis of my cylinder, then create a perpendicular, add an oval here,
+[00:04:44] and then from this point, from my axis connect this line with my oval.
+[00:04:56] And I will have a cylinder that is pointing towards the viewer.
+[00:05:01] So, we can also take this concept of expanding shapes a bit further,
+[00:05:08] and, for example, draw a plane here that is intersecting with my cube.
+[00:05:18] So, now I have like this side of my cube, and this side of the square which is intersecting it.
+[00:05:27] So, I have a dot here. I can extend this dot to the up, like vertical going up.
+[00:05:35] Now I need to decide how tall this cube will be. For example, I want it to be this tall.
+[00:05:41] And from this point, I draw a line which aligns with, like, these lines of cubes.
+[00:05:47] So, like, they are going to the vanishing point.
+[00:05:50] So, from this point to this point, everything is happening on this edge of the cube.
+[00:05:58] So, when this line intersects with this edge of the cube, it creates, like, the point of intersection.
+[00:06:05] So, the line that goes further is not intersecting with this cube.
+[00:06:12] So, from this point, I can draw a line that aligns with this line to continue my edge here and here through this line also.
+[00:06:32] Now I want to extend this point.
+[00:06:36] So, I'm drawing a vertical line here, and on the intersection of these two lines, I can add a dot.
+[00:06:44] I like to show that this is the side of my square.
+[00:06:49] And add a dot, a line from here.
+[00:06:56] So, this will be, like, the part of the cube that is here, like, intersecting with this side of the first cube.
+[00:07:10] This is the first cube. This is the second one.
+[00:07:13] So, here I can extend from this point and draw it to the top.
+[00:07:25] Now, I have also here another part of the cube that I drew initially.
+[00:07:34] And from this point, I need to make a vertical line to the up to find that part of the cube that goes beyond my cube 1 form.
+[00:07:46] So, it will be here.
+[00:07:48] I am drawing a line that is aligned with these lines.
+[00:07:56] And again, expanding this line, drawing a vertical line from this point of the cube, and finding my whole, like, side edge of the second cube.
+[00:08:14] Okay, and now I can connect this line to go further till my first cube.
+[00:08:22] So, this edge of my first cube will be in front of this second cube.
+[00:08:28] This edge of the second cube will be visible.
+[00:08:33] This edge will be also visible.
+[00:08:36] And this edge.
+[00:08:38] This is the edge that can, like, standing on the floor.
+[00:08:42] This is the edge of cube 1.
+[00:08:45] Again, cube 1, cube 1.
+[00:08:48] So, I am defining it a little bit more just to make it more clear.
+[00:08:55] So, in this way, we can draw some forms that are kind of more difficult than just a cube, just a pyramid, or any other stuff.
+[00:09:08] Okay, now let's take a closer look into the intersections with the figures.
+[00:09:17] I will start with drawing a cube in the perspective.
+[00:09:25] Maybe more like a cuboid, so it's not, the edges are not squares.
+[00:09:38] Like this, like this, to angle.
+[00:09:53] Okay, and this, so, oop, a little bit more angled than the previous ones.
+[00:10:09] And here, so, oop, oop, this will be, okay, probably something like this.
+[00:10:26] Maybe not.
+[00:10:27] Okay, let's define the inner shapes to be more aware of this, like, edge of the square of the cuboid.
+[00:10:38] So, this goes like this.
+[00:10:44] And this line will be, so I can extend this to have a better look for this line.
+[00:10:57] Yeah, it's actually pretty accurate, like, almost where it needed to be.
+[00:11:16] So, oop, it will be here.
+[00:11:20] Okay.
+[00:11:22] Okay, so, I have a cuboid in perspective.
+[00:11:28] Now I want to make another cube that intersects with this cube, but I don't want it to be on the same floor as this cube.
+[00:11:41] So, what I will do, what I will do, I will draw at first, like, how my second cube will be intersecting with this edge, with this side of my cuboid.
+[00:12:01] So, I imagine it to be like this, yeah, and the bottom line will be somewhere here.
+[00:12:15] So, this, this are my points of intersection.
+[00:12:22] Okay, next what I will do is I will extend, expand this cube into the perspective to that side.
+[00:12:34] So, I will create a line here, a line here, a line here, and here.
+[00:12:46] Okay, now I want it to be, like, a little bit further than this side to make it more clear that this part is, like, expanded from this cube.
+[00:13:00] So, I'll draw a dot here, make a vertical line up here, here they are interacting with each other.
+[00:13:10] Now draw a line here, make a vertical line here, align that lines with these lines here.
+[00:13:22] Okay, and again I can extend it a bit more, so it will be, like, more to the, like, back part of my cuboid.
+[00:13:36] So, it will be a bit wider and I can draw it to that side.
+[00:13:46] Here also will be the inner line of this cube.
+[00:13:57] I can also show how, where it ends in the, like, inner shapes just to be more aware of everything that's going on inside.
+[00:14:13] And again, I can define more the edges that are showing to the viewer.
+[00:14:19] So, this side we will see, this modern part, this side, this side, this side, edge of intersection, this side of the first cube, and that side.
+[00:14:41] Okay, so, this is how we can draw cubes in cubes.
+[00:14:46] But we can also draw some cylinders in cubes, so vice versa.
+[00:14:53] So, for this I will draw an oval first, like, how we draw cylinders usually.
+[00:15:02] Okay, and now I'm, like, deciding where the oval is intersecting with my cube.
+[00:15:11] So, I draw a line aligned with these lines, and this is my edge of intersection with this side of the cube.
+[00:15:26] Now what I do, I will just draw some vertical lines.
+[00:15:33] So, I would do, usually draw in a cylinder, make a horizontal line, then draw an oval that is a little bit more squished than the bottom one.
+[00:15:48] And now what I need to do is to find where is the edge of my top oval that is intersecting with this cube.
+[00:15:58] So, for this I will draw from this point, it's like I decided this is my intersection with the cube, and I will draw a vertical line to the top.
+[00:16:10] And where this line is intersecting with top oval, I will draw a dot and then a line here.
+[00:16:20] So, this is my, like, intersecting part with cube.
+[00:16:28] And now what I need to do is just define the lines which you can see.
+[00:16:35] So, I will see this edge, I will see this edge, and this one.
+[00:16:45] Now, I will see this bottom part of an oval, this side part of an oval, and I will see this part of my cube.
+[00:17:01] And this part of my top oval.
+[00:17:09] So, this is how we can, like, draw some different intersections.
+[00:17:15] So, the first part that we need to do is to think about what is the shape of our intersection with initial figure, and then define a shape inside the plane that is going through, like, these dots, like, points of intersection.
+[00:17:39] Also, with this technique, we can not only add shapes to our initial shape, but we also can delete some parts from our initial shape.
+[00:17:49] So, for example, I want to cut a cube from this cube in this part.
+[00:17:58] So, again, I'll start with drawing point of intersection here.
+[00:18:08] Now, I will extend it inside the cube here.
+[00:18:19] So, now I'm drawing the, like, shape of intersection here.
+[00:18:25] So, from this point going up, now I have this point, like, this line crosses this edge of the cube.
+[00:18:37] From this point I draw a line to that side.
+[00:18:43] From this point I draw a line to that side.
+[00:18:49] Now, from this point also in that direction, and from these two points, like, I connect them.
+[00:19:01] So, now I have just a cube inside a cube.
+[00:19:08] And to make it look like it was deleted from my initial shape, I need just to make the lines more defined in, like, different parts.
+[00:19:23] So, if it would be just inside of cube, these edges wouldn't be seen.
+[00:19:30] But if I want to show that this cube was deleted, I am defining this line as more seen, this line, this line, and this line, this line too, and this one, and also these edges too.
+[00:19:54] Okay. And, like, this part of the cube, like, the first cube will stay in this line also, and this line also will stay.
+[00:20:09] To make it even more clear, like, what is going on on this drawing, if, like, you want to define it more, you can also apply some shading to it.
+[00:20:21] So, for example, all the sides that are pointing to this direction, I will slightly make darker, so this one will also be darker, this one will also be...
+[00:20:44] So, this whole side is darker, and this side is a bit darker, and this, like, part of a cylinder is also a bit darker.
+[00:21:12] Now, for example, these sides that are pointing to that direction, I will make even more dark, so this side will also be darker, this side...
+[00:21:45] It is probably easier to do with markers, but with pen it also works.
+[00:22:04] Okay, and the cylinder will also have, like, more darker part here, it is kind of fading out to this shade, like this.
+[00:22:30] So, now it's more easier to see what is the volumetric shape in this drawing.
+[00:22:41] Okay, another thing we can do with our shapes is to make them less edgy, like, more rounded.
+[00:22:54] So, we can start with something pretty simple, this cube, and then we can make it more, like, organic looking with rounding the edges of it.
+[00:23:17] So, if I want to make, like, this edge more like this, I can define some, like, the point where this roundness will start, and where it will end, and draw, like, an arc here.
+[00:23:39] Now, to find how this roundness will look on that edge, I can draw a line through this dot to this side of a cube, and this dot connected with line to this side, and now draw an arc here.
+[00:24:06] So, now we have, like, more rounded cube on this side, and, for example, I can make just a big rounded side from this.
+[00:24:23] So, now it is not a cube, but some, like, maybe leaf kind of looking shape, which is pretty wide.
+[00:24:44] So, with this technique, we can draw some more complex stuff, again, just starting with something simple as cube, or you can start with cylinder, or, like, any other simple shape that better suits to your final idea.
+[00:25:06] It's like building stuff from simple shapes.
+[00:25:17] Again, let's draw some cuboid at the beginning.
+[00:25:27] So, I want to make kind of crocodile-looking monster from this, so I'll make the shapes that will define kind of the open mouth of this crocodile.
+[00:25:48] And then, so, I will delete this part of my cube. Now, I will extend from this point to that point, to that side of a cube. This point will go here. Now, this point, it will go, like, to that side.
+[00:26:11] Now, I can make kind of a line here that will be pretty the same as this one to find this point. So, this is my, like, cubic shape of mouth of my monster.
+[00:26:35] Now, I want to round this edge, so this is my point of roundness. I'm making this more round, and this more round.
+[00:26:51] Okay, now I can make this thing be, like, also rounded, but to make just this edge more sharp. And I will just repeat this here. Okay.
+[00:27:16] Now, what I can do, I can add some eyes on top of this shape. So, I'll draw, like, an oval that is on this shape, like we did on the plane.
+[00:27:33] And now, we'll make it into a sphere just by drawing half of a circle, and add some dots here, like its eyes. Now, what I can do, I can draw some nose things. I don't know how it's called in English, like, the holes in the nose that will be here.
+[00:28:04] And now, what I can do, I can, like, imagine that it has some kind of an edge inside its mouth, and on this edge there will be also some ovals.
+[00:28:25] And from these ovals, I will do conuses to make teeth of these creatures, maybe two more small ones.
+[00:28:40] Also, to check the length of these tooth, I can draw a line from the end of these tooth there, that is aligned with my perspective lines that are going into that direction, so it will be more precise.
+[00:28:57] Okay, so, for the bottom part, I can make, here's my edge, okay, so, I can create also some rounded stuff here, how I want to round this.
+[00:29:16] Maybe I can do the same, like, here. So, I will just add a point of roundness here, define where it will end here, draw a round shape here, and round shape here.
+[00:29:35] Now, I need to show that this edge, I will see, and, like, the most bottom part of this roundness and the most bottom part of this roundness, I will connect it to show that it is going, like, down, like, to that side.
+[00:29:56] Okay, what else I can do here? I can add some teeth, maybe, on this side of the mouse. I can create, again, like, ovals.
+[00:30:13] And, maybe, I want them to be not just straight, but, like, a bit curved. So, I'm drawing, like, an axis of my...
+[00:30:33] ...conusses. And then, again, I'm checking the lengths of them with drawing this line from the top of the first one to the top of the second one, and just connect them with similar shapes that my axis has.
+[00:30:55] Okay, and maybe, again, two more, just small ones. Okay, and now what I can do, I can draw some kind of a tone, maybe, so I can find a middle part of my mouse here.
+[00:31:22] And then, like, how it will go? Maybe it will go, like, this line. So, I'm drawing just a line for now, but now I will extend it to the left and to the right in perspective.
+[00:31:41] So, I'll have here a point of intersection and here, probably. Now, this is the most bottom part of my curved line that I decided to draw, and I'm drawing a line that defines my perspective into that direction.
+[00:32:01] And now, I decided, like, how wide this tone will be, maybe a little bit less wide at the start. And, again, for this top part of this tone, I will create a line and make it even less wide.
+[00:32:25] Now, what I need to do is just to connect all these lines, all these dots with a similar shape as my middle shape, like a guideline.
+[00:32:39] So, I'm going down, here is my top part of an arc, so I'm connecting it here, and then go to the middle line, just so it will be sharp at the end.
+[00:32:53] And now, the same with extending it to the right. So, here it will be, here I'm going here. So, now, I need to show what edges I can see.
+[00:33:14] So, I can see this top edge, I can see this side edge all the way, this bottom edge, this side edge, this side edge, and that, like, small edge there.
+[00:33:31] Okay, what else can I do? I can make this part, like, less cubic. Just adding an arced, curved line here.
+[00:33:50] And I can add maybe some texture here, some small dots that it has on its cheeks, and I'm trying to align it also with this, like, rounded line, so it will look like it's not flat, but it's more rounded.
+[00:34:19] And here, here is our small monster. I'll just define a little bit more some edges that we can see. Here, and here.
+[00:34:36] This one, this one, this, from that point, going down, here, and here. So, yeah, maybe nostrils are a little bit more prominent.
+[00:35:07] So, yeah, we can, like, add shapes, round shapes, delete some shapes from our initial shape to create something more difficult, like, more complex than just a cube or pyramid or cylinder, and use it in our joints.

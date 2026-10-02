@@ -1,0 +1,162 @@
+[00:00:05] Hello, and welcome to the lesson. This lesson is going to be a big one because the subject
+[00:00:12] matter spans a lot of different things. It is going to be water. This is a beginner's
+[00:00:22] guide to it, so we are not going to be coming anywhere near covering everything. But this
+[00:00:29] should be some good advice at getting you kicked off and into the effect of water so
+[00:00:37] you can start navigating the water of waters and not be totally freaked out by it. So let's
+[00:00:47] jump in. Yeah, so what I was talking about here, splashes, wicks, beads, waves, rivers,
+[00:00:58] wells, gigantic impacts, so many different kinds of water. And a lot of them need to
+[00:01:05] be treated uniquely, and some of them are a combination of other things. But it all
+[00:01:12] starts with the design. So when you are designing water, how complicated do you want to go?
+[00:01:19] How deep do you want to go into it? And if you're a beginner at it, the thing I always
+[00:01:26] recommend and it's no different for water, it's starting simple and working your way
+[00:01:33] up. So on this first slide here, I'm not going to read it out loud. You can do that. Pause
+[00:01:40] it now if you want to come back. But I've just provided some design with varying degrees
+[00:01:52] of difficulty for what water can eventually become. I don't think I'll have too much to
+[00:01:59] draw about it, but just in case, we will get in closer. Line and fill, pretty basic. We
+[00:02:08] have a coloured line and a fill, and that's it. You will notice that I am using some good
+[00:02:16] design principles here and treating the design with a little bit of depth. That's obviously
+[00:02:24] not specific to water, but it plays a point in the further drawings here. Further adding
+[00:02:40] depth by using background colour. This can be as complicated as using two new colours
+[00:02:46] for both line and fill, and you'll see how this starts to become really complicated in
+[00:02:53] the next one here. But if you are looking to add depth to your water, and this can go
+[00:02:59] for a lot of things, I can see this, I'm just trying to think, in a big splash you can use
+[00:03:06] it, in waves you can super use it, rivers you can use it. Don't limit yourself to just
+[00:03:13] a couple colours. Depending on how much depth you're trying to get in there, you can go
+[00:03:17] really deep into the design. Just keep in mind that the more complicated your design
+[00:03:23] is, the harder the animation becomes. This is demonstrated by this next one here. If
+[00:03:35] we have a line and fill for one layer of colour, and we have a line and fill for the background
+[00:03:40] layer of colour, now we're adding a shadow, but we're adding a shadow to both those colours.
+[00:03:46] So now we're up to six colours here. Three for the front, three for the back. And then
+[00:03:53] finally I don't really take things much further than this point. This is, to me, I would consider
+[00:04:02] super complicated. These drawings would individually take a long time, so to do the actual animation
+[00:04:11] takes a long time, but I've added a foam cap onto the top head, I've added a foam base
+[00:04:20] here to the water. You need to add extra colours for the foam line and the foam fill, and then
+[00:04:30] the foam line and the foam fill in the back. And then, it's kind of hard to see here, but
+[00:04:36] when I highlight it, I've also added a ripple to it. So this, for me, would be considered
+[00:04:44] kind of full package, the full package water splash experience, if you will. I'm not even
+[00:04:53] sure, I mean you could add a shadow to the foam, specific foam shadow, but beyond that
+[00:05:00] I'm not even sure what else you could possibly add to complicate the design of water even
+[00:05:07] more. Obviously, if this is your first foray into water, I suggest two colours. Simple.
+[00:05:20] So taking a deeper look into water, basically what I want you to start thinking about when,
+[00:05:30] even just thinking about animating water, is thinking about the physics that go into
+[00:05:35] it and the cause and effect. Water, as a substance, doesn't move if there's not another energy
+[00:05:47] acting upon it, right? So the thing that makes a ripple or a wave so interesting is that
+[00:05:56] the water is only moving, in the example of a wave, the water is only moving because there
+[00:06:03] is energy travelling through it, right? The energy travelling through the water is what
+[00:06:08] is creating the wave, and then in order to try to animate the wave, the way we try to
+[00:06:17] have a wave stick out amongst like a sea of a bunch of other waves is going to be how
+[00:06:25] you handle the reflection of the light off the water that's being affected by the energy.
+[00:06:31] So obviously, a really good thing to do is reference real life. When you really start
+[00:06:41] noticing all the different things water can do, it does become pretty fascinating, and
+[00:06:50] I think for any good effects artist, it should be fascinating. So in this slide, I just provided
+[00:06:56] a couple examples of, first off, how to think about the physics of what specifically is
+[00:07:04] going on with the water to cause certain things, and then a different way of visualizing what
+[00:07:12] you're doing in order to be able to wrap your head around the animation. So in the first
+[00:07:21] example here, all I'm trying to show is that an object entering water, yes, it picks up
+[00:07:36] bubbles from the top. When it first enters, it picks up air from the top, and that's what
+[00:07:40] creates the bubbles. But the main thing is that when the object enters, it creates an
+[00:07:46] air pocket. And then after enough time, this air pocket collapses, and the water rushing
+[00:08:01] in, because water always wants to be still, the water rushing in to fill the pocket is
+[00:08:07] what causes the secondary jet when something falls into water. Obviously, if the object
+[00:08:14] is large enough, the secondary jet can be like massive. And you have to start dealing
+[00:08:22] with water in a little bit of a different fashion. But the concept of the air pocket
+[00:08:29] being caused by the object creating the secondary splash stays the same. The other thing you
+[00:08:35] can do when you're animating water, this is a popular, not a popular, but this is a favorite
+[00:08:43] technique of mine when I'm having a hard time visualizing anything is just wrapping some
+[00:08:49] wire mesh around what it is that you're doing. This helps you visualize the depth. Because
+[00:08:57] if we go back here, even though there's some there, even though there is depth here without
+[00:09:02] the color and stuff like that, it's kind of hard to get a good grasp on it. So if you're
+[00:09:08] roughing out, if you're roughing out animation, lots of times, I won't do it this clean. But
+[00:09:15] like lots of times I will if I'm doing a wave or something like that. Like a cresting, especially
+[00:09:22] if it's water overlapping water, but like a cresting wave, you know, might have a bit
+[00:09:30] of a feeling like like that. And so the the extra added lines just helped me visualize
+[00:09:38] it more. And then these are just extra drawings to show you a bit more of a 3d form of what's
+[00:09:47] going on with with the water in this particular instance. Water dissipation. So if you want
+[00:10:04] water to go away, you have to you have to dissipate it. And the the way water dissipates
+[00:10:12] is quite interesting and unique. Free, free floating water obviously is going to be traveling
+[00:10:21] down because of Earth's gravity, but any kind of liquid out in well in a vacuum, such
+[00:10:28] as space, it seeks to be round. It wants to beat up. So usually what happens with something
+[00:10:38] like this, with the drawings that are on screen, whoops, is visually when when there's an impact
+[00:10:51] that's happened, that's shot up a bunch of the water, the way the water has been ejected
+[00:10:58] into the air, you can picture pretty much like a sheet. So the energy flattened out
+[00:11:06] a sheet of water into the air. And obviously, over like the course of these drawings, all
+[00:11:17] of this would be traveling up. These are just staying in place to show them better. But
+[00:11:24] as soon as this sheet is in the air, what it wants to do is it wants to start beating
+[00:11:29] up. The surface tension isn't strong enough to keep this entire sheet in the air for very
+[00:11:35] long. So throughout a couple of frames, you're going to want to start opening up pockets
+[00:11:42] of negative space pretty quickly, whoops, pretty quickly in the water as it's doing
+[00:11:52] what water does and trying to get back to its natural state, which is under gravity
+[00:11:59] is just flat. But as it's falling, it's trying to beat up. So over the course of the frames,
+[00:12:11] we just push these negative spaces further and further until we open up pockets where
+[00:12:16] it's completely empty and hold on to beads of water. Now, the tough part with dissipating
+[00:12:26] water and water animation is that there is a certain level of noise here, which may and
+[00:12:33] you'll see this in real life splashes as well. A certain level of noise here that might seem
+[00:12:39] like it's totally random. But on a frame to frame basis, I planned all of this out. So
+[00:12:50] when it comes time to completely dissipate this, this this section right here is dissipating
+[00:12:56] into these little beads. Now, if the beads get really small, like this is really small,
+[00:13:03] it's okay if stuff like that is gone on the next frame. But when you have these larger
+[00:13:09] pieces, like this, frame by frame, you really want to be tracking them all. And strategically,
+[00:13:20] like if I'm opening up negative space here and here, then those two areas are going to
+[00:13:25] meet and there's going to be nothing, but there's still going to be this on the next
+[00:13:32] frame, right? So it may seem like this is noise, but all these little beads in good
+[00:13:40] water animation are tracked and they will arc and they will fall and they will dissipate
+[00:13:46] just like a little droplet. The challenge is with something complicated like this is
+[00:13:51] like yeah, for several frames you are tracking dozens and dozens of little items, but that's
+[00:13:59] obviously greatly assisted with onion skin. If you're so new to animation that you are
+[00:14:07] not sure what onion skin is, definitely find out what it is and apply it to your animation
+[00:14:15] because it's needed. So water and light, I'll just go to a render view mode here to show
+[00:14:26] this a bit better. So the way water will refract light is obviously really, really interesting.
+[00:14:46] If you've ever seen someone in a glass pool of water, you'll see how far their head that's
+[00:14:53] above water can be displaced from their body. So we don't necessarily need to specifically
+[00:15:00] know all the fine details or the math or anything like that behind it because all we're really
+[00:15:07] looking to do is just visually pick up on what's going on and how water behaves and
+[00:15:17] how it looks and how it interacts with light. So one of the interesting things that I usually
+[00:15:24] find if I'm trying to have like a quiet moment outside after like a rain shower or something
+[00:15:31] like that is put a single droplet of water into a beam of light and just look at how
+[00:15:39] the light plays with the droplet. And I find that this doesn't necessarily correlate like
+[00:15:45] one to one with the animation of water, but the more noticeable you are of all the effects
+[00:15:52] elements really, the better animator, it'll pay off in the long run, right? But water
+[00:15:59] is specifically interesting for the way that for it's like refractive properties. So this
+[00:16:12] is a big one. The fancy word for it is viscosity. The way it applies to animation is through
+[00:16:26] partially through your design, mainly through the timing of the water. So when I talk about
+[00:16:36] water, I'm using the term water a lot, but what I'm really referring to is liquids, like
+[00:16:43] the form of matter, right? Liquid. Because not all liquids are created equal and viscosity
+[00:16:51] is a part of that. So one of the pitfalls of someone first learning to animate water
+[00:16:58] is that the second they get challenged with having to animate a liquid that isn't water,
+[00:17:05] they become lost in how they need to handle the liquid. So the thing I usually refer to
+[00:17:16] is that let's take three different substances. Let's take motor oil, syrup, and milk. When
+[00:17:26] you think about those three substances, if you were to throw a rock into a tub of all,
+[00:17:34] like an individual tub of those three substances, what is the splash that's going to look like
+[00:17:40] in the motor oil tub? And how is it going to differ from the timing and the design from
+[00:17:48] the splash from the syrup sub and the splash from the milk tub? When I'm talking about
+[00:17:57] viscosity, that's what I'm talking about. And the way it plays out in animation mostly
+[00:18:04] is through the timing of the liquid in the splash, if the splash is what we're using
+[00:18:13] as an example, how long does the water or the liquid hold together before it wants to
+[00:18:20] bead up? So something like water will want to bead up really quickly. It happens in a
+[00:18:27] matter of frames. And the thicker, the longer you go holding on to the shapes of the liquid,
+[00:18:35] the thicker it's going to feel. So if you want some really interesting reference to
+[00:18:42] look at, technically lava is, if I'm not mistaken, a liquid, right? So when you look at a lava
+[00:18:50] bubble pop, it behaves really interestingly because it's such a thick substance but it's
+[00:19:00] still a liquid at the time because of the amount of heat in it. It kind of wants to
+[00:19:05] bead up but at the same time it doesn't. It's really fascinating stuff to look at and
+[00:19:11] it's probably the most viscous of all the liquids. So looking at different liquids and
+[00:19:18] how they act out in nature is very important to trying to master the element of water when
+[00:19:26] really it should just be referenced as not water but liquids because all liquids fall
+[00:19:32] under, water is under the liquid umbrella, if you will. So this just is, this frame is
+[00:19:44] just harkening back to what we were talking about earlier, how water aka liquids can come
+[00:19:51] in so many different, not just shapes and forms but variation I guess is the word I'm
+[00:19:58] looking for here. And these are just some examples. Like the way you would animate a
+[00:20:03] waterfall even though a waterfall and pitching waves both essentially are water would be
+[00:20:09] totally different, right? Because it's water and or liquid acting in such a different way
+[00:20:16] that you can't obviously animate either one of these things even remotely similar. So
+[00:20:21] when you're first getting involved in animating liquids, you need to be patient with yourself
+[00:20:28] because you're going to be coming up against a lot of different types of things and a lot
+[00:20:34] of different things you need to learn in order to be able to handle them all. So I'm a big
+[00:20:42] fan of starting small and for the assignment for water slash liquids, I just want you to
+[00:20:51] do a simple water splash. Keep the design simple, keep it small, we're not doing a huge
+[00:20:59] splash. If you want to challenge yourself, you could try to do this assignment several
+[00:21:05] times over but challenge yourself in the substance that it is that you're trying to animate.
+[00:21:12] If you can have something look like syrup or water strictly through the timing of the
+[00:21:22] animation and not the design or the colours, then that's a good indication that you're
+[00:21:27] starting to wrap your head around what's needed in order to become a master of this
+[00:21:34] particular element. And that's pretty much it for this. I hope you enjoyed the lesson.

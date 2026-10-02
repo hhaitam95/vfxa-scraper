@@ -1,0 +1,155 @@
+[00:00:06] Hello and welcome to the lesson. This lesson we are going to be doing a quick
+[00:00:12] review of cycles for any beginners out there. Cycles are a very important tool
+[00:00:20] in the effects animators toolbox. It allows you to animate something that if
+[00:00:27] done correctly can potentially play over and over and over again but it will look
+[00:00:33] like the animation is running basically forever depending on how long you wanted
+[00:00:38] to use it for. So we will jump right in. The hardest thing I find with cycles
+[00:00:51] especially if you're trying to tackle them for the first time you'll after
+[00:00:57] you've done your first couple of cycles you'll you'll notice how the toughest
+[00:01:02] part of the cycle is the transition from getting back from your first frame
+[00:01:09] and then you're animating you're going on you're near the end of your animation
+[00:01:14] and it's time to start transitioning your animation from its current position
+[00:01:21] back into the first frame and the amount of depending on what you're animating
+[00:01:27] the amount of time that you give for this transition to happen will be very
+[00:01:33] important and you you can tell you'll probably see it in your own animation
+[00:01:38] the first couple at least the first couple of times you do it because you'll
+[00:01:41] be messing it up you'll you'll start to accidentally animate things backwards or
+[00:01:47] morph shapes in order to get back to the the first drawing so it's really
+[00:01:54] important for cycles even the simplest cycle that as you're doing the animation
+[00:02:01] that you're planning ahead because the first the first drawing is the beginning
+[00:02:07] and the end point they're one in the same so the more planning you can put
+[00:02:13] into animating away from that one drawing so you can animate backing back
+[00:02:18] into it is what's going to give you that flawless look of the cycle not looking
+[00:02:23] like a cycle but looking natural so the more information you can give yourself
+[00:02:28] in regards to that the the better and in this frame if you can break it down as
+[00:02:35] simple as using basic shapes as as I've put in here and I'll just go into the
+[00:02:44] drawing mode here to do some sketches and notes so if this is frame one smoke
+[00:02:55] can travel pretty slowly so we'll say that this is frame 12 and this is frame
+[00:03:00] 24 or something like that when we're animating and we're doing we have our
+[00:03:06] onion skin turned on and we're drawing away we know that this shape eventually
+[00:03:11] has to rise and then it has to dissipate and then it has to start again so when
+[00:03:18] it comes back around to the cycle the the shapes will make sense and they
+[00:03:24] won't appear out of anywhere and like they won't appear out of nothingness
+[00:03:28] that we've planned for it that when we are on this frame and we are dissipating
+[00:03:35] our shape number one when we're dissipating it and we've got it almost
+[00:03:40] gone it kind of breaks your brain a little bit because you're animating this
+[00:03:48] going away but you're also animating this exact same thing coming up so that
+[00:03:57] when we get back around to this and this gets here you've already planned
+[00:04:02] for it and you've been animating these shapes just back in the cycle back here
+[00:04:09] it's for this reason that I do suggest there's two different styles of
+[00:04:19] animating that are the most popular for obvious reasons you'll you're about to
+[00:04:28] find out there is an animation style called strata heading and this is where
+[00:04:45] you draw a frame and you go right into if this is frame one you go right into
+[00:04:51] frame two so you would just flip that it put on your next piece of paper or put
+[00:04:56] on your next frame and and you're you're going right into drawing number two you
+[00:05:04] can get away with this on with a lot of effects because as long as you know
+[00:05:12] where you're headed with your final destination you can at first you
+[00:05:18] probably won't be so good at it but eventually you'll gain enough control in
+[00:05:22] your drawing that you know what you're doing and you can control for it cycles
+[00:05:28] complicate this for this exact reason that we've discussed is because it
+[00:05:35] requires a lot of planning so if you're not doing the planning in your head as
+[00:05:39] you're straight ahead in the drawings you're going to get to a point where you
+[00:05:44] sort of hit a roadblock because you don't know how to go you've you've if
+[00:05:50] this is frame one and this is frame 24 we're animating back into frame one you
+[00:05:56] reach this point and because you're straight ahead in you're unsure of how
+[00:06:02] to go from frame one or for it sorry frame 24 back into frame one and that is
+[00:06:08] why I recommend the second method of animating which is keys and breakdowns
+[00:06:23] this is a bit more keys and breakdowns is sort of the more traditional way of
+[00:06:28] doing it it's obviously heavily used in in character animation because you've
+[00:06:35] got to make sure your poses are strong and it helps for the same reason and
+[00:06:40] effects animation as well it's my opinion that effects animation is a
+[00:06:44] little bit more friendly to straight ahead in than character animation but in
+[00:06:48] situations like this keys and breakdowns are definitely much better for for the
+[00:06:55] exact reason that we were just talking about you got your frame one and then
+[00:07:02] you'll take the time you'll sit down and you'll think about like let's say we
+[00:07:09] have this drawing all done and ready you're going to take the time and think
+[00:07:16] about how this is going to animate and play out without actually doing all the
+[00:07:22] frames up front because what we're trying to get to is to frame 24 before
+[00:07:28] coming back around now you're still going forward with this before I had
+[00:07:33] back around a frame one like this this could the frame here before going in a
+[00:07:38] frame one could potentially be frame 48 or whatever as many frames as it takes
+[00:07:44] but the idea is that when you're in the back half of the animation we're headed
+[00:07:50] to the keyframe of so keyframe one we're headed to the key keyframe of 24 and now
+[00:07:57] we want to head back there so once you have the two drawings this is where this
+[00:08:03] method becomes superior in my opinion once you have the two drawings now we
+[00:08:12] need to make a frame here which is say 12 or 13 something like that this is our
+[00:08:21] breakdown drawing this drawing needs to make sense both from this drawing and
+[00:08:28] this drawing and then you'll go you're you're going to do it on the back end
+[00:08:35] where you'll do another breakdown where instead of going from drawing 1 to 12
+[00:08:52] you're going to go from drawing 24 to 36 on our way back to 1 now you might be
+[00:09:06] thinking Kent can can frame 12 and 36 be the same they cannot because we need to
+[00:09:19] get back to frame 1 so once you have your two keyframes and your two
+[00:09:28] breakdown frames then we can start adding in more frames and as you're as
+[00:09:38] you're doing this you know that okay frame I I have frame 1 I spent a lot of
+[00:09:44] time on frame 24 I'm confident that frame 12 is working pretty good but it
+[00:09:50] might be here where you're doing frame 6 and you start to notice that there's
+[00:09:54] some shapes or something like that that aren't working in frame 6 that you need
+[00:10:00] in frame 12 that you're not sure which which shape or mass it is in frame 1 and
+[00:10:09] this is the time that you start ironing ironing out those mistakes and that is
+[00:10:15] why this approach works better than straight aheading it unless you're
+[00:10:20] talented enough there there there will come a point in time in which you know
+[00:10:25] so well what you're doing you can straight ahead things while figuring out
+[00:10:29] these issues on the fly but if this is your first time doing it and you're
+[00:10:33] trying to do something kind of complicated and you're straight aheading
+[00:10:38] and say you're all the way up to frame 36 but you never solve this issue back
+[00:10:43] here then you start scrambling by frame 36 in in order to fix the cycle before
+[00:10:51] getting back to frame 1 and then when you find yourself in that situation
+[00:10:55] you've kind of lost the the purpose to the cycle because you start going back
+[00:11:01] in your frames and changing things and it starts getting really it can start
+[00:11:07] getting really frustrating and yeah and and annoying so the best way to start
+[00:11:13] wrapping your heads around cycles is to I'll just get rid of this best way to
+[00:11:20] wrap your head around cycles is keyframing and I recommend this for
+[00:11:32] almost everything starting small if you do these two things if you're working on
+[00:11:41] a small scale you can not only animate something fast like it it doesn't take a
+[00:11:47] lot of time to animate something but also if you mess something up you just
+[00:11:53] scratch it out and you start over again and once you do it enough times you
+[00:11:58] start understanding what it is you're trying to accomplish with keyframing
+[00:12:01] you're going to realize how advantageous keyframing can be and that's keyframing
+[00:12:08] is a really good tool to have in your toolbox and then you'll start
+[00:12:13] understanding cycles there is a bit of a this this is kind of expanding on
+[00:12:24] cycles so it's it's how to run a full cycle and it's not overly complicated
+[00:12:37] but I think it's worth noting here because a cycle is a contained animation
+[00:12:45] in and of itself so there's going to be times in which you need a full cycle
+[00:12:51] which is say we have our we have our cycles here so this is what we were
+[00:12:57] talking about before we have our frame one this would be our our second
+[00:13:04] keyframe frame one would be our first keyframe I'll just put KF and then
+[00:13:14] obviously this is going to be our cycle with our these would be our breakdowns
+[00:13:19] we'd have another we would have another mid frame here because we have to go
+[00:13:28] from one back into the other and we have our other breakdowns so obviously it's a
+[00:13:35] cycle so it plays continuously a full cycle would be starting from nothing
+[00:13:42] starting from a blank frame and animating into the first frame of the
+[00:13:51] cycle and then once you have the first frame of the cycle it can go into the
+[00:13:57] cycle and the cycle can play infinitely for you and then at a certain point it
+[00:14:04] doesn't it doesn't have to be a keyframe it can really be any frame once you have
+[00:14:09] the cycle established it can be any frame and then animating out of the
+[00:14:13] cycle into a dissipation or whatever is required I call this the full cycle
+[00:14:20] because it's a little bit more involved if you were working in a studio
+[00:14:25] environment you you you might need to do something like this so you're essentially
+[00:14:29] looking at three different animations which I guess I could just use the slide
+[00:14:39] because that's what I did it for you're essentially just looking at three
+[00:14:43] different animations the burst animation the actual cycle and then the
+[00:14:47] dissipation so once you got cycles down you can expand to doing this to doing
+[00:14:54] the full cycle and then basically you have the tools to be able to fill up as
+[00:15:03] much screen time as you need to because you could you could get handed and once
+[00:15:10] again this would be if you would possibly be working professionally but
+[00:15:14] if if you get handed like a 600 frame scene fire needs to be created at the
+[00:15:21] beginning of the scene last throughout the scene and then go away before the
+[00:15:25] end of the scene so 600 frames of anything is a lot right so you're not
+[00:15:31] going to animate a site are you're not going to animate 600 frames of unique
+[00:15:36] framed fire throughout the entire thing unless you absolutely have to so if you
+[00:15:42] want to still have the effects look as good as possible by doing by working
+[00:15:51] smart and putting in the fewest amount of hours and but but not cheaping out on
+[00:15:57] the animation then you would want to use like a full cycle approach to that to
+[00:16:02] that kind of scene so this is applicable in in a lot of different scenarios so
+[00:16:11] the assignment doesn't really require any specific direction in terms of
+[00:16:17] drawings or anything like that I think I've talked quite a bit here about
+[00:16:21] cycles and how important they are so I added in a list of a lot of common
+[00:16:27] cycles that you will find all over the animation industry if you just watch
+[00:16:32] your favorite animated TV show or stuff like that with what we've talked about
+[00:16:40] in the last couple of slides you'll actually probably be able to start
+[00:16:44] picking out what potentially could be a cycle and then the trick would be to
+[00:16:49] watch the animation over and over and over again and try to identify the cycle
+[00:16:56] frame so that that frame number one and then once you can start picking out
+[00:17:01] those then you know that you have a truly good grasp on the cycle so have
+[00:17:08] fun and do as many cycles as you want and try to cycle as many different
+[00:17:12] things I will catch you in the next lesson

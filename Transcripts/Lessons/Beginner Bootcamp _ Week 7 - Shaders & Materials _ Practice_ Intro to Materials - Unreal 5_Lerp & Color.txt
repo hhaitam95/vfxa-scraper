@@ -1,0 +1,153 @@
+[00:00:05] Hey, friends, and welcome.
+[00:00:06] Today, we're going to do another video on textures.
+[00:00:10] Today, we're talking about color.
+[00:00:12] So far, we've worked only on black and white.
+[00:00:14] And you'll see that, usually, color
+[00:00:16] is the last thing you're applying on your texture.
+[00:00:19] It's almost secondary.
+[00:00:21] Your textures, usually, you will work with
+[00:00:22] are totally black and white, the values between 0 and 1.
+[00:00:26] But your textures will output RGB, red, green, and blue
+[00:00:32] values.
+[00:00:33] So you could technically have colored textures
+[00:00:36] if you wanted to.
+[00:00:37] There is a lot of ways to use textures
+[00:00:39] and to use colors in your VFX.
+[00:00:43] But usually, your particle system
+[00:00:45] will be outputting you some color,
+[00:00:47] as well as those kind of nodes, which
+[00:00:51] will be usually material parameters that
+[00:00:54] will give you your colors.
+[00:00:55] This makes them both easy to work with and easy
+[00:00:58] to change on a wider scale if you're using the same material
+[00:01:01] multiple times.
+[00:01:02] We'll see all that in the future.
+[00:01:04] For now, let's just focus on how we can use colors
+[00:01:08] in our VFX, in our shaders.
+[00:01:10] So the first thing is multiplying
+[00:01:15] is your base tinting.
+[00:01:18] This is the way you will simply be able to tint your color.
+[00:01:24] So that means that anything that is in black and white,
+[00:01:27] if you multiply it by a pure color,
+[00:01:29] so for instance, if I take this and I multiply it
+[00:01:31] by this blue and I output it into my emissive color,
+[00:01:36] the output will be the same as here, but totally blue.
+[00:01:41] That's just tinting.
+[00:01:42] You're just taking colored glasses
+[00:01:46] and you just put them on.
+[00:01:47] It will change everything that is white into the color
+[00:01:50] you wanted.
+[00:01:53] That's the first thing.
+[00:01:54] The second is so you can do it for red too.
+[00:01:57] It does exactly the same thing.
+[00:02:02] This is the first idea you can have.
+[00:02:04] We can do this exactly the same for a little spike
+[00:02:08] here if we put it in here.
+[00:02:10] Only your spike is red.
+[00:02:12] So far, so good.
+[00:02:14] Now we can do way more with this because right now, we're
+[00:02:18] just having one flat color.
+[00:02:20] And usually, we tend to not use textures
+[00:02:23] that have nice flowing colors or stuff like that.
+[00:02:27] Instead, we use black and white texture
+[00:02:29] and then we use those to apply a color.
+[00:02:31] And our best friend for that here will be the Lerp node.
+[00:02:37] We've seen it before.
+[00:02:38] And this is where the Lerp node really shines.
+[00:02:41] Lerp will average values between however
+[00:02:45] the alpha is, which means that if our alpha is
+[00:02:49] our little texture, for instance, this one here,
+[00:02:56] suddenly, if our a is 0 and our b is 1,
+[00:03:02] you will get a result that is exactly the same texture.
+[00:03:06] Because we say that if the value is 0,
+[00:03:08] we use a, for the value is 1, we use b.
+[00:03:11] And if the value a is 0 and the value b is 1,
+[00:03:14] so obviously, we get exactly the same thing.
+[00:03:17] Now if we say that our value 0 is blue and our value 1
+[00:03:22] is red, suddenly, we get this, which
+[00:03:26] is very aggressive to DI, but also interesting.
+[00:03:29] This is something we can use in order
+[00:03:31] to create a nice gradient, for instance, in our materials.
+[00:03:35] So from here, you can imagine that we could possibly
+[00:03:40] use this one to create a little star shape.
+[00:03:46] But what was good with the other one
+[00:03:49] is that suddenly, we have values that are not
+[00:03:51] quite the colors we decided, but the shader
+[00:03:54] will access other values that we were not using before.
+[00:03:59] This has pros and cons.
+[00:04:01] And this is where you need to be a bit careful with lerping.
+[00:04:06] Lerp will simply take your r, g, and b
+[00:04:09] and take the average between them.
+[00:04:11] If your value is 0.5 in the alpha,
+[00:04:13] you'll just get an average.
+[00:04:15] So for a value that's 0 and 0, it's simple.
+[00:04:17] But it will do that for r, g, and b independently.
+[00:04:21] So sometimes, you'll end up with 0.5, 0.5, 0.5.
+[00:04:26] And you'll end up with this before your colors were
+[00:04:28] all completely saturated.
+[00:04:30] And now, you end up with this kind of grayish color.
+[00:04:34] Usually, that's not what you want.
+[00:04:36] And that means that going from colors
+[00:04:38] that are opposite on the wheel of color can be quite dangerous.
+[00:04:42] So if I'm having this sharp red here,
+[00:04:45] and then on the second one, I want a completely cyan,
+[00:04:50] you'll see that the result is not quite exactly what we want.
+[00:04:53] We get this sort of gray in the middle
+[00:04:55] rather than getting a fully saturated color.
+[00:04:58] And so usually, this will not look quite good.
+[00:05:01] So be careful about the limits of lerping.
+[00:05:05] Otherwise, so one thing you can look at is on this color wheel,
+[00:05:10] roughly what will happen is that your colors will
+[00:05:13] go from this red to the cyan.
+[00:05:15] And it will draw a straight line between the two.
+[00:05:17] It's not exactly that, but it gives you
+[00:05:19] a good idea of what will happen.
+[00:05:20] So we'll go to the cyan, then go to some kind of whitish gray,
+[00:05:25] and then go back to the red.
+[00:05:26] So this is what we get.
+[00:05:27] So you guessed it.
+[00:05:29] If we put instead some nice yellow,
+[00:05:31] which is just nearby the red, we'll keep our saturation.
+[00:05:34] Because if we draw a line between the red and the yellow,
+[00:05:37] we keep a nice saturation here, which
+[00:05:39] means that now, if we put this in here,
+[00:05:41] we get some good orange into red and to yellow.
+[00:05:44] This looks way more fiery.
+[00:05:46] So yeah, a few ideas already.
+[00:05:50] Now, there's a ton of other applications we can have.
+[00:05:52] Most notably, you can also play around
+[00:05:56] with your different textures to add a gradient.
+[00:05:58] For instance, if we say that we want this texture as a mask,
+[00:06:03] this is our final shape we want to have.
+[00:06:05] So we're going to just multiply this one here by this.
+[00:06:17] But because we want the black to be black,
+[00:06:20] but then we want a gradient from the middle,
+[00:06:22] suddenly we have a way to have our colors
+[00:06:26] to have a gradient in the middle of it.
+[00:06:28] That's particularly useful when you
+[00:06:29] want to add a little bit of color variety
+[00:06:32] inside your material.
+[00:06:34] You'll see that there's a lot of other ways you can imagine
+[00:06:37] that this little dot gradient is just the tip of the iceberg.
+[00:06:41] And you can also kind of get a grasp of what could
+[00:06:44] be interesting in the future.
+[00:06:46] For instance, if we use our knowledge gathered before,
+[00:06:49] and we use our little multiply here,
+[00:06:52] and to strengthen our texture, as we explained before,
+[00:06:55] and we just push it like 1.5, suddenly we
+[00:06:59] can get a little dot of red here.
+[00:07:02] Alternatively, if we use a power here, and we put, let's say,
+[00:07:15] 0.5, we can get our reds to be stronger
+[00:07:18] until we get a value that's like interesting.
+[00:07:24] So already you can see the value that this brings.
+[00:07:28] If we inverse the different values,
+[00:07:31] so the yellow goes inside, and then the red goes outside,
+[00:07:34] and start to play around with our little power node here,
+[00:07:38] we can start to get values that are very interesting.
+[00:07:42] Here we get a splash that looks very intense, very fiery,
+[00:07:46] and that is overall close to what we would want.
+[00:07:50] With a very simple setup, again, understanding
+[00:07:53] how to strengthen our little texture,
+[00:07:54] and how to learn between two textures.
+[00:07:57] All right, I think that will be all for now.
+[00:08:00] All right, until then.

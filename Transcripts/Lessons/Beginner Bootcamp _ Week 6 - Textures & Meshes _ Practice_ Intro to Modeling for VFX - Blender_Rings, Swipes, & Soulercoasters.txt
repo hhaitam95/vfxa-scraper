@@ -1,0 +1,242 @@
+[00:00:06] Hello and welcome back to VFX Apprentice's Intro to VFX Meshes and Blenders series.
+[00:00:10] Now we've talked about a lot of different things so far in this series and now we're
+[00:00:15] actually going to go back a little bit and focus on some more VFX meshes that you are
+[00:00:20] likely to need to create in your career, talking about rings, swipes and solar coasters specifically
+[00:00:27] and the couple of different ways to build these.
+[00:00:30] And hopefully using these different strategies to build these meshes will allow you to tackle
+[00:00:35] different approaches and yes, swipes are typically this way or solar coasters are often
+[00:00:43] this way but you'll at least have the ability to think on your feet a little bit and decide
+[00:00:49] which approach is the best one for you.
+[00:00:52] Let's go ahead and get started.
+[00:00:54] Let's go ahead and make us a flat ring.
+[00:00:58] Now this might sound really easy and there are, I mean honestly it is, there's not that
+[00:01:04] many ways to build it, they're pretty simple but there is one kind of hacky way to do it
+[00:01:09] that I really like and I'll show you right now.
+[00:01:13] Let's go ahead and go to add, mesh and we're going to add a cylinder.
+[00:01:18] So right now I have this set to 32 vertices around which is perfectly fine.
+[00:01:23] So clearly the obvious way to make this is to probably take, you know, go to your faces,
+[00:01:32] select the top face, hit ctrl I to select everything else and delete that.
+[00:01:37] Now you're left with just this flat kind of circle on the top.
+[00:01:42] If you hit, if you select this and hit I, you will be met with your inset faces.
+[00:01:50] Why is that looking like that?
+[00:01:51] That's strange.
+[00:01:52] Anyway, inset faces which allows you to inset and what inset means is basically just takes
+[00:01:57] this and kind of extrudes inwards like this.
+[00:02:01] And if you've kind of got as far as you can go with this, like you can inset again and
+[00:02:07] get another one of these rings but you don't have to, you can instead just hit R and scale
+[00:02:11] this down now.
+[00:02:13] And if you delete that inner ring or that inner polygon, boom, now you have a flat ring.
+[00:02:20] There's one problem with this flat ring though.
+[00:02:23] If you go to your UV editing, you'll see that this is still unwrapped as just a ring.
+[00:02:33] This might be what you're looking for, it might not be.
+[00:02:36] Typically with a flat ring, what I like to have is something that I can scroll like this
+[00:02:41] kind of like noisy texture across and you can get that with that.
+[00:02:46] Right now we can't.
+[00:02:47] So if we were to actually apply like the, let's see here, the energy green material
+[00:02:54] to this.
+[00:02:55] Here we go.
+[00:02:56] You can see that when we start to move this around here, it doesn't tile, it's not quite
+[00:03:03] looking like what we want.
+[00:03:06] Now you could unwrap this, you could split this and flatten it out, but there's an easier
+[00:03:10] way to do this.
+[00:03:11] Hit four, go back to object, we're gonna go back to our layout and we're gonna delete
+[00:03:15] this.
+[00:03:17] Go to add, mesh, cylinder once again.
+[00:03:24] I'm going to actually make the depth of this a lot less because we don't need it that high.
+[00:03:30] And check this out.
+[00:03:31] What we're going to do here, I'm going to hit three to go into my faces, delete the
+[00:03:36] top and the bottom, hit two to go into edges and I can double click this top edge to select
+[00:03:46] this whole ring.
+[00:03:47] Alternatively, you could hit one and just select these like this, but we'll do it this
+[00:03:52] way.
+[00:03:53] I'm going to hit R to scale it down just a little bit or as much as you like.
+[00:03:59] Now we have this tapered cone.
+[00:04:02] If we hit one to go back to vertices, I'm going to select everything, actually, remember,
+[00:04:07] if you select like this, you won't always catch those back ones.
+[00:04:10] You can hit control X to go into x-ray mode and select everything or alternatively, you
+[00:04:14] can just select some and hit control A to select everything.
+[00:04:17] And I'm going to scale this down on the Z.
+[00:04:20] Now as soon as you scale down and you let go, you'll get this resize pop-up down here.
+[00:04:25] Since we're scaling down on the Z, you see that this is 0.862.
+[00:04:28] If I click on that and hit that to zero and hit enter, it'll zero it out now it's perfectly
+[00:04:34] flat.
+[00:04:35] Now check it out.
+[00:04:36] So this is exactly the same mesh that we just made with by deleting like all the faces and
+[00:04:41] just insetting the top mesh.
+[00:04:44] However, since this is built off of the cylinder sides, this is unwrapped properly.
+[00:04:49] Go to UV editing, select that and select everything, it's unwrapped.
+[00:04:55] So if we attach this energy beam material to it, there we go.
+[00:05:01] Now you can see this is doing exactly what we want it to do.
+[00:05:05] Pretty cool.
+[00:05:10] Now for a swipe mesh, you could easily take this mesh, duplicate it and delete half of
+[00:05:17] it and you would be fine.
+[00:05:22] Take this, just like this guy, take this and delete that and bam.
+[00:05:29] Now you have a swipe mesh.
+[00:05:31] So you could attach this to a character animation.
+[00:05:35] So when your character swings a sword, you'd spawn this and have this kind of scoot this
+[00:05:39] way or whichever direction that you need it to.
+[00:05:42] There are other ways to make swipe meshes that are a little bit more customizable.
+[00:05:47] And one of the ways that I like a lot is with what's known as a bezier curve.
+[00:05:51] And I'll show you that in just a second.
+[00:05:52] Let's go ahead and hide these.
+[00:05:54] If you select a mesh and hit control H, you'll hide it.
+[00:05:59] Control there, it's just not visible anymore.
+[00:06:02] So a bezier curve, if we go to add, curve, bezier, see it gives us this kind of interesting
+[00:06:12] curve here.
+[00:06:13] If you hit one to go into vertices, we can actually control, let's look straight down
+[00:06:21] this from the Z axis, if it's easy, we can control the way that this curve is built.
+[00:06:25] So by either rotating the vertices and you can see that we have these handles here, you
+[00:06:29] can change the way that these are going.
+[00:06:31] So the way that this works is you have two points on this curve right now.
+[00:06:35] And what this is doing is it's taking the tangent of this curve and the tangent is this
+[00:06:40] big line here.
+[00:06:42] You can see if you hit W, you can actually select these tangents here and move these
+[00:06:46] around.
+[00:06:47] You can make them really short.
+[00:06:48] So you can see this, this curve gets a lot more shallow or you can make this really long
+[00:06:53] and it starts to push this out this way.
+[00:06:57] And by rotating this, you can see how this affects that curve.
+[00:07:01] So I'm gonna try to make this a little bit like a big, almost like a frowny face, I guess
+[00:07:07] like a big upside down U, like a, yeah, there we go.
+[00:07:12] And let's say we wanna have like two points is great.
+[00:07:17] And if we were to turn this into its own little mesh, it would look a lot like the one that
+[00:07:24] we just made.
+[00:07:25] Maybe we want something a little bit more customized.
+[00:07:28] So what I'm gonna do is I'm gonna select both of those points, hit right click and subdivide.
+[00:07:34] Now what we just did with this is we took these two points here and by subdividing it,
+[00:07:40] we added one in the center.
+[00:07:43] So now we have another curve that we can play with and we can make this a little bit sharper.
+[00:07:47] We can make it wider here, whichever we want, and you can add as many curves as you need.
+[00:07:52] As long as you have at least two curves or two points selected, you can subdivide again
+[00:07:58] and get another midpoint and you can modify that however you like.
+[00:08:03] For my purposes right now, let's just keep it three for our purposes rather.
+[00:08:07] So let's scoot this out a little bit, maybe make that a little bit shorter.
+[00:08:13] So it's like that.
+[00:08:15] Maybe you know what, this is kind of a bell shape.
+[00:08:17] So maybe we wanna have this be a little bit more of a smooth arc.
+[00:08:25] All right, so now we have our Bezier curve.
+[00:08:27] That's pretty similar to what we just made.
+[00:08:30] Now we have some Bezier curve controls over here on the right panel.
+[00:08:34] So select this guy, you can see we have a bunch of stuff here.
+[00:08:38] What we're really focused on right now is we want to be able to visualize this as geometry.
+[00:08:45] So we're gonna go down to bevel and depth and turn this up.
+[00:08:49] You can see that immediately we start to get some geo associated with this.
+[00:08:54] This has a resolution of four, which means it's subdivided four times around the sides.
+[00:08:58] I'm gonna bring this down to one.
+[00:09:01] It always starts at, or zero rather, always starts at this kind of, since it's a round
+[00:09:05] shape as low as we can get while staying round is a square or cube or a four sided polygon
+[00:09:11] like this.
+[00:09:12] As soon as we start to bring up this resolution, see now we have one, two, three, four, five,
+[00:09:18] six, six.
+[00:09:19] And up again, we start to get another cut and we're just gonna keep this at zero for
+[00:09:24] now.
+[00:09:29] There we go.
+[00:09:30] Now you can see we can move this stuff around and we can change all kinds of things.
+[00:09:35] We can make this wider, make it shorter or thinner rather.
+[00:09:42] Now let's say we wanna have our swipe be kind of shaped like this.
+[00:09:46] We want it to kind of start here and like have this cool arc, but also go up on the
+[00:09:54] Z.
+[00:09:56] So we're gonna do a little bit of modification to this and take this, hit four to bring back
+[00:10:02] to our object mode.
+[00:10:03] We can right click on this and convert to mesh.
+[00:10:08] So now we only need essentially this, one of these faces.
+[00:10:13] So we're gonna delete these bottom ones because you want, remember we want a flat arc.
+[00:10:18] So I'm gonna double click here and double click here, shift, double click here.
+[00:10:23] I'm just selecting these two faces, these two loops rather on the back and delete that
+[00:10:29] faces.
+[00:10:32] Now we have this kind of cool triangle thing, but really we just want one swipe.
+[00:10:38] So I'm gonna hit number two to go back into my edges, double click this.
+[00:10:42] So I selected this whole edge, edge rather, hit control, backspace, and that's gonna delete
+[00:10:48] that edge and leave us with this really cool flat swipe arc.
+[00:10:53] I can imagine if your character kind of has a horizontal swipe, but maybe there's a little
+[00:11:00] bit of a upswing to it.
+[00:11:02] This would be great for that.
+[00:11:04] And again, because it's a Bezier curve and they all start at zero and go to one, our
+[00:11:10] UVs are already done for us.
+[00:11:15] Select at three, select all.
+[00:11:18] Bam, UVs.
+[00:11:20] Super cool, super useful, just fantastic.
+[00:11:28] Now I should also mention that Bezier curves are great for solar coasters as well.
+[00:11:36] As you can see, if we were to go ahead and add another Bezier curve and kind of do exactly
+[00:11:44] what we just did, you can see that we can play with the depth quite a bit if we go ahead
+[00:11:51] and really quickly just mess with this.
+[00:11:55] Let's just make this like this.
+[00:11:56] Let's immediately add some geo to it.
+[00:11:59] Let's bring this back down to zero again and let's add some more points, some divide.
+[00:12:04] In fact, you know what, for right now, let's keep this just easy to see by taking away
+[00:12:09] that geo and let's just kind of mess this up a little bit and get an interesting shape.
+[00:12:25] I'm not trying to be too precise right now since I don't entirely know which direction
+[00:12:29] I want this effect to look.
+[00:12:33] We're just going to kind of give it a pseudo ring feel, there we go, make this wider and
+[00:12:59] kind of smooth out these corners here, there we go.
+[00:13:06] So it's not beautiful, but hopefully you can kind of see what we're doing with this.
+[00:13:11] Now we can go through and start to add some more geo again, just like we just did, make
+[00:13:17] that maybe kind of thicker like this, convert to mesh and do exactly what we just did.
+[00:13:28] Delete the bottom ones and you're left with the top, grab that middle vert or that middle
+[00:13:38] line and control delete it and you're left with essentially a solar coaster.
+[00:13:44] Now depending on the shape that you want, there is a better way to do this, especially
+[00:13:48] if you want something that's spiraling up.
+[00:13:50] And we talked about this a little bit in one of our previous episodes about modifiers and
+[00:13:54] just as a refresher, we'll go through and do that again.
+[00:13:57] So if you wanted to have a solar coaster kind of do a spiral up for you, again, you can
+[00:14:03] go to add mesh cube.
+[00:14:07] Remember we're going to bring this up on the Z and go to object, apply all transforms.
+[00:14:14] Again the purpose of that was to have this cube sitting on the zero point and have the
+[00:14:19] zero point at its bottom.
+[00:14:23] We are also going to set our normals to auto smooth and shade smooth.
+[00:14:33] Let's go ahead and add a subdivision surface at simple, subdivide maybe twice just to start
+[00:14:39] us off.
+[00:14:42] Add another one, let's add a simple deform, a twist at the Z and remember we want this
+[00:14:52] to be kind of tall so let's hit three, let's go into our editing for our faces and just
+[00:14:58] grab that top face and bring it up a little bit.
+[00:15:02] We can even grab the bottom face and scale that if we like.
+[00:15:07] So we don't even have to go through a taper if we don't want to, we can do all of that
+[00:15:10] through the mesh.
+[00:15:11] But actually you know what, let's do the taper just because it's non-destructive.
+[00:15:16] So we'll twist and twist that a little bit more like so.
+[00:15:20] Let's add another modifier for our other simple deform and go to taper on the Z and
+[00:15:27] scoot that down a little bit like this, there we go.
+[00:15:33] So now we have this interesting kind of feel here, if you want to add any cuts to this
+[00:15:38] we totally can, might give us a little bit more control, might give us less, it depends
+[00:15:42] on what you need.
+[00:15:44] I think for now since we want this to be a solar coaster that kind of shoots up maybe
+[00:15:49] we're going to take the bottom and scale this up after all just to help with that taper
+[00:15:54] so it gives us some more room on the bottom, more area for your character to stand in.
+[00:15:59] And let's see if I hit number two, go into edges, alt C to go into cut, add one cut there,
+[00:16:06] what happens if we grab that line that we just cut and scale that up a little bit like
+[00:16:14] this.
+[00:16:18] So now we kind of have this interesting kind of thicker in the middle, the bottom in the
+[00:16:24] middle, it kind of shoots up and twists, modify this a little bit, maybe not like that, there
+[00:16:33] we go.
+[00:16:34] All right, again let's nuke the tops and the bottoms here and just delete those and then
+[00:16:44] we can delete these sides.
+[00:16:45] Two of the sides, remember we're keeping the front and the back, we're just losing the
+[00:16:50] right and the left.
+[00:16:52] Now we have interesting solar coasters like this, we can apply these, there you go.
+[00:17:11] From here we can pretty easily start to kind of optimize these a little bit, what I like
+[00:17:18] to do with this is kind of, especially when I need to optimize them wholesale, I like
+[00:17:23] to take every other edge, just shift double click on each one of those so I have a bunch
+[00:17:29] of edges selected and control backspace to get rid of a bunch right at once and it's
+[00:17:36] a really good way to uniformly bring the poly economies down so they're a little bit easier
+[00:17:41] for the engine to handle.
+[00:17:44] But there we have it, another type of solar coaster, another method of making interesting
+[00:17:49] shapes that you can then use as solar coasters or use as swipes or even just kind of discs
+[00:17:57] and hopefully being able to think like this and being able to understand that there are
+[00:18:03] several different ways and several different ways to approach different meshes, different
+[00:18:08] outcomes of meshes rather, there's really no one correct way to make an effect mesh.
+[00:18:15] Whichever way is the correct way for you or for the project or for the specific task is
+[00:18:20] the correct way that you can go and even within that there are several different approaches
+[00:18:25] that you can take, you should never ever feel like that you're pigeonholed into one
+[00:18:31] specific area or never feel like you're hopeless or anything like that, there's always a way
+[00:18:38] through it and one of the wonderful things about 3D modeling within the VFX discipline
+[00:18:46] is that when you keep in mind that the end result and what the player sees, what the
+[00:18:52] player is made to feel because of the artwork that you made, that is the end result and
+[00:18:57] how you get there, as long as it looks good and it follows your art design and everything,
+[00:19:02] you can get there however you want.
+[00:19:04] There's often no one perfectly correct way to do an effect.
+[00:19:09] There are better ways to do it for sure but there's a lot of wiggle room and a lot of
+[00:19:15] areas for personal expression and a lot of ways to make your vision the vision for this
+[00:19:22] effect.
+[00:19:23] I hope this is helpful, as always if you have any questions please feel free to reach out,
+[00:19:28] I would love to help out.
+[00:19:30] Thank you so much and I hope this is helpful and we'll talk to you soon, take care, bye.

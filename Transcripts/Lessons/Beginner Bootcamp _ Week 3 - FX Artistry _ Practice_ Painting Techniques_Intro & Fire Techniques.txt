@@ -1,0 +1,263 @@
+[00:00:08] Hi, how's it going? So, as you can see, here we have the four concepts that I've painted for the coursework here.
+[00:00:18] I'm just gonna real quick take you through my thought process and the tools that I use to get these various looks.
+[00:00:27] Now, there are a ton of different illustrators out there, all with all kinds of fancy brushes and techniques.
+[00:00:33] If you're super interested in digital painting as a discipline, I invite you to check out their resources.
+[00:00:39] A lot of them post their brushes and stuff. Mine is fairly straightforward by comparison to some of them out there.
+[00:00:47] I'm really just kind of using the default Photoshop round brush. That's either 100 or 0% softness.
+[00:00:59] And I'm using kind of tricks like the lasso tool and various layer styles to achieve the kind of effects that I'm after.
+[00:01:12] Also, I like to use this kind of flat chisel brush here. Check this out.
+[00:01:20] Which is done just by taking one of the default Photoshop brushes and you go into your brush settings here.
+[00:01:31] And you just... like this, right? And then you go over to shape dynamics.
+[00:01:43] And then, under the angle gender control, you just put pen tilt, right? And that's pretty much how I do it.
+[00:01:53] I'm using an older version of Photoshop, so the preview cursor here doesn't update on what the angle is going to be.
+[00:02:03] But it does change with the angle, as you can see here.
+[00:02:06] If you look closely here, we've got these kind of jaggies here. That's because the distance between instances of the brush...
+[00:02:17] Because the Photoshop brushes are just stamps that just get stamped down over and over and over again as you drag your brush across the surface.
+[00:02:25] And you can go to spacing here and adjust the spacing to smooth those out until they're nice and buttery smooth.
+[00:02:41] If you're unfamiliar with the Photoshop brushes, there are other things. There's this.
+[00:02:47] The icon has changed in the newer versions. It's a little bit different, but the basic idea is this introduces a dynamic fade into it.
+[00:02:56] Based on your pen pressure, you used to have to just set this in transfer here under the transfer properties.
+[00:03:03] Opacity, pen pressure. So it does that there. This button just does it automatically.
+[00:03:10] Even if the transfer isn't enabled on the brush, you still get this nice gradient based on your pressure input.
+[00:03:22] Cool. So without any further ado, what I'm going to be doing here is I'm going to be painting little mini examples.
+[00:03:30] Oops, I deleted the ball. No problem. We can go into our history and get it back.
+[00:03:36] Cool. History is another really, really useful tool. It's like an undo, but much more powerful because it logs all of the stuff that you've done.
+[00:03:44] You can adjust how much of the history you keep and you can kind of go back and forth. Very useful tool.
+[00:03:54] Something that I like to do is I'm drawing on a Wacom Cintiq 21UX. They have much, much older versions. This thing's like 10 years old.
+[00:04:06] But it's got a lot of cool stickers that I've collected on it, so I kind of like to, you know, keep it around for nostalgic purposes.
+[00:04:12] Plus, you know, the new ones are expensive. Anyway, there are buttons on the side of this that you can map things to, right?
+[00:04:23] So you can access your history very, very quickly if you map step forward and step backward in history to quick buttons.
+[00:04:34] Not every painter I know uses this, but I like to. I think it's useful. Anyway, without any further ado, let's jump in.
+[00:04:43] What I'm going to be doing is rendering these balls as if they were part of the material in this concept.
+[00:04:50] So what we're going to try here for this one, I'm going to adjust the opacity so it's light.
+[00:04:58] So I know where the ball is because I'm going to be kind of redrawing it, but it's not going to super heavily influence what I'm trying to do.
+[00:05:12] In fact, just so that I know where it's, just that I can't go outside of this, what I'm going to do is I'm just going to hit CTRL and select the layer, CTRL and tap the layer.
+[00:05:26] That'll give you a marquee selection around it. So if you create a new layer, all of my brush work goes on the inside, right?
+[00:05:42] But once again, now you've got this, like, marquee selection, marquee selection, however, whatever, marquee selection.
+[00:05:57] And it's kind of noisy, you know, it's alternating black and white. So if you want to focus on what you're doing and not be distracted by that, you can press CTRL H to hide it.
+[00:06:08] CTRL H is hidden now. Cool. So let's dive in. So the first thing we want to do is establish a palette.
+[00:06:19] This is, the smoke, the underlying smoke is just grayscale, right?
+[00:06:24] So what we want to do is we want to create the impression of a thick, translucent, grayish black smoke.
+[00:06:35] So because it's thick, the light, let's just undo our selection here.
+[00:06:43] The light that's coming in from, oh yeah, we've got the light that's coming in from this angle is still going to be bouncing off of it, right?
+[00:06:58] So on our ball, right, our ball clearly indicates that the light is, so like, this ball is like an opaque object.
+[00:07:10] It's got a rough surface, right, that is scattering and bouncing light in different directions, instead of just reflecting light directly like a mirror.
+[00:07:24] So you have this kind of like white part that's illuminated directly from a light source,
+[00:07:38] and then you have light bouncing up off the ground and illuminating the bottom here.
+[00:07:44] You can see there's like a bounce light there.
+[00:07:48] So this is a lighting setup that we can use to inform our rendering.
+[00:07:53] And again, since this, the smoke that we're painting is thick enough that it's going to create a similar kind of look,
+[00:08:07] we can use this to, as just kind of like a starting point, right?
+[00:08:13] So let's do that, right? So let's select something, a very dark grey, and I think we're going to want to use just a regular brush.
+[00:08:26] Cool. I believe I was instructed not to break the silhouette, but I think I'm just going to do that anyway.
+[00:08:40] So let's just paint this in here. We want it to be opaque.
+[00:08:49] Now say I'm dissatisfied with this, right? Like I've already made a mistake. This is too dark. I don't want it to be this dark.
+[00:09:21] Well, what you can do, because Photoshop is very flexible, you don't have to commit to anything at all,
+[00:09:28] is you can go to adjustments, brightness, contrast. You can also do this with the hue saturation thing.
+[00:09:38] Hue saturation will give you a few more options. Hue saturation also lets you adjust the lightness.
+[00:09:45] And we can just bring this into any value range that we want, right?
+[00:09:51] So I think it's going to be, there's probably what I want.
+[00:10:01] Oh, another useful tool, eyedropper. Eyedropper's super useful.
+[00:10:10] Eyedropper can, you can modify your default click to be an eyedropper just by holding on the ALT key.
+[00:10:18] And I do that all the freaking time, and I have it actually mapped to one of my stylus buttons.
+[00:10:23] Or I usually do. Maybe I don't in this instance. Anyway, I'm just going to be using the ALT key.
+[00:10:33] How's this look? Maybe a little bit darker. Cool.
+[00:10:40] So, okay, I think we can erase a little bit. I want to carve some like little notches or whatever into this.
+[00:10:52] So that we have some kind of discernible shapes. Actually, let's, before we do that, let's figure out what those shapes are going to be.
+[00:11:03] So the light's coming from this direction, right? We're from up here.
+[00:11:08] So I think what we're going to do just to start off with is getting that selection.
+[00:11:17] And then we're going to dial down the hardness even further to something like 16% and just boop.
+[00:11:27] And we can reinforce that a little bit.
+[00:11:35] And okay, there we go. That's it. End of the painting.
+[00:11:44] I think we can make the shape a little bit more complex. Let's add, making sure that this eraser is soft.
+[00:11:55] Let's go in here.
+[00:11:58] Like we'll actually want to use the varied opacity, I think. Probably zero hardness.
+[00:12:11] Yeah, maybe something like that. Maybe that's too dark.
+[00:12:42] Okay, so let's, I'm going to eyedrop from over here, right? Because it's not as intense as over here.
+[00:12:49] Because this bump is going to be more in shadow.
+[00:12:59] Let's size this up a bit. Soft shapes. As soft as we can make them.
+[00:13:15] And we want this fall off here, right? We want it to be getting time like that.
+[00:13:43] And the light that isn't blocked by this main blob here that's catching all the light is going to be hitting the edges of these other secondary blobs.
+[00:14:02] Okay, so another difference between these brushes I'm selecting is, these ones, if you select the last one, the size of the brush doesn't vary with your pen pressure.
+[00:14:18] Which is sometimes what you want. Soft eraser.
+[00:14:35] We're working in this bounce light here on the other side. And I think we can even add probably a little bit of dark here.
+[00:15:07] Just to accentuate where the shadows are. Keeping everything as soft as we can.
+[00:15:18] Alright, I think that's looking pretty good.
+[00:15:27] Alright, but this is a fiery explosion. And where's all the fire?
+[00:15:32] So, let's add a little bit of fire.
+[00:15:35] I'm going to, we want the fire shapes to be a little bit more distinct.
+[00:15:39] So I think I'm going to lean on that brush that I created. You can save your brushes.
+[00:15:45] I'm notoriously bad about doing this.
+[00:15:50] Another quality of life practices for myself.
+[00:15:54] But, the more of these I do, the better I'll get at it.
+[00:15:57] So, this is good for both of us.
+[00:16:01] Let's label these, Darks, Lights, Smoke, Base, I don't know, some other arbitrary name.
+[00:16:16] And you can, whatever, really whatever name will let it work for you.
+[00:16:26] You know, if you're working in a studio and you're handing these things off to people
+[00:16:30] who need to be able to reference them or work within your working file,
+[00:16:36] you might establish some kind of naming convention around these that is standardized.
+[00:16:43] When you're working with real-time assets, certainly that's important.
+[00:16:47] But, within a PSD, if you're the only one who's touching it, you're the only person who needs to know what they are.
+[00:16:55] So, I definitely don't suggest just leaving things as layer 1, layer 2, layer 3, layer 4.
+[00:17:01] Because then everything is just layer 50 underscore copy 22 or whatever.
+[00:17:10] And that's not going to mean anything to you.
+[00:17:12] And if you're working in a larger file where you can't actually make out what the thumbnail of the object is,
+[00:17:18] you're just going to screw yourself.
+[00:17:20] So, yeah, try and be methodical about it.
+[00:17:24] I certainly try to be methodical about it.
+[00:17:26] Anyway, because the fire is coming from within the shape,
+[00:17:33] we want to put it kind of in these grey areas, or these darker areas that we've created.
+[00:17:41] We can go in, we can dig out some detail there.
+[00:17:44] So, that's what I'm going to do now with this brush.
+[00:17:47] And you know what I think I'll do? I think I'll make it just a little bit fatter here.
+[00:18:10] And it's more important to have visible detail towards the interior of the shape.
+[00:18:33] Like this kind of, you can see into it translucent, shining through crack details in the center of the shape.
+[00:18:41] So, that's where I'm going to focus my attention.
+[00:18:44] And you know, no matter how good your brush is, you're always going to have limitations sometimes.
+[00:18:52] So, I like to alternate using my brush and my eraser, just kind of like pushing and pulling, right?
+[00:19:00] If the stroke doesn't resolve in a way that I want it to, well then I don't have to commit to that stroke, right?
+[00:19:06] I can kind of manually contour it to resolve the way that I want it to, right?
+[00:19:16] Like this, for example, right here is too harsh, so I'm going to soften it, right?
+[00:19:26] And as I do so, pull a little, a new little detail out of it.
+[00:19:31] So, and isn't that nice?
+[00:19:36] Then maybe I want to suggest that there's the beginning of another shape here.
+[00:19:44] I'm not going with any particular plan aside from just trying to follow and complement the shapes that I've already created, like just sort of embellishing.
+[00:20:00] So, I'm doing a lot of like putting things down, seeing how I look, what I think, how they look, what I think of them, and sometimes pulling them back up.
+[00:20:11] And it's so nice that Photoshop affords us the flexibility to do this relatively consequence-free.
+[00:20:20] So, I'm going to eyedrop directly from this thing right now, and I'm going to lay that in, or lay in one of these bright oranges, right?
+[00:20:33] And just kind of kiss where I want those to be.
+[00:20:38] And a good rule of thumb for working, for doing this, is you always want there to be a consistent gradient.
+[00:20:47] When something's being illuminated from the inside, you want, in order to sell this idea, particularly of translucency, and just kind of in general,
+[00:20:59] you don't want, like, for example, the yellow to touch the black or the gray.
+[00:21:06] You always want to take it through the oranges here.
+[00:21:12] It's a big no-no.
+[00:21:22] So, yeah, you can see, this is very suggestive of kind of a fiery interior.
+[00:21:36] But something I think is missing right now is this red glow that I've put, it just kind of blobbed over top of all of this stuff here.
+[00:21:47] We can even add, like, a super bright.
+[00:21:50] Here, let's add a little bit of hardness here.
+[00:22:11] More graphic shape there.
+[00:22:13] This is just to add some emphasis and some pop to it.
+[00:22:24] Almost as if the color's being blown out.
+[00:22:31] All right, that's feeling good.
+[00:22:36] Like I mentioned earlier, this is much redder.
+[00:22:40] Let's select our smoke base.
+[00:22:44] And for our finishing touch on this particular example, we're just going to get some 100% red here.
+[00:22:56] No opacity.
+[00:22:58] Make sure that we have the transfer enabled.
+[00:23:19] And we're going to set this to linear dodge.
+[00:23:29] And mathematically, what linear dodge does is it simply adds to the values underneath of it, right?
+[00:23:38] So, like, every pixel on the screen has an RGB value.
+[00:23:42] And with this, with 100% red, the strokes that I'm putting down or the area that I'm painting with my brush is just going to be adding red to what's underneath of it.
+[00:23:58] And if you paint on the wrong layer, the yellow layer, it's going to overwrite the yellow.
+[00:24:10] Here.
+[00:24:11] Dodge.
+[00:24:13] Which is why it's important to always label your layers, because you'll find yourself painting on the wrong one if you don't.
+[00:24:20] Red.
+[00:24:21] It's another place where history comes in handy, right?
+[00:24:35] Like, say, like, it's easy to, you know, whoops, undo, right?
+[00:24:44] But if you do two bad strokes and you don't realize that you're painting on the wrong layer until, like, 20 strokes in, a single undo is not going to cut it.
+[00:24:55] But history gives you access to more stuff, right?
+[00:25:02] Cool.
+[00:25:05] Yeah, so let's push this in here.
+[00:25:07] Maybe something like that.
+[00:25:34] We can add more oranginess to it if we want.
+[00:25:40] Maybe dial down the opacity just a little bit.
+[00:25:47] Another thing we can do with the yellow is we can add a glow to it.
+[00:25:52] And since it's so bright, we can move this up over top.
+[00:26:10] I think it's more reddish.
+[00:26:34] But I don't think that the treatment really needs it at this point.
+[00:26:37] And now that we've laid in our glow, we might want more darks.
+[00:27:02] I don't know.
+[00:27:03] We can play around with this idea if we want to.
+[00:27:06] Maybe just to pull more dimension out of this shape, hide that.
+[00:27:16] And then we can go over it with some, get a multiply.
+[00:27:31] It doesn't need to be completely black.
+[00:27:34] Especially if we have it on multiply, right?
+[00:27:36] We can put in any gray color.
+[00:27:44] And the multiply blend mode does exactly what it says it does.
+[00:27:48] If you think of it in just arithmetic, like RGB pixel arithmetic,
+[00:27:58] it is multiplying the values that I put down with the values underneath them.
+[00:28:10] Is this getting us what we want?
+[00:28:11] I don't think it really is.
+[00:28:13] It looks like the example already.
+[00:28:20] Nah, it's good.
+[00:28:30] You generally don't want to put blacks on top of bright colors like this,
+[00:28:38] because you wind up running into that problem that I described earlier,
+[00:28:41] where you're not taking it through the gradient.
+[00:28:43] You'll have blacks right up against it,
+[00:28:44] or you'll be muddying these bright saturated colors with the blacks underneath them,
+[00:28:48] which is what you use blending modes like linear dodge and the layer style,
+[00:29:01] the outer glow, in order to avoid.
+[00:29:05] So, yeah, I mean, we can add stuff happening here.
+[00:29:12] We can have, that's still maybe a little bit too intense.
+[00:29:20] Yeah, that's better.
+[00:29:25] Somewhere around the 50s.
+[00:29:27] Cool.
+[00:29:39] Let's manually delete it.
+[00:29:41] There.
+[00:29:43] Ooh, okay.
+[00:29:46] That's working.
+[00:30:03] You know, we can even illuminate the bottom,
+[00:30:05] as if there's something underneath of it that's making this bright.
+[00:30:12] Let's do that.
+[00:30:13] Whoops.
+[00:30:25] Yeah, yeah, that's feeling all right.
+[00:30:28] I think I can noodle with it some more.
+[00:31:49] Oh, something you've got to watch out for with selections, right?
+[00:31:52] And this is an interesting thing.
+[00:31:54] I've got my hidden selection here, right?
+[00:31:57] And because all of these pixels around the edges are 50% selected,
+[00:32:01] you can only 50%, like, you can fill this all in.
+[00:32:07] And even if you go to erase it, it only gets 50% erased.
+[00:32:12] So you get this kind of haloing effect.
+[00:32:18] And you just select everything, delete to get rid of that.
+[00:32:22] It's pretty straightforward.
+[00:32:24] Let me repaint this real quick, what we had.
+[00:32:30] Yeah, I think it's best probably just to kiss these areas
+[00:32:32] that we've pulled these glows out of in the first place,
+[00:32:40] and then just kind of leave the rest to the work that we've already done.
+[00:32:53] Yeah, nice and simple.
+[00:32:57] And we can add some of these little flamey flames or whatever,
+[00:33:01] if we really want to.
+[00:33:04] Let's add another.
+[00:33:16] We can copy the layer styles in so that when we paint our flames,
+[00:33:23] it'll be bright.
+[00:33:35] And we don't want that.
+[00:33:40] There we go.
+[00:33:41] Add one, two, doesn't really matter.
+[00:33:43] And maybe a little bit of hardness.
+[00:33:50] I don't know.
+[00:34:06] Something like that.
+[00:34:07] Where do we want these to be?
+[00:34:28] Brighter accents for these.
+[00:34:34] If you look at flames, at the actual way that flames are formed,
+[00:34:38] they form as kind of these weird sheets.
+[00:34:41] It's like a sheet almost billowing in the breeze,
+[00:34:44] but one that's translucent, like a plastic bag.
+[00:34:48] And it also has its own sort of luminance.
+[00:34:56] If you look at super-duper slow-motion videos of flames igniting,
+[00:35:04] gas flames lighting, chemicals burning,
+[00:35:09] you see this really interesting way that it displays.
+[00:35:16] It's almost like a bubble.
+[00:35:18] When you're treating or illustrating something that's translucent here.
+[00:35:24] Let's see if we want more motion here.
+[00:35:27] We can blur it out.
+[00:35:28] Just use the blur tool.
+[00:35:30] Use the blur tool sparingly.
+[00:35:44] Never use the blur tool for a job that an eraser can do.
+[00:35:47] Let's dial up the hardness here.
+[00:35:55] I want to pull more specific shapes out of this.
+[00:36:09] Maybe that's a little bit better.
+[00:36:14] I think we went a little ham with these, but no big deal.
+[00:36:23] Get orange back in there.
+[00:36:26] And the sparks are the most straightforward thing in the world.
+[00:36:43] Just dial up that opacity.
+[00:36:47] So I think that's just about that example done.
+[00:37:16] We can work in some whites just to try and give it a super pop,
+[00:37:20] but that's the basic idea behind the treatment.
+[00:37:24] You don't really need anything crazier than that.
+[00:37:30] This whole flame layer is completely optional.
+[00:37:39] I think it works just fine without it.
+[00:37:42] So anyway, that's how we did that one.
+[00:37:45] That's the basic technique there.
+[00:37:48] Now we're going to move on to this one.

@@ -1,0 +1,802 @@
+[00:00:09] Oh, hey guys, let's make a wispy nether explosion.
+[00:00:15] Sounds pretty cool, right?
+[00:00:16] So I'm gonna go ahead and play this video here.
+[00:00:18] We've got the Photoshop document open as well,
+[00:00:22] so I can pop over that as needed.
+[00:00:24] So David Sheldon's got these awesome thumbnails
+[00:00:28] we're gonna just pick up from the thumbnail stage.
+[00:00:31] If you guys want to get practiced at making thumbnails,
+[00:00:35] honestly, the key, just use just black and just white
+[00:00:41] and make a lot of these.
+[00:00:43] The key is not to make one and keep editing it
+[00:00:46] and making it amazing, but to just crank these out
+[00:00:49] and honestly, just playing around with the shapes
+[00:00:52] and they don't have to be perfect,
+[00:00:54] but just practicing those principles that were discussed
+[00:00:57] in the opening lecture about wrapping forms
+[00:01:00] and the big, medium, and small
+[00:01:02] and the straights versus curves and all that
+[00:01:04] that we go into there, that's really how you're gonna find
+[00:01:10] your ability to make interesting shapes go up
+[00:01:13] is just by experimenting, doing a lot of thumbnails.
+[00:01:16] The beauty of a thumbnail is honestly,
+[00:01:19] it shouldn't take you more than just a few minutes.
+[00:01:22] We're talking 10 or 15 minutes tops.
+[00:01:26] A lot of thumbnails you can do in just five minutes.
+[00:01:28] So yeah, don't overthink it.
+[00:01:31] Just get all the bad drawings out of you.
+[00:01:33] Just lay it down.
+[00:01:35] It's also a great way to get used to the stylus
+[00:01:38] and tablet on a Cintiq or a Wacom tablet.
+[00:01:42] So that'd be my recommendation there.
+[00:01:45] I didn't wanna spend really too much time
+[00:01:48] on the thumbnail stage because there's so much meat
+[00:01:52] in the rest of all this.
+[00:01:54] You'll notice, by the way,
+[00:01:55] speaking of the thumbnail stage,
+[00:01:57] you'll probably notice these other sketches down here.
+[00:02:00] These are 2D effects concepts by Alex Redfish.
+[00:02:06] That's sort of a sneak peek or a spoiler
+[00:02:09] for future classes or a future class
+[00:02:13] where I wanna do 2D effects animation.
+[00:02:15] That's not gonna be in this class, but that is coming.
+[00:02:18] So spoiler alert, sorry about that,
+[00:02:23] that you had to see that.
+[00:02:24] I was hoping to keep it from you,
+[00:02:25] but Shovlin just included it in his process.
+[00:02:29] So cat's out of the bag.
+[00:02:31] There's a 2D effects class coming someday.
+[00:02:33] I can't promise when, but it's coming.
+[00:02:35] So anyway, what Shovlin's doing here
+[00:02:38] is he's taken his thumbnail,
+[00:02:40] and thumbnails should be small, by the way.
+[00:02:42] When you're painting a thumbnail,
+[00:02:43] you wanna keep them really small.
+[00:02:45] And then that way you keep your composition really tight
+[00:02:49] and you know how all the shapes are relating to each other
+[00:02:53] and stuff on just a very quick glance when it's a small image
+[00:02:56] then of course, when you're ready to make it
+[00:02:58] into a full-scale painting,
+[00:02:59] scale it up to this bigger image that we see here.
+[00:03:04] So he just took the one, scaled it up, got it going.
+[00:03:07] He used the soft brush for the glow in the middle.
+[00:03:11] And I think he just wanted to establish
+[00:03:16] this is glowing inside, right?
+[00:03:17] And so he's putting that on a layer behind,
+[00:03:19] and then he's got this other inner layer
+[00:03:22] that's catching the light on the inside
+[00:03:25] of the round spherical sort of wispiness.
+[00:03:29] And then from here, you'll notice throughout the bulk
+[00:03:33] of the first part of the video,
+[00:03:35] he's just gonna be using a really sharp, crisp brush.
+[00:03:40] And I think that's a really smart move
+[00:03:43] for a lot of situations.
+[00:03:44] Obviously, it's not gonna work all the time,
+[00:03:46] but if you find that your paintings are just kind of muddy
+[00:03:50] and the shapes just sort of bleed into each other
+[00:03:53] and there's not like a crisp delineation,
+[00:03:55] you might try the challenge of just spending as much time
+[00:03:58] as you can working either with the lasso tool,
+[00:04:01] like he's lassoing here to just delete away shapes,
+[00:04:04] or a crisp-edged brush and a crisp-edged eraser.
+[00:04:09] That's gonna give you very, very clear silhouette.
+[00:04:13] And I like to work this way.
+[00:04:14] I think a lot of it is my background as a 2D effects animator
+[00:04:18] where working in Adobe Animate,
+[00:04:21] it's like the shapes are all crisp all the time.
+[00:04:25] But what I found is that I can always fuzz it out later.
+[00:04:29] And it's a lot easier to smudge an edge
+[00:04:32] or go over it with a fuzzy brush
+[00:04:34] or at a glow that's fuzzy later
+[00:04:38] than it is to later go back and make it a crisp edge.
+[00:04:42] And so if you can find shapes
+[00:04:44] that are just really crisp and clear and sharp
+[00:04:49] in the early stages that you really like those shapes,
+[00:04:53] you can take parts of them later and blur them out,
+[00:04:58] smudge them out, whatever you wanna do,
+[00:05:00] and leave some parts crisp and make other parts fuzzy.
+[00:05:05] And you'll notice that that's exactly what's going on here.
+[00:05:07] Like there's a lot of really crisp edges,
+[00:05:10] but there's little spots where it's fuzzy,
+[00:05:13] there's like a fuzzy glow inside.
+[00:05:15] In the instance of this painting in particular,
+[00:05:19] yeah, there's some fuzz over here, of course,
+[00:05:22] where it's like jutting out.
+[00:05:24] But he left the bulk of it very crisp on the silhouette.
+[00:05:27] And then stylistically, he's going in with this brush.
+[00:05:30] See, even here, he has the shape selected
+[00:05:34] so that when he's adding fuzzy texture to the center of it,
+[00:05:40] it's all interior.
+[00:05:41] So the interior shadows and highlights and things,
+[00:05:45] those are really soft,
+[00:05:46] but the outer silhouette stays very, very crisp and clear.
+[00:05:51] And again, this is a very specific stylistic choice.
+[00:05:53] Obviously, not every smokey whisk that you do
+[00:05:57] is gonna have that same tone to it
+[00:06:01] where it's like super crisp silhouette.
+[00:06:03] But I don't know, like my thinking is,
+[00:06:07] I mean, we could even try it.
+[00:06:09] Like, let's see here.
+[00:06:12] We'll scale this over so that you can see.
+[00:06:17] Let me just zoom this out.
+[00:06:20] There we go.
+[00:06:21] So you can still watch him work while I'm working
+[00:06:23] and just both be working together.
+[00:06:26] So let's see.
+[00:06:29] Surface touch-ups.
+[00:06:35] So I wanna probably work on this inner wisp shape
+[00:06:40] and this one.
+[00:06:41] I'm gonna, just for the sake of this,
+[00:06:44] re-emerge these together.
+[00:06:50] Yeah, okay.
+[00:06:51] So I'll come in here and I'll just use the smudge tool.
+[00:06:56] And see, I can come in now
+[00:06:59] and I can kinda, what other layer am I missing?
+[00:07:06] Blue, there it is, blue highlights.
+[00:07:10] Nope, blue highlights, main, that'll be it.
+[00:07:14] There we go, okay.
+[00:07:17] So by fuzzing out these three,
+[00:07:18] now I can get more of a soft style
+[00:07:22] and really I can take it wherever I want, right?
+[00:07:26] Like I can make it more like blended with the environment
+[00:07:28] or whatever, but if the underlying shapes were good
+[00:07:31] to begin with, that's really the key.
+[00:07:34] That's the hard thing to achieve
+[00:07:36] is getting nice distinct shapes.
+[00:07:38] And so I would say that there's,
+[00:07:40] like I would encourage you guys to really
+[00:07:46] spend some time nailing those crisp shapes
+[00:07:50] the way that you're really happy with them.
+[00:07:52] And then if later you wanna go back in
+[00:07:54] and blend it with your environment,
+[00:07:56] make it more realistic or believable or whatever it is,
+[00:07:59] you can totally do that.
+[00:08:01] And it's gonna have the best of both worlds.
+[00:08:03] It's gonna have a nice shape underlying the whole thing
+[00:08:05] and supporting the whole thing.
+[00:08:07] And then it's also gonna feel very believable.
+[00:08:10] It's gonna be like, wow,
+[00:08:12] like that looks like I could reach out and touch it.
+[00:08:14] Like it's like living in the world.
+[00:08:17] So anyway, I haven't been paying much attention
+[00:08:18] to his process, but one thing that he's able to do
+[00:08:22] is he's able to flip the entire image.
+[00:08:26] And one way to do that is if you just click on the folder,
+[00:08:29] you wanna make sure you clicked on the folder,
+[00:08:30] you can go edit, transform, flip horizontal,
+[00:08:34] and it'll flip everything in the folder.
+[00:08:36] If it's just one layer, you'll just only flip that layer.
+[00:08:40] So that's a pro tip for you.
+[00:08:44] So yeah, he's using his chisel brush.
+[00:08:46] Looks like it's got like a fuzzy edge to it now.
+[00:08:48] So he's coming back in and he's adding these strokes
+[00:08:52] that feel more like they're brush strokes, painted strokes,
+[00:08:56] as opposed to just the crisp edges I was mentioning before.
+[00:09:01] He's gonna sharpen some of them up
+[00:09:03] and leave other little parts of it slightly
+[00:09:07] gradiented and blurred.
+[00:09:10] Nice, nice mix.
+[00:09:12] So it still feels like it's not quite a solid,
+[00:09:17] like a viscous solid or liquid,
+[00:09:18] but a little bit like a swooshing gas.
+[00:09:28] I think that smudge up there doesn't read as well.
+[00:09:32] I'm just gonna keep working on that.
+[00:09:37] I think something like down here.
+[00:09:38] See, and then you start to lose
+[00:09:40] like the delineation of the forms
+[00:09:41] because there's all kinds of pros and cons here to it,
+[00:09:45] but I'm just gonna have fun with it.
+[00:09:51] Yeah, see now it's not clearly in front
+[00:09:53] of that shape that was behind it.
+[00:09:57] That's one thing to note,
+[00:09:58] is that a very crisp edge pops out
+[00:10:04] in front of whatever's behind it.
+[00:10:06] If you ever have two competing things
+[00:10:09] and you can't tell which one's behind, which one's in front,
+[00:10:12] the way the brain processes it, if you make it blurry,
+[00:10:16] it'll sort of fade behind.
+[00:10:18] If you make it crisp, it'll fade in front.
+[00:10:21] And so you see what I did there by making that blurry,
+[00:10:24] it pushed it back.
+[00:10:27] See if I hit undo, make it crispy again.
+[00:10:31] Now it's out in front again.
+[00:10:33] And so just keep an eye on that
+[00:10:35] when you're using fuzzy versus crisp.
+[00:10:38] It's like if you want something
+[00:10:39] to just jump out at your eye up in front like that,
+[00:10:44] make the edge of it crisp and it'll pop out
+[00:10:49] like he's doing here.
+[00:10:50] You see these swooshes that come in front
+[00:10:51] actually are quite crisp and they jump out at you
+[00:10:56] and then they're in front of all of this
+[00:10:57] like sort of like soft texture on top of that surface.
+[00:11:03] And so also contrast, like a lot of,
+[00:11:07] like he's putting these like highlights of contrast
+[00:11:09] that he'll add later.
+[00:11:11] That'll make it pop out as well.
+[00:11:12] If you just add a nice little highlight there,
+[00:11:16] it'll look like it's catching light and make it pop out.
+[00:11:25] I really should pay more attention to what he's doing here.
+[00:11:29] There's a lot going on.
+[00:11:30] All right.
+[00:11:32] So yeah, he's laying in all kinds of towns.
+[00:11:37] So this is interesting, right?
+[00:11:38] Because he's decided to go with like near black
+[00:11:43] and dark purple for the outside.
+[00:11:46] And a lot of the outer shapes,
+[00:11:48] it's he's thinking of ambient light,
+[00:11:51] meaning light coming from the rest of the environment,
+[00:11:55] not coming from the effect itself.
+[00:11:58] And then the interior shapes
+[00:12:00] are gonna be all driven by that point light
+[00:12:03] that's inside of that.
+[00:12:07] I wanted to say mesh, but inside of the swooshes
+[00:12:09] in a game engine this would end up being a mesh of swooshes.
+[00:12:12] But anyway, so the key there is that like,
+[00:12:18] this is a purple material.
+[00:12:20] And then probably from this,
+[00:12:22] we would imagine that it's sitting on like a very dark floor
+[00:12:25] because of the bounce light coming up
+[00:12:27] is these like basically black shadows.
+[00:12:31] So it's just overall feeling like very brooding,
+[00:12:34] like it's in a dark environment,
+[00:12:35] even though we don't really see the environment.
+[00:12:39] And the fun thing up here is,
+[00:12:41] and that's the spoiler, he'll get to this later.
+[00:12:43] Here he added like a blue light shining on it.
+[00:12:46] So now we get the feeling that it's like maybe nighttime
+[00:12:50] with this blue moon shining down on it.
+[00:12:55] And that's like what's illuminating it,
+[00:12:56] which makes it feel even more like brooding and dark
+[00:12:58] and like it's in dark environments and other magic.
+[00:13:06] So some other fun things that he's done
+[00:13:16] is he's connecting a lot of these bigger shapes
+[00:13:18] with the stringy shapes, right?
+[00:13:19] So earlier on, he was really, really not precious
+[00:13:26] about how thin he made some of these lines.
+[00:13:29] He'd lasso them away and just like really make them feel
+[00:13:31] like they're about to snap,
+[00:13:34] getting really tense and about to snap apart.
+[00:13:38] And that's creating a really nice feeling
+[00:13:40] because it feels like these big sheets of air
+[00:13:44] and then these little tendrils
+[00:13:47] that are connecting those sheets of air
+[00:13:49] that are pulling apart, it creates the feeling of motion.
+[00:13:53] When you do that, a lot of tension of areas of rest
+[00:13:55] and then areas of tension between them
+[00:13:58] makes it feel like it's moving.
+[00:14:02] You've got all kinds of techniques as well,
+[00:14:04] like little swooshes here.
+[00:14:06] There's this little, I can't even see it over here.
+[00:14:11] I might have deleted it, but things like these little
+[00:14:14] swooshes that flip off that kind of come flying outward,
+[00:14:19] but they're still echoing the main curvature of the object.
+[00:14:25] It makes it feel like the object is spinning so fast
+[00:14:27] that it's flinging off these little bits
+[00:14:31] and the same out here as the objects get further away
+[00:14:34] from the core, they get thinner and more sparse
+[00:14:38] and like they're kind of pulling away
+[00:14:40] and quickly dissipating and dissolving
+[00:14:44] as they get further away from the object.
+[00:14:47] It's a great way to indicate motion with the still image
+[00:14:52] is showing the different stages of held together,
+[00:14:55] pulling apart, flinging away, bits flying off, et cetera.
+[00:14:59] These are all things, this is a great example
+[00:15:02] of painting motion in a single frame.
+[00:15:08] Okay, so now he's selecting this layer again
+[00:15:12] so that he can paint more in the interior,
+[00:15:15] again, maintaining that very clear silhouette.
+[00:15:18] And now he's thinking about how some of that light
+[00:15:20] might be ricocheting off of different places
+[00:15:24] from inside of it and then flooding out
+[00:15:27] to hit that outer surface some
+[00:15:30] and maybe creep around the edges,
+[00:15:32] I guess is what I'm trying to say
+[00:15:34] because it's so intense, right?
+[00:15:35] Like he wants it to feel like this light here,
+[00:15:39] this pink highlight is eating away at the purple.
+[00:15:44] And so think about how your light is interacting.
+[00:15:49] Sometimes too often we'll just paint light areas
+[00:15:56] of cool colors mixed in with the dark colors
+[00:15:59] and they're all just kind of swirling together.
+[00:16:01] Well, if you give it some thought
+[00:16:03] and really sit down and process for a while
+[00:16:06] how that light is interacting and what's going on,
+[00:16:09] you end up making much smarter decisions
+[00:16:11] that become much more believable
+[00:16:13] and easier for others to read
+[00:16:16] and understand how the magic functions.
+[00:16:18] So if multiple people are working
+[00:16:21] on the same school of magic and all that,
+[00:16:23] it's easy to replicate and reproduce.
+[00:16:25] Whereas if it's just a bunch of colors thrown together
+[00:16:29] and a bunch of values and shapes thrown together,
+[00:16:32] different people working on the same thing
+[00:16:33] are gonna have different interpretations of how it's lit,
+[00:16:37] what's producing the light, how it's all functioning.
+[00:16:39] So he's done it in a very straightforward way
+[00:16:43] that the pink is coming up on to these edges here.
+[00:16:49] And remember I talked about creating illusion of thickness
+[00:16:54] where the size of the bevel on the edge
+[00:16:58] kind of tells you how thick it's gonna be
+[00:16:59] throughout that form.
+[00:17:01] So he's done a good job of fading that off here
+[00:17:05] so that it feels like it's a rounded form.
+[00:17:08] Cause that's another thing about soft versus hard edges.
+[00:17:11] Like a hard color transition from pink to purple
+[00:17:15] feels like it's pointed.
+[00:17:17] Whereas the more you gradiate it, the more it's like rounded.
+[00:17:20] Does that make sense?
+[00:17:21] It's more feathered together.
+[00:17:26] So he's done that there and been very careful
+[00:17:29] about keeping those edges intact as well.
+[00:17:33] Move around that glow inside just to see how it feels.
+[00:17:36] Playing around with blend modes.
+[00:17:38] Looks like he's made it additive.
+[00:17:40] I think he just put an additive in front of everything
+[00:17:43] but it's gonna change that.
+[00:17:43] I think he's gonna pop it behind this front channel.
+[00:17:48] Yeah.
+[00:17:50] And that's the other thing.
+[00:17:50] Like you'll notice a lot throughout his videos
+[00:17:53] is he's working.
+[00:17:57] Oh no, that one stayed in front.
+[00:17:59] How interesting.
+[00:18:02] Let me see.
+[00:18:02] What does that look like without it?
+[00:18:05] Oh, okay.
+[00:18:07] That's really nice.
+[00:18:08] I actually really like that.
+[00:18:09] I stand corrected.
+[00:18:10] He stuck with that idea.
+[00:18:11] Sometimes you'll see him playing around with layers
+[00:18:13] and he'll turn off and on the additive or whatever
+[00:18:17] and then switch it around and even delete whole layers.
+[00:18:20] But this one's really cool.
+[00:18:23] It feels nice and glowy.
+[00:18:27] It's just these extra touches guys.
+[00:18:29] The stuff that you don't notice consciously,
+[00:18:32] it's like a subconscious thing to see
+[00:18:37] all of these stacked on top of each other.
+[00:18:39] I'll let you dive into the Photoshop
+[00:18:40] and see exactly what's going on in that layer though.
+[00:18:42] But it's so fun to watch Iris work.
+[00:18:48] I swear when I was in art school,
+[00:18:51] my favorite thing was just to watch the professor work
+[00:18:54] and just see how he does it.
+[00:18:57] That's why I wanted to really include these videos.
+[00:19:05] Some of the things I wanted to dive into.
+[00:19:16] I think you can have a lot of fun with masks
+[00:19:19] to create some of these crisp shapes as well.
+[00:19:23] I think with the techniques of control clicking the layer
+[00:19:26] or just even lasso tool or whatever,
+[00:19:35] you can get some of the same benefits of a mask
+[00:19:37] without the complexity of a mask.
+[00:19:38] Because once you have a mask in place,
+[00:19:40] it's just really hard to maintain
+[00:19:42] and keep track of sometimes,
+[00:19:44] especially if you have a lot of layers and a lot of masks.
+[00:19:47] So I like this.
+[00:19:48] It's like this nice blush that he puts on.
+[00:19:52] Notice that it's more saturated.
+[00:19:54] So sometimes you don't change the value
+[00:19:59] as much as you just change the hue.
+[00:20:01] Like if I click over here, just do control Y.
+[00:20:05] So this value through here
+[00:20:07] is just sort of the same light gray.
+[00:20:11] Right, like up through clear until it gets down to here.
+[00:20:15] It's the same, but the hue transitions.
+[00:20:18] So it's more saturated here and less saturated here.
+[00:20:22] And it's all magenta,
+[00:20:23] but it's just different on that saturation scale.
+[00:20:26] Sometimes you can be really subtle
+[00:20:29] with your color transitions.
+[00:20:31] It doesn't take much.
+[00:20:32] And it adds this sophistication to your work
+[00:20:36] that really sings.
+[00:20:38] And most people won't even notice exactly what it is
+[00:20:43] or rather they won't be able to put
+[00:20:45] to words what you've done,
+[00:20:48] but they'll notice that it feels nice.
+[00:20:51] They'll acknowledge that it's great.
+[00:20:53] One thing, one artist put it to me this way.
+[00:20:56] He's like, it's like the difference
+[00:20:58] between feature animation and television animation.
+[00:21:03] And they're both really well done.
+[00:21:07] There's a lot of amazing, talented artists
+[00:21:09] working in both 3D TV and 3D film.
+[00:21:15] But the difference is the budget and the time
+[00:21:18] that they're allowed to put into it.
+[00:21:20] And so if you put the budget and the time
+[00:21:22] into your concepts to add those extra touches
+[00:21:26] while you're in there,
+[00:21:26] you may as well make it really fancy, right?
+[00:21:29] The little subtle shifts of hue, for example,
+[00:21:32] or a saturation.
+[00:21:35] It's gonna give it that extra level of sophistication.
+[00:21:41] I don't know any other word for it.
+[00:21:43] Just feels really nice.
+[00:21:46] You know, and you may even have the prerogative
+[00:21:48] of it has to be very clear color.
+[00:21:53] You know, like another magic is just purple and pink.
+[00:21:58] You know?
+[00:21:59] And you're like, okay, I can work with that.
+[00:22:03] But there's so much that you can play with
+[00:22:04] with purple and pink.
+[00:22:05] Like, you know, I mean,
+[00:22:08] shall we put blue in there, right?
+[00:22:10] But it's still purple and pink.
+[00:22:11] It just has this touch to it that feels so nice.
+[00:22:15] Like throughout here, I'm gonna zoom back in on this
+[00:22:18] because this deserves a nice big zoom in.
+[00:22:23] So like these blue touches that are all throughout here,
+[00:22:28] they just add that extra level to it
+[00:22:32] so extra spice, you know, feels really nice.
+[00:22:36] And I would challenge you guys to do that.
+[00:22:39] As you're working, just try injecting little things
+[00:22:43] here and there.
+[00:22:44] And honestly, on the color slider, it's not that different.
+[00:22:48] So like when I come here, let's say pick this color here.
+[00:22:58] So that's the purple that I get there.
+[00:23:02] And that's the blue that I get there.
+[00:23:03] So the hue's shifting and it looks like the saturation
+[00:23:08] is shifting by a bit, but not much.
+[00:23:15] And then, you know, I come over to these pinks
+[00:23:19] and there's that pink and that pink.
+[00:23:22] So like the hue barely shifted.
+[00:23:25] Mostly it's a saturation shift between those two.
+[00:23:30] And this is really the benefit of you guys having these
+[00:23:32] PSDs is you can go through and with a fine tooth comb
+[00:23:37] and a microscope, you can analyze what he's doing
+[00:23:40] with his colors and what he's doing with the blend modes
+[00:23:43] to get those colors and which of these layers,
+[00:23:46] like this layer that I'm on is 15% opacity.
+[00:23:49] That's super, super transparent, right?
+[00:23:53] It's barely even there at all,
+[00:23:55] but it adds something to the painting
+[00:23:57] that wouldn't be there otherwise.
+[00:23:59] Okay, enough about the finer details in life.
+[00:24:04] So he's got a nice light going on inside.
+[00:24:09] It's feeling really good.
+[00:24:11] I think that must be, that looks additive.
+[00:24:16] Let's see here.
+[00:24:19] I have auto select on.
+[00:24:20] Oh, it's just gonna select the thing in front.
+[00:24:22] Oh no, that's it.
+[00:24:24] Yeah, it says add glow.
+[00:24:28] Yep, linear dodge add.
+[00:24:33] Although I don't think that's the same layer
+[00:24:35] that he's looking at now.
+[00:24:37] I think he's looking at, anyway,
+[00:24:40] I'm getting ahead of myself.
+[00:24:42] See, I'm doing it.
+[00:24:43] I got excited about it, guys.
+[00:24:46] It's cool for me too.
+[00:24:49] And that is the beauty of really any art form
+[00:24:53] is you're just always gonna be learning.
+[00:24:55] And that's something that I've had to learn
+[00:24:57] to just be okay with is no matter how many years I do this,
+[00:25:01] there's always gonna be people that know things
+[00:25:04] more than me.
+[00:25:05] That was kind of the point of having Shovlin
+[00:25:06] do this painting in the beginning.
+[00:25:08] I could do some paintings,
+[00:25:09] but they won't be as good as Shovlin's paintings.
+[00:25:12] So I'd rather learn from him along with you guys.
+[00:25:15] And it's really fun to go through his stuff
+[00:25:17] and check out what he's doing
+[00:25:19] and talking with him about what he did
+[00:25:20] and being able to share that to you guys is total honor.
+[00:25:24] It's a total delight.
+[00:25:27] Okay, so anyway, enough gushing.
+[00:25:31] So he's got these creases coming in
+[00:25:34] and he tried painting them in white,
+[00:25:35] which I thought was an interesting choice.
+[00:25:38] Because I think maybe he was going for highlights
+[00:25:46] streaking in because they end up being dark.
+[00:25:51] We're looking at these dark creases here.
+[00:25:56] It's like sort of folds.
+[00:25:59] You guys know what occlusion is?
+[00:26:01] Occlusion is a really interesting phenomenon
+[00:26:03] that honestly, in real life,
+[00:26:07] it's kind of noticeable,
+[00:26:11] but in games, we typically pronounce it a lot.
+[00:26:13] So basically light bounces off of everything, right?
+[00:26:16] Bounces off all the surfaces and the different angles.
+[00:26:19] And as two corners get closer together,
+[00:26:24] there's like a dark,
+[00:26:25] you see how there's like dark in between my hands?
+[00:26:28] But then I pull them apart and there's like no dark.
+[00:26:30] Well occlusion is like the light
+[00:26:32] can't get into that corner as easily
+[00:26:34] because it's ricocheting off
+[00:26:36] of all these different surfaces.
+[00:26:38] And then by the time it gets to that corner,
+[00:26:41] mathematically speaking,
+[00:26:42] it's just there's fewer rays of light
+[00:26:44] bouncing around in there.
+[00:26:46] And so you see,
+[00:26:49] we can exaggerate that with like,
+[00:26:52] even on a very subtly sort of wavy surface,
+[00:26:55] he's got pretty pronounced creases here
+[00:26:59] where the light is occluded from going in.
+[00:27:03] That's basically occlusion in a nutshell.
+[00:27:07] You can look it up.
+[00:27:08] There's a whole occlusion property
+[00:27:11] in materials in game engines.
+[00:27:14] And it's a whole thing that's calculated
+[00:27:16] in lighting and all that.
+[00:27:19] But you can easily produce it in painting
+[00:27:21] by just painting a black strip.
+[00:27:25] It's kind of sort of fuzzy and you'll have occlusion.
+[00:27:31] So yeah, just be mindful of that.
+[00:27:51] And he's doing, he's keeping the best of both worlds
+[00:27:54] where he's leaving it kind of crisp,
+[00:27:57] but you can see it's just,
+[00:28:02] it ended up being really subtle through here.
+[00:28:04] He just, it's more felt than seen.
+[00:28:06] A lot of it is supported by this larger area
+[00:28:09] of highlight, this sort of larger soft highlight
+[00:28:14] that by the time it hits here,
+[00:28:16] it's just subtly transitioning.
+[00:28:18] And you just kind of have to work your paint up,
+[00:28:22] and you'll see in the PSD,
+[00:28:25] there's really subtle differentiation of touch-up layers.
+[00:28:33] So you have the blue highlights layer,
+[00:28:36] which is kind of a touch-ups layer.
+[00:28:38] Some of these are labeled them as just touch-ups,
+[00:28:42] surface touch-ups.
+[00:28:44] And so you'll see like building up your paint
+[00:28:48] is really a critical process
+[00:28:49] and a really critical part of this whole process.
+[00:28:55] The doubles in the details.
+[00:28:58] And all the while he is being super protective
+[00:29:01] of that outer silhouette.
+[00:29:03] He likes that silhouette.
+[00:29:04] And so when he's making these larger like smudges
+[00:29:08] and strokes and fuzzy brush motions,
+[00:29:13] he is first selecting with the control click on the layer,
+[00:29:18] he's selecting his layer
+[00:29:21] and ensuring that it stays intact.
+[00:29:27] Yeah.
+[00:29:29] And like I said, it is just so much easier later,
+[00:29:32] like when you're done with the whole painting even,
+[00:29:34] like seriously keep that crisp edge there throughout.
+[00:29:39] And then maybe when you're all done,
+[00:29:42] you can go in and be like,
+[00:29:44] yeah, I wanted that to be a little bit softer.
+[00:29:46] I wanted that to be blurred out, blah, blah, blah.
+[00:29:50] But if you kind of let it get away from you in these stages
+[00:29:54] and it like just gets fuzzier and fuzzier and fuzzier,
+[00:29:59] you're gonna lose that sense of like shapes
+[00:30:01] in front of each other.
+[00:30:02] You're gonna lose the sense of like dynamic motion.
+[00:30:04] You're gonna lose a lot of things
+[00:30:05] that you don't want to lose.
+[00:30:06] You're just gonna lose them on accident.
+[00:30:08] And so then later when you wanna be deliberate,
+[00:30:11] find yourself, your hands are tied
+[00:30:14] and your options are more limited.
+[00:30:19] So be cautious of that.
+[00:30:28] Yeah, again, some of this light,
+[00:30:30] the soft pink light is just creeping out.
+[00:30:33] And it's funny cause I'm just now noticing it.
+[00:30:35] This little streak of pink light
+[00:30:37] that just kind of ricochets off of this surface
+[00:30:39] and bounces right here.
+[00:30:43] It's amazing.
+[00:30:44] And then over here, there's like a soft light
+[00:30:46] kind of like peeking out.
+[00:30:49] I tell you what, these touches,
+[00:30:51] it's huge to just sell the feeling.
+[00:30:54] And you know, you may be asking
+[00:30:56] if you're an experienced effects artist,
+[00:30:58] you're like, yeah,
+[00:30:59] but that's not gonna show up in the effect.
+[00:31:02] Well, I mean, if you're the one who does the painting
+[00:31:06] and you know that that's there
+[00:31:08] cause you did the painting
+[00:31:09] and you put that nice soft glow on it,
+[00:31:11] you're putting this ambient blue light shining down on it,
+[00:31:14] then you're also gonna know
+[00:31:15] when you're working on the system
+[00:31:18] how to finesse that in
+[00:31:19] and how to make it feel like it's got the blue illumination.
+[00:31:23] It's got the creeping out glow
+[00:31:26] because as you're working on the material
+[00:31:28] that does this thing,
+[00:31:30] you're gonna add in those touches.
+[00:31:31] You're gonna either paint it into the texture
+[00:31:33] or maybe you're gonna paint it
+[00:31:36] into the vertex color of the mesh.
+[00:31:39] I don't know.
+[00:31:40] Like maybe you use some material trick to get it to done.
+[00:31:42] Maybe it's extra particle systems
+[00:31:44] that have a little bit of bloom here and there.
+[00:31:47] Whatever it is to achieve this extra level of polish
+[00:31:52] that is just, it really makes it sing.
+[00:31:55] I'm telling you guys, you can make it monochrome
+[00:31:58] or you can make it monochrome
+[00:32:02] with all those touches of like,
+[00:32:04] that it's more than monochrome
+[00:32:06] even though a regular person that is not an artist,
+[00:32:10] they don't know, they're gonna say,
+[00:32:12] oh yeah, that's pink and purple,
+[00:32:14] but you know, y'all know that it's also blue
+[00:32:17] and it's also different hues of pink and purple, et cetera.
+[00:32:22] Okay, I'm really digressing now.
+[00:32:26] Okay, so he's going in,
+[00:32:28] he's like using large scale touch-ups now.
+[00:32:33] I would imagine that the flow on that brush is so low.
+[00:32:38] So the opacity is 30.
+[00:32:42] It's a fuzzy brush and the layer opacity is 70.
+[00:32:50] Okay, so he's got a low opacity layer
+[00:32:52] and then a low opacity brush,
+[00:32:54] an even lower opacity brush,
+[00:32:56] and then he's probably, like he had it scaled way up,
+[00:32:59] so he just could push really lightly
+[00:33:01] and it would just do a large area, really soft.
+[00:33:06] Just little touches of color
+[00:33:08] or like painting, not painting,
+[00:33:12] like brushing your makeup on, like blush, you know?
+[00:33:15] Just want it to feather in really, really soft.
+[00:33:21] Otherwise it's like clown makeup,
+[00:33:22] you know, it's really crisp.
+[00:33:24] I guess mime makeup might maybe,
+[00:33:27] I don't wanna say you're painting like a clown face,
+[00:33:29] it's like a mime maybe.
+[00:33:33] What is it they do where they like sculpt the face?
+[00:33:36] Where they put all the like crisp, crazy colors
+[00:33:40] on their face to like make their face look
+[00:33:42] like their bone structure is different?
+[00:33:43] You guys know what I'm talking about.
+[00:33:45] It's on YouTube, but then they also feather that in
+[00:33:48] and get it to feel natural.
+[00:33:52] Anyway, I totally digress.
+[00:33:55] So yeah, that's the gist of it.
+[00:34:00] He's coming pretty close to the end now.
+[00:34:05] I think the big key for you guys to take away from this
+[00:34:09] is just understand that a lot of this,
+[00:34:14] a lot of the heavy lifting is done really early on
+[00:34:17] when you just lay in some foundational shapes.
+[00:34:21] And then if you just keep those shapes throughout,
+[00:34:25] if your shapes are good to begin with,
+[00:34:28] so many other things are forgiving.
+[00:34:29] But the key is you gotta keep the shapes, right?
+[00:34:32] Like don't smudge them out, don't blur them out,
+[00:34:35] don't paint over them with really fuzzy edges.
+[00:34:39] And honestly, don't really overthink them.
+[00:34:42] And you'll notice, this isn't too different
+[00:34:45] from that original thumbnail that he had.
+[00:34:51] And we're definitely gonna dive more into shape-making
+[00:34:54] as we talk more about creating texture
+[00:34:58] because that's working in a more of a flat 2D space.
+[00:35:01] This exercise is much more about understanding
+[00:35:04] rendering the form and color relationships and values
+[00:35:08] and that kind of thing.
+[00:35:13] Yeah, that's another thing.
+[00:35:14] Sometimes you gotta hide a layer or two
+[00:35:16] to see what's going on.
+[00:35:17] He had to go back in, he's softening some stuff up.
+[00:35:23] He wanted this wisp to feel like it's penetrating back
+[00:35:25] into the center.
+[00:35:27] And so he's essentially just painting over the top of it
+[00:35:33] with another layer.
+[00:35:34] And I think I actually went back in and erased it
+[00:35:38] because I wanted it to,
+[00:35:39] the layers were like looking really wonky.
+[00:35:42] And so you could either like feather it out with an eraser
+[00:35:45] to get it to fade in to that.
+[00:35:47] Or what he originally did was he painted glow
+[00:35:50] in front of it.
+[00:35:53] And you'll notice when that crispy edge
+[00:35:56] was turned into a feathered edge,
+[00:35:58] it shoved it down into the body of that element.
+[00:36:11] It's another fun thing if you have like
+[00:36:13] really, really skinny bridges.
+[00:36:16] It almost looks like the light is collapsing around it.
+[00:36:18] It's like, you know, it's shining so bright
+[00:36:21] that the thin strand almost is lost in there.
+[00:36:28] Yeah, so there we have it.
+[00:36:30] That's gonna wrap up this video
+[00:36:34] talking about making this cool wispy nether.
+[00:36:38] You know what though?
+[00:36:39] We're not quite done yet.
+[00:36:40] There's one little part
+[00:36:41] that I wanted to share with you guys.
+[00:36:43] So I did these and I'm gonna just include these as well.
+[00:36:48] You guys will have access to these.
+[00:36:51] I did different color variations
+[00:36:53] and these ones I chopped them up into different folders.
+[00:36:56] So you can kind of see how it's all functioning.
+[00:37:00] And so these layers aren't gonna quite match up
+[00:37:02] with the original layers.
+[00:37:05] That's fine.
+[00:37:06] So you can see to get your color overlay
+[00:37:10] to feel really nice,
+[00:37:12] you kind of need to go in layer by layer.
+[00:37:14] If you're gonna like talk about like shifting
+[00:37:18] to different schools of magic and all that,
+[00:37:21] you're gonna wanna go in layer by layer and do it
+[00:37:23] because if you do it as a blanket thing,
+[00:37:27] we see this too often, it'll feel like,
+[00:37:31] so like, you know, that was cool
+[00:37:32] because I could go in like something by thing you'd agree.
+[00:37:35] But if I just do like an adjustment layer,
+[00:37:37] say I wanna do hue saturation here,
+[00:37:40] I just lose too much control.
+[00:37:43] So I'm like, I want it to be green,
+[00:37:47] which, hey, that's pretty quick and pretty cheap, right?
+[00:37:51] But you lose a lot of control with that.
+[00:37:56] Whereas with here, it's like,
+[00:37:58] I want this to be like bruised blue
+[00:38:01] and I still want some touches of pink in there.
+[00:38:04] You know, this is like actually more like a violet.
+[00:38:07] It's more like a violet there and like pink in there.
+[00:38:10] You can still have like interesting color relations
+[00:38:12] that you're choosing
+[00:38:14] how the different colors relate together.
+[00:38:17] Whereas with this, you just lose that control.
+[00:38:19] Like if I want green and purple together at any given time,
+[00:38:23] I just don't have that option.
+[00:38:25] I can just do green or I can just do,
+[00:38:29] you know, the original purple.
+[00:38:31] I guess there's kind of, kind of like what I want.
+[00:38:35] Then it gets lost.
+[00:38:37] But you get the idea how,
+[00:38:38] well, that was actually pretty cool though.
+[00:38:40] So you might get something cool like this.
+[00:38:43] I mean, maybe it's worth a try
+[00:38:44] just cause it's so easy to do.
+[00:38:45] You're like, you know, you can present your art director
+[00:38:48] with like cool differences.
+[00:38:50] But the only reason that this looks cool
+[00:38:54] is because this looked good
+[00:38:57] and the color relationships were interesting over here.
+[00:39:00] And there was like these different saturations
+[00:39:01] and different slight hue variations
+[00:39:03] and the blue light hitting the purple and all that.
+[00:39:06] All this stuff was in there already.
+[00:39:08] So now when you go in and change this up,
+[00:39:11] it's just gonna feel way better.
+[00:39:13] If you were to add something like
+[00:39:16] just a simple gradient map,
+[00:39:18] then you really lose control guys.
+[00:39:21] So like a gradient map, say I wanna go,
+[00:39:25] you can already see how much control is lost right here.
+[00:39:27] So where it's just gray scale, black to white.
+[00:39:31] So now let's say I want it to like go,
+[00:39:35] here I'm gonna try the same thing.
+[00:39:36] I'm gonna try going to green.
+[00:39:42] And then I want this to be green.
+[00:39:45] And you can just tell that it's just like,
+[00:39:48] not gonna give you the same interesting color relationships
+[00:39:52] that you wanted.
+[00:39:53] And this is where we start getting into the land of like,
+[00:39:58] feels like a post-processing, right?
+[00:40:01] Where definitely wasn't art directed.
+[00:40:10] So here I just connect that adjustment layer
+[00:40:13] to everything in that folder.
+[00:40:15] And I mean, you just compare that to that
+[00:40:18] and you just can tell instantly that there's a lot more,
+[00:40:29] there's a lot more driving the color decisions of the wine.
+[00:40:34] Versus this one, it's just what drives the color decisions
+[00:40:38] is whatever the software gives you.
+[00:40:39] And that's a huge limitation.
+[00:40:42] So we've got some others in here for you
+[00:40:44] that you can check out and just kind of poke around with.
+[00:40:49] You got the blue one, you got the planty one
+[00:40:54] and then the golden one, it's kind of golden.
+[00:40:57] I don't know, I just had fun tinkering around with these.
+[00:41:00] You guys can tinker around some more
+[00:41:02] and just see what kind of color you can get
+[00:41:06] by coming into here and playing around
+[00:41:08] with these different hue shifts.
+[00:41:10] There's some of them are hue shifts,
+[00:41:12] others are full gradient maps.
+[00:41:16] So you can just play around with what happens
+[00:41:19] when I change this gradient map, you know?
+[00:41:23] Oh, it's the inner color, that's cool.
+[00:41:25] So yeah, guys, I hope you learned something
+[00:41:30] and I hope you enjoyed it.
+[00:41:31] And I'll catch you in the next video.

@@ -1,0 +1,235 @@
+[00:00:07] So that's the flattest and most graphic of these examples done.
+[00:00:11] I don't know, whatever. Cool. Hide that business.
+[00:00:42] We definitely want the reference to be in the folder.
+[00:00:51] And now we're left with just the goo. Cool, so
+[00:00:55] referencing this goo shape is pretty simple, right?
+[00:00:59] So the basic
+[00:01:05] idea with the treatment of these
+[00:01:09] goo droplets is, let me draw a droplet for you real quick,
+[00:01:13] and let's set our palette first, of course.
+[00:01:24] So we want a
+[00:01:28] dark green and a light
+[00:01:40] green, and just a white for our highlights.
+[00:01:48] So our palette here is super duper simple.
+[00:01:52] And to make a single droplet of this material
+[00:02:02] using this particular treatment,
+[00:02:06] let's dim our ball,
+[00:02:10] and whoops. So we've got
+[00:02:23] this gooey substance, right?
+[00:02:27] And the optical properties of this gooey substance are
+[00:02:31] that it is opaque,
+[00:02:38] or it's slightly opaque, but it's also
+[00:02:42] translucent, right? So it's got
+[00:02:46] like, it's a fluid
+[00:02:50] with a bunch of stuff suspended
+[00:02:54] within it. That stuff, the particles, the substance of the fluid,
+[00:02:58] are going to reflect light. When light
+[00:03:02] hits it from this direction,
+[00:03:11] not only is it going to be doing the usual things, bouncing off of it,
+[00:03:15] and bouncing
+[00:03:19] up off the ground into it and reflecting back towards us,
+[00:03:23] but because it has,
+[00:03:27] it's a fluid, it's not going to
+[00:03:31] disperse the light that's hitting
+[00:03:39] its surface in the same way that a
+[00:03:43] rough object with a rough surface instead of a smooth one would,
+[00:03:47] right? Because it has a perfectly smooth surface,
+[00:03:51] it is going to, light is going to behave
+[00:03:55] like a billiard ball, right? It's going to bounce directly off of it
+[00:03:59] at the appropriate angle. So the
+[00:04:03] angle that's, so it's going to, off of the
+[00:04:07] surface, bounce directly into our eyeballs and create
+[00:04:11] this hotspot that is in the shape of a light, right? And
+[00:04:15] for the purpose of this treatment, we're just going to kind of assume that it's a
+[00:04:19] spherical light like the sun or a spotlight. If it was
+[00:04:23] not, you would see the shape of the object that's casting the light,
+[00:04:27] which is why in cartoons sometimes you see like a
+[00:04:31] a popular one is like a window,
+[00:04:37] right? You see there will literally be in the reflection
+[00:04:41] the shape of a friggin' window like that,
+[00:04:47] you know? Let's
+[00:04:51] be over here somewhere, something like that.
+[00:04:59] But with
+[00:05:11] this substance, not only
+[00:05:15] is it bouncing light off of it so you get a strong specular highlight
+[00:05:19] directly into your eye, that's the
+[00:05:23] shape of the reflected environment, or
+[00:05:27] it's also emitting light through it just like glass or water
+[00:05:31] and
+[00:05:35] as the light passes through it, it's going to eliminate all of the particulates
+[00:05:39] inside of it. So one of the
+[00:05:47] differences between a droplet and
+[00:05:51] say a bubble, for example, is going to be the appearance of it
+[00:05:55] and like where, like how much
+[00:05:59] of those are, the thickness of
+[00:06:03] the suspended particulates
+[00:06:07] in the fluid relative to your eye, right?
+[00:06:11] So if that doesn't make any sense,
+[00:06:15] bear with me a second and I'll kind of show you. So if you have a solid water droplet
+[00:06:19] because it's
+[00:06:23] like its thickness is all the way through,
+[00:06:34] there's matter all through this thing that's reflecting
+[00:06:38] light back at you, so it's going to catch light kind of like
+[00:06:42] this, if that makes any sense.
+[00:06:48] The opposite is going to be true of something like a bubble that has nothing but air
+[00:06:52] inside of it and all of the
+[00:06:56] particulates are on the outside, unless of course that bubble is filled
+[00:07:00] with something like vapor, which you should check out YouTube
+[00:07:04] videos of because it's freaking cool.
+[00:07:11] So with a bubble,
+[00:07:15] because the substance of the bubble is the main thing that's going
+[00:07:19] to be catching light, it's going to be more like that
+[00:07:29] if the bubble is
+[00:07:33] made of an opaque substance. And then you'll have your
+[00:07:37] specular highlight on the side, maybe some bounce light.
+[00:07:43] So the idea here is
+[00:07:49] we're going with this, right? We're going with the example on the left.
+[00:07:53] So our substance here
+[00:08:00] is going to have not only
+[00:08:04] a bright specular highlight, like
+[00:08:13] so, and a
+[00:08:20] bounce light. And instead of a bounce light like we had
+[00:08:38] in our other examples, this light is actually going to be
+[00:08:42] what am I doing?
+[00:08:46] It's actually going to be, just like the specular highlight,
+[00:08:50] a reflection of the ground plane itself.
+[00:08:54] Instead of light just bouncing up off the ground and creating this kind of
+[00:08:58] fuzzy look, it's actually going to take on the shape of the ground.
+[00:09:02] So what you're actually seeing here is the suggestion
+[00:09:06] of a horizon. And you know what, this is probably fine.
+[00:09:15] Let's just select this and use our brush to touch up that shape there.
+[00:09:22] Something like that.
+[00:09:34] But you're also going to have sort of a glowiness
+[00:09:40] on the inside of it, which we can do here
+[00:09:44] with an inner glow layer style.
+[00:09:48] Switch to center, size,
+[00:10:02] and boom! The light hitting the object
+[00:10:06] is being scattered around inside of it and pushed back out into your
+[00:10:12] eyeball, and it looks like this. So this is a droplet of our substance here.
+[00:10:16] That makes sense to you? The same thing happens
+[00:10:21] when
+[00:10:25] a light strikes your skin, right? It took them a long time to figure out
+[00:10:29] how to do this properly in 3D. One of the
+[00:10:33] first really widely used examples of this was
+[00:10:37] the fish in Finding Nemo. Subsurface scattering
+[00:10:41] was a big deal in that movie because it gave everything this sort
+[00:10:45] of glowiness, right? As if light was
+[00:10:49] being diffused inside of the translucent parts of all the fish and the
+[00:10:53] water, and it just made the movie look really, really great.
+[00:10:57] And Pixar had great-looking humans afterwards because they could simulate the
+[00:11:01] diffusion of light inside of the skin of the people.
+[00:11:05] And yeah, that's a brief bunch of factoids
+[00:11:09] about this. And we could stop there if we wanted to.
+[00:11:17] But we're not going to. I'm going to
+[00:11:21] show you how these kind of shapes in here
+[00:11:25] break up. Let's make a proper shape
+[00:11:41] in here and kind of give you a sense of how I would
+[00:11:45] do this. So I'm just going to use
+[00:11:50] the brush tool, or do I want to use
+[00:11:54] the lasso tool for this? Let's do just like we did
+[00:11:58] with the other example, the lightning,
+[00:12:08] and the wisp. And we'll do a combination
+[00:12:12] of both, starting
+[00:12:16] with the brush.
+[00:12:23] So you'll notice you can get this kind of
+[00:12:27] caterpillar-y banding here.
+[00:12:31] That, as I mentioned earlier, is a consequence
+[00:12:35] of the brush having
+[00:12:40] too much spacing. Reducing the spacing
+[00:12:44] will make you choke, but I've got a pretty good computer, although it is probably a time
+[00:12:52] for an upgrade for me.
+[00:12:56] So let's make a shape like this.
+[00:13:06] So it's a sheet of water that's
+[00:13:10] noxious, not watery, not refreshing
+[00:13:14] fluid. The eraser, by the way, shares all the same properties
+[00:13:20] of the pencil. This thing works on it like all the other
+[00:13:24] things. It's exactly the same stuff.
+[00:13:28] That's not to say that their shapes are linked, right? You can have a soft eraser
+[00:13:32] and a hard pencil simultaneously, and you can also run
+[00:13:36] into the spacing problem. Dang it.
+[00:14:18] Okay, there.
+[00:14:26] If you don't resolve your lasso properly, you can get
+[00:14:30] situations like that you need to
+[00:14:34] before you let your cursor
+[00:14:39] before you unclick
+[00:14:43] you want to make sure you're in a position where you won't
+[00:14:47] bisect your selection and ruin it.
+[00:15:00] Believe it or not, in nature, droplets
+[00:15:04] can be of variable sizes. So I think
+[00:15:08] we can get away with having them be of variable sizes here.
+[00:15:14] And I think this is plenty good enough to be our shape
+[00:15:18] here. There we go.
+[00:15:27] Cool. So let's just go with this. You know, we could
+[00:15:31] even add another layer to it
+[00:15:35] just to give it that feeling of three-dimensionality
+[00:15:44] being mindful to avoid tangents. That'll probably be good enough.
+[00:15:54] What am I doing? We definitely want a
+[00:16:00] darker color. We're working on a separate layer.
+[00:16:14] Give that a darker kind of base color.
+[00:16:18] And I don't think this supports the shape
+[00:16:25] well enough, so I'm going to shave a little bit off of it.
+[00:16:41] We don't want a tangent there. Alright, looking good.
+[00:16:53] So let's
+[00:17:06] just put in our lowlights here. And we can just
+[00:17:19] do that with our erase on our lasso.
+[00:18:06] Or bounce lights, depending on what your preferred nomenclature
+[00:18:10] is. And let's get that selection
+[00:18:24] again. Oh yeah.
+[00:18:28] So shift for
+[00:18:36] adding, alt for subtracting. And if you
+[00:18:40] press both at the same time, something magical
+[00:18:46] will happen. The resulting selection
+[00:18:55] when you let your button up will be the intersection
+[00:18:59] of your old and new selections.
+[00:19:03] Allowing you to do that. Which is pretty cool.
+[00:19:10] Let's do that again here.
+[00:19:14] And those are our lowlights, and aren't they beautiful?
+[00:19:23] We will probably want to add some
+[00:19:27] to the background as well.
+[00:19:33] And eh, we'll want it to be lighter,
+[00:19:53] darker. That's fine.
+[00:19:59] That's good enough. Maybe not. You can always do better.
+[00:20:13] Oh, well this one, just a little bit
+[00:20:17] darker. Alright, that works for me. I remember the
+[00:20:28] hot center eyes.
+[00:20:34] Somewhere thereabouts.
+[00:20:38] Normal. And
+[00:20:42] we can probably just make that, let's see how much
+[00:20:57] we can get away with. That's probably good.
+[00:21:03] Paste layer style.
+[00:21:15] And here we want something much brighter.
+[00:21:25] The opacity of that, we don't want to hit people over the head with it. Alright.
+[00:21:32] And the only thing
+[00:21:38] left to do now is add our highlights.
+[00:21:46] And if we want these to pop, like really pop,
+[00:21:50] we can
+[00:21:57] give them a linear dodge add.
+[00:22:01] Like this bright electric green, or like a yellow.
+[00:22:05] We can adjust it later if it's not quite right.
+[00:22:11] And let's just draw
+[00:22:18] highlights where it doesn't need to be super duper bright.
+[00:22:31] And we don't have to be super duper accurate, we just need
+[00:23:01] to look good. But we don't want to
+[00:23:13] overdo it, right? Easy does it. Put one there too.
+[00:23:23] And maybe a little one here. And
+[00:23:30] for the background,
+[00:23:34] we can do a kind of more subdued version of this. We don't need to
+[00:23:38] add the glow. We don't need to add anything.
+[00:23:42] We can just kind of dial back our opacity.
+[00:23:48] Just need to give it dimension. I want it to sit back.
+[00:24:06] Okay, so that's more or less the treatment.
+[00:24:10] We can add some vapor between
+[00:24:23] the foreground and the background.
+[00:24:27] I did that just super duper simply, just with
+[00:24:31] a little bit of this, not on our highlights layer.
+[00:24:43] Add some of this. We're going to use our smudge
+[00:25:11] tool, which I would advise you all to use very sparingly if you possibly can.
+[00:25:15] And just swirl this around
+[00:25:19] a little bit, just so you get the shapes where you want them.
+[00:25:32] And then we're going to bump down the opacity of this.
+[00:25:36] And voila, that's a little mini example
+[00:25:42] of the larger effect treatment. I hope you all have enjoyed this
+[00:25:47] and found it edifying, or
+[00:25:51] are already good enough to have picked apart all the flaws
+[00:25:55] in my approach.
+[00:25:59] Yeah, I'll see you next time.

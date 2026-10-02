@@ -1,0 +1,136 @@
+[00:00:05] Hello and welcome to this foundational lesson. The lesson today we are going to be talking about
+[00:00:14] Solid design and drawings
+[00:00:17] So this kind of thing takes place right before you're about to start animating
+[00:00:25] We want to make sure that you are leading with your best foot forward
+[00:00:29] And that means that we want to make sure that the effects design
+[00:00:35] And the drawings that you're about to do are as solid and as visually appealing as you can make them
+[00:00:43] So when we're working from a quality design what I mean by that is that I want you to put in a lot of time
+[00:00:51] into thinking about
+[00:00:53] the purpose of the effect
+[00:00:56] And then the design elements that you want to include in it. This can be a lot of different things
+[00:01:03] If you are trying to focus in on the animation
+[00:01:09] Specifically you want to make sure that you keep your design super simple
+[00:01:14] If you are trying to go
+[00:01:16] all out on the animation and make something as cool as possible you want to lay out all the
+[00:01:24] little additions and pluses to the effect at this stage because once we get into the animation
+[00:01:32] We want to make sure that we have
+[00:01:34] A battle plan and that we're going to stick with it
+[00:01:39] So even something as simple as a candle flame on top of a candle
+[00:01:44] We want to make sure that we are thinking about all the things we're going to include with it
+[00:01:50] Now what I mean is for something as simple as a candle flame or does it have a line or is it?
+[00:01:57] Just
+[00:02:00] Fill and how far are we taking it? Are we doing inner flame? And if we are what does that look like?
+[00:02:06] Where is it placed and how is it going to enhance the entirety of?
+[00:02:12] the design
+[00:02:14] Now obviously when we're dealing with something smaller like this
+[00:02:19] There's not going to be a ton of things to figure out in question, which is good
+[00:02:25] Because we don't want to go too crazy assuming that you are a beginner
+[00:02:31] Dealing with smaller simpler concepts at first is a good way to
+[00:02:36] Kick things off and then once you get comfortable with things then that snowball as it's rolling
+[00:02:43] then you start adding in more and more things fighting off too big of a
+[00:02:48] Commitment to the animation too soon can have you can can leave you feeling
+[00:02:54] Frustrated or maybe that you made a mistake. So we really want to make sure that we're we're building up slowly
+[00:03:02] And this is going to happen several several several times
+[00:03:07] Because let's say let's say you animate a dozen candle flames right on you got that knocked out
+[00:03:13] You're you're like a candle flame pro now
+[00:03:16] And then suddenly you get asked to do a campfire or a water splash
+[00:03:21] Well, you're a candle flame expert. Have you done a water splash before? What does water look like?
+[00:03:26] How many elements are you going to include on it?
+[00:03:29] So when it comes to a water splash, you're essentially starting from square one again
+[00:03:34] Where you have to start small you have to set out a solid
+[00:03:38] Battle plan for the animation and the design and then once again you work your way up
+[00:03:44] You're gonna have to do this dozens of times because there's and it's actually one of the really great things about effects
+[00:03:50] But I mean there's there's dozens and dozens of different types of effects out there. So
+[00:03:56] You've got a buckle up and get ready to learn when it comes to
+[00:04:03] designing effects and then
+[00:04:05] sequentially animating it
+[00:04:08] Plan ahead of animation
+[00:04:11] There's several ways to do this, but I can't stress this one enough
+[00:04:15] Plan plan plan the more
+[00:04:19] Information and knowledge you give yourself beforehand
+[00:04:23] The better the final product is going to be now. That's not to say that
+[00:04:29] Just animating and just being creative doesn't have its place
+[00:04:35] That kind of practice can be good for for things like creativity block you just need to get something on the page
+[00:04:43] however, if you're dealing with a production or a
+[00:04:48] Scene in a short or something like that where the effect has to be very specific and do specific things
+[00:04:54] You want to make sure that you plan ahead as much as possible part of planning ahead is
+[00:05:01] Creating a design that's going to work with the environment
+[00:05:06] That's going to be realistically
+[00:05:10] animatable a more experienced effects artist is going to be able to animate more
+[00:05:17] complex designs quicker
+[00:05:19] So we want to make sure that we're sticking within your realm of
+[00:05:23] Capability when we are learning these things because the last thing we want is for you to get discouraged
+[00:05:29] To find things too difficult and to give up
+[00:05:34] because
+[00:05:35] animation as we probably all know is very time intensive, however
+[00:05:42] Once putting in that time and accomplishing it. It's also very satisfying to see the final product. So planning ahead
+[00:05:51] outside of design in terms of animation can mean doing
+[00:05:56] Some drawings of the effect in several different states
+[00:06:01] So as you can see on screen here, we have kind of a very simple droplet splash
+[00:06:07] It enters the water it picks up some water and then it all falls back to the surface
+[00:06:14] There's going to be a point in time in which you've done so many drawings
+[00:06:18] That you don't really have too much more of an option other than to just start animating
+[00:06:24] And that's the style of animation that we'll talk about in a different lesson
+[00:06:29] But making sure that each one of these frames whether or not you're doing two frames three frames four frames
+[00:06:36] Or whatever sticks to the style and the effects design that you have set out. That's the important thing
+[00:06:43] That's what we're looking for here
+[00:06:46] My last bit of advice when
+[00:06:51] talking about solid design and
+[00:06:54] Approaching animation approaching effects animation is to lock yourself in
+[00:07:01] What I mean by this is if you've created a design and you're you're newer to animating
+[00:07:08] You'll start animating that design and just through the natural process of drawing
+[00:07:13] You might stumble across a couple design elements that you think are cool or
+[00:07:20] That look really good
+[00:07:23] And if you're 12 drawings into a 60 drawing animation and you decide to change up on the fly
+[00:07:30] You have to keep in mind that you will you have now
+[00:07:35] Dedicated yourself to animating that little aspect in the animation throughout the entirety of all the frames that are left
+[00:07:42] now if you do this sparingly a
+[00:07:46] couple times here or there
+[00:07:48] You can roll with it, especially if you're experienced
+[00:07:51] And you might you might end up with a better product at the end of it
+[00:07:55] However, if you let this get out of hand
+[00:07:58] You're going to end up with kind of a big mess on your your hands
+[00:08:02] I use this as an example if this was our design we started off with something like this
+[00:08:08] We have very angular kind of smoke. We're using pretty tight tapers in
+[00:08:17] some of the shadowing
+[00:08:20] We're going with line we're going with line fill and shadow, however through the course of our animation
+[00:08:28] by the final frame we end up with
+[00:08:33] Something like this where our
+[00:08:36] Blocky square shapes that we were using for smoke have now turned into round ones
+[00:08:41] We've started adding in elements of like little curve. I just call them curly cues
+[00:08:48] In in the
+[00:08:50] places where the smoke connects whereas we don't do that anywhere over with our initial design and
+[00:08:57] We go from
+[00:09:00] Light shading
+[00:09:03] Where the light source is coming is falling on the smoke from this angle and we're going with shade shapes that are
+[00:09:11] Under
+[00:09:17] Curves rather than over curves
+[00:09:19] But by the end of it all of our shade shapes have turned into over curves
+[00:09:24] Neither one of these in terms of shading specifically neither one of these approaches are bad. However
+[00:09:32] starting with
+[00:09:33] Starting with this and ending with this in terms of animation. It won't look good
+[00:09:40] So there might be especially when you're learning there might be several times in which you have to stop yourself
+[00:09:48] Because you started with shade shapes like this and slowly over the course of the frames
+[00:09:54] they for some reason got a little bit flatter and then
+[00:09:59] Very slowly they transform
+[00:10:02] From
+[00:10:04] This frame one or whatever and then this is frame 33 or something like that
+[00:10:10] You've made you've made a mistake
+[00:10:12] You've strayed from your original design and you're going to end up with shadows that are morphing and looking weird
+[00:10:18] So when I say lock yourself in mostly what I mean is be honest with yourself catch yourself
+[00:10:26] and on every single frame
+[00:10:28] You can question are you being faithful to your original design and are you sticking with it?
+[00:10:36] Once you're able to implement that that will get you nice solid animation where the design is consistent from frame to frame
+[00:10:43] From start to finish and it isn't it doesn't end up doing weird stuff. That wasn't initially
+[00:10:49] intended when you first designed it
+[00:10:53] I'll add as a final note that I often find that people are most creative when they do lock themselves in because
+[00:11:01] creativity comes from limitations
+[00:11:03] In my opinion in most scenarios, so when you put yourself in a box
+[00:11:09] And you lock yourself in with the limitations of the design
+[00:11:13] That's often where I I find people will pull out their most creative nature
+[00:11:20] Because they're they're not letting the concepts and things get away from their themselves they're working within limitations
+[00:11:28] But they're expanding those limitations to a point where they're creating something beautiful and gorgeous on screen
+[00:11:35] So I hope this has convinced you of a couple good
+[00:11:40] methods of practice for
+[00:11:42] The designing of your effects and the approach to that
+[00:11:46] Before you start animating

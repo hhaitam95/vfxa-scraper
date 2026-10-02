@@ -1,0 +1,277 @@
+[00:00:05] Hello, I'm Maim Panik and welcome to the part 4 tutorial introduction to Toon Boom Harmony for special effects artists. In this tutorial
+[00:00:12] We're gonna talk about the node view node library and we're gonna improve our effect to make it look better. Let's open our
+[00:00:21] file our effect and the first thing we're gonna
+[00:00:25] Talk about is the display node
+[00:00:28] the display node is responsible for what we see in the camera view and also a
+[00:00:33] File export movie what we're gonna render
+[00:00:37] Display node the right node is responsible for what we're gonna render as frames
+[00:00:43] So in order to render just transparent frames you want to change drawing types to PNG for
+[00:00:51] the default output folder is under the file and
+[00:00:56] the frames
+[00:00:58] folder
+[00:00:59] And the drawing file name. So if you render it will be rendered by like final
+[00:01:05] 001 002 and so on so forth
+[00:01:08] To render those frames you go to file export
+[00:01:12] Render right nodes and you can render selected frames just one frame if you want to all or all frames, okay
+[00:01:21] Next thing we're gonna do is talk about the composite. The composite is something that that merges together
+[00:01:27] A couple couple nodes into one one node one
+[00:01:33] Line from it. So for example, I'm gonna copy and paste special this layer
+[00:01:39] so I'm ctrl C ctrl B instead of ctrl V to prevent cloning the layer and
+[00:01:46] Please please select create new cones. So the layer will not be cloned. Let's change the name of those layers the first one
+[00:01:53] We're gonna call
+[00:01:54] dots
+[00:01:56] And the second one we're gonna call
+[00:02:00] ball
+[00:02:02] So we have two layers and as you can see two
+[00:02:06] Lines are going out in and one is going out from the composite
+[00:02:12] These two have to be connected to display the composite. Let's copy and paste
+[00:02:17] This one you can do just ctrl V for composites
+[00:02:21] The composites have couple not couple couple
+[00:02:25] Things inside you a couple modes you can mode them as bitmap and as
+[00:02:32] pass through the two that you might use
+[00:02:36] What pass through does it's?
+[00:02:39] passing through those images as
+[00:02:43] vector images further down if you will change the change them to as bitmap it at this point at the
+[00:02:51] At the node it will turn them into bitmap you might use it if you if you are using so many like
+[00:02:59] glows and
+[00:03:01] Matte resizes or whatever
+[00:03:04] to prevent some
+[00:03:07] Extra things that are not necessary there. You can flatten the image with
+[00:03:13] Bitmap composite and that will solve your problem
+[00:03:17] Notice the output leftmost which means which
+[00:03:21] Whichever layer is connected to the leftmost leftmost port will be on the top of the timeline
+[00:03:28] As well as it will be in front of the camera
+[00:03:33] So output Z does this thing let's change the mode to pass through and with holding alt
+[00:03:39] let's connect it to this thing to
+[00:03:44] Have a cleaner view on the timeline I
+[00:03:47] Like to have it clean
+[00:03:49] but there are some where some some sometimes that you will be creating so many layers and
+[00:03:56] You will have mess in the node view and it could be hard to do something like this
+[00:04:02] So you select everything here and you hit this icon order node view up
+[00:04:06] Okay, and it's more clear to see what is happening
+[00:04:11] Let's undo if you don't have this piece tab here right click node view bomb. There we go
+[00:04:17] Okay, what we want to have with those two two layers dots. We just want to have dots
+[00:04:23] So I'm gonna erase everything else and I'm gonna erase everything else from the ball
+[00:04:30] So I have only the ball here and only the dots there
+[00:04:35] Okay, let's open the node library and let's bring up some nodes
+[00:04:39] Glow is something that we might use for sure
+[00:04:44] Color card we might use cutter and
+[00:04:49] Matte resize
+[00:04:51] We might also use I'm looking for transparency. There we go
+[00:04:57] Let's go for blurs
+[00:05:01] I'm using blur box
+[00:05:02] You can use for blurring blur Gaussian, but it's taking up the CPU so much and the render times
+[00:05:10] grows exponentially, so that's
+[00:05:13] Something to avoid and I recommend blur box and we're gonna use blur
+[00:05:18] Radial zoom for this example this tutorial. Okay, what I'm gonna do is I'm gonna click this flower here to render view
+[00:05:25] so whenever this
+[00:05:27] Who is showing it will take a while to render this 100% how much
+[00:05:33] You're gonna wait to render
+[00:05:35] But for this tutorial everything should be pretty quick. Let's plug in the glow. Let's get into it. Let's
+[00:05:44] Put some values like 10. It will be blurred. Let's change the color to something blue
+[00:05:51] pretty dark
+[00:05:53] And it's very very very blurred what I'm gonna do now is I'm gonna copy and paste this
+[00:06:00] Not necessarily play special, but I just got used to press ctrl B
+[00:06:07] Just to make sure let's change the radius to something like 4 and let's change the color to something brighter
+[00:06:15] maybe even 3 and
+[00:06:17] then you have the outer edge that's darker and bigger and
+[00:06:23] inner edge that's
+[00:06:25] kind of lighter and
+[00:06:27] more sharp
+[00:06:29] As I would say but I can also bring back the dots in front of it
+[00:06:34] But I lost some information at the edge. I believe from this lighter
+[00:06:40] Color so I want to shrink down this a little so I'm gonna use mat resize and I'm gonna plug it there and
+[00:06:47] it can
+[00:06:49] Manipulate your image you can grow it or you can shrink it to the point where it will not visible at all
+[00:06:56] I want to have minus point five probably just to be
+[00:07:02] Slightly smaller as you can see as from this image
+[00:07:07] There we go with this one, but I want to blur as well the
+[00:07:12] the ball
+[00:07:13] so what I'm gonna do is I'm gonna
+[00:07:16] Select
+[00:07:18] All of them copy paste I'm gonna go there plug this and plug
+[00:07:24] Everything in the very very same order, but I'm gonna change the color. The same color will be boring
+[00:07:31] This should be more like red ish
+[00:07:34] You can have multiple of those
+[00:07:38] On the screen. This one should be lighter
+[00:07:41] Like
+[00:07:43] That and there we go before the impact it's
+[00:07:48] Blue after the impact. It's red. That's something I'm looking forward. Okay now let's
+[00:07:55] Blur something in a very specific way. We're gonna connect blur radial zoom what blur radials on those
+[00:08:03] let's add some value like
+[00:08:05] seven
+[00:08:07] Right now it creates like a circle because something like this is selected by default custom zero and
+[00:08:14] It's blurring it in the circular way. You can also blur it from the center outside and
+[00:08:22] For our case, we're gonna use this one to kind of
+[00:08:28] merge them together within one point
+[00:08:30] Something
+[00:08:32] That I like to use is the falloff I'm gonna press 2 which will make them a little bit more sharp
+[00:08:39] Maybe blurriness 8 or 9 or maybe even 10 will be ok for this
+[00:08:46] Animation, but I don't want to blur it at the very first frame, right?
+[00:08:52] So I will create under the blur radial zoom
+[00:08:55] Let's click this plus icon and let's create some keyframes at the beginning and end
+[00:09:01] And let's find the blurriness and at the first frame. Let's go to zero
+[00:09:05] So it's not blurred at the beginning and then it's stretching and colliding
+[00:09:11] Maybe just maybe
+[00:09:14] Ten is too much. So I will change it here
+[00:09:21] Nine, okay, you might go into the trouble where it's not blurring from the very center
+[00:09:27] What you will have to do
+[00:09:29] note these
+[00:09:31] Green dots at the top. Everything else was blue
+[00:09:35] these are
+[00:09:37] Transformation notes you can press ctrl P to create a peg
+[00:09:41] you can connect it to the focus point and now with let's say
+[00:09:48] the
+[00:09:49] transform tool or the
+[00:09:51] Translator you can move around this focus point
+[00:09:55] So it will work in the way you want but for now because we have the image in the very center
+[00:10:02] We don't need this at all
+[00:10:05] What I like to have on my scene is the back side of the ball
+[00:10:10] So I'm gonna copy and paste special control B this ball and I want to have it somewhere there
+[00:10:16] what I'm gonna do is I'm gonna select those four nodes and I will press ctrl G to
+[00:10:22] Close them into group. You can access them and get out of the group
+[00:10:27] Let's have this composite again. I
+[00:10:30] Will connect our ball over there and I want to have the glow over it
+[00:10:38] All those nice stuff that we just did there we go
+[00:10:43] so once I have that I want to
+[00:10:46] Rotate it scale it kind of I'm gonna select this frame with this layer and I'm gonna click Center on
+[00:10:54] Selection and now I can find these without scrolling this layer without scrolling. Alright, so once I have this
+[00:11:02] Scene, let's move it with this
+[00:11:05] Translate tool if you don't have this
+[00:11:08] Window again
+[00:11:10] Advanced animation is something you're looking for this tool. I can move it
+[00:11:14] It creates keyframe if you don't want keyframe to be
+[00:11:19] Added you can switch animate current frame to animate off and it will move entire
+[00:11:24] Frame entire layer without adding keyframes
+[00:11:29] Which might be useful in some cases. I will press 4 5 to mirror it and
+[00:11:36] Alt 3 to use the rotation tool to rotate it a little I
+[00:11:41] Will just play around and I will play around with the transparency node as well
+[00:11:47] Let's plug the first one here. So the first side of the front part of the ball
+[00:11:54] will be visible a
+[00:11:57] Little less so it will be slightly slightly transparent. Let's play with 15
+[00:12:04] Turn this off
+[00:12:07] Could be slightly more. Let's go with 20. I'm gonna copy the transparency and paste it
+[00:12:14] under the glow so on the back side of our ball, I'm gonna
+[00:12:19] Make transparent ball with the effect. Let's go with something like
+[00:12:24] 75 and then I have the front side of the ball back side of the ball and I'm pretty pretty happy with it
+[00:12:34] Result
+[00:12:35] so far
+[00:12:37] The other thing that I might want to do is I will just quickly draw something else
+[00:12:43] after the collision
+[00:12:45] Let's create another layer. Let's call them bullets
+[00:12:54] Let's move those around
+[00:12:57] Create another composite connect this composite. Let's
+[00:13:01] have our bullets and let's
+[00:13:04] Lower down the opacity so we'll play around with onion skin as well
+[00:13:10] select this frame and we're gonna draw a couple things something that I haven't mentioned you can rotate your screen if
+[00:13:19] Some position is better for your arm
+[00:13:21] hold ctrl to rotate it and
+[00:13:27] Actually shift and to reset the view this will be helpful now
+[00:13:32] So let's go with creating some
+[00:13:37] Some bullets that will go outside from the very center first frame
+[00:13:44] I'm using the ink by just pressing I and
+[00:13:50] Selecting it that's useful. You can also go with just this out of field which might be better for
+[00:13:58] this
+[00:14:01] in particular
+[00:14:02] So we're gonna
+[00:14:07] Draw just couple frames. I don't want it to change the direction
+[00:14:18] to bend the arc
+[00:14:21] So let's go straight with it in this direction
+[00:14:28] And let's do it quick. One, two, three, four five and a dot and the same for the other side
+[00:14:41] one
+[00:14:43] Two six dot
+[00:14:51] To shift all them to make it better for the eye. This one will be faster than the next one
+[00:15:03] I might add a couple more smaller like this one, two, three
+[00:15:20] Dot, there we go
+[00:15:30] And five okay shift and to reset the view
+[00:15:36] And
+[00:15:37] We're gonna bring back the opacity and we're gonna do exactly the same as we did with the ball
+[00:15:44] So I'm gonna grab this bullet with copy and paste special create new columns. Let's place it over there
+[00:15:56] Let's shift them by one frame. So I'm gonna extend increase the exposure
+[00:16:02] Here so I moved them by one frame
+[00:16:08] Like this and I want them to be
+[00:16:11] Maybe behind of the ball or maybe in front. It depends on you, obviously
+[00:16:17] But what I want to do is I want to use those
+[00:16:20] sweet notes that I just created and as well as with animate off I want to rotate maybe
+[00:16:29] Mirror it to have the backside of it. So it will be nicer. I'm gonna copy and paste those notes and
+[00:16:37] I want to connect all of that
+[00:16:40] Sweet notes to what I have on the screen and right now
+[00:16:46] It's a pretty pretty cool effect
+[00:16:48] But there is something missing a little bit of blurriness which I'm gonna use the blur radial zoom again copy and paste it here
+[00:16:57] but I'm gonna use it in a different way this time I'm gonna
+[00:17:03] Blur it from the center
+[00:17:05] Which will create nice and sharp edges because I reused the
+[00:17:12] Blur radial zoom I will erase all the frames at the very beginning. So I just need the blur
+[00:17:20] Frame here with 10 and the custom
+[00:17:24] custom preset
+[00:17:26] Okay, so that's pretty much it
+[00:17:30] It
+[00:17:32] The other thing that's worth to mention is the color card
+[00:17:35] Let's call connect the color card here and let's change the color to I don't know
+[00:17:42] red so
+[00:17:44] You got the idea
+[00:17:47] How it is actually working and the other thing that I wanted to mention at the very very end is
+[00:17:56] Let's create a composite. Let's connect everything to this composite. Let's create new
+[00:18:02] layer really really quick and
+[00:18:05] I'm gonna create a little
+[00:18:08] Circle like this and I want to create another one another layer with another circle on it
+[00:18:17] What we can do is we're gonna use cutter
+[00:18:21] So we can cut the first one with the second
+[00:18:25] Second
+[00:18:30] Image that we created you can also
+[00:18:33] Manipulate it as much as you want. Of course, you can animate it
+[00:18:39] That will work as well
+[00:18:40] If you don't want to use the cutter and you are you are just cutting one frame one layer
+[00:18:45] You can add the node not here on the cutter
+[00:18:49] but actually in the layer the little mask icon will appear and
+[00:18:54] There we go
+[00:18:57] You can flip the selection by double-clicking
+[00:19:01] You can go to the cutter tool options and you have the inverted as well
+[00:19:06] so by double-clicking you are inverting the
+[00:19:10] Selection and that's pretty much all I wanted to talk about in this
+[00:19:16] Tutorial and on the next on the next tutorial we're gonna talk about
+[00:19:22] rendering it
+[00:19:23] with
+[00:19:25] For the sprite sheets, but just for now just for now at the very very end
+[00:19:31] We want to export the movie. We're gonna have the
+[00:19:36] our 16 frames
+[00:19:39] Which is what we created and we want to overwrite
+[00:19:44] the file let's go to
+[00:19:47] Look how this one is looking as you can see
+[00:19:51] It's taking couple seconds to actually render it and there is the effect that we
+[00:19:57] Created you can quickly notice couple things. We want to change the timing a little and those dots are
+[00:20:05] These blur radial zoom that we created was changed
+[00:20:10] Because we didn't press
+[00:20:14] Ctrl X, Ctrl B with the create new columns, so I have to redo
+[00:20:21] The animation for it. So I'm gonna quickly go here
+[00:20:25] I'm gonna create some keyframes and lower down the blurriness at the very first frame to zero
+[00:20:31] And there we go. This is what I want
+[00:20:35] And the other thing that I want
+[00:20:38] Is I will go
+[00:20:43] And select all of those frames here
+[00:20:47] And I will create a little keyframe on every single
+[00:20:53] Frame for a reason
+[00:20:55] But I will do it slightly different. Let's delete the last one
+[00:21:00] Let's make sure that there is a zero at the very beginning
+[00:21:03] I'm gonna select all of this and I'm gonna use this icon here create keyframes on and
+[00:21:09] Every number of frames one it will create those keyframes for me, which is nice
+[00:21:16] let's extend everything let's select everything on first frame and
+[00:21:20] Press plus so I will extend the first frame
+[00:21:24] second
+[00:21:26] Third and at the very end. I want to extend just the ball
+[00:21:31] So let's make those three on two. So let's extend our marker
+[00:21:38] Stop here
+[00:21:40] Let's play the animation
+[00:21:43] again
+[00:21:44] So it's slowing down at the beginning slowing down at the end much much nicer for GI
+[00:21:49] Let's export it again export movie instead of 16. We have 23
+[00:21:56] right now our animation lasts for
+[00:21:59] 23 frames
+[00:22:02] And we can go to our
+[00:22:05] folder
+[00:22:07] It's taking a little to render but no worries double click on it and there we go
+[00:22:15] our effect
+[00:22:16] Is actually done
+[00:22:19] Thank you so much for watching on the next tutorial. We're gonna talk about the sprite sheet and
+[00:22:25] How to prepare it for game engines and that will be it. Thank you so much for watching and have a wonderful day
+[00:22:32] See you on the next one. Cheers

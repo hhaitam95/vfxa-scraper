@@ -1,0 +1,170 @@
+[00:00:05] Hello, welcome to this lesson. Today we are going to be going over smoke, taking a look
+[00:00:11] at some different ways to go about animating it and designing it. So let's jump right in.
+[00:00:26] I am a big fan of starting from the simplest form of an element when you're first trying
+[00:00:33] to learn it. So, simplest form of smoke is wisp smoke. This heavily lays into the wave
+[00:00:49] principle, the idea that, and I'll just jump into a drawing frame here. I call it the wave
+[00:01:04] principle, some people call it the seaweed. But really, wisp smoke is nothing more than
+[00:01:11] this. And then when we go to animate it, the side gets pulled over while this raises, moves
+[00:01:20] like that in its simplest form. The wisp smoke is pretty much a level above that just because
+[00:01:35] we are now adding form and mass to it. So these are things that you have to take into
+[00:01:44] consideration when you're animating it because you want to make sure that if these are growing
+[00:01:51] or shrinking that they stay consistent. You don't want them bouncing around, if you will,
+[00:01:58] which is kind of what this talks about. Specifically for wisp smoke, I heavily suggest that you
+[00:02:07] use a guide. The reason for this is because when you create these arcs, you want to keep
+[00:02:14] them moving consistent. I can tell when someone new doesn't use a guide because instead of
+[00:02:23] the apex of these arcs having a nice smooth line from frame to frame to frame, instead
+[00:02:30] we get something that looks like that. And then if you were to play this in animation,
+[00:02:37] frame one, two, three, and four, if you were to play this in animation, it would look like
+[00:02:43] this is bouncing around, right? And we don't want that. We want nice smooth movement on this.
+[00:02:50] Now, you don't have to stick to a straight line. You can get creative and move it across an arc.
+[00:02:58] Each one of these dashes being, say, a frame for the apex, you know, it can travel along an arc
+[00:03:08] itself as it moves outward. Generally, though, when smoke is expanding, it wants to move outwards.
+[00:03:21] It generally doesn't move inwards unless it's being acted on by, say, like in this case,
+[00:03:28] a gust of wind or something like that will control for the negative space here. And the
+[00:03:39] guide is just there to guide you visually. You don't have to stick, like I said, to the shape
+[00:03:49] or this specific line, right? Like, because this guide might be good for this chunk of the wisp
+[00:03:56] smoke, but there might be another invisible line here that this is following. And, you know,
+[00:04:05] it could go like that. And as it expands, it slowly starts to travel outwards as well.
+[00:04:13] We're just trying to introduce things that will limit the amount of possibility of you starting
+[00:04:27] to draw or animate things that don't look good or aren't natural to smoke. Going up from this,
+[00:04:38] we can ramp up the difficulty. And I go over a couple other things here that do that. We're
+[00:04:45] talking about things like interior lines. So this is obviously very basic and plain. Interior lines
+[00:04:56] could mean several things. They could just be texture, or they could be a delineation between,
+[00:05:02] I'll use a couple colors here, or they could be a delineation between fill and shadow. Could mean
+[00:05:16] any of that stuff. It's up to you. But it's, when done right, interior lines can add sort of a nice
+[00:05:25] layer of complexity to the wisp smoke that you don't always see. After that, we're talking about
+[00:05:35] better dissipations, breaking when it comes time, because you obviously can have this rising
+[00:05:43] infinitely, right? Because it was just getting bigger and bigger and bigger. So at a certain
+[00:05:48] point, you want to choose your dissipation point where you're going to start contracting all of
+[00:05:55] your forms and trying to pinch them out of existence. In its simplest form, that would just
+[00:06:05] be a tail like this that would whip back and forth as this animates. Take that to the next level,
+[00:06:16] and you have little bits and pieces that break off of the main part. You can also ramp up the
+[00:06:28] difficulty of the dissipation by creating extra pockets of negative space rather than just having
+[00:06:36] one smooth one. Just be careful when you're doing this because too much texture to align,
+[00:06:44] and not only does it become harder to animate, but it can also start messing with the scale that
+[00:06:52] you're trying to nail, depending on what it is that you're going after. Overlapping shapes. Once
+[00:07:04] again, we're doing this. It's very flat, which is okay. This can be done well. It can be super
+[00:07:12] effective. We are talking strictly now just about next level kind of stuff where we add in pockets
+[00:07:24] of negative space, but the negative space visually is leading us to try to think about depth in the
+[00:07:35] animation. It's not, and this kind of goes in with the last point too, with negative space,
+[00:07:44] but we're trying to, through a 2D drawing, we're trying to show overlap, right? Whereas something
+[00:07:53] like this is just negative space, which is fine and good. There's places for it, but taking that
+[00:08:01] to the next level, we want to try to have things look and feel like they're overlapping. And if
+[00:08:13] you're trying to keep track of that stuff, you can use different colours, like whatever helps
+[00:08:17] you get there. The idea here is that this is all the same shape and this would blend off,
+[00:08:22] and then when it comes back around, it blends in. So if you feel like you're pretty confident with
+[00:08:33] this, you can always ramp it up to this. Let's move on. So now we're changing shape language and
+[00:08:49] we're getting a little bit larger with smoke, getting away from the wispy stuff into more of
+[00:08:55] what I describe as billows, larger poofy shapes. When you are doing these things, you want to make
+[00:09:07] sure that you are thinking about depth, and the way you'll accomplish this is by considering your
+[00:09:18] overlapping lines. This drawing, for example, is moving away from us in perspective because we
+[00:09:34] stick to the theme of the overlapping line. Things only get confusing. There's a way to
+[00:09:45] do it right, but if I want this moving away, you always stick to overlapping lines. If you're
+[00:09:57] looking for a little bit more of a complicated design, you can mix overlapping and underlapping
+[00:10:04] lines, and you're basically just visually shifting where the forms sit on each other visually.
+[00:10:14] Instead of this constantly regressing backwards, if you have underlapping along with the overlapping,
+[00:10:23] then this is moving backwards and this is moving forwards before moving backwards again. So you
+[00:10:37] can see how it can get a little bit complicated because when you're animating this and it's
+[00:10:43] rising and it's dissipating, you have to keep all this stuff in mind. But mostly it's about what
+[00:10:51] you're trying to accomplish with your animation. So in your design with billowing smoke, the level
+[00:11:01] of, and I suppose this applies to pretty much all effects, the level of detail you put into your
+[00:11:08] design is what will make it feel larger or smaller in terms of scale. And this is just a
+[00:11:18] rough example drawing, but something like this where you have generally bigger shapes. It doesn't
+[00:11:29] look too large, but we can take this rough shape and put a little bit more time and attention and
+[00:11:44] effort into it. And yes, it busies it up and it makes animating it more complicated. But if that's
+[00:12:06] the scale you need, then that's what you have to go with. Something like this. And then once you've
+[00:12:25] got like a bit of a more complicated shadow on it with maybe little pockets of light, something
+[00:12:37] like this ends up feeling a lot larger than this. Because if you were to take this and change it in
+[00:12:49] scale, shifting this is going to change the line weight, but come on, grab it. So you can see the
+[00:13:01] potential differences in scale here that we're dealing with. So keep that in mind when you're
+[00:13:11] designing your smoke. It's important. And it's also good to do both variations. Do simpler smoke
+[00:13:22] with broader shapes and then do the opposite of what we had, the more complicated smoke with
+[00:13:27] lots of detail. And then the last thing in terms of billow smoke that I want to make a point of here.
+[00:13:36] There is a middle ground between billow smoke and wispy. So instead of keeping things smooth with
+[00:13:53] the wisp where you want to try to avoid these bumps and bulges, there's kind of a middle
+[00:14:04] ground where you mix the two and then you're dealing with straights on curves, stuff like that.
+[00:14:11] It has its place as well. Once again, it depends on what you're going for, the style, all those
+[00:14:23] types of things. But you can play around with the two concepts. You can play around with this stuff
+[00:14:29] and you can play around with the wispy stuff and you can kind of meet in the middle. It can be
+[00:14:35] a fun and challenging thing to do. All right, getting a bit more into depth here. When doing,
+[00:14:49] I'm just going to read this part verbatim, when doing billow smoke, especially if you're cycling
+[00:14:55] it, it is important to keep all the arcs moving in their respective direction. When I start morphing,
+[00:15:05] I'll have to change that because that doesn't make sense. Changing too quickly or the worst
+[00:15:11] traveling backwards, the latter usually happening when trying to make the transition back to frame
+[00:15:17] in a cycle. So what I mean by this, when we're dealing just with line work, the only thing you
+[00:15:38] have before you're using color to represent depth and shape in your work is obviously the lines.
+[00:15:47] You can get quite far with the, with only using line work. And if the style of whatever you're
+[00:16:01] animating is just line work, then that's fine. However, bringing this up another level, you might
+[00:16:12] get to the point where you want to start accentuating your smoke by giving it different layers of light.
+[00:16:23] You'll have your normal fill and you'll have shadow and depending on how deep you want to go,
+[00:16:30] you can have varying levels of shadow, which I tried to show in this example here. You can see here,
+[00:16:41] I would say, yeah, this is regular fill. This is shadow. And then this would be a darker shadow.
+[00:16:49] And the more layers of light and shadow you use, the more complicated it becomes to animate. But
+[00:16:57] if you're up for the challenge, it can look really, really good. And it can add a ton of depth.
+[00:17:05] The way I like to think about it when I'm animating shadows on smoke is that billowy
+[00:17:17] smoke is very round, depending on how round you want to go. I mean, you can draw, you can use
+[00:17:24] straight lines to draw your shapes, but you're still drawing billowy smoke. So you need to think
+[00:17:38] about how does light fall on these objects. And the direction of the light is very important.
+[00:17:45] So it's something you want to take into consideration when you are shading something.
+[00:17:53] And this literally goes for pretty much, you know, anything in art. But it's especially important
+[00:18:02] for smoke. So actually, I'll leave that one there. Imagining that our light source is coming from
+[00:18:09] somewhere in this sort of direction, going with this kind of example, we would want to use under
+[00:18:17] arcs in order to lay out the shadows. And we're just trying to make the shape appear more 3D than
+[00:18:28] it actually is. Because obviously it's just a flat 2D drawing. Now, with that being done,
+[00:18:39] if we wanted to flip the narrative on what we're doing with the shadows, and instead of the light
+[00:18:47] being there, the light is now there, we start dealing with something more like this. You don't
+[00:18:58] want to necessarily be using the same shape language for the smoke. So you have to play
+[00:19:11] around and find your own sort of design sense of where you are going to be using under arcing
+[00:19:22] shadow and where you're going to be using over arcing. Because they both they both have their
+[00:19:28] places. The confusing thing with these though, is usually when you pick one, it's a good idea,
+[00:19:39] especially for beginners, is to pick one and stick with it. And try to use that as a theme.
+[00:19:45] Because when you start, when you first start shading smoke, if you start mixing up your under
+[00:19:54] arcs and your over arcs, it can start getting really weird looking and confusing. And you start
+[00:20:00] losing, like is this shape in front of this one, but there's light coming from this direction,
+[00:20:07] but there's light coming from that direction. It starts getting confusing and mushy. And it's
+[00:20:14] a leading reason for your animation, or your designs in your animation, not feeling as as
+[00:20:23] tight and as solid as they can. Now that's not saying that you can't do that kind of stuff,
+[00:20:31] because there's, you know, there's a time and place for almost everything. But if you find
+[00:20:37] yourself running into that kind of problem where your shadows don't feel like they're properly
+[00:20:43] making the smoke look 3D, then it's probably because your shadow lines aren't properly
+[00:20:55] accentuating the forms of which you're trying to draw and animate. So taking these ideas,
+[00:21:06] you're basically just ramping it up. In order to get over here, we're just sort of stacking,
+[00:21:14] we're stacking forms, right? But we're not showing all these forms. You could potentially be drawing
+[00:21:24] this. And if you want to like visually represent what it is you're trying to design, you can try
+[00:21:33] drawing through it all. It's not going to look good, but it could be done in say like a rough
+[00:21:39] pass of something. So you have a better visual foundation for what you're going to do when the
+[00:21:47] time comes in order to shade it, right? So a rough pass could look something like this in order for
+[00:21:56] you to wrap your head around exactly what the shapes are doing. And then you can even get a
+[00:22:05] little bit creative and start adding in other shapes, other bulges and areas. The reason why
+[00:22:12] you would do this is so when you go in and you clean this all up, you know that if your light
+[00:22:16] is coming from this direction, that you're going to start adding shadows. And you can see visually
+[00:22:21] this is on top of everything. So if the light's coming in from there, it might have a drop shadow
+[00:22:29] coming from there. There might be a little pocket of light here. Chances are most of this is going
+[00:22:38] to be shadowed. So that might be something that will help get you going. At the very least,
+[00:22:45] this is kind of what I use to visualize the smoke while I animate it. Once you get to the point
+[00:22:52] where you've done this dozens and dozens of times, just keeping it in your head is good enough. You
+[00:22:57] don't really need to put it down visually in order to follow it. But it's a good jumping off
+[00:23:07] point. So this just sort of harkens back a little bit to what we were talking about a couple slides
+[00:23:18] ago. Obviously, you've probably seen explosions as big as like atomic bombs and stuff like that.
+[00:23:27] So you know that these kinds of things can get very, very, very large. And there's a lot of
+[00:23:33] different techniques you can implement in order to animate smoke and the way it reacts depending
+[00:23:42] on the things that are acting upon it. You just basically got to keep doing it, working at
+[00:23:51] different scales, working with different shapes. Don't get stuck in just one kind of shape. And do
+[00:24:01] as many different variations as you can because smoke as an element, as a general element is very,
+[00:24:09] very vast. Just like fire as a single element or water as a single element is very, very fast.
+[00:24:15] There's lots of different types and styles and techniques to doing it. But starting off small
+[00:24:22] and then working your way up is always what I recommend. So the assignment. We're going to do
+[00:24:34] a small dust impact and or burst depending on the speed and how you want to animate it. I did some
+[00:24:43] roughs here in this slide so you can take a look at how we are going to approach a little burst
+[00:24:55] like that. We will have the impact which will create the burst. You can do something for the
+[00:25:02] impact if you're feeling creative, have a ball or a rock or a little energy beam, whatever. It
+[00:25:10] creates the smoke as we see. It's not really a frame or panel but as we see in drawing two here.
+[00:25:18] And then once we've created it, you can go ahead if you want and practice your dissipations by
+[00:25:25] breaking apart the smoke. And then once the animation is finished, you can go back over
+[00:25:31] it and add in the shadows like we were talking about. You'll learn a lot when you're dissipating
+[00:25:37] the smoke and then going over top of it to add in the shadows. That really forces you into thinking
+[00:25:43] about the forms and how they might not be totally visible in some frames but a couple frames down
+[00:25:51] the road, how you're going to have to treat them. It's almost like you're planning ahead a couple
+[00:25:58] frames in your brain so when you get to a certain point in the animation, you know what you're
+[00:26:03] doing. So just yeah, your classic little dustproof there. And that is a good assignment to get you
+[00:26:13] started off on smoke. I will see you in the next lesson.

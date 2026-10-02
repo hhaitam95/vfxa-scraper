@@ -1,0 +1,98 @@
+[00:00:08] hmm so um let's make a ball of zap oh still got some pink there whoops right I
+[00:00:51] painted this I think I started with red so let's start with red then this ball
+[00:00:59] here and these are harsh shapes so we're definitely not gonna want to start with
+[00:01:04] a soft brush start with a hard one perfectly one that changes size okay
+[00:01:11] cool and yet red saturated red oh we don't have to go nuts with the
+[00:01:28] saturation well let's say somewhere around there
+[00:01:32] that's a tough word to spell yeah I must have spelled it wrong for decades before
+[00:01:54] I realized there was two T's and not two L's super saturated red and look at the
+[00:02:07] difference right black then I think we're using the glow trick with this I
+[00:02:20] might not even need to put this in but let's do it anyway cool nope there we go
+[00:02:28] red and we're just gonna use this to lay in the shapes now we want harsh jagged
+[00:02:46] spiky shapes this is an unlit effect right so we don't even need to
+[00:02:54] necessarily respect the lighting situation that is being suggested here
+[00:02:59] that by this ball or really even the roundness so let's um let's just try and
+[00:03:11] get things in the general area cool so we don't need it to be we'll just get go
+[00:03:27] for an interesting lightning II shape here something like that maybe I don't
+[00:03:46] want to get too bogged down in shape making and the you know just designing
+[00:03:53] appealing shapes here I'll try and just stick to the more kind of technical
+[00:04:04] tools related things so often I will find that a brush is a little bit faster
+[00:04:16] than trying to just get like good shapes using the lasso tool so I will I'll get
+[00:04:23] the main idea in there using the brush and then I'll kind of refine it with the
+[00:04:29] lasso tool just kind of shaving bits off of it that's I find often the the
+[00:04:40] surest way to get the result that I want and we're gonna add some like little
+[00:04:53] support e bolts on the outside but let's let's let's wait a little bit to do that
+[00:04:59] so we've got our main idea here right this shape that's kind of suggestive of
+[00:05:06] a sphere or a some kind of round thing no mess that up here we go and do do do
+[00:05:45] do do do do do do yeah cool all right now I'm happy with it let's lay in the
+[00:06:22] black so I think what I did with this is I just let's just do a selection here
+[00:06:37] select modify contract and this will contract our selection by 20 pixels
+[00:06:46] which is kind of an arbitrary number so you might have to do it a couple of
+[00:06:53] times tens a more reasonable number I think so let's just do a fill there
+[00:07:09] actually you know what let's get a big giant brush and use it to create a
+[00:07:15] gradient here softer I think we're going to work with multiple layers of black
+[00:07:31] here so let's bump down the opacity just a smidge
+[00:07:36] opacity opacity however you want like to pronounce it let's keep this
+[00:07:58] selection before we refine our shapes and I think that we want to use just
+[00:08:16] kind of the natural contours of the existing shape to show how we want to
+[00:08:27] support it I had another layer of black and I'll just merge these after they're
+[00:08:39] done right so that adds a little bit of subtlety to it we can we can massage
+[00:08:53] these shapes a little bit more we want them to kind of support the sense of
+[00:09:06] movement that we want to create within the effect so the effect is vaguely kind
+[00:09:12] of moving this way so I want to support that with the the cavities that I carve
+[00:09:20] out here that's a little bit harsh maybe Photoshop will try to warn you if you're
+[00:09:32] screwing up and sometimes you aren't you just got to tell it so there we go
+[00:09:43] I don't want to second-guess myself too much here especially since we're also
+[00:09:56] cleaning up this underlying shape here I don't necessarily think we need this
+[00:10:02] now we have this kind of like squarish peg shape here I don't think I like that
+[00:10:19] let's get rid of it and I don't think this needs to have any dark in it and
+[00:10:27] I'll make that a little bit more severe
+[00:10:32] yes to notice the edges of this effect are much more energetic let's go in with
+[00:10:36] our select the red so that we stay within the lines hide our selection so
+[00:10:45] that we have a good sense of what's happening on our edges and we
+[00:11:03] definitely don't need this to be that big all right cool let's go to town
+[00:11:10] harsh eraser applying it only where we've messed up sharp edges here are
+[00:12:01] your friends so much so that I think we might even want to free ourselves from
+[00:12:19] the selection here color outside the lines so I'm thinking I like these this
+[00:12:48] little detail here more than I like just this flat edge here so I'm going to use
+[00:12:56] this kind of edge contouring pass that I'm doing here as an opportunity to to
+[00:13:03] favor one over the other drawing painting I I think would be kind of a
+[00:13:24] dull ordeal if you didn't allow for the possibility of discovery while doing it
+[00:13:33] if you're just executing on a pre-existing plan and not kind of having
+[00:13:39] a conversation with your with your canvas with your media I mean where's
+[00:13:47] the fun where's the surprise you always want to be searching for new ideas new
+[00:13:55] opportunities to make things more interesting more lively and even you
+[00:14:09] originally envisioned so sometimes a cool thing to do if you're not quite
+[00:14:31] getting the strokes that you want and this is this is an angle that my hand
+[00:14:35] favors right so I can very easily get the strokes that I want here but say I'm
+[00:14:42] trying to do like a like this right it's something that so I'm right-handed and
+[00:14:50] so doing something like this is against the the curve of my wrist something like
+[00:14:56] this it's not as easy to execute controlled strokes as I can if I'm just
+[00:15:02] kind of like favoring the pivot of my wrist which is where being able to turn
+[00:15:10] around your canvas comes in handy if you can if you want to rotate use the rotate
+[00:15:15] tool and you can go like this you can do this this is why if you look at like
+[00:15:27] traditional hand-drawn animation workstations right there these light
+[00:15:33] tables that have discs on them that can be rotated to favor the angle of the
+[00:15:38] animators dominant hand as they're drawing and making their strokes because
+[00:15:44] you always want to do line work that's as clean as you possibly can especially
+[00:15:48] in traditional animation where you don't want any any boils or pops in your
+[00:15:57] animation which are words for for consistency errors can draftsmen ship
+[00:16:04] consistency errors in traditional animation which is how I was trained if
+[00:16:22] you come across one of those things and decide to start using it take very good
+[00:16:25] care of it I had one and it's made of not the sturdiest material it's made of
+[00:16:32] an acrylic that is prone to shattering if you drop it from a height of five
+[00:16:36] feet like I did when I was moving mine out of a storage unit back in the day
+[00:16:40] which is why I don't have one now let's go in here with the white let's add some
+[00:17:00] hotness to this and we will want to outer glow normal and we want to just
+[00:17:12] get a yellow there size and we can adjust all these numbers later right so
+[00:17:18] if we're like mmm that's not good we can change the size of it so let's make just
+[00:17:26] like we haven't the painting let's make the bottom more more energetic
+[00:17:31] zap paintbrush eraser paintbrush eraser something like that all right I think
+[00:18:24] I want to favor the outer edge here just to make everything look classy and
+[00:18:38] professional maybe not in this one it's down here maybe what we want is more of
+[00:18:52] an orange you know we can even do an inner I said the inner glow screen
+[00:19:15] lightens things darkening them okay just the size push that in a little bit more
+[00:19:31] okay cool I think that's feeling pretty good let's maybe add a couple more of
+[00:19:43] these red bits to touch it up and then call this example done and maybe not
+[00:19:59] there something like that maybe just the lingering bits of a previous shape all
+[00:20:52] right I think that's this example done cool

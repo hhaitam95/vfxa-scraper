@@ -1,0 +1,178 @@
+[00:00:05] Hi, I'm Jayden, and in this lesson,
+[00:00:07] we're gonna look at the basic principles of shaders.
+[00:00:10] We're gonna take a look at how they work,
+[00:00:12] how they collect information from the camera
+[00:00:14] and from objects in the scene,
+[00:00:16] and how they perform calculations
+[00:00:18] to apply colors on the objects.
+[00:00:21] I will be throwing out a variety of concepts in this lesson,
+[00:00:23] and hopefully a lot of it will sound somewhat familiar,
+[00:00:27] though there will definitely be some new information.
+[00:00:29] So let's start by looking at rendering.
+[00:00:31] How does a game engine actually take a camera
+[00:00:35] and render out a scene?
+[00:00:37] So as you know, a screen is a rectangle,
+[00:00:40] and rendering starts with the camera.
+[00:00:42] The camera for every pixel that's on the screen,
+[00:00:45] it will shoot out a ray into the scene.
+[00:00:48] And it keeps doing that until a ray hits an object.
+[00:00:52] When a ray does hit an object,
+[00:00:53] it looks at the material that's applied to that object,
+[00:00:56] then runs the shader calculations
+[00:00:58] to determine what color it should be.
+[00:01:01] And it just keeps going until all of the pixels
+[00:01:04] in the screen have been rendered,
+[00:01:06] and it does that every frame for every pixel.
+[00:01:11] So looking at these two cubes here,
+[00:01:13] they both have shaders and they both have materials.
+[00:01:16] And what's the difference between a shader and a material?
+[00:01:19] Well, a shader is what determines how we figure out
+[00:01:22] which colors belong on the surface,
+[00:01:25] and you cannot apply a shader directly to an object.
+[00:01:29] You can apply a material directly to an object.
+[00:01:32] And what a material does is a material hooks
+[00:01:35] into a shader and then uses the shader to render itself.
+[00:01:39] These two cubes, they look very similar,
+[00:01:42] but they also have some differences.
+[00:01:43] That's because they're using the same shader,
+[00:01:46] which determines what the object will look like,
+[00:01:48] but they also have some differences in like their color
+[00:01:51] or the speed of the scrolling,
+[00:01:53] and that's determined by the material.
+[00:01:56] So you have one shader driven by multiple materials,
+[00:02:00] and we can create different materials,
+[00:02:02] which are different variations of the same shader.
+[00:02:06] Everything we do in these lessons,
+[00:02:08] we'll be able to apply to meshes as well as particles,
+[00:02:11] so we can make animated particle effects.
+[00:02:14] One other thing to note is that we'll be working in 3D
+[00:02:17] the whole time,
+[00:02:18] but everything we learn here will apply perfectly to 2D.
+[00:02:22] It's the same things, it's just minus the one dimension.
+[00:02:27] So let's take a look at another concept,
+[00:02:29] which is absolutely critical to understand.
+[00:02:32] We must have a proper understanding of color
+[00:02:35] before we start creating shaders.
+[00:02:37] So this should be a familiar concept
+[00:02:40] if you ever work in any kind of digital art,
+[00:02:42] but every color of a pixel that you see on screen
+[00:02:45] is created using only three colors,
+[00:02:48] the primary colors of light, red, green, and blue.
+[00:02:52] If you combine those in different ratios,
+[00:02:54] you can use them to create white, black,
+[00:02:57] or any color of any shade using just those three.
+[00:03:01] If we combine red and green, we get yellow.
+[00:03:04] If we combine green and blue, we get cyan.
+[00:03:06] If we combine blue and red, we get magenta.
+[00:03:09] All three at full brightness will get us white,
+[00:03:11] and if we start to dim any one of those,
+[00:03:13] they start to produce different colors.
+[00:03:15] We'll be working with color blending
+[00:03:17] in every shader we make.
+[00:03:20] So let's take a look at another important concept, UVs.
+[00:03:24] UVs are a set of coordinates
+[00:03:26] that are used to map the 3D faces of a 3D model
+[00:03:31] onto a square, a 2D texture.
+[00:03:34] On the left here, we have a UV map,
+[00:03:36] and UVs are always square.
+[00:03:39] And on the right, we see the 3D object,
+[00:03:41] and each face is mapped to a set of coordinates
+[00:03:46] on the UV chart.
+[00:03:49] So every face has a set of coordinates
+[00:03:52] that's baked into it,
+[00:03:54] and those coordinates are used to project a 2D texture
+[00:03:58] onto that 3D object.
+[00:04:00] Now, we can actually access these coordinates
+[00:04:03] and manipulate them, and we will be doing that more later.
+[00:04:07] Most important thing we need to know about UVs
+[00:04:10] is that they start at zero and go to one on the X axis,
+[00:04:13] start at zero and go to one on the Y axis.
+[00:04:16] So a point, say, here, for example,
+[00:04:19] would be here on the 3D object.
+[00:04:22] That's like 0.45,
+[00:04:26] and on the Y axis, it's probably also about 0.45.
+[00:04:30] So that produces a set of coordinates,
+[00:04:32] and we can manipulate those coordinates.
+[00:04:34] We can read those coordinates.
+[00:04:35] There's a lot of things we can do with those,
+[00:04:37] which we will explore.
+[00:04:42] So here is a very basic shader,
+[00:04:45] and we'll look at these a lot more later,
+[00:04:48] but the gist of this is we are taking this texture
+[00:04:52] and adding it to this texture
+[00:04:54] so that they brighten each other,
+[00:04:56] basically combining the two.
+[00:04:58] What's important is that they both use UVs
+[00:05:02] from the 3D model, and since they match up,
+[00:05:05] since they use the same UVs,
+[00:05:07] this position on this texture
+[00:05:08] matches the same position on the other texture.
+[00:05:11] And so, for example,
+[00:05:13] we're brightening the middle on this one.
+[00:05:15] It'll also brighten the middle of this one,
+[00:05:17] which produces this effect.
+[00:05:21] Because the UV coordinates match up,
+[00:05:23] that means we can do math to combine the textures
+[00:05:25] and move them around each other in interesting ways.
+[00:05:32] Let's take a look at another important part of our shaders,
+[00:05:35] which is going to be emissive.
+[00:05:37] We can control the emissive value across the surface,
+[00:05:40] which basically tells us how much light is being emitted
+[00:05:44] from any point on the surface.
+[00:05:47] Here we're looking at a sphere which is completely emissive.
+[00:05:49] The entire thing is wrapped up in emissive values,
+[00:05:52] which means that the whole surface emits light.
+[00:05:56] This can be useful for creating things like neon signs
+[00:05:59] or a magical orb in your effect,
+[00:06:02] or even the glow that comes off of a fire.
+[00:06:06] What I want to focus on though,
+[00:06:07] is that emissive values on a surface
+[00:06:10] do not actually emit light.
+[00:06:13] Here on the left, you can see a light.
+[00:06:15] And if you look at the surfaces behind it,
+[00:06:17] you'll notice they're catching and reflecting that light.
+[00:06:20] This looks like it's emitting light,
+[00:06:22] but if I turn off the post-processing effects,
+[00:06:24] you'll see that there's actually no light
+[00:06:26] coming out of the sphere.
+[00:06:28] All of that light is being faked.
+[00:06:30] So why are we using fake light?
+[00:06:32] Well, lighting is actually pretty expensive to calculate,
+[00:06:36] and it's even more expensive
+[00:06:38] if you try to do it across an entire surface.
+[00:06:40] For example, this light is just coming out of one point.
+[00:06:43] It would be ridiculously expensive to try to calculate
+[00:06:46] all the points on the surface
+[00:06:47] actually casting out real light.
+[00:06:50] What we do instead is create like a glow effect.
+[00:06:53] After the whole scene is rendered, we turn on this glow
+[00:06:56] and it makes it look like it's emitting light.
+[00:06:58] But again, the surfaces behind that sphere
+[00:07:01] are not actually receiving any light.
+[00:07:04] If we did wanna create an effect that does cast light,
+[00:07:07] we just combine them.
+[00:07:08] We make a emissive surface plus an actual light,
+[00:07:12] and then you have the appearance of that glow
+[00:07:15] plus actual light that goes out into the scene.
+[00:07:17] This glow is a post-processing effect called bloom,
+[00:07:21] and we'll look at how to set up bloom later on.
+[00:07:24] Shaders can seem pretty complex and intimidating,
+[00:07:27] but it's important to recognize
+[00:07:28] that they are built up of building blocks,
+[00:07:31] small, simple concepts that are layered
+[00:07:34] on top of each other over and over again
+[00:07:36] until you have a very complex shader.
+[00:07:38] But if we can learn the simplest level
+[00:07:41] and combine those to create a complete shader,
+[00:07:44] we can accomplish some really cool effects
+[00:07:45] with some pretty simple knowledge.
+[00:07:48] In fact, in the past,
+[00:07:50] shaders were always written using code,
+[00:07:52] but Unity created Shader Graph to enable artists
+[00:07:55] and non-programmers to be able to create shaders
+[00:07:58] without all the technical knowledge.
+[00:08:00] We're gonna be taking advantage of Shader Graph,
+[00:08:02] and all the shaders we build will be built in Shader Graph.
+[00:08:06] So in the next lesson,
+[00:08:07] we're gonna set up a new Unity project
+[00:08:09] so we can get started making our own shader.

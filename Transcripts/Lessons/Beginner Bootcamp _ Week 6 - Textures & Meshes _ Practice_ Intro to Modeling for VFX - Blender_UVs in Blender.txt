@@ -1,0 +1,303 @@
+[00:00:05] Hello, and welcome back to VFX Apprentice's Intro to VFX Meshes and Blenders series.
+[00:00:10] In the last video we talked a little bit about the fundamentals of modeling in Blender.
+[00:00:14] In this video we're going to talk a little bit about the fundamentals of UVing in Blender.
+[00:00:18] We'll talk a little bit about how to do it, what UVs are, what they're useful for,
+[00:00:23] and how we can use them and kind of mess with them a little bit to make awesome effects.
+[00:00:27] So let's get into it.
+[00:00:29] First things first, we're going to be using the models that we built in the last episode,
+[00:00:34] the hemisphere and the tapered cylinder.
+[00:00:37] But for now, we're going to talk a little bit about what are UVs and what makes them
+[00:00:41] work.
+[00:00:42] So for that, we're going to switch over to some stuff that I've built for everyone
+[00:00:46] here, which are a couple of little examples showing what UVs are and how they work.
+[00:00:52] So in this first example, we're going to be using a cube.
+[00:00:55] So if we go up to, in Blender, up in our UV editing panel up here, you should be able
+[00:01:01] to open that up and we're going to be able to see our UV space here.
+[00:01:06] So a UV space is a 2D image, UV meaning a coordinate system much like X and Y in a 2D
+[00:01:14] 3D space.
+[00:01:15] So UV is very much the same way, U is I believe up and down and V is left and right.
+[00:01:22] And what happens with this is we want to take a complex 3D model like a cube or something
+[00:01:27] else and flatten it or what we call unwrapping in a way where we can lay out all the faces
+[00:01:33] down flat, almost like you were to take a cardboard box and unfold it without ripping
+[00:01:39] it or tearing it or breaking it.
+[00:01:41] If you were to just take all the seams and kind of unhook them and unfold it, you should
+[00:01:45] be able to get one strange looking piece of cardboard, almost like a reverse origami or
+[00:01:52] like if you were ever to take an orange and try to peel it without cutting it into pieces,
+[00:01:58] you would either get like a spirally piece of one orange rind or perhaps one piece of
+[00:02:04] orange rind like that's kind of made up of diamonds, almost if you were to see a correctly
+[00:02:09] flattened out globe, you get a similar thing.
+[00:02:13] It's the same concept with 3D models.
+[00:02:16] Usually we want to try to get them flat so we can draw textures on them.
+[00:02:20] So for this first one here, this is a 3D cube that has been unwrapped and you can see
+[00:02:27] the UV-1 space is completely utilized.
+[00:02:30] All six of these faces of the 3D model, because there are six faces to a cube, occupy the
+[00:02:36] entirety of the texture so you can see that all of them have the same thing.
+[00:02:40] Up in the top right, you have zero and one, which is the same as up here, where this vertice
+[00:02:45] is.
+[00:02:46] I've got this vertice right here.
+[00:02:50] It should be showing that one, but zero to one over here, right there, and one to zero
+[00:02:57] down here.
+[00:02:59] Once again, this face is showing the same stuff.
+[00:03:02] This face is doing the same thing, but backwards, but they all have the same functional idea.
+[00:03:07] They all have one zero and zero zero down here.
+[00:03:13] The takeaway is each one of these faces is occupying all of this 2D space.
+[00:03:17] So if we were to put something interesting here, it would show up everywhere.
+[00:03:22] Now in this object right here, this is the same cube, the same exact geo, it's just that
+[00:03:28] it has a different UV layout where it's laid out in a way where it's completely flat.
+[00:03:32] So you can see that each of these faces occupies a piece of the zero one space.
+[00:03:39] This is actually more common in a lot of the character art or prop art where not everything
+[00:03:45] needs to be exactly filling up the texture.
+[00:03:48] But in order to get an interesting texture and a thing, you have to lay out a lot of
+[00:03:52] these pieces of geo in a way where you can just, you can draw interesting things.
+[00:03:58] Like if this were a prop, you would have my rivets on here and my face over here or whatever.
+[00:04:04] But in this one, you can see C4, C5, D4, D5 right here.
+[00:04:07] This is this space.
+[00:04:09] Over on the left side, C2, C3, C2, C3, D2, D3, D3.
+[00:04:15] You can see how this cube is laid out, H4, H5 is down here.
+[00:04:22] Right here is the same exact cube, just kind of in a, almost like in a mid animation state
+[00:04:27] where it's trying to unwrap just to make this a little bit easier to understand.
+[00:04:31] And this area over here, obviously the same exact UV layout, it's the same model.
+[00:04:37] It's just laid out a little bit differently.
+[00:04:39] You can kind of see exactly how this model right now is the same shape as this.
+[00:04:46] This has the same texture utilization as this does, believe it or not.
+[00:04:52] It's just that the faces are laid out differently, but this is the interesting thing about UVs.
+[00:04:56] You're taking a 3D object and unfolding it to place it down on a UV space.
+[00:05:02] It might sound complicated, but hopefully this will clear it up a little bit.
+[00:05:06] If we were to change this into a non-tiling texture, like my friend Bloxy here, you can
+[00:05:13] see Bloxy is a very happy guy, he's supportive, he wants to let you know that you're rad.
+[00:05:20] You see that this face is his face, this is clearly his chest, he has like his middle
+[00:05:26] torso and his legs on here and his arms.
+[00:05:28] If we show Bloxy's texture over here, this is the same thing.
+[00:05:35] You can see how the texture is laid out in a way.
+[00:05:39] All of this stuff is matching, right?
+[00:05:40] You can see his little hand here, same thing right here.
+[00:05:45] Face is on this one.
+[00:05:48] We scoot over to this one and attach the Bloxy material here.
+[00:05:53] Same thing, same exact face stuff.
+[00:05:56] He's folding backwards, he might not be happy about that, but the UV page is exactly the
+[00:06:02] same.
+[00:06:04] Same thing with this one.
+[00:06:06] Bloxy's not going to be happy about this because he's going to be completely inverted.
+[00:06:10] But again, all we've done here is taken a complex 3D object like a cube and unfolded
+[00:06:18] it in a way where we can lay it down flat and show the full texture.
+[00:06:23] That's all UV is.
+[00:06:25] It's essentially taking a fun object like a strip or a cube or a dome and laying it
+[00:06:33] down in a way where when you place a texture on top of it or a material or anything, it'll
+[00:06:38] lay out how you want it to.
+[00:06:40] We have, especially with effects artists, we have an immense amount of freedom in how
+[00:06:45] we want to both work this correctly or break it, depending on what effect we want to make.
+[00:06:53] The more important thing is just to kind of understand the underlying mechanics of what
+[00:06:59] makes a UV.
+[00:07:01] So let's go over to the objects that we made in the last episode, the geo stuff.
+[00:07:07] Let's go back to our UV chart here.
+[00:07:13] So I mentioned before that when we make a hemisphere or a tapered cylinder from a primitive,
+[00:07:22] we get some things for free.
+[00:07:23] One of the things for free that we get are UVs because primitives are automatically UV'd
+[00:07:29] for us.
+[00:07:30] You can see that this cylinder, when we select all the faces, you can see it's actually already
+[00:07:36] kind of UV'd for us, which is amazing and incredibly helpful.
+[00:07:42] This way, when we put a texture on this, if we put UV chart on it, you can see that this
+[00:07:49] A6 here shows up right here.
+[00:07:52] These faces here are the same here.
+[00:07:55] If we select everything and were to scale this, you can see how this reacts.
+[00:08:04] I'm making this bigger, so we're catching more of these squares in the texture.
+[00:08:10] You can see more of the squares in the texture are getting caught here too.
+[00:08:13] Since the model is kind of short, the squares get squished a little bit, but it's still
+[00:08:19] occupying the same thing.
+[00:08:20] If we can fix that by making this guy taller, see how that kind of stretches that out a
+[00:08:27] little bit, now the squares are more or less correct size and our UV sheet stays the same.
+[00:08:36] There's a lot of stuff that we can play with in this space to make or break all kinds
+[00:08:42] of stuff, which is really exciting.
+[00:08:45] You can see when we change the orientation of this UV space, really all we're doing
+[00:08:50] again is taking the 3D model, which is this guy, which we have flattened out or unwrapped
+[00:08:57] into a 2D space, we can mess with this all we like and we do as effects artists to make
+[00:09:03] things behave differently.
+[00:09:08] See the same thing with a sphere or a hemisphere rather.
+[00:09:14] When we use a sphere to cut in half and make a hemisphere, you can see right now that we
+[00:09:20] have our sphere unwrapped.
+[00:09:21] We cut it in half, so it's only half of this.
+[00:09:25] If it had the bottom half of the sphere, it would be down here as well.
+[00:09:29] You can see how it's utilizing the space.
+[00:09:32] Very handy.
+[00:09:33] As soon as we start moving this around, you can see how the scrolls swing that can move
+[00:09:39] left and right.
+[00:09:41] There's all kinds of really fun tricks that we get to do.
+[00:09:45] In fact, one of the really fun things that we can do as effects artists is when we start
+[00:09:49] to mess with the UVs of specific vertices, like if we were to go into one and like hit
+[00:09:55] the first key, number one, and start selecting vertices, so they're over here, select those
+[00:10:02] and move these around, you can see how that really messes with the texture.
+[00:10:06] If we were to select everything and decide we're just going to push stuff around, you
+[00:10:11] can see that as we start to mess with this stuff, it really plays with that.
+[00:10:15] In fact, one of the fun things we can do is in Blender, which I love, there are tools
+[00:10:23] over here that grab, relax, and pinch, where if we grab stuff and you can move kind of
+[00:10:29] whole areas of this and move it around, and you can see how as we start to bend and play
+[00:10:34] with these vertices here, it really messes with this texture.
+[00:10:40] And now that this texture is kind of messed up a little bit, or like the UVs rather, when
+[00:10:44] we move whole swaths of the texture, or the UVs, I'm sorry, the UV page, since it's still
+[00:10:51] keeping this strange vertices layout, the texture will react to that, which is very
+[00:10:57] cool.
+[00:10:58] And you can see there's a lot of really fun kind of play that we can cut into, which we
+[00:11:05] can really play with quite a bit.
+[00:11:07] Let's just undo a lot of that stuff here.
+[00:11:13] Another texture that I've made up for us here is this horizontal beam, which we will set
+[00:11:19] over here right now, boink, there we go.
+[00:11:24] So same system, oops, select all that's up there, there we go.
+[00:11:33] So now with this one, you can see while we're making our effects, if you ever want to have
+[00:11:41] a kind of like, this is one of the reasons why a hemisphere is so useful, and you'll
+[00:11:47] use this in so many different places.
+[00:11:49] If you were to have a momentum shield or some kind of deflection, you could actually set
+[00:11:56] this up.
+[00:11:57] So where you have a normal tiling texture like this, where it's tiling on left to right,
+[00:12:02] and you can have your UVs go from bottom up.
+[00:12:07] So you can imagine like a little blast coming down from the center here, impacting right
+[00:12:12] here and deflecting off.
+[00:12:14] You can modify that with that.
+[00:12:18] And as you scale up and scale down these UVs here, you can see how this really changes
+[00:12:26] the size of this.
+[00:12:28] So when you start playing with your UVs in 3D models, you get just so many options of
+[00:12:34] things that you can do that just will open up a whole world of fun material and texture
+[00:12:43] things that can just add so much to your effects, and it's so exciting, and it's really
+[00:12:51] not a complicated system.
+[00:12:57] So I mentioned before about t-shirts.
+[00:13:03] So in the garment industry, one of the things that they do is they will take a t-shirt or
+[00:13:09] a piece of clothing and essentially unwrap it in real life.
+[00:13:14] If you were wearing a t-shirt right now, you'd be able to feel around your body and feel
+[00:13:18] maybe on your sides, potentially a seam on the shirt on both sides and a seam around
+[00:13:24] your shoulders and maybe under your arm on your arm sleeve as well.
+[00:13:32] So a really interesting way to look at this, and I've made us the world's thickest t-shirt
+[00:13:38] or rather stiffest t-shirt on the planet.
+[00:13:40] If we look at this here, let's make this image, actually we'll keep this dark just so it's
+[00:13:47] a little bit easier to see.
+[00:13:49] As you can see here, I've laid out this image, actually we'll do this, we'll make this so
+[00:13:58] it's the same, there we go.
+[00:14:01] So in this image here, I've laid this out, I've cut this model up in a way where even
+[00:14:06] though it's a complex model where it's all round and it's in different pieces, we've
+[00:14:12] cut it up in a way where we've been able to lay it out flat.
+[00:14:16] So you can see over here on the right side, we have the front of our shirt right here,
+[00:14:27] the back of our shirt right here, and then we have the arms up here.
+[00:14:37] So by setting these up and cutting these out, we've been able to lay them out and flatten
+[00:14:41] them in a way where we can take a texture and lay it out flat.
+[00:14:52] Over here we have the same shirt, but our textures, our UVs are really messed up and
+[00:14:58] we're going to fix that right now.
+[00:15:02] In the process, we're going to learn how to do UVing in Blender.
+[00:15:05] Let's go ahead and hide everything else so it's a little bit easier to see.
+[00:15:11] To hide stuff, you can select your object and either hit control H to hide the object
+[00:15:16] or hit shift H to hide everything around it that's not the object.
+[00:15:20] It can be really easy to just isolate what you want to look at.
+[00:15:25] So UVs operate off of seams.
+[00:15:27] Just like in clothing, just like in any other 3D model system, it's a seam system.
+[00:15:34] So if we were to take this object here, which you can see the UVs are completely messed
+[00:15:38] up.
+[00:15:39] Like this thing is just ugly as sin.
+[00:15:41] You can see like there's obviously we're trying to take this one flat image and put it on
+[00:15:45] this thing and it's just all kinds of messed up.
+[00:15:48] So we're going to fix that.
+[00:15:49] You could say that you want, you would be able to go into orthographic view and UV unwrap
+[00:15:57] as a projector from view and it would look great from the front.
+[00:16:02] And you can see how this is showing up correctly here too.
+[00:16:05] This is looking great from the front.
+[00:16:06] And as soon as you look at the sign, you see it's starting to stretch because these faces
+[00:16:13] here are occupying the same space in this 2D.
+[00:16:17] You can see that E4 and E5 look correct on the front, but on the back they're backwards
+[00:16:23] because just like in 2D, your back faces are actually backwards because they're trying
+[00:16:28] to be forwards and it just doesn't work like that because it's 2D.
+[00:16:36] We can fix this by setting seams.
+[00:16:39] By setting seams, you hit 2 and go into your edge mode, double click on your, so we're
+[00:16:45] going to be, what we're going to be doing here is we're going to be cutting out the
+[00:16:48] arms and separating the front torso from the back.
+[00:16:54] So if we cut the arms by double clicking all the way around here, select one of these edges,
+[00:17:03] hold on shift, double click.
+[00:17:06] This is going to run into a snag when it hits an area or an edge like this that has multiple
+[00:17:10] points.
+[00:17:11] I don't know what to do with that and that's okay.
+[00:17:13] We just have to select the next edge in the row, hold down shift again, double click again
+[00:17:19] and it'll allow us to finish that seam.
+[00:17:23] Go ahead and right click and mark seam.
+[00:17:28] So what we're doing here is we're telling the program that when we do UV unwrap it,
+[00:17:33] we want this piece to be its own shell in the 2D UV space.
+[00:17:38] We're going to do the same thing on the other side.
+[00:17:44] See I've gone all the way around, right click, mark seam.
+[00:17:50] Now if we were to unwrap this, if we go into face mode, select, hit control A to select
+[00:17:56] everything and go to right click and UV unwrap faces and unwrap, we're going to see something
+[00:18:02] really interesting happen.
+[00:18:03] We're going to see this has done the right thing by separating the arms out, you see
+[00:18:10] an arm here, an arm here, and you see this big piece right here is actually the torso.
+[00:18:16] So this is still very wrong because it's doing the right thing, but we haven't marked
+[00:18:22] any other seams in the torso.
+[00:18:23] So since this is a closed object, it's trying to flatten this out flat, just trying to find
+[00:18:28] a way to make all the polygons lay flat in 2D space, but since we haven't cut it up correctly,
+[00:18:35] it's trying its best, but it can't quite do it.
+[00:18:38] So we need to add a few more seams.
+[00:18:40] So remember, trying to take a 3D object and lay it down flat.
+[00:18:45] So what we're going to do is we're going to start with this arm seam, this arm kind
+[00:18:49] of armhole here, we're going to take this guy, we're going to hit number 2, we're going
+[00:18:59] to select this side seam here, right click, mark seam.
+[00:19:06] So this is going to do a couple things, this is going to mark a seam for this and also
+[00:19:11] for our torso.
+[00:19:12] We're going to do the same thing on the other side, double click, mark seam.
+[00:19:22] So let's do the same thing again.
+[00:19:25] Hit number 3 to go into face mode, select control A to select everything, right click,
+[00:19:32] unwrap faces, unwrap.
+[00:19:35] This is going to be almost right but not quite, now let's make this a little easier to see.
+[00:19:45] You can see here, it's now correctly unwrapped our arm holes here, our arm sleeves, but we're
+[00:19:53] almost right with our torso.
+[00:19:58] We've correctly added the seams here so we can lay this down flat, but, and you can actually
+[00:20:02] do this if you like, if this is what you need, this is great, but for our purposes we might
+[00:20:08] want to be able to set these next to each other so we can put another seam just on the
+[00:20:14] shoulder here.
+[00:20:16] Right click, mark seam, and once again hit number 3, faces, control A, unwrap, unwrap.
+[00:20:26] And now, voila, we have 4 pieces to our shirt.
+[00:20:31] Our shirt is completely laid out flat and now if we put any kind of texture on here
+[00:20:38] it will show up correctly and mapped correctly to our 3D object.
+[00:20:48] Let's go ahead and set this back to our UV chart.
+[00:20:53] Now you can see, let's make this a little bit easier to see by rotating, so I'm going
+[00:20:57] to select all of the shells here, hit E to rotate, I'm going to hold down control as
+[00:21:02] I'm rotating just to keep things at a 5 degree angle so I can get to 90 pretty easily.
+[00:21:07] And I'm doing this just so it's a little bit easier for us to see.
+[00:21:14] Put that back in the 0-1 space, there we go.
+[00:21:16] So now, on the front of the shirt, we have this area of the shoulder, D6, E6, D6, E6
+[00:21:28] right here.
+[00:21:29] E7 is here, E7 is right here, you can kind of see the same contour, there's the neck
+[00:21:33] hole, there's the neck hole, same thing on the back, E2, E3.
+[00:21:37] You can see how it's also correctly showing the right orientation of the letters because
+[00:21:42] we've laid it out flat.
+[00:21:44] Nothing's upside down, nothing's backwards, it's correctly as how it should be.
+[00:21:50] Same thing with our shoulders here, our arms, C4, C5, C4, C5.
+[00:22:01] Now if you put any kind of texture on here, it'll work out fine.
+[00:22:05] For a lot of effects, this is really important, being able to accurately unwrap a complex
+[00:22:10] model, get it so you can put a texture on it, and get that into the editor.
+[00:22:16] Now after we do this, once we're in the engine, we can add all kinds of fun materials, all
+[00:22:21] kinds of fun shader effects to it, and really punch up the way that this works.
+[00:22:25] Another interesting thing that we can do as effects artists is if you ever run into a
+[00:22:29] situation where instead of unwrapping this object where you need everything to be completely
+[00:22:34] unique, you'll find a lot of times where sometimes you just need to unwrap an object
+[00:22:39] where you have, you just want it so you can run like an electricity from the bottom to
+[00:22:45] the top.
+[00:22:46] And when it's stuff like that, it's entirely valid to go into an orthographic mode, select
+[00:22:53] everything, and then unwrap as project from view, or you know, get a little bit closer
+[00:22:58] so you can, yeah, project from view, make that bigger like this.
+[00:23:07] So if you have an area like this where you just need to be able to place a 3D effect
+[00:23:14] like this, this is entirely valid.
+[00:23:19] And this is the way that this goes more often than not.
+[00:23:21] I find that it's just also very valuable to know exactly why objects are unwrapped and
+[00:23:26] how to unwrap them, even if you just need to do stuff like this.
+[00:23:31] You can see that now if I take this object and move it up and down, you can see how the
+[00:23:38] electricity beam right here is stationary, and we move the shirt as we move this down,
+[00:23:42] it's over the chest, the chest right here, this up right there.
+[00:23:48] You'll find a lot of this stuff is super common and works with all kinds of models.
+[00:23:55] And once you know kind of what you want to do, it's incredibly easy.
+[00:24:00] There's a lot of 3D artists and you'll see this all the time from a lot of environment
+[00:24:04] such as stocktuber or character artist that kind of whacks poetic on how they really hate
+[00:24:10] doing UV maps.
+[00:24:12] And I find them kind of relaxing myself.
+[00:24:15] It's almost like a 3D puzzle, you have to cut something up in such a way to get your
+[00:24:22] technical view, your technical vision to play out correctly on a 3D model.
+[00:24:28] It's kind of meditative and if you approach it from that standpoint where instead of something
+[00:24:33] to be done in one way correctly, you can get creative with it and do it in a way that gets
+[00:24:40] your effects of vision across, there's no wrong way about it.
+[00:24:45] You can do it however you need to.
+[00:24:46] It's important to remember that it's the end result of your effect that's important.
+[00:24:52] And with that, I think you're going to be amazing at this.
+[00:24:56] I'm really excited to see what you do, I hope this is helpful and we'll see you all in the
+[00:25:00] next one.
+[00:25:01] Bye.

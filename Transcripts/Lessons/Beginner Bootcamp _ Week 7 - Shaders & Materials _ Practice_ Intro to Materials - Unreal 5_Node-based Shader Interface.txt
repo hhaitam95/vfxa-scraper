@@ -1,0 +1,154 @@
+[00:00:05] Hi, friends.
+[00:00:06] Welcome to this new video.
+[00:00:08] I'm Gabi, and today we're going to get our first look
+[00:00:11] at the Unreal shader interface.
+[00:00:15] That way, we're going to be able to make all our materials
+[00:00:18] for our VFX.
+[00:00:19] So first off, this here is your blackboard.
+[00:00:24] And on this blackboard, you'll be making all your shaders
+[00:00:27] for your VFX.
+[00:00:28] So I got a sample here of all the nodes
+[00:00:32] we'll be using in the next classes.
+[00:00:34] And you'll see that this here is all the nodes you'll be using.
+[00:00:41] You don't need any more.
+[00:00:42] I know in Unreal, there's a ton of them,
+[00:00:44] but you do not need more nodes than just those.
+[00:00:48] So I hope this gives you a sense that it's
+[00:00:50] not that overwhelming.
+[00:00:51] There's not that many things to use.
+[00:00:54] Most of the time, you'll be just using the top row here,
+[00:00:58] and that's it.
+[00:00:59] To connect different elements, you
+[00:01:00] want to just left-click on any of those holes,
+[00:01:04] then drag this around to any hole you want to connect.
+[00:01:08] Once connected, the line will be there.
+[00:01:10] Hovering on the line will highlight it.
+[00:01:12] And pressing Alt on your keyboard
+[00:01:15] and then just clicking the connection will sever it.
+[00:01:19] You can pan through this canvas by holding the middle mouse
+[00:01:25] and scrolling back and forth, or by holding right-click
+[00:01:30] and just panning around.
+[00:01:33] So apart from this canvas here, which
+[00:01:35] is the main bulk of your work, you'll
+[00:01:38] have those little two parts here.
+[00:01:40] First off, a preview, which you can just left-click
+[00:01:46] in order to see around.
+[00:01:48] Sometimes you'll be on the sphere.
+[00:01:50] I suggest always going back to the quad.
+[00:01:53] It will help you to visualize what a particle would look like.
+[00:01:56] And then I suggest going into unlit
+[00:01:59] in order to have a better idea of how
+[00:02:02] your particle will look without cross-processing,
+[00:02:04] without other superfluous elements.
+[00:02:06] And also for debugging, this is better.
+[00:02:10] In the details here, every time you click on a node,
+[00:02:12] you'll get different values.
+[00:02:14] They basically let you tweak different nodes
+[00:02:17] in a better way.
+[00:02:18] Most of the time, if you don't click anywhere
+[00:02:19] or if you click on this master node,
+[00:02:22] which we'll come back just after,
+[00:02:25] you'll have access to this panel.
+[00:02:26] It's very long, but the only thing you need to look at
+[00:02:28] is the blend mode.
+[00:02:30] Is it fully opaque?
+[00:02:32] Is it mass, which means either transparent or fully opaque?
+[00:02:35] Or is it translucent, which means
+[00:02:37] range between 0 to 1, 0 and being completely transparent,
+[00:02:40] 1 being completely opaque?
+[00:02:41] Or are there options?
+[00:02:46] Is the shading model unlit or lit?
+[00:02:49] Be careful, because if sometimes you're unlit,
+[00:02:52] your preview being unlit or lit will still change things,
+[00:02:55] most notably bloom and cross-processing.
+[00:02:57] So most of the time, I suggest you keep everything
+[00:03:00] translucent and unlit, at least for now.
+[00:03:02] And once you understand a bit better how things work
+[00:03:05] and most notably how optimization works,
+[00:03:08] you'll be able to play around.
+[00:03:09] Finally, two-sided speaks for itself.
+[00:03:12] Right now, my quad, I can't see it from behind.
+[00:03:14] But if I click two-sided, now I can see it.
+[00:03:17] All right?
+[00:03:20] To the meat of what we've got here, I have a few things.
+[00:03:25] First off, you have, as we said, the master node here.
+[00:03:29] This master node is your output.
+[00:03:33] What you connect here will be the final result
+[00:03:35] you'll have on your material.
+[00:03:39] So the only two elements you're interested in
+[00:03:42] are the emissive color and the opacity.
+[00:03:44] The emissive color is a vector 3,
+[00:03:45] meaning you get three values, R, G, and B, between 0 and 1,
+[00:03:50] 0 being completely absent, completely black,
+[00:03:53] and 1 being completely red, green, and blue.
+[00:03:57] Combining them together, you get any color.
+[00:04:00] And then the opacity, which is just one value between 0 and 1,
+[00:04:04] that will give you 0 being completely transparent,
+[00:04:07] 1 being completely opaque, and that's it.
+[00:04:11] From there, you'll have a few elements.
+[00:04:13] First off, constants, which are just that, fully constant value.
+[00:04:19] Those values can be in your T afterwards.
+[00:04:20] It's always the same.
+[00:04:22] It can be put in packs of different amounts
+[00:04:26] of values.
+[00:04:28] So you can either have what's called a vector 4, which
+[00:04:31] means that you have four values packed into each other, three
+[00:04:36] values packed into each other, two values packed
+[00:04:38] into each other, only one.
+[00:04:40] Note that they look the same.
+[00:04:43] The connectors, if you connect them somewhere,
+[00:04:45] will look exactly the same, even though it's not
+[00:04:49] the same values.
+[00:04:50] It's the same amount of values.
+[00:04:52] So be wary of this.
+[00:04:55] In general, you won't have to be too careful about those,
+[00:04:58] since Unreal will handle some of it for you.
+[00:05:01] Sometimes when you have a bug, you
+[00:05:03] want to go back and look for those.
+[00:05:06] We'll go into this, of course, in more detail.
+[00:05:10] Then you have basic math operators.
+[00:05:12] This is nothing fancy.
+[00:05:13] It's just plus, minus, multiply, divide.
+[00:05:19] We'll be using those quite a bit.
+[00:05:21] So if you just followed classes of math during school,
+[00:05:27] they'll be just completely fine.
+[00:05:28] This is nothing crazy.
+[00:05:31] We have those little ones, which are ways
+[00:05:33] to combine textures together.
+[00:05:35] We'll go into more details for each one of those
+[00:05:39] in the next classes, because those are very VFX specific
+[00:05:42] and things you'll be wanting to understand
+[00:05:44] by the end of this lesson.
+[00:05:45] For now, let's just leave them aside.
+[00:05:49] The Texture Sampler is the node we'll
+[00:05:51] see in the next lesson.
+[00:05:53] Basically lets you take a super cool texture you painted
+[00:05:58] and apply it to your mesh in the best way possible.
+[00:06:01] It's also what will let us pan our texture,
+[00:06:04] scale it in the different ways we want, and just in general,
+[00:06:08] have it be its best self.
+[00:06:12] Finally, we have what's called different parameters
+[00:06:15] that we can use, inputs and parameters
+[00:06:17] that will vary over time.
+[00:06:20] So for instance, just the time node
+[00:06:22] is just a value that is the number of milliseconds
+[00:06:25] that happened since the start of the whole scene.
+[00:06:28] So this, you'll have other ones that you will use.
+[00:06:33] But remember, red ones are usually dynamic inputs
+[00:06:38] that will happen.
+[00:06:39] The one that you'll need that you'll use the most
+[00:06:41] is this one, the dynamic parameter.
+[00:06:43] Dynamic parameter is a set of four values
+[00:06:47] that have come directly from the particle system.
+[00:06:52] And from the particle system, you'll
+[00:06:53] be able to animate different elements.
+[00:06:55] For instance, this one, you could
+[00:06:56] decide that the new particle system,
+[00:06:58] it's just the lifetime of your particle,
+[00:07:00] or a random number between 0 to 1.
+[00:07:02] And every time a new particle is spawned,
+[00:07:04] you get a random number assigned to that particle.
+[00:07:07] You can easily see how those can be vastly useful,
+[00:07:11] or any effect you want to make.
+[00:07:14] All right, and that wraps up everything we need here.
+[00:07:17] I'll see you in the next video.

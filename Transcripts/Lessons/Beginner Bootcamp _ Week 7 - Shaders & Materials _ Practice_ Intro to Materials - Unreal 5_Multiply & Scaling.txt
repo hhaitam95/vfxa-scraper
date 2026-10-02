@@ -1,0 +1,52 @@
+[00:00:05] Hey friends and welcome to a new video. Today this is our final video on UVs. After that
+[00:00:12] we go to texture. On UVs today we want to talk about multiplying and scaling.
+[00:00:20] How do we scale our texture? To scale our texture we want to multiply the coordinates of our UVs
+[00:00:27] so that they span more or less space. You've understood by now that the edges of your images
+[00:00:35] are going to be between 0 and 1. 1 being the far edge of your image and 0 being the other edge.
+[00:00:41] So if we multiply by a large value suddenly this edge is smaller therefore our image is smaller.
+[00:00:50] If we multiply by a smaller than 1 value then suddenly this becomes bigger so our texture
+[00:00:58] becomes bigger. To demonstrate this I prepared this little example very simply. Again using our
+[00:01:04] example parameter we can see that obviously putting minus 0.5 will not help but 0.5 makes
+[00:01:12] it so that before our texture was going from 0 to 1 now it's going from 0, 0 multiplied by 0.5 is
+[00:01:19] still 0, to 0.5 because 1 multiplied by 0.5 is 0.5. Pretty simple. So what does that do then for
+[00:01:31] our texture? Well our texture is still going to try and map onto this. 0 will still be 0,
+[00:01:36] still be the same edge but 0.5 before was this the middle of our texture.
+[00:01:43] So you've probably guessed it by now but if we end up using this
+[00:01:49] same way as before use our append our 0.5 is here now. Oh and we need to disconnect this one.
+[00:02:04] All right so suddenly we stretched and scaled our texture twice on the y-axis. That's pretty cool.
+[00:02:14] We can then use this parameter and we're going to go into the example for this once again to
+[00:02:20] scale it around. Here if I play around with it you can see that I can scale it to be very small
+[00:02:27] to be very big and again what can we see if we multiply by 2?
+[00:02:32] Well the 0 stays at 0 because 0 multiplied by 2 is still 0. The 0.5 multiplied by 2 is 1 so
+[00:02:40] this is just the edge of our texture and then 1 to 2 since we're clamping our texture as we explained
+[00:02:46] last time there's nothing. All right so here we can scale it all around this is only on x but
+[00:02:55] you've guessed if we just multiply our uvs back into here just straight up you'll scale
+[00:03:07] directly diagonally this is almost what we want we almost want this this is this is close it's
+[00:03:15] scaling it exactly like we'd want to if we wanted to make it big then small or scale around that
+[00:03:22] would work just it's not coming from the center this is probably the hardest thing we're doing so
+[00:03:29] far so just hold on for now in order to scale from the center you want to do a few things see
+[00:03:39] if you add and then multiply it's not the same as if you multiply and then add if you remember
+[00:03:45] classes in middle school or high school and you remember how different curves and
+[00:03:52] algorithmic work adding then multiplying is not the same as multiplying then adding
+[00:03:57] so in order to scale from the center i prepared a little one here what do you want to do basically
+[00:04:07] you want to first and as we did here offset our texture 0.5 to the side so in order to go to the
+[00:04:16] right we need to do minus 0.5 so that this become minus 0.5 this becomes 0 and this becomes 0.5
+[00:04:24] all right so we displace it to the right so what happens if we only do that we only just push it
+[00:04:32] to the side so this is just the output of this if we only push it to the side 0.5 then you'll see
+[00:04:44] that we're still lacking one little thing it will work but the scaling now doesn't go back towards
+[00:04:55] us it goes towards the like the center is still there but it's not quite where we want it to be
+[00:05:02] in order to fix it back we need to shift it back towards zero the scaling is from 0.5
+[00:05:10] but then all the values that we multiply we want them back in the center because at the end of the
+[00:05:16] day this part here the 0.5 we still want it at the center another we're scaling from zero we want to
+[00:05:23] go back and add back again our 0.5 first we subtract 0.5 we do a little multiplication and
+[00:05:29] add back the 0.5 we were missing all in all with this little trick suddenly we can scale
+[00:05:39] from the center all right and this lets us scale our thing as much as we want
+[00:05:47] so going back to this again just as a reminder to scale from the center we want to first subtract
+[00:05:56] 0.5 in order to push the center of where we will scale towards the center multiply it by the value
+[00:06:02] we want so here we're going to probably want to put the parameter and then we want to go back in
+[00:06:08] and then add back our 0.5 in order to center it back all right then plug that that's back into our
+[00:06:15] uvs and that's going to be it for now i hope you got a first idea of how to use uvs in your
+[00:06:27] vfx don't worry we're going to go into a few applications of how we can use those uvs to apply
+[00:06:33] things like distortion and other cool effects for your vfx for now we're going to take a side note
+[00:06:40] on the uvs directly and instead go to how to use textures and how you can modify textures
+[00:06:49] and combine them together to get cool effects until then

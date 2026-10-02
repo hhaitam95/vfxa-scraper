@@ -1,0 +1,119 @@
+[00:00:04] Okay, now let's create a sketch using the perspective rules we talked about previously.
+[00:00:13] So I want to create a wave that is going into the camera.
+[00:00:19] Not in front of the camera, but like along the camera.
+[00:00:22] I will start with drawing a cube in perspective, like, not a cube, cuboids, like long long
+[00:00:29] cube here.
+[00:00:34] So it will be like my guide for the overall perspective in this scene.
+[00:00:40] Maybe a little bit wider, like this, now these lines, like this, and like this.
+[00:01:13] Now these lines from this corner, probably like this.
+[00:01:25] And this one will be even more flat.
+[00:01:33] Okay, now let's see how they come up to the one point.
+[00:01:43] Correct, this line a little bit, this line a little bit, this one.
+[00:01:52] Okay, okay.
+[00:01:55] So I have my basic cube and I want to draw a like basic side of my wave.
+[00:02:08] So I want it to come up to this corner and from this corner and it will be like this
+[00:02:16] wave and the smaller wavy part here.
+[00:02:24] Okay, like this.
+[00:02:27] Now I need to draw the same wave on this side of the cube.
+[00:02:34] Okay, so this dot is in this corner of this side, this dot is here.
+[00:02:40] Now this point of intersection with this edge, I can draw a line to find this dot here.
+[00:02:55] So it will be here.
+[00:02:57] Now I need to find where is my, this bump.
+[00:03:01] I will draw a line here that is touching this part, that is aligned to these vanishing
+[00:03:09] lines and from this dot I will create another line to this side of the cube.
+[00:03:21] Okay, now I need to find where this line is intersecting with this side.
+[00:03:28] I can continue this line and find this dot where it intersects with this edge of the
+[00:03:34] cube.
+[00:03:36] Now I am drawing a line that is projecting this dot to this side and now I can create
+[00:03:44] a line to find the intersection here.
+[00:03:50] So this will be my bump from here.
+[00:03:53] Now I can connect with curves this line, these dots, here, oop, okay, for this arc
+[00:04:08] I think I will add another dot as a guide, for example this one, I am finding this dot
+[00:04:21] on this side of the cube and from this point to this edge, like basically I am finding
+[00:04:32] the coordinates, something, from this node, no, pointing to that direction.
+[00:04:42] So here will be my, this dot on this side of the cube and I can connect this curve,
+[00:04:53] like replicate this curve more precisely on this edge of the cuboid.
+[00:05:03] Okay, next what I will do is I will create a cylinder here to make a rounded part of
+[00:05:15] my wave around here.
+[00:05:18] So somewhere around here will be the center of my cylinder.
+[00:05:24] This will be the intersection with that edge.
+[00:05:34] Now to make a cylinder here I need to make a perpendicular line here and here.
+[00:05:44] And now to draw I need to draw an oval, oop, like here and another one.
+[00:06:05] To be more precise I can draw an edge of my cylinder here along these lines and I see
+[00:06:17] that my second oval for the cylinder was too big here and the second edge be like this.
+[00:06:30] So now I can adjust that cylinder a little bit, like that oval, more precisely.
+[00:06:39] Okay, so now I have a base for my wave.
+[00:06:45] What I'll need to add here is also a thickness of this wave here.
+[00:06:54] So I will create a line here and now I need again to replicate it on that side of cube.
+[00:07:04] So again, what I'm doing, finding this node, projecting it to that side of the cube.
+[00:07:15] Okay, I think I can just connect this line here and I can connect this.
+[00:07:29] So base for the wave is ready.
+[00:07:33] I'll use the black pen because I forgot to use red one for the base.
+[00:07:38] So now what I need to do is to actually draw a wave on this base.
+[00:07:45] So I will start with making some wavy shapes here, so I'm building like on this base.
+[00:07:55] And as I see that this is my cylinder, it's like curvy and rounded, I can make my lines
+[00:08:03] along this cylinder to make it believable that it's like rounding to the perspective.
+[00:08:10] And as I see, like this oval is more squished, so this line will be like this here, but here
+[00:08:19] the waves will be along like less squished oval.
+[00:08:27] Okay, so I'm adding some bumps here, I'm continuing them a little bit along this cylinder.
+[00:08:46] Some of them can be slightly off to add a bit of variation.
+[00:08:53] Okay, so like this is my wave here.
+[00:09:01] Okay, now like this wave, it's curving around this cylinder, we will see like the bottom
+[00:09:10] part of it.
+[00:09:11] So I'm continuing this part along my perspective lines.
+[00:09:20] And now I'm just doing some bumps here to make it more organic.
+[00:09:29] And again, some lines going to the up to make it believable that it's like bending around there.
+[00:09:40] Now what I'll do, I will make these lines like a part of my wavy scene.
+[00:09:49] So like draw just it with my black plan.
+[00:09:56] Here I have like a line that shows the thickness of my wave, but here I will not connect it
+[00:10:05] strictly, so it will be like it's then connecting with these bumps, so it will be like the side
+[00:10:16] part of it.
+[00:10:19] Okay, now that back part of the wave will be like this.
+[00:10:29] The bottom part probably will be a little bit wobbly, like not super straight.
+[00:10:39] And again, we can create some lines to show where this wave is going along this perspective
+[00:10:49] in the middle, like this.
+[00:11:03] So this is the ground of my wave.
+[00:11:08] Okay, now let's see, this is my, from this point it will connect with this part of the wave.
+[00:11:23] And this is the top part of the wave.
+[00:11:30] On this side we can also add some lines along the form, like to sell the feeling that there
+[00:11:43] are some motion and some lines that are curving to the top.
+[00:11:51] I will not add lines just on the top, because this part is probably will be like lighted
+[00:12:00] a lot.
+[00:12:01] So if this drawing would be like rendered, there will be like some bleak or like shine
+[00:12:13] of the sun and stuff.
+[00:12:16] So I'll just not add some details there to make it like there is some light.
+[00:12:24] Okay, so now what I want to do, I want to add details here.
+[00:12:30] So waves usually have some like just water part, and then this one is some bubbly white
+[00:12:42] water stuff.
+[00:12:44] So I will create some forms that probably will be not white here.
+[00:13:02] Maybe something like this, like this, in this small circle here.
+[00:13:22] Okay, also what I can add here is some maybe small parts of water bubbles that are coming
+[00:13:33] out of this wave, like around the fluffy white stuff.
+[00:13:44] Maybe some of them here.
+[00:13:51] Okay, now I can add a little bit of shading here to add more values to the drawing.
+[00:14:00] So this side part of the wave will be a little bit in the shadow, so I'll just add some slightly
+[00:14:16] shadow to it, okay, oops, yeah, like this.
+[00:14:35] Now I want to like separate the water part and the bubbly white foam part.
+[00:14:45] So what I will do, first of all, I will make these lines more prominent, these lines too,
+[00:15:00] that I want to be seen here, maybe a little bit more in the bottom, like to add the feeling
+[00:15:13] that it's like curving down, like this.
+[00:15:22] Now the separation between white part and watery part will be also more prominent.
+[00:15:50] Okay, and now I will just shade everything here with angled stitches, not stitches, but
+[00:16:00] like small lines all the way down.
+[00:16:22] To make it not that messy, I'm trying to, each big part of the stitches that I do, make
+[00:16:31] them between the lines that I have, again, if you have markers, it can be faster, but
+[00:16:49] I don't have them, so I'm just adding this with my pen, okay.
+[00:17:25] Now it's like more volumetric, a little bit.
+[00:17:29] Now what I want to do, so I see that this value of this water and this value is almost
+[00:17:38] the same and this doesn't like sell the separation of the sides, so I will add another stitches
+[00:17:47] in the different direction for this side to make it more dark and here, okay.
+[00:18:16] Now what I need to do is to shade this part, because it's like under the foam, the top
+[00:18:22] part of the foam, it will be not that bright, again, some lines along the form and now shading
+[00:18:34] it with angled lines like this, okay, and now what I can do is to add a little bit of
+[00:18:48] value here, so I will do lines along these vanishing lines, here it will be lighter and
+[00:19:08] to the beginning of the curve darker a little bit, something like this, maybe a little bit
+[00:19:18] here too.
+[00:19:22] And now what I will do is just to, I'll clean this stuff more like the silhouette of my
+[00:19:33] waves, make it more prominent where is my outer edge of the wave, okay, I think it's
+[00:19:51] ready, so this is how you can use all of this construction to apply it to your actual effects
+[00:20:02] drawing, hope it was helpful, bye!

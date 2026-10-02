@@ -1,0 +1,133 @@
+[00:00:05] Hey everyone! We are back with our little friend TheTorch here to talk through a couple of
+[00:00:13] technical aspects of Niagara and some tips and tricks that didn't really fit anywhere in the
+[00:00:19] first two tutorials but that are still really good to know and that will let you have a much better
+[00:00:26] understanding of how Niagara works, let you really really fine-tune the behavior of your modules,
+[00:00:34] and just let you work a little bit more efficiently into your overall pipeline.
+[00:00:40] So we're going to be talking about system properties, we're going to be talking about
+[00:00:47] the curve index in modules, and then we're going to be talking about parent emitters.
+[00:00:52] So these are really quick, they're really useful, let's just jump right in.
+[00:00:57] So first off, for the system properties, this blue box that we have been completely neglecting up
+[00:01:05] until now is all of the controls that happen at a system level rather than an emitter level.
+[00:01:14] So this blue box, way back two tutorials ago when we talked about emitters versus the overall system,
+[00:01:24] this blue box here is one of the things that is unique to the system compared to an emitter.
+[00:01:32] And there's a lot a lot of stuff in here that you can really dig into and fine-tune,
+[00:01:38] but the important things to know up front are just that anything here can be shared and applied
+[00:01:46] system-wide, and also we're going to dig into system state at the bottom here in particular,
+[00:01:52] and we're going to be looking at loop behavior and loop duration and some very large tool tips.
+[00:02:00] So both of these are pretty much exactly what they sound like. For loop behavior,
+[00:02:04] by default it's going to be set to infinite, and that just means that it will keep looping forever
+[00:02:12] until something in the game, a script or something like that tells it to deactivate,
+[00:02:18] it's going to keep going. So on the other hand, if we say switch this to once, then we'll give
+[00:02:28] this until the five second mark for our duration, and then you can see that it starts to go away.
+[00:02:34] And if we go back to it in the game itself, then you can see it's actually
+[00:02:44] gone completely away because it's already run its one loop through. So if we
+[00:02:52] reapply this to re-instantiate it, we're going to get our one loop here,
+[00:02:59] and it's gone, and it's never going to play again. And then the last thing in here,
+[00:03:07] in the loop behavior, is just multiple, exactly what it sounds like. We set our loop count to
+[00:03:13] like, let's say four instead, and then we set our loop duration to one second instead of five,
+[00:03:22] then we're going to get four seconds of that, and then it's going to fade away. Set our loop count
+[00:03:29] to two instead, and now we get two one second loops. We can go ahead and just reset both of
+[00:03:38] these for this. So these are also in contrast with the emitter state. For both of these tutorials,
+[00:03:50] you might have noticed that sometimes the emitter state says here system, sometimes it says emitter.
+[00:03:58] If we go into our life cycle mode here in the emitter state, then we can switch this from
+[00:04:04] system, which just means it's going to take whatever the system is doing and apply that
+[00:04:07] to itself, down to self. So here we have all the same controls, but we could set this to
+[00:04:16] only loop once, and now we get one loop out of the flames, and everything else
+[00:04:22] keeps taking its cues from the system, so it keeps looping infinitely and on a five second loop.
+[00:04:28] So that's how you can kind of control those two relative to each other.
+[00:04:34] And the last thing that's maybe worth touching on here really quickly is just
+[00:04:41] know that user parameters are here, because they're super, super powerful. If you've ever done
+[00:04:48] anything with any sort of scripting, coding, stuff like that, these are essentially your variables
+[00:04:56] for within this system, so they can be shared across different emitters, they can be customized,
+[00:05:03] they can be integrated into modules. We're not going to be touching on them yet,
+[00:05:08] so know that they're there, know that they're super useful, and forget I said anything.
+[00:05:17] So next up, I want to talk about curve indexes, and that is this little section down here
+[00:05:28] that you may have noticed below a whole lot of our particle update
+[00:05:35] type things. And this curve index is effectively how Niagara decides when to apply the behavior
+[00:05:44] that this curve, this gradient, etc. is laying out. So for both of these, by default,
+[00:05:52] you'll see that they're set to particles normalized age. And
+[00:06:01] this is actually one of the really, really bread and butter parts of why effect systems kind of
+[00:06:07] work, because what this normalized age is doing is whatever the lifetime of your particle is,
+[00:06:16] in this case, we have something that's variable by a full half second,
+[00:06:21] it's going to take that and normalize it to a zero to one curve. So this curve, we can just
+[00:06:30] make in the zero to one space, and it will take that and either stretch or condense this curve to
+[00:06:40] fit to the actual lifetime of our particles. So this is how you always have particles reaching
+[00:06:50] the actual minimum size. This is how you have particles consistently fading out correctly at
+[00:06:57] the end of their lifetimes, even if those lifetimes are different, it's because we're
+[00:07:01] normalizing the age. One of the other really common ones that you'll see if we go down to
+[00:07:07] our sprite rotation rate is this delta time. And this is just rather than updating something
+[00:07:16] based on where the particle is in its lifetime, it's just going to apply it based on the real
+[00:07:23] time, the ticks, the updates that are happening in the game. So this one, when it's applying
+[00:07:33] delta time, this is not saying, oh, you're halfway through your lifetime, you should be at this
+[00:07:41] rotation, it's just applying this constant rotation as seconds pass by. So those are two
+[00:07:51] of the most common ways that you'll see things in Particle Update applied across a particle's
+[00:08:02] lifetime. But you may have also noticed that like everything else, pretty much in Niagara,
+[00:08:12] they've got the little custom arrow next to them. And so that means that we can go into this
+[00:08:20] and we can click that arrow and do things like search for particles. And where it's set to
+[00:08:28] normalized age by default, we have other options here. We can set it to just a flat age, which will
+[00:08:38] apply here. You can see really quickly, this won't normalize it. And so everything is scaling on
+[00:08:44] exactly the same cadence now. Things like that. We can also switch this over to other things,
+[00:08:54] like if we set it, if we search for emitter, then we'll get some new options here and we can go to
+[00:09:04] something like normalized loop age. And these particles will get bigger and then smaller
+[00:09:11] based on how old the emitter is. And the point where this starts to get really, really cool
+[00:09:20] is not always necessarily in the Particle Update section, although that can be really nice,
+[00:09:26] but you can also apply these in initialize particle. So here we can do some really,
+[00:09:34] really cool things. Like if we go into our color here and set this to a color from curve,
+[00:09:44] let's turn this purple or something really obvious. And right now this will also be set
+[00:09:51] to normalized age by default, which isn't going to do anything. But if we set this to
+[00:09:59] emitter normalized loop age, then as that loop continues, we're going to shift over to these
+[00:10:09] more purple flames from the get-go. We can drag this in and get rid of the
+[00:10:17] alpha to make this even more obvious. So there's some really, really cool stuff that you can do
+[00:10:26] like that. You can do the same sorts of things with lifetime, with rotations,
+[00:10:32] with basically anything in here. So it's actually just a really, really cool, powerful
+[00:10:39] way to fine-tune the behavior of your modules, especially, to go back to looping versus non-looping
+[00:10:47] effects, in a non-looping effect where you want something that starts out really bright
+[00:10:54] and high energy and then cools off over time, or that builds up energy over time or stuff like
+[00:10:59] that. This can be a really, really nice way to do those sorts of things. And finally,
+[00:11:08] finally, the last thing that I wanted to touch on was what are called parent emitters.
+[00:11:17] We talked a little bit about parent materials back in the last tutorial. These are the same
+[00:11:22] sorts of things but for emitters. To create a parent emitter, all you have to do is just
+[00:11:29] right-click any one of your emitters and then go to create asset from this.
+[00:11:36] Let's go ahead and put it in our emitters section and we'll just save this as demo.
+[00:11:49] It'll open it by default here for you. If we go back to our torch,
+[00:11:55] then now what we can do is we can right-click, we can add an emitter, and if we go over to parent
+[00:12:04] emitters and search for demo, we're going to be able to pull in a copy of this.
+[00:12:16] This can be really, really nice because, especially in a larger project, you can
+[00:12:23] share these all over the place. You can either share them exactly as is, you can customize
+[00:12:30] things in here just like with a material instance. If we want this particular flame to be more pink
+[00:12:38] but to share the same color behavior overall, we can do that. Same thing if we want it to be
+[00:12:44] really green. We want these to scale down way quicker or have a much higher rotation.
+[00:12:54] All of these modules are fair game for customizing, for disabling, if in this case we
+[00:13:02] just don't want it to rotate at all or we don't want it to be scaling. But this all ties back to
+[00:13:13] this base emitter, so if we make any changes in here, then we have the option to propagate those
+[00:13:22] across to any other child emitter of this within the project, and so that can be a huge, huge help
+[00:13:32] in all the same ways the material instances are. The reason why I don't tend to work with parent
+[00:13:41] emitters a lot, unless I know that something is really, really specifically sharing a lot of traits,
+[00:13:48] say I need different views or tiers or for certain things to be disabled
+[00:13:54] in one variant of an effect but not another one, is because parent emitters tend to be
+[00:14:03] a little bit limiting in some other ways. I can add a new module to this. I can add a...
+[00:14:12] We'll just do a scale sprite by speed. I can add this and move it around and stuff like that,
+[00:14:20] and life is good. But anything that was in here by default, I can't move around,
+[00:14:30] hence the little locks next to them. So you can enable them, you can disable them,
+[00:14:38] but you can't move them or delete them. And so if you're making something significantly different
+[00:14:46] where you don't need the advantages of that inheritance from the parent emitter,
+[00:14:52] it can get a little bit clunky, messy, it can get cluttered up, and
+[00:15:00] that's the point where I tend to not use these. The thing that you can still do at that point
+[00:15:09] short of just copy pasting something from one system into another one, because
+[00:15:17] we can copy this over to our item aura right now, and it'll just be its own new ember emitter,
+[00:15:22] and life is good, is that you can import a parent emitter just like before,
+[00:15:31] and you can just go ahead and right-click on the little parent widget that we've got up here,
+[00:15:42] and you can just remove the parent emitter. And now what we've got is a new copy of our flames,
+[00:15:51] but we can move things around, we can delete things because we haven't been dead-eyed against
+[00:15:58] rotation now, and you'll get that really really nice base for free without having to necessarily
+[00:16:07] be hard-locked into what you can and can't move and alter and stuff like that.
+[00:16:13] So those are some of the different ways that you can use emitters to kind of speed yourself up,
+[00:16:21] create instances or templates or stuff like that. These are a really nice efficiency when
+[00:16:29] in general in a lot of cases, whether it's just copy pasting like we've been doing or
+[00:16:34] importing because that's faster for your workflow, but especially on bigger projects,
+[00:16:39] these can be a huge huge help for things where you know you're going to need to make edits down the
+[00:16:45] road where you've got a lot of things that are fully or very nearly shared, stuff like that.
+[00:16:54] So those are our three little tech tips that I wanted to dig into before we
+[00:17:05] delve into the big open world of artistic fundamentals and stuff like that with the
+[00:17:11] blockends. So again, hopefully these were helpful, and I will see you over in the blockend section.
+[00:17:19] All right, take care y'all!

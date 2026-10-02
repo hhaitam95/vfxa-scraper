@@ -1,0 +1,142 @@
+[00:00:05] Hello again, I'm Jaden, and in this lesson we will be using more basic math to affect the color of a texture.
+[00:00:11] And there are many ways to control a texture.
+[00:00:14] For example, we can change the intensity, the contrast, or we can even affect certain shades in a texture in different ways.
+[00:00:21] So let's take a look at some new nodes that will help us do that.
+[00:00:25] So in the project, let's create a new shader.
+[00:00:29] Shader Graph, URP, Unlit Shader Graph.
+[00:00:33] We'll call this one Texture Adjustment.
+[00:00:38] Let's create a new material by right-clicking that.
+[00:00:41] Create, Material.
+[00:00:47] And let's apply that material to our quad.
+[00:00:50] Before we go into the shader, let's make sure we have Bloom enabled.
+[00:00:54] Make sure there's a global volume in your scene.
+[00:00:57] And under Bloom, make sure Intensity is enabled.
+[00:01:01] Also under this menu, make sure you have Post Processing enabled.
+[00:01:05] Okay, so let's open our graph.
+[00:01:09] Find the shader in the project.
+[00:01:17] And let's start with a Texture Sampler.
+[00:01:23] And let's use Unity's default particle.
+[00:01:28] So inside of a shader, we have a lot of options for how we can adjust the texture.
+[00:01:32] And this allows us to use the same texture across different effects.
+[00:01:36] Okay, so let's start with a simple brightness effect.
+[00:01:39] Create an Add node.
+[00:01:44] And since this is a grayscale texture, all of these channels are the same.
+[00:01:48] We'll just use the red channel.
+[00:01:50] And we can add anything to this texture.
+[00:01:53] I'll do 0.5.
+[00:01:56] Okay, so whenever we do math in a shader, we're doing that math on every pixel in the texture.
+[00:02:01] And we're doing this math on the output color of this texture.
+[00:02:05] So we're finding the brightness value, and then adding a number to it, and outputting that.
+[00:02:11] So in this texture, for example, let's say we would just look at these values in the texture.
+[00:02:16] It would look like this.
+[00:02:20] And go from 0 up through 1.
+[00:02:23] So if you look along this row of pixels here, it would look like this.
+[00:02:30] So you see it goes from 0 up towards 1 back down towards 0.
+[00:02:35] And we're adding 0.5 to that number.
+[00:02:39] What that means is that you just push all the values up by that amount.
+[00:02:44] And you get something like that.
+[00:02:46] So the black values become this light gray.
+[00:02:49] And the widest values actually get pushed above 1.
+[00:02:53] And we can move that number around to see what happens.
+[00:02:57] You can also subtract from it too by going into the negative.
+[00:03:00] And that pushes it below 0.
+[00:03:04] So what happens if the values go above 1?
+[00:03:07] Because previously I said that colors cannot go above 1, but that's not quite true.
+[00:03:12] We can push colors above 1, but it produces a different effect.
+[00:03:16] What happens is that those intensely bright colors start to act like emission and cause a glow.
+[00:03:23] We can see that if we plug this in and press save asset to update the material.
+[00:03:29] And now it looks like the quad is emitting light.
+[00:03:32] And we could push this value way up if we want to.
+[00:03:38] So at this point it produces a very intense lighting effect.
+[00:03:41] I'll bring that back down.
+[00:03:45] It's not as intense here, but it is still glowing.
+[00:03:48] So maybe you don't want it to produce this glowing effect.
+[00:03:51] And for that we're going to try another node called saturate.
+[00:03:54] And we'll plug our result into this.
+[00:04:01] And so it's hard to see here, but what saturate does is it only returns values between 0 and 1.
+[00:04:08] Any value above 1 or below 0 gets flattened.
+[00:04:13] So it creates like a ceiling on this range here.
+[00:04:16] And if I were to redraw the saturated version of this graph, it would look like this.
+[00:04:25] And so the values above 1 just get flattened out.
+[00:04:28] The same thing would happen below 0.
+[00:04:30] And this will help prevent unwanted effects like glow or negative colors.
+[00:04:37] Okay, so next let's try multiply.
+[00:04:44] So multiply is useful because it will add intensity to the color.
+[00:04:48] And it will also keep the same proportions so the contrast doesn't change.
+[00:04:53] This means that the 0 values will stay as 0, so they'll stay black.
+[00:04:58] Any values at the number 1 will become the multiplier.
+[00:05:02] And all the values in between will keep their shape.
+[00:05:05] In fact, if I draw this on the graph, I would actually keep the same graph.
+[00:05:10] I would just change the top of the graph from 1 to the multiplier.
+[00:05:15] And then it'll keep its overall shape.
+[00:05:18] So it basically scales the color where all of the proportions stay the same, but the values can still go above 1.
+[00:05:25] And of course we can dim the color.
+[00:05:29] That would reduce the intensity, but keep the same shape.
+[00:05:36] Okay, let's look at another node.
+[00:05:38] The power node.
+[00:05:40] So power takes two inputs.
+[00:05:47] It will take the value of A to the power of B.
+[00:05:51] What that means is that it will multiply A by itself this many times.
+[00:05:57] So 0 will stay 0 and 1 will stay 1.
+[00:06:02] Because 0 times 0 any number of times still equals 0.
+[00:06:06] And 1 times 1 any number of times equals 1.
+[00:06:10] The interesting part is the middle values.
+[00:06:13] So if you take a number to the power of 1, it's actually the same as the input.
+[00:06:19] If you go above 1, it'll push the values towards 0.
+[00:06:24] And if you go below 1, it pushes the values up towards 1.
+[00:06:29] So the values will always stay between 0 and 1 as long as the input is also between 0 and 1.
+[00:06:37] So let's look at what's actually happening here.
+[00:06:41] The power node takes an input anywhere between 0 and 1.
+[00:06:47] And it's going to output a value between 0 and 1.
+[00:06:53] If we take the input to the power of 1, it will just return the output.
+[00:06:58] So that one's easy.
+[00:07:00] If the power is above 1, the graph will look like this.
+[00:07:08] And if you use a power below 1, the graph will look like this.
+[00:07:16] So here's a number above 1.
+[00:07:19] And you can see that here.
+[00:07:21] What you'll notice about this graph is that it emphasizes the brightest values, these values.
+[00:07:29] And anything below that goes towards 0.
+[00:07:32] And that's what you get out here.
+[00:07:37] Then look at a value below 1.
+[00:07:41] And you'll see it does the opposite.
+[00:07:43] It takes the values in the middle and high range and it moves those all up towards 1.
+[00:07:48] And then the lower values sharply fall towards 0.
+[00:07:54] So now that we know how it works, then we have the question, how do we know when it's actually useful?
+[00:07:59] So you should use the power node whenever you want to adjust the contrast of a texture.
+[00:08:04] It will either emphasize the brighter values or emphasize the middle range values.
+[00:08:09] And you don't always need to know in advance what you want to do with it.
+[00:08:13] It's really good just to plug something in and move the value around and see what happens.
+[00:08:18] That's really the best way to use the power node.
+[00:08:20] And maybe you're wondering, how does it work if you multiply to a decimal?
+[00:08:25] The math behind that is really complicated and it doesn't really matter.
+[00:08:29] Just know that it works.
+[00:08:31] And also, what if you use a negative number here?
+[00:08:34] If you do that, you actually get an error.
+[00:08:36] You won't want this to happen in an actual game, so just make sure you're always inputting values 0 or greater.
+[00:08:46] Okay, so let's try another node, the 1 minus node.
+[00:08:52] We've worked with this node already and it does the same thing.
+[00:08:55] It inverts values between 0 and 1.
+[00:08:58] So 1 becomes 0, 0 becomes 1, and everything in between gets flipped.
+[00:09:04] So with this texture, it takes the solid area and turns that into the empty area.
+[00:09:09] And it takes the empty areas and turns that into a solid area.
+[00:09:12] And that can be really useful depending on what you're trying to do.
+[00:09:16] And we can also start combining these effects.
+[00:09:18] So for example, if you want this to look different, you can actually get the power node and plug that in.
+[00:09:24] And I want to make this dark area bigger, so I can use a value below 1.
+[00:09:29] So all of these adjustments can be combined until we get the texture to look exactly how we want it to.
+[00:09:38] Okay, so let's look at one more node, and this one is probably the most fun.
+[00:09:42] It's the sample gradient.
+[00:09:44] And you'll plug in the input into time.
+[00:09:51] This won't do anything until you create a gradient.
+[00:09:55] And then you can adjust these colors however you want to.
+[00:09:58] And so by making a simple gradient, you can start to see what it does.
+[00:10:08] So basically, sample gradient looks at the input and uses that value to pick a color from this gradient.
+[00:10:15] If the value is 0, it'll pick towards the left side of the gradient.
+[00:10:20] And if the value is 1, it picks the right side of the gradient, and then it interpolates everywhere in between.
+[00:10:26] And I have all these presets, so you can look at some pretty interesting effects here.
+[00:10:34] And you can start to imagine all the different things you could do with this.
+[00:10:38] So instead of using math, we have this very customized control over the output.
+[00:10:43] So knowing how to control the values in a texture will be very powerful.
+[00:10:49] We looked at a few options here, and there are other ways to control values.
+[00:10:53] But really, these are the most common and the most useful.
+[00:10:57] So now that we know how to change textures, next we're going to look at how to combine textures for even more control.

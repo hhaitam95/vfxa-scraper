@@ -1,0 +1,473 @@
+[00:00:06] Hello! This is the effect that we are going to cover today.
+[00:00:10] It represents some kind of electric arc between two Tesla coils.
+[00:00:14] This might be a barrier that blocks our way, or maybe some kind of character ability.
+[00:00:19] Whatever the case, as usual we are going to start talking about the original concept,
+[00:00:24] and then we are going to cover all the elements that make it work,
+[00:00:28] so that you could be able to recreate something like this from scratch.
+[00:00:32] So, let's start.
+[00:00:34] This is the concept art for this lightning beam.
+[00:00:37] And, as always, there is one thing that we should have in the back of our minds when creating an effect,
+[00:00:42] and that's making sure that there is a clear hierarchy between the different components,
+[00:00:47] so that we can get a balanced piece in the end.
+[00:00:50] In this case, these big lightning beams that connect our coils
+[00:00:54] are that hero primary element that's going to communicate most of the meaning of the effect,
+[00:01:00] followed by the secondary sparks and electric arcs that appear at those contact points in the metal spheres.
+[00:01:07] And finally, we have our recurring elements like backgrounds, smaller particles and glows
+[00:01:14] to fill the gaps and give some cohesive body to the effect.
+[00:01:19] As always, we also have in this concept some notes regarding the elements in the effect,
+[00:01:25] and some cool shape references on the right.
+[00:01:29] Then, looking at the effect inside of Unreal,
+[00:01:32] you can see that Nicola went all out modeling some coils for the original Unity effect,
+[00:01:37] so we are going to use those.
+[00:01:39] And you can start to notice some behaviors that we haven't seen before,
+[00:01:43] like those small particles that are bouncing on the ground.
+[00:01:47] For this effect, just to make it easier to work, I've created two different Niagara systems.
+[00:01:55] The first one is the beam that connects both coils,
+[00:01:58] and the second one is a Niagara system that we have used in both of those coils
+[00:02:03] to get all the elements around that contact point, those sparks, the glow and so on.
+[00:02:08] Having these separate elements can make it easier for us to adapt this effect to different coil setups
+[00:02:14] without having to change much inside of the particle system.
+[00:02:18] It's a little more modular, so to speak.
+[00:02:22] Taking a quick peek, you can see that the amount of emitters that we are using
+[00:02:26] is more than in previous effects,
+[00:02:29] and more than the number of elements that we can tell apart in the concept,
+[00:02:33] but the reasoning behind them, as you are going to see, is pretty simple.
+[00:02:37] There's nothing crazy going on in this one, just a lot of small emitters working together.
+[00:02:42] So anyway, let's start going over all these pieces,
+[00:02:46] and I think we should obviously start with the most striking element,
+[00:02:50] the lightning beam itself.
+[00:02:53] For this element, we are once again using the emissive particle material
+[00:02:57] that we created in the campfire lesson.
+[00:03:00] Since what's making it work in this specific way is the emitter itself,
+[00:03:05] the material in the end is just showing us a static texture.
+[00:03:09] So once again, we created a material instance of that particle material,
+[00:03:13] and if you open it, you might notice something we haven't done until now.
+[00:03:18] For the opacity fade versus opacity dissolve parameter,
+[00:03:22] where we usually will select one method or the other by selecting the value as 0 or 1,
+[00:03:28] in this case we are setting the value to 0.5,
+[00:03:31] which means that this particle will both fade away and dissolve.
+[00:03:36] Well, it's actually going to do something in between,
+[00:03:39] it's going to use both methods and average the opacity we get from each of them,
+[00:03:44] but that's the idea.
+[00:03:46] And this is going to work well for these electricity shapes that we are going to use.
+[00:03:51] And you can see we are working with a sub-UV texture to get that variation in shapes,
+[00:03:56] which is going to be crucial in this element,
+[00:03:58] because we are going to see these beams quickly spawning on top of each other,
+[00:04:02] and having just one shape would look like a static lightning shape frozen in time.
+[00:04:08] That's why we have so many different shapes, to make sure that that never happens.
+[00:04:13] So, let's see how this texture was made.
+[00:04:16] We first set up our grid tool to have a clear preview of our dimensions,
+[00:04:21] in this case we are creating a 2x4 spreadsheet,
+[00:04:25] and we are then going with our brush, sketching some different lightning shapes,
+[00:04:30] and cutting them with the eraser tool to get some variations on these long lightnings,
+[00:04:35] making sure that we are creating some thick and thins,
+[00:04:38] and that we have a good mix of big, medium and small shapes.
+[00:04:43] One thing to note is that we want to keep the starting and ending point always the same,
+[00:04:48] so that our lightning beams always come from the same point,
+[00:04:52] regardless of which variation happens to spawn in that particle.
+[00:04:57] And we created 4 variations, and we are going to cheat a little bit to get the other 4.
+[00:05:03] We are going to mirror these ones, which already means that the new ones won't completely overlap any of them.
+[00:05:09] And then we are going to distort them with the warp option of the free transform tool.
+[00:05:15] Ideally, you could make the 8 variations entirely by hand,
+[00:05:19] since it's possible that some of these mirrored variants are going to be noticed sometimes,
+[00:05:24] but this is going to be way more efficient,
+[00:05:27] so there is a balance there that you have to decide for every effect.
+[00:05:31] Anyhow, you can always try the fast way,
+[00:05:34] and see if there is even a need for those handcrafted variations.
+[00:05:39] And with that, we have the texture to be hooked into our material,
+[00:05:42] so let's dive into the particle system.
+[00:05:45] As I commented before, this emitter is set up in a separate Niagara system
+[00:05:49] that exclusively holds the beam elements, and this one is the main electric beam.
+[00:05:56] Breaking this down, there is one module that I want to focus your attention to.
+[00:06:00] This sprite facing an alignment is what's making the beam stay in place
+[00:06:05] and not rotate to look at the camera when you move around it.
+[00:06:08] We are specifically paying attention to that sprite alignment,
+[00:06:11] and you can see that it's set up along the X axis,
+[00:06:15] since it's using the 1 0 0 vector as a reference.
+[00:06:19] And to actually use that custom alignment in our sprite renderer,
+[00:06:23] we have to go down here and select that option,
+[00:06:26] custom alignment, under the alignment setting.
+[00:06:29] You might remember that this is similar to how we made the fog particles
+[00:06:33] from the fog lesson to always look up.
+[00:06:36] The difference is, in this case, we still want the facing mode
+[00:06:40] to be set as face camera, because we want the beam to look at us
+[00:06:44] as we orbit up and down.
+[00:06:47] And as I orbit around the effect, you can use this small gizmo as a reference
+[00:06:51] to tell that this is working correctly.
+[00:06:54] The difference between facing and alignment options can get confusing,
+[00:06:59] so I understand if that's still not clear.
+[00:07:01] I still have to double check from time to time,
+[00:07:03] but that comes with practice and trying stuff out.
+[00:07:06] And by the way, as I orbit around, especially if I enable all the elements,
+[00:07:11] you can tell that this alignment option kind of breaks the effect
+[00:07:15] as we look at it from a sharp angle.
+[00:07:18] But keep two things in mind.
+[00:07:20] The first is an easy cop-out.
+[00:07:22] This could be an effect that's going to be used in something like a top-down game,
+[00:07:26] in which case these kind of camera angles are never going to happen,
+[00:07:30] and so we don't need to worry about it.
+[00:07:32] But most importantly, if you look at your effect in the environment,
+[00:07:36] you can see that the Tesla coils themselves kind of block that view anyway,
+[00:07:41] and with all the other glows and elements, any problems are hard to notice.
+[00:07:45] So thankfully, there is no need to worry about that in this effect.
+[00:07:49] Other than this alignment setting, all the other modules should be familiar.
+[00:07:54] Of course, we are using the random sub-UB animation
+[00:07:58] to take advantage of those variations we made.
+[00:08:01] Just make sure that the sub-UB image size is 4x2 in the sprite renderer,
+[00:08:07] since this one is the first time we are using something that's not a 2x2 grid.
+[00:08:12] Then, in the initializing particle module for the sprite size,
+[00:08:15] of course we need it to be non-uniform, since we want a very stretched particle.
+[00:08:20] And then down here in the scale sprite size,
+[00:08:23] we are also scaling the different axes separately.
+[00:08:26] We want the length of the beam to stay mostly constant
+[00:08:30] as it unfolds vertically.
+[00:08:32] We have a shape location to get some slight variation in the position,
+[00:08:39] and we are also adding some velocity along the X axis,
+[00:08:43] the axis we are aligned to.
+[00:08:45] I'm just using a random range vector dynamic input
+[00:08:48] to get a random vector between positive X and negative X,
+[00:08:52] and then I'm scaling that to something that's barely noticeable
+[00:08:56] with the velocity speed scale value.
+[00:08:59] Lastly, note that in the color module, under the advanced options,
+[00:09:06] we can see by clicking this arrow,
+[00:09:08] there is a scale color setting where we have a float
+[00:09:11] to increase the emissive intensity across the effect.
+[00:09:14] Much like in the material options,
+[00:09:16] this is going to allow us to play with the color intensity
+[00:09:19] and find the best fit depending on the environment.
+[00:09:24] And I think that covers all the settings for this emitter.
+[00:09:27] And with that, we have the hero element working
+[00:09:30] and we can continue building up the effect around it.
+[00:09:34] Before talking about this other beam emitter,
+[00:09:37] I'm going to cover what I'd say are the most important elements
+[00:09:41] in the rest of the effect,
+[00:09:42] which leads me to the hero elements from the other Niagara system,
+[00:09:46] the one that represents the impact of the Tesla coils.
+[00:09:51] These lightning arcs at the point of impact
+[00:09:53] share the shape language of the beam itself
+[00:09:56] and serve to reinforce the idea that these things will sap you
+[00:09:59] if you get too close.
+[00:10:01] Like all the other elements of this effect,
+[00:10:04] we are using our tailored particle material,
+[00:10:07] we are using the regular opacity fading option
+[00:10:10] and for this element, we are cranking that emissive up
+[00:10:13] right in the material.
+[00:10:15] The final result is the same
+[00:10:17] whether you boost that emissive in here
+[00:10:19] or later on in the particle system,
+[00:10:22] so it comes to personal preference
+[00:10:24] or whatever works best for the workflow.
+[00:10:26] We are again using a 2x2 sprite sheet as our texture,
+[00:10:29] so let's check it out.
+[00:10:32] We are setting that grid to have a clear outline of the margins
+[00:10:36] and just like in the previous texture,
+[00:10:38] using the brush we are going to create some different electric shapes.
+[00:10:42] Keep in mind that these elements
+[00:10:44] are going to be way smaller than the big lightning across the effect,
+[00:10:48] so in order to achieve a consistent level of detail
+[00:10:51] across the entire effect,
+[00:10:53] we should keep this simpler.
+[00:10:55] That way, once playing in the effect,
+[00:10:57] the perceived detail of both elements
+[00:11:00] is going to be similar.
+[00:11:02] That's a good nod to take,
+[00:11:04] always keep in mind the real world scale
+[00:11:06] of whatever you are painting,
+[00:11:08] that's going to affect the final result.
+[00:11:10] And while creating these shapes,
+[00:11:13] we are making sure to play with different sizes of elements
+[00:11:16] to get interesting variations,
+[00:11:18] just like in the lightning beam.
+[00:11:20] And once we are happy with our shapes,
+[00:11:22] we apply our Gaussian Blur trick
+[00:11:24] to get them glowing, and we are done.
+[00:11:27] Inside the particle system,
+[00:11:32] this time in the Niagara system
+[00:11:34] that represents the point of impact.
+[00:11:36] Here we have our elements emitter,
+[00:11:39] and you can see it's a very simple emitter
+[00:11:41] that's using the settings and modules
+[00:11:43] that we are used to by now.
+[00:11:45] We have a fast spawn rate,
+[00:11:47] our lifetime and uniform sprite size options,
+[00:11:51] the random sub UV on a 2x2 grid,
+[00:11:54] to get some variety,
+[00:11:56] and a sphere shape location,
+[00:11:58] since in this case we are actually
+[00:12:00] spawning this around the sphere,
+[00:12:02] some color animation for the fading in and out,
+[00:12:06] and a regular sprite renderer.
+[00:12:08] So, as you can see,
+[00:12:10] nothing fancy going on here,
+[00:12:12] just our cool textures and a basic setup.
+[00:12:15] And with that we have this element ready to be used.
+[00:12:19] And to set up the effect,
+[00:12:21] I'm using a blueprint that holds
+[00:12:23] not only both Niagara systems,
+[00:12:25] the beam and the contact points,
+[00:12:27] but also the coil meshes themselves.
+[00:12:29] This is just a blueprint
+[00:12:31] where I'm holding both coil meshes,
+[00:12:33] each with its own copy of the
+[00:12:35] coil impact Niagara system,
+[00:12:37] and our beam Niagara system is in between them.
+[00:12:42] Of course, I already have
+[00:12:44] the entire effect working here,
+[00:12:46] but you could just set up this
+[00:12:48] with the two elements that we have covered by now,
+[00:12:50] and start working on top of those.
+[00:12:52] As always, the sooner you start
+[00:12:54] visualizing the effect, the better.
+[00:12:56] And you'll see that with the next element,
+[00:12:59] roughly in order of relevance,
+[00:13:01] which is the impact that connects
+[00:13:03] the coils with the beam.
+[00:13:05] Material-wise, we are doing something
+[00:13:07] very similar to the previous element,
+[00:13:09] with a regular fade and a high emissive strength.
+[00:13:12] And for the textures,
+[00:13:14] we need four different variations
+[00:13:16] of some impact shape,
+[00:13:18] and you can go about it in a thousand different ways.
+[00:13:20] Just make sure to keep the shapes moving outwards,
+[00:13:23] and of course, maintain that bloom effect
+[00:13:25] that all the other elements also have.
+[00:13:29] Diving into the particle system,
+[00:13:31] this is the emitter that we are using for the impacts,
+[00:13:33] and you can tell it's pretty much the same
+[00:13:35] as the one used for the small landing arcs.
+[00:13:38] We are just removing that shape location,
+[00:13:40] since we want this to spawn really concentrated.
+[00:13:43] And we are adding some camera offset
+[00:13:45] to bring the element a little closer to the camera,
+[00:13:48] and with that, we avoid them clipping
+[00:13:50] too much into the coil spheres.
+[00:13:53] We are also moving them a little to a side,
+[00:14:00] since we don't want them at the center of the sphere,
+[00:14:03] but rather at the contact point of the lightning beam.
+[00:14:06] And you can see how already having everything
+[00:14:08] set up in the blueprint
+[00:14:10] makes it easy to get the right value for this.
+[00:14:13] We just displaced these impact points
+[00:14:15] forwards on the X-axis,
+[00:14:17] and both particle systems are rotated
+[00:14:19] so they face each other.
+[00:14:21] Now that we have the main elements working,
+[00:14:26] we can start working on the supporting elements.
+[00:14:29] And all these particle elements
+[00:14:31] are using the same material with the opacity fade option,
+[00:14:34] so instead of just repeating myself so much,
+[00:14:36] I just cover whatever is new in each one.
+[00:14:39] In this case, for the small electric sparks,
+[00:14:42] we are also using the old reliable sparks texture
+[00:14:45] that we have been using in previous lessons.
+[00:14:48] So let's jump right into the particle system.
+[00:14:51] In this emitter, we are adding some
+[00:14:55] velocity at the start,
+[00:14:57] and we are using a random range vector
+[00:14:59] that mainly shoots towards the X-axis,
+[00:15:02] which is our impact direction.
+[00:15:04] You can see that I have some variation
+[00:15:06] in the other axis too,
+[00:15:08] but the X-axis is always positive,
+[00:15:10] and the max value is also higher,
+[00:15:12] and that's why we get this directional effect.
+[00:15:15] On lifetime settings, we are going to give this
+[00:15:17] the opportunity to last a little longer,
+[00:15:19] because we are setting up a collision module,
+[00:15:22] as you can see down here.
+[00:15:23] This will work right out of the box
+[00:15:25] by using the Ray Traced Collision setting,
+[00:15:28] which means that each particle
+[00:15:30] is going to check for the colliders around it
+[00:15:32] and bounce accordingly.
+[00:15:34] There is a cheaper alternative,
+[00:15:36] you can select the analytical planes in the dropdown,
+[00:15:39] and this scary sounding option
+[00:15:41] will show some values down here
+[00:15:43] that allow us to define two planes
+[00:15:46] that the particles are going to bounce with.
+[00:15:48] You can understand this
+[00:15:50] as some plane that represents the floor,
+[00:15:52] and you are telling the particles to use.
+[00:15:54] You are just setting the normal direction of that plane,
+[00:15:57] and the position of that plane,
+[00:15:59] and that's going to be way cheaper
+[00:16:01] than using the Ray Traced option.
+[00:16:03] The drawback is that the particles
+[00:16:05] are only going to interact with that imaginary plane,
+[00:16:08] so you won't get any interaction
+[00:16:10] with the other elements in the scene.
+[00:16:12] And this is something to choose on a per case basis,
+[00:16:15] depending on the use case
+[00:16:17] and the performance requirements of the effect.
+[00:16:19] There are other collision methods
+[00:16:21] if you are using GPU particles
+[00:16:23] with their own pros and cons,
+[00:16:25] but that almost deserves a lesson on its own,
+[00:16:28] so let's not dive too deep there.
+[00:16:30] And gliding over the remaining modules,
+[00:16:34] well, we have the gravity force,
+[00:16:36] which of course we are going to need
+[00:16:38] for our particles to even collide with the ground.
+[00:16:40] We also have a drag force.
+[00:16:42] And just like we commented in the impact effect,
+[00:16:46] we are using the scale sprite size by speed
+[00:16:49] on these small particles to stretch them out
+[00:16:52] and get something like a motion blur effect,
+[00:16:55] basically for free.
+[00:16:57] That makes it for these sparks.
+[00:17:02] Let's move on to the glowing elements.
+[00:17:04] Let's first cover these beam glows
+[00:17:07] in the beam Niagara system.
+[00:17:09] Again, they are using the same material.
+[00:17:11] And to create a texture for this one,
+[00:17:14] we are quickly creating a line gradient in Photoshop,
+[00:17:17] painting both ends out to avoid a harsh edge,
+[00:17:20] and adding some texturing with a soft eraser.
+[00:17:23] This one is going to be very stretched,
+[00:17:25] so as a glow it should look blurry anyway,
+[00:17:29] so there is no need to go crazy with the details.
+[00:17:32] In the particle system,
+[00:17:34] we can work from a copy of the lining beam meter,
+[00:17:37] since the main setup is going to be roughly the same.
+[00:17:40] We just need this one to hold our new material
+[00:17:43] and scale it up to cover a wider region on the screen.
+[00:17:47] I'm removing some of the modules from the beam,
+[00:17:50] like the initial velocity, the initial shape location,
+[00:17:54] and of course the sub UV animation,
+[00:17:56] since this is not using any of those textures.
+[00:17:59] After that, I'm playing with the color,
+[00:18:02] lifetime, and the scale values
+[00:18:04] to get something that works for this effect.
+[00:18:06] And to do so, I'm also looking at how it looks
+[00:18:09] in my test environment.
+[00:18:11] It's always going to look more striking
+[00:18:13] on this black background,
+[00:18:15] so I can't go only by that.
+[00:18:17] I need to go back and forth,
+[00:18:18] checking that it works in every case.
+[00:18:21] And also, as you can see,
+[00:18:23] I'm using two different emitters for the glow.
+[00:18:26] This one on the left is bigger
+[00:18:28] and with darker, softer colors,
+[00:18:31] while there is another version with a tighter shape
+[00:18:34] and with more intense colors.
+[00:18:36] You could actually get away with just one emitter
+[00:18:39] if you made a more complex material
+[00:18:41] that can use different colors and textures.
+[00:18:44] And that would improve the performance of the effect
+[00:18:46] because we would need less particles.
+[00:18:49] But this setup is way easier to iterate on.
+[00:18:52] I can change the parameters
+[00:18:54] of each of those two glows separately,
+[00:18:57] so I can try different combinations very easily,
+[00:19:00] and you can spend time on creating that material later on
+[00:19:04] if performance becomes a problem.
+[00:19:07] Now, important detail,
+[00:19:09] and this is something else,
+[00:19:11] nothing to do with performance,
+[00:19:12] but since these lightning beams are flashing at a rate
+[00:19:15] that's going to depend on the spawn rate,
+[00:19:18] I need to make sure that I keep the same spawn rate
+[00:19:21] in my glow emitters,
+[00:19:23] otherwise the elements would desync
+[00:19:25] and it would look awkward,
+[00:19:27] like this glow isn't a consequence of this beam.
+[00:19:30] And another last detail,
+[00:19:32] like in most backdrop elements,
+[00:19:34] I'm taking advantage of Sort Order Hint
+[00:19:37] if I see any problems in sorting.
+[00:19:40] For this big dark glow, for example,
+[00:19:42] I know that I always want that at the back,
+[00:19:45] so I preemptively set the Order Hint to a negative number.
+[00:19:49] And just like in the beam glows,
+[00:19:54] in the coil glows themselves,
+[00:19:56] we have a couple of emitters working together
+[00:19:58] to give that intensity and color contrast.
+[00:20:01] We have a tighter, bright glow
+[00:20:04] that almost feels like an outline for the coil sphere
+[00:20:07] once you see it in the Blueprint setup.
+[00:20:10] We have a softer particle
+[00:20:12] working as a regular glow element,
+[00:20:15] and an even softer, darker glow
+[00:20:17] that's going to extend further away.
+[00:20:19] And just like with the dark glow in the beam,
+[00:20:22] it's going to serve as a kind of backdrop
+[00:20:24] to make all the brighter elements pop up a little bit more.
+[00:20:27] These are the three suspects,
+[00:20:30] and they are set up in almost the exact same way.
+[00:20:34] As basic as it gets, a regular spawning particle
+[00:20:37] with some color animation,
+[00:20:39] and our regular particle material.
+[00:20:41] The backdrop, as you can see in this sprite renderer,
+[00:20:44] is being sent to the back of the stage
+[00:20:46] with the Sort Order Hint.
+[00:20:48] The regular glow as a light renderer
+[00:20:51] alongside the sprite renderer
+[00:20:53] to add some illumination to the scene
+[00:20:55] around these Tesla coils.
+[00:20:57] And we are setting up the radius and the exponent
+[00:20:59] with these two values to achieve the best results for the effect.
+[00:21:03] And lastly, the brightest glow,
+[00:21:06] the one that looks almost like an outline,
+[00:21:08] and this one is not using spawn rate,
+[00:21:10] because it's a single particle with infinite duration.
+[00:21:13] To do that, we used spawn burst of one particle,
+[00:21:17] and in the Particle State module,
+[00:21:19] you can deselect this option,
+[00:21:21] which is selected by default in every particle,
+[00:21:24] and that will make sure that even as the lifetime
+[00:21:27] of the particle ends, this particle is never despawned.
+[00:21:31] Now, this particle also has a tricky setting
+[00:21:37] that you probably wouldn't be able to tell right away,
+[00:21:40] but that's important for this specific case.
+[00:21:43] Inside the sprite renderer, under Facing Mode,
+[00:21:47] we are not using the regular Face Camera option,
+[00:21:51] but rather we are using the Face Camera Position option.
+[00:21:54] And even if that sounds like exactly the same,
+[00:21:58] with the regular Face Camera option,
+[00:22:01] this is what we would get,
+[00:22:03] and the outline effect kind of breaks
+[00:22:05] at the border of the screen,
+[00:22:07] while the Face Camera Position option stays perfect
+[00:22:10] even when looking at it sideways.
+[00:22:13] That might seem completely random and weird,
+[00:22:16] but it has to do with camera perspective
+[00:22:19] and how the particle rotates to either look at the camera
+[00:22:23] or look along the same direction that the camera is looking.
+[00:22:27] It's kind of a niche option,
+[00:22:29] but now you know where to look
+[00:22:31] if you notice weird artifacts
+[00:22:33] when looking at something sideways.
+[00:22:36] And with that shenanigans,
+[00:22:40] we have covered all the elements that we have in the concept.
+[00:22:43] But, looking at the effect,
+[00:22:46] you might notice something that we haven't called out yet.
+[00:22:49] Can you tell?
+[00:22:51] There are these travelling beams at both ends of the beam.
+[00:22:59] These were not in the concept,
+[00:23:01] but they were in the original Unity effect,
+[00:23:04] so we might as well recreate them.
+[00:23:06] Its emitter is right here in the Coil Niagara system.
+[00:23:10] We are just using some stretched velocity aligned particles
+[00:23:13] with a velocity along the X axis,
+[00:23:16] and they are spawning in a sphere-shaped location
+[00:23:19] around the impact point.
+[00:23:21] Not really much going on,
+[00:23:23] but I like the way they give some body to the ends of the beam,
+[00:23:26] otherwise they look a little bit slim,
+[00:23:29] and I feel like they work even if the shapes
+[00:23:32] can't be immediately explained by electricity.
+[00:23:35] It looks like there is some kind of energy
+[00:23:38] travelling along with the beam.
+[00:23:40] And with that, our effect is completely finished.
+[00:23:45] As you can see, we only used the regular particle material
+[00:23:48] to achieve all these elements in this effect,
+[00:23:51] and we are not doing anything crazy
+[00:23:53] like distortions or UV setups.
+[00:23:56] Just some simple emitters with cheap materials,
+[00:23:59] good shapes, and a good composition.
+[00:24:02] And still, the end result can look fantastic.
+[00:24:07] With that, I hope you enjoyed this lesson,
+[00:24:09] and I'll see you in the next. Bye!

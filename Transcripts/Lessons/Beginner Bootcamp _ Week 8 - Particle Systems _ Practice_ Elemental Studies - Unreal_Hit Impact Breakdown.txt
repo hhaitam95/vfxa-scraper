@@ -1,0 +1,569 @@
+[00:00:05] Hey, this is the effect we are going to cover in this lesson.
+[00:00:09] We call this an impact effect, but this is a very versatile effect.
+[00:00:13] Similar to this could be also used as a flash
+[00:00:17] or as a call to attention to something happening in the world,
+[00:00:20] especially if you start playing with the shapes and other things.
+[00:00:23] So, let's break it down and see how it was made.
+[00:00:27] Starting with the concept, like in previous effects,
+[00:00:30] we have a nice visual representation of the effect,
+[00:00:33] of how we want it to look in the end,
+[00:00:35] we have some notes regarding the different elements,
+[00:00:38] techniques and specific callouts,
+[00:00:40] and we also have a variety of references.
+[00:00:44] But focusing on the drawing itself,
+[00:00:46] we can break down the different elements seen here
+[00:00:49] into three different levels of relevance.
+[00:00:52] The star shape at the core will be the most important in this hierarchy,
+[00:00:56] since it sits right at the center with a clear silhouette,
+[00:01:00] representing the exact point of impact.
+[00:01:04] These glows that come from the star
+[00:01:06] and the ring that expands around it will follow.
+[00:01:10] And finally, the smaller elements like the sparks, the glow,
+[00:01:14] and even those outer spikes, depending on how intense we make them,
+[00:01:18] will take a backseat to all the previous elements.
+[00:01:22] And in this case, if you look at the final effect,
+[00:01:25] these outer spikes were toned down so much that they aren't even there.
+[00:01:29] To me, they feel out of place in the hierarchy,
+[00:01:32] and having them to represent directionality isn't really needed
+[00:01:36] once you have all the elements animated, like here.
+[00:01:39] Notice how in the concept, they really help convey that outward motion.
+[00:01:44] Without them, the drawing might feel too static,
+[00:01:46] like it's not showing the impact of the impact effect.
+[00:01:50] But once the elements are animated,
+[00:01:52] they might not be needed at all.
+[00:01:54] Just a reminder that the concept art is just a tool
+[00:01:57] and that you shouldn't feel like you are married to it
+[00:01:59] once the actual effect starts to speak for itself.
+[00:02:03] Still, after removing some elements
+[00:02:05] and changing the color and intensity of others,
+[00:02:09] the essence of the concept idea is still there.
+[00:02:12] And note that even if this is a quick effect,
+[00:02:15] not all the elements last for the same amount of time on screen.
+[00:02:19] Each element has a different lifetime,
+[00:02:21] which avoids all particles dying at once
+[00:02:23] and reinforces that intensity hierarchy,
+[00:02:26] with some elements burning bright for just a couple of frames,
+[00:02:29] while other softer elements have also a smoother or softer animation
+[00:02:35] hanging in there just a little bit longer.
+[00:02:38] And the same can be said about the colors.
+[00:02:40] Each element has a different peak intensity,
+[00:02:43] according to their relevance.
+[00:02:45] And we'll touch on that again later on,
+[00:02:47] but first, let's dive right into the breakdown of the effect.
+[00:02:52] As previously, we're going to go over the different elements
+[00:02:55] that make this one, starting with the main protagonist,
+[00:02:59] so the star at the center.
+[00:03:01] For this one and most of the other elements
+[00:03:03] that don't require much on the material side,
+[00:03:06] we're going to use the same particle material
+[00:03:08] we created in the campfire lesson,
+[00:03:11] the one that has all those options to make it versatile.
+[00:03:14] We're going to create a material instance
+[00:03:17] that takes that as its parent,
+[00:03:19] and the only thing we'll need is a custom texture
+[00:03:21] that we can hook into it.
+[00:03:23] To create the star texture,
+[00:03:26] we're going to take advantage of the symmetry tool in Photoshop,
+[00:03:29] specifically using the dual axis mode
+[00:03:32] to get a four-pointed star.
+[00:03:34] We draw the main spikes,
+[00:03:36] but then some smaller ones in between
+[00:03:38] to fill the center of the impact a little more
+[00:03:40] and get a slightly more aggressive shape.
+[00:03:44] And using the smudge tool and dragging outwards,
+[00:03:47] we can accentuate the directionality
+[00:03:49] in a more organic way
+[00:03:51] before adding a more general blur
+[00:03:53] using the radial zoom blur.
+[00:03:56] For that, we need to go to filter, blur, radial blur,
+[00:03:59] and set a big enough value,
+[00:04:01] making sure to select zoom,
+[00:04:03] otherwise we're going to get a spinning effect.
+[00:04:06] And you can also change the zoom center in this square,
+[00:04:09] but as long as the star is centered,
+[00:04:11] you don't need to do anything here.
+[00:04:13] You might want to repeat the filter a couple of times,
+[00:04:18] depending on the resolution of the image
+[00:04:20] you are making,
+[00:04:22] and also make sure to clean up any bleeding
+[00:04:24] towards the edges of the image,
+[00:04:26] since those can become pretty obvious
+[00:04:28] when we start to crank that emissive strength in the effect.
+[00:04:33] And with that, we have our texture ready.
+[00:04:35] So let's open the particle system
+[00:04:38] to see how this star is set up.
+[00:04:40] Let's isolate the emitter,
+[00:04:42] and you can see it's a pretty simple billboard
+[00:04:45] that lasts for very little.
+[00:04:48] Other than the default options,
+[00:04:50] the only extra we are doing is that stretching motion
+[00:04:53] to give some pop to the star separation.
+[00:04:56] In the scale sprite size module,
+[00:04:58] we are selecting a non-uniform curve,
+[00:05:00] which means we'll have the ability to use
+[00:05:02] one curve for the height over lifetime,
+[00:05:05] and another one for the width.
+[00:05:07] You can see how these two are different.
+[00:05:09] The red one is the width,
+[00:05:11] and it's barely scaling up as it spawns,
+[00:05:13] while the green one starts scaling the height to zero,
+[00:05:16] and quickly expands to match the other one.
+[00:05:19] That stretching and squashing effect
+[00:05:22] brings a lot of life into such a simple element,
+[00:05:25] but the key is having some of that
+[00:05:27] without overdoing it,
+[00:05:29] unless you are specifically going for a very cartoony, goofy style.
+[00:05:33] And apart from that stretching,
+[00:05:37] another factor that affects the timing of this element
+[00:05:40] is the fade in and fade out itself,
+[00:05:43] since this is not only growing up from a small point,
+[00:05:46] but it's also fading into view at the same time.
+[00:05:50] We have used the color module
+[00:05:52] with the color from curve dynamic input before,
+[00:05:55] but we didn't talk much about it.
+[00:05:58] The gradient itself is not hard to understand,
+[00:06:01] you are setting the color on the upper part,
+[00:06:04] and the translucency, or the alpha channel, on the bottom.
+[00:06:08] The key here is the distance between these two gradient points.
+[00:06:12] The tighter together these two are,
+[00:06:15] the more sudden the fading is going to feel.
+[00:06:18] And this gradient represents the color
+[00:06:21] along the life of the particle,
+[00:06:23] so keep in mind that the fading timing is going to change
+[00:06:26] if you change your particles lifetime.
+[00:06:29] You might have to tweak both back and forth
+[00:06:31] to find the exact timing your effect needs.
+[00:06:34] And of course, the same applies to the fade out,
+[00:06:37] it's just that the fading is usually the one carrying that punch.
+[00:06:40] And in this case,
+[00:06:44] I'm not having any problems with sorting,
+[00:06:46] but if you find that this main element
+[00:06:48] that should be front and center
+[00:06:50] is being covered by some other elements
+[00:06:53] like the sparks or those light rays behind it,
+[00:06:56] remember that you can always give Unreal
+[00:06:59] some hint on how you want the different particles to be layered.
+[00:07:03] You just have to go down here in the sprite renderer
+[00:07:07] and play with this sort order hint value.
+[00:07:11] I'm not doing anything on this star
+[00:07:13] because I can't see any issues pop up,
+[00:07:15] but I do use it on things like this backdrop
+[00:07:18] that I want to make sure is always behind every other element.
+[00:07:22] For glowy elements like this one
+[00:07:24] where everything is emitting,
+[00:07:26] this isn't usually a problem,
+[00:07:28] but for more subtle effects
+[00:07:30] like we are going to see later in the series,
+[00:07:32] this is going to be a lifesaver.
+[00:07:34] Moving on to the next element,
+[00:07:37] that circle that encapsulates the star,
+[00:07:40] this is actually the only one that's using its own material
+[00:07:44] instead of just the generic particle material.
+[00:07:48] It looks a little bit unassuming,
+[00:07:50] but it's actually more complex than it looks
+[00:07:52] because we are using a technique
+[00:07:54] to get a circle shape out of a regular flat texture.
+[00:07:58] For that we created a frisbee-like mesh
+[00:08:01] that has the UVs kind of wrapping around horizontally.
+[00:08:06] That kind of projection is called polar projection
+[00:08:09] and a nice way to both understand why is it called that
+[00:08:13] and also get a feel for how the texture we use is going to look
+[00:08:17] once applied here,
+[00:08:19] is to think of a map of the world
+[00:08:21] with the typical projection that you always see in these maps
+[00:08:24] and now imagine how that would look
+[00:08:27] if you were to look at it from the North Pole,
+[00:08:30] hence polar projection.
+[00:08:34] Going up and down your map texture
+[00:08:36] will look like you are moving towards the center
+[00:08:39] or away from the center in your polar projected map
+[00:08:43] and at the same time, moving left or right
+[00:08:46] will look like you are moving around that center in circles.
+[00:08:51] That's why when we use a texture that's basically a horizontal line
+[00:08:55] what we see from a polar point of view is a circle
+[00:08:59] and we still have to make sure that the texture ties at least horizontally
+[00:09:05] so there's nothing weird going on at any point of that circle.
+[00:09:10] Now, you might ask
+[00:09:12] what's the point of doing this
+[00:09:14] instead of just using a circular texture applied to a regular quad
+[00:09:18] with regular ubies?
+[00:09:21] Well, there are a couple of advantages when doing it in this way.
+[00:09:25] First, that we can use any generic trail or beam texture
+[00:09:29] to get an interesting circular result
+[00:09:31] and these textures might be easier to create and edit too.
+[00:09:36] Just think about how easy making a circular text
+[00:09:39] or some type of runic circle will be
+[00:09:41] using this.
+[00:09:43] And secondly, this method makes it easy to rotate our circular element
+[00:09:48] by just panning that texture horizontally in the material graph
+[00:09:53] and also change the radius of the circle
+[00:09:56] by panning the texture vertically in the material graph.
+[00:10:00] So, there are a lot of effects where using these polar coordinates
+[00:10:04] makes things way easier.
+[00:10:06] On the other hand, the drawback is that
+[00:10:09] generally controlling the look of your textures
+[00:10:12] is going to be a little more complicated
+[00:10:14] since you are not editing directly the final look of it
+[00:10:17] you are creating a texture that's going to get distorted.
+[00:10:21] And one of those distortions is
+[00:10:23] as you get closer to the center
+[00:10:25] things start to get very clamped together
+[00:10:28] making that pinch effect that you can sometimes see at the poles of a sphere
+[00:10:33] and at the same time things at the very edge tend to stretch way too much.
+[00:10:39] But for elements like this one
+[00:10:41] where there is nothing at the middle and nothing at the very edge
+[00:10:43] this is a quick and easy way to create what we want
+[00:10:46] and so this technique will be useful both for this
+[00:10:50] and for the sword swipe effect later in the series.
+[00:10:53] Going into the material
+[00:10:57] the first thing you can see is that we have one of those distortion setups
+[00:11:01] just like in the campfire
+[00:11:03] but looking at the circle itself
+[00:11:05] you might notice that there is no distortion yet.
+[00:11:08] That's because the sword swipe is using this same material
+[00:11:12] and for that one we do want the distortion option
+[00:11:15] we are just not using it for this one.
+[00:11:17] But something is different from the last time
+[00:11:22] we used this kind of panning and scaling around setup for the texture.
+[00:11:27] The idea behind modifying the UVs is still the same
+[00:11:31] we are multiplying them to scale our texture
+[00:11:34] and we are adding something to them to pan our texture around.
+[00:11:38] The main difference is now we are not using our regular material parameters for that
+[00:11:45] we are using a node called Dynamic Parameter.
+[00:11:48] This is basically a node that you can add to your material
+[00:11:52] and it has some parameters that we can rename inside it
+[00:11:55] and this will allow us to set these parameters from the Niagara system.
+[00:12:00] There is a specific Niagara module that we are going to see in just a second
+[00:12:05] that will let us send some info to the material through here.
+[00:12:09] So what we are doing is basically giving our Niagara emitter
+[00:12:13] all the control for how the texture is going to be scaled or moved around.
+[00:12:18] And we'll see how that works later, but with that we have our texture sample
+[00:12:23] and after that we are doing the same things that we did on previous lessons.
+[00:12:27] We have our color being multiplied by our particle color
+[00:12:31] by an emissive intensity slider and being sent to the color pink
+[00:12:35] and at the same time we are using this texture as our opacity mask
+[00:12:39] taking into account the particle color alpha and our depth fade.
+[00:12:44] But there is something else we are multiplying here
+[00:12:47] and as you can see this leads to a bunch of spaghetti.
+[00:12:50] Don't be scared, this is simpler than it looks.
+[00:12:53] It's probably easier to follow if I show the preview for these nodes here.
+[00:12:59] And this saturated node at the end is what we are trying to achieve.
+[00:13:03] A kind of vignette effect that's going to mask our textures.
+[00:13:08] To do that we are using our UB gradient.
+[00:13:12] This on top comes from the horizontal U component, as you can see.
+[00:13:16] And this on the bottom comes from the B component.
+[00:13:19] For each of these we are also applying a 1- node to get the mirrored gradient, so to speak.
+[00:13:27] And we are just multiplying each one with its mirror
+[00:13:31] to get both a vertical kind of beam and an horizontal one.
+[00:13:35] And then again we are multiplying these two to get our final square mask
+[00:13:41] that we can then make brighter depending on our needs with this parameter.
+[00:13:47] And these smooth step nodes in the middle are what really make this look huge
+[00:13:52] but they are not doing much by default.
+[00:13:54] They are really there to give us some parameters to play with
+[00:13:57] in order to tweak the UB gradients before multiplying them.
+[00:14:01] That way we can change how big or small the final mask is
+[00:14:05] and how hard or soft its gradients are.
+[00:14:10] Now, in our case we are applying this material to a circular mesh
+[00:14:14] that has the UVs set up in a polar fashion.
+[00:14:18] So this is what the mask is doing in reality.
+[00:14:21] Since we are using both the vertical and the horizontal gradients to create the square mask
+[00:14:27] we get that black band once we apply it to our polar mesh.
+[00:14:31] And I feel like this works great to make the circle element more organic and interesting
+[00:14:37] but if we didn't want that we could just not use the horizontal gradient when creating the mask.
+[00:14:43] We could just use the horizontal part of it to create the mask and we would get a donut shape in the end.
+[00:14:49] On the other hand, that band by itself could be used in other kinds of effects
+[00:14:55] to create interesting elements like the hand of a clock or something like that.
+[00:15:00] But that has nothing to do with this effect so I don't want to ramble.
+[00:15:03] Let's see how the horizontal texture was made.
+[00:15:06] We are picking a softish brush with a small radius
+[00:15:12] and holding shift while moving the brush you can create a straight horizontal line.
+[00:15:18] Then using a soft eraser we are adding some luminosity variations to make the final element more interesting.
+[00:15:25] Also, if you are not using the pattern preview mode try to avoid painting the edges to make sure the image still tiles.
+[00:15:35] And we are going to use the same trick that we used in the campfire texture
+[00:15:39] duplicating and adding different layers of the same texture with different amounts of Gaussian Blur
+[00:15:46] so we get an easy glow effect.
+[00:15:50] If you want to try other textures and see how the result would look like
+[00:15:54] without having to import them into Unreal every time
+[00:15:58] you can use the polar coordinates tool in Photoshop for a quick preview.
+[00:16:03] You just have to go to distort polar coordinates, make sure to select rectangular to polar
+[00:16:09] since that's the direction we want to use for this transformation.
+[00:16:14] If the preview seems too small and you want to get something more like this
+[00:16:18] all you have to do is change the distance from your line to the top of the image
+[00:16:23] since the top of the image is what's going to become the center of the circle when you apply that polar transformation.
+[00:16:29] Remember that analogy of the world map, moving your texture north or south
+[00:16:34] will change how close it is to the center of the projection.
+[00:16:39] And since for this element we are also using a specific mesh with that specific UV configuration
+[00:16:46] let's see how that was made too.
+[00:16:49] Starting with a 3D UV sphere, we deleted half of it and scaled it down close to flat
+[00:16:56] to get some frisbee-like shape.
+[00:16:58] The thing is deleting half of the sphere also left half of the UV space uncovered
+[00:17:04] so we are going to rescale the remaining UVs to cover the entirety of it
+[00:17:09] and that's how you get this mesh.
+[00:17:11] As a side note, make sure to apply all transforms to the Blender object if you scaled it down in object mode
+[00:17:18] and also you can make the faces smooth, it's probably not a big deal for this effect
+[00:17:23] since we don't use the normals in this material
+[00:17:26] but we might use this mesh for other effects in the future so that's nice to have.
+[00:17:31] Moving on to the particle system, this emitter is special
+[00:17:34] because this is the first one in the series in which we are going to use a mesh renderer
+[00:17:39] instead of the usual sprite renderer.
+[00:17:42] We still want the mesh to work kinda like a billboard facing the camera
+[00:17:46] but we need our circular mesh in order for the polar UVs to make our texture circular
+[00:17:52] and animate them moving outwards.
+[00:17:54] So let's see how the emitter is set up.
+[00:17:57] There is really two modules setting this apart from other emitters that we have looked at.
+[00:18:02] The first one and the most apparent is that mesh renderer.
+[00:18:05] Since we want to use a mesh to display our material in this particle
+[00:18:09] we need to disable or remove our sprite renderer module and add our own mesh renderer.
+[00:18:15] Under meshes we can select our custom mesh
+[00:18:20] and to apply our material we'll need to enable material overrides
+[00:18:25] add a new element to the list of materials and fill it with our material.
+[00:18:31] Now, this is spawning the mesh but it's not reacting to the camera.
+[00:18:35] We want this to work like a billboard so we are going down here to the facing mode
+[00:18:40] and we are setting it to camera position.
+[00:18:42] And, oops, the wrong side is facing the camera.
+[00:18:46] There's two ways to fix this, the first will be going back to Blender and rotating the mesh
+[00:18:51] that will be a little bit inconvenient
+[00:18:54] and also not a good idea if we are going to use the same mesh in different effects.
+[00:18:59] So the second way to fix this is opening the mesh options in this dropdown
+[00:19:04] and we can play with the transform values in the renderer.
+[00:19:08] In this case just by rotating the Y axis by minus 90 degrees it's going to face the camera.
+[00:19:14] And more or less that covers the mesh renderer.
+[00:19:18] The second module that's particular in this element is the one we commented before
+[00:19:23] the one that's controlling our dynamic material parameters.
+[00:19:26] You can see inside this module I have four values I can set.
+[00:19:30] These are the four values that our material is reading
+[00:19:33] and you can see the names we set in the node material here.
+[00:19:37] The first two manage the scale of the texture and we are not changing those, we are leaving them at 1.
+[00:19:43] But the last two manage the panning the texture around
+[00:19:47] and for this we have float from curve dynamic inputs so we can animate them along the particle's lifetime.
+[00:19:54] Now, what's the idea with this?
+[00:19:56] Remember that we are applying our texture to a polar projected mesh
+[00:20:00] that means that moving left or right, which is our offset X parameter,
+[00:20:05] that's going to rotate our circle.
+[00:20:09] At the same time moving up or down, which is this offset Y parameter,
+[00:20:13] is going to change the radius of our circle.
+[00:20:16] So these two curves are going to animate the rotation and the scale of the circle
+[00:20:22] over the lifetime of the particle.
+[00:20:24] And you can clearly see that if I try disabling these inputs for a second.
+[00:20:29] The kind of curves we are going to use for this animation
+[00:20:35] that's going to depend on the specific effect and element we are working with.
+[00:20:40] In this case we want a sudden appearance
+[00:20:42] so we are using a curve that has a high slope at the start
+[00:20:46] and mellows out towards the end of the particle life.
+[00:20:50] Something to note is that the way we have our UVs set up
+[00:20:55] will affect the timing of the circle growth.
+[00:20:58] Notice how these vertices are more clamped together towards the edge of the circle
+[00:21:04] while the UVs themselves are uniformly spaced from top to bottom.
+[00:21:08] That's going to affect the timing of our animation too.
+[00:21:12] So the specific values you set in these dynamic parameters
+[00:21:16] are going to depend on things like the specific mesh or material that you are using.
+[00:21:21] And after looking into the mesh renderer and the dynamic material parameter modules
+[00:21:28] I'm pretty sure by now you know what all the other modules are doing
+[00:21:32] so we can skip those.
+[00:21:34] The next elements are those rays behind the star and circle.
+[00:21:39] For their texture we are again going to use the symmetry tool
+[00:21:43] this time only using the vertical axis
+[00:21:45] and we are going to draw a simple conical shape
+[00:21:48] and give it some gradient from bottom to top.
+[00:21:51] We are also going to use that quick trick to give it some glow by duplicating it and blurring.
+[00:21:59] And that's the texture we are going to use.
+[00:22:04] Once in the particle system you might think that these are just default billboards
+[00:22:09] but there is some trick to them.
+[00:22:11] These have to all come out from the middle
+[00:22:14] and applying the material to a stretching billboard with a random rotation
+[00:22:18] is going to give you something like this.
+[00:22:21] These are stretching out but like any other particle would
+[00:22:25] they are doing so from the center.
+[00:22:28] And since this is the texture we are using
+[00:22:31] as the particle stretches vertically
+[00:22:33] this bright spot looks like it's moving away from the center of the effect.
+[00:22:39] What we need to do is somehow tell the particle system
+[00:22:42] that in this texture we want to take this bright spot as our center.
+[00:22:47] We want this bright spot to remain in the center of the effect
+[00:22:51] and have all these other parts of the texture stretch out
+[00:22:54] like the light rays are becoming longer.
+[00:22:58] Thankfully we can set that up in the sprite renderer using this parameter
+[00:23:02] which is called default pivot in UV space.
+[00:23:05] The center of the UV square is 0.5, 0.5 and that's the default.
+[00:23:10] But for this specific texture I played with the vertical value around
+[00:23:15] until I found that 0.96 is about the right place to set our center.
+[00:23:21] After setting that bright part of our texture as our pivot
+[00:23:25] the rays now grow out just in the way we want.
+[00:23:30] And again, for this element that's the only particular setting
+[00:23:34] that would need some splining
+[00:23:36] other than that it's just a matter of playing with the right lifetime
+[00:23:40] and scale values, that color module and so on.
+[00:23:44] That UV pivot setting can be easy to miss
+[00:23:47] since usually the textures we work with tend to be centered
+[00:23:51] but it's always good to know how it works for cases like this one.
+[00:23:55] Moving on, you might notice that the texture for this next element
+[00:24:01] is the same spark texture that we made for the campfire effect
+[00:24:05] In the particle system we are using them in a different way though
+[00:24:09] we are not pushing them around in the wind
+[00:24:11] these are being stretched way out at the start
+[00:24:14] and they end up as a single point.
+[00:24:16] It's almost like one of those scenes where a traveling spaceship
+[00:24:20] suddenly arrives using some kind of light speed travel or warping
+[00:24:25] and that extreme stretch and squash gives the entire effect a nice pop
+[00:24:30] and for that we are going to have to play with that animation
+[00:24:34] until we find the right timing.
+[00:24:37] Just quickly going through the basic modules
+[00:24:39] we are spawning the particles in a sphere location
+[00:24:42] but with a very small radius
+[00:24:44] the reason is right below it we are adding some velocity
+[00:24:48] using the front point setting
+[00:24:50] and we are using the position of our particles
+[00:24:52] to dictate the direction they are moving towards.
+[00:24:55] So we are setting them in a sphere location
+[00:24:57] just as a quick and easy way to have them move away from the origin
+[00:25:01] not because we really need them in a sphere.
+[00:25:05] Then we have a sub UV module
+[00:25:07] like the ones we have used before for some variation
+[00:25:12] but the real animation is being controlled from the scale velocity module
+[00:25:17] down in the particle update.
+[00:25:19] You can see I'm using a kind of goofy curve here
+[00:25:22] the idea is to have the particles move at full speed
+[00:25:25] during a fraction of their lifetime
+[00:25:27] and then suddenly stop.
+[00:25:29] It's hard to see because of the way we are looking at this curve
+[00:25:33] but we are not completely stopping them
+[00:25:36] I'm scaling their speed down to 10%
+[00:25:39] and then slowly stopping them
+[00:25:41] and that's what it gives them
+[00:25:43] that small drift after stopping
+[00:25:45] like there is still some inertia on them.
+[00:25:48] The thing is this is going to highly depend on the particles lifetime
+[00:25:53] since having them at the highest speed for a couple of frames more or less
+[00:25:57] it's going to affect how far from the center they stop.
+[00:26:01] So you just have to be patient and play with the values
+[00:26:05] until you get something you like.
+[00:26:08] Now, that controls the location
+[00:26:10] but to get that stretching effect
+[00:26:12] we are using this module that's called scale sprite size by speed
+[00:26:17] so you can probably guess what it's doing.
+[00:26:20] The values themselves can still be somewhat confusing
+[00:26:23] so I'll try to play them as simple as I can
+[00:26:26] but feel free to read the tooltips if I don't manage to.
+[00:26:30] Here we are deciding how much the particle is going to be scaled
+[00:26:37] depending on the speed.
+[00:26:39] Something to note is that we are doing so for the x-axis
+[00:26:42] and for the y-axis separately
+[00:26:45] which is great because in this case
+[00:26:47] we only want to scale our particles lengthwise.
+[00:26:52] This mean scale factor value
+[00:26:54] is how much are the particles going to be scaled at zero velocity.
+[00:26:59] In this case we leave them as they are, multiplying their scale by one.
+[00:27:03] And the max scale factor value
+[00:27:06] is how much are the particles going to be scaled at their maximum speed.
+[00:27:11] And what is the maximum speed?
+[00:27:13] That's this velocity threshold right here.
+[00:27:16] In this case 1000 cm per second, so 10 m per second.
+[00:27:21] That doesn't mean that the particles can't move faster than this.
+[00:27:25] This module doesn't modify the speed of the particle at all.
+[00:27:29] That just means that after that point
+[00:27:31] they are not going to be scaled any farther.
+[00:27:34] So with this setup any static particles would keep their default scale
+[00:27:39] and as they get closer and closer to this velocity threshold
+[00:27:43] they would be getting closer and closer to being scaled by 2 and 25.
+[00:27:49] So pretty dramatic, mainly lengthwise.
+[00:27:53] We are using this module to get that extreme warping effect
+[00:27:58] but a more toned down version of this
+[00:28:00] would work very well to fake a kind of motion blur effect
+[00:28:04] that is common with small moving particles.
+[00:28:08] And again, this is one of those parameters
+[00:28:11] that you just have to play with until you find something that works
+[00:28:15] for the way these particles are going to be moving.
+[00:28:19] And of course for this to work
+[00:28:21] you have to make sure that you are setting the alignment
+[00:28:24] in these particles to velocity aligned
+[00:28:27] down here in the sprite render.
+[00:28:29] Otherwise the particles are just going to be scaled vertically
+[00:28:33] regardless of the direction they are moving along.
+[00:28:35] Which, by the way, doesn't even look that bad now that I try.
+[00:28:41] It's just not the effect we are going for.
+[00:28:43] But I'm going to take note of this one.
+[00:28:45] And our last element is the glow
+[00:28:51] and also the backdrop, which is basically a darker glow
+[00:28:55] that's behind everything else to make it show a little bit more.
+[00:28:58] We have made one of these for the campfire already.
+[00:29:01] The difference is this time this is not a looping effect
+[00:29:04] so we need to pay some more attention
+[00:29:06] to how these fade in and fade out.
+[00:29:09] Like with the other elements
+[00:29:11] we are both scaling the particle up
+[00:29:13] and scaling the color alpha along the particle's lifetime.
+[00:29:17] We are just not using such an exaggerated curve
+[00:29:20] for the pop-out.
+[00:29:22] We are rather going with a smoother appearance.
+[00:29:24] All you have to do is make sure that it matches
+[00:29:27] the animations of the rest of the elements.
+[00:29:29] After all, this glow is supposedly coming
+[00:29:32] from the light they are emitting.
+[00:29:34] Then for the backdrop element
+[00:29:37] you should tweak the opacity and values of this one
+[00:29:40] based on how it looks in the environment.
+[00:29:43] In the particle editor with a dark background
+[00:29:46] all the emissive elements in an effect
+[00:29:48] are always going to look great
+[00:29:51] but once you are in game and you have a lighter background
+[00:29:54] they can start to become a little bit invisible.
+[00:29:57] The job of this element is to darken the background a little bit
+[00:30:01] and make sure that the effect is visible
+[00:30:03] even against lighter elements like the sky.
+[00:30:06] There is a balance to be achieved here.
+[00:30:09] It might feel weird if the effect darkens everything behind it too much
+[00:30:14] so you have to play with the opacity and color of this one
+[00:30:17] until you get something that you like.
+[00:30:19] As you can see, this one can really change
+[00:30:22] the overall feel of the effect.
+[00:30:24] Not only can it make the whole effect way darker
+[00:30:27] but this is also a good place to change the hue a little bit
+[00:30:31] if you want to give a little more depth to the effects palette.
+[00:30:34] And that leads me to a final thought regarding color
+[00:30:38] now that we have the entire particle system working together.
+[00:30:43] Sometimes it's easy to work on each element in isolation
+[00:30:47] and just to avoid having color issues
+[00:30:50] use the same copy-paste color for every particle
+[00:30:54] and that's fine during development
+[00:30:56] but you always want to have some play and variation in your effect
+[00:31:00] so once you have everything working
+[00:31:02] and the animations feeling great
+[00:31:04] try to play with the colors of different elements
+[00:31:07] and see how they work together.
+[00:31:09] Remember that an important part
+[00:31:11] of what's making a specific element more or less intense
+[00:31:15] is not just how much are you cranking the emissive parameter
+[00:31:19] but also how much brighter is it
+[00:31:22] relative to the elements around it.
+[00:31:25] As you can see, I'm using the brighter yellows
+[00:31:28] for those elements that are going to require more intensity at the core
+[00:31:32] and using the darker oranges from our palette
+[00:31:35] in those less important elements
+[00:31:37] straight up using the dark colors as a backdrop.
+[00:31:40] And even if I had a different palette
+[00:31:42] I would still try to use the lighter and darker colors in that fashion.
+[00:31:47] I know that this is a little random
+[00:31:49] since this of course applies to every effect
+[00:31:51] not just this one
+[00:31:53] but I personally love how elegant this effect looks
+[00:31:56] and I think a big part of that
+[00:31:58] comes from that use of color
+[00:32:00] to highlight the impact elements over the others.
+[00:32:03] That wouldn't work as well
+[00:32:05] if this whole effect was completely monochromatic.
+[00:32:09] Something that I also like about this effect
+[00:32:12] is that it's representing something simple and very common
+[00:32:16] almost every game is going to need something like this
+[00:32:19] and yet there is a lot of opportunities for expression
+[00:32:22] with the animation of all the different elements
+[00:32:25] all the different shapes you can use
+[00:32:27] different color palettes that could be explored and all that
+[00:32:30] so I feel like this is a very good exercise
+[00:32:33] both for practice and for showcase.
+[00:32:37] Also, there are some cool techniques used in here
+[00:32:40] like the whole polar coordinates ordeal
+[00:32:42] and managing material parameters from the particle system
+[00:32:46] so I think this was a cool one to break down.
+[00:32:49] I hope you enjoyed this lesson
+[00:32:51] and I'll see you in the next.
+[00:32:53] Bye!

@@ -1,0 +1,132 @@
+[00:00:05] Hello again, I'm Jayden and in this lesson we will bring together all the things we've learned so far to create a complete shader
+[00:00:13] from start to finish.
+[00:00:15] We'll bring back all the techniques we know, like combining textures, UV panning,
+[00:00:20] masking,
+[00:00:21] distortion, and adding color.
+[00:00:25] So before we get started, one thing that will help is if you remove the skybox, you can do that under Window,
+[00:00:32] Rendering,
+[00:00:33] Lighting, and this will open up your lighting settings. You go to the Environment tab, you have the skybox material,
+[00:00:41] select the circle here, and if you go to the top left, you'll see none.
+[00:00:46] We want to just completely remove the skybox.
+[00:00:49] Next up, create a shader called fire, make a material for it, and apply that material to your quad.
+[00:00:57] Then open up your graph workspace.
+[00:01:08] Okay, so we're gonna create a nice fire effect, and we'll start with a basic fire texture.
+[00:01:15] The project comes with a nice texture called Upward Fire.
+[00:01:27] So this is what we're starting with, but when our shader is done, it will glow,
+[00:01:34] we'll have some good color variation, and some really nice animated fluid motion.
+[00:01:40] Let's start with the glow, and we'll do that using Unity's default particle.
+[00:01:47] We'll want to pan this, so we'll create a basic panning setup, create a time node,
+[00:01:56] multiply,
+[00:01:58] vector 2, and
+[00:02:01] tiling and offset. We'll start by multiplying time to speed it up. We want horizontal movement,
+[00:02:12] so we'll plug that into the x-axis, and
+[00:02:15] now that we have a vector 2, we'll plug that into tiling and offset, offset.
+[00:02:27] Plug this new UV into the default particle, and now it's moving, and
+[00:02:33] to use this to make the fire glow, we will add them.
+[00:02:41] This setup will add the brightness of this particle onto this fire.
+[00:02:47] So what we're doing here is just combining these, but we don't want the glow to appear outside the fire like it is now.
+[00:02:54] What we can do is use the original fire as a mask, so that the glow only happens where the fire already is.
+[00:03:02] So we can create a mask using multiply,
+[00:03:05] we'll use the original fire as the mask, and
+[00:03:12] plug in our new glow.
+[00:03:14] So we create this additional glow that scrolls across the fire,
+[00:03:19] but then we cut it off in the areas where there's not already fire.
+[00:03:24] Okay, so now let's add some distortion.
+[00:03:27] Let's find an open space to do this, and we want to create distortion using gradient noise, and
+[00:03:36] let's change the scale a little bit.
+[00:03:38] Let's try 5.
+[00:03:41] That looks better.
+[00:03:42] And we want to scroll the noise upwards.
+[00:03:45] We already created a panning setup, so we can actually just copy and paste that from the previous setup.
+[00:03:51] But the previous setup uses horizontal scrolling. We'll plug this into the Y so we get vertical scrolling.
+[00:04:03] And also if it's a positive number, it'll move it downward.
+[00:04:07] So let's use a negative number on the multiply, and let's try 0.5 to slow it down just a little bit.
+[00:04:16] Something to consider is that we don't actually know how fast we want this to go.
+[00:04:20] This is a value that we might want to change along with other values, so we should label this.
+[00:04:26] Right-click anywhere and create a sticky note.
+[00:04:31] We're gonna be adding a bunch of controls into our shader, and we don't want to lose track of what's going on.
+[00:04:36] So if we label things, we'll know right where to go if we want to change something. Let's call this offset speed.
+[00:04:50] And we should do the same down here for our glow speed. This is something else we might want to change.
+[00:05:04] Okay, great. So this will help us stay organized.
+[00:05:10] Okay, so now let's apply the panning to the distortion, and it's moving upwards slowly just like we wanted.
+[00:05:16] But right now it's not distortion. It's just noise. We need to create our original UVs.
+[00:05:24] And we'll add these coordinates to the UVs to create distortion. Do that using an add node.
+[00:05:30] And then we can plug all of this
+[00:05:39] into the original
+[00:05:42] fires UVs.
+[00:05:45] And the distortion is pretty intense. That's not really what we want.
+[00:05:49] What we need to do is weaken the distortion before we add it.
+[00:05:57] So we can create some room after the gradient noise.
+[00:06:01] We can start by adding a multiply, and this will allow us to control the intensity of that distortion.
+[00:06:11] And we can lower it to something very small like 0.1.
+[00:06:15] And now it'll create a much more subtle effect.
+[00:06:20] We also have the problem though since we're only adding coordinates. It'll always push them in the same direction.
+[00:06:26] So let's create our remap as well. And by doing this we can plug in the noise to the remap and
+[00:06:39] the remap into the multiply.
+[00:06:43] And from our noise we get the values 0 through 1.
+[00:06:47] And we want to convert those to the values negative 1 through 1.
+[00:06:52] And that will create the multi-directional distortion.
+[00:06:56] We're almost there. One other problem is that as we go above the top or below the bottom
+[00:07:03] we're starting to wrap and sample pixels from the other side. We can change this using our sampler state.
+[00:07:10] If you pull the sampler state out, it'll try to add one automatically.
+[00:07:17] And let's change the wrap mode to clamp.
+[00:07:21] And that fixes the problem right away.
+[00:07:23] So if we're reaching below the image for pixels, it won't wrap anymore.
+[00:07:28] It'll just grab the bottom most pixels or the top most pixels.
+[00:07:33] And we just added another number that we might want to change later, this intensity here.
+[00:07:39] So let's create a sticky note for that as well. Let's call this distortion intensity.
+[00:07:46] Let's do one more thing here because when we look at the fire
+[00:07:55] you'll notice that it's very distorted over the whole surface of the fire.
+[00:08:00] If you think about real fire, we know that it moves very quickly on the top, but the bottom is mostly stationary.
+[00:08:07] So we should be applying a lot of distortion on the top of the fire and almost no distortion at the bottom of the fire.
+[00:08:14] What we can do is we can mask out this distortion using a gradient. So let's see how we would do that.
+[00:08:22] Our basic UVs will be very helpful here.
+[00:08:27] Let's split these out and
+[00:08:32] let's just pull out the Y gradient.
+[00:08:36] So this is what that Y gradient looks like and
+[00:08:39] this will be very helpful because the values near the top are one and the values near the bottom are zero.
+[00:08:47] And this is a perfect mask for our fire, but we might want a little bit more control.
+[00:08:52] So let's plug this Y value into a power node and
+[00:08:59] as you know, we can push the black values or push the white values.
+[00:09:05] Let's label this as well. I'm just going to duplicate this sticky note.
+[00:09:10] I'll call it distortion radiant power.
+[00:09:16] Now we'll need to use this to mask the original distortion. So we'll create some room.
+[00:09:23] We want to multiply these together because it's a mask and
+[00:09:33] now we can see that the distortion is heavier on the top and lighter on the bottom and then we can also
+[00:09:40] change those values however we want to.
+[00:09:44] And then we'll add this modified distortion and it's still working.
+[00:09:51] Let's move the values around a little bit using the distortion intensity. That might be a little bit too much.
+[00:10:02] Let's lower that down quite a lot and
+[00:10:06] then let's use the power to push those white values down farther and that's much closer to what we want.
+[00:10:16] So let's test this out and see what happens.
+[00:10:19] We can plug the final result into the color and if you hit save asset, it'll apply to the quad.
+[00:10:27] This isn't quite right because it's obviously a quad. We want transparency.
+[00:10:33] If you go to your graph settings, you'll notice that the shader is unlit and the surface type is opaque.
+[00:10:40] We want this to be transparent instead.
+[00:10:44] That will add the new output of alpha.
+[00:10:47] So in any place that we send in a white value, the material will be fully opaque.
+[00:10:53] If we send in a black value of zero, it'll be fully transparent and
+[00:10:58] everywhere in between zero and one we'll be able to see our color,
+[00:11:02] but we'll also be able to see through it depending on how opaque or transparent it is.
+[00:11:06] So let's move the base color into alpha instead and save asset. We're getting closer, but the color isn't quite right.
+[00:11:17] Let's add just a basic color. Do like a dark orange.
+[00:11:23] Save asset. We're getting closer, but it's still not quite right.
+[00:11:29] We would like more control over that color and so we can use the result that we've already gotten to apply color.
+[00:11:36] So let's use a gradient to add color. We'll add a sample gradient node and then plug the output into this.
+[00:11:51] And then we'll need to create a new gradient.
+[00:11:55] And you can have some fun with these. Lots of interesting results you can get.
+[00:12:00] That one looks really nice, but let's start with a simple gradient.
+[00:12:05] On the left side, this will be the white areas. We'll use like a dark orange.
+[00:12:13] And in the black areas on the right side, we'll use a bright yellow. Something like that.
+[00:12:21] One other thing you'll notice is that this is an HDR color and
+[00:12:26] HDR colors are really cool because we can push these values above one to produce glow.
+[00:12:32] You'll see the intensity control down here and let's add two to that.
+[00:12:38] And it's hard to see on the preview, but this will cause emission. Let's plug this into the color and
+[00:12:49] save asset. And now the fire looks more intense because of the glow.
+[00:12:56] So we just put together a bunch of techniques that we know to make something really cool.
+[00:13:01] And if you look at the whole shader, you'll see that there are a lot of nodes,
+[00:13:05] but each of these is just a basic setup for a technique that we already learned and
+[00:13:10] we combine them all together to create a more complex effect.
+[00:13:14] But what if we wanted to create another fire with a different color or a different speed?
+[00:13:19] Well, we can actually use this same shader and in the next lesson
+[00:13:23] we'll look at how we can customize this effect from outside the shader to create different variations on the same fire effect.

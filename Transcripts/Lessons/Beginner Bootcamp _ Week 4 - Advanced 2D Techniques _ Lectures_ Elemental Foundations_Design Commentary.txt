@@ -1,0 +1,348 @@
+[00:00:05] Hello, so for this lesson, we're going to be going over some of the design aspects when
+[00:00:12] it comes to effects, some simple concepts that effects professionals are thinking about
+[00:00:20] when they are designing and animating effects.
+[00:00:22] So let's just jump right in and I'll take you through these slides.
+[00:00:32] So the first concept we're going to run across here is this design concept, big, medium and
+[00:00:38] small, shorten the acronym to BMS.
+[00:00:48] The use of variation in your design work in both positive and negative space will help
+[00:00:52] increase the visual appeal.
+[00:00:55] So this is an important one.
+[00:00:57] We need to start thinking about the shapes that we're creating, not just in the positive
+[00:01:05] aspect of it.
+[00:01:07] We need to also be thinking of the shapes we create in negative space.
+[00:01:12] So in order to try to help us with this idea, I'm just going to turn on something I can
+[00:01:20] draw over here.
+[00:01:35] So here we have three very, well actually identical circles, very bland, boring because
+[00:01:46] they're all the same size.
+[00:01:55] But in this capacity, we're thinking about just the positive space here and what it looks
+[00:02:04] like with these shapes in there.
+[00:02:08] But when we're doing effects design, especially when it comes to trying to achieve a little
+[00:02:14] bit of a more asymmetrical look to your effects, we also want to be thinking about the negative
+[00:02:22] space.
+[00:02:23] So it's the exact same drawing, but we're just shifting focus instead of looking at
+[00:02:32] the circles as dots.
+[00:02:38] We also want to think of the background space around them.
+[00:02:44] So we're kind of shifting to thinking of them as dots to thinking of them as kind of like
+[00:02:50] holes through a sheet.
+[00:02:52] But everything that's not the dots would be the negative space.
+[00:02:58] So when it comes to big, medium, and small when we're drawing effects, this is a design
+[00:03:04] idea that can really apply to anything, like any effect basically.
+[00:03:09] We want to think about varying these shapes in both the positive and the negative spaces.
+[00:03:17] Now doing it in one pretty much takes care of the other, but I'll explain here shortly
+[00:03:25] what it means to be thinking of the negative shape as opposed to just the positive shape.
+[00:03:30] So here we just have three different circles.
+[00:03:32] If these were bubbles or something like that, you could apply this directly to that.
+[00:03:37] But we have a large bubble, a medium bubble, and a small bubble.
+[00:03:41] The combination of different shapes and sizes is what gives aesthetic to your design.
+[00:03:53] There is a reason why, and we'll go over it shortly here, but there's a reason why
+[00:03:57] you want to avoid what I'll refer to going forward as sames.
+[00:04:03] When I say sames, I just mean the same shapes.
+[00:04:10] So we have the big, medium, and small, and we're thinking about these in the positive
+[00:04:15] aspect of what they look like on the screen.
+[00:04:22] But if this was our frame, we could potentially arrange these like something like this.
+[00:04:38] And something like this might come up in your animation.
+[00:04:43] It's not terrible if it does, but we're just trying to stay away from it as much as possible
+[00:04:49] because what we've essentially done here is we will have cut the screen down the center
+[00:04:57] with the line of the shapes.
+[00:05:00] So when we think of this in terms of negative space, like with the black here, this is our
+[00:05:04] negative space, and then this is our negative space.
+[00:05:09] The reason why this is a bad thing is because the negative space here are basically mirrored
+[00:05:15] on both sides.
+[00:05:17] So we're thinking about trying to keep the variation in the shape in the positive with
+[00:05:24] the actual effects themselves, but we also want to keep in mind the variation of shape
+[00:05:32] in the negative.
+[00:05:34] So in this field, we've now cut this up.
+[00:05:44] So now in this field, in the negative shape, we're dealing with the large, a little bit
+[00:05:50] more of a medium, and a smaller shape.
+[00:05:56] You implement this as often as you can throughout your drawings and your animation, and you
+[00:06:02] will get an overall more aesthetic feeling, and it'll help out.
+[00:06:11] You might do it intuitively to a certain degree, but if you focus on it and you specifically
+[00:06:15] go into a design or an animation with this in mind, it's going to improve things all
+[00:06:22] around.
+[00:06:25] So in its simplest form, you can see how even spacing in both the positive and negative
+[00:06:31] space.
+[00:06:32] On the left is visually more boring than the right, and this speaks pretty much for itself.
+[00:06:40] We're doing fire design.
+[00:06:41] If we're leaving negative spaces that are all the same size and are positive spaces,
+[00:06:51] this is the same as this, boring, right?
+[00:06:56] If we were to put a box around this, this side mirrors this side.
+[00:07:06] We don't want to do that.
+[00:07:07] So we want to try to improve our design by using an asymmetrical shape, but also thinking
+[00:07:18] about the negative space, because once this is fully drawn and coloured, this is all positive
+[00:07:31] shape, right?
+[00:07:35] But if we put it in the box, our negative space is now much more visually appealing
+[00:07:48] than our negative space over here, which was just twinned from this side to this side.
+[00:08:02] So varying up the sizes of the dips and locations of the negative space helps to increase visual
+[00:08:08] appeal.
+[00:08:09] That's something I'll probably be saying quite a bit over the next couple of slides.
+[00:08:13] Visual appeal, aesthetics, things like that when it comes to your design.
+[00:08:23] So let's move on to the next slide.
+[00:08:28] This is leaning a little bit more further into the negative space concept.
+[00:08:34] The big, medium and small, we're thinking more about the positive aspects of the shapes
+[00:08:42] and how they sort of assemble.
+[00:08:46] Negative space has its place in design, it can sometimes be used to help increase appeal.
+[00:08:52] It's also required for dissipation of certain effects.
+[00:08:58] Dissipation is another lesson, we'll talk about that a little later.
+[00:09:03] So when we're doing something like smoke coming off a surface of some kind, very quickly
+[00:09:22] you can draw out something like this.
+[00:09:25] This is kind of bland and bulby, like this note says.
+[00:09:35] We've tried to incorporate big, medium and small, but we haven't been extreme enough
+[00:09:40] with our use of negative shape, which can lead to, when it comes to smoke, a little
+[00:09:47] bit more of a bulbous, sometimes I call it intestine smoke.
+[00:09:53] It's a little bit more bland.
+[00:09:55] You can try to spice it up as much as you want, but the contour of the shape overall
+[00:10:03] is kind of boring.
+[00:10:05] So that's what we want to try to increase.
+[00:10:10] That's what we want to try to push in order to better our design.
+[00:10:14] So when we're dealing with something like this, you just really want to think about
+[00:10:20] if the smoke is emanating from here, if it's being created from here, we really want to
+[00:10:28] play with where the negative space is pushing in to the shape.
+[00:10:33] And if you think about it from that angle, I mean you can even go as far as drawing the
+[00:10:39] arrows yourselves.
+[00:10:41] I'm a firm believer that information is power, so anything you want to put on the page that
+[00:10:45] can jog your memory or remind you of something is a good thing to do.
+[00:10:51] But once you start really trying to push in the idea of negative shapes, you'll start
+[00:10:58] playing around a little bit more with more extreme, more interesting frames.
+[00:11:07] And they won't necessarily always look good.
+[00:11:11] Sometimes it takes a while.
+[00:11:13] If you push it too far, you might get something that's a little too extreme, but I would argue
+[00:11:20] that something like this is still more visually appealing than something like that.
+[00:11:27] So negative space, it is important.
+[00:11:36] Don't skimp on it.
+[00:11:38] Let's head on to the next slide.
+[00:11:45] Variation of shape in theme.
+[00:11:47] So when we're dealing with effects, you want to include a lot of similar shapes in your
+[00:11:56] design.
+[00:11:57] And you want to use the shapes you've dedicated yourself to as an aesthetic for the entire
+[00:12:05] design.
+[00:12:06] Now this doesn't necessarily mean you can't mix in other shapes, things like that.
+[00:12:12] But when we're trying to create something that kind of has a bit of a style to it, you
+[00:12:20] want to make sure that you land on something and you continue it throughout both the design
+[00:12:27] and then every single frame in the animation.
+[00:12:31] And what we want to do is once we've settled on that style, we want to vary up the shapes
+[00:12:39] that we're using.
+[00:12:40] This kind of goes back to the big, medium, small idea.
+[00:12:43] It's just a little bit more specific to design itself.
+[00:12:47] So in this slide, we're taking a look at a couple clouds and I'll explain further.
+[00:13:02] So we've gone with sort of two fluffy clouds and the variation comes in here.
+[00:13:08] These arcs are sames, right?
+[00:13:15] Now this isn't necessarily a bad thing if you want a boring cloud.
+[00:13:20] And boring isn't always bad either, right?
+[00:13:24] Because say this cloud was supposed to be in the background of a shot of an animation
+[00:13:31] you're doing.
+[00:13:33] And there's characters in this animation, the clouds back here, right?
+[00:13:40] You don't, you might not necessarily want something that has a really crazy visually
+[00:13:48] noisy design because unless it's handled correctly in the placement, in the frame,
+[00:13:58] it could possibly take away from other stuff that's going on.
+[00:14:03] And that might be something that you don't want to happen.
+[00:14:05] So there could be situations where something bland and boring like this is okay.
+[00:14:09] And if that's what you're going for, the main thing here I guess is kind of like intentionality.
+[00:14:16] If you're trying to be intentionally bland with the designs for the clouds, then once
+[00:14:20] again lean into that and stick with it.
+[00:14:25] But if we're trying to just draw a one-off cloud and make it as visually as appealing
+[00:14:30] as possible, sames don't accomplish that for us.
+[00:14:38] But we want to stick with the theme of sort of the bubbly cloud.
+[00:14:43] So we just want to push the variation of the shape.
+[00:14:47] We're pushing the variation of the shape in the theme.
+[00:14:50] And that is what gives us, and the reason why I brought up big, medium, small before
+[00:14:59] is because that's basically what you're trying to do, right?
+[00:15:02] Big, medium, small.
+[00:15:07] Now if you keep it generic where you go big, medium, small, big, medium, small, big, medium,
+[00:15:18] small, you still come out with something that's better than this.
+[00:15:24] However, you're still shoehorning yourself into a bit of replicated variation, which
+[00:15:36] we want to try to avoid.
+[00:15:37] So you want to be thinking about maybe two bigs, a medium, and smalls on the side, something
+[00:15:44] like that.
+[00:15:46] You want to keep it basically right here.
+[00:15:49] You want to keep it varied.
+[00:16:01] That's pretty straightforward for that.
+[00:16:03] This can also apply to the fire, right?
+[00:16:06] We want to keep these big licks, medium licks, and small licks.
+[00:16:11] We want to keep them varied.
+[00:16:13] So it's another technique that you can apply to almost any endeavor into effects design.
+[00:16:23] Let's head on.
+[00:16:25] This is a big one, asymmetry within your design.
+[00:16:30] I'll just read this out verbatim from this slide.
+[00:16:34] Asymmetry is a simple rule and every animator should know symmetry is the pose killer of
+[00:16:39] character animation.
+[00:16:41] I'm sure that's something that was taught to most of you if you've gone through any
+[00:16:44] sort of animation schooling.
+[00:16:49] Because this takes place in character animation, it doesn't make it exclusive to character
+[00:16:54] animation.
+[00:16:55] It kind of makes it exclusive to any animation and this has the same result in effects.
+[00:17:00] Nothing kills an effects design or animation quicker than symmetry.
+[00:17:04] Always attempt to favor a side, direction, or shape to maximize appeal.
+[00:17:11] This comes back to something I was taught a long time ago with the water splash.
+[00:17:18] This is called the Burger King water splash because you put all your shapes evenly across
+[00:17:25] and you end up with sort of this crown looking shape.
+[00:17:31] Put some gems in there and you've got this.
+[00:17:33] It doesn't look like water.
+[00:17:37] Now this may be a little bit over designed but it gets the concept across.
+[00:17:46] If this splash was being created by an object coming into the water here, naturally the
+[00:17:53] energy of the water reacting to the impact is directional.
+[00:18:00] So it's going to push out this large body of water on this side.
+[00:18:04] It's still going to do it on this side as well but we're going to control for the animation
+[00:18:08] and the design coming out here so it doesn't ever get too large and then we're going to
+[00:18:15] push this side as the side with the most action going on.
+[00:18:21] If something comes straight down, you might be thinking, doesn't that mean it would be
+[00:18:31] pretty much even all the way around?
+[00:18:34] And it kind of is to the degree of the larger shapes you might be using for the splash but
+[00:18:44] what you want to do is just try to push it a little bit where it's still pretty much
+[00:18:53] even.
+[00:18:54] You're just slightly favoring a side and then if you're doing a back side, you can have
+[00:19:00] a back side that's a little bit higher than the front side and here you're getting something
+[00:19:08] a little bit more interesting instead of just this.
+[00:19:12] Instead of that, we're getting that which looks better.
+[00:19:27] Another lesson that literally applies to everything you'll do, asymmetry.
+[00:19:41] Thick and thin, good old thick and thin.
+[00:19:46] This concept utilizes negative space within the positive space of the design.
+[00:19:51] Having large areas complemented by thin shapes will help the design.
+[00:19:56] Really useful in smokes, especially something like this which is wispy.
+[00:20:01] It also has a place amongst fire, water and other different kinds of effects.
+[00:20:08] So what I tried to do here is just demonstrate a poorly executed attempt at this and something
+[00:20:16] that's a little bit more decent.
+[00:20:21] Go back into our drawing layer.
+[00:20:26] The arrows are here to try to show you that within the positive space of the smoke that
+[00:20:32] these are more or less all the same.
+[00:20:36] This one's a little smaller.
+[00:20:37] Obviously, it's going to taper at one point and it's going to get smaller but you can
+[00:20:43] push this further in order to achieve something that looks a little bit better.
+[00:20:51] This kind of goes back into the negative space lesson because that's how we're going
+[00:20:56] to be pushing these thick and thins.
+[00:21:00] We're going to be pushing them using positive and negative space.
+[00:21:09] So on this better designed wisp, we choose areas to go thick and we choose areas where
+[00:21:19] we really try to thin it out.
+[00:21:24] Just like with anything, you can go too far with this but it should be something in your
+[00:21:28] head as you're designing and animating of something you want to try to push.
+[00:21:37] If you're not aware of it, you won't be doing it intentionally and if you're not doing it
+[00:21:41] intentionally, you might not miss out on it.
+[00:21:46] You might do it sort of intuitively but you won't be actively trying to push that concept
+[00:21:51] in your design.
+[00:21:53] This can be taken further by doing interior work as well.
+[00:21:57] If you had some sort of shade aspect to the smoke, you want to pick and choose places
+[00:22:05] where you're going to make it thick and keep it thin.
+[00:22:09] But if you're just starting off, I would say stick with contour work.
+[00:22:19] You can see here we're kind of overlapping but this is all still one large shape.
+[00:22:29] If it was all coloured the same, you wouldn't necessarily see this.
+[00:22:33] You'll see this little pocket of negative space which is a nice addition to the overall
+[00:22:40] design of the smoke.
+[00:22:43] But if you're going to draw through, which I suggest doing if you're animating, not necessarily
+[00:22:48] on design but animating, I always try to draw through during my rough stage.
+[00:22:55] Obviously when I go in and clean this up, that line wouldn't be there anymore but I
+[00:23:02] might put in something thin while I'm doing this, while I'm roughing this out if I was
+[00:23:07] actually animating it.
+[00:23:12] Thick and thin is a good lesson.
+[00:23:20] Line weight.
+[00:23:22] Line weight is pretty straightforward but it doesn't always occur to everyone, especially
+[00:23:29] newbies.
+[00:23:33] So I put it as a design lesson because once again it's something that you should have
+[00:23:40] in your head and be focusing on.
+[00:23:42] Once you establish a style and where you want to push it, you want to decide something like
+[00:23:49] this.
+[00:23:50] The line weight and how it is going to play out amongst all of your designs and animations.
+[00:24:02] This is a very straightforward example.
+[00:24:05] It's just two drawings of the exact same pile of rocks.
+[00:24:09] This one here is just demonstrating how the line is the same throughout the entire thing.
+[00:24:21] This we have gone out of our way to put a thicker line on the base of the rocks and
+[00:24:33] then thin it out on the tops and besides some pockets of lines here, thin it out on the
+[00:24:42] interiors as well.
+[00:24:48] It comes down to personal opinion.
+[00:24:49] I personally find this more visually appealing than this, however there are a lot of styles
+[00:24:57] and TV shows and all kinds of things out there that favor this.
+[00:25:02] One thing an approach like this has is it's a lot more simpler than this so you don't
+[00:25:09] have to worry about where do I do the thick and thins.
+[00:25:12] This is just all one line weight.
+[00:25:15] You can take that idea out of the equation because you know that you're just sticking
+[00:25:21] with the thickness of line and then that's all you're going to be doing.
+[00:25:25] So there's positive and negatives.
+[00:25:27] There's not necessarily right and wrong.
+[00:25:29] It's just once again putting the idea of line weight into your head so when you are designing
+[00:25:34] and doing effects you're thinking of these things.
+[00:25:45] Depth.
+[00:25:46] Depth can be kind of scary for some.
+[00:25:50] We are a 2D medium after all, however we're trying to visually represent a 3D world most
+[00:25:59] of the time.
+[00:26:05] One of the things you want to be thinking about, unless once again you're making the
+[00:26:11] conscious decision to go with a design or animation that is super flat, you want to
+[00:26:20] ground things in your world if you are animating say on a TV show or something like that.
+[00:26:27] In order to ground a character in a world when there are effects they need to be happening
+[00:26:34] around them, not just in front of them.
+[00:26:36] If they're happening just in front or just behind then it starts to give the sort of
+[00:26:42] a bit more of a cutout feel.
+[00:26:44] Once again if you're going for a cutout feel, great.
+[00:26:47] But if you're not, if you're trying to ramp up the difficulty a bit, you want to make
+[00:26:51] sure that you are putting something like this, like a splash, around the object that caused
+[00:27:00] the splash.
+[00:27:02] So here's the ball.
+[00:27:04] So in our design we want to include this back piece, which here I've coloured orange, because
+[00:27:12] all of this water technically happens behind the ball.
+[00:27:16] So if the ball say was to bounce and come back up on this frame, then we wouldn't want
+[00:27:26] to see this water right here, because it's behind it.
+[00:27:30] So we would want to get rid of that.
+[00:27:35] This obviously applies to everything you do.
+[00:27:39] If you're wanting to put depth into your effects, it's a good idea.
+[00:27:46] Another way this can be achieved is with strictly your line work.
+[00:27:55] Obviously if you're doing shadows, if you're doing something like that, this kind of, something
+[00:28:02] like this kind of hints at the idea that there's a line here, and it starts to give
+[00:28:09] the illusion that a shape like this is actually two balls, and you're achieving this through
+[00:28:17] the shadow on the object.
+[00:28:25] The other way to do the exact same thing is just straight up with overlapping lines.
+[00:28:32] So if this smoke was headed away from us visually, we want to use overlapping lines
+[00:28:46] that indicate it, right?
+[00:28:52] So if at some point we were to instead change, instead of having this overlapping line, we
+[00:29:00] change it up.
+[00:29:02] So now it goes like this.
+[00:29:05] It's not necessarily wrong, but now you have this area where you've pushed this part of
+[00:29:12] the shape into the back of the design, which means that this is arcing back and then it
+[00:29:24] arcs forward before continuing back again.
+[00:29:29] And if this is what you want, then that's what you need to do.
+[00:29:33] However, if the main thing you're just trying to get across is the fact that this travels
+[00:29:42] into depth, whatever's on screen behind us, then sticking with overlapping lines as this
+[00:29:52] is going off into the distance will help you get that effect right away.
+[00:30:04] And then this is just the opposite.
+[00:30:06] This is technically coming at screen and if that's the direction we want it, then if this
+[00:30:23] top part is the closest camera, then we want to make sure that the design work visually
+[00:30:34] is indicating that depth.
+[00:30:44] Next slide.
+[00:30:47] So those are the major simplified design aspects that I encourage anyone I teach or talk to
+[00:30:57] about effects design, especially when they're asking, where do I start?
+[00:31:02] I'm a newbie at this stuff.
+[00:31:04] These are simple things that I think anyone can work into their designs.
+[00:31:08] For this lesson, the assignment is very easy.
+[00:31:15] We just want to start drawing effects using these concepts.
+[00:31:23] If you want, you can hit up different effects individually and straight up for an example,
+[00:31:36] just take variation of shape and theme and start drawing this kind of stuff.
+[00:31:44] And visually as you're drawing, just try to notice, oh, I'm using, I'm using sames.
+[00:31:52] I want to push that.
+[00:31:54] So I want to try to big, medium, big, medium, small, and then maybe I'll go bigger, you
+[00:32:03] know, practice with intention.
+[00:32:06] And then as you're going along, you'll like, you'll notice, you'll start to notice that
+[00:32:10] you're doing something like this and you're practicing the variation of shape and theme.
+[00:32:17] However, you're also kind of implementing some big, medium and small.
+[00:32:21] You're also implementing some asymmetry.
+[00:32:24] So here, you know, pushing that asymmetry, you're also kind of adding in a bit of depth.
+[00:32:33] And then after a while, you're doing all of this stuff on all your effects designs, which
+[00:32:40] would be good.
+[00:32:42] So when we apply as many of these concepts as we can, we can take something bland and
+[00:32:48] boring and make it interesting.
+[00:32:50] We can add weight, depth, appealing contour and texture.
+[00:32:54] And this is just an example.
+[00:32:56] If you were to ask someone to draw a snowball, it's pretty, someone who's not super familiar
+[00:33:03] with designing.
+[00:33:05] If they're not very creative, they just straight up might draw you a circle and say it's a
+[00:33:09] snowball.
+[00:33:11] However, we can take everything we learned and start trying to apply it through the mindset
+[00:33:20] of the lessons we just learned.
+[00:33:32] And we can start doing some interesting things with it.
+[00:33:37] We have our, it's more like this, I suppose, we have our light side, we have our light
+[00:34:03] side, a little bit of texture in there, some overlapping lines.
+[00:34:06] We tried to use some variation of shape in order to get this feeling as much like a snowball
+[00:34:14] as we can.
+[00:34:15] And you can do this with pretty much anything.
+[00:34:18] So if you want to be adventurous, and you're looking to advance as quickly as possible,
+[00:34:25] do this for all the different effects you can think of, whether it be fire, water, smoke,
+[00:34:31] even magic, stuff like that.
+[00:34:35] The most important part with this is to be creative and have fun.
+[00:34:41] So I hope you've found this helpful.
+[00:34:44] And I look forward to having you listen back to my voice on some of the other lessons.
+[00:34:50] Thanks.

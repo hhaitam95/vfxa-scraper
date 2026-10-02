@@ -1,0 +1,49 @@
+[00:00:05] Okay, let's make some sketch applying those rules we talked about previously. I want to do some
+[00:00:14] like smokey puffs that are landing on the plane like this.
+[00:00:27] So I think that I'm looking at this from top a little bit.
+[00:00:33] Now let's add some values like what is the shape of this smoke puff, how it's going
+[00:00:54] along this oval, some big shapes, some small shapes. And now as I know that
+[00:01:08] on that side of novel object is further from the viewer, so my shapes will become smaller
+[00:01:20] a little bit, so the most big sphere will be less big than this one.
+[00:01:30] So now I'm drawing them smaller, smaller, something like this. We'll add a few
+[00:01:45] smaller bits around the drawing. Okay, now I will think about what shapes are in front
+[00:01:57] and what shapes are to the back of other ones. So this one will be
+[00:02:06] in front of everything, so I'm drawing it like this. Maybe this one, this small one
+[00:02:15] can be in front of the big one, so I'm drawing it. Now I'm continuing to draw the big one.
+[00:02:27] Hmm, yeah, will be the front here. Now this one, it is behind my big shape,
+[00:02:49] so it will be like this. I'm also drawing them not perfect circular shapes because it's like
+[00:02:56] smokey puff, it's not perfect, so it will be a little bit like wobbly.
+[00:03:03] Um, this one can be in front again. Okay, this big one. I feel like I need to add one more,
+[00:03:17] just to add some variety maybe here. So it will be like this, then this big one,
+[00:03:31] and that small one is in the back. Now the next one, the next, like this. Okay,
+[00:03:50] this side. This small one is in front of this medium one, like this, like this.
+[00:04:10] I see that I made a repetitive shape, so maybe I will change this small one to be
+[00:04:19] like here. Now this one will be like this small one. Here I feel like I need to add
+[00:04:35] another shape just to make this transition to the depth of perspective a little bit
+[00:04:41] uh interesting maybe let a little small one here this this one will be in front
+[00:05:04] bottom line we also can see
+[00:05:08] this and here we probably have a few more shapes be like this and like this
+[00:05:22] okay so now I can think about what are the inner shapes in this path so maybe like this
+[00:05:32] bump will go a little bit further into the shape I can also define maybe here a point where it's
+[00:05:43] like overlapping this main shape for this one here I can add a little bump here maybe define
+[00:05:56] a little bit that it's like two bumps uh this I'll need to make more prominent this one too
+[00:06:07] here I can continue this line define this bump this one too and do it here
+[00:06:28] here will also be the bump maybe here too some kind of shape this bump can go there okay here
+[00:06:49] we'll define the bump to to go there like this here a little bit for the shapes that are more
+[00:07:04] further from the viewer I will add smaller amount of details because this thing we can see closer
+[00:07:14] and we can define more like details from it and those that are on the background are less
+[00:07:24] visible so here maybe a little bit here additional detail okay also I can make some smaller shapes
+[00:07:37] that are coming from this big one here here like this and I can also add like maybe
+[00:07:53] so if there these paths are coming down and they are pushing the air around maybe we have
+[00:08:03] like some windy stuff like action line but circular so I can add a little bit details
+[00:08:24] like this here and also I'm thinking about the thickness of the shape so on the sides
+[00:08:32] it will be thicker and in the middle a little bit thinner
+[00:08:40] not that white something like this I'm not so happy with this situation like three
+[00:09:12] shapes that are very very similar I can add some variety by breaking this maybe adding here small
+[00:09:22] maybe adding here small path
+[00:09:28] maybe breaking this in two shapes like this
+[00:09:41] and adding a little bit small part here yeah that's better okay maybe some more
+[00:09:52] paths here small ones and also like to make this and seal it like this I can add
+[00:10:08] small path here maybe one small on the ground here here
+[00:10:16] yep so in this small simple drawing I thought about perspective like how far these paths are
+[00:10:28] about thickness of lines about overlapping objects and some details inside the shapes

@@ -1,0 +1,192 @@
+[00:00:04] Hello, I'm Magin Panik and welcome to the five-part series
+[00:00:09] Introduction to Toon Boom Harmony for special effects artists. In the first one, we're gonna learn how to draw and
+[00:00:16] export your first animation. Let's double click on the software.
+[00:00:21] Two things we're gonna focus is the name of the file and the location.
+[00:00:28] Let's call it Twitter location on the desktop and create
+[00:00:33] Scene.
+[00:00:33] We're gonna wait for a second. The first thing we're gonna do, we're gonna check the file that's just created.
+[00:00:40] We're gonna open the folder and there's no file that we can open the scene with.
+[00:00:45] So let's go to the scene, ctrl S for saving the scene and
+[00:00:50] then we have the source file and we can open this scene later.
+[00:00:55] Alright, so let's focus on the Toon Boom.
+[00:01:00] Your window might look slightly different. We're gonna talk about it in the second part tutorial.
+[00:01:07] But for now, the first thing we're gonna do is hold spacebar to move around the
+[00:01:13] camera view, which is here.
+[00:01:16] If for some reason you can't do this,
+[00:01:20] the software have a little box. Sometimes you have to go to edit,
+[00:01:25] preferences and just close it and you're good to go.
+[00:01:29] One and two to zoom in and zoom out and
+[00:01:35] of course, we're gonna need brush to draw something.
+[00:01:41] We're gonna focus on the timeline because there we're gonna draw our first frame and
+[00:01:47] what we're gonna do now, we're gonna go to tool properties and change the maximum size to 30.
+[00:01:58] If you don't have this window or the other, you simply press this plus icon and you select the
+[00:02:05] window that you need and you're good to go.
+[00:02:09] What we're gonna do next is
+[00:02:12] for this very effect, we need to have the center of the screen. So it's good to
+[00:02:17] click the safe area, which will
+[00:02:20] tell us where is the center of the screen. There we go.
+[00:02:25] What we're gonna draw first is the line top to bottom, but we want this line to be
+[00:02:33] snapped aligned to axis. So we're gonna hold alt shift to create a perfect
+[00:02:42] line like this and then we're gonna select it with alt S
+[00:02:47] the select tool. We're gonna select it and we're gonna move it having the center dot at the very center of
+[00:02:55] this image. We're gonna center
+[00:02:58] to the
+[00:02:59] center of the screen. We're gonna copy and paste that and it's shifted by a slight amount.
+[00:03:04] We're gonna reduce that holding shift left arrow up arrow once and we're gonna hold alt shift to
+[00:03:12] rotate it just like that.
+[00:03:15] Maybe it's a good idea to
+[00:03:18] resize it a little.
+[00:03:20] And what we're gonna do next is
+[00:03:24] holding this to find ellipse and from the very center holding alt shift, we're gonna draw a circle
+[00:03:32] just like that. This will
+[00:03:35] work for us just as a guide and nothing else. We're gonna draw
+[00:03:41] four dots
+[00:03:44] at the edges of the circle where we had the cross and the cross is gone at this point.
+[00:03:53] What we're gonna do next is we're gonna learn to hotkeys
+[00:03:59] period and comma for the next and the previous
+[00:04:02] frame as you can see on my timeline.
+[00:04:05] We're gonna go to the frame 2 and we're gonna click alt O
+[00:04:10] to have onion skin on
+[00:04:13] which is
+[00:04:15] here. Our goal for this animation at the very beginning will be to have a clockwise
+[00:04:21] rotation
+[00:04:22] clockwise movement
+[00:04:24] like this with those dots so they will speed up and
+[00:04:29] collide at the very center.
+[00:04:31] So the first frame
+[00:04:33] with the dots will be just
+[00:04:38] like this. The next one
+[00:04:44] we are going a little bit faster just like that.
+[00:04:56] Something that I really like to have is
+[00:05:01] if you double click on the color
+[00:05:04] you are using this black color because it's selected. If you will double click on it, you have the alpha
+[00:05:10] preference and you can tune down the alpha. You can quickly notice that all the frame that you drew with this color
+[00:05:19] turned to gray.
+[00:05:20] So this alpha applied to everything. We're gonna talk about the colors
+[00:05:26] later in the next tutorial.
+[00:05:29] So we are moving
+[00:05:31] with those dots. We kind of don't need the circle anymore.
+[00:05:39] We know the
+[00:05:41] motion it was just to start with.
+[00:05:50] We are gonna
+[00:05:52] move to the
+[00:05:53] next frame so the dots
+[00:05:59] starting to turn towards the center and we supposed to have something like seven frames
+[00:06:11] until the dots reaches the
+[00:06:14] very center of the screen. So this is the sixth frame, the last one.
+[00:06:32] Maybe for this one they should be slightly longer and for the last one they will collide.
+[00:06:50] Maybe not necessarily like touching in the very center, but very close.
+[00:06:56] So we'll have the idea that they will collide
+[00:07:00] in a split second on the next frame. We're gonna go to the first frame.
+[00:07:04] We're gonna select this circle because it's not needed anymore here. We're gonna go to the frame eight and paste it.
+[00:07:11] We're gonna use the paint bucket tool. Alt-I
+[00:07:15] to fill this space and
+[00:07:19] using Alt-S to
+[00:07:22] eliminate this outer edge. What we're gonna do after the impact, we're gonna have a little ball that will grow.
+[00:07:29] So let's shrink it down. Alt-Shift I'm holding.
+[00:07:34] I'm gonna copy and paste it on the next frame. You'll quickly notice it's
+[00:07:40] pasting it in the very, very same place. Not shifted with this Shift-Left-Up Arrow amount.
+[00:07:50] So we're gonna
+[00:07:52] grow it
+[00:07:53] to something like this.
+[00:07:55] And then we're gonna slow it down
+[00:07:59] with those distances. Every next frame will be half of the distance of the previous one.
+[00:08:07] That's the idea here. I'm gonna copy that.
+[00:08:11] Couple times so it will slowly
+[00:08:20] get to the position where it's no longer moves. How many frames do we have? One, two, three, four, five, six, seven, eight.
+[00:08:29] And I'm gonna have the ninth frame
+[00:08:32] where I'm not rescaling at all. The next thing we're gonna do is we're gonna erase
+[00:08:38] some parts. So we're gonna draw some negative spaces in the ball.
+[00:08:43] Just like that. I'm gonna tell you at the very beginning
+[00:08:47] how we will erase those spaces. So I'm gonna draw something pretty quick like this.
+[00:08:54] So, of course we can erase with the eraser, which is not efficient at all.
+[00:08:59] We can select something and just press Delete. I always have the Delete button on my pen.
+[00:09:05] That's very, very handy, very useful.
+[00:09:08] Speeding up my workflow like a ton.
+[00:09:11] And also I can just press U on my keyboard and you can see that U icon appear next to my cursor.
+[00:09:19] With holding U, I can just select everything that I don't need on the screen or just click on one.
+[00:09:29] That will undraw
+[00:09:31] the things that I need. In the first frame, there is no space to draw any negative
+[00:09:37] space, so we're gonna start on the second one.
+[00:09:40] Let's draw a little ball like this and the next one will be
+[00:09:45] significantly bigger just like our ball
+[00:09:48] undraw and
+[00:09:50] then we're gonna grow it even bigger.
+[00:09:53] We're gonna focus on that later, but let's go to the
+[00:09:59] second frame
+[00:10:02] right now and let's start drawing another negative space.
+[00:10:08] Like this
+[00:10:10] over there
+[00:10:11] it's gonna grow
+[00:10:14] exponentially at the very beginning and
+[00:10:17] it's gonna slow down
+[00:10:20] towards the border.
+[00:10:22] And right now I'm gonna focus on the top part and I will try to shrink it
+[00:10:30] slowly
+[00:10:33] using as many frames as I have on my timeline to use.
+[00:10:38] So something like this, just a little dot here. Of course, I'm using Alt-E for the eraser and
+[00:10:52] before I'll finish this, I think I need one more negative space, but I will not start it here.
+[00:10:59] I like to shift timing a little so I will start on the third frame and I will draw a
+[00:11:06] negative space here, which will grow exponentially as well and
+[00:11:11] now we're good to go to finish up this
+[00:11:16] growing ball just like
+[00:11:28] that and we're gonna keep continuing erasing these shapes
+[00:11:38] until nothing is left on the screen. I will focus on the right part at the very very beginning right now.
+[00:11:47] The last frame and
+[00:11:50] then on the bottom part
+[00:11:52] like this, two more frames, one and two. There we go and on the left part
+[00:12:00] I will focus right now
+[00:12:04] here
+[00:12:05] one more frame and
+[00:12:08] there we go.
+[00:12:10] I'm gonna undraw everything
+[00:12:13] that I have and we can play this animation
+[00:12:17] like this.
+[00:12:19] You can simply notice
+[00:12:21] it's going throughout our entire timeline. So I like to
+[00:12:27] click on the very last frame and click this stop thing.
+[00:12:31] We can always hold these triangles and move them around, but they are pretty hard to catch. At the very beginning it was here.
+[00:12:39] It was hard to catch
+[00:12:41] so it's simply to just use this stop and start to define
+[00:12:47] where it should start.
+[00:12:50] We're gonna hit this loop icon and press play so we have the animation.
+[00:12:57] The very last thing I like to do in things like this. There are a couple things that are missing.
+[00:13:05] I'll be for the brush again. This space
+[00:13:09] erased very very quickly.
+[00:13:11] So what I like to do is I like to draw a little line here
+[00:13:16] so it will not be so empty and
+[00:13:20] there will be
+[00:13:21] some kind of motion
+[00:13:23] around. The same here. There is kind of like a triangle here. That's supposed to be there.
+[00:13:30] Something that I
+[00:13:32] like to have one, two, three frames.
+[00:13:35] Maybe there. There we go. And the same with those two parts here and there.
+[00:13:52] You can notice when I
+[00:14:00] draw a little loop it fills the
+[00:14:06] inside of it and it's because under the two properties I have selected
+[00:14:12] how to fill, which helps if you, for example,
+[00:14:16] draw some circles like raindrops or whatever.
+[00:14:20] Okay, we're gonna go to our color. We're gonna bring back the alpha. We're gonna turn the color to white
+[00:14:27] because if we render our scene
+[00:14:31] it's gonna turn
+[00:14:34] background to black. So to make it visible, let's go this way.
+[00:14:39] I'm gonna save the scene. File, export, movie.
+[00:14:43] Remember to install QuickTime to export videos from Toon Boom because it's using QuickTime
+[00:14:50] so it's a necessary thing to
+[00:14:53] have it. I'm saving the file under this scene folder.
+[00:14:59] Going with
+[00:15:01] Tutor underscore V1.
+[00:15:04] Save. And I will determine
+[00:15:09] whenever what I want to
+[00:15:12] render. Not all frames, but just the part that I drew. Frame 1 to frame 16.
+[00:15:18] Let's go this way.
+[00:15:22] Resolution same as scene resolution and we're gonna change the video format to
+[00:15:27] H.264, MPEG4. Let's go and hit OK.
+[00:15:33] So let's
+[00:15:34] check it right now and
+[00:15:37] there we have our little thing that we just
+[00:15:40] drew.
+[00:15:42] Okay, on the next tutorial I'm gonna teach you how to move around the window and
+[00:15:50] make it simpler for you to work and
+[00:15:53] actually just erase couple things that you're not gonna use for sure.
+[00:15:59] Thank you so much for watching and see you on the next one. Cheers!

@@ -1,0 +1,324 @@
+[00:00:05] Now, the way that we have put this together,
+[00:00:09] that we've sequenced the different pieces,
+[00:00:12] handled the timing and the motion of the missile itself,
+[00:00:17] is very in line with how we've done all of those things
+[00:00:22] for all the other effects that we've made so far.
+[00:00:25] And for a lot of those effects,
+[00:00:28] where you're not dealing with a whole bunch
+[00:00:32] of different components that need to be variably sequenced,
+[00:00:36] be fed dynamic positions and stuff like that,
+[00:00:42] that is the right way to make a heal impact,
+[00:00:48] a hit impact, stuff like that.
+[00:00:52] But for something like this, something like a projectile,
+[00:00:57] where we don't ultimately know
+[00:01:00] where that projectile is gonna need to move to,
+[00:01:03] or how far, or how long it's gonna need to live for
+[00:01:08] to get there, stuff like that.
+[00:01:10] And we need to be able to tell this impact
+[00:01:14] to play wherever that missile winds up hitting.
+[00:01:18] You wouldn't handle those sorts of things
+[00:01:20] through start delays and velocity
+[00:01:24] over the lifetime of the missile core or stuff like that.
+[00:01:31] So the way that those would actually be handled in game
+[00:01:35] is generally through script,
+[00:01:36] but we can do a really good practical approximation of it
+[00:01:44] without script by using a timeline instead.
+[00:01:49] So let's do this.
+[00:01:51] I'm gonna go ahead and remove the particle system
+[00:01:56] from the parent object here.
+[00:01:59] Just right click, remove component.
+[00:02:02] And if you don't have the timeline tab open,
+[00:02:04] then just go up to window, sequencing, timeline.
+[00:02:11] I like to keep a dock down here.
+[00:02:13] And then I'm gonna go up to the timeline tab.
+[00:02:19] I like to keep a dock down here.
+[00:02:22] And then with the top level game object here selected,
+[00:02:28] I'm just gonna go ahead and hit create.
+[00:02:33] I've got a timeline folder here.
+[00:02:38] So I'm just gonna name this demo.
+[00:02:43] Now for this to actually start kind of
+[00:02:47] making any visual sense,
+[00:02:51] we're gonna need to add some tracks.
+[00:02:53] So this entire thing is essentially
+[00:02:55] just another key frame editor.
+[00:02:56] So as we start adding tracks onto here to animate,
+[00:03:00] it's going to kind of start looking bits and pieces
+[00:03:06] more like the curve editors that we've been playing with.
+[00:03:09] Or if you've ever done animation
+[00:03:11] in any key frame based editor,
+[00:03:13] it'll look almost exactly like that.
+[00:03:17] So I'm going to go over to the little plus sign over here.
+[00:03:22] Just click that, and I'm going to add a control track.
+[00:03:28] There are a couple different ways
+[00:03:30] that you can toggle effects using a timeline,
+[00:03:36] but control tracks are super duper easy.
+[00:03:41] And so I like them.
+[00:03:43] So I'm just gonna add three of those, one per component.
+[00:03:48] And I'm just gonna, whoop,
+[00:03:54] rename each of these.
+[00:04:00] So, and impact.
+[00:04:05] And then for each of these,
+[00:04:06] I'm just going to click and hold, don't let go,
+[00:04:12] or it's gonna hide your timeline
+[00:04:15] because you deselected the thing it's on.
+[00:04:17] So left click, hold, and drag this.
+[00:04:22] Down into the track area,
+[00:04:26] not over onto the track name,
+[00:04:30] each of these into the track area of this.
+[00:04:37] And I'm going to shorten this down
+[00:04:40] so that these fill out the full space.
+[00:04:47] Now you can see right now,
+[00:04:51] this is just repeating this one over and over,
+[00:04:53] and these two have gotten deactivated.
+[00:04:55] If I scrub through a little bit over to here,
+[00:04:58] now we've just got this one, both.
+[00:05:03] These are just gonna get activated as we roll over them.
+[00:05:08] And from here, a few things that we can just do
+[00:05:12] really quickly to start getting our timing
+[00:05:15] and our previews good on this.
+[00:05:16] I'm going to click this little arrow button over here,
+[00:05:21] not the big play one, little tiny sneaky one.
+[00:05:24] This is going to toggle the range makers
+[00:05:26] that will let this whole thing loop.
+[00:05:28] And this thing is running at 60 frames per second.
+[00:05:35] Our entire effect is 1.5 seconds.
+[00:05:38] So I'm going to go ahead and drag this
+[00:05:42] to the 100 frame mark,
+[00:05:46] just so we have a little bit of buffer,
+[00:05:51] but are within the right range.
+[00:05:57] And then I'm just going to drag this a little bit
+[00:06:00] so that we're filling the area properly.
+[00:06:05] And from here, I can just start pulling on,
+[00:06:11] if I click on the end of one of these and drag it,
+[00:06:15] then that's going to start trimming off areas of playback.
+[00:06:21] So you can see like all three of these
+[00:06:23] are running right now.
+[00:06:25] If I drag this down to say the 22nd mark
+[00:06:29] where this isn't right now,
+[00:06:31] we're only going to be activating the first two now.
+[00:06:35] If I drag these over and put my play over here,
+[00:06:40] now we're only getting the first one.
+[00:06:44] So for now, while I'm getting all of these lined up,
+[00:06:47] I'm just going to make them run for about the amount of time
+[00:06:52] that the particle itself lives.
+[00:06:54] So just over 30 frames for the missile,
+[00:07:03] and we'll start that one with a tiny bit of overlap
+[00:07:08] with the windup again at about 18 frames.
+[00:07:14] So about 30% of the way through our 60 frames second.
+[00:07:19] And then for the impact, which is hitting at 0.8 seconds,
+[00:07:28] let's go ahead and shorten that down.
+[00:07:31] And we're going to bring that in to start around,
+[00:07:37] we'll try frame 47 for now.
+[00:07:45] So let's fix up our marker over there so that it'll loop.
+[00:08:01] You can see that we're like starting
+[00:08:03] to get the sequence again,
+[00:08:09] but this is the part where we have to actually
+[00:08:11] have to start going in and modifying our emitters
+[00:08:16] to work with this more correct setup.
+[00:08:21] The windup is already pretty much good to go
+[00:08:27] because it plays first.
+[00:08:29] The major thing that we actually need to remove here
+[00:08:36] is the start delays,
+[00:08:38] because we're tackling the delay in the timeline now.
+[00:08:44] So if we run through now,
+[00:08:47] you can see we're getting something that's much,
+[00:08:49] much more in line with what we actually want.
+[00:09:03] I'm gonna noodle timing on this one a little bit more.
+[00:09:07] I think that's about, yeah,
+[00:09:10] that's about where our missile is dying at.
+[00:09:13] Fix this again so that it keeps looping.
+[00:09:19] All right, so now we've got the timing pretty much sorted.
+[00:09:25] The only other thing that we can tweak here
+[00:09:28] if we super wanna is for our missile route,
+[00:09:37] we could, for instance,
+[00:09:38] set this to be 0.5 seconds in duration now.
+[00:09:43] And now you can see it's gotten rid of that little arrow
+[00:09:47] at the end because this is now 0.5 seconds.
+[00:09:52] And so we haven't actually snipped anything off
+[00:09:55] that duration playback now.
+[00:09:59] Similarly, for the wind-up route,
+[00:10:02] we could take this down to something like 0.35,
+[00:10:08] since that's the longest lived part of it.
+[00:10:13] And now our start color here in those wind-up modes
+[00:10:22] can look much more accurate, intuitive,
+[00:10:26] however you kinda wanna think of it.
+[00:10:29] This duration and where we want this full gradient to run
+[00:10:35] will actually be correct and match up.
+[00:10:39] And similarly in our mission rate,
+[00:10:44] we can drag these way out
+[00:10:50] so that they're a little bit more accurate
+[00:10:53] to what we're going for here.
+[00:10:56] Yes, we still want them to end a little bit early.
+[00:11:02] So if we hop back up into the timeline,
+[00:11:13] let's go ahead and just turn off looping
+[00:11:22] for all these friends too, and then readjust this,
+[00:11:31] since looping was doing something funky there.
+[00:11:38] And now we've got all of these pieces behaving all nicely,
+[00:11:43] their durations make a lot more sense, all that good stuff.
+[00:11:47] This is much, much more in line
+[00:11:49] with how you would time out the individual components
+[00:11:53] of a missile in a game.
+[00:11:54] The last piece here to make this really kinda game accurate
+[00:12:00] is to take the movement off of the missile core here.
+[00:12:07] So in the core itself, we're just going to go ahead
+[00:12:12] and disable that velocity over lifetime.
+[00:12:15] And then back up in our timeline,
+[00:12:18] we're going to go back down to the little plus sign
+[00:12:22] and we are going to add an animation track.
+[00:12:28] Okay, so for this, we're gonna need an animator
+[00:12:36] to actually be able to do anything with this.
+[00:12:39] So jump back up to the window here
+[00:12:45] and then down to animation and then animation again.
+[00:12:52] And in this tab, you can see again,
+[00:12:56] we need to do some creating stuff.
+[00:13:00] If we select our missile route
+[00:13:03] and then we just go ahead and hit create,
+[00:13:07] go back into timeline animations and let's call this,
+[00:13:18] missile animation.
+[00:13:21] Then this is going to add an animator component.
+[00:13:26] And the other thing that this is going to create
+[00:13:30] is this missile route controller asset.
+[00:13:35] This one, it's just gonna like create
+[00:13:39] and name automatically and you do it this way.
+[00:13:42] So I'm just gonna jump back over into the project,
+[00:13:48] hunt it down and just rename it
+[00:13:55] and then drag it back over into its home
+[00:13:58] with the other animation pieces.
+[00:14:02] So at this point, we can jump back over into our timeline,
+[00:14:09] back to a friend of the animator
+[00:14:13] and we're just gonna click the little add button there
+[00:14:16] and go ahead and add this missile route animator.
+[00:14:22] And what this then lets us do is,
+[00:14:26] now our little record button over here isn't grayed out.
+[00:14:33] So we can go to where our missile route starts out at,
+[00:14:40] start recording.
+[00:14:44] Now that that's recording,
+[00:14:45] it's gonna let us move around and click around through here.
+[00:14:50] So I can wiggle this around a little bit,
+[00:14:58] reset its position on X to zero
+[00:15:01] and it's going to automatically key that.
+[00:15:07] And then if I want this to be over at 0.5
+[00:15:11] at the 45 second mark,
+[00:15:16] then I can drag it over to negative five
+[00:15:19] and it'll drop a key for me there as well.
+[00:15:27] And then if we stop recording and turn our looping back on,
+[00:15:35] now, obviously this gets our missile moving,
+[00:15:38] but it's introduced a bug here.
+[00:15:40] So I'm just going to grab the timeline
+[00:15:43] and I'm going to add two more key frames on our missile route
+[00:15:49] so one just 47 or whatever,
+[00:15:54] I'm just gonna wiggle this around a little bit
+[00:15:58] so that I can get another key frame
+[00:16:00] automatically placed at minus five.
+[00:16:04] And then I'm gonna jump ahead one more frame
+[00:16:06] and I'm gonna set it back to zero.
+[00:16:11] Now, when we play back,
+[00:16:15] it's gonna reset it while the emitters are deactivated
+[00:16:22] and that's gonna take care of that trail pop.
+[00:16:28] This is one of the areas where timeline
+[00:16:30] gets a little bit funky.
+[00:16:34] Let me go ahead and stop recording.
+[00:16:39] You need these keys to be after the trail has vanished,
+[00:16:47] but before the track that was causing the bug
+[00:16:54] hits the end of its activation sequence.
+[00:16:56] If I pull this back a little bit
+[00:17:01] so that those two key frames are after it,
+[00:17:06] then I'm gonna start getting this really weird new bug.
+[00:17:12] I don't know why that is.
+[00:17:15] Timeline is quirky sometimes.
+[00:17:18] So just something to watch out for
+[00:17:20] because it's unintuitive.
+[00:17:24] But by and large, timeline, very nice.
+[00:17:28] So this is now a complete componentized
+[00:17:38] missile sequence, all sequenced and moved
+[00:17:43] outside of the emitters themselves.
+[00:17:47] So very much in keeping with how these
+[00:17:49] are typically implemented in game.
+[00:17:52] Moving this via animation also gives us
+[00:17:56] the ability to do one more really, really fun thing
+[00:18:00] that is just a really, really key part
+[00:18:05] of missiles in particular.
+[00:18:10] So to continue our kit bashing theme,
+[00:18:14] I'm going to go back into our block in folder
+[00:18:20] and I'm gonna take our heal aura
+[00:18:25] and I'm just gonna control C
+[00:18:32] and control the sparkle flip book into this missile route.
+[00:18:43] And there are a few things I'm gonna do here real quickly.
+[00:18:52] I'm gonna make them start a little bit pink.
+[00:18:56] We're gonna do some quick little color
+[00:19:02] over lifetime things.
+[00:19:04] Just start them all nice and happy and bright.
+[00:19:10] Pink, purple, love it.
+[00:19:19] Some fade and our size over lifetime,
+[00:19:33] our texture sheet animation and everything,
+[00:19:36] we can keep the same.
+[00:19:38] Now, what we're going to do for these,
+[00:19:42] really, really critical part here,
+[00:19:44] we're going to go up into our mission
+[00:19:49] and we're going to remove this rate over time
+[00:19:54] and we're going to put a three in our rate over distance
+[00:19:59] and we're not gonna see anything
+[00:20:02] unless we start moving this around.
+[00:20:06] And just for good measure,
+[00:20:08] let's also switch it over from local space to world.
+[00:20:11] That part's gonna be really important.
+[00:20:14] So now if we move it around,
+[00:20:17] then we start getting this pretty consistent
+[00:20:21] set of sparkles coming out of it.
+[00:20:22] We stop and they stop.
+[00:20:26] What rate over distance is doing
+[00:20:28] is kind of exactly what's implied in the name.
+[00:20:32] It's going to emit particles
+[00:20:33] based on how far this emitter has moved
+[00:20:36] instead of how long it's been.
+[00:20:38] And so if your missile or anything else
+[00:20:43] isn't moving anywhere, isn't doing anything,
+[00:20:45] this isn't going to be generating anything.
+[00:20:48] But the moment this starts flying forward,
+[00:20:51] it's going to leave behind this trail of sparkles,
+[00:20:55] smoke puffs, whatever you want.
+[00:20:59] And this is a really, really nice way
+[00:21:03] to get clean, consistent particle trails
+[00:21:06] and do lots and lots of fun stuff there
+[00:21:09] within your missiles.
+[00:21:13] So if we go ahead and zero this back out,
+[00:21:20] we switch this over to a little sphere real quick,
+[00:21:30] increase the thickness,
+[00:21:36] we zoom out on this and switch back over to our timeline.
+[00:21:41] If we go ahead and hit play here,
+[00:21:46] then we start to get a little sparkle trail in there.
+[00:21:50] So we can just jump back into this.
+[00:21:53] We can do a few more little tunings,
+[00:22:00] just play around with it.
+[00:22:01] Let's go ahead and give these some initial speed,
+[00:22:10] make them fair bit bigger because those were real tiny.
+[00:22:16] And let's give this a read over time real quick,
+[00:22:26] so we can see how far out those are going.
+[00:22:29] Let's go ahead and get rid of the velocity over lifetime
+[00:22:34] and swap that for just a real simple limit velocity
+[00:22:47] over lifetime, no dampening, top speed of three.
+[00:22:51] And we're gonna add so much drag onto these.
+[00:22:56] And then let's go ahead
+[00:22:57] and get rid of our rate over time again,
+[00:23:00] jump back up here one more time, hit play.
+[00:23:10] That might be a little too much drag.
+[00:23:23] You've got a little sparkle trail
+[00:23:24] to go along with this thing.
+[00:23:27] And that is our magic missile,
+[00:23:33] split up and animated and sequenced
+[00:23:37] the same way that it would be put together in a game
+[00:23:42] using all of the kind of go-tos
+[00:23:48] of putting together a missile
+[00:23:51] using rate over distance particles,
+[00:23:55] using a particle trail.
+[00:23:57] And that's our last effect for this series.
+[00:24:04] So I hope it's been really helpful above all.
+[00:24:08] I hope it's been fun.
+[00:24:11] And I hope that you take all of the effects here
+[00:24:15] and just go wild, play with them, experiment,
+[00:24:21] make them your own, make a billion different missiles
+[00:24:26] that are all the missiles that you want to be making
+[00:24:30] and just, yeah, enjoy yourself, play, experiment.
+[00:24:37] And I can't wait to see what y'all make.
+[00:24:41] So I will see you all around.
+[00:24:45] Take care.

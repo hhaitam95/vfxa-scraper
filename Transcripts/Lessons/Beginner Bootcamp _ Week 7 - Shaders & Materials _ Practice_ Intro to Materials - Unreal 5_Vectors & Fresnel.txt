@@ -1,0 +1,226 @@
+[00:00:07] Welcome to a new video! Alright so perhaps we'll feel a bit more mathematical so I'm
+[00:00:14] going to try and first explain the theory. I need to focus on that part okay.
+[00:00:18] Everything else will be easier if you understand the first part. So today we
+[00:00:23] will be talking about Fresnel. Fresnel written like this is a very very
+[00:00:33] common effect used in video games. The base premise is that it will either make
+[00:00:41] the edges of a 3d mesh glow or it would fade out the edges of the 3d mesh.
+[00:00:49] The effect specifically, this is very useful so it's not always quite obvious
+[00:00:58] what this actually does. So let's break it down for now by doing a little
+[00:01:05] drawing. So what a Fresnel does is the following. A Fresnel is a dot product.
+[00:01:13] D-O-T. So a dot product, what is a dot product? A dot product is a way to
+[00:01:20] multiply basically two vectors together. So what it does is the following. It
+[00:01:26] takes two vectors as an input. So the vector 1 dot, the vector 2, so let's
+[00:01:36] call it u, and it outputs a value, a single value, let's call it a. So
+[00:01:46] how does this actually work? The dot product takes a first vector, so let's
+[00:01:54] draw it in 3d space. This is our first vector. It starts here, has this
+[00:01:59] length, and it goes into this direction. And it takes a second vector, for
+[00:02:03] instance this one. Let's take another color to make it even clearer. This
+[00:02:13] vector that goes from here to here. And it gives you an output that is
+[00:02:19] one single value, that is not a vector, it's just one value. So to
+[00:02:26] make this work, what it does is that it takes the pink vector here, and it
+[00:02:33] projects it on the blue vector. So basically what it does is it traces a
+[00:02:40] perpendicular line towards the blue vector, and then takes this purple vector
+[00:02:45] and puts it on top of the other one, just like this. So it takes
+[00:02:52] this one and it projects it. That's called projecting on this value. So just
+[00:02:55] taking this one, putting it at the same level. And then it multiplies the
+[00:03:01] length of the two. So here we would multiply this length by this
+[00:03:05] length, and this would give us this value. Of note, if this vector was actually, in
+[00:03:13] here I can erase, if this vector was actually going the other way around, and
+[00:03:18] going that way, that way the two vectors would go in opposite directions, then
+[00:03:25] the value would be negative. If they go into the same direction the value is
+[00:03:29] positive. Alright, so this is a bit to like get your head around. So the
+[00:03:37] important part is not exactly can you like see it and do you know how this
+[00:03:41] works, but it's simply the properties that this gives us. First off, it gives us
+[00:03:49] an idea of if two vectors are going to into the same direction or opposite
+[00:03:54] directions. If a is positive then it's the same direction. So plus equals same
+[00:04:08] direction. Alright, and minus equals opposite. That's the first element we can
+[00:04:23] we can get from it. Second thing we can we can infer from those properties is if
+[00:04:32] the two vectors are completely perpendicular, so for instance you would
+[00:04:37] have a first vector like this and then the second vector like so, if you project
+[00:04:45] any of those vectors on the other one, so for instance this fuchsia one which is
+[00:04:48] projected on the other one, will end up just with one tiny point, with zero. If
+[00:04:52] they're completely perpendicular you get nothing. Alright, so what does that
+[00:04:59] mean? That means that because we're just doing like one line here and that's all.
+[00:05:03] So that means that doing a dot product gives us an idea of if a value is, if two
+[00:05:16] vectors are completely perpendicular, if they are, then a is going to be equal to
+[00:05:21] zero because we multiply any value the length of this one by zero will always
+[00:05:26] give us zero. So the dot product gives us, are the vectors going in the
+[00:05:32] same direction or the opposite direction using the sine? And then it
+[00:05:36] also gives us, are the two vectors perpendicular? This is a very important
+[00:05:41] value. Alright, so the second thing we get is dqr. Okay, very important. Finally and
+[00:05:56] usually the vectors are, the vectors u and v are used, are normalized. What is a
+[00:06:04] normalized vector? A vector that is normalized is a vector which its length,
+[00:06:08] the length of the vector, is changed to be one. It's also called a director
+[00:06:15] vector. You can use it in any way but basically what it gives you is the
+[00:06:18] vector, the length of the vector is one that lets you multiply them together in
+[00:06:23] a more harmonious way. For instance if you add, if you do the dot product of two
+[00:06:28] vector directors then you get a value. If it's one that means they're completely
+[00:06:34] going to the same direction, if it's zero it means that they're completely
+[00:06:38] perpendicular. So the parallel if it's one perpendicular if it's zero and if
+[00:06:42] it's in the middle you can guess roughly what the angle is. Alright, so
+[00:06:49] all those properties, and there's a lot more, the dot product is actually
+[00:06:52] a very very potent tool and it's used all the time. But all this, most of those
+[00:06:57] two properties, and then this last one, are tools that we want to use and
+[00:07:02] harness. Alright, so from here let's move on to a more practical case. Move all
+[00:07:12] this. So what can we do, let's start from scratch, what can we do with a dot
+[00:07:19] product that is interesting? Well we can take the normals of the
+[00:07:29] mesh. For instance we're going to take a full, just a little quad here.
+[00:07:34] The normals of a quad are always pointing towards the side of the quad. So here if
+[00:07:39] we had the normals of a quad, the side, the normals would go towards that
+[00:07:45] direction. And if we turn it around and we look at the normals of the quad
+[00:07:55] like here, they go towards us. So in order to do this we are going to use
+[00:08:04] the normals, yes vertex normal space names. Alright, so this is just the
+[00:08:12] normals. We want to do a dot product, that's pretty easy, just dot product
+[00:08:15] you'll find it directly. And we want to do this with the vector of the camera.
+[00:08:22] Alright, so the camera, you can easily get the direction of the camera by just
+[00:08:29] taping camera direction. So this is just a vector, so a vector 3, that is
+[00:08:37] pointing towards in front of the camera. Alright, so the normal vector is for each
+[00:08:47] vertex is where the mesh is pointing. If you had like a curve, a surface, it's
+[00:08:53] basically if you had the hair on top of all a mesh you had, then the
+[00:08:59] vertex normal is the direction in which that hair is pointing. Alright, that
+[00:09:04] can help you to see it. Alright, so and the camera direction is just the
+[00:09:10] direction that we're using, that the camera is looking at if you had just one
+[00:09:15] one vector to keep. And then here we can just put it into a emissive color and
+[00:09:19] start seeing what happens. So here we can see that this is completely black which
+[00:09:24] means that values are either negative or zero. And as we come to the side you can
+[00:09:29] see that here on one side we're getting some white on one side and then some
+[00:09:32] black on others. So what is happening here is that here our vectors are
+[00:09:38] opposite or the normal is coming towards us. I'm using a two-sided mesh by the way
+[00:09:42] in order to better explain the concept. So here the vector is coming
+[00:09:48] towards us and where camera is looking towards the element, so the two vectors
+[00:09:52] are opposite. So the values here are negative. On the other side if we're
+[00:09:57] looking at the back face the normals are still looking to the other side and
+[00:10:01] so now we're getting a positive value. And if we're looking to the side here
+[00:10:05] the values are going towards zero because well the camera
+[00:10:10] vector and the normal vector are close to perpendicular. Alright, we're going to
+[00:10:15] add a absolute. So absolute ABS for short means that you remove all signs so if a
+[00:10:24] value is minus five it's going to give you five. If a value is five it's still
+[00:10:29] going to give you five. Basically you remove all the minuses. You take the
+[00:10:35] absolute value of your element and now you can see that our value is completely
+[00:10:40] white for everything except for when we go to the edges and the edges it becomes
+[00:10:44] dark and then back to white. Alright, so that's pretty simple and you can see
+[00:10:49] already some very practical usage. If I have my value here I'm going to have it
+[00:10:56] be translucent and I use this into my opacity suddenly you can see that it
+[00:11:09] gets transparent when you look at the edge and you don't have this ugly little
+[00:11:12] delimitation of like one little stripe. You can see it fully and then to the
+[00:11:18] side it disappears. Obviously here we get a lot of transparency. You could use the
+[00:11:23] same techniques we used before by multiplying by a large value for
+[00:11:28] instance 10 and then saturating to get only the fade at the moments you'd want
+[00:11:35] to. So here we fade only when you're we're at the side so we avoid this
+[00:11:39] little glitchy part but you can see that it doesn't always work especially when
+[00:11:50] where the the camera pushes to the side. Since we're using the camera vector here
+[00:11:56] if we're not completely in the center of the camera then it doesn't quite work
+[00:12:01] exactly well. Alright, so what you can do instead and I had little examples here
+[00:12:07] what you can do instead is use different options there are there are multiple
+[00:12:14] options you can use notice to get this so this is the same one but you can use
+[00:12:19] here is you can take instead of having one single vector you can use a vector
+[00:12:25] that's just a spread from the camera that goes to each point that will give
+[00:12:30] you something that's a bit more accurate so to get this start with getting the
+[00:12:34] vertex position. Okay the world position so this is the position of every point
+[00:12:41] of your mesh okay and you want to subtract it by the camera position so
+[00:12:53] subtracting one point in space by another point in space gives you the
+[00:12:57] vector between the two. Alright and so we can normalize this as we explained
+[00:13:04] before this will give us a vector that has a length of one and here we end up
+[00:13:11] with a fixed element that will now work and give you the gradient you're looking
+[00:13:16] for even if your element is not at the center of the screen. Alright so if we
+[00:13:22] put like three you can see that now we get the same effect as before. Alright
+[00:13:28] so how can we use this in our day-to-day VFX usage well first off if we apply
+[00:13:39] this to a mesh you can already see that this is going to fuzz out the edges of
+[00:13:44] for instance this little sphere our little sphere now has little fuzzy edges
+[00:13:49] and if we use for instance a power here instead of a multiply we can get
+[00:13:57] something that's very fuzzy this is a mesh this is a sphere and still looks
+[00:14:02] extremely fuzzy and extremely soft if we went to 0.5 you would see something that
+[00:14:10] actually feels very soft too. Alright so with those tools you can actually play
+[00:14:16] around and create something that feels more transparent that has a bit more
+[00:14:23] presence in the world and that you can blend in by using your opacity by using
+[00:14:28] those dot products of course there's a ton of other ways to use it and this is
+[00:14:32] just a start I am going to try and give you a little preview of how you can use
+[00:14:37] those elements in your effects I'm going to just give you a constant color here
+[00:14:43] and give it some white that way we can work with this in the future and we're
+[00:14:50] going to use these parameters with a bit more like five you can adjust a little
+[00:15:01] bit in order to get the right elements we want to I was I was pushing it too
+[00:15:07] much that's why sometimes I tend to forget how to do things and I need to
+[00:15:13] remind myself all right let's try and work with this and they give it some
+[00:15:19] whites and then we will work with that so I'm gonna power it by two yeah this
+[00:15:29] is fuzzy this is nice this is gonna work out so this is nice but why not just use
+[00:15:35] a texture to do exactly the same thing where because you can use this through
+[00:15:38] mask out and remove some of the pesky elements you would have for instance in
+[00:15:43] a silver coaster so I will show you this right now and feel free to try this
+[00:15:49] out yourself you see it's not that many nodes and as long as you know how to
+[00:15:53] make those how do you do a dot product in absolute you'll be just fine you can
+[00:16:01] find by the way well it's compiling you can find by the way for Nell nodes for
+[00:16:07] a nail like this but they will have the same problem that you had here that we
+[00:16:12] had without using this if you have your if you're trying to use it specifically
+[00:16:17] for what we were doing then to mask out when our mesh are facing to the side
+[00:16:24] then you'll end up with those little problems where if the mesh is to the
+[00:16:28] side of the screen and not in the center then you won't get the result you want
+[00:16:31] that's why you want it fixed like this but if not you can also use you'll find
+[00:16:37] a lot of of videos have those kind of notes already ready so from here I
+[00:16:44] created a particle system and already you can see that we're getting exactly
+[00:16:47] the effect we want we can fade it in and out as we go in and to the sides it
+[00:16:52] won't bother us all right so that way we can just create our effect without
+[00:16:56] bothering too much I wanted to just give it instance this as a mask multiply by a
+[00:17:05] texture sampler and just give it a nice round dot I just round ball save it and
+[00:17:16] there we go and so now you can see that I have my softball but at the moment
+[00:17:21] where it should break it should not like it should look like a flat pancake on
+[00:17:25] the side and and we would break the illusion we actually fade it out and
+[00:17:29] fade it back in suddenly we have something way more smooth and it's
+[00:17:33] harder to tell from an untrained eye what is actually happening our tricks
+[00:17:38] are working from here we can use instead of a mesh we can instead of a sprite we
+[00:17:45] can use a mesh by using a mesh this one is big but it's fine you can see that
+[00:17:51] we're avoiding this pesky angles that usually we have and instead we have them
+[00:17:57] we have our mesh to always be clean and never have the the pesky angles if
+[00:18:03] we remove a little trick we just created you can already see what this means and
+[00:18:12] again we have to compile you'll see that this you can play around with quite a
+[00:18:17] lot having the option to use the dot product lets you also add perhaps masks
+[00:18:24] for gameplay elements that you would need to do so here you can see what
+[00:18:29] we're trying to avoid those like sharp angles here even down here you can see
+[00:18:33] that we get we unfortunately see the the unprecise ness of the mesh that we have
+[00:18:40] to have and here also all the the transparency is stacking on each other
+[00:18:45] which creates this white kind of strong element and the eye is going to be drawn
+[00:18:51] towards this white element rather than toward the center and so those elements
+[00:18:56] become even more pronounced so by using those kind of masks we actually end up
+[00:19:02] also focusing more the eye and the viewer on what is important for our
+[00:19:09] effect all right so this is just one kind of mask you can use we can
+[00:19:14] demonstrate this with many other meshes if you just take a torus here you see
+[00:19:21] that we get the same effect we have a nice smooth gradient whereas if we do it
+[00:19:27] without we get those sharp edges that we don't want and find many others and
+[00:19:36] you'll see that this is something that is usually very good to avoid and we're
+[00:19:42] working on pretty well all right I think we will and yeah you see when we go to
+[00:19:47] the side we get those pesky lines and everything soon as we get there for now
+[00:19:51] boom we get something way better of note you can also use this the other way
+[00:19:56] around to intensify some edges if you have for instance this torus again you
+[00:20:07] can say now I want a 1 minus this and then suddenly you will be able to have
+[00:20:17] the edges glow this is very useful to make power shields power field usually
+[00:20:23] they'll look like a sort of shimmering field that's event of energy that you
+[00:20:28] can only see from an angle this always looks very magical so you can see
+[00:20:31] already our sphere that means that we can only see the edges and here are on
+[00:20:35] our own our cylinder we can only see the edges same it's it's it's quite powerful
+[00:20:39] and for those and this is why the base Fresnel uses this for those you want to
+[00:20:44] use the camera direction because you will get a better result with that and
+[00:20:52] we're going to just like power it down a little bit so that it looks a bit better
+[00:20:56] you just give you a sense of what we're looking for but yes you can easily see
+[00:21:01] how you can do a lot of tutorials will on you'll find online will try and give
+[00:21:05] you a sense of how this can be used to power through to create power fields to
+[00:21:12] create magical effects and everything so here you can see that this powers the
+[00:21:17] edges and creates this sort of shimmering field this perhaps this
+[00:21:22] element that shows you that indeed the sides are stacking the sides or are
+[00:21:28] thicker there's the smoke perhaps that you see less through if we look through
+[00:21:33] for instance the spiral we were looking at before suddenly the edges
+[00:21:38] look way more vivid we could go even to the point where we actually like this is
+[00:21:54] giving us a glitch it's okay we could we could basically play around with this
+[00:21:58] multiply it around try and find the best ways to to to use this this is used a
+[00:22:05] lot and you will find it a lot on for a gameplay effect basically to glow up a
+[00:22:10] character you'll find a character you know just add a Fresnel to it it will
+[00:22:14] make it look like if this character was protected by a sort of field or was
+[00:22:18] glowing from the inside while still showing the important elements of the
+[00:22:22] character all right I think that's gonna be enough for today we looked at a lot
+[00:22:29] of different elements and we explored a lot of cool effects we could use with
+[00:22:34] this I suggest you play around with Fresnels you can see it creates very
+[00:22:38] interesting color gradients anyway be it's to mask out different pesky mesh
+[00:22:45] elements you don't want to mask out particles sprites and particles that are
+[00:22:50] not looking in the right direction for you or simply to add a nice glow effect
+[00:22:56] or a nice shimmer field effect in the next instance we'll be looking at how to
+[00:23:04] further use those vectors to now distort and distort the actual mesh itself move
+[00:23:11] around the vertices to give you another tool in your arsenal when you want to
+[00:23:16] create motion until then

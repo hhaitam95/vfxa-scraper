@@ -1,0 +1,572 @@
+[00:00:05] Oh, hey guys.
+[00:00:07] All right, so we've got our effect
+[00:00:09] and I'm pretty happy with it.
+[00:00:10] But the trouble with it is,
+[00:00:12] it's just not that extra amazing awesomeness.
+[00:00:16] I've been working on a lot of the Alex Redfish content
+[00:00:20] for the class and seeing how he cleans this stuff up.
+[00:00:23] I mean, I know that this was supposed to be
+[00:00:26] a very quick effect, but I wanted to go in
+[00:00:28] and touch it up the way that Alex touches stuff up.
+[00:00:32] And so I did, and I took this effect
+[00:00:36] and turned it into this effect.
+[00:00:41] And so you can see a bit of a difference,
+[00:00:44] namely that the shapes are more detailed,
+[00:00:47] they're sharper, they're cleaner,
+[00:00:49] they animate in a smoother way, less jittery,
+[00:00:53] and it's all around just better.
+[00:00:56] There's a lot about it that I like a lot better.
+[00:00:58] And so we're gonna dive in this video
+[00:01:02] into that whole time-lapse process that I did.
+[00:01:05] Now, the entire thing took me an hour and 20 minutes-ish
+[00:01:11] to go from what you see on the right
+[00:01:13] to what you see on the left.
+[00:01:15] Yes, 2D effects can take some time.
+[00:01:18] The good news is that I loved it, it was so much fun.
+[00:01:21] And I'm gonna play this back at a faster speed for y'all
+[00:01:24] so that we can kind of talk about my processes
+[00:01:28] I went through.
+[00:01:29] So I'll kick it off here from the start, right?
+[00:01:34] We've got this effect in here, and already it's funny,
+[00:01:38] I actually flipped these colors, I'm realizing.
+[00:01:43] I put the white over on the left side
+[00:01:44] and the yellow on the right side.
+[00:01:46] I might still go back and change that
+[00:01:47] and actually make that right.
+[00:01:48] But anyway, it's no big deal.
+[00:01:51] It happens so quickly and flashes by
+[00:01:53] but it still looks pretty great.
+[00:01:56] So here what I'm doing is I've copied all my frames.
+[00:01:59] And then I've created a new symbol,
+[00:02:01] which there's a button for right down here.
+[00:02:04] And I pasted my frames inside of that symbol.
+[00:02:08] And I chopped it off here at frame 10
+[00:02:09] because this is a nine frame loop.
+[00:02:12] By the way, I am gonna end up converting this
+[00:02:14] to a 16 frame loop.
+[00:02:16] So the flip book that we do with this
+[00:02:18] will have to be a little different.
+[00:02:20] That's okay.
+[00:02:21] We definitely go for creating all different kinds
+[00:02:24] of flip books in the class
+[00:02:25] and hopefully you can extrapolate how that's done.
+[00:02:28] Also, we just give you the templates
+[00:02:30] if you wanna go ahead and check all that out.
+[00:02:33] So link below, of course.
+[00:02:36] All right, so we go in here.
+[00:02:38] The reason I put it inside of a symbol
+[00:02:40] is so that none of these lines are gonna interfere
+[00:02:44] with what I'm gonna draw on top of it.
+[00:02:46] It basically locks away all of the snapping.
+[00:02:49] So all of those little edges and corners and things
+[00:02:51] will be of no concern to me
+[00:02:53] as I'm doing this fine tuning cleanup work.
+[00:02:56] Now, something that Alex does that I love
+[00:02:59] is as he's drawing, he stays loose
+[00:03:02] and he's always very deliberate about the flow of his lines.
+[00:03:06] And so that was something that I wanted to incorporate
+[00:03:09] as I was working on this.
+[00:03:10] Also, he just finds ways to add little chunks
+[00:03:13] and nicks taken out of things here and there,
+[00:03:16] along with the larger areas of flow.
+[00:03:20] And so I'm definitely emulating a lot of that
+[00:03:22] and adding these little grooves that come out of it.
+[00:03:25] I'm still gonna follow the same basic motion
+[00:03:27] of the overall shape,
+[00:03:29] but I'm gonna add in these extra little bits of flavor
+[00:03:33] here and there with really sharp points.
+[00:03:36] He switches a lot between eraser and brush.
+[00:03:38] So you're gonna see me doing that too.
+[00:03:40] Brush it in, erase it away, brush it in, erase it away.
+[00:03:44] So here we go.
+[00:03:45] I'm gonna go ahead and speed this up to 4x speed.
+[00:03:50] So I'm about to get a lot better at animating here
+[00:03:52] right before your eyes, just by making it faster.
+[00:03:56] So I'm coming in here, I'm like, you know,
+[00:03:58] chopping stuff out,
+[00:03:59] like adding in this little secondary shape here.
+[00:04:02] How can I make that secondary shape a little better?
+[00:04:04] I don't know.
+[00:04:05] I'm gonna kind of jump up here and get the flow going.
+[00:04:08] You know, kind of finding the spots I wanna go with,
+[00:04:13] breaking that up so there's a nice little bit on the end,
+[00:04:16] just really trying to create like an interesting opener
+[00:04:20] for the shape, right?
+[00:04:21] I want this opening shape that just really sings
+[00:04:26] across the canvas right there.
+[00:04:29] Now, it's funny, I'm gonna go ahead and pause.
+[00:04:32] There's something that I noticed,
+[00:04:35] and that is that, you know, after this shape passes,
+[00:04:39] this one appears like two frames later.
+[00:04:41] And because of that, I think I would wanna like grab this
+[00:04:46] and like delete that.
+[00:04:48] I just feel like that's a better shape.
+[00:04:51] Maybe I'd blow this out a little bit, but not much.
+[00:04:55] Just because I feel like the flow of that
+[00:04:57] feels more like a slash that's gonna match up nicer
+[00:05:01] with this next frame that's gonna happen.
+[00:05:03] But anyway, I digress.
+[00:05:06] If I go back to the video.
+[00:05:08] So yeah, I'm trying to figure out at the tip there,
+[00:05:12] like I probably don't want two of the same shape,
+[00:05:15] like that one notch and then another notch.
+[00:05:17] And so I just have this little sort of organic,
+[00:05:20] uneven shape down there.
+[00:05:22] Totally fun to put that in,
+[00:05:24] figuring out, you know, how's this gonna go?
+[00:05:27] I'm looking beneath this at the shape that I have below,
+[00:05:31] and I'm just using it as a rough guide
+[00:05:34] to inform what I'm doing up on top of it.
+[00:05:36] Playing around with these shapes over here,
+[00:05:39] which I don't end up going with.
+[00:05:40] I feel like just having it eat out of the middle of this
+[00:05:45] wasn't feeling very nice.
+[00:05:46] And so instead having it sort of like zigzag up to a side
+[00:05:51] felt better and it gives an opportunity
+[00:05:53] for a really interesting shape right here
+[00:05:56] that's gonna play off of its predecessor
+[00:05:58] that had this notch taken out of it.
+[00:06:00] And it also puts me further down the length of this effect,
+[00:06:04] which allows for a nicer transition right there.
+[00:06:09] So this thing moves really, really fast.
+[00:06:12] It's swirling around in just the third frame.
+[00:06:15] It's already gone up to the corner
+[00:06:18] and all the way back down to the bottom corner.
+[00:06:20] And so with all that crazy motion,
+[00:06:24] having these aerodynamic shapes that are like really sharp
+[00:06:28] and slick is really gonna be helpful.
+[00:06:33] I'm also being mindful that I don't want to be too crisp
+[00:06:37] with all the shapes.
+[00:06:39] There's a lot in here.
+[00:06:40] So like, you know, there's little bits like this and that,
+[00:06:45] and it's like zigzag, zigzag, zigzag all the way down.
+[00:06:48] And you'll see me kind of going in and fine tuning.
+[00:06:50] I don't always want the same kinds of shapes repeating.
+[00:06:53] It's nice to have a little bit of variety in there.
+[00:06:56] I do think that honestly,
+[00:06:58] I probably could have designed a shape
+[00:07:00] that had a bit more overall flow
+[00:07:02] as it travels throughout the length of it.
+[00:07:05] So yeah, I don't know.
+[00:07:08] It's not a big deal,
+[00:07:09] but here I'm flipping between the frames.
+[00:07:13] It's playing back so fast that it looks like I'm flicking
+[00:07:15] between the frames really quickly,
+[00:07:17] but it's actually, yeah.
+[00:07:23] It's actually just like checking my animation,
+[00:07:25] rolling my frames back and forth and back and forth,
+[00:07:27] making sure that these are moving correctly.
+[00:07:30] I'm actually basically reanimating this entire effect.
+[00:07:33] So it ends up taking an hour and 20 minutes
+[00:07:36] because I'm sort of starting from scratch.
+[00:07:38] I'm just using the basic motion of this as a guide
+[00:07:42] of where I want to move my stuff.
+[00:07:44] You know, like how this eats away here,
+[00:07:46] but I'm using these curved shapes now
+[00:07:49] that are like eating out these larger shapes over here,
+[00:07:54] making this neck here really thin, which is a new motion.
+[00:07:57] Yeah, these rays of light that are bursting out,
+[00:08:00] they had like blunt round tips,
+[00:08:02] so they didn't feel like sharp spiky energy coming off
+[00:08:08] at all, and so I'm really trying to fix that this time
+[00:08:11] and making them nice and slender with a nice sharp point
+[00:08:14] as I clean them up.
+[00:08:16] So that'll help that out quite a bit.
+[00:08:19] Got a nice neck through here.
+[00:08:22] That's much thinner than it was in the rough animation.
+[00:08:25] It's getting ready to snap apart.
+[00:08:28] You want to be thinking about different areas,
+[00:08:30] breaking apart at different times.
+[00:08:32] And so it's looking good.
+[00:08:35] Coming along through there.
+[00:08:37] This whole business in the middle is all new, right?
+[00:08:40] Like this piece breaking apart.
+[00:08:41] I wanted like a secondary follow through in the middle.
+[00:08:47] Check my frames, check my frames all the time.
+[00:08:51] Keep this sliding upwards in this direction up here.
+[00:08:59] I've actually got, yeah, so here I was running into trouble
+[00:09:12] because I wanted this to eat away up here and down here,
+[00:09:17] but that ends up just feeling really weird and awkward.
+[00:09:21] So when I erase this away earlier,
+[00:09:25] that's a nice way to break that up so that, you know,
+[00:09:28] this motion up here can do its own thing.
+[00:09:30] And then down here, I'm going to previous frames
+[00:09:32] and working up to that point where it eats away
+[00:09:35] so that I can have more variety of timing there.
+[00:09:38] I don't want to wait until the very end
+[00:09:40] to have all of the shapes break apart.
+[00:09:42] And so, you know, having like a break here
+[00:09:44] and then just like a little break here,
+[00:09:48] it's good to start doing that earlier on.
+[00:09:53] I'm letting this guy live quite a while actually,
+[00:09:56] cause I mean, he's got a long time to live
+[00:09:59] until the end of the animation.
+[00:10:00] And so why not use that time, right?
+[00:10:04] Creating a nice little notch here.
+[00:10:06] It creates a little like focal point of light right there.
+[00:10:10] By creating a notch on the other side too.
+[00:10:18] I wasn't quite sure how to handle this area
+[00:10:21] like through the corner.
+[00:10:23] So I ended up trying a couple of different things
+[00:10:25] as that breaks apart, you'll see.
+[00:10:28] But yeah, I'm enjoying how this is all coming together
+[00:10:34] with this kind of moving out like that.
+[00:10:36] And that's kind of moving down.
+[00:10:38] It has this spiky thing that's kind of rotating around here.
+[00:10:42] It creates just a few different
+[00:10:44] nice directions of motion there.
+[00:10:47] So because this guy broke earlier,
+[00:10:49] now I can create a new break here
+[00:10:52] and then widening the gap there.
+[00:10:57] Some nice thin and then thick in the same shape,
+[00:11:05] making that super, super sharp down here.
+[00:11:10] It's time for this neck to break apart I decide
+[00:11:12] cause in the rough, this comes down here
+[00:11:16] and then this I think comes out here
+[00:11:18] and there's like nothing out in the corner.
+[00:11:21] And so I'm like, well, maybe I could put something
+[00:11:23] in the corner and it would be like this.
+[00:11:24] And it ends up being just a few different things
+[00:11:27] that I try of how to get that to work.
+[00:11:40] Yeah, nice little like sharp thing like that.
+[00:11:45] This finally went away on the previous frame.
+[00:11:49] Notice that I matched it up
+[00:11:51] so that that's more or less like a continuous line
+[00:11:54] which is gonna tie the whole thing together nicely.
+[00:11:58] Yeah, just get rid of that in that corner
+[00:12:04] and create something a little bit less significant
+[00:12:07] over here.
+[00:12:14] Yeah, I noticed that this is down lower here
+[00:12:17] so when I'm cleaning it up, I actually raised it up
+[00:12:18] quite a bit on the tip of that.
+[00:12:21] And so don't feel like you have to hold
+[00:12:23] to exactly where your rough animation was.
+[00:12:27] Sometimes the rough animation is just a rough indication
+[00:12:30] of the kind of motion you're trying to pull off.
+[00:12:33] Okay, so yep, we got the timing on the spikes going on.
+[00:12:40] I think I kind of ruined the timing a little bit.
+[00:12:42] I have to actually go back and fix it later.
+[00:12:49] Nice, got all those working for me.
+[00:12:53] Now here notice I had this shape like so
+[00:12:57] and I could have just shrunk it down like that
+[00:13:02] but instead I kind of shoved this shape up into here
+[00:13:05] and broke it up like that.
+[00:13:06] Anywhere that you can have some variety
+[00:13:08] in how things dissolve as opposed to just
+[00:13:11] sort of uniformly shrinking
+[00:13:13] because this shape here is just the same shape only smaller
+[00:13:17] but by putting that up in there and then down in there,
+[00:13:20] it's two totally different options.
+[00:13:25] I kind of lost my way here.
+[00:13:26] Honestly, of all the spots, probably this hinge here,
+[00:13:30] I'm not the happiest with how that moves.
+[00:13:34] I feel like I could have moved it further this way
+[00:13:38] which I end up kind of doing here
+[00:13:40] but it first kind of ends up going too far back a little bit
+[00:13:45] maybe it'd be fine if it came down like this
+[00:13:47] but it definitely needs to come down and out that way.
+[00:13:53] Yeah, this one here how this dissolves
+[00:13:55] is gonna end up feeling really nice
+[00:13:56] because it's got a dissolve coming in like this
+[00:14:00] while the energy was pushing down like that
+[00:14:03] and it just ends up creating a nice pocket right here.
+[00:14:11] I'm always looking for ways of like
+[00:14:12] how are the energies gonna flow into each other and collide
+[00:14:18] and create some interesting eddies in motion.
+[00:14:20] So this up here is still living.
+[00:14:22] These guys are gone for pretty close to the end up there
+[00:14:28] that that was still alive.
+[00:14:31] All right, so I'm testing it, it's terrible.
+[00:14:36] Let's see, let me put the speed back down to normal
+[00:14:39] we can watch that again, there we go.
+[00:14:45] So that's where it's at at nine frames
+[00:14:47] and it's actually pretty slick and pretty nice
+[00:14:50] but I wanted a little bit more rest time with it
+[00:14:54] and let it kind of sit and flow out of existence
+[00:14:59] as opposed to just blip, blip, blip, blip.
+[00:15:01] So to do that, I knew I would have to add more frames
+[00:15:06] but before I do that, I'm gonna go in
+[00:15:09] and add some secondary shapes.
+[00:15:12] So coming in here, go speed it back up.
+[00:15:20] I'm selecting multiple frames
+[00:15:22] and then that's what happened.
+[00:15:24] I didn't actually change the color on all the other frames
+[00:15:27] and you'll notice that later on.
+[00:15:29] For some reason, it didn't work
+[00:15:33] when I did select all and then select a color
+[00:15:35] but I wanted a more saturated yellow,
+[00:15:37] this yellow that you see here
+[00:15:39] but then all the other frames have this desaturated yellow.
+[00:15:42] It's like close to white so it ends up being confusing later
+[00:15:45] when I am adding the color.
+[00:15:47] By the way, I learned that I cannot paint fill white
+[00:15:50] in outline mode, you have to go back to turn this off
+[00:15:54] before you can actually paint fill your colors.
+[00:15:57] So I'm just adding in the shapes here.
+[00:16:00] You can see that the white
+[00:16:03] is generally traveling down and around
+[00:16:05] but I'm also finding ways for it to relate
+[00:16:07] with the flow and the shapes of the outline, right?
+[00:16:11] And so I'm bringing it off of points.
+[00:16:14] Here, it's like zigzagging off of that
+[00:16:16] and I would encourage you to study the FLA
+[00:16:18] to actually see what I've done
+[00:16:21] but this white color is like a band
+[00:16:26] that's like traveling at slightly different timing
+[00:16:28] than the rest of it
+[00:16:29] which gives it that extra secondary swoosh motion.
+[00:16:34] Swoosh motion, it sounds interesting
+[00:16:37] as it comes down and around so that's feeling pretty good
+[00:16:42] as you can clearly see, let me pause that again.
+[00:16:51] There we go.
+[00:16:53] So I'm just like clicking and then hitting Enter
+[00:16:56] on the timeline, yeah.
+[00:16:59] So playing around with that, I'm liking what I'm seeing.
+[00:17:04] There's some things with the twinning on this
+[00:17:06] like they were kind of like holding at the same size
+[00:17:09] as they came down
+[00:17:10] and so I wanted to make sure and differentiate that.
+[00:17:13] Of course, you can go to a lot of view
+[00:17:17] and then snapping and then snap to pixels
+[00:17:20] to turn off that annoying grid
+[00:17:23] that you get when you zoom in.
+[00:17:25] Just filling that in there.
+[00:17:28] Noticing some blunt edges,
+[00:17:29] you'll see me now touching up the fine detail
+[00:17:32] now that I've gone through and done
+[00:17:33] like the general animation pass
+[00:17:36] and getting all these little edges
+[00:17:38] really, really sharp and pointy.
+[00:17:54] Once your motion looks good,
+[00:17:55] then you can always clean the edges.
+[00:17:57] Some people like to clean as they go.
+[00:17:59] I think sometimes I get a little distracted when I do that.
+[00:18:04] It makes it tricky to stay focused on the overall effect
+[00:18:09] when I'm doing that.
+[00:18:12] All right.
+[00:18:13] I'm just adjusting things around.
+[00:18:16] Tweak, tweak, tweak.
+[00:18:17] So many little tweaks to get that nice clean look.
+[00:18:20] It doesn't just happen, folks.
+[00:18:21] You gotta really stick with it to get what you want.
+[00:18:33] There we go.
+[00:18:35] So yeah, I'm really liking how that's feeling.
+[00:18:40] It's flipping through there.
+[00:18:49] I actually think, I don't know,
+[00:18:52] would it look better if I reversed those?
+[00:18:54] Let's go check it out.
+[00:18:56] Because I never caught it before.
+[00:18:57] If I hit S here, then I can, oh geez.
+[00:19:01] It's a white stroke.
+[00:19:02] I don't want a white stroke in there.
+[00:19:05] S, and then fill that.
+[00:19:08] I drop the white, fill that over here.
+[00:19:10] I drop the yellow, fill that over here.
+[00:19:22] I don't know, does it make a difference?
+[00:19:25] You know, it's probably better.
+[00:19:28] It's more of like a white flash at the beginning.
+[00:19:31] I think I like it a little better.
+[00:19:34] Let's go with that.
+[00:19:39] Yeah, sorry.
+[00:19:40] Spoilers, once again.
+[00:19:45] So this is coming through and I'm checking.
+[00:19:48] It's funny that I never noticed that the first frame
+[00:19:50] was more saturated yellow than the rest.
+[00:19:52] So now what I'm doing is I'm adding an extra frame
+[00:19:54] on the last three frames,
+[00:19:56] and I'm gonna recheck that timing.
+[00:19:59] So already I'm liking it better
+[00:20:00] because it has more of like a hold,
+[00:20:02] closer to what I was just showing you
+[00:20:04] in the current version.
+[00:20:09] Yeah, it's gonna work out a lot better this way.
+[00:20:21] All right.
+[00:20:25] So now I'm noticing that this does not slide evenly.
+[00:20:29] It kinda has this,
+[00:20:32] it kinda has this like fall off
+[00:20:36] that goes near on the tip of this.
+[00:20:40] And so I'm like adjusting and pulling this up
+[00:20:44] so that it just continues, oops,
+[00:20:47] just continues up along this line, right?
+[00:20:51] And while I'm in there doing a little bit
+[00:20:54] of cleanup on this wobble,
+[00:20:55] I didn't realize how wobbly that was,
+[00:20:56] but that's not the end of the world.
+[00:20:59] Yep, and then, so now,
+[00:21:08] keep doing that where it's like testing.
+[00:21:10] So now you can see up at the top left there,
+[00:21:13] it's like fading up nice and evenly
+[00:21:16] in a straight line as opposed to like,
+[00:21:18] you know, kind of falling down.
+[00:21:32] I like speeding it up because it makes it more watchable
+[00:21:35] and you were able to get through the content
+[00:21:36] in a good time,
+[00:21:37] but then every time I'm testing my animation,
+[00:21:40] it just looks absurd.
+[00:21:42] So in here, this was something
+[00:21:44] that I tried a few different methods
+[00:21:46] of like, how do I get this to feel interesting?
+[00:21:49] Cause it was like kind of up and then tilted
+[00:21:51] and then up again.
+[00:21:53] And it was just kind of weird.
+[00:21:54] And what I ended up going with,
+[00:21:55] I really liked where it kind of like ate away above
+[00:21:58] and below and leaves this like face here.
+[00:22:01] So what we're looking at is like, you know,
+[00:22:05] face right here, it's kind of coming up like this,
+[00:22:10] which is a nice, like sort of leave behind
+[00:22:13] where, you know, it starts like this,
+[00:22:16] it leaves behind this face
+[00:22:18] and then it like ends up up here.
+[00:22:21] It's a good transition to like swipe it away
+[00:22:26] in an interesting way, as opposed to just again,
+[00:22:28] like linearly eating away at all edges at the same time.
+[00:22:38] There we go, all right.
+[00:22:48] Now I understand that the stuff I'm going over here in here
+[00:22:53] is a bit more advanced than the other lessons,
+[00:22:57] arguably a lot more advanced than the other lessons.
+[00:23:00] And you know, you might be feeling like,
+[00:23:03] oh, like this is so complex to do this phase and all that.
+[00:23:07] I would just say the cleanup phase is what you do
+[00:23:11] when you want a task that's like super repetitive
+[00:23:15] and that you can kind of just check out
+[00:23:18] and like sort of in like zone out, listen to some music
+[00:23:23] and those kinds of things.
+[00:23:24] I always say like, it's good to have your brain engaged
+[00:23:26] doing this stuff, but it also takes a lot of practice
+[00:23:30] to get really good at cleaning up your animation.
+[00:23:33] And so I would say it's a balance
+[00:23:35] of like keeping yourself encouraged to continue
+[00:23:39] versus overwhelming yourself
+[00:23:41] with these like time-consuming tasks.
+[00:23:46] You know, I don't know, find a good audio book,
+[00:23:48] find something, but like get in the mode
+[00:23:51] of practicing this a little bit every day
+[00:23:55] and you'll find that you go faster
+[00:23:56] and faster and faster at it.
+[00:23:59] So now I'm just going back and doing in-betweens,
+[00:24:01] you know, I'm getting them to match up nice
+[00:24:03] and to not wiggle and just coming over here,
+[00:24:09] adding little break off shapes, having lots of fun.
+[00:24:25] All righty.
+[00:24:28] It's coming in on the home stretch now.
+[00:24:30] I'm getting in between these,
+[00:24:31] but then I'm also gonna end up going out
+[00:24:33] to the full 16 frames.
+[00:24:34] So I'm gonna do it one more time
+[00:24:36] where I go through and hit F5
+[00:24:38] to lengthen them out even more.
+[00:24:40] So let's like bring this back down to earth.
+[00:24:45] So you can see, like it's really starting to get smooth
+[00:24:50] now that it's at 12 frames.
+[00:24:52] And so I'm like, cool, I'm gonna keep extending it out
+[00:24:54] until it gets up to 16.
+[00:24:56] And then it'll be really fast at the beginning
+[00:24:58] and then slowing way down at the end,
+[00:25:01] which is gonna be a nice blend for me.
+[00:25:14] Yeah.
+[00:25:18] You know, looking at this content,
+[00:25:19] I'm not exactly sure that the right place for it
+[00:25:22] is even like out there on YouTube for the world.
+[00:25:25] I don't want people to feel too afraid
+[00:25:27] that like here I jumped ahead to something more advanced.
+[00:25:31] Honestly, I just wanted to make this thing look awesome
+[00:25:35] before I go and post it
+[00:25:37] because I hold myself to a very high standard.
+[00:25:39] And anytime I do like a rough animation,
+[00:25:42] I wanna go through and I wanna really polish it out
+[00:25:45] and make it the best that it can be.
+[00:25:46] So I know it's like, it's a beginner lesson
+[00:25:51] turned randomly difficult all of a sudden,
+[00:25:54] but I promise you if you just stick with it
+[00:25:57] and you just power through the cleanup phase,
+[00:26:00] it is so rewarding and satisfying
+[00:26:03] seeing a nice clean animation with style to it.
+[00:26:07] And I don't know, like there's nothing better, right?
+[00:26:11] So here I've just added, what is that?
+[00:26:13] One, two, three, four more in-betweens
+[00:26:17] and it's getting up to the full 16 frames.
+[00:26:21] And so now I just get to go through
+[00:26:23] and in between those out, let's speed this up
+[00:26:27] and we'll check out the process.
+[00:26:32] Getting it there.
+[00:26:36] Yeah, see how I'm having it eat away.
+[00:26:37] It's like changing its shape a little bit as it eats away.
+[00:26:43] Variety is the spice of life guys.
+[00:26:46] It's worth that.
+[00:26:53] Steady hand.
+[00:26:55] You know, it's funny.
+[00:26:56] This probably wobbles a little bit in here, but that's okay.
+[00:26:59] That much wobble where it's like lines on top of lines
+[00:27:01] on top of lines, it's okay.
+[00:27:05] You can just move on.
+[00:27:06] You don't need to fuss too much about it.
+[00:27:08] If you're talking like an extra line thickness wobble
+[00:27:12] or like offset and then they're like wobbling back
+[00:27:15] and forth like this, but that's a problem.
+[00:27:17] But if they're just like right on top of each other,
+[00:27:20] you're gonna be fine.
+[00:27:24] Now I did color this white towards the end.
+[00:27:28] I was considering going in and adding glows,
+[00:27:31] but I held back.
+[00:27:32] I was like, no, no, no, I'm not gonna go that far.
+[00:27:36] I think this is a great candidate for like, you know,
+[00:27:39] the post-processing portion of the class
+[00:27:42] where you can go in and take it into After Effects
+[00:27:45] and track that yellow shape or track the white shape
+[00:27:49] going around and put some glow on that
+[00:27:50] and make it feel really slick.
+[00:27:54] I honestly feel like this is a strong effect
+[00:27:56] without that effect on top of it
+[00:27:58] and that it gets by with just the pure crisp shapes
+[00:28:03] doing what they do.
+[00:28:06] Oof, it's down to the end.
+[00:28:08] It's going faster and faster.
+[00:28:11] Okay, let's see this thing.
+[00:28:13] Oh, I missed a frame.
+[00:28:15] I do end up checking quite a bit to make sure
+[00:28:17] that there's nothing blinking and that's very important
+[00:28:19] when you've got its shape breaking up into many little parts
+[00:28:22] throughout its lifetime.
+[00:28:24] You wanna flip through your frames
+[00:28:25] and I'm making sure that nothing blinks on and off
+[00:28:27] and so I'm looking at different parts of it.
+[00:28:31] It's amazing, like a lot of professional animation,
+[00:28:34] you'll see it every now and then, a frame will blink
+[00:28:37] or part of a frame will blink.
+[00:28:41] So there it is.
+[00:28:43] So we've got it here.
+[00:28:43] I'm gonna go ahead and pause that
+[00:28:46] so that we can go to the final, final, final version
+[00:28:50] which has all the little touches that we added to it.
+[00:28:53] So this is our effect.
+[00:28:57] I call it Schwing as in the noise that like a sword makes
+[00:29:02] when it hits a shield
+[00:29:04] because I still feel like it feels kind of like
+[00:29:05] a shield block effect or something.
+[00:29:09] Something's getting struck
+[00:29:11] and yeah, the basic motion was there.
+[00:29:14] We played that in pretty dang quick.
+[00:29:16] Once you have the motion that you want,
+[00:29:19] you can go back in and add all the refinement that you want
+[00:29:21] and that's, that for me is actually very fun
+[00:29:24] and again, I know that you can be like a little overwhelmed
+[00:29:27] with like, you spent how long on this thing?
+[00:29:30] But honestly guys, like how long you spending on Netflix?
+[00:29:32] I mean, come on, you can spend an hour and 20 minutes
+[00:29:36] doing this because then it's gonna be awesome.
+[00:29:41] You're gonna be better at effects.
+[00:29:42] You're gonna be better at your job
+[00:29:44] and you're gonna know how to make one more amazing thing.
+[00:29:47] Well, I'm excited to see you posting this work
+[00:29:52] that you've done, sharing it publicly.
+[00:29:56] I'm excited to see you in the rest of the class.
+[00:29:58] There's all kinds of fun lessons that we've got going on.
+[00:30:02] It's really gonna cover everything.
+[00:30:05] At the time of recording this video,
+[00:30:06] it's all still in development.
+[00:30:07] It's mostly still an idea in my head,
+[00:30:10] but oh man, there's so many things coming
+[00:30:13] and I'm so excited to share it.
+[00:30:15] So, all right, check it all out below
+[00:30:19] and I will catch you guys another time.

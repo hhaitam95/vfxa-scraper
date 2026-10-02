@@ -1,0 +1,126 @@
+[00:00:05] Hello everyone, in this video we will talk about another way to make something appear
+[00:00:11] on the screen and this one will be some kind of pop-up appearance, like something that
+[00:00:16] appears to be already pretty big on the screen and then settles down to its final size.
+[00:00:23] So the first example is this triangular shape and if we look at the spacing here, the first
+[00:00:31] frame it is already quite big and in the next frame it goes bigger slightly just a little
+[00:00:38] bit and again just a little bit just to settle up around like this final, pre-final big stage
+[00:00:48] and then it starts to going back in size to smaller shape then like bigger step to the
+[00:00:59] smaller shape and then again starts to settling down in the final small in relation to this one
+[00:01:07] but still pretty big size that it will be like final on the screen. So for this kind of appearance
+[00:01:15] we go through two stages so the first one is like this slightly bigger than the first frame stage
+[00:01:24] I can mark it like key one and the like last stage is key two which is our final size of the
+[00:01:34] shape and position of the shape in which it stays like till some next event or something.
+[00:01:42] So to make this appearance look smooth enough we need at least one frame on how it goes to the
+[00:01:52] keyframe one, one frame on how it goes from keyframe one and then at least one frame how
+[00:02:00] it goes to the keyframe two. So we can look at this now it's pretty smooth and like a little
+[00:02:11] bit slow but sometimes we like need to be more tight so we can for example delete this frame
+[00:02:22] I will just delete it from timeline so this will be my frame how the shape goes into the
+[00:02:33] keyframe one. Now the next frame here is how the shape goes from my keyframe one
+[00:02:45] and then here I have keyframe two and I need at least one frame on how my shape goes in the
+[00:02:54] keyframe two. So those that are in between I can like optimize if I need more like tight timing
+[00:03:05] and we can see how it works now. So now the movement is faster like choppier but it still
+[00:03:15] reads that this shape kind of like smashed in the screen and then goes back to the like its normal
+[00:03:24] size and it still reads at some kind of appearance but it uses like the minimum amount of frames that
+[00:03:33] is needed to it to be like readable and understandable. So yeah this kind of
+[00:03:41] appearance is very nice for some tight animations where we need to see
+[00:03:48] and like understand what this shape is about right from the beginning of our animation.
+[00:03:56] The next step for this appearance will be to apply the scene the principles that we
+[00:04:04] looked into in the previous video like adding variety to the movements of the shape. So here
+[00:04:14] every angle of like every corner of this triangle moves slightly differently so the principle is
+[00:04:22] still the same like from maximum position to minimum position like from big size to small size
+[00:04:32] but they're slightly different. So the first one for example it's already
+[00:04:39] like at the far point from the center of the screen. On the next frame it's just slightly
+[00:04:47] slightly further from that point and then it goes back like closer to the center but just slightly
+[00:04:58] so almost no movement forward and slight movement backward. This corner moves forward
+[00:05:08] like more than the first one here we can see like switched a little bit more there but then
+[00:05:19] like from this point it goes back quite big amount of like position. So we had here like different
+[00:05:35] kind of movement for variety and the third one it appears to be quite close to the center but then
+[00:05:43] goes further from it with like pretty high amount of position changing here
+[00:05:51] and then goes back just slightly. So we are adding a variety on how these corners are moving and also
+[00:06:03] we are like that time when they go into this keyframe one position like the most
+[00:06:12] further from the center and when they start to go like back to the center from it is also
+[00:06:20] different. So for the first one on this third frame of the animation it already goes back
+[00:06:29] but this corner goes back on the fourth frame here on the timeline and the last corner goes back
+[00:06:39] like starts to go back here on one two three four five six on the seventh frame.
+[00:06:46] So only now we see like this movement back. So applying these things to every corner adds a lot
+[00:06:55] of variety to the movement and it looks like it doesn't move like some even object. Also forgot
+[00:07:07] to mention in the previous like part that we can use guide for our animation especially for
+[00:07:16] something pointy as triangle we can add just a layer with lines from the center of the screen
+[00:07:24] which will show us how every corner will move in the animation like while it's going
+[00:07:34] further from the center. So this way we can easily track how it moves around. So yeah and
+[00:07:45] the next stage is fun stage because we can actually create a splat animation out of the
+[00:07:54] triangle that we did on the previous stage. So as you can see the movements that I did for the
+[00:08:01] triangle I used it to make this splash animation because like the spacing and timing for each
+[00:08:10] corner was set in the previous stage. So now I just added a splat shapes on it and yeah let's
+[00:08:22] just recreate this stage together here. I will turn on this base triangle that did and
+[00:08:36] on a new layer we can start animating this scene. So to start off I want to add this central part
+[00:08:45] of the splat like the base blob that we have in the center and to make it I'll just use a
+[00:08:58] oval brush pretty big size and place it in the center of my frame maybe even slightly bigger.
+[00:09:12] On the next frame I'm going to increase the size of this splash part to show how it like
+[00:09:25] splats into the screen and on the next frame it goes slightly back. So like the viscosity
+[00:09:40] of the splat of this liquid is bringing the shape back.
+[00:09:50] Goes slightly smaller and even smaller and settles in its final size
+[00:10:04] and this frame I will extend till the end of my timeline and we'll recheck how it looks.
+[00:10:16] Pretty normal. Now for the like these bubbles on each hand of the splat I will use this like
+[00:10:26] corner of the triangle that we did as the point of the oval here not the central point here but
+[00:10:36] just as if this how it's called the end of the shape is touching the corner of the triangle
+[00:10:49] shape. So I'll start with like medium size bubble here touches the corner the next frame goes here.
+[00:11:03] To not make things too complicated I'm not changing the size of these bubbles on like this
+[00:11:14] ends of the handle of the splat so it will be like easier to track and animate.
+[00:11:27] I'm just putting the bubbles on the base that we are creating. I'm also like pointing the
+[00:11:37] central of the brush like this cross C on the line that is my guidelines so it's easier to
+[00:11:48] see how it goes. This one got a little bit like normal not circle so I'll redo it.
+[00:11:59] Goes forward and back. Okay the next one I will do the bigger size because I still want to
+[00:12:09] create like variety of sizes for my drops. So again just following the
+[00:12:22] base that I did already here and here. Let's see how it moves. Nice. And then the
+[00:12:45] third one it will be the smallest. So again just following the guide.
+[00:13:12] Nice. So now I can actually turn off the triangle that was there before and add this connection
+[00:13:23] parts to the bubbles from the center of the splat. I will use just smaller sized brush to make it
+[00:13:35] easier to like draw and I'm trying to like draw pretty symmetrical shape that goes wider to the
+[00:13:46] beginning of the drop the end of the splat and wider on the bottom of it to connect it like
+[00:14:00] in this kind of arc with the central part and it's like it's pretty seen in the
+[00:14:07] central part of it like it's stretching a little bit. So the next frame again it goes like this
+[00:14:20] inking the inside parts smoothing out the transition from the this connection line to
+[00:14:35] the droplet part. Here again connecting to the guideline I have here and to the central part
+[00:15:00] filling in the inside I'll make only one previous frame to be shown on the onion skin to make it
+[00:15:32] onion skin to make it easier to like follow the shape like to make it not wobble to the
+[00:15:45] like previous position and then again to the next position between frames like this. You can also
+[00:16:03] turn off the showing of onion skin for the next frames within the insides okay and the last frame
+[00:16:28] okay and just repeating the frame like the shape of this connection
+[00:16:37] as it was before because it's like the very very last frame. Okay I can see how it looks
+[00:16:53] nice and add another connection I'll also rotate the canvas so it will be like the
+[00:17:02] vertical line it's easier to create
+[00:17:07] symmetrical shapes this way and not too like angled in one way.
+[00:17:17] Some imperfections like organic and okay but at least we can try to make it slightly
+[00:17:35] symmetrical. Yeah it's not very symmetrical here. Okay I'll just add volume here and erase here.
+[00:17:53] Okay so yeah on the next frame so this
+[00:18:00] bubble stays almost the same size and this one goes further up so I like creating this
+[00:18:10] for this shape like it's stretching a little bit so it's going slimmer filling the insides
+[00:18:37] here it's almost the same so I'm just repeating this shape filling the insides
+[00:18:59] so here we can make like on the one side this shape is coming in together again so like on the
+[00:19:15] side if we'll look at it here it would be like super slim and here it becomes something like
+[00:19:25] this actual job so for this shape it can be like something that make it even slimmer
+[00:19:48] cleaning the insides and then we'll erase a little bit here
+[00:19:59] yes but here this droplet goes back quite a lot so we can make this connection be a little bit
+[00:20:17] wider here like if the volume was distributed by this legs and then when it became shorter it
+[00:20:36] became like um higher and also like wider a little bit it might be wobbly though so maybe
+[00:20:52] here it will not be that slim here not that white still find some middle ground
+[00:21:05] oop and for the next frames it just settles to the final form so we can go this to the next frame
+[00:21:26] almost the same and we'll fill it in and we can look at it in action
+[00:21:41] yep okay and the last one the last one here so it is super small
+[00:21:57] super small droplet like splash bubble and so it will probably be even thinner connection i mean
+[00:22:20] and but we need to like smooth the shape to the central bubble so it will be thicker at the
+[00:22:29] beginning and here connecting these two bubbles and again like almost nothing changed between
+[00:22:49] these two bubbles so i'm kind of repeating the shape maybe slightly making it thinner but not
+[00:23:06] much because not much happening there and here like this one became smaller but also this one
+[00:23:16] moved there so we can just continue the like minimum thickness of this connection line
+[00:23:27] situation but this one and the next frame filling in here too just filling in this one
+[00:23:54] and now these two are not quite moving to the end of the animation so i can
+[00:24:01] just try to repeat the shapes without moving anything that much because
+[00:24:10] those two are doing the things right now this one is just chilling already
+[00:24:21] and let's see how it looks yep works nice so yeah um again this video we looked at different type
+[00:24:38] of how we can make something appear on the screen this actually suits good for something like splat
+[00:24:47] for something like splat but can be used for some kind of pop-ups or just something that you need to
+[00:24:55] show quite big and readable from the beginning of animation
+[00:25:02] hope it was interesting and have a nice time animating
+[00:25:06] bye

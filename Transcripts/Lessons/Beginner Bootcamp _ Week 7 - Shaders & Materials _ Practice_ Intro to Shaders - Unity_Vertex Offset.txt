@@ -1,0 +1,169 @@
+[00:00:05] Hello again, I'm Jaden and in this lesson we will see a whole new category of effects using vertex displacement.
+[00:00:13] So far we've been placing colors onto the surface of our mesh,
+[00:00:16] but we can also change the shape of the mesh itself. And with this power, there are many many effects that become possible.
+[00:00:24] We'll look at just a few simple effects, but remember that there are many more complex effects that you can do.
+[00:00:29] So let's get started by setting up a basic scene.
+[00:00:33] Let's add in a sphere
+[00:00:36] and also a plane, and we should scale this down a little bit, and a quad.
+[00:00:45] So we'll be creating a new type of shader called a vertex shader, and I'll turn on our wireframe for this.
+[00:00:56] All the shaders we've made so far are pixel shaders,
+[00:01:03] which evaluate every point on the surface and run our shader over and over again for each point that's rendered.
+[00:01:10] A vertex shader works differently.
+[00:01:12] Instead, we're going to loop through each vertex of the mesh and run our shader for each one.
+[00:01:18] So if a mesh is made up of 20 vertices, our shader will run 20 times once for each vertex.
+[00:01:25] And the job of a vertex shader is to set the position for each vertex.
+[00:01:32] So create a new shader graph, and we'll choose a lit shader graph this time.
+[00:01:37] We can name that vertex, then create a material for it, and apply it to all of the objects.
+[00:01:47] Open up your graph workspace and start by picking a new base color, and that can be any color.
+[00:01:59] So every shader executes in two phases. First the vertex phase, then the fragment phase.
+[00:02:07] The vertex phase will change the shape of our mesh. The fragment stage will change the color.
+[00:02:13] So the vertex shader has a few different inputs.
+[00:02:15] We'll only be using position for now, and you'll notice that each of these use object space.
+[00:02:23] Whenever we make changes in object space, those positions are relative to the object, not the world.
+[00:02:29] So even if we move the object around, the changes will move with the object. This point here is
+[00:02:36] 000, and that will always be at the center of the object.
+[00:02:41] And if we rotate the object, those positions will rotate along with it.
+[00:02:45] So let's start by setting a position using a vector 3. And all positions are three-dimensional vectors.
+[00:02:57] Let's just try 000 for now, and save asset.
+[00:03:03] And the object disappeared.
+[00:03:06] Well, it's still there, but all of the vertex positions were changed to 0, so this object was collapsed into the center.
+[00:03:14] Obviously, that's not very useful, and we don't really want to set the positions manually like this.
+[00:03:20] Instead we need an input, and we can use position as input.
+[00:03:25] Let's add a position node and plug that into the position output.
+[00:03:32] Save asset. And now our mesh is back, kind of. It moved to a different position.
+[00:03:40] That's because we're using world space coordinates. Let's change this to object space coordinates.
+[00:03:49] And now our mesh is back how we left it.
+[00:03:53] So the shader goes through each vertex, it gets its position, and then sets the position
+[00:04:00] to its position,
+[00:04:02] so it doesn't actually move. And then it does it again for the next vertex and the next, until we've gone through the whole mesh.
+[00:04:09] So let's try to split this position.
+[00:04:15] Plug that into a split node, and
+[00:04:22] position is a vector 3, so we'll need to reassemble this into a vector 3. And plug in the X, Y, and Z coordinates, and
+[00:04:33] plug that into the output. So we're doing the same thing here,
+[00:04:40] but what if we changed all the Y coordinates to 0 for every vertex? Let's see what happens.
+[00:04:47] So now we have just flattened our mesh.
+[00:04:50] We keep the X and Z coordinates, which are horizontal,
+[00:04:54] but all the Y coordinates have been flattened down to 0, which means our mesh gets flattened. And
+[00:04:59] remember that this is an object space,
+[00:05:01] so if we rotate it, it rotates the Y axis, and that stays flat relative to the object.
+[00:05:09] You'll also notice that the shading of the original sphere is still here.
+[00:05:14] This is because we haven't changed the normals, and the normals are what determine the lighting.
+[00:05:20] We're not going to worry about setting normals for now.
+[00:05:23] So let's try something else.
+[00:05:25] If you double-click on these wires, we can move them around and make some room, and let's add a multiply node.
+[00:05:35] So let's take the original Y coordinates, multiply them, and plug that into the output, and
+[00:05:44] save that.
+[00:05:46] So here we're gonna multiply all of the Y coordinates by 2, which will stretch them out, and that's relative to the center.
+[00:05:53] So if it's above the origin point, those will go up, and below, they'll go down.
+[00:05:59] We can also put in a value below 1 here, like 0.5, and
+[00:06:07] that has squished our mesh. And as always, those rotations still apply.
+[00:06:16] Let's try something else. Delete this whole setup, but we'll keep using position. Let's try adding to the position.
+[00:06:24] Create an add node, and plug position into that. Plug that into the position output.
+[00:06:33] So let's add to the position, but only on the Y axis.
+[00:06:39] And save asset.
+[00:06:40] So that has taken our mesh and pushed it upwards.
+[00:06:45] So we can multiply if we want to scale the positions, and we can add if we want to push the positions.
+[00:06:53] And here we just pushed all the positions along the Y axis, which is not very exciting.
+[00:06:58] What if we could push each vertex in a different direction?
+[00:07:03] Let's add a normal vector node.
+[00:07:05] So remember what normal vector does. It outputs the direction that each point on the surface is facing.
+[00:07:16] So what we'll do is loop through each vertex,
+[00:07:19] find out its surface direction, and push it in that direction by adding the direction vector.
+[00:07:27] Remember to put these in object space.
+[00:07:31] Plug that into the add, and save asset.
+[00:07:36] And now we have just inflated our model. We took each vector, and we added its normal direction to push it in that direction.
+[00:07:46] And we pushed it by exactly one unit in distance.
+[00:07:50] That's because the normal vector is a normalized vector, which means it always has a length of one unit.
+[00:07:57] Let's change that. Let's create a multiply node, plug the normal vector into that,
+[00:08:06] and also add a float. And let's try a lower number like 0.5.
+[00:08:16] Save asset.
+[00:08:17] So normal vector will give us a direction vector that will add to the position, and it always has a length of one unit.
+[00:08:28] But if we multiply one by any number, it will give us the same number.
+[00:08:34] Since this is always one, we know that this is the distance we'll push it, because we're multiplying one by this distance.
+[00:08:42] So we're pushing each vertex by 0.5 units.
+[00:08:45] Let's make this a negative number instead, like negative 0.2. And now we have shrunk the sphere.
+[00:08:54] So we start with our direction vector, and if we multiply any vector by a negative number,
+[00:09:00] it'll just push it in the opposite direction. And then we can make that number bigger or smaller to change the size of the vector.
+[00:09:10] So for each vertex, we're pushing it inward, opposite of its normal direction.
+[00:09:17] So that's really cool, because now we can take every vertex and push it around however we want to.
+[00:09:24] And we're using this distance along the normal direction, but we can make this number whatever we want.
+[00:09:30] What if we animated that number?
+[00:09:33] Let's make a sine wave. Add a time node, a
+[00:09:38] multiply node, and a sine node.
+[00:09:46] Let's multiply time.
+[00:09:49] Output a sine wave, and plug that into the distance.
+[00:09:54] Save asset. And now we're animating the distance.
+[00:09:57] So it's still along the normal vector, and it's moving between positive 1 and negative 1 because of the sine output.
+[00:10:05] We may not want to use positive 1 and negative 1, so let's multiply the sine output to any distance we want.
+[00:10:14] So we'll multiply the sine output, say, by 0.2. And now the effect is much more subtle.
+[00:10:35] Let's apply the same effect to our color.
+[00:10:38] If you try to plug in these outputs to the fragment shader, you'll notice it doesn't connect.
+[00:10:44] The vertex shader and the fragment shader run separately, so we can't mix these and we can't plug the same
+[00:10:51] calculations into different outputs.
+[00:10:54] So for this, what we can do is copy this setup and paste it into the color, and
+[00:11:05] save asset. And now the color is showing us how far we're pushing each vertex, whether it's positive
+[00:11:13] or negative.
+[00:11:15] Okay, let's try something different.
+[00:11:18] I'll delete this setup. So we'll continue to push the vertices along their normals, but let's try something else to pick the distance.
+[00:11:31] Let's bring our mesh's UVs back in and use a noise texture. Add in gradient noise.
+[00:11:41] And remember that gradient noise uses the UVs from the mesh. I'll pick a different scale, like 5, and
+[00:11:49] let's plug that into the distance.
+[00:11:51] We actually don't need this float node anymore. And save asset.
+[00:11:56] So now we're pushing each vertex by a random amount, either 0 or 1 or somewhere in between.
+[00:12:03] We have the same problem where it's a little bit too intense,
+[00:12:06] so let's multiply this. And let's scale that down to like 0.2.
+[00:12:16] So let's see what's happening with a visual representation.
+[00:12:24] Let's duplicate these and plug that into the color. And let's not use the multiply for this.
+[00:12:41] Okay, so let's see what's happening here.
+[00:12:45] Wherever we have a black value, we're pushing that vertex by 0 units. And wherever there's a white value,
+[00:12:52] we're pushing it by 1 unit.
+[00:12:54] Gray values push a smaller distance.
+[00:12:58] And since we're using values 0 through 1, we multiply those to pick a new distance and then plug that
+[00:13:05] in to the normal direction and add that to the original position. So that may seem complicated,
+[00:13:12] but we broke it down one step at a time. And now we have this interesting cloud shape on our mesh.
+[00:13:18] You can also see this big seam on the back here.
+[00:13:22] This is because we're using the UVs from the sphere. And those UVs are unwrapped on a square,
+[00:13:28] so the left edge can't connect to the right edge.
+[00:13:31] And it creates this effect because the noise is not seamless.
+[00:13:35] We'd want the right edge to wrap perfectly on the left edge, but that's not happening.
+[00:13:40] So there's a difference here, which is why we get that seam.
+[00:13:45] So let's animate this as well.
+[00:13:49] Since we're using UVs on the gradient noise, we can create a panning setup.
+[00:13:55] To do that, you can add time,
+[00:13:59] multiply,
+[00:14:03] vector 2,
+[00:14:05] tiling and offset. Let's pan it upwards slowly. So we'll multiply time by negative 0.5,
+[00:14:18] plug that into the y-axis,
+[00:14:21] plug that into your offset,
+[00:14:24] and plug that into the UVs. And save asset.
+[00:14:28] So now we're panning the noise upwards, which means that vertex offset is also moving upwards.
+[00:14:34] I'd like to see this on the color, so let's duplicate this setup and
+[00:14:41] plug that into color. Save asset. And now we can see that more clearly.
+[00:14:54] So let's see what's happening with our other meshes.
+[00:14:56] It's also affecting the plane as well, and we could even change the strength of the distance.
+[00:15:03] And now it looks like rushing water, or maybe rolling smoke.
+[00:15:14] What if we turn the speed down a little bit, and
+[00:15:21] also match that up on the color. And since we're using a plane, we have something that looks pretty different.
+[00:15:35] And you'll notice that the quad is not showing the same results. Let's pause the animation for a moment.
+[00:15:40] So technically it's doing the exact same thing to the quad.
+[00:15:53] We're looking at each vertex, and we're pushing it along its normal direction by the same distance.
+[00:16:00] But you can see the problem here, because the quad mesh only has four vertices,
+[00:16:07] which basically means it has a lower 3D resolution. If we push these around, all it's doing is folding along this triangle line.
+[00:16:15] We only have four points to move around, which means we're not catching all this finer detail.
+[00:16:21] But if you look at the plane, you'll see something different.
+[00:16:24] The reason we used a plane is because it has a lot more vertices.
+[00:16:30] It's a higher resolution mesh, which means we have more points to push around.
+[00:16:35] So that covers the basics of vertex displacement.
+[00:16:49] And one of the most useful things you can do is push each vertex along its normal direction.
+[00:16:55] And we can push each vertex a different distance. We can use noise for that.
+[00:17:00] We can use a sine wave for that. We can even use the height or the position of the mesh.
+[00:17:05] We could also change it based on its distance from the camera or using a texture.
+[00:17:10] And you could do this on a fully textured character or model.
+[00:17:14] For example, you could just pull out the blue parts of the texture and push each vertex based on how blue it is.
+[00:17:21] Basically, you can take any of the techniques that we've learned so far and apply them to vertex displacement.
+[00:17:26] The possibilities here are truly endless.
+[00:17:29] So feel free to pull out different types of data and play around with vertex displacement.
+[00:17:35] By plugging different numbers into the distance multiplier.
+[00:17:39] But that will be all we cover for vertex displacement.
+[00:17:42] Those are the basics, but things can get as complicated as you want them to.
+[00:17:47] In the next lesson, we'll make effects that change color when they get closer to other objects in the world.

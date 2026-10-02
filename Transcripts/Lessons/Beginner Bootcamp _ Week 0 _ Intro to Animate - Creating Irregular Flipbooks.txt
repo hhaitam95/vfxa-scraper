@@ -1,0 +1,291 @@
+[00:00:00] Oh hey guys! Okay, so we're going to pick up and do a few more templates. First,
+[00:00:10] before I dive into the templates, I want to change the layout because I know this
+[00:00:14] isn't the most conducive layout for these tutorials and I want to make sure
+[00:00:17] that all the tutorials in the class are very clear and you can see exactly
+[00:00:20] what's happening. So I'm gonna tear out some windows. It sounds a lot more crazy
+[00:00:25] than it really is. I'm gonna grab this color up here and I'm gonna dock it
+[00:00:30] right here until it turns blue and that's gonna give some space for you to
+[00:00:35] see me without me overlapping with these awesome settings down here in the layers
+[00:00:40] panel. But I'm thinking I can go a little bit further with this now that I have
+[00:00:45] this open area here. I can tear out the library and I'm gonna dock that. See I'm
+[00:00:51] in the way. I'm gonna dock it so it's down on the bottom like so.
+[00:00:55] And then I'm gonna take this color and I'm gonna take this color and I'm gonna
+[00:00:55] just keep going and keep going and there we go. So now we can nudge this up so that it
+[00:00:59] bumps into the color and then just the symbols here are gonna be blocked a
+[00:01:04] little bit and the rest should be great. So yeah, now you can see what's going on
+[00:01:10] a lot more easily. You might also see me take the timeline and dock it up top
+[00:01:15] here sometimes if I'm gonna be doing a lot of work on the layers. I guess I can
+[00:01:20] work with it up top or whatever. We'll just leave it up there for now. So now it
+[00:01:23] really opens that up so if I'm leaning over from this and I find it
+[00:01:25] there, I just let that slide.
+[00:01:25] I'm drawing. It doesn't cover that up too. Okay. So now that that's taken care of,
+[00:01:30] one other thing that you'll notice is different here is I went ahead and added an animation layer.
+[00:01:36] So I did this before. I'm just going to do it one more time to break this down for y'all. So,
+[00:01:41] you know, when I hide the animation layer, we see that the flipbook layer is held for all 19 frames.
+[00:01:50] And what you want to do, I'll just go ahead and delete that. To create an animation preview,
+[00:01:55] it's important that the flipbook is set to guide, right? When you right click on flipbook,
+[00:02:00] you choose guide so that it does not export. If I hit control enter now, nothing exports, right?
+[00:02:06] But then I come in and I create a new layer and I'm going to select one of these. The top left
+[00:02:12] is just as good as any. Copy that and then go ahead and paste that here. Okay. And now you'll
+[00:02:21] see now that my properties panel is bigger. Oh, let me make that bigger.
+[00:02:25] Up to here. So now that I have a bigger properties panel, I can see things more easily,
+[00:02:29] which is another big advantage of putting the library over here. So I can come down here and
+[00:02:35] instead of just the single frame, I can play it once. I don't want to loop it because I just want
+[00:02:41] it to play once through. And there we go. And we can see that this is, how many frames is this
+[00:02:47] again? You know what? It's actually 10 frames. Oops. It should only be nine. So that's fine.
+[00:02:54] We'll just cut it off at nine.
+[00:02:55] So on frame 10 right here, I'm going to hit F7, clicking on there and then hit F7 so that after
+[00:03:03] nine frames, it's out of there. We're going to pretend that I kept to the rules and actually did
+[00:03:08] a nine frame animation. And then I just like to call this layer animation. So I have animating
+[00:03:15] here and that is not a guide layer so that when I hit control enter, it plays. And the reason why
+[00:03:21] I created those blank frames is so that there's a nice gap after it's done playing.
+[00:03:25] It holds. Okay. So now that's done, I can save it. Now I want to create some other templates.
+[00:03:33] Now you could go up to 4096. I think with animate, the nice thing about animate is like,
+[00:03:40] if you're exporting in here and I do like, you know, file export image, right? And that's what
+[00:03:49] the animation layer hidden and the flip book layer shown. I can export an image and I wait for it.
+[00:03:55] A little bit because I have a second monitor set up. It does this window really, really big.
+[00:04:00] You just have to scale that down and Oh, you know what fit on screen? Just okay. My settings are such
+[00:04:12] that it has to be not a guide layer. There we go. So now I'm exporting the flip book layer so we can
+[00:04:21] come up here, export image. There we go.
+[00:04:25] And down here, oops, see, I'm in the way again. And this 100%, I can fit it to screen. And now you
+[00:04:32] can see a flip book there. Well, in animate, you can just come in here and just say 200%.
+[00:04:37] And that'll do a 4096 flip book for you. So my feeling is work in a size that's good for you,
+[00:04:47] whether that's 1024 or 2048, which is what I had before. And that way it's not so massive and
+[00:04:55] unwieldy.
+[00:04:55] But the nice thing about vector is that you can always just scale it up to 4096 and have a 4k texture,
+[00:05:02] if you so desire, you can export that. So yeah, so we're going to just do all of our templates today
+[00:05:11] in 2048. And you can always check your size by just clicking off on the stage so that nothing
+[00:05:17] is selected. And that'll bring up document settings, right, right here. And it says 2048.
+[00:05:23] So yeah, we're all set there. Let's create a new file. And we're just gonna go through this a couple
+[00:05:31] times different types of templates that I like to use. And I'll talk a little bit about what I like
+[00:05:35] to make them for. So we're going to do 2048. Just great size. Because it's nice and easy to remember
+[00:05:46] that if we do a rectangle, and we make that rectangle 512 by 512,
+[00:05:53] right here, now this lock button here would have scaled them the same. So notice that I set it to
+[00:05:58] 512. And now I have to do this other one to 512. But if I lock it here, and say I do like 256,
+[00:06:04] it'll change them both at the same time, which is kind of nice.
+[00:06:09] Like that to the sides and hit F8 to convert to a symbol. Now I like to create each new flipbook
+[00:06:17] template from scratch, because there's a lot of weirdness that can happen when you have it like
+[00:06:22] one side, and then another one on the other side. And so that's kind of cool. And you can also do
+[00:06:22] a lot of other things. So if you're going to do a little bit of something like this, you can do a lot
+[00:06:22] of other things. So if you're going to do a little bit of something like this, you can do a lot of other things.
+[00:06:23] So if you're going to do a little bit of something like this, you can do a lot of other things. So
+[00:06:23] we're going to go ahead and just do this real quick, double click into here, double click on
+[00:06:31] the outline, which selects all four edges. Hit Ctrl X, create a new layer, Ctrl Shift V. If you
+[00:06:38] do Ctrl V, it does that it pastes it in the center. And that's not what you want to do Ctrl Shift V,
+[00:06:44] which pastes it in the same place that you cut it from. Call this the border. Call this the solid.
+[00:06:53] Really creative name here, guys. All right. We're going to select both of these frames on frame 16,
+[00:07:00] hit F5 so that it extends out the animation to the end. Now for the solid, we want it to shift color
+[00:07:07] and have some fun with the colors that you choose here. I don't know. Let's see. We'll shift it from
+[00:07:13] yellow to cyan, I guess. And then right click here, create a classic tween, no, shape tween.
+[00:07:22] That's the one you want. There we go. Okay. And we can always change these colors later. For now,
+[00:07:29] let's right click on the border, convert that into a guide layer. So we double click out here,
+[00:07:35] we get a nice clean borderless shape. And we're going to set this here to just one frame.
+[00:07:44] Right. And then copy paste.
+[00:07:50] Make sure it snaps properly. Now,
+[00:07:52] if it's just a little bit of a mess, you can just go ahead and do that. And then you can just
+[00:07:52] do that. And then you can just go ahead and do that. And then you can just do that. And then you can just
+[00:07:52] do that. And then you can just do that. And then you can just do that. And then you can just do that.
+[00:07:52] So it's just snapped on one axis, but not both. You're going to have some weird gaps. So watch
+[00:07:57] out for that. Snapping, remember, is turned on. Oh, if you deselect that, but you have the select
+[00:08:04] tool chosen, snapping is right here. It used to be over here. If you have an older version of
+[00:08:10] animate, it'll be somewhere over here. Okay. That's snapping on both right there.
+[00:08:19] Now this'll work great because we have a four by four.
+[00:08:22] So remember when we did a three by three, we had to snap them all together and then scale them to fit
+[00:08:29] the entire shape of the larger stage. Now I was just selecting multiples by click and drag and
+[00:08:38] then control C and control V so I could get four at a time. All right. So this is already frame one.
+[00:08:44] We're set there. This is going to be frame two. It's going to be frame three. And you should be
+[00:08:50] seeing the colors that you did show up.
+[00:08:52] If not, go back inside and double check that you've got everything working from here to here .
+[00:08:58] And that you've got this set to a single frame. Okay. Five, six, seven, eight, nine.
+[00:09:12] I love cyan. Cyan's my favorite. I didn't really teach cyan in school for some reason.
+[00:09:18] Let's teach red, yellow, and blue in elementary through high school.
+[00:09:26] At least that's here in the United States.
+[00:09:29] That doesn't count.
+[00:09:31] I should stop talking.
+[00:09:36] Cyan and magenta.
+[00:09:39] I don't really show you what they are,
+[00:09:40] even though they're incredibly important colors.
+[00:09:43] Okay.
+[00:09:44] So here we have our gradient.
+[00:09:45] Our 4x4 layout.
+[00:09:49] And what's fun about this is you can always just come in and say,
+[00:09:52] I like the cyan, but maybe I want it to go to, well,
+[00:09:56] maybe I want it to go to magenta.
+[00:10:00] Right?
+[00:10:00] Because that's more of a desaturated red.
+[00:10:04] So, yeah, you can have fun with these colors.
+[00:10:05] It's kind of fun setting that up.
+[00:10:08] All right.
+[00:10:09] So let's see.
+[00:10:10] We can come in here.
+[00:10:15] 2D effects.
+[00:10:20] There we go.
+[00:10:22] Let's do a 4x4 2048.
+[00:10:30] All righty.
+[00:10:31] Now, sometimes you might want a flipbook that is a 1 to 2 aspect ratio.
+[00:10:37] So let's create a new one.
+[00:10:41] And just say create.
+[00:10:45] Okay.
+[00:10:45] Okay.
+[00:10:45] Okay.
+[00:10:45] Okay.
+[00:10:45] Okay.
+[00:10:45] I could have set the height there,
+[00:10:46] but I'm going to show you another way to do this.
+[00:10:48] So let's say I want the width to be 1024.
+[00:10:52] Like so.
+[00:10:53] This format will actually work just fine.
+[00:10:56] From the research I've done,
+[00:10:58] you're not going to run into too many troubles with this.
+[00:11:00] The only thing is in the game engine,
+[00:11:03] it might not be the most efficient, right?
+[00:11:06] Because it's going to end up scaling it on this axis to make it wider.
+[00:11:11] But the nice thing about that is you can always just go do that in
+[00:11:14] Photoshop later.
+[00:11:15] and that way you can check your frames more easily in here.
+[00:11:19] I'll show you what I'm talking about.
+[00:11:20] So the first step would be to create a rectangle.
+[00:11:24] And for this rectangle, we want it to be 1024 wide,
+[00:11:28] but then I want to unlock it here
+[00:11:31] and I only want it to be 256 tall.
+[00:11:33] So now I'm going to align it up and down.
+[00:11:38] Okay, and then for this,
+[00:11:40] we're going to be able to get in eight frames.
+[00:11:45] Okay.
+[00:11:53] Now I can select all of these
+[00:11:54] and just make them hold a frame, right?
+[00:11:56] And then I double click into here.
+[00:11:58] I want to extend this out to eight.
+[00:12:00] Now this template is especially useful.
+[00:12:04] Looks like that.
+[00:12:05] Cut it out.
+[00:12:07] Paste in place.
+[00:12:08] I want to have the box on the layer below.
+[00:12:12] I'm sorry, the solid on the layer below.
+[00:12:15] And then this is going to be the box on the layer below.
+[00:12:15] And then this is going to be the box on the layer below.
+[00:12:15] So now I want to extend the outline on the layer above.
+[00:12:17] So, you know, I can click and drag these like so, right?
+[00:12:20] So I can click and drag these like so, right?
+[00:12:21] So just change their sorting order.
+[00:12:24] Turn the outline into a guide layer.
+[00:12:26] Now you'll notice something here.
+[00:12:28] You've got all these outlines here
+[00:12:30] and this is just a bug in Adobe Animate, unfortunately.
+[00:12:33] So the outlines have turned off on the one I was inside of.
+[00:12:36] And if I double click into another one,
+[00:12:41] you know, and then double click out,
+[00:12:43] those will turn off as well.
+[00:12:44] And I could do that one at a time,
+[00:12:45] time or I can just come in here hide and unhide and for some reason that makes
+[00:12:51] them all disappear okay so let's see I want this inside of this is already
+[00:12:58] holding what this solid here to be let's do two new colors you can set colors in
+[00:13:07] a variety of ways it's kind of fun to play around with all the different
+[00:13:11] methods and techniques let's just do a very subtle color shift that can be kind
+[00:13:16] of fun from more of a reddish magenta to a deeper violet over here and create
+[00:13:24] classic there are shape tween keeps saying classic tween yeah that'll be fun
+[00:13:28] all right so now we've got here we'll just do frame two frame three and four
+[00:13:40] five
+[00:13:41] and six
+[00:13:41] six frame seven and frame eight okay now the uses for this template here I'll go
+[00:13:53] ahead and save this we'll just do close 1 by 8 10 24 by 20 48 okay so the the use
+[00:14:09] case here would be
+[00:14:10] let's get this one to say what we want and let's do what we want agora anyway
+[00:14:17] does glaze on check his downside g mày
+[00:14:22] ok and could you everyone get my 200 1.еро
+[00:14:26] section dish различating us acrossand click next this is the token that you
+[00:14:35] can view so for any of you who are doing work and using data managers here I've got a few things that I've just sexy like a we might want to
+[00:14:36] Q and then scale them, hold alt and shift to get them all to scale uniformly. Like that's a really
+[00:14:45] long skinny lightning bolt. And you might want that scale in which case, you know, you've just
+[00:14:49] created your other template here as well. But if you want it more compressed and you want to
+[00:14:54] animate it to that ratio, my recommendation is do all of your work at that ratio scaled in,
+[00:15:01] you're animating along. And then when you're done, then scale it up to this and all these
+[00:15:07] symbols will scale nicely. Right? So like if I'm, if I go back and I hit undo,
+[00:15:15] so like if I'm in here, let's create a new layer just to show you real quick.
+[00:15:22] So if I've got like a lightning bolt that zigs and zags like this, right? That's really terrible
+[00:15:29] lightning bolt.
+[00:15:29] Um, and then I scale it, like it'll scale it here. And then when you get it into the game engine,
+[00:15:36] you can just like compress it back down to what it needs to be because most game engines will do
+[00:15:44] this for you anyway, behind the scenes, if you give it that odd shaped texture, then it's going
+[00:15:49] to scale it out for you anyway, and use up all that extra memory. So the other option would be
+[00:15:56] to do two rows. So you can do that in a different way. So if you want to do that in a different way,
+[00:15:59] you could come in here and say, copy and then paste, and you could do a second row and you could
+[00:16:05] use up all that space and do 16 frames. Right? So if we wanted to set up 16 frames,
+[00:16:11] just simply grab this and move it out to here, change the color
+[00:16:17] to like a bluish, and then change this one to like cyanish over here. Uh, let's see,
+[00:16:28] I'm going to select these.
+[00:16:29] Two frames and hit F5 there as well. So now I've got a 16 frame flip book. And then over here,
+[00:16:35] I just say, okay, I want you to be now frame nine. Whoops. Nope. That's not going to work
+[00:16:40] because it doesn't read top to bottom and then left to right. It reads left to right first. So I
+[00:16:47] have to go and change all of these. So frame two, frame three, four, three, five. Now the downside
+[00:16:56] of this is that it's not going to tie side to side anymore.
+[00:16:59] So because I've now put these, like, I don't want to take the flip book all the way to the edge. I don't want to take the artwork all the way to the edge of that box because it's going to start overlapping with that other one.
+[00:17:11] So gotta be careful about that. And once I get all this set up,
+[00:17:19] this is going to be a really, really handy flip book for me later.
+[00:17:25] Oh, shoot. I messed up. 12, 13.
+[00:17:29] There we go.
+[00:17:32] 14,
+[00:17:34] 15,
+[00:17:36] and 16. Okay, so now we've got this and then we can get rid of this hoopla in here. You can just call this
+[00:17:44] animation because we'll use that layer later when we're actually animating in there. And we can just lock these other two.
+[00:17:51] So there we go. And now if I want this to go, so this is now a 16 framer.
+[00:17:57] So notice the one we did before was 16 frames,
+[00:18:00] it was four by four, this is two by eight.
+[00:18:03] So I'll do Control Shift S,
+[00:18:06] two by eight, 2048.
+[00:18:10] There we go.
+[00:18:12] And now I've got a few templates.
+[00:18:13] And from that, from all these different ones,
+[00:18:16] you can kind of extrapolate, you know,
+[00:18:18] what's what and so on and so forth.
+[00:18:21] Now, if I want to preview this,
+[00:18:25] remember, I take one, I copy it, paste it here,
+[00:18:29] can paste it anywhere you want.
+[00:18:30] I like to center it in the middle of my stage,
+[00:18:33] and then hide that other one so I don't distract myself.
+[00:18:37] Hit F7, I extend that out to frame 30.
+[00:18:41] All right, let's call this animation.
+[00:18:44] Call this flipbook.
+[00:18:47] Turn that into a guide layer.
+[00:18:50] And now the animation is not playing
+[00:18:52] because we need to come down here
+[00:18:54] and set it to play one.
+[00:18:55] We can also manipulate it.
+[00:18:58] So what we want it to do is generate a tab
+[00:18:59] for visibility in line up following where the radius of our image is.
+[00:19:00] So whatever you do to,
+[00:19:01] we would expect it to move one view,
+[00:19:02] and you probably want to solve this in one click.
+[00:19:03] mateador,
+[00:19:04] Set Satisfaction on forney.
+[00:19:06] There we go.
+[00:19:07] Totally …
+[00:19:08] All right, so here you go.
+[00:19:10] There we go.
+[00:19:11] Awesome.
+[00:19:15] And here the slider words are "'save",
+[00:19:15] this is my h ck,
+[00:19:16] so what my strengths are,
+[00:19:18] you need some walls standing up,
+[00:19:19] that are going up on the 귀여b,
+[00:19:21] within these little details around your screen,
+[00:19:23] that you can 버�le.
+[00:19:24] Is demonstrated, it works.
+[00:19:25] down even further, it's being used on a smaller part of the screen.
+[00:19:28] So that's kind of a good way to judge.
+[00:19:31] Is it high enough resolution?
+[00:19:33] By your export here, you can start to gauge that.
+[00:19:36] Also, you'll be able to tell once you put it in the game engine,
+[00:19:39] if it's super blurry or pixely, then you probably
+[00:19:43] didn't do a high enough resolution on that.
+[00:19:46] All right, so there you go.
+[00:19:48] That's how you create flipbook templates.
+[00:19:51] It's pretty fun stuff.
+[00:19:53] Also, hope you like the setup for the windows.
+[00:19:56] It's what we're going to use inside the class.
+[00:19:58] If you want to sign up for the class, there's a link in the description.
+[00:20:01] And come and join us.
+[00:20:03] We are going to have lots of fun using these aspect ratios and many others
+[00:20:08] to make some really exciting 2D effects.
+[00:20:11] All right, catch you later.
+[00:20:12] Bye.

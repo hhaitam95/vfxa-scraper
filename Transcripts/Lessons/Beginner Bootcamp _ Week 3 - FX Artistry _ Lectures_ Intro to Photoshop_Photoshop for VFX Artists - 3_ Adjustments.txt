@@ -1,0 +1,579 @@
+[00:00:00] Oh, hey guys.
+[00:00:02] Let's learn some more about layers in Photoshop.
+[00:00:06] So we've already done two videos.
+[00:00:08] Hope you've watched those.
+[00:00:10] There's a video that I did on the tools in Photoshop
+[00:00:13] and then a video on introduction
+[00:00:14] to layers and selections in Photoshop.
+[00:00:17] And now we're gonna talk a little bit more
+[00:00:19] about sort of the advanced components
+[00:00:22] about layers like layer styles.
+[00:00:25] We're gonna talk about adjustment layers.
+[00:00:26] We're gonna talk about smart objects.
+[00:00:29] This is super exciting.
+[00:00:30] So David Shevlin, who did this painting,
+[00:00:32] he used these techniques in the paintings
+[00:00:36] that he did for the class,
+[00:00:37] that there's a link in the description
+[00:00:39] if you wanna sign up for the class.
+[00:00:40] And by the way, if you wanna get all of these PSDs
+[00:00:43] that's shown in this four-part video series,
+[00:00:46] you can get those in the class.
+[00:00:49] So if it's not out yet, there's a wait list.
+[00:00:52] There's an email list you can subscribe to.
+[00:00:54] And if it's out, then I'll update that link
+[00:00:56] to the live class.
+[00:00:58] Okay, so anyway, this painting is so awesome.
+[00:01:02] I actually had Shevlin do it in two parts.
+[00:01:05] I'm gonna move my Cintiq a little closer here.
+[00:01:08] So he did it in two beats, beat one and beat two,
+[00:01:12] where the lightning is striking
+[00:01:13] and then where it's dissipating.
+[00:01:15] And he used this really interesting technique
+[00:01:19] called a smart object.
+[00:01:21] Now this layer here is a smart object already.
+[00:01:25] Normally if you wanted to create smart objects,
+[00:01:29] you would just highlight more than one layer
+[00:01:31] by holding shift or control.
+[00:01:33] And then you would right click
+[00:01:34] and say convert to smart object right there.
+[00:01:38] So that's how they're created.
+[00:01:42] But let me show you what they are.
+[00:01:43] So basically a smart object is a container
+[00:01:47] of multiple layers inside of one layer.
+[00:01:50] And that's really powerful because it's very similar
+[00:01:52] to the functionality of like,
+[00:01:54] if you're familiar with After Effects,
+[00:01:56] they use comps in After Effects
+[00:01:57] or in Flash they use symbols.
+[00:01:59] And it's basically just a way to organize your work
+[00:02:01] but also to apply changes on top
+[00:02:04] of that group of layers all at once.
+[00:02:07] I'll show you what I mean.
+[00:02:09] So if I double click on the icon,
+[00:02:11] I come down into this PSB right here
+[00:02:16] and it's got all these layers going on.
+[00:02:18] And I can look at these just like, you know,
+[00:02:21] any collection of layers in Photoshop
+[00:02:23] and make all my edits in here to color, size, whatever.
+[00:02:27] And then if I save that PSB,
+[00:02:30] that will be updated out here on my stage,
+[00:02:33] which is pretty cool.
+[00:02:34] And then out here on the stage,
+[00:02:36] I can apply effects like I did here
+[00:02:38] and we'll get into what those effects are exactly.
+[00:02:42] But when I apply it once,
+[00:02:43] it changes like all of the layers together
+[00:02:46] inside of that smart object.
+[00:02:48] Really cool thing about smart objects,
+[00:02:50] if I select this,
+[00:02:51] remember we have show transform controls,
+[00:02:54] and I scale this down and I hit enter
+[00:02:58] and then, you know, I go and do other stuff
+[00:02:59] and then later on I'm like, you know what,
+[00:03:01] I want that to be big.
+[00:03:02] If I scale it back up all the way,
+[00:03:04] it keeps the same fidelity.
+[00:03:07] Whereas if that were just a flattened layer
+[00:03:11] out here in Photoshop, that fidelity would be lost.
+[00:03:13] I'll show you what I mean.
+[00:03:14] So I can create a new layer down here
+[00:03:17] and then I can move that underneath
+[00:03:21] and then do select this and hit control E
+[00:03:23] that merges the two layers together, right?
+[00:03:27] If I did it this way and do control E,
+[00:03:32] it doesn't work, the blank layer won't merge down.
+[00:03:35] So I have to put it down here
+[00:03:36] and then do control E to merge it.
+[00:03:40] Anyway, then if I scale that down, hit enter,
+[00:03:44] scale it back up, hit enter,
+[00:03:46] you see that it's lost its fidelity
+[00:03:47] because I crunched it down.
+[00:03:49] That was the new pixel density
+[00:03:51] and none of that information was preserved
+[00:03:52] when I scaled it back up,
+[00:03:54] let alone all the different filters and glows
+[00:03:56] and layer separation that Shovlin included in this guy.
+[00:04:01] So I'll just hit undo a few times,
+[00:04:04] get back to where I wanna be.
+[00:04:06] Cool, so that's smart objects.
+[00:04:10] They're smart, should totally use them.
+[00:04:12] If you want to get layers inside of your smart object
+[00:04:17] back out to your stage, this is a common thing.
+[00:04:19] You have to kind of do a little funky work around.
+[00:04:21] This is the only way I've found to do it.
+[00:04:22] If you guys know other ways, that's fine.
+[00:04:25] Leave a comment.
+[00:04:26] So if you grab this tab up here, you can tear it off.
+[00:04:30] And what that will do is it will tear off
+[00:04:33] the entire document.
+[00:04:36] So all of my layers are still here.
+[00:04:39] And if I click on this document over here,
+[00:04:41] see the layers changed to the smart object.
+[00:04:44] So I can, for clarity, I'll tear that one off as well.
+[00:04:47] So they're both torn off here.
+[00:04:49] So now if I focus this one, I see the layers
+[00:04:52] for the main Photoshop document.
+[00:04:54] If I click on this one, I see the PSB layers.
+[00:04:58] So I can come over here and let's see,
+[00:05:02] first I'll go to the Photoshop document,
+[00:05:03] make sure, yeah, that's as good a spot as any.
+[00:05:06] I'll just create a blank layer up here for good measure
+[00:05:10] just so I can track where I'm gonna be dumping
+[00:05:12] these layers from the inside.
+[00:05:15] So I can come over here and I can just basically
+[00:05:17] just click here, hold shift, click down here,
+[00:05:22] and then drag these out to the Photoshop document stage.
+[00:05:28] Bam.
+[00:05:29] And there I've got them.
+[00:05:32] Oh, I had auto-select turned on.
+[00:05:34] Gosh dang it, it's all messed up now.
+[00:05:38] Remember what we learned about auto-select,
+[00:05:40] how terrible that is sometimes.
+[00:05:42] So now I deselected all of this and it's a total mess.
+[00:05:47] Well no it's not, because it's in the folder.
+[00:05:49] It's all neatly organized.
+[00:05:50] Look at that.
+[00:05:51] So I know that these are, right,
+[00:05:57] and I can put that out here on my stage,
+[00:05:59] and now I've got all of the stuff,
+[00:06:01] the guts of this smart object are now back out on my stage.
+[00:06:05] So that's a way to move that around.
+[00:06:08] So now you know how to create smart objects.
+[00:06:10] Again, I can just come in here and say,
+[00:06:13] highlight all these, oops, unhide it first.
+[00:06:16] Highlight all these, convert to smart object,
+[00:06:20] and now I have two, beat two smart objects.
+[00:06:25] Just weird.
+[00:06:26] Okay, enough about smart objects.
+[00:06:28] They're useful, try them out, super good stuff.
+[00:06:32] I'm gonna delete that.
+[00:06:35] Yeah, cool, we're back to where we were.
+[00:06:37] Next up, I wanna talk to you guys about blend modes.
+[00:06:40] This is super important to know, blend modes in Photoshop.
+[00:06:43] Also, interesting fact, blend modes mimic
+[00:06:46] a lot of behavior that you see in game engines.
+[00:06:48] So like, whether it's translucent, or additive,
+[00:06:53] or subtractive, or some other weird thing
+[00:06:56] that the material in a game engine might be doing,
+[00:06:58] these are sort of akin to blend modes in Photoshop.
+[00:07:02] Blend modes can be found in a few different places.
+[00:07:04] This is gonna bug me if I leave this.
+[00:07:07] No, don't save changes, just in case.
+[00:07:09] Whoops, don't maximize, you gotta drag this
+[00:07:12] up until it turns blue again to dock it
+[00:07:14] back to your mainframe.
+[00:07:16] Anyway, blend modes for each layer are shown up here.
+[00:07:21] This right here where it says normal,
+[00:07:23] that's the blend mode window.
+[00:07:24] And I'm gonna go to the other painting to illustrate this
+[00:07:26] because Shovlin makes good use of blend modes
+[00:07:29] for this frame, transform controls.
+[00:07:34] Okay, so for one, this bright thing,
+[00:07:39] if I hide that you can see what it is,
+[00:07:41] is using linear dodge, or that's basically additive
+[00:07:45] blend mode, if I change that to normal,
+[00:07:49] it doesn't actually change.
+[00:07:51] So I should probably use a better example of that.
+[00:07:55] Hang on one second, please stand by.
+[00:07:58] No, that's normal.
+[00:08:00] Wait, wait, warm orange core.
+[00:08:03] Yeah, that'll be good.
+[00:08:06] Okay, so this is this orange painted over the top
+[00:08:10] of that reddish core right there.
+[00:08:12] And if I change that to normal, gosh dang it,
+[00:08:17] it looks the same.
+[00:08:18] Well, I know somewhere that it's gonna work.
+[00:08:25] Do, do, do, do, do, do, do, do, do.
+[00:08:29] Let's do this guy at the bottom here.
+[00:08:33] So this orange glow, it's a nice orange glow here.
+[00:08:37] If I change that, it doesn't really change,
+[00:08:41] but you can see here it's gonna change
+[00:08:44] if I don't have stuff below it.
+[00:08:46] So there it goes more saturated,
+[00:08:48] where it's just blending in a normal way.
+[00:08:51] And then here it goes additive,
+[00:08:55] where it's lighting up what's beneath it.
+[00:08:57] So I like this, I like to compare this to the lens.
+[00:09:00] So if I have like an orange lens, right,
+[00:09:02] I can put that lens on the ground,
+[00:09:05] and it will tint the ground orange
+[00:09:07] when I'm looking at that ground.
+[00:09:09] Or I can take that orange lens and put it up on a spotlight
+[00:09:12] that then shines down onto the ground
+[00:09:15] and illuminates it orange, and that's additive.
+[00:09:18] So additive light versus just simple subtractive light,
+[00:09:24] I guess is what it technically is,
+[00:09:26] but in an engine you just call that normal
+[00:09:28] or like translucent or alpha blend,
+[00:09:31] where it's just blending the alpha together,
+[00:09:34] tends to be more opaque,
+[00:09:35] but then additive tends to be less saturated.
+[00:09:39] So it's like really what you wanna go for.
+[00:09:43] All right, I've explained that.
+[00:09:45] There's also some other really fun ones on here.
+[00:09:47] You can play around with these like,
+[00:09:49] fun fact, you can just click here
+[00:09:52] and then hit the down arrow
+[00:09:53] and it'll just scroll through the different blend modes.
+[00:09:55] And you'll see in the tutorials that Shevlin does,
+[00:09:58] he does this a lot,
+[00:10:00] where he's like playing around with different blend modes
+[00:10:02] to get it to feel just the way he wants.
+[00:10:04] A lot of us just kind of shoot from the hip on this stuff.
+[00:10:07] So kind of just make it your own.
+[00:10:11] Keep in mind that blend modes can go away very easily.
+[00:10:16] Like say I do like multiply,
+[00:10:19] and then I'm like,
+[00:10:20] I want that to then merge with all these other layers
+[00:10:23] and stuff like that.
+[00:10:24] It'll reset it because the way that they're overlapping
+[00:10:29] and then you try to merge multiple layers together
+[00:10:31] to flatten them together,
+[00:10:33] it'll oftentimes ruin whatever interactions
+[00:10:36] they were having of blend modes.
+[00:10:38] So just be cautious of that
+[00:10:41] as you're like tinkering around with it
+[00:10:42] and then you wanna like flatten it
+[00:10:44] or apply like a global like overlay to it or filter.
+[00:10:49] It might have weird interactions.
+[00:10:51] You're gonna see more of that throughout this video too,
+[00:10:52] by the way.
+[00:10:53] This is not an exact science.
+[00:10:56] Okay, so next up is layer effects or layer styles.
+[00:11:02] So to get to those,
+[00:11:05] you're either gonna double click.
+[00:11:07] There's three places you can double click to get to these.
+[00:11:10] You can double click here on the thumbnail.
+[00:11:12] If it's a smart object,
+[00:11:13] that won't work cause it'll go into the smart object.
+[00:11:15] So you can also double click on the blank next to the text.
+[00:11:19] Remember double clicking on the text highlights it
+[00:11:22] and changes it.
+[00:11:23] You can also double click on the word effects beneath it
+[00:11:27] and brings up your layer style menu.
+[00:11:29] Guys, this is where it's at.
+[00:11:31] There's all kinds of cool stuff in here.
+[00:11:33] Right now it's just doing an outer glow.
+[00:11:35] You can see a preview of what that's gonna be.
+[00:11:38] Let me pull up a layer
+[00:11:40] that is better suited for this demonstration.
+[00:11:44] Yeah, the red splash, beautiful, perfect.
+[00:11:48] So here's what it looks like without effects.
+[00:11:50] I can just hide that here
+[00:11:52] and you can see it's just red, right?
+[00:11:55] So he's got a few things going on.
+[00:11:58] Double click on that to get in there.
+[00:11:59] He's got stroke, inner glow and outer glow turned on.
+[00:12:05] A lot of these others you can tinker with them
+[00:12:07] but I don't use them very often.
+[00:12:09] I do use color overlay and gradient overlay
+[00:12:12] but then things like satin, inner shadow, bevel and emboss.
+[00:12:16] You remember bevel and emboss from the 90s
+[00:12:18] with like the business cards?
+[00:12:20] It's pretty cool stuff.
+[00:12:21] You can make your art look three dimensional guys.
+[00:12:25] That's the pro tip for the day.
+[00:12:28] Okay, nevermind, never use bevel and emboss.
+[00:12:29] Okay, so stroke just adds this stroke around the outer edge.
+[00:12:34] See that nice outline?
+[00:12:36] And then he goes in in addition to this
+[00:12:39] and he does touch ups.
+[00:12:41] Touch ups, where does he do those?
+[00:12:44] Red touch ups, no that's a different one.
+[00:12:47] Maybe he doesn't do it on this layer.
+[00:12:48] I know he does it on others
+[00:12:50] because here it's kind of rounded at points
+[00:12:54] and sometimes you wanna paint
+[00:12:55] like a little bit of a stroke coming in.
+[00:12:57] Guys, you just gotta do that by hand sometimes.
+[00:12:59] The filter will only get you so far.
+[00:13:01] It's gonna kind of blunt out some of these edges.
+[00:13:04] Okay, anyway, I digress.
+[00:13:07] Back inside of the layer style window.
+[00:13:10] Stroke, you can choose your stroke color.
+[00:13:13] You can choose the size of it, et cetera.
+[00:13:15] It's pretty straightforward.
+[00:13:17] Some fun things here on inner glow.
+[00:13:20] So let's turn off stroke just so that we can see
+[00:13:22] what these two things,
+[00:13:24] because they're similar to each other
+[00:13:26] but different in key ways.
+[00:13:28] On inner glow, he's got it set to black
+[00:13:32] and it's radiating from the center.
+[00:13:34] You can see the center is selected here, not edge.
+[00:13:37] If it were edge, it would be black on the edge
+[00:13:40] bleeding in towards the middle,
+[00:13:42] but he inverted that so that it's black in the middle
+[00:13:44] bleeding out and then he lowered the opacity
+[00:13:47] so it's not full black.
+[00:13:48] It's not like dark, dark black.
+[00:13:51] You've got things like size, which is how far it goes.
+[00:13:56] You've got the choke, which is how opaque it is.
+[00:14:00] It's like how rapidly does it fall off.
+[00:14:03] So like if it's, it's gonna be just a crisper edge
+[00:14:06] or like a sharper fall off of a glow
+[00:14:09] if that choke is cranked up.
+[00:14:11] And then you've got softer or precise.
+[00:14:15] Sometimes I use precise when I want to do
+[00:14:17] like an erosion map because it's more precise
+[00:14:20] but it doesn't look as natural, but it works
+[00:14:23] for more techie type erosion map stuff.
+[00:14:28] Okay, so after I've ruined that, put that back to 21.
+[00:14:34] Then we've got the outer glow.
+[00:14:35] So outer glow is outside of the shape, right?
+[00:14:39] We can change that to whatever color we want.
+[00:14:41] You know, I want a nice blue glow to show what's going on.
+[00:14:45] Same thing, I can like crank up the size.
+[00:14:48] I can crank up the spread.
+[00:14:51] That's actually pretty cool.
+[00:14:52] It's like vibrating on the screen there
+[00:14:54] with those intense colors.
+[00:14:56] Okay, fun fact about outer glow.
+[00:15:00] Oftentimes you'll want to do like something custom.
+[00:15:04] Like, you know, maybe it's like starts kind of orange
+[00:15:09] and it bleeds out to something red.
+[00:15:11] I can double click here on these little guys
+[00:15:13] to change that.
+[00:15:15] And then you have this nice fall off
+[00:15:18] if it weren't such a terrible spread.
+[00:15:20] And you can see that it fades to a nice off color.
+[00:15:25] And this is tricky to do in a game engine
+[00:15:27] depending on the engine.
+[00:15:28] Some of it you might have to like do like custom.
+[00:15:31] It's like a post effect on the bloom.
+[00:15:33] Other times, man, we just do our glows hand painted
+[00:15:36] so that we can get nice color variation in the glow.
+[00:15:39] It just gives it that extra sauce that feels really nice.
+[00:15:42] I don't know, sauce, jazziness, whatever.
+[00:15:46] All right, cancel that
+[00:15:47] because I completely ruined it with the effects.
+[00:15:51] Oh, I forgot to mention.
+[00:15:54] In the effects, the key thing at the top,
+[00:15:56] you'll notice there's also a blend mode.
+[00:15:58] So even your glow color,
+[00:16:00] how it's blending with the rest of your shape
+[00:16:03] can be changed here.
+[00:16:05] Just the glow, not the whole layer,
+[00:16:07] but just the different individual parts.
+[00:16:09] You can set a blend mode for each of those.
+[00:16:12] So that's fun.
+[00:16:14] All right, what else do I want to cover?
+[00:16:16] Layer styles, we've covered glow.
+[00:16:20] Let's talk about adjustment layers.
+[00:16:22] Guys, adjustment layers, pretty freaking sweet.
+[00:16:25] Okay, so an adjustment layer is gonna be down here.
+[00:16:30] Create new layers here.
+[00:16:32] These are your fills.
+[00:16:33] You got three different kinds of fills.
+[00:16:35] We don't really use those.
+[00:16:37] I guess they might be useful sometimes
+[00:16:38] to just put in a massive gradient or pattern or color.
+[00:16:43] But these right here,
+[00:16:45] and I guess all of these really are great.
+[00:16:50] They do all kinds of fun stuff.
+[00:16:51] I'm only gonna cover a couple of them.
+[00:16:53] I'm gonna start with hue and saturation
+[00:16:55] because that's like one of the easier ones to understand.
+[00:16:58] So here on hue saturation, if I change the hue,
+[00:17:02] you'll notice that it shifts the hue range on everything.
+[00:17:05] It doesn't just blanket convert everything to a hue.
+[00:17:09] It actually transitions all the hues along the spectrum.
+[00:17:14] So it's all gonna be relative.
+[00:17:16] Now let's say I got like this purplish pink
+[00:17:19] and I'm like, yeah, I love that.
+[00:17:21] But I don't want anything else to be purplish pink.
+[00:17:25] I just want the explosion to be purplish pink.
+[00:17:28] I can come down here and I can hold alt.
+[00:17:31] And when I mouse over between the two layers,
+[00:17:34] the one that I want to change and the one next to it,
+[00:17:37] this icon appears and it links them together.
+[00:17:42] Now it has linked them, but the effects are still,
+[00:17:49] they're still unaffected by what was linked.
+[00:17:53] And that's a downside of this.
+[00:17:55] So if you're gonna be linking adjustment layers,
+[00:17:59] try not to link them to something that has effects on it.
+[00:18:01] Maybe flatten it first.
+[00:18:03] So like I was saying earlier, hopefully your blend mode,
+[00:18:09] well I guess the blend mode is a whole other issue.
+[00:18:12] But maybe these different individual things
+[00:18:13] have their own blend modes and things and that might break.
+[00:18:16] But sorry, I guess, I don't know.
+[00:18:20] But once it's flat, I can link it.
+[00:18:23] And now these two guys are normal
+[00:18:26] and just this is using the hue saturation
+[00:18:29] and other things beneath it are also unaffected
+[00:18:32] by that hue saturation shift.
+[00:18:34] Whereas if it's unlinked, then freaking everything
+[00:18:37] is gonna get that adjustment layers effect.
+[00:18:42] Okay, so I want all my stuff back.
+[00:18:48] Do not want that to be flattened.
+[00:18:50] And then that, so that's hue saturation.
+[00:18:53] Now fun fact about hue saturation, it has this,
+[00:18:58] I guess every adjustment layer has this,
+[00:19:00] has a mask attached to it.
+[00:19:03] Now this mask is white.
+[00:19:05] So that means everything on the entire canvas
+[00:19:09] is gonna be affected by whatever's happening here
+[00:19:13] in these properties in this adjustment layer.
+[00:19:15] And these two are linked, which means that if I
+[00:19:21] move, I know this one.
+[00:19:26] If I move this around, it'll also move this around.
+[00:19:33] But that doesn't make any sense
+[00:19:35] because typically linking only matters
+[00:19:37] when you create a mask like so.
+[00:19:39] And then when you move the image around,
+[00:19:41] it'll move the mask with it.
+[00:19:43] But this is just properties.
+[00:19:44] I don't know why linking matters here.
+[00:19:47] Guys, I don't know, it's a mystery of the universe.
+[00:19:49] You can select these individually and delete them,
+[00:19:51] by the way, so I'm just gonna select that mask I created
+[00:19:53] and delete that.
+[00:19:54] Masks are fun because you can come over here
+[00:19:56] to your channels and you can unhide the mask
+[00:20:02] and then hide all the R, G, and B properties of this guy.
+[00:20:06] And then you can hit Control I, that'll invert the mask
+[00:20:10] so white turns to black if you Control I on the keyboard.
+[00:20:14] And then, I don't know, you can say, I want stripes.
+[00:20:20] Even better, I want checkers to show up.
+[00:20:26] This is gonna look terrible, guys.
+[00:20:29] So excited.
+[00:20:30] So now, only the areas that I painted white work like that.
+[00:20:35] You can come in, you can do,
+[00:20:38] we learned a little bit about filters, right?
+[00:20:42] So you can come in here, you can say filter,
+[00:20:45] blur, Gaussian blur, so maybe you want this
+[00:20:50] just kind of blotchy application of it.
+[00:20:53] And now, it's kind of blotchy in here.
+[00:20:55] You can have fun with it.
+[00:20:57] You can paint whatever the heck you want
+[00:20:59] into your mask.
+[00:21:01] And if a mask is on a normal layer,
+[00:21:05] it's basically just what of that layer shows up at all.
+[00:21:08] So that can work kind of fun too.
+[00:21:11] All right, that's enough of that hue saturation layer.
+[00:21:13] Let's get rid of that.
+[00:21:14] Oh, I deleted the mask and now I delete the layer itself.
+[00:21:18] Okay, so let's create a gradient map layer.
+[00:21:25] Now, gradient map is like hue saturation in some ways,
+[00:21:29] but also totally different and completely not the same.
+[00:21:32] So it is similar in that you can link them
+[00:21:35] like any adjustment layer, right?
+[00:21:36] And then, you know, do your thing here.
+[00:21:39] Those effects are really messing it up.
+[00:21:41] So anyway, the link, but I don't want to do it
+[00:21:45] on this layer actually, because this is just a solid color.
+[00:21:49] Let's find a layer that has some color depth to it
+[00:21:52] or value depth rather.
+[00:21:54] That's really what I'm after.
+[00:22:01] You know what?
+[00:22:02] I know what we're going to do.
+[00:22:03] We're going to go back over to the other painting
+[00:22:05] because it has a smart object.
+[00:22:09] And also this is using a gradient overlay, which is,
+[00:22:16] well, I'll just show you what a gradient overlay is.
+[00:22:18] How about that?
+[00:22:20] So if I double click on this effects here
+[00:22:23] that's happening on this smart object,
+[00:22:26] you'll see that the only thing he's using
+[00:22:28] is a gradient overlay, which basically overlays a gradient
+[00:22:32] on top of the colors.
+[00:22:34] You've got the controls here where you can drag this around.
+[00:22:38] If you move it away, it like disappears, pops away.
+[00:22:41] You can change the alpha of each position up here, et cetera.
+[00:22:46] You'll notice that he's blending it using color.
+[00:22:49] So that's his blend mode.
+[00:22:50] He's not using normal.
+[00:22:51] Normal would actually look quite different
+[00:22:54] where it's just kind of slapping a color on top of there
+[00:22:59] and not really respecting the value shifts,
+[00:23:03] whereas color keeps those values intact
+[00:23:06] where the darks stay dark and the whites stay white.
+[00:23:11] So that's a lot of fun.
+[00:23:12] You can do a radial gradient or a linear gradient.
+[00:23:16] There's a linear, so now it's just like top to bottom.
+[00:23:19] Or you can do the whole radial.
+[00:23:21] Deal.
+[00:23:23] Cool.
+[00:23:24] That's radial gradient effect,
+[00:23:25] but we're not gonna use that.
+[00:23:26] We're gonna turn that off.
+[00:23:27] So it's just here.
+[00:23:30] And we're gonna use instead a gradient map.
+[00:23:34] I use this all the time, guys.
+[00:23:36] Oh.
+[00:23:38] Well, shoot.
+[00:23:39] Okay, for our purposes of our demonstration,
+[00:23:42] I wanna get this red involved.
+[00:23:46] So what I'm gonna do is I'm gonna do the red bold touch up.
+[00:23:50] And I'm gonna merge that down.
+[00:23:54] I can't merge down because that has effects on it.
+[00:23:55] Remember, there we go.
+[00:23:57] If I highlight both of them, I can.
+[00:24:00] Fun fact.
+[00:24:01] Magenta glow touch ups, sure.
+[00:24:03] Let's merge that as well.
+[00:24:04] So, okay.
+[00:24:07] Now we've got this gradient map.
+[00:24:08] We're gonna link it to just this guy here.
+[00:24:12] And we're gonna play around with what this can do.
+[00:24:16] So if I come over here to my properties, I have a gradient.
+[00:24:19] Right now, green is mapped to black.
+[00:24:22] So I can come, change black to black.
+[00:24:26] So now it's just overlaying,
+[00:24:29] and it's really, really washing everything out in a bad way.
+[00:24:31] So probably I should do something not so strong as black.
+[00:24:35] Whoa, that's cool.
+[00:24:38] So you can have a lot of fun with this.
+[00:24:40] You can come over here.
+[00:24:41] Maybe I want my whites to be pink.
+[00:24:44] Right, I don't know, pink's a lot of fun.
+[00:24:47] And then maybe I want my hot whites to be more of a cyan,
+[00:24:51] but like desaturated maybe.
+[00:24:54] All right, yeah, that's looking pretty sick.
+[00:24:56] Yeah, I can like crank that up
+[00:24:57] so they show up a little sooner.
+[00:24:59] And I mean, really guys, you can just have a ball with this.
+[00:25:03] You can have a lot of fun with your gradient maps.
+[00:25:07] You can like, I don't know, toss a spot of blue in there,
+[00:25:11] somewhere along the way, just randomly.
+[00:25:14] Maybe make it more saturated, that'll ruin the whole thing.
+[00:25:18] That's exciting.
+[00:25:19] When you do like a band of black,
+[00:25:21] it can feel like inverted dark magic.
+[00:25:23] That's kind of crazy.
+[00:25:24] So gradient map, it's a great way
+[00:25:28] to just quickly recolor everything that you do.
+[00:25:33] Now there's much more sophisticated ways to do this.
+[00:25:37] Right now I'm just doing this like blanket
+[00:25:41] on top of all the layers.
+[00:25:44] If I wanted to be more deliberate,
+[00:25:46] I could go in layer by layer and just say,
+[00:25:48] this layer have a gradient map.
+[00:25:50] This one have a hue transition.
+[00:25:52] And this one over here, put some extra glow on it
+[00:25:55] or make it additive.
+[00:25:56] And that's why you end up seeing so many layers
+[00:25:59] inside of this painting is because
+[00:26:02] it really makes a big difference to fidelity
+[00:26:06] and like readability and control, artistic control
+[00:26:10] when you use these judiciously rather than just like bang,
+[00:26:13] put something on and it looks like,
+[00:26:15] it looks like someone put a post-process effect on it
+[00:26:17] because that's exactly what these are.
+[00:26:20] So that's adjustment layers.
+[00:26:25] They do all sorts of neat things.
+[00:26:27] Clicking around in these is not super intuitive.
+[00:26:30] Hopefully, like the alt you've learned like something,
+[00:26:33] I can unlink it with alt as well.
+[00:26:35] And yeah guys, I mean, some really cool stuff
+[00:26:39] you can do here.
+[00:26:40] I'm really excited to see what you're able to crank out.
+[00:26:43] So stay tuned for the fourth and final video.
+[00:26:48] We're gonna wrap this up and by the end of all this,
+[00:26:52] you should be ready to follow along with
+[00:26:54] what Sheldon's doing in his videos.
+[00:26:56] And I hope you guys learned something
+[00:26:59] and let me know what more you wanna learn.
+[00:27:02] Have a good one.

@@ -1,0 +1,233 @@
+[00:00:05] Hello everyone, welcome to the Lightning Beam Breakdown video of the Elemental Studies course.
+[00:00:11] As usual, we'll start this video by having a quick talk on the concept art of the effect,
+[00:00:16] and we'll continue on with a technical breakdown of each of its components, so let's get
+[00:00:21] to work.
+[00:00:24] This is the concept art of the Lightning Beam effect. As for previous effects, this one
+[00:00:29] was created with one main idea in mind, having a clear hierarchy between components within
+[00:00:34] the effect.
+[00:00:36] The shining star of the effect are those big lightnings. They are supported by secondary
+[00:00:41] components, such as those small lightnings and impact shapes, while tertiary components
+[00:00:47] make everything blend together.
+[00:00:50] Despite having a lot of components, compared to other effects we've made during this
+[00:00:54] course, taken individually, those components are quite simple. Sparks, glow, impact shapes.
+[00:01:00] We've already made those types of components and know how to create those.
+[00:01:05] Let's take a closer look at the effect in Unity Engine. Well, I went a bit overboard
+[00:01:11] by modelling those Tesla cars, but the final result in Game Engine is quite close to the
+[00:01:15] original concept.
+[00:01:19] Let's now take a look at the technical breakdown of the effect. The lightning beam is a bit
+[00:01:23] complex to look at, a lot of things are going on, but by reviewing each component individually,
+[00:01:29] it will greatly help visualise and understand the entire effect and the tech behind it.
+[00:01:36] Note that this effect is supposed to be viewed from a top-down view, impacting some of the
+[00:01:41] particle system setup choices.
+[00:01:45] Let's start with the most visually important component, the lightning beam.
+[00:01:50] This component's model is using the regular alpha blend shader made during the Comfire
+[00:01:54] breakdown video. It's using both the opacity fade method and smooth step dissolve and has
+[00:02:00] a high emissive value intensity.
+[00:02:04] The texture used here is a 2x4 lightning texture spreadsheet.
+[00:02:09] In Photoshop, we'll first set up our grid tool to have a clear preview of dimensions
+[00:02:14] of each sprite and paint thanks to an art brush or lightning shapes.
+[00:02:20] Those lightnings are quite long, you need to have some shape and rhythm variations in
+[00:02:24] them to keep them interesting to look at while keeping the starting and ending point of the
+[00:02:30] beam quite straight.
+[00:02:33] Keep your angular variations snappy and use the Big, Medium, Small rule, where you build
+[00:02:37] your shape by using big, medium and smaller variations. This hardwired line works for
+[00:02:43] almost everything.
+[00:02:45] If needed, we can speed up the spreadsheet creation process with a little trick. We just
+[00:02:50] have to create our four first shapes, duplicate and mirror them, and distort each shape thanks
+[00:02:56] to the Warp option of the Free Transform tool.
+[00:03:00] This is a very fast way to quickly make multiple different sprites, but if you got the time
+[00:03:05] to do it, I highly recommend you to make 8 different and unique shapes, but with this
+[00:03:10] technique I've shown you, we might see some repetitive pattern through our original and
+[00:03:15] duplicated shapes.
+[00:03:19] Remember that you can always go back and refine your textures. Oftentimes, it is easier to
+[00:03:24] see if your shapes work after importing them into the engine. So try to avoid spending
+[00:03:29] too much time on your texture only to realise that you don't like the result in engine.
+[00:03:36] Once our basic shapes are done, we'll apply the Coercion Blue technique on them.
+[00:03:40] Now that we've made our texture, we'll assign it on our Lightning Beam material and review
+[00:03:46] its particle system setup. In the Render module, we set the Render mode to Horizontal Billboard,
+[00:03:54] assign our Lightning Beam material, and set a Order in Layer value above 1 to make this
+[00:03:59] particle system rendered in front of most components of our Lightning Beam effect.
+[00:04:06] We then activate the Texture Sheet Animation module. We're going to set the number of
+[00:04:10] ties to 2 by 4, or our current sprite sheet as 2 columns and 4 lines, and set the frame
+[00:04:16] over time on a random constant between frame 0 and 8.
+[00:04:22] In the General module, we take the Looping option, set a Low value in the Duration property,
+[00:04:27] and set the Start Lifetime value between two small constants values, to have some lifetime
+[00:04:32] variations for each lightning. We'll play around with the 3D Start Size property to
+[00:04:38] stretch our horizontal billboard mesh. We will then set the correct rotation values
+[00:04:43] on our XYZ axis to get the right orientation for a billboard mesh to connect both coils
+[00:04:49] shears. After that, we choose a Filling Color in the
+[00:04:54] TopGrow property. If you feel like your entire emitter is too slow, one way to speed things
+[00:05:00] up is to directly set up a value above 1 in the Simulation Speed property. This value
+[00:05:05] will multiply all time-related properties of your entire particle system by the value
+[00:05:10] you've just registered in this property. In the Emission module, we spawn a single
+[00:05:17] particle during each cycle of the particle system through a Burst list.
+[00:05:23] To simulate the blinking animation of our lightning particles, we can create two different
+[00:05:28] gradients. One simple gradient for the max alpha is all from 10 to 80% of the particle
+[00:05:34] lifetime, and another like this one, but with an alpha variation, with ups and downs in
+[00:05:40] alpha values to simulate the blinking effects. Those gradients set up goes nicely with our
+[00:05:47] material controlling the emissive intensity through the vertex closed alpha, making our
+[00:05:52] shapes very bright and bloomy at max alpha value, and use all emissive and opacity values
+[00:05:58] at minimum alpha value. Finally, we can activate the Size of a Lifetime
+[00:06:03] module to add some stretch on the Y axis of our mesh, to simulate tension in our effects.
+[00:06:09] We can use a random value between a flat curve and an easing curve to get this result.
+[00:06:14] If you want, you can add some velocity of a lifetime to our lightning beam particle
+[00:06:20] to simulate the displacement of the texture. For that, we just have to set a random value
+[00:06:26] between a negative and positive value on the Z axis to make the texture look like it's
+[00:06:31] being pushed and is unstable. It's quite small, just like with the size
+[00:06:36] of a lifetime setup we've made earlier, but enhance our effect and the feeling of
+[00:06:40] flow and conduits between the two tesla-coil spheres.
+[00:06:45] And we got there the base of our lightning beam effect. Time to tackle the other components.
+[00:06:53] We continue with the breakdown part of this video with a second most visually impactful
+[00:06:56] effect, the small lightning around the coil sphere.
+[00:07:02] This component's model is using the regular alpha blend shader made during the campfire
+[00:07:06] breakdown video. It's using the opacity fade method and has a high emissive value
+[00:07:11] intensity. The texture used here is a 2x2 spreadsheet
+[00:07:17] of tiny lightnings. In Photoshop, once again, we're going to
+[00:07:22] use the grid tool to have a clear preview of the dimensions of each sprite and paint
+[00:07:26] thanks to a hard brush or small lightning shapes.
+[00:07:30] Those small lightnings are quite small compared to the lightning beam, so we need less noise
+[00:07:36] in those while keeping the rule of big, medium, small to create interesting variations in
+[00:07:40] our shapes. Once our basic shapes are done, we'll apply
+[00:07:45] the Gaussian blood technique on them. Our texture is done, we'll now assign it to
+[00:07:55] our small lightning material and talk about the particle system setup.
+[00:08:00] The render module, we set the render mode to Billboard, assign our small lightning material,
+[00:08:05] and set a order in layer value below 0 to make them rendered behind most components
+[00:08:10] of our lightning beam effect. We then activate the texture sheet animation
+[00:08:15] module. We're going to set the number of threads to 2x2 for our current texture sheet
+[00:08:20] as two lines and two columns, and set the frame over time on a random constant between
+[00:08:24] frame 0 and 4. In the general module, we'll take the Looping
+[00:08:29] option, set the Start Lifetime value between two small constants values to have a fast
+[00:08:35] and erratic effect. We'll play around with the Start Size property
+[00:08:39] to get uniform size variations for our small lightning shapes, and set a Start Rotation
+[00:08:44] value between 0 and 360 to add more variations to our particles.
+[00:08:48] We'll then choose a Filling Color in the Start Color property.
+[00:08:54] In the Emission module, we'll use both the Rate Over Time and Burst method to once again
+[00:08:59] add variety in the spawning number of particles. In the Shape module, we set the Shape property
+[00:09:05] to Sphere, with a small radius and radius thickness, to avoid our particles to spawn
+[00:09:10] at the center of the sphere spawning shape. In the Color Over Lifetime module, we'll
+[00:09:16] go for a classic Fade In, Fade Out gradient, making the Emissive Intensity lower with the
+[00:09:21] Alpha truly help us get this lightning feeling right, making our shapes very bright and bloomy
+[00:09:27] at the start of the lifetime, and fade away in Emissive and Opacity at the end of it.
+[00:09:33] Finally, we'll activate the Size Over Lifetime module, and set an EZ curve to make our small
+[00:09:39] lightning shapes scale up quickly at the start of the lifetime, before stabilizing near the
+[00:09:44] end of it.
+[00:09:45] If you want, you can activate the Light module to spawn real-time lights with our small lightning
+[00:09:51] particles, to emphasize the power and physical impact of those lightnings on the coiled spheres.
+[00:09:58] You can reuse the light prefab we made during the campfire breakdown video, just don't
+[00:10:03] overdo it and make sure to have a low Range and Intensity multiplier value. We don't
+[00:10:08] want those lights to steal all the attention. And with that last touch, we are good to go.
+[00:10:16] Now, to add some punch to our lightning beam effect, we'll make some impact shapes where
+[00:10:21] the lightning beam connects to the Tesla Coiled Sphere.
+[00:10:26] This component's model is using a regular Alpha Blend shader, once again the same that
+[00:10:31] we made during the campfire breakdown video, with the High Emissive Intensity value, and
+[00:10:37] using the Opacity Fade feature. The texture we will be using is a spreadsheet containing
+[00:10:43] four different impact shapes. When you will be making those in Photoshop, keep in mind
+[00:10:48] that branches need to start from the center of the shape and point outward.
+[00:10:52] After we made and assigned the texture in our newly created model, we create its particle
+[00:10:59] system.
+[00:11:02] It's pretty similar to the small lightning particle system, you'll see. In the Render
+[00:11:06] module, we set the Random Mod to Billboard, assign our impact shape model, and set a Order
+[00:11:12] in Layer value above 0.
+[00:11:15] We then activate the Texture Sheet Animation module, set the number of ties to 2x2, and
+[00:11:21] set the frame over time on a random constant between frame 0 and 4.
+[00:11:26] In the General module, we'll take the Looping option, set the Start Lifetime value between
+[00:11:32] two small constant values to have a fast and erratic effect.
+[00:11:36] We'll play around with the 3D Start Size property to get non-uniform size variations
+[00:11:41] for impact shapes, and set a Start Rotation value between 0 and 360.
+[00:11:46] Won't forget to set a color in the Start Color property.
+[00:11:51] In the Emission module, we need some constant spawn of particles through the Rate Over Time
+[00:11:57] property, and one particle to be spawned through a Burst list to add some solar spawning rate
+[00:12:01] variations.
+[00:12:03] We won't need the Shape module, so we'll just deactivate it.
+[00:12:08] In the Crow Over Lifetime module, we'll go for a classic Fade In, Fade Out gradient.
+[00:12:14] Finally, we'll activate the Size Over Lifetime module, and set a Ease Out curve to make our
+[00:12:19] impact shapes evolve in size quickly at the start of the lifetime, before stabilising
+[00:12:23] near the end of it.
+[00:12:26] And we got our Impact component done in no time. Let's now take a look at some of the
+[00:12:31] more solar components of the effect.
+[00:12:35] We'll start with those falling sparks. This component is quite useful to accentuate the
+[00:12:40] power and intensity of the lightning beam. It's using the same material and texture
+[00:12:46] as the Camfire Spark component. We'll focus on its particle system setup, for this is
+[00:12:52] where all the magic happens.
+[00:12:55] The Render alignment is set to Stretched Billboards, to stretch our particles depending on their
+[00:13:01] speed, with a low value in the Speed Scale property.
+[00:13:06] Just like with the Impact component, since we are using a 2x2 sprite sheet, we'll activate
+[00:13:11] the Texture Sheet Animation module, set the type property value to 2x2, and set the Frame
+[00:13:17] Over Time value between the frame 0 and 4.
+[00:13:22] In the General module, as for all our previous components, we'll take the Looping option,
+[00:13:28] and set a Start Lifetime property value between two random values, with a huge range to get
+[00:13:33] sparks that immediately disappear, and others that will stay alive when falling on the floor.
+[00:13:38] On the Start Speed property, we'll set a random value between 0 and 2, to get some
+[00:13:44] sparks falling without any speed, and others projected away from the sphere.
+[00:13:50] We'll add some variations for the spark size, and set a filling color. And finally,
+[00:13:55] we'll help our particles to fall down by using the Gravity property.
+[00:14:01] In the Emission module, we'll use both the Rate Over Time and Burst properties,
+[00:14:06] to once again add variety in the spawn numbers of particles.
+[00:14:10] The shape used for our spark is a cone, with a low angle and radius value, facing in the direction
+[00:14:17] of the lightning beam. We'll use the Color Over Lifetime to simulate an intensity variation of our
+[00:14:23] spark's particles, by using two different gradients, with multiple alpha keys going
+[00:14:28] up and down in alpha value. We'll make our particles hold their max size before shrinking
+[00:14:35] near the end of the lifetime, through a curve in the Size of Lifetime module.
+[00:14:41] Finally, to make our particles bounce on our ground, we'll use the Collision module. This
+[00:14:47] will add a collider to our particles, to allow them to interact with other colliders in the world.
+[00:14:53] Depending on your current needs and scene, you might want to use either the World or
+[00:14:58] Plane collider types. In my case, I won't use the World type to detect the collision in my scene,
+[00:15:06] but register a specific plane's collider. For that, I set the Collision type to Plane,
+[00:15:12] and assign the plane we are going to make right now.
+[00:15:16] In the hierarchy window, create a plane, remove its MeshRenderer component to only
+[00:15:21] keep its mesh collider, place it near your ground, and give it a decent size,
+[00:15:28] to be sure all your particles will collide with it.
+[00:15:33] Once you're done with it, we can assign it in the list here,
+[00:15:36] and set a Dampen and Bounds property to control the behaviour of our particles.
+[00:15:42] By setting 0.5 in both properties, I'm making sure my particles bounce a bit when colliding,
+[00:15:49] but lose some velocity and at some point, stay static on the ground.
+[00:15:55] We don't want our particles to die when colliding with our plane collider,
+[00:15:59] so we'll set the Lifetime Loss to 0. If your particle seems to collide with your
+[00:16:04] plane before visually colliding with it, you can activate the Visualize Bounds option,
+[00:16:09] and adjust the Colliding Range scale of your sparks.
+[00:16:18] And with that done, we got some nice sparks particles that have physics and collides with
+[00:16:23] our ground. This helps sense a more physically accurate effect.
+[00:16:29] Now we'll focus on one of the more subtle components of the entire effect,
+[00:16:33] the Glowy Blurry line behind the lightning beam. This component helps visually link
+[00:16:39] everything together. To make this component, we start by creating a material using the
+[00:16:44] Alpha Blend shader we've made during the Campfire Breakdown video.
+[00:16:47] We want an opacity fade material with a basic emissive intensity value.
+[00:16:54] As for the texture, we will quickly create it in Photoshop by making a line gradient,
+[00:17:01] painting all sides of the texture in black, and adding some luminosity variations in the texture.
+[00:17:08] After assigning the texture we've made to the Blur line material, we'll create its particle system.
+[00:17:14] In the Render module, we set the Render mode to Horizontal Billboard and lower its Order
+[00:17:20] in Layer value. In the General module, we'll take the Looping option, set the Start Lifetime
+[00:17:27] value between two constants, stretch the horizontal billboard through the 3D Start
+[00:17:31] option property, and select a color in the Start Color property.
+[00:17:37] In the Emission module, we only need one spawning particle through a Burst list.
+[00:17:43] We won't need the Shape module, so we'll deactivate it, and finally, in the Color
+[00:17:47] All Over Lifetime module, we will simulate a blinking effect just like we did before
+[00:17:52] to match the intensity of our lightning beam by playing around two gradients.
+[00:18:00] And we are done with this particle system. Now, let's cover the last component of the
+[00:18:04] lightning beam effect, the Fake Glow component around the tesla core spheres.
+[00:18:09] It is built around two particle systems, one spawning a bright soft dot particle,
+[00:18:15] and another spawning a dark colored soft particles rendered behind the bright one,
+[00:18:20] to bring contrast to the overall effect. Let's start by reviewing the particle system
+[00:18:26] of the Dark Glow effect. This particle system is a duplicated copy of the Glow component
+[00:18:32] from the Campfire Breakdown video with some minor tweaked values.
+[00:18:38] We'll also use the exact same Glow material. In the General module, we have unticked the
+[00:18:45] 3D Start Size property to have a uniform scaling on our glow particles, and set a size that sets
+[00:18:51] our soft dot particle bigger than the tesla core sphere. We have then applied a dark color in the
+[00:18:59] Start Color property, and deactivated the Noise module, where we do not need our glow particle
+[00:19:04] to move randomly. But the most important change is in the Color Overlifetime module,
+[00:19:11] to simulate the blinking animation of our glow particle. Just like we've done before,
+[00:19:16] we have created two different gradients, one simple fade in and fade out gradient,
+[00:19:21] and one with multiple alpha variations. In the Light module, we have tweaked some
+[00:19:27] values to get a more impactful light, such as its range and intensity multiplier.
+[00:19:33] And that was all for the Dark Glow particle system. To make the brighter one,
+[00:19:37] we'll duplicate the particle system and material of the Dark Fake Glow effect.
+[00:19:43] In the material, we'll boost its Emissive Intensity value,
+[00:19:47] quickly create a texture of a simple dot slightly blurred in Photoshop,
+[00:19:51] and assign the said texture in the material. In the duplicated particle system, we'll assign
+[00:19:58] the new material we just made, set a higher order in Layer value, deactivate the Light
+[00:20:03] and Color Overlifetime module, and that's it. With this final touch, we finished the last
+[00:20:08] component of the Lightning Beam effect. And that concludes this breakdown video.
+[00:20:14] Making such complex effects with multiple components might look intimidating at first,
+[00:20:19] but isolating each component during the concept and creation process really helps understanding
+[00:20:25] what we have to do, and how we can achieve it quickly.
+[00:20:30] I hope you liked this content, and I see you in the next video. Goodbye!

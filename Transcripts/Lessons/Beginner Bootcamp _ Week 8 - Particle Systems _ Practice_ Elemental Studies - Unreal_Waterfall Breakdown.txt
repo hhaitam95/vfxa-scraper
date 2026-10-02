@@ -1,0 +1,393 @@
+[00:00:05] Hello, welcome to this lesson. This is the waterfall effect that we are going to break down today
+[00:00:11] this is one of the many styles of waterfalls that you can find in plenty of cartoony or
+[00:00:18] stylized games out there
+[00:00:20] one of the first effects I worked on was a waterfall similar to this one a bit more simple not gonna lie and
+[00:00:27] It took me longer than it should to notice that it's actually among the reference for this one
+[00:00:32] So I'm really glad that I'm able to break this one down and see how it was made
+[00:00:37] as always we're going to start talking about the concept and
+[00:00:41] Go through the different elements until we reach this final version
+[00:00:45] There is plenty of elements that work in this effect. So let's not waste any time
+[00:00:51] We have a beautiful waterfall concept sketched on the left and from the concept
+[00:00:57] We can already start to break down the effect into different elements
+[00:01:01] The main body of the waterfall we are going to need some water material that is going to serve as a base for everything else
+[00:01:08] then all the stuff happening at the crashing point of the waterfall and
+[00:01:13] Then some small details like a highlight at the edge of the waterfall the radiating waves at the bottom
+[00:01:20] The mist rising up, etc
+[00:01:24] Since this effect is quite different from the other effects
+[00:01:28] There is not much from the previous lessons that we are going to be able to reuse other than the most generic stuff
+[00:01:36] There are a lot of layering translucent elements which is going to make things complicated both for
+[00:01:43] Getting the result we want and there is a lot of things adding up together and also regarding any possible sorting issues
+[00:01:51] Even with that the final effect in engine looks pretty convincing and hasn't steered too far away from the concept
+[00:01:58] Most of the elements are pretty static
+[00:02:01] So this is the way to make them is going to be meshes with a material doing all the heavy lifting
+[00:02:06] All of these are translucent. So the sorting may create some problems. You could make some of these
+[00:02:15] Highlights and waves with opaque cutouts materials, but that's going to create hard edges for those elements
+[00:02:22] Which could go against their direction for the game
+[00:02:25] But no worries, let's move on to the breakdown and see how we are going to handle all of this
+[00:02:31] For this breakdown we are going to start with the two basic water elements that all others are going to build on top of
+[00:02:41] The water layer of the waterfall and the pool of water at the base
+[00:02:47] The material that these two are going to use is a modified version of the campfire flame material from the campfire lesson
+[00:02:54] Just like in that one the main purpose is to allow us to apply a distortion effect over a panning texture and
+[00:03:01] Animate the 3d mesh with a simple vertex offset setup
+[00:03:06] In addition to that we are also using the vignette masking technique that we covered in the heat impact and the slash effects
+[00:03:14] And that's going to allow us some control on the general gradients and the edges of the waterfall
+[00:03:22] Checking the material properties you can see that we are using a transparent material for this one
+[00:03:28] Depending on the environment around the waterfall and the artistic style of the game
+[00:03:32] We might be able to use an opaque material for this and save some resources and avoid any sorting issues with it
+[00:03:39] But having it translucent can at least give us these soft edges that might help blend in the waterfall to its surroundings
+[00:03:47] And we can also use a depth shade node to blend any rocks intersecting in the water or anything like that
+[00:03:53] You can see in the material instance for this material that there is a plethora of properties that we can play with
+[00:04:01] That's going to be critical because as mentioned before the entire waterfall is mostly meshes with materials
+[00:04:07] So the material properties are going to be all the settings on and the control that we have for this effect
+[00:04:13] Let's quickly go over the graph and see where all these parameters come from
+[00:04:19] We have our classic UV distortion setup with the texture sample that the distortion is affecting
+[00:04:26] That's the same setup that we have used before
+[00:04:29] Then there is some intensity and contrast parameters and those lead us to the coloring setup with a lerp between two colors
+[00:04:36] And that's on the color side on the opacity side
+[00:04:39] We are taking the green channel of our distorted texture and we are multiplying it by that vignette
+[00:04:46] Style mask the one we set up in the heat impact effect
+[00:04:49] You can see all those UV gradients being multiplied together to get our mask and we are also applying a depth fade right after
+[00:04:59] Right after that we have a parameter that chooses how much we want the texture mask to influence the opacity
+[00:05:07] Before that being hooked up into the opacity pin
+[00:05:10] We are going to use that parameter later mostly for things like highlights or small details
+[00:05:16] Then apart from all of that we have our vertex offset setup similar to the one in the campfire flames
+[00:05:23] where we have a noise being panned and
+[00:05:26] multiplied by the vertex normal so that we can add that to the vertex displacement and
+[00:05:31] Of course we have a parameter to choose how strong this vertex displacement is going to be and
+[00:05:37] That's all there is to it as you can see a huge material like this one is chunked down
+[00:05:43] Into small components that you can understand separately without much complication
+[00:05:48] That's what I commented earlier in the series about not thinking of each node as a separate thing
+[00:05:54] But rather to understand these node setups that you're going to see again and again in different effects
+[00:06:01] it's like we have been unlocking new techniques throughout the series and
+[00:06:06] Once you are used to seeing them and understand what they are doing this big material doesn't doesn't look as menacing as it was before
+[00:06:13] This is the material that we are going to use in most of the elements and for the texture being used in this case
+[00:06:23] This speed paint is going to be really fast because we are using the same texture from the campfire video
+[00:06:29] So we just copy that one from its channel and save it as a standalone texture
+[00:06:34] What we are going to need to create is the mesh
+[00:06:37] So let's move over to blender the final mesh that we want is a subdivided folded plane like this one
+[00:06:46] The reason you want all those seemingly unneeded vertices is to have some geometry in place
+[00:06:52] To make sure that the vertex displacement is as smooth as possible for that we can start by creating a simple plane
+[00:07:01] Moving it up. We can then extrude one of its edges downwards
+[00:07:08] And after that we can use the bevel tool to create that smooth transition at the edge
+[00:07:14] Inside the bevel window. You should set the segments or the subdivisions to something smoother like stepping in this case
+[00:07:22] If we now subdivided the entire mesh that corner would also subdivide and it will be too much subdivision in that specific area
+[00:07:30] So instead to just subdivide the flat parts of the mesh
+[00:07:34] We are going to use the cat loop tool until we more or less match the resolution at the corner
+[00:07:42] Now with all the geometry in place, let's open the uv window
+[00:07:46] We can select all the vertices in the uv space and unwrap them
+[00:07:51] And because the mesh is not that complex that's going to give us some clean uvs
+[00:07:55] We just need to adjust this island to the edges of the square so that we are going to use the entirety of the uv space
+[00:08:03] And with that we have our mesh
+[00:08:06] Now to hold this and all the other elements we are again using a blueprint
+[00:08:12] So we can just drop the mesh and assign it a material instance of our new material
+[00:08:18] And that starts the real work of tweaking these material parameters
+[00:08:22] This will depend on the lining and the environment
+[00:08:25] So don't feel married to these exact values just experiment with them and see how it changes the effect
+[00:08:31] So you can adapt to different situations
+[00:08:35] In any case the most important parameters to keep in mind are
+[00:08:39] Well, both color parameters, of course
+[00:08:41] And we can change the texture that's slurping between those two colors by tweaking this
+[00:08:47] Noise intensity parameter and these two smooth step inputs
+[00:08:52] And also the distortion parameters
+[00:08:55] But then we can also edit the smooth step values for the mask which are going to affect how that mask looks
+[00:09:03] So we can use them to change the shape and the harshness of these fading out gradients around our mesh
+[00:09:11] We can also change the pan speed of the water which is going to change the perceived water flow
+[00:09:17] And also the texture tiling which is going to affect the size of our shapes in the water
+[00:09:24] And we can use the vertex offset intensity to make sure the displacement matches the scale of the waterfall
+[00:09:30] If we were to scale this waterfall mesh up or down, we should also change this intensity accordingly
+[00:09:37] Keep in mind that the material doesn't really know the scale of the waterfall. So this is not going to adapt
+[00:09:46] In any case like for all other effects
+[00:09:48] I encourage you to play with all these values experiment and familiarize with their effects that they have on the effect
+[00:09:56] Some of these are going to be less flexible
+[00:09:58] But others are going to have a great effect on the specific style you are going for
+[00:10:02] So you could get different styles of this waterfall concept just with this one material
+[00:10:07] Especially as we keep adding new elements
+[00:10:11] Speaking of which let's move on to the next basic element that pull at the bottom for this element
+[00:10:18] We are going to use the same material and we are going to rely on the mesh setup and the UVs to get the result
+[00:10:24] we need
+[00:10:26] Like in the circular element from the heat impact effect
+[00:10:30] For this element, we are going to use polar coordinates in our UVs
+[00:10:35] In order to get that radial scrolling effect
+[00:10:39] To start just like for the heat impact element. Let's create a UV sphere
+[00:10:44] We cut that in half and flatten it
+[00:10:47] And after that, we cut it in half again
+[00:10:51] And opening the UV editor
+[00:10:53] All we have to do is rescale the UV island so that it covers the entire UV space
+[00:10:59] That all that removing has left and used
+[00:11:02] Since this is also going to be able to use some vertex offset
+[00:11:06] Let's try to keep the mesh resolution similar to the other one to avoid any harsh mesh distortion and any difference between them
+[00:11:15] If you want you can add some distortion to the UVs to change the way the textures are animated later on
+[00:11:22] For that we can activate the smooth selection in the UV editor and selecting the top triangles scale them down
+[00:11:30] vertically
+[00:11:31] This is going to change the UV density along the mesh
+[00:11:35] And scrolling textures are going to accelerate or decelerate along the mesh
+[00:11:40] Which can work great to simulate the natural deceleration of the water currents in our effect
+[00:11:47] Back in our blueprint in Unreal we can add the new element create a new material instance for it and start playing with the values again
+[00:11:56] The material we are using is the same as before so we can play with all these values to change anything that doesn't look
+[00:12:02] alright in the new mesh
+[00:12:04] Maybe change the edge gradients or the texture tiling panning speed in any case
+[00:12:10] We should maintain some continuity throughout the effect though
+[00:12:13] So things like color noise intensity or the texture themselves shouldn't change too much between both elements
+[00:12:21] Unless there is some specific intention behind it
+[00:12:23] It's supposed to be the same water after all and with those two we have the basic structure for the waterfall effect
+[00:12:32] Let's keep adding different details
+[00:12:35] The first thing we're going to do is highlight the edge of the waterfall with some fake reflections
+[00:12:41] The waterfall right now is still quite flat looking
+[00:12:44] So this small element is going to help in bringing out that edge
+[00:12:50] And give some perspective to the waterfall
+[00:12:53] Even though this element looks quite different to the big waterfall behind it the material being used is the same
+[00:13:00] So let's check out the texture and the mesh before we go over how we can get the material to behave in this way
+[00:13:08] For the texture all we need is to paint some vertical brush strokes
+[00:13:12] Remember that you can make sure to be completely vertical by holding shift while you paint
+[00:13:18] And then we apply some motion blur to smoothen the result vertically while keeping the sharpness horizontally
+[00:13:26] This is going to the green channel, which is the opacity texture in in our case
+[00:13:30] And for the blue channel, which is going to dictate the distortion
+[00:13:34] We are once again going to prepare our classic noise texture
+[00:13:40] For the mesh. We want something similar to the first wet mesh we made
+[00:13:45] So we are going through the same steps
+[00:13:47] Extruding and beveling a plane
+[00:13:50] The difference is we won't use the vertex distortion effect for this. So we don't need any extra mesh resolution
+[00:13:57] And of course, we don't have to cover the entire waterfall with this mesh
+[00:14:02] Just the edge. So those sides are going to be shorter
+[00:14:07] With that this is the resulting mesh
+[00:14:09] And back in our blueprint we can import this mesh and copy an
+[00:14:13] Instance of the waterfall material that we are going to modify in order to get these highlights
+[00:14:20] In the material properties the most important parameter we changed is the one that manages how much
+[00:14:26] The texture affects the opacity in this case. We don't want our texture to just lerp between two colors
+[00:14:34] We need the texture to completely drive the opacity so that we get all those small shapes of the highlights
+[00:14:41] For that we just change this value down here from zero to one
+[00:14:46] This small change is what makes the material look that different
+[00:14:50] Apart from that, of course, we are changing the color towards a couple of whites
+[00:14:55] And depending on the difference in the mesh UVs between this highlight and the main waterfall
+[00:15:01] We are gonna have to tweak the scrolling speed for it. So it matches the water flow
+[00:15:10] Then we also removed the vertex offset since it's not needed in this one
+[00:15:15] And it is at this point that we might start getting those sorting issues since we have
+[00:15:21] a couple of overlapping translucent materials already
+[00:15:25] This is a highlight element that should always be on top
+[00:15:28] So if it starts to appear behind the waterfall at any point we can just change the translucency sort priority
+[00:15:35] parameter in the blueprint itself
+[00:15:38] We'll keep getting back to this option
+[00:15:40] During this lesson since all these translucent materials are going to keep fighting unless we manage them a bit
+[00:15:50] Next we are going to add two elements that are going to
+[00:15:54] Add to the water texture in specific locations
+[00:15:58] These are not as harsh as this previous highlight element. These are not reflections
+[00:16:03] But they're still going to highlight the area around the waterfall edge and the flow of water at the bottom pool
+[00:16:10] They look like a mix of foam
+[00:16:13] Reflections or waves in the water and they are still going to be using the same material
+[00:16:19] They are going to be set up in a similar fashion to the edge highlight
+[00:16:23] Only smoother so with some different parameters
+[00:16:27] This first one is pretty close to the highlight setup
+[00:16:31] For the mesh we are using a similar one
+[00:16:33] But with longer planes at the top and the bottom to cover more area of the waterfall
+[00:16:38] So you could try modifying that one or just create another using the exact same process
+[00:16:47] For the texture we want something different in photoshop
+[00:16:50] We start by painting a soft square leaving the texture borders completely black
+[00:16:56] And then with an eraser we go through the square making soft vertical streaks
+[00:17:02] And these we are going to leave in the red and green channels
+[00:17:05] So for the opacity but for the blue channel, which is going to be our distortion noise
+[00:17:10] We are using another variation of this texture just with even softer streaks
+[00:17:18] And finally in the blueprint once again, we add our mesh and create a copy of the highlight material instance
+[00:17:24] That we can use for this new element
+[00:17:27] We made some changes to it. Of course, we are using our new texture and that already makes a big difference
+[00:17:33] But we also need to adapt the texture panning to the new mesh making sure that the flow speed matches the other elements
+[00:17:48] The smooth step mask itself is also going to be more useful since it's going to allow us
+[00:17:54] More control to what extent the fading in and out of this element is going to reach
+[00:18:01] Always try to look at the effect with all the elements you have so far
+[00:18:06] When tweaking these settings since it's going to help you see things in context and make sure that the colors and the shapes that you
+[00:18:12] Are getting
+[00:18:14] Even if they look good in isolation, make sure that they work well with each other
+[00:18:20] This element is the last thing we are going to tweak on the top of the waterfall
+[00:18:25] Really all the following are going to work on the pool of water and the crushing of the of the waterfall into it
+[00:18:31] So you can take your time playing with these values until the top of the waterfall looks okay
+[00:18:39] As I commented before the next element that we are going to add is similar to this water foam and highlights
+[00:18:47] Only this time in the pool
+[00:18:49] For this we are using the same exact mesh that we used for the water pool
+[00:18:54] And the texture is again packing two noises that this element is going to use
+[00:18:59] The green channel has some vertical brush strokes with different widths and lengths
+[00:19:04] And again for the vertex displacement in the blue channel, we are adding its own variation of this idea
+[00:19:12] Once in the blueprint with the new material instance applied to our mesh
+[00:19:17] The setup for this element is not very different from the previous one
+[00:19:21] We're still using some noise distortion making sure that the flow of the water that the texture scrolling creates
+[00:19:27] Matches the other elements in the effect
+[00:19:30] For the water in the pool
+[00:19:31] It would make sense for the flow to be slower since it's no longer being accelerated by gravity
+[00:19:37] And there is a big body of water that the flow is settling into
+[00:19:41] Then we are still trying to match the color palette to the other elements and both this and the previous highlight elements
+[00:19:49] Try to keep the color intensity somewhat low since they are secondary elements. They don't need to be right in your face
+[00:19:56] Especially this one in the water pool since there's we are going to add all of those elements at the crashing
+[00:20:03] Spot and we don't want the effect to end up too noisy
+[00:20:09] One parameter that's going to be really important for these elements that are using the radial mesh
+[00:20:15] Is the smooth step mask so the vignette mask itself
+[00:20:19] The center of the mesh has a lot of vertices clamped together and that's going to create some artifacts
+[00:20:25] And distortions that we don't want in our effect
+[00:20:28] For the water base, there is not much that we can do since we still need to cover that part with water somehow
+[00:20:35] But for this secondary element, we can move the starting point
+[00:20:39] A bit low a bit down using the vertical smooth step parameters and with that we avoid all that problematic part of the mesh
+[00:20:50] and with this element
+[00:20:52] We finally have the main body of the waterfall done
+[00:20:55] The next elements we are going to add are going to create all the splashing at the crashing spot
+[00:21:01] With clouds of mist coming up and all that but the style of the water itself
+[00:21:07] It's probably not going to change. So now we can take a moment to check that everything looks consistent
+[00:21:13] All the colors make sense
+[00:21:15] And all the textures and the flow of the water remain consistent throughout the effect
+[00:21:21] Make sure that there is no sorting issues
+[00:21:24] The only issue I can see here is the waterfall itself and the water at the bottom are kind of fighting for the draw order
+[00:21:31] But I don't know if that's a problem since
+[00:21:34] That's all going to be covered up with elements that will need to be always in front
+[00:21:38] So I'll just leave it at that and see if there is a need to specify a priority after adding all that stuff
+[00:21:48] So let's move on to the crash
+[00:21:50] This is going to be made up of two different parts
+[00:21:54] A vertical element that uses a curved plane to cover that portion of the waterfall right as it starts to crash
+[00:22:03] And another horizontal element that uses our radial mesh and between the two are going to help
+[00:22:09] Connect the main two parts of this the two main parts of this waterfall
+[00:22:15] And cover up any weird stuff at the intersection
+[00:22:19] For these two elements we are going to create a new material
+[00:22:23] The idea behind this material is not that different to the ones before
+[00:22:27] But we are going to take this as an opportunity to use the noise node instead of the distorted texture setup
+[00:22:34] Most of the graph is really similar. We have the smooth step mask
+[00:22:38] The depth fade, the vertex displacement setup down here
+[00:22:42] But instead of using a distorted texture as a base for our colors and opacity
+[00:22:50] We are using a noise node. This is using a boronoi noise
+[00:22:54] That's going to work fine for the splashy shapes that we want in this element
+[00:22:58] And then we are doing some operations with the vertical UV gradient that in conjunction with the noise
+[00:23:05] works as a mask for our colors
+[00:23:07] The noise node we have used before, we are even using it down here for the displacement
+[00:23:14] But let's take a second to actually go over the options it gives in Unreal
+[00:23:20] This node is going to give you a noise based on the position input. You can send the world position if you want
+[00:23:28] This is going to be a static 3D noise
+[00:23:31] But you can also send a vector3 that's made up of your UVs
+[00:23:36] Plus the time as the third element like we are doing here
+[00:23:40] And that's going to give you a noise that looks like an animated texture like you can see
+[00:23:45] It's like an animated scroll through the noise in the 3D space
+[00:23:51] Inside the noise the most important is the function parameter
+[00:23:55] That's going to dictate the kind of noise that we get, the function that we use to create that noise
+[00:24:01] You have a couple of options and hovering over them is going to give you a tooltip with some info regarding performance
+[00:24:09] These are all different regarding how costly they are. So keep an eye on that
+[00:24:14] In this case, we are using the boronoi noise that gives us
+[00:24:17] This cell-like configuration. You're going to see this in a lot of software
+[00:24:22] Since it's a very common kind of noise
+[00:24:24] After that, we also will need to play with the scale value
+[00:24:31] Confusingly enough
+[00:24:33] The smaller this value is the bigger the noise is going to look
+[00:24:37] You can think of this as how much of the noise is going to be covered by our surface. So by our UVs
+[00:24:44] The smaller this number is the more zoomed in you are going to be into the noise. It's a way of thinking about it
+[00:24:51] Then you have a levels parameter
+[00:24:54] Setting this to 1 is going to give you a simple version of the noise like we are doing here
+[00:25:00] And adding more and more levels is going to merge together different scales of the same noise
+[00:25:06] So you can think about this like a details level
+[00:25:10] Keep in mind that each one of these
+[00:25:13] add to the cost of the noise. So the smaller we can do the better
+[00:25:18] And last but not least important the output min and output max parameters are going to set the bounds of our noise
+[00:25:27] Usually you want the noise to be in the range of 0 to 1 if you want to use it like a texture
+[00:25:34] But it's not uncommon to see this between minus 1 and 1
+[00:25:38] Or any other range of values depending on what are you using this noise for
+[00:25:43] And with those parameters, I think it's enough to understand how we are getting this result
+[00:25:48] There is some other parameters
+[00:25:49] But I think it's better for you to just open the noise and play with it
+[00:25:53] And see the results you get and what you can do with it
+[00:25:57] The cool thing about this setup using the noise is that there is no texture calls in this material because there is no texture
+[00:26:05] That's going to save some memory, but it's going to be limited by what the noise can do
+[00:26:11] What the noise can achieve
+[00:26:14] In our case, that's not going to be a problem. This noise works for our case just fine
+[00:26:19] But you have to keep that in mind when choosing the best option for your material
+[00:26:25] Then the rest of the material is basically the same as in previous one. So let's move on to how we use it in our elements
+[00:26:34] For the first element the horizontal part of the crash we modified the UVs of our previous radial mesh
+[00:26:41] Again using the soft selection tool. We have scaled up the UVs at the center
+[00:26:48] That's going to change the way the texture. Well the noise in this case
+[00:26:52] Is animated and that's going to reduce the stretching
+[00:26:56] at the center
+[00:26:58] With that we have the horizontal piece and for the vertical piece. We are going to create a simple plane
+[00:27:04] We're going to subdivide it since we are going to deform the mesh in our material using vertex displacement
+[00:27:11] And activating the smooth selection tool this time in the vertices not for the UVs
+[00:27:17] We are going to use this sphere shape instead of the default smooth and we are just going to grab the middle loop and push it
+[00:27:23] forwards
+[00:27:25] That's going to be an easy way to make something that looks like a section of a cylinder
+[00:27:32] But the best way to see this is in action. So let's head to the blueprint and add our new elements
+[00:27:38] I have the two meshes and each one is holding its own instance of the material. We just covered the one with the noise
+[00:27:46] The most obvious difference in the parameters is the fact that we are moving in opposite ways for each one of them
+[00:27:52] That's because the top one is inverted so that the gradient grows down
+[00:27:57] Towards the crash and so we need to invert the texture scrolling to match the water flow
+[00:28:01] And for both of them we are changing the smooth step mask
+[00:28:07] To adjust the gradients and create a tighter edge on the side that's more intense
+[00:28:14] Of course, we can't change the texture since we are not using any but we still have some smooth step parameters that affect
+[00:28:21] The look of the boronoi noise and we could play with the noise parameters inside the material graph too if we needed
+[00:28:27] Finally, since this represents all the chaotic motions at the crashing point
+[00:28:35] It makes sense that we can crank that displacement intensity a bit high
+[00:28:41] Since these two meshes we want to appear always in front of the waterfall and pool meshes
+[00:28:47] We should give them some sort priority
+[00:28:50] So these are not only going to work to represent all the foam and splashing happening
+[00:28:55] But being in front they are also going to help mask that intersection between the waterfall and the pool
+[00:29:05] And with these two working there's only another two elements left to complete the effect
+[00:29:11] And these are inside the Niagara system right here
+[00:29:14] The first needs to be in a particle system because it's the mist rising from the crash and the easiest way to represent that
+[00:29:22] Is with regular particles
+[00:29:24] To make this steam we have duplicated the smoke emitter from the campfire lesson
+[00:29:30] And we are using the same material and the same texture. Well a material instance of the same parent material is what I mean
+[00:29:38] And the main changes are in the Niagara system itself
+[00:29:43] Of course the color has been changed to completely white and we can play with the animation like here
+[00:29:49] We are scaling down the velocity along the lifetime so they don't go up and up like the smoke does
+[00:29:56] We are also adding a shape location module
+[00:29:58] That's going to spawn the particles along the width of the waterfall instead of just a single point
+[00:30:05] But otherwise, I don't think there is any module here that we haven't covered before
+[00:30:09] We are just scaling up the particles letting them fade away through our color animation and so on
+[00:30:16] But there is something else in this particle system that we haven't covered until now
+[00:30:23] In the blue particle system properties there is a set of parameters referring to something regarding warm-up
+[00:30:32] What this is going to allow us to do is whenever our particle system starts playing
+[00:30:37] Skip ahead in the particles animation as if the particle system had already been running for x amount of time
+[00:30:45] Thanks to this we can make the mist particles in this case
+[00:30:49] Appear all over the waterfall from the start like they had been running for a while
+[00:30:55] Otherwise if the player enters a level where the waterfall has just been loaded for the first couple of seconds
+[00:31:02] There will be no mist as the particles were just starting to spawn and rise up
+[00:31:08] That's a neat little option that can be very useful especially for environment
+[00:31:13] Or really for any continuous effect like this one is
+[00:31:17] And by the way, that's not only affecting the rising particles
+[00:31:21] This is affecting the entire Niagara system because it's on the system properties. So it's also affecting this other emitter
+[00:31:28] This emitter is the one representing these waves coming out from the crashing point and slowing down as they move away
+[00:31:36] For this we are using the same radial mesh that we have been using all along
+[00:31:41] We have our mesh renderer down here
+[00:31:44] And again, thanks to the polar UV setup. All we need to do to get growing rings
+[00:31:51] Representing our waves is to apply a scrolling texture with horizontal stripes
+[00:31:58] The texture that we're going to use is very simple
+[00:32:01] In the red and green channels, we have the horizontal lines that we need with some glowing
+[00:32:07] And the blue channel is the noise that we have been using for the distortion effect
+[00:32:13] Now for these waves really you could get away with adding their own mesh on the blueprint like we just did for other elements
+[00:32:21] similar to this
+[00:32:22] But using a Niagara emitter for this allows us to better control the animation of the texture as it scrolls through the mesh
+[00:32:30] Keep in mind that we are using the dynamic material parameters node
+[00:32:34] To animate the panning following the scrub just like we did in the slash or in the in the heat impact
+[00:32:41] So with that it's easier to control the timing
+[00:32:44] Than going into blender and distorting the UVs each time until we are happy with the result
+[00:32:52] And also being an emitter we can add some variation to things like the lifetime
+[00:32:59] Or the color so the result looks a bit more natural
+[00:33:02] In any case, as you can see, this is not a complex emitter by any means
+[00:33:09] The main work is still being done by the mesh UVs and the material itself
+[00:33:16] Now for these two elements in the particle system
+[00:33:19] We can control the relative sortings inside the render module down here
+[00:33:24] In the sort order hint parameter just like we have been doing throughout the series
+[00:33:29] But then we can also control the sort priority
+[00:33:32] of the whole Niagara system in the blueprint
+[00:33:35] Just like with the previous elements and this we are going to want completely in the front
+[00:33:41] So make sure to set this value to the highest among all the elements
+[00:33:48] And that was the last element. So as a quick recap looking at the complete effect
+[00:33:54] We have the base water that's really going to serve as our canvas
+[00:33:59] We have some highlights at the waterfall's edge and the pool and specifically some highlight reflections on that edge
+[00:34:07] Then all the crashing shenanigans with all the mist coming up and those waves coming out of it
+[00:34:14] These are a lot of elements for one effect
+[00:34:16] So I've had to glide over some of them in order for this lesson not to get out of hand
+[00:34:23] But hopefully we have covered all the important stuff
+[00:34:26] It's a pretty complex effect with all that layering especially for an environmental effect
+[00:34:32] The fact that these are translucent materials doesn't help because it can create all those problems
+[00:34:39] And by the way, not only with the effect itself
+[00:34:42] Also when you move other translucent objects or effects in front of them like a character
+[00:34:48] With a torch light or something like that so it can get a little tricky
+[00:34:52] But keep in mind that we are only using a couple of materials
+[00:34:56] And really most of the effect could use the exact same material graph if we didn't use that brown noise noise
+[00:35:04] for the crash elements
+[00:35:06] and that's even when there are some different shapes across the different elements that we are creating so
+[00:35:12] Something that this effect really showcases is how useful polar coordinates and these setups with the meshes with the UVs
+[00:35:20] How useful those can be sometimes
+[00:35:25] They might feel a little complicated to set up or to understand at first
+[00:35:29] But they really make a lot of the processes in the water pool at the base really easier
+[00:35:36] And create results that would be more complicated to get otherwise
+[00:35:41] And with that i'll leave you for this lesson and i'll see you in the next and final one in the series
+[00:35:48] Bye

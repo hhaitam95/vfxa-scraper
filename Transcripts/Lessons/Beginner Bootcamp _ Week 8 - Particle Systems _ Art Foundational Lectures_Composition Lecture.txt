@@ -1,0 +1,283 @@
+[00:00:00] Hello everyone, my name is Sonya Firsova and currently I am a contractor VFX artist on
+[00:00:05] Project AEL at Riot and mentor and instructor at VFX Apprentice.
+[00:00:10] I've been in game dev industry since 2015 as an artist, character animator and VFX artist
+[00:00:17] and I see a lot of intersections between all these fields.
+[00:00:21] And in this video I want to share with you my observations on how artistic principles
+[00:00:26] of composition correlate with visual effects.
+[00:00:30] Let's get into it.
+[00:00:31] We will start with these two examples.
+[00:00:42] They both use composition in a very efficient way.
+[00:00:45] With all the complexity of details and movements you are still able to focus on one scene at
+[00:00:49] a time and gradually explore the additional details while following supportive guides
+[00:00:54] that the shapes create.
+[00:00:56] In this illustration by Nico Delort, probably the first thing that caught your attention
+[00:01:00] was the figure at the bottom right corner.
+[00:01:03] It grabs the attention with the long straight lines that go throughout all the frame and
+[00:01:08] it has a great contrast in values and shape language around this area.
+[00:01:13] Then we start exploring the details around this focal point and catch one of the guides
+[00:01:18] the illustration has to point you to the next subject, the face of Athena, and then back
+[00:01:23] to the figure at the bottom right.
+[00:01:26] These guides create a full loop around the canvas to keep the viewer's attention inside
+[00:01:30] the frame and allow to see all the details in some kind of an order without feeling lost.
+[00:01:37] So everything works together and in the illustration it is a matter of one frame.
+[00:01:43] But in VFX we need this to work with the whole sequence.
+[00:01:46] We think about composition on the whole frames, but we can also apply it to the motion in
+[00:01:51] general.
+[00:01:52] In this explosion animation made by VFX apprentice instructor Dan Elder, every bit of animation
+[00:01:57] has a clear focal point.
+[00:01:59] Shape language and flow of movement lead the viewer to what they should be looking at.
+[00:02:03] This example also has smooth transitions between these focal points by using anticipations
+[00:02:08] and subtle movements that lead you to be prepared for what happens next.
+[00:02:13] So again, everything works together.
+[00:02:15] Now let's break down into smaller instances how we can create a clear composition.
+[00:02:20] Starting with balance and clear motion.
+[00:02:23] These two are all about making the composition work in a bigger picture.
+[00:02:27] Using balance helps to digest the frame and lead attention by using big volumes of shapes
+[00:02:31] in mind.
+[00:02:32] It is all about how you distribute your volumes of shapes and how they affect the perception
+[00:02:37] of the piece.
+[00:02:38] On these two illustrations for The Amazing Spider-Man volume 1, we see pretty much the
+[00:02:43] same story.
+[00:02:45] It is a Spider-Man doing cool mid-air moves.
+[00:02:47] But these two illustrations feel quite differently.
+[00:02:51] The one on the left feels more static for the viewer.
+[00:02:53] We focus strongly on the Spider-Man's face and it's moving right on us.
+[00:02:59] Like we will engage with this figure just in a second.
+[00:03:02] The one on the right catches a more dynamic feeling for us.
+[00:03:05] We feel the tension to follow the movement to the right side.
+[00:03:09] And not like one is better than another, the both work great for their purpose.
+[00:03:14] It is the initial goal that is different for these two illustrations.
+[00:03:19] The one on the left uses a symmetrically balanced composition.
+[00:03:22] It has a very strong force to pull the attention to the center of the frame.
+[00:03:27] Note that it doesn't mean that both halves are perfectly mirrored.
+[00:03:30] It is more about distributing the weight of different values to create a balance around
+[00:03:34] the center.
+[00:03:36] The one on the right uses a symmetrical balance.
+[00:03:39] It creates a strong feeling of movement even on static image.
+[00:03:43] The smaller details placed on the further distance work as a lever to create dynamic
+[00:03:48] tension between the shapes.
+[00:03:51] Let's see how it works in effects.
+[00:03:54] The explosion we looked at before has a strong symmetrical composition.
+[00:03:58] It creates this heavy right-in-your-face feeling which works perfectly for this effect.
+[00:04:03] And notice again, the shapes are not placed perfectly symmetrical in any point.
+[00:04:07] They have a variety of sizes and placements which are balanced around the central point.
+[00:04:13] So we still have some tension to make the animation feel exciting.
+[00:04:18] And now if we look at this effect created by Jason Keither, we see an asymmetrical composition.
+[00:04:24] The idea for this effect is showing big movements around the frame.
+[00:04:28] And we see how during these movements big shapes are being balanced with smaller shapes
+[00:04:33] on the further end.
+[00:04:36] These small shapes not only help the viewer to show where the fireball came from, but
+[00:04:40] they also create a tension dynamic balance on the frame.
+[00:04:44] And this tension between big and small shapes are also applicable for a more static on-the-frame
+[00:04:48] movement too.
+[00:04:50] In this wispy explosion made by our instructor David Shovlin, we see shapes of different
+[00:04:55] sizes and quantity.
+[00:04:56] There are a few really big shapes, a bunch of medium-sized shapes, and quite a lot of
+[00:05:02] the smallest ones.
+[00:05:04] So the smaller detail is, the bigger quantity of them there are.
+[00:05:09] And this brings this tension and variety in the effect.
+[00:05:11] We are able to bring in more details in certain places while still having a very clear view
+[00:05:17] of what is happening.
+[00:05:18] You can also see that during the effect the actual sizes of these big, medium, small instances
+[00:05:24] change, but the correlation between them stays the same.
+[00:05:29] I personally see a lot of fun in searching and finding these kind of correlations between
+[00:05:34] the shapes.
+[00:05:35] As I've mentioned earlier, asymmetrical composition gives us a strong feeling of movement.
+[00:05:40] I simply place shapes and their volumes create line of action.
+[00:05:44] So we can start with it, taking the idea of the dynamic balance to the very start of the
+[00:05:49] workflow.
+[00:05:50] Then I add volumes of shapes along the section line, thinking about how I can balance them
+[00:05:56] around it to push the idea of the movement.
+[00:05:59] In this example I wanted to have a feeling of movement to the right side, so I placed
+[00:06:04] a bigger volume on the right side too and balanced it with the medium volume on the
+[00:06:08] left.
+[00:06:09] And then added smaller details to bring additional variety and more tension between all these
+[00:06:14] shapes.
+[00:06:16] And all these shapes are also curved and pointed to support the action line.
+[00:06:21] Starting with line of action is a simple but quite powerful idea for catching the main
+[00:06:25] action of the effect on early stages.
+[00:06:28] And we can apply the same idea to the whole frame, designing and placing everything to
+[00:06:33] work together with the lines of action in mind.
+[00:06:36] Character, background elements, smaller details create a visual lead along the action line.
+[00:06:42] They support and emphasize it, which makes super clear for the viewer to see it from
+[00:06:47] one glance.
+[00:06:49] For games though, in most cases, we don't have all the control of the surroundings for
+[00:06:53] the effect.
+[00:06:54] But we usually have at least a character who isn't synced with the effect, so we can
+[00:06:58] work with that.
+[00:06:59] In this hidden spell, instructors Ryan Rozanki and David Shavlin found a really nice way
+[00:07:04] to support the character's action line with the effects.
+[00:07:08] In the anticipation, the character is squashed.
+[00:07:11] We can represent her pose with a curve through her leg and spine.
+[00:07:15] And other parts of the body and props support it.
+[00:07:20] Everything leads the viewer to look towards the hand with the spell.
+[00:07:24] And in effects, the same idea is applied.
+[00:07:27] The elements are curving and moving inside the spell orb.
+[00:07:31] They continue the idea that was made in the character pose.
+[00:07:35] On the next part, the character is stretched.
+[00:07:37] The line of action goes strongly up, which in contrast with the previous squashed pose
+[00:07:42] creates an exciting change.
+[00:07:44] And again, effects are emphasizing the same idea.
+[00:07:47] The general movement is upwards, supporting the line of action.
+[00:07:51] And to bring more variety and connection to the previous stage of effect, we have some
+[00:07:55] curves too.
+[00:07:56] They still are following the main movement upwards, and they bring a complementary flavor
+[00:08:00] to it.
+[00:08:02] And we can play with these complementary movements to add more variety in the effects, to make
+[00:08:06] the movement more exciting.
+[00:08:08] In this Netherpoof effect, made by Alex Redfish, we can see that the main action is going outwards.
+[00:08:15] The initial poof expands the volume, and the negative shapes in the beginning are also
+[00:08:19] following this strong outwards movement.
+[00:08:23] But a few frames later, the outwards motion gradually changes with an additional, curved
+[00:08:28] motion.
+[00:08:29] The curved motion is still complementing the main action, but it adds variety to the animation,
+[00:08:34] and creates a more interesting experience for the viewer.
+[00:08:38] I find it really helpful to think and even mark with arrows these kind of flow lines
+[00:08:42] and forces while animating.
+[00:08:45] Dividing them on the main force line like expansion, and then finding a way to dissolve
+[00:08:50] the shape in a complementary way that would bring in more variety.
+[00:08:55] It helps a lot to stay on track with what you are doing.
+[00:09:00] And another self-check helping technique I really like is looking on the whole animation
+[00:09:04] through the onion skin.
+[00:09:06] It works great for the stationary flipbooks like this.
+[00:09:10] This way, you can see the overall composition of your animation in one image.
+[00:09:14] It helps to perceive what volume you are showing with the dissolves, and how spacing works
+[00:09:19] throughout the sequence.
+[00:09:22] I also find it just fun to look at this way.
+[00:09:24] It reminds me of these kind of curved sandstone layers in perspective or clouds in the sky.
+[00:09:29] Nature is a great helper with the inspiration for effects too.
+[00:09:33] Now let's talk about the next principles, rhythm and contrast.
+[00:09:37] They help to define and add an additional punch to their points of interest while having
+[00:09:42] a cohesive picture overall.
+[00:09:45] These two artworks show a very nice use of patterns to fill the frame, and then break
+[00:09:49] those patterns around the focal point, bringing the most attention to the main subject.
+[00:09:55] This one has a pattern of buildings in the background, which then changes to the pattern
+[00:10:00] of the night sky.
+[00:10:01] And then again being contrasted with the bright big shape of the moon.
+[00:10:05] We also see that the background uses a pattern of straight lines and blocky shapes.
+[00:10:11] And it is being contrasted with the curved lines of the character and the circular shape
+[00:10:15] of the moon, which helps to separate the background from the character and bring the
+[00:10:20] most attention to the main subject in a bigger picture.
+[00:10:24] This illustration made by Oritur uses patterns as its core idea, and we are still not lost
+[00:10:30] in it.
+[00:10:31] The patterns break around the focal point, leading the viewer to look at it.
+[00:10:36] So we can simplify it to one formula.
+[00:10:38] We show a pattern, we break it, and by doing so we create a strong contrast and a point
+[00:10:45] of interest, that strongly attracts the viewer's attention.
+[00:10:49] And of course, we use it in effects too.
+[00:10:51] Let's look at some examples, starting with the Vindavatar effect, animated by our instructor
+[00:10:57] Metipety.
+[00:10:59] The main point of interest here is a character, and it is always supported by the shapes around
+[00:11:04] it.
+[00:11:05] They are rhythmically pointing to them.
+[00:11:07] During this animation, even though the movement goes outwards, the attention is still drawn
+[00:11:12] inside the center of the frame.
+[00:11:14] It then changes for a little while to cover the whole screen, which creates a pretty exciting
+[00:11:20] moment of this sequence.
+[00:11:22] And to make it even more interesting, there are soft and pointy shapes, which switch from
+[00:11:27] one to another during this animation.
+[00:11:30] The shape language changes to support faster and slower movements of the dust clouds, creating
+[00:11:36] not only visually interesting contrast, but also the contrast of timing and spacing.
+[00:11:42] And we can look at the contrast of timing and spacing from the perspective of big, medium
+[00:11:47] and small balance idea we talked about earlier.
+[00:11:51] In this example, a medium amount of action happens in a medium amount of time.
+[00:11:56] Then a fast action happens in a short amount of time.
+[00:12:01] And in the end, we have a slow action during a long period of time.
+[00:12:06] Pretty similar correlation as in volumes of shapes we had.
+[00:12:09] And it gives not only an interesting variety of timing, but also makes a great accent on
+[00:12:14] the main action of card appearing.
+[00:12:17] A short and fast action is placed against a slow and long action, which creates the
+[00:12:22] biggest contrast in the sequence.
+[00:12:25] And we can apply the same idea to the color and value distribution.
+[00:12:29] Let's talk about the value first.
+[00:12:31] While working with value alone, it is already possible to determine where we want the viewer's
+[00:12:35] attention the most.
+[00:12:37] For example, placing the most light values against the most dark values creates the biggest
+[00:12:43] amount of contrast possible.
+[00:12:45] And we want to save this amount of contrast to be used around the main point of interest.
+[00:12:51] In this concept, we see it around the hit point of the lightning.
+[00:12:55] The place where it actually strikes the ground and is the most important for the player to
+[00:13:00] perceive very fast and clear.
+[00:13:02] I like sometimes to nail down the values first before doing the color pass on the concept.
+[00:13:07] It is a great way to keep track of things one at a time.
+[00:13:10] But it is also important to check the values during the process of working with colors
+[00:13:15] too.
+[00:13:16] And we can do it in a few ways.
+[00:13:17] The first one, which I use the most, is through the Photoshop grayscale preview.
+[00:13:22] You can switch back and forth with a shortcut.
+[00:13:25] And even continue to draw with color in this preview mode, which is awesome.
+[00:13:29] You can see the settings for this on the slide.
+[00:13:32] Another way is to set up your whole screen to switch to black and white with a shortcut.
+[00:13:37] You can do it through the windows settings.
+[00:13:40] It is pretty nice that it works outside of the specific program, so it is possible to
+[00:13:44] quick check the values while working in engine 2.
+[00:13:49] But it is important to mention that the windows grayscale view is in exaggerated levels of
+[00:13:55] black and white.
+[00:13:56] Which makes sense, because it is an accessibility feature, which pushes the values for an easier
+[00:14:02] perception.
+[00:14:03] So just keep that in mind if you use it for checking your values.
+[00:14:07] You can always check the contrast of your values in a more traditional old way too.
+[00:14:13] By squitting your eyes to the point when you can see everything blurred.
+[00:14:17] And it will give you a perception of what it will look like at a first glance or in
+[00:14:22] a smaller scale.
+[00:14:23] You can try it right now, by the way, and try to notice the difference between these
+[00:14:27] two grayscale variants.
+[00:14:29] Anyways, let's talk colors now.
+[00:14:32] You probably noticed the pattern here already, but yeah, we can think about the color in
+[00:14:37] terms of big, medium and small correlations too.
+[00:14:41] To balance the color distribution compositionally, we can look at each color choice S. Around
+[00:14:47] 60% of the main color, which will fill up the volume of the effect.
+[00:14:53] Around 30% of the secondary color, which will add details to the set main volume.
+[00:15:00] And around 10% for the accent color, which will bring more contrast.
+[00:15:06] Here for example, red-orange gradients are used to fill the space, black for variety
+[00:15:11] in it and yellow to bring an additional fine touch pushing the contrast around the focal
+[00:15:16] point.
+[00:15:18] This proportion, of course, will change from one case to another.
+[00:15:21] You might have more or less colors in your palette, you can play with the percentages
+[00:15:25] of the color distribution too, but the main idea will stay the same and it is to think
+[00:15:31] about what you want to be the main color or value of the effect and how you can use the
+[00:15:37] accent for it to push the contrast around your focal point.
+[00:15:42] And to make it easier and quicker to iterate on colors, you can use gradient maps.
+[00:15:48] They reassign the colors depending on the values you have on the applied area.
+[00:15:53] These are the color concept iterations made by David Shavlin, all done using gradient
+[00:15:59] maps with minimal additional color layers on top for some of them.
+[00:16:04] The starting point was the concept on the left, and in less than 10 minutes he got four
+[00:16:09] new variants of color schemes for this effect.
+[00:16:13] Gradient maps are a very powerful tool for fast and efficient iterations.
+[00:16:18] You can try out not only subtle changes to the hues or values, but also find a completely
+[00:16:24] different feel for the effect.
+[00:16:26] See how you can change the distribution of colors and how it affects the look to find
+[00:16:31] the one that will suit your main goal for the effect the best.
+[00:16:36] And you probably noticed that I've mentioned the main goal, main idea, focal point, etc.
+[00:16:41] very frequently, because we use all of the principles we talked about to achieve and
+[00:16:46] exaggerate a very clear focal point.
+[00:16:49] We use balance to set it in a big picture.
+[00:16:54] We think about clear motion to guide the viewer's attention.
+[00:16:59] We work with rhythm and contrast in shapes to exaggerate it.
+[00:17:03] We push the contrast in timing around it.
+[00:17:07] And use color and value with the focal point in mind.
+[00:17:11] It all works together and helps us to set up perfectly clear where the viewer should
+[00:17:16] look at.
+[00:17:17] And it might be a lot to think about.
+[00:17:21] So you can ask yourself questions to navigate your thought process.
+[00:17:26] When you start working on your effect, the first thing you need to establish is where
+[00:17:31] do you plan your focal point to be and how you can lead to it in a bigger picture.
+[00:17:36] So you can ask yourself, what is the most important in each stage of the effect?
+[00:17:42] Which line of action could represent it the best?
+[00:17:45] Do you have other variables except the effect that you need to take into consideration?
+[00:17:52] So what is my context?
+[00:17:55] You might need to exaggerate and complement it, so how can I balance the shape around
+[00:18:00] it?
+[00:18:03] And when polishing the effect, it worth to recheck again.
+[00:18:06] What is the most important stage of the effect and does it feel like it?
+[00:18:11] What is the most important in every stage of the effect and does it reads like this?
+[00:18:17] Can I push it more with the contrast of timing and spacing?
+[00:18:21] Can I exaggerate it more with color and values, etc.?
+[00:18:26] And if we would sum it up and switch the perspective a little, what I am as a viewer notice the
+[00:18:32] most?
+[00:18:33] And is it actually what I wanted the viewer to look at, at this moment?
+[00:18:38] If not, try to change some stuff to make it work.
+[00:18:42] And that's it.
+[00:18:43] Thank you for the attention, I hope you have found something useful in this video or at
+[00:18:48] least had some fun.
+[00:18:50] Bye!

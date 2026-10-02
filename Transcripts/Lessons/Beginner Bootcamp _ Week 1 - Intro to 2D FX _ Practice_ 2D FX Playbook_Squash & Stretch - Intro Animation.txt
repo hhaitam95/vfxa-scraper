@@ -1,0 +1,99 @@
+[00:00:05] Okay, hello everyone. In this video we will talk about adding squash and stretch into our appearance mix.
+[00:00:13] And we will look at these three examples.
+[00:00:17] So the first one will be simple star appearance with stretch, the second one will be more weighted appearance,
+[00:00:24] so we have a floor and the shape changes, taking into the notice the floor level.
+[00:00:32] And the third example will be a more exaggerated variant of the second one.
+[00:00:38] So let's start with the star shape.
+[00:00:44] So what's happening here? We have our shape appear in a quite small size,
+[00:00:54] and then it grows, grows, grows, grows and goes into the final state, as we did in the small to big appearance.
+[00:01:04] But if we will look at it in onion skin, we can see that when we're making one of the axes bigger,
+[00:01:16] like here the Y axis, the X axis, different one, goes smaller.
+[00:01:25] So in this way we add stretch on the next frame and it goes to the extreme position here on the third one.
+[00:01:35] So yeah, again if we look at the spacing from here to here, this one goes up, this one goes to the center of the shape.
+[00:01:46] So yeah, while I didn't stretch to our shape, we're working on different directions for different axes.
+[00:01:59] Another thing I wanted to talk about in this example is making different frames around the extreme frame.
+[00:02:15] And it will make sense in a minute. So here we have our extreme position of this star.
+[00:02:23] So this side goes up to here in the extreme position.
+[00:02:33] On the frame before an extreme position, this edge goes almost, almost to the extreme position.
+[00:02:45] But then when I transition back to the normal form of the shape, I'm not making this edge go on the same level as it was before the extreme position.
+[00:03:02] So these three frames are all different and it adds more variety to animation and it looks more defined.
+[00:03:12] If I would go like this is how I go into extreme, extreme and then how I go from it.
+[00:03:20] So making these two frames slightly different helps a lot here.
+[00:03:27] And another thing with this star is that it can be a little bit tricky to draw from the beginning.
+[00:03:36] Like start with this kind of shape and then drew exactly how it would be stretched.
+[00:03:45] So to make it easier, we can start with just like this simple cross.
+[00:03:54] Then drew next frame is just a cross and the next one.
+[00:04:03] And then when I'm happy with the cross animation, I can just add these arcs inside the cross to make this look like this is a small star appearance.
+[00:04:24] Okay, let me delete my notes.
+[00:04:30] Okay, so yeah, in this example we squash and stretch our form from the central point of it.
+[00:04:38] And now let's look at the second example.
+[00:04:42] So here we have a cube that appears from the ground.
+[00:04:47] So we have a ground level and to make this shape looks like it has weight, we need to acknowledge this ground.
+[00:04:56] So now we add squash and stretch from this point.
+[00:05:08] So we apply squash and stretch up and to the sides, but not down from the ground.
+[00:05:18] Let's look at it in onion skin.
+[00:05:23] So with these first two frames, I want to talk about the difference between this and this frame.
+[00:05:34] Again, we are using small to big approach for the first few frames, but on the first frame we go from stretched and then to squashed.
+[00:05:48] And to make it work, we need to make the horizontal size wider than on the second frame.
+[00:05:59] Because if we would go with something like this small size and then just make it bigger and taller,
+[00:06:10] it would look like it's just growing out of nowhere and it's not giving this feeling of dynamic appearance with changing of volume in the first four frames of animation.
+[00:06:28] So we are aiming on this change from something wide and short to something thin and tall.
+[00:06:40] Okay, so another thing here is that, again, we are going to the extreme stretch position as in the previous example.
+[00:06:50] And then we have additional squash to settle our form to the final position.
+[00:07:00] So this stretch to settle the square to the final form is not very exaggerated like this stretch at the beginning,
+[00:07:13] because our timing is quite tight and we want to show the final form of our cube a little bit earlier.
+[00:07:28] So it will have the volumetric volume earlier shown up to the viewer.
+[00:07:41] If we want to make something more jelly-like or more bouncy, we can exaggerate this part too and add even more bouncy state.
+[00:07:56] But one thing that we want to keep in mind is that each next bounce, each next squash and stretch will be smaller and smaller.
+[00:08:08] And we can imagine it as some kind of graph where we have, here we have stretch, here we have squash, and this is our normal size of the shape.
+[00:08:33] So we start with squash shape, go into the extreme stretch and then we go again to squash and then settle into the final position.
+[00:08:52] This is how it works in the current example.
+[00:08:57] But if we want to add more bounces, we will need to add additional stretch, but this part will be smaller than this part.
+[00:09:09] And then we can add maybe additional squash.
+[00:09:13] And again, this part will be smaller than that and continue as much as we want, depending on how jelly-like and squashy we want our shape to be.
+[00:09:32] And now let's go to our third example.
+[00:09:39] So now we have the same timing of appearance and in general squash and stretch is the same amount of squash and stretch in this animation.
+[00:09:51] But we exaggerate it by adding these kind of edges to it.
+[00:09:59] It would suit more some squishy object or like elements that you want to show how the volume is stretching differently between different parts of the edge.
+[00:10:19] So this kind of thing we can see when we play with jelly, for example, or gummy bears, if you squash them like this, you'll see that the sides are going to be like this round shaped to the sides.
+[00:10:38] And if we like try to stretch them, we will see that this part is being like thinner than the parts that are closer to the top and bottom edges.
+[00:10:55] So yeah, we are applying this same principle to our animation to make it look more exaggerated here.
+[00:11:05] And the easy way to do it will be to like have animated square with just squash and stretch without these additional edge curves and then just apply these curve changes on top of it.
+[00:11:25] So we'll have like a guide for it and then we just look on how we can exaggerate it with these edges.
+[00:11:34] And then we add these kind of like curves. We want to make sure that it's at least close to the actual volume.
+[00:11:50] So like I'm carving this part from here and this part from here and this volume transfers into the top part.
+[00:12:02] So making it pop more and with this we will make our volume look more constant throughout our shape.
+[00:12:18] But yeah, let's recreate this example. But I will start without the base square. So we will recreate this squishy cube from the beginning.
+[00:12:36] So I have my floor level, I have example on the side and we will start. So I want to show you with this, not only the creation of this animation like just straight ahead, but I want to talk about going from extreme to extreme.
+[00:12:59] So let's start with our first frame. On the first frame we will have a shape being squashed. It's pretty wide but small because it's an appearance animation and we don't want to pop something big here from the first frame.
+[00:13:24] So yeah, it can be like this. And now let's see what's next here. So this position is not my extreme. Extreme position is here. So the maximum stretch that I apply to the form will be here.
+[00:13:40] So I can mark it as extreme and I will create a frame here. So it will be tall like this. The horizontal size will be smaller than on the first frame.
+[00:13:59] I can mark here too. Now I connect it with arced edges. And this part on top like this.
+[00:14:18] Okay. In the scene I will make this animation be transparent for 50% just to see my previous shapes, previous frames. So here I have my first extreme. Now I will do my next extreme, which is here.
+[00:14:45] So no, actually no. I will go for the last keyframe because this extreme depends on the last keyframe that I'll need to settle my shape in.
+[00:14:58] So the last frame will be something like this. Okay. So making a square. Okay. It became wider than I wanted, but it's not a problem.
+[00:15:27] I can just ink it and the little bit of transform here to make it smaller, clean the edges. Okay. So it's my final form of the shape. This is my second extreme.
+[00:15:52] So now I want to draw this squash position that will be before my last keyframe. And I want to make it not super extreme because we have tight timing and I want to settle this shape pretty quickly.
+[00:16:13] So I'll point my edges first. So I'm like making the top edge lower, but wider. And we'll add some curved edges here. Okay.
+[00:16:39] I will take the canvas to make it easier to make this arc. Okay. Now I see that this volume is not exactly the same as these two pockets.
+[00:16:56] So I will make the pockets be slimmer on the sides just a little bit. And now we'll ink in the shape. Okay. So now I have a plan for my animation.
+[00:17:18] If I would like delete the in-betweens here, there's my empty frames just to show how it can look. So I already like see what the movement will be from these one, two, three, four frames even without in-betweens.
+[00:17:43] So it can help to plan your animation and block it in before you went into a lot of frames already. And you can like play with the amount of stretch you want to apply here, the amount of squash you want to apply here with drawing like fewer shapes.
+[00:18:06] Now let's add in-betweens to this. And we'll talk about what exactly we want from our in-betweens here. So this frame, we are still like appearing from nowhere.
+[00:18:28] So I don't want to make accent on this frame. I want to make accent on the next frame, this one, my extreme one position here. So this frame will be super close to the shape of like this frame, but I will take into account that it's going from this position.
+[00:18:55] So in this frame, the shape will be wider a little bit than in the next position because I'm going from squash to stretch. And it will be slightly lower because the movement was from bottom to top.
+[00:19:16] Okay. I need to make my brush bigger to make it easier to draw. Okay. And the sides go from white to slimmer. So here I'm drawing slightly wider sides.
+[00:19:40] Okay. Yes. Like this. And I will link the frame flip through to check how it looks. I'm happy with it. And I want to make this head slightly lower because it's just not hidden right. I want more change in it between these frames.
+[00:20:10] So yeah, this frame is showing me how I enter the extreme one. This is our extreme one. And this frame will be how I exit the extreme one. So here I want to make positions that will go toward this frame.
+[00:20:36] And I want it to be different from how I entered this frame. So I adjust my onion skin to see both frames and go slightly further into the squash side of this shape. It will be wider.
+[00:21:07] Now to make things easier, I will return to looking only in the previous frame. One, not two. And add the curves here and in the shape.
+[00:21:28] So here again our shape goes wider. This curve on the sides is going inside, but not that much. And this top head edge is more flat than it was before.
+[00:21:53] Now the next frame, I want this frame to exaggerate my second extreme. So I want to make accent here first and then here. So to make it more punchy and exaggerated, I will show in this frame how I enter the extreme two. This one.
+[00:22:20] So here again I'm marking the corners first, so it goes from this to this. This. And it's pretty close to my extreme position because I want to make sure that it is accented.
+[00:22:41] So in here I'm drawing the edges. So this edge will be less curvy because I want the next frame to be extreme, so the curve will be more exaggerated.
+[00:22:59] Here the same. Okay. And for the top part again, slight curve, but not super extreme. Okay. Picking up the corners a little bit and inking the shape. Okay.
+[00:23:38] And the last frame will be just in between, between, in between, between my extreme and final position. If it was less tight timing, I would add like here extreme two, here, here our key position.
+[00:24:03] So if we had more frames to work with, if the timing would allow us this, I would probably add how we go from extreme two, how we go into the keyframe last and then the keyframe.
+[00:24:24] But again, sometimes we just need to work with what we have and it's nice exercise to fill in the tight timing. So here the corners will be almost in the last position and the edges just slightly curved from here.
+[00:24:51] So I'm trying to prioritize the keyframe position. So just slight, slight curve. Okay. And I'm inking the frame and we can check how it looks. I will delete my nodes to not be distracted by them. Okay. Yeah, it works.
+[00:25:38] So in this video, we looked into adding squash and stretch to the animation and how to plan them in the process of creating animation. I hope you will have fun with it and see you next time. Bye.

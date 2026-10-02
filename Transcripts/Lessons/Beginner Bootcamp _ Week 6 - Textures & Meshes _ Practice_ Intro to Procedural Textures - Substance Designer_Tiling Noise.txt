@@ -1,0 +1,173 @@
+[00:00:06] Welcome back to another new lesson of Sustain Designer.
+[00:00:10] Today we are going to create our first tiling noise.
+[00:00:14] In any FX tester folder you will find a lot of tiling noise because they are very used.
+[00:00:21] It's super important to create this kind of tester because they are widely used on a daily basis.
+[00:00:27] With them we could distort UVs, we could make an interesting
+[00:00:32] effort by multiplying the noise between them with different partners and many other things.
+[00:00:37] So let's go ahead!
+[00:00:39] As always I'm going to open the file I'm working on
+[00:00:43] and create a new graph for the tiling noise.
+[00:00:48] Ok, the first node that we are going to make is a noise that has directionality in one axis
+[00:00:54] and is a bit stretched. This kind of FX is used for creating
+[00:00:59] trails or meshes that involve some directionality or speed.
+[00:01:03] The noise tester in Sustain Designer are often easy to create
+[00:01:07] because we are always working with seamless tester and we will not have to worry about it.
+[00:01:12] The only thing that we will have to worry about is that the noise pattern isn't noticeable when
+[00:01:19] it's repeated. Besides, there are many ways to create this tester and one of them, which is one
+[00:01:25] we are going to use to make this noise, is to start from another noise and then distort and
+[00:01:31] warp the shape to get another pattern where we can appreciate the repetition.
+[00:01:37] In order to ensure that the pattern doesn't repeat itself too often,
+[00:01:41] we will have to repeat the same operation several times with different variations.
+[00:01:46] Well, the noise that we will create needs some directionality and we will start creating
+[00:01:52] an anisotropic noise that already gives us the directionality that we want as a start point.
+[00:01:58] Alright, we have a lot of small details, so we are going to start decreasing the values in y-axis.
+[00:02:06] Ok, now we have a good size with noticeable gradient lines,
+[00:02:11] then we will rotate the tester and normally I prefer creating the noise in y-axis direction.
+[00:02:18] However, if any time if you need to change the rotation we can do with a 2D transform,
+[00:02:24] this noise is really boring and we are going to warp several times to get an interesting pattern
+[00:02:31] where these shapes will be broken. For these steps we are going to use the
+[00:02:36] two confidence nodes, the multidirectional warp and for the input map, the Perlin noise.
+[00:02:43] We are going to do it several times using the different types of mode of the directional warp
+[00:02:49] with different scales, big, mid and small for the noise to get an interesting pattern.
+[00:02:55] Bearing this in mind, let's take the first step. For this iteration we are going to make a general
+[00:03:00] move in all the lines that we have, so we will use the Perlin noise with a hue scale.
+[00:03:05] I'm going to lower the scale to get some gradient which will push
+[00:03:09] all the lines to the size to get accurate lines and also change the disorder a bit.
+[00:03:16] As we have a hue Perlin noise with middle values in the grayscale we will need to increase the
+[00:03:21] intensity too much to see a perspective change. A good point to start, I think it could be
+[00:03:27] interesting type 100 in the intensity to see a noticeable change.
+[00:03:33] Ok, now we can see a good change but it's really blurry and we can appreciate
+[00:03:39] the direction of the warp so we are going to change the mode to mean
+[00:03:44] to have only the mean value of the operation. Another thing that I can appreciate in the warp
+[00:03:50] is the noise is pushing in four directions and for this case it's better to only control
+[00:03:56] two directions, this meaning that it's warped in the direction of the angle
+[00:04:01] and the opposite of that direction. Now it's much better but I appreciate
+[00:04:06] that we have lost some intensity in the warp and I'm going to increase the intensity again.
+[00:04:13] Then we will change the angle until we see that we like the result.
+[00:04:17] Cool, we have the first iteration with the peak escape so let's go for the next one
+[00:04:22] and to go faster we will copy and paste the two nodes that we have used and make the necessary
+[00:04:28] change. First in control we add more nodes in the current selection, also we change the connection.
+[00:04:34] In this step we are going to create the mid detail so first we are going to increase the
+[00:04:40] scale in the perlin noise and change the disorder to have another variation.
+[00:04:46] Fine, now we can appreciate that it's super deformed so first we are going to decrease
+[00:04:52] the intensity. Then we are going to change the mode to max to have another variation of the warp
+[00:05:02] and highlight the deformation, also we change the angle and we will look for getting the noise
+[00:05:08] to not be doing a lot of intersection between the lines. Perfect, we have done the mid detail
+[00:05:15] so let's make the small detail, we will do the same, copy and paste the two nodes and then we
+[00:05:21] will change the configuration a bit. We are going to repeat the process and we will increase the
+[00:05:27] scale of the perlin noise to have a noise with more detail. Then let's decrease the intensity
+[00:05:33] of the warp because it's really hard. I imagine that you are already realizing that the more times
+[00:05:40] we do the process we need to lower the intensity of the warp. With the small detail we are going
+[00:05:45] to use the change mode and I remind you that this mode make the warp consecutively.
+[00:05:51] In addition we are going to change the angle of the warp, now it's really cool.
+[00:05:58] The following step that we are going to do is to blur a little bit the shape that right now
+[00:06:03] is very defined and make a second pass of the deformation to get a more attractive pattern.
+[00:06:10] First we will start to blur the texture a little bit and for this we will set a rather small value.
+[00:06:17] As follows and for this second deformation pass we are going to do the same process several steps
+[00:06:23] to have the three types scale of detail playing with different deformation modes.
+[00:06:29] We will use the non-directional warp to deform the texture and as an intensity input we are
+[00:06:34] going to use the more annoying noise, we didn't use this node yet but it's really easy. It's an
+[00:06:41] advanced version of the directional warp that allows the intensity and the direction of the warp
+[00:06:46] to be modulated with an image input where we also have more control and more option to change the
+[00:06:52] aspect when we can create interesting shape with different modes that it has.
+[00:06:57] So what? In order for us to warp with it we are going to configure it first the
+[00:07:03] more annoying noise, as we are going to start with the first iteration of detail,
+[00:07:07] the bigger one, we are going to decrease the scale value of the noise.
+[00:07:12] We are creating a noise that tends to be longer in one axis so also we will decrease the y-axis size.
+[00:07:20] Fine, then as I said we will be to add some distortion of the borrowed noise
+[00:07:25] to add some extra detail and create more interesting shape in the noise.
+[00:07:29] We will set the distortion to 1 to get a good distortion of the noise.
+[00:07:34] Then we are going to set a smaller scale to notize the applied distortion better.
+[00:07:40] Ok, I think with 2 is very good, but the pattern could be better.
+[00:07:45] So let's see if we change in the random seed we can get a noise where it has a lighter value.
+[00:07:51] Nice, now the noise seems with more detail and with different grayscale value.
+[00:07:57] So let's go to the non-uniform directional warp.
+[00:08:01] Well, this now is the same as the directional warp that we have used in other lessons
+[00:08:06] but we have more parameters.
+[00:08:09] The first thing that we are going to do is set the direction of the warp.
+[00:08:12] As we are making a noise that has some directionality we will set the distortion
+[00:08:16] angle to 90 degrees so that it puts all the texture at worse.
+[00:08:22] Then we have the intensity of the warp and it will multiply depending on the grayscale
+[00:08:27] that we have in the intensity map.
+[00:08:29] As you know, to see a really perceptible result we need to type the intensity with a higher number
+[00:08:35] because with the maximum intensity that you can put in the slider it falls rather small.
+[00:08:40] So I'm going to type 50 or 60 and then we will see it if we need more after configuration.
+[00:08:47] Fine, right now it's a bit weird, it even looks like oil wave and is too distorted.
+[00:08:54] So here we have the trail length, that's the length of the trails,
+[00:08:59] and this is an additional layer that we can complement in this node.
+[00:09:03] If we move the slider we can appreciate how this works
+[00:09:07] and it pushes in that direction some part of the texture.
+[00:09:11] For this case we have here the trail mode that determines how this trail will be blended
+[00:09:17] and we will change to average that will ease pushing in that direction also is luring.
+[00:09:24] This completely changes the look and the feel of the texture and well,
+[00:09:27] seeing that we can increase the intensity of the warp to accentuate that effect.
+[00:09:33] Alright, now we have the first iteration.
+[00:09:36] As we have done last time, let's copy, paste and recognize,
+[00:09:41] moreover give it some change to get the medium detail.
+[00:09:45] In the world of noise we are going to increase the scale a little bit
+[00:09:49] and to have a totally different variation very quickly we will change the random seed.
+[00:09:54] Fantastic!
+[00:09:59] Then we are going to set the trail length to 0 to remove the extra layer
+[00:10:04] and decrease the intensity of the warp.
+[00:10:08] Ok, we will repeat the process again to create the small detail.
+[00:10:13] Copy, paste, reconnect and change the configuration a little bit.
+[00:10:18] As always we will start to change the bar noise and we will increase the scale of the noise.
+[00:10:24] This time instead of changing a random seed we are going to increase the y-axis
+[00:10:29] because we have increased the noise too much so we will get a better shape when we warp the noise.
+[00:10:35] It's quite a stretch so we composite a bit.
+[00:10:39] With the non-uniform directional warp we are going to make it easy
+[00:10:43] because the result that we can see is quite nice.
+[00:10:46] So we are going to add again the additional layer with the trail length
+[00:10:50] and add some directional blur in the directionality
+[00:10:54] and make it more integrate the grayscale and uniform.
+[00:10:58] Also we are going to decrease the intensity a little bit.
+[00:11:01] Ok, now it's really really cool texture.
+[00:11:05] So we are going to press spacebar to see how this behaves when it's repeating
+[00:11:10] and it seems to behave quite well.
+[00:11:13] Instead for a few things that are not super important
+[00:11:16] we don't see a lot of reposition of the elements.
+[00:11:19] However we are going to give a little bit extra layer
+[00:11:23] that will make it have some intermediate value in the areas
+[00:11:26] that are lighting that will make our noise more interesting
+[00:11:30] that everything is more infinite.
+[00:11:33] For that we will create an extra noise to blend it with the texture that we are working with.
+[00:11:39] To create the new noise we are going to start
+[00:11:42] blending the two noise that we have a medium scale in the graph.
+[00:11:47] For this case we will select the overlight mode
+[00:11:50] then we will apply a directional warp
+[00:11:53] when the intensity input will be the texture that we are creating.
+[00:11:58] As an initial step we are going to change the angle
+[00:12:01] to further accentuate the directionality of the y-axis.
+[00:12:06] Then we will type the intensity to have a good warp in the noise,
+[00:12:10] perhaps 50, 60, it could be good number.
+[00:12:14] Alright, I think that is fine.
+[00:12:17] Well, as a next step we will blur the noise with a non-uniform blur
+[00:12:22] and the second input will be itself.
+[00:12:26] Also we decrease the intensity.
+[00:12:29] Lastly the noise is quite nice.
+[00:12:32] So we have a middle scale where the shapes are not too hard
+[00:12:36] but we are going to invert the grayscale
+[00:12:38] because we want to add some middle grayscale in the lighter area of our texture.
+[00:12:47] Fine, we are ready to blend the two texture.
+[00:12:50] Let's create the blend node from our main texture
+[00:12:53] and connect the new noise in the first input.
+[00:12:57] We are not going to change the blending mode
+[00:13:00] so we will leave the copy mode but as I told you before
+[00:13:04] there were various accentuated lighter areas where we were going to add more grayscale detail.
+[00:13:10] So we will use the mask input to add this detail on the lighter areas of the noise.
+[00:13:17] Now we can see a much more uniform noise with a lot of detail
+[00:13:21] and not areas that stand out too much.
+[00:13:25] Let's check how this behaves when it's repeating and it's really cool.
+[00:13:29] Maybe a bit darker now so I'm going to decrease the opacity intensity.
+[00:13:35] Ok, now it's really nice and we have done the tiling nose texture.
+[00:13:40] We only need to create the output node and spot it toward them in the engine.
+[00:13:47] Well, today in real life I've created an easy waterfall.
+[00:13:52] I didn't want to add too much detail because I'm interested in how the texture behaves
+[00:13:57] and that you can appreciate it well.
+[00:13:59] Also, I add the splash and the rinse that we have done in the previous lesson
+[00:14:04] to complete the effect.
+[00:14:06] I create a shader super easy where the texture is sampled twice and multiply themself.
+[00:14:14] Moreover, they have different tilings and speed.
+[00:14:17] Depending on how we use this texture we can create infinite result.
+[00:14:22] I encourage you to play with the tester without fear and practice how you can use it.
+[00:14:28] So, I hope you enjoyed this lesson and see you!

@@ -1,0 +1,390 @@
+[00:00:01] Oh, hey guys.
+[00:00:03] Let's learn about layers and filters in Photoshop.
+[00:00:08] Okay, so I had a video before this one.
+[00:00:11] I'm assuming you've watched it or you know what's in it.
+[00:00:13] I'm doing a series that prepares you for an online class.
+[00:00:16] Link in the description.
+[00:00:19] So let's dive right in.
+[00:00:22] Photoshop has layers and a lot of the power of Photoshop
+[00:00:24] is in the layers system.
+[00:00:25] I'm just gonna cover the basics in this video
+[00:00:27] and then we're gonna go more advanced in future videos.
+[00:00:30] So what we've got here is we've got a setup with a folder
+[00:00:33] and then a bunch of these layers
+[00:00:35] and you see that they've got these effects on them.
+[00:00:38] Some of the layers have effects.
+[00:00:40] I can't select the effects here.
+[00:00:41] That's like for a future video
+[00:00:43] but just keep in mind that that's what those are.
+[00:00:47] And then I can click these eyeballs next to each layer
+[00:00:50] to hide or show them.
+[00:00:52] And it's very specific about where you clicked
+[00:00:54] in order to do that.
+[00:00:56] If I want, I can double click on a layer.
+[00:00:58] I can rename it.
+[00:01:00] I can click and drag a layer to reorder it
+[00:01:03] if I want it to sort behind other layers.
+[00:01:07] I can minimize the folder to keep things nice and tidy
+[00:01:11] if you have a ton of layers.
+[00:01:13] You can maximize it here.
+[00:01:16] I can change the opacity of a layer to make it faded out.
+[00:01:23] And so on and so forth.
+[00:01:24] There's all kinds of fun stuff.
+[00:01:25] If I hold control, I can select multiple layers.
+[00:01:28] If I keep holding it, I can deselect.
+[00:01:32] And then if I use the move tool,
+[00:01:34] we learned about the move or the tools panel
+[00:01:37] in the last video.
+[00:01:39] If I use the move tool, I can come over here
+[00:01:41] and I can click and move the different layers.
+[00:01:45] Now there's a gotcha here.
+[00:01:47] And I'll show you that in a second.
+[00:01:48] Let's say if I deselect the glow
+[00:01:50] and then I click the move tool, it's not working, right?
+[00:01:54] It's actually just selecting the glow.
+[00:01:56] Why is that?
+[00:01:57] Well the glow, as you can see, is pretty transparent
+[00:02:00] but it's also pretty big and solid.
+[00:02:03] And because I have auto select turned on up here,
+[00:02:06] my move tool settings, it's selecting whatever I click on.
+[00:02:11] So here I clicked on the background
+[00:02:13] and it's now moving that around.
+[00:02:15] So if you deselect, let me undo so that I'm back on the...
+[00:02:24] Okay, so apparently, this is another gotcha.
+[00:02:27] Hitting undo does not put you back
+[00:02:29] to what you had selected on your layers.
+[00:02:32] It undoes everything else that you've done
+[00:02:34] but one thing it does not undo is choose this layer.
+[00:02:38] Like if I, see I'm like clicking and then hitting undo.
+[00:02:41] It's not taking me back.
+[00:02:42] Anyway, I digress.
+[00:02:44] So if I reselect all these layers,
+[00:02:46] because I can't undo back to where it was,
+[00:02:48] and that glow is in my way still,
+[00:02:51] but if I turn off auto select,
+[00:02:53] I can actually click anywhere
+[00:02:54] and it will click, it'll like move whatever I want.
+[00:02:59] Another fun option in the move tool up here
+[00:03:00] is the show transform controls.
+[00:03:03] If I toggle that on, it gives me this bounding box
+[00:03:05] and I can rotate like so.
+[00:03:08] I can scale it like so.
+[00:03:10] If I hold shift, it'll just scale it
+[00:03:13] on the one axis I'm doing.
+[00:03:15] If I hold alt and shift, it'll do it from the center
+[00:03:18] instead of the opposing line.
+[00:03:20] If I just hold alt, it'll do it uniformly from the center.
+[00:03:24] Fun fact, hitting undo only gets me back one step.
+[00:03:28] I can't undo all the way until I hit enter
+[00:03:33] and then I can undo the whole transform as one option.
+[00:03:36] That's because here on the history,
+[00:03:39] it just does free transform as a thing.
+[00:03:44] One thing, not like rotate it a bit
+[00:03:46] and scale it a bit and then you get the idea.
+[00:03:49] So some fun things with the undo functionality
+[00:03:52] and transform.
+[00:03:55] All right, so I'm gonna turn off the transform controls.
+[00:03:57] Honestly guys, I use auto select and free transform.
+[00:04:01] Sometimes, yes, sometimes not.
+[00:04:03] Just depends on what I'm doing.
+[00:04:05] Find them useful from time to time.
+[00:04:08] All right, so we've learned about layers
+[00:04:11] and how to click them and resort them
+[00:04:12] and select them and move them.
+[00:04:15] Useful stuff, useful stuff.
+[00:04:17] Let's make sure I got everything we need.
+[00:04:19] Oh, of course, with this selected,
+[00:04:22] we wanna also know that you can do edit transform
+[00:04:27] and then you can do all these different things
+[00:04:29] like rotate, et cetera.
+[00:04:29] You can do the free transform,
+[00:04:31] which is what we just had selected
+[00:04:32] by the transform controls.
+[00:04:35] You can look into those other things later.
+[00:04:36] You get the idea of transforming, scaling and all that.
+[00:04:40] Pretty standard stuff.
+[00:04:43] Okay, so we learned a little bit about the lasso tool.
+[00:04:47] Let's say you select this.
+[00:04:50] We learned in the last video how to use the lasso tool.
+[00:04:53] And say you wanna delete it.
+[00:04:57] Well, if you're not on the right layer,
+[00:04:59] hitting delete actually does nothing, right?
+[00:05:03] So you gotta make sure that you're on the right layer.
+[00:05:06] And to do that, I just like to hide and show
+[00:05:09] to find the layer that I'm after.
+[00:05:16] Nope, nope, nope, it wasn't any of those.
+[00:05:20] It was, there it is.
+[00:05:25] Highlights, touch ups.
+[00:05:26] So if I'm on the right layer and I hit delete,
+[00:05:27] then it'll delete whatever it was in that layer
+[00:05:31] that you're after.
+[00:05:32] Now let's say that I selected it,
+[00:05:33] but I wanted just a little bit more selection
+[00:05:35] or a little bit less.
+[00:05:37] You can go to select.
+[00:05:40] You can go to modify.
+[00:05:42] And then you can say contract or expand.
+[00:05:45] And it does about what you would expect.
+[00:05:47] Contract by six pixels.
+[00:05:50] You're gonna shrink that selection in.
+[00:05:52] It's pretty handy if you wanna be very precise
+[00:05:54] with what you're selecting and how you're doing that.
+[00:05:57] That's one thing that Shovlin uses
+[00:05:58] in one of the videos as he's painting.
+[00:06:02] Cool, so now for the fun part.
+[00:06:05] We're gonna move on to filters.
+[00:06:06] All right, so with your layers properly selected,
+[00:06:11] I'm just gonna hit control D for deselect.
+[00:06:14] You can come in here and you can start adding
+[00:06:15] some filters on these things.
+[00:06:17] Let's see here.
+[00:06:21] Hide all of these.
+[00:06:22] And then also hiding the effects is really useful.
+[00:06:26] I wanna do hotspots, hide that.
+[00:06:30] Okay, so here's some streaky hotspots that he's got, right?
+[00:06:33] Now I wanna put a filter on there
+[00:06:35] that makes it feel nice and energetic
+[00:06:36] and like it's moving really fast.
+[00:06:40] Well, I know what moves fast.
+[00:06:42] It's things that are blurred.
+[00:06:43] So I go to filter, blur,
+[00:06:45] and then blur you'd think would be
+[00:06:49] the most commonly used one.
+[00:06:50] Actually, for some reason,
+[00:06:52] everyone I know uses Gaussian blur.
+[00:06:53] I use Gaussian blur just cause it's what I was taught to do.
+[00:06:56] I don't know why.
+[00:06:57] I just don't use blur.
+[00:06:58] Anyway, I'm gonna like really blur that out
+[00:07:00] and you can see pretty quickly
+[00:07:02] that it doesn't really make it feel very energetic.
+[00:07:05] It's unfortunate.
+[00:07:06] Not what we want.
+[00:07:07] So cancel that.
+[00:07:10] Instead, what I'm gonna do is I'm gonna do blur,
+[00:07:13] radial blur, cause I want it to radiate outward, right?
+[00:07:17] Fun fact, you can do spin.
+[00:07:19] I'm gonna do a little bit of spin here
+[00:07:20] and just show you what that does first.
+[00:07:22] It feels like a rotating propeller, which is kind of fun.
+[00:07:25] Sometimes you use that in effects.
+[00:07:27] You can redo it by just clicking up here.
+[00:07:30] Whatever filter you did last is up at the top.
+[00:07:33] It's pretty fun.
+[00:07:34] Undo that.
+[00:07:37] Blur, motion blur, no, not motion blur.
+[00:07:39] Motion blur is good for direction.
+[00:07:43] Side to side kind of thing.
+[00:07:45] But that's not quite what I want either.
+[00:07:47] So I wanna do radial blur,
+[00:07:49] but I wanna select zoom instead.
+[00:07:55] Thinking while working is hard.
+[00:07:59] There we go.
+[00:08:01] So that's about what I want.
+[00:08:02] You can get even more fine tuned with this.
+[00:08:04] I'm gonna use the grid to kind of show
+[00:08:06] where that center of the radiation is from.
+[00:08:09] You can do control apostrophe to show your grid.
+[00:08:12] To get to your grid settings,
+[00:08:15] yours might not be laid out like this.
+[00:08:17] I'll just show you that real quick.
+[00:08:19] Preferences, whoop, whoop, I'm in the way.
+[00:08:24] And then you go to guides, grids, and slices.
+[00:08:28] And then grid line every 50%, not pixels, not percent.
+[00:08:34] Subdivisions too.
+[00:08:36] I don't need to be off to the side anymore.
+[00:08:38] You can do it okay.
+[00:08:39] And then your grid will look like this.
+[00:08:41] And then control apostrophe on your keyboard
+[00:08:44] will get you up and going.
+[00:08:46] All right, so I think I wanna change the center.
+[00:08:55] Let's figure that out.
+[00:08:56] Center was here.
+[00:08:57] That's not quite the same center as there.
+[00:08:59] Hit undo, filter, blur, radial blur.
+[00:09:02] You can do this really cool thing by clicking here.
+[00:09:05] It'll change where the center's at.
+[00:09:07] So I want my center to be a little off center,
+[00:09:10] a little down, hit okay.
+[00:09:12] And that's just gonna get it a little nicer.
+[00:09:15] The crazy thing about that is
+[00:09:16] if you move that center around,
+[00:09:18] it'll save the movement that you did
+[00:09:21] to reset that next time you go in here.
+[00:09:25] Because maybe you did something over here
+[00:09:26] and you want it back centered again and it's annoying.
+[00:09:29] You can actually just hold control.
+[00:09:31] Again, super not intuitive.
+[00:09:33] I apologize for that.
+[00:09:34] But that's why you have these videos.
+[00:09:36] It changes cancel to default when you hold control.
+[00:09:40] And then you click on that.
+[00:09:41] It's a command on a Mac, I believe.
+[00:09:44] And it'll just set it back to the same amount.
+[00:09:47] It'll set it back to spin.
+[00:09:49] But it puts it in center.
+[00:09:50] So that's what you're after there,
+[00:09:51] is getting that into center.
+[00:09:54] All right, and then I can turn back on my effects.
+[00:09:57] Feels nice and blurry there.
+[00:10:00] Okay, so that's just one filter.
+[00:10:02] There's lots of filters on here.
+[00:10:04] Let's find out what else we can do with filters.
+[00:10:08] We've got this fun thing called minimum and maximum.
+[00:10:12] I don't know.
+[00:10:13] Say you've got like, I'll use a different shape this time.
+[00:10:21] Yeah, that's a good one.
+[00:10:23] All right, so I got this here and I want to,
+[00:10:25] you know how I expanded and contracted
+[00:10:26] the selection a bit ago?
+[00:10:28] Maybe what you want to do is expand and contract the fill.
+[00:10:31] That's under filter, other, maximum to make it skinny
+[00:10:37] for some reason.
+[00:10:38] That's kind of fun how it does that.
+[00:10:39] See, it makes it like more like spindly.
+[00:10:43] And then maximum to make it bigger.
+[00:10:52] Or minimum to make it bigger.
+[00:10:58] Minimum, by the way, making it bigger,
+[00:11:01] this is a very common technique.
+[00:11:02] So I'll just show you what I'll do with this sometimes.
+[00:11:07] I'll just come in here, I'll duplicate the layer.
+[00:11:09] So to do that, you just drag the layer down
+[00:11:11] to this create new layer.
+[00:11:12] That's what I did there.
+[00:11:13] And it'll just create a copy of it
+[00:11:14] with all the same effects and everything.
+[00:11:16] It's pretty handy.
+[00:11:17] And then I can come in here and I can say filter,
+[00:11:22] minimum to make it bigger, right?
+[00:11:24] So first you just make it burnt like,
+[00:11:28] oh geez, what's happening with that blur?
+[00:11:33] Something happened with the black,
+[00:11:35] normally it doesn't happen, I don't know what's going on.
+[00:11:37] Filter, blur, and then I just like make that really fuzzy.
+[00:11:41] Gaussian blur, like so.
+[00:11:44] And what it ends up doing is it ends up being like a glow
+[00:11:48] that's a little more precise.
+[00:11:49] So you're basically scaling it out and then fuzzing it out.
+[00:11:53] So it feels like a, it's a cheap way to do glow
+[00:11:57] around your stuff.
+[00:11:58] So I don't feel like that, I don't know,
+[00:12:02] try it out, tell me what you think.
+[00:12:04] Okay, so trash that, because it does not work for what.
+[00:12:10] Oops.
+[00:12:11] If you click and it has the eyeball and then keep holding,
+[00:12:15] it will like remove stuff, or sorry.
+[00:12:20] If it has the eyeball and you click and drag,
+[00:12:21] it'll remove the eyeballs from all the others you drag over.
+[00:12:24] If it has no eyeball, it'll make everything visible.
+[00:12:30] Except I don't want that.
+[00:12:34] Okay, I got my palette, cool.
+[00:12:38] I showed the palette, which I wanted to do anyway.
+[00:12:41] Polar coordinates, this is a really fun one.
+[00:12:43] So polar coordinates, always remember this,
+[00:12:45] you want to paint from the north pole.
+[00:12:49] If you paint from the south pole,
+[00:12:52] well I guess it depends on what you're doing,
+[00:12:53] but typically with particles you want like a burst
+[00:12:55] to go outwards, not in, I'll show you what I mean.
+[00:12:58] I'm gonna create this bursty thing right here.
+[00:13:03] Or something like it.
+[00:13:04] I don't know, it's probably not gonna look anything like it
+[00:13:06] because I'm doing it on the spot.
+[00:13:08] But with the brush tool,
+[00:13:10] and remember we have the tilty brush.
+[00:13:13] Why is the tilt not working?
+[00:13:17] Pen tilt, I do too have pen tilt.
+[00:13:21] Oh my goodness, I need to restart Photoshop.
+[00:13:24] Remember I was talking in the last video about this?
+[00:13:26] Okay, so I apologize, give me a second.
+[00:13:29] Restarting.
+[00:13:32] Do, do, do, yeah we get the joys
+[00:13:34] of the software acting up on us from time to time.
+[00:13:39] And we're coming back in just a second.
+[00:13:46] How are you guys doing today?
+[00:13:47] You having a good day?
+[00:13:49] I'm having a pretty good day.
+[00:13:55] All right, and we're back.
+[00:13:58] And now, this is gonna work,
+[00:14:03] because I have a good feeling.
+[00:14:06] Yep, sure enough, pen tilt works.
+[00:14:09] My goodness, gotta show that layer that I wanted.
+[00:14:13] Down here is the pallet layer.
+[00:14:16] All right, so.
+[00:14:18] Hold alt, grab, I'll grab that first.
+[00:14:22] So I wanna paint from the top, okay?
+[00:14:26] We're gonna use a combination of a few different
+[00:14:28] of these filters that I mentioned.
+[00:14:34] Gotta get the squiggliness.
+[00:14:38] Get it all nice and filled in.
+[00:14:41] Cool, nice pointy points.
+[00:14:48] There we go.
+[00:14:51] Hide that, hold alt and I can select another layer.
+[00:14:55] I can just come in and just add some
+[00:15:00] few hot streakies coming out.
+[00:15:03] I can already tell this is gonna be amazing, guys.
+[00:15:06] This is gonna be the best you ever did see.
+[00:15:10] I just totally wiped out all the orange stuff
+[00:15:12] that I just painted.
+[00:15:14] Okay, and then this guy here, the heck not.
+[00:15:26] And I want to hide all of these.
+[00:15:30] So I clicked and dragged and it just kinda
+[00:15:33] hid them all for me.
+[00:15:35] And now I'm gonna do some filter action.
+[00:15:37] So first I'm gonna do some blur,
+[00:15:40] I'm gonna do some motion blur.
+[00:15:42] I don't wanna blur it side to side
+[00:15:43] as much as I wanna blur up and down,
+[00:15:45] so you can adjust this here to be like
+[00:15:48] 90 or negative 90 degrees.
+[00:15:50] Cool, and I want it to really, really fuzz out for me.
+[00:15:55] Oh, maybe not that much though.
+[00:15:57] I wanna keep the upper edge intact as much as I can
+[00:16:00] because that's gonna be the center of my radiating burst.
+[00:16:05] Cool, and then I can come in and I can do filter
+[00:16:08] and this is just gonna be the best ever.
+[00:16:10] I think polar coordinates used to be under other,
+[00:16:12] but nowadays it's under distort.
+[00:16:15] So polar coordinates, oh my gosh,
+[00:16:18] it looks even better than I thought.
+[00:16:19] You wanna make sure you're doing rectangular to polar,
+[00:16:21] not polar to polar to polar.
+[00:16:23] You can zoom out right here.
+[00:16:25] That's gonna be something really weird
+[00:16:26] if you do the other.
+[00:16:27] Rectangular to polar and you say okay.
+[00:16:29] And now you've got the freaking coolest thing
+[00:16:33] on the planet, which is this polar coordinates burst.
+[00:16:35] So that's commonly used.
+[00:16:41] Right, so any other filters?
+[00:16:44] I mean, guys, I don't really know.
+[00:16:47] There's stuff that you can play around with
+[00:16:48] under stylize and I mean, this is fun.
+[00:16:52] Offset for tiling textures.
+[00:16:54] You can offset it by half of your scene width
+[00:16:59] and then it'll tile top to bottom or left to right,
+[00:17:02] paint it in.
+[00:17:03] That's one that I use.
+[00:17:04] You can use other types of blur, I guess, if you wanted to.
+[00:17:11] But really, that's it.
+[00:17:12] I mean, with the hand painted style,
+[00:17:13] we're not gonna use a ton of filters.
+[00:17:15] We don't wanna use procedural techniques
+[00:17:18] and maybe avoid them as much as possible.
+[00:17:21] Oh, one other tip that I left out of the previous video
+[00:17:24] with the brush tool, the brackets make it bigger
+[00:17:28] and smaller.
+[00:17:29] That's on your keyboard.
+[00:17:30] That's next to the P key on an English keyboard.
+[00:17:33] Big bracket, little bracket.
+[00:17:36] You don't wanna actually hit P like I just did.
+[00:17:38] That's pretty common.
+[00:17:39] Also on your tablet, sometimes there's a wheel
+[00:17:42] or a bar that like slides.
+[00:17:44] You can set that to make your brush big or small.
+[00:17:47] I don't know if you probably knew that before,
+[00:17:48] but if you didn't, there you go, free knowledge.
+[00:17:52] Okay, guys, well, that should cover it
+[00:17:53] for layers and selections on layers and filters.
+[00:17:59] I hope you enjoyed it.
+[00:18:00] Have fun playing around in Photoshop.

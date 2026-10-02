@@ -1,0 +1,160 @@
+[00:00:05] Hey, welcome to this lesson!
+[00:00:07] Today we are covering the bread and butter of Combat Visual Effects,
+[00:00:11] a classic sword slash.
+[00:00:13] This can range from a basic attack effect to any kind of crazy combos,
+[00:00:18] so we are going to cover one flexible way to do it and we are going to go through the reasoning behind our choices.
+[00:00:25] Let's start!
+[00:00:27] Like in previous lessons, in our concept we have a quick sketch
+[00:00:31] and we are already calling out the kind of mesh that we are expecting to use.
+[00:00:36] And we have some notes regarding the timing and the kind of elements that we have planned
+[00:00:41] and our references with different styles of slash effects.
+[00:00:45] Something that you're going to see again and again in this kind of effects is,
+[00:00:49] regardless of how much of the blade is leaving a trail behind,
+[00:00:53] sometimes it's the whole blade, other times it's mostly the tip,
+[00:00:56] the peak intensity in the trail is usually towards the outer edge.
+[00:01:01] Especially for effects that have some gameplay relevance.
+[00:01:04] This is going to help delineate the silhouette of the slash and that's going to help with readability.
+[00:01:11] So that's something that we can take note from to apply to our effect
+[00:01:15] and that's why we are using that blue and yellow colors of our sketch in the same way.
+[00:01:22] Comparing the effect to the concept you can see that it's pretty similar
+[00:01:26] or rather any differences are going to feel more like artistic choices rather than technical limitations.
+[00:01:33] It's a pretty simple effect and it's mostly going to depend on the shapes and the color
+[00:01:37] of which we have complete control through our textures and our material.
+[00:01:42] So we can get this as close as we want to the concept.
+[00:01:48] There is a big difference between this effect and the other ones that we have been covering until now.
+[00:01:54] This effect is going to work in conjunction with an animation.
+[00:01:57] So there is going to be some constraints regarding the scale, the shape and especially the timing.
+[00:02:05] At least for me I know that always looks a little more intimidating
+[00:02:09] since there is the added challenge of synchronizing the action of this world with the effect itself.
+[00:02:16] But it shouldn't be a problem as long as we keep checking the entire effect as we work on it,
+[00:02:21] not just the slash particle system in isolation.
+[00:02:26] For a slash effect like the one we want there are a couple of solutions that you are going to see
+[00:02:31] being used again and again.
+[00:02:34] The first one will be adding some kind of trail effect to the sword
+[00:02:38] and let the motions of the animation itself dictate the shapes that we get.
+[00:02:43] The cool thing about this is that once created these are kind of plug and play effects and you
+[00:02:49] don't have to create custom meshes for each variation and that's why you can commonly see
+[00:02:54] those kind of trails in situations where the motion can't always be known beforehand like
+[00:02:59] in this trail the character leaves behind. The main drawback is that since we have less control
+[00:03:05] over the result it's hard to art direct and the effect might look wonky in some cases,
+[00:03:12] like you can see here when the character turns too quickly.
+[00:03:18] The second option is the one we are covering in this lesson and that's creating a specific
+[00:03:23] slash trail mesh for the situation that we want. This allows for a lot more of art direction and
+[00:03:30] control not only over the shape of the mesh but also the timing of the textures sliding over the
+[00:03:36] material and other details. But of course this is going to require manual work for each variation
+[00:03:42] of the action that you want to use it for so that's why you usually are going to see these
+[00:03:47] methods being used for things like character attacks or abilities where there is a limited
+[00:03:52] set of animations that are going to play always in the same way every time. And you will sometimes
+[00:04:00] hear people call these meshes solar coasters. I'm pretty sure the name comes from a post in
+[00:04:05] the Realtime VFX forums where Ogi describes the mesh as a roller coaster for souls and gives a
+[00:04:11] nice breakdown of the technique. Of course the application in our case is different but this
+[00:04:17] technique is an easy way to make things like animated wisps or traveling effects hence the
+[00:04:23] roller coaster for souls reference. In any case the basic principle at work here is swiping a
+[00:04:31] texture through a long mesh that spans along the trajectory of our effect. In this case we are
+[00:04:38] going to use two elements working in that fashion one for that highlight that matches the traveling
+[00:04:44] tip of the sword and one for the main body of the slash giving more weight to the animation.
+[00:04:50] The tip highlight helps with precision showcasing the exact range of the sword attack while the body
+[00:04:57] of the slash is going to give more or less weight impact to the slash and we can play with the
+[00:05:05] balance of these two elements depending on the needs of the specific effect. So now that we
+[00:05:11] understand the idea of what we want to do let's break down the process. For this kind of effects
+[00:05:19] we are almost always going to use an animation as a reference. In a real production you'd probably
+[00:05:25] have an animation like this already and you would need to adapt your slash shape to that animation
+[00:05:31] that process we are going to cover in just a second but if you are working on some personal
+[00:05:35] effects for practice or showcase you can either do your own animation or use something from a
+[00:05:42] free animation pack to emulate working on a real project. So let's see how we can make a mesh out
+[00:05:50] of this animation. In Blender we are going to use a technique to construct our mesh from a Bezier
+[00:05:57] curve. Using the sword animation as a reference we are adding points to the curve at different
+[00:06:03] frames of the animation so that we get a smooth curve traveling along the sword's path. Once we
+[00:06:10] have a working path we are going to apply a bevel under the curve options. We are leaving
+[00:06:18] the resolution at zero so that we get a low poly tube and we play with the values to adjust the
+[00:06:24] size of the slash. Don't worry about the volume yet since we are going to flatten it out in just
+[00:06:30] a moment. For that we first need to turn this curve into a mesh that we can edit so we can do
+[00:06:37] that with the convert to mesh option. Now that we have vertices that we can edit we are going
+[00:06:44] to delete all of the bottom half and we are going to lower that central loop so that the mesh is
+[00:06:51] more flat. If the path of the mesh starts too early or ends too late we can easily remove any
+[00:06:59] polygons and once we are happy all that's left now is to make sure the UVs are set up in the right
+[00:07:06] way to work with our texture swipe material. Our target is to have the UVs set up in a way
+[00:07:14] that moving horizontally traverses along the mesh and something we want to avoid is our texture
+[00:07:20] appearing again right as it starts to disappear on the other side. There is multiple ways to solve
+[00:07:26] this using an edge clamped texture or using a different texture but in our case we are going to
+[00:07:32] leave some space on the left side of the UV square as a kind of buffer. Opening the UV editor
+[00:07:40] in Blender is going to reveal the damage that we have made by deleting half of the mesh.
+[00:07:46] These two UV islands are still tiling but we want them stitched together and centered in the UV
+[00:07:52] space. For that we are going to move them in a way that they are facing each other.
+[00:07:58] Then we can select the vertices that we want to stitch. We can get them close to each other by
+[00:08:03] scaling vertically the whole selection and then we go to UV merge by distance so that the vertices
+[00:08:13] close together are merged into one. Once we have our UV island reconstructed we want it to cover
+[00:08:20] the entire UV square. Remember it to leave that space to the left side so that our texture doesn't
+[00:08:26] immediately appear after one swipe. And that's it. That's one way to do it. You can go about it in a
+[00:08:36] lot of different ways depending on the shape that you want and the software you are using. The
+[00:08:40] important thing is achieving this kind of mesh with this kind of UV setup. Let's now check the
+[00:08:47] material that we are going to apply to this mesh. Remember the heat impact material, the one we used
+[00:08:54] for the ring element of that effect? We are using that same technique of panning our texture from
+[00:09:01] the particle system using dynamic parameters. With this we could adjust the tiling, although
+[00:09:07] in this case it's probably going to be the best to leave that as is, and the offset, which is the main
+[00:09:14] reason we want to use them here, since we want to animate the horizontal offset of our texture in a
+[00:09:20] way that makes it slide along the mesh. But from that material we're also taking advantage of the
+[00:09:27] distortion texture setup that we didn't really use last time in the impact effect, and depending on
+[00:09:34] how intense you set the distortion in the material parameters you are going to warp the edge shape.
+[00:09:41] So keep that in mind depending on the type of slash that you are trying to make. For a precise
+[00:09:46] shortcut like this one we might want to leave that distortion to something small so that we still
+[00:09:53] have some of that clean silhouette. If you have any problems with texture bleeding, and that's
+[00:10:01] probably going to happen if you start cranking that distortion up, as you can see the texture is
+[00:10:06] being pushed out of the mesh by the distortion and so it comes around through the opposite side,
+[00:10:13] you can always go in the texture asset and set the tiling method down here to clamp, and you can do
+[00:10:20] that for each axis separately, which is nice. This is going to avoid the texture repeating,
+[00:10:27] and depending on the effect you are making you might still need the texture to tile,
+[00:10:31] so this might not be a good enough solution, but for something like this it can be a good
+[00:10:36] backup if we need that distortion very high. But to play with these material values in any
+[00:10:43] meaningful way we really need this texture first, so let's check that out. This texture will be a
+[00:10:51] little tricky to make since what we are drawing is going to be highly distorted once applied to
+[00:10:57] the mesh. For cases like this you should feel free to do quick checks along the process,
+[00:11:02] visualizing the final result. We are first painting the left edge and the top edge of
+[00:11:09] the texture, the left edge is going to be the leading front that swipes our mesh,
+[00:11:15] while the top edge is going to outline the silhouette of the cut, like an after image
+[00:11:20] of the swirl's tip as it flies by. And using this as the foundation of our composition,
+[00:11:27] we are going to draw some trailing shapes. Try to make a full use of the grayscale so that there is
+[00:11:33] some depth to the color and opacity once this is used in the material. And again, sooner than
+[00:11:40] later I would recommend trying to apply it to the mesh so you can see how the texture is deformed,
+[00:11:46] and make changes accordingly until you feel happy with the shapes that you get.
+[00:11:51] At that point you can spend more time rendering the image and making sure that all the gradients
+[00:11:57] are smooth. And with our texture ready we can move on to the next step.
+[00:12:03] As you would expect, inside the particle material there is not a lot of crazy behavior to set up,
+[00:12:09] we just want to spawn a static mesh, our slash mesh, and to animate the material dynamic
+[00:12:15] parameters so that the texture is panned along the mesh. To spawn the mesh we are using a mesh
+[00:12:21] renderer, and remember that we can play with the mesh transform values inside here to match the
+[00:12:27] swirl animation in both scale and rotation. And to move the texture in the material we are again
+[00:12:34] using that dynamic parameters module. The offset x is going to add an horizontal offset to the
+[00:12:41] texture, so that's the one we want to animate given the way in which our UVs are set up.
+[00:12:47] The curve we are using has a higher slope at the beginning and flattens out towards the end,
+[00:12:52] which is going to make our texture span faster at the start. This curve is going to depend on the
+[00:12:59] specific texture that we are using and will need to be adjusted to things like the point at which
+[00:13:05] the texture starts, the width of that texture, the UVs of the mesh, etc. Remember that this curve
+[00:13:13] is by default based on the particle's lifetime, so adjusting the particle's lifetime is going to
+[00:13:19] make this whole swipe effect faster or slower. We need to adjust those values until the slash
+[00:13:26] matches the swirls animation. Now that we have our slash working it's a good time to play with
+[00:13:34] the smooth step values of the UV mask of our materials. For this specific effect this is
+[00:13:40] very valuable because it's an easy way to adjust the edge sharpness, the edge position, also the
+[00:13:47] length of the entire slash, and with that we can get some different variations. And with that our
+[00:13:56] main highlight element is complete. And to give some body to the effect and to serve as a
+[00:14:02] contrasting element to this yellow highlight we are going to use that second element and we are
+[00:14:07] going to base it off of this one. We first modified the texture to get something wider
+[00:14:14] that's going to cover the entire slash area and we also toned down the sharpness of the
+[00:14:20] trail and the details. We want something that has roughly the same shape but with less contrast
+[00:14:26] inside. Then in the particle system we duplicated our initial emitter and set up the new material
+[00:14:34] with a different color. Remember that we want this new blue background to always be behind the
+[00:14:40] highlight element so we should probably go into the mesh renderer and modify the sort order hint
+[00:14:46] accordingly. We also changed the lifetime to make the blue slash stay in place just a little bit
+[00:14:52] longer so that this element hangs for a little bit and the end of the effect is almost completely
+[00:14:58] blue. You can play with values like both the emitter's lifetimes and their color animations
+[00:15:05] and see how it affects the timing and the point at which the effect feels more intense.
+[00:15:11] Remember that our objective is to make this work as best as possible in conjunction with the
+[00:15:17] animation asset. And that's all we need to get a fancy slash like this one. Keep in mind that we
+[00:15:26] are making a classic regular slash here but you can use this same technique for a lot of different
+[00:15:31] motions. It doesn't even have to be a slash. By using a different texture that doesn't highlight
+[00:15:37] the edge as much you could get other kinds of swipes or magic projectiles even some souls
+[00:15:44] rollercoasting. But even sticking to just slashes you could use a spiraling down mesh to get some
+[00:15:52] kind of tornado ability or follow any curve really. As long as the motion you are trying
+[00:15:57] to emphasize with this effect is determined beforehand you can go crazy with the bezier curves
+[00:16:04] and create crazy complex meshes. With that I'm going to leave you. I hope you enjoyed this lesson
+[00:16:11] and I'll see you in the next. Bye!

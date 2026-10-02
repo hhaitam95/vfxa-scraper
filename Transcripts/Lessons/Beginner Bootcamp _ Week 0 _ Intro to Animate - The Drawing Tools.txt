@@ -1,0 +1,176 @@
+[00:00:00] Oh hey guys we're back with more on how to draw inside of Adobe animate so I'm
+[00:00:11] gonna go over all the different tools that you would use to create artwork and
+[00:00:14] a static image and then in the future video I'm gonna actually talk about how
+[00:00:18] to make that static image come to life and move now before I go any further I
+[00:00:22] wanted to mention there is a cheat sheet for all the hotkeys that I've been using
+[00:00:27] and this is an old cheat sheet that existed back in the day when I first did
+[00:00:33] my YouTube tutorials you might remember this some of you I think it's handy
+[00:00:38] because you can print it out and you can actually use scissors and this part here
+[00:00:42] will match up with like the tools panel at the left side of your screen this up
+[00:00:47] here is stuff for animation that I'm gonna get into in the next video and
+[00:00:51] then down here are some other keys just that are handy to know the control 1
+[00:00:55] through 5 that I've got here is the control 1 through 5 that I've got here
+[00:00:57] are custom I went ahead and set those my keyboard shortcuts and then you've got
+[00:01:02] others down here that are also handy so if you're interested in just memorizing
+[00:01:08] this I mean if you're signed up for the class especially that's gonna be tons of
+[00:01:12] content and it'll be handy if you're using keyboard shortcuts along the way
+[00:01:15] it's gonna save you a ton of time if you just learn them now and get up to speed
+[00:01:19] on that okay so don't ever tell me I didn't help you learn those hotkeys
+[00:01:25] also if you hover over these I just want to let you know that I'm going to be
+[00:01:27] working on these in a couple of weeks I'm going to be working on these in a couple
+[00:01:27] months I'm going to be working on these in a couple months I'm going to be working
+[00:01:27] on these in a couple months I'm going to be working on these in a couple
+[00:01:29] months I'm going to be working on these in a couple months I'm going to be working
+[00:01:33] on these in a couple months I'm going to be working on these communities which needs
+[00:01:34] something supported by your domain name or Phillip to be working with you with
+[00:01:39] and if you use Photoshop I'm going to be working with you with all of my
+[00:01:43] integrations based on the photos in our code
+[00:01:44] well on sharkotype I'm
+[00:01:46] computer, burning, tuition, et cetera
+[00:01:50] and all of my jobs can be handled through Photoshop so I'm going to keep
+[00:01:54] on going and moving ahead as a result and you can see here you can see so far
+[00:01:57] Okay, so I've come down here and I've created a new layer
+[00:02:00] and I'm gonna hide my other layer
+[00:02:02] so that we have a blank slate for me to kind of illustrate
+[00:02:05] an illustration of what's going on over here.
+[00:02:09] So in animate, if I paint this line here
+[00:02:14] and I do like say a burst or something of that nature,
+[00:02:17] right, it looks pretty normal.
+[00:02:20] It looks a lot like it would look say in Photoshop.
+[00:02:23] In fact, I have Photoshop open here
+[00:02:25] and I'm gonna come in
+[00:02:26] and I'm gonna do the same basic thing.
+[00:02:30] See if I can make it as good.
+[00:02:32] Nope, it's not as good.
+[00:02:32] Okay, that's fine.
+[00:02:34] That's not Photoshop's fault, that's my fault.
+[00:02:36] If you zoom in in Photoshop,
+[00:02:39] you'll start to notice pixelation happening.
+[00:02:42] If you zoom in as close as you possibly can,
+[00:02:45] it even shows you all the pixels here in the background.
+[00:02:48] Right?
+[00:02:50] And then these pixels at the edge of the white
+[00:02:53] are actually fading off
+[00:02:55] to blend in with the background.
+[00:02:56] They call that anti-aliasing
+[00:02:58] so that it gives it a nice smooth feeling
+[00:03:00] when you're looking at it back at 100%.
+[00:03:03] Up here at the top, I can see 100%, okay?
+[00:03:07] Now in animate, if we do the same thing,
+[00:03:10] switch back over here and I zoom in,
+[00:03:12] zoom in, zoom in, zoom in,
+[00:03:13] it also shows me the pixels,
+[00:03:15] but it stays perfectly crisp.
+[00:03:18] Now this is the key difference
+[00:03:20] between a vector-based program like animate or illustrator,
+[00:03:24] a digital illustrator, or a vector-based program like animate or illustrator,
+[00:03:24] a digital illustrator, or a vector-based program like animate or illustrator,
+[00:03:24] a digital illustrator, or a vector-based program like animate or illustrator,
+[00:03:25] Adobe Illustrator is the same way,
+[00:03:27] and Photoshop or like Krita or something else like that
+[00:03:31] that uses raster-based graphics.
+[00:03:34] So what does that mean?
+[00:03:36] Well, if I come back here to Photoshop,
+[00:03:39] I can come in and I can erase these pixels, right?
+[00:03:47] And I can erase them a little,
+[00:03:48] so they're kind of like faded,
+[00:03:50] or I can erase them a lot,
+[00:03:51] and so they're like very sharp edged and that kind of thing.
+[00:03:54] But the pixel is just an amount of color
+[00:03:57] and then an amount of transparency,
+[00:04:00] and that's really how it tracks all of its information in Photoshop
+[00:04:04] from like thousands and thousands of pixels across a whole image, right?
+[00:04:10] Whereas in animate, if I wanted to do the same thing,
+[00:04:13] I actually could.
+[00:04:14] So I could come in and the eraser previews is white,
+[00:04:17] which is weird because the paint fill is also white.
+[00:04:19] But anyway, the eraser tool comes in and it chunks it away,
+[00:04:23] but it doesn't have,
+[00:04:24] it doesn't have the same ability to feather that edge
+[00:04:27] and get it like nice and soft.
+[00:04:28] So in a vector-based program,
+[00:04:31] you end up with very crisp edges.
+[00:04:32] It's like a signature of it.
+[00:04:34] And there's things that I'm gonna do in the class
+[00:04:35] that you'll see where I can add like glows
+[00:04:38] and other things like that
+[00:04:39] with more of a post-process outside of animate,
+[00:04:42] but that's after we've exported the image out
+[00:04:45] or the video out,
+[00:04:46] and then we can like do all kinds of fun things with it
+[00:04:48] to get it to feel glowy and so forth.
+[00:04:51] Animate does have glow and blur,
+[00:04:53] but it's really low-tech and I don't recommend using it.
+[00:04:56] I recommend doing it in Photoshop or after effects,
+[00:04:59] whichever you're more comfortable with.
+[00:05:01] Okay.
+[00:05:02] Now the really cool advantage though,
+[00:05:03] you might wonder, well, okay.
+[00:05:05] If it can't do feathered edges,
+[00:05:07] why the heck are they doing it with vector-based?
+[00:05:08] But the really cool advantage is with vector-based graphics,
+[00:05:13] you can do this.
+[00:05:15] I can hit the paint fill button
+[00:05:17] and it fills in nice and clean.
+[00:05:19] And this whole fill is all just one, one, two, three, four,
+[00:05:22] one nice big thing. Whereas in Photoshop, because it has these feathered edges, if I paint fill in
+[00:05:28] the middle, it doesn't quite work the same. It leaves that weird edge around. And I know there's
+[00:05:34] workarounds to this. You could use the lasso tool to draw your shape and all that kind of thing.
+[00:05:38] It's really just a different way of thinking. It's a different way of working. I think they
+[00:05:42] both have their pros and cons for sure. It's just one of the nice things about animate is you can
+[00:05:47] get these shapes to just blend seamlessly together. You can also come in here and do like
+[00:05:53] really quick and easy divisions. If I type Y on the keyboard for the new paintbrush tool, I'm going
+[00:05:59] to just mock that constantly because I think it's hilarious that they didn't take the time to
+[00:06:03] distinguish the naming of classic brush tool, which is actually a fill versus the new paintbrush tool,
+[00:06:10] which is a stroke. And you can see the difference down here, like the stroke color. Let's say we
+[00:06:15] want that to be blue.
+[00:06:16] And then, you know, the fill color, we want that to be like yellow or something, right? So if I come
+[00:06:24] over here with the Y key and then I'm like, okay, I'm going to like come in here and, you know, do
+[00:06:31] whatever, just make it fun. All right. I don't know, whatever, something like that. Right. And
+[00:06:40] then I hit K for paint fill, and then I can actually fill that in. Maybe I should have done that
+[00:06:46] reverse.
+[00:06:46] Yeah, that's better. I like that better. And so now these shapes are very clean, very crisply
+[00:06:53] divided, and it's just, it's just really nice. I really like it and the feel of it. If you want to
+[00:06:59] get rid of that stroke, which I'm sure you do, you do V for select, and then you can double click on
+[00:07:06] it. And now what we've got is every single part of that network of strokes that has the same width
+[00:07:12] and the same color is going to get selected. And so you can double click on that. And now you've got
+[00:07:16] the whole thing. So you can just drag and drop and delete it. Notice that, you know, it comes all
+[00:07:21] the way to the edge here. When that stroke went over the edge, that's something that you want to
+[00:07:25] make sure you do. Like if you're going to enclose an area, make sure you don't leave little gaps
+[00:07:30] like this. That's super important. With the select tool, you can grab these little tips of the
+[00:07:35] strokes and you can like pull them around. Notice that the iconography changes when you're over a
+[00:07:42] corner or a tip.
+[00:07:44] It turns into like an angle.
+[00:07:46] Little angle thing. And when you're over a curve of any kind, it's like a curved thing by the mouse,
+[00:07:52] which is pretty intuitive to learn once you get the hang of it. And so you can like do fun things.
+[00:07:58] Like you can grab these edges. You can like pull them around and twist them so you get like nice
+[00:08:05] little sharp points, you know. It's just a fun way to draw. It's a fun way to create artwork.
+[00:08:12] I actually, I actually like using animate for a lot of my static images.
+[00:08:16] Not just animated images. I'll come in here and I'll create all kinds of fun, fun things.
+[00:08:22] Oops.
+[00:08:22] Get that sharp to a point. There we go. I've made my point here.
+[00:08:30] All right. So there we go. We double click on that network of lines, hit delete, double click on that
+[00:08:40] little network of lines and hit delete. So a stroke, think of that as like a boundary or an outer edge.
+[00:08:46] And then a fill is like the interior of something, right? That's what's going on. So each of these is a different fill.
+[00:08:53] Now I've got the white fill here. And if I click on it once, it'll highlight. And then if I click on it again,
+[00:08:58] I can drag it around. I can actually separate it. That's kind of fun. Now beware of this because object mode
+[00:09:07] does have some advantages, right? With object mode turned on, I could make, well, I could, I could even turn it into an object
+[00:09:15] by hitting control G.
+[00:09:16] That was on the shortcuts list. Now this is an object, right? So now when I leave it on top of this yellow, even though they're on the same layer, it doesn't ruin it.
+[00:09:26] It doesn't break anything.
+[00:09:27] If I undo a bunch and then it's not an object and I leave it on the yellow and then I deselect it and I'm doing something else and then I come back to move it again, it cuts out the space where it was on the yellow, which is a huge pain.
+[00:09:40] So you want to be kind of aware that these different fills that are on the same layer, they're not going to be the same.
+[00:09:45] So I'm going to go ahead and do that.
+[00:09:46] So if I undo a bunch and then I leave it on the yellow, it cuts out the space where it was on the yellow, which is a huge pain.
+[00:09:46] So if I undo a bunch and then I leave it on the yellow, it cuts out the space where it's on the yellow, which is a huge pain.
+[00:09:47] They don't always play nice.
+[00:09:48] They clip into each other and they bump into one another.
+[00:09:51] So you just have to be aware of that as you're refining your art.
+[00:09:56] So you could imagine how we would take a principle like this and then apply that to our animation, right?
+[00:10:04] We could come in here and we could add like highlight layers and other things like that.
+[00:10:09] Get it all feeling nice with different colors and so forth.
+[00:10:12] And then, of course, export it out, make it feel glowy and whatever other software we want to use.
+[00:10:16] All right, next up is what the heck were we doing
+[00:10:21] in that first video when we were animating
+[00:10:24] and the nitty gritty of all the other features
+[00:10:26] that I didn't show you to make the animation come alive.

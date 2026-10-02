@@ -1,0 +1,195 @@
+[00:00:06] Welcome back to another new lesson of SUSAN DESIGNER. Today I'm really excited because we
+[00:00:12] are going to create the trail tester. To give more complexity we are going to make it with
+[00:00:18] a hand painted style. The trail tester is really versatile and we can use in a lot of effects,
+[00:00:25] not only for a projectile trail but also as a smoke in mining for a cigarette, a ground explosion
+[00:00:32] rising for the pony on impact and a many other things so let's do it!
+[00:00:38] As always I'm going to open the file I'm working on and create a new graph for the tiling trail.
+[00:00:46] We can create a trail tester in many ways and all of these are valid, same as the tiling noise.
+[00:00:52] Today we are going to create a tiling tester where it seems that the trail has been painted.
+[00:00:58] This could be a challenge for us but in DESIGNER we can create this kind of effects as well
+[00:01:04] without too much complication. The tiling trail noise is a tester where only one of the axes is
+[00:01:11] tiling, it's like a ribbon that crosses from one side to the other. We are going to create the
+[00:01:17] main shape that will be composed of three branches crossing over and under each other, then we are
+[00:01:23] going to make the changes that will make it have different levels of detail and looks like it's
+[00:01:30] painted. Fine, the first step that we are going to do is create a Gaussian noise where we will
+[00:01:37] create our branch from the grayscale of this noise. Okay, we will decrease the grayscale to
+[00:01:44] get a big scale of the noise because then we are going to get the line from this grayscale.
+[00:01:50] If we have a small grayscale we will get a noisier line. Fine, I think with this scale it's
+[00:01:56] perfect, if not we can go to the noise and change it later. Also, we will change the disorder and
+[00:02:03] then we will change the random seed to have another noise variation. Super nice.
+[00:02:10] Then we are going to blur the Gaussian noise with the 9 uniform blur to make the lighter areas more
+[00:02:17] diffuse and create a washed out noise. For that we will connect a sablur mart itself.
+[00:02:23] We are going to increase the intensity until we see that we have un-finite white areas with a
+[00:02:29] grey color. Okay, I think with the maximum it's perfect. Now we are going to use the cross section
+[00:02:36] node. We have never used it before and it will be demanded to convert our noise into a line.
+[00:02:44] The cross section takes one straight section on the input grayscale and draw one dimension line
+[00:02:51] from it. Fine, we are going to see the parameters to see better how this works and how to get the
+[00:02:58] line from the noise. To make it easy to work and better understand how the cross section works
+[00:03:05] we are going to use the helper until we get the slide that we want. I'm going to move the helper
+[00:03:11] in the other corner that it doesn't bother me too much. Okay, with this we can see better
+[00:03:18] what happened. Now we are going to drive to the cross section coordinate,
+[00:03:23] so if we move the slider we will change the coordinates to sample the slice.
+[00:03:29] You can appreciate that the result that we had here is an interesting curved line for where we
+[00:03:35] are going to get the branch, so I really like it and I'm going to leave the value as it is.
+[00:03:41] Fine, now we can turn off the helper. With the height scale we can decrease the scale of the
+[00:03:48] entire graph. It is super useful if the result is too hard and we want to reduce the result in
+[00:03:55] shape. Here we have this part of the curve that sticks out quite a bit so we will decrease the
+[00:04:00] scale to have a less pronunciated curve. The height offset shifts the entire graph
+[00:04:08] up or down and we can move it as desired. We are going to offset until it's slightly above the
+[00:04:16] center. Then with the dragging style we can change the style in which it will be drawn.
+[00:04:22] As we want a line we have that option here, so let's select it. Perfect, we've already
+[00:04:28] have the line. The following parameters below configure the appearance of the line.
+[00:04:34] The segment amount configure the amount of the segment used to draw. Right now the line is very
+[00:04:41] thin but if we zoom to the line we can see the segment. It's not the desire so we are going to
+[00:04:48] set it to the maximum amount to get a smooth line. The line thickness, as the name describes,
+[00:04:56] set the width of the line and we will increase it. Alright, the last parameter that we are going
+[00:05:02] to set is the line style. Here we have different form on how we can coloring and fall off the line.
+[00:05:11] For our case we are going to set the gradient along the line. This way we will have a line
+[00:05:17] with a hard edges and a gradient that goes from one side to the other. The next step will be
+[00:05:24] remap the grayscale of the line to get some brightened and darker areas. Now we are going
+[00:05:30] to make a custom gradient to remap the line so we can fade the depth of each brand to blend it
+[00:05:36] between them. To start we are going to use the gradient linear too and add a curve node to create
+[00:05:44] our gradient. As we are working with the x-axis we are going to rotate the gradient to 90 degrees.
+[00:05:52] Then we will create a curve node. Fine, for this line we are going to create a gradient that is
+[00:06:01] darker in the borders and in the center a light grade with different values. In the next steps
+[00:06:07] we are going to work on it because this branch will be the one at the top of the other ones.
+[00:06:15] Ok, when we finish we are going to create a gradient dynamic from our branch
+[00:06:21] and in the second input we will connect the gradient curve.
+[00:06:25] The gradient dynamic remaps a grayscale to the grayscale of the second input.
+[00:06:30] It's the same as the gradient node that is now dynamic, instead we didn't have the same control
+[00:06:36] of the gradient that we want to remap and the gradient parameters in the node that can be
+[00:06:42] exposed. Ok, now we are going to learn a good tip. I want to get a gradient of the line
+[00:06:49] inverted but if I put the invert node the background will be white, so to invert the
+[00:06:56] grayscale only in the line we need a flat color in the entry line, like a mask, and then we will
+[00:07:04] subtract with the line that has the gradient, like 1 minus. So let's go ahead. To get a flat color
+[00:07:11] we will use a histogram strand from the result line of the cross section. We are going to set
+[00:07:19] the position to 1 and we already have a flat color. Having this we are going to add a bland
+[00:07:26] node and in the first input we are going to connect the gradient line. Then we will select
+[00:07:32] the Sustrand node and voila! Ok, the line right now is perfect but we are going to blur a bit
+[00:07:42] to not have these hard edges. We are going to decrease the intensity and now it's much better.
+[00:07:49] Fine, as the last step to finish our first branch we are going to warp it to have areas
+[00:07:55] where it's thinner than the others, including more movement. For this case we will use the
+[00:08:02] Multirectional Wrap and as a intensity input we are going to use the Perlin Noise. Alright,
+[00:08:09] let's configure the Perlin Noise first. We want to give a bit of movement in our branch,
+[00:08:15] with a big scale and change the width, so we will decrease the scale. Also we will change
+[00:08:21] the disorder a bit, I think now it's perfect. Then we will drive to the Multirectional Wrap
+[00:08:30] and configure it. As always we are going to type the intensity to a high value, maybe 50 or 60
+[00:08:39] it could be fine. For the branch we are going to use the Mode Min to keep only with the part
+[00:08:46] where all the direction match. Seeing this I'm going to increase the intensity just a little bit.
+[00:08:54] Ok, the branch has different width and a bit of movement. This makes a more interesting shape.
+[00:09:01] I think the branch is a bit thick so I'm going to decrease the line thickness in the cross section.
+[00:09:08] Also I'm going to change the disorder of the Perlin Noise.
+[00:09:12] Now we are going to leave this apart and work in the other branches. For that we are going to
+[00:09:18] select all the nodes except the Perlin Noise because we are going to use all of them to do
+[00:09:24] the same changing some parameters. Copy and paste to create the second branch and this way we will
+[00:09:31] go faster in the creation of the test tour. Ok, the second one will be under the first branch.
+[00:09:39] We will get this by working on the gradient of it. This one will have lower values so that is
+[00:09:46] always below to the first. Also we will change some parameters to get another variation of the
+[00:09:53] line, taking care to ensure that the shape and the thickness are different. Ok, let's make the
+[00:10:00] changes. We will start from left to right and the first node that we are going to change a bit
+[00:10:05] is the Gaussian Noise. We will change the scale a bit, maybe with 4 it could be fine and then
+[00:10:13] change the random seed so we will have another variation completely different.
+[00:10:19] Then we will go to the cross section and here I notice that the line is a little bit flat.
+[00:10:26] We are going to increase the hay scale. Then the line is not centered so we are going to
+[00:10:32] move the hay offset slider until we get it centered. To give the line more variation
+[00:10:39] we are going to make this line thicker so we will increase the line thickness value.
+[00:10:46] Ok, I am going to make a little bit changes. Fine, the next step we will replace the gradient
+[00:10:54] linear 2 to the gradient linear 1. Also we will rotate 19 degrees.
+[00:11:01] Then we will change the gradient curve so let's go ahead.
+[00:11:06] For this line we are going to create a gradient that in the borders will be white and then some
+[00:11:12] different dark grays. This will mean that the borders of this branch, the white areas,
+[00:11:19] will end up being below all the branches and then the middle above the third but not above
+[00:11:26] the first branch. Fine, I think it's perfect but to ensure that it's really looking good
+[00:11:34] let's go ahead and we will bring the two lines together.
+[00:11:37] For this we are going to use the blending node max, the order of the inputs. Doesn't matter,
+[00:11:47] the result will be the max value of each input so the white values will be placed to the top
+[00:11:54] and the darker values below. Ok, it looks good but I am going to make some changes in the parameters
+[00:12:01] because the two branches are too close and the grayscale gradient is super similar.
+[00:12:06] Don't worry, take your time until you see that you like the result.
+[00:12:11] Fine, now it's perfect so let's for the last one. We will make again the same process,
+[00:12:18] select all the nodes that we have created except for the Perlin noise. The third branch and the
+[00:12:24] last one will be below the other two branches. Having this in our mind let's make the changes.
+[00:12:31] Again we will start from the Gaussian noise and I think only change the random seed could be enough.
+[00:12:39] If we see that we need more changes we will do it.
+[00:12:43] Alright, then we will go to the cross section to change the shape of the line. For this branch
+[00:12:50] we are going to change the cross section coordinate because I don't like too much
+[00:12:54] the resulting shape so we are going to change it until we see that it's an interesting one.
+[00:13:02] Great, then at even below the others let's make it thicker and increase the value.
+[00:13:10] For this branch we will come back to the gradient linear too and change the curve
+[00:13:15] node. This could be super easy. We will make a gradient super similar to the gradient linear too
+[00:13:22] but a bit darker. When we invert it we will get the center of the line a dark gray,
+[00:13:29] this part of the line we will be low of the others and the borders above to make
+[00:13:34] nicer and more complexity interlaced. As the last change we will go to the multi-directional warp
+[00:13:43] and we are going to make some changes. I think changing the angle can be better,
+[00:13:50] super nice. Now we are going to blend it with the others and see what it looks like.
+[00:13:58] Again we will select the max mode. Ok, the first branch has a high value
+[00:14:05] so first I'm going to change the curve to darken the center of it.
+[00:14:12] Ok, we have the three interlaced branches and it looks super cool. Playing with the grayscale
+[00:14:20] we have seen that we have created a position offset in depth where some of the bars are below
+[00:14:27] to the others and vice versa. If we press spacebar we can check how this behaves when
+[00:14:34] it's repeating and looks quite nice. Now with this as a basis we will make some changes to
+[00:14:40] make it looks like hand painted adding more gradients and warps. As a first step we are
+[00:14:47] going to warp the texture a bit using the multi-directional warp and the intensity input
+[00:14:53] will be itself. With this we are going to add some extra lines in the orders and a lighter
+[00:14:59] lines will be a little narrow. First we are going to select from this case the min mode
+[00:15:06] and then we will decrease the intensity because now we are looking for the small detail. If we
+[00:15:12] want we can change the angle of the warp, then we will blur the lighter areas so we will use
+[00:15:18] the non-uniform blur and the input will be itself. Well, it's too much the default intensity
+[00:15:26] so I'm going to decrease a bit. For the next step we will create a custom noise where it looks like
+[00:15:34] we have brushed a fixed stroke in each of the branches of our main texture. It will make the
+[00:15:40] texture looks more organic so we will leave this apart and let's create the noise that will be
+[00:15:47] blended with the main shape. Fine, we will start creating apparently noise and we are going to
+[00:15:54] decrease the scale until we get a mid scale of the noise. Also, don't forget to modify the disorder
+[00:16:03] a little bit. Then we will create the levels node to create the noise with more contrasted value.
+[00:16:11] For that we will move the high value arrow close to the center and move again the mid value
+[00:16:19] in the center. Nice! To get the appearance that is like a brushed stroke or something like that
+[00:16:26] we are going to use the multi-directional warp. You can already see that this noise is quite
+[00:16:32] versatile and we can use it in many situations. The intensity input will be a more annoying noise
+[00:16:40] so let's create and configure it beforehand. The configuration of the border noise for this
+[00:16:45] case will be really easy. We will change the scale to a bigger one and then we are going to change
+[00:16:53] the distortion. We will increase the distortion intensity and I think more or less in the middle
+[00:17:00] could be fine. Then we will increase the distortion scale multiplier to make the scale of the
+[00:17:07] distortion noise smaller. Lastly, we have the noise with too high value so we will decrease
+[00:17:16] the distance scale so we will have darker areas. This will make the noise more interesting where
+[00:17:23] the darker areas will not warp as much as the lighter ones. Ok, now let's configure the
+[00:17:31] multi-directional warp. We only type intensity more or less 50 or 60 and see what is happen.
+[00:17:39] So sweet! The next step is to make a really interesting trick.
+[00:17:44] We are going to use the directional warp for the noise and as intensity we will connect the
+[00:17:50] branches. With this we are going to create a custom noise that is subset of each branch
+[00:17:57] because we have different grayscale in each of them. It will be pushed and offset the noise
+[00:18:02] with different intensity. When we increase the intensity we will appreciate it better,
+[00:18:08] that each line has different areas of the original noise. Having this in our minds,
+[00:18:14] we will need 50 or 60 to appreciate the effect. Really good! As you can see each
+[00:18:20] branch has different noise and doesn't share the same pattern, it's more organic.
+[00:18:26] Then let's create the blend from the main shape and connect our custom noise. In this case,
+[00:18:33] we are going to select the soft light mode. Cool! We can appreciate that the main tester
+[00:18:40] has another layer of detail and make it more natural. The only issue I see is that it's too
+[00:18:47] hard so let's decrease the opacity to integrate better. Then we will use the levels node to adjust
+[00:18:55] the grayscale a bit. We will move the lower value arrow to darken it a bit. Now we are going to
+[00:19:02] start adding a blur layer to unify all branches and for this case we are going to increase the
+[00:19:09] intensity. Fine! Then we are going to blend with the main tester and we will select the max mode.
+[00:19:17] This will add the blur only in the darker areas because if we use the screen mode,
+[00:19:23] we will be adding auto exposure to the value. Ok, the tester now is a bit static so as the last
+[00:19:30] step we are going to give it more movement and a bit of directionality. First we are going to give
+[00:19:37] the tester some directionality, for this we are going to use the directional warp. The intensity
+[00:19:43] input will be the blurrer branches, before we will increase the intensity and we will type
+[00:19:50] 50 or 60. Well, I think we need a bit less so I'm going to decrease it. Fine! As we have the
+[00:19:59] default angle in the direction that we needed, we don't change it. Ok, as a final step we are going
+[00:20:06] to give a little bit movement and put some areas to the tester. We will use the slope blur.
+[00:20:14] Ok, we need another tester for the slope blur, so let's create it! In that case we are not going
+[00:20:20] to complicate the scenes too much so we are going to use our trusted pearling noise. We are just
+[00:20:27] going to give a big movement stroke so we are going to decrease the scale value to get a big
+[00:20:33] noise. Ok, with this it's perfect! Now let's configure the slope blur to finish our tester.
+[00:20:41] Wow, it's too hard! So, we will need to decrease the intensity and then increase the samplers to
+[00:20:50] the maximum. This movement is nice but well, the slope is pushing in that part making it bigger
+[00:20:57] and this another one smaller. I don't like it too much so maybe if we invert the pearling noise
+[00:21:04] scale it will improve and invert the effect. Wow, now I love the trail and it has an awesome
+[00:21:13] styling feeling. As you can appreciate in this lesson we have created the main shape and then
+[00:21:21] we have worked to give the different layer of detail to get this spectacular tester. I'm really
+[00:21:28] happy with this result so what better than to export it and go to the engine and see what it's
+[00:21:35] like. Well, today I've created a simple Niagara system with two project tiles with their trails.
+[00:21:43] I didn't really want to complicate too much as the tester shines on its own. I use the trail
+[00:21:50] noise tester for the trail of the project tile and I use a noise to distort it while it is moving.
+[00:21:56] Although the first thing that you can see with this tester is a project tile but there are many
+[00:22:02] situations where you can use it. I encourage you to make another kind of effort with it.
+[00:22:08] I hope you enjoyed this lesson and see you in the last one!

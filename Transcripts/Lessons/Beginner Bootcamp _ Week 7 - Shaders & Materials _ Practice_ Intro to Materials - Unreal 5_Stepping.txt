@@ -1,0 +1,116 @@
+[00:00:05] Hello, friends, and welcome to a new video.
+[00:00:08] All right, so today we want to work
+[00:00:10] on stepping and smooth stepping.
+[00:00:14] Those are very useful tool we'll, again,
+[00:00:16] be using a lot, notably to create your alpha
+[00:00:20] and to cut your texture in.
+[00:00:23] So I create a little example.
+[00:00:24] It's very similar from the previous one.
+[00:00:27] And we're using the Add we've been using before.
+[00:00:30] Again, Add will dissolve your texture.
+[00:00:33] And so here we want to create something
+[00:00:37] that is very, very commonly used,
+[00:00:40] which is an actual dissolve.
+[00:00:44] This is a simplified version, and today this video
+[00:00:46] will be slightly shorter than the previous ones.
+[00:00:48] The goal is to explain this specific concept of stepping
+[00:00:52] and smooth stepping, which is, in most ways, a superior
+[00:00:56] version to just simply stepping.
+[00:00:59] All right, so without further ado, what does stepping do?
+[00:01:04] Well, stepping will take, this is the step node, sorry.
+[00:01:11] Stepping will take two values, one and the other.
+[00:01:15] And one value, your x, is going to be your texture, basically,
+[00:01:23] anything that has a nice gradient, any values,
+[00:01:26] whatever you want.
+[00:01:27] And it will compare it to your y value, so this value.
+[00:01:32] Here I have just an example parameter.
+[00:01:33] So just a vector, one parameter, one value.
+[00:01:37] And by comparing it, it will ask itself, all right,
+[00:01:41] is the value into x above or under 0.2?
+[00:01:48] It's just a comparator to see if it's above or under.
+[00:01:51] That's all.
+[00:01:53] If it's under, it outputs 0.
+[00:01:55] If it's above, it outputs 1.
+[00:01:57] It's as simple as that.
+[00:02:00] So you can see already all the applications this can have.
+[00:02:03] Again, this is a very simple parameter.
+[00:02:05] Perhaps step is a bit confusing, but you can see already
+[00:02:09] the applications.
+[00:02:10] We go from this one, which if put into the opacity,
+[00:02:13] can look a bit odd and can not be very clear what's happening,
+[00:02:18] et cetera, to a very clear shape that's extremely nice to look
+[00:02:24] at and can possibly be used in various different ways
+[00:02:29] in our gameplay.
+[00:02:30] Furthermore, by modifying in real time
+[00:02:36] this y value, the value at which we're checking,
+[00:02:41] we can create interesting effects.
+[00:02:42] For instance, if I increase it to 0.3,
+[00:02:46] suddenly we're pushing our little edge further away, 0.4.
+[00:02:51] We completely cut it through from here,
+[00:02:53] but we still have this little thread.
+[00:02:55] You can see quickly how this can be very advantageous.
+[00:02:58] 0.1, we'll create this blob, and then 0
+[00:03:02] will already be just basically the same black and white
+[00:03:05] as here.
+[00:03:06] Stepping has a big sibling in general
+[00:03:11] that's particularly powerful called smooth stepping.
+[00:03:17] Smooth stepping is the same as stepping,
+[00:03:20] but it will give you a little gradient.
+[00:03:24] It will ask for two values instead of one
+[00:03:26] for the y, a minimum and a maximum.
+[00:03:31] And it will output a texture that's similar,
+[00:03:34] but we'll just add a little bit more.
+[00:03:37] We'll remove this very clear line
+[00:03:40] that usually creates those little artifacts,
+[00:03:42] and instead give you something very clean, very useful
+[00:03:46] with a little bit of a gradient.
+[00:03:48] It's like in Photoshop when you add just a small glow
+[00:03:52] around the edges.
+[00:03:53] It will just give you that extra clarity, especially
+[00:03:57] at a distance.
+[00:03:58] So if we remove this one, again, Alt plus click
+[00:04:03] will remove your little nodes, and then plug in our value.
+[00:04:12] We already see we have quite a nice result.
+[00:04:15] I put it in here with edges being way clearer.
+[00:04:19] I have this little fade in.
+[00:04:21] And here for the parameters, I just
+[00:04:23] put the minimum at 0 and the maximum at 0.05.
+[00:04:28] This is a very, very small value.
+[00:04:30] This is what you'll usually get.
+[00:04:32] But if I put 0.5, you see that I just
+[00:04:37] get a clear same texture as before, which is not
+[00:04:41] doing much of a difference.
+[00:04:43] So usually you want a very small value here.
+[00:04:47] And then once you want to drive it with a parameter,
+[00:04:51] this is usually the setup you want to see.
+[00:04:53] So this is where I suggest you just look this through and try
+[00:04:57] and understand what I'm doing.
+[00:05:01] You want to have your minimum to be your value at which you
+[00:05:04] want to cut.
+[00:05:05] So this is the same as the y value.
+[00:05:08] This value will be the same value as before.
+[00:05:10] So if we put 0.2, we'll get the same result as before.
+[00:05:13] Just cuts it through.
+[00:05:15] Then we want to add our little, usually, for instance,
+[00:05:20] After Effects called a feather, which is how much
+[00:05:24] of a little edge do you want?
+[00:05:27] The smaller this value, the smaller the edge.
+[00:05:29] If I put 0.0001, you'll see that our edge is
+[00:05:32] almost the same as a step.
+[00:05:34] If I put 0.2, our feather will be quite big.
+[00:05:38] And so perhaps it doesn't make that much sense.
+[00:05:41] 0.1 will already be quite a big feather too.
+[00:05:45] But it could work.
+[00:05:46] And from here, modifying our parameter
+[00:05:49] will just let us modify the position.
+[00:05:54] 0.3, we'll push it back.
+[00:05:55] 0.1, we'll push it here.
+[00:05:56] 0.05, minus 0.1, et cetera.
+[00:06:03] All right?
+[00:06:04] We can just push it up and down.
+[00:06:08] So I hope this quick summary of step and smooth step
+[00:06:11] will give you a good idea of how you can use those.
+[00:06:15] In general, you want to use them to get harder shapes
+[00:06:20] and to get a clear silhouette on your opacity.
+[00:06:25] All right.
+[00:06:26] Next time, it will be our last session on textures and UVs.

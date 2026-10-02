@@ -1,0 +1,133 @@
+[00:00:05] Hello everyone! In this video we will add movement to the mix of our appearance.
+[00:00:10] We will look into an example of straight movement added, arced movement added and movement in perspective.
+[00:00:17] And for this one we will focus more on the guides for our animation rather than animation in particular.
+[00:00:27] And we will also change stuff a bit, like I will show you the creation of the first animation fully.
+[00:00:36] And then we will go through the creation of the guides for two other examples.
+[00:00:45] So starting with the first one.
+[00:00:48] Here we have an arrow appearing animation and while it appearing it moves along the guide up.
+[00:00:58] And it also has a squash and stretch applied to the shape.
+[00:01:03] And the way this squash and stretch is applied creates a nice additional arc movement for the arrow's ends.
+[00:01:15] Kinda. So this is a pretty fun little animation we will recreate from the scratch.
+[00:01:24] So to start things with this I will make the arrow animation be a little bit more transparent so we could see the guide more easily.
+[00:01:37] And for my creation I have already a layer with frames but I will add another one for the guide.
+[00:01:49] Guide? Where is it? Okay.
+[00:01:55] And we will make this frame go all the way through my timeline.
+[00:02:01] So when I create guides I usually start with blocking in the final look of the thing I will be animating.
+[00:02:14] To make it easier to draw a symmetrical shape I will draw the vertical line in the center of the frame.
+[00:02:24] We will make a guide transparent a little bit.
+[00:02:30] And now the final placement of an arrow will be like this.
+[00:02:44] And then to mark the placement of this part I will draw a horizontal line and connect these lines.
+[00:02:54] For this animation I used the straight drawing tool.
+[00:03:02] So it will make it a little bit easier to work with this very geometrical straight shape.
+[00:03:12] So I know how I want my last frame to look like and also I will draw how my first frame will look like.
+[00:03:22] Like here I have this part. It will make my planning more easy and I also can think about the composition of my frame so I want the viewer to have a little bit of space from the end of the frame.
+[00:03:41] To focus more on the center of the screen and I know that this shape will be squashed and smaller because it's appearing like here.
+[00:03:57] So when I have my first frame and my last frame I can plan my animation around these two positions between them.
+[00:04:09] And it will make it easier to draw movement guides and arc guides and stuff. So I make it in the guide layer.
+[00:04:19] So now when I know what my first and last frames are looking like I can go and mark what will be my timing chart for the movement up.
+[00:04:29] So firstly I think about only the movement up and how this shape is going to appear.
+[00:04:37] So it starts here and ends here and I want to show that this shape started the movement somewhere where we didn't see it in the frame and it's slowing down to the very last position.
+[00:04:54] So the spacing between the first frame we see and the second frame we see will be pretty big.
+[00:05:01] And then it goes smaller and smaller and smaller until it fully stops.
+[00:05:08] And we are doing this in 8 frame.
+[00:05:13] The whole animation so it will be 1, 2, 3, 4, 5, 6, 7, 8. Okay.
+[00:05:19] I bolded perfectly.
+[00:05:22] So yeah and for this animation again to make things easier for me and to think about one scene at a time I will start with drawing the animation of this base like width of my shape moving.
+[00:05:42] And then I will add the corners. So I'll make my guide even more transparent so it wouldn't be distracting.
+[00:05:52] And I will start drawing this base line for my shape along the movement guide that I added.
+[00:06:02] So it starts here. I'll draw the last frame here too because it's like the stuff that I know how it will look like for sure.
+[00:06:13] And now I can turn on my onion skin and work along this guide I have.
+[00:06:20] So I know that here will be the top corner of my shape and I want to make it still be squashed so it will be like slightly bigger than this final position so it's a bit longer here.
+[00:06:41] Now at the second frame, third frame, I make this, seeing this still a little bit longer, still just slightly longer.
+[00:07:01] Here it will be almost the same. So to track how much I prolong this line I'm looking like here is my mark for this frame, here is the mark for the last frame.
+[00:07:22] So if I will like visually see which this distance is like it's the same but here and I draw it a little bit longer than that so it will be like a little bit longer than the final shape.
+[00:07:40] So now we have three last frames and here it will be again just a little tiny bit longer. Here it will be almost the same.
+[00:07:57] And we can look at how it's moving here. The thickness of my lines are not constant so it's a little bit juggling here and there but we will ink everything and it will not matter much.
+[00:08:15] So the movement overall is nice. I like how it's punching there and everything I needed to think about while animating this was only adding squash and stretch to this.
+[00:08:30] So now what I will do, I will add a guide for the corners. So to make this more interesting I decided that I want an arced guide, an arced movement for my corners.
+[00:08:55] Because I obviously could make it go just straight but like our main movement is straight and it wouldn't be so interesting looking.
+[00:09:05] So here I'm trying to make it kind of symmetrical but small imperfections are okay if they are there.
+[00:09:20] So now again I know what is my first frame when I see it. Is it looking? I know what's my last frames looking like.
+[00:09:30] And now I can mark my 8 frames again. So it will be like one, slightly more here to that part, two, again I see where is the middle and then favouring the next mark a little bit.
+[00:09:51] One, two, three, four, five, six, seven, eight. Like this.
+[00:09:59] One, two, three, four, five, six, seven, eight. No, one was a little bit wrong.
+[00:10:09] Okay, one, two, three, four, five, six, seven, eight. Okay, so we marked the plan here. Maybe some small adjustment here and there just to get this like big, smaller, smaller, smaller, smaller, smaller look.
+[00:10:27] And now to mark these charts on this side I will make like horizontal line here, mark it, horizontal line here, mark it, again horizontal line, mark it, mark it, eight.
+[00:10:51] Okay, so now I have a guide and timing chart for the colors and I can go back to the animation layer, bring the color to black again and I will draw the shape.
+[00:11:12] Connecting the dots I have, in Kineen the shape. Okay, go to the next frame, I will make my animation layer slightly transparent again to see in Onionskin what I'm doing.
+[00:11:36] Now the next frame is here. It's like this. In Kineen the corners. Next frame just connecting what I have on my guide with my base layer.
+[00:12:08] Another thing that can help you track if this movement and squasher stretch is doing alright is looking into these lines that I have. Like here I have this kind of line, here I have this kind of line and here it's like this.
+[00:12:33] So with each next frame these lines are kind of like radiating from this upper point so they are not like parallel and going up.
+[00:12:50] So it adds this nice feeling to the animation that something is like moving in one way and squashing, stretching in another. It's like adds a bit of variety and interest to animation.
+[00:13:11] Almost there. Like this. And here, here. Again, corners are not inked. Okay, and the last frame. Okay, now we can look at the animation. It looks fine.
+[00:14:05] Yeah, so with these kind of guides we're aiming to create a plan before we're going to animate stuff just to make things easier to think about while we're animating.
+[00:14:22] So like we have a guide for movement, a timing chart and then we add like baseline movements along this and see how it looks. And then like on the second pass we add the corners and work with the arcs.
+[00:14:39] So in this way we will not miss anything while animating and it will look nicer. These kind of guides with straight movement can be applied to anything you want, like any shape appeared.
+[00:14:55] It can be something more VFX specific, like maybe it's, I don't know, some dash sprite that's appearing here and it moves along the straight line, maybe slightly becoming wider.
+[00:15:19] So like even though it's simple motion straight, it can be applied to different kind of stuff. So I encourage you to have fun with it and experiment with different shapes and the plans for this type of guide.
+[00:15:37] And now we're moving to the second example and it will be an arced movement. Just simple spheres appearing while moving along the arced guide.
+[00:16:00] So for this one I wanted to talk about, I'll make the frame go all the way. So yeah, for this one I want to talk about that sometimes you don't need this like super heavy planning with charts and like different parts and different charts.
+[00:16:23] So when you feel confident enough in adding squash and stretch and animating shapes, it can be useful to just have a motion guide for yourself.
+[00:16:41] Because it helps a lot to not lose track of the main action, main movement that you wanted to add to your appearance or like actually any other animation.
+[00:16:54] And this kind of guide is probably the most frequently used by me, for example. So I often just plan what will my end frame look like. Maybe it's some clouds and paths.
+[00:17:13] So I designed this frame. Let's pretend it's perfect and nice. And then I'm thinking about how I want these things to appear. Will it be from this part and they are going that way?
+[00:17:31] Kinda. Or maybe they appear from the center and they go like with these guides. Maybe this one goes not like this kind of shape. Maybe it's like merging to the side.
+[00:17:47] So I'm thinking again, one scene at a time. Firstly, how my frame will look like and then how my movement will look like. And then when I have these kind of guides, I just draw on a different layer, actual like appearance and how they move along these guides. It helps a lot.
+[00:18:11] So one scene I wanted to talk about here is how we move the stuff along the guides, actually. So if I will create another layer. And we'll make my animation transparent.
+[00:18:33] So while I'm appearing and moving stuff, I try to like include this arc inside the shape, if it makes sense. So I'm not only moving stuff along the guide, I'm also squashing and stretching and rotating the shape along this guide.
+[00:18:57] It can be a little bit tricky with not very fluid-like shapes. Maybe it's something solid, but you can think about a tangent to the arc. So for example, if it will be some solid brick shape. So it's appearing like this.
+[00:19:21] And here we can draw a tangent and draw the shape along this tangent, along the arc. So it will be like rotating and stretching along the guide still, but it's not particularly that we need to like actually bend the shape along this guide.
+[00:19:45] So when we do things like this, it creates like more fluid motion than if we would create something like here, if I would like I add stretch and then I move it along the guide and maybe I want more stretch here.
+[00:20:09] And then again I move it along the guide, but I bring back the actual size of the shape. So actually I use squash and stretch and I use guide for arced movement, but it looks less like smooth because I don't apply it along the guide.
+[00:20:33] So yeah, it's one thing I wanted to talk about here. So yeah, as I told before, this kind of guides are main guides that I use and use a lot. And you can apply it to anything actually and draw anything you like.
+[00:20:55] So maybe if you would add, for example, one guide and then have second slightly parallel to it, it can be something like maybe hero creates a slash with their sword, which is like here.
+[00:21:15] So it's simple two lines, but they like help a lot when you're animating anything you want. Yeah. Okay. Let's move to the next one. The next one is a little more complicated, but actually this idea is the same.
+[00:21:37] We have a guide for our arc movement, but now it's in perspective and I want to talk about how we can create these perspective guides to make our movements look like they're in perspective and actually how these guides can help you in it.
+[00:21:58] So here I have a pretty simple appearance of the sphere shape that goes along this red line guide at the jewel is like this lines, a perspective for this line actually.
+[00:22:14] So I wanted to portray how the shapes go from distant place in perspective, closer to the camera, to the viewer and drawing this simple cylinder in perspective helps me a lot to see how much my shape will change in size.
+[00:22:33] So here it's also like appearing from small to big. So it's even smaller than like this actual size. It would be if it was the same size if it's here, but like this guide already helps me to see how like the shapes are different sizes in different parts of the dimension probably.
+[00:23:02] Yeah, let's recreate this guide. So let's create this guide. I'll create a layer that goes all the way.
+[00:23:19] And let's start with the actual arc I wanted to portray. And now with another color, I will draw the perspective guide for you.
+[00:23:37] So I'm thinking about like this moment that I look at this slightly from top. So here is like my frame and I'm looking at it like this a little bit from top.
+[00:23:55] And so that means that my oval at the top of the shape will be more squished because the horizon line is closer here and the bottom oval will be more stretched.
+[00:24:27] The arc will be wider. Oop, a little bit ugly. Sorry. Yeah, okay. Forgot it. It's okay for the guide. So yeah, now we have like this cylinder in perspective that shows me how actually the things will be changing size in perspective.
+[00:25:02] So now I can, oop, I'll make the red line more visible. So now I can plan the timing chart again for this one. And it will also say a lot about the size. So the first frame, for example, and the last frame, these lines are actually like quite different sizes.
+[00:25:23] And again, like to the end of the movement, it slows down bit by bit like this. And so we have one, two, three, four, five, six, seven, eight.
+[00:25:49] So yeah, we have like eight marks and we can now just draw an animation on top of this. I want to talk about like this part for arc motion in perspective. So it can look like we are, like we are slowing down on the side of this movement.
+[00:26:13] But if we will look at it, like if we were looking at this motion from the top, like we would have like this circle. It's a little bit, oop, now it's more like circle. So we have, like here is the center and we have a movement from here to here.
+[00:26:42] And like we are slowing down towards the end of it. One, two, three, four, five, six, seven. So what's going on is that when this movement is being projected on perspective, we would have like this oval squished a bit.
+[00:27:10] And now these lines look like they're pretty close to each other, but it's actually just a lot of movement in perspective. So it's like one thing that you need to remember when planning the spacing of the movement in perspective.
+[00:27:34] That it's like around the corners, it's usually more packed with frames because of this like visual trick that happens with movement in perspective.
+[00:27:51] And another thing that you need to think about while you're working in perspective is that the shape you're looking at is actually a three-dimensional shape.
+[00:28:10] So like, do you see this? No, I need to create another layer probably. New drawing, bitmap, create all the frames and we'll delete everything that is on the frames.
+[00:28:30] It's probably a weird way to create frames, but I don't know why I do this, sorry.
+[00:28:36] So yeah, so when I draw the sphere that is going in perspective along these guides, I draw the shape in a way that it touches the, like my guide with its center.
+[00:29:06] Maybe something lighter. Sorry, it's not very clear, so I'm trying to bring it. Yeah, okay, it's more visible. Okay, so yeah, I'm thinking about this ball as a sphere that has volume and it's rotating while it's moving.
+[00:29:29] And this chart is showing where this point of a sphere is touching this chart. So closer to the end of it, it's almost rotated fully.
+[00:29:44] So the very right place of this shape is going to touch the chart. But here, for example, the middle part of the sphere is looking straight at us.
+[00:30:04] So the shape goes something like this. Yeah, so I'm thinking about the shape. So it's facing me and it has its volume here.
+[00:30:17] And so on the next frame, it's still rotating, but not fully to the right side. And now the shape is still stretched.
+[00:30:30] So it's like here we see the size of it, how it's stretching, but here it stretches to that side there. And we don't see a lot of this.
+[00:30:46] So it's like if we are talking about 2D plane, it's smaller than here, but it's just because the volume is hidden behind this part.
+[00:31:01] And here, like I'm touching this guide, again, it's like this part that is touching it. Here it's slightly rotated, here it's just this side.
+[00:31:16] So yeah, while we are animating 2D animation and 2D shapes, it's very nice to think about them in 3D to make the movements more believable in perspective.
+[00:31:35] And also this is just a simple shape going along this guide. But if I drew it as a guide animation for more complicated animation and I would add these marks for actual rotating of a shape,
+[00:31:54] I can use this guide animation as a guide for more complicated animation of some object. And I would know that, for example, here will be like more of a center of shape with fiery stuff moving.
+[00:32:15] And then this fiery flakes will go along the shape, like here they would, like the center of it will be here and the fiery parts are going along this sphere shape.
+[00:32:38] So it can help a lot in drawing more complicated stuff in perspective.
+[00:32:44] So yeah, this kind of guides can help a lot and you can use not only the, like, center shapes to plan this. It can be any, for example, you have, I don't know, okay, okay, let's stop here.
+[00:33:10] Guide like this and all you need to do to plan the perspective for it is to apply, like, the rule that, for example, when the scene is far from the camera it's smaller and when it's close to the camera it's bigger.
+[00:33:35] And now you can just kind of project this stuff and connect, oops, arcs are not arcing today. Anyways, you can project this stuff and, like, replicate your movement for these guides.
+[00:34:03] So now you have something like this flat plane here in perspective. So this is, like, behind. This is what you see here. And, like, you can move objects now along this guide.
+[00:34:26] And it can be, like, any kind of arc to use for. And another thing you can use perspective guides for is not for their movement, actual movement, but for planning out the shape that your stuff will be moving along.
+[00:34:52] The, like, classical example would be the water splash where you have, like, this upper oval shape here somewhere in the middle of it. Now you have, like, this water line and the oval here, which will be wider vertically here.
+[00:35:23] Because we are looking from top-down perspective and the horizontal horizon line is here. And now, like, you have this kind of chopped cone shape.
+[00:35:39] And you can, like, draw the shapes along this guide, like how the water splash will be going here, what are the shapes here. And, like, again, the guide is symmetrical, but you can use it just as a guide, not a strict figure that your water splash will be moving along.
+[00:36:08] Your water splash needs to be, so you can break it a little bit with adding, like, here it's more tall, here it's less tall and stuff.
+[00:36:20] So just as a guide. And it can also help to, like, plan how the water droplets will be moving along here, so it's easier to see how these, like, arced movements will go along this, like, shape.
+[00:36:42] Because you have, like, a vision of it in perspective and it's easier to see how they will go along. So, yeah, these guides are super powerful for animating in 3D space using 2D methods.
+[00:37:06] And if you want to bring more perspective-looking, 3D-looking movements into your animation and appearing of the shapes, it will help a lot.
+[00:37:20] And, yeah, I suggest you to try out, like, appear to appear some simple shapes in different perspective guides and, like, see how it looks like, how it feels to work with simple shapes and then you can apply it to more complicated shapes and it's, like, the puzzle that will be solved, hopefully.
+[00:37:48] Yeah, that's it for the perspectives. We can look at what we were talking about in today's video. So, yeah, in this video we looked into the creation of the guides for emotion added to the appearance animation.
+[00:38:06] And it is really a very useful instrument for the fixed creation and I personally use them all the time. They're such a cool helper to not get lost while working with animation and I hope you will have a lot of fun with them and try out moving different shapes in different, like, guides.
+[00:38:32] Yeah, see you, bye!

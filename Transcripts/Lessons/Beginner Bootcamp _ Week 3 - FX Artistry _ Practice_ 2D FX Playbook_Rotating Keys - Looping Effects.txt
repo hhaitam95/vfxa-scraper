@@ -1,0 +1,201 @@
+[00:00:05] Hello everyone! In this video we will talk about planning for loops and like loop motions
+[00:00:13] with the idea of going from one key to another key and then back to their first key, so we will have
+[00:00:20] motion from A to B and back to A. We will create this kind of goopy looped effect and the main
+[00:00:28] motion I wanted to have here is this squash and stretch bounds down and up of the overall shape
+[00:00:38] and to make it easier to work with it I started with actually like a squashy
+[00:00:46] ball that stretches and squashes and then with each stage I complicated the motion
+[00:00:56] using the simple loop that I created at the first step and added some more layers to it so
+[00:01:05] we will have the base of key looped motion from one key to another and back to the first key
+[00:01:12] and then some layers on top that will make our loop be less obvious and more like this layered
+[00:01:21] motion that one goes into another and dissipates and stuff to make this effect.
+[00:01:28] So let's start with preparing the frames and I will create just a few frames
+[00:01:39] okay and I will make them the exposure where is it
+[00:01:49] to be on two's I will add another frame and set the exposure lost again to two okay so here you
+[00:01:59] can see that the first frame is left on once and I will copy to the ends of my loop time frame
+[00:02:10] so the reason I do that is just to show how it can be used for programs that don't have like
+[00:02:19] synced frames as Toon Boom because like here I can just make change here and it will be
+[00:02:26] automatically updated on the copy of this frame and I used like the copy of the whole sequence
+[00:02:33] to work with loops but in some programs like procreate flash animation and others they may
+[00:02:40] not be this function so what I use for those programs is I set up my timeline and my frames
+[00:02:48] to be on two's and the first frame and the last frame will be the same on once so it gives me an
+[00:02:55] opportunity to look at my first frame while I'm working on like the second certain so forth like
+[00:03:04] frames and also to see the same like this first frame at the end of my animation to like plan my
+[00:03:11] movements like watching this frame so in order to like sync my changes on the frame I will need to
+[00:03:18] just copy the changes only from the first frame to the like last frame and like see these changes
+[00:03:29] easy without like copy pasting the whole sequence of the frames for the second repeat so yeah it's
+[00:03:37] pretty useful I will here just copy and paste the whole like sequence just to speed up the process
+[00:03:47] in the video but yeah for the like programs like tons quit on ipad I just use this and copy paste
+[00:03:56] my first frame to the last frame and the class frame to the first frame back and forth to make
+[00:04:00] Dolph be good anyways so we prepared our frames now let's repeat the step one so in step one we
+[00:04:12] just like draw the shape okay I will scale a bit more just make the ball shape you don't need to be
+[00:04:30] super precise uh for this step because we will like draw on top of it in the further steps
+[00:04:39] so don't stress about the ball being not perfect and yeah so the next frame I want to plan is the
+[00:04:45] stretch frame I want to like the stretch to be pretty fast not super slow so I will make the
+[00:04:52] balls be stretched at this frame turn on my onion skin and like make the stretched version of the
+[00:05:06] ball okay yeah something like this good now we can in between between these two keys I will mark
+[00:05:26] this also just to be aware where it is so on this frame ball starts to stretch maybe a bit more
+[00:05:48] oop like this here yeah just use flipping instead of onion skinning sometimes to see
+[00:06:10] how it looks in actual motion yeah so now we have like this start of our loop now we could go
+[00:06:17] could go straightforward from our kb back to ka but I wanted to add more squash to the shape
+[00:06:29] before it goes back to like the starting frame of our loop let's make this shape
+[00:06:38] be like wider and shorter than the start frame move it a little bit lower yeah so it will be
+[00:06:55] like stretch squash and normal again and yeah we can mark this frame too just to know where our
+[00:07:05] case are and like this kind of case can bring more flavor to your animation so like instead
+[00:07:14] of going from a then to b and then straightly back from b to a you can think about how can you
+[00:07:24] like spice things up and make more difference and bring more interesting details into the motion
+[00:07:33] so another example can be what if like your shape goes from left to right but like when you're in
+[00:07:42] between in between these two keys you can think like what if it goes little bit lower and creates
+[00:07:49] an arc while moving or maybe it can like stretch here in between or like become some broken shape
+[00:08:00] with the smear details and stuff so yeah it can bring more interesting to the animation so here
+[00:08:12] we're adding this squash before this shape so yeah let's say in between this animation
+[00:08:22] so on this frame it just starts to go lower it's too white this frame again too white on this side
+[00:08:54] okay here it almost like in the final form kinda scale scale in because can't can draw today
+[00:09:11] normally okay let's fill in okay so we can check how it looks in motion boom boom okay and now we
+[00:09:26] can in between this last frame between our first and last removed loop and this
+[00:09:33] squash frame i'll just add how it starts to go up okay
+[00:09:43] now let's see yeah nice squash and stretch motion so we already have a looped motion
+[00:09:53] we go from one frame to another frame and back to the first keyframe through the like extreme
+[00:10:01] key that we planned which is the squash of the shape and for some animations and some effects
+[00:10:11] it might be everything that you need for the loop for example i created this mini goopy
+[00:10:19] squishy thing too so it just goes from this frame to this frame and back to the first frame
+[00:10:27] yeah and that can be it for the animation but i wanted to make something a little bit more
+[00:10:32] complicated and more effecty for this lesson so yeah let's get into the step two so on the second
+[00:10:43] step we are erasing some shapes from our squash and stretch ball to make this kind of additional
+[00:10:53] kind of additional motion that goes within the loop so we created our base already k to kb
+[00:11:01] and big and back and now we are starting to work with this kind of stuff that will make the loop
+[00:11:08] be flawless and less noticeable where it starts and where it ends and to start off this like
+[00:11:16] wavy motion i just pick a frame this one probably with stretch and make them like some cuts in it
+[00:11:32] some big cut and smaller cut just to get the shape that
+[00:11:37] i like how it looks like some dynamic shape that we have some big cut and smaller cut at the bottom
+[00:11:48] and now i will just animate how these holes that we made like moving within the loop we can go
+[00:11:58] forward for the beginning so i'll leave only the previous frame of the onion skin
+[00:12:06] and we'll work forward like like in the next frame the shape will go
+[00:12:15] there like the cut and this one will go up too because we have like this overall
+[00:12:24] up too because we have like this overall motion of up plant in mind and now in the next frame
+[00:12:35] this cut again moves and this cut becomes bigger and moves along here
+[00:12:45] then the next frame again i like imagining that this cut goes here and i cut it here in this shape
+[00:12:53] this one goes here sometimes it's more visible what i'm doing when i flip instead of looking at
+[00:13:02] the onion skin so yeah and now the next frame again and continue this like movement there
+[00:13:12] of the cut for the right one too and now i wanted to just blend in with the
+[00:13:21] shape that we started with like we had just curve of the ball so i'm starting to like
+[00:13:33] making it less obvious but still like going back to the curve bit by bit like this and now we can
+[00:13:48] think about how it all started so i'll turn on only my next frames on the onion skin
+[00:13:58] so here the cut was like lower like here and here it was even lower
+[00:14:11] maybe a bit higher though to make it like less this might spacing be less big for now
+[00:14:20] and here goes there and now i'll need to see this frame making the cut
+[00:14:37] before it was even smaller and even smaller before so i have this like movement from start
+[00:14:46] to the finish where it goes from small to big and goes up
+[00:14:55] and yeah finishes here now we need to see what's up with this one
+[00:15:03] so before it was smaller here you can add like small erasure here too and we have our
+[00:15:14] additional motion here too congrats let's now get to the third step which is adding like some parts
+[00:15:25] that will drip off this main shape and like dissipate separately to make this loop even
+[00:15:34] more like interesting and fun looking and i will start with the shapes that go off around here so
+[00:15:45] like the main spawn points we have in this loop is from the top of the shape and from the sides
+[00:15:54] of the shape and i wanted them to sync with the squash and stretch motions that we have so like
+[00:16:02] here we have stretch and these blobs start to go up and dissipate and then when we squash our main
+[00:16:16] shape the shapes from the side start to like dissipate and detach from the main shape
+[00:16:23] so we have this nice balance where the shapes go off like from the top from the sides from top
+[00:16:29] from the sides and it's like enhancing the squash and stretch motion that we planned at the first
+[00:16:36] step so yeah let's start with like this probably frame and just that big blob here and kind of
+[00:16:48] smoothing out the cuts now in the next frame i'll turn on the
+[00:16:57] previous frame on the onion skin yeah so in the next frame it continues to go up
+[00:17:07] like this it should probably be bigger here and a bit smaller here yeah now it is attached
+[00:17:31] i'll turn on the one more previous frame to see the changes in spacing between the frames
+[00:17:38] too and now it gets smaller and kind of curls in into the perspective and starts to go down to
+[00:17:59] smaller smaller and smaller and smaller now let's see how it looks
+[00:18:24] oh it's okay now let's see how we can start this blob to appear a bit earlier so i'll turn on the
+[00:18:36] next frame too so yeah i can add a bit of a bump here probably just like that yeah maybe here
+[00:18:52] also a little bit nice okay now let's see that
+[00:19:03] we have another blob right here because we have like in mind that we want to make this
+[00:19:13] goopy looking loop we won't have this super straight liney cuts so here will be our
+[00:19:24] next blob that then goes off the shape to sell that it's
+[00:19:34] goopy stuff which is like stretchy and everything we can show that this part is still connects to
+[00:19:44] the main shape for a little bit and then this attaches continuing this kind of motion we
+[00:19:51] started between these two frames so it goes somewhere here then we can like add a bit of
+[00:20:03] the accent at the bottom of the shape to show that it was stretched here like and
+[00:20:14] yeah now we just work with how it dissipates i just use simple way of
+[00:20:26] make it go smaller and move around the shape a bit maybe like gain some movement down with the
+[00:20:37] gravity stuff you know nothing super complicated but pretty effective for this case
+[00:20:48] goes down more these days the one more frame let's see it in action
+[00:21:03] yeah it's a bit too rapid i think at the end so let's fix it and make it stay a bit closer
+[00:21:15] for the last two frames and now let's see it in action again still don't like it let's make one
+[00:21:21] more frame to be super small yeah okay now let's see how this thing starts off in our shape
+[00:21:38] starts off in our shape so we have the spacing here uh we can see it here for example to
+[00:21:49] seem better like this and this so i want this frame probably be somewhere around here like the
+[00:21:58] the bump be somewhere there
+[00:22:05] a little bit lower like this and in the
+[00:22:16] previous frame we'll go probably like this yeah so we kind of push it up then end up and disattach
+[00:22:28] and here again you can turn off the previous frame to see better like the
+[00:22:37] pump is still pretty rapidly appearing so i'll edit it here a bit and here i'll probably
+[00:22:48] just remove this stuff that we made with cuts now let's see how it looks looks okay and we continue
+[00:23:02] with the next blobs which should we add um yeah we can add one more from the top that will be
+[00:23:16] spawned with this one talking about this this one here so it goes showing itself in here
+[00:23:26] and now it is attached to this motion just to bring some more variety of shapes that we have
+[00:23:37] at the top of the effect so if it went from here to here it will then go probably somewhere around
+[00:23:48] here go small smaller that's gone
+[00:23:55] yeah okay now we can add some blobs for our squash frame here like this kind of motion
+[00:24:08] and let's start with the left one so here our shape like pushing down its volume
+[00:24:18] and it's pushing out this blob in here at the bottom of the shape and here it becomes even more
+[00:24:33] obvious and seen and here it becomes even more obvious like it pushes to the side and also moves
+[00:24:50] up a bit in time
+[00:24:58] and now so we made this motion there and now we should continue to here almost disattached
+[00:25:12] we still can connect it here a little bit and now it's fully disattached and leaving its
+[00:25:23] free life from the main shape okay moving and getting smaller and still moving and getting
+[00:25:40] smaller starting to catch the gravity moving down getting smaller probably could get it even smaller
+[00:25:55] smaller here and smaller here oops okay probably around here yep okay now i missed some fill here
+[00:26:17] okay okay now let's add one on the right side of the shape and we have like obvious place
+[00:26:27] is this corner here so we can start appearing the blob around here make it bigger
+[00:26:38] here push it further now push it even more to the side and continue start to disattach
+[00:27:07] this touch maybe still a little bit attached okay and yeah now it's fully gone it will cover up the
+[00:27:22] dissipation of the shape we created before but it's not bad okay we're getting smaller
+[00:27:34] i want to make it a bit smaller at this point because we have
+[00:27:41] pretty similar shape here so i'll make it smaller the previous frame tool to make this transition
+[00:27:50] better now it goes getting smaller starts to go down a bit getting smaller
+[00:28:16] and it's gone let's see how it looks now i see that this like string that connected my blob
+[00:28:27] and the main shape is gone pretty rapidly and i want to smooth it out so i will just add some
+[00:28:35] bump on the main shape to make it less snappy now it's just coming less bumpy
+[00:28:47] with each frame we could also add maybe like if i would make the bump
+[00:28:58] not so obvious just add small bit that spawns with the snap of this line and make it like disappear
+[00:29:08] the in one frame from that can also work so just making the snap less rapid anyways so
+[00:29:19] what do we not smooth out yet is this corner here so again we can see what's going on
+[00:29:31] in here we want to make some bump in here continue some bump in here again
+[00:29:43] turn on the onion skin to see what i'm doing okay and here we can just erase a bit more to create
+[00:29:56] this bump so this frame should probably be wider because otherwise we have this like
+[00:30:10] uh shape goes inside and then rapidly outside to smooth it out we want to have this outside motion
+[00:30:22] here too maybe continue here too okay oop and yeah here the bump is going up like this
+[00:30:49] and like we had this spacing between the frames so now we can have like this kind of spacing between
+[00:30:58] the lines in there and to smooth this shape out we can just add the bump here
+[00:31:08] we will come back to it a bit later so yeah we spawned this sphere and now again we just
+[00:31:20] move it along the guide and make it disappear in time let's see how it looks in motion
+[00:31:35] okay we can slow down
+[00:31:40] a bit earlier because right now we have this like pretty awkward line
+[00:31:47] between these three shapes that i don't quite like so let's get a bit back so yeah from here
+[00:31:58] i want to start to slow it down quicker and then move it down something like this
+[00:32:19] just to break this awkward line that we had okay and now we can go back to like this blob that we
+[00:32:28] have here so continuing its trip to the right along the shape again to the right
+[00:32:40] smoothing out with the overall movement we can still show a little bit of it in here
+[00:32:48] something like this yeah and it's pretty much gone now we can um
+[00:32:54] smooth out this edge that we have here because we have like this smooth curve here and yeah let's
+[00:33:06] see you can smooth out this too like this let's see in motion yeah it's pretty much done i guess
+[00:33:28] i can't see anything that we missed so i guess we're done yeah so you could continue to like
+[00:33:35] layering some stuff on top of it till you feel accomplished and happy with the animation
+[00:33:42] i usually for the loops like then go and add maybe some inner shape motion within the
+[00:33:49] main shape to make it more interesting but yeah for this exercise we are done it is looped
+[00:33:57] it is smooth so it's all we needed big congratulations and to review what we did
+[00:34:05] we started with the simple motion that we wanted to have inside our looped motion then we
+[00:34:15] layered some erased shapes on top of it to add additional like wave and
+[00:34:21] layered motion along the loop and then we added some shapes that
+[00:34:28] disattach from the main shape and disappear inside the loop to make this like
+[00:34:37] motion inside the loop be less obvious where the loop starts and ends and i like using this
+[00:34:45] and i like using this technique a lot for loops because it is very simple at the beginning and
+[00:34:52] you can give yourself a very solid and understandable base with each step and get
+[00:34:59] more and more complicated while moving further and you can get like the base of your loop to be
+[00:35:10] more complicated it can be for example jumping ball that spawns some effects on its movement
+[00:35:17] or you can get some motion looped and then the effects are just reacting to the movement of your
+[00:35:25] shape and i also like to use this technique of keying the motion from a to b and then back to a
+[00:35:32] to add some variety inside my loops to like break the repeated motion so for example here
+[00:35:39] my wisp shape on the timeline there are two repeated loops of those but then within this
+[00:35:47] timeline i have one looped animation of the face of the wisp so i like reuse the flames motion
+[00:35:56] twice and add this face motion once on top and it creates a more interesting loop that
+[00:36:03] it could be and yeah it can be very fun to use this base technique for your loops and
+[00:36:11] i hope you got some inspiration and i can't wait to see the loops that you will create bye

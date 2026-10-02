@@ -1,0 +1,263 @@
+[00:00:05] Hello! In this lesson we are going to break down this fireball effect.
+[00:00:10] We have a rotating setup here for the preview, but the idea is to make a projectile effect that
+[00:00:15] we could hook up to any projectile logic and have it work following any kind of path.
+[00:00:21] We are going to see how that trail works and we are going to break down the effect
+[00:00:25] element by element, but as always we are first going to take a look into the concept art
+[00:00:31] and talk about some decisions that were made during that phase.
+[00:00:34] So, let's go!
+[00:00:37] What you are seeing right now is the first version of the concept for the fireball effect.
+[00:00:42] It looks great and has a clear striking silhouette.
+[00:00:45] However, there is a problem with readability. There is no clear hierarchy,
+[00:00:50] that thing we are always talking about, between the different parts of the fireball.
+[00:00:55] The head is brighter than the rest of the flames, yes,
+[00:00:58] but that difference is not too big and the trail is still catching a lot of attention.
+[00:01:04] This would work fine for a small projectile like an auto attack,
+[00:01:08] but that would also require less detail on the entire effect.
+[00:01:12] Like seems to be the case in this long fireball in the reference,
+[00:01:16] it has a level of detail that would work great for smaller projectiles,
+[00:01:21] but in our case we are working on a bigger fireball composed by different elements
+[00:01:25] and so we are going to need to play with this idea a bit.
+[00:01:28] So, what we have done with the second version is change that pure flame trail to a more smoky trail.
+[00:01:37] The core, the most important element, since it marks the position of the fireball,
+[00:01:42] is still bright and attention grabbing,
+[00:01:45] and the difference is clear now since the trail has lost a lot of the visual relevance.
+[00:01:51] But still, we are using the fire language in shapes and color,
+[00:01:55] so the main fireball idea is still the same.
+[00:02:00] Here is how the final effect looks compared to the concept.
+[00:02:04] As usual, we have tried to maintain the same elements and ideas,
+[00:02:08] even if there is some small technical compromises made along the way.
+[00:02:13] The cool thing about having made another fire effect before
+[00:02:16] is that we can reuse stuff from the campfire effect, as you will see in the breakdown.
+[00:02:21] What we haven't done in this series is an effect that moves around the space like this one does,
+[00:02:28] and that's going to require some specific setup in some of the elements,
+[00:02:32] and also we are going to be using a rebound renderer to make that trail,
+[00:02:36] which is also something that we haven't done for any of the other effects.
+[00:02:41] So, let's jump into the breakdown to cover all these things,
+[00:02:44] and see how this effect was implemented.
+[00:02:47] Opening the blueprint where all the elements are set up,
+[00:02:51] there is two meshes that are representing the head of the projectile,
+[00:02:55] and there is a particle system.
+[00:02:58] Inside that particle system, we have some regular glows,
+[00:03:01] some flames and sparks, all those regular particles that we have seen before.
+[00:03:06] And lastly, the trail element itself, that's also inside the Niagara system,
+[00:03:10] but that's using a different kind of renderer,
+[00:03:12] so we are going to think about it as a different element.
+[00:03:16] Then apart from that, in the blueprint we also have a point light,
+[00:03:20] but I don't think that requires much breaking down.
+[00:03:23] So, let's start with those head elements.
+[00:03:27] This head is made up of two elements, one dark and another bright,
+[00:03:31] and these are two slightly different meshes,
+[00:03:33] and they are using the same material, but with different properties.
+[00:03:37] The material graph is actually a version of the campfire flame material,
+[00:03:41] of which these are using a couple of material instances.
+[00:03:45] That material works great, because it already has the distorted texture setup for the flames,
+[00:03:51] using the packed textures and all that,
+[00:03:53] and it even has the option of using vertex offset, that might be useful,
+[00:03:58] even if in this version we are not really using it.
+[00:04:02] Now, why use two meshes for the head of the projectile instead of just one?
+[00:04:07] Well, firstly, because having two meshes, in this case two slightly different meshes,
+[00:04:12] is going to add some volumetric illusion to the effect,
+[00:04:15] since there is going to be some parallax between both surfaces,
+[00:04:19] and that's going to break the silhouette a bit also.
+[00:04:21] As you can see from this angle, it's not just a shell with a texture scrolling by,
+[00:04:26] there is some illusion of volume to it.
+[00:04:29] And also, having two different instances of the flame material
+[00:04:33] is going to allow for more color and texture combinations,
+[00:04:36] so we are able to get some more richness in those elements.
+[00:04:40] Just like panning two textures on top of each other can camouflage the repeating pattern,
+[00:04:46] same goes with having these two materials on top of each other.
+[00:04:50] Here we are using a brighter material on top,
+[00:04:53] and this smaller mesh is almost working as a backdrop to those head flames by using darker colors.
+[00:05:01] Another advantage of using meshes is that it's going to be easier to make the effect work from
+[00:05:07] every angle. Sometimes you can get away with a billboard element with a projectile painted on top,
+[00:05:15] and that's going to work in a lot of scenarios, but it can present problems when the game requires
+[00:05:21] these projectiles to be seen from the front, like would be the case if, for example, this was a boss
+[00:05:27] throwing fireballs directly at the player. Also, for example, I once worked in a project where the
+[00:05:34] player could pause at any time and move the camera around the battlefield, and that's also a good
+[00:05:40] example of a situation where a billboard for a projectile doesn't work too well.
+[00:05:46] In any case, let's get into the setup for these meshes, since clearly they are not the same as
+[00:05:51] the campfire ones. The first thing that we are going to need to change is the texture itself.
+[00:05:57] We won't be able to use the same texture from the campfire, since the mask on the green channel
+[00:06:02] is not what we need in our case. We don't want a single plane masked by a flame silhouette.
+[00:06:09] We are using a round mesh and we want the texture to cover all around. The only thing we need to
+[00:06:15] mask to hide is the very top, right before the mesh ends, to avoid any harsh edge at that point.
+[00:06:23] And we can quickly create that mask by using a soft brush, and setting that as our green channel,
+[00:06:29] we have our new texture ready to be used. For the mesh, it's going to be pretty simple,
+[00:06:36] we just split a sphere and deform the horizontal loops using the soft selection tool.
+[00:06:42] And after we have our shape, you just have to remember to rescale the UVs,
+[00:06:46] so that they cover the entire UV space that the other half of the sphere was covering.
+[00:06:52] Note that we are also rotating the UVs, we have to make sure that the mask we just made
+[00:06:57] is affecting the edge of our mesh, so that edge loop at the bottom of the mesh is going to have
+[00:07:03] to match that gradient we have in our mask. And with that, we have our mesh and we could create
+[00:07:10] different versions, stretched in different ways, or with different silhouettes and see how they
+[00:07:15] work together. Now back in the engine, since we need this fireball moving to showcase the effect,
+[00:07:22] I've created a blueprint that makes the fireball turn in circles.
+[00:07:27] That's a blueprint inside a blueprint, so we are going deep.
+[00:07:30] I wouldn't consider this part of the effect in a real production, you would probably have
+[00:07:35] a blueprint for the projectile logic, with all the damage, all the stats, and you could
+[00:07:40] hook up the actual VFX actor in there, just like we are doing here.
+[00:07:45] It's just that in this case we don't have any game logic, so I'm just creating a
+[00:07:49] fake projectile actor that just turns around and around so we can see the effect in motion.
+[00:07:56] I don't think the logic is really worth getting into, I'm just setting the location and the
+[00:08:00] rotation of the fireball blueprint each frame. But you could use something like a label sequence,
+[00:08:06] where you move the projectile in any trajectory that you want, or any other way that replicates
+[00:08:12] how the effect is going to move in game. We just need some way to see this effect in motion.
+[00:08:18] Keep in mind that since this is an actor moving the effect around in this case,
+[00:08:23] it's not going to move while in editor mode. To actually see the fireball in motion you will
+[00:08:29] need to either enter play mode by clicking the play button, or you can also launch in
+[00:08:34] simulate mode, which is hidden under these advanced options, and that's going to allow
+[00:08:40] you to stay in the editor view while the logic of the blueprint still plays.
+[00:08:45] So that's our main brighter layer moving around. Let's see what we change to create the darker
+[00:08:51] version. For starters the mesh is different, the idea and the process to get the mesh is the same,
+[00:08:58] it's just scaled and deformed in a different way. Then of course in the material we are choosing a
+[00:09:05] different color, in this case we are just using red, which is darker than the colors in the first
+[00:09:11] element, and so it's going to serve as a contrasting background for them.
+[00:09:16] And also it's a less intense color, which is important since this element extends farther
+[00:09:22] away into the tail, and as we covered before we want the intensity of the effect to decrease
+[00:09:28] towards the end of the trail, to keep the color itself relevant. Tiling is also different,
+[00:09:36] you can see that's why we are getting longer flames. Looking at the two together you can
+[00:09:41] tell the difference in how the brighter one feels more flamey, while these red streaks
+[00:09:47] look more like a jet propulsion. The vertical panning speed is the same,
+[00:09:52] it's just that when you change the dialing size the apparent speed is going to change along
+[00:09:58] that axis, and here we have changed things like the vertical dialing on the distortion,
+[00:10:04] and that's going to give off that effect of more speed with longer stretched shapes.
+[00:10:10] Remember that we want to keep the yellow mesh always in front of that red one,
+[00:10:15] so in the blueprint we should set up the translucency sort priority parameters
+[00:10:20] accordingly for each mesh. Here I just increased the priority on the yellow one,
+[00:10:25] so it's rendered always in front of the rest of the elements in the effect.
+[00:10:30] Now the remaining elements, ignoring that point light, are all inside this Niagara system,
+[00:10:37] so let's dive into it and break them down piece by piece.
+[00:10:43] The first are a couple of elements that we are pretty familiar with at this point.
+[00:10:48] Our classic glow and a darker one, almost like a backdrop element.
+[00:10:54] These are these two different emitters and really we can just copy and paste them from a previous
+[00:10:59] effect and work from there making any changes that are needed for this effect, since it's
+[00:11:05] actually a pretty simple emitter. As always, having a couple of them allows us to control
+[00:11:10] the color depth by having a more intense smaller one and a darker one that extends farther away,
+[00:11:17] but you have seen this kind of element plenty of times by now,
+[00:11:20] and there is not much else going on here, so let's move on to the others.
+[00:11:25] The next element is this tiny flames element, and if the name rings a bell that's because these are
+[00:11:32] the same tiny flames from the campfire effect. What that means is that we don't need to create
+[00:11:38] any new mesh or textures, the material we are using is exactly the same that we are
+[00:11:43] using for the campfire, and any changes we do are going to be on the emitter itself.
+[00:11:49] This effect is going to be moving, not stationary like the campfire,
+[00:11:53] and that's going to require some specific settings. For starters, we are going to make
+[00:11:58] sure that under the emitter properties this local space option is unchecked, we want the particles
+[00:12:05] to be free from the motion of the particle system itself once they have spawned. If this was in
+[00:12:10] local space, the particles would move along with the firewall as it travels, and what we want is
+[00:12:17] for them to be left behind as a trail. We are also going to need to pay some attention to the
+[00:12:23] lifetime of these particles, because since these are being left behind, the longer the lifetime is,
+[00:12:29] the longer the trail of fire they are going to represent is going to be. So we have to keep in
+[00:12:36] mind that point about the hierarchy and tweak this parameter later on to make sure that they
+[00:12:41] are not overstaying and bleeding too much the bright colors into the dark trail.
+[00:12:48] These are going to look very different here in the particle editor compared to once the effect
+[00:12:54] is moving about, so that's why we need something like our blueprint setup to work on these elements
+[00:13:01] and see the changes as they are actually going to be represented in game. Also, keep in mind
+[00:13:07] that the velocity of the fireball is going to affect the length of the trail and these trailing
+[00:13:15] elements in general. For the next emitter, which are those sparks the fireball is shooting back,
+[00:13:24] once again we can save valuable production time by reusing the spark assets from the campfire.
+[00:13:31] And you can start to see how working on different effects from the same school of magic or element
+[00:13:37] can make things way easier, because as long as we are not just copy pasting complete effects
+[00:13:44] in a way that feels cheap, reusing these smaller elements and materials not only saves time but
+[00:13:51] also ensures that there is a cohesive language across the entire set of effects. Even if the
+[00:13:59] fire in this case is going to behave in different ways, in a same game it would only make sense that
+[00:14:06] the shapes and the colors of the same element behave in a consistent way. But just like with
+[00:14:13] the previous element, we still have to make some changes to this spark's emitter. First,
+[00:14:18] we have to make sure that we are not setting this emitter in local space, just like with the last,
+[00:14:24] but we are also going to change the behavior in different ways. We are using the add velocity
+[00:14:30] module to add some randomized velocity in the x-axis, which is the back of the fireball,
+[00:14:37] and that's going to match their motion to the flame materials in the fireball meshes that they
+[00:14:42] would supposedly be coming out from. Then, since these are going to travel all the way from the
+[00:14:49] head of the fireball to the end of the trail, we are also animating their color in a more aggressive
+[00:14:55] way than in the campfire. The color starts a light orange, matching the color of the fireball,
+[00:15:01] and quickly turns a darker red to match that change in colors that we have been maintaining
+[00:15:07] along the effect, from light to dark as we go backwards towards the tail.
+[00:15:14] These sparks are still going to contrast against that dark trail to some extent. We just want to
+[00:15:21] keep that contrast lower than it would be otherwise. Remember that contrast is one of
+[00:15:26] the key tools that you can use to direct the player's attention, and we usually wouldn't
+[00:15:31] want the player's attention to be focused in the very end of the trail in an effect like this.
+[00:15:39] Then there are also the usual suspects for spark particles, so modules like Curl Noise Force to
+[00:15:47] give some more natural motion, like they're being pushed around by the turbulences, and the usual
+[00:15:53] Drag module that's going to slow down the particles in a believable way, although as you can see in
+[00:15:58] this case I have disabled the Drag module, and I have added a Scale Velocity module that's going
+[00:16:04] to give me a finer control over the slowing down of these particles along the trail.
+[00:16:10] But the idea is the same as using a Drag module. And with this one we finish all the emitters that
+[00:16:18] we are basically reusing from previous effects, and we move on to the trail setup that we haven't
+[00:16:25] really used before. Generally for trails and ribbons in Unreal Engine we are going to use
+[00:16:31] a ribbon renderer module in Niagara. And in a static preview like this it's impossible to see,
+[00:16:37] but what this is going to do is create a ribbon mesh that connects all the particles,
+[00:16:43] just like in a connect the dots drawing. And to better see this happening we can quickly enable
+[00:16:49] this default sprite renderer, so we can see the actual particles that are defining this ribbon,
+[00:16:55] and we are going to see it even better if we set the view mode to Wireframe
+[00:16:59] and hide this background element. Now you can see how the ribbon renderer is generating a mesh
+[00:17:07] in real time, that follows the path left by the particles. And just like in a connect the dots
+[00:17:15] drawing, there is an order to these particles. Each particle has an attribute called ribbon ID,
+[00:17:22] and the ribbon is going to connect between all these particles positions following that order.
+[00:17:28] You can change the attribute to your liking, but by default that's just going to be the particles
+[00:17:34] age, so as long as we don't add any randomness to the particles lifetime, the trail is going to
+[00:17:41] follow the path made by the particles as they spawn. Right now I'm spawning particles fairly
+[00:17:50] quickly, as you can see they're very close together, and that's going to affect the density
+[00:17:56] of the mesh generated by the ribbon renderer. Here in the emitter you can see that I'm not
+[00:18:01] using a spawn rate module, I'm using a spawn per unit module. Instead of spawning a particle
+[00:18:09] every x seconds, this is going to spawn a particle every x centimeters as the particle system moves
+[00:18:16] in our world. Think of it as living breadcrumbs as you walk. So the faster you walk, the faster
+[00:18:23] you're going to have to drop breadcrumbs if you want the distance between them to remain equal,
+[00:18:29] and that's what this module is doing. It's spawning more or less particles,
+[00:18:33] depending on the velocity of our particle system. So if we change this value from 5
+[00:18:39] to something longer like 50 centimeters, you can see how the particles are further away,
+[00:18:45] and that's going to reduce the resolution of our trail mesh. That's better for some things,
+[00:18:52] but depending on the kind of movements and the trajectories that the projectile is going to
+[00:18:56] follow, it might be too little resolution. And you can also see how the texture is jumping a
+[00:19:02] little every time a new particle is created, and a new section of that mesh is added to the trail.
+[00:19:09] So you have to play with these values to find a compromise depending on your use case.
+[00:19:16] Once you understand how the ribbon renderer works, you can get inside the options and modify the way
+[00:19:21] in which it behaves. In our case, we are creating a trail mesh that's basically a strip of quads,
+[00:19:28] but you can also use other shapes like a tube for things like cables or tails, and you have some
+[00:19:34] options for how the mesh is generated, things like number of subdivisions and so on. There are some
+[00:19:41] options regarding how the UVs of this mesh are going to be generated, and some settings
+[00:19:47] controlling the smoothness of the curves the ribbon is going to follow as it connects the
+[00:19:51] particles. There are many combinations for the ribbon settings that I recommend you play with,
+[00:19:57] since these are easier to understand that way and we don't want to deviate too much from this lesson.
+[00:20:04] Just know that in this case what we are creating is a strip mesh that's going to smoothly interpolate
+[00:20:10] throughout our particles as they are left behind by our Niagara system, and this mesh we are going
+[00:20:17] to apply a material like we would do with any other, which is going to give us these flamey
+[00:20:22] shapes. In this case that's basically the same material that the campfire flames are going to use,
+[00:20:30] but as you can see just dropping the material is going to create some issues.
+[00:20:35] The problem is the way the trail renderer works we need the flames to go sideways not upwards like in
+[00:20:42] the campfire. Now thankfully we have an option in our material to do that, this parameter we didn't
+[00:20:49] really use for the campfire effect, but this is the one that allows us to change the direction
+[00:20:55] of the gradient that we are going to use to mask our texture. Doing that is going to change that
+[00:21:01] direction for the main gradient, but we still need to change the texture so everything flows
+[00:21:06] horizontally. Now for this texture sadly I don't have the original speed painting, but the main
+[00:21:14] idea is to modify the flames in the red channel so that they flow horizontally along the trail,
+[00:21:21] and we also want a lower level of detail in this element so it would look more like this
+[00:21:26] zoomed version. Of course doing this in this way is going to get seams that would break
+[00:21:32] our texture as it scrolls, so we need a new texture made for that end that wraps around
+[00:21:38] at least horizontally since that's the direction we are scrolling it.
+[00:21:43] Then in the green channel that's holding the mask the new material is going to pan horizontally not
+[00:21:49] vertically so the end of the trail that we want to hide is going to be on the left, but we'll also
+[00:21:56] add some gradients to the mask on the top and on the bottom which are going to be the sides of the
+[00:22:02] trail, and for the noise in the blue channel we're not going to change anything this distortion is
+[00:22:09] going to work fine. Now with that texture and with the change we made to the material parameters the
+[00:22:16] trail is going to work in our ribbon, and notice how it's becoming smaller as it disappears.
+[00:22:24] The mesh generated by the ribbon renderer is actually getting smaller as it's further away.
+[00:22:29] We are controlling that with a module in our emitter called scale ribbon width, and this
+[00:22:35] curve represents the width of the trail depending on the lifetime of the particles that is going by.
+[00:22:42] That means that what we are seeing here is basically the profile of the trail.
+[00:22:48] If we make some big change here you can see how the mesh is now following that profile,
+[00:22:54] so this is actually a very intuitive way to art direct that shape that the mesh makes.
+[00:23:02] Of course apart from all the changes that we have covered we have also changed the color in
+[00:23:07] the final material parameters to these darker tones of red and we have played with the panning
+[00:23:14] speed, the tiling and the distortion to get a motion that roughly matches the speed of the
+[00:23:21] fireball and what we expect from the trail. And next to this trail emitter there is another
+[00:23:29] emitter and that's the last one in the breakdown, but that one is almost a duplicate of the main
+[00:23:36] trail. We have just changed the material to this blob material and with that we get a very smooth
+[00:23:43] trail, almost like a glow or a backdrop to the main one, but we are not panning any texture so
+[00:23:49] the material setup is easier than in the other case. And with that emitter we have covered all
+[00:23:56] the elements in this particle system that together with the meshes in the blueprint
+[00:24:01] create the entire firewall effect. The effect itself is not that complicated but it's mixing
+[00:24:08] different techniques like the head meshes with then regular particles and glows and then the
+[00:24:13] ribbon renderer that we hadn't covered before in the series so it can throw you off. And also I
+[00:24:19] hope the setup with the blueprint to get the fireball moving makes sense. You can see in this
+[00:24:25] effect how important is to see it actually in motion even if we don't have a gameplay
+[00:24:31] projectile to hook this up into. And with that I hope you enjoyed this breakdown and I'll see you
+[00:24:38] around. Bye!

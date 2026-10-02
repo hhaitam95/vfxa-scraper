@@ -1,0 +1,500 @@
+[00:00:00] Oh hey guys, welcome to the video on timing.
+[00:00:05] This is gonna wrap us up on the fifth
+[00:00:07] of all of the artistic principles
+[00:00:09] of real-time visual effects.
+[00:00:11] There may be more principles of real-time visual effects art
+[00:00:16] but this is where I'm gonna cut it off, so timing.
+[00:00:20] All right, so if shape is the most concrete,
+[00:00:23] definable, you can make an alphabet out of it
+[00:00:25] and everyone understands which shape tells you what,
+[00:00:29] then timing, I think, is at the other end of the spectrum.
+[00:00:33] It's the most abstract, it's the most sort of right-brained,
+[00:00:38] hard to describe with words kind of principle
+[00:00:42] and it's tricky.
+[00:00:44] There's a lot included here.
+[00:00:46] This tutorial might be a little longer than the others
+[00:00:48] because we're talking about timing and motion
+[00:00:50] and how they both impact the art of visual effects
+[00:00:53] but we're gonna do our best anyway.
+[00:00:55] Hard as it may be, let's go for it.
+[00:00:58] All right, the League of Legends style guide.
+[00:01:01] So here we have Sion doing an awesome ability
+[00:01:06] and this brought to mind some insight that I got
+[00:01:10] from Adam Kugler, he's a lead class designer
+[00:01:13] on World of Warcraft.
+[00:01:14] He put it like this.
+[00:01:17] There's really only, there's like one critical thing
+[00:01:19] to remember and I would say, if you only remember
+[00:01:22] one thing from this video, just remember this,
+[00:01:26] is that you want to lead the brain with anticipation
+[00:01:32] and then you want to overload the brain
+[00:01:34] at the moment that it's been waiting for
+[00:01:37] and then you wanna give the brain time to process
+[00:01:39] what just happened and this example here
+[00:01:42] of Sion doing the build up and then the big smash
+[00:01:44] and then there's like the fall off and all that
+[00:01:46] is a pretty good example of that, right?
+[00:01:49] Isaac Wood did a really great job of doing the build up
+[00:01:51] and the smash and the dissipation.
+[00:01:53] So, yeah, if there's just one thing
+[00:01:57] that you're trying to get your head around timing,
+[00:01:59] like what should I do to have impactful, awesome timing?
+[00:02:03] It's that awesome anticipation and build up,
+[00:02:06] the amazing overloading climax and payoff
+[00:02:11] and then time to process and have these nice outro elements
+[00:02:16] that are oftentimes subtle and nice flavor
+[00:02:19] that kind of give the effect and out.
+[00:02:22] And we'll talk a little bit later about what happens
+[00:02:24] when you don't have that and how having that
+[00:02:27] can really help.
+[00:02:29] Alright, so think of an effect as a sequence of beats, right?
+[00:02:35] Beats, obviously, borrowed from the world of music.
+[00:02:39] More on that later as well.
+[00:02:41] You know, you've got this tempo and you've got, you know,
+[00:02:45] the build up, the pressure and then the explosion
+[00:02:49] and then the nice dissipation.
+[00:02:51] These nice beats, right?
+[00:02:55] That's what we're talking about with timing.
+[00:02:57] Alright, so now we're transitioning briefly over to motion.
+[00:03:01] Now, as a visual effects artist,
+[00:03:03] you are a student of nature, right?
+[00:03:08] It's your job to capture natural phenomenon
+[00:03:13] and put it into art, right?
+[00:03:17] Now, this is, oops, I hit a button.
+[00:03:21] There we go.
+[00:03:23] And they're still paused.
+[00:03:28] Hang on, guys, one second.
+[00:03:30] So it's your job to put it into the game
+[00:03:35] or whatever it is that you're working on, right?
+[00:03:37] Now, out of the box, a lot of particle editors
+[00:03:41] are gonna have built in physics,
+[00:03:43] they're gonna have like built in ways
+[00:03:45] that things move and behave
+[00:03:47] and that's gonna be a fine start
+[00:03:51] but you need to have a discerning eye
+[00:03:53] to understand, oh, but I know in real life,
+[00:03:57] I need to tweak this to get it to feel more accurate
+[00:04:00] or I see that it's kind of doing that motion
+[00:04:04] like it would in real life
+[00:04:04] but man, if I added this nice little flourish over here,
+[00:04:08] I saw that one time on this other YouTube video
+[00:04:11] of things exploding or whatever.
+[00:04:13] I like how it did that thing
+[00:04:15] and always studying reference and gathering how things work,
+[00:04:19] understanding the laws of physics in nature
+[00:04:21] is really critical because you are the one on the team
+[00:04:25] that is the subject matter expert
+[00:04:28] on all things that move that are not characters, right?
+[00:04:31] And oftentimes, depending on who's coming to you
+[00:04:35] asking for something, that person,
+[00:04:37] they're gonna see fire, maybe it's out of the box fire
+[00:04:41] and they're gonna say, sure, it looks like fire
+[00:04:44] and it probably does look like fire out of the box
+[00:04:47] with the default settings.
+[00:04:49] But you should know better.
+[00:04:50] You should know that if you really wanted
+[00:04:54] to make that fire awesome,
+[00:04:55] you gotta know all the different levers
+[00:04:57] that you wanna change on it to make it move believably,
+[00:05:00] to have good timing and all these other things
+[00:05:03] and so really studying fire, being a student of fire
+[00:05:06] is gonna help you in that situation to deliver something
+[00:05:09] that is gonna exceed expectations and blow people away.
+[00:05:13] Now, obviously, some people are totally in a great spot
+[00:05:18] to know exactly what they want
+[00:05:19] from the element that they're asking from you.
+[00:05:21] I'm not saying that effects artists
+[00:05:23] are the only ones with this knowledge,
+[00:05:25] but I will say that if you wanna be
+[00:05:28] the very best effects artist that you can be,
+[00:05:31] referencing how things move is super critical.
+[00:05:33] Okay, I've labored that point enough.
+[00:05:35] Now we'll move on to the one
+[00:05:36] that you guys sneak peek on before.
+[00:05:38] Now, I'm gonna go deeper into this example later on
+[00:05:42] and I actually approach it a little differently
+[00:05:44] than Jin does.
+[00:05:46] Jin has these graphs of position over time.
+[00:05:49] I wanted to clarify a little more on that
+[00:05:51] and so you're gonna see these broken down
+[00:05:54] slightly differently.
+[00:05:56] Suffice it to say, he's talking about punchy timing
+[00:05:58] versus even timing, but I'll break that down
+[00:06:01] more for you later.
+[00:06:04] All right, so here we have timing as it relates
+[00:06:07] to things lingering around on screen
+[00:06:10] and we kinda talked about this in the value section
+[00:06:12] where there was the Lux missile,
+[00:06:15] remember it was a fireball
+[00:06:16] and had this really long trail behind it
+[00:06:19] and it wasn't clear if that whole trail
+[00:06:20] was an area of effect or not.
+[00:06:22] Well, this is very similar where it's like,
+[00:06:24] you wanna reduce visual clutter.
+[00:06:26] Now, this is the same ability,
+[00:06:29] but just two different skins on Syndra
+[00:06:32] and one of them leaves an icy splotch on the ground,
+[00:06:35] which, you know, it's cool, these ice,
+[00:06:37] and then the other one just sort of has this like
+[00:06:40] glowy cloud with like a nice bright spot in the middle
+[00:06:42] that pops out pretty quickly
+[00:06:45] and just goes back down to the fuzzy ball.
+[00:06:48] Now, the difference here is important.
+[00:06:52] This icy splotch, cool as it may look,
+[00:06:54] is taking up gameplay space long after
+[00:06:58] it has any impact on gameplay.
+[00:07:01] So when it first hits, it does damage, right?
+[00:07:04] And then it doesn't need to be there anymore.
+[00:07:06] You can get rid of it, you can get it out
+[00:07:07] of the gameplay space and let it move along
+[00:07:10] because the longer you leave it there,
+[00:07:12] the longer it's drawing visual attention
+[00:07:15] and the longer it's gonna cover up anything else
+[00:07:17] that might come underneath it, heaven forbid.
+[00:07:20] And it's also gonna cause confusion,
+[00:07:22] like should I not step on it, am I gonna slip and fall
+[00:07:24] because it's ice, I don't know.
+[00:07:26] So the basic thought is here, like,
+[00:07:30] suit your timing to match the gameplay implications, right?
+[00:07:36] Timing is really valuable for matching gameplay.
+[00:07:40] All right, so let's go on to the four principles
+[00:07:47] of animation, I chopped out the other eight,
+[00:07:50] you guys I'm sure have heard about the famous
+[00:07:52] 12 principles of animation.
+[00:07:55] I think all of them have some application to VFX for sure,
+[00:07:58] but really there's four that we wanna get the meat out of.
+[00:08:02] All right, so squash and stretch,
+[00:08:04] and hopefully my frame rate is capturing this well enough
+[00:08:06] for you to see and understand what's happening.
+[00:08:10] So in all of these examples, in all four of them,
+[00:08:12] the red is not demonstrating it
+[00:08:15] and the blue is demonstrating it.
+[00:08:17] So the red is not stretched or squashed and the blue is.
+[00:08:22] Now, both of these incidentally are traveling
+[00:08:25] at the exact same speed.
+[00:08:27] And they have the exact same hit impact effect,
+[00:08:31] but because the blue one is stretched,
+[00:08:34] A, it feels faster, right?
+[00:08:36] And B, it doesn't strobe.
+[00:08:39] They're also at the same frame rate,
+[00:08:41] but the red one looks actually like it's at a lower
+[00:08:42] frame rate because it's round.
+[00:08:46] And so the shapes don't blend together from frame to frame.
+[00:08:50] This definitely goes into shape
+[00:08:51] and it overlaps hugely with shape.
+[00:08:52] I am aware of that.
+[00:08:54] So just take it with a grain of salt,
+[00:08:56] but it will help the feeling of your timing
+[00:08:58] and your punchiness if you stretch your shapes
+[00:09:01] into the way that they move.
+[00:09:03] That makes sense.
+[00:09:04] Not have like choppy linear side to side motion.
+[00:09:08] All right, anticipation.
+[00:09:10] So I mentioned this earlier about, you know,
+[00:09:12] building it up for the brain
+[00:09:13] and then overloading the brain, right?
+[00:09:15] Funny thing happens with the red one.
+[00:09:17] It's just kind of a pop,
+[00:09:18] but the blue one, which has the exact same pop animation,
+[00:09:22] feels more impactful, it feels punchier,
+[00:09:24] it feels more satisfying
+[00:09:26] because it has that buildup beforehand.
+[00:09:28] You don't always have time in a video game to do a buildup.
+[00:09:32] Sometimes the effect needs to happen immediately,
+[00:09:36] but oftentimes you do.
+[00:09:37] And so anytime you have opportunity for a buildup,
+[00:09:41] like, you know, between like the time the player
+[00:09:44] uses an ability or an enemy uses an ability
+[00:09:46] and then the enemy or the ability fires,
+[00:09:50] use that opportunity to do a nice buildup.
+[00:09:52] And oftentimes you can incorporate character animation
+[00:09:56] here as well to really help sell that anticipation.
+[00:10:00] Something like winding up a sword or like, you know,
+[00:10:03] raising an arm to shoot a gun or something like that
+[00:10:05] to really build the anticipation.
+[00:10:09] All right, slow in and slow out.
+[00:10:15] So again, these two have the same lifetime,
+[00:10:23] but because they're spaced differently
+[00:10:26] on how quickly they're fading in and out,
+[00:10:28] you can see that, you know,
+[00:10:29] there's a significant difference in how they feel.
+[00:10:33] And maybe this one is subtle, actually.
+[00:10:34] Maybe it's not the most significant,
+[00:10:36] but it's that nice little touch,
+[00:10:37] that feeling of like, you know, it's not linear.
+[00:10:42] Like the blue one scales up quickly
+[00:10:45] and then like slowly grows after that.
+[00:10:49] The blue one also like, you know,
+[00:10:50] fades in quickly and then has this nice like outro
+[00:10:54] where it's like fading subtly.
+[00:10:56] Whereas the red one is just kind of like,
+[00:10:59] like just kind of uniformly expanding like a balloon
+[00:11:03] and doesn't have quite as much visual interest
+[00:11:06] as the blue example.
+[00:11:09] All right, secondary action.
+[00:11:11] Now in these two, the trails are different
+[00:11:15] because the blue one,
+[00:11:18] we have this nice little wobble of motion.
+[00:11:20] There's this nice little fade out that they have.
+[00:11:22] Whereas the red one, you know,
+[00:11:24] it feels like a particle system.
+[00:11:25] It's like spawn, spawn, spawn, spawn, spawn,
+[00:11:28] you know, these little particles spawning in place.
+[00:11:30] This is where you start getting into,
+[00:11:33] you know, when you're in the particle editor,
+[00:11:36] it's important that any emitter that you use,
+[00:11:39] any group of particles that you're using
+[00:11:43] doesn't clearly show up as particles,
+[00:11:48] if that makes sense.
+[00:11:49] Like you want it to feel like it naturally comes off,
+[00:11:52] especially the secondary elements and the secondary action.
+[00:11:55] You want it to accentuate the primary effect.
+[00:12:00] Give it a nice little flourish,
+[00:12:01] nice little swirl, whatever it is.
+[00:12:03] But make sure those particles marry with the effect
+[00:12:06] and give it a nice follow through and secondary action.
+[00:12:10] Cool.
+[00:12:10] So those are the four principles of animation.
+[00:12:16] And moving along.
+[00:12:19] Okay, this is where it gets interesting.
+[00:12:20] So, when you're editing effects,
+[00:12:23] those of you who are effects artists
+[00:12:25] are familiar with this kind of graph
+[00:12:27] where you've got X, Y, and Z
+[00:12:32] representing how the particle card
+[00:12:35] or mesh or whatever it is,
+[00:12:37] is moving through space, right?
+[00:12:40] So it's like, cool.
+[00:12:41] So the timing of how it moves,
+[00:12:43] we can talk about timing using X, Y, and Z.
+[00:12:47] Except, don't forget, we also have to talk about velocity,
+[00:12:50] and that's only one line,
+[00:12:51] but actually you have velocity on X, Y, and Z, right?
+[00:12:55] Oh, and scale.
+[00:12:57] We're gonna figure out how it scales over time, you know?
+[00:12:59] On X, Y, and Z.
+[00:13:01] And the color, red, green, and blue.
+[00:13:03] Don't forget that, how that animates over time.
+[00:13:06] And the rotational velocity, and the transparency,
+[00:13:09] and then any other feature that you can imagine.
+[00:13:12] Very quickly you start to understand
+[00:13:15] that it gets confusing.
+[00:13:18] This is the blessing and the curse of visual effects,
+[00:13:22] is that you can do anything with your particle editor.
+[00:13:26] And that's great because it gives you a lot of power,
+[00:13:28] but it makes it very challenging to talk about something
+[00:13:32] as abstract as like timing,
+[00:13:34] when you have to think about animating
+[00:13:37] all of these timings over time.
+[00:13:39] The color, transparency, the position, et cetera.
+[00:13:42] So, to simplify it,
+[00:13:44] and this might be an oversimplification, I'm well aware.
+[00:13:46] We're just gonna talk about intensity over time.
+[00:13:49] Now what do I mean by intensity?
+[00:13:52] Well basically, what we're looking at is
+[00:13:56] how eye-grabbing is it at that moment?
+[00:14:00] So, in this example,
+[00:14:02] it would not at all be eye-grabbing
+[00:14:05] at the beginning of its lifetime,
+[00:14:06] but by the end of it, it would be like,
+[00:14:08] whoa, I cannot look away, it's maximum intensity.
+[00:14:13] And you could accomplish that in many ways, right?
+[00:14:14] Like, intensity can be, you know,
+[00:14:17] rapid motion of like a material,
+[00:14:19] like, you know, just frantically like scrolling,
+[00:14:22] or dissolving, or doing whatever it does.
+[00:14:24] It can be just how bright it is.
+[00:14:27] It can be like, is it flickering, bright and dark?
+[00:14:30] It can be, I don't know, is it spinning?
+[00:14:33] Is it just big on the screen at that moment?
+[00:14:38] And so, that hopefully simplifies it down a little bit.
+[00:14:41] We'll give a couple examples as well.
+[00:14:43] We've got a missile, which, you know,
+[00:14:44] it's pretty eye-grabbing as it travels along.
+[00:14:46] You know, and then maybe when it hits,
+[00:14:48] maybe I should put it like a spike here,
+[00:14:49] because it like would spike up
+[00:14:51] when it impacts and explodes, right?
+[00:14:55] An explosion, there you go.
+[00:14:57] Starts really intense, just boom.
+[00:14:59] And note, note that this isn't size, right?
+[00:15:02] Like, explosions start small and then get big.
+[00:15:06] But the intensity of an explosion starts big,
+[00:15:09] because from the very first moment that explosion is alive,
+[00:15:13] yes, it's small, but it's rapidly, rapidly expanding.
+[00:15:18] And I would say because it's rapidly getting bigger,
+[00:15:21] that means that during that point in time,
+[00:15:24] it is very intense.
+[00:15:26] And then it's also like rapidly decelerating, right?
+[00:15:30] Like we know explosions, they come out,
+[00:15:32] they hit the air around them,
+[00:15:33] which the air pressure pushes back on the explosion,
+[00:15:36] creates these interesting rolling motions in it,
+[00:15:38] and it very, very quickly slows down, right?
+[00:15:42] So the intensity, therefore, ramps down pretty quickly
+[00:15:47] from that first moment that it blows up.
+[00:15:50] A blinking light, oops, sorry if I bent the microphone there.
+[00:15:54] A blinking light.
+[00:15:54] So, you know, this doesn't have to be a blinking light.
+[00:15:58] This could be like, I don't know,
+[00:16:01] like a short circuit, like electric bolt.
+[00:16:03] This is bzz, bzz, you know, like flaring on beats.
+[00:16:07] You know, I mentioned beats before.
+[00:16:10] Having beats in your effects is really valuable,
+[00:16:14] where, you know, this looks like an EKG, right?
+[00:16:16] Where it's like spiking up and then going down,
+[00:16:18] spiking up and going down.
+[00:16:19] Creates really nice visual interest and visual contrast
+[00:16:22] when your timing is varied,
+[00:16:25] when your intensity is varied, right?
+[00:16:29] And a portal.
+[00:16:29] A portal's gonna be a little more subtle.
+[00:16:31] Maybe it has like a shimmer where it like pulses bright
+[00:16:34] and then fades out and then pulses bright and then fades out
+[00:16:37] and kind of like has this, you know,
+[00:16:40] sine wave kind of pattern of intensity.
+[00:16:44] All right, so none of this,
+[00:16:46] just the four principles of animation
+[00:16:49] and intensity over time.
+[00:16:51] Excuse me.
+[00:16:56] All right, so here we have a fun example.
+[00:17:01] This is Reaper Soraka and
+[00:17:06] both of these are Shadow Isles themed, right?
+[00:17:11] Or undead themed.
+[00:17:12] Now, the example on the left is Reaper Soraka
+[00:17:17] actually getting hit by another character named Karthus
+[00:17:21] who's casting his ultimate on her
+[00:17:23] and the one on the right is Reaper Soraka
+[00:17:26] casting her own ultimate on herself to heal herself.
+[00:17:29] So here we have a holy healing thing
+[00:17:34] that needs to mix with undeath on the right
+[00:17:37] and then we just have pure like damage-y evil
+[00:17:41] impending doom on the left.
+[00:17:44] Did I say the left or the right, the first one?
+[00:17:47] Happy's healing on the right,
+[00:17:49] damaging on the left, okay.
+[00:17:50] So anyway, when we look at the intensity over life,
+[00:17:55] we have something like this.
+[00:17:56] Now you remember talking about, you know,
+[00:18:00] building up the anticipation
+[00:18:02] and then that amazing overload of the brain
+[00:18:04] and then you have this nice fall off right here.
+[00:18:07] This fall off at the end is really important.
+[00:18:09] You'll notice like after it hits,
+[00:18:11] has this nice little dissipation,
+[00:18:12] doesn't last as long as the buildup did
+[00:18:15] but it gives you this nice satisfaction of like,
+[00:18:17] oh yeah, she got hit.
+[00:18:18] I really, really nailed it, right?
+[00:18:21] Which this ultimate requires no skill to hit
+[00:18:24] but you nailed it, good job.
+[00:18:26] Whereas over here on the right, the healing is instant.
+[00:18:30] So the moment you press the button,
+[00:18:34] you know, it's maximum intensity, the heal has happened
+[00:18:37] and then quickly falls off
+[00:18:38] and it has these like long dissipation
+[00:18:40] of like these sparkles just kind of like hanging around,
+[00:18:43] chilling out for a while.
+[00:18:44] Now you'll notice that the shapes and the colors,
+[00:18:46] except for the red here, are largely the same.
+[00:18:50] It's like, it's all googly.
+[00:18:52] There's even googly faces here and in here
+[00:18:54] and so we had to differentiate by timing.
+[00:18:58] That's really the only option you have
+[00:19:00] and so by doing this difference in timing,
+[00:19:03] we can make them feel like different abilities.
+[00:19:06] More, even more than that,
+[00:19:08] the follow through of the sparkles
+[00:19:11] helps it feel nice and friendly
+[00:19:13] and that's about, you know, there's timing
+[00:19:17] but there's also motion, like they move
+[00:19:18] in a very fluid sort of way
+[00:19:22] with a nice orbit to them, right?
+[00:19:25] So they have this nice random ethereal kind of vibe to them.
+[00:19:30] So that's how you can differentiate
+[00:19:32] if everything else is the same.
+[00:19:34] All right, so you remember before I promised you
+[00:19:37] that we'd come back to the echo example.
+[00:19:39] So we're gonna look at a few examples here.
+[00:19:41] We're gonna look at the timing kind of coming up and down
+[00:19:45] and then we're gonna look at that compressed
+[00:19:47] to come up and down quickly
+[00:19:49] and then we're gonna look at it with this sharp point
+[00:19:51] and see what difference that gets us.
+[00:19:54] So here we have it coming up and down,
+[00:19:56] kind of like floats upward and then floats downward, right?
+[00:19:59] And you look at this, colors are great, shapes are great,
+[00:20:03] the values are great and oftentimes they'll show this
+[00:20:06] to an art director or, you know, it happens to all of us.
+[00:20:10] Like, I'm not trying to pick on art directors.
+[00:20:12] Timing is freaking hard.
+[00:20:14] They'll show it to somebody and they'll be like,
+[00:20:15] it feels nice.
+[00:20:16] If they're not well versed in timing, that's the caveat.
+[00:20:19] Like if you can find somebody who really knows their stuff
+[00:20:22] with timing, highly recommend you run it by them
+[00:20:24] because I'll tell you right now,
+[00:20:26] this could use some improvement.
+[00:20:28] So the temptation is to speed it up,
+[00:20:31] make it punchier, right?
+[00:20:33] Ain't gonna happen.
+[00:20:36] Really what it needs is it needs that slow build up
+[00:20:39] and then a huge spike of intensity
+[00:20:42] and then a nice subtle fall off.
+[00:20:44] Notice also that it has variation in timing
+[00:20:46] on these bits all around.
+[00:20:48] So back to this example again.
+[00:20:51] You know, like I said, like,
+[00:20:53] this kind of thing slips by me all the time.
+[00:20:55] You really have to be vigilant to understand
+[00:20:58] when your timing is and is not working
+[00:21:00] because it's so common to overlook this.
+[00:21:02] Always ask yourself, did I push it
+[00:21:04] really hard with the timing?
+[00:21:06] And the other problem is too,
+[00:21:07] timing usually comes later, right?
+[00:21:09] It comes after you've built your shapes,
+[00:21:10] after you've balanced your colors and your values
+[00:21:14] and the ability has been defined.
+[00:21:16] Now, because it comes after all of that,
+[00:21:18] you might have a little bit of fatigue
+[00:21:20] working on the effect
+[00:21:21] and you might be kind of done with it.
+[00:21:23] I'm saying you, but this is exactly
+[00:21:25] what happens to me all the time.
+[00:21:27] So the key is to not get lazy and just say,
+[00:21:30] well, screw it, I'm just gonna make it poppier
+[00:21:32] because then, you know, this doesn't have the build up
+[00:21:35] and it doesn't have the payoff at the end.
+[00:21:38] It kind of has a nice spike of intensity in the middle,
+[00:21:40] but it's just not rewarding.
+[00:21:43] It's not giving the brain that delightful brain candy
+[00:21:47] that it's after when it wants delicious timing.
+[00:21:52] So yeah, always ask yourself,
+[00:21:55] like, can I push the timing harder?
+[00:21:56] Can I really see how far it can go
+[00:22:01] to feel nice and satisfying, a nice punch to it?
+[00:22:06] So that's those examples
+[00:22:10] and that'll wrap it up, I guess.
+[00:22:12] So remember to hit up the forum.
+[00:22:16] I'm not gonna be back for a while,
+[00:22:17] probably with more tutorials,
+[00:22:18] but I am available on the forum
+[00:22:21] over at realtimevfx.com.
+[00:22:24] You can go and hit me up over there,
+[00:22:25] hit up all the awesome talent that you see on there.
+[00:22:29] Really great, great guys and gals in the industry
+[00:22:31] working on this stuff.
+[00:22:33] Attached to the forum is a job board that I manage
+[00:22:36] and if you're looking for a job in the industry,
+[00:22:38] if you're looking to fill a job in the industry
+[00:22:40] with a realtime VFX artist, recommend checking it out.
+[00:22:44] And there you have it.
+[00:22:46] You can hit me up at KaiserEdo over on Twitter
+[00:22:49] and I'm on the forum, of course,
+[00:22:51] and then my website if you wanna find out
+[00:22:54] any other stuff that I've posted or created over the years.
+[00:22:58] So that's it, guys.
+[00:23:00] I've really enjoyed doing this series for you.
+[00:23:02] I hope you get a lot out of it
+[00:23:03] and most of all, I hope you keep making awesome.

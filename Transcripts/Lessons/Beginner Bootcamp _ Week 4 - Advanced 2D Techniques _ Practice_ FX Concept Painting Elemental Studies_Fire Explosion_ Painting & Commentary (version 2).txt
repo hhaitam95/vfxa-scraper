@@ -1,0 +1,748 @@
+[00:00:09] Oh hey guys, let's make some explosions.
+[00:00:13] All right, so here we've got the fire explosion
+[00:00:15] from Dave Shovlin, you should be familiar with this piece.
+[00:00:18] And you should have the Photoshop document.
+[00:00:20] Here's Photoshop, we've got this opened up
+[00:00:23] with the navigator window.
+[00:00:24] You can go to Window, Navigate, Navigator right there.
+[00:00:28] To have that up, you'll notice that Shovlin and his video
+[00:00:32] will have that up quite a bit.
+[00:00:34] This is just VLC, I've got the video that he recorded
+[00:00:37] of his process creating this painting, all set to go.
+[00:00:41] And I'm gonna assume that you're familiar with Photoshop,
+[00:00:44] that you've watched the videos that I posted on YouTube
+[00:00:47] of how to use Photoshop for all this stuff.
+[00:00:51] Okay, so we'll dive right into it.
+[00:00:53] So what Dave has done is he's done
+[00:00:56] the thumbnail process beforehand.
+[00:00:58] That's a previous video that you can check out.
+[00:01:01] And in the process of doing the thumbnails,
+[00:01:05] essentially, you're nailing down a few things.
+[00:01:08] You're talking about the overall shape language
+[00:01:11] that you wanna use,
+[00:01:12] just kind of how things are gonna be positioned
+[00:01:14] and kind of the composition of the effect really.
+[00:01:18] It's gonna be a good tool
+[00:01:19] for getting your whole team aligned.
+[00:01:21] It's a very quick way to show the art director
+[00:01:23] and the game designer how it's gonna feel in the space,
+[00:01:27] and they can start imagining it in their heads.
+[00:01:29] So you're gonna fade that thumbnail down,
+[00:01:32] and then he's using the lasso tool here
+[00:01:33] to just sort of shape out very roughly
+[00:01:36] the puffs that he wants to go with,
+[00:01:39] and then just fill those in with the paint tool.
+[00:01:42] From there, you can go in and add more touch-ups.
+[00:01:45] And really when you're working with the brush,
+[00:01:47] it's more like sculpting,
+[00:01:49] like you're adding in shapes and forms,
+[00:01:52] but then also you can go back through with the eraser
+[00:01:54] or with the lasso tool and sort of chisel those away.
+[00:01:58] You'll notice him doing that off and on.
+[00:01:59] He's just kind of like building it out, adding up the clay,
+[00:02:02] and then he'll have other times
+[00:02:03] when he comes in and chops away at it.
+[00:02:07] So we kind of jumped ahead here a little bit.
+[00:02:10] What he did is he went through with the soft brush
+[00:02:13] and just laid in these little highlights.
+[00:02:15] You can adjust your flow up here.
+[00:02:18] So if I come up here with the brush tool,
+[00:02:21] we'll just pause this for a second.
+[00:02:24] I come up here with the brush tool,
+[00:02:25] I can change the flow and the opacity
+[00:02:29] to get something much softer.
+[00:02:32] And then if I choose like a brush that has like a softer,
+[00:02:38] you can like transfer to it, pen pressure.
+[00:02:43] Okay, I need to actually use my pen.
+[00:02:47] And then I don't know,
+[00:02:48] maybe you want shape dynamics or not.
+[00:02:50] You know, if you go with that chisel brush shape here,
+[00:02:56] and then we do a pen tilt for the angle.
+[00:02:59] We have this guy.
+[00:03:02] What's great about this,
+[00:03:04] I can use the bracket tools to size that up.
+[00:03:10] There we go.
+[00:03:13] So you can kind of come in, say I want this,
+[00:03:16] and then because my opacity is so low,
+[00:03:20] it's gonna just leave that nice and faded.
+[00:03:22] I'm on a layer, I'm gonna do layer here.
+[00:03:26] So I can come in and I can sort of block
+[00:03:28] in these softer shapes.
+[00:03:31] If it's too soft for you, you can increase the flow.
+[00:03:34] Or the opacity.
+[00:03:35] And I would encourage you guys to spend some time
+[00:03:38] like playing around with these
+[00:03:39] and just figuring out how you can get these nice,
+[00:03:41] soft, fluffy shapes.
+[00:03:44] Like what Shevlin's got here
+[00:03:45] when he laid in those highlights.
+[00:03:48] Cool, so continue on.
+[00:03:51] Next up, it's laying in, you know,
+[00:03:52] the next order of brightness, right?
+[00:03:54] That deep orange color.
+[00:03:56] And again, he's just sort of blocking in the areas
+[00:04:01] these first few strokes are rarely gonna be pretty.
+[00:04:05] That's something that I want you to really understand
+[00:04:06] is like the best artists that I see painting as they paint,
+[00:04:12] typically when their drawings are just starting out,
+[00:04:14] like they're very ordinary.
+[00:04:16] There's nothing special about it,
+[00:04:18] but it's about just blocking it in,
+[00:04:20] laying in the general idea of what they're after.
+[00:04:23] And then it's all about just driving towards that vision
+[00:04:27] and discovering what it is underneath
+[00:04:29] that they're trying to create.
+[00:04:30] A lot like revealing a statue from within the concrete,
+[00:04:34] or I guess you wouldn't carve concrete,
+[00:04:36] but like within the stone, right?
+[00:04:40] But it is, I guess, like concrete
+[00:04:41] because you add concrete
+[00:04:42] and then you could like just a little way, I guess.
+[00:04:44] I don't know.
+[00:04:46] Stone's a little bit harder to add more on.
+[00:04:47] I think clay is a better analogy.
+[00:04:50] So anyway, he's like looking at the positive shapes
+[00:04:52] and the negative shapes.
+[00:04:53] You'll notice that he's got a lot of hollowed out areas.
+[00:04:56] He's going through here in these little circular areas.
+[00:05:00] And I do apologize on the low resolution of this.
+[00:05:03] I acknowledge that it's kind of fuzzy over here,
+[00:05:06] but that's something that we've worked on
+[00:05:10] in the other videos to get that better quality for you guys.
+[00:05:14] So he's got this coming along with different shapes.
+[00:05:18] The key is to just think about how the light would be cast
+[00:05:23] from inside of here.
+[00:05:24] How do you want the light to behave?
+[00:05:27] Do you want it to sort of burn around the edges
+[00:05:30] of those spheres?
+[00:05:31] Or do you want it to kind of like be illuminating
+[00:05:35] from inside the center of the spheres?
+[00:05:36] And obviously in here, he's looking for a technique
+[00:05:39] that is gonna support this burning out of the cracks
+[00:05:43] and around the edges of all these.
+[00:05:46] So this gives this feeling of like the clouds
+[00:05:49] as they're parting and splitting away
+[00:05:51] that they leave this nice glowy center as they part.
+[00:05:59] It's important too to understand
+[00:06:00] where the light's coming from.
+[00:06:01] So these clouds, when he first painted them,
+[00:06:05] the only light source was up above,
+[00:06:08] just kind of ambiently shining down onto the explosion.
+[00:06:11] That's why it's just kind of a muted gray light
+[00:06:14] on a gray cloud.
+[00:06:16] And then the stuff coming from the center,
+[00:06:19] it's gonna have a very hot, fiery light source.
+[00:06:22] So it's gonna be more of a yellowish light source there.
+[00:06:25] And so always be thinking about,
+[00:06:27] okay, so what is this material that I'm painting?
+[00:06:30] How is it being lit?
+[00:06:31] How is it reacting to that light?
+[00:06:34] What's the kind of mood that this material needs to set?
+[00:06:37] Is it gonna be hot foreboding or cool and inviting, et cetera?
+[00:06:43] So he's just gone in and adding more definition
+[00:06:45] to his shapes.
+[00:06:46] Always be thinking of these as three dimensional objects.
+[00:06:49] You're not just drawing random curves and counter curves,
+[00:06:53] you're drawing spheres that are intersecting
+[00:06:56] with each other.
+[00:06:57] And that's really important to acknowledge.
+[00:07:00] And you're gonna kind of discover
+[00:07:02] how the shapes intersect and how they line up as you go.
+[00:07:08] You're gonna try things out
+[00:07:09] and then you're gonna need to rework them as well.
+[00:07:18] So he's coming along in here,
+[00:07:20] he's kind of refining back, he's erasing it away,
+[00:07:25] bring things to a nice fine point rather than a blunt tip.
+[00:07:30] That's easy to do if you just shrink your brush down
+[00:07:32] really small, you can get these nice little details in there
+[00:07:35] keeps some of these edges nice and crisp
+[00:07:37] while others can be sort of big and general.
+[00:07:43] And I think I sped this up to about two times the speed,
+[00:07:49] maybe it was three times.
+[00:07:52] So you can imagine how quickly he's doing this.
+[00:07:54] It took him about an hour in total to do this painting.
+[00:08:12] So yeah, he's just figuring out the shapes.
+[00:08:14] It's a blend of defining the forms,
+[00:08:16] but then also keeping the style there.
+[00:08:20] It's got these nice like fiery curves and counter curves.
+[00:08:27] It's nice too, he's got this thumbnail up here
+[00:08:29] because this is a great way to kind of check
+[00:08:32] how your work is gonna feel at a glance.
+[00:08:35] Always stepping back from your work
+[00:08:36] and seeing it in the bigger picture is important.
+[00:08:41] It's got the shafts of fire that are sort of radiating out.
+[00:08:51] Again, he's noticed that he built them up.
+[00:08:54] It's a nice stroke outward and then he erased them away.
+[00:09:00] Now there were two versions of this effect
+[00:09:01] that Shevlin had done.
+[00:09:02] He did one that was more angled and crisp,
+[00:09:06] and then this one is much more soft and fuzzy.
+[00:09:09] The reason for that was actually
+[00:09:11] that we've lost the Photoshop document
+[00:09:14] on the other version, unfortunately.
+[00:09:17] He doesn't know where it went and what happened to it.
+[00:09:20] And so he went ahead and did this second one.
+[00:09:22] I was like, well, while you're at it,
+[00:09:23] let's try one that's softer,
+[00:09:25] just for a different direction and different vibe.
+[00:09:27] And so he's putting a lot more organic vibes
+[00:09:30] into these shafts that are coming out
+[00:09:33] whereas the other one are just,
+[00:09:34] they're very straight and linear.
+[00:09:36] And yeah, it's just, there's no right or wrong necessarily.
+[00:09:40] It's just preference thing
+[00:09:42] or what the style is that you're going for.
+[00:09:46] So notice that the rays of light have, you know,
+[00:09:49] a fairly randomized properties to them.
+[00:09:53] You know, like this one is kind of breaking off out here
+[00:09:55] and then it's like thicker here.
+[00:09:56] This one's thin.
+[00:09:58] This one's kind of two together.
+[00:10:00] Got like a longer one down here
+[00:10:01] and then just some short stuff in the front.
+[00:10:04] And that variety really helps.
+[00:10:08] You know, here he's got three that are pretty evenly spaced,
+[00:10:13] but that's not gonna be as much of a problem
+[00:10:15] once we have this plume on the top
+[00:10:17] and it's kind of covering up that third one
+[00:10:18] and you don't really notice it as much.
+[00:10:21] So here's using the control click method.
+[00:10:23] He's gonna use this a lot where you can control click
+[00:10:25] on the layer thumbnails to select like this,
+[00:10:30] but then it's still maintains all of the alpha
+[00:10:33] in your layer.
+[00:10:34] It's really nice.
+[00:10:35] Nice approach.
+[00:10:40] So he's got that going
+[00:10:43] and then he's filling it.
+[00:10:45] Oh yeah, that's right.
+[00:10:46] So he did an inset.
+[00:10:52] Let me just pause that real quick.
+[00:10:55] Remember that you can do that by doing, let's see,
+[00:11:00] if I just control click here
+[00:11:06] and then I can go select, modify, contract.
+[00:11:11] So he basically selected the orange
+[00:11:13] and then he contracted it in to select area inside of that.
+[00:11:17] And then he filled that with yellow
+[00:11:19] and now he's gonna do a radio blur on that selection
+[00:11:24] or on that layer, sorry.
+[00:11:25] He had to deselect, you wanna deselect it first
+[00:11:27] before you do a radio blur.
+[00:11:28] Otherwise it'll just blur within that selection
+[00:11:33] and it won't extend past the bounding box,
+[00:11:35] which kind of defeats the whole purpose.
+[00:11:45] And that radio blur will just give it the feeling
+[00:11:46] like it's moving outward and it has the nice energy to it.
+[00:11:51] The key to that is you want these inner edges
+[00:11:55] to be more or less crisp and then blurred and fuzzed
+[00:11:59] out at the tips and the directions they're moving.
+[00:12:02] And that'll create a nice sense of motion and directionality
+[00:12:12] can go in and customize it later.
+[00:12:14] You'll notice he added the fuzz here.
+[00:12:16] It's kind of funny
+[00:12:17] because it's gonna get covered up later as you can see,
+[00:12:18] but like adding that fuzz here, it feels really nice.
+[00:12:21] This nice transition where it's just kind of close,
+[00:12:25] kind of just bleed together at certain points.
+[00:12:28] And again, this isn't about nailing your final image
+[00:12:31] on the first shot.
+[00:12:33] It's a lot about sort of building up your shapes
+[00:12:36] and just stacking them on top of each other
+[00:12:38] and painting on the layers to figure out how you like it.
+[00:12:41] You can always go back in underneath
+[00:12:43] and modify stuff later.
+[00:12:46] It's the beauty of digital art.
+[00:12:54] Always keep in mind the area of effect.
+[00:12:56] You know, here, this ring was part of the template
+[00:12:59] that I gave him originally.
+[00:13:00] So it's like has to stay within this box, right?
+[00:13:03] These rays are getting outside of it,
+[00:13:04] but he's really making sure that the rays fall off very,
+[00:13:07] very rapidly and get really,
+[00:13:09] really thin and more subtle once they extend past
+[00:13:12] that main area of effect.
+[00:13:15] Now, remember you're seeing the shape of the brush flat,
+[00:13:20] but really he's able to rotate that
+[00:13:21] because he set it to tilt.
+[00:13:24] And so you're not gonna see it rotate.
+[00:13:26] In fact, I think he must have an older version
+[00:13:28] of Photoshop because in the newer version of Photoshop,
+[00:13:31] you would at least see it rotate
+[00:13:32] when you're not touching it to the screen.
+[00:13:34] And then once you start touching the screen,
+[00:13:36] then it stays whatever it was.
+[00:13:41] But it's really fun working with that.
+[00:13:42] I use it all the time now since he taught me how to use it.
+[00:13:46] It adds a nice quality to your brush strokes,
+[00:13:49] getting the thick and thin just sort of automatically.
+[00:13:52] It's very easy.
+[00:13:56] So notice even with the mass shape,
+[00:13:58] he's got like the tighter shapes at the bottom,
+[00:14:00] like these tighter bumps,
+[00:14:02] and then the bigger bumps at the top.
+[00:14:05] So it creates this interest in the silhouette.
+[00:14:06] Like there's tension,
+[00:14:08] like the shape is tapering and like compressing down here
+[00:14:11] and it's expanded when it's up higher.
+[00:14:14] And that creates a nice voluminous thing
+[00:14:17] even before he starts defining the interior volume of it.
+[00:14:22] So he's looking at different shelves
+[00:14:24] that are gonna catch the light, right?
+[00:14:29] It's like these different like spots and angles.
+[00:14:32] And sometimes when I'm painting like more like volumetric
+[00:14:37] or voluminous like surfaces,
+[00:14:41] it's not always what you expect.
+[00:14:43] Like you don't wanna be too mathematical about it,
+[00:14:46] like kind of leave it organic.
+[00:14:47] And you can tell here,
+[00:14:48] he went through that phase pretty quickly.
+[00:14:51] And now he's gonna go in and he's gonna chisel out
+[00:14:52] the different surfaces and faces and volumes.
+[00:14:55] But I think it's really valuable
+[00:14:57] to just sort of stroke in some intuition into it.
+[00:15:02] And then from there you can sort of make more sense of it.
+[00:15:07] But if you try to be too mechanical about it at first,
+[00:15:11] like this surface faces up
+[00:15:12] and then that surface faces down
+[00:15:14] and you're like chiseling that all out,
+[00:15:17] like I tend to find that that doesn't work as well for me.
+[00:15:23] He's doing basically like a scale pattern if you notice.
+[00:15:28] This feels like a pine cone, works really nice.
+[00:15:38] So yeah, he's got the definition coming in here.
+[00:15:41] And the fact that he's using a very, very soft brush,
+[00:15:44] allows him to sort of play with those values
+[00:15:48] and tweak them up as he goes.
+[00:15:51] And then if you scale that soft brush really small,
+[00:15:54] then you get a much crisper edge.
+[00:15:57] And then if you scale it up bigger
+[00:15:58] then now it's a more blunt edge.
+[00:16:01] It looks like he's got,
+[00:16:03] I'm so sorry for the quality of this.
+[00:16:05] It looks like he's got the flow set to 100
+[00:16:07] but the opacity is down.
+[00:16:11] You can again, just have fun with those,
+[00:16:13] like see what you like tweaking that.
+[00:16:21] It's a motion blur in there
+[00:16:22] to get that transition to feel really nice.
+[00:16:27] Also feels like the yellow is burning up onto it.
+[00:16:33] Essentially just the big eraser here.
+[00:16:36] Just playing around with getting the values
+[00:16:40] to bleed together, seeing if he likes it.
+[00:16:49] At the end of the day, this is gonna be a particle system.
+[00:16:51] It's gonna have translucency on it.
+[00:16:53] And so the way that these shapes overlap,
+[00:16:57] you as the effects artist and now also as a concept artist,
+[00:17:01] you're gonna have a lot of fun like playing with,
+[00:17:04] okay, how are these gonna overlap?
+[00:17:06] How am I gonna set this up in engine?
+[00:17:08] Am I gonna use meshes?
+[00:17:09] Am I gonna use cards?
+[00:17:10] What am I doing for the different parts?
+[00:17:12] And it allows you a great opportunity
+[00:17:15] during the concept to plan ahead
+[00:17:18] and to think about what's gonna be happening.
+[00:17:26] So here's the light poking out from in between.
+[00:17:29] And again, doesn't need to be like literally
+[00:17:32] through the entire crack.
+[00:17:34] He's got like gaps in there
+[00:17:35] and that's important for design purposes.
+[00:17:38] You don't want it to be just even throughout.
+[00:17:41] It doesn't feel as organic and spontaneous if you do that.
+[00:17:46] Some areas it'll have a nice long divide
+[00:17:49] to other others that'll just be little specks of light
+[00:17:53] that are peeking through.
+[00:18:03] Oftentimes I thought with that big eraser
+[00:18:05] and I know he came back down to make it smaller.
+[00:18:07] Sometimes I'll use a nice big eraser
+[00:18:09] to just add a gradient to something.
+[00:18:11] So like I'll sort of paint it evenly
+[00:18:13] throughout the whole thing.
+[00:18:15] And then I'll just use a giant eraser
+[00:18:16] and just kind of stamp it really quick.
+[00:18:19] And if it's got a soft edge to it,
+[00:18:21] it'll erase heavier at the top of my shape
+[00:18:24] and then a lot less at the bottom.
+[00:18:25] And so it leaves a nice gradient of like intensity
+[00:18:29] from the bottom up to something less on the top.
+[00:18:32] That can be a quick way that you could control that
+[00:18:34] if you wanted to just draw the focal point down
+[00:18:38] but still have some indication of the shapes
+[00:18:39] that you painted further up.
+[00:18:58] You know, one of the other things he does in here,
+[00:19:01] you can even switch it up.
+[00:19:02] Like you could have a soft edge brush
+[00:19:05] and then like a hard edged eraser
+[00:19:08] and that's gonna just, as you work,
+[00:19:10] add some instant interest to it, right?
+[00:19:12] Like, cause like you imagine you add some nice soft puffs
+[00:19:17] and some glows and then you go back with the eraser
+[00:19:19] and it's like more crisp and cutting away.
+[00:19:22] Some of your edges will be sharp,
+[00:19:24] some of them will be soft
+[00:19:25] and it's just a very quick way to sort of generate
+[00:19:28] some interest there.
+[00:19:30] I don't do that all the time
+[00:19:31] but that's something that I use from time to time.
+[00:19:38] And something that he did in his other painting
+[00:19:40] that's not going on in here that I wanted to mention
+[00:19:42] is when he was first roughing in his shapes,
+[00:19:45] he sketched in outlines to all of the different like spheres
+[00:19:50] and circles and things like that.
+[00:19:52] I think that's another great way to work.
+[00:19:54] And it's funny to see that like even the same artist
+[00:19:57] does it differently for the same assignment twice.
+[00:20:02] Thought that was fascinating to me.
+[00:20:05] So I'm always switching it up too, it's just pretty common.
+[00:20:08] I don't think there's one right way to paint obviously.
+[00:20:11] I mean, there's so many different techniques out there
+[00:20:13] that you could learn.
+[00:20:15] The key is just really having an idea of what the matter is
+[00:20:22] that you're trying to paint, right?
+[00:20:25] Are you painting a gas?
+[00:20:27] Is it hot?
+[00:20:28] Is it cool?
+[00:20:30] Is there energy in there?
+[00:20:32] Is there light being cast?
+[00:20:33] Like what is all the stuff made out of?
+[00:20:38] What's driving it?
+[00:20:39] Which direction is it moving in?
+[00:20:40] And always just be thinking about the overarching principles
+[00:20:44] that were mentioned in the previous video
+[00:20:47] to introduce concept because that's really gonna be
+[00:20:52] the most important thing that informs your painting
+[00:20:54] throughout is if you can just take that time
+[00:20:56] to just step back and be like,
+[00:20:57] does it feel like it's on fire?
+[00:20:59] Does it feel like it's expanding?
+[00:21:00] Does it feel like this?
+[00:21:02] If not, ask yourself why.
+[00:21:04] I mean, Shevlin's done a great job of indicating lines
+[00:21:08] that are all sort of radiating from the center.
+[00:21:11] Like I say, they're like, the shapes are tighter here.
+[00:21:14] They're kind of expanding out here.
+[00:21:16] He's done a good job of keeping to the contour
+[00:21:19] of this rounded shape.
+[00:21:21] So as they come up, they curve with it, right?
+[00:21:25] So he's keeping in mind like the curvature of it
+[00:21:28] and the direction that it's moving as he goes.
+[00:21:31] And I know it's a lot to keep track of in your head.
+[00:21:33] At the end of the day,
+[00:21:34] it's really just about the pen mileage.
+[00:21:37] You've got to take the time to practice with the tool,
+[00:21:41] practice with the technique
+[00:21:43] and just find little opportunities to do that.
+[00:21:45] If you're working full time, making effects
+[00:21:49] and you don't have a lot of time in the concept phase,
+[00:21:51] maybe each time you do a concept,
+[00:21:53] you focus on just one thing differently.
+[00:21:56] Like this concept is gonna have nice definition of form.
+[00:22:00] This one's gonna have a nice transition of energy
+[00:22:04] from cool to hot.
+[00:22:05] It's gonna be very clear.
+[00:22:08] This one's gonna have the nice soft shapes
+[00:22:10] mixed with the hard shapes
+[00:22:11] and they're gonna work together to show directionality.
+[00:22:15] Just pick one thing to work on per painting
+[00:22:18] and you'll find that after enough paintings,
+[00:22:21] you're gonna be subconsciously doing them all together.
+[00:22:24] It's really just about building that subconscious library
+[00:22:27] of all the different things together
+[00:22:30] that make up one really strong painting.
+[00:22:36] So what's he doing here?
+[00:22:38] He's coming into, oh, he's creating a layer style
+[00:22:48] and a fun thing that you can do
+[00:22:49] is you can create a layer style
+[00:22:51] and then you can right click on it,
+[00:22:54] you can copy it and paste it onto other layers.
+[00:22:57] So he's figuring out what his glow is gonna feel like
+[00:22:59] by just painting one dot
+[00:23:01] and he wants the inner glow and the outer glow to look right
+[00:23:04] and so now as he's painting,
+[00:23:06] I think this is even just on the same layer,
+[00:23:09] but as he's painting, it's gonna be glowy
+[00:23:13] as he paints it in.
+[00:23:14] So it's gonna have all the inner glow and outer glow
+[00:23:16] and everything while he's painting.
+[00:23:17] It's a really fun way to paint.
+[00:23:20] It feels like you're painting with magic or something
+[00:23:24] because it's more than just the shape you're doing
+[00:23:26] and I don't know if he's stuck with that.
+[00:23:28] We'll see.
+[00:23:30] I know at one point he was trying that
+[00:23:31] and it was really interesting.
+[00:23:33] Yeah, so it's still on there.
+[00:23:37] Like I can even show you at high resolution.
+[00:23:39] So if I come onto here, auto select, get that hotspot.
+[00:23:44] So like, I can now paint and it's got that glow.
+[00:23:51] Probably want to paint with white.
+[00:23:56] Oh gosh, where is that at?
+[00:24:00] Yeah, so I can like paint.
+[00:24:03] It's, I don't know.
+[00:24:05] It's a really fun way to paint.
+[00:24:07] I will say.
+[00:24:08] Let's just get back to him.
+[00:24:19] Another thing to think about is as you're painting,
+[00:24:24] there's a fine line between one to one
+[00:24:28] can be created in game versus,
+[00:24:32] oh, this is good inspiration
+[00:24:34] for what we're gonna create in game.
+[00:24:36] And a lot of times, we'll get concept art
+[00:24:39] and we'll be like, that's pretty crazy.
+[00:24:42] I don't think I can make that in the game.
+[00:24:45] But it's amazing inspiration
+[00:24:47] and it kind of gets me thinking,
+[00:24:50] well, what would it take to make that in game?
+[00:24:52] You know, is it like,
+[00:24:53] is it that we don't have the technology
+[00:24:55] or is it just that I need to learn how to do something?
+[00:24:57] And so really kind of as you're the concept artist,
+[00:25:03] think in your mind as you're painting something out,
+[00:25:05] am I just painting this
+[00:25:06] because it's cool and fun and inspiring?
+[00:25:09] Or is it like, is there something I can change about it
+[00:25:12] to make it possible for me as an effects artist
+[00:25:16] to then build it in game?
+[00:25:18] And if you're new to all of this,
+[00:25:20] then that's just something you're gonna learn in time.
+[00:25:24] You're just gonna find out like,
+[00:25:26] oh, the way I painted that cloud,
+[00:25:27] like that's so impossible to do in a material.
+[00:25:30] Or you're gonna figure out like,
+[00:25:32] oh, if I paint it this way,
+[00:25:34] that's like I know the technique to get to pull that off.
+[00:25:38] So that just comes with time.
+[00:25:41] Also, I would say,
+[00:25:42] if you had to err on the side of one or the other,
+[00:25:45] err towards inspiration,
+[00:25:46] just make a beautiful, awesome painting.
+[00:25:49] Cause you never know,
+[00:25:50] like you might paint something
+[00:25:52] that is just like crazy out there
+[00:25:55] that has all this weird stuff in it.
+[00:25:59] You show that to your engineer and they'll get excited.
+[00:26:01] They'll be like,
+[00:26:03] I think I can give you some tech
+[00:26:05] that will allow you to do that.
+[00:26:06] And so it might be a two way conversation
+[00:26:08] where you're pushing the envelope
+[00:26:11] with your concept inspiration,
+[00:26:13] and then they come back and allow you a way
+[00:26:16] to then create that.
+[00:26:19] So still painting on the hotspots.
+[00:26:21] This is an important concept
+[00:26:23] is that typically gradient works outward, right?
+[00:26:28] Like it's not very frequent
+[00:26:30] that the white just sits on the gray.
+[00:26:32] The white sits couched inside of yellow,
+[00:26:35] which sits couched inside of the orange,
+[00:26:39] which is inside of the reddish glow.
+[00:26:42] I mean, he hasn't really added the reddish glow
+[00:26:44] that we see here, this dark red yet,
+[00:26:47] but then that sits on top of the gray.
+[00:26:51] I shouldn't say on top
+[00:26:52] because it's creating the illusion of being inside, right?
+[00:26:59] You got the little flux and bits
+[00:27:01] that are flying out through there.
+[00:27:07] It's pretty rad stuff.
+[00:27:16] It's always great to just keep
+[00:27:18] that indication of directionality,
+[00:27:20] focus back in on the painting.
+[00:27:22] All these little pieces that are flying out,
+[00:27:26] they have a nice line of action away from the center.
+[00:27:30] And they're not perfect.
+[00:27:31] Like they're not perfectly lined up,
+[00:27:33] but even down here where they're kind of like flying up
+[00:27:36] off the ground, it gives it feeling like,
+[00:27:37] you know, things are even ricocheting off the ground
+[00:27:39] because it's like pointed up a little bit
+[00:27:41] from down in the center, right?
+[00:27:44] Where maybe the surface would be right here.
+[00:27:47] The point of impact would be here.
+[00:27:48] Some of these bits are angled down even further.
+[00:27:55] He's deciding to add some of the secondary glow up here
+[00:27:58] that we see.
+[00:28:01] And a lot of this you'll notice,
+[00:28:02] like these aren't very fancy brush strokes.
+[00:28:06] They're just kind of choppy little flips
+[00:28:10] that aren't really specific in any kind of way.
+[00:28:14] But when you look at it in this context here
+[00:28:17] as a thumbnail, the image comes together really nice, right?
+[00:28:22] And that's really the most important part
+[00:28:25] with any concept painting is you don't wanna
+[00:28:29] go over index on fidelity to get all the intricate details
+[00:28:33] to feel really nice.
+[00:28:34] That's not what the concept is for,
+[00:28:36] especially the first pass, right?
+[00:28:40] Like maybe you lay this in and you show this
+[00:28:43] to the art director and they're like, okay,
+[00:28:45] but we have a very specific way that our shapes work.
+[00:28:47] Could you go back and define that material
+[00:28:51] and how those shapes are gonna manifest?
+[00:28:53] That's fine.
+[00:28:54] You can go back in and, you know,
+[00:28:56] add some specific points or whatever.
+[00:28:59] But when you're just building up the sort of hierarchy
+[00:29:03] and focal point and overall how the energy
+[00:29:06] is gonna function, you don't need more
+[00:29:08] than just flips and swoops to just be placed in.
+[00:29:12] Also, it's gonna keep you loose
+[00:29:13] and it's gonna keep you traveling throughout the painting
+[00:29:16] and making sure it's coming together as a whole
+[00:29:18] instead of getting lost in just one part of that painting.
+[00:29:24] It's amazing what a little bit of glow will do, right?
+[00:29:28] Those layer effects are super important.
+[00:29:30] And you've got this PSD.
+[00:29:31] I would encourage you to go through and layer by layer,
+[00:29:34] check out what he's done in here
+[00:29:36] and turn those effects on and off to just visualize
+[00:29:42] what are they doing?
+[00:29:42] How are they interacting?
+[00:29:43] You know, what happens if I leave this one on,
+[00:29:46] but turn that one off and how does that affect the painting?
+[00:29:49] And it'll help you a lot as you go in
+[00:29:52] and take a stab at this assignment to see what happens.
+[00:29:59] I think it would be fun too,
+[00:30:00] if you tried to approach it
+[00:30:01] from maybe a slightly different thumbnail,
+[00:30:03] maybe you choose one of the other two thumbnails
+[00:30:05] that Shevlin had, or maybe you go with one of your own
+[00:30:10] where it's just a completely different shape
+[00:30:11] of fire explosion.
+[00:30:13] Maybe you play around with the color palette
+[00:30:15] that you have over here.
+[00:30:17] So change that up, have some fun.
+[00:30:25] Or if you just wanna start
+[00:30:26] with a straightforward explosion, that's good.
+[00:30:29] So you get that really big, really soft brush
+[00:30:32] and you just stamp on some light,
+[00:30:36] convert that to linear dodge or additive blend mode.
+[00:30:40] And man, it's really gonna like make those colors vibrate
+[00:30:44] up off the canvas.
+[00:30:48] You're gonna feel like your screen just got brighter
+[00:30:49] than you normally can.
+[00:30:54] So he's got the alpha selected and he's painting it.
+[00:30:58] I wonder, he's probably on a different layer.
+[00:31:02] So it's that trick where you can control click on a layer
+[00:31:04] and then you can create a new layer.
+[00:31:06] So you've just got the outline of the silhouette
+[00:31:10] that you want and you can then go in and brush in
+[00:31:13] on top of that.
+[00:31:13] He's making it feel like it's burnt.
+[00:31:16] Something important with fires,
+[00:31:18] you need that charcoaly dark contrast,
+[00:31:24] just make it feel like it's like charred.
+[00:31:26] And obviously he's gonna scale it back a little bit,
+[00:31:29] but like some indication of that burntness
+[00:31:33] is super valuable.
+[00:31:35] When you want the fiery to feel more fiery,
+[00:31:38] you need the darkers to feel more burnt.
+[00:31:41] The darkers.
+[00:31:44] I think you guys know what I meant.
+[00:31:46] You know what I meant, right?
+[00:31:49] We're on this journey together.
+[00:31:58] So he's coming in on the home stretch.
+[00:32:01] Notice that he focused on the body of the explosion
+[00:32:04] before really nailing down the AOE,
+[00:32:07] but he did have the AOE indication in place at all times.
+[00:32:12] And that's super valuable because like
+[00:32:15] knowing your constraints and keeping a constant reminder
+[00:32:18] of those very, very simple yet easy to forget constraints
+[00:32:23] is gonna be critical because when he does get the point
+[00:32:27] of painting this outer halos, our outline here,
+[00:32:32] he's gonna be set up for success basically.
+[00:32:34] The thing that he painted in the middle
+[00:32:36] will be compatible with it
+[00:32:37] because he left this white placeholder, ugly as it may be,
+[00:32:42] he left it in place to always remember in his head
+[00:32:45] what the gameplay implications of this effect are.
+[00:32:53] Just getting that really, really fine brush tip
+[00:32:55] to get these nice details.
+[00:32:56] You can see, just put this in here,
+[00:33:11] kind of just booping it down with an eraser,
+[00:33:22] playing around with the value adjustments.
+[00:33:26] You know, he's got a nice area in through here
+[00:33:29] and this is like getting to a point
+[00:33:31] where it's almost the same, but he's got this area here.
+[00:33:34] He wants to read mostly as a cloud and not burnt matter.
+[00:33:37] You need an area of rest in your work, right?
+[00:33:41] This is really hot down here.
+[00:33:42] This is the infernal focal point of the effect.
+[00:33:46] And so you gotta have a contrasted area
+[00:33:48] that just feels like expanding gas, just something else.
+[00:33:53] Still obviously fiery and still tied to that,
+[00:33:56] but much more emphasis on these nice,
+[00:33:58] bigger areas of rest and to get that,
+[00:34:01] these yellows are not as intense as these yellows
+[00:34:03] and that's why he was using like an eraser
+[00:34:05] to just kind of boop them down.
+[00:34:08] You know, you boop a dog's nose,
+[00:34:09] like kind of what I do is boop your colors, right?
+[00:34:15] And then he's gonna tone down the opacity on that ring layer
+[00:34:19] and it's just gonna be a nice guide
+[00:34:20] for him to come through and just add this glowiness.
+[00:34:26] You can do this a few ways.
+[00:34:27] You can do it with like a nice soft brush.
+[00:34:30] You could just do a light stroke.
+[00:34:32] The lightest stroke in Photoshop,
+[00:34:34] it's very, very transparent.
+[00:34:36] If you go back and do an effect on that to make it glow,
+[00:34:40] you'll find that it'll really feel nice
+[00:34:43] and I don't know if he did that or not here.
+[00:34:45] No, it looks like he just did a simple wave,
+[00:34:47] just brushing it in.
+[00:34:49] He's layering that up.
+[00:34:52] It's easier to do if you have your opacity
+[00:34:54] and your flow adjusted down
+[00:34:56] so that you can kind of like multiple strokes
+[00:34:58] to get it to kind of build on top of it.
+[00:35:04] It takes a lot of practice when you're on it,
+[00:35:06] especially if you're on a tablet and not a Cintiq,
+[00:35:09] even on a Cintiq,
+[00:35:10] like getting your strokes to curve
+[00:35:12] the way you want them to curve,
+[00:35:14] you're gonna find yourself undoing a lot.
+[00:35:16] That's okay.
+[00:35:17] Like for so long, I was like, stroke undo, stroke undo,
+[00:35:21] stroke undo, it's nothing like drawing on paper
+[00:35:23] and so just be patient with yourself,
+[00:35:26] give yourself some time and space to get those arcs correct
+[00:35:30] and I promise you, if you're using it every day,
+[00:35:35] just give it two weeks
+[00:35:36] and just go hard for two weeks
+[00:35:39] to get the hang of the tablet or the Cintiq
+[00:35:44] and it's gonna pay off.
+[00:35:45] It's the most unnatural thing.
+[00:35:47] It's so bizarre but you'll get used to it.
+[00:35:54] He's gonna add his little bits in.
+[00:35:56] He did the trick again where the glow is on there.
+[00:35:58] I think that's really, really smart.
+[00:36:00] Like when you're painting like this
+[00:36:03] and you want this to kind of feel
+[00:36:06] like it's gonna feel when it's done,
+[00:36:09] it's really smart to just apply your effects filters first
+[00:36:14] and then when you're making those little strokes,
+[00:36:17] it just meshes in so nicely
+[00:36:19] with the painting from the get-go.
+[00:36:21] It's a great time saver
+[00:36:22] because then you might put the brush stroke on
+[00:36:25] and then you go back in later
+[00:36:26] and you gotta go to it and you're like,
+[00:36:28] God, I don't know if the glow feels totally different
+[00:36:30] and this way, it just saves you a bit of time.
+[00:36:37] All right, so that's pretty much gonna be it.
+[00:36:41] Now, I was just gonna kind of play around
+[00:36:43] with like overall adjustment layers
+[00:36:45] and filters and things but beyond that,
+[00:36:50] that's pretty much how that's done.
+[00:36:53] I hope you guys learned something from this.
+[00:36:56] I'm excited to see the paintings that you create
+[00:36:58] from following along and applying these principles.
+[00:37:02] As always, feel free to drop me a line
+[00:37:04] and give me feedback if there's something that wasn't clear.
+[00:37:07] If you want a deeper dive into something
+[00:37:10] that you felt like could have used better explanation
+[00:37:12] or better exploration,
+[00:37:14] I'm totally open to hearing that feedback
+[00:37:15] and always improving this and making it better for you guys.
+[00:37:18] Okay, well, that covers it for now.
+[00:37:21] I hope you guys learned a lot and have a good one.

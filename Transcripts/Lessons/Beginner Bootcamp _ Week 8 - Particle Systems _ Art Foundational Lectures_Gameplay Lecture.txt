@@ -1,0 +1,315 @@
+[00:00:01] Oh hey guys! Welcome to my series on the artistic principles of visual effects.
+[00:00:07] I'm gonna take you on a magical journey through the five principles, and we're gonna start with gameplay,
+[00:00:13] which is really, I think, the most important foundational one, because honestly, as a visual effects artist,
+[00:00:20] I think of myself first as a game developer, and secondly as an artist.
+[00:00:24] And what I mean by that is, the effects that I create don't live in isolation, right?
+[00:00:29] They are deeply connected to what the player is experiencing in the gameplay, in the moment to moment.
+[00:00:37] And honestly, I would consider myself a failure, even if I was able to create quadruple-A quality graphics,
+[00:00:44] whatever the heck that looks like, and the game wasn't fun or satisfying or didn't meet the goals,
+[00:00:51] whatever those were, right?
+[00:00:54] Because the visual effects in a game really drive a lot of the gameplay.
+[00:00:59] They're so central to what the player is experiencing moment to moment that it's even tied to things like
+[00:01:05] how powerful the player is, or how mystical the environment is, or all those kinds of things.
+[00:01:11] And so, I really want to emphasize gameplay first, because it ties into all the other concepts that we'll get to later on.
+[00:01:19] So, one way to think of gameplay is that gameplay is king, right?
+[00:01:25] A lot of studios follow this mentality, and I think it's a fantastic philosophy to have.
+[00:01:30] The example on the left is uber clear, right?
+[00:01:34] Like, this is a test level where it's obvious what's going on.
+[00:01:39] It's clear where the walls are and where the bullets are going to ricochet off from.
+[00:01:43] And if an enemy were to pop out, you would instantly be able to recognize them.
+[00:01:46] That's maximum visual clarity, right?
+[00:01:48] Well, it doesn't always have to be that literal when you're trying to say gameplay is king.
+[00:01:52] Studios like Blizzard, they walk an excellent line of balance, where games like Hearthstone, shown here on the right,
+[00:01:59] it's very obvious what's happening when you play the card, but it's themed up wonderfully with the effects that play on those cards.
+[00:02:06] And the effects really drive home what's happening and communicates it very clearly.
+[00:02:11] Another approach of thinking of gameplay as it relates to art, specifically effects, is the experience, right?
+[00:02:21] In League of Legends, when a player sits down to play the game, those of you who have played it, you know that it's an experience, right?
+[00:02:29] There's excitement, there's despair, there's frustration, there's joy, and all these things mix together to make it experience, right?
+[00:02:38] Well, the visuals help with that just as much as the gameplay mechanics themselves.
+[00:02:44] And then there's even things beyond the visuals and the mechanics.
+[00:02:47] There's the meta-progression that happens outside of the game.
+[00:02:50] There's the audio design, which is so often underrated as a core part of the experience.
+[00:02:57] Well, really all these different kinds of things can be bucketed into game design and aesthetics, right?
+[00:03:04] You've got the moment-to-moment feel of the game, you've got the mechanics of the game, you've got all the different systems that you have to track,
+[00:03:12] whether that's items or characters or environments or whatever the game may have.
+[00:03:17] And then you've got, over on the aesthetic side, things like, like I mentioned earlier, you've got audio design, you've got the tone of the game,
+[00:03:24] you've got the theme of the game, you've got the art style, which includes character animation, character design, and of course, visual effects.
+[00:03:33] So, all of these are working together to serve the experience, right?
+[00:03:38] And at the end of the day, you know, we as players, we sit down on the couch or at our computer and we want to have an experience.
+[00:03:48] And hopefully the visual effects that you're making as a visual effects artist serve the experience and don't fight against that experience.
+[00:03:56] Now, what is that experience exactly?
+[00:03:59] Well, it depends on the game. And because it depends on the game, the effects that you make are going to vary from game to game, right?
+[00:04:06] Some games, it matters a lot that the experience is the sort of tranquil exploration through an environment.
+[00:04:13] Other games, it's all about the excitement and the adrenaline that you get from exploding all kinds of things all around you.
+[00:04:20] Or it could be about the strategy and the tactics and maneuvering in a very specific kind of way.
+[00:04:26] So, regardless of what the goals are of the game, your focus as an effects artist should always be to work closely with your game designers
+[00:04:35] and very much serve that experience or serve that gameplay, whatever philosophy you end up going with.
+[00:04:43] So, different games do this differently. I'll just run through some examples real quick.
+[00:04:48] Ori and the Blind Forest is a fantastic example where the effects are helping to meet the goal of ambient life.
+[00:04:56] You've got things like ethereal dream-like vibes going on and obviously the mysterious magic that envelops that world.
+[00:05:08] And this is something that I found a useful exercise. Whatever game you're working on, try to narrow it down to just three goals,
+[00:05:16] just three simple pillars of your effects. Because effects can be so many different things.
+[00:05:23] You know, like in a game like Battle Chasers, it's more about the awesome impact of an effect
+[00:05:32] and really selling that moment with lots of ceremony of exploding an enemy with this awesome ability that you cast.
+[00:05:39] You know, it's larger than life. These goals are so different from Ori.
+[00:05:44] It's really varying based on the game that you work on, what your effects should be.
+[00:05:50] Simply saying that, oh, they should be stylized or, oh, they should be really believable and realistic.
+[00:05:57] I'd like to get a little more specific than that because I feel like games have so much nuance to them
+[00:06:02] that you really want to be careful about the choices that you're making.
+[00:06:07] Be very deliberate, especially if you've got a team of multiple effects artists working on a game.
+[00:06:11] It becomes very critical that all of you are aligned on specifically what you are making and what you're not making.
+[00:06:19] You know, a game like Battlefield 1, again, very different.
+[00:06:22] This is all about making the environment reactive to the effects.
+[00:06:27] The effects marry to the environment very seamlessly.
+[00:06:30] It's hyper-realistic, of course, but it's got powerful and impactful energy to the effects
+[00:06:38] so that when you're firing off different weapons, it's just very exciting and emotional,
+[00:06:46] the effects that you're creating in that world.
+[00:06:49] Overwatch is another good example of clear effects goals where the effects are punchy,
+[00:06:55] very satisfying when you fire off abilities and weapons,
+[00:06:59] but then also they have a nice personality to them to match the characters.
+[00:07:03] The shapes are very distinctive in a way that makes them live in that same world as the characters,
+[00:07:11] while also another goal is the competitive integrity.
+[00:07:14] So these effects live in a world where you've got esports built around them
+[00:07:20] and you want to be able to see as a player what's going on in that environment.
+[00:07:24] So they get in and out of the environment quickly.
+[00:07:26] The effects don't linger around too long.
+[00:07:29] Now moving on to League of Legends, which is much more my experience
+[00:07:33] than I've actually been through firsthand.
+[00:07:36] There's very specific goals that League has, right?
+[00:07:40] For those of you who aren't familiar with League, I'll just very quickly say
+[00:07:43] it's a game with a lot of characters in it.
+[00:07:45] And all these characters co-exist together in a game where you've got ten of them
+[00:07:49] and they all have to brawl out in a top-down view.
+[00:07:52] And it is a competitive game where we've got all this action going on
+[00:07:59] and we need to make sure that it's very clear.
+[00:08:02] This is an example of a team fight here with good old Imaqtpie playing there on the Lucian.
+[00:08:08] And things become unclear very quickly in League of Legends
+[00:08:12] because you've got these tons of characters, ten of them at once,
+[00:08:16] potentially all firing off their biggest abilities all at once
+[00:08:20] and you've got effects everywhere.
+[00:08:22] And so we have to get into a lot of considerations about gameplay,
+[00:08:26] which, interestingly enough, our wonderful principal VFX artist, Jin Yang,
+[00:08:32] did such a great job on explaining in our style guide for our visual effects.
+[00:08:38] And I'm going to link you guys to that style guide.
+[00:08:40] It's available online.
+[00:08:42] And you can check it out.
+[00:08:44] And Jin has been an awesome mentor of mine.
+[00:08:47] He's taught me everything I know about 3D effects development.
+[00:08:53] And so I really thought it was worthwhile to dive into his style guide
+[00:08:57] and give a little bit of my take on it,
+[00:08:59] but then also give more examples to follow up on that.
+[00:09:02] So for each of these videos we're going to do that pattern
+[00:09:04] where we talk a little bit about the style guide
+[00:09:07] and then we talk a little bit about some hands-on examples to illustrate it.
+[00:09:12] All right, so here we're learning a little bit about gameplay clarity
+[00:09:16] as it relates to primary and secondary shapes.
+[00:09:19] I'll use my mouse here to kind of show this off a little bit.
+[00:09:23] So I'm not going to read everything in the style guide, don't worry.
+[00:09:27] Just really briefly, you can see very clearly what the primary shape is
+[00:09:33] and that's the edge of the AOE or the area of effect around the outer edge.
+[00:09:37] Now as effects artists we like to dress things up
+[00:09:39] and so you can add some nice flavor on the inside here,
+[00:09:42] but at the end of the day it serves the gameplay,
+[00:09:45] which is this spell doing damage in a very clear AOE around the outer edge.
+[00:09:52] Now we've got more examples here, and I've got notes.
+[00:09:54] I want to make sure I go over all the proper stuff.
+[00:09:57] So if you see me glancing off, that's what I'm doing.
+[00:10:00] So we've got more examples of the primary and the secondary.
+[00:10:04] Again, I've got the head of the missile here
+[00:10:06] and then the nice little bits in the trail that are leading off behind it
+[00:10:10] from LeBlanc's missile here.
+[00:10:13] And then we, continuing on, have a good and bad example.
+[00:10:18] Now, in League of Legends, we certainly over the years
+[00:10:23] have been guilty of muddying up the gameplay space.
+[00:10:26] We have aspirational goals.
+[00:10:28] We by no means claim that we are perfect at reaching those goals.
+[00:10:31] That's kind of the disclaimer for all of these videos that I'm going to talk about.
+[00:10:36] This is all about aspiring to do better moving forward
+[00:10:39] and taking all the things we've learned from the past to improve.
+[00:10:43] So here we've got Teemo's mushroom exploding in this nice, noxious,
+[00:10:48] purpley-green cloud of gas.
+[00:10:51] And the area of effect here is the same as the area of effect here on his skin.
+[00:10:57] So on Omega Squad Teemo, we have a very clear boundary around the outer edge,
+[00:11:03] and then we have the explosion happening here.
+[00:11:05] And the way this animates is it plumes outward
+[00:11:08] and it kind of radiates out to this edge.
+[00:11:12] You can see that the gameplay, the competitive integrity of the game,
+[00:11:16] is preserved in this effect.
+[00:11:18] However, in here, when you're standing over here getting hit by this damage,
+[00:11:23] it's very frustrating and very unclear.
+[00:11:26] Another older example that we used to have in the game was Sona's ultimate,
+[00:11:30] where these bars that radiated out when she went to stun you
+[00:11:36] was maybe hitting you right here,
+[00:11:40] like maybe this yellow part is supposed to hit you,
+[00:11:42] but then it's like tapered here.
+[00:11:44] I admit, when I first played the game, I thought that this tapered like this.
+[00:11:49] Turns out it doesn't.
+[00:11:50] Turns out the actual area of effect is just a simple rectangle.
+[00:11:55] So showing with your visual effects what the actual gameplay space is
+[00:11:58] that would stun you, very important in League of Legends.
+[00:12:02] All right, so level of importance.
+[00:12:04] This is an interesting one because, again, as an effects artist,
+[00:12:09] there's this tendency to really crank things up,
+[00:12:11] and I struggle with this constantly.
+[00:12:14] The temptation is to say,
+[00:12:16] I want to make it shiny so that people like it
+[00:12:18] so that they enjoy it every time they cast it.
+[00:12:21] And on Elementalist Lux, this is a prime example
+[00:12:24] where she casts her basic attack,
+[00:12:28] where she just throws a little piece of light out pretty frequently.
+[00:12:32] She uses it to kill these little minions.
+[00:12:34] She uses it to procure her passive
+[00:12:38] so that she can do a little extra damage here and there.
+[00:12:42] Basically, it's an effect that you see all the time.
+[00:12:45] Her ultimate, however, has a long cooldown
+[00:12:48] and takes a while before it can charge up again and fire it again.
+[00:12:51] That's where you want to spend the budget.
+[00:12:53] I mean, the budget of brightness or the budget of impact,
+[00:13:01] I guess you would say.
+[00:13:02] And the reason for that is it does a ton of damage
+[00:13:04] and it's a super high impactful moment for the player.
+[00:13:07] So in order to best serve the gameplay goals,
+[00:13:10] we want to save all of that for the more periodic stuff.
+[00:13:16] I'm sure you get the idea.
+[00:13:17] So to illustrate that further,
+[00:13:20] Jin went so far as to even break this down into categories.
+[00:13:23] We've got things like idle particles that are just kind of always on.
+[00:13:26] They should be super subtle, low opacity, not very standout-ish.
+[00:13:30] Basic attack, we just went over that,
+[00:13:32] you know, this missile flying out here.
+[00:13:34] You want to keep it pretty subdued.
+[00:13:36] You've got defensive spells, damaging spells,
+[00:13:38] and then you've got game changers.
+[00:13:40] And I love the thought of a game changer.
+[00:13:43] Just to briefly elaborate on this,
+[00:13:46] imagine you're playing a game.
+[00:13:48] This could be any game.
+[00:13:51] Now, something happens where if you don't react
+[00:13:55] or change your behavior in some way,
+[00:13:58] you're going to die.
+[00:14:00] And that death comes with a penalty of some kind.
+[00:14:02] Maybe you lose durability to your armor.
+[00:14:04] Maybe you have to wait for x amount of seconds before you can respawn.
+[00:14:08] Maybe you lose progress in a level, et cetera, et cetera.
+[00:14:10] Whatever the penalty is,
+[00:14:13] it's our job as an effects artist to properly warn that player.
+[00:14:19] We need to give them information that's going to inform them enough
+[00:14:22] so that they can make an informed decision
+[00:14:25] about what their next move is going to be.
+[00:14:27] And these are the game changers.
+[00:14:29] These are the things that they modify the gamer's behavior
+[00:14:34] or the player's behavior.
+[00:14:36] So these deserve a little bit more real estate.
+[00:14:39] These deserve a little bit more emphasis.
+[00:14:42] Now, if you've already used up that real estate
+[00:14:45] on these other kinds of effects that kind of happen all the time
+[00:14:47] or there's just like a little bit of defense
+[00:14:49] or a little bit of damage,
+[00:14:51] you're going to run into some trouble
+[00:14:54] getting this across to the player that,
+[00:14:56] hey, attention, this thing is happening.
+[00:14:59] Because it's happening, you probably want to change
+[00:15:01] some aspect of your behavior.
+[00:15:03] Maybe you want to put up a shield.
+[00:15:05] Maybe you want to move out of the way.
+[00:15:07] Maybe you don't want to attack the thing
+[00:15:09] because if you do attack it during this thing,
+[00:15:11] then you're in trouble, et cetera.
+[00:15:13] Hopefully you get the idea.
+[00:15:15] Like, game changers need their space to breathe.
+[00:15:18] They need to stand out above the crowd,
+[00:15:21] some way or another.
+[00:15:23] And then, of course, ultimates,
+[00:15:24] which are moments of high power, high excitement.
+[00:15:27] I recommend getting these in and out of the gameplay space
+[00:15:30] pretty quickly. Don't let them linger around.
+[00:15:32] I mean, if you let it linger for too long,
+[00:15:34] then it's going to tell the player something confusing
+[00:15:38] about, well, is it still going off?
+[00:15:40] Is it still doing damage? I don't know.
+[00:15:42] But if it gets in and out, then it's nice
+[00:15:45] because that's clear.
+[00:15:47] Like, it's done doing whatever it was doing
+[00:15:49] and you can now move on with the game.
+[00:15:53] So here's an example of Tristana doing her rocket jump.
+[00:15:57] Now, this is where we as VFX artists start off, right?
+[00:16:01] We get going.
+[00:16:03] We have this nice little AoE,
+[00:16:07] this area of effect that the designer gives us.
+[00:16:10] She dashes to a point and then she does damage in this ring.
+[00:16:13] So you get started as an effects artist
+[00:16:16] adding a little flourish.
+[00:16:18] You can see here there's a little dust poof going off
+[00:16:20] and a little blip.
+[00:16:21] Now, for League of Legends, this isn't quite cutting it
+[00:16:23] because, well, it's just not very cool.
+[00:16:26] It doesn't have this nice excitement to it.
+[00:16:28] It doesn't have a nice big explosion to it.
+[00:16:30] It's not really selling that she's rocketing through the air.
+[00:16:34] However, if it were a game that, say,
+[00:16:37] had 200 of these Tristanas all on the screen at the same time,
+[00:16:41] this would probably be an appropriate amount of noise and excitement, right?
+[00:16:47] But because it's just one Tristan and we want her to feel cool,
+[00:16:50] we've got to amp it up.
+[00:16:52] So, of course, effects artist tendency, make it amazing, right?
+[00:16:56] Big explosion, nice big trail of fire going through the air.
+[00:17:00] It feels super epic.
+[00:17:02] Well, now we've overdone it because it's overshot the AoE.
+[00:17:05] It's no longer clear who's getting damaged
+[00:17:07] and who's not getting damaged.
+[00:17:09] And honestly, it doesn't even do that much damage,
+[00:17:11] so it's way too big for that.
+[00:17:14] So we end up with something that's a nice medium for League.
+[00:17:17] And this isn't always the case.
+[00:17:19] You don't always want your effects to be a nice middle spot,
+[00:17:22] but for League, we have to walk that line, right?
+[00:17:24] We have to make it satisfying for the player,
+[00:17:26] but also we've got to make it so it's clear for the player.
+[00:17:30] And that's the challenge that we face.
+[00:17:33] So this is a little bit of insight into
+[00:17:37] kind of how we're thinking about gameplay on League of Legends
+[00:17:40] when we're doing visual effects, at least.
+[00:17:43] So if you want to learn more,
+[00:17:45] there's a video, and I'll link it, of Dragon Trainer Chistana.
+[00:17:49] This is also on my channel.
+[00:17:51] And I talk a little bit about balancing all these elements
+[00:17:53] in a very hands-on sort of way of how it's constructed
+[00:17:56] and how the effect comes together
+[00:17:58] to create this unified outcome for a simple, basic attack.
+[00:18:03] Also, if you're looking to learn more,
+[00:18:05] I highly recommend the Realtime Visual Effects Forum.
+[00:18:08] That's realtimeveffects.com.
+[00:18:10] A friend of mine, Keith, he's an amazing guy.
+[00:18:13] He set up this forum, and it runs wonderfully.
+[00:18:17] It's full of industry professionals who do visual effects
+[00:18:20] and students who are trying to learn effects.
+[00:18:22] And it's a great place to meet and get ideas and understanding,
+[00:18:26] whether you're looking through other people's forums
+[00:18:28] and just other people's posts on the forum
+[00:18:30] and just creeping on there,
+[00:18:32] or if you want to share knowledge with us,
+[00:18:34] we would love to have you come and join us.
+[00:18:36] And then also attached to that forum,
+[00:18:39] I own and operate a job board
+[00:18:41] where companies can come on and post their jobs,
+[00:18:45] and you as an effects artist can go
+[00:18:47] and see what's current in the industry
+[00:18:49] and maybe create a job profile on there
+[00:18:52] and find some work and break into the industry.
+[00:18:55] So I really hope that you guys got something out of it.
+[00:18:59] You can look me up on that forum
+[00:19:02] that I mentioned before on Realtime VFX.
+[00:19:04] I'm at KaiserEdo,
+[00:19:06] and you can go to my website, kaiserhouse.com.
+[00:19:08] I've got lots of learning materials on there.
+[00:19:10] If you haven't hit it up, I recommend it.
+[00:19:12] I've got a Pinterest board full of reference.
+[00:19:14] Twitter keeps you updated on some stuff.
+[00:19:17] Haven't updated it in a while,
+[00:19:19] but maybe I'll get back on there soon.
+[00:19:21] And, of course, my YouTube channel,
+[00:19:23] which apparently you were able to find.
+[00:19:25] And hopefully this has been useful to you.
+[00:19:28] Leave some comments. Let me know if you liked it,
+[00:19:30] and I'll get back to you with the other principles soon.
+[00:19:33] Thanks. Bye.

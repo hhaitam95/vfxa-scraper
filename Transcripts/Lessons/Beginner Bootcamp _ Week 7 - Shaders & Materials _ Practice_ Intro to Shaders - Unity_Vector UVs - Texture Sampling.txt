@@ -1,0 +1,92 @@
+[00:00:05] Hello again, I'm Jaden, and in this lesson we are going to work with UV maps to move color around and create scrolling effects.
+[00:00:13] And this will be the basis of how we add movement to all the effects we make.
+[00:00:17] We'll start by looking at how shaders use different types of data, and how that data can be represented by colors.
+[00:00:24] So last time we set up our graph editing layout, let's switch over to our scene editing layout.
+[00:00:29] We'll start by setting up a basic scene. I'm first going to add a 3D object, a quad, and then I'll reset its position to 0, 0, 0.
+[00:00:40] And we want to apply our shader to this quad. As we know, we cannot apply shaders directly to a quad, so we need to create a material that will run the shader.
+[00:00:51] To do this, we're going to right click on our shader, go to create, material, and here we can see that we created a new material that uses that shader.
+[00:01:05] This means we can apply the material to the quad. And now we'll go back to the graph editor.
+[00:01:12] So these windows will take up the full screen space. I'm going to go to the project and double click on the shader.
+[00:01:19] Since it opens down here, I'll move it over to the right. And then let's give it some room.
+[00:01:26] And again, this graph editing workspace can feel kind of clunky. It does get easier the more you do it.
+[00:01:34] But for now, let's just make sure that we're zoomed in on the quad that we made.
+[00:01:39] So a shader's job is to apply color onto a surface, and shaders pass around data in the form of numbers.
+[00:01:46] So we're using numbers to make art. When you have multiple numbers and you package them together, we call that a vector.
+[00:01:53] So a vector is just a set of numbers. So there are different types of data that we're going to be working with a lot.
+[00:02:00] The most important one is color. And color is a vector three, meaning it's a set of three numbers.
+[00:02:07] We've seen these before, so there are red, green, blue values. And by using three numbers, we can get every color.
+[00:02:14] If we look at the color picker, we can see this in action. So here we have RGB, and you'll see that each of them goes between zero and one.
+[00:02:23] One being 100%. So if we move the first number all the way to one, we get the color red.
+[00:02:29] If we start to add in the second number, green, we can move that to one, and then it starts moving towards yellow.
+[00:02:35] So using three numbers will produce a color. Another type of data we're going to be using a lot is XYZ values.
+[00:02:42] And these are more general because they can represent position, rotation, direction, scale, all kinds of stuff within the game world.
+[00:02:51] Unlike colors, these can go above one. They can go from zero to infinity, and they can also be negative.
+[00:02:58] Then of course we have UVs. UVs are a two-dimensional coordinate system, so they only use X and Y.
+[00:03:07] And just like colors, these also go between zero and one.
+[00:03:11] The other type of data we're going to be using a lot is floats. A float is just another name for a number.
+[00:03:20] You could also call these a vector one because it's a vector that only contains one number. Shader Graph calls them floats.
+[00:03:27] So these are all different types of data, and they're used differently. But what's important to recognize is that they're all vectors.
+[00:03:34] They're all just a set of numbers in order. And because of that, you can use them interchangeably.
+[00:03:40] So you can use XYZ in the same place that you can use RGB. They're just three numbers in order.
+[00:03:47] And for that reason, you could actually refer to the X axis as the red axis because it corresponds with red.
+[00:03:54] The Y axis is green, and the Z axis is blue. So a position can represent color, and color can represent a position.
+[00:04:05] So let's take a closer look at our UV map because here we can really see the connection between color and position.
+[00:04:11] As we know, UVs are a set of coordinates. So on the bottom left corner here, we have zero on the X and zero on the Y.
+[00:04:18] Over here, we have one and zero. On the top left corner, we have zero and one. And of course, on the top right, one, one.
+[00:04:27] So if you look at just the bottom edge, for example, you can see that the X coordinates move smoothly between zero and one.
+[00:04:34] And the color red comes in at the same time. So here we have no red over toward the right where we have full red.
+[00:04:41] The same thing happens on the Y axis. So zero green up to full green.
+[00:04:47] And then up through the middle, they both increase at the same time, which means that we're moving towards yellow.
+[00:04:53] And we can see this happening on our color picker. We can do the same thing.
+[00:05:00] So we know that UV data is not color data. It's coordinate data.
+[00:05:05] But what's really fascinating about it is that we can use that coordinate data as colors if we want to.
+[00:05:11] So let's take a look at vectors again. Here I laid out all the vectors between vector one and vector four.
+[00:05:20] Again, vector one is just called float. And pay attention to the colors of the wire that comes out of each one of these.
+[00:05:26] The float uses blue. Vector two uses green. Three uses yellow. Four uses pink.
+[00:05:33] And this can give you a hint as to how you can connect things up properly.
+[00:05:37] But you don't always have to match up the colors. They just tell you which type of vector you're working with.
+[00:05:42] There are a lot of nodes that will convert the vectors automatically.
+[00:05:46] So let's add a node called the preview node.
+[00:05:52] This node can be very helpful because basically it'll take in any data you plug in and just represent it as color.
+[00:05:59] So if I plug in our vector two, I can start changing those values. For example, introducing red.
+[00:06:06] And then as I increase the Y axis, it'll move towards yellow as we've seen.
+[00:06:13] If I plug in the vector three, I now have access to the blue channel.
+[00:06:17] And since color is only a vector three, it doesn't actually use the fourth axis.
+[00:06:23] Whenever you use a single number, it'll just be represented as the color white.
+[00:06:32] For example, I just put in 0.85. This is the same as doing this.
+[00:06:38] So these are exactly the same.
+[00:06:47] So take a look at what we can do with the UV node. Let's add a new node called the split node.
+[00:06:59] Now what a split node does is it allows us to plug any vector in and split it up into its individual components.
+[00:07:12] We'll bring back our preview node.
+[00:07:15] And if you just plug the X component in, look at what the color does.
+[00:07:25] It'll show you the X value at any point on the texture.
+[00:07:30] So over on the left we have an X value of zero, and it moves towards one as we go over to the right.
+[00:07:36] Let's plug in the Y axis.
+[00:07:38] It does the same here. It goes from zero towards one up top.
+[00:07:44] And that creates us a nice gradient.
+[00:07:46] And of course UVs are two dimensional, so there is no third axis. There is no color blue.
+[00:07:53] So that shows how you can actually deconstruct a vector into its individual parts.
+[00:07:57] And we can actually plug the UV data directly into color.
+[00:08:03] If you choose save as set up at the top, that'll update your material.
+[00:08:08] And here you're seeing a perfect match between the quad and the UV map.
+[00:08:12] That's because a quad is the simplest 3D model.
+[00:08:16] It is a square, and it has its UVs perfectly mapped to a square.
+[00:08:20] Which means that if you put a texture on it, it'll perfectly map to the square as well.
+[00:08:26] So let's take a look at the node which will create all of our texture effects.
+[00:08:29] The sample texture 2D node.
+[00:08:33] Start by plugging in the basic UV map into the UV input.
+[00:08:37] And then use this circle here to select a texture.
+[00:08:42] Find the default particle that's built into Unity.
+[00:08:48] And then plug that into color.
+[00:08:50] If you choose save as set, that'll update the material.
+[00:08:54] So what this node is doing is it accepts two inputs.
+[00:08:58] The UV coordinates and a texture.
+[00:09:01] It uses the UV coordinates to decide which pixels to pull from the texture.
+[00:09:05] And then it outputs a color.
+[00:09:07] Since we're using the standard UV map, we're going to get a standard looking texture.
+[00:09:12] But we can also change these UVs before we plug them in.
+[00:09:15] And we can do whatever we want with the UV map.
+[00:09:18] We can change that UV data which will change how our texture looks.
+[00:09:22] So in the next lesson, we're going to start pushing those texture coordinates around.
+[00:09:26] And that'll push our texture around along with it to create that scrolling effect.
+[00:09:30] So let's find out how to do that.

@@ -1,0 +1,353 @@
+[00:00:05] Hello again everyone and welcome back to texture painting in Krita.
+[00:00:09] We are on lesson seven today and we're going to be covering how to paint a liquid splatter.
+[00:00:14] There's a couple of different ways that you can go about creating a texture like this and I'll be briefly covering
+[00:00:20] how to do each method so you kind of have an idea of what the process is like for each of those.
+[00:00:26] But one thing that I should preface the lesson with before we start is what a flip book is.
+[00:00:32] A flip book is a series of images that shows an animation like a cartoon is a frame by frame animation.
+[00:00:40] It's similar to that.
+[00:00:41] One way that you can create a liquid splatter texture is by painting value by value to sort of replicate what a flip book is doing.
+[00:00:48] It gives you more control over how the liquid splatter resolves.
+[00:00:53] So yeah, we'll be going over both of those methods today.
+[00:00:55] I'm really excited to show you the process of how I would go about creating a texture like this.
+[00:00:59] So let's go ahead and hop in and get started.
+[00:01:01] All right, so first things first, we need to go ahead and make a new file as per usual and I upped it to 1024 by 1024 for these sprite sheets.
+[00:01:14] But I'm actually going to bring this back down to 512 by 512 since we're not separating up those textures anymore and looks like we're good to go.
+[00:01:22] So let's go ahead and create and I forgot I start with the airbrush.
+[00:01:25] It's always so massive.
+[00:01:27] Let's swap over to the basic 5 size brush.
+[00:01:31] And when it comes to splatters, you can either start with a big old blob like we usually do, or you could start with a circle and then erase away from there.
+[00:01:42] Just sort of depends on how you like to work.
+[00:01:44] But I think what I'm going to do is start out with white is the color that I'm painting with.
+[00:01:50] And sort of paint about with these big old circles going on.
+[00:02:00] So I have some basic shapes that I can cut away interesting shapes from.
+[00:02:04] So there's a lot of different types of splatters that you can make.
+[00:02:07] I'm making sort of what looks like a decal splatter, which basically like if something liquidy were to splat onto the floor or onto a different surface.
+[00:02:17] This is sort of the shape that I'm going for.
+[00:02:20] But you could also go with a shape that's maybe more directional.
+[00:02:24] If you're looking for sort of like a liquid impact, you could try something more along these lines where you've got some directionality like that.
+[00:02:36] You could just erase away from there.
+[00:02:37] You can always add in random shapes after you've gotten your main shape taken care of.
+[00:02:42] So kind of like both of these, I might go with this one, though, just to start.
+[00:02:51] So I'm going to delete the other one I made and I'm going to start erasing away some shapes from this.
+[00:02:58] Big roundish shapes, I think, would be nice.
+[00:03:07] Sometimes it's kind of nice just to plop down a circle because it's a nice clean shape.
+[00:03:14] I'm going to figure out what I want to do with this lower area.
+[00:03:17] I think I want to keep this bulk here.
+[00:03:20] So maybe I do something like that.
+[00:03:26] I think I might do another circle shape, maybe on the opposite side over this way.
+[00:03:32] Yeah, that looks pretty cool.
+[00:03:35] And then maybe I'll add a couple of little dots in here just to help break up the shape a little bit.
+[00:03:42] And then I can always add dots easily as well for a little bit of extra detail.
+[00:03:50] Trying to scatter them randomly so that it doesn't feel like they're planned.
+[00:03:57] Also, I mentioned earlier that we were going to be going over sort of a simple way to make splatter shapes in a more complicated way.
+[00:04:05] This is definitely the simpler way.
+[00:04:07] We're going to start off simple and then get on to the more complicated stuff a bit later.
+[00:04:18] OK, so I think I might actually have too many sharp edges in here since liquid, when it's in a resting state, it tends to round out at the edges.
+[00:04:28] I'm actually going to come in here with the eraser and try to round these out, hopefully make it feel a little more like liquid and a little bit less sharp.
+[00:04:41] Using really light brush strokes so that my eraser is relatively small and also so that I'm not cutting out more shapes.
+[00:04:49] I'm just trying to round things out a little bit.
+[00:04:52] I think that's already helping a lot with this upper area.
+[00:05:03] OK, I think that these shapes here and here are mirroring each other a little bit too symmetrically.
+[00:05:11] So I think I might actually just round out this whole shape here.
+[00:05:17] Then maybe reintroduce a little bit more, a bit more bulk here.
+[00:05:25] I might thin this out a little bit as well.
+[00:05:31] Then out and I might actually change up this hook shape.
+[00:05:34] I feel like I've got too, maybe too many of these hooks sort of going on.
+[00:05:39] So I'm actually going to take this out.
+[00:05:45] And a little bit more of like a globby.
+[00:05:49] I still want it to feel clean though, so I think I'm going to go back and just clean up these edges just a slight bit.
+[00:05:58] I want to make sure the length of this glob and the length of this glob aren't too similar because we want to keep that variety in our texture that we've talked about time and time again.
+[00:06:13] It's definitely an important thing to keep in mind when you're making textures of any kind.
+[00:06:18] I'm actually going to grime up a little bit more of these clean shapes I have going on.
+[00:06:28] I think that introducing this glob and sort of the variance in thickness here, I think adding that in adds a really cool effect.
+[00:06:36] So I'm going to go in and add that to these cleaner shapes that I have going on so that it feels a little bit less shapely, a little bit more random.
+[00:06:54] There we go.
+[00:06:55] I think that's looking better.
+[00:06:57] I try to make these circles a little bit less perfect.
+[00:07:03] A little oblong or just like with little pieces, little extra pieces around the circles that are missing, I feel maybe a little bit more natural.
+[00:07:16] One thing to note is that I'm adding these little droplets near where I have these little end points on my texture.
+[00:07:24] If you're having a hard time trying to figure out where to add these sort of detail drops, having it at the end of these globs is sort of a good place for them to be.
+[00:07:34] Obviously good to have some random ones as well.
+[00:07:36] You don't want all of them to be right towards the end of the different globs that you've painted.
+[00:07:42] But if you're having a hard time figuring out where to place them, that's a good spot to put them.
+[00:07:45] All right.
+[00:07:46] I think that is a good first pass.
+[00:07:49] What we're going to do from here is we're going to take this layer that we've painted on and instead of going to filters like we usually do, I'm actually going to hop over to layer.
+[00:07:59] There's this option down at the bottom called layer style.
+[00:08:04] And layer style allows you to do something similar to the filters that we use.
+[00:08:10] We're going to go with the inner glow, actually going to change the glow to multiply, use the precise technique, sources edge, which is correct, size, I'm going to turn up.
+[00:08:23] I'm also going to change the color to black.
+[00:08:26] There we go.
+[00:08:27] Let's up the choke a little bit, actually a lot a bit.
+[00:08:30] Let's see what this looks like.
+[00:08:33] We're getting closer to what I would expect.
+[00:08:40] Okay, basically, this is too much.
+[00:08:43] I'm going to try upping the size again.
+[00:08:49] It seems like Krita doesn't quite have the same ability as Photoshop to add inner glow that leaves like simple hot points behind.
+[00:09:00] But I'm going to do my best to see if I can make that happen.
+[00:09:10] A balance that's kind of hard to strike is having some light areas to remain in these arms that are relatively thin.
+[00:09:18] I guess it's not too much of a problem since the areas here, the bigger, lighter areas, are what I plan to dissolve last anyway.
+[00:09:26] I'm trying to keep a little bit of lightness in here so that it's not only these big chunks that are left behind once the texture is dissolving.
+[00:09:35] Yeah, I think I'm getting too big on the size.
+[00:09:46] Okay, while these big areas are still pretty big and bright, I think I'm going to try adding the inner glow with these values.
+[00:09:57] And obviously, I changed the blend mode to multiply so that the inner glow would act more like a shadow.
+[00:10:02] And I used the precise technique and the source of the inner glow, or in this case, shadow, is the edge.
+[00:10:09] You can select center for this and it'll switch off your values.
+[00:10:15] So the light will be towards the edges and the dark will be towards the center.
+[00:10:19] But I'm using edge since I want my edges to be dark and it looks like this quality contour range in jitter isn't, or at least the contour isn't implemented yet.
+[00:10:30] So let's go ahead and keep these values and press OK.
+[00:10:34] And now we can sort of test what the texture will look like when we bring it into engine to dissolve it.
+[00:10:40] We can do that by going to Filter, Adjust, Threshold, or at least I thought we could.
+[00:10:46] Maybe we can't because the layer style and the painting that's on the layer aren't one and the same.
+[00:10:52] The layer style is just something that's being applied to the texture at the moment.
+[00:10:56] If I take off visibility on my background layer and then right click here on our layer that has the layer style and say new layer from visible.
+[00:11:06] Now our layer style and the painting that we've done here are one and the same.
+[00:11:12] And we can reintroduce our background and now we can go to Filter, Adjust, and Threshold.
+[00:11:18] And we should be able to see what the texture will look like as it starts to dissolve.
+[00:11:24] So it looks like some values that I have are still too bright.
+[00:11:30] Meaning if I were to export this texture and put it into engine and have it dissolve, these parts wouldn't actually dissolve all the way.
+[00:11:38] There's a way I can fix that.
+[00:11:40] I could either go back and change my layer style and size up the glow a little bit more so that a little bit more of these big areas are dark.
+[00:11:48] I might actually take the airbrush and manually add in some darker glows in this area to help to try to break up this big bright shape.
+[00:11:58] So that that big white shape that wouldn't dissolve will dissolve once we bring it into engine.
+[00:12:04] I'm going to take the airbrush and really...
+[00:12:06] Oh, by the way, I made a new layer so that we could airbrush on top of this a little bit without affecting our other work.
+[00:12:13] Definitely going to want to select black and I'm just going to really gently add in some bigger gradient areas.
+[00:12:25] So that that bigger shape will end up dissolving.
+[00:12:29] I'm taking my brush and I'm starting with a bigger brush and pressing lightly and then sizing it down a bit and pressing again, just so that I can get sort of a nice soft area.
+[00:12:40] I'm going to add a little bit to the top here as well, so that this shape ends up dissolving as well.
+[00:12:51] And we can give that another go.
+[00:12:56] Filter, adjust threshold.
+[00:12:58] Oh, it looks like it's only thresholding this airbrush layer.
+[00:13:01] So I'm going to just to preserve the textures that we have, I'm going to disable my background and right click the top layer and say new layer from visible.
+[00:13:12] There we go.
+[00:13:14] And let's try the threshold one more time.
+[00:13:19] Yeah, it looks like that definitely helped.
+[00:13:21] Cool.
+[00:13:22] I'm not sure why there's that white outline like that though.
+[00:13:25] That's interesting.
+[00:13:27] Oh, it's probably because I had these two visible while I was testing the threshold.
+[00:13:31] I can try that again real quick just to make sure that was the issue.
+[00:13:37] Yeah, it looks like that was it.
+[00:13:46] So, yeah, that's actually the simple way of creating a liquid splatter texture.
+[00:13:51] I know that probably didn't seem too simple, but it's probably the easiest way that you could go about it.
+[00:13:56] I'm going to add a group layer here and move it to the top.
+[00:13:59] And then I'm going to select all the layers that I made for this example and move them in there and turn off visibility so that I can show you guys the more complicated way to paint a splatter texture.
+[00:14:11] Actually, I think what I might do is I want to use this as a basis.
+[00:14:16] So I'm going to take the original texture we made, which is this.
+[00:14:21] I'm going to copy it, turn off visibility, and then paste it onto a new layer like this.
+[00:14:27] So a different way that you can go about painting splatter textures like this is by painting value by value, like I mentioned in the beginning of the lesson.
+[00:14:36] So something that you can do is you can start with a full splatter like this.
+[00:14:41] And what I personally like to do is duplicate the layer.
+[00:14:46] I'm actually just going to click on it and press Ctrl J to duplicate it.
+[00:14:49] And then the original layer, I'm going to bring down to about 20%.
+[00:14:54] And the one on top, I'm also going to bring down to 20%.
+[00:14:57] So I can see any changes that I make to this top layer, but also so that I can see the whole shape that the original layer is giving me.
+[00:15:06] The idea for this is that I'm going to be painting away how I want this to dissolve once I have it in the engine.
+[00:15:13] How I like to think of this is for this arm here, let's say, I want to erase around the edges since the liquid is disappearing.
+[00:15:25] Basically reducing the shape little by little.
+[00:15:31] And when you get to a spot like this where erasing intersects, you can interjoin them like this and then round out the area where the two areas joined.
+[00:15:44] And for the droplets, I don't want them to disappear immediately, but I do want them to get smaller.
+[00:15:50] I think this tiny, tiny droplet might be able to disappear completely though.
+[00:15:56] Actually, same with these other little tiny ones.
+[00:15:59] I think that having them linger for too long might actually make them stick out.
+[00:16:03] Let's continue erasing around the edge here.
+[00:16:07] And what's kind of cool about dissolving a texture this way is you can kind of add some directionality to the dissolve.
+[00:16:14] So for an arcing shape like this one here, if I wanted to, I could make the dissolve, dissolve up like this so that the very last thing that you see are little tiny droplets right along this arc line.
+[00:16:30] And you'll be able to see that the further that we erase and the brighter that the values get, you'll sort of be able to visually see what I'm trying to explain.
+[00:16:40] But for now, let's just continue on with our erasing.
+[00:16:45] So my plan for here is to have droplets end up here, to have droplets end up here, and I think to have droplets end up here as well for this upper area.
+[00:17:01] And then for the bottom, I'm actually not quite sure yet.
+[00:17:05] I'll figure that out once I get to that area.
+[00:17:07] I'm going to make these circular areas a bit bigger.
+[00:17:14] For here, I think I'm going to have droplets end up in this area, so I'm going to start erasing the way around here.
+[00:17:27] I'm going to separate this out into two tiny droplets.
+[00:17:34] And here, I think I'm actually going to separate this out into a droplet and a little string, but make the string a little bit smaller than it just was.
+[00:17:49] All right, for this bigger area, I think what I'm going to do is have droplets end up down here along this edge, sort of where these bulky circular shapes are,
+[00:18:04] and maybe some over here, and maybe some up here as well.
+[00:18:09] We'll see.
+[00:18:10] Cool, I think that's good for our first value.
+[00:18:22] So I'm going to duplicate.
+[00:18:24] I'm actually going to rename these so it's a little bit more organized.
+[00:18:27] I'm going to rename this one full.
+[00:18:31] I'm going to name this one 80, and duplicate that one, call it 60.
+[00:18:39] Now we can continue erasing away on this 60 layer.
+[00:18:43] And if it helps, you can always up the opacity a little bit, at least temporarily, so you can see a bit better what it is that you're doing.
+[00:18:50] Let's start adding in some droplet action here and there.
+[00:19:00] I don't want the texture to get too noisy, but we also want to add in some interesting visual bits here and there.
+[00:19:07] Also want to maintain sort of that roundedness to our edges so that it feels like liquid.
+[00:19:14] It's really interesting.
+[00:19:19] You could almost look at this texture like a topography map where there's like the different layers.
+[00:19:25] At least in this case, the brightest parts are the tallest and the darkest parts are the shallowest.
+[00:19:32] Just another way to look at this if that's helpful.
+[00:19:35] It may not look like it, but I'm actually adding a little bit of directionality to the dissolve of these droplets by only darkening out one side.
+[00:19:50] That means that this side here is going to dissolve faster than this side over here.
+[00:19:57] So the droplet will look like it's traveling this direction as it is dissolving just by only erasing one side.
+[00:20:07] Almost forgot about these little droplets up here.
+[00:20:21] One thing that is sometimes hard to remember is all the little different droplets and pieces that are part of textures like these.
+[00:20:31] So same story.
+[00:20:36] I'm actually going to bring this down to 20 again and duplicate it.
+[00:20:41] Duplicate our layer and call it 40 this time.
+[00:20:44] And we're just going to keep erasing away a lot of these droplets.
+[00:20:51] I'm just erasing out at this point.
+[00:20:54] Since they're so tiny, it's not really worth keeping track of them.
+[00:21:01] There we go.
+[00:21:02] Make it a little easier for me to see what's left.
+[00:21:05] We'll get rid of those as well.
+[00:21:08] Maybe I'll leave just the tiniest little dot.
+[00:21:12] Tiniest little dot.
+[00:21:15] Kind of hard to tell where the cursor is going to be when it's so tiny.
+[00:21:21] Same for these little guys.
+[00:21:26] Just so you know, they don't just instantly disappear.
+[00:21:29] As you can see, I've been adding these little extra holes to every layer or so.
+[00:21:39] Just so that there's more ways for this to break up in an interesting way the more it dissolves.
+[00:21:49] You can see I'm really starting to get some interesting shapes coming out of this now.
+[00:21:59] I'm going to add a little extra wiggle here or there just to add some visual interest.
+[00:22:05] You never want to go too thick with the different layers that you're going.
+[00:22:13] I feel like this thickness is probably the most thick that I would go.
+[00:22:18] There are some thicker areas down here that I think are getting close to the maximum thickness that I would go.
+[00:22:27] I think we're ready for our next layer.
+[00:22:36] I can bring this back down to 20.
+[00:22:39] I might actually end up changing these values later down the line, but I think that 20 is a good spot to keep things as I'm working here.
+[00:22:48] I'm going to up the opacity again so I can see where I'm working.
+[00:22:52] Give this guy a little dot to resolve.
+[00:22:56] Erase away these other ones.
+[00:22:59] As you can see, I'm starting to get to a stage with this where there's only droplets left here and there.
+[00:23:18] It's not really a full shape anymore.
+[00:23:19] There's just these little bits remaining.
+[00:23:22] I think I might actually end up having to do a couple more layers for these bigger areas to resolve nicely.
+[00:23:28] I'm going to focus on getting that looking good, making it so that these big chunks won't just disappear.
+[00:23:37] They'll dissolve in a way that looks good.
+[00:23:39] I feel like I've got enough layers now showing where the different directions of droplets and such will go.
+[00:24:00] What I'm going to do is actually go through and reduce the opacity of some layers and increase the opacity of others in a way that I think will make sense.
+[00:24:14] I'm mostly looking at the values here.
+[00:24:17] Like I was saying earlier, if I'm thinking of this as a topographic map and black is sea level and the lighter these layers are, the higher they are from sea level,
+[00:24:30] I basically want the lowest layer to be the closest to black since it's the shallowest.
+[00:24:37] I'm going to be bringing the values down for the layers that are bigger and then upping the values on the layers where we start getting down into that nitty-gritty detail where all the little droplets and such are,
+[00:24:48] so that when we go to dissolve the texture, it will do so in a way that is smooth and makes sense.
+[00:24:56] I'm going to actually bring this one down a tiny bit more.
+[00:25:04] Basically what I'm going to do is press the P key to go into color sampler mode.
+[00:25:10] I'm going to look at my value range over here or this little circle here and see how many values I'm covering.
+[00:25:18] It looks like I have pure white.
+[00:25:21] I feel like each step is pretty equal.
+[00:25:26] Maybe this step here is a little big or this step here is a little bit big as well.
+[00:25:33] Maybe I will...
+[00:25:35] Wow, that's hardly a step at all.
+[00:25:42] Let's take a look at that.
+[00:25:44] Let's bring this down a little maybe.
+[00:25:46] The steps toward the bottom are actually the largest.
+[00:25:53] I'm actually going to reduce the opacity of the top layer to about 90.
+[00:26:01] Reduce these.
+[00:26:04] Actually maybe increase these upper levels just a little.
+[00:26:08] This is definitely where some tweaking needs to come in.
+[00:26:11] There we go.
+[00:26:20] I feel like the steps of that are relatively equal.
+[00:26:23] There's still a couple that are kind of big, but it's not too bad.
+[00:26:28] Another way that we can test how this is going to dissolve is by doing what we did before and combining everything that we have painted here into one layer.
+[00:26:37] I'm going to disable the background texture again.
+[00:26:42] It doesn't look like there's much here, but our texture is definitely there.
+[00:26:46] I'm going to go up to our top layer, right-click and say New Layer from Visible.
+[00:26:51] Then I'm going to throw all of these other layers, all the different value layers, into a group.
+[00:26:58] Drag them in there and then disable visibility on that group and re-enable our background so that we can give this test.
+[00:27:08] We'll go Filter, Blur, oh sorry, Filter, Adjust, Threshold.
+[00:27:13] And that is not behaving how I expected.
+[00:27:17] Hmm, interesting.
+[00:27:19] Okay, that is the right layer.
+[00:27:22] Let me try that again.
+[00:27:23] It seems odd.
+[00:27:28] Let me press Cancel.
+[00:27:30] I'm actually going to save my document and try reopening Krita and see if that somehow fixes the issue I'm encountering.
+[00:27:39] All right, reopen our splatter.
+[00:27:41] Let's try that Adjust one more time.
+[00:27:44] Wow, that is so bizarre.
+[00:27:46] I'm not sure why that's behaving that way.
+[00:27:48] That's definitely everything that we have going on.
+[00:27:51] I'm going to try it one more time.
+[00:27:54] Okay, interesting.
+[00:27:56] I tried combining it with the background and it worked for some reason.
+[00:28:00] I'm really not sure why that's behaving that way.
+[00:28:02] It's very strange.
+[00:28:03] But regardless, we can at least test how it's going to dissolve.
+[00:28:07] It won't be as smooth since we've painted each value in a step fashion.
+[00:28:13] It's not blurred yet, so it's not nice and smooth.
+[00:28:15] So you'll see these little dots where the transitions will be.
+[00:28:21] You can see the little droplets that we added as we erased away.
+[00:28:27] Yeah, there you go.
+[00:28:33] I think that looks really cool.
+[00:28:35] So now that we've tested that out and it looks good as it's dissolving,
+[00:28:40] what we can do is go back to the group where all the different layers are.
+[00:28:43] And I'm going to go to the full 100 layer,
+[00:28:47] which is basically the big shape that we started with.
+[00:28:51] And I'm going to use the contiguous selection tool,
+[00:28:56] or more commonly known as the wand tool.
+[00:28:59] An easy way that you can select all of the white bits
+[00:29:02] without having to go in and select each one
+[00:29:04] is by doing the wand selection in the black area of the texture
+[00:29:08] and then pressing Ctrl-Shift-I,
+[00:29:11] which will invert the selection from all of the black area
+[00:29:14] to all of the white area here.
+[00:29:16] And as you can see,
+[00:29:18] it looks like it didn't take care of these inner black shapes,
+[00:29:22] so I'm going to try to figure out a way...
+[00:29:26] Okay, yeah, so if I Alt,
+[00:29:29] you can see that there's a negative sign next to the wand tool,
+[00:29:32] and that will deselect any areas that you click on.
+[00:29:35] And I definitely don't want to select these black areas.
+[00:29:38] I want to make sure that I clearly have
+[00:29:40] the shape that we painted selected.
+[00:29:43] And from here, I'm actually going to go through each of these layers
+[00:29:46] and blur them using Gaussian Blur.
+[00:29:48] I don't want to blur it too much,
+[00:29:50] because otherwise it'll just be sort of a fuzzy mess.
+[00:29:53] But I do want to blend each of these steps together
+[00:29:56] a little bit more nicely.
+[00:29:58] I'm going to start the process of that by clicking this 80 layer.
+[00:30:02] We don't need to blur our base layer,
+[00:30:04] we just need to blur the rest of the layers that are inside of that.
+[00:30:07] So I'm going to click on our 80 layer,
+[00:30:10] go to Filter, Blur, Gaussian Blur,
+[00:30:13] and you can see the layer that's blurring in there.
+[00:30:16] And I'm going to bring that up to...
+[00:30:19] about 12.
+[00:30:22] And then I can go to 60 and I can press Ctrl and F together
+[00:30:27] and it will apply that same blur to each layer that I click
+[00:30:31] and press Ctrl F on.
+[00:30:34] Now, this might actually be too blurry.
+[00:30:38] I'm not 100% sure.
+[00:30:40] So before we continue any further,
+[00:30:42] I'm going to right-click on Group 4
+[00:30:44] and say New Layer from Visible.
+[00:30:47] And I'm going to do that threshold test one more time.
+[00:30:52] We start at the brightest
+[00:30:55] and there's no real steps that we're seeing.
+[00:31:02] It's all very smooth,
+[00:31:04] and this is exactly what we want to see from a texture like this.
+[00:31:09] And even the little dots that we made,
+[00:31:11] those are all fading out nicely.
+[00:31:13] Except at the end there, that one popped a little bit,
+[00:31:15] but it's not too bad.
+[00:31:16] I don't think that'll be noticeable once we get it into Engine.
+[00:31:25] Yeah, I think that looks great.
+[00:31:27] And we have that nice, crisp edge
+[00:31:30] since we didn't blur our base layer,
+[00:31:34] this full 100 down here.
+[00:31:36] So yeah, that is how you paint splatter textures.
+[00:31:40] Hopefully both of the ways that I showed you today,
+[00:31:43] both of the different methods that I showed you are helpful to you.
+[00:31:46] I definitely got better results
+[00:31:49] out of painting each value one by one
+[00:31:52] and then tweaking it afterwards,
+[00:31:54] but that's no discredit to the other method,
+[00:31:57] which we used Inner Glow for
+[00:32:00] to get this nice, dark glow around the edges of our texture.
+[00:32:04] So you could do either method.
+[00:32:06] One is definitely quicker than the other,
+[00:32:08] but still useful and still a good way to get a splatter texture.
+[00:32:11] So thank you all so much for watching.
+[00:32:14] Next time we'll be doing Lesson 8,
+[00:32:16] which is where we're going to be going over
+[00:32:18] how to paint tiling noise,
+[00:32:20] which is super useful for basically any application.
+[00:32:24] I hope you look forward to the next lesson next time,
+[00:32:27] and I will see you all soon.
+[00:32:29] Thanks so much for watching.

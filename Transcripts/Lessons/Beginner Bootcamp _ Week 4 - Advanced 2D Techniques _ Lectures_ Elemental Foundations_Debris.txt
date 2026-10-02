@@ -1,0 +1,168 @@
+[00:00:06] Hello and welcome to the lesson. Today we're going to be going over something that is a
+[00:00:12] little bit ambiguous in terms of what you think about when you think of your traditional
+[00:00:19] sort of effects and that is debris. This is something that is an effect and often gets
+[00:00:28] overlooked and not really thought about when someone is thinking of effects or teaching
+[00:00:34] it so getting you involved in debris style effects early will make you a stronger, better,
+[00:00:42] more knowledgeable effects animator. So let's jump in. So when we're dealing with debris,
+[00:00:58] the reason why it's a little bit of a grey area is because depending on your level of
+[00:01:05] knowledge of the animation industry, there is these other things in a cartoon or production
+[00:01:14] called props. I mean there's props in real life but in animation this means something
+[00:01:20] very specific and a prop is basically anything on screen that doesn't need to be handled
+[00:01:33] directly by a character animator but the character in the animation might interact
+[00:01:41] with it. So it's not really, in that sense, it's not really an effect, right? The character
+[00:01:47] animator is dealing with the prop so as an effects artist you don't have to deal with
+[00:01:53] the prop in that instance but there are cases where the prop becomes an effect. So props
+[00:02:01] are a little bit of a grey area in terms of animation when they are considered a character
+[00:02:08] thing or when they're considered an effects thing. But as an effects artist you need to
+[00:02:14] be ready to deal with debris because it happens not a ton but often enough that it's worth
+[00:02:22] noting here. Mostly when a prop becomes an effect is because it's breaking or shattering
+[00:02:31] or transforming or it's filled with a weird kind of material and there's a slide here
+[00:02:40] that will address that if that seems kind of a little bit of an ambiguous thing to say
+[00:02:46] but we'll go over it. But starting off here, we want to justify the debris being an effect.
+[00:02:58] I won't get into specifics but there's programs out there where you deal with a single drawing
+[00:03:06] of something and animators can be really good at handling these drawings without having
+[00:03:15] to create more of these drawings and one of the benefits of being an effects artist
+[00:03:20] is that you get to draw and you get to draw a lot and often so we want to implement the
+[00:03:27] abilities you have as a drafts person when dealing with the debris and one of the ways
+[00:03:35] of doing that is by being able to rotate objects. This doesn't necessarily have to
+[00:03:42] be complicated objects. It's going to be small little things like we have on screen here.
+[00:03:53] Rocks, glass, ice, leaves and foliage. You're going to want to learn how to draw these things
+[00:04:00] as if they were flipping end over end or rotating dynamically in perspective. I can't
+[00:04:09] remember the degree of rotation it is that I'm specifically thinking about but you can
+[00:04:13] see in the drawings here that for instance the rock here is rotating from this three
+[00:04:24] quarter perspective rotating back so I'm just going to jump into a frame to explain
+[00:04:33] this better. So this part of the rock that we're seeing here has now flipped over to
+[00:04:44] this backside and the backside here that we can't see if this was a 3D object or a see-through
+[00:04:54] object here becomes this part of the debris. This is something that's very hard to do for
+[00:05:11] most programs. Usually this kind of stuff just needs to be drawn so it falls in the
+[00:05:17] lap of the effects animator in order to do it and depending on what's breaking or shattering
+[00:05:23] or bursting apart like I said there could be several different things that you have
+[00:05:27] to become adept at. An interesting thing that you might end up having to animate that
+[00:05:37] happens that is a prop but you will be animating it and it's not breaking or shattering could
+[00:05:47] be paper or drapery like a cape something like that those can be fun to animate because
+[00:06:02] a piece of paper falling if you take just a sheet of paper and drop it and try to notice
+[00:06:09] what goes on with it when it's dropped you will start to see that depending on how large
+[00:06:16] it is and the wind currents and stuff like that but it will start to form some pretty
+[00:06:23] interesting overlapping shapes and can even start twisting and doing some interesting
+[00:06:40] stuff like that so those are also things that you might want to think about trying to animate
+[00:06:45] or tackle that can be fun. I specifically like drapery it has a nice when done right
+[00:06:52] it has nice interesting flow. So this is what we were just talking about breaking stuff taking
+[00:07:01] something I won't take too long to go over this because I think I kind of already did it's pretty
+[00:07:07] self-explanatory but taking a prop like a vase and then you have to transfer it to it being
+[00:07:13] shattered and then you are focusing on trying to rotate the shapes to give them variety this is
+[00:07:25] like a big slab of concrete that would land on the ground and there would be little chips of it
+[00:07:30] they all these pieces overlap with them with with each other and then have to slide away depending
+[00:07:37] on how heavy the object is so you can be creative and just come up with situations where this
+[00:07:45] might be applicable and try to animate that stuff so along with debris in and of itself I know how
+[00:07:59] we just talked about it being well props specifically is a bit of a gray area there's other
+[00:08:07] things that you have to animate that are also sort of in the grayish area and one of these things
+[00:08:13] would be things like rain snow you know stuff that's considered an effect but in reality we
+[00:08:26] don't really treat it as an effect there's ways to there's ways to get around it this might be
+[00:08:34] a little bit more applicable for someone who's familiar with a bit more of a studio environment
+[00:08:39] and when they're dealing with actual animation scenes and if you are taking this lesson just to
+[00:08:47] learn about debris but this is your end goal to work in a studio on a production then this might
+[00:08:54] be something that could apply to something you have to work on in the future but it's just
+[00:09:03] basically something like rain and snow depending on how heavy you want to get into it is a panning
+[00:09:10] sheet through the frame if this is the camera we pan this we do one single long drawing of rain
+[00:09:19] and then we pan this through the frame there's no reason for us as effects animators plus it would
+[00:09:29] take forever if this is your camera there's no reason to do this frame by frame over and
+[00:09:40] over because doing a sheet of rain first off you can control a little bit better for the placement
+[00:09:54] of it because you don't you don't want rain that looks like this obviously this doesn't make any
+[00:10:00] sense right you you still want good design in it but if you're focusing on only one frame that you
+[00:10:06] can look in harder about adding in some variation and making it look good rather than animating it
+[00:10:14] frame by frame and then over the court depending on how fast you you want the rain over the course
+[00:10:19] of the frames that you're looking at you just pan it through the pan it through the the scene
+[00:10:25] so this would be if if if there was no rain in your your frame and then you pan it through to
+[00:10:33] the end and then when this starts to leave the frame you take another sheet and you bring it
+[00:10:45] above the frame and then you start that panning down as this is panning off screen this starts
+[00:10:55] to pan on screen as this one starts to pan off screen and it essentially becomes a cycle
+[00:11:05] and you just keep flipping flipping these two and you can have this you can have the rain in
+[00:11:12] the scene going on forever not really effects but still good to um i mean it is effects but
+[00:11:22] i mean it's not directly like hand-drawn effects but it's still good to know about
+[00:11:31] this is taking that idea of the panels of rain and it's uh taking it up to the next level so
+[00:11:38] if you really want to make rain and you can do similar things with basically any sort of
+[00:11:46] environmental effect that needs the the this idea of many sheets um being panned through screen
+[00:11:56] this can apply to all of them but we'll just stick with rain for the sake of the explanation here
+[00:12:04] depending on the shot that you're dealing with you want to think about
+[00:12:07] depth you want to think about having many of these panels because if we are in
+[00:12:18] if we are in an environment for whatever whether you're working on a scene or doing your own
+[00:12:26] little animation or stuff like that um anything closer to the camera is going to move faster
+[00:12:34] than anything further away right so if you only put in one panel of rain it'll still look good
+[00:12:43] if you if you do it right um but it might look a little bit visually boring
+[00:12:48] so to take it to the next level we can create three different panels of rain
+[00:12:56] except what we will do is as we pass these through screen we're going to vary up the timing
+[00:13:04] so if this one is closest to the frame it's going to travel through the frame and i'll just do a
+[00:13:11] quick timing chart here it's going to travel through the frame the fastest and then just
+[00:13:18] like goldilocks kind of the middle one will travel slower and then the back one will be the slowest
+[00:13:27] and this will give you a cool layered effect um it'll add depth to your scene or whatever you need
+[00:13:36] to be raining on because there'll be multiple sheets of it so it it will better mimic life
+[00:13:45] and then if you want to take things to the next level you look for these little opportunities to
+[00:13:52] do a thing i call plussing um you could if if you took right if you took a rain scene this far and
+[00:14:00] called it quits you would be pretty good in in terms of quality right like this is this is quite
+[00:14:06] a bit of extra effort to do in a rain scene but say you're really trying to polish off your look
+[00:14:15] you need to find ways to increase the visual appeal of the animation
+[00:14:21] and one of the ways to do this with rain is by creating little teeny impacts
+[00:14:27] i call these drip pops because that's all they're meant to do is they're meant to be really fast and
+[00:14:34] replicate the the the the pop um a little droplet of water would have when it impacts the ground
+[00:14:45] so you would create this you'd create a little one-off it wouldn't have to be very long like
+[00:14:53] very long like three to five frames really really quick and then what we would do with it depending
+[00:15:04] on the program you're using and and this is scaled up for the sake of uh this is this is scaled up
+[00:15:17] for the sake of explanation but in reality if we had like an umbrella here the drip pop would be
+[00:15:25] small right and it's raining and then we we would take this one-off animation and if if possible
+[00:15:36] uh we would duplicate this as many times as we could and change the timing of it and then place
+[00:15:45] these all over the umbrella because your eye isn't quick enough to pick up an individual droplet of
+[00:15:55] rain making a water splash on an umbrella right so you just have this raining you have it raining
+[00:16:04] behind the umbrella and then you would have a sheet that is over top of the umbrella
+[00:16:14] and this can apply to any object this is just an example but when you mix in all these different
+[00:16:21] ideas and techniques you would have an umbrella that looks like it's sitting in rain
+[00:16:30] very minimal amount of drawing but if you do it right it would look quite quite good
+[00:16:37] i put this i put this kind of stuff into the debris realm because it is such little drawing
+[00:16:43] i don't really consider it um you know your your your traditional or classical effect
+[00:16:50] so it needs to go somewhere so i just kind of put it in with the the the idea of debris
+[00:16:57] it's it's more like miscellaneous effect but um still good to know
+[00:17:02] good to know
+[00:17:05] okay this is what i was talking about earlier with um props and the point in time in which
+[00:17:13] a prop reaches that gray zone of well is it a proper is it an effect uh one way to handle
+[00:17:21] this kind of stuff and this is uh an an example that i like to use is instead of individually
+[00:17:35] drawing 8 million coins or whatever's coming out of this bag it's going not only not only
+[00:17:45] is this approach going to take forever but it's also not going to look very good because it's too
+[00:17:49] busy so this is an example of where a prop becomes with the proper treatment becomes an effect
+[00:17:58] so what we want to do is we want to take the plot we want to take the prop
+[00:18:02] and apply something to it that comes from the effects world but we're using it as a prop
+[00:18:15] where we're using the prop as the substance rather than it being the traditional element
+[00:18:22] that it should be and i'm sorry if that's kind of confusing but distilled down what i'm trying
+[00:18:28] to say is that for something like this this would be an example of like uh water right so this is
+[00:18:40] essentially could be some kind of like waterfall coming out of it and we're using the prop and
+[00:18:45] we're applying it instead of water we're using the prop to apply to it so we're still going to
+[00:18:51] animate it as if it was a liquid but we're going to do little things like instead of drips popping
+[00:18:57] off we're going to have the the coins popping off little individual coins and instead of drawing
+[00:19:08] eight million little coins we will have the odd coin in the design but instead of it being flowy
+[00:19:19] like water we will take the shadow and this would you know we would still do a shadow for water it
+[00:19:27] would just be a lot smoother but we will apply a design concept from the coin just it being
+[00:19:32] just the fact that it's round to the shadow so by doing all this it will look like coins are
+[00:19:44] spilling out of this bag but instead of it looking trashy like a million little props it now becomes
+[00:19:53] an effect and it will look way it will look way way way better for it this can happen all the
+[00:20:05] time it really depends on the show you're working on i've had things go as crazy as one show i
+[00:20:12] worked on had a river that had to be completely made out of hair and it was a pretty big challenge
+[00:20:21] in order to do it because i needed to try to think about what silky wavy hair would look like
+[00:20:30] if it flowed like a river and you can you can find little opportunities to do this everywhere
+[00:20:36] uh it's a fun creative challenge um so trying to push yourself through something like that
+[00:20:48] combining things that you you normally wouldn't see combined uh such as you know coins and water
+[00:20:54] combine coins and water usually the the usually the element the the popular go-to element will
+[00:21:03] be some kind of liquid but even with liquids you got all different kinds of liquids right like
+[00:21:09] uh you know syrup doesn't animate the same way water animates even something like milk
+[00:21:21] should feel slightly thicker than water and and and something like that gets really really
+[00:21:28] challenging when you're trying to properly animate the difference between milk and water
+[00:21:35] and not just have the difference be in the design itself you know having one being blue and
+[00:21:41] one being like a white beige so that's a fun little exercise you can go ahead and try to
+[00:21:49] challenge yourself with but this would be a good example of a prop becoming an effect that's not
+[00:21:56] shattering or breaking uh so debris assignment you could do what i just talked about i mean if
+[00:22:05] you really want the the purpose of the assignment is to just getting you doing animation um in the
+[00:22:12] realm of what we discuss in uh in these lessons so a simple debris assignment is to break something
+[00:22:20] apart we can jump back quickly to something like this um do something like this choose something
+[00:22:27] fun that you would be interested in animating it doesn't have to be ceramics it can be glass
+[00:22:33] basically anything that breaks wood even you could have someone chopping wood that would work
+[00:22:41] drywall you know anything that can potentially break apart yeah i say i say it again here animate
+[00:22:51] piece of glass whatever whatever you want um just start exploring debris and breaking stuff breaking
+[00:23:00] stuff in real life is fun breaking stuff in animation is also fun so enjoy yourself and uh
+[00:23:07] start getting comfortable with debris thanks for coming to the lesson

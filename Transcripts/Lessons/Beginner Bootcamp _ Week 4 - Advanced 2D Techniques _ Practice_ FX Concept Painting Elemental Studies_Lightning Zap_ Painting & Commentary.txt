@@ -1,0 +1,1132 @@
+[00:00:08] Oh, hey guys, let's make some lightning bolts.
+[00:00:13] Okay, so we've got the thumbnails here.
+[00:00:16] You should have checked out the thumbnail video
+[00:00:18] from David Shovlin.
+[00:00:19] We ended up going with the thumbnail on the right side.
+[00:00:23] And so that's gonna be the starting point in discussing it.
+[00:00:26] You know, it could be a dome of electricity
+[00:00:28] or it could have been just this like electric field AOE
+[00:00:32] or there was a lightning bolt idea.
+[00:00:34] We were much more excited about lightning bolts
+[00:00:37] versus the others,
+[00:00:38] cause it just presents some interesting challenges
+[00:00:42] and opportunities to demonstrate things for you guys.
+[00:00:46] Okay, so the first step of course,
+[00:00:47] because it is a lightning bolt coming down from above,
+[00:00:50] we're gonna need to make it
+[00:00:52] a much taller composition than usual.
+[00:00:55] And you'll see here, you know,
+[00:00:56] he puts it originally where that AOE sits on the template
+[00:01:01] and he had to nudge it down some to make some space for it.
+[00:01:04] So honestly, like laying out the positioning
+[00:01:08] of your thumbnail,
+[00:01:08] don't be constrained to canvas size.
+[00:01:11] That can always be adjusted and laid out differently
+[00:01:14] in how you present it.
+[00:01:16] Unless I guess that's like a specific gameplay constraint
+[00:01:18] that like it has to fit into the side of a bounding box.
+[00:01:20] I guess then you would do that.
+[00:01:22] So Alex Redfish did these beautiful little doodles,
+[00:01:28] these electric flips and zips.
+[00:01:30] And so Shovlin had those for inspiration throughout.
+[00:01:33] And that's also a great opportunity too.
+[00:01:36] You can go onto Pinterest and find similar stuff
+[00:01:38] and be like, I want it to feel like that school of magic.
+[00:01:42] And a big advantage of that is you can see
+[00:01:45] how other artists are using shape and color
+[00:01:48] to convey very specific things.
+[00:01:51] And really guys,
+[00:01:51] there's no need for you to reinvent the wheel, right?
+[00:01:54] Like if someone else did dark magic,
+[00:01:57] electricity really well, like emulate that stuff.
+[00:02:01] That's what it's all about
+[00:02:03] because if you just try to go all the way off on your own
+[00:02:07] and say, I'm just gonna do it.
+[00:02:09] Maybe if it was like orange and purple,
+[00:02:11] inevitably, if it looks really good,
+[00:02:14] it's gonna end up looking like something else.
+[00:02:16] Anyway, people are gonna tell you about it.
+[00:02:17] Oh, that kind of looks like such and such a thing.
+[00:02:20] Even if you try to avoid that.
+[00:02:23] So don't feel like you're obligated
+[00:02:28] to start everything from scratch by any means.
+[00:02:37] So, okay, he's got the first shapes laid down.
+[00:02:42] Notice he's using the lasso tool.
+[00:02:44] That's a great way to just lay in rough shapes
+[00:02:47] and like your base shapes,
+[00:02:50] lasso them up and they're gonna end up feeling nice
+[00:02:51] and sharp because the lasso tool has
+[00:02:53] like this infinitely small turning radius
+[00:02:55] where it can just give you these little points.
+[00:02:58] And so that works especially well here
+[00:02:59] where he's trying to create nice, sharp, jagged lines.
+[00:03:05] And the original bolt of lightning that he went with
+[00:03:08] was kind of halfway through dissipation.
+[00:03:11] I think Shevlin being an animator,
+[00:03:12] he's imagining what phase of the zap this is gonna be in.
+[00:03:17] And that ends up being something that we change completely
+[00:03:20] through feedback once we realize,
+[00:03:23] oh, this is kind of an awkward transition frame.
+[00:03:26] And what we want is these two beats.
+[00:03:28] And so the end product was, as you can see in the Photoshop,
+[00:03:33] in the Photoshop file that you have is two separate beats,
+[00:03:36] the first impact and then the dissipation afterwards.
+[00:03:41] Whereas what he ends up doing in the first stages
+[00:03:43] is gonna be sort of an in-between to where it just struck.
+[00:03:47] So it's splashing out,
+[00:03:48] but there's also some leftover of the bolt coming down.
+[00:03:51] And it's still useful because you can see his process
+[00:03:55] and it's always good to learn from.
+[00:03:58] So lassoing out these shapes,
+[00:04:00] filling that in, pretty cool stuff.
+[00:04:02] Some of these negative and positive shapes,
+[00:04:04] like I wanna talk about that.
+[00:04:05] When you're making electricity,
+[00:04:08] be very mindful not only of the red that you're painting
+[00:04:10] or whatever color of electricity you're doing,
+[00:04:13] but the negative shapes around it, right?
+[00:04:16] There's all these shape relationships.
+[00:04:18] Like you saw, this tip here was pointed up there
+[00:04:22] and this one's kind of coming down here.
+[00:04:24] But because they have negative space in between,
+[00:04:28] they have the illusion even as flat shapes
+[00:04:30] that they're moving in 3D space.
+[00:04:32] And he's kind of painted in some perspective
+[00:04:34] how they're like tapering out away from each other.
+[00:04:38] It's really interesting.
+[00:04:39] So just be mindful of that.
+[00:04:42] Like when this is pointed off in that direction
+[00:04:44] and that's pointed off in a slightly different direction,
+[00:04:47] are they curving together?
+[00:04:49] Are they kind of awkwardly coming to a weird point,
+[00:04:52] but not the same point?
+[00:04:56] You don't want shapes to fight against each other,
+[00:04:57] I guess is what I'm saying.
+[00:04:58] You want them to work with each other.
+[00:05:00] And so they should all be kind of flowing
+[00:05:02] in a similar direction,
+[00:05:04] but then playing different roles
+[00:05:06] in how they're describing that form.
+[00:05:09] So he's got like this shape along the ground here.
+[00:05:12] It comes out, it's describing the ground plane.
+[00:05:16] And then this flipping up is like peeling up off the ground
+[00:05:19] and it's describing bowl motion that's like curving up away.
+[00:05:25] So three dimensionality is really done at the shape level
+[00:05:30] before you start rendering.
+[00:05:32] Honestly, like rendering will support
+[00:05:34] whatever dimensionality you've already painted into it
+[00:05:36] with the shapes.
+[00:05:37] So really force yourself to think in three dimensions
+[00:05:40] when you're laying down these shapes here.
+[00:05:44] And of course there's some element of design to it.
+[00:05:46] I mean, the splash up here in the front
+[00:05:48] is pretty camera facing.
+[00:05:50] Oh my gosh, it's moving around so much.
+[00:05:51] It's pretty camera facing here
+[00:05:53] how it's just like eating away up and out.
+[00:05:55] And that's definitely playing to the camera,
+[00:05:58] but everything around it is supporting it
+[00:06:01] into this nice flat shape over here.
+[00:06:08] Like I mean, over here, as you can see,
+[00:06:11] this forms a nice bowl
+[00:06:12] and even as one's coming up towards camera,
+[00:06:15] they're indicated differently, right?
+[00:06:18] Like there's the ring here
+[00:06:19] and then you can see it jutting up away from the ground.
+[00:06:26] So he's coming in, he's laying in thick shapes, thin shapes.
+[00:06:29] It's a nice variety throughout.
+[00:06:31] And this whole process,
+[00:06:36] I think up to this point,
+[00:06:37] he's probably spent maybe about 15 minutes,
+[00:06:41] 10 or 15 minutes to like lay in these shapes
+[00:06:43] and sketch them out.
+[00:06:44] And so he's moving pretty quick
+[00:06:46] and it's not just a,
+[00:06:47] I would say moving quick is not just the product
+[00:06:49] of being really experienced and seasoned.
+[00:06:52] I think when I was in school,
+[00:06:55] really getting the hang of like designing shapes
+[00:06:57] and drawing and all of that stuff,
+[00:06:59] and I'd be drawing in my sketchbook every day,
+[00:07:01] I found that the quicker I would sketch something out,
+[00:07:06] the faster I would learn.
+[00:07:08] And that's simply because I would get the bad drawing
+[00:07:11] out of the way quicker, right?
+[00:07:13] And so I'd fill up a page of bad drawings
+[00:07:16] with just one good drawing on there.
+[00:07:18] And, or maybe it would be four pages of bad drawings
+[00:07:21] and then the fifth page would be a good drawing.
+[00:07:24] And so really kind of moving through this,
+[00:07:26] it forces you to come to grips with like,
+[00:07:31] yeah, you know what?
+[00:07:32] I messed up on that.
+[00:07:33] I'm gonna try this.
+[00:07:33] I'm gonna try that.
+[00:07:34] And then you're able to look at a body of work
+[00:07:37] when you're done and evaluate how you did
+[00:07:39] versus if you overthink it,
+[00:07:41] you move really slowly through this whole process.
+[00:07:44] You're gonna never,
+[00:07:46] well, you're gonna have much fewer checkpoints, right?
+[00:07:49] Much fewer times where you can sit back
+[00:07:51] and evaluate your work and get feedback on your work
+[00:07:54] and that kind of thing.
+[00:07:56] So I would just suggest move along nice and quick.
+[00:08:01] So he created a black layer on top of his red layer
+[00:08:05] and then just change the opacity on it.
+[00:08:08] Looks like he's,
+[00:08:13] yeah, so now he's like,
+[00:08:15] he's doing a mask on that black layer.
+[00:08:18] So he's just playing around with seeing
+[00:08:24] how he can quickly get some color set up
+[00:08:27] the way that it was in the reference
+[00:08:30] where it's black in the middle and red on the exterior.
+[00:08:34] Notice too, like the way he's using the lasso.
+[00:08:37] I mentioned the lasso earlier.
+[00:08:40] Lasso tool is great for adding shapes
+[00:08:42] and deleting shapes away.
+[00:08:43] He uses it for carving in
+[00:08:45] but then also like blocking in new shapes.
+[00:08:48] And don't be afraid to use that as like,
+[00:08:52] like quite liberally actually
+[00:08:53] and as you lay in your initial shapes.
+[00:08:56] It's a great tool for that.
+[00:08:59] So he's using layer styles.
+[00:09:00] You remember in the YouTube video,
+[00:09:02] I talked about how layer styles function,
+[00:09:05] doing the inner glow and it's radiating from the center out.
+[00:09:08] And then he adds a stroke as well, I believe.
+[00:09:09] Has he already added the stroke?
+[00:09:10] Yeah, he already added the stroke.
+[00:09:14] And then some outer glow to just make it feel
+[00:09:15] like it's emitting light out into the environment.
+[00:09:18] It's important when you're doing outer glow, by the way,
+[00:09:20] don't go overboard.
+[00:09:22] It's very easy and very tempting to just be like,
+[00:09:24] it's blooming and bloom in game engines
+[00:09:27] is also tempting to go overboard, right?
+[00:09:30] I think it's amazing what the human brain can pick up on
+[00:09:34] with subtlety.
+[00:09:35] If you look at the final product of what he's got over here,
+[00:09:37] a lot of these areas, they have glow around them,
+[00:09:40] around these tips, but it's very, very subtle.
+[00:09:42] And it just gives you that nice touch,
+[00:09:44] that nice indication that this is emissive,
+[00:09:47] it's casting light and it's sitting in that environment
+[00:09:51] because it has that subtle halo around it.
+[00:09:54] But you don't wanna go too ham
+[00:09:55] because then it's just like blown out
+[00:09:57] and it loses its character, it loses its believability.
+[00:10:01] Actually, when you have too much emissive,
+[00:10:05] starts feeling like you have a bad camera man
+[00:10:08] adjusting the exposure.
+[00:10:12] He's just way too overexposed.
+[00:10:20] Okay, so I think he's just laying in now.
+[00:10:24] Oh yeah, what he's doing now is the touch up.
+[00:10:26] So that stroke does a nice even red outline around it.
+[00:10:31] And then he's adding in these little flips
+[00:10:33] of red that come in.
+[00:10:36] And I don't know if they ended up in the final version.
+[00:10:38] Yeah, there's an area over here.
+[00:10:39] So like you can see it right there,
+[00:10:41] how it has a nice sharp edge.
+[00:10:45] There's a few areas, oh there it is too.
+[00:10:46] I think it got lost over here.
+[00:10:48] He must've, maybe he accidentally deleted it, maybe I did.
+[00:10:52] Sorry about that.
+[00:10:53] But you can see how it adds this nice,
+[00:10:56] feels it does that.
+[00:10:58] Now he's just going for graphic shapes
+[00:11:01] inside of the bigger shapes that are gonna help
+[00:11:05] sell that interest and make it really nice.
+[00:11:09] Because if you just fill it with plain black solid,
+[00:11:12] it's not quite as fascinating as adding
+[00:11:14] these really interesting shapes
+[00:11:16] with like the jagged counter curves
+[00:11:19] and all that kind of thing.
+[00:11:20] And guys, just have fun with this.
+[00:11:22] Like when you're doing shapes like this,
+[00:11:24] I really wanna see you have reference up.
+[00:11:27] So you're looking at how other designers
+[00:11:29] like Alex Redfish, like David Shovlin
+[00:11:31] are doing these really interesting shapes.
+[00:11:33] And then how you can apply this to yours.
+[00:11:35] That's exactly what I do.
+[00:11:36] Like seriously all the time, I have reference up.
+[00:11:40] I'm looking at how did someone else do it
+[00:11:42] in a really interesting way?
+[00:11:43] Or how did nature do it, right?
+[00:11:45] That's totally, that's like what it all goes back
+[00:11:48] to eventually, right?
+[00:11:50] Nature outdoes all of us as far as artistry goes.
+[00:11:53] So have that reference up so that you're not trying
+[00:11:56] to reinvent the wheel all the time.
+[00:11:58] It's gonna save you a lot of headache, a lot of heartache.
+[00:12:01] And the fact that he's able to work here
+[00:12:04] with color already in place is really cool.
+[00:12:08] I would say like, it's pretty 50-50.
+[00:12:11] Sometimes people start with color that I observe,
+[00:12:15] other times they don't.
+[00:12:16] It just really varies.
+[00:12:19] Oh, yeah, by the way, so I just wanna note,
+[00:12:21] notice how he, when he lassoed this out here,
+[00:12:24] he didn't stick with the stroke shape.
+[00:12:28] He like cut across it, he cut a flat shape across it,
+[00:12:32] which creates this nice variation in here
+[00:12:36] so that it doesn't feel like it's just an even stroke
+[00:12:40] the whole way around.
+[00:12:41] And granted, for the most part,
+[00:12:43] the stroke does feel even all the way around.
+[00:12:45] There's a lot that he could do to add a bit more thick
+[00:12:48] and thin to that stroke line to get it
+[00:12:50] to have some variation and personality to it.
+[00:12:55] At the end of the day, that's just a matter of time
+[00:12:57] and finesse you guys in your paintings
+[00:12:59] if you're gonna do the same kinda vibe of magic.
+[00:13:03] Like, feel free to add slight touches of thick and thin
+[00:13:07] to the outer stroke, and you'll find that if you just go
+[00:13:10] here and there, eventually it won't feel
+[00:13:13] like you put a filter on it at all.
+[00:13:14] It'll feel like it's all very handcrafted.
+[00:13:17] And that just adds that extra level of quality to it,
+[00:13:22] you know what I'm saying?
+[00:13:25] So I was talking before about schools of magic
+[00:13:28] and like, you know, finding reference where they used
+[00:13:31] a certain color palette and colors arranged
+[00:13:33] in a very specific way to achieve
+[00:13:36] something really interesting.
+[00:13:38] And I would say with this, you know, this is red lightning.
+[00:13:46] Maybe what you try is like green lightning.
+[00:13:48] Maybe you try like golden lightning or whatever,
+[00:13:53] like any other color palette and find an interesting palette.
+[00:13:56] Maybe go online, you know, look at some reference.
+[00:13:59] I think like fashion is an interesting place
+[00:14:02] that I know you can find good reference
+[00:14:05] of like color palettes and like a dress
+[00:14:07] and just how the colors work together.
+[00:14:09] It's really cool what they can do there.
+[00:14:11] You can look at like, you know, flowers,
+[00:14:14] different flower petals have like,
+[00:14:16] some of them will have that dark core
+[00:14:18] with like a yellow pop in the middle
+[00:14:20] and then they'll have interesting gradation
+[00:14:22] of color that comes out.
+[00:14:25] There's all kinds of places guys that you can find
+[00:14:27] really rad color palettes for something like this.
+[00:14:30] And so by all means, you know, don't just stick
+[00:14:32] to the same red lightning, you know, try switching it up.
+[00:14:37] So he's going in still and he's, you know, finding areas
+[00:14:40] where he can add variation.
+[00:14:41] That's kind of cool what he did there.
+[00:14:42] This negative shape eaten away right there
+[00:14:46] so that the zigzag kind of continues into the shape.
+[00:14:49] Is that still, yeah, it is right there.
+[00:14:52] Only image is flipped, like zigs into it.
+[00:14:57] All these fun little touches and it's kind of sad.
+[00:14:59] This stuff in the middle here,
+[00:15:01] it's gonna just all go away.
+[00:15:03] And that's another thing is like,
+[00:15:05] for how beautiful some of these shapes are.
+[00:15:07] Oh, by the way, I should back up.
+[00:15:10] So what he did right there,
+[00:15:13] because you guys are probably like, wait, wait, wait,
+[00:15:15] he's doing something.
+[00:15:16] Okay, so he got done lassoing away this layer
+[00:15:18] and deleting it.
+[00:15:20] You'll notice that that layer, by the way,
+[00:15:21] was like a, it was like a duplicate of the dark layer.
+[00:15:28] The dark layer in the first place, I should back way up.
+[00:15:31] The dark layer in the first place was,
+[00:15:33] he did a control click on the red, which selects the fill.
+[00:15:37] And then he did a modify, select, modify,
+[00:15:41] constrict, where it like inset inside of it.
+[00:15:44] So now he's like inside about equal
+[00:15:47] with where the stroke ends, right?
+[00:15:50] And then he paints black,
+[00:15:52] like he fills that all with black.
+[00:15:54] And then he copied that layer, pasted it on top.
+[00:15:57] So he duplicated that black layer.
+[00:16:00] And then he was actually,
+[00:16:02] he made the original black layer more transparent.
+[00:16:06] And so that's why you see when he was lassoing away
+[00:16:08] and deleting, he left this like ghosted dark below it,
+[00:16:12] because that was more transparent below it.
+[00:16:15] And then he was deleting away the black layer on top.
+[00:16:16] Sorry, you can rewind and see where he's doing that.
+[00:16:20] Okay, continuing on.
+[00:16:23] So now he's doing that same thing
+[00:16:24] where he's able to select it.
+[00:16:26] He's hiding the selection here,
+[00:16:27] but then he can just like dab that with a brush.
+[00:16:32] And he's gonna just actually kill
+[00:16:35] all that stuff in the center,
+[00:16:37] because the layer of detail
+[00:16:39] was very much too evenly distributed.
+[00:16:44] And he wasn't liking that.
+[00:16:45] So you just came in and you'll see,
+[00:16:51] yeah, I mean, this is one version of many.
+[00:16:53] He ends up changing this quite a bit over the time,
+[00:16:55] but always be aware of how much details
+[00:17:00] in each part of your painting
+[00:17:02] and what that's doing to draw your eye.
+[00:17:05] So typically the eye is drawn to the most detail,
+[00:17:07] the most contrast,
+[00:17:09] but if it's just kind of like everything
+[00:17:11] is detailed all over,
+[00:17:12] then that's not necessarily gonna be good
+[00:17:15] because you don't know where to look.
+[00:17:17] So what he's done is he's left some areas out here
+[00:17:20] that are kind of detailed.
+[00:17:20] And then in the middle,
+[00:17:21] he's created this nice solid black thing
+[00:17:24] that later on he's gonna add high contrast additive
+[00:17:27] on top of.
+[00:17:28] So right now he's just done a fuzzy brush.
+[00:17:31] And then he's erasing with a crispy brush
+[00:17:34] and pulling out all these lines.
+[00:17:35] And he's gonna use this as a scorch mark on the ground
+[00:17:39] to scale that up.
+[00:17:42] And then I think a radial blur is in order here.
+[00:17:45] He's probably gonna do a filter.
+[00:17:47] Yep, radial blur to get that fuzz to just feel nice.
+[00:17:51] So it doesn't feel like these really cruddy brush strokes.
+[00:17:54] You know, there's a lot of tricks
+[00:17:55] that we use all the time to do this kind of stuff.
+[00:17:57] So yeah, it feels like scorch marks on the ground.
+[00:18:02] That's pretty straightforward.
+[00:18:03] I think he ends up doing a...
+[00:18:05] He doesn't use this one.
+[00:18:06] I think this one is a polar coordinates
+[00:18:09] that he does afterwards.
+[00:18:12] But I get ahead of myself.
+[00:18:14] Okay, so talking about...
+[00:18:27] Yeah, the thing about polar coordinates here.
+[00:18:31] Yeah, these actually...
+[00:18:34] So he's gonna use a few different kinds of blurs on this.
+[00:18:36] So these streaks aren't necessarily anything special,
+[00:18:40] but he's really gonna streak it out.
+[00:18:43] And that's the key is you want nice straight rays
+[00:18:47] radiating out.
+[00:18:49] You'll remember from the YouTube tutorial
+[00:18:50] I added some wobble in them
+[00:18:52] and they looked really, really bad.
+[00:18:54] So if you blur them enough with the motion blur,
+[00:18:58] they'll get nice and straight for you.
+[00:19:01] And he used the wind filter.
+[00:19:03] You don't need to use the wind filter.
+[00:19:04] I don't really think it gives you very much actually.
+[00:19:09] So there you go.
+[00:19:10] Then you've got this nice scorch mark
+[00:19:16] that feels hand painted
+[00:19:17] because underneath it's hand painted,
+[00:19:19] even though it's got like tons of filters
+[00:19:21] built up on top of it.
+[00:19:23] Things like scorch marks are actually super critical.
+[00:19:26] It's interesting how easy it is
+[00:19:27] to just forget about that kind of thing
+[00:19:30] that will tie your effect to the environment
+[00:19:33] and adds that sense of groundedness to it
+[00:19:37] that otherwise you wouldn't have.
+[00:19:38] A lot of times we're so focused on doing the particles
+[00:19:40] and the materials and all this crazy stuff
+[00:19:42] that we might forget those extra elements
+[00:19:44] that really ground our work.
+[00:19:49] Okay, what's he doing now?
+[00:19:50] Let's see.
+[00:20:11] So yeah, I just want to iterate like emphasize again,
+[00:20:15] like Shevlin's willingness to nuke old work
+[00:20:21] or even recent work, right?
+[00:20:23] Like it doesn't mean necessarily
+[00:20:25] that you doubt every stroke that you take,
+[00:20:27] but I think it's really fun to just,
+[00:20:29] it's really liberating to just say,
+[00:20:31] yeah, I just did something cool, but you know what?
+[00:20:33] I'm gonna delete it,
+[00:20:34] or I'm gonna put it on a hidden layer
+[00:20:36] and put it away because I want to try something else.
+[00:20:38] And nine times out of 10,
+[00:20:40] if I'm putting something on a hidden layer,
+[00:20:42] I don't go back to it.
+[00:20:44] I just don't because the next thing I do
+[00:20:47] is gonna be better.
+[00:20:48] I almost always throw away my first draft.
+[00:20:50] In fact, I always throw away my first draft,
+[00:20:52] not almost always.
+[00:20:55] So here he's experimenting with, you know,
+[00:20:58] how that edge could feel like really hot and burned.
+[00:21:01] He's still leaving a red glow on it.
+[00:21:03] This, the layer effect that he has has a nice outer glow.
+[00:21:08] It's really strong red.
+[00:21:10] And he's painting it behind that black layer.
+[00:21:13] So the red outer glow doesn't go in front of the black,
+[00:21:16] just blends in with the rest of the red.
+[00:21:19] And he's, I mean, you can see here,
+[00:21:22] he doesn't end up using this, but sorry, spoiler alert.
+[00:21:28] I guess he does use something similar to it though,
+[00:21:29] like with these hot orange,
+[00:21:34] this hot white kind of like yellowish orange white,
+[00:21:37] whatever it is, some edges.
+[00:21:40] And it makes it just feel like, you know, the dark magic,
+[00:21:46] yeah, it is like dark and black in the center
+[00:21:50] at its hottest, where it should be the hottest.
+[00:21:52] But then there's just some points where it's just so hot
+[00:21:57] that it just lights up and gets these like burned fringes.
+[00:22:00] It's kind of an interesting vibe if you think about it.
+[00:22:06] Because it's one thing to just say dark magic,
+[00:22:09] the most intense part is the darkest part,
+[00:22:11] which is obviously opposite of fire
+[00:22:13] or any other kind of like plasma energy.
+[00:22:18] But then when you then come back
+[00:22:19] and turn that rule on its head by adding, you know,
+[00:22:22] these hot focal points as well,
+[00:22:24] I think somehow it makes it even more fantastical,
+[00:22:28] even though it is an element of reality, right?
+[00:22:31] Inject it back into it.
+[00:22:35] So he's zoomed way out.
+[00:22:36] Sometimes it's nice to zoom out
+[00:22:37] because it gives you a sense of like the overall flow
+[00:22:42] of the painting that you're working on,
+[00:22:43] how the shapes are all relating to each other, et cetera.
+[00:22:46] I'll emphasize that one till the day I die.
+[00:22:48] I think way too often we don't step away from our work
+[00:22:51] and take a long view at it
+[00:22:53] and look at how everything is coming together.
+[00:22:56] It's just way too easy to get lost in the details.
+[00:23:00] And I mean that literally and also figuratively
+[00:23:04] because when you're working on anything
+[00:23:07] and you're just lost in the details
+[00:23:09] and you don't take time to see how it's looking in game
+[00:23:12] or how it fits into the bigger system that you're building
+[00:23:15] or anything like that,
+[00:23:16] or even just get feedback from somebody else
+[00:23:18] who has a fresh perspective.
+[00:23:20] Like that stuff guys, it's just so valuable.
+[00:23:23] It's so critical that you do that regularly.
+[00:23:26] Okay, what's he up to now?
+[00:23:28] I think he's been playing around with like blend modes
+[00:23:31] and things on the glow.
+[00:23:36] He's been putting in tons of effects along the way
+[00:23:38] and you can basically mute me
+[00:23:41] and just look at what he's doing
+[00:23:42] and it's actually really fascinating
+[00:23:43] to see all the different layer styles
+[00:23:45] and effects that he's got going on.
+[00:23:51] So this is a fun trick.
+[00:23:52] You can do a lasso select and then do control shift I
+[00:23:56] and that will invert the selection.
+[00:23:57] That's what he was doing there was he was like,
+[00:24:00] he just wanted to see what certain like fadedness
+[00:24:05] look like on everything but a certain part.
+[00:24:08] And so you can invert your selection
+[00:24:09] by hitting control shift I.
+[00:24:17] So here he's decided to add more body
+[00:24:19] onto these streaks in the middle
+[00:24:28] and he was doing it on the wrong layer
+[00:24:30] and so it looked funny.
+[00:24:32] I did that all the time.
+[00:24:33] The layer has a bunch of filters on it
+[00:24:35] and I just paste something on there, it's busted.
+[00:24:40] Cool, so now he's got to go back in
+[00:24:42] and add interior detail to these new red shapes
+[00:24:45] that he's added in.
+[00:24:57] And this is where honestly the process does get a bit muddy
+[00:25:00] and it's kind of tricky to follow.
+[00:25:03] Sometimes when you're so deep in your work
+[00:25:05] like you know where the stroke filter is
+[00:25:10] and you know where the inner glow filter is at
+[00:25:12] and how those layers are talking to each other
+[00:25:15] and everything else.
+[00:25:15] But here basically he's got multiple layers.
+[00:25:19] He's like now he's hidden the black layer
+[00:25:22] that's on top of it.
+[00:25:24] And he's going in with the brush tool
+[00:25:28] and because he's working on a layer
+[00:25:30] with a layer style on it and effect on it,
+[00:25:33] it's automatically picking up that inner glow
+[00:25:36] as he adds strokes.
+[00:25:38] And so it looks like he's doing something
+[00:25:42] really voodoo black magic-y
+[00:25:43] but really he's just going in and painting away
+[00:25:49] the layer on top.
+[00:25:51] Well he's painting on top to cover up
+[00:25:55] the strokes and things beneath it.
+[00:26:03] So I think the video hitched right here for a second.
+[00:26:07] Sorry about that.
+[00:26:10] Yeah and sometimes the way that the stroke overlays,
+[00:26:13] see he tried to brush away this little doohickey here
+[00:26:18] but it wouldn't go away
+[00:26:19] and so he has to actually go into a different layer
+[00:26:21] to get that to go away but then it's blinted
+[00:26:23] and so he'll have to do a touch up layer.
+[00:26:26] So there's some advantages and some disadvantages
+[00:26:28] to using layer effects.
+[00:26:30] They're kind of tricky to keep track of
+[00:26:32] because it's not a literal one-to-one,
+[00:26:35] what I paint is what I get
+[00:26:37] but also they can be a huge time saver.
+[00:26:39] It's just a give and take really.
+[00:26:43] Okay so he's got what he wants there
+[00:26:45] and I think he's gonna just continue on now
+[00:26:48] with painting up these shapes.
+[00:27:06] I think we're coming up on,
+[00:27:10] pretty soon we're gonna come up on the part where
+[00:27:14] he's gonna wrap the first iteration
+[00:27:17] and one of the pieces of feedback I gave him actually
+[00:27:19] because this is a very literal color palette
+[00:27:22] from what Alex Redfish had done
+[00:27:25] where it's like black in the middle,
+[00:27:27] red on the outside,
+[00:27:28] it's overall pretty monochromatic
+[00:27:30] and so he did do what I asked him to do.
+[00:27:34] It's like make it look like this
+[00:27:36] and it does look like that
+[00:27:37] but then I was like oh,
+[00:27:40] except now there's no color depth
+[00:27:42] and there's no value hierarchy in it
+[00:27:46] and so he turned this version in for feedback
+[00:27:50] and the feedback that I gave him was hey,
+[00:27:53] color depth.
+[00:27:54] I think also maybe before I even gave him that feedback
+[00:27:59] it was the two beats feedback
+[00:28:01] to where this feels like kind of an in-between beat
+[00:28:04] and it's not working as clarity of like
+[00:28:09] there's a lightning bolt and there's an impact
+[00:28:11] which sometimes you need more than one concept
+[00:28:15] to convey a thing that moves like that.
+[00:28:23] Okay, so we're coming back in after the feedback
+[00:28:26] and he's basically gonna go ahead
+[00:28:29] and copy that center part.
+[00:28:32] I think what he ends up doing is
+[00:28:34] he creates duplicates of everything
+[00:28:37] which this is actually really smart.
+[00:28:38] If you're trying to take an in-between
+[00:28:41] and turn it into two separate frames,
+[00:28:43] my advice would be take all the layers,
+[00:28:45] duplicate all of them into a separate folder
+[00:28:48] which is exactly what he does here
+[00:28:51] and then hide that folder
+[00:28:53] and then you can edit the two sets of layers separately.
+[00:28:56] So in one you're gonna delete
+[00:28:58] the center shaft of electricity
+[00:29:00] and the other you're gonna delete the larger AOE
+[00:29:02] on the ground and then you have a bolt
+[00:29:05] and an AOE and you can kind of go from there.
+[00:29:08] So again, concept painting can be messy sometimes guys.
+[00:29:13] I know it's a lot to keep track of like
+[00:29:15] lassoing all these shapes
+[00:29:17] and then you have to delete it on multiple layers
+[00:29:20] because there's the red outlines,
+[00:29:23] there's the black highlights,
+[00:29:24] there's the glowiness
+[00:29:26] and so he ends up with that same area of selection
+[00:29:29] clicking through the layers, hitting delete,
+[00:29:30] click through another layer, hit delete again
+[00:29:32] until he's deleted out all the layers,
+[00:29:37] he's deleted out the same area on all the layers
+[00:29:42] and I think it comes in later that that bolts
+[00:29:46] isn't quite working anymore
+[00:29:47] because it's kind of an in-between state
+[00:29:49] but for now he's gonna just leave it there.
+[00:29:59] This is the heightened moment of impact,
+[00:30:03] the most intense shock pal.
+[00:30:26] So yeah, you can just take like a brush stroke
+[00:30:35] and then blur it out.
+[00:30:42] There's a few different ways,
+[00:30:43] there's a few different techniques
+[00:30:44] if you just want like a ring
+[00:30:45] and I was using the smudge tool on that ring
+[00:30:48] so it just feels like this smudgy ray of light
+[00:30:51] and you can see it here,
+[00:30:53] it's just super, super subtle.
+[00:31:00] Pause this for a sec.
+[00:31:03] So, bright, gold, the red, the ring halo.
+[00:31:17] No, so it is actually full transparency.
+[00:31:21] Just the actual coloring itself is actually doing it.
+[00:31:34] Yeah, you can kind of see it as I'm moving it around.
+[00:31:36] Super, super subtle.
+[00:31:37] Sometimes those subtle touches are just what makes it.
+[00:31:41] This feels like a nice screen space effect.
+[00:31:44] Okay, so he got the bolt one done the way that he wants it.
+[00:31:49] Now he's gonna do the AOE one.
+[00:31:52] So he's deleting different layers,
+[00:31:54] different layers, different layers, different layers.
+[00:32:12] Let go of the middle, just get that out.
+[00:32:13] He's just turning off that layer completely.
+[00:32:16] All right, so there's some usable stuff from each of them
+[00:32:19] but it's gonna need to paint in the guts in both cases.
+[00:32:28] So there's an interesting thing here
+[00:32:30] and I know that sometimes I talk about
+[00:32:32] you just need like blobby shapes laid in.
+[00:32:37] Now he's talking about how the lightning bolt can feel
+[00:32:41] the different shapes that he wants to try.
+[00:32:44] As he's going in here, he's laying in brush strokes
+[00:32:49] and he's being very deliberate about finishing them off
+[00:32:52] nice and sharp and that's just because it's very important
+[00:32:56] for the specific effect that each end of a stroke,
+[00:33:00] each tip of a shape needs to come to this nice fine point.
+[00:33:04] So he'll actually brush it in and then take just a second
+[00:33:07] to go back in with the lasso tool or the eraser tool
+[00:33:11] and just like sharpen it.
+[00:33:14] Just sharpen off those edges
+[00:33:15] so that they feel nice and pointy
+[00:33:18] and it's not left with anything kind of bulbous at the tip.
+[00:33:22] That makes sense.
+[00:33:25] And he's taking extra care to do that.
+[00:33:32] It's interesting too, something about Shevlin's style
+[00:33:34] and this isn't necessarily the right or wrong way to do it
+[00:33:38] but he goes very, very thick and thin
+[00:33:40] and his thins, he's very masterful at using thin lines,
+[00:33:46] very almost lost and found disappearing lines
+[00:33:50] at certain points when the energy
+[00:33:52] is just about to dissipate and fade out
+[00:33:56] and typically, I personally, I don't like pixel thin lines
+[00:34:02] is what I like to call them but the way he does it,
+[00:34:05] he'll leave it like sort of couched in this glow
+[00:34:08] and so because this line is so thin here but it's like,
+[00:34:12] it has a layer effect on it that softens that crispiness
+[00:34:18] and so it's not just this sort of anti-aliased
+[00:34:21] like perfectly thin one pixel thick line.
+[00:34:26] It works and you'll see that in a lot of his different work
+[00:34:30] is he'll just have these nice thin tapered lines
+[00:34:34] that I don't know, I think it's pretty cool
+[00:34:39] and you'll see even in games that are like stylized
+[00:34:43] or stylized is such a generic word
+[00:34:46] because anything that's not perfectly realistic
+[00:34:49] is technically stylized, right?
+[00:34:51] But games that lean heavily on handcrafted techniques,
+[00:34:56] if they have multiple artists working on them,
+[00:34:58] some of them will have different native styles than others
+[00:35:01] and I think some of that's forgivable.
+[00:35:03] I think there's room for people to try different things
+[00:35:07] or just kind of express their own version of it.
+[00:35:09] I always like to say no two effects artists
+[00:35:12] would ever do the same effect the same way
+[00:35:16] because there's just so many infinitely varied ways
+[00:35:19] to do an effect, there's no right answer, right?
+[00:35:25] So here he's bringing back in some of those dark core shapes
+[00:35:28] but he's got the two tones going on.
+[00:35:31] It's kind of an important vibe
+[00:35:33] that he likes to continue throughout.
+[00:35:39] Feels really cool.
+[00:35:43] Again, value variation,
+[00:35:46] that's really one of the real strengths of this.
+[00:35:49] Switch over here, I feel bad,
+[00:35:56] I don't want you guys to miss anything
+[00:35:58] so just go back to that so you can see that playing well
+[00:36:03] and fiddling around with this over here.
+[00:36:14] So value variation, like I was saying,
+[00:36:17] I hit Control Y on the keyboard to test this.
+[00:36:20] You can see this nice depth of gradient, right?
+[00:36:26] There's this really great fall off here
+[00:36:28] but then another is this stepped, dark, medium, light
+[00:36:32] and then of course there's the point
+[00:36:35] where all of this energy is pointing you
+[00:36:38] towards the one spot where it's brightest in the painting
+[00:36:41] and there's all this contrast and conflict
+[00:36:43] coming down to here until it just gives way
+[00:36:45] to a nice area of rest in a white spot.
+[00:36:48] It's really, really brilliant composition
+[00:36:50] that he's got going there.
+[00:36:53] Whoops, sorry about that.
+[00:37:18] So there he just did a brush stroke
+[00:37:20] with a very crisp edged brush
+[00:37:22] and then he did a slightly smaller eraser
+[00:37:26] that was fuzzy, stamped it out.
+[00:37:28] It gives you a very easy way to do a radial glow.
+[00:37:33] It's really cool.
+[00:37:55] Adding just a soft red glow around everything
+[00:37:57] to give it a nice halo effect
+[00:37:59] and I think that's important too.
+[00:38:02] As valuable as layer effects are
+[00:38:05] in giving you this nice believable glow,
+[00:38:08] going in and painting in a glow with a nice fuzzy brush
+[00:38:12] and there's just nothing that can replace that.
+[00:38:14] It really is gonna be a nice touch
+[00:38:20] if you can have a good blend of both.
+[00:38:28] So here he's trying to lay them out next to each other
+[00:38:30] to just make sure that they're working together.
+[00:38:33] Creates a smart object.
+[00:38:36] Smart objects, I recommend if you're gonna do it,
+[00:38:39] create a similar background inside of the smart object
+[00:38:42] so you can be checking it against a similar background
+[00:38:44] because it's annoying when you go in
+[00:38:45] that it just has the opacity behind it.
+[00:39:16] Snowy's talking a little bit about
+[00:39:17] how he likes the differences between them
+[00:39:20] and so this is much closer now
+[00:39:21] because it's two separate beats
+[00:39:23] but then comes the feedback of,
+[00:39:25] I think next up, I don't wanna jinx it,
+[00:39:31] I think next up is the feedback on the color
+[00:39:34] but also fixing that bolt so that it feels more impactful
+[00:39:38] at that moment of impact.
+[00:39:44] And this one, honestly, it's quite a bit longer
+[00:39:46] than the others because of the iterations
+[00:39:50] that he ended up having to do
+[00:39:51] and sometimes you're gonna finish a painting in an hour,
+[00:39:54] sometimes it'll take five
+[00:39:56] or sometimes it'll take a few days.
+[00:39:59] Depending on the complexity of the painting
+[00:40:01] and the challenges,
+[00:40:02] some of the stuff is really hard to estimate
+[00:40:04] and I wouldn't fault yourself for taking an extra long time
+[00:40:09] especially when you're starting out.
+[00:40:10] I know, oh my gosh, if you're used to cranking stuff out
+[00:40:15] and you're really good at something else,
+[00:40:17] say you're just the best at creating a new material
+[00:40:21] that does something really sophisticated and complicated
+[00:40:24] and then you're coming into painting
+[00:40:25] and your painting skills are really rusty
+[00:40:28] and you're just getting familiar with it,
+[00:40:30] that feeling of moving slow
+[00:40:33] when you're used to moving fast on your work
+[00:40:35] and getting lots of recognition and praise for it
+[00:40:40] and people love it
+[00:40:41] and then you're going to something
+[00:40:42] where you're not very good at it
+[00:40:43] so it's gonna take you way longer
+[00:40:45] but then also because you're not good at it,
+[00:40:47] even after you've taken way longer, it's not very good.
+[00:40:50] It's the quality of using the best
+[00:40:52] that can be discouraging, right?
+[00:40:55] I don't know what to tell you
+[00:40:57] other than that that experience is extremely common
+[00:40:59] and you shouldn't feel strange at all for having it.
+[00:41:02] It's very risky going into a new project
+[00:41:06] because it might turn out terrible and you don't know.
+[00:41:10] You might end up spending four to eight hours on something
+[00:41:14] just to find out that it's not any good
+[00:41:16] and you have to throw it away or start over
+[00:41:21] and that's a risk, right?
+[00:41:22] That's a risk on your time
+[00:41:24] and I think a lot of us, we just don't wanna take that risk
+[00:41:28] and I would just say to you, that is not a loss of time.
+[00:41:34] What that is is that is pen mileage spent,
+[00:41:37] it's hours spent getting the bad drawings out
+[00:41:40] which you have to do, you have to get,
+[00:41:42] you have, like I love this saying that like you have
+[00:41:45] a million bad drawings inside of you or 20,000
+[00:41:48] or whatever the estimate is, I don't know
+[00:41:51] and you have to get those out of the way
+[00:41:53] so that the good drawings can come out
+[00:41:55] because those ones are just standing
+[00:41:56] in the way of the good drawings
+[00:41:57] and it's the same with this obviously.
+[00:42:01] You just have to do it.
+[00:42:02] You just have to do the drawings
+[00:42:03] that you're not gonna be happy with
+[00:42:05] and so understanding that going in,
+[00:42:08] maybe your painting won't look as great as Chaplin's.
+[00:42:11] I don't know, it might.
+[00:42:12] Maybe this video is gonna be all that you needed
+[00:42:14] to get you to a high performing level
+[00:42:17] to make the most gorgeous effects ever and I would love that
+[00:42:20] and I hope that that happens for some of you
+[00:42:22] but for others of you, I guarantee that is not gonna happen.
+[00:42:25] Some of you are gonna make amazing paintings,
+[00:42:27] others of you are not and that's okay
+[00:42:29] because we're all at different places
+[00:42:31] and even on different days, like I'll have sometimes
+[00:42:34] where I know how to paint lightning
+[00:42:37] but I'll have sometimes where I'm painting lightning
+[00:42:39] and it looks terrible and I thought I knew how to do it.
+[00:42:43] Like maybe I did an amazing one a year ago or something
+[00:42:46] but then the one I'm doing right now, it's not any good
+[00:42:49] and I have to throw it away and start over.
+[00:42:51] So it happens.
+[00:42:54] All right, so he's got his new shape in.
+[00:42:56] He finally got that feedback.
+[00:42:57] I was foreshadowing way back when and feedback's come.
+[00:43:05] All right, so where are we at?
+[00:43:14] So now he's just painting in the dark
+[00:43:16] whereas before he inset the shape.
+[00:43:19] Again, like more than one ways to do the same thing, right?
+[00:43:21] Like this is giving him automatically a nice varied edge
+[00:43:27] although it looks like here,
+[00:43:29] he ends up putting a stroke on it anyway or something.
+[00:43:31] I don't know.
+[00:43:33] Oh, he's lassoing it away to get it nice and crisp.
+[00:43:36] Very specific to what he wants.
+[00:43:51] I think maybe it looks kind of fuzzy
+[00:43:52] just because the quality of the video is fuzzy.
+[00:43:55] But you can see the sharper version over here.
+[00:43:59] Getting those nice pointy points in there.
+[00:44:02] Feels really good.
+[00:44:04] When you're looking at shapes that are abstract like this,
+[00:44:07] there's not quite a comparable real life example.
+[00:44:16] I don't know, you can take some liberties
+[00:44:17] in how you design the shapes
+[00:44:18] and how they all play together and so forth.
+[00:44:22] I think it all does harken back to reality eventually
+[00:44:25] but there's definitely a lot of room for interpretation
+[00:44:28] and just kind of taking some liberty with it.
+[00:44:42] So it's often smart when you're adding layers
+[00:44:44] on top of layers like that.
+[00:44:46] And they're all kind of doing a different thing
+[00:44:49] but working together, keeping them separate is nice
+[00:44:51] because you can adjust the opacity later.
+[00:44:53] So like, he did this gradiented layer
+[00:44:58] basically by selecting it
+[00:44:59] and then just doing a soft brush, boom.
+[00:45:01] So it's like gonna be darker in the middle
+[00:45:04] and then fading out as it gets out to the outer edges
+[00:45:06] of that very, very large brush.
+[00:45:09] And it works really nicely for him actually.
+[00:45:14] And then areas like up here where it's just very,
+[00:45:18] very subtly coming through.
+[00:45:20] And if that's done on a different layer,
+[00:45:21] that big brush, boop, what's cool about that
+[00:45:25] is you can adjust the opacity, right?
+[00:45:27] You can make it really, really prominent
+[00:45:30] so you can barely see what's behind it.
+[00:45:31] You can make it really subtle
+[00:45:32] so that you can barely see the gradient
+[00:45:35] and you can play with that
+[00:45:36] and see what you wanna do with it.
+[00:45:40] So he's adding bits of electricity,
+[00:45:41] some of them tied to the main body,
+[00:45:43] some of them swirling around it.
+[00:45:45] That's something that I think too often we shy away from
+[00:45:49] is like, we'll do the thick part
+[00:45:52] and then we'll have the thin part that like goes around it
+[00:45:55] because we want the thick part to be one mesh
+[00:46:00] with like a material on it
+[00:46:01] and then we want the thin one to be a separate mesh.
+[00:46:03] But I think it's fun in concept to just play with that
+[00:46:06] and say, what if the thick part has very specific areas
+[00:46:10] where the thin juts off of it and shoots off
+[00:46:12] and then it wraps around,
+[00:46:14] but it's all connected together into one form
+[00:46:17] and trying to solve that in 3D,
+[00:46:19] like how would you get that to look
+[00:46:21] is actually a really fun challenge
+[00:46:24] and could create some really interesting results.
+[00:46:27] Whereas we already know what it looks like
+[00:46:28] if it's just one thick shaft here
+[00:46:31] and then little thing around it
+[00:46:32] is it feels a little bit more constructed
+[00:46:35] and less integrated.
+[00:46:37] That's what I'm trying to say.
+[00:46:39] Okay, so now he's just doing like a little brush strokes.
+[00:46:42] He's doing a crisp one and then also a soft one
+[00:46:46] to see how those are gonna look
+[00:46:48] with this layer style applied to it.
+[00:46:52] Cause he's gonna try to figure out
+[00:46:54] how to work in some really nice highlight shapes,
+[00:46:58] some hot points.
+[00:47:01] So once that looks good there,
+[00:47:03] then you can brush with a highlight brush,
+[00:47:06] which is a lot more fun than just painting with pure white.
+[00:47:10] Cause it can have some really interesting outcomes.
+[00:47:12] And of course, by control clicking on the layer
+[00:47:16] and then creating a new layer,
+[00:47:19] you can then paint inside of an area
+[00:47:21] where it's limited and it's tied to it.
+[00:47:25] But then the glow is gonna actually bleed outside
+[00:47:28] of the lasso area, which is kind of neat.
+[00:47:31] So it'll create a nice crisp edge up against
+[00:47:33] that lassoed area, but then bleed further out.
+[00:47:36] He actually plays around with these shapes quite a bit
+[00:47:40] until he lands on what the final version is, you'll notice.
+[00:47:44] And so there's some really cool stuff happening there.
+[00:47:50] Just playing around with like,
+[00:47:51] what if it's just enveloped in light,
+[00:47:54] but then he's wanting to carve out some shapes
+[00:47:57] and he's not quite happy with that.
+[00:47:59] Cause it's a little bit derivative
+[00:48:01] of all the different times that he made edits.
+[00:48:05] It's like, I do that all the time.
+[00:48:06] Like I'll like make a brush, make a brush,
+[00:48:08] make a erase, erase, and I just lose track
+[00:48:10] of what I was trying to do, right?
+[00:48:12] So sometimes it's good to just wipe the slate clean,
+[00:48:14] just start over and then go in.
+[00:48:21] So now he's trying to play around with like,
+[00:48:23] what if I made some kind of glow that made it really light
+[00:48:25] up in an interesting way and he's just playing
+[00:48:27] with blend modes to see how that glow could feel.
+[00:48:31] Doesn't really find a blend mode that works
+[00:48:33] for what he's trying to do.
+[00:48:34] So it's back to painting in those highlights again.
+[00:48:55] So the orange is an important layer because it breaks
+[00:48:59] up that black in a way that allows the hot white
+[00:49:02] to sit on top of it, right?
+[00:49:05] Because plasma isn't just bright white
+[00:49:08] and then whatever's around it is what it was.
+[00:49:11] Like plasma has like, like it puts off stuff.
+[00:49:15] Like it, you know what I'm saying?
+[00:49:16] Like the hot core, it might like be like spewing out,
+[00:49:22] I don't know, like a liquid or gas or something.
+[00:49:26] And that's gonna fill in those gaps between it
+[00:49:29] to where it's orange in between versus just black in between.
+[00:49:32] Like we say that highest area of contrast
+[00:49:34] is the highest energy and that's true,
+[00:49:36] but that doesn't mean that you go white, black, white.
+[00:49:39] Like sometimes you have like white couched in some orange
+[00:49:44] with little flecks of black and then back to a big body
+[00:49:46] of black and just putting them into closer proximity
+[00:49:50] with each other is gonna do plenty enough.
+[00:49:53] You don't need like very, very, very choppy,
+[00:49:56] busy contrast all the time.
+[00:49:59] And so by having that orange in there,
+[00:50:00] I think that was really a smart move of him.
+[00:50:03] I like it a lot because it makes it feel like
+[00:50:04] one continuous bolt coming down
+[00:50:08] without it just being solid white all the way down.
+[00:50:10] It's broken up, but it's broken up by basically
+[00:50:14] a more intense version of whatever this black stuff is.
+[00:50:51] Okay, so I think he's like kind of stepping back
+[00:50:53] and enjoying this right now.
+[00:50:54] It's always fun to have that satisfying moment
+[00:50:56] when you're like, I made something that I'm happy with.
+[00:50:59] It's beautiful.
+[00:51:00] And then you send it off for feedback
+[00:51:01] and they may not totally agree with how amazing
+[00:51:05] you might think it is, but at least you had that moment
+[00:51:08] of understanding that you pushed
+[00:51:10] your own personal limits further
+[00:51:12] and now you are standing at a new frontier
+[00:51:17] of your abilities, right?
+[00:51:19] And what's cool about feedback is
+[00:51:21] that'll expand that even further.
+[00:51:23] So the goal is you get it to where you feel like
+[00:51:26] it's as good as you can make it.
+[00:51:28] There's nothing more that you would add.
+[00:51:30] And then you hand it off for feedback
+[00:51:32] and you find out what more you can add
+[00:51:34] and how you can make it better.
+[00:51:35] And then you'll just go that much further
+[00:51:37] and much further and further until eventually
+[00:51:41] you start finding yourself in a position
+[00:51:43] where yes, you can still go further,
+[00:51:45] but also you're able to add a lot of value for other people
+[00:51:48] and help mentor and train them up as well.
+[00:51:50] And that's a really good feeling.
+[00:52:04] My goal with these classes is always
+[00:52:07] to basically train more people that can train more people
+[00:52:14] so that we can build this community together.
+[00:52:16] Because I recognize very quickly that I can paint
+[00:52:22] and I know the foundations of what makes good painting,
+[00:52:25] but by having Shovlin do it and by having you guys
+[00:52:29] help with that discussion,
+[00:52:32] like after you've learned from this,
+[00:52:33] then you can contribute in even more.
+[00:52:36] Like, gosh, that builds something far more
+[00:52:38] than just one teacher can teach.
+[00:52:40] And that's pretty inspiring to me.
+[00:52:42] It's pretty exciting for me.
+[00:52:46] Building in more of those highlights.
+[00:52:48] Again, it is so fun.
+[00:52:49] Like I hope you guys are having a lot of fun painting
+[00:52:51] with effects turned on the layer.
+[00:52:54] Like it's like you're painting light.
+[00:52:56] It just feels so great.
+[00:53:02] Okay, so he's got the impact now.
+[00:53:05] And then onto the dissipation.
+[00:53:11] Oh yeah, important to add a solid layer between them
+[00:53:14] if you want them to properly turn on and off.
+[00:53:18] Because he's just hiding the whole folder.
+[00:53:20] But if inside that folder he doesn't have like a solid gray
+[00:53:23] as a background behind it all, the other one stays on.
+[00:53:28] So it wasn't feeling as good.
+[00:53:30] We're checking the animation.
+[00:53:51] All right, some more glow touch-ups.
+[00:53:55] You can just brush these in as prominent as you want
+[00:53:58] and then either make them additive or make them more subtle.
+[00:54:03] It's always a fun option.
+[00:54:07] Okay, so here the big feedback on this piece was
+[00:54:11] fading it out to color on the outer edges.
+[00:54:18] And again, this does deviate from the original reference
+[00:54:22] by Alex Redfish.
+[00:54:24] But that was something that I really was interested to see
+[00:54:28] was how the energy transitions as it cools
+[00:54:32] out towards the outer edge.
+[00:54:34] So he's adding in all these highlights.
+[00:54:38] Get this out of the way.
+[00:54:39] He's adding in all these highlights.
+[00:54:41] And notice that the highlights are brightest
+[00:54:43] right on the contact with the outer edge.
+[00:54:48] Which is just a great way to sort of add some indication
+[00:54:51] of that outer edge, that area of effect.
+[00:54:58] It's really smart.
+[00:55:00] And that'd be kind of hard to do in engine
+[00:55:03] to get it to do this, like so that the overlay does that.
+[00:55:06] Although I don't know.
+[00:55:07] I guess in the mesh maybe or in the material
+[00:55:11] you can get that to do that.
+[00:55:14] At least nearby the area of effect, I don't know.
+[00:55:18] Hadn't tried that one before.
+[00:55:21] But it looks freaking awesome in the concept.
+[00:55:44] I like too this shape.
+[00:55:45] He did this shape quite a while ago, this one here.
+[00:55:49] Because it's three dimensional, right?
+[00:55:50] Like it goes up to a point then down to the ground
+[00:55:52] and then back away from us and then up.
+[00:55:58] And so it feels, I don't know, he's just very creative
+[00:56:05] with how he shows things in three dimensions.
+[00:56:11] It's not just a squiggle that zigzags around
+[00:56:14] but there's like a reason to it.
+[00:56:17] And then by putting that highlight on the front of it
+[00:56:19] like he did, look how the highlight is right here
+[00:56:24] on the nose of it, it makes that even clear
+[00:56:26] that that's in front and that it comes down to the ground
+[00:56:30] and then this going away from it is behind it.
+[00:56:33] And again, it's done mostly with just flat shapes.
+[00:56:38] That highlight was the first time
+[00:56:39] that he added some value difference.
+[00:56:42] But that just popped it out even more
+[00:56:44] with what was already there.
+[00:56:49] So first he tries just painting in the purple tips.
+[00:56:52] But I think he just wanted something
+[00:56:54] that was more consistent and easy to change later.
+[00:56:56] And to do that, it's just very easy to do gradient overlay.
+[00:57:08] So he's gonna convert it to a smart object.
+[00:57:10] He just clicked on the folder, right clicked,
+[00:57:12] convert to smart object so that then he can easily apply
+[00:57:21] color to the whole thing.
+[00:57:34] I think here he's gonna just go ahead and do it
+[00:57:36] and effects on it.
+[00:57:42] Gradient overlay and he sets that to color.
+[00:57:45] That's important because if you just do normal,
+[00:57:49] then it washes everything out.
+[00:57:51] But color preserves those nice values.
+[00:58:02] There we go.
+[00:58:16] And then there you have it.
+[00:58:22] So he's got these two laid out.
+[00:58:24] They're working really nice together.
+[00:58:29] He wants to add some glow in the center.
+[00:58:31] That center glow feels really nice and hot
+[00:58:33] like the ground is still intensely burning.
+[00:58:37] And you can get that with like a fuzzy brush
+[00:58:41] as a glow so it's like the fuzz feels glowy,
+[00:58:46] but then you make it glow a different color
+[00:58:48] than whatever the fuzz was.
+[00:58:50] I think it does an inner glow.
+[00:58:53] I'm not mistaken.
+[00:58:54] Yeah.
+[00:58:59] Make sure you have that inner glow radiate from the center
+[00:59:01] so that the hotter color is in the middle
+[00:59:05] and then it comes out to the cooler color.
+[00:59:09] And then of course, that'll look a little different
+[00:59:10] because out in the Photoshop document,
+[00:59:15] outside of the smart object,
+[00:59:16] that's where the gradient overlays at.
+[00:59:20] So it does get a little weird
+[00:59:22] like once you start painting inside of a smart object
+[00:59:24] because you always have to make sure
+[00:59:26] that whatever you're painting in there
+[00:59:28] looks the way you want it up in the main document
+[00:59:31] where it's being like either stretched
+[00:59:32] or has more filters or adjustment layers on it or whatever.
+[00:59:45] Cool, so I think this is pretty much
+[00:59:47] gonna wrap it up for us.
+[00:59:52] He's just gonna like shift around and tweak a few things
+[00:59:55] and have some fun with it.
+[00:59:57] I hope you guys learned a lot.
+[01:00:00] I hope you guys really enjoyed following along
+[01:00:03] and making this painting.
+[01:00:04] I'm really excited to see the kinds of jaggedy dark magic
+[01:00:08] that you guys are gonna come up with.
+[01:00:10] And yeah, it's been fun putting this video together
+[01:00:14] and good luck out there.
+[01:00:17] All right, we'll see ya.

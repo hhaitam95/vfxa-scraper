@@ -1,0 +1,73 @@
+[00:00:05] Hello everyone, welcome to the Scene Setup video of the Elemental Studies course.
+[00:00:09] In this video, I'll show you how to quickly create a failing scene to work on your VFX.
+[00:00:15] We're going to see how to make a simple check about ground, how to edit lighting options
+[00:00:20] of our scene, and how to apply post-process effects.
+[00:00:24] So let's get to work.
+[00:00:28] An antivoid like this isn't ideal to perceive our effects.
+[00:00:32] Creating a ground will help us better visualise the location, orientation, and scaling of
+[00:00:37] our effects in 3D space, so we start by creating a new scene and our new ground component.
+[00:00:45] After opening your Unity project using the Universal Render Pipeline template, we'll
+[00:00:50] create a new scene by clicking on File, New Scene, and selecting the basic URP template.
+[00:00:58] We can now add a ground by going to the hierarchy window, right click, 3D Object, and create
+[00:01:03] a plane.
+[00:01:04] We will set its X, Y and Z coordinates to 0 to place it at the centre of the scene,
+[00:01:09] and eventually scale it a bit.
+[00:01:12] Then we're going to replace this standard PBR grey model by a handmade check about pattern
+[00:01:17] model, and to do so, we'll create the first shader of this course.
+[00:01:23] To create a shader, right click in the project window, select Create, Shader Graph, Universal
+[00:01:29] Render Pipeline, and we will finally click on the lead shader graph template.
+[00:01:35] This shader is pretty simple, you'll see.
+[00:01:38] The Checkerboard built-in node here will generate a customisable pattern, where we can control
+[00:01:43] the colours and tidings of the set pattern through those properties, a float property
+[00:01:48] to edit the tidings of the checkerboard texture, and two colours properties to choose which
+[00:01:53] colours will be assigned to the checkerboard pattern.
+[00:01:57] The result of this checkerboard node will serve as the base colour of our shader.
+[00:02:04] We now just need to create two other properties to handle the metalness and the smoothness
+[00:02:08] of the ground, and we're done.
+[00:02:12] Our first shader being done, we will create our first metal out of it by right clicking
+[00:02:16] on it to create a metal with our shader directly applied to it.
+[00:02:23] We can now just drag and drop it to our ground to assign the metal to our plane's 3D mesh.
+[00:02:29] Let's set up our material now by editing the colors and values of our properties that we've
+[00:02:34] created earlier in the shader.
+[00:02:37] Note that the Tiling property will highly depend on the scale of your effects, you might
+[00:02:42] want to change it later on.
+[00:02:46] Now let's talk about the scene lighting settings.
+[00:02:49] We don't want a scene that bright, we're going for a darker lighting setup that will
+[00:02:53] help bring contrast to our luminous effects to make them the focus point of the scene.
+[00:03:00] We will first edit the directional light component by lowering the intensity and choose a natural
+[00:03:06] white color.
+[00:03:08] Then we will reach the scene's advanced lighting settings by going to the Window tab, Rendering
+[00:03:14] and clicking on Lightning.
+[00:03:17] In the Environment tab, we will set the skybox and sun source to None to have a non-tilt
+[00:03:23] hit scene, activate the Fog option with the Exponential Square mode and set its density
+[00:03:29] to a low value like 0.02 to have a subtle fog effect in our scene.
+[00:03:35] This will help making our scene more atmospheric.
+[00:03:39] The final step in setting up our scene will be to add some post process effects that edit
+[00:03:44] the final rendering of the game.
+[00:03:47] We will use two basic effects in our case, a bloom effect to make our emissive particles
+[00:03:52] glow and a vignette effect to center our focus area.
+[00:03:59] In the hierarchy window, right click, Volume and select Global Volume.
+[00:04:04] This game object apply post process effects to the entire scene.
+[00:04:09] We are going to set the weight to 1 and create a new post process profile that will be used
+[00:04:14] as a preset of post process effects.
+[00:04:18] We are going to activate the bloom effect and set its intensity to a low value above
+[00:04:25] 1 and we are going to add a vignette effect with a value above 0.2 to have a subtle but
+[00:04:32] noticeable vignetting on our screen.
+[00:04:35] When observing this emissive sphere, the bloom and vignette effect seems to work fine in
+[00:04:40] your scene view window.
+[00:04:42] However, as you can see, these post process effects do not render in our game view, plus
+[00:04:48] we got this weird blue skybox and a very bad camera angle to watch effects in our scene.
+[00:04:55] To correct this, we need to Edit Cameras option.
+[00:05:00] We are going to tick the post processing option and while we are at it, select SMAA as the
+[00:05:06] anti-aliasing mode to get rid of jagged edges rendered by our camera.
+[00:05:14] We will also activate the depth texture rendering to let us use some cool shader functionality
+[00:05:20] like depth fade which we will discuss in the next video.
+[00:05:25] After placing our camera on top of our ground, we can get rid of the blue skybox by selecting
+[00:05:31] the background type to solid color and choose a dark neutral grey.
+[00:05:37] And that's it!
+[00:05:38] You now have a working scene ready in Unity Engine where you'll be able to create and
+[00:05:42] render your VFX.
+[00:05:44] If you want, you can create empty game objects and use them as separators to help you keep
+[00:05:49] your hierarchy window organized and clean.
+[00:05:55] I hope you liked this quick video and I see you in the next one.
+[00:05:58] Bye bye!

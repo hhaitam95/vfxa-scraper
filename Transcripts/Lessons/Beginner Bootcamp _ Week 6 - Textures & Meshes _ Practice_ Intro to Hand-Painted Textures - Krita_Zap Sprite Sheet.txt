@@ -1,0 +1,202 @@
+[00:00:05] Hello everybody and welcome back to Creta. We're on lesson five today. We're making some electric zaps.
+[00:00:11] We're going to be painting a two by two sprite sheet similar to the ember sprite sheet that we did last lesson.
+[00:00:17] But it's going to be zaps today. It's going to be very fun and I'm very excited to get started.
+[00:00:23] Zaps are like one of my most favorite things.
+[00:00:25] So one thing to keep in mind with these though is that it's very easy to go overboard with the level of detail.
+[00:00:32] But we can go over that once we get the lesson started. So yeah, let's get to it.
+[00:00:38] All right, let's get this party started. Let's go ahead and make a new file for our zaps.
+[00:00:44] And I'm actually going to go bigger on the file size this time. Usually I stick with 512 by 512 because it's sort of a good middle ground for texture size.
+[00:00:54] Especially for things that aren't going to be very big on screen or if you're not really sure how big it's going to be once you have it in engine.
+[00:01:00] But for these zaps, since there's more detail in the electricity, I want to be able to maintain the fidelity of the texture once they've been sized down into each quadrant.
+[00:01:12] So instead of 512 by 512, I'm going to go with 1024 by 1024 today. Here we are.
+[00:01:21] So each zap will have about a 256 by 256 area that I'll be able to cover.
+[00:01:27] So the zaps can be used on either big things or small things. We can vary it up a little bit.
+[00:01:32] All right, so let's go ahead and create our file now that we've got the size all figured out.
+[00:01:37] And here we are, brand new file. We already have our blank layer that we can paint on.
+[00:01:42] So we're going to start with a blob shape. I'm actually going to go a little bit thinner with the blob this time.
+[00:01:49] I'm going to go a little more scribbly with the blob as well just so that I can start off with an interesting shape.
+[00:01:56] That sort of informs the decisions that I make with where I'm erasing away.
+[00:02:02] Trying to keep things simple, but also trying to add some visual interest to the different parts of this texture.
+[00:02:20] Definitely a balance that you have to try to strike.
+[00:02:24] Keep things interesting, but not too interesting because you don't want to visually overwhelm the player of the game.
+[00:02:35] The surrounded edge feels kind of weird, so I think I'm going to square this out a little.
+[00:02:46] Kind of cool to have a break in there, but I might end up keeping it. I think that looks pretty cool.
+[00:03:01] All right, I think we have our first zap basically done at least.
+[00:03:11] I'm going to clean up just a little bit more. I wonder if I should make these circular shapes a little less circular.
+[00:03:21] So it's not just like, oh well, it popped a circle down there.
+[00:03:25] Okay, cool. I think that's good for a first zap.
+[00:03:30] I'm going to try to center that as best as I can.
+[00:03:34] And then I'm going to go over and label this.
+[00:03:39] Do zap one.
+[00:03:41] Then make a new layer.
+[00:03:43] And let's make another zap.
+[00:03:46] Zap number two.
+[00:03:48] An important thing to keep in mind with zaps like these is, generally speaking, it's good to try to maintain the visual style of the zaps so that you don't have zaps that are too different from each other.
+[00:04:02] Good to have variety, but not good to go overboard with the variety, if that makes sense.
+[00:04:12] Some little squiggly bits in here. I'm trying to clean up with my brush.
+[00:04:20] I apologize for my silence. I'm totally going into my normal work focus mode.
+[00:04:34] This is how I get when I paint.
+[00:04:39] Just quiet and contemplative.
+[00:04:42] Let's try now a couple of things, seeing if a little tail thing feels good over here.
+[00:04:59] Or if it feels not natural.
+[00:05:03] It'd be cool to have one, but...
+[00:05:06] Yeah, I guess that kind of works.
+[00:05:12] There we go. I think that looks pretty neat.
+[00:05:15] Maybe a little bit on the square side. I think I might be able to do something a little more interesting here.
+[00:05:21] Getting a little on the thin side, especially down here where it connects to the bottom area.
+[00:05:35] Sticking that up a little bit.
+[00:05:39] There we go.
+[00:05:48] Let's try to center this one as well.
+[00:05:51] I'm actually going to grab the corner widget and scale it up just a little bit.
+[00:05:56] So it kind of matches the same size that we had for our first zap.
+[00:06:02] I'm going to make a new layer, and I'm going to do the same thing for the other zaps as well.
+[00:06:07] Just looking at these first two zaps, making sure that visually they look like they could belong in the same sort of world,
+[00:06:17] or in the same sort of visual style, and I think that they look like they could so far.
+[00:06:22] So I'm going to keep on trying to make similar style zaps,
+[00:06:27] and I guess I could try to make a zap that doesn't really fit in the style that I've started with,
+[00:06:36] just so I can give you sort of an example.
+[00:06:52] I'm actually sort of liking this zap better than the first two I made.
+[00:06:57] Oh no, unfortunate. I was trying to come up with an example of a zap that sort of looks like it's in a different visual style.
+[00:07:06] But yeah, I kind of like that.
+[00:07:08] But yeah, I don't think it necessarily... it could fit with these other ones, but it's not quite the same.
+[00:07:15] It doesn't have these very circular cutouts that I gave the first two.
+[00:07:21] It has a couple maybe, but they're much less prominent than they were in the first two.
+[00:07:25] So I guess this is just an example of trying to keep textures that you make similar enough to each other,
+[00:07:30] that they can belong in the same vein as the other zaps that you've created.
+[00:07:34] And something else that we can talk about is making zaps that are maybe too visually noisy.
+[00:07:40] It's a problem that's really easy to run into.
+[00:07:43] So let's say that...
+[00:07:52] I'm going to try to go super ham with these wiggles.
+[00:07:56] Then I'm going to try to make little cutout shapes for each little bit here.
+[00:08:07] This might take me a minute, but I sort of want to get the point across that
+[00:08:11] there is such thing as going too ham with the level of detail for zaps.
+[00:08:17] Where there's not really a place for your eye to rest, there's just detail, detail, detail.
+[00:08:22] Maybe I'll get some branches off of here.
+[00:08:33] So you might be looking at this and thinking, well, it looks kind of cool.
+[00:08:51] There's a lot of motion going on here.
+[00:08:55] But for an in-game texture, this is definitely too much.
+[00:09:00] I think that electricity like this definitely has its place in illustration.
+[00:09:06] I think that this is just too visually noisy for something that we're trying to keep relatively simple and stylized
+[00:09:13] so that we can use it for several different applications,
+[00:09:16] like having it on an electrified barrel or on a character that's electrified or something like that.
+[00:09:23] I think that having something like this is just a bit too noisy.
+[00:09:26] There's a lot visually going on.
+[00:09:28] That is why we want to keep shapes a bit more simple
+[00:09:32] so that it can be applied to several different things
+[00:09:36] and not have to struggle with the level of detail or the level of scale here.
+[00:09:42] So I'm going to go ahead and delete this since we're not going to use it.
+[00:09:46] I just sort of wanted to give a quick example of what a texture looks like that's too detailed.
+[00:09:51] Let's get back to painting our third zap.
+[00:09:54] Let's do sort of a shape like this, at least for the start.
+[00:10:00] It's kind of hard to describe my process for how I go about painting these sorts of things.
+[00:10:11] I guess the best way I can put it is I draw sort of the initial shape that I want to follow
+[00:10:17] and then I erase away bits that I feel like could add interesting shapes.
+[00:10:22] Also good to have variation in the thickness of your zap.
+[00:10:32] I think that that's sort of the goal behind erasing away the material that I'm erasing here.
+[00:10:37] Is so that certain parts of the zap are thicker and certain parts of the zap are thinner.
+[00:10:43] So you get sort of a nice visual change across the texture.
+[00:10:47] This might actually be not quite noisy enough.
+[00:10:56] I might be simplifying it too much now.
+[00:10:59] Trying to be wary of the shapes I'm putting in here.
+[00:11:05] If I put in some smaller cutaways like that, I think that helps a little bit.
+[00:11:10] I'm not quite sure what to do with this little loop that I've made.
+[00:11:20] I might actually end up just taking it out.
+[00:11:23] That's kind of cool.
+[00:11:41] Okay, I might be getting a little bit too noisy with that little branch that I put in there,
+[00:11:45] but I wanted to sort of maintain that loop somehow, that shape that I had in there.
+[00:11:52] So I figured putting a branch might sort of help solve for that.
+[00:11:56] I might actually try to thicken this up a little so it's easier for me to erase away some more material without getting too thin.
+[00:12:08] There we go. I think that looks neat.
+[00:12:16] Try squaring that out a little bit.
+[00:12:20] Cool. Yeah, I think that'll work for our third zap.
+[00:12:23] And this one is definitely larger than the other two, so let's try to get it centered as we can.
+[00:12:30] Then I'll click the top right widget and then press Alt and Shift to scale it down towards the center a little bit.
+[00:12:37] Then we can hide it and make our last zap.
+[00:12:44] Something else that's good to think about while you're painting these is to make sure that you're not making the same sort of shape over and over again.
+[00:12:52] And thankfully it looks like this shape and this shape might be a little close.
+[00:13:01] I think they are probably different enough that we'll be okay, but definitely something to consider.
+[00:13:08] I've gone into autopilot mode.
+[00:13:23] And that wraps up our fourth zap.
+[00:13:34] This one does feel a little bit stylistically different from the others, but it's not so stark a difference that I don't feel comfortable using it.
+[00:13:45] I think I'm going to stick with these four as my four zaps I'm going to use.
+[00:13:51] I'm going to center this a bit.
+[00:13:55] I'm looking at all the zaps together just to make sure that they take up a similar amount of space.
+[00:14:01] And it looks like they're pretty evenly sized, which is cool.
+[00:14:07] Next steps for this I would say would be to duplicate each zap.
+[00:14:13] I'm going to start with zap one.
+[00:14:16] I'm going to rename this new layer zap one glow because I want to add some glow to this electric texture we have going on here.
+[00:14:24] So as per usual we can go up to filter, blur, and gauge blur.
+[00:14:30] And then we can play around with the different values here just to see what feels good.
+[00:14:38] I don't want to go too overboard with it, but I do want to make it feel like it's emitting light.
+[00:14:44] I think I'm going to go with around 36.
+[00:14:49] I might actually tone it down a little bit so that we can still get that hard edge in there, but make it feel like it's glowing.
+[00:14:59] And I will go through and do this for the others as well.
+[00:15:03] But I'm going to group the layers together like I did for the Ember sprite sheet just so that things are a little bit more organized.
+[00:15:15] And now that I have this glow in here I might actually size the zap back up because the glow isn't extending so far that it's going to clip.
+[00:15:25] So I can take this group and press control T, click on this widget, then press alt and shift together and size up that zap a little bit.
+[00:15:37] Reposition it down a little since it looked like the space up here was a little smaller than the space down here.
+[00:15:43] And I think that ought to do it for our first zap.
+[00:15:46] So let's go ahead and do the same for the others.
+[00:15:50] So let's duplicate our zap 2 texture, call it zap 2 glow, and go to filter, blur, gaussian blur.
+[00:15:59] Actually something that we can do since we just used the gaussian blur filter on our zap 1 layer, the settings for that filter and how we applied it to that layer is actually stored here.
+[00:16:12] So we can just press control F and it will apply that same amount of glow to the layer that I just duplicated.
+[00:16:20] And I'm actually going to go back and see, ok opacity ended up around 70 so I'm going to bring zap 2's glow down to 70 or thereabouts, it doesn't have to be exact.
+[00:16:34] And that looks good. I think I'm going to do the same thing with this where I make a group for zap 2 and put our zap 2 layers in there.
+[00:16:50] And then resize the whole thing since it could be sized up at least a little bit, making sure that we're maximizing the use of our texture space.
+[00:17:00] And that looks good. So let's do the same for zap 3 and zap 4.
+[00:17:04] To enable visibility on zap 3, duplicate it by pressing control J, rename it to zap 3 glow, then press control F so that we can redo the filter application that we did.
+[00:17:18] Bring down the opacity and make a group layer, call that zap 3 group.
+[00:17:28] Put our zap 3 layers in there and then resize and shift around as needed.
+[00:17:42] I'm going to shift this a little bit to the right I think.
+[00:17:44] And then same thing for this last one.
+[00:17:48] And there we have it. We have each of our zaps all painted out and ready to be separated into their own quadrant.
+[00:18:07] Like we did before on the Ember sprite sheet video, what I'm going to do is click the zap 1 group.
+[00:18:15] Actually I'm going to right click and I'm going to click new layer from visible.
+[00:18:20] And that combines everything that is visible in this space into a single texture here.
+[00:18:27] I'm going to press control T just to make sure we don't have any extra material on the outside.
+[00:18:32] And it looks like it's a clean square this time which is nice.
+[00:18:36] I have this grids and guides open but in case you don't have that you can go to settings, dockers, grid and guides.
+[00:18:45] And it should pop up over here.
+[00:18:47] And once that's open you can say show grid.
+[00:18:49] I'm going to change my spacing to 256 by 256 so we get these nice readable quadrants that we're going to be putting our zap textures into.
+[00:18:57] I'm going to take this and press control T and grab this lower right widget and then hold shift to keep the image square as I'm sizing it.
+[00:19:13] That looks good.
+[00:19:15] That's our first zap in the first quadrant.
+[00:19:18] And we can go ahead and hide that.
+[00:19:20] Hide our first zap here.
+[00:19:22] Enable zap 2 and do the same thing.
+[00:19:26] Right click, new layer from visible.
+[00:19:29] Call it zap 2 combined.
+[00:19:32] Click on it with our transform tool enabled to make sure that there's no material on the outside.
+[00:19:38] This one looks like a clean square as well.
+[00:19:40] So we can go ahead and just click and then press shift to scale it down evenly into the corner there.
+[00:19:47] And we'll do the same with zap 3 and zap 4 as well.
+[00:19:51] Alright now we have each of our zaps in each of their own quadrants.
+[00:20:10] So we can go ahead and disable the visible groups and then make visible the different zaps that we've made.
+[00:20:19] Now looking at these like this I might have made these a bit too visually complex.
+[00:20:23] I think that you could actually take it a step further and make them a bit more simple.
+[00:20:28] But I think that this will work well for several different instances.
+[00:20:34] And just to make sure that we're not overlapping with glow or anything like that I'm going to enable wrap around mode.
+[00:20:43] And I'm just going to take a look at the edges in here.
+[00:20:50] It looks like we've got plenty of space around each of the textures.
+[00:20:54] But it's always helpful, always good to double check just to make sure that your textures aren't overlapping into other quadrants.
+[00:21:01] Yeah I think that looks good.
+[00:21:02] So I'm going to disable wrap around mode and turn off our grid and save our project.
+[00:21:08] I always save it at the very end which is not the smart way to do things.
+[00:21:11] I'm going to name it tzaps2x2 since it's a two row two column sprite sheet.
+[00:21:19] And there we go it's all ready to rumble.
+[00:21:25] Something that I'm actually tempted to go back and do is take these not combined versions and take the basic to opacity brush and go back and erase some of these ends here just to make it feel a bit less harsh.
+[00:21:44] I think that that would add some cool visual variety to the zap itself.
+[00:21:50] So that's something that I could have done.
+[00:21:52] I think I'm going to keep the shapes sharp and simple here though.
+[00:21:56] I think that that will do nicely for our zaps.
+[00:22:02] Yeah there you have it.
+[00:22:03] Started with a simple scribble then erased away some cool cut out shapes from it.
+[00:22:08] Added a bit of gaussian blur, some nice glow, and then combined it all so that we could size each zap down into its own quadrant.
+[00:22:18] We also talked about how it's really easy to go overboard with the detail with zaps so make sure that you try to keep things relatively simple so that the zap can be used for several different applications instead of just for one thing.
+[00:22:32] Also so that you're not visually bombarding the viewer of your effect with the texture that you've made.
+[00:22:38] That is it for lesson 5.
+[00:22:40] Next time in lesson 6 we're going to be making a 2x2 wisp sprite sheet.
+[00:22:45] We'll be doing a similar thing that we did here today but there will be a lot more emphasis on hard versus soft shapes.
+[00:22:53] It's a bit more difficult but I think it'll be a really great exercise to go over with you all.
+[00:22:58] I sincerely look forward to seeing you there and I hope you all have a wonderful day. Thanks so much for watching!

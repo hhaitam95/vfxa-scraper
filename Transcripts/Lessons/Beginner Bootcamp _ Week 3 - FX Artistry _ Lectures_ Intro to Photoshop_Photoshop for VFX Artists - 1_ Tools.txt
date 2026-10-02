@@ -1,0 +1,491 @@
+[00:00:01] Oh hey guys, it's Photoshop.
+[00:00:04] So, I'm gonna talk to you a little bit about this,
+[00:00:07] this Wiley program.
+[00:00:09] It's got all kinds of ins and outs to it.
+[00:00:11] I'm covering this in a series of videos,
+[00:00:13] basically to prepare you for an online class I'm building.
+[00:00:17] You can check that out, link in the description.
+[00:00:20] Dave Shevlin did these amazing paintings
+[00:00:22] for the concept art unit for visual effects.
+[00:00:26] It's pretty cool stuff.
+[00:00:27] I don't want you to be lost
+[00:00:28] when you're following along with him,
+[00:00:30] so I've created these videos for those of you
+[00:00:31] who want an introduction to Photoshop,
+[00:00:33] or if you're like me, you've been using it for many years,
+[00:00:36] and it's just still stuff that you're learning.
+[00:00:39] This will just be a quick, ready guide
+[00:00:41] to cover all the bases that you'll need
+[00:00:43] to making awesome hand-painted effects in Photoshop.
+[00:00:46] Okay, so, if you're painting in Photoshop,
+[00:00:49] you're gonna wanna use the brush tool.
+[00:00:51] That's first and foremost.
+[00:00:52] You can find that thing over here on the tools panel.
+[00:00:55] Your tools panel might be somewhere else.
+[00:00:57] You can move it around by grabbing
+[00:00:58] this little dark area bar at the top and moving that over.
+[00:01:03] You can click these little double arrows
+[00:01:05] if your screen is really squished
+[00:01:08] and you just want that kind of space.
+[00:01:10] If you hover it over the edge, it turns blue.
+[00:01:14] If you hover it over one of these, it'll turn,
+[00:01:17] like, I don't know, you can do it over the bottom, maybe.
+[00:01:20] Tools panel only goes on the side.
+[00:01:22] All the windows kind of function the same,
+[00:01:23] where you can kind of like tear them off,
+[00:01:25] and then re-dock them when it turns blue like that.
+[00:01:31] Okay, anyway, I digress.
+[00:01:33] Tools panel, you got it.
+[00:01:35] Here's the brush tool.
+[00:01:36] You can hit B on your keyboard to select brush.
+[00:01:39] I'm using the latest version of Photoshop.
+[00:01:41] This is Photoshop CC.
+[00:01:42] It's in May of 2019, currently, when this is being recorded.
+[00:01:47] So, if you have an older version,
+[00:01:49] some of this might be a little different,
+[00:01:50] new versions as well.
+[00:01:53] Brush tool is pretty straightforward.
+[00:01:54] When you're using a stylus,
+[00:01:56] it's gonna just come on like so.
+[00:01:59] All right, so I'm gonna create a new layer,
+[00:02:02] which is down here.
+[00:02:03] This is the new layer button,
+[00:02:04] so that I can kind of just predictably know
+[00:02:07] how my brush is gonna look
+[00:02:08] without any of the fancy layer stuff going on.
+[00:02:11] We'll get into layers in a later video.
+[00:02:12] Don't worry about that, guys.
+[00:02:14] I'm getting a little ahead.
+[00:02:16] All right, so you'll notice that when you select
+[00:02:18] different tools over here on the left,
+[00:02:21] it's got a different set of settings at the top.
+[00:02:25] Now, the brush settings include a couple of dropdowns.
+[00:02:28] You got one here, one here.
+[00:02:30] You got the opacity and the flow,
+[00:02:33] and those are really the only things
+[00:02:35] that I'm gonna be using.
+[00:02:36] Oftentimes, it'll have the quick access
+[00:02:40] to the brush that I want here.
+[00:02:41] Other times, not.
+[00:02:42] And so, then I have to come over here
+[00:02:44] to the brushes window,
+[00:02:47] which every window, including that tools panel is here.
+[00:02:51] We've got brushes right here.
+[00:02:54] And you can open these up.
+[00:02:55] You can twirl these out the same way that you do
+[00:02:59] the tools panel, et cetera, et cetera.
+[00:03:02] All right, so we got the brushes.
+[00:03:04] Let's get this going.
+[00:03:06] Now, these are all the ones that have been created.
+[00:03:08] I'm not seeing one in here that I want,
+[00:03:11] so I'm gonna create a new brush setting.
+[00:03:15] Now, if you come over here,
+[00:03:17] you'll see all these different things going on
+[00:03:20] lots of check boxes to look at.
+[00:03:22] Adobe's done a fantastic job
+[00:03:24] at making this as confusing as they possibly can.
+[00:03:26] By the way, this one at the top,
+[00:03:28] without a check mark next to it,
+[00:03:29] it's probably the most important.
+[00:03:31] And you can click it,
+[00:03:31] and it does bring up settings over here.
+[00:03:35] The UI is not intuitive, I know.
+[00:03:38] You know what, I'm just gonna do a blanket apology
+[00:03:40] for all of the complexity of Photoshop in advance,
+[00:03:43] because it's not intuitive.
+[00:03:45] You guys, I'm there with you.
+[00:03:46] I still trip over this stuff,
+[00:03:47] because I'm using like 10 different software packages a day,
+[00:03:50] and I don't always remember
+[00:03:52] all the little ins and outs of each one.
+[00:03:54] But it's fine, that's what this video's for.
+[00:03:56] So, come up to the brush tip shape.
+[00:03:58] It's got all these brush tip shapes.
+[00:04:01] I only use two.
+[00:04:03] I use the fluffy one and the crispy one.
+[00:04:09] And that's all you gotta know.
+[00:04:10] You got the crispy edges here,
+[00:04:12] you got the fluffy edges here.
+[00:04:14] So then I come over to shape dynamics, right?
+[00:04:17] And check this out.
+[00:04:18] It's giving me a little exclamation mark.
+[00:04:20] This is one of those love notes from Adobe,
+[00:04:23] where basically something's out of sync
+[00:04:25] with my drivers and it detecting
+[00:04:27] that I'm using a tablet with a stylus.
+[00:04:29] It's like, you're not using something with a pen pressure.
+[00:04:33] Well, it turns out I am,
+[00:04:34] and when I move this thing closer to it,
+[00:04:36] and I use this, turn it off, turn it back on again,
+[00:04:40] it works.
+[00:04:41] Now, for you, depending on the hardware you're using,
+[00:04:43] this may give you some trouble.
+[00:04:46] And I'm sorry for that, I'm deeply, deeply sorry for that.
+[00:04:48] Over the years, I've had this Cintiq for,
+[00:04:51] I think like eight years.
+[00:04:52] It's like really old, but it's still going.
+[00:04:55] And over the years, with different Windows updates
+[00:04:58] and different updates to Photoshop,
+[00:05:00] I've had varied degrees of problems with this.
+[00:05:03] So, sorry if your pen pressure isn't working.
+[00:05:06] I can't help you try restarting Windows, I guess.
+[00:05:09] Okay, angle jitter is the other one
+[00:05:12] that we're gonna look into in a second.
+[00:05:14] Give you a little bit of preview of what's coming.
+[00:05:16] Got other things in here.
+[00:05:18] I never use scattering texture,
+[00:05:19] dual brush, or color dynamics.
+[00:05:21] Transfer.
+[00:05:23] There's one for ya.
+[00:05:25] Why it's called transfer, what transfer even means,
+[00:05:28] I don't know.
+[00:05:29] But I use it because transfer is basically
+[00:05:32] how faded out it is.
+[00:05:34] But then I guess they use fade as something different here.
+[00:05:37] They have fade, sorry, they have flow and they have opacity.
+[00:05:42] Could I call it fade?
+[00:05:43] I don't know.
+[00:05:45] Transfer is just not intuitive.
+[00:05:46] I don't know what that means.
+[00:05:46] This is basically how translucent it is.
+[00:05:49] So that's driven by pen pressure now too
+[00:05:51] where I can uncheck it and you see it changes there.
+[00:05:54] If I go back to brush tip shape,
+[00:05:57] something I can do with either crispy or fluffy
+[00:06:01] is I can grab the little dot here on the roundness
+[00:06:04] and make it like a chisel.
+[00:06:06] So now it's like this cool little thin shape.
+[00:06:08] And Dave Shevlin, when he's painting, he uses this a lot.
+[00:06:11] He's like, how are you doing that?
+[00:06:13] Because when you pull down, it's just fat
+[00:06:15] and when you go sideways, it's skinny
+[00:06:17] and it's the real problem that I have.
+[00:06:19] I don't know how to fix it.
+[00:06:20] So I asked him about it and he's like,
+[00:06:22] well, the key is you go to shape dynamics
+[00:06:25] and some pens have rotation.
+[00:06:26] I don't, so rotation's not even an option here
+[00:06:29] on angle jitter.
+[00:06:32] By the way, why it says jitter, I don't,
+[00:06:34] again, I jitter because when you change the slider,
+[00:06:38] it jitters.
+[00:06:39] But I never used that.
+[00:06:41] I only ever used the control part.
+[00:06:43] So the angle control, to be clear,
+[00:06:46] it's not angle jitter, it's controlling the angle
+[00:06:49] with pen tilt.
+[00:06:50] So I can't do rotation, but I can tilt with my pen.
+[00:06:56] And that's super fun because now you can see it
+[00:06:59] doing all this biz.
+[00:07:00] And let me get this tweaked just a little bit.
+[00:07:04] I'm gonna skinny it up and I'm actually gonna use
+[00:07:09] my handy dandy old school Logitech cam
+[00:07:13] from a few generations back.
+[00:07:16] And I'm gonna show you what I got going on over here.
+[00:07:19] Let's see if I can switch over to this.
+[00:07:23] Yes.
+[00:07:25] All right.
+[00:07:26] So here I am with my brush.
+[00:07:29] And I've got angle jitter turned on.
+[00:07:34] Let me just make sure we're good.
+[00:07:37] Yeah, okay, so it seems really squirrely at first
+[00:07:41] and terrible.
+[00:07:42] By the way, if you push I, that's your eyedropper tool.
+[00:07:46] And then you can get a new color.
+[00:07:48] I want green.
+[00:07:50] Now, the key to this is, see, cause it'll like,
+[00:07:54] it'll go, but it's always gonna be perpendicular.
+[00:07:57] So as I turn this, it'll turn the head.
+[00:08:01] You don't want it to be up like this.
+[00:08:03] You wanna kinda lay it down a bit
+[00:08:05] to get these nice skinny lines.
+[00:08:07] Or you can do like these wider lines
+[00:08:10] as you please.
+[00:08:12] I'm so terrible, I'm watching the screen, I apologize.
+[00:08:14] So for anyone who's motion sick, I do sincerely apologize.
+[00:08:19] But I wanted to show this to you real quick.
+[00:08:21] So I can carve out these lines sideways, sharp,
+[00:08:25] any angle I want.
+[00:08:26] And that's pen tilt.
+[00:08:27] Okay, enough of that.
+[00:08:32] Cool stuff.
+[00:08:33] All right.
+[00:08:35] Now, we've got pen tilt working.
+[00:08:39] We've got the thick and thin with that.
+[00:08:41] It's a nice way to lay in our shapes.
+[00:08:46] Eyedropper tool, I touched on this briefly.
+[00:08:48] Another fun tip about the eyedropper tool
+[00:08:50] is if you have the brush selected,
+[00:08:53] and I wanna select a color, I just can hold alt.
+[00:08:57] I don't know what that orange off is for it.
+[00:08:58] Now I have that.
+[00:08:59] As long as you're holding alt,
+[00:09:00] it'll stay as the eyedropper tool.
+[00:09:02] When you release it, it goes back to the brush tool.
+[00:09:05] Cool.
+[00:09:06] I have ruined the painting.
+[00:09:08] Awesome, awesome town.
+[00:09:18] Let's move into some other tools.
+[00:09:19] So we've got the eraser tool.
+[00:09:21] Fun fact about the eraser tool,
+[00:09:23] it also uses the brush settings window and the brushes.
+[00:09:26] I never talked about the brushes.
+[00:09:27] You can come into the brushes and save all the changes
+[00:09:31] that you've made in the brush settings.
+[00:09:33] So, say I did something really specific that I really liked
+[00:09:37] and or say I got a set of brushes from someone else online
+[00:09:41] that's giving away their brushes for free.
+[00:09:43] And you can just pop them into here.
+[00:09:45] You can create what you like
+[00:09:47] and then you can just create new.
+[00:09:51] You can come over here and create a new group
+[00:09:53] so you can have them sorted in these different folders
+[00:09:55] which I did not do.
+[00:09:56] And you can of course throw them away
+[00:09:59] which would be sad.
+[00:10:00] Don't throw your brushes away.
+[00:10:02] Okay, so that works for eraser.
+[00:10:04] The stuff at the top looks the same.
+[00:10:06] Sometimes it looks like you're using a brush
+[00:10:07] because literally everything looks the same
+[00:10:10] except for the eraser icon over here is different.
+[00:10:14] Yeah.
+[00:10:15] Sometimes it changes the opacity.
+[00:10:17] Sometimes it changes the flow.
+[00:10:19] So you're not like erasing a ton.
+[00:10:23] Like if I want to erase this cloud,
+[00:10:26] like squeegee it away, you know, you can do that.
+[00:10:30] You can come through here with a chisel.
+[00:10:35] All right, so there's the eraser tool.
+[00:10:38] Next up, it's lasso time.
+[00:10:41] So L is the lasso tool.
+[00:10:43] By the way, E is eraser.
+[00:10:44] A lot of these are just, the ones that I'm listing
+[00:10:46] start with whatever they're called
+[00:10:48] except for the one that I'm gonna get to next.
+[00:10:51] About that in a sec.
+[00:10:52] So the lasso tool is really handy.
+[00:10:55] It's over here.
+[00:10:56] And you'll notice if you mouse over the lasso tool
+[00:10:58] as a little arrow, if you click and hold,
+[00:11:00] it's also got the polygonal lasso tool
+[00:11:02] and the magnetic lasso tool.
+[00:11:04] And you're gonna have by default, these are all set to L.
+[00:11:08] So like, if you like keep hitting L,
+[00:11:11] I think it's like if you hit L multiple times,
+[00:11:13] it switches between them.
+[00:11:15] I just turned that off.
+[00:11:16] I'll show you that real quick up here.
+[00:11:18] Edit and then, oh, I'll get my head out of the way.
+[00:11:21] Edit keyboard shortcuts.
+[00:11:24] There you go.
+[00:11:26] And you're gonna wanna change this.
+[00:11:28] So you're gonna see Photoshop defaults by default,
+[00:11:32] obviously, because it's the default.
+[00:11:33] And then you're gonna wanna duplicate your set here.
+[00:11:36] You can name it whatever you want.
+[00:11:38] You're gonna basically be like hacking Photoshop.
+[00:11:40] That's really what's happening.
+[00:11:41] You're customizing it to do what you wanna do.
+[00:11:43] It's not really hacking, it's just hotkeys.
+[00:11:46] I call it Kai's Original, call it what you want.
+[00:11:49] So then you'll have that option here.
+[00:11:52] You're gonna find the lasso tool.
+[00:11:53] I do not use polygonal lasso nearly as much
+[00:11:56] as I use the regular lasso.
+[00:11:57] There are cases where it's good, but not usually.
+[00:12:00] Magnetic is just out of the question,
+[00:12:01] so I just get rid of that.
+[00:12:03] You can just delete the shortcut over here.
+[00:12:05] Some other ones while we're in here.
+[00:12:07] Spoiler alert, I'm getting ahead of myself.
+[00:12:09] If you come down to, nope, too far, too far.
+[00:12:14] All right, gradient tool is G.
+[00:12:16] Paint bucket tool is also G.
+[00:12:19] But you know what, in Adobe Animate, it's K.
+[00:12:21] So I just set it to K.
+[00:12:23] So it's the same in both for me.
+[00:12:27] Some people come by my computer and they try using it
+[00:12:29] and I hit G and they don't know what's going on.
+[00:12:32] And I have to explain myself as a flash animator.
+[00:12:37] All right, I think the frame tool was set to K.
+[00:12:41] If I'd remember right, I took that off.
+[00:12:44] There's just, you can do whatever you want
+[00:12:45] because you can always go back to Photoshop defaults
+[00:12:47] if it's busted.
+[00:12:49] All right, so we've got the lasso tool.
+[00:12:51] What does it do?
+[00:12:53] Jason, you might be asking.
+[00:12:55] Lasso tool is great because you can select an area like so.
+[00:13:00] Just click and drag it.
+[00:13:01] And then everything you do, whether it's erasing
+[00:13:04] or brushing or anything is just inside
+[00:13:08] of whatever you've lassoed.
+[00:13:10] And if you don't like that crummy border around it,
+[00:13:15] you can do control H and it'll hide it.
+[00:13:18] But it's still only painting and erasing
+[00:13:21] inside of that area, which is kind of cool, right?
+[00:13:26] You can hit control H again to show it.
+[00:13:29] H is for hide, if you were wondering.
+[00:13:32] Control D to deselect.
+[00:13:34] That just removes it and now I can brush
+[00:13:36] and erase wherever the heck I want.
+[00:13:39] Control Z a few times to undo all of our terrible,
+[00:13:43] terrible mistakes, including that layer.
+[00:13:47] All right, so we've got selection basics going on.
+[00:13:53] Can lasso it and all that stuff.
+[00:13:55] Let's talk about paint fill.
+[00:13:58] So paint fill's fun because sometimes you'll have
+[00:14:01] like multiple things selected.
+[00:14:03] Like say I want this goo over here
+[00:14:06] and I want this goo up here.
+[00:14:09] And I want like, I don't know, this goo over here.
+[00:14:15] And what layer are those even on?
+[00:14:17] I should figure that out first, yeah.
+[00:14:19] So some of it is on the splash layer.
+[00:14:20] He's got like multiple layers here and here
+[00:14:24] to kind of like make up that thing.
+[00:14:26] But I'm just gonna click on this layer here.
+[00:14:30] This guy.
+[00:14:31] And you know, I want to come through
+[00:14:34] and I want to brush just those things.
+[00:14:37] Well, as you can see, that's kind of crummy.
+[00:14:40] So I might want to lock the opacity on that layer first.
+[00:14:44] That's like for this layer,
+[00:14:45] I can just come up here and do that.
+[00:14:47] And now it will only paint the opacity
+[00:14:51] on the things that I've, in the areas I've selected.
+[00:14:54] That's kind of fun.
+[00:14:56] Or if I wanted to come in here with the K tool,
+[00:15:01] I can do it this way.
+[00:15:04] Just one fell swoop.
+[00:15:07] Or, yeah, that's not at all what I wanted to do.
+[00:15:10] Maybe I wanted to use the lasso tool
+[00:15:12] like one would use the brush tool.
+[00:15:15] And so I unlock the opacity
+[00:15:17] because I'm gonna be adding more shapes, right?
+[00:15:20] Maybe I want to add like a gloopy gloop here.
+[00:15:24] And I want to add some gloops in here.
+[00:15:28] And I don't really know.
+[00:15:30] These aren't necessarily gonna help the painting
+[00:15:32] in any way, shape, or form.
+[00:15:34] But I can go to K and I can fill those in.
+[00:15:40] And of course I can eyedrop something a little bit brighter.
+[00:15:45] Fill that in as well.
+[00:15:49] If you want you can use the gradient tool.
+[00:15:52] Which uses two colors.
+[00:15:53] See I've got my two colors up here in this gradient.
+[00:15:56] Click on that gradient, it brings up a gradient selector.
+[00:15:58] Now throughout Photoshop there's all kinds
+[00:16:00] of different gradient selectors.
+[00:16:02] The way those work real quick
+[00:16:03] is you've got the color nodes on the bottom.
+[00:16:07] If you click on it the color will show up here.
+[00:16:08] Or you can double click on it
+[00:16:10] and the color will pop up there.
+[00:16:12] Click on that it pops up as well.
+[00:16:15] If you click in the middle it will create a new node.
+[00:16:18] So a new color.
+[00:16:19] If you click and drag it away from the middle.
+[00:16:22] Or away from the bar it'll disappear.
+[00:16:26] If you click on the opacity they'll show up right here.
+[00:16:30] If you click on one of these it'll just give you
+[00:16:31] like a bunch of presets.
+[00:16:32] Which is kind of fun.
+[00:16:33] I'll just use this guy here.
+[00:16:35] And if you want you can customize, create,
+[00:16:38] do whatever you want.
+[00:16:39] And then name it something here.
+[00:16:41] And when you hit new it will add it to the list up here.
+[00:16:45] It's pretty fun.
+[00:16:48] All right so we've got Lime Slushy selected
+[00:16:50] because that's cool.
+[00:16:51] And then with the gradient tool selected
+[00:16:53] you can just click and drag.
+[00:16:54] And it will start with the one color you had
+[00:16:57] and end with the other.
+[00:16:59] I can click and drag out here over and over
+[00:17:00] until I find just the right gradient that I want.
+[00:17:03] Yes those are perfect.
+[00:17:06] Remember I can hit control H to just check my work.
+[00:17:09] And just make sure I got it just the way I wanted.
+[00:17:14] It's doing some weird anti-aliasing
+[00:17:16] because I had it filled previously.
+[00:17:18] If you don't want that you can just like.
+[00:17:23] That's not good.
+[00:17:30] I'm hitting delete multiple times
+[00:17:32] and it's like somehow getting rid of it.
+[00:17:36] I Photoshop right?
+[00:17:37] I don't know what's going on.
+[00:17:37] So there's these weird outlines happening.
+[00:17:42] I don't know what's going on.
+[00:17:43] I did something wrong at some point.
+[00:17:45] And apparently the painting went outside of the selection
+[00:17:49] even though it's not supposed to do that.
+[00:17:51] Okay so we're done with that now.
+[00:17:55] Control D because I'm done selecting those.
+[00:17:57] Smudge tool.
+[00:17:58] Guys this one is super useful.
+[00:18:01] But please, please use a moderation.
+[00:18:03] I think there's a tutorial where I really dive
+[00:18:05] into the smudge tool.
+[00:18:07] It has strength up here.
+[00:18:09] If you get it really big like this.
+[00:18:14] This is not advisable.
+[00:18:17] Because then when you do this.
+[00:18:19] I did three strokes.
+[00:18:21] And I'm done stroking.
+[00:18:23] It's still.
+[00:18:25] Now I have to wait.
+[00:18:27] See how it's smudging and taking time?
+[00:18:30] So learn from my mistakes.
+[00:18:32] And use the smudge tool carefully.
+[00:18:35] Be very like judicious about how big it is
+[00:18:38] and how far your strokes are.
+[00:18:41] Because if you have a computer that,
+[00:18:42] and this is a pretty decent computer.
+[00:18:44] But if you have a computer that tends to chug
+[00:18:45] on different things.
+[00:18:46] It's gonna have some real trouble with the smudge tool.
+[00:18:49] It's not gonna be pretty.
+[00:18:51] Okay I think it's on the last stroke here.
+[00:18:53] Going back up and to the right.
+[00:18:56] Yeah we did it.
+[00:18:57] Control Z.
+[00:18:58] Okay so when I use the smudge tool.
+[00:19:00] I usually use it very small.
+[00:19:01] And I just kinda do this.
+[00:19:03] And it keeps up with it pretty nice.
+[00:19:04] And I'll typically leave some areas crisp
+[00:19:06] and other areas smudged.
+[00:19:08] You'll notice that in the videos when Sheldon's painting.
+[00:19:11] He's very, very cautious with the smudge tool.
+[00:19:15] And only uses it here and there to just kinda like
+[00:19:18] flick out and feather out some edges.
+[00:19:20] Here and or there.
+[00:19:22] All right and then to wrap it up.
+[00:19:24] Foreground and background colors.
+[00:19:26] You may have noticed over here we've got green and white.
+[00:19:29] These are nice little colors over here.
+[00:19:31] You can click on those and it brings up a color picker.
+[00:19:33] Which is the same up here.
+[00:19:35] But then you can flip them with the arrows here.
+[00:19:39] Or you can hit X on your keyboard.
+[00:19:41] Just X.
+[00:19:42] Switches between your foreground and background colors.
+[00:19:45] It's kinda nice to just have like two colors
+[00:19:46] that you toggle between kinda saved.
+[00:19:49] Also very commonly you'll see like you know you do
+[00:19:53] like a palette of like two colors.
+[00:19:54] So you don't need to save them here.
+[00:19:56] And then you can just eye drop from your palette.
+[00:19:58] Which is a great way to ensure that you're keeping
+[00:20:02] the right colors throughout your painting.
+[00:20:05] Okay well that covers it.
+[00:20:08] That's our first introduction to the tools.
+[00:20:10] Basic tools that you like to use in Photoshop.
+[00:20:12] Brush tool eraser, lasso, et cetera.
+[00:20:16] Stay tuned for the next video.
+[00:20:18] We're gonna talk about layers.
+[00:20:19] It's exciting guys.
+[00:20:20] Catch you then.

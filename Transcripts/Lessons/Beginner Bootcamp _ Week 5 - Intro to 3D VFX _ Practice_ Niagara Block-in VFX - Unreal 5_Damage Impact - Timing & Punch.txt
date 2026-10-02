@@ -1,0 +1,296 @@
+[00:00:05] Hey everyone, welcome to this first tutorial for the block-in series in Niagara.
+[00:00:12] In this first video, we're going to be using our Hit Impact here to really start digging
+[00:00:19] into some fundamentals around timing and around punchiness and how you can use those even
+[00:00:27] with an effect like this that's pretty small, that's pretty quick, that you might see dozens
+[00:00:32] if not hundreds of times in a game, and how you can use these principles to still make
+[00:00:40] that feel really responsive, feel really satisfying and fun to watch over and over and over.
+[00:00:48] So we've already got our little empty scene set up over here, so let's just drag this
+[00:00:54] off to the side and we'll get started.
+[00:00:57] Now for all of these block-ins, the place that I really, really want to start is just
+[00:01:03] by getting the basic timing and gameplay purpose nailed down.
+[00:01:11] For this one, this is an effect where the most important thing is just immediately knowing
+[00:01:21] that your hit connected, or that a hit connected with you.
+[00:01:25] So I'm going to start with this flare in the middle because in a very block-in-y sense,
+[00:01:37] this is the only one that we actually need.
+[00:01:39] Everything else is just starting to flesh that out.
+[00:01:42] We're going to start by just making sure that our flare is exactly what we need and then
+[00:01:47] building up from there.
+[00:01:49] Our spawn burst instantaneous is good to go, we only need one.
+[00:01:53] In our initialized particle, we're going to go ahead and set our lifetime to random.
+[00:02:01] And we're going to give this something really, really quick just so that it's on and off
+[00:02:10] and out of the way really, really quickly.
+[00:02:14] For our size, we're going to go ahead and do something like, let's do 90 to 100.
+[00:02:25] And let's set our rotation to random just because this is a particle that can really,
+[00:02:29] really take advantage of that.
+[00:02:33] And in our particle update, we can actually just delete those two.
+[00:02:40] And instead, we'll add a scale sprite size.
+[00:02:46] And in here, I'm going to go ahead and add one extra key around like 0.25.
+[00:02:57] And we're going to bump this up to something like 75% of its full scale.
+[00:03:06] And then we're going to go ahead and select all of these, right click, get some tangent
+[00:03:14] handles on there, and just smooth this part of the curve out a little bit and flatten
+[00:03:22] this a little.
+[00:03:24] So my goal with this particular kind of curve is because we want this to feel really punchy
+[00:03:32] and we want this really, really immediate responsiveness, it's really, really nice
+[00:03:39] to have a curve like this where you're getting almost all of the size of something pretty
+[00:03:45] much instantaneously.
+[00:03:46] So you get that really, really fast read and it has a lot of energy to it.
+[00:03:51] But by giving it a little bit of taper at the end as well, you let it continue that
+[00:03:58] motion and you let it feel a little bit more organic.
+[00:04:01] If it just popped all the way up to its full size and then just stopped and hung out there
+[00:04:08] for the rest of its lifetime, then it would feel a lot less polished, feel a lot less
+[00:04:16] organic and stuff like that and just not integrate quite as well.
+[00:04:19] So that's why I like having this little bit of taper at the end, even if it's only like
+[00:04:28] a quarter or even a tenth of its full scale, just to just to let it have that little ease
+[00:04:35] out as well.
+[00:04:38] And I'm going to jump back over to the system state real quickly and take our system's loop
+[00:04:45] duration down to one just so we can see this a lot more frequently and then we will reset
+[00:04:56] the emitter's life cycle mode to just inherit from the system.
+[00:05:01] So you can see this a lot more regularly now.
+[00:05:04] This is all we actually need for the internal flare.
+[00:05:07] And like I said, if your style is really, really simple, this is all you actually need.
+[00:05:12] You did it.
+[00:05:13] You did the block in.
+[00:05:14] But, you know, we want to do a little bit more than that because that wouldn't be the
+[00:05:21] greatest tutorial video ever.
+[00:05:23] So let's go ahead and copy paste this over.
+[00:05:27] And we're going to add some spikes to this next.
+[00:05:33] Now these spikes are going to do a couple of really, really nice things for us.
+[00:05:41] The big one is that they're going to be a really great source of secondary motion and
+[00:05:51] detail and of complementing that main core shape.
+[00:05:56] So these will add a lot of visual interest and just give it a little bit more randomness,
+[00:06:04] give it a little bit more of a fall off.
+[00:06:06] There are a lot of good things that come out of these spikes that we'll touch on more as
+[00:06:09] we go through each element.
+[00:06:11] So for starters, in our spawn burst instantaneous, we're just going to set this to be a random
+[00:06:21] range instead.
+[00:06:22] We'll do something like six and eight.
+[00:06:28] Go ahead and isolate these real quickly.
+[00:06:31] And then in our initialized particle, one of the big things that I want to do with these
+[00:06:41] spikes besides just giving that secondary motion is I want to let this have a much longer
+[00:06:48] overall ease out.
+[00:06:50] We talked a little bit about the value of this ease out here as far as kind of giving
+[00:06:56] you a little bit of a rest and a little bit of a taper on the overall energy of this at
+[00:07:01] the end.
+[00:07:03] If we let these spikes stick around for a fair bit longer, then that's going to give
+[00:07:08] us some of that for the overall effect as well.
+[00:07:11] So for our lifetime, we're going to give this a really big range so that we can really have
+[00:07:23] a little bit of a tail to that.
+[00:07:25] And then we will take our size way down.
+[00:07:33] The next major thing that we want to do is we want to go ahead and add a shape location.
+[00:07:42] For this, we're just going to make this a lot smaller of a sphere.
+[00:07:50] We're just going to give us a radius of four just so that they have a little tiny bit of
+[00:07:57] randomness to where they start, but again, not a whole lot.
+[00:08:01] And then we're going to add a velocity.
+[00:08:06] Go ahead and add our Solve Forces real quickly, and we'll switch our velocity mode to a point.
+[00:08:19] And here, we'll just give this a random range float.
+[00:08:27] And we will give this a lot more velocity.
+[00:08:33] Now, at this point, there's something that I actually want to touch on in terms of we've
+[00:08:45] got a bunch of triangles here that would really, really benefit from pointing the way that
+[00:08:54] they're going.
+[00:08:55] And so I want to show you how to set that up.
+[00:08:58] So it's really, really easy if you just go back down into our sprite renderer down here.
+[00:09:03] You go a few down from the material to this alignment.
+[00:09:07] And where this dropdown says unaligned right now, you can just go ahead and switch that
+[00:09:11] to velocity align.
+[00:09:14] And now if we drag through, you can see these are always pointing the way that they're traveling.
+[00:09:23] And this, in terms of things that just help to reinforce motion, is so nice.
+[00:09:30] This is going to, let me un-isolate this real quick.
+[00:09:35] You can see what a difference that makes for these compared to the unaligned ones.
+[00:09:42] And there are a whole bunch of ways that we can keep on reinforcing this and really taking
+[00:09:48] advantage of that that are really, really fun.
+[00:09:53] So for the first one, we're going to go ahead and go down to our particle update.
+[00:09:59] And we're going to add a drag module and set that to something like three just to stop
+[00:10:09] them from being quite so enthusiastic.
+[00:10:15] And then we're going to add a gravity force module as well.
+[00:10:20] We'll go ahead and right click and copy this whole vector.
+[00:10:25] We'll add a random range vector and paste it into both of those.
+[00:10:31] And for our minimum, we're going to go ahead and do minus 490, leave the maximum at minus
+[00:10:39] 980 because gravity is highly variable in effects.
+[00:10:50] So this is another point where you can really start to see how much that velocity alignment
+[00:10:59] is giving us.
+[00:11:00] So you can see as the gravity starts to drag them down, they'll actually start angling
+[00:11:05] to follow along with that.
+[00:11:07] And so that, again, is just a really, really nice little bit of reinforcement of this overall
+[00:11:13] motion.
+[00:11:15] And for the effect as a whole, what this does for us is it just gives it a little bit more
+[00:11:23] physicality.
+[00:11:24] You can imagine for these spikes, if they were little bits of debris or even if they
+[00:11:28] were just little sparks or something like that, if you want this to feel more physical
+[00:11:33] or even just a little bit more involved in the real world, then adding this little bit
+[00:11:41] of gravity to those lingering pieces is a really, really nice way to do that that makes
+[00:11:46] it feel a little bit more believable, even if this is completely magic.
+[00:11:56] So from here, there's a few more things that you just want to do a little bit of cleanup
+[00:12:03] on or not clean up per se, but just keep plussing it up.
+[00:12:11] So if we go up to our add velocity again, I actually want to play with the origin offset
+[00:12:20] a little bit.
+[00:12:21] Right now, these are all just emitting evenly from the center.
+[00:12:26] And that means that no matter which way I rotate this, it's always going to be perfectly
+[00:12:32] omnidirectional.
+[00:12:34] But if I offset that velocity point to something, even something really, really tiny, like minus
+[00:12:42] 3.5 on X, minus 1 on Z, so it's down a little bit as well, you can see how that starts to
+[00:12:50] push them out at a particular angle and also push them up a little bit.
+[00:12:59] Pushing them upwards is honestly just a nice little bit of contrast to the gravity.
+[00:13:03] It gives the gravity that much more room to play.
+[00:13:05] So that was just kind of fun.
+[00:13:10] But the offset in X is really, really nice because now we've got some very clear subtle
+[00:13:19] directionality to this.
+[00:13:21] If this is going to hit right here and those sparks burst out like this, then that's going
+[00:13:27] to look very different from the player's camera angle than if it were to hit over here
+[00:13:34] and the sparks fly off this way.
+[00:13:37] So that's just a really, really nice, again, little bit of physicality and pulling in a
+[00:13:43] little bit of just general conservation of energy.
+[00:13:49] You have a bunch of force going this way and so some of it's going to respond by popping
+[00:13:55] back out this way.
+[00:13:58] So two more quick little cleanup things.
+[00:14:01] Just in our scale sprite size, we're going to change this up a bit.
+[00:14:11] So for our initial point, since these are kind of hidden by the flare when they start,
+[00:14:21] we'll go ahead and, and also this is something that's really like punchy, so it's okay if
+[00:14:27] stuff pops a little bit if it's reinforcing that motion instead of distracting.
+[00:14:33] So we will actually start these at 75% of their size.
+[00:14:41] We'll bring them up to full size, clean up this curve a little bit because, oh boy, flatten
+[00:14:55] those out.
+[00:14:57] For this key that's at 1 right now, we'll go ahead and bring it back to, whoop that's
+[00:15:02] the wrong one.
+[00:15:05] Bring this back to 0.75 and then we're going to right click, add one more key here and
+[00:15:13] just pull it down to zero and then smooth out that key a tiny bit.
+[00:15:22] And if we go ahead and hit play now, you can see that just gives these spikes a little
+[00:15:28] bit more room to just vanish more cleanly, which is nice for these because they stick
+[00:15:36] around so much longer, it's a lot easier to spot if they just pop out of existence.
+[00:15:42] The flare by contrast is over so quickly, it doesn't really matter, but these stick
+[00:15:49] around long enough, it's worth giving them a good clean death.
+[00:15:56] And the last thing that I want to add to this, again, just really, really kind of playing
+[00:16:02] up and reinforcing that secondary motion and that impactfulness of these.
+[00:16:07] We're going to add another scale size, but for this one, we're going to do a scale sprite
+[00:16:16] by speed and basically does exactly what it says on the box.
+[00:16:27] You can see over here, we've got a minimum scale factor and a maximum scale factor, and
+[00:16:32] we've got a velocity threshold and particles will just scale between the minimum and the
+[00:16:40] maximum based on how close they are to this velocity threshold.
+[00:16:48] So if we just leave this at a thousand, but we set our maximum to be one on X and five
+[00:16:55] on Y, then you can see we start getting this really, really nice bit of stretching just
+[00:17:03] along that one axis on these that again, just really, really reinforces that motion along
+[00:17:10] the angle they're traveling along.
+[00:17:12] So if we isolate this and just kind of scrub through, then you can see here how they start
+[00:17:21] really, really stretched out where they're at their maximum speed and then as they slow
+[00:17:30] down a little bit, you can see how they start to shorten a little bit again.
+[00:17:37] And this is also multiplying on top of our basic scale sprite size.
+[00:17:43] So that's really, really nice in terms of just these can play nicely together, which
+[00:17:48] is useful.
+[00:17:52] And that's everything for our spikes.
+[00:17:55] So we're going to go ahead and move these to the side a little bit.
+[00:18:00] We'll go ahead and copy paste our flare again, and we'll use this one for our ring.
+[00:18:16] And the ring is something that like the spikes, I want it to provide a nice bit of reinforcement
+[00:18:25] to the overall motion, but again, we want to drag out that tail a little bit.
+[00:18:32] So while the flare is that really, really like hard impactful hit, we want the ring
+[00:18:39] and the spikes to reinforce that, but also let this linger a little bit afterwards without
+[00:18:45] dragging your eye too, too much.
+[00:18:48] So we only need the one ring, so we're good there.
+[00:18:53] We are going to make this stick around quite a bit longer.
+[00:18:58] We'll do four to 4.5, and we'll make the size a tiny bit smaller.
+[00:19:05] We'll go ahead and reset this random because it's a ring and we don't really need it.
+[00:19:11] For our scale sprite size, I'm actually going to leave this exactly like it is now because
+[00:19:18] I like having that pop and then taper, but because this sticks around a little bit longer,
+[00:19:28] I want to go ahead and add a scale color.
+[00:19:35] And in our alpha, I'm just going to swap this to a float from curve, and we're just going
+[00:19:45] to move this first key all the way over to something like 0.75, select both of these
+[00:19:53] and auto, and then just give it a little bit more of a taper like this.
+[00:20:03] And you can see that just gives it a little bit of fade at the end so that it doesn't
+[00:20:09] just pop out of existence.
+[00:20:12] Now this isn't the only way to clean up this particle.
+[00:20:16] If you wanted to, then you could just skip the alpha altogether.
+[00:20:21] You can notice that it's just kind of popping out, which isn't necessarily bad, but isn't
+[00:20:28] what I'm going for here.
+[00:20:30] I want something here that prepares the player's eye a little bit for the fact that this is
+[00:20:37] about to go away.
+[00:20:39] So you could use the scale color.
+[00:20:42] Another thing you could do is you could actually use a little bit more motion to kind of hint
+[00:20:49] that something there's about to be a state change.
+[00:20:52] So if we, for instance, take this last key in our scale, we could scoot this over here
+[00:21:02] a little bit and add another key.
+[00:21:07] And we can just auto and bump this up a little bit.
+[00:21:20] You can see how just by adding a little bit of rubber banding there, it kind of prepares
+[00:21:25] you for the fact that something's about to happen.
+[00:21:29] You also don't even need to go as drastic as taking this down to something like zero
+[00:21:35] you could take this down to something like 0.7 and kind of clean up this tangent.
+[00:21:42] And even just that little bit of bounce is enough to kind of prepare you a little bit
+[00:21:50] for the fact that there's going to be some kind of state change here.
+[00:21:56] For the particular type of punchiness, impactfulness that I'm going for here, and that kind of
+[00:22:03] tail that I want to compliment, this one's a little bit too kind of bouncy bouncy.
+[00:22:12] So I'm going to go ahead and reactivate my color and roll with the little bit of fade
+[00:22:22] out instead.
+[00:22:24] But hopefully that gives you some idea of some of the different ways that you can just
+[00:22:31] prep a viewer's mind for the fact that there's about to be a state change.
+[00:22:37] We've got all three of our basic pieces in here.
+[00:22:39] This is, by all accounts, a pretty successful block-in.
+[00:22:43] It's got our timing figured out.
+[00:22:46] It's got the gameplay read and area and stuff like that figured out.
+[00:22:55] But at this point, everything is moving in the same direction.
+[00:23:02] Everything is just pure outward force.
+[00:23:04] We've got a little bit of a shift in that at the end of the spikes with the gravity,
+[00:23:09] which is really, really nice.
+[00:23:11] But this is something where I want to add a little bit more contrast at this point.
+[00:23:18] So we're actually going to revisit the flare.
+[00:23:24] And in our sprite size here, where right now it's just completely complimenting the...
+[00:23:32] Let's go ahead and hide our spikes real quick so you can see better.
+[00:23:38] It's just complimenting the motion of the ring.
+[00:23:43] I'm actually going to go ahead and switch this to this smooth ramp down template.
+[00:23:50] And what this is going to do is by pulling it inward, let's re-enable our spikes and
+[00:23:58] just hit play, it gives it a little bit more of a counter force.
+[00:24:06] And now, rather than everything radiating outward and everything not being perfectly
+[00:24:13] in sync and agreeing with each other, we can use this flare to provide an impulse or
+[00:24:21] a source for all of that.
+[00:24:23] So again, this is another little tiny way of just preparing the viewer for the rest
+[00:24:29] of the motion and also just adding some more visual interest by adding something that is
+[00:24:36] a counter to everything else that's going on.
+[00:24:41] Now, I'm not actually going to be changing the timings on any of these.
+[00:24:51] There's kind of a temptation in cases like this to, since this flare kind of becomes
+[00:25:03] the impulse that is forcing everything else outward, there's this very logical temptation
+[00:25:09] to offset these by, say, a tenth of a second, even something tiny like that, so that you
+[00:25:18] have the force intake and then burst.
+[00:25:21] You have this very, very clear cause and effect.
+[00:25:25] And if we play that, you do get a little bit more of the mental preparation of that cause
+[00:25:32] and effect, which for certain kinds of effects can be really, really nice for something where
+[00:25:40] you really, really want to prepare the viewer, where it's something that has a little bit
+[00:25:46] more power behind it and you want kind of that sort of feeling, technical term.
+[00:25:53] Then staggering these a little bit can be the perfect thing to do.
+[00:25:58] For something like this, where this is a little tiny melee effect, there's not a whole lot
+[00:26:02] of damage behind it, and what we really want is just that feedback that the hit connected.
+[00:26:11] Keeping these all playing at the same time still gives us that little bit of countermotion
+[00:26:17] and visual interest without dragging out this effect and delaying the time until you know
+[00:26:23] that something happened.
+[00:26:25] The one last thing that I want to do here is I just want to put my thumb on the scale
+[00:26:34] a little bit with some of these spikes, add one last little bit of contrast here by adding
+[00:26:41] some spikes that are guaranteed to stick around a lot longer than average.
+[00:26:46] Again, in terms of the overall story arc of this effect, we want to start super high energy
+[00:26:54] so that it's that instant read, it's that instant feedback, and then have this taper
+[00:26:58] off.
+[00:26:59] I just want to really, really make sure that that taper is always there in a nice way.
+[00:27:06] The best way to just guarantee that this happens is to just kind of brute force it and add
+[00:27:15] a second set of spikes that hang around a little bit longer.
+[00:27:22] So for these, we're just going to cut the number of them way, way down to two or three.
+[00:27:29] And for our lifetime, we're just going to bump that way up to something like .5 to .1.
+[00:27:40] And now you can see those last few that hang around a little bit longer.
+[00:27:46] We disable them.
+[00:27:48] You see how it gets a lot more even.
+[00:27:51] Re-enable them.
+[00:27:52] You have that nice little bit of linger every single time.
+[00:27:56] And this isn't something, again, that's going to be strictly necessary for every effect.
+[00:28:02] Even for a hit impact, this has a little bit more of a tail than a lot of them will.
+[00:28:07] But in cases where you do really, really want that kind of fine-tuned control, the cost
+[00:28:15] of one more emitter and two or three more particles is usually so negligible compared
+[00:28:22] to the payout that you're getting for that, that it can really, really be worth adding
+[00:28:28] just to get that last little bit of intentionality and handcrafted attention to detail and stuff
+[00:28:35] like that in your effect.
+[00:28:39] So that's everything for our hit impact and for this introduction to just thinking about
+[00:28:48] timing and punchiness and how to really keep playing up those same principles that we've
+[00:28:54] already talked about in terms of gameplay intentionality, levels of detail, and things
+[00:29:01] like that.
+[00:29:02] So hopefully this was fun.
+[00:29:05] Hopefully this was helpful.
+[00:29:07] Hopefully this gives you a lot of ideas for your own hit impacts to take this block in
+[00:29:13] and then flesh it out with your own materials, textures, colors, whatever flavor you want
+[00:29:22] to add to this playing up the timing, playing up different power levels of the same kind
+[00:29:28] of effect.
+[00:29:29] There's tons and tons of stuff that you can riff with off of this really, really basic
+[00:29:34] effect.
+[00:29:35] So, yeah, have fun and I will see you in the next one.
+[00:29:41] Cheers, y'all.

@@ -1,0 +1,180 @@
+[00:00:05] Hi guys! Today we are going to create electric sets. I'm really excited to show you this lesson
+[00:00:12] because we can use these subs in many situations. We will create these electric subs in 2x2
+[00:00:18] spreadsheet to have more variation when we create our VFX. Also, we are going to learn
+[00:00:24] another workflow super powerful to create this kind of testers on designer. Are you ready?
+[00:00:30] Before starting, let's always analyze the reference to have the main aspect that has
+[00:00:36] the tester that we are going to create clearly. For me, it's super important to take time to
+[00:00:42] understand what we are looking for and not get a start when we are creating the tester.
+[00:00:46] This can be applied to any process. Today I'm going to show you how to create
+[00:00:51] stylized electric subs and I found this reference that is close to what I'm looking for.
+[00:00:55] Fine, here we have different types of electric subs, but we can see the principal aspects that
+[00:01:01] they all share in common. The main shape stack we can see here are a line where the shape
+[00:01:06] changes very quickly and strongly. After that line is being distorted with an irregular cut noise,
+[00:01:13] it also has different width along this entry length and it has a glow. So, let's take a
+[00:01:19] note and get started! As always, I'm going to open the file I'm working on and create a new graph for
+[00:01:25] our subs. Today, in this lesson, we are going to follow another workflow to create the subs.
+[00:01:32] We will create a small electric sub-generator that will have its pose parameter where we can
+[00:01:39] change how this looks for its variation and then join together in the spreadsheet in another graph.
+[00:01:45] The first step is to start creating this line that has the sub in common and to work better,
+[00:01:50] we are going to create a gradient linearity that has a line in the center super-definite.
+[00:01:56] We are not going to set any parameter, so let's leave this aside and start creating the noise
+[00:02:02] that will distort the gradient we have created. Well, we need a noise that has hard irregular
+[00:02:08] shape that distort the gradient line to create the shape that we are looking for. For that,
+[00:02:14] we are going to create a tile asampler where we can create our pattern as we needed.
+[00:02:19] To create this noise that will have a hard irregular shape, we are going to go deeper into
+[00:02:25] this powerful node and learn more about it. In this case, we are going to use the pattern input
+[00:02:31] where we are going to connect a shape that is different from the basic shape that gives us
+[00:02:36] this node. I think it would be fine to make a pattern with hexagons or pentagons because they
+[00:02:43] have hard edges and can create an interesting pattern to warp our line gradient, so let's give
+[00:02:50] a try. For this case, we will create a polygon2, this node generates a smooth gradient polygon
+[00:02:56] shape, but if we need the same without gradient, we will use a polygon1. In this case, the gradient
+[00:03:03] will help us to have a more interesting pattern noise where this grayscale difference will form
+[00:03:09] a more irregular distort in the line. First, as a mini node, we have the tiling of the shape.
+[00:03:15] In that case, we don't use it, we have the size that is the amount of the size of the polygon.
+[00:03:21] I think a pentagon could be a good idea. We can change the scale of the polygon and the rotation.
+[00:03:28] Also, we have these two very interesting patterns, the curve which adjusts the curve of the gradient
+[00:03:34] and the gradient which adjusts the gradient contrast. Today we don't use but is good to know.
+[00:03:41] Ok, with this we are going to connect our new shape in the first input. The first thing we
+[00:03:46] are going to do is go to the pattern and select the pattern input to see the pentagons. Now it's
+[00:03:53] time to configure our pattern and we will start by changing the number of the instance. For the
+[00:03:59] pattern that we are going to create we don't need anything too detailed, just a irregular
+[00:04:05] noise with a large shape to work the line. Therefore, we will set the amount in the instance
+[00:04:12] with a lower value and always is fine if the amount isn't the same in both axes to create
+[00:04:18] a pattern with more randomness. These two parameters we are going to expose to have
+[00:04:24] control of the other instance of the steps. For the spreadsheet that we are going to create
+[00:04:29] and add in a group. The instances are very small and we need them to fill more space in the texture.
+[00:04:35] We change the size random in X to have more variation to create a longer shape. Also,
+[00:04:41] we are going to expose this parameter. Then we set the scale size to a larger value to fill the
+[00:04:47] whole texture and then the scale random. Fine, the next step is to add a random position to
+[00:04:55] break this grid of instance. We will change the position random and the offset. The position
+[00:05:01] random we are going to expose to change the position of the instance, giving us multiple
+[00:05:06] variation of the pattern and more control in the final step. The pattern is still quite bland and
+[00:05:12] today the rotation will be our ally. As I told you in the previous lesson, we have the rotation
+[00:05:17] of all the instances and the rotation random to have different rotation between each other.
+[00:05:23] The main rotation will be good for us to make sure that is not all the instances are looking
+[00:05:28] at the Y axis and we are going to set to another rotation that will be less visible and so we will
+[00:05:35] expose this parameter. Then we are going to set the rotation random to have all the instances
+[00:05:41] in a different rotation. Alright, we have an interesting pattern but I think we can create
+[00:05:47] a better pattern to give more variation in the color to highlight some part. For that we are
+[00:05:53] going to add two more connections to our tile sample and add more complexity to our pattern.
+[00:05:59] We are going to add a gradient to highlight the instance and generate volume in the pattern
+[00:06:05] and the other one will be add another shape to get more randomness. So, it's good for us to
+[00:06:11] explore new possibilities that this wonderful node gives us. The first thing that we are going to do
+[00:06:16] is add a gradient to highlight the instance in the middle and darker the other side list
+[00:06:21] to give the pattern more volume. We could use the gradient that we have made before
+[00:06:26] but as we are creating a electric ZAP generator, instead of connecting the gradient directly we are
+[00:06:32] going to create a levels node in the case that we want to change something later and not touch
+[00:06:38] the principal shape. We will use this node in case that we need another variation of the ZAP.
+[00:06:43] So for the moment I don't set anything of the Instagram but I will expose the
+[00:06:48] middle value of the Instagram so we can change this as needed.
+[00:06:54] Then we connect the gradient to the color map input. With this we will get to drive
+[00:06:59] the tiling in the instance but as always we have one parameter to control the intensity
+[00:07:04] of this tint. We find the parameter in the color section and the parameter that we are looking for
+[00:07:10] is the color parametrician multiplier. This parameter goes from 0 to 1 which will be in
+[00:07:16] blend depending of the mode that we have on the parametrician mode which by default is set in
+[00:07:22] color input. Fine, we are going to set the parameter to 1 and now we have a pattern
+[00:07:27] more interesting than before with more volume and gradient. It's pretty good.
+[00:07:33] The other aspect that we are going to do is create another shape to create complexity to our tester
+[00:07:38] to not complicate too much we are going to copy the polygon node that we have and change the size
+[00:07:44] amount to get an hexagon. Another new shape to create complexity to our texture. If we see all
+[00:07:50] the input that has the node we don't find any input for an extra shape, we need to open it
+[00:07:55] with a parameter. This will be found the pattern section and the parameter is a pattern input
+[00:08:01] number. We define the amount of the shape input that we want for our pattern. Only we can find
+[00:08:07] this parameter when we have the pattern input selected in the pattern. So let's this parameter
+[00:08:13] to 2 and the new input will be opened in the node. Also we look in the tester that has disappeared
+[00:08:20] some instance. This will be replaced for the new shape so let's connect to the next shape and we
+[00:08:27] got it. Well I think the pattern is now quite nice so we are going to use to warp the line.
+[00:08:33] For this case we are going to create a directional warp to distort the gradient in the up axis and
+[00:08:40] push the line in that direction to break the line that we have. Fine, the first thing that we are
+[00:08:45] going to do is change the angle to 90 degrees. Then we are going to see how much intensity we
+[00:08:51] need until we get a very regular shape that will remind us of a lighting. We will most likely need
+[00:08:57] to increase the intensity quite a lot and of course when we are happy with the result
+[00:09:02] we will expose the parameter. I think this parameter is for another different group than
+[00:09:08] all the parameters that we have exposed in the talent sample but this will depend on how you
+[00:09:13] want to organize it. Alright and see here that the line is a little bit flat and to change that
+[00:09:19] I could treat this code to the random sheet that we can find in all the nodes but we are going to
+[00:09:24] change it in the talent sample. I'm going to change the sheet until we get a better result.
+[00:09:31] Oh wow, we have here a line with a hard irregular shape, pretty interesting and now we have the
+[00:09:37] big detail that has an electric tab. Now we are going to boost and distort the line a bit more
+[00:09:44] to get a small detail with a multi-directional warp. Today to vary it a little bit and learn
+[00:09:50] more noises we are going to create a Gaussian noise. Well, this noise is very similar to the
+[00:09:56] Perlin noise with the same parameters. The only difference that we can see at first sight,
+[00:10:01] this node is darkened than the Perlin noise. We want only create a small detail but not too hard
+[00:10:08] so I think it's better. Let's add more intensity to this warp and of course expose the parameter.
+[00:10:15] Alright, now we have a quite interesting shape and we are going to remove all the values below
+[00:10:25] almost wide from the tester to get the line from the sub and then we are going to give the last
+[00:10:32] detail. To get this, first we are going to create a histogram scan where we'll remap the values
+[00:10:39] until we get the only a line. Let's control the position to shift the value until we see the sub.
+[00:10:45] We will need a quite small value because the center of the line has a high value. Then we
+[00:10:51] are going to set the contrast to 1 to get a plain sub. Fine, we have the plain sub in the tester
+[00:10:58] and it crosses with the borders. To solve that we are going to go to the beginner of the nodes
+[00:11:03] where we create the gradient line and we are going to multiply it with a smooth gradient
+[00:11:10] in the x-axis. So let's create a gradient linear too that has a different grayscale curve where the
+[00:11:16] center is not so defined. We change the orientation of the gradient and set the rotation to 90 degrees
+[00:11:23] and then we are going to blend the two gradients and we are going to use the multiply mode. Fine,
+[00:11:30] if we look at the result of the sub the gradient is too hard and now we have almost no sub.
+[00:11:36] We only needed to remove the extremes of the sub to not reach the borders of the tester so we are
+[00:11:43] going to create a levels node before the blend. To create a new node between the two nodes that
+[00:11:48] are connected we only need to select the line and create the node as always. We will leave
+[00:11:55] visualizing the final result of the sub in the 2D viewer and we are going to move the mid value
+[00:12:00] to increase the height values of the gradient until we get the whole sub without reaching the
+[00:12:06] borders. The height value will be more or less in the middle of the Instagram. Perfect, we got the
+[00:12:13] sub, the printable element, but we are going to create the last chains. Let's put the sub in the
+[00:12:18] center of the tester and work with the width of the sub. First we are going to center it and
+[00:12:25] orientate the sub into the center of the tester and for that we will create a transform 2D.
+[00:12:33] For this case I'm going to do all the transformation in the 2D viewer, rotate
+[00:12:37] the sub 90 degrees to half, hit vertical and try to centrate in the center of the tester.
+[00:12:44] If we see that the sub doesn't fill all the tester maybe scale a little bit. Now we are going to work
+[00:12:52] on a sub width to make it a more interesting and realistic shape. The first thing that we are going
+[00:12:57] to do is create a bevel to have a gradient that comes from the center. This will will
+[00:13:02] cause areas where the sub width will be thinner. As we need the thinner variation we are going to
+[00:13:09] set the distance of the bevel in negative. Then we are going to create the center of the
+[00:13:14] sub width so we are going to multiply the sub with a gradient where the center will be wider
+[00:13:20] than the worked area. We will create a gradient linear too and we are going to blend with a plain
+[00:13:26] sub in multiply mode. The gradient covers a lot of space in the center of the sub and is a little bit
+[00:13:37] darker that we can see at the edges for the sub almost reaching a dark color. So let's adjust the
+[00:13:42] grayscale value with a levels node. We are going to set the values of the levels node,
+[00:13:48] seeing the blend node result in the 2D viewer to find the most accurate result.
+[00:13:53] Alright, I think it's perfect. With this we are going to blend together, multiply them.
+[00:14:02] Now the sub is too dark so to appreciate the last change that we have made we are going to create
+[00:14:09] the histone run scan to remap the values and get the plain sub back again. This time the
+[00:14:14] position will determine how far is the width and the contrast we will set to 1 to ensure a plain
+[00:14:20] sub. We are going to expose the position to control the final width of the sub.
+[00:14:29] Now the sub looks awesome and I think we got the sub generators to create our spreadsheet.
+[00:14:36] To finish the sub generator we are going to add the output node, but this time this output node
+[00:14:41] isn't to export the tester in that point, it's to add an output node to then be able to work with
+[00:14:47] more nodes later in a separate graph and can be connected. Don't forget to save the file from time
+[00:14:53] to time. Having this we only need to create another graph where we join all the variations
+[00:14:58] on the subs in a 2x2 spreadsheet and you will see creating the other variation will be super
+[00:15:04] easy and procedural of course. Click and drag into the graph our sub generator. Then I'm going to
+[00:15:10] copy control C and paste control P, the nodes to have four subs that will be in the spreadsheet.
+[00:15:17] Then we are going to set the parameters that we have exposed in its node to have different
+[00:15:22] variations of the subs. When we are happy with all the sub variations we are going to move and
+[00:15:34] transform each of them so that each one is in a spreadsheet slot. We are going to create a
+[00:15:40] transform 2D for the first and when we have it then we are going to copy and move sequentially
+[00:15:47] to the new position for the next sub until we get all the subs in one different slot.
+[00:15:53] The first thing that we are going to do is divide the size by two because we are making a 2x2
+[00:15:59] spreadsheet and the tester will take up a half of the tester. Ok, my default designer always takes
+[00:16:06] all the tester in a tiling mode. For that we look in the tester we have a lot of repetition
+[00:16:11] of the sub and it isn't what we want. We will need to change it manually. We always find it
+[00:16:18] in all nodes on the base parameters tiling mode. Then we will change the method of the tiling here
+[00:16:24] to absolute and then select node tiling. Cool! Then we are going to move to the first position
+[00:16:31] of the tester with the offset. The first slot will be 0.5 in x and y. Copy and paste the transform
+[00:16:39] and the second slot will be in x minus 0.5 and in y 0.5 and we are going to repeat the process
+[00:16:46] with the last two. Fine! Then as a step we will be blending all the tester of the spreadsheet
+[00:16:54] together. We are going to blend the tester in groups of two and then these two results
+[00:16:59] blend together. Unfortunately the blend node still doesn't allow blending more than two tester
+[00:17:05] at the same time. Therefore we have to do this in groups of two. For this case we are going to use
+[00:17:11] the add mode to blend them. Ok, super cool! We will have the spreadsheet finished. This
+[00:17:17] workflow is a way to squeeze the magic of designer that allow us to create a complex
+[00:17:23] system with a lot of operation where we decided the rules to create our system and then we only
+[00:17:29] have to change the parameters that we have exposed to get the new variation without losing too much
+[00:17:35] time in the iteration. As a finishing touch for our tester we are going to add a glow node to give
+[00:17:42] our zap a point of light. Let's change a little bit to get a soft glow and we are ready to export
+[00:17:49] the tester. As always create an output node and export it when you are happy with the result.
+[00:17:57] Well, let's see how the tester works in Enzyme. For this example I have done electric lightning
+[00:18:04] impact using the tester that we have just made on designer. I use it for the main zap that we
+[00:18:09] are looking the VFX and another emitter as a secondary element in the impact of the main
+[00:18:15] electric zap. To give more detail and as a complement to the VFX I have used some of the
+[00:18:21] testers that we have made in the previous lessons. I hope you enjoyed this lesson and I look forward
+[00:18:27] to the next one. See you!

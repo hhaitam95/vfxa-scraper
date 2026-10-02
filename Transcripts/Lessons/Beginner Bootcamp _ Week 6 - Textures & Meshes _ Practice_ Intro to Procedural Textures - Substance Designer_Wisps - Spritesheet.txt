@@ -1,0 +1,119 @@
+[00:00:05] Hi guys! Welcome back to another new lesson of Sustained Designer! Today we are going to create
+[00:00:12] a webs tester. This tester is super versatile and we can use it in many VFX, like for example
+[00:00:19] a magic spell, a fire or whatever you want. Also in this lesson we are going to learn
+[00:00:26] how to create new noises that help us to create new shape using the basic operation
+[00:00:33] like subtract or multiply which gives us a fantastic tester so I can't wait to show you more
+[00:00:40] and let's do it! Well, you are starting to know me and I really love analyzing the tester that
+[00:00:47] we are going to create first. I have found some reference to analysis the webs. Here we can see
+[00:00:54] different patterns that can be created in many ways. Ok, I'm going to focus in this tester that
+[00:01:01] will be similar to what we are going to do because it's the only one that doesn't have a shape
+[00:01:07] indicating directionality. This will allow us to use it in more circumstances. We can appreciate
+[00:01:13] in this tester that it has a circular shape. It has a shape that remain me of a wrinkled cloth
+[00:01:20] with a sharp line in the center, then a different scale of detail with a smoother grayscale than the
+[00:01:27] center and then a bit of movement. With this, let's jump into the designer!
+[00:01:34] Well, as always I'm going to open the file I'm working on and create a new graph for the webs.
+[00:01:40] If you want to create a new file for each graph, feel free is completely valid because
+[00:01:45] each graph that we add in the file will take more time to open. For this tester we are going to
+[00:01:51] create a 2x2 spreadsheet to have more variation when we are working with it in our pfx engine.
+[00:01:58] It's recommended to do this spreadsheet so that you won't see how the tester is repeat in our pfx.
+[00:02:05] The first step is to create the main shape from which we are going to start.
+[00:02:10] Then we will work on changing the way it looks to something more interesting, working with noises.
+[00:02:17] So, for this case we will create a shape node to create our basic shape where we are going to work.
+[00:02:23] As we are going to create a 2x2 tester we will set the tiling to 2.
+[00:02:28] This spreadsheet we are going to create all the image all at once.
+[00:02:32] Ok, I think the best shape to start with is a paraboil because the width used to be spherical.
+[00:02:38] Also, the paraboil shape has a gradient with a curve with high values. It would be great
+[00:02:44] because we are going to subtract information of this grayscale
+[00:02:48] with it and we won't lose too many values in the process.
+[00:02:51] Today we won't change the size of the shape although we can see is too close of the borders
+[00:02:57] because I'll be sure that it will resolve when we start working with it
+[00:03:01] and we are going to try to take the advantage of the grayscale information that we have here.
+[00:03:07] If we then see that it still happened we will change it later.
+[00:03:11] Ok, we are going to leave this aside and now we are going to create the noise that will subtract
+[00:03:17] these shapes. For this we will use a tiling sample to create the first node that determinates
+[00:03:24] the principal shape of our width and break the paraboil shape that we already have.
+[00:03:29] We will make something similar to a boronoid noise and we will see how easy it is to get it.
+[00:03:36] I think it's a good way to understand how to create noises with a tiling sample.
+[00:03:41] Let's get to it, shall we?
+[00:03:43] Fine, the first step that we are going to do is determinate the amount of the instance.
+[00:03:48] For this case let's lower the number of the instance a bit and we are going to set the
+[00:03:53] same value in both axes because we are looking for a uniform noise. I think with this amount
+[00:03:59] it's fine. Also we are going to expose these two parameters.
+[00:04:04] Then we are going to change the pattern shape and we will choose the thrown shape.
+[00:04:09] This shape is quite nice because it's a circular gradient that has a curve
+[00:04:14] where the center is very accentuated and then fade out towards the borders very smoothly.
+[00:04:20] The only thing that we can see is that the instances are very small,
+[00:04:24] so let's change to fill the space between them.
+[00:04:27] We will set the scale with a large value until we fill the space between them
+[00:04:32] and we expose these parameters, then we set a bit the scale random to have variation in the instance
+[00:04:40] but we won't set this value to high because otherwise we will get areas with very small
+[00:04:46] instances. The only thing that we need is a bit of variation of the instance to create a shape
+[00:04:52] more interesting. Ok, as always to grade the grid we are going to change the position of the
+[00:04:58] instance. First set the position random where we can see all the instances starting to create a
+[00:05:04] super nice pattern and we are going to change the parameter until we don't appreciate the grid very
+[00:05:10] recognizable. Ok, we are going to expose these parameters that I think is relevant if you want
+[00:05:16] to change it in the future to get another iteration, and so we are going to set the
+[00:05:22] offset of the instance. Well, with a bit of change we have a fantastic noise here, right?
+[00:05:29] But to make it more interesting we are going to give it some thin gray scale variation
+[00:05:35] in the instance. Let's go to the color session and here we have the color random. I think we
+[00:05:42] are going to set it to 1 to have a good randomness on the instances. One thing that we can appreciate
+[00:05:48] in the test tool when we change the random color is the instances which have lower value
+[00:05:53] are hidden by the light ones. It's because of the blending mode that the instance has.
+[00:05:59] Ok, we have a good noise to start and we are going to subtract this noise to our main shape.
+[00:06:05] So, we are going to create a blend node and we will connect the noise to be
+[00:06:09] subtracted in the first input and in the second input we will connect the shape to be subtracted.
+[00:06:16] Then we will select the subtract mode. This will subtract the noise grayscale for our shape and you
+[00:06:22] can see that we have got a very fantastic shape with a different grayscale where we have the main
+[00:06:28] base shape in our test tool. Fine, now we are going to create the mid detail in our test tool
+[00:06:35] to get more grayscale value and break out the shape that we have now a little bit.
+[00:06:40] For this case we are going to multiply with our confidence noise the perlin noise,
+[00:06:45] so let's create it. The perlin noise will give us a medium detail and will smooth areas where
+[00:06:52] the shapes are very sharp. We are going to set the scale and get a noise that is more or less
+[00:06:58] in the middle of the scale and I think it would be fine like this. Then we are going to set the
+[00:07:04] disorder a little bit and expose it to control the areas that multiply our main shape. Ok,
+[00:07:11] let's create a blend node to multiply both test tools. Now you can see that the shape is a little
+[00:07:18] bit smoother and has another layer of detail. Now we are going to blur it with a non-uniform blur
+[00:07:24] to smooth the sharpened areas in the higher value and the blur map will be itself. Ok,
+[00:07:31] I think that is fine. Leave it using the default values. Well, we have lost too many values when
+[00:07:37] we have multiplied the perlin noise with our main tester, so to go back to have the whole range we
+[00:07:44] are going to use auto levels. Ok, much better. Now we are going to create the small detail
+[00:07:51] in the main shape. For this case we are going to use another noise and we are going to create
+[00:07:58] a triangle grid grayscale. This node generates a representation of a triangulated surface
+[00:08:05] in a grayscale. It's really complex but for this case we will keep it simple and we will only care
+[00:08:11] about the scale. I like the shape that generates this node because it has an irregular shape
+[00:08:17] which reminds me a little bit of a wrinkle close and for that we are going to use it.
+[00:08:24] Fine, here we have the amount in x and amount in y which will determinate the scale of the noise.
+[00:08:32] As we want small detail in our tester we are going to set the amount in both parameters
+[00:08:37] with a larger value. Perfect, I think this will work. Maybe it's interesting to expose
+[00:08:43] this parameter if we need to change the scale of the small detail. Then we are going to blur
+[00:08:49] this noise to smooth out the hard areas and the black areas that we can see quite accentuate.
+[00:08:56] We are going to use a non-uniform blur and the map blur will be the invert of itself to approach
+[00:09:02] these areas. We will set the intensity to a lower value because we don't want it to be blurred
+[00:09:09] either. Ok, now we can blend this noise with our main tester. So create the blend node and we are
+[00:09:17] going to multiply them together. It's really cool! Now that we have the small detail in our tester
+[00:09:24] let's work with it. We are going to push those areas that we have in the middle of the tester
+[00:09:29] to make it look like a whips. For that let's create a multi-directional wrap to push and distort
+[00:09:35] these parts and get these shapes. The intensity input will be the same tester but blurred so we
+[00:09:43] create a blue node and set a lower value. Ok fine, I think this is perfect and we connect to the
+[00:09:51] intensity input. Let's set the intensity and as you know to get a significant change we need to
+[00:09:58] type the value to a higher value. We can see the difference and it looks nice but here we can see
+[00:10:05] the duration in some areas so let's try to change the mode. Cool! I think the mid is what we are
+[00:10:14] looking for and I love it! We have gotten a really interesting shape with this change. We are going
+[00:10:20] to expose the intensity because if we need some change we have it on hand. Fine, now we are going
+[00:10:26] to create another multi-directional wrap to warp a little bit the lines that we have gotten now
+[00:10:31] and give them some movement. Ok, we will use the burly nodes that we have created for the middle
+[00:10:38] detail as as intensity input. This time we will set the intensity only just a bit more and we got
+[00:10:45] it! These are the small details that make the tester a little bit more complex. With the operation
+[00:10:51] that we have doing we have been losing the grayscale so let's create the auto levels to come back
+[00:10:57] to the full range. Pretty cool tester, I love it! The last rotate that we are going to do is creating
+[00:11:04] the levels node to erase a little bit the middle values and we will finish the tester. We move a
+[00:11:10] bit the mid value and now it's perfect! Ok, we are going to expose this parameter in case that we want
+[00:11:17] to change things in some iteration. Well, the only thing that we are going to do is add the output
+[00:11:24] node and spot it! As you see we have created a really cool interesting wipes spreadsheet tester
+[00:11:32] with a few steps we have created from basic shape and we have applied different operations
+[00:11:38] with different scales of detail to get this awesome result. Ready to see how this works in the
+[00:11:45] engine? Today with this wipes tester it has come to my imagination to create Arkane energy fire.
+[00:11:54] I really love this kind of VFX and I think it suits perfectly. As you can see almost the whole
+[00:12:00] VFX was created only with this tester mixing two different fade out techniques. Then I have given
+[00:12:08] more detail with the first full tester in the sparks and the glow. Ok, I hope you enjoyed this
+[00:12:14] lesson and let's see what VFX you can imagine with this tester. See you!

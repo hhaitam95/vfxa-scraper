@@ -1,0 +1,119 @@
+[00:00:05] Hello everyone, welcome to the water informative video of the Elemental Steel Discourse.
+[00:00:10] This video will be structured around two mains axes, we'll talk about what is water and
+[00:00:16] why does it look that way.
+[00:00:18] So let's get started and define what is water.
+[00:00:23] Water is a chemical substance and one of the most important on our planet, for it covers
+[00:00:28] about 70% of Earth's surface and covers 60% of our body.
+[00:00:35] So yeah, this element is quite a big deal.
+[00:00:39] This chemical substance has multiple characteristics and quirks.
+[00:00:44] Without any impurities in a natural environment, water is transparent, tasteless, odorless
+[00:00:51] and colorless.
+[00:00:53] It's also interesting to note that water is a powerful natural solvent, meaning it can
+[00:00:59] dissolve some substances with ease, like when you pour salt or sugar in a glass of water
+[00:01:05] and it gradually dissolves in the water solution.
+[00:01:11] Water can harbour all states of matter.
+[00:01:14] Liquid water, in this state, water acts like most liquid fluids, it's pourable and fills
+[00:01:20] the shape of its containers.
+[00:01:23] Liquid ice, in this state, ice will be less dense than liquid water, which will make ice
+[00:01:28] float rather than sinks.
+[00:01:30] This is why during winter, frozen lakes are frozen only on top, while the bottom of it
+[00:01:35] is still liquid water, brewing fishes to survive during the winter.
+[00:01:40] And finally, water vapour, or steam.
+[00:01:43] In this state, steam molecules will move freely with no specific pattern and fill any available
+[00:01:48] space.
+[00:01:51] But what does water evokes us?
+[00:01:54] When thinking about water, we all have different pictures coming to mind.
+[00:01:59] You surely have thought of something similar and you'll be correct.
+[00:02:03] But all these pictures depict water despite being quite different from one another.
+[00:02:09] This leads us to the second axis of this video.
+[00:02:12] Why does water look this way?
+[00:02:14] To answer this question, we will review multiple components of water that structure its visual
+[00:02:20] render, specifically in its liquid state.
+[00:02:24] We will detail the differences between reflection and refraction, while taking a detour to talk
+[00:02:30] about caustics.
+[00:02:31] We will then talk about how water moves, and finally see what foam is made of.
+[00:02:38] But first, we'll talk about how water can be tinted in multiple ways.
+[00:02:43] When we think about water, sea or ocean, we usually think of the blue colour.
+[00:02:49] Or ice or snow, we mostly think about the white colour, and so on.
+[00:02:56] But as said earlier, without any impurities and put in a neutral environment, water is
+[00:03:02] supposed to be colourless.
+[00:03:05] So why do we perceive water's different colours?
+[00:03:09] Well for the exact key factors we just named, the presence of organic and non-organic matter,
+[00:03:17] and the environment, thanks mostly to water reflection that we're going to talk about
+[00:03:22] in a couple of minutes, has a strong influence on how we perceive water's colours.
+[00:03:28] For example, we mostly perceive the ocean being blue.
+[00:03:33] This is because, if pure enough, water mostly returns short wavelength colours, such as
+[00:03:39] blue from the sunlight, and absorbs most of the other colours which have a longer wavelength.
+[00:03:47] Here water acts like a filter, letting us see colours in the blue part of the light
+[00:03:52] spectrum.
+[00:03:55] And if the water is full of impurities, like mud or algae, or that the environment is cloudy
+[00:04:01] instead of being sunny, our perception of the water's colour will change.
+[00:04:07] This is why we can sometimes observe greenish sea when there are a lot of algae in the sea,
+[00:04:13] or that the ocean makes look quite greyish during windy cloudy days.
+[00:04:19] Now we'll talk about two important physical phenomena that applies to water in general.
+[00:04:26] Reflection and refraction.
+[00:04:31] Reflection in water occurs when light rays hit the water's surface and travel to your
+[00:04:35] eyes.
+[00:04:37] This phenomenon allows for beautiful picture shots.
+[00:04:43] There are two commonly known types of reflection.
+[00:04:48] Specular reflection, when light hits the surface of a smooth object, like the water over calm
+[00:04:53] lake, and is reflected at a similar angle.
+[00:04:57] The reflection is clear and detailed, like a mirror.
+[00:05:03] And diffuse reflection, when light hits the surface of a rough object, like an ocean during
+[00:05:08] a storm, and reflects in a lot of different directions.
+[00:05:13] The reflection is then blurred, distorted, and lacks in details.
+[00:05:19] On the other hand, refraction happens when light travels from one medium to another,
+[00:05:25] in our case from air to water, and slows down, causing it to have a slight change in direction
+[00:05:32] and kinda bends.
+[00:05:35] This is why parts of objects that are underwater appear distorted.
+[00:05:41] One cool looking observable optic phenomenon that can be the result of both reflection
+[00:05:46] and refraction are caustics.
+[00:05:50] On a small scale, you can observe caustics with a simple glass of water, with shining
+[00:05:56] light rays going through it.
+[00:05:58] The light will be refracted and make a curved region of bright light at the bottom of the
+[00:06:03] glass.
+[00:06:06] And on a bigger scale, like in a public swimming pool or lake, it's easier to see those caustics
+[00:06:11] patterns on objects the light is reflected on.
+[00:06:16] In real-time projects, it's not unusual to simulate water caustics through the use of
+[00:06:22] a Voronoi noise pattern.
+[00:06:26] With detailed light-related phenomena, now let's dive into how water moves and talk a
+[00:06:32] bit about fluid dynamics.
+[00:06:35] This is quite a mismaring science that helps us understand and recreate with more or less
+[00:06:40] accuracy our fluid's PA.
+[00:06:45] Viscosity will be a good place to start.
+[00:06:48] Viscosity is the resistance of a substance to flow.
+[00:06:52] Low viscosity liquid, like water, flows with ease from one recipient to another, unlike
+[00:06:59] ONI or high viscosity liquid.
+[00:07:04] It's all about the molecular structure of said fluids, which will create more or less
+[00:07:09] friction, and often making high viscosity liquids looks like thicker than low viscosity
+[00:07:16] liquids.
+[00:07:17] Another way to tackle this theme would be to talk about how water moves and behaves.
+[00:07:25] We generally think about capillary waves, commonly known as water ripples, these gradual
+[00:07:31] waves travelling along the phase boundary of a fluid.
+[00:07:35] But how can we transpose this behaviour in real-time projects?
+[00:07:40] In computer graphics, one of the most common solutions used to simulate deep ocean waves
+[00:07:45] is the multiplication of multiple instances of Gessner's trochoidal wave solution.
+[00:07:51] Each instance of this solution describes a progressive and smooth wave movement, which
+[00:07:56] is basically a sine wave with less sharp peaks and smoother valleys.
+[00:08:04] We won't dive into this subject here, but if you're eager to learn more about the implementation
+[00:08:09] of Gessner's waves in real-time shaders, go check out the NDDS article Effective Water
+[00:08:15] Simulation from Physical Models document by Mark Finch.
+[00:08:19] It's quite a reference in the real-time industry.
+[00:08:24] And now, we'll talk about one of the most easily perceivable water components that can
+[00:08:28] be present in oceans, lakes or even in a simple glass of water, foam.
+[00:08:35] Water foam can have many names depending on its environment, seafoam, ocean foam, beach
+[00:08:41] foam or even spume.
+[00:08:45] Water foam is both a mechanical and chemical phenomenon caused by two key factors.
+[00:08:51] Water agitation through windy days, large swells or storms that will mix water and oxygen
+[00:08:58] to create a lot of bubbles, and high concentrations of organic and non-organic debris like dissolved
+[00:09:05] salts, proteins or oils, most of it coming from decaying organic matter in the water.
+[00:09:14] Water foam can have different colours and densities depending on the organic materials
+[00:09:19] contained in it, ranging from smooth bubbly white to slimy greenish grey.
+[00:09:26] This component is quite interesting, for it adds details to the overall visual of an ocean
+[00:09:31] or lake, and also helps indicate the transition between liquid water and solid environment
+[00:09:37] like rocks or shores.
+[00:09:41] And that concludes this last informative video.
+[00:09:44] I hope you liked this content, and that you've enjoyed following the Elementary Studies course
+[00:09:49] as much as I've enjoyed making it.
+[00:09:52] I was your host, Nicolas Trevisant, and I see you next time.
+[00:09:55] Bye!

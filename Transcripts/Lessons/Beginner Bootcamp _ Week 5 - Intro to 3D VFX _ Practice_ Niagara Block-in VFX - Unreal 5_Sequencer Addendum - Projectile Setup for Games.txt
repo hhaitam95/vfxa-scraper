@@ -1,0 +1,228 @@
+[00:00:05] Hey, everyone.
+[00:00:06] Now that we've got the initial block in of our missile done,
+[00:00:10] we've put that together in a single Niagara system
+[00:00:13] where it's really, really easy to see
+[00:00:15] all of the pieces interact.
+[00:00:17] I wanted to show you how to break this part
+[00:00:20] into the components that would generally
+[00:00:23] be used when implementing a missile in an actual game
+[00:00:26] and how to still preview that really easily using Sequencer
+[00:00:31] in order to just get you that foundation for how
+[00:00:37] to put missiles in particular together for a game,
+[00:00:41] since they tend to be a little different compared
+[00:00:44] to your heal impact or your hit impact
+[00:00:48] where we have been building them the exact same way
+[00:00:51] that they would go into the game.
+[00:00:54] So we're going to be splitting our Niagara system here up
+[00:00:58] into three different assets, three different systems.
+[00:01:03] It's going to be one for our wind up here,
+[00:01:05] one for our missile, and then one for the impact at the end.
+[00:01:11] So I've created three duplicates of our missile demo system
+[00:01:19] here.
+[00:01:19] I just copy pasted them.
+[00:01:22] And we're just going to go through each of those
+[00:01:24] and set them up to be a little better suited for our Sequencer
+[00:01:29] animation.
+[00:01:31] So first off, in the wind up asset,
+[00:01:35] we're just going to delete out everything that
+[00:01:39] isn't part of that wind up.
+[00:01:41] So we've got these three left.
+[00:01:44] And because this one is at the beginning,
+[00:01:52] so we don't have any delays, this
+[00:01:57] starts right at the origin of the effect.
+[00:01:59] We can just call this one good to go for now.
+[00:02:03] As we pull all of this stuff into Sequencer
+[00:02:07] and start seeing how it behaves once it's
+[00:02:11] in a more gameplay-like scenario, that
+[00:02:14] is going to give us a whole little to-do list of things
+[00:02:18] to clean up and change to be accurate to that in-game
+[00:02:25] behavior and stuff like that.
+[00:02:26] But that's for after we've actually got just our base
+[00:02:32] system set up.
+[00:02:34] So similarly, if we hop over to our impact,
+[00:02:39] we can go ahead and get rid of everything
+[00:02:44] that isn't part of that impact.
+[00:02:46] And this one is a little different from our wind up
+[00:02:54] in that this one is offset in space
+[00:03:00] to give that missile a place to travel to.
+[00:03:02] And it's also delayed.
+[00:03:04] Since we set those both up as user parameters,
+[00:03:08] we can just go ahead and zero these out.
+[00:03:13] And that will put everything back at the origin plane
+[00:03:17] immediately.
+[00:03:19] And that's enough for us to work with right now
+[00:03:24] because that's going to pretty much fix all of our offsets,
+[00:03:30] all of our spawn burst delays.
+[00:03:32] This is part of the advantage of having to use
+[00:03:34] those parameters early on.
+[00:03:36] So we'll save that one.
+[00:03:40] And for our missile, this is going
+[00:03:42] to be the one that winds up being the most different
+[00:03:46] because this is one that we're going
+[00:03:48] to want designers or engineers or whoever
+[00:03:56] is setting all of the actual effects behaviors
+[00:04:00] up in game and the mechanics to be able to have
+[00:04:03] a lot of control over.
+[00:04:05] So we want this to eventually basically create
+[00:04:10] a perfect loop.
+[00:04:13] For the time being, we're just going
+[00:04:17] to do a few little things here.
+[00:04:20] We're going to get rid of the delay in our spawn
+[00:04:25] time on the core.
+[00:04:27] And we're going to remove the velocity
+[00:04:30] because we want to animate that in this part of the sequence.
+[00:04:34] So we'll disable that.
+[00:04:36] And then that's going to cause problems
+[00:04:39] because we've got this on velocity alignment here.
+[00:04:42] So we'll switch this back to unaligned.
+[00:04:45] We'll go steal our sprite facing and set that
+[00:04:51] to a custom facing vector.
+[00:04:54] And then up in initialize particle,
+[00:04:58] we've been using a rotation of 90 here.
+[00:05:01] So we'll just copy all of that facing information.
+[00:05:07] And now we've just got our little missile.
+[00:05:11] The other thing that will be missing here
+[00:05:17] is we don't want to use the missile core to generate
+[00:05:25] a location event anymore.
+[00:05:27] We just want this trail to be spawning and following along
+[00:05:30] naturally behind the effect.
+[00:05:33] So we'll go ahead and disable this location event
+[00:05:36] and delete it out of the trail.
+[00:05:40] And we're just going to use a regular spawn rate up here.
+[00:05:49] Now, you can just go ahead and use a spawn rate in this case,
+[00:05:57] except that's something like 20.
+[00:05:59] Spawn per unit is really, really nice for world space missiles
+[00:06:04] like this one in particular because it's
+[00:06:09] going to spawn things based on the movement of your effect
+[00:06:16] through world space rather than just at a constant rate.
+[00:06:19] So it's really, really nice for variable things,
+[00:06:23] for variable speeds, for anything that's
+[00:06:28] just moving through world space.
+[00:06:30] But it's harder to preview.
+[00:06:33] And so I'm not going to be messing around with it
+[00:06:36] right now.
+[00:06:37] So just know that it's there.
+[00:06:39] Know that it's really great for missiles in particular.
+[00:06:44] There's one last thing that I'm going
+[00:06:46] to do just because I can tell looking at this
+[00:06:49] that this is going to be trouble.
+[00:06:51] I'm not seeing our actual missile core from this angle.
+[00:06:55] So I'm just going to go ahead and invert our sprite facing
+[00:07:03] and our rotation so that we'll have that.
+[00:07:06] And from here, let's just go ahead and start
+[00:07:09] getting our sequencer set up.
+[00:07:11] So if we hop back into our scene,
+[00:07:13] we've got our original missile here.
+[00:07:16] We will just move that on out of the way a little bit.
+[00:07:23] And we're going to go ahead and set up our components back
+[00:07:29] here.
+[00:07:29] So we'll just go ahead.
+[00:07:31] We'll drop our wind up in.
+[00:07:33] We'll drop our missile in at the same place.
+[00:07:37] And then we'll drop our impact in a little further
+[00:07:42] over this way.
+[00:07:45] And from here, we're going to go up to this little movie
+[00:07:50] clicker here.
+[00:07:51] We're going to add a level sequence.
+[00:07:56] And we'll just drop this in our little sequence folder.
+[00:08:07] And you can also access the sequencer tab
+[00:08:12] from Window Cinematic Sequencer down here.
+[00:08:14] This will be grayed out unless there
+[00:08:17] are sequences in the level that you're working in, though.
+[00:08:20] So make sure that you actually have a sequence
+[00:08:24] to work with before you try and access it that way.
+[00:08:27] Otherwise, you're going to need to do it through here.
+[00:08:30] So once we're in here, we can just go ahead
+[00:08:33] and add a couple tracks.
+[00:08:35] This is how we'll bring stuff into the sequencer.
+[00:08:37] So we will click that.
+[00:08:39] And to actor to sequencer, we'll add our wind up.
+[00:08:43] We'll add our projectile.
+[00:08:46] And we'll add our impact.
+[00:08:48] And first off, for our wind up, we're
+[00:08:50] going to add a track to this.
+[00:08:52] And we're going to add the Niagara component.
+[00:08:56] And to that, we're going to add a Niagara system lifecycle
+[00:09:00] track.
+[00:09:01] And this one, we're just going to drag down
+[00:09:08] to occupy the right amount of time.
+[00:09:12] So in the case of this, this is at 30 FPS.
+[00:09:17] So we know our missile sequence is a second and a half long.
+[00:09:23] We need 45 frames.
+[00:09:25] And having this play for first third is going to be plenty.
+[00:09:31] You can see it starting to play up there.
+[00:09:35] Same sort of thing for our impact.
+[00:09:37] We're going to add a Niagara component,
+[00:09:40] add a lifecycle track, and just scale this way, way down,
+[00:10:12] and then bring our timeline back in here.
+[00:10:15] And we know that this, from our parameters,
+[00:10:21] we know that this starts halfway through.
+[00:10:24] So we can set this to start, we'll say, around the 25 mark.
+[00:10:33] May 22.
+[00:10:35] And last, we want to do the projectile.
+[00:10:38] This one is going to start off the exact same way,
+[00:10:41] add our Niagara component track, add our lifecycle track,
+[00:10:51] pull that out so that we can get our entire track in there.
+[00:11:04] And this one, let's try starting it around the 10 frame mark.
+[00:11:12] And then we'll extend it to about 25 frames.
+[00:11:15] And the other thing that I want to do for this one
+[00:11:18] is we actually want to move the missile from where
+[00:11:26] it's starting over to where it will actually
+[00:11:29] trigger the impact effect.
+[00:11:31] So we're going to go ahead and add a transform track
+[00:11:34] onto that Niagara component as well.
+[00:11:36] And if we expand this, we're going
+[00:11:38] to get these little tiny plus signs that
+[00:11:41] will let us add key frames.
+[00:11:44] So we'll add one key frame right here.
+[00:11:48] We will jump over and add another one over here
+[00:11:57] once we've moved it over to where we want it to be.
+[00:12:02] And this is a 15 frame difference.
+[00:12:06] So we know this is half a second.
+[00:12:08] We know that this is the same time
+[00:12:10] that we had it keyed up to travel in our initial block in.
+[00:12:16] So now we hit G again to hide the icons and hit Play.
+[00:12:22] Then you can start to see the sequence here.
+[00:12:25] Let's go ahead and hit Looping down here.
+[00:12:32] So now you can start just watching this.
+[00:12:35] And you can start thinking about different things
+[00:12:37] that you might want to modify about the missile.
+[00:12:41] There are quite likely to be some bugs or disparities
+[00:12:44] compared to how we set these up in the original one.
+[00:12:49] One that's jumping out to me even now
+[00:12:51] is I accidentally fixed this off screen,
+[00:12:59] but I originally had the missile core in world space.
+[00:13:03] And so the missile wasn't actually tracking with it.
+[00:13:06] So even stuff like that might get overlooked
+[00:13:10] if you're doing the block in the way that we originally did.
+[00:13:16] So this will just help you to get all of those things set up
+[00:13:20] correctly before you go in and start really fleshing this out
+[00:13:26] or risking working with the wrong set of assumptions
+[00:13:29] around velocity or what this looks like when it's actually
+[00:13:33] moving through space compared to using velocity
+[00:13:35] to fake pushing something back, stuff like that.
+[00:13:40] This is a point where now that we've got that moving,
+[00:13:44] we could try putting a spawn per unit on the trail instead.
+[00:13:51] So the spawn per unit is not going
+[00:14:07] to look very different in this case.
+[00:14:11] But if this were to curve, if this
+[00:14:14] were to have a variable speed, anything like that,
+[00:14:16] then the spawn per unit would save you a lot of headaches.
+[00:14:21] So just wanted to show that real quick,
+[00:14:26] show that it is slightly different in that it asks you
+[00:14:31] how often you want, how many centimeters worth of movement
+[00:14:35] you want a particle to be spawned rather than just
+[00:14:38] how many particles per second.
+[00:14:42] But yeah, this is the basic setup.
+[00:14:47] And now you can just start bouncing around
+[00:14:49] making the tweaks you want.
+[00:14:50] I hope this was helpful.
+[00:14:56] So I hope this was helpful in helping
+[00:14:58] you to understand how you can set up missiles that
+[00:15:03] are a little more complex but are also much more game ready
+[00:15:08] right off the bat and still have a really easy way
+[00:15:11] to preview those or any other kind of complex multi-stage
+[00:15:16] multi-system effects, animations, et cetera
+[00:15:20] that you might have.
+[00:15:23] So with that, I will see you all in the next video.
+[00:15:27] Cheers.

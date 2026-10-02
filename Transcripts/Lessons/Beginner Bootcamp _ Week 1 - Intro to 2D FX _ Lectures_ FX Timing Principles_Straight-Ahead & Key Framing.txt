@@ -1,0 +1,98 @@
+[00:00:05] Hello welcome back. Today we're going to be talking about
+[00:00:10] straight-ahead animation versus keyframe animation. These are styles of approach
+[00:00:18] to animation but they are both quite important and you need to know where and
+[00:00:26] when to use each one of these approaches in order to get not just the best
+[00:00:34] product that you are trying to create in terms of animation but also knowing when
+[00:00:40] and where to use these will help you get deadlines faster as well because if
+[00:00:47] you're working in a professional setting or if you just have lack of time lots of
+[00:00:53] people are busy these days animations the time-consuming profession and hobby
+[00:00:59] so we we want to make sure that you are getting as much bang for your buck for
+[00:01:04] the time that you are putting in. Straight-ahead animation simply means
+[00:01:11] that you are carrying all the information in your head before you are
+[00:01:15] going in and doing the work. I talk a lot about planning out animation making sure
+[00:01:22] that you're working from solid designs making sure that you're compositing
+[00:01:26] things correctly in the shots you're working in whatever it is that you're
+[00:01:32] working on however if you have a lot of experience with animation or you are
+[00:01:38] particularly familiar with a specific effect or whatever it is that you're
+[00:01:44] going to be working on there may come a point in time in which you are sort of
+[00:01:50] ready to try to take on the experience of doing less planning and seeing what
+[00:01:56] comes of the final animation and I would say that if the final animation you
+[00:02:02] feel works just as well straight-aheading as it does with the other option of
+[00:02:07] keyframing and you drop some of the planning you are doing beforehand then
+[00:02:12] you're probably experienced enough to keep rolling with it. I also like
+[00:02:16] straight-aheading for creative purposes quite often it can be hard to look at a
+[00:02:20] blank screen when you're looking to create something and you just want to
+[00:02:26] see where your brain takes you then there's less reason to plan you want to
+[00:02:31] just get those creative juices flowing and you just might as well straight
+[00:02:36] ahead the animation and see where it takes you and what it does for you and
+[00:02:40] what kind of things you can learn from it because of its more speedy nature it
+[00:02:47] will help with the deadlines however you have to keep in mind that you might be
+[00:02:53] sacrificing a bit of quality because of the lack of planning so you know just
+[00:02:58] weigh those two things in your head and consider the situation that you're in
+[00:03:02] and what it is you're trying to accomplish before going forward other
+[00:03:07] than that there's not too much to say about straight-aheading it's pretty
+[00:03:09] self-explanatory the next thing however keyframing keyframing is a much more
+[00:03:18] methodical approach to animation and that is why the time investment
+[00:03:24] ultimately normally gets you a better result in your animation you know where
+[00:03:31] things are going to specifically be on frame 1 by frame 4 and your final frame
+[00:03:39] in this example frame frame 7 so there's no guessing we know that the triangle
+[00:03:45] will be here and then it ends here you have a mid frame here so when we first
+[00:03:51] start out with the the keyframe method we have we have our first frame and our
+[00:03:58] last frame so we know the position of these two drawings already the real only
+[00:04:05] question is where does the mid drawing go the mid drawing we have decided to
+[00:04:12] put in the middle so these would be our keyframes
+[00:04:20] frame 1 and frame 7 and I use these to try to note so this might be frame 1 but
+[00:04:29] this is also drawing 1 so this is the first drawing you do however with the
+[00:04:33] keyframe method this might be frame 7 here but this is drawing number 2 that
+[00:04:39] you do so we want our start and our stop frame after that we want our mid
+[00:04:46] frame also commonly referred to as our breakdown so our mid frame is frame 4
+[00:04:54] however this is drawing 3 so we can erase everything in the middle here and
+[00:05:02] here we're only dealing with these three drawings for this action the keyframe
+[00:05:13] keyframe breakdown once we have all those we start adding in our other frame
+[00:05:22] here and here now if you have enough information and you know that this is
+[00:05:28] frame 1 and this is the breakdown then doing the in-betweens is relatively
+[00:05:36] self-explanatory it's a simpler job back in the day we're talking classical
+[00:05:44] animation you know old Disney stuff old Don Bluth stuff 50s 60s 70s kind of
+[00:05:53] animation era this was the preferred method was you had specific positions
+[00:05:59] actually where you had a keyframe artist and it was their specific job to just do
+[00:06:07] these drawing and then once those were solid enough and approved by an
+[00:06:14] animation director or maybe the director themselves then they would hand the work
+[00:06:20] off to an in-between artist and the in-between artist filled in the blanks
+[00:06:26] now this was still a very important job however it's considered a little bit
+[00:06:31] more junior because you're not laying out the overall look and feeling of the
+[00:06:36] of the animation however nowadays an animator is more often than not at least
+[00:06:45] in my professional experience which is like going on 15 plus years now
+[00:06:51] animators are responsible for for all of it but once we get to the in-between
+[00:06:56] portion things are much more self-explanatory and there's very little
+[00:07:02] guesswork of where you have to put these frames there's some timing and stuff you
+[00:07:07] have to worry about but in general when you have these kinds when you have the
+[00:07:12] keyframe and the breakdown very very little is left the imagination for the
+[00:07:18] in-between which is good because in-betweening can sort of be a little
+[00:07:23] bit cathartic it's it's drawing it's still fun however it's not a ton of
+[00:07:29] brainpower so it's a different mode of working whereas with the keyframes in
+[00:07:35] this simple example it's not that big of a deal but when you're working on more
+[00:07:39] complicated stuff the keyframes you have to put a lot of thought work and
+[00:07:43] effort because they are kind of your anchors in the look of the animation
+[00:07:50] whereas straight ahead in your winging it keyframing it's very everything is
+[00:07:56] laid out now one last thing I want to address which isn't addressed in these
+[00:08:02] drawings is that you have to decide for yourself what a keyframe is in this
+[00:08:09] example it's very simple because that's how I want it to be for anyone who is
+[00:08:14] potentially watching this series however an animation can have multiple keyframes
+[00:08:21] and in between those keyframes can have multiple breakdown you're not tied to
+[00:08:28] only two keyframes and one breakdown you can have as many of these as you need in
+[00:08:33] order to help describe the action or the animation and potentially what should
+[00:08:39] happen is if you have your keyframes and your breakdowns done and they're all
+[00:08:43] done properly if you play the animation it should read pretty well like it
+[00:08:50] should read as being like dang near finished product so I hope that helped
+[00:08:57] with giving you a couple different options of ways to approach animation
+[00:09:01] these are the only two that I kind of really think exist I don't think there's
+[00:09:05] really a third way of doing animation because it's kind of the these two
+[00:09:11] methods kind of boil down to winging it and planning it and straight ahead and
+[00:09:16] keyframing is just different terminology for describing those two things however
+[00:09:21] they don't both apply equally in all situations so I find it a very
+[00:09:28] interesting exercise getting people to animate the exact same thing in both
+[00:09:34] styles or methods of animation and seeing which one they like because
+[00:09:40] you'll very quickly find out oh it was it was a lot quicker and easier to
+[00:09:44] straight ahead this kind of animation than it is to keyframe it and then vice
+[00:09:49] versa and the more familiar you become with where it's more opportunistic to
+[00:09:58] use one over the other that's when you become a better quicker enemy

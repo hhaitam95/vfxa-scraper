@@ -1,0 +1,84 @@
+[00:00:08] All right, so we've got our ring here that's going to roughly indicate where our area of effect is
+[00:00:15] going to be, so let's just start thinking of different ways to occupy that space.
+[00:00:20] So the first one I could think of is just fill the circle, right?
+[00:00:27] So we're not going to worry as much about the dimensionality of it, and just kind of go for
+[00:00:34] like a flame carpet type effect, right? So you want, since it's an explosion and it probably
+[00:00:41] has a center point, you want it to radiate outward from here, right? So we want to convey
+[00:00:48] directionality because this is an explosion, but we're just going to worry about this
+[00:00:55] two-dimensional plane for right now. So I'm going to start thinking of an interesting
+[00:01:01] sort of way to fill that space. So how about just a wave? A wave of fire!
+[00:01:14] So we're going to kind of create like maybe like a fiery donut or something here. It'd be kind of
+[00:01:21] cool, right? It just kind of washes over it. Something I'm envisioning like you've got
+[00:01:29] like a puddle of balline or something, and you set a match and like across the puddle.
+[00:01:37] You want to, since it's a fire effect, you want to break it up in kind of interesting ways here.
+[00:01:48] As your concept, you want to be thinking about execution as well, right? So how would I build
+[00:01:55] this donut shape? I might do it with just like a mesh. You can build a custom mesh and then
+[00:02:03] like offset the vertices so that it unfurls in interesting sorts of ways as you're scrolling
+[00:02:10] across it. You can build the material in all sorts of different ways. You can have it supported by
+[00:02:15] other little bits of particles. That's looking okay. Just kind of indicating this. And for now,
+[00:02:28] we're not going to worry about color or anything like that. Just going to be working in black and
+[00:02:32] white. So in black and white, two colors are plenty to kind of convey what you want to convey
+[00:02:41] here, right? So black at this phase isn't necessarily going to be black. Just using
+[00:03:14] it to kind of indicate layering and dimensionality of the effect that we want to create.
+[00:03:39] So this more than a line or contour drawing is going to give the people who see it,
+[00:03:46] yourself, your director, just a clearer indication of where the emphasis on the effect is going to
+[00:03:54] be. In this case, we're emphasizing this outer AOE ring. I'm just going to kind of carve out some
+[00:04:07] interesting little details very quickly. As you're carving out like little details here,
+[00:05:28] try and do so in a way that, again, supports the dimensionality, the contour
+[00:05:34] of your 3D shape. You're always trying to make your hair as though it's part of
+[00:05:42] a three-dimensional space because the game exists in a three-dimensional space.
+[00:05:45] Even if the actual gameplay, like in the case of a MOBA or something like that, is all just on
+[00:05:52] a 2D plane and nobody jumps or aims upward or anything like that. You still want that
+[00:06:01] because it's going to make the world feel richer. So that's one. I'm feeling happy with this.
+[00:06:37] So I'm going to get my palette up here. Let's make that its own layer. You might have noticed
+[00:06:45] that I have this gray layer here. Well, you probably haven't the first time seeing this,
+[00:06:50] but I do have this gray layer here. It's set to like 61%, whatever number, and it's just nice to
+[00:06:56] have like a neutral, because I'm working in black and white, like a neutral color that I can see
+[00:07:02] both of those colors very clearly over. So I'm going to start another layer and call this Concept
+[00:07:29] 2. What's another way we can do this? So I'm sure everybody who do games and watched anime,
+[00:07:40] so you'll be more than familiar with the dome treatment for the explosion effect. This is
+[00:07:46] something reminiscent of like Star Fox or if you're an anime fan of Kira, you see them all
+[00:07:52] over the place in games like Shippuden or Ninja Storm or whatever. So these will be just kind of
+[00:08:04] like big swirly bubbles, but kind of like this red. They're usually very bright and they'll
+[00:08:27] dissipate usually in a swirly kind of manner. Where they intersect the ground, you know,
+[00:08:41] you'll see this kind of like patterned swirly thing. This is a fairly easy effect to create in
+[00:09:01] 3D as well with meshes and billboard particles and such. You can even have some at the crown of
+[00:09:13] the explosion, some more supporting swirl shapes to make the effect of energy flowing through the
+[00:09:21] explosion a little bit more complete. Support it at the top and the bottom. You can make this
+[00:09:35] intersection kind of bubbly red or even kind of spiky. Let's make it spiky. So she's being
+[00:09:50] wrecked by this. It's powerful. Sparks and things on the sides. I think that's kind of enough to
+[00:11:18] convey the idea, right? This will be our concept two. And now for our third concept, which I
+[00:11:34] think could be kind of like a synthesis between the two ideas. An explosion that has sort of
+[00:11:39] upward directionality and then also spreads out to fill the space. And the thing that pops to
+[00:11:49] mind for me would be your classic kind of mushroom cloud Hollywood movie gasoline explosion. If you
+[00:11:57] just Google gasoline explosion, you'll find a gazillion results of exactly what I'm talking
+[00:12:04] about. So you can get kind of a nice impression of the way that explosions tend to dissipate in
+[00:12:14] real life. The larger it is, the more complex the motion of it is, of course. Since this is a
+[00:12:23] medium-sized explosion, you might not want to lean too heavily into the mushroom cloud,
+[00:12:28] but we are going to want to be aware of the different ways that heat moves through an
+[00:12:36] explosion. So you've got a hot part in the middle, and that's always going to be constantly pushing
+[00:12:44] upwards. So the hottest part is always going to be here, and it's going to want to displace the air
+[00:12:49] around it. So you're going to get this constant motion upwards. And also, the force of the
+[00:12:58] explosion pushes out a bunch of stuff. So at the base of it, you're going to have this outward
+[00:13:05] movement. And in the interior of it, you're going to have this upward swirling kind of motion,
+[00:13:16] right, as more heat, more air is being sucked in because the fire's hungry
+[00:13:24] and pushed upwards because heat rises, right? So let's make the shape that reflects this
+[00:13:35] sort of movement, like get off the page here. But we can get a rough idea of what this would
+[00:13:54] look like. We want big, puffy, kind of stylized shapes here. Maybe slightly more rounded than
+[00:14:13] this. Where's appealing places to kind of stick things? Right, we've got kind of like a smoky
+[00:14:33] fireball here, and then we want like kind of a ring of smoke. All right, so this is kind of a
+[00:15:15] complex shape, complex idea here, which is where our black and white that we've been working in
+[00:15:24] is really going to help us out because we want to show people what the actual sort of
+[00:15:30] dimensionality of this is going to be like, how it's constructed. So
+[00:15:37] we're going to indicate the interior with brighter shapes, places where the explosion is hotter.
+[00:16:01] So not only are you going to see light in the interior sort of cracks between these kind of
+[00:16:07] cloud shapes, but you're also going to see it bubbling up through the cloud shapes, especially
+[00:16:12] at this moment of height where the windy explosion is very hot. You can even have,
+[00:18:29] if you just want to dial up the intensity of it, the center area kind of sandwiched between
+[00:18:38] the base and the outer, the mushroom cloud. Like a hamburger, right? It'd be fun to imagine
+[00:18:58] like you're just smashing the bun down on top of a hamburger. All the condiments are violently
+[00:19:07] squirting out the approach here, right? A lot of shape variation. Spent a lot of time on this
+[00:19:20] concept, but we do want to show that we're thinking about like where the heat is, where the
+[00:19:26] intensity is favoring the center. So I think these are all interesting enough to get some feedback
+[00:20:49] on, see which one the director likes. And yeah, so we'll get their buy-off and we'll pursue the
+[00:20:58] idea that best fits the style.

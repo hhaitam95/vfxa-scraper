@@ -1,0 +1,248 @@
+[00:00:00] Oh hey guys, it's good to see you again.
+[00:00:04] Let's talk some more about the artistic principles
+[00:00:07] of visual effects.
+[00:00:08] If you missed the first video on gameplay,
+[00:00:10] I recommend you check that out first
+[00:00:12] before going on to this one,
+[00:00:13] or not if you're more interested in shapes instead.
+[00:00:16] So in talking about shapes
+[00:00:19] as an artistic principle of effects,
+[00:00:23] I like to think of them as the primary way to communicate.
+[00:00:27] After all, if you think about it,
+[00:00:29] any alphabet is just a collection of shapes, right?
+[00:00:33] You've got plenty of shapes that tells things
+[00:00:35] like danger in a visual effect.
+[00:00:38] You've got round and bubbly shapes
+[00:00:39] that tell you things about being more inviting or friendly,
+[00:00:44] and everything in between.
+[00:00:45] So primarily, something to think about with shape
+[00:00:50] is area of effect, right?
+[00:00:53] Shape tells you the boundary
+[00:00:55] of where something is happening.
+[00:00:57] And so when you're making effects,
+[00:00:59] having that in mind is super important and helpful.
+[00:01:02] So let's take a look at the handy dandy
+[00:01:05] League of Legends visual effects style guide.
+[00:01:08] And looking at this page,
+[00:01:11] basically you can see that in League specifically,
+[00:01:14] we try not to think of shape as like,
+[00:01:17] what is the shape of the entire effect
+[00:01:21] painted in this one texture?
+[00:01:24] Instead, what you wanna think of it is
+[00:01:27] breaking it into its components, right?
+[00:01:29] So here in this example, we have the flame licks, right?
+[00:01:33] And many of those smaller flame licks
+[00:01:35] would work together to create a larger explosion
+[00:01:38] or a burning fire or something like that,
+[00:01:40] along with other shapes,
+[00:01:41] like shapes of the sparks that are flying out,
+[00:01:44] shapes of the smoke that are gonna billow up and plume.
+[00:01:47] And all those things are gonna have slightly different
+[00:01:51] shape to them defined in the texture,
+[00:01:53] and then that's gonna come together as one big hole.
+[00:01:56] And I'll show you a little bit what I mean later on.
+[00:01:59] So here we have a perfect example of this,
+[00:02:02] where we know that a particle system is composed
+[00:02:06] of many cards that all have their own textures on them.
+[00:02:10] And if we get too much information,
+[00:02:12] too much shape detail into each texture alone,
+[00:02:17] then like on the example on the left,
+[00:02:19] they all start to fight against each other
+[00:02:21] when they're brought into one big cloud of particles, right?
+[00:02:25] And this is an easy trap to fall into
+[00:02:29] because when you're painting that texture,
+[00:02:30] you might think, oh, like this nice little reflection
+[00:02:33] of the metal here, and then this cool curve here,
+[00:02:35] and this other jaggedy edge there,
+[00:02:37] and it gets pretty interesting, right?
+[00:02:39] And you're like, oh, then I wanna have like
+[00:02:41] some lens flare coming off of it, or I don't know.
+[00:02:44] Like you're painting in all these different shapes
+[00:02:46] into one texture, but then when you combine
+[00:02:49] those textures with many other textures together
+[00:02:52] to build out the body of the effect,
+[00:02:54] you get kind of a visual clutter,
+[00:02:57] a lot of noise, and no clear shape in the overall effect.
+[00:03:01] Whereas in the example on the right,
+[00:03:03] you can see the different elements,
+[00:03:04] but they kind of work together to create
+[00:03:07] one clear silhouette, one clear driving shape and motion.
+[00:03:12] So kind of keep that in mind as you're building
+[00:03:15] your materials or your textures
+[00:03:17] that you're gonna then put on particle cards.
+[00:03:20] Take into consideration how they come together
+[00:03:22] in one kind of symphony of a larger effect
+[00:03:25] versus how cool is this material or texture in isolation.
+[00:03:30] So another thing about shapes is that
+[00:03:33] they tell a story of motion,
+[00:03:35] even when they're not moving, right?
+[00:03:37] So over on the left, we have a texture, again,
+[00:03:39] that is trying to just kind of tell a story all on its own,
+[00:03:44] but it's not doing a very good job at it
+[00:03:46] because this is a missile that's supposed to be traveling.
+[00:03:49] And we know that when things travel,
+[00:03:51] they create the illusion of motion blur to the eye, right?
+[00:03:56] The eye kind of just fuzzes together
+[00:03:57] things that are moving along.
+[00:03:59] And in the example on the right,
+[00:04:00] with that texture that we see over here,
+[00:04:03] there's a nice trail coming off of it
+[00:04:05] so that that will feed into the overall shape
+[00:04:09] of the effect in a meaningful way.
+[00:04:11] Even if you were to still frame,
+[00:04:12] you can see that this is traveling this way,
+[00:04:15] whereas this missile here seems to be stationary,
+[00:04:17] but actually it was cast from LeBlanc over here.
+[00:04:22] All right, so getting into wrangling the shapes.
+[00:04:25] Now in this example, Project Leona is casting
+[00:04:28] this area of effectability that is made
+[00:04:31] of technology magic of some kind, right?
+[00:04:34] So we've got all these shapes flying out.
+[00:04:37] Well, it succeeds at the idea of technology magic flying,
+[00:04:41] but it really fails at clearly defining
+[00:04:44] where that damage is hitting and where it's not hitting.
+[00:04:47] So by wrangling those shapes and bringing them in,
+[00:04:50] toning some of them down,
+[00:04:52] we can get this example on the right,
+[00:04:54] where we still have the interesting shapes that we want
+[00:04:57] of the technology and the circuitry and the magical feeling.
+[00:05:01] All of the same shapes are still there.
+[00:05:04] It's just they're wrangled in.
+[00:05:06] They're toned down to work cohesively in one effect.
+[00:05:11] And this is something that as an effects artist
+[00:05:14] you're gonna need to do constantly, right?
+[00:05:16] You're always gonna be looking at,
+[00:05:17] okay, I've got this texture plus this one
+[00:05:19] plus this one plus that one,
+[00:05:20] working on these cards and these meshes and everything else.
+[00:05:24] And you're gonna get so busy in the tool
+[00:05:27] that sometimes it gets away from you.
+[00:05:28] And this is really a matter of you as the artist saying,
+[00:05:32] nope, I want this shape.
+[00:05:34] I want this overall silhouette.
+[00:05:37] I want this to be sharp here, round there,
+[00:05:41] more prominent over here and less prominent over there.
+[00:05:44] And you really wanna control and tune your shapes
+[00:05:47] so they work together in concert.
+[00:05:50] Especially when you're starting out in effects.
+[00:05:51] It's very easy to let this get away from you.
+[00:05:54] And especially for me even,
+[00:05:55] like this still gets away for me,
+[00:05:57] where I love the idea of this shape having its moment
+[00:06:01] and then this one's cool too and that one's cool too.
+[00:06:03] But if you let them all ride at the same level
+[00:06:07] of prominence and scale and sharpness and energy,
+[00:06:11] like they all just kind of bleed together, right?
+[00:06:14] And nothing really works.
+[00:06:16] It's like that previous example and like this example here
+[00:06:19] where it just gets kind of muddy and unclear.
+[00:06:23] So moving along, if this will load.
+[00:06:26] It's a little choppy here.
+[00:06:27] We have more examples of shapes.
+[00:06:29] And these are all positive examples that we shipped with.
+[00:06:31] I'm not taking the time here to really break down
+[00:06:35] how this could have gone wrong.
+[00:06:37] But you could imagine, I mean,
+[00:06:38] we're seeing in each of these, right,
+[00:06:40] there's various shapes that are all kind of working together.
+[00:06:44] And especially on this example over here,
+[00:06:47] where they're fanning out as they come down,
+[00:06:50] we see that the bigger, simpler, bolder shapes
+[00:06:53] are out at the tip to really clarify
+[00:06:56] that this leading edge down here
+[00:06:59] is where the damage is happening
+[00:07:00] and where you want to get out of the way.
+[00:07:02] And then all of this stuff up here is flavor.
+[00:07:05] And it's using value as well and also color to tone it down.
+[00:07:09] But the shapes you'll notice get a little fuzzier,
+[00:07:11] they get a little blurrier,
+[00:07:12] it's just a little less prominent.
+[00:07:16] And that way you can have the nice complicated circuitry
+[00:07:18] that goes up into here,
+[00:07:20] but still have this nice bold leading edge.
+[00:07:23] And this is a matter of really fine-tuning
+[00:07:25] and balancing your shapes.
+[00:07:27] I know that Mark, who worked on this,
+[00:07:28] he really spent a lot of time tweaking the shapes,
+[00:07:31] balancing them, getting them to work just right
+[00:07:33] for his purposes.
+[00:07:36] And then we're gonna talk a little bit
+[00:07:37] about soft and hard shapes, right?
+[00:07:40] I mentioned it in the previous slide,
+[00:07:41] but here we have some awesome effects
+[00:07:44] from the Super Galaxy line.
+[00:07:46] We've got some Super Galaxy Fizz
+[00:07:48] and I believe an effect from Super Galaxy Shyvana down here.
+[00:07:52] So in these shapes, in these first two examples right here,
+[00:07:57] you'll notice that they use fairly crisp edges
+[00:08:00] with just a little bit of subtle glow around them.
+[00:08:03] And this is great depending on the style
+[00:08:05] that you're going for.
+[00:08:06] It creates a nice sense of sharpness and punchiness
+[00:08:09] to the effect that's happening.
+[00:08:12] But some interesting things can happen too
+[00:08:14] if you blend in sharp and soft.
+[00:08:16] And you'll notice that each of these two over here,
+[00:08:19] these third and fourth ones,
+[00:08:23] they start off really sharp
+[00:08:25] and then the shapes that come in afterwards are very soft.
+[00:08:29] And this gives you a nice sense of punch
+[00:08:31] and then a dissipation outro.
+[00:08:33] And I mean, you can go ham with this
+[00:08:35] in your materials as well.
+[00:08:36] Like the material could start with really high contrast
+[00:08:39] and then you can like animate the contrast over time
+[00:08:41] so it becomes more fuzzy, that kind of thing.
+[00:08:44] Could be really cool.
+[00:08:46] And then of course, you know, down here
+[00:08:48] we've got a blend of simultaneous hard and soft shapes
+[00:08:52] going on at the same time.
+[00:08:54] And that gives us the sense of the shapes
+[00:08:57] being really magical and having this nice like
+[00:09:01] glowy quality about them
+[00:09:03] where they're sort of dreamlike or ethereal.
+[00:09:05] And that can work well too.
+[00:09:06] So depending on how you have your goal set up for an effect,
+[00:09:11] you can play around with hard, crisp edges,
+[00:09:14] you can play with soft edges
+[00:09:16] and mix them together in interesting ways.
+[00:09:19] Just be conscious of how you're mixing those
+[00:09:21] and which ones are prominent, which ones are secondary.
+[00:09:24] We talked about primary and secondary elements
+[00:09:26] in the previous tutorial.
+[00:09:28] And so yeah, just keep that in mind
+[00:09:30] as you're playing around with those kinds of things.
+[00:09:34] If you want to learn a little bit more about shapes,
+[00:09:36] I previously did a tutorial,
+[00:09:39] I'm gonna link that as well,
+[00:09:42] on good versus bad.
+[00:09:45] And this is just according to the idea of
+[00:09:47] making shapes dynamic and having more variety
+[00:09:52] as the examples on the bottom row show
+[00:09:54] versus examples that have a lot of sameness to them
+[00:09:59] and repeating things going on.
+[00:10:01] So check that video out if you're interested
+[00:10:03] in diving a little deeper into shape making.
+[00:10:06] Again, wanna do a shameless plug
+[00:10:08] for the Realtime VFX Forum.
+[00:10:10] It's a fantastic place for you to go to get more knowledge
+[00:10:13] if you wanna learn about visual effects.
+[00:10:15] Highly recommend hitting up the community of professional
+[00:10:18] and student effects artists that are out there in the world
+[00:10:21] or just anyone who wants to come creep on us
+[00:10:22] and see what we're up to.
+[00:10:25] And the job board, which I own and operate,
+[00:10:27] it's attached to it.
+[00:10:28] If you're looking for a job in visual effects,
+[00:10:30] it's a great place to start.
+[00:10:32] And I will say VFX artists are pretty tricky
+[00:10:35] to come by in the industry.
+[00:10:36] So if you're looking to find a place
+[00:10:39] where a lot of us congregate
+[00:10:40] and you wanna do some job advertising,
+[00:10:42] I encourage you to go get a post on there.
+[00:10:46] So that's all I got for you guys today.
+[00:10:48] I hope that you enjoyed the tutorial
+[00:10:50] and I hope you learned something.
+[00:10:52] And until then, until the next video,
+[00:10:55] keep making awesome.

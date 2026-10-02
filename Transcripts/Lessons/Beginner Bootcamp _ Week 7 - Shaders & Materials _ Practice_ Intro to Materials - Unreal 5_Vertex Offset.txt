@@ -1,0 +1,318 @@
+[00:00:05] Hey, friends.
+[00:00:07] Welcome to another video.
+[00:00:08] All right, so last time we saw distance,
+[00:00:12] the time before we saw the direction between two vectors.
+[00:00:16] Today, we're going to try and amalgamate all this
+[00:00:18] into modifying, actually, the position of the vertices
+[00:00:23] of your particle.
+[00:00:25] So this is going to be a short introduction to this.
+[00:00:29] There's a lot of other factors and other elements
+[00:00:31] that are interesting.
+[00:00:33] And in the future, it's something
+[00:00:34] you can really delve into.
+[00:00:36] So the goal is just to give you the tools
+[00:00:38] to understand what is happening and how you could use it
+[00:00:41] in your projects in the future.
+[00:00:44] So I have just created a simple limiter that has a mesh render
+[00:00:49] and just spawns a sphere.
+[00:00:51] All right, that's all there is.
+[00:00:55] There's just a sphere spawned here.
+[00:00:57] So from there, we are going to take our trusty, trusty shader
+[00:01:04] and try and work through it.
+[00:01:05] So we want to modify the position.
+[00:01:09] To do this, if we want to modify the position of this sphere,
+[00:01:12] we're going to try and make it wobble, basically.
+[00:01:14] However, the vertices go up and down
+[00:01:17] so that it looks more like a bubble that's floating around.
+[00:01:20] So to do this, we're going to use this output called
+[00:01:23] world position offset.
+[00:01:25] We've touched it very lightly at the start
+[00:01:28] of this whole series, but now we're
+[00:01:30] going to try and delve a little bit more into it.
+[00:01:32] So world position offset will push all the vertices
+[00:01:37] by a vector you give it.
+[00:01:40] OK, so we need to give it a vector.
+[00:01:42] And what better vector to give it than the normal vector?
+[00:01:46] So what is the normal vector?
+[00:01:47] We've seen it slightly before.
+[00:01:49] The normal vector, when we were doing the Fresnel.
+[00:01:52] Normal vector is the vector that is directly
+[00:01:54] perpendicular to the curve, the mesh, the curve of the mesh.
+[00:02:00] So let's say you have a sphere.
+[00:02:02] The normal vector is going to be a vector pointing outward
+[00:02:05] from the surface of the sphere.
+[00:02:07] If you take any mesh, like a character,
+[00:02:08] like your forehead, the normal vector
+[00:02:12] would be the vector that is directly
+[00:02:14] perpendicular to your forehead, in general.
+[00:02:18] In some cases, it looks a bit strange.
+[00:02:20] But for most of the time, just thinking of it
+[00:02:24] helps you a lot to understand how things work.
+[00:02:27] So that's pretty simple so far.
+[00:02:30] So what do we want to do now?
+[00:02:34] We will start by using the normal vector.
+[00:02:36] So just, again, right click, find normal vector.
+[00:02:43] So it's probably called vertex normal.
+[00:02:47] So per vertex, we're taking the normal.
+[00:02:49] And this ws is world space because this
+[00:02:53] says it wants a world position offset, world space.
+[00:02:56] Again, we try to stay in the same reference,
+[00:03:00] in the same system.
+[00:03:02] So this, we will multiply it by a value
+[00:03:06] so that we can control it.
+[00:03:07] Just plug it in here so that we can play around with it.
+[00:03:11] And then we will give it the dynamic parameter
+[00:03:14] so that we are able to work with it live in our vertex offset.
+[00:03:20] I suggest every time you're testing something,
+[00:03:22] every time you're working on something,
+[00:03:24] every time you're not sure about something,
+[00:03:26] just plug it into your dynamic parameter.
+[00:03:29] Just plug it in there and see how it goes.
+[00:03:32] See if it gives you the right values, the right parameters.
+[00:03:36] It's always super good to have something to test with,
+[00:03:40] something to adjust the values.
+[00:03:41] As you've seen, especially with Unreal,
+[00:03:43] you'll see that the values, usually you
+[00:03:45] have to put 0.01s, like small values,
+[00:03:48] in order to just get the results you want.
+[00:03:50] So having the possibility to test around is very important.
+[00:03:56] So what happens now if we move our dynamic parameter?
+[00:04:00] So what does that mean?
+[00:04:01] Here in the shader, we have taken this vertex normal.
+[00:04:04] So this is just a direction with a distance of 1.
+[00:04:07] And we are multiplying it by a value
+[00:04:09] and then modifying the offset.
+[00:04:14] So basically, this is choosing the length.
+[00:04:18] The direction is already chosen.
+[00:04:20] If you take a vector and you multiply it by just one value,
+[00:04:24] you're basically just extending the length of your vector.
+[00:04:29] So here, we're just modifying the length of the vector.
+[00:04:31] That is how much we're pushing the values.
+[00:04:34] So here, let's take just a normal.
+[00:04:43] I'm going to take a new one.
+[00:04:45] I'm going to just take this one.
+[00:04:47] Excuse the inconvenience.
+[00:04:49] But in general, yes, this is the goal that you want to have.
+[00:04:52] Always be able to play around, use all the values you can
+[00:04:55] to test around everything.
+[00:04:56] And at the end of the day, when you start making your animations,
+[00:05:00] you'll run out.
+[00:05:00] There's only four of them, unfortunately, in Unreal.
+[00:05:03] But still, they're a very powerful tool
+[00:05:06] that you should use.
+[00:05:07] They're one of the best tools you'll
+[00:05:08] have when you use your shaders in Unreal.
+[00:05:13] So here, we're just going to use our parameter.
+[00:05:15] And you see already?
+[00:05:17] When we just multiply the value, our sphere becomes bigger.
+[00:05:20] And when we make it smaller, our sphere becomes smaller.
+[00:05:23] Because we're pushing the vertices up and down,
+[00:05:26] out and in, OK?
+[00:05:28] So this is pretty simple already.
+[00:05:30] We're just pushing them in and out.
+[00:05:33] It's pretty cool.
+[00:05:35] No, this is the scale of the value.
+[00:05:37] This is a bad idea to change.
+[00:05:38] So I set up already a little curve here.
+[00:05:42] Just to show the example, I'm going to go back to this one
+[00:05:46] and show you.
+[00:05:47] This should go fast.
+[00:05:48] And now, if we use a little curve and I press Play,
+[00:05:52] you see that it has a little respiration.
+[00:05:54] It's just boop, boop.
+[00:05:59] Because with the curve, we say that it goes from 1 to 0.
+[00:06:03] We're pushing the thing.
+[00:06:04] If we change the scale here, suddenly, the pulse is bigger.
+[00:06:10] And now, we can play with quite a big pulse.
+[00:06:13] Every time our particle gets spawned,
+[00:06:16] it's pulsing up and down.
+[00:06:20] This is quite cool, but we can do more.
+[00:06:24] So how can we do more?
+[00:06:26] Well, now, we can use this.
+[00:06:28] But instead of multiplying by just a simple one value,
+[00:06:34] we can multiply it by a different value.
+[00:06:35] So let's keep this as one multiplier.
+[00:06:39] We'll keep this value here as the multiplier,
+[00:06:43] and then we'll play around with it.
+[00:06:45] What we're going to do is that we're
+[00:06:46] going to displace our points starting at different areas.
+[00:06:53] So for that, we're going to use a texture to map
+[00:06:55] where we want to displace.
+[00:06:57] For this, we're going to use the trusty sine wave.
+[00:07:00] So let's find a sine wave.
+[00:07:03] And we're going to span the sine wave on the x-axis of the y
+[00:07:09] axis of our sphere.
+[00:07:10] So the x-axis of our sphere is basically the circular one,
+[00:07:14] and the y-axis of our sphere is the vertical one.
+[00:07:16] So to do that, all we need to do is to get the UB's.
+[00:07:20] So texture coordinate.
+[00:07:26] And here, we want to mask it.
+[00:07:28] Mask component mask.
+[00:07:31] We want only the y.
+[00:07:33] And we are going to give it to our sine,
+[00:07:36] put it back into the emissive color to see what we're doing.
+[00:07:39] And here, you can see that already,
+[00:07:41] while it's saying that it's basically just doing
+[00:07:44] our little curve, going from minus 1 to 0 to 1,
+[00:07:49] and then back to 0 just at the top here.
+[00:07:51] OK.
+[00:07:52] So we're going to use this to move our curve.
+[00:07:56] OK.
+[00:07:57] So to do that, we're just going to multiply this result
+[00:08:02] by here and here.
+[00:08:05] So now, the distance of our vector
+[00:08:09] is going from minus this parameter
+[00:08:13] to plus this parameter, because this is going from minus 1
+[00:08:16] to plus 1.
+[00:08:17] So this is going to minus our parameter to plus
+[00:08:19] our parameter.
+[00:08:20] OK.
+[00:08:23] So if we save and go back to our vertex offset,
+[00:08:27] you'll see that now the bottom is shrinking,
+[00:08:30] and the top is swollen, is bigger.
+[00:08:34] And you'll see that then you can apply
+[00:08:36] a ton of other different ways of just doing your curve
+[00:08:40] as much as you want.
+[00:08:41] So here, you can see that now the bottom is completely
+[00:08:44] shrunk, and the top super big.
+[00:08:47] All right.
+[00:08:48] So here, we can play around and just say, OK,
+[00:08:50] let's make it smaller.
+[00:08:52] If we put this at 0, the bulging will do nothing.
+[00:08:55] And the bigger the value, the more we are basically pushing.
+[00:08:59] And if we put a negative value, we're
+[00:09:00] pushing towards the bottom.
+[00:09:03] All right.
+[00:09:04] So here, this is interesting, but it
+[00:09:06] doesn't have much of a use in your everyday VFX.
+[00:09:11] What you can do, for instance, is have this value panning.
+[00:09:14] So if you just, again, to pan, you just want to add the value.
+[00:09:19] So let's add our little curve we had before.
+[00:09:22] All right.
+[00:09:24] That way, we will then animate our sine wave.
+[00:09:27] So this is just going to pan vertically
+[00:09:30] using the little curve we had before, our little bulging.
+[00:09:34] So you'll see that now the sphere
+[00:09:36] is going to have a little wave going through it.
+[00:09:39] One important element to note is that depending
+[00:09:41] on the resolution of your mesh, you
+[00:09:45] will not get the same result, because here, the shader cannot
+[00:09:48] just create new vertices for you.
+[00:09:50] So what will happen is that if you
+[00:09:52] have a low enough resolution of the mesh,
+[00:09:55] there's not enough vertices in your mesh in order for it
+[00:09:58] to do the right movement, you will see the vertices.
+[00:10:01] It will not quite work.
+[00:10:02] So this is where you need to find a way
+[00:10:04] to either see if this is possible
+[00:10:06] or if just you're working with too much of a low poly mesh
+[00:10:10] that you can't quite make it work.
+[00:10:12] So here, this is going very fast,
+[00:10:14] but you see that this is working.
+[00:10:17] Because this scale is very, very high.
+[00:10:20] If we move the scale down, already it is going slower.
+[00:10:24] Let's move it to 0.85.
+[00:10:25] And already, we're seeing something interesting.
+[00:10:27] Just have a little ball bumping up and down and up and down
+[00:10:31] and up and down.
+[00:10:32] This is a fun one.
+[00:10:33] We can increase it so that the ball of bulging
+[00:10:35] is so much bigger, so much larger.
+[00:10:38] Or we can have it smaller, just so that the wiggle is just
+[00:10:42] very, very tiny.
+[00:10:46] And you see that already now I add the color,
+[00:10:48] but I can remove the color, just keep it black.
+[00:10:51] And you'll see that here now, the illusion
+[00:10:53] starts to be there.
+[00:10:55] When we use all the debug functions,
+[00:10:56] we put all our black and white colors inside there
+[00:10:58] so that we see everything, it's easy.
+[00:11:00] But when we start to cut through it
+[00:11:03] and just keep all these effects a bit more subtle,
+[00:11:08] you'll see that we get very interesting results that
+[00:11:11] feel more organic.
+[00:11:12] And something that looks organic is something
+[00:11:14] that looks believable too.
+[00:11:17] So here already, we have something
+[00:11:19] that looks a bit more believable.
+[00:11:21] I'm going to add a point in the center,
+[00:11:28] say that it's at the top, and put this back at 0
+[00:11:32] at the end, minus 1.
+[00:11:52] And here, you see that this is actually quite believable.
+[00:11:55] You have a little bulge that just goes up and down and up
+[00:11:58] and down and up and down.
+[00:11:59] You can use this for a lot of different things.
+[00:12:01] For a little bubble going down and up,
+[00:12:03] you can use it for a lot of different applications.
+[00:12:05] Then you can play around with it
+[00:12:07] to make it bigger or smaller.
+[00:12:09] This already looks even more aggressive.
+[00:12:12] And on the contrary, you can just
+[00:12:13] have it move very slightly.
+[00:12:15] If it's something that's big and close to your screen,
+[00:12:18] you can have it just slightly bulge so that it feels alive,
+[00:12:22] but otherwise, it's just a mesh.
+[00:12:25] So those are just ideas.
+[00:12:27] You could play around, for instance.
+[00:12:30] If you multiply this, then the scale of your sine wave
+[00:12:38] is going to change.
+[00:12:39] Now, by doing this, and again, those are just examples.
+[00:12:43] You could play around more.
+[00:12:44] And we're going to stop here afterwards,
+[00:12:46] because there's a lot of applications to vertex offset,
+[00:12:49] and I don't want to overwhelm on this.
+[00:12:51] But this is just to give you an idea of what you can do.
+[00:12:55] The sine wave can be replaced with any texture.
+[00:12:58] And you can then, for instance, by using just noise,
+[00:13:01] you can get something that's quite organic.
+[00:13:03] You can paint just your own texture
+[00:13:05] that will displace your vertices.
+[00:13:06] So don't hesitate to try and do something like this
+[00:13:09] on yourself.
+[00:13:10] It's pretty simple.
+[00:13:11] So here, we're having zero.
+[00:13:14] But if I add a small value, for instance, a big value, sorry,
+[00:13:20] now we get the full wobble, like if this was a big water sphere,
+[00:13:24] for instance.
+[00:13:26] And if we get even more, you can see now the limits.
+[00:13:29] And the more we increase the scale,
+[00:13:32] the more the bigger our sphere is
+[00:13:34] until we have nothing left.
+[00:13:37] All right?
+[00:13:38] So in here, this is what I wanted to show as a finisher,
+[00:13:42] is you can see the limits of our thing.
+[00:13:44] If we go too high on the scale, it
+[00:13:47] goes back down to nothingness.
+[00:13:49] Because it can't find, it doesn't have enough vertices
+[00:13:54] to do the difference.
+[00:13:55] Already here, it doesn't have enough vertices
+[00:13:56] to do the difference.
+[00:13:57] It's struggling.
+[00:13:58] You see that it's struggling to find the detail.
+[00:14:03] And you see all the spikes here are where the vertices are
+[00:14:06] just up and down.
+[00:14:08] So this has limits.
+[00:14:10] And the limit is the detail of the sphere.
+[00:14:13] If today we just came and made a very, very, very detailed
+[00:14:16] sphere that's Unreal, like what would tell you
+[00:14:18] that it's way too much, then we could have very, very tiny
+[00:14:22] waves on top of it.
+[00:14:24] So it's just about the scale that you want to use.
+[00:14:26] But in general, this gives you a good tool
+[00:14:28] if you wanted to just create a few wobbles like this,
+[00:14:32] have them go up and down, make them a bit subtle,
+[00:14:37] and then have this be your water bubble around the sphere
+[00:14:41] or around the shield or something like that.
+[00:14:43] All right?
+[00:14:44] Or be very extreme.
+[00:14:46] Anyway, I hope this was interesting.
+[00:14:50] This is the last video we're doing
+[00:14:52] on vertices and vertex offset.
+[00:14:54] In the next video, which will also
+[00:14:56] be the last video of the whole course,
+[00:14:59] we will be working on depth fade, which
+[00:15:02] is a very, very commonly used effect that you
+[00:15:07] use to blend your textures inside the environment,
+[00:15:10] inside the characters, et cetera.
+[00:15:12] I'm looking forward to the next and final one.
+[00:15:14] And thank you for sticking with me throughout this whole class.

@@ -1,0 +1,243 @@
+[00:00:05] Hello everyone, welcome to the Fireball Breakdown video of the Elementals 2D schools.
+[00:00:10] As usual, we'll take a look at the concept of the effect and the final result in Game
+[00:00:14] Engine.
+[00:00:15] We're talking about the technical details of each component.
+[00:00:19] So let's get started.
+[00:00:22] Here is the concept art of the Fireball effect, or should I say, the first version of it.
+[00:00:28] The concept looks decent and the effect shouldn't take us too long to make by reusing components
+[00:00:33] made for the Campfire effect, however this version of the concept didn't respect one
+[00:00:38] of the key guidelines, a clear hierarchy.
+[00:00:42] The fiery trail was as bright as the head of the projectile and the effect lacked in
+[00:00:47] shape and luminosity contrast overall.
+[00:00:51] Adjustments needed to be made to make it more easily readable while keeping the appeal of
+[00:00:55] a Fireball effect.
+[00:00:57] One of the solutions I've leaned toward was to reduce the stretching of the scattered
+[00:01:01] sparks particles and transform the fire trail into a smoky one.
+[00:01:06] That way, we would keep the head of the projectile bright while getting head of contrast in shape
+[00:01:11] and luminosity to have a clearer hierarchy between elements.
+[00:01:16] And this is how it turned out in Game Engine.
+[00:01:19] It's looking a bit different but still maintains most of the ideas of the concept.
+[00:01:26] After this quick concept art talk, let's have a technical breakdown of each component of
+[00:01:31] the Fireball effect.
+[00:01:33] As mentioned in the concept art guidelines, we will use a lot of components we've made
+[00:01:37] during the Campfire breakdown video and adjust them to make them fit this new effect.
+[00:01:44] This effect will be divided into three parts, the head of the projectile, its particles
+[00:01:52] and its trays.
+[00:01:55] We'll start with the most visually important part of our effect, the projectile's head.
+[00:02:00] Located in two layers, one bright and one a bit darker, those fiery hemispheres use
+[00:02:06] the same shader but are a bit different from each other when it comes to the module properties
+[00:02:10] values.
+[00:02:12] The shader used by those two layers is the main flame components shader that we've made
+[00:02:17] during the stylus campfire breakdown video.
+[00:02:21] Its purpose is to animate a static fire-like texture by using the UV distortion technique
+[00:02:27] with only one texture core, in which is stored a static fire texture, an opacity mask and
+[00:02:33] a UV distortion noise texture in the red, green and blue color respectively.
+[00:02:40] We will duplicate the main flame material twice to make our two projectile's head fiery
+[00:02:44] layers materials.
+[00:02:46] We sit during the particle system setup part or to adjust them correctly.
+[00:02:50] For the texture, we won't be able to just use the main flame texture as it is.
+[00:02:56] We will duplicate it and edit it in Photoshop to make some adjustments to the green channel,
+[00:03:02] containing the opacity mask.
+[00:03:05] With the 3D mesh we're going to make in a minute, we'll need a soft linear gradient opacity
+[00:03:09] mask with some subtle noise at the top of it to mask out the tip of the fiery texture.
+[00:03:16] We can quickly make it by using a simple soft brush.
+[00:03:20] Now that we have edited our texture, in Blender, the 3D mesh required to make this component
+[00:03:25] will be pretty simple to create.
+[00:03:27] It's just half of a sphere that has been stretched out with its main UV scale out to
+[00:03:32] take 100% of the UV space.
+[00:03:36] Note that to match the opacity mask we've painted earlier in Photoshop, we need to have
+[00:03:40] our UVs with a specific alignment with the cut-out base of the hemisphere's UVs at
+[00:03:45] the top of the UV space.
+[00:03:48] Back to Unity, let's talk about the particle system setup for the fiery projectile's
+[00:03:52] head.
+[00:03:53] The 3D mesh will be pretty straightforward, we just want two looping particle systems
+[00:03:57] spawning our stretched hemisphere, with our fiery projectile's head material applied
+[00:04:01] on it.
+[00:04:02] First, let's edit the render options in the render module.
+[00:04:07] We'll set up the render mode to Mesh, and assign the hemisphere's 3D mesh we've
+[00:04:11] just created.
+[00:04:12] We'll assign the bright layer material, set the render alignment to Local, to avoid
+[00:04:17] our protective head to always be aligned with our view, and set its order in Layer to 3,
+[00:04:23] so it will be rendered on top of all effects with lower value in the Order in Layer property.
+[00:04:31] Then we'll go to the General module, set the duration and lifetime value to 999, take
+[00:04:37] the looping option, play around with the side of the mesh, and in the Emission module, add
+[00:04:43] a new burst list with the cross icon right there, and set the particle count to 1.
+[00:04:49] We got our bright layer particle system done.
+[00:04:51] Now, we'll just duplicate it to make the darker layer.
+[00:04:54] We'll stretch it a bit more into the Start Size property, and lower the value of the
+[00:05:00] Order in Layer property, to make it rendered below the bright layer.
+[00:05:07] We just finished the setup of our particle systems.
+[00:05:10] Now we need to adjust each material.
+[00:05:13] The bright layer has two tinted luminous colours.
+[00:05:16] It also has a decent amount of uniform UV distortion applied on the main texture.
+[00:05:23] The second layer only got a single tinted darker colour that will help bring contrast
+[00:05:28] to the first layer, while the fire static texture and distortion noise texture are a
+[00:05:33] bit stretched on the Y axis, to get a better feeling of speed and flow.
+[00:05:40] And we are done!
+[00:05:41] Feel free to take additional time to adjust your materials to your heart content.
+[00:05:47] Our next component for the Projectise Head part will be the Glow effect.
+[00:05:51] Like the previous component, it is built around two particle systems that are quite similar,
+[00:05:57] one bright and one a bit darker.
+[00:05:59] If you remember, we've already made a particle system like this during the Clemfire Breakdown
+[00:06:04] video, so we're just going to duplicate it.
+[00:06:07] We'll have to make some minor adjustments to it.
+[00:06:11] In the General module, we're going to tick the Preform option, and untick the 3D Start
+[00:06:16] Size property to have a uniform scaling on our glow particles.
+[00:06:21] Don't forget to apply the desired colour in the Start Color property.
+[00:06:25] We will also deactivate the Noise and Light module, for we do not need those modules here.
+[00:06:32] And that was all for the first bright glow particle system.
+[00:06:35] To make the darker one, duplicate the particle system we just made, set a lower Order In
+[00:06:40] Layer value, and select a darker colour in the Start Color property.
+[00:06:48] Now we'll talk about the particles of the Fireball effect, starting with the Small Flames
+[00:06:53] component.
+[00:06:54] As you can see, those particles' behaviour are quite dependent on the movement of our
+[00:06:58] entire effect.
+[00:07:01] This is where it gets a bit harder to make particle systems for a projectile effect,
+[00:07:05] but we need our entire effect to be moving to have a decent preview of Trace and Particles'
+[00:07:11] behaviour.
+[00:07:13] We can make a quick workaround for this problem by making a simple animation of our effect
+[00:07:18] going in circles.
+[00:07:21] For that, we will be parenting our entire effect in an empty GameObject, offset it in
+[00:07:27] the X axis, and add an Animator component to it.
+[00:07:34] After that, we need the Animation window to animate the rotation of our empty GameObject,
+[00:07:39] so we'll open the Animation window in the Window tab under the Animation subtab.
+[00:07:49] Once the window is opened, create a new animation.
+[00:07:52] We'll add the Transform Rotation property of our parent GameObject on our timeline.
+[00:07:58] After that, we'll left-click on the Red Live Record button.
+[00:08:02] This record mode will register a keyframe in the timeline every time we edit any transform
+[00:08:08] values of our component.
+[00:08:11] We let the first keyframe as it is, push the second keyframe we've already got a hundred
+[00:08:16] frames further, and apply a minus 360 rotation on the Y axis directly to the Transform component
+[00:08:23] of the parenting GameObject.
+[00:08:26] And we got our rotating GameObject animation done.
+[00:08:32] Unity might make an easy and without animation curve that isn't ideal to preview our projectised
+[00:08:37] behaviour.
+[00:08:38] So we go to the Curve mode of the Animation window, select both keys, right-click on them,
+[00:08:44] select both tangents, and set them to Linear.
+[00:08:52] With that done, we got a handmade tool to preview our projectised particle system behaviour
+[00:08:57] when the projectile will be in movement.
+[00:09:00] Now let's get back to the small flame component.
+[00:09:05] The shader and the material used by this component are the same used as the Tiny Flames component
+[00:09:10] of the campfire.
+[00:09:12] We won't have to make a new texture or 3D model for this component, however, we got
+[00:09:17] some work to do on its particle system setup.
+[00:09:20] We want looping particle systems with multiple standard billboard 3D planes continuously
+[00:09:26] spawning.
+[00:09:27] We want those particles to always face the camera and have variations in lifetime and
+[00:09:32] movements and to fade away at the end of the lifetime.
+[00:09:35] We will create the particle system of the Small Flames component by duplicating the
+[00:09:42] Tiny Flame particle system of the campfire and adjust some properties.
+[00:09:48] In the Render module, we set the Render mode to Stretched Billboard, with the split scale
+[00:09:53] to 1, and the Freeform Stretching option ticked.
+[00:09:58] We'll also lower the Order in Layer property value to make those particles render behind
+[00:10:02] most of the other components of the effects.
+[00:10:06] In the General module, we'll lower the Start Lifetime values of those particles.
+[00:10:11] We don't need them to stay alive too long, that will be for the Sparks components that
+[00:10:14] we are going to make right after this one.
+[00:10:18] We'll make them a bit bigger and reset towards the Start Color property, where we'll set
+[00:10:22] up a color variation during the lifetime of the particle in the Color Over Lifetime module
+[00:10:27] in a minute.
+[00:10:29] We'll set the simulation space to World to make our particles follow the path of our
+[00:10:33] entire effect and linger a bit behind it.
+[00:10:37] We'll set the Gravity property value back to 0, we don't need our particles to be
+[00:10:41] affected by gravity this time.
+[00:10:45] In the Emission module, we can set a bigger value in the Rate Over Time property.
+[00:10:50] In the Shape module, we'll change the Shape property to Sphere and lower its radius to
+[00:10:55] a smaller value.
+[00:10:57] As said earlier, we'll set up a color variation of the particle's lifetime, with a bright tinted
+[00:11:02] color at the start and a darker tinted color at the end.
+[00:11:06] This will help keeping the hierarchy of the effect clean, without particles fading in
+[00:11:10] opacity and luminosity when it will be closer to the trail.
+[00:11:16] Finally, the last module we will use is quite spatial.
+[00:11:19] It's the Inherit Velocity module.
+[00:11:22] Just like the name suggested, the module will transfer a part of the emitter's velocity
+[00:11:26] to the particles.
+[00:11:28] We set the mode to Initial, and set a random value between 0 and 0.1.
+[00:11:35] And we got our small flames component done.
+[00:11:38] Now we'll work on smaller particles and add some sparks.
+[00:11:44] Smaller than our small flame particles, they will however be more scattered and linger
+[00:11:48] a bit longer behind the firebolt projectile.
+[00:11:51] Once again, we'll save production time by reusing an already made component.
+[00:11:56] The sparks particle system or the campfire effect will be perfect for that.
+[00:12:01] The duplicated particle system is already quite close to what we want.
+[00:12:05] A looping particle system spawning multiple stretched billboards of different sizes and
+[00:12:10] lifetimes that are a bit turbulent in their movement and behavior.
+[00:12:15] As we did before, we'll cover the Render module first.
+[00:12:18] We'll set an I value in the Speed Scale property, something like 0.2 should be fine.
+[00:12:25] In the Noise module, we set the scroll speed down to 0, and set an IsOut curve with a Descent
+[00:12:31] Strength value to make our noise not affect our particles' behavior at the start of
+[00:12:36] their emission, when they're supposed to be fast, but near the middle to the end of
+[00:12:41] their lifetime, where they're supposed to have lost most of their speed.
+[00:12:47] In the General module, we'll lower the Start Lifetime and Size values, and raise
+[00:12:51] the Start Speed values of our sparks particles.
+[00:12:54] Just like for the small flame components, we'll set back to hide the Start Color property,
+[00:13:00] and set up in the Color Over Lifetime module a Color Gradient starting with a bright tinted
+[00:13:04] color, and ending with a darker one.
+[00:13:08] We'll also set the simulation space to World.
+[00:13:13] In the Emission module, we'll keep the Rate Over Time values, but get rid of the
+[00:13:17] Burst list by selecting it and clicking on the Minus icon.
+[00:13:23] In the Shape module, we'll tweak the Angle and Radius value, while adjusting the rotation
+[00:13:28] of the cone emitter shape to be facing the back of the projectile.
+[00:13:34] We'll deactivate the Velocity Over Lifetime module, and adjust the Limit Velocity Over
+[00:13:38] Lifetime Speed curve, by setting a Higher Max value, and making the curve a bit smoother,
+[00:13:44] starting to decline directly at the start of the particle's lifetime.
+[00:13:49] And voila!
+[00:13:50] At this stage of the video, we've got the head and particles of our Fireball projectile
+[00:13:55] done.
+[00:13:56] Time to make the Trail Components.
+[00:14:00] Just like the two previous components, this part is made of two different particle systems,
+[00:14:04] or should I say, Trail Renderers.
+[00:14:07] We'll first take a look at the Smoke Trail.
+[00:14:11] Believe it or not, but we'll reuse the main flame shader of the Campfire effect to make
+[00:14:17] a trail material.
+[00:14:19] Remember that we make a little lap setup to select which UV gradient we wanted to use
+[00:14:23] back when we made this shader?
+[00:14:27] This is the moment where this setup will be useful.
+[00:14:29] We'll also have to make some adjustments to the texture and material property.
+[00:14:40] For the Trail Texture, we'll duplicate the texture we've made for the Projectile's
+[00:14:46] head fiery hemisphere and open it in Photoshop.
+[00:14:50] In the Red Channel, we're going to rotate at 90° the fiery texture, scale it up a lot,
+[00:14:57] and blur it.
+[00:14:58] This should do the job just fine with the UV Distortion effect applied on top of it.
+[00:15:04] In the Green Channel, we'll make a linear gradient that serves as an opacity mask, just
+[00:15:09] like what we've made for the Projectile's head fiery hemisphere texture, but this time
+[00:15:13] it will be tilted to the left, for the left part will be the end of our trail, and the
+[00:15:18] right part the start of it.
+[00:15:20] We will also mask off the top and bottom part of the texture to avoid having our texture
+[00:15:25] cut out at the edges of our trail.
+[00:15:29] And for the Blue Channel, we won't edit anything, the noise we already got here is good enough.
+[00:15:36] Back in Unity, we won't choose a particle system to handle the trail generation, in
+[00:15:40] our case, but a trail renderer.
+[00:15:44] We can quickly create a trail renderer by going to the hierarchy window and clicking
+[00:15:49] on the plus icon.
+[00:15:50] Here, we will go to the Effects submenu and select Trail.
+[00:15:54] We will assign our smoke trail material, set the texture mode to Stretch, and deactivate
+[00:16:03] the Class Shadow option.
+[00:16:06] We will also set the minimum vertex distance to a small value, to get a trail with enough
+[00:16:11] subdivisions to look kinda smooth and not too jagged.
+[00:16:16] We set the lifetime of the trail to a value that will highly depend on our project's
+[00:16:21] speed, and set an Ease Out curve as the trail size of a lifetime.
+[00:16:27] Now that our trail emitter is set up, we will edit the trail material.
+[00:16:32] We will first set the UV masking value to 1, to switch from a vertical to a horizontal
+[00:16:37] UV opacity gradient.
+[00:16:41] We are going to apply a dark grey as color A, and a dark reddish grey as color B, to
+[00:16:47] have a smooth transition in contrast and color from the project's head to the tip of the
+[00:16:52] trail.
+[00:16:55] And finally, we are going to set up non-uniform values properties in the Fire Noise and UV
+[00:17:00] Distortion Noise Telling to stretch our textures and set up different scrolling speeds on the
+[00:17:05] X axis.
+[00:17:08] We can also apply some UV Distortion on our trail texture.
+[00:17:14] Here we got a nice smokey trail done for the effect.
+[00:17:17] The second trail layer is here to add extra polish to the effect and helps blend everything
+[00:17:22] together nicely.
+[00:17:23] This second trail is quite simple, it's just a default particle material with its
+[00:17:29] soft dot texture applied on a new trail renderer on top of the smokey trail, with the color
+[00:17:35] gradient going from a light tinted red to a reddish dark grey.
+[00:17:41] Also this trail is a bit wider, but lasts less longer than the smoke trail.
+[00:17:48] And we are done with our trail components.
+[00:17:52] And that concludes this breakdown video.
+[00:17:55] We managed to create a cool looking fireball projectile while greatly optimizing our production
+[00:17:59] time by reusing our own assets from an older effect.
+[00:18:05] And now you also know how to make a Projectile preview tool using the Animation tool.
+[00:18:10] I'm quite excited to see what you're going to make out of it.
+[00:18:15] I hope you liked this content and I see you in the next video, goodbye!

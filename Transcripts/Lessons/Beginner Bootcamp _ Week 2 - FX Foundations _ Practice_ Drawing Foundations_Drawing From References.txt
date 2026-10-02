@@ -1,0 +1,360 @@
+[00:00:01] Hi! In this video we will talk about drawing from observation and simplifying complex shapes that we see.
+[00:00:09] We will look into how to simplify solid shapes, how to simplify detailed shapes,
+[00:00:16] and how to make them work from simple blocks that we know how to draw,
+[00:00:21] and how to work with dynamic shapes that we see.
+[00:00:25] Okay, let's draw something.
+[00:00:27] Okay, let's draw a paper from observation.
+[00:00:35] So, if I look at it, it has a lot of, like, small shapes and bumps and, like, this handle stuff.
+[00:00:43] And if I want to draw it from construction point, it would be easier for me.
+[00:00:49] If I would think about it like some blocks, I can draw easily in perspective.
+[00:00:55] So, this paper I can imagine as a solid cube from the beginning.
+[00:01:02] So, I will start with that.
+[00:01:05] So, I will draw a cube here, like the top side of it, top plane of it, like this.
+[00:01:28] And also I see that the bottom plane of this cube would be a little bit smaller
+[00:01:34] because, like, it's the shape of a paper, it's more small at the bottom.
+[00:01:39] So, I will draw this kind of line that defines how it goes more to the bottom,
+[00:01:52] to the smaller, like, square at the bottom, just approximately for now.
+[00:02:01] Okay, and now I can draw a bottom plane of my cube.
+[00:02:08] Maybe something like this here from this point.
+[00:02:18] It will go there, like this.
+[00:02:25] So, this is my base construction for the paper part.
+[00:02:38] Now we have a green paper handle that's going on on top of this paper.
+[00:02:46] So, I can simplify it to a circular base.
+[00:02:53] It's in the center of a paper, so I can find where is the center of this square, to be more precise.
+[00:03:02] And now I can draw a circle here around this center, maybe slightly bigger, like this.
+[00:03:20] Now we see that the start of this handle is a little bit above the outer circle.
+[00:03:31] So, I can draw a smaller circle on top of this.
+[00:03:37] That will be slightly above.
+[00:03:40] Now, this handle, I can see it like a curve that was extended in 3D.
+[00:03:48] So, I will draw just one line here, goes like this, a little bit wider here.
+[00:04:04] Yep, like this.
+[00:04:10] So, now I can just extend it to the one side and another.
+[00:04:20] And here on the end, we see that it's like a sphere stuff.
+[00:04:28] So, I can add a sphere here as a guide.
+[00:04:33] And now, like my handle part goes here, like this, and like this.
+[00:04:50] So, okay, what I can have now, I can add some more details.
+[00:05:01] So, I have a base of the paper.
+[00:05:04] Now I can break it to smaller parts.
+[00:05:08] So, I see that this cube is separated on four pumps we have in the paper.
+[00:05:18] So, I have a pump like here, here.
+[00:05:24] So, I'm just dividing it in four parts.
+[00:05:29] And now I can see that here I have an edge of a pump, pump in here.
+[00:05:38] And here at the bottom, I can see that it's like a cutted edge in here.
+[00:05:47] And then it goes like wider, like this.
+[00:05:54] So, now from these edges, I can go to the top and see where they will be at the top.
+[00:06:09] So, here will be a cut, here will be a cut, like this.
+[00:06:20] So, here will be the cut, here, a straight line, like this.
+[00:06:34] So, now I have like a low poly mesh of this thingy that goes on with the paper.
+[00:06:44] And I will do the same with the other details I have here.
+[00:06:52] Like cut here, cut here.
+[00:06:58] From this point it goes like this and like this.
+[00:07:16] And this one.
+[00:07:18] So, I can see from the reference that this probably should be a little bit wider.
+[00:07:32] So, this one will be like this.
+[00:07:39] Cut here, cut here.
+[00:07:43] Now here we have cut.
+[00:07:51] Now I'm bringing this up, so something like this.
+[00:08:08] And the furthest away part can be cut like this.
+[00:08:16] Okay, so I have like more details now from observation.
+[00:08:22] So, now I can just define what lines I want to show to the viewer as the final drawing.
+[00:08:31] So, what I can do right now is I can draw over like this edgy lines.
+[00:08:38] It will be like a stylized version of the reference.
+[00:08:42] Or I can smooth them out and create like instead of this stuff I can create just a curve.
+[00:08:50] But I see the guide I can have here.
+[00:08:55] So, I will go with second roads and will create more curved lines here.
+[00:09:02] But it's like more a matter of style you want to go.
+[00:09:07] So, here I have an overlap.
+[00:09:11] This shape is overlapping those shapes, this and this.
+[00:09:15] So, I extend this line a little bit.
+[00:09:18] Now this line goes here.
+[00:09:22] This I can curve out and smooth this edges.
+[00:09:33] Now with this, so this shape is closer to the viewer.
+[00:09:38] So, I will draw this line a little bit further.
+[00:09:43] Now here shape start here.
+[00:09:50] Now this will be more curved like this.
+[00:10:03] And here also this shape is in front.
+[00:10:07] So, I'm showing this line.
+[00:10:10] Now I'll define my handle.
+[00:10:15] So, for this one I can on top of this base circle I can add more details from the reference.
+[00:10:22] So, I have like small variations of the leaf part here.
+[00:10:30] Go something like this.
+[00:10:34] Okay, now the handle start part.
+[00:10:44] To show that it's a little bit on the top I can draw here line just to define that it's like a bump here and here.
+[00:10:57] Now start of the handle part.
+[00:11:01] And it goes up, up, here what I will have.
+[00:11:10] So, I see this handle on top of the sphere.
+[00:11:18] So, I'm showing that line like this, like this.
+[00:11:26] Okay, now coming back to the paper it will be like this.
+[00:11:47] And now to show more volume in this drawing I can show a little bit of this edges.
+[00:11:53] So, this bump is going in front of that bump.
+[00:11:58] So, I want to show where it's overlapping here.
+[00:12:03] And here we will have the same thing.
+[00:12:08] So, it will be like this.
+[00:12:15] Can probably show a little bit of interaction here.
+[00:12:23] Yeah, so now what I can add also here to sell the volumetric shapes of this paper.
+[00:12:32] I can add some inner shapes that we see on the reference as a light glare.
+[00:12:45] So, I'll just add the little lines that go along this three-dimensional shape.
+[00:12:54] And here, and here a little bit.
+[00:13:01] Yeah, so now this edge is more defined with inner shapes.
+[00:13:07] So, the point of these constructions is to have more information from your reference that you can see just from like silhouette and inner colors and stuff.
+[00:13:21] So, when I construct this stuff from simple shapes it is easier for me to find where will be this important line that show overlapping stuff.
+[00:13:34] And where I can put the curved lines, where the curve will start, etc.
+[00:13:41] So, it is easier to show the complex shapes going from this simple one.
+[00:13:52] Okay, so on this reference we can see a lot of small details again.
+[00:13:58] But they are not forming as solid shape as it was on the paper.
+[00:14:05] But anyway, I can imagine and simplify them into some basic shapes that I know how to draw in perspective.
+[00:14:14] So, for the flowers I will use conuses.
+[00:14:18] So, like the petal part will be first conus.
+[00:14:24] So, I'll start with a novel.
+[00:14:29] So, the center, like the bottom part of the conus will be around here.
+[00:14:44] Like I'm imagining it on the reference.
+[00:14:48] Now I can connect these lines just to have more information about this 3D space.
+[00:14:58] And then the inner small sticks that are from the petals also can be described as a conus.
+[00:15:11] So, I will add another conus here starting with oval.
+[00:15:19] So, these conus describe the shape in which these sticks are arranged in this flower.
+[00:15:30] Now we also have like an inner green stick in the petal.
+[00:15:37] It's not very good scene out there, but from the nearby flowers we can see that it must be there.
+[00:15:47] So, I'll just mark this stuff here.
+[00:15:50] Now I can draw a guide or guides for the petals.
+[00:15:59] So, I have an overall shape that they form.
+[00:16:03] And now I can draw like lines that I will extend.
+[00:16:10] So, this petal will be more like reference shape.
+[00:16:15] So, this petal is curved a little bit there.
+[00:16:19] This petal is curved like this.
+[00:16:25] Here this big petal is almost straight to that direction.
+[00:16:33] So, another thing that I see in this reference.
+[00:16:36] So, that these flowers have six petals overall.
+[00:16:41] Three of them are big and three of them are more slim.
+[00:16:45] So, I'm marking the big ones and now in the middle of them I can add guides for the slim petals.
+[00:16:56] Here, here and here like this.
+[00:17:10] Okay, so now my basic construction is done and I can define the shapes more.
+[00:17:18] So, I can start with a petal here.
+[00:17:23] So, looking in the reference, trying to see the shapes that are going there like this.
+[00:17:36] Now this one has a base like this.
+[00:17:43] Now around this curve.
+[00:17:48] Okay, so it's going a bit wider here and then goes slimmer and the edge of it like this.
+[00:18:01] Now this one.
+[00:18:03] This one is big and white.
+[00:18:09] Now this slim one, something like this.
+[00:18:33] This big one here.
+[00:18:41] Now the small one here like this.
+[00:19:00] Now you can see that I can make this one wider a little bit here and here like this.
+[00:19:12] This one can be a little bit wider and this one too a little bit.
+[00:19:21] Okay, now the inner stuff.
+[00:19:28] So, there is the base, there is the green stuff and we have six sticks with dark dots on them.
+[00:19:47] So, these dots are forming this circular shape here, so I can mark them here, here, three, four, five and one, somewhere here, six.
+[00:20:10] Okay, so now again I can define my shapes more.
+[00:20:15] So, this petal goes here.
+[00:20:23] This petal is overlapping that one like this.
+[00:20:32] This one is overlapping that one, but is at the bottom of this petal like this.
+[00:20:44] Now this one is going to be like this.
+[00:20:56] Now here this petal is over this one, but this green thingy is in front of it, so I will define it first.
+[00:21:06] And now this petal is here.
+[00:21:13] And this one like this, this and it goes there.
+[00:21:27] So, in the reference this petal and this petal were more separated, but as I drew this one more white here, I will define that it's overlapping the big one.
+[00:21:41] This overlap will define a little bit more and I can define these darker circles that are on top of those sticks.
+[00:22:07] So, yeah, with simple shapes again I can describe not only just the shape of an object, but the shape that this object is describing with smaller shapes.
+[00:22:24] And it's not necessary to go pixel to pixel with the reference image.
+[00:22:31] It's important to catch the essence of what you're drawing, so it will be recognizable as a shape.
+[00:22:41] And while you're doing this drawing and studies, you can absorb the idea that is inside of this object and then use it for the new ones.
+[00:22:57] So, if I have a perfect flower or anything that I want to draw, but I can find a reference that is showing this in the angle that I want.
+[00:23:12] Breaking the reference that I have to the simple shapes can help me to draw what I want from any angle I want.
+[00:23:23] So, if I was going to draw this flower, but from another angle, I could start with drawing again these simple shapes.
+[00:23:35] So, I'll start again with drawing an oval here and now I'll make a conus from this oval.
+[00:23:56] So, the base will be, for example, here.
+[00:24:07] Now I need conus for my inner shapes, like inner sticks.
+[00:24:19] It's probably going to be wider like this.
+[00:24:24] Okay, now I'm connecting it to the same base.
+[00:24:31] Okay, and the green stick stuff here.
+[00:24:39] Okay, now I want to decide where my petals will go.
+[00:24:44] So, here I'll have one, for example, here and here.
+[00:24:54] So, this will be the first three petals that will be small or wide.
+[00:25:00] I've not decided yet.
+[00:25:02] And now I can draw another ones in the middle of this.
+[00:25:09] So, like this.
+[00:25:15] Okay, so now I have a base.
+[00:25:19] Also, here I'll see the beginning of the flower.
+[00:25:26] How it will go, so they have this sort of stuff in the bottom.
+[00:25:31] Okay, so now what I want to do is to define my petals, what are white and what are thin.
+[00:25:42] I feel like I will make this one thin here.
+[00:25:52] So, this one should be wide.
+[00:25:57] This one will be thin again and this one will be wide.
+[00:26:09] So, I will start with the wide one.
+[00:26:12] Show the courage here.
+[00:26:18] Like this.
+[00:26:24] And here will be the thin one.
+[00:26:30] Like this.
+[00:26:33] This one will be thin too.
+[00:26:37] It's going like this.
+[00:26:48] I forgot that I have a base here.
+[00:26:53] So, I'll connect this to the base.
+[00:26:56] Okay, thin, thin, thick.
+[00:26:58] So, this one is the thick one.
+[00:27:03] Like this.
+[00:27:13] Okay, so now the green stuff in the center and six dots will go inside there.
+[00:27:35] Inside, oop, green stuff here has volume.
+[00:27:39] Oop, oop, oop.
+[00:27:47] So, now I can define my petals more.
+[00:27:50] So, here it will be thin and overlap here, back shape there.
+[00:28:01] Now this one will be like this.
+[00:28:07] Back part here, base of the flower.
+[00:28:18] And here we'll have white flower.
+[00:28:29] Petal.
+[00:28:31] Now this smaller petal here.
+[00:28:36] And this white one will be here and here.
+[00:28:48] Okay.
+[00:28:50] Oop.
+[00:28:52] I'll define an outer silhouette here a little bit more.
+[00:28:56] Super white line here.
+[00:29:31] I'll add volume here too.
+[00:29:34] Oop.
+[00:29:35] And I can add some small details.
+[00:29:38] So, the inside lines here, like along the shape again.
+[00:29:46] And oop, they also have some small dots on the petals in the base.
+[00:29:54] Like this.
+[00:29:59] Yeah.
+[00:30:00] So, breaking the complex object into the simple constructions gives us an opportunity to draw them from imagination.
+[00:30:14] Okay.
+[00:30:15] We talked about how we can simplify solid forms, how we can simplify detailed forms that can be imagined as a big, simple form.
+[00:30:26] And now let's see how we can simplify something that's not that solid or static as a flower, but some dynamic shapes as a fire.
+[00:30:36] So, to start, I will draw a plane that this fire thing is going on, just to define the ground where it's standing.
+[00:30:48] Now I will draw the bigger shape, the biggest shape in this reference I have.
+[00:30:57] And this is this block.
+[00:31:02] It's laying like this, so it's a cylinder.
+[00:31:10] It goes like this.
+[00:31:15] And then it has some details that it was broken a little bit.
+[00:31:25] Okay, so now I see that I have another log that this log is laying on, so I will draw another one.
+[00:31:38] It's the shadows on the picture I have, but I can assume and draw these shapes in perspective, which I established here with my plane.
+[00:31:56] And as these are not the main scene of the drawing, but the fire, I'm not too worried about them, so I'm just blocking out the shapes that will help me to place my fiery stuff.
+[00:32:14] So, another thing we have is some rocks here.
+[00:32:22] It's laying on this smaller one, I assume.
+[00:32:30] This one here, and some side-placed rock here.
+[00:32:45] We also have some out there.
+[00:32:48] And there are a lot of small dusty parts.
+[00:32:51] I can show them just with an edge of this dust part.
+[00:33:00] So some of the dust is overlapping the rocks here.
+[00:33:07] Some of the dust is on the log like this.
+[00:33:14] Yeah, so that's enough for the base.
+[00:33:17] Now, how can we describe all these fire shapes that we see on the reference?
+[00:33:25] So if I squeeze my eyes and make my vision blurry, I can see that all of these small flame parts are going along like this line.
+[00:33:40] So the overall shape of the flame will be something like this.
+[00:33:48] Like here, the smaller one will go like this.
+[00:33:57] And here, this one will be something like this.
+[00:34:06] And also at the middle, I have another flame part.
+[00:34:12] So just blocking out some smaller details inside this big shape that I have already.
+[00:34:20] And here, we can also see another flame part and another one.
+[00:34:29] And on the reference, we see that the right flames that are going in this part of the drawing,
+[00:34:38] they are almost the same size and the same shapes.
+[00:34:42] And I will not do this.
+[00:34:46] I will make a little bit of a difference here.
+[00:34:49] So I will make this one smaller just to make shapes more interesting.
+[00:34:55] And then what I also see is that this log is blocking some of these flames that are going from this rectangular log at the bottom.
+[00:35:08] So they will go like this and like this, like if I would imagine how it looks like with X-ray vision or something.
+[00:35:21] So some flames are going from here and here they are going along the shape and here also along the shapes.
+[00:35:34] So now I have a base for my fire drawing that I want to do and I will define some of the shapes more.
+[00:35:44] So I want to define this log first because it's going in front of the most things that I will draw.
+[00:35:54] So I add some details. I will add a little bit of the side part that we probably could see if the photo was taken from the side a little bit.
+[00:36:06] Just to show that it's not a flat surface but a cylinder-type surface that I have here.
+[00:36:14] The back part, the log here, also this one I will define a little bit more because I'll need that to draw my fire shapes on it.
+[00:36:34] This one a little bit more.
+[00:36:38] Okay, so now I'll start to draw some fire shapes here.
+[00:36:44] So I can see on the reference that this fiery stuff would be a little bit to the right.
+[00:36:50] So I will bring it to the right too. So it's like this.
+[00:37:01] Now what I can see, so the bigger shape of this flame will be like this.
+[00:37:11] Here it goes like this.
+[00:37:19] Now from this part I have this stroke, flamey part here.
+[00:37:27] Here to the right there is a very square-shaped flame and I don't want to use a shape like this so I'll try to stylize it a little bit.
+[00:37:41] Here like this. Some smaller details and like this.
+[00:37:55] Now this side of the flame goes down and forms a shape here and it goes down too.
+[00:38:08] And we have a flamey part here like this.
+[00:38:14] Now the top part. We have a really dynamic and nice fire flame here.
+[00:38:27] So I'll try to catch the spirit of it. It goes like this.
+[00:38:40] So the shape is something like this.
+[00:38:48] Now we can go to the log flames here.
+[00:38:55] So what we have here is some flames that are going from the bottom of the log and then they curl around the log and go up.
+[00:39:11] So these flames are helping us to define the volumetric shape of this log.
+[00:39:20] And here we have a flame that goes behind this rock thingy but then it also curves around the log stuff.
+[00:39:34] Here we can also see some smaller flamey parts.
+[00:39:40] Then here we also have a few small fiery shapes.
+[00:39:47] Now there are flames that go from the bottom of this log.
+[00:39:53] Go like this.
+[00:39:57] And here go like this.
+[00:40:02] And also one flamey part that goes along this log like this.
+[00:40:07] So I also like curve it to the shape of the log.
+[00:40:15] Okay, now here. So this fire part is going from this log but this log on top just blocking the view of it.
+[00:40:27] So I can connect this line just to show that this part is a continuation of this one.
+[00:40:36] And now define how it's going under this log here.
+[00:40:43] So you see how it's going down there.
+[00:40:49] Now some volumetric shape of the fire.
+[00:40:56] Now some of the flames are placed here, also following along the log shape.
+[00:41:05] Some of the start of the flame we can see here and smaller flamey parts over there.
+[00:41:17] Now again the beginning of the flame that continues here as the inner shapes of the fire.
+[00:41:30] So we can see like this kind of shape here.
+[00:41:36] Going like this.
+[00:41:40] Okay, what else do we have here?
+[00:41:43] Flames here, flames here also.
+[00:41:46] We can show smaller like flamey parts to add details.
+[00:41:52] Some of them are starting from the top of the log.
+[00:41:58] Okay, like this.
+[00:42:01] What else can I add here?
+[00:42:04] I can add here some inner shapes.
+[00:42:07] So for this big block of fire I can show that here is some kind of brighter part.
+[00:42:19] Here is also.
+[00:42:22] And so these flames I broke the overall silhouette different from the reference.
+[00:42:30] So I'll just try to improvise here a little bit.
+[00:42:37] So we can have an inner shape like this here.
+[00:42:41] Maybe a small one here.
+[00:42:44] Like this.
+[00:42:46] Yeah, so now I will define my lines more.
+[00:42:51] What I can see.
+[00:42:55] So this part I can see.
+[00:42:58] I can see like this.
+[00:43:01] Now flamey parts.
+[00:43:04] The start of the flame curve around another start of the flame.
+[00:43:12] It's like a start of the flame also.
+[00:43:17] So here.
+[00:43:21] Now the big log.
+[00:43:23] I will make this line more prominent because it's overlapping this side.
+[00:43:29] I can add a volume to the edge of the log.
+[00:43:35] Just to show that it's three-dimensional.
+[00:43:38] And I can see like the top and side edge of it.
+[00:43:43] Now this fiery shape is going something like this.
+[00:43:52] I can also see like some two smaller fire shapes on the reference.
+[00:43:58] Which I want to add too.
+[00:44:01] So if the flow is like this.
+[00:44:06] I'll make them like kinda the same as in the reference.
+[00:44:12] But take into account what I have drawn already.
+[00:44:17] So now the outer shape of this big fire.
+[00:44:31] Smaller details that we have here.
+[00:44:34] Now this log is overlapping that part of the fire.
+[00:44:53] So I am emphasizing this line.
+[00:44:57] Now this fire is overlapping the log.
+[00:45:05] Here this fiery shape inside.
+[00:45:09] This fiery shape overlapping the log.
+[00:45:12] And rock overlapping the fire.
+[00:45:16] Like this.
+[00:45:24] Okay, here.
+[00:45:26] This flame.
+[00:45:27] This flame.
+[00:45:32] This flame.
+[00:45:34] I forgot this part.
+[00:45:39] Like this.
+[00:45:49] And now I can add a little more definition to this log.
+[00:45:57] So there are some dusty parts.
+[00:46:04] Goes over there.
+[00:46:06] Rock part.
+[00:46:14] And dust.
+[00:46:15] Some blocks.
+[00:46:21] Okay, this one.
+[00:46:25] Fire.
+[00:46:28] Another fire, maybe some mineral part inside of it.
+[00:46:34] Another log that goes under the big one.
+[00:46:45] Yeah.
+[00:46:46] So while drawing some dynamic stuff that contains a lot of small details,
+[00:46:56] it's very useful to start with something simple.
+[00:47:00] As always, as we do with more solid shapes.
+[00:47:04] Because we can rely on it while adding some details.
+[00:47:08] And the silhouette will be simpler and the image overall will be read more easier
+[00:47:18] for the viewer than if we would just try to copy all the details without this guide.
+[00:47:25] I hope it was helpful.
+[00:47:27] Bye!

@@ -1,0 +1,150 @@
+[00:00:05] Hello and welcome back to VFX Apprentice's Intro to VFX Meshes in Blender series.
+[00:00:10] Now in the previous episodes we've talked about modeling in Blender, UVing in Blender, and even touched on vertex painting and coloring in Blender.
+[00:00:17] Now for this new lesson we're going to be talking about one of Blender's amazing features for modeling which is called modifiers.
+[00:00:25] So modifiers are these fantastic procedural kind of instructions you can place onto a mesh that you can do all kinds of fun stuff from twisting and bending to adding new subdivisions from all kinds of things.
+[00:00:36] If you're familiar with 3ds Max it's very similar to 3ds Max's modifier stack which in my opinion is 3ds Max's best feature.
+[00:00:44] The fact that we can do that in Blender is a huge deal. It's very simple and we're going to get into it right now.
+[00:00:50] So the first thing we're going to do is add a cube if you don't have a cube already.
+[00:00:56] Cube is our very friendly, very happy to help out intro cube that we very often nuke from orbit RIP horrible guy.
+[00:01:05] But today he gets to have his moment which is awesome.
+[00:01:08] So first thing to note is that a lot of modifiers actually operate off of the center or origin of our mesh here.
+[00:01:17] So we're actually going to make the origin of this mesh, we're going to move him up a little bit so he sits on the ground plane just to make things a little bit easier.
+[00:01:25] So to do that I'm going to hit W which is going to be movement, select him.
+[00:01:30] In transform if you don't see transform you can hit item over here and transform should pop out for you, it's top right.
+[00:01:37] I'm going to move this up by one meter on the Z and then go to object, apply, all transforms.
+[00:01:47] So what we just did is we moved this up by one meter, the local transform was still stuck in the center of the mesh and we just reset that so that the local transform of this mesh became synonymous with the roll transform.
+[00:02:01] So now the bottom of the mesh is going to be its pivot point so anytime that we rotate this you can see that it's rotating by the bottom which is exactly what we want.
+[00:02:11] So what are modifiers? How do you get to modifiers?
+[00:02:15] Very simple. Over on the right side of your panels you'll see that there's this cool little wrench guy, click on that and you have an add modifier, drop down.
+[00:02:28] Now when you click on that you might be a little bit overwhelmed with all of the options that you have here, you can see that we have modify, generate, deform and physics.
+[00:02:38] Typically you're not going to usually worry too much about physics since a lot of what we do in real time effects for Blender is like making meshes that we can then export out to whatever game engine that you want to use.
+[00:02:50] So typically we stick between generate and deform, sometimes going into modify.
+[00:02:56] So one of the first things we want to do first, I totally forgot about this, is we're going to do something kind of neat, it's a little bit cheating, but we're going to go down to the object data properties.
+[00:03:07] Click on that and turn on auto smooth.
+[00:03:10] So what auto smooth does is it basically says we're going to apply a shade smooth across the entire mesh and with auto smooth on it says that any face that has more of a 30 degree angle on another face, it's going to be its own smoothing group.
+[00:03:28] So if we have this turned off, you can see how when we set shade smooth to true, it tries to shade this whole cube so you get like this one pillowy effect of the whole thing.
+[00:03:38] When we turn auto smooth on, we go kind of back to what this is, kind of like how it was before it was set to smooth.
+[00:03:46] But what's powerful about this is it's going to try to maintain this as we add new modifiers to it and that's what we want.
+[00:03:54] So going back to our modifiers here, let's go ahead and twist this cube.
+[00:04:03] Let's say we want to have a twisty cube.
+[00:04:05] So go to modifier, go down to simple deform, and you can see right away it's already twisting this.
+[00:04:12] It's trying to twist this on the X axis, so it's trying to twist it from starting here going to the side.
+[00:04:18] We don't want to do that since our pivot is on the bottom of the Z axis, so we're going to set this to Z.
+[00:04:26] You can see now we're trying to twist our cube.
+[00:04:28] What I love about this is this is completely procedural and you can change this whenever you like.
+[00:04:33] So let's say you wanted to twist it like this many or even go further and you might realize or notice that, oh man, when I twist this past a certain point, it starts to break the mesh a little bit.
+[00:04:44] That's because this mesh is super simple, it's only six sides, each face can only twist so much before it starts to overlap on itself.
+[00:04:51] So we need to add more cuts to this.
+[00:04:54] Now we could do it in one of two ways. We could hit 2 to go back to our mesh and actually add physical cuts to it, or we can do it procedurally as well.
+[00:05:05] Let's go to add modifier and go to subdivision surface.
+[00:05:09] So with subdivision surface, what this does is it's exactly what it sounds like.
+[00:05:14] It subdivides the surface and it subdivides by levels.
+[00:05:18] So one subdivision is taking one face and making it four faces, essentially cutting it up vertically and horizontally, just so you get subdivisions.
+[00:05:28] When you add a level to it, it takes each one of those faces and subdivides again, adding another level is the same thing.
+[00:05:36] So Capal Clark, what this is doing is it's doing exactly what we just talked about, but it's also trying to average the angles of all of those faces and it gives you a rounded view.
+[00:05:46] Since we want to have a twisted cube, we're going to set this to simple.
+[00:05:51] So you can already see right now we've added a face or rather four faces for every face that was there, but it's not quite enough.
+[00:06:01] Let's add one more, maybe two more.
+[00:06:05] So now we've subdivided this a bit and now you can see that we're actually getting that twist that we like.
+[00:06:10] But there's something wrong with this. Since we're subdividing after our initial twist, some of that stuff is getting mixed up in here.
+[00:06:18] And we can fix this by actually changing the order of our modifiers, which is huge because it'll actually allows you to change the order of operations of how you want these mathematical things done.
+[00:06:32] And you can change this by clicking and holding these little buttons here, these little like little notches and just drag it above simple form.
+[00:06:42] Now, look at that. That is awesome.
+[00:06:45] Now we have our cube. We've added a bunch of subdivisions to it. And after that, we've told this to twist.
+[00:06:55] Another really cool thing about using modifiers instead of actually doing this by hand, which could take forever, is with the modifiers, you can you still have access to the original mesh.
+[00:07:05] So if I were to take any one of these points, so just to illustrate what I've just done, I've gone into edit mode by hitting one.
+[00:07:14] And then you can see we have our we're back to our normal editing for the mesh, you know, vertices, edges and faces.
+[00:07:20] And you can kind of see this ghosted outline. So this ghosted outline is the actual mesh that we're modifying.
+[00:07:26] As soon as we start to play with these, you can see this starts to change.
+[00:07:30] And let's say that we want right now we're twisting a cube, but we really want it to be taller, maybe a little bit closer to a rectangle.
+[00:07:38] So you can grab the top four vertices and just lift it up, which is pretty cool.
+[00:07:44] So now if I hit four, go back to our object mode, you can see that we're keeping all the same modifier deformations.
+[00:07:52] And we just raised our cube, stretched it out and made it taller. And all of these came with it.
+[00:07:58] In fact, what's really cool is you can even turn these off. You can turn off the visibility of them so you can kind of see what your mesh still looks like.
+[00:08:06] So with simple deform, you can click on this little monitor button here, turns that off, turns this off as well.
+[00:08:13] You can see that we've just been left with our cube, which is now a rectangle, I guess.
+[00:08:18] When you turn these back on, we're back here again.
+[00:08:22] Still able to change all this as you like. When we turn it off, we haven't damaged our mesh. Very non-destructive, super powerful.
+[00:08:32] What else can we do with this? Well, we have one simple deform on here.
+[00:08:37] Let's add another one. Let's say we want to taper this. So we want this top to be smaller than the bottom.
+[00:08:44] Let's go ahead and add another simple deform. Go to taper.
+[00:08:50] And once again, access, trying to taper this on the Z. So our factor here.
+[00:08:56] You see right now it's tapering, so it's bigger on the top and smaller on the bottom. We just want to adjust that a little bit.
+[00:09:03] Like that. Very cool. We can even still go up the list, still rotate. You can see we're starting to break a little bit.
+[00:09:24] So remember back when we turned on the AutoSmooth? So what's happening here is that we don't quite have enough subdivisions.
+[00:09:32] So these faces are becoming more than 30 degrees away from each other.
+[00:09:37] So our AutoSmooth thinks that these need to be set to their own. So we can fix that by just cranking up subdivision again.
+[00:09:47] Or going back down to our AutoSmooth and turning this up.
+[00:09:54] There we go. Maybe we want to have this to bend. So let's go ahead and bend it. Let's go back to simple deform.
+[00:10:07] Go to bend. Bending on the X rather. So we're going to have it bend this direction.
+[00:10:16] And now you can bend this guy. And again, once again, all of these are still available to you to change the twists, change the bends, change the tapers.
+[00:10:26] You can do all of these. It's very non-destructive. Even add more subdivisions. Very cool.
+[00:10:36] Now, another thing that's fantastic about this, and once again, if we turn these off, remember, we're just left with our cube.
+[00:10:44] So if we decided to, let's say, maybe we only want to have ribbons instead of having a full cube like this.
+[00:10:56] Maybe we only want to have a couple sides. It's really easy to do. If I hit 3, go back to our face mode so we can edit this again.
+[00:11:04] Let's say we want to take off the top and bottom of the cube. So I'm hitting, click on the bottom face, shift clicking on the top face.
+[00:11:15] So I have both of these selected, hitting delete and then faces. So we've taken that off, taken off the top and bottom faces.
+[00:11:21] You can see that that's immediately recognized. And this no longer has a top or a bottom.
+[00:11:27] Let's say we want to get rid of two of these sides here. So we can actually do that right now. Grab two of those sides, delete.
+[00:11:36] Now we have these really cool kind of ribbons that are flowing around. And once again, go back into object mode.
+[00:11:47] You can twist these still, you can untwist them, you can taper them and even bend. Super powerful.
+[00:12:03] Another really, really handy thing about this technique is that when we want to actually commit this and we want to say, okay, this is exactly the kind of mesh I'm looking for.
+[00:12:14] I want to have this for my effect. When you're convinced of that, you can commit these down by hitting apply.
+[00:12:21] I typically apply from the top down just so everything gets applied in the proper order.
+[00:12:25] And since we started at a cube, cubes are already unwrapped for you.
+[00:12:32] So you can find that these are already going to be unwrapped as well. Going up to UV editing, hitting three to select faces, select one, control A to select everything.
+[00:12:43] You can see that this is already unwrapped. So yes, it looks a little bit strange because it's basically just taken the cube and the subdivision of that.
+[00:12:55] But it's going to be really easy for you to take these and modify these because everything's already laid out.
+[00:13:04] So it's super quick, super great way to get an even UV through all of these.
+[00:13:13] And a very quick and non-destructive way until the very end, of course, to get interesting shapes that you sometimes would be difficult to make.
+[00:13:21] Let's see what else we can build with our modifiers. Let's see here. Let's build, once again, let's go ahead and add mesh cube.
+[00:13:35] Let's see, do the same thing that we did last time. We're going to shade smooth, go down to the object properties, turn on auto smooth.
+[00:13:46] Now let's go ahead and go, you know what, actually one of the things we're going to do first, we're going to add a few cuts across this so we can modify this.
+[00:13:54] But we're going to do it through our procedural system. So going back to your modifier properties, we just want to have a few more vertices here.
+[00:14:03] So let's subdivision surface, go to simple, maybe subdivide this twice and commit that down. Here we go.
+[00:14:12] Now we have a lot more to work with here and go into my vertices. Hit one.
+[00:14:19] Going to click this middle one here so you can see if you grab this middle one and just move it up, you can grab this one vertice.
+[00:14:24] But we're going to do a little trick up here. There's this proportional editing button.
+[00:14:29] So click on that. And then a thing that I love to do is go to random.
+[00:14:35] So what this stuff does here, all of these are different kind of falloffs that you can use for your for your editing.
+[00:14:42] So if you click on this, you can see that there is this big circle around my mesh.
+[00:14:47] As you're holding this down, if you go up or down with your mouse wheel, you can see that this is affecting your falloff, in which case will also affect the way that your vertices are modified.
+[00:15:01] So with that in mind, I'm going to switch this to random and do the exact same thing.
+[00:15:09] Make this a little bit bigger. And this is going to randomize the mesh of the vertices grabs a little bit.
+[00:15:15] I do this for each of the sides just to kind of give us a little bit of chaos.
+[00:15:21] A little bit of randomization here. Oh, randomization never really hurt anybody.
+[00:15:26] So we have this really interesting, very broken, very strange looking mesh. Go back to four or click four rather.
+[00:15:42] Let's go back to our modifier stack. Let's see. Do you want to subdivide this again? Sure. Why not?
+[00:15:52] Actually, you know what? We don't want to subdivide that. Maybe we do. Subdivision.
+[00:15:59] Go back to simple. Let's break this. Try a camel. Sure. Okay.
+[00:16:05] So now we've subdivided this again. Go back to one and start playing with these again.
+[00:16:10] You can see how this is, again, affecting all of the vertices, affecting all of everything that's going on.
+[00:16:18] Maybe I want this one to come out a little bit more like this. It's a little bit higher like this.
+[00:16:24] We have this very strange shape. Okay. What else can we do with this?
+[00:16:36] Well, do another very cool tool called decimate.
+[00:16:42] So what decimate does is it takes all of your mesh and it will start to pull apart and pull out vertices and edges too.
+[00:16:53] But while trying to keep the same shape. So it definitely essentially tries to optimize this.
+[00:17:00] And when we do this kind of strategically, you can get some really strange, really cool cuts and angles like this.
+[00:17:06] And this can make for really great, very fast debris, really great, very fast crystals, spikes, projectiles, all kinds of fun stuff.
+[00:17:16] Go ahead and add modifier again. Let's see. Maybe we want to bevel this.
+[00:17:27] So what bevel is going to do is it's going to say any of these edges that are past this angle threshold, we're going to add a bevel to it.
+[00:17:38] You can play with this angle threshold, make it bigger, make it smaller. It's really up to you.
+[00:17:48] But now you see we have this kind of interesting, interesting lighting that's going on.
+[00:17:53] No longer do we have these super hard edge stuff.
+[00:17:56] We have kind of this a little bit softer and we can really play with that by going to add modifier one more time and weighted normal.
+[00:18:03] And what that does, it essentially says, hey, we're going to treat each one of these double cuts as its own smoothie group face.
+[00:18:11] And that gives you this really great kind of kind of low poly look without getting really hard light catching lines, which is fantastic.
+[00:18:21] Stuff like this is great for, like I said before, debris, crystals, anything like that.
+[00:18:26] You can duplicate these. So if we were to say control V and duplicate this mesh, you can see very quickly that if we start to play with the decimate,
+[00:18:37] decimate of this one rather, and perhaps playing with the actual vertices of this, you'll see how immediately we start to get different results.
+[00:18:53] Like this guy, very different, very broken, very different, but very quickly.
+[00:19:06] Very quick and simple, different mesh. There we go.
+[00:19:15] So there are so many other modifiers to play with. I'll let you go ahead and explore those on your own.
+[00:19:21] Just as a really quick recap, some of the ones that you're going to use a lot likely are things like simple to form, which I use all the time.
+[00:19:30] Subdivision surface and bevel is really good for stuff like this.
+[00:19:35] And yeah, and remember, you can stack these, you can move them around, you can play with values after the fact.
+[00:19:41] And once you're done with them, you can collapse them and apply them.
+[00:19:45] And then you can go about your day, unwrap them however you need and kick them off your game engine.
+[00:19:50] And now you have a bunch of new meshes to play with.
+[00:19:54] There you go, everyone. That's our primer on modifiers.
+[00:19:58] If you have any questions, please let me know. I hope this was helpful and we'll see you next time. Take care. Bye.

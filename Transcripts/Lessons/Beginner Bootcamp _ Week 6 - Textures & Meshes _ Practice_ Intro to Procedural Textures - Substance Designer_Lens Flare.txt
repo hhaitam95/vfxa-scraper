@@ -1,0 +1,148 @@
+[00:00:05] Hi guys! In this lesson we are going to create a lens flare. It's a texture widely used in the
+[00:00:11] VFX. For example, it used to accentuate the timing of the animation when we want to
+[00:00:17] show there is a lot of light. We are going to go deeper into another operation of System Designer
+[00:00:24] and reduce the graph that we have done in the previous lesson. I can't wait to show you more!
+[00:00:31] Before starting, let's take to analyse a little bit what we need to proceed to create the texture
+[00:00:38] in Smart Bar. For me, it's a good way to have a good understanding of what we need to do
+[00:00:44] to reach our goal and not get stuck. A lens flare is super common to see in many VFX.
+[00:00:52] It's a camera effect that it usually gives off a series of lines from the center with different
+[00:00:58] intensity when there is a high intensity light. It usually appears super quickly and adds a point
+[00:01:04] of light in the first frame for our VFX to generate strength in the animation.
+[00:01:10] If we see the reference of a lens flare there are many ways to represent it but we are going
+[00:01:15] to look for the common shape that the lens flare should have to create one. We need a gradient
+[00:01:21] cycle that we created in the previous lesson, lines from the center with different intensity,
+[00:01:27] something similar to stars in the middle with more intensity and a ring of rings in the end.
+[00:01:35] Now we only need to create these shapes and compound them all together to get our lens flare.
+[00:01:43] Ok, let's start! We open the file that we are working on and one thing before,
+[00:01:49] I rename the name of our first graph to first wall. Ok, we are going to create a new graph in
+[00:01:55] the same file, only just click into the name of our file, new, new graph. We'll see the same
+[00:02:04] windows when we create the other graph, change the name and when we finish press ok and here we go.
+[00:02:11] We are going to start with the principal shape of the lens flare, the star in the middle. For this
+[00:02:19] we will use a node called starvoss, this node creates a starvoss like a name describe.
+[00:02:25] We can change some of the parameters to get the result that we are looking for.
+[00:02:31] We have the number of the branches, the blur amount of its branches, random is the position
+[00:02:37] of the branches, the min max size to have more variation and the size variation. It would be
+[00:02:45] good to have it exposed so that it can be changed later. To organize the file we are going to create
+[00:02:53] a new group for the branches. Then it could be fine to have control of the rotation if we want
+[00:03:01] to change it, for that we are going to create a non-uniform rotation. This node is quite simple,
+[00:03:08] we have the rotation angle multiplier to adjust the intensity of the rotation.
+[00:03:13] We can do the same with the rotation angle offset that you can control the specific angle rotation.
+[00:03:19] For this example we are going to expose this parameter to control the rotation offset.
+[00:03:24] We already have the star, but let's go into more detail adding the gradient in the background of
+[00:03:33] the star. It's perfect time to see something else super interesting about the power of designer,
+[00:03:39] reduce the first ball that we have created in the previous lesson. Only we need to click on the
+[00:03:45] name of the other graph and drag into the actual graph and we will already have it with the same
+[00:03:52] parameter that we have exposed. I'm going to switch to the other shape. Having this we are
+[00:03:59] going to blend both shapes. We create the blend node and connect the first ball and the star.
+[00:04:06] We are going to use the screen blend mode. Right now we have a lot of the middle tones here
+[00:04:15] and the lens flare is usually have more white tones concentrate in the middle. To control the
+[00:04:21] range of the value of the result, to highlight the white tones we use a levels node. We adjust
+[00:04:28] a little bit until get the result we desire. We already have the principal element. Now we leave
+[00:04:36] this apart and we are going to start with the secondary elements creating the lines from the
+[00:04:41] center of the background. As always there are many ways to create the same thing but I would like to
+[00:04:48] show you this way in order to start to understand certain concepts that are often used in the BFS
+[00:04:55] and can be reused in other circumstances. Let's start with an isotropic noise. This generated
+[00:05:03] stresses noise that you can see we have a lot of lines with different intensities.
+[00:05:10] Let's look the parameters and change them a little bit to get what we want. We have the x amount and
+[00:05:17] the y amount to control how many repetitions for the pattern are in the texture. Here we have the
+[00:05:24] rotate and rotate the entire effect 90 degrees. For this case we want to rotate the texture
+[00:05:30] and we will see why. We won't use the next two parameters but it's good to know what it does.
+[00:05:38] The smoothness you can control the motion blur over the x axis and the smoothness
+[00:05:43] interpolation control. We have the lines but we are going to give it more detail by making
+[00:05:49] a gradient out of it. For that we are going to create a extend shape. This now extends a section
+[00:05:58] of the input over a direction and distance. To understand this node we have here the show
+[00:06:04] helper to see what the node does and we are going to use during the process. We see that it's tending
+[00:06:11] one section of the texture with a specific distance. The first thing that we are going
+[00:06:17] to do is rotate the extension 90 degrees in the extension angle because we want to extend the
+[00:06:24] section horizontally. Also we want to see any difference from the input.
+[00:06:31] We are going to change the startLuminanceSetOffset and the endLuminanceSetOffset that allow us to
+[00:06:38] apply luminanceSetOffset of the area. It's better to see what happens when we change the value.
+[00:06:45] We put the startLuminanceSet to 1 and the end to minus 1 to have in the top the higher values
+[00:06:52] and in the bottom the lower values. Perfect, I want to show you with the helper what has happened.
+[00:06:59] We see the extension distance is the part that remains of the lines from the input. We are going
+[00:07:05] to trick the distance for the extension because right now it's all in the center. The extension
+[00:07:11] distance controls the distance of the section. We put this to 1 to extend the whole texture.
+[00:07:18] Also you can offset the position of the extension distance with extension position.
+[00:07:25] Perfect, we already have the lines but we need this line to start from the center
+[00:07:30] and we are going to create a shape mapper. This node distorts and maps the input pattern
+[00:07:37] around the cycle or polygon. It's really necessary for a lot of situations but we start with the easy
+[00:07:43] way. The pattern amount is the number of the repetition of the path. Right now there are
+[00:07:49] too many repetitions of the input and a lot of detail. We set this to 1. The radius controls
+[00:07:56] the inner radius. To remove the black circle in the middle we need to set the parameter to 0 and
+[00:08:03] we see the lines going from the center. The width controls the size of the pattern along the path.
+[00:08:09] In this case we don't want to remap the input along the polygon but if you want to do that
+[00:08:15] really just change the shape to polygon. It still has the same parameters but you can trick the
+[00:08:21] number of segments of the polygon. We change back to the cycle and this is beginning to look like
+[00:08:27] we want. Even if we have a good result with this it's always good to stop and add more detail to
+[00:08:36] break the pattern. We are going to see another operation where the noise spans from the center.
+[00:08:42] It's time for the cantation to polar. This node converts the input texture for the
+[00:08:47] cantation to polar coordinate and doesn't have parameter. Actually this is a more complex
+[00:08:53] operation but to understand what is that I'll show you better with a checker.
+[00:08:59] The region of the x-axis will become the center of the texture and it will increase across the
+[00:09:05] radius of an imaginary cycle and the y-axis will be the angle of that cycle. This operation is very
+[00:09:13] common in the shaders. Right, we are going to blend both shapes. In this time we are going to
+[00:09:25] use the multiply mode. Now we have the center of the tester with a lot of detail and it's really
+[00:09:32] noisy and it's not the goal. To fix it it could be fine to blur the center using a non-uniform
+[00:09:38] blur grayscale. This node uses a mask to define which area is going to blur and this mask is going
+[00:09:46] to be the first wall. In the blur the main parameter that we need in this case is the
+[00:09:51] intensity. We'll modify a little bit. We are going to blend with the first wall to have the center
+[00:10:01] more defined and add a little bit a smooth gradient. Select both inputs to invert pressing x.
+[00:10:11] In this case we are going to blend with the screen mode. We are going to change a little
+[00:10:17] bit the opacity to have more gradient in the center. I think it's nice to expose the opacity
+[00:10:24] in this blend to control the opacity blend between these two inputs. We are going to change the group
+[00:10:31] for this and here we go. Okay, I forgot to expose one parameters that control the lines from the
+[00:10:40] center. I'm going to come back to the anisotropic noise and expose it to the y amount. It looks
+[00:10:53] really good so for me it's perfect to combine with the principal shape with another blend.
+[00:11:08] The next secondary element we want to have in our texture is the rings. We are going to start with
+[00:11:16] a gradient linear. We set the rotation 180 degrees. Then we are going to remap the values
+[00:11:23] of the gradient with a curve node. This node allowed us to remap the values of the gradient
+[00:11:30] with a curve so I'm looking for two lines. To get this we add points in the curve with a double
+[00:11:37] click and tweak the points and tangents until we get the result. It's like any other curve editor.
+[00:11:45] Okay, I just bit a little bit this part but take your time to get the result that you want.
+[00:11:51] Fine, we have the two lines with different widths. We are going to remap into a cycle with a shape
+[00:11:58] mapper. It's the same process as before. Set the pattern amount to 1. In this case it would be
+[00:12:08] interesting to expose the radius and the width. If we want to change the size of these rings later
+[00:12:14] I organize these parameters in another group. To give more variation to the shape we are going to
+[00:12:29] blend the rings with the polar lines. This time we are going to blend in overlay.
+[00:12:37] Leave the opacity slider more or less in the middle because we use only one to break a little
+[00:12:43] bit the rings with different grayscale value. I have adjusted a little bit the radius and the
+[00:12:49] width of the ring. We are going to create a levels node to reduce a little bit the grayscale values.
+[00:13:02] It looks really nice. Perfect.
+[00:13:09] Even so, the grayscale gradient of the lines different is very hard and we will again use
+[00:13:15] a non-uniform blur with the same input for the mask and we get the center of the ring more blurred
+[00:13:22] and maintain the details in the edges. Now we are going to multiply the rings with the gradient
+[00:13:32] cycles to reduce the intensity with the borders and lower the total intensity of the rings.
+[00:13:42] I'm going to organize a little bit the graph and a little bit change with the opacity.
+[00:13:48] We already have the other secondary element so let's blend with the main texture that we are
+[00:13:54] created in the screen mode. The ring shapes in the first input and the main texture in the second
+[00:14:01] input. We are going to expose the opacity of this bend to control the intensity of the rings
+[00:14:08] in the future. I change a little bit the default slider and put in the group. At this point actually
+[00:14:19] we could export the tester because we already have all the elements, the star, the line from
+[00:14:24] the center and the rings. And that is what we are looking for with a recent result. So feel free to
+[00:14:31] skip to the end of the video where I show you how this works in the journey. For everyone
+[00:14:37] interested in more effects and methods I'm going to explain some cool tricks to fine tune our
+[00:14:43] texture. Fine, for the most curious first I'm going to sharpen a little with the shapes that
+[00:14:50] we are creating. For this we need a mask to control this part and we are going to start
+[00:14:57] from the texture that we have created. We are going to invert the grayscale of this
+[00:15:04] and then blur a little bit to avoid hard areas of the mask.
+[00:15:10] Ok, only just a little bit the intensity and we have our mask. Then we are going to create a slow
+[00:15:19] blur. This node is a powerful blur in Designer. Connect the input tester we want in the first
+[00:15:27] input and the mask in the second input. The sample is the amount of iteration of the blur
+[00:15:35] and for this we will set 32 samples and the intensity is the amount of the blur. This will be
+[00:15:43] set just a little bit to sharpen the star. In this step we will highlight the details in the
+[00:15:51] texture. To do that we start with creating a normal node. This node converts a grayscale
+[00:15:59] input into a normal texture, only has one parameter, the intensity. You can type the
+[00:16:06] value if the slider is too slow. Then we are going to use the curvature smooth and this node reads
+[00:16:16] the normal input and gives us a grayscale map depending of the difference of the slope
+[00:16:22] for the normal. The white values are from the convex area and the black values from
+[00:16:28] the concave areas. As you can see we got the white areas that are going to be really nice
+[00:16:36] combined with the previous steps using another blend again. In this case we will set the soft
+[00:16:43] light mode and adjust the opacity blend until we get the result that we want.
+[00:16:50] These small details make the difference between a good texture and a great texture. Fine,
+[00:16:58] I love it. We only need to export it by adding the output node and here we go.
+[00:17:06] I'm going to call this texture LensFlare. Ok, let's export the texture and set the
+[00:17:13] path folder and the format of the texture. Ok, I want to show you in a real application
+[00:17:21] of the texture. I add one emitter with a LensFlare in the init of the FX to give a
+[00:17:27] point of line before the loop. Here we have the whole FX with the texture. Also, I added another
+[00:17:35] emitter with a little bit LensFlare to give more variation to the FX. I hope you enjoyed this
+[00:17:41] lesson and see you soon.

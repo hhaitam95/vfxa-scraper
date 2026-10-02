@@ -1,0 +1,473 @@
+[00:00:05] Hey everyone, for this tutorial we are going to be blocking in this missile sequence here.
+[00:00:11] So we are going to be creating a wind-up, the missile itself, we are going to be bringing
+[00:00:17] back our trusty little impact from earlier with a couple of modifications.
+[00:00:22] And we are going to be using these to dig another layer deeper into secondary motion
+[00:00:30] Beyond just using secondary motion to create visual interest and nuance, we want to talk
+[00:00:37] in this one about overlapping action and follow through specifically.
+[00:00:43] Now these two are basically your laws of physics.
+[00:00:49] This is your conservation of momentum, this is your inertia, drag will often also get
+[00:00:56] pulled into this principle.
+[00:01:00] And these are also principles that if you look at a lot of traditional animation definitions,
+[00:01:09] they're very very dependent on physical connections.
+[00:01:14] Overlapping action is cause and effect through energy being spread or dissipated through
+[00:01:21] joints across the fabric of scarves or through ponytails and stuff like that.
+[00:01:30] Follow through is someone coming to a screeching halt where they're running and now your arms
+[00:01:37] don't stop at exactly the same time your scarf or ponytail go flying forward.
+[00:01:42] The original definitions were very very dependent on all of these different physical connections
+[00:01:50] and so like with arcs and all of the dependency on joints there, we're going to be putting
+[00:01:57] a little bit fast and loose with some of the definitions here.
+[00:02:04] But the ultimate goal is still to take that physicality, take that believability and pull
+[00:02:12] it into our effects so that they feel right.
+[00:02:18] So that your brain interprets them as something that is behaving correct and cool and good.
+[00:02:27] Even when your brain is also fully aware that it is staring at a magical missile that was
+[00:02:33] just conjured from nowhere.
+[00:02:36] So overlapping action is still essentially going to be our cause and effect, our dissipations
+[00:02:45] of energy and stuff like that as a result of a primary action here.
+[00:02:50] So this can be something like your little trail wiggling along behind here.
+[00:02:56] We use that as our easy little scarf comparison here.
+[00:03:02] And follow through is going to be essentially your conservation of momentum.
+[00:03:09] When this thing comes to a slamming halt against a wall, this is going to be your sparks or
+[00:03:16] your bits of energy that bounce backwards to completely finish dissipating that energy
+[00:03:24] or in the case of something like a sphere, that energy that continues to wash over a
+[00:03:30] little bit afterwards, stuff like that.
+[00:03:35] So that said, we're going to go ahead and dive in and we are going to start this effect
+[00:03:41] off in one of the most time-honored of effects traditions.
+[00:03:48] We are going to kitbash the heck out of this.
+[00:03:54] So to start this promised kitbash where we are just going to take a bunch of relevant
+[00:04:03] pieces of a bunch of existing effects and just pull them in, modify them, but use them
+[00:04:10] as a base to save ourselves a bunch of time, I went ahead and duplicated the hit impact.
+[00:04:19] You can copy paste it, you can hit control D to duplicate it, you can crack it open and
+[00:04:28] just copy paste all of these emitters over, whatever works best for you.
+[00:04:35] We have now got those four emitters in here and ready to go.
+[00:04:42] And the first thing I'm going to do with these, I'm going to select all four of them.
+[00:04:47] I'm going to hit control C to add a comment around them.
+[00:04:52] We're going to name this the impact.
+[00:04:54] We are going to drag this down out of the way a little bit and immediately deactivate
+[00:05:01] all of them so we can come back to them later.
+[00:05:07] And now, real quickly, I'm going to set my system loop duration to 1.5 real quick.
+[00:05:19] We are going to do kit bash part number two.
+[00:05:23] We are going to jump back over into our content browser.
+[00:05:28] We are going to create a new Niagara system, so right-click anywhere, hit the Niagara system,
+[00:05:34] and we're going to create a new system from a template or behavior example.
+[00:05:42] I guess we'll uncheck library only.
+[00:05:44] Okay, so we're going to be pulling this radio burst.
+[00:05:49] We'll just go ahead and create a new one.
+[00:05:52] And we don't actually need to, I'm not even going to bother giving this a name because
+[00:05:56] I'm going to delete it immediately after this.
+[00:06:00] But the reason why I grabbed this one is because this one is already giving us a trail following
+[00:06:09] another particle.
+[00:06:11] So I'm just going to go ahead and grab our ribbon trail leader and our ribbon trail follower.
+[00:06:17] Control C, Control V, and now we've got the start of our missile and our trail.
+[00:06:31] Go ahead and close this.
+[00:06:34] So now that I've got these in here, I'm going to put together a missile real quick.
+[00:06:44] So we're going to go ahead and rename this to NE missile core, and we will rename this
+[00:06:54] to NE missile trail ribbon.
+[00:07:01] And the first thing that I want to do is just get our core looking good.
+[00:07:09] So we're going to go ahead and swap this to a triangle, our little trimaterial.
+[00:07:19] We'll swap it over to being velocity aligned.
+[00:07:26] We're going to switch our spawn count to only burst one, initialize particle.
+[00:07:36] We'll go ahead and set our time to half a second.
+[00:07:44] We can reset this if we want.
+[00:07:50] And we're just going to go ahead and set our size to a non-uniform, 40 by 80.
+[00:08:04] And let's go ahead and get rid of a whole bunch of everything down here at the bottom.
+[00:08:13] So we're just going to delete everything except for our solver and our location event.
+[00:08:21] Up here, we'll go ahead and get rid of our shape location.
+[00:08:30] We're going to switch our velocity mode back to linear and set that to 1000.
+[00:08:43] There we go.
+[00:08:44] Look at it go.
+[00:08:49] And that's everything that we need on here for now.
+[00:09:04] Actually let's go ahead and get our size animations in real quick.
+[00:09:13] So we're going to add a scale sprite size.
+[00:09:20] And I want to swap this to a non-uniform curve because I want to do goofy things with
+[00:09:28] our animation here.
+[00:09:32] So the thing that I want to do here, I can pull this buddy over again and just scrub
+[00:09:40] through it real quick, is I want to really give it some squash and stretch as it's moving.
+[00:09:57] And this is going to really, really help us exaggerate that motion.
+[00:10:02] And build one of the first parts of the physical believability of this, which is kind of trying
+[00:10:12] to conserve the mass of this missile, even if we're doing it in a very goofy, squishy
+[00:10:19] kind of way.
+[00:10:21] So I'm going to go ahead and hit the little pin to hide my Y keys for a second.
+[00:10:33] And we're going to go ahead and start our X all the way up at 1.6.
+[00:10:45] We want this to kind of pull itself up to be ready for the takeoff and then just run.
+[00:10:55] So we're going to go ahead and pull this all the way up to 1.6, add a key, lay down
+[00:11:05] at 0.1, so very, very quickly drop this down to 0.5.
+[00:11:12] And then add a second key at 0.25, doing the same thing.
+[00:11:21] Just hold that animation for a little while.
+[00:11:28] And then we will drag this up to 0.9 and add one more key that's going to pull us all the
+[00:11:47] way up to 2.
+[00:11:50] So this is going to come to a screeching halt right as it slams into that wall.
+[00:11:57] And then for our Y, we can actually keep both of these revealed now that the keys aren't
+[00:12:02] stacked on top of each other anymore.
+[00:12:07] We're going to start our 0 key there off at 1.
+[00:12:13] We're going to add some keys at 0.1 and 0.25 again.
+[00:12:27] And we'll pop these up to 1.5.
+[00:12:37] We'll add one more key over here and just drag it down so that they do actually overlap
+[00:12:48] at the 0.9 mark.
+[00:12:51] And then we will drop this down to 0.5 at the end.
+[00:13:02] So now when we scrub through this whole thing, let me zoom out a little bit.
+[00:13:15] You can see how it really, really starts out a little exaggerated, goes really, really
+[00:13:29] exaggeratedly stretched out and skinny when it's picking up that initial burst of speed.
+[00:13:37] As inertia catches up with it here, it goes back to its actual normal scale.
+[00:13:47] And then right as it slams into our wall here at the end, I'm actually going to pull these
+[00:13:57] ones forward a little bit from 0.1 to 0.95 so that you get a little bit more of that
+[00:14:09] smoosh at the end.
+[00:14:12] There we go.
+[00:14:13] So you get a little bit more of that smoosh before it actually hits the wall now.
+[00:14:19] So pulled all together, disable this, re-enable it, you can really start to see and feel the
+[00:14:31] difference there.
+[00:14:32] So next up on this, let's go ahead and talk about our trail.
+[00:14:41] For the sake of this effect, which we're using very, very much as a block in this case because
+[00:14:50] this isn't how you would normally set up a missile effect for use in a game.
+[00:14:56] We'll dig into that a little bit later, but this is a really, really good way to visualize
+[00:15:01] your first missile and really see all of that cause and effect of wind up into missile into
+[00:15:06] impact.
+[00:15:08] So this is a really, really good way to learn these.
+[00:15:13] We are going to be using the missile to generate an event, this location event down here, that
+[00:15:22] since it's in the particle update, every single update, it's going to tell anything that's
+[00:15:28] looking for that event, like say our trail over here, hey, this is where I'm located
+[00:15:36] right now.
+[00:15:42] So we have it generating a location event over here.
+[00:15:46] If you were to add an event module in here, you would see a couple of different options.
+[00:15:54] And then over in our ribbon, we've got this event handler that in event handler properties,
+[00:16:05] we will give it the source from the missile course location event.
+[00:16:13] And then you can see we immediately start to get a little bit of a trail coming off
+[00:16:21] of there.
+[00:16:23] It's not quite the trail that we want, so that's going to be the next stage, but basically
+[00:16:34] these two are just now constantly talking to each other through this event generation
+[00:16:40] and this location event reception.
+[00:16:44] And this is now telling it, hey, every time you update, spawn a new particle.
+[00:16:54] You can also randomize these execution mode you generally want on spawned particles.
+[00:17:02] Sometimes you might want every particle, but usually you're going to want spawned particles.
+[00:17:10] And since we are telling it when and how many particles to spawn down here in the event
+[00:17:18] handler, it means that we don't have any spawn information up in the emitter update.
+[00:17:28] You can mix and match, especially if you're doing like a bunch of moats and you just want
+[00:17:34] some showing up all the time and some to be showing up as a result of specific events.
+[00:17:41] But in the case of a trail or something like this, all you need are the particles that
+[00:17:46] are being spawned down here as a result of the event.
+[00:17:50] So up in our initialize particle, we can go ahead and hide our sprite and mesh attributes,
+[00:17:59] but we are going to go ahead and give this a lifetime of 0.4 and we are going to set
+[00:18:05] our ribbon width mode to 8.
+[00:18:11] There we go.
+[00:18:13] And that's all we need to worry about there.
+[00:18:16] We don't need to worry about facing or twist or anything like that.
+[00:18:24] And then down in our particle update, this is a pretty solid start, but I want to go
+[00:18:37] ahead and give this a little bit of extra motion since we are in the overlapping and
+[00:18:46] follow through.
+[00:18:47] We're in all the motion section.
+[00:18:50] So I'm going to go ahead and in my particle update, I'm just going to put a curl noise
+[00:18:57] force on this and just play around with the values there.
+[00:19:02] We'll do like 1000 for the strength and a frequency of 10 or something.
+[00:19:16] And now you get some very serious wiggly waggles.
+[00:19:23] Maybe a little much.
+[00:19:24] We'll chew on that while we put together the rest of this.
+[00:19:31] But anyways, that is our missile.
+[00:19:35] So we'll hit C. We'll add a little missile comment to this because we are organized.
+[00:19:43] And now we're going to go ahead and we're going to create our little windup.
+[00:19:49] So the major thing that I want to do with the windup is I just want to create the core
+[00:20:03] of the missile real quickly, first and foremost.
+[00:20:11] This is one of those places where we're going to be a little bit hand wavy because the way
+[00:20:17] that the sequence would fire in a game, generally, is you would have that windup effect would
+[00:20:27] be its own thing, it's building up, it's building up, it's doing stuff.
+[00:20:32] And then you would launch the missile out from under that and the missile would be its
+[00:20:37] own separate effect that was spawned right then.
+[00:20:40] So for the first part of our core, I'm actually going to block in a second kind of decoy version
+[00:20:49] of our missile core to give us a little bit more ease in controlling the animation of
+[00:20:57] this too.
+[00:20:59] So we can get rid of our location event for starters because we aren't going to be generating
+[00:21:06] any trails or any secondary particles off of this.
+[00:21:10] I'm going to hide these real quick so that we can just focus here.
+[00:21:15] We'll also get rid of our velocity, which means that now our velocity alignment is not
+[00:21:33] going to do us any favors anymore.
+[00:21:35] So we'll go ahead and switch this back to unaligned.
+[00:21:39] And then in here we can instead set our sprite rotation mode to 90.
+[00:21:51] This looks great now from this angle, but let's just go ahead and pause it real quick
+[00:21:57] here.
+[00:21:58] If we start rotating around this, then it's not going to look very missile-like.
+[00:22:11] There are a bunch of different fixes for this, as there are for anything in effects.
+[00:22:18] But for the time being, the one we are going to go with, other than me fixing my emitter
+[00:22:29] name real quick, is we are going to go ahead and just add a set parameter.
+[00:22:41] We are going to bring back our bestest friend sprite facing, and we are going to lock this
+[00:22:53] to face along Y.
+[00:23:00] And then we'll remember that we need to set our facing to a custom vector.
+[00:23:07] All right, there we go.
+[00:23:08] As long as you're not going to be really, really moving around this too much, this is
+[00:23:15] plenty for now.
+[00:23:20] If you are potentially going to be seeing this from the back as well, then the best
+[00:23:29] thing to do is just hop into your material, and just in your material, go ahead and set
+[00:23:45] your material property over sides.
+[00:23:47] Just turn two-sided on, and now it'll have a front and a back, and draw on both sides
+[00:23:54] of the polygon.
+[00:23:58] This is something you don't usually use unless you need to, because it's a little bit more
+[00:24:03] expensive.
+[00:24:05] But anywhere you need it, just go ahead and use it, because now we can look at our missile
+[00:24:11] from both sides.
+[00:24:15] And now we are just going to go ahead and give this a little bit of a change in its
+[00:24:31] animated sprite size a little bit.
+[00:24:33] We can get rid of our forces and velocity.
+[00:24:36] We're going to drop our lifetime down to 0.35, which will be how long this winds up before
+[00:24:44] the missile actually fires.
+[00:24:46] And then, let's go ahead and reset these real quick.
+[00:24:52] In our, we're going to hide our Y for a second, and add two new keys across X.
+[00:25:04] So for X, we're going to think about 0.3.
+[00:25:13] We're going to set it to be 0.8, and say 0.5.
+[00:25:25] We're going to do something like 1.4, and then we'll go ahead and bring back our Y keys
+[00:25:38] now.
+[00:25:40] Select all of these, left-click, give them a little bit of an autocurve, change our minds
+[00:25:47] about that one.
+[00:25:51] The thing that I really want to go for in this particular animation is just giving it
+[00:26:07] a little bit of an interesting kind of umming into being, so it's not just scaling straight
+[00:26:17] out of the energy that we're about to start feeding into it.
+[00:26:21] We just want something that's a little more interesting than that to start with.
+[00:26:26] So if you were doing something a lot more elaborate with this, it could be starting
+[00:26:31] from a sphere and growing out the spiky ends and stuff like that, but we're doing a block
+[00:26:37] in.
+[00:26:38] Just getting some little extra bit of non-linear interest in there and some amount of easing
+[00:26:45] into our curves over here is going to be plenty for us for now.
+[00:26:53] And then the second part here towards the end is just starting to get it into that final
+[00:27:06] shape to kind of tease the motion that we're about to throw it forward into a little bit.
+[00:27:18] So I think that's going to do us for our core for now.
+[00:27:24] And continuing our kitbashi ways, we're going to jump down to our impact.
+[00:27:32] We're going to go ahead and grab our spikes, pull them up here, wind up, switch these over
+[00:27:49] to our dot material.
+[00:27:51] And these are going to serve as a lot of that kind of intake energy that I was talking about
+[00:28:02] a minute ago.
+[00:28:03] This is going to be what kind of feeds and grows into this core.
+[00:28:08] So there's a fair amount of stuff that we can get rid of here.
+[00:28:21] So we're simplifying this down a fair bit.
+[00:28:27] For our emitter update, we're going to replace that burst with a spawn rate.
+[00:28:38] And we're just going to go ahead and animate this on curve instead.
+[00:28:53] So we'll start this from something like 50 particles.
+[00:29:02] And then we're going to pull this key at 0 all the way back to 0.11.
+[00:29:13] Hit F to refocus it.
+[00:29:14] Add a new key at 0.1.
+[00:29:18] And then set that one all the way up to 100.
+[00:29:25] And let's see how our timing works out here.
+[00:29:30] Our timing says we need a bigger sphere.
+[00:29:35] So jump down to our sphere real quick.
+[00:29:38] Let's set this to like 100.
+[00:29:40] There we go.
+[00:29:42] Instead, and a little bit of a build up, noodle on that.
+[00:29:55] So in our initialized particle, let's just go ahead and use a direct set on our lifetime
+[00:30:06] for simplicity's sake.
+[00:30:07] We're going to set that to 0.3.
+[00:30:09] We are going to drop the size of our particles a little bit, like 7 and 10, and then we're
+[00:30:19] good to go there.
+[00:30:26] And a lot of the motion of this is going to come from another point attractor.
+[00:30:36] So we'll go ahead and add a point attraction force into our particle update.
+[00:30:48] We're going to give these a slightly random attraction strength.
+[00:30:55] So we'll do like 200 to 800, and we will bump our attraction radius up a little bit.
+[00:31:04] And we're also going to make sure to activate our kill radius and actually set it a little
+[00:31:10] bit big, just so that we really, really aren't getting any particles hanging out for too
+[00:31:25] long.
+[00:31:29] It might be a little too much murder.
+[00:31:31] Okay, five it is, there we go.
+[00:31:36] And you can see that this combination of lifetime and attraction force and stuff like that is
+[00:31:49] doing a pretty good job of getting rid of pretty much all of the particles right around
+[00:31:57] when our core vanishes, which is right around when we want this to wrap up because our missile
+[00:32:06] is about to start making a run for it.
+[00:32:13] And then we are going to revisit our sphere because this pattern is very much not what
+[00:32:21] I want.
+[00:32:22] And like you can see over here, it makes me suspect that our sphere distribution is on
+[00:32:28] uniform instead of random.
+[00:32:31] So we'll set that to random.
+[00:32:34] All is well in the world again.
+[00:32:38] And now we're starting to get a pretty nice little bit of emotion to that.
+[00:32:43] We're going to add a little bit of extra nuance to this with a vortex velocity just to get
+[00:32:54] us some nice little extra bit of secondary motion of neither the overlapping action nor
+[00:33:01] the follow through kind.
+[00:33:04] We're just going to give this a random range of like 50 to 250 and rotate it on X instead
+[00:33:20] of Z.
+[00:33:24] And that's just giving us a little teeny tiny bit of curve there that's plenty for what
+[00:33:31] we need.
+[00:33:36] And down in our scale sprite size by speed, we're just going to go ahead and randomize
+[00:33:47] our max scale factor.
+[00:33:51] So these aren't particles that are really moving anywhere super duper quickly.
+[00:34:00] So we don't need to exaggerate their motion a whole lot.
+[00:34:04] So some of them will just stay nice roundy little particles.
+[00:34:09] Some of them will make a little bit longer and skinnier.
+[00:34:12] We'll do 0.6 on X and 0.3 on Y and we'll drop our velocity threshold to like 500.
+[00:34:22] We're kind of cheating here by not really using this for physical accuracy, just using
+[00:34:31] it for variety in the hey physical accuracy is important tutorial.
+[00:34:39] But it gives us a nice little tiny bit of variation again.
+[00:34:46] And I think the last thing I want to do here is I actually just want to bump our attraction
+[00:34:55] force minimum up a little bit, a little bit more, just so that we're getting, there we
+[00:35:17] go, something that all kind of vanishes at the same time, third time's the charm.
+[00:35:38] So we have got windup, we've got the missile that that windup is going to be launching,
+[00:35:54] we've got our impact that we'll leave disabled for a second here.
+[00:36:03] And now we run into the problem of both of these are firing at the same exact time.
+[00:36:17] We've worked around this in the past just through delays.
+[00:36:24] Actually, if we activate our impact as well, then you can see the issue gets even worse
+[00:36:31] because everything is firing at once.
+[00:36:36] And I want to dig into a couple different ways that we can fix this.
+[00:36:42] On the missile, we're just going to delay our spawn time to 0.3.
+[00:36:48] So hide these again real quick.
+[00:36:58] And if we scrub through this, then you can see where there's a little bit of overlap
+[00:37:04] there for a second.
+[00:37:06] That's totally fine.
+[00:37:11] No one's really going to notice unless they're really framed by framing this.
+[00:37:17] And it's better than having a gap where you weren't seeing anything.
+[00:37:23] Like you would risk if we had this exactly at 0.35.
+[00:37:27] So that works totally fine for this section.
+[00:37:33] It's also one of the really, really nice things about the location event is that because the
+[00:37:38] location event doesn't start until the particle exists, this trail is going to delay in perfect
+[00:37:49] sync with this.
+[00:37:51] So just doing that manual delay is totally fine if you've got like one or two emitters
+[00:37:57] you're dealing with, you know, exactly the times you're going for.
+[00:38:03] But with a whole stack like this, I want to be able to control them all at once.
+[00:38:11] And for that, one of the easiest ways to do it is by creating a custom parameter.
+[00:38:17] So I'm going to jump back up to my systems and go into user parameters here.
+[00:38:22] And I'm going to add two new parameters.
+[00:38:28] If you're familiar with scripting or programming, they are essentially just variables, but these
+[00:38:36] will let you create named data that you can set up in here to whatever you want.
+[00:38:47] And then you can use that as an input for, say, a location or a delay or stuff like that.
+[00:38:56] So it's just some extra little bit of information that's really, really pretty easy for you
+[00:39:00] to control in one spot.
+[00:39:04] So we're going to create two.
+[00:39:06] We're going to create a vector three, and we're going to call it Impact Offset.
+[00:39:14] We're going to set this to something like 100 on X, and we'll create a second one that's
+[00:39:20] going to be a float.
+[00:39:23] Do the slow double click, and this is going to be our impact delay, and this we will set
+[00:39:30] to something like 0.75 because we know that our missile core is going to die at 0.8.
+[00:39:46] And again, same as before, we just want a little bit of overlap, again, just to keep
+[00:39:53] those things safe.
+[00:39:54] So since these are all a spawn burst instantaneous, I'm just going to go ahead...
+[00:40:04] That's new.
+[00:40:08] And we can either click on the little arrow over here and search for our impact delay,
+[00:40:17] or we can bring back our parameters tab that we held hid a long, long time ago, and we
+[00:40:27] can just drag and drop our impact delay into each of our spawn times for those bursts.
+[00:40:42] If we had rates in here or anything, then we would have to start messing with it up
+[00:40:44] in the emitter state.
+[00:40:45] It would be the exact same process up there.
+[00:40:49] And you can see over here now everything is delaying, and we are happy.
+[00:41:00] And then for our offset in our particle spawn on our flare, we're going to go ahead and
+[00:41:06] add a system location, and we'll do the same thing.
+[00:41:15] We'll drag and drop our impact offset into there, and we'll just copy paste that over
+[00:41:22] into the ring.
+[00:41:24] And then in these two, since they've already got a shape location in them, we'll jump down
+[00:41:29] to the offset mode in each of those, we'll switch it to default, and drag it into the
+[00:41:39] offset, and then we will do the same thing here.
+[00:41:48] And we have maybe scooted it forward a little bit, but certainly not enough, which is where
+[00:41:55] the beauty of these things come in.
+[00:41:57] So let's try setting our offset to 500 instead.
+[00:42:03] You can see we're much closer to the mark here, and we're just going to jump down here.
+[00:42:13] And in our add velocity points, these already have a little bit of an offset in them by
+[00:42:22] necessity because we needed that offset in order to push these in the direction that
+[00:42:30] we wanted.
+[00:42:32] For our origin offsets here, we still need them to be mostly following this offset, but
+[00:42:38] in order to bring these back, we're going to go ahead and do an add vector, and we will
+[00:42:50] drag our impact offset into the top one there.
+[00:42:55] You can see that that starts to fix it already.
+[00:42:59] And then to get back that little bit of motion that's a response to the missile's direction
+[00:43:11] specifically, we'll put the minus one back down in here, and we'll put the minus 3.5
+[00:43:20] back down in here.
+[00:43:24] And this missile is actually coming from the opposite direction of our original, so we'll
+[00:43:28] swap that around.
+[00:43:30] Now if we un-isolate this, we are potentially good to go on that one.
+[00:43:42] And then for our lingering spikes, so there wasn't an origin offset in this one.
+[00:43:56] I'm not super convinced that's what I want in this case, specifically because we have
+[00:44:01] that missile now, and we do want to be giving it more of that follow-through and that conservation
+[00:44:07] of momentum.
+[00:44:08] So I'm going to go ahead and in our spikes, we're going to left-click and copy all the
+[00:44:17] way up at the origin offset.
+[00:44:18] We're just going to be copying this entire add vector setup, and then we can just paste
+[00:44:25] that into our origin offset here.
+[00:44:36] You can see that that gives us a nice little bit of bounce back against the overall effect.
+[00:45:00] So by and large, we've got a pretty good little sequence going on here now.
+[00:45:08] And what I want to dig into from here is a couple more ways that I just want to keep
+[00:45:15] really emphasizing the follow-through in particular.
+[00:45:21] So a couple of places where we're just going to go in and add some physics.
+[00:45:29] In our windup, when this missile initially takes off, I want to just give that a little
+[00:45:41] bit of a backwards burst in order to just emphasize that forward motion, give it a little
+[00:45:53] bit of an implication of this firing with enough force to actually have left a little
+[00:46:01] bit of that energy behind, forced it a little bit backwards, that sort of secondary or overlapping
+[00:46:14] motion that we really want there.
+[00:46:16] This one would technically be overlapping motion because it is a case of cause and effect.
+[00:46:24] So we're just going to go ahead and call these windup bounce back.
+[00:46:40] And now that we've done all this work, setting this up, let's just reset this.
+[00:46:46] We've got our tiny sphere, so that's good.
+[00:46:57] And let's set our impact delay to, we'll put these as three as well because we want these
+[00:47:13] to launch right when that missile does.
+[00:47:19] And we'll just do little bitty baby particles and even the lifetimes out here a little bit.
+[00:47:37] So we want these to be shooting effectively straight back from the missile here.
+[00:47:48] So go ahead and set these forward in Z like 15.
+[00:47:55] We will remember that we need to fix the offset in our sphere and they're a little large.
+[00:48:07] So let's go ahead and just drop our overall size like a bunch again, same as last time.
+[00:48:22] And now we've just got this nice little jet of energy right as it takes off.
+[00:48:29] And we'll just scrub through this, pull these in a little bit faster, one more time to really
+[00:48:41] get them out of the way, adjust our on rate a little, really, really fine tune that timing.
+[00:48:58] Bam.
+[00:48:59] Okay.
+[00:49:00] There we go.
+[00:49:04] So I want to compliment the angle of that a little bit more.
+[00:49:16] So we'll actually scoop these in a little more to something like 10, that gets us a
+[00:49:28] pretty good angle, I think.
+[00:49:32] Yeah.
+[00:49:33] Okay.
+[00:49:39] And then we'll just drop these down a little bit more again so that they aren't competing
+[00:49:48] quite so much with the missile and pulling your eyes to two different places.
+[00:49:54] So that gives us a nice little bit of overlap over there.
+[00:49:59] We've got the trail holding down the overlapping action for in our missile itself.
+[00:50:07] And then the last thing I want to do is really, really push the follow through and the conservation
+[00:50:15] of momentum on this impact.
+[00:50:20] So for these lingering spikes, we're actually going to convert these to another bounce back.
+[00:50:32] And these ones, we're going to go ahead and give a much shorter lifetime, we'll hide these
+[00:50:53] spikes for a second, and a few more.
+[00:51:03] What we really want these to do is just exaggerate that point of impact.
+[00:51:14] So to that end, I'm going to add a little bit more of an offset to our add velocity
+[00:51:26] so that it's really pushing them back in the direction that we wanted.
+[00:51:42] And then we'll offset that a little bit in Z as well.
+[00:51:49] Okay.
+[00:51:50] So this gets us a nice little bit of very clearly impact.
+[00:51:57] Some of the energy gets forced backwards.
+[00:52:01] Since we're here talking about conservation of momentum, I'm going to take a quick second
+[00:52:09] here to worry about conservation of mass as well and drop the size of these down.
+[00:52:19] A little less than that, just to try and create something where you can believe that the mass
+[00:52:34] of the missile is being roughly converted into however much mass we're going to send
+[00:52:41] out in spike form.
+[00:52:47] Now for the other version of follow-through, let's say that this is hitting a sphere instead
+[00:52:54] of just a wall.
+[00:52:58] You're still going to want that backwards bounce of at least some of your energy.
+[00:53:06] It creates interesting contrast.
+[00:53:08] It is something that is very physically believable, but it would also be really, really nice to
+[00:53:14] have some of that follow-through where it just washes over the sphere itself.
+[00:53:20] So in our velocity from point here in our original spikes, let's go ahead and just play
+[00:53:35] around with the offset on those a little bit and actually see if we can get a teeny tiny
+[00:53:46] bit of a wash over the back of that.
+[00:53:53] And then these ones will again knock back size-wise a little bit.
+[00:54:00] One more.
+[00:54:07] And then since we're indecisive, we'll go back and bump the size of these ones up a
+[00:54:24] little bit and the emitter counts down just so we're trying to create this approximate
+[00:54:31] balance of the amount of mass that's coming out of this impact compared to the missile
+[00:54:39] without losing that visual hierarchy within the impact counterforce and that continuation
+[00:54:52] within our two different versions of follow-through.
+[00:54:56] So I think this starts to get us in a pretty good place there.
+[00:55:05] The one last thing that I want to do just real quick on here, now that we've been staring
+[00:55:13] at it for a while, is I just want to clean up this trail a little bit because it's getting
+[00:55:21] really distracting.
+[00:55:22] So we're going to go into our initialized particle in the trail.
+[00:55:26] On our lifetime, we're going to set that to a float from curve and the curve index
+[00:55:35] down here, we're going to set this to be the emitter normalized loop age.
+[00:55:43] So this is going to put our emitter age on a curve instead.
+[00:55:50] So we're going to start this at 0.4 and we'll pop this out to, we'll say like 0.2 and we're
+[00:56:12] going to drop this down to zero around the 0.6, 0.75 mark.
+[00:56:23] So this lets our trail hang out a little bit, a little teeny tiny bit afterwards.
+[00:56:36] So we'll get a little bit of a follow-through on that, but it means that you don't have
+[00:56:51] like a weird little snake tail flailing around in your impact, which maybe, again, to speak
+[00:57:04] to how fast and loose we're playing with physics right now, would be a little more accurate,
+[00:57:10] would be the truer definition of follow-through, especially if we not only let it hang out,
+[00:57:18] we let it fling past the impact point and then kind of recoil back.
+[00:57:24] But to go back to gameplay as the top of our list, it was super distracting and it wasn't
+[00:57:36] great at letting you know that the missile's done.
+[00:57:41] You can move on with your game, your life, your combat now.
+[00:57:45] So we are going to commit physics crimes once again and just clean this up a lot more quickly
+[00:57:59] and then just smooth out the die off there a little bit.
+[00:58:19] All right.
+[00:58:27] So that about does it for our little missile setup here.
+[00:58:40] So we've got a whole little sequence of effects here.
+[00:58:48] And hopefully, again, like everything else, you can take this, run with it, do cool things
+[00:58:53] to flesh it out and make it your own.
+[00:58:57] I do want to dig really quickly into how to set this up more like an actual missile that
+[00:59:07] would be implemented in a game where your cast, your missile itself, and your impact
+[00:59:15] are all three separate effects that will be spawned in and queued up together in sequence.
+[00:59:22] So we will dive into that in a quick little video after this and I will see you there.
+[00:59:30] All right, take care y'all.

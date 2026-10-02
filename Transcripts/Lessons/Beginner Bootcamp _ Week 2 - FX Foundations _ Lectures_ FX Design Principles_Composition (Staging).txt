@@ -1,0 +1,97 @@
+[00:00:05] Hello
+[00:00:07] This lesson is a technical one. So strap in cuz hey we are talking about
+[00:00:16] Composition this is the good one. So let's get started
+[00:00:21] So we're gonna start really basic. I'm going to show you some shots
+[00:00:25] We're going to talk about the effect that's going on and then we'll jump into the composition of it all
+[00:00:32] So this is what we're given this is for our purposes here shot number one and all we know is that
+[00:00:39] Within a cityscape there has been a very large explosion. We did not do the explosion
+[00:00:45] We are going to do the following shots
+[00:00:49] Also known as hookups the following shots are we've cut in we are now inside the cityscape
+[00:00:58] This is shot two
+[00:01:00] Based upon the storyboards a character comes in coughing final pose character stands upright
+[00:01:10] And that's all we're given
+[00:01:13] so
+[00:01:14] We know that we are within the area of this explosion
+[00:01:22] So we know that we need to populate the scene with smoke in order to enhance
+[00:01:29] In order to enhance
+[00:01:31] This experience of the character coming out of the explosion smoke
+[00:01:37] And not taking it so well sort of coughing it off before going into a bit more of a confident pose
+[00:01:44] We have a couple goals here
+[00:01:47] It's important when dealing with character animation
+[00:01:51] Unless otherwise stated we don't want to obscure
+[00:01:56] the
+[00:01:58] Acting or the action going on from the characters with effects
+[00:02:04] They generally come in two very broad flavors. I would say there are the shots where the effects is
+[00:02:13] additional to the shot
+[00:02:15] Meaning that we do the effect in order to enhance what's going on and what's happening in the shot
+[00:02:21] And then there are I call them money shots
+[00:02:25] You can call them hero shots
+[00:02:27] you can call them whatever but then there are the shots where the effect is the purpose of the scene and
+[00:02:33] A good example of this is actually right here a big explosion in the middle of a cityscape
+[00:02:39] The purpose here is the explosion. So we still have to think about
+[00:02:45] Composition and we'll get into that shortly
+[00:02:48] however
+[00:02:49] We don't have to worry so much about
+[00:02:52] Obscuring things or I mean scale is still important, but you have a lot more
+[00:03:00] Wiggle room with how you can mess around with the scale in order to make sure that it's appropriate
+[00:03:07] for the shot
+[00:03:09] So this shot is not a hero shot
+[00:03:12] This is a shot where the effects are additional so we don't want to obscure these poses
+[00:03:20] We know that it's left over smoke from the explosion
+[00:03:23] We know that the character comes in from off-screen on screen, right?
+[00:03:27] Which screen right just means that you are the viewer. This is screen, right? Whereas if you were the character
+[00:03:35] The characters right is over here
+[00:03:37] so in order to be clear about the direction we give we say screen right to mean this portion of
+[00:03:45] the screen and
+[00:03:47] Then our last goal is to make sure that we place the smoke so it doesn't obscure
+[00:03:52] The character from being able to properly read the actions
+[00:03:57] So this would be a quick example. We have the two poses
+[00:04:03] We have was a back here and then this is the final pose this is an example of bad composition and
+[00:04:10] This is blatant because I'm trying to prove a point here, but obviously the smoke
+[00:04:16] Going right in front of the character is going to obscure everything the character does if this smoke was billowing up
+[00:04:23] Throughout the entire scene and the character came in and did its thing. We would have no idea
+[00:04:30] What's going on?
+[00:04:32] so we need to
+[00:04:36] Take a simple step which sometimes gets overlooked
+[00:04:42] but
+[00:04:43] We can reconceptualize the scene and
+[00:04:47] Place it into a manner in which
+[00:04:49] We can visualize our working area and I I find this very useful to do
+[00:04:54] It's something you do before you go in and start animating
+[00:04:58] You block out
+[00:05:00] The area of the scene that you do have to work with
+[00:05:05] Now this red is specifically in coordination with foreground elements. This is how much space we want to give ourselves
+[00:05:13] To put anything we want in front of the character
+[00:05:19] Without obscuring the entrance the coughing or the confident pose
+[00:05:27] So now that we have that blocked out we know the room that we have to
+[00:05:31] Work with and so we're sort of putting ourselves into a productive box
+[00:05:36] So then this would be a rough mock-up of the exactly what I would do with the smoke
+[00:05:42] We have a nice little foreground element here that doesn't obscure the character
+[00:05:48] We fill most of the screen here with the smoke because if this was right after the explosion
+[00:05:53] Or if it lends itself to the narrative of the story
+[00:05:57] We want the character to heavily be in smoke and then one of the things we can also add that we
+[00:06:04] It gives a nice sense of depth to the shot
+[00:06:07] And it doesn't obscure the character action is stuff in the background now
+[00:06:12] We don't want to make this kind of stuff
+[00:06:14] It can be large in scale
+[00:06:16] But we don't want to make it too noisy and I use that term in terms of the action of the effect
+[00:06:23] We don't want the effect in the background to be too noisy because once again we don't want to pull away from
+[00:06:30] But if this smoke is billowing this smoke is billowing
+[00:06:34] If this smoke is billowing this smoke is billowing and then maybe the background stuff
+[00:06:38] We would add in a couple extra frames and make it move
+[00:06:42] slightly slower than the foreground smoke in order to not detract from
+[00:06:48] What's going on with the characters?
+[00:06:50] The background smoke can be a nice addition, especially if our goal is to fill up the frame
+[00:06:57] As much as possible. So just to go over what we were talking about
+[00:07:02] Use blocking for effects placement super helpful
+[00:07:09] Create appealing composition through
+[00:07:12] Everything that we talked about in order to enhance the animation of the characters
+[00:07:19] And if possible you can use the background to increase the intensity of the effect
+[00:07:27] And that's what we were talking about with these shapes back here without this it would almost look like the characters are
+[00:07:34] Kind of on the edge of the explosion and maybe aren't directly inside of it
+[00:07:39] Which if that's the narrative perfect, then that's what you want
+[00:07:43] However, if you're looking to try to add depth and plus the scene and you want to fill that stuff in
+[00:07:49] Then you should feel free to do so
+[00:07:52] So these have been some useful insights and tips on how to
+[00:07:57] approach
+[00:07:58] The composition of effects within a scene or a shot. I hope you found it useful

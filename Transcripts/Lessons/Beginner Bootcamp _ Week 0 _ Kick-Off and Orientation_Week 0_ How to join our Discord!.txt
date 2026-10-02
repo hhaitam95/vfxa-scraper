@@ -1,0 +1,251 @@
+[00:00:00] All right, so this might be the most important video
+[00:00:03] of all the videos in our entire training series
+[00:00:06] because it's gonna make up a massive part
+[00:00:09] of your training journey.
+[00:00:11] I'm talking about joining our Discord server.
+[00:00:13] Now, some of you might be familiar with Discord,
+[00:00:16] some of you might not,
+[00:00:17] but the key that you need to know is Discord
+[00:00:20] is a massive part of our ecosystem for learning
+[00:00:23] and it's the number one thing that our apprentices
+[00:00:25] comment on as far as being a major factor
+[00:00:28] in accelerating their growth, finding good mentors,
+[00:00:32] connecting with other VFX artists,
+[00:00:34] and even finding jobs out there at the end.
+[00:00:37] So this is gonna be a huge thing for you to do.
+[00:00:40] It's gonna take just a few minutes.
+[00:00:41] I'm gonna walk you through step by step
+[00:00:43] how to get signed up on the server
+[00:00:45] and how to unlock all the full features
+[00:00:47] once you're a paid member.
+[00:00:48] Okay, so let's dive into the Discord side of things.
+[00:00:54] Okay, so the early steps before we dive into Discord
+[00:00:57] is gonna be on the website and through your email.
+[00:01:01] Now, once you've signed up on a website,
+[00:01:02] either through the free training or through our paid training
+[00:01:05] you're gonna get a little message in your inbox,
+[00:01:07] assuming you gave us a valid email address,
+[00:01:10] asking you to verify your email.
+[00:01:12] You're gonna confirm it there, and once that happens
+[00:01:15] you're gonna get three more emails in your inbox.
+[00:01:18] The first one is simply welcoming you to your new account
+[00:01:21] on vfxapprentice.com, whether that's getting access
+[00:01:25] to free training or paid training, it's the same,
+[00:01:28] and that's gonna give you a login,
+[00:01:31] which as you might have noticed
+[00:01:33] is an option up here on our site.
+[00:01:35] So that's where you use those credentials
+[00:01:37] is through that email that you got.
+[00:01:38] Cool, that's awesome.
+[00:01:40] Then also you see down here,
+[00:01:41] there's a link to the Discord server
+[00:01:43] in case you wanna dive right over there.
+[00:01:45] There's also a second email that's gonna come
+[00:01:48] directly from our Discord bot.
+[00:01:50] Now, these are all different systems,
+[00:01:51] but it's important that we link them together
+[00:01:54] so that we know whether you're signed up
+[00:01:55] for the free training or the expanded features
+[00:01:58] on the Discord server with the paid training.
+[00:02:00] This is gonna unlock so many cool things for you,
+[00:02:02] so it's important that you get this synced up.
+[00:02:05] So you come over to the Welcome to VFX Apprentice email,
+[00:02:09] and you wanna copy this code,
+[00:02:12] then I'm gonna click here to join the server, awesome.
+[00:02:15] Now, this is where it gets a little bit interesting
+[00:02:18] because if you have the Discord app installed,
+[00:02:21] that's gonna prompt you to open up the application,
+[00:02:24] or you can use Discord just through your browser,
+[00:02:27] and that works great too.
+[00:02:28] I will say that the functionality
+[00:02:30] is a little better in the app,
+[00:02:31] and it's gonna keep asking,
+[00:02:32] do you wanna launch this in the app?
+[00:02:34] And for now, let's just stick with either the app
+[00:02:37] or either the browser.
+[00:02:39] Don't try to mix them up
+[00:02:40] because some weird things can happen.
+[00:02:42] So I'm just gonna stick with the app.
+[00:02:44] Okay, what should everyone call me?
+[00:02:46] Let's call me VFX Jason.
+[00:02:51] Okay, if you already have an account,
+[00:02:54] maybe you can just use that there,
+[00:02:56] but for now, we're just gonna assume
+[00:02:58] that you've never used Discord before in your life.
+[00:03:00] Wow, cool, there's currently 667 people waiting for us.
+[00:03:03] Wow, that's cool, I wanna get into that.
+[00:03:06] I am not a robot, I am definitely human.
+[00:03:09] All right, we got beaches.
+[00:03:11] Where are all the beaches?
+[00:03:12] I think I got all the beaches.
+[00:03:15] Am I a robot?
+[00:03:17] Awesome, not a robot.
+[00:03:18] I am a human being.
+[00:03:20] All right, I want some of my date of birth.
+[00:03:23] What day should I be born, everybody?
+[00:03:25] Let's do April Fools in the year 2000.
+[00:03:32] And there we go, finished signing up.
+[00:03:35] I'm gonna type in an email address
+[00:03:42] and a very secure password.
+[00:03:44] So this can be the same email address
+[00:03:47] that we're using on the other stuff.
+[00:03:50] Cool, I can get the app.
+[00:03:51] It's gonna keep prompting you to get the app
+[00:03:52] because it is actually a better experience.
+[00:03:55] All right, I can come over here.
+[00:03:56] This is gonna be important.
+[00:03:58] I want to verify my email address on Discord.
+[00:04:02] Sweet, sweet.
+[00:04:05] I can just probably close out of that
+[00:04:07] and go back to where I was.
+[00:04:09] Awesome, so if you're new to Discord,
+[00:04:12] there's a lot to go over here,
+[00:04:13] but that's the initial setup.
+[00:04:15] And now we're gonna dive into the specific things
+[00:04:19] that you need to do to get all of the cool features
+[00:04:23] fully unlocked for you when you're using Discord.
+[00:04:26] So there's a lot to go over here
+[00:04:28] and basically you're gonna see a few channels right here
+[00:04:31] on the VFX Apprentice server right off the bat.
+[00:04:34] This landing page here is gonna help you
+[00:04:36] know how to verify your account.
+[00:04:38] We already know, because we're watching this video,
+[00:04:40] that we needed that code.
+[00:04:42] It's basically what it's saying in here,
+[00:04:44] the code's super important.
+[00:04:45] And you've got a friend.
+[00:04:46] Look, your first friend, the Jules bot.
+[00:04:49] And again, if you've already been using Discord for a while,
+[00:04:52] Jules bot will be one of many friends
+[00:04:53] listed here in your direct message lists.
+[00:04:56] Okay, so all right, Jules, here's that code.
+[00:05:00] I'm gonna hit Control-V, send it to you.
+[00:05:04] And this might take a little time because, you know,
+[00:05:07] Jules is taking her sweet time
+[00:05:09] to communicate back and forth with the server.
+[00:05:11] Awesome, your Discord profile has been successfully linked
+[00:05:14] to your VFXA account.
+[00:05:17] Great, that's good to hear.
+[00:05:18] Now if I go back to the VFX Apprentice server,
+[00:05:20] you'll notice I have a few more channels over here.
+[00:05:23] And this is what it's gonna look like
+[00:05:24] for those of you who are on the free training.
+[00:05:27] I'm gonna take a minute
+[00:05:28] and go ahead and sign up for the paid training
+[00:05:30] and then come right back and show you
+[00:05:32] what the difference of the channels is.
+[00:05:34] All right, so I've made a purchase on vfxapprentice.com,
+[00:05:37] which gives me access to a few more channels,
+[00:05:39] as you can see.
+[00:05:41] Now, if you're on the free training,
+[00:05:42] there's all kinds of stuff for you to do.
+[00:05:44] You can peek in on a lot of these channels,
+[00:05:46] as well as get support and answers
+[00:05:48] to a lot of your questions.
+[00:05:50] So it's still a great resource for you,
+[00:05:52] especially when we do the free live discussions.
+[00:05:55] So we're gonna announce those out.
+[00:05:57] And right now we're doing them at a monthly cadence,
+[00:05:59] which seems to be working pretty well.
+[00:06:01] But generally speaking,
+[00:06:02] we're gonna message it out beforehand
+[00:06:04] so you get a chance to come in and learn with us.
+[00:06:07] So we're gonna have this say you're gonna be suppressed.
+[00:06:09] All right, and I'm in the free live discussion.
+[00:06:12] Now this is important
+[00:06:13] because it may not seem like anything changed,
+[00:06:16] but in fact, I am sitting in here as we can see.
+[00:06:19] Now, if I wanna leave that live discussion,
+[00:06:21] I can hit the disconnect button here,
+[00:06:23] or I can click on it
+[00:06:25] and see the whole discussion happening
+[00:06:27] and hit the disconnect button right here.
+[00:06:29] It's the big red one.
+[00:06:31] Now my microphone is suppressed
+[00:06:32] so no one can hear me anyway, which is totally cool,
+[00:06:35] but I'm gonna hop on out of there
+[00:06:37] because there's no live discussion happening currently.
+[00:06:40] We also have the weekly student hangouts
+[00:06:42] that happen for our paid members.
+[00:06:44] So if you come over to the hangout chat,
+[00:06:47] you can see all the cool stuff
+[00:06:49] that people have been chatting about.
+[00:06:50] And there's a lot going on here.
+[00:06:52] And that always corresponds
+[00:06:53] with the student hangout voice channel.
+[00:06:56] So if I click on that, I join it,
+[00:06:58] and then I click on it again, then I can focus on it.
+[00:07:01] And I'm gonna keep myself muted.
+[00:07:03] And I'm also gonna use the deafened feature
+[00:07:05] just in case someone else comes in.
+[00:07:07] I don't want that interrupting here.
+[00:07:10] That's a great way to just sit in the channel
+[00:07:11] if you want to be like around other people,
+[00:07:14] but not necessarily interrupted by them
+[00:07:16] cause you're in your flow.
+[00:07:17] If you wanna like share screen,
+[00:07:20] you can totally do that with the share screen button here
+[00:07:23] and they can see what you're working on.
+[00:07:24] It's a good way to get feedback.
+[00:07:26] It's a good way to just kind of be like
+[00:07:29] you're in the same room together,
+[00:07:30] even though we're on opposite sides of the world, right?
+[00:07:34] So gonna undeafen and disconnect, get out of there.
+[00:07:38] All right, the general channel is a great place
+[00:07:40] for you to come in and introduce yourself,
+[00:07:42] say, hey, I'm new everybody.
+[00:07:43] It's so exciting to be here
+[00:07:45] and you'll get a nice warm welcome.
+[00:07:47] There's a ton of people online right now.
+[00:07:49] If I click on the members list up here,
+[00:07:51] I can see all of the orange names are mentors.
+[00:07:55] And then there's Ben.
+[00:07:56] Ben's our incredible community manager.
+[00:07:58] He does an amazing job and he's usually around most times.
+[00:08:02] So you can hit them up for questions.
+[00:08:04] They are here to support you,
+[00:08:06] whether you're just starting out
+[00:08:07] or you're a working professional,
+[00:08:09] it's gonna be super valuable for you.
+[00:08:11] And then we've got a ton of people online.
+[00:08:14] This is always growing.
+[00:08:15] You're gonna see this community of people coming and going.
+[00:08:19] A lot of people just starting out.
+[00:08:20] A lot of other people currently getting jobs.
+[00:08:23] We've got a lot of cool stuff happening.
+[00:08:25] You can see there's the bulletin board over here
+[00:08:29] with a lot of different job listings
+[00:08:30] that people are welcome to post and say,
+[00:08:33] hey, this is going on.
+[00:08:35] If you wanna hit it up, join it and apply.
+[00:08:39] If you wanna hit me up personally,
+[00:08:41] you can find me over here most times in the mentor section
+[00:08:45] and you can direct message me and say,
+[00:08:46] hey, what's up, Jason?
+[00:08:48] And I'd love to hear from you and talk with you
+[00:08:50] about what you're trying to do with your career,
+[00:08:53] how I can help.
+[00:08:54] If there's anybody in our studio partnership program
+[00:08:58] that might be interested in looking at your portfolio,
+[00:09:01] I'm always here to assist you with that.
+[00:09:03] So yeah, at the end of the day,
+[00:09:05] this server is to put you in touch with the people
+[00:09:08] that are gonna help you get that job that you want,
+[00:09:12] whether you're already working
+[00:09:13] and you wanna progress at your job
+[00:09:15] or you're just starting out and you wanna break in,
+[00:09:18] that's exactly what this is here for
+[00:09:20] is to support you on that journey.
+[00:09:22] So I hope you're as excited as I am
+[00:09:25] about the Discord server.
+[00:09:26] I'm really, really excited to see you join us
+[00:09:29] and come into our live sessions.
+[00:09:31] Currently, I'm here in the student hangout once a week
+[00:09:34] on Wednesdays and I'm excited to chat with you
+[00:09:37] and get to know you and see your work and review it.
+[00:09:40] That's your time to come and ask questions and share it
+[00:09:44] and meet your mentors
+[00:09:46] and get on your way towards your dreams.
+[00:09:49] Okay, so have fun making effects
+[00:09:50] and I'll see you on Discord.
+[00:09:52] Bye for now.

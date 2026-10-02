@@ -1,0 +1,215 @@
+[00:00:05] Hello welcome to the lesson today we will be going over lightning
+[00:00:12] Lightning as an element is
+[00:00:15] unique as
+[00:00:17] It's not
+[00:00:18] It doesn't really fall directly into any other of the larger elements like fire water or smoke
+[00:00:26] It needs to be handled a little bit differently than all those others
+[00:00:32] However, it it gets a lot of use amongst a lot of TV shows
+[00:00:38] It's a it's a really fun element because it's very forgiving
+[00:00:43] and
+[00:00:45] Along with lightning because there's not too too much to say about it from a beginner's point of view
+[00:00:53] We'll also be touching upon the idea of flash frames
+[00:00:57] Flash frames can be fun used in lightning explosions other creative uses magic stuff like that
+[00:01:03] so let's
+[00:01:05] jump in
+[00:01:06] so because lightning is
+[00:01:15] Pretty forgiving when we animate it
+[00:01:19] One of the important things I wanted to go over is a very popular pitfall
+[00:01:26] When people are first learning
+[00:01:28] How to animate lightning?
+[00:01:32] Usually what ends up happening is
+[00:01:36] People don't
+[00:01:38] beginners don't give lightning the
+[00:01:41] Amount of speed it deserves in order to have it read properly
+[00:01:48] Lightning is instantaneous
+[00:01:51] Pretty to it to our eye. It's not actually instantaneous but to our eye it is which is
+[00:02:00] why usually
+[00:02:02] Electricity or lightning is either on screen or it's off screen. We don't need to have it
+[00:02:10] Travel unless the purpose of
+[00:02:14] The lightning that we're doing it has to travel because the second you make something
+[00:02:21] Travel across your screen. You're going to slow it down. So
+[00:02:26] my favorite way of doing lightning and
+[00:02:29] This is a simplified version of it is that like I said, it's either on screen or it's off screen
+[00:02:35] So we start it right away
+[00:02:36] But the animation that we put into it is actually just growing out the design
+[00:02:43] thickness we're not
+[00:02:45] Animating it doing like this. That's frame one
+[00:02:50] That's frame two
+[00:02:54] That's frame three and now you might be thinking that
+[00:02:58] Even three frames is really really fast right like three frames is quicker than the blink of a human eye
+[00:03:03] but even a blink of the human eye is still detectable by the human eye and
+[00:03:09] Lightning when you see it in nature if it's not caught by a camera taking a million frames a second
+[00:03:16] It's it's it's in front of your face and then it's gone almost as quickly. So we want to avoid doing this and
+[00:03:29] we want to go for something that
+[00:03:32] Aims to grow it on and this depends on how crazy you want to get with it
+[00:03:41] how thick
+[00:03:44] but this would be an example of
+[00:03:46] lightning
+[00:03:48] creation and
+[00:03:49] Then it's pretty simple if you want to dissipate it you want to get it off screen
+[00:03:54] But you don't want to just have it pop off screen. You want to try to add a little bit of flavor
+[00:03:59] You literally just do it in Reverse
+[00:04:01] So the creation and the dissipation for lightning are basically the same but don't fall into the pitfall of thinking
+[00:04:10] That if lightning starts here and ends here it needs frames
+[00:04:15] Like in between like you need to see the tip of it. It's not true and
+[00:04:20] This can be extended beyond lightning if you ever find the need to do any kind of lasers as well
+[00:04:27] like laser guns
+[00:04:29] Laser beams of any kind they're either there or they're not what's going on here and stop so
+[00:04:52] We're going to look at some other techniques in order to amp up
+[00:04:57] lightning or
+[00:04:58] Lightning style things like we just talked about like laser beams some of these things can be applied to explosions and stuff
+[00:05:05] as well and this will be the
+[00:05:09] flash frame flash frames can be as
+[00:05:16] Simple as just mixing in a blank card
+[00:05:20] We call these color cards when the when the entire screen
+[00:05:25] Is filled with a single color that's a color card
+[00:05:28] And so you can take a color card and you can slot it if this was frame, you know
+[00:05:34] One two three slot it in here. So it becomes frame two three four
+[00:05:40] And you can mix around with these
+[00:05:42] so if you have
+[00:05:46] I'll just use CC for color card, but if you put a color card in between every single frame you're going to start getting a
+[00:05:54] strobing effect
+[00:05:56] Once again, not necessarily wrong
+[00:05:58] But because it's so easy to animate lighting lightning if you are
+[00:06:03] Animating lightning play around with it. See see what kind of effect you get when you start tossing in color cards
+[00:06:11] And I guess the last thing I'll say about color cards the the blank color cards too
+[00:06:16] The last thing I'll say about blank color cards is that they don't need to be white
+[00:06:20] They can be almost well, they can literally be any color
+[00:06:24] Obviously the popular colors the colors that are going to give you sort of visually be the most jarring would just be white and black
+[00:06:31] But you know
+[00:06:33] Lightning isn't necessarily white. It can be blue or purple or whatever. So the color card might be
+[00:06:41] The color card might reflect those colors that you're using in the the lightning or the laser beam
+[00:06:47] so this would be taking the idea of the flash frame to the next level from the color card and this is
+[00:06:57] Having it interact with the environment that it's in
+[00:07:02] So in this super detailed background of a rock
+[00:07:08] If the lightning goes on in the background here
+[00:07:12] We can
+[00:07:14] Start messing around and getting creative with the advanced version of color cards and start incorporating the background
+[00:07:23] Into the white and black or once again, you can change these colors to whatever you want just fool around with it
+[00:07:30] You can have this totally inversed where the black is white and the white is black
+[00:07:34] and you can use if you had two frames of
+[00:07:38] One where the lightning is black and everything else is white and
+[00:07:46] The reverse where the lightning is white and everything else is black you can use these two
+[00:07:51] In here, so, you know, this can be frame one. You can have one color card
+[00:07:58] Of black and white on frame two then flash the second color card of
+[00:08:03] The white and black on frame three and this is frame four and this is frame five
+[00:08:09] Like I said, you got to play around with it. That's how you'll find out what looks best and what doesn't to your eye
+[00:08:17] Now if this is level one
+[00:08:20] And this is level two
+[00:08:22] the most advanced version of the flash frame or the color card I
+[00:08:30] Call it a detailed flash frame in this slide
+[00:08:35] So the detail flash frame just takes aspects of
+[00:08:39] the
+[00:08:43] Little bit more advanced. Come on
+[00:08:46] flash frame
+[00:08:56] Crikey and we start adding flavor to it
+[00:09:05] So if the backgrounds white and obviously in this example, the lightning is is black
+[00:09:12] We start looking for areas where we can use those colors against each other to accent once again
+[00:09:19] We're just further accenting the background whether it's the the ground plane
+[00:09:24] Or objects in the background, but when you get really heavy into
+[00:09:33] Into this and you have your just your black rock when you're going in and you're adding hatching for all this stuff
+[00:09:40] it starts to become time-consuming and
+[00:09:43] It can definitely be worth it. It just depends on how important it is
+[00:09:49] For you to make these flash frames
+[00:09:52] As awesome as possible
+[00:09:54] So if you have a big explosion where the explosion is
+[00:09:58] Super important in terms of the story and you want it to look as good as possible
+[00:10:03] I would go with a detailed flash frame
+[00:10:08] if if you just have something where
+[00:10:11] The there's lightning going off in the background. I go with the the color card. There's uses for all these
+[00:10:17] It just depends on what you want
+[00:10:19] One of the the reason why this slide is called other techniques is because obviously the flash frames are the the most important one
+[00:10:26] But the other one with lightning is drop frames. I
+[00:10:30] Do mention it here
+[00:10:32] So one of the things that can give lightning a really erratic look is when it's on screen and when it's completely off screen
+[00:10:41] Within the same animation. So we go back here. We were talking about
+[00:10:45] Adding in the color cards and stuff like that
+[00:10:48] You can start playing around with lightning even further
+[00:10:53] By having say like frame one of lightning frame two is color cards
+[00:10:58] I'll just put a B for blank frame and when I say blank frame, I literally mean it get rid of the lightning
+[00:11:04] No flash card. There's there's just literally nothing on screen and then frame three and then
+[00:11:11] You can fool around with a blank frame again before going to frame four
+[00:11:16] the blank frames will give a lot more of a
+[00:11:20] Stuttered vibey look but when you mix in everything we've been talking about between
+[00:11:26] the timing of the lightning
+[00:11:34] Properly bringing it on screen depending on what you're going for in your needs and
+[00:11:42] Drop frames and
+[00:11:44] Can't find it and flash frames when you start incorporating all of these things together
+[00:11:49] That is what ends up giving you a really nice finished product
+[00:11:54] and then if it's special lightning and you take it to the realm where it
+[00:12:01] Dissipates maybe into sparks or something like that. That stuff looks really really cool
+[00:12:07] so getting a bit into the timing of lightning like I said before it is
+[00:12:14] very forgiving
+[00:12:18] There's no when when you look at something like a water splash you can you can look at a water splash and and and
+[00:12:26] objectively say about it like
+[00:12:29] The timing is off. This doesn't this doesn't feel like water when the animation plays
+[00:12:37] Lightning
+[00:12:39] It's more ambiguous. You can push it further and get away with more
+[00:12:44] when you're trying to create create a
+[00:12:47] Lightning effect
+[00:12:51] This is just my approach you can obviously fool around develop your own approaches I often think a lot about
+[00:13:02] What the eye is reading when something that as fast as lightning plays out
+[00:13:09] obviously visually reference or not visually
+[00:13:12] Um
+[00:13:13] Real life reference lightning that will be your best bet to try to get a feeling for not only design
+[00:13:19] But but but the timing as well and the crazy thing about lightning
+[00:13:24] Is that we can pay a lot of attention to the shapes we're creating
+[00:13:29] If this lightning was traveling down, right? So we create a little bit of a kink in the lightning we accentuate the kink
+[00:13:36] We
+[00:13:38] might create another kink up here and then go even crazier with this kink and
+[00:13:46] this is frames one two three and then frame four we totally change the shape and
+[00:13:53] even though three frames like we discussed is like
+[00:13:56] Well, it's it's double the speed of a very quick blink
+[00:14:01] Holding on to the general shape of this through three frames then abruptly
+[00:14:07] Switching it up will give the lightning a really cool
+[00:14:10] Energetic jerky effect because it's just enough time for the eye to see it and then we totally snap to something different
+[00:14:18] and then
+[00:14:19] You can quickly keep snapping to different shapes
+[00:14:24] But this idea of contrasting
+[00:14:29] Even though it's all moving very very fast, there's still this idea of contrasting holding on to sort of a visual
+[00:14:37] Design and then quickly snapping it because what we don't want is
+[00:14:44] Sames
+[00:14:46] If you have sames where the lightning is snapping and changing position equally
+[00:14:52] It's going to look a little bit more boring than if we are looking for
+[00:14:57] Holding a position and then snapping it
+[00:15:01] maybe snapping it again and then holding it and
+[00:15:05] Just like the flash frames this is something you play around with until you get the feeling that you're going for
+[00:15:10] But just like all animation timing timing is always important with everything
+[00:15:22] so lightning design
+[00:15:25] Same realm it's also quite forgiving. There's no super right or wrong way to do it
+[00:15:33] You just got to play around with your shapes play around with your pockets of negative space that can thins all that kind of
+[00:15:43] design
+[00:15:44] elements
+[00:15:46] That really apply to all the effects you do
+[00:15:50] also applies to lightning until you find something that
+[00:15:54] you enjoy and
+[00:15:56] If you're animating it that you that you are interested in sticking with
+[00:16:05] dissipating lightning
+[00:16:09] Once again, we don't want it
+[00:16:12] Like we talked about in the first frame here. We don't want it necessarily traveling off
+[00:16:20] screen but you can get a little bit more creative with it and
+[00:16:30] Have it if this was like a lightning strike off in the distance
+[00:16:34] I would never do this
+[00:16:35] But if this was like lightning powers from a character or something like that
+[00:16:39] Then I start to play with leaving behind little sparks or if it's magic lighting
+[00:16:46] You know, there can be little twinkles and stuff like that. It really depends but
+[00:16:51] You can take lightning you can take the creation and dissipation of lightning a little bit further
+[00:16:58] Than your bog standard off in the distance
+[00:17:02] Lightning strike you just got to get creative and play around with it, but it can be fun and
+[00:17:09] And
+[00:17:10] when you you apply
+[00:17:12] When you create a way you want to dissipate something and you you you apply it to a full animation
+[00:17:18] It can be really really
+[00:17:21] rewarding
+[00:17:23] it shouldn't be much of a surprise here that
+[00:17:26] The assignment is just do some lightning a lightning strike lightning can do a lot of stuff
+[00:17:34] when you look at
+[00:17:36] When you look at real life late real life reference lightning can do things like Jacob ladders
+[00:17:45] If you look up anything to do with Tesla like the the guy not the company
+[00:17:52] The the experiments he did with the the big lightning balls and stuff like that
+[00:17:58] lightning exists in all kinds of cool
+[00:18:03] cool states and
+[00:18:04] It's fun to explore all of those so
+[00:18:09] Just to just do lightning and try to incorporate the other techniques with the the drop frames
+[00:18:14] And flash frames because those are useful in other areas as well
+[00:18:20] So, thank you for coming and I hope you enjoyed this lesson

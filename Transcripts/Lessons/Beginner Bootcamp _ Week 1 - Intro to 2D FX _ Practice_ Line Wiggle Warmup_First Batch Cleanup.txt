@@ -1,0 +1,474 @@
+[00:00:05] Oh, hey guys.
+[00:00:06] All right, moving right along to part two
+[00:00:08] of the line wiggle technique.
+[00:00:11] If we shift over here to our Adobe Animate,
+[00:00:14] you can see the animation happening.
+[00:00:16] Also, you might notice that I fixed the offset.
+[00:00:19] I apologize in the last video,
+[00:00:21] everything was shifted down,
+[00:00:22] which is why you couldn't see the little settings over here
+[00:00:25] in the library panel.
+[00:00:28] It is not the new symbol panel.
+[00:00:29] Also, I did call it the new symbol panel.
+[00:00:31] It's the new symbol button down here.
+[00:00:34] It's this little plus sign right there.
+[00:00:36] And also the garbage can,
+[00:00:38] which is handy when you want to delete symbols.
+[00:00:39] So apologies for that being messed up.
+[00:00:42] I made it foolproof so that in the future,
+[00:00:45] we're not gonna see that again.
+[00:00:47] Okey-doke.
+[00:00:47] So how did I get from the animation that I had before
+[00:00:52] to this nice cleaned up version
+[00:00:54] where all the loops hook up neatly
+[00:00:57] and everything is kind of offset from each other
+[00:00:59] and the colors are unique?
+[00:01:00] Well, let's dive right into that video.
+[00:01:04] Go ahead and close this.
+[00:01:06] And we're gonna talk now.
+[00:01:08] We're watching a recording of what I did.
+[00:01:11] This is only gonna be about nine minutes.
+[00:01:14] I might pause it here and there,
+[00:01:15] so it might extend the video length a bit,
+[00:01:17] but it's pretty quick and it adds a lot
+[00:01:20] when you take a little bit of time to polish your work,
+[00:01:24] make it just a bit refined so that it's ready to present
+[00:01:27] and it's not completely rough.
+[00:01:29] There's just a few simple things
+[00:01:30] that you can adjust to improve it.
+[00:01:34] In this file, I've got three layers hidden
+[00:01:37] and only one is showing and it's in reverse order.
+[00:01:40] So the top one, you'll recall,
+[00:01:42] is the last one that I animated
+[00:01:44] and the bottom one is the first one I animated.
+[00:01:47] So I'm kinda gonna go ahead and hit play.
+[00:01:51] Let's see here.
+[00:01:53] That's audio on there.
+[00:01:54] I'll just go ahead and mute that.
+[00:01:56] I like to listen to music when I'm working,
+[00:01:58] so it helps me chill and relax
+[00:02:01] and I like all that stuff.
+[00:02:03] So I just sometimes record it in my videos
+[00:02:06] and I wanna mute it so that I'm talking
+[00:02:10] and you're not listening to my playlist.
+[00:02:14] Okay, so I'm letting everything show up.
+[00:02:17] This is where it was at when we left off,
+[00:02:19] everything playing all at once.
+[00:02:20] It's a bit of a mess
+[00:02:21] and it's all ending on the exact same beat.
+[00:02:24] All of the looping is happening here
+[00:02:27] at this point where it cuts off and then loops back.
+[00:02:30] And so it creates kind of this beat
+[00:02:31] where they all restart at once.
+[00:02:34] So my first step is gonna be...
+[00:02:36] Go ahead and pause this.
+[00:02:38] My first step is gonna be to recolor.
+[00:02:39] So what I just did was I locked three layers
+[00:02:44] and I left one unlocked, the one that I wanna recolor.
+[00:02:47] And then I used the edit multiple frames feature
+[00:02:50] here on the timeline.
+[00:02:52] Now what that's gonna do is
+[00:02:52] it's gonna make these bars show up,
+[00:02:54] which I can grab, extend out
+[00:02:56] so that it covers all these frames.
+[00:02:59] And then if I hit control A,
+[00:03:01] then all of the frames will turn blue,
+[00:03:03] telling me that they are all selected.
+[00:03:06] Okay, so I've selected the ball
+[00:03:07] and then I can just come over to the color picker
+[00:03:10] and it just updates the color
+[00:03:11] because when they're selected and you change the color,
+[00:03:14] that's what updates there.
+[00:03:15] You can also change it right here with the fill color.
+[00:03:19] Cool, so I made those kind of a light pink
+[00:03:21] and then I switched to the next by locking that one,
+[00:03:23] hitting control A again.
+[00:03:25] And then I can change that.
+[00:03:29] To like a cyan color.
+[00:03:30] And then I lock and then I hit control A
+[00:03:34] and you don't need to change the selection.
+[00:03:36] It just over the same range,
+[00:03:38] it will select everything in that range.
+[00:03:41] So I'm sticking with like variations of pinks
+[00:03:43] and cyans slash blues,
+[00:03:46] just to keep everything kind of harmonious, not too crazy.
+[00:03:52] All right, so I can just hit control enter
+[00:03:55] and just check the colors.
+[00:03:56] I'm just checking colors so far.
+[00:03:58] The timing is still needing work,
+[00:03:59] but colors are good.
+[00:04:01] I like them.
+[00:04:03] All right, so here we go.
+[00:04:06] Now we're gonna select multiple layers
+[00:04:08] and this is a tricky part.
+[00:04:09] So you'll see this and I'll play it back one more time.
+[00:04:14] So what I did is I clicked and dragged to select multiple.
+[00:04:23] You can also, now it's important,
+[00:04:25] but you don't click and drag on a frame
+[00:04:27] that is already selected.
+[00:04:30] We'll catch that again.
+[00:04:33] So I come in here, nothing is selected,
+[00:04:35] nothing is highlighted blue,
+[00:04:36] but my first click and drag
+[00:04:41] will create a larger selection
+[00:04:43] that I can then click on that again and move it.
+[00:04:46] So if a frame or a selection of frames is highlighted blue
+[00:04:51] and you click, hold, drag,
+[00:04:53] it will move that selection around.
+[00:04:56] If it's not selected and it's like gray
+[00:05:00] and then you click, hold, drag,
+[00:05:02] it will select a region that you drag over.
+[00:05:06] Does that make sense?
+[00:05:07] So I wanted to make sure that nothing was blue,
+[00:05:08] nothing was selected and you can just click off of it.
+[00:05:13] If you see that it's blue and you don't want it,
+[00:05:14] you can click somewhere else
+[00:05:16] and it will deselect the frame selection
+[00:05:19] and then go ahead and click and drag, get your selection
+[00:05:22] and then click and drag again
+[00:05:25] and it will move the selection.
+[00:05:27] I know it's weird and hard to get used to,
+[00:05:28] but that's basically how it works.
+[00:05:31] So it can preview where that selection is moving
+[00:05:35] with this highlighted blue area.
+[00:05:37] I told you I was gonna be pausing
+[00:05:39] because there's a few different little things
+[00:05:40] that you wanna make sure you catch just right.
+[00:05:43] Okay, playing again.
+[00:05:44] I wanna put that about dead in the middle on frame 25.
+[00:05:48] So on my thing here, it shows frame 25.
+[00:05:51] Click drag there for that selection,
+[00:05:53] about halfway around frame 12 or 13.
+[00:05:56] And then this one, so now what I'm doing,
+[00:06:00] this is kind of fancy,
+[00:06:02] is I clicked and dragged multiple layers and multiple frames
+[00:06:05] and you can do that too and you drag those.
+[00:06:08] So now what I did here,
+[00:06:12] I'll just kind of walk you through this.
+[00:06:14] So basically imagine what I've done
+[00:06:16] is I've stair stepped the start time
+[00:06:19] for each of these animations.
+[00:06:21] So now they're going to end in sequence.
+[00:06:24] Now what's happening right now
+[00:06:26] is that this is gonna end here on frame 50.
+[00:06:29] And then this is gonna continue until frame,
+[00:06:32] what is that, 62.
+[00:06:34] And then it's gonna halt.
+[00:06:35] So this will hold on that frame continuously
+[00:06:39] until frame 86, right?
+[00:06:42] And then this one is gonna go until frame 73
+[00:06:47] and hold till frame 86.
+[00:06:48] And then this one is gonna just end on frame 86.
+[00:06:52] And they start animating here.
+[00:06:54] So to get things to kind of overlap and blend nicely,
+[00:06:58] I like to offset the start times evenly, right?
+[00:07:02] And then what you wanna do
+[00:07:05] is you want that loop to end on frame 50.
+[00:07:08] I don't want them to end in succession until frame 86.
+[00:07:13] I want the whole thing to play to frame 50
+[00:07:16] and then start over, but pick up where it left off.
+[00:07:20] So what I'm doing is I'm taking this frame on frame 51.
+[00:07:26] I clicked and dragged to select to there.
+[00:07:28] And then I moved it and see it just happens to fit perfectly
+[00:07:32] right here at the beginning.
+[00:07:34] This will take some getting used to,
+[00:07:35] but this is how you offset your loop.
+[00:07:38] So you shift your frames over,
+[00:07:41] then you grab the tail end,
+[00:07:43] move it back to the beginning.
+[00:07:45] Let's see how this works out for us.
+[00:07:48] Okay, so I drag that over.
+[00:07:49] Don't worry about the hold, I'll clean that up later.
+[00:07:52] I can click and drag this one over.
+[00:07:54] Drag it, it should fit exactly.
+[00:07:55] If it doesn't fit exactly,
+[00:07:57] you can hit undo and go back and get the exact,
+[00:08:00] like see where you went wrong and nudge it
+[00:08:02] so you get the exact amounts.
+[00:08:04] Okay, now I can select all of these and hit shift F5.
+[00:08:08] So, all right, once I've got this moved over,
+[00:08:12] all three of these layers are now holding that last frame
+[00:08:14] for way too long.
+[00:08:16] I want to delete all this so I can click and drag
+[00:08:19] over the selection.
+[00:08:21] And then with shift F5,
+[00:08:23] it will actually clear out those frames.
+[00:08:26] There's also a setting for it.
+[00:08:29] You know what, I don't even know
+[00:08:29] where the settings for that are.
+[00:08:30] I think it might be up here under this dropdown.
+[00:08:35] It might also be under modify.
+[00:08:37] But honestly, if you can just memorize
+[00:08:39] the keyboard shortcuts,
+[00:08:40] again, in like the intro videos,
+[00:08:42] I talked about that sheet you can print out
+[00:08:44] that has all of those in it.
+[00:08:46] It's super handy if you just memorize those,
+[00:08:47] you're going to save yourself a ton of time.
+[00:08:50] Okay, so I click and drag over these,
+[00:08:53] shift F5, deletes all those out,
+[00:08:56] and now they are animating in an overlapped sort of way.
+[00:09:00] They're not all ending on the exact same beat.
+[00:09:03] The next step is going to be,
+[00:09:05] well, the next step is a couple of things.
+[00:09:06] I think first I'm going to widen the line.
+[00:09:09] Well, first I'm going to save it.
+[00:09:11] First I need to widen the line of that one
+[00:09:14] because it's thinner than all the others
+[00:09:16] and it was bothering me that it doesn't look right.
+[00:09:19] So what I do is I select it.
+[00:09:23] So I use the edit multiple frames, same thing as before,
+[00:09:28] hit control A, that selects it
+[00:09:31] and you can tell it's selected
+[00:09:32] because it has this little grainy pixely texture on it.
+[00:09:36] And then under modify shape, you can see expand fill.
+[00:09:41] Now I have expand fill set to control three
+[00:09:44] and my hotkeys, you can go edit keyboard shortcuts,
+[00:09:46] or you can install the settings that I have set up for you
+[00:09:51] and it'll just be in there.
+[00:09:53] I do use it periodically.
+[00:09:55] I don't use it super frequently,
+[00:09:57] but sometimes when I have something that's a little too thin,
+[00:10:01] you can like lasso that selection
+[00:10:03] or you can select all the frames that are thin like that
+[00:10:06] and you can expand the fill.
+[00:10:08] So here's what comes up when you click expand fill.
+[00:10:13] Yep.
+[00:10:15] All right, so the pixel amount.
+[00:10:16] Now, remember when I was talking about brush sizes
+[00:10:19] in the previous video, how I was like,
+[00:10:21] yeah, probably like 14 is too much,
+[00:10:24] but probably like four or like two isn't enough.
+[00:10:28] Well, I ended up going with a brush size of four on this one
+[00:10:33] and I'm expanding it by four,
+[00:10:35] which is gonna put it up four pixels
+[00:10:38] on both sides of the stroke.
+[00:10:40] So it's gonna increase the overall thickness by eight.
+[00:10:44] So it's gonna put this up to 12,
+[00:10:46] which is actually a little high when I hit okay here,
+[00:10:50] but I think it's like close enough.
+[00:10:53] Like that's probably a little too bulky,
+[00:10:55] but it's a little chunkier than the others now.
+[00:10:58] Whereas before it was like thinner than the others,
+[00:11:01] but now you can't really tell
+[00:11:03] that they're all flying around so fast.
+[00:11:04] It felt pretty good.
+[00:11:06] You get the idea.
+[00:11:06] You can play around with the settings there
+[00:11:07] of how many pixels you wanna do it.
+[00:11:10] In set, now you remember on that thing,
+[00:11:14] you can like make your lines thinner.
+[00:11:16] In set sometimes can create a little bit of artifacting,
+[00:11:19] even expand fill can create artifacting
+[00:11:21] and more complex shapes
+[00:11:22] where things are like intersecting each other
+[00:11:25] or like, so if it's like already really thin
+[00:11:27] and then you tell it to go thinner than it is,
+[00:11:30] it'll like overlap with itself
+[00:11:32] and create weirdness if that makes sense.
+[00:11:35] So just a word of caution, it's not a perfect tool,
+[00:11:38] but it generally gets the job done
+[00:11:40] for rough animation like this.
+[00:11:43] All right, so we got the line expanded.
+[00:11:45] I like scaling it down to just check that thumbnail size.
+[00:11:49] If it feels really good to the thumbnail level,
+[00:11:51] I'm happy with it compositionally
+[00:11:54] and I'm ready to move on to the next step,
+[00:11:57] which is gonna be getting all of those hookups ready
+[00:12:01] where they used to end on frame 50, remember,
+[00:12:05] but then now we shifted it.
+[00:12:07] So now it's ending somewhere back earlier in the animation.
+[00:12:11] So I have to find where those points are
+[00:12:13] for each one of the layers,
+[00:12:16] and we're gonna go in and smooth out that transition
+[00:12:20] from where I ended to where it started.
+[00:12:23] It's another huge advantage
+[00:12:24] of shifting your whole animation like this
+[00:12:25] is you can use onion skinning to see before and after.
+[00:12:30] Onion skinning will be this option up here
+[00:12:32] that we were using before
+[00:12:34] where it'll preview lines before
+[00:12:37] and after what you're working on.
+[00:12:41] I actually don't know.
+[00:12:43] I think I talked about onion skinning the intro videos.
+[00:12:45] I apologize if you were lost
+[00:12:47] of how I was getting that showing up in the last one.
+[00:12:51] Make sure you do watch those intro videos.
+[00:12:53] They have a lot of good overview
+[00:12:54] if you're generally feeling disoriented in anime.
+[00:12:58] And if you need more intro videos to get you more ramped up,
+[00:13:02] leave a comment and I'll do my best to answer questions
+[00:13:06] and fill that in for you.
+[00:13:08] All right, so here we had the vertical line
+[00:13:11] and then this wiggly thing coming up into it.
+[00:13:13] It just so happened to line up perfectly.
+[00:13:16] I kind of nailed it, but the motion is like burnt
+[00:13:20] because it's like, yeah, burnt is a technical term.
+[00:13:25] It comes up here and it's just kind of boring
+[00:13:29] and I'd want it to kind of like swoop up into that.
+[00:13:32] So what I'm gonna have to do is delete that line.
+[00:13:35] That line held for quite a while already.
+[00:13:37] So luckily I gave myself some space to hook up that loop.
+[00:13:41] So, oh, I did realize too,
+[00:13:44] I need to actually eye drop the color,
+[00:13:48] the new color that I chose.
+[00:13:49] So I'm not animating with white.
+[00:13:50] That's a very easy mistake to make.
+[00:13:52] And then you'll get like flashing colors,
+[00:13:54] which you don't want.
+[00:13:55] So I did eye drop that pink color.
+[00:13:57] So now I'm painting with the right one.
+[00:13:58] Eye drop tools over here.
+[00:14:00] It's the eye on the keyboard as well.
+[00:14:05] All right, so I didn't like that stroke.
+[00:14:07] So probably like, you know, if it like bows down
+[00:14:11] a little bit, like it's coming up straight,
+[00:14:12] but then it kind of like flops into place,
+[00:14:14] like snaps in would be good.
+[00:14:18] I only really needed one frame of transition.
+[00:14:21] And what I'm doing here to test that animation
+[00:14:24] is I'm leaving my mouse here, click,
+[00:14:28] and then I hit enter on the keyboard and it'll play.
+[00:14:31] And once it's played through the part I want,
+[00:14:32] I can click again, hit enter.
+[00:14:34] So that's bringing this time marker back to my mouse.
+[00:14:40] And then I, and then hitting enter plays it forward.
+[00:14:42] And then I click and play.
+[00:14:44] And so I can just test that over and over
+[00:14:46] and over again very easily.
+[00:14:47] It's like flipping your pages in old school,
+[00:14:49] old times, old school way of doing it.
+[00:14:53] Okay, so this one has a couple of issues.
+[00:14:55] The first issue is that that smiley appears way too fast.
+[00:14:59] So it goes from one dot to this big old,
+[00:15:02] big old line in one frame,
+[00:15:05] which is probably a little too much.
+[00:15:07] It's just like jumpy at that point.
+[00:15:10] So I'm gonna just add a transition frame
+[00:15:13] where it's like animating in,
+[00:15:19] and I'm not even gonna go halfway
+[00:15:21] because I still want it to be fast.
+[00:15:24] It's gonna be like, yeah,
+[00:15:26] that's just a better hookup there,
+[00:15:29] transitioning like that.
+[00:15:31] All right, then I'm seeing that this line
+[00:15:34] does not match up with that dot.
+[00:15:35] So it's flying up to the right,
+[00:15:37] but it's missing it by quite a way.
+[00:15:39] So I'm just removing that line.
+[00:15:40] The way I did that real quick,
+[00:15:42] I'll just go over that.
+[00:15:43] I used the eraser tool to chop off at the neck,
+[00:15:46] and then the selection tool to just click on that line
+[00:15:49] and then hit delete.
+[00:15:50] The reason I did it that way,
+[00:15:52] rather than just erasing the whole thing,
+[00:15:54] is it guarantees that I don't leave any little bits
+[00:15:56] and artifacts and things.
+[00:15:57] It's a very clean way to delete.
+[00:16:00] So draw it to the right place
+[00:16:01] because I can use onion skinning now to see where it's at,
+[00:16:04] and then just transition it in,
+[00:16:07] and then I'm gonna leave a little mark down here,
+[00:16:10] just a little bit of a dissolve
+[00:16:11] because that's kind of what it's doing throughout.
+[00:16:13] Make it look like it was natural.
+[00:16:17] All right, there we go.
+[00:16:20] The one thing I might've done differently
+[00:16:22] is maybe curved this a bit,
+[00:16:27] like just a little curved line going up to there,
+[00:16:29] because right now what it is,
+[00:16:31] is it's a diagonal like this,
+[00:16:33] and then it vibrates along a very, very similar line,
+[00:16:37] which is kind of awkward.
+[00:16:39] I don't really like that.
+[00:16:41] Maybe if it was like hitting it
+[00:16:42] from a more perpendicular angle like this,
+[00:16:44] and then vibrating on that angle like that,
+[00:16:46] it would have felt nicer,
+[00:16:48] or I could have curved it like this
+[00:16:50] to go directly into it,
+[00:16:53] so it goes in and then vibrates at the same angle
+[00:16:56] that it kind of came in at.
+[00:16:58] Either one of those would have been a little better
+[00:17:00] than what I did, but whatever.
+[00:17:03] Still looks decent, not too terrible.
+[00:17:06] Just little things you notice, ways that you can improve.
+[00:17:10] All right, the next one.
+[00:17:11] So this one comes into a flat blit,
+[00:17:14] and then it pops up right there,
+[00:17:16] and I don't like that at all.
+[00:17:18] So this frame is simple enough.
+[00:17:21] I just grab it and I just move it up,
+[00:17:24] and then the next one is gonna be simple as well.
+[00:17:27] I can just use the lasso tool,
+[00:17:29] select an area with a bit of the stem as well,
+[00:17:34] and then I just use the arrow keys, up arrow.
+[00:17:38] We'll move that up, and I just nudge it up.
+[00:17:41] This one, I just erase that bottom little tip.
+[00:17:44] I think I'm gonna add a little bit of a blip to it as well,
+[00:17:47] so it's not like a sharp point
+[00:17:50] and then a line on the next frame.
+[00:17:52] It kind of comes in and it's already squishing out.
+[00:17:55] It'll make a little more sense that way.
+[00:17:58] And that one's done too.
+[00:17:59] There we go.
+[00:18:01] So the final one, I didn't offset the loop hookup.
+[00:18:06] You'll remember.
+[00:18:07] So it just stayed where it was.
+[00:18:09] So the loop hookup on this one,
+[00:18:12] I have to copy the first frame.
+[00:18:14] So if you just, you can click on it here,
+[00:18:21] you'll see what I'm talking about here.
+[00:18:24] So, oh, well, I guess what I did, I eyeballed it.
+[00:18:30] You can do this too.
+[00:18:31] So I'm gonna actually copy it over just to check it as well.
+[00:18:35] But if you click on frame one
+[00:18:39] and then you click on the last frame
+[00:18:40] and then click on frame one and click on the last frame,
+[00:18:43] you can watch how they're lining up without onion skinning.
+[00:18:48] You can kind of see,
+[00:18:49] and then you can guess how far it needs to shift
+[00:18:54] based on what you saw.
+[00:18:57] So here I'm noticing that the ball
+[00:18:58] is just a little bit to the left.
+[00:19:00] And so I'm gonna use the selection tool
+[00:19:02] to just nudge that shape over to the left ever so slightly.
+[00:19:10] There we go.
+[00:19:12] And then I can go and I can grab the ball
+[00:19:14] on frame one as well.
+[00:19:16] And I can paste it at the end by hitting F7
+[00:19:19] and Control-Shift-V.
+[00:19:22] So I copied it with Control-C,
+[00:19:24] pasted it by creating a blank frame and doing that.
+[00:19:30] And then there you go.
+[00:19:31] So that's lining up perfectly.
+[00:19:34] I just hit Shift-F5, remember to remove that frame again
+[00:19:37] once I was done checking it.
+[00:19:39] And everything is matching up perfectly.
+[00:19:42] Now it's worth mentioning if I hadn't hit Shift-F5
+[00:19:45] and I'd left that frame dangling on the end there,
+[00:19:48] all of the layers would have gone blank for a frame
+[00:19:50] and it would have had a flash to black.
+[00:19:52] So make sure you clean up that whole edge.
+[00:19:56] This whole edge right here on frame 51
+[00:19:59] should be completely empty.
+[00:20:00] Even if there's nothing there, it'll still flash back.
+[00:20:04] So that's how you offset your looping,
+[00:20:09] change color on multiple frames,
+[00:20:11] and then do a little bit of cleanup
+[00:20:13] and as the loop hooks up.
+[00:20:15] All right, we're gonna try this exercise again.
+[00:20:19] I have one more video here.
+[00:20:21] Honestly, it's a lot of the same
+[00:20:22] if you're just excited to move on to like real animation,
+[00:20:25] that's great.
+[00:20:26] If later in the future you wanna do another warmup,
+[00:20:29] check out that next video then
+[00:20:30] whenever you wanna try that.
+[00:20:32] But I'm gonna go ahead and include that in the lesson
+[00:20:34] just cause it's fun to just show
+[00:20:37] all the different kinds of things that you can do
+[00:20:39] with this exercise,
+[00:20:40] just the different perspectives and things.
+[00:20:43] All right, catch you in the next one.

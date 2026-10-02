@@ -1,0 +1,140 @@
+[00:00:05] Hey and welcome to the foundational series today, we are going to be talking about
+[00:00:13] Intention intention of the effect intention of the animation that you'll be doing in the scene
+[00:00:19] So what are a couple of different things? We have to ask ourselves when we are
+[00:00:27] first approaching an animation and effect for a scene
+[00:00:32] Well, I like to go a lot with the who what why kind of approach if we are talking specifically about effects
+[00:00:40] What is the effect being done?
+[00:00:43] So when I say to ask that question to yourself with intention, it's because I want all artists to give thought to it
+[00:00:52] You might see on screen that what you have to do is a lightning bolt or a campfire or something like that
+[00:00:58] But what does the effect add to this story or what are you trying to accomplish?
+[00:01:06] with the effect in the scene
+[00:01:08] Next question. Where is the effect?
+[00:01:10] this is also a good thing to think about with a little bit of depth because
+[00:01:17] We want to make sure that we are
+[00:01:20] compositing the shot when I say
+[00:01:23] Compositing I mean like the composition of the shot we want the shot to
+[00:01:29] Look as visually pleasing as possible
+[00:01:31] So this means placing the effect in the appropriate place and making sure that it's scale
+[00:01:37] Matches what the scene requires and I even have scaled down here a little a little further down
+[00:01:45] So I'll just say that I'm addressing that right now the scale of the effect in in the scene or the shot that you're doing
+[00:01:52] Whatever it is, you're animating that needs to be thought about and taken into consideration
+[00:01:57] interactions
+[00:01:59] Does the effect interact with?
+[00:02:02] Any person place or object if so, we need to take it into account and plan appropriately
+[00:02:10] Dependencies this one's more for
+[00:02:12] A story if you're working in an actual scene
+[00:02:17] Or if you're trying to tell a story you want to make sure that the effect that you're doing makes sense in terms of the
+[00:02:24] Chronology of everything that's going on. So and this applies to the other questions as well
+[00:02:30] We don't want the scale of the effect changing from shot to shot. We want to make sure it's consistent
+[00:02:36] stuff like that
+[00:02:37] and then the last thing I like to try to get students to ask themselves is
+[00:02:44] Just putting their mindset in a place of
+[00:02:47] being excited to do the effect and
+[00:02:51] If there is anything that can be added to it
+[00:02:54] Within reason, of course
+[00:02:56] We don't want the effect to be so visually outstanding that it might steal attention away from
+[00:03:04] characters
+[00:03:05] animating
+[00:03:07] But there are situations where the effect is sort of the mainstay of the shot in which case then you can go
+[00:03:13] buckwild
+[00:03:14] And trying to think about things to add to the effect
+[00:03:18] Little gusts of wind or debris or or whatever it may be is it is a great place to be in
+[00:03:25] Creatively because it gets those juices flowing
+[00:03:28] So let's look at a visual example to be able to sort of see what I'm talking about better
+[00:03:34] So I just have a very simple little scene done up here
+[00:03:39] Two guys sitting around what we can see
+[00:03:43] Is a pile of logs. So chances are the what we're going to be doing here would be a campfire
+[00:03:51] if you were working in a
+[00:03:53] professional setting you'd want to refer to like the storyboard or what have you to make sure that that is what's being asked because
+[00:04:02] it is possible in the context of the story that
+[00:04:06] the effect in the scene might actually be something like
+[00:04:09] fire all around the characters
+[00:04:12] At anywhere but here you never know so you just want to make sure that you're clear on what you're doing
+[00:04:19] But what we are doing right now is a campfire
+[00:04:23] simple go-to effect happens in
+[00:04:28] You know any shot with people camping or outdoors, so we'll stick with that. So here we're touching upon
+[00:04:38] The the purpose of the effect and the scale
+[00:04:42] Now given the location of the two characters, they're
+[00:04:46] Relatively close to the campfire. So chances are if this is what you are going for in the story
+[00:04:53] You don't want to you want to make sure that the campfire isn't too big
+[00:04:57] If it's too big
+[00:04:58] It's going to take the viewer out of the viewing experience and they're going to be questioning
+[00:05:03] Why why was that campfire so big like that seemed?
+[00:05:06] irrationally big
+[00:05:08] and
+[00:05:09] That is something we want to avoid at all costs so we'll scale it down a little bit
+[00:05:14] Something like this is probably a lot more appropriate
+[00:05:17] It would just be a normal, you know small little campfire
+[00:05:23] Now we're going to get into a little bit more of intention
+[00:05:28] because once again, we're going to be going back to the
+[00:05:32] purpose of
+[00:05:33] The campfire in the story
+[00:05:35] And
+[00:05:37] Let's use a loose example here of say that the characters are actually stranded in the woods and
+[00:05:44] they used their last match to
+[00:05:48] Create a campfire
+[00:05:50] The situation is kind of bleak and we want it to be bleak
+[00:05:54] so fire is usually like a campfire is usually something we can look at as a
+[00:06:00] Kind of a sign of warmth and comfort but in this specific case
+[00:06:04] We don't want to do that because warmth or comfort
+[00:06:08] contradicts
+[00:06:09] What we're going for in the story, so we might want to think about something more like this where the scale is quite small
+[00:06:17] the small fire
+[00:06:19] just inherently inside ourselves, we're going to feel like it's less comforting and
+[00:06:26] There's going to be less warmth from it provided and these are all things we can think about and talk about before we draw anything
+[00:06:37] Basically, so once we have that established
+[00:06:40] Which we don't have to establish anything right now. We're just sort of spitballing ideas and
+[00:06:47] The way to think about and approach these things so
+[00:06:53] We want to adapt to the situation be able to adapt to the situation
+[00:06:58] And what I mean by this is that if we change the context of the story, then we change the effect
+[00:07:02] You
+[00:07:04] Might be given a design or a campfire
+[00:07:08] But chances are the person who designed the effects if you're working in a professional setting
+[00:07:15] Hasn't looked at this specific scene when they design the effect
+[00:07:18] So it's it's up to you to take the design and replicate it
+[00:07:22] But you still need to adapt to what the fire has to do kind of like what we were talking about with the scale
+[00:07:28] Of the fire back here, however, we're going to change the situation a little bit
+[00:07:33] we're going to get rid of the characters and we're going to put in some kind of
+[00:07:39] You know smoking apparatus here for characters that are trying to
+[00:07:46] Cook or smoke some kind of meat
+[00:07:48] So in this particular view we want to ask ourselves the same question about scale, you know a fire this big
+[00:07:55] Would be completely obliterating the meat or the bread or whatever that is, so we want to tone it down
+[00:08:04] However, if we go back to this size this size doesn't still doesn't really work because the angle of the camera
+[00:08:11] The fire is still going to look like it's basically touching things
+[00:08:15] And especially with something like fire people have a pretty good innate
+[00:08:21] Sense of it and they know that fire that close to food
+[00:08:23] Would not be very good. So we'd probably want to go with a smaller fire
+[00:08:29] We know just by instinct that even a fire this small is going to be putting off enough heat that it would
+[00:08:38] Be cooking this safely
+[00:08:42] Now that's not to say that maybe the purpose of the shot once again
+[00:08:46] Is that the food is burning that the fire was left unintended and the food is burning for a story point in which case?
+[00:08:54] we would want to go with a
+[00:08:56] Larger fire like this, but if that's not the case if we're just looking to
+[00:09:01] Set up a shot where we're cooking
+[00:09:03] we want to go a nice low fire and
+[00:09:06] Then here's the idea of fussing the situation
+[00:09:10] Is the purpose of the shot with the food cooking?
+[00:09:13] Is that it attract it it's going to be attracting a character or?
+[00:09:18] Animals off-screen or something like that in order to sell that narrative
+[00:09:22] We we might want to think about adding some kind of smoke element over
+[00:09:30] Over the food as it's cooking it doesn't have to be anything big and crazy
+[00:09:35] It can be really subtle
+[00:09:39] Or if it was burning it could be big and crazy once again, it's totally situationally dependent
+[00:09:45] But these are all things you need to lay out before you start drawing at all
+[00:09:50] And then if you want to get hyper specific about these things
+[00:09:54] We're thinking about this from a narrative standpoint, but maybe the end of the scene the whole camera
+[00:10:01] Hands, right and it reveals say a bear in the woods that has smelt this food
+[00:10:06] So in order to do that, we can push the narrative even further
+[00:10:09] we have the fire in a state where it's cooking the food at an
+[00:10:15] agreeable an agreeable size
+[00:10:18] But now we want to push the narrative further and the smoke
+[00:10:23] actually drips
+[00:10:25] Off-scene so when the camera goes and cuts we cut the bear
+[00:10:33] In another scene which I haven't done up here, but the the camera move
+[00:10:40] Compliments or the effects sorry
+[00:10:43] Compliments the camera move so when the camera pans
+[00:10:46] right
+[00:10:48] Narratively our eye picks it up and it all makes sense
+[00:10:52] So these have just been some quick questions to to ask yourself
+[00:10:57] When you are first approaching an effect and how to go about it
+[00:11:02] So yeah, I hope this was helpful and I hope you come back for more. Thanks for watching

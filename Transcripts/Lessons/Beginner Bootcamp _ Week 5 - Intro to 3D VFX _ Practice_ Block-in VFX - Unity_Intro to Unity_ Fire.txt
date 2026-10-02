@@ -1,0 +1,759 @@
+[00:00:05] Hey everyone, welcome to this first tutorial
+[00:00:08] in this intro to Unity VFX series.
+[00:00:12] In this tutorial we are going to be making
+[00:00:15] this cute little fire here.
+[00:00:17] And before we just dive right in,
+[00:00:19] there are two things that I wanted to cover really quickly
+[00:00:22] that I hope you take away from this video.
+[00:00:24] The first one, probably unsurprisingly,
+[00:00:28] is hopefully after this you are a lot more comfortable
+[00:00:31] and confident just making a basic effect in Unity.
+[00:00:35] This tutorial is designed to be really approachable
+[00:00:39] even if you have never made an effect before.
+[00:00:42] So that is the biggest goal here.
+[00:00:45] But the second one, and this one kind of applies
+[00:00:48] to every video here, is that I really, really hope
+[00:00:53] you are able to approach effects
+[00:00:56] with a sense of playfulness,
+[00:00:58] with kind of a tinkerer's mindset.
+[00:01:01] Effects is very much a discipline
+[00:01:04] where there are six ways to do everything
+[00:01:07] and all of them are probably right.
+[00:01:10] And so it's one that really, really rewards
+[00:01:13] just being comfortable with experimenting
+[00:01:18] and things being messy and imperfect
+[00:01:21] and just this kind of playful what happens if approach.
+[00:01:26] And that is going to let you not only learn a ton
+[00:01:30] really, really quickly, but also just find the ways
+[00:01:33] that you specifically really, really love to make effects
+[00:01:37] and what you love about them.
+[00:01:39] So I hope that you leave this video
+[00:01:42] and all of the videos after this
+[00:01:45] with this question and this excitement of like,
+[00:01:49] okay, what's next for this effect?
+[00:01:51] What can I do to push this further, make this effect
+[00:01:54] push this further, make this even better,
+[00:01:56] really make this my own, because that's where
+[00:02:00] a lot of the magic is gonna happen.
+[00:02:03] So with all that said, and to get you the first step
+[00:02:07] on that, let's make a fire.
+[00:02:10] So to create a new effect, we're just gonna right click
+[00:02:14] anywhere in the hierarchy.
+[00:02:16] We are going to go down to effects
+[00:02:18] and then hit particle system, rename this real quick.
+[00:02:25] And you can see right away we've got some little
+[00:02:29] puff balls hiding way back in the background there.
+[00:02:32] We're just going to go over to our inspector tab
+[00:02:36] and the transform and zero out everything
+[00:02:39] in the position and the rotation, not in the scale.
+[00:02:42] We need that to be at one.
+[00:02:44] And then if we jump back into the scene view and hit F,
+[00:02:50] then it's going to give us a very liberal centering
+[00:02:58] on the effect itself.
+[00:03:03] And just really quickly before anything else,
+[00:03:06] I'm just gonna go over to the effects start speed.
+[00:03:10] And I'm gonna change that from five to zero
+[00:03:12] just so we don't have a bunch of fuzz balls
+[00:03:13] flying in our face.
+[00:03:15] So now that we have this, the first thing that I wanna do
+[00:03:22] is actually just go ahead and add a new material to this.
+[00:03:28] We're going for one with these little squares
+[00:03:30] where it's really easy to see a lot.
+[00:03:33] We wanna create something similar here.
+[00:03:38] So if you haven't done this before,
+[00:03:41] then if I jump down into the materials folder
+[00:03:45] in my project, then I can just again,
+[00:03:49] right click anywhere in the empty space,
+[00:03:51] go to create and then down to material here, click that.
+[00:03:57] So name real quick.
+[00:03:59] And then with that selected so that it's showing up
+[00:04:02] in the inspector, we're going to click this shader dropdown
+[00:04:06] and we're gonna do universal render pipeline.
+[00:04:09] We're gonna go to particles
+[00:04:10] and then we're just gonna go ahead and select unlit.
+[00:04:14] And in here, the only thing that we need to change
+[00:04:17] is our surface type from opaque to transparent.
+[00:04:23] We don't actually need to add a texture
+[00:04:26] to give this any extra shape because by default,
+[00:04:29] this is just gonna be a square
+[00:04:31] like our little particle sprites are.
+[00:04:34] So now if we select our effect again
+[00:04:38] and we scroll down to the bottom to the renderer
+[00:04:41] and open this, don't worry about most of this yet.
+[00:04:44] We're not gonna be using most of it for a while.
+[00:04:48] We can just take our new material
+[00:04:51] and drag and drop that in the material slot.
+[00:04:55] Or alternatively, if you just click this little kind
+[00:04:59] of bullseye to the side, then it will bring up
+[00:05:02] this material selection and you can type in anything
+[00:05:06] you want there, it'll give you all the options.
+[00:05:09] You can double click and it will assign something.
+[00:05:12] So now that we've got something
+[00:05:15] that is a really good indication of things
+[00:05:19] like the general size, shape, color
+[00:05:22] that we're going to be adding to our effect
+[00:05:25] via the material, we can go ahead and set
+[00:05:29] a bunch of those attributes a lot more accurately
+[00:05:32] from the start.
+[00:05:34] So we're going to start here by jumping down
+[00:05:37] to our start lifetime and where this is a constant
+[00:05:42] of five seconds per particle right now,
+[00:05:45] we're going to click this little arrow over here.
+[00:05:50] We're going to go to random between two constants instead
+[00:05:53] and we're just going to set this to one and 1.5.
+[00:05:57] So now every particle that's created will pick
+[00:06:02] a random number between one and 1.5,
+[00:06:05] that's how many seconds that particle is going to live for.
+[00:06:09] We're going to jump down to our start size.
+[00:06:12] And again, going to go to random between two constants
+[00:06:17] and set those to 0.3 and 0.5.
+[00:06:22] And something just to talk about really quickly
+[00:06:25] with these two, I'm going to be using a lot
+[00:06:30] of these random ranges in effects
+[00:06:34] because these are how you get a ton of those little bits
+[00:06:38] of variation and chaos that help make something
+[00:06:42] feel really organic, that help it be a little bit different
+[00:06:46] and fun to watch over and over and over, stuff like that.
+[00:06:50] But I'm using pretty small ranges in a lot of these cases
+[00:06:54] and that's very intentional.
+[00:06:56] What I'm trying to do is bridge the gap between
+[00:07:02] something that is way too uniform
+[00:07:05] and gets really repetitive and feels kind of like stiff,
+[00:07:09] stuff like that, and something that just feels
+[00:07:12] completely chaotic and inconsistent.
+[00:07:14] So these little bits of randomness are a really nice way
+[00:07:18] to bridge that and get something that holds up
+[00:07:22] over a lot of viewings and always feels fun.
+[00:07:26] And then, just to completely ruin everything I just said,
+[00:07:30] we're going to go down to start rotation,
+[00:07:34] random range between two constants,
+[00:07:35] and we're gonna set this to 0 to 360
+[00:07:39] because we want these to be able to start
+[00:07:40] at any amount of rotation whatsoever.
+[00:07:46] And finally, for our last bit up here for now,
+[00:07:49] we're just going to click on our start color
+[00:07:53] and we're going to set that to a nice kind of pale gold.
+[00:08:01] So that is all we need to worry about up here
+[00:08:04] in the initial attributes for now.
+[00:08:07] Basically, this whole second half is totally fine
+[00:08:10] at the default, so don't worry about any of it.
+[00:08:13] And now we're gonna start working our way
+[00:08:17] pretty much just down the list for a bunch of these modules.
+[00:08:23] Now, for the first one, the emission rate,
+[00:08:25] we're just gonna go ahead and increase this
+[00:08:28] to 15 particles per second instead of 10,
+[00:08:32] just to give us a little bit fuller of a flame
+[00:08:35] as we make more edits to this.
+[00:08:38] And then the next thing that we are really gonna be
+[00:08:42] playing with is the shape here.
+[00:08:44] Now, as soon as I expand the shape tab,
+[00:08:49] you're gonna see we get this little blue outline
+[00:08:52] and this is outlining the base of this cone.
+[00:08:57] We change the radius, you can see it gets smaller,
+[00:09:00] stuff like that.
+[00:09:02] And what this shape module is doing in general
+[00:09:06] is just giving these particles an area
+[00:09:10] to pick random points within to spawn.
+[00:09:13] If we uncheck this entirely, then all of our particles
+[00:09:17] are going to spawn at the same point in space
+[00:09:21] right at the origin of this emitter.
+[00:09:24] Re-enable this, and in the shape dropdown,
+[00:09:27] switch from a cone to a sphere,
+[00:09:30] and you see that they get a sphere
+[00:09:31] to spawn randomly within instead.
+[00:09:34] So this is a really, really nice way of adding, again,
+[00:09:40] a little bit more randomness and organicness
+[00:09:43] or of just controlling the area that your particles
+[00:09:47] are spawning within for a bunch
+[00:09:48] of different shapes of effects.
+[00:09:51] For ours, we're actually gonna be going pretty small.
+[00:09:55] Again, we're just gonna do a sphere with a radius of 0.1.
+[00:10:02] Even that just gives us a little bit more randomness,
+[00:10:06] which is really nice.
+[00:10:08] And next, we're going to jump down
+[00:10:10] to our velocity over lifetime and enable that really quickly.
+[00:10:16] Now, in some cases, this can be very similar
+[00:10:22] to start speed, but what we really want out of it here
+[00:10:25] is start speed is going to be applied
+[00:10:29] based on the shape that you have selected.
+[00:10:34] And so when we have a sphere,
+[00:10:37] it's going to send particles flying out
+[00:10:40] in all directions from that sphere.
+[00:10:42] So it doesn't work for what we need here.
+[00:10:46] Velocity over lifetime, on the other hand,
+[00:10:48] has things like this linear setting.
+[00:10:50] So we can apply, say, a velocity of 0.25 just in Y,
+[00:10:57] and it's only going to move the particles up.
+[00:11:00] If in chasing more of our randomness,
+[00:11:04] we want to switch this to random between two constants,
+[00:11:07] we can do something like 0.25 and one
+[00:11:11] so that we start to get some nice variation
+[00:11:14] in the speed that those flames are moving at.
+[00:11:17] Now, that's all we're going to worry about
+[00:11:20] on that one for now.
+[00:11:21] And next, we're going to jump down to color over lifetime,
+[00:11:25] enable that and expand that real quick.
+[00:11:27] And when we click on this,
+[00:11:30] we're going to get this gradient editor.
+[00:11:33] And this comes with a lot of really, really fun flexibility.
+[00:11:36] So up along the top, you have these keys that control alpha.
+[00:11:41] So if I scale this down to zero,
+[00:11:45] then you can see that over the course of their lifetime,
+[00:11:47] these particles go from completely transparent
+[00:11:50] and then slowly fade up to being fully opaque.
+[00:11:55] Down along the bottom here, I have these color key frames.
+[00:11:59] So if I double click on this key
+[00:12:04] or on the color swatch down here,
+[00:12:06] I can make this pure red.
+[00:12:08] And now this is going to start out multiplying
+[00:12:11] this white over our star color.
+[00:12:14] So we'll start with that same gold.
+[00:12:16] And over the course of its lifetime,
+[00:12:18] by the very end of its lifetime,
+[00:12:21] it's going to be multiplying this red over that gold.
+[00:12:23] So you get a very, very deep, rich red.
+[00:12:28] And we can add more key frames into this
+[00:12:31] just by clicking on whichever side of the gradient
+[00:12:35] we want to add keys to.
+[00:12:38] You can delete them by hitting the delete key.
+[00:12:41] And again, if we open up each of those keys,
+[00:12:44] then we can really start to fine tune this color gradient
+[00:12:51] and do some nice, rich gold in there.
+[00:12:55] This is going to naturally give us an orange here,
+[00:12:57] but if we wanted to fine tune it even more,
+[00:13:00] then we could add another key there
+[00:13:04] and get it to be even richer or keep it orange longer,
+[00:13:10] stuff like that.
+[00:13:13] So that's all we need there.
+[00:13:16] Now, at this point, it becomes really, really obvious
+[00:13:20] how much these particles are fighting and flickering
+[00:13:24] and just not really sure how to interact with each other.
+[00:13:28] So we're actually going to really quickly
+[00:13:31] jump back down to our renderer
+[00:13:34] and right below our material input,
+[00:13:36] there's this thing called sort mode.
+[00:13:38] And where that says none,
+[00:13:40] we're going to click on this dropdown
+[00:13:42] and we're going to do youngest in front instead.
+[00:13:46] And you can see immediately,
+[00:13:49] this winds up with a lot less flickering.
+[00:13:52] What this sort mode is doing is telling these particles
+[00:13:56] what order they should draw in,
+[00:13:59] which one should effectively appear closest to the camera.
+[00:14:02] And by selecting youngest in front,
+[00:14:05] we're always going to be putting the new particle
+[00:14:07] in front of all of the older particles.
+[00:14:10] And so this keeps the brightest ones in the front
+[00:14:13] and winds up really, really creating
+[00:14:16] a much smoother, nicer kind of fire illusion.
+[00:14:22] Obviously, you can see it's still not quite perfect.
+[00:14:25] So we're going to just continue down the line here
+[00:14:30] and keep chasing both that nice kind of fire motion
+[00:14:35] and shape and behavior
+[00:14:36] and also kind of cleaning that up along the way too.
+[00:14:40] I'm also going to go ahead and switch back to the hand
+[00:14:42] so that we don't have the widget there.
+[00:14:44] So for our size of a lifetime, enable that.
+[00:14:48] And we once again have a new way of interacting
+[00:14:54] with the particle and giving instructions.
+[00:14:56] You can see when we enabled that,
+[00:14:58] they immediately started scaling up from nothing
+[00:15:01] over the course of their lifetime.
+[00:15:03] And that's because their size here is being controlled
+[00:15:06] by this animation curve.
+[00:15:09] This works exactly the same
+[00:15:11] as the color over lifetime gradient
+[00:15:14] in that whichever point they're in on their lifetime,
+[00:15:18] the point that this curve is at at that point
+[00:15:20] is going to multiply on top of their start size.
+[00:15:24] So that's why these are starting out
+[00:15:27] with a multiplier of zero.
+[00:15:29] So they start with a size of zero
+[00:15:31] and their final multiplier right now is one.
+[00:15:35] So you wind up with them at a size of 0.3 to 0.5.
+[00:15:41] If we go down into some of the defaults
+[00:15:44] that they have set up for us here,
+[00:15:46] we can select this kind of downward slope
+[00:15:49] and that instead starts to give us
+[00:15:51] this really nice little candle shape.
+[00:15:53] Now we can refine this even more
+[00:15:56] to really, really start getting
+[00:15:59] an even nicer flame motion out of that.
+[00:16:01] So a couple more ways that we can interact with this curve,
+[00:16:07] we can select one of these points
+[00:16:09] just by left clicking on it
+[00:16:10] and then we can just drag it around.
+[00:16:12] So we can drag this one out a little bit here.
+[00:16:17] And one of the other things that we can do
+[00:16:20] is we can just right click anywhere along the curve
+[00:16:22] and we can hit add key.
+[00:16:24] This is gonna give us another key to mess around with.
+[00:16:29] And we can drag this one down a whole bunch
+[00:16:33] so that these flames start smaller
+[00:16:36] and then grow a lot bigger
+[00:16:38] and then taper back in over time.
+[00:16:41] So this is gonna start to give us
+[00:16:44] this really nice kind of organic expansion
+[00:16:47] that really feels a lot more like a fire.
+[00:16:50] And finally, last thing we can do here,
+[00:16:53] if you see when I select any of these keys,
+[00:16:56] they have these little handles sticking off of them.
+[00:16:59] And we can just go ahead and grab one of those handles
+[00:17:04] and use that to adjust the slope of this curve.
+[00:17:09] So we can do something weird like this
+[00:17:11] and then we get these really bouncy flames.
+[00:17:17] Or we can just give them a nice kind of slope like that.
+[00:17:26] And this feels a lot calmer
+[00:17:28] and also gives us some of that nice organicness.
+[00:17:31] Starting them out a little bit smaller
+[00:17:33] also kind of helps again
+[00:17:35] with some of that sorting goofiness.
+[00:17:37] If we select this one,
+[00:17:39] we can just give them a nice little bit of an ease out here
+[00:17:45] so that they hang out at this little size
+[00:17:49] for just a little bit longer towards the end there.
+[00:17:55] And then the very last thing
+[00:17:58] that we're gonna mess around with in here for now,
+[00:18:01] we are just going to jump down
+[00:18:03] to our rotation over lifetime, enable that.
+[00:18:07] And for our angular velocity here,
+[00:18:09] this is just how many degrees each of these particles
+[00:18:13] is going to rotate over the course of its lifetime.
+[00:18:16] We're going to do a random between two constants
+[00:18:18] and we are going to switch that to something, whoa,
+[00:18:25] 15, 230.
+[00:18:30] And that starts to give us just a little bit
+[00:18:34] of extra rotation motion.
+[00:18:36] One other thing that we can do here,
+[00:18:39] if we hop back up real quickly,
+[00:18:43] is down below start rotation,
+[00:18:46] there's this option called flip rotation,
+[00:18:49] which by default is set to zero.
+[00:18:51] Now this is what percentage of the particles
+[00:18:54] it's going to invert the rotation on.
+[00:18:57] So right now it's doing it on 0% of them.
+[00:19:00] If we set this to 0.5, then half of our particles
+[00:19:04] are going to start at an inverted start rotation
+[00:19:10] and also rotate in the opposite direction.
+[00:19:14] For our start rotation, this obviously doesn't matter,
+[00:19:17] but for rotation over lifetime,
+[00:19:19] this is actually really, really nice
+[00:19:21] because if we wanted some of these to be rotating
+[00:19:25] both clockwise and counterclockwise,
+[00:19:27] then our options are to either do
+[00:19:31] a rotation of negative 30 to 30,
+[00:19:34] in which case you're going to get things
+[00:19:36] all along this range.
+[00:19:37] So you're going to get a bunch of things
+[00:19:38] that might be rotating like five degrees,
+[00:19:41] negative five degrees, even zero degrees,
+[00:19:44] just as much as you're going to be getting 30 or negative 30.
+[00:19:48] But by doing 15 to 30,
+[00:19:52] and then using the flip rotation instead,
+[00:19:55] what we instead wind up with is 15 to 30
+[00:20:01] and negative 15 to negative 30,
+[00:20:03] so you always have some amount of noticeable rotation.
+[00:20:08] So that's a really, really nice little way to wrangle these.
+[00:20:14] Just to play around with a little bit more polish in this,
+[00:20:19] this is the part where we really get into asking
+[00:20:22] what happens if I do this,
+[00:20:25] what does this checkbox do, stuff like that.
+[00:20:28] We can do things like mess around with the speed modifier
+[00:20:34] up in the velocity over lifetime.
+[00:20:36] So by default, this is just one.
+[00:20:39] So all of our speeds are just constant values.
+[00:20:45] If we do something like set this to a curve,
+[00:20:49] then that becomes another curve that we can modify
+[00:20:52] and that will interact with our velocity over lifetime
+[00:20:55] in the exact same way that size over lifetime
+[00:20:59] is interacting with our size.
+[00:21:02] So we can, again, switch this to, whoop,
+[00:21:08] deselect that one so that we don't have
+[00:21:10] both curves fighting here.
+[00:21:15] We can give this a little tiny bit of a slow down
+[00:21:19] up at the top, which is gonna be really, really nice
+[00:21:23] for keeping these flames a little bit closer together
+[00:21:27] as they die off so we get a little bit fuller
+[00:21:30] of a taper on that.
+[00:21:32] And then we can, again, go ahead and add a key,
+[00:21:38] drag it down a bit and just let that have
+[00:21:41] that little bit of ease in as well.
+[00:21:43] So now these are gonna kind of start out
+[00:21:47] a little bit slower moving, build up some size
+[00:21:50] and some energy, start moving up a little bit faster,
+[00:21:54] and then slow down again over the course of their lifetime.
+[00:21:57] So you wind up with this really nice, much more
+[00:22:00] sort of interesting varied movement.
+[00:22:03] And that's kind of our core flame.
+[00:22:06] There's plenty more that you can play around with here.
+[00:22:08] Obviously, even things like the speed modifier
+[00:22:11] are already just starting to ask like,
+[00:22:14] what if this or that?
+[00:22:15] We could go down into things like the noise
+[00:22:21] and you wanna talk about experiments, obviously,
+[00:22:25] this does not look great to start with.
+[00:22:29] But this is one where if you just start clicking around
+[00:22:32] and experimenting, let's say we take the frequency
+[00:22:35] to something like two so that it's a much,
+[00:22:38] much smaller motion, we can take the strength down to 0.2
+[00:22:44] and now we start to get something that actually
+[00:22:47] is kind of giving a little bit of charming organicness.
+[00:22:51] It's still kind of like wanders downward sometimes
+[00:22:55] with the noise pattern here,
+[00:22:57] if you leave it running for too long.
+[00:22:58] So we could even fine tune this more
+[00:23:01] and do something like hit separate axes.
+[00:23:04] So this is a great demo.
+[00:23:10] So that we can do things like specifically not apply noise
+[00:23:14] on Y so that it can't drag it down so much.
+[00:23:18] And then we can just apply a little bit of noise
+[00:23:21] on X and Z so that it gets some motion
+[00:23:25] on the horizontal axes instead.
+[00:23:29] But you can play around with stuff like that.
+[00:23:31] You can see how quickly that goes from being something
+[00:23:35] that is really, really bad.
+[00:23:40] To something that actually adds some new kind of charm
+[00:23:43] and like to it pretty quickly just by experimenting.
+[00:23:48] So we'll disable that just for simplicity sake
+[00:23:52] and at this point we've got a pretty good fire on our hands.
+[00:23:56] So let's go ahead and give it some embers.
+[00:24:01] We are going to start this off just by copy
+[00:24:04] and pasting our base emitter.
+[00:24:06] So control C, control V and then we will rename this one
+[00:24:14] and parent it under the base fire demo.
+[00:24:20] And for this, we're just going to take
+[00:24:24] what we've already got here
+[00:24:25] and start making little tweaks and modifications.
+[00:24:28] So for our start lifetime,
+[00:24:30] we can switch it to 0.05 to 0.2.
+[00:24:34] This is a much, much bigger range than last time
+[00:24:37] because we're not forming this kind of cohesive body
+[00:24:42] of an effect anymore.
+[00:24:43] These sparks should be a lot more kind of chaotic
+[00:24:48] and varied and stuff like that and it won't break it up
+[00:24:51] and make it feel super erratic when we do that.
+[00:24:54] So we can get away with a lot more variation here.
+[00:24:57] We are going to pop the size of these way, way down
+[00:25:03] so that we're just getting little tiny sparks.
+[00:25:07] And in our start color,
+[00:25:10] we're going to go to random between two colors
+[00:25:15] and we're going to start some of these off
+[00:25:17] a little bit darker at kind of a golden orange.
+[00:25:22] If we jump down into our emission rate,
+[00:25:25] we can just pop this back down to 10.
+[00:25:27] We don't need as many of these.
+[00:25:30] And then in our shape,
+[00:25:32] we're going to make our sphere a lot bigger.
+[00:25:35] We're going to jump up to 0.35
+[00:25:38] so that these can really start kind of emerging
+[00:25:43] from anywhere around the edge of the fire.
+[00:25:48] The other thing that we can mess with here if we want
+[00:25:51] is we've got this radius thickness
+[00:25:53] that we ignored last time.
+[00:25:55] This lets you create a shell sort of thing to your effect.
+[00:26:04] So if we get it just right here and you can see,
+[00:26:08] you can create this inner shell to the effect
+[00:26:10] in addition to this outer one
+[00:26:11] and now sparks will only appear within this sphere shell.
+[00:26:17] So we won't have any emitting just in the middle of the fire
+[00:26:22] where you probably won't notice them
+[00:26:24] or get a whole lot of mileage out of them.
+[00:26:27] This one's super optional for a case like this specifically,
+[00:26:32] but it does just help you get the most mileage possible
+[00:26:36] and most visibility possible out of more of your sparks.
+[00:26:39] They won't be getting lost
+[00:26:41] inside of the body of the fire or anything.
+[00:26:45] Jumping down from there,
+[00:26:48] we're just going to go to our velocity over lifetime.
+[00:26:53] We can reduce the top speed of these a little bit
+[00:27:01] and just because we don't need them
+[00:27:02] to go quite so high necessarily
+[00:27:04] and because we have the longer lifetime on some of them,
+[00:27:08] some of them are naturally going to drift pretty high up
+[00:27:13] and the other thing we can do here
+[00:27:15] that is really, really fun for things like this
+[00:27:19] is down at the bottom here we've got this radial velocity
+[00:27:25] and this is going to push them out a little bit.
+[00:27:30] So if we randomize this something really small
+[00:27:36] like 0.1 and 0.25, then you can see they start
+[00:27:40] to get a little bit of a push out from the center there
+[00:27:44] and that's really, really nice for the motion
+[00:27:47] that we want out of these sparks in particular
+[00:27:49] where we kind of want them to be drifting off of the fire
+[00:27:53] and really giving us this smaller level of detail,
+[00:27:58] this extra bit of visual interest in motion
+[00:28:01] and stuff like that.
+[00:28:03] In terms of other things that we're going to do
+[00:28:08] to kind of just customize the velocity of these more,
+[00:28:10] we're going to go ahead and enable
+[00:28:12] this limit velocity over lifetime.
+[00:28:15] This is really, really good for simulating
+[00:28:18] air resistance, drag, it kind of does exactly
+[00:28:21] what it sounds like and just puts an upper limit
+[00:28:24] on how fast particles can be moving.
+[00:28:27] So to start out with for speed where it's at one right now,
+[00:28:33] we're just going to go ahead and switch this to a curve
+[00:28:36] and then we're just going to select this nice default
+[00:28:41] kind of S curve where particles will be able to start out
+[00:28:46] moving their full speed and they'll just slowly
+[00:28:49] hit air resistance over the course of their lifetimes.
+[00:28:53] And then the other thing we're going to go ahead
+[00:28:55] and tweak in here is we're just going to set
+[00:28:57] the dampen to 0.5 and you can see how this starts
+[00:29:03] to apply this extra little bit of again,
+[00:29:06] just interesting, slightly different motion
+[00:29:10] to these particles compared to the core of that flame,
+[00:29:13] but also just something that really, really feels
+[00:29:18] like these are running into a little bit more air resistance
+[00:29:21] and they don't have quite the force or the power
+[00:29:23] behind them of that main body of the flame.
+[00:29:26] So we get a nice little bit of subtle difference
+[00:29:30] between the two there as well.
+[00:29:32] If we jump down to our color over lifetime,
+[00:29:36] we're not going to change a whole lot here,
+[00:29:40] but we are going to let these run bright
+[00:29:44] for a little bit longer.
+[00:29:48] You can go ahead and get rid of that orange key
+[00:29:50] just for the sake of simplicity.
+[00:29:52] And I'm going to make these turn fully dark red,
+[00:29:58] just a little bit sooner, just again,
+[00:30:00] so that we're getting kind of some more of that contrast
+[00:30:04] and a little bit more difference in their behavior
+[00:30:07] compared to the main flames.
+[00:30:10] The other thing I'm going to do here is I'm actually
+[00:30:13] just going to pull our alpha keys in a little bit
+[00:30:18] and I'm going to create two new alpha keys
+[00:30:22] that are fully transparent so that these actually fade
+[00:30:25] in and out a little bit.
+[00:30:28] Now, this is not super obvious at the tail end
+[00:30:33] because our size over life still takes them down to zero,
+[00:30:40] but it's going to give us a nice little bit
+[00:30:42] of a fade at the end.
+[00:30:44] And if we decide to let these stay a little bit bigger
+[00:30:48] over the course of their lifetime,
+[00:30:50] then you start to get those nice clean fades
+[00:30:54] at the end as well.
+[00:30:56] I think these look a little bit better
+[00:30:58] when they shrink all the way down.
+[00:31:00] So we won't make that change here, but it's an option.
+[00:31:06] And finally, we are going to bring the noise back
+[00:31:10] for these ones.
+[00:31:11] So we're just going to enable that again really quickly.
+[00:31:16] And we don't actually need the separate axes in this case.
+[00:31:21] We can take those back to just single axis
+[00:31:23] just because these aren't forming the body
+[00:31:27] of this entire thing.
+[00:31:28] So it's kind of okay if they do some goofy vertical stuff
+[00:31:34] up to you, but I'm just going to take the strength down
+[00:31:39] on these a little bit and the frequency up a little bit
+[00:31:41] so that we're getting a little bit more noise and chaos
+[00:31:45] in the motion of those sparks.
+[00:31:48] And I'm also going to add just a little bit
+[00:31:55] of a scroll speed to these.
+[00:31:57] And if we reset these to the default
+[00:32:01] so that you can see the texture a little bit,
+[00:32:03] then you can see that this starts to give a little bit
+[00:32:08] of animation to that texture
+[00:32:12] that's actually controlling the noise of these.
+[00:32:16] And that gives us, again, just one more nice little axis
+[00:32:19] for a little bit of extra motion on these.
+[00:32:23] And that is everything for our sparks.
+[00:32:28] So the last thing I want to add to this is I just want
+[00:32:32] to make the smoke that we have over in the other one.
+[00:32:38] This is going to, again, just be like another axis
+[00:32:43] that you can really kind of customize this
+[00:32:45] and play around on.
+[00:32:48] And it's also just a really great one to give this
+[00:32:52] a nice dark backer element and just one more large shape
+[00:32:57] with some meaningfully different motion.
+[00:32:59] So to do that, I'm going to go ahead and duplicate
+[00:33:06] this entire thing, just Control D,
+[00:33:09] because the flames are going to be
+[00:33:13] a much better starting point for these than the embers.
+[00:33:19] You can totally use either.
+[00:33:20] You can use a new one,
+[00:33:21] but this one is a little bit more efficient.
+[00:33:25] So go ahead and rename this, parent it under our demo,
+[00:33:32] and here we'll just run on through.
+[00:33:36] So the first thing I'm going to do with these ones is
+[00:33:39] I'm just going to start with the colors.
+[00:33:42] I'm going to switch over to random between two colors,
+[00:33:45] and I'm going to set these to just some really light,
+[00:33:50] neutral reds and oranges.
+[00:33:58] And I'm going to set the alpha on both of these to 0.5.
+[00:34:04] The reason why I am setting these to be so light,
+[00:34:10] you can see here,
+[00:34:11] these aren't exactly typical smoke colors,
+[00:34:14] especially for like a classic campfire.
+[00:34:17] The reason why I'm doing that is because I really want these
+[00:34:22] to kind of blend up out of the fire.
+[00:34:24] And to do that, I'm going to like fake some bounce light
+[00:34:29] down in color over life in a minute.
+[00:34:33] So starting with something that's pretty neutral up here
+[00:34:36] and just gives us a little bit of variance,
+[00:34:38] because I'm going to do most of the color
+[00:34:39] down in color over lifetime.
+[00:34:43] Now, real quickly,
+[00:34:45] I'm also just going to move these upwards a fair bit.
+[00:34:52] One point, let's do 0.5.
+[00:34:55] Again, just because I want these to feel like
+[00:34:57] they're coming out of the fire and not like, you know,
+[00:35:02] starting when the fire is already falling off
+[00:35:07] or something like that.
+[00:35:12] And we'll go ahead and just make these hang around
+[00:35:18] for a fair bit longer with a slightly longer lifetime.
+[00:35:23] And I'm going to make them a lot bigger.
+[00:35:28] So 0.6 and 0.8 instead.
+[00:35:34] And the last thing I'm going to do up in this section is
+[00:35:37] I'm just going to get rid of this flip rotation.
+[00:35:40] And this is because I'm going to add a little bit
+[00:35:44] of fake wind to these.
+[00:35:46] And for that, I want them to all actually be blowing
+[00:35:49] in the same direction.
+[00:35:52] And I want the rotation to support that.
+[00:35:54] So I don't actually want the randomized rotation on this
+[00:35:59] because that would give us something that would still
+[00:36:02] look cool and is actually desirable in a lot of just like
+[00:36:07] straight up column smokes.
+[00:36:10] But for this one, I really want to play up a little bit
+[00:36:11] of directionality.
+[00:36:12] It's one more way that we can get some variation into this.
+[00:36:17] So those are all my changes up there.
+[00:36:20] And then as we move down, I'm just going to hop around
+[00:36:24] a little bit in size over lifetime.
+[00:36:27] I'm going to go ahead and just switch this to start
+[00:36:34] a little bit smaller and a bit bigger.
+[00:36:39] And this'll look a lot, lot better in combination
+[00:36:44] with the color over lifetime.
+[00:36:46] But this is a really, really big thing that I see people
+[00:36:53] stumble on with things like smoke and dust in particular
+[00:36:58] when they're first kind of getting into effects.
+[00:37:01] Something that is really, really good to look at
+[00:37:03] with reference, with just anything that you're seeing
+[00:37:09] out in nature, stuff like that is how things dissipate.
+[00:37:13] So a lot of things, especially when you've got things
+[00:37:17] like flames or little sparks or stuff like that,
+[00:37:23] especially with things like sparks, we're used to them
+[00:37:26] dissipating by getting smaller until they just kind of
+[00:37:29] wink out of existence.
+[00:37:31] Flames, obviously like we've got here, can do that
+[00:37:34] by kind of like shrinking into these little shreds
+[00:37:38] over time, but things like certain flame motions,
+[00:37:43] but especially smoke, dust, these things that are just
+[00:37:48] like clumps of particulate that are hanging out together,
+[00:37:52] a lot of those tend to disappear by getting bigger
+[00:37:57] and fading out over time because everything in them,
+[00:38:01] all of the particulate is spreading out and getting
+[00:38:06] further away from each other.
+[00:38:08] And that's what's causing it to actually vanish.
+[00:38:13] So that's why I'm making the smoke bigger
+[00:38:18] over the course of its lifetime.
+[00:38:20] And we're going to compliment that up in color
+[00:38:22] over lifetime, we're just going to pop this open
+[00:38:26] and before I mess with any of the colors,
+[00:38:28] I'm just going to go ahead and pull our transparencies
+[00:38:35] to like the 10% and 50% marks.
+[00:38:41] And then I'm going to add some new keys at the very ends
+[00:38:45] with the gradients and I'm going to fade those
+[00:38:46] all the way out.
+[00:38:48] So that's the other half of this in terms of diffusion
+[00:38:53] is just letting it really fade out as it's getting bigger
+[00:38:58] and bigger at the end of its lifetime so that it's really
+[00:39:02] just dissipating and getting more transparent over time.
+[00:39:07] And then for our colors, we are going to get rid
+[00:39:12] of these two and a light bright ones and pull our orange
+[00:39:15] all the way down to the bottom.
+[00:39:17] So this is where you can really see where these start
+[00:39:21] to come into play is that as soon as we bring
+[00:39:24] our orange down to the bottom here,
+[00:39:26] scoot our red down there to keep it company as well,
+[00:39:32] you start to see how there's kind of that handoff
+[00:39:35] between the flames.
+[00:39:37] And then we'll go ahead and add two more key frames.
+[00:39:40] We'll add nice kind of plastic neutral gray
+[00:39:46] for it to fade down to.
+[00:39:48] You make that a little bit more orange
+[00:39:50] and then we'll add one last key frame
+[00:39:53] that we're going to make even darker
+[00:39:57] and also push it back a little bit more saturated
+[00:40:01] and take it into a little bit of purple at the end there.
+[00:40:05] And that's something that in a situation like this,
+[00:40:11] you're not liable to notice a whole lot of,
+[00:40:13] we would have to, you know,
+[00:40:14] we bring it all the way up to here,
+[00:40:16] but it makes me feel good knowing that it's there
+[00:40:20] and this is obviously an axis that you can play with a lot
+[00:40:24] if you want to push this like any other element of this fire
+[00:40:29] to something that is a little bit richer and more magical
+[00:40:33] or more physical or stuff like that.
+[00:40:36] So these are the kinds of subtle little details
+[00:40:40] that you can really, really play around with
+[00:40:42] and tweak to find something that really makes you happy
+[00:40:48] and gives you like your unique effect.
+[00:40:51] And for our red key here,
+[00:40:55] just because this transition is a little bit harsh
+[00:40:58] and I don't want quite that much bounce late,
+[00:41:00] I'm just gonna desaturate this a little bit more
+[00:41:05] so that you get a little bit leaner of a fade there.
+[00:41:15] For our rotation over lifetime,
+[00:41:17] we don't actually really need to do anything here
+[00:41:20] because now that we've gotten rid of that flip rotation,
+[00:41:23] all of these are going to rotate in the same direction.
+[00:41:26] If we really want to emphasize that,
+[00:41:29] then we can obviously just, you know,
+[00:41:30] increase our rotation a little bit
+[00:41:32] and then we're off to the races there.
+[00:41:35] And then finally up in our velocity over lifetime,
+[00:41:41] I'm going to reset the speed modifier to just be one
+[00:41:47] and in linear velocity,
+[00:41:51] I'm just gonna add other way around,
+[00:41:56] a little tiny bit of motion on the X axis.
+[00:42:02] This is gonna give us that wind
+[00:42:04] and this is where you can really, really start to see
+[00:42:07] the benefits of having that flip rotation turned off here
+[00:42:13] as opposed to on where you start getting
+[00:42:16] these weird little bits of disjointedness.
+[00:42:21] So that's that.
+[00:42:22] And then I'm just going to slow the overall smoke down
+[00:42:29] a little bit by taking its maximum speed down.
+[00:42:35] Maybe not quite that much,
+[00:42:36] that's getting overlapped by the fire a lot.
+[00:42:39] So 0.5 to 0.75 gives us a pretty nice little smoke column.
+[00:42:47] And that is our new fire.
+[00:42:51] Real quickly, let's just go ahead
+[00:42:53] and we're gonna grab the top level of this
+[00:42:56] and just drag drop it down into our project
+[00:42:59] so that it's saved as a prefab.
+[00:43:01] I should have done this ages ago.
+[00:43:04] Don't take that part of the tutorial, save your work.
+[00:43:10] But yeah, I hope this was helpful.
+[00:43:13] I hope this helped you understand just a lot, lot more
+[00:43:17] about shuriken and how you can put things together
+[00:43:21] and stuff like that.
+[00:43:23] And again, I just, I really hope that this is
+[00:43:27] a jumping off point for you that, you know,
+[00:43:30] there are so, so many things
+[00:43:33] that you can keep playing with about this.
+[00:43:35] You could try making, you know, different colors of fire
+[00:43:41] or you can play around with like what it would look like
+[00:43:48] in different kinds of weather.
+[00:43:50] One of the, one of my favorite experiments,
+[00:43:53] one of the exercises that I actually do
+[00:43:55] in order to help myself define the style on a new game
+[00:43:58] is to take a basic fire like this one and say,
+[00:44:04] okay, what would this look like
+[00:44:06] with different personalities?
+[00:44:08] What does the friendliest version of this look like?
+[00:44:10] What changes about the shapes?
+[00:44:12] What changes about the textures and the motion
+[00:44:14] and stuff like that?
+[00:44:15] What does the most threatening ravenous version
+[00:44:18] of this look like?
+[00:44:20] And how does that change how it moves?
+[00:44:22] What it looks like, stuff like that.
+[00:44:24] So there are so, so many different sorts of experiments
+[00:44:28] that you can do from here.
+[00:44:31] I really, really encourage you to just goof around with it,
+[00:44:36] have fun.
+[00:44:37] And other than that, I will see you in the next tutorial.
+[00:44:42] Take care y'all.

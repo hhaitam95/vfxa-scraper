@@ -1,0 +1,104 @@
+[00:00:10] Hi! We've got some student work here by Jeff Gates from the fire explosion concept tutorial.
+[00:00:16] And well done, Jeff, for doing the work in Subminica. This is undeniably a fiery explosion with thick smoke.
+[00:00:23] You've got your palette working here quite well. You've got the soft edge brushwork in the smoke.
+[00:00:29] You've got the hard edge brushwork in the flames. You're getting yourself familiar with how rendering works in Photoshop.
+[00:00:37] You've got the shockwave ring. You've got the sparks. You've got some additive layers, some glow layers.
+[00:00:47] I think you've got all the elements here working. But I also think that we can identify some opportunities to strengthen this.
+[00:00:57] So let's jump right in and start with a paint over.
+[00:01:01] So something that I think that we can hone in on here, particularly in these areas, these highlights that you've created,
+[00:01:13] is your brushwork. Something you want to keep in mind when you're doing brushwork is you want to have a kind of sort of economy in your strokes.
+[00:01:26] Because if you have too many strokes layered on top of each other, where one stroke would do, like this,
+[00:01:40] it can have a more discordant appearance than a single brushstroke with carefully controlled falloff would have.
+[00:01:51] So don't be afraid to lean on your eraser, to lean on your selections, to get you exactly the shapes that you want.
+[00:02:09] So if we want to revisit this puffy part here, let's do that. Let's do the mushroom cloud.
+[00:02:21] Get our palette. And with a medium hardness brush, I'm going to go in and kind of redefine the mass of the mushroom cloud here,
+[00:02:45] based on what you've painted, the shapes you've got in here.
+[00:02:49] When you're doing these interlocking shapes, you want to have them all kind of supporting the motion or the movement of the main object.
+[00:03:01] Or I should say the parent object, right? So this whole mushroom cloud is one element, right?
+[00:03:09] And it has a kind of a textured surface. But we want the entire thing to feel like it's one thing, not several kind of smaller things.
+[00:03:25] Which I think when you have these light areas completely encircling these dark areas like this, it can become a little bit unfocused.
+[00:03:36] So I think I would try and be a little bit more committed to the layering here.
+[00:03:44] I've noticed in your layering, you've got your touch-up layers, but you've got some fiery elements in the smoke top layer.
+[00:04:03] And this is a super easy thing to do. I do it all the time, and I'm trying to avoid doing it just for you guys in these examples that I'm making.
+[00:04:14] But if you're going to go through the trouble of separating and naming all of your layers, you should try to stick to the conventions.
+[00:04:27] I'm noticing just on this layer, before you introduce the touch-ups here, that you've got some really kind of solid gradation here.
+[00:04:35] And some of your touch-ups kind of fight against that, right? Like you're going in here with brushes of variable softness, painting more detail into it.
+[00:04:48] Sometimes it's successful, sometimes it's not. I don't know how many favors you're doing yourself with this touch-ups layer here.
+[00:05:01] So, of course, like I demoed in the painting, you can get away with going real big here with these light strokes.
+[00:05:12] Because you have so many tools at your disposal to adjust them after you've put them down. That is too hard of a stroke, so I'm going to bump up the softness.
+[00:05:21] I'm going to make sure that my fall-off, the opacity is part of the fall-off, or the opacity is tied to the pen pressure.
+[00:05:36] And I'm going to pop these shapes in that situation there. Break this shape up into a couple of shapes.
+[00:06:23] Alright, so that's looking pretty good. Get another brush and subtract. On a softer brush, you can get a lot of advantage from having your spacing a little bit more.
+[00:06:48] If you look at what adding spacing is doing to the softness of the brush, where there's less doubling up, you can get a much more controlled gradient.
+[00:07:01] Which is kind of what we're going for here. Just make sure all these shapes are nice and round, except where we don't want them to be.
+[00:07:16] And we want to emphasize edges that are flowing with the contours of the shape here. So maybe this one, here, this one.
+[00:07:26] You can push this shape behind that one. Push this shape behind that one. You kind of get the idea.
+[00:07:56] Always being very deliberate and very controlled here.
+[00:08:04] And then we want to definitely use this to inform where we're working in our oranges. Let's label that highlights.
+[00:08:15] And then we can start into our reds here.
+[00:08:23] So this mass is lit from underneath, so we can just give it a kiss of orange from the bottom. Just using that same brush. We don't need to go nuts with it.
+[00:08:38] So I didn't like that stroke because I thought it was a little bit too heavy at the beginning. It didn't blend well into the rest.
+[00:08:55] So to expand upon that idea, here, let me deselect. So it can be hard to achieve consistency in your strokes, right?
+[00:09:16] But this, for example, is always going to be less desirable than this, right?
+[00:09:30] And you might not even get this on the first try. You could do this by building up several strokes, right?
+[00:09:38] And you can edit the falloff with your eraser, making sure that it's nice and soft. And it really pays to take the time to do this.
+[00:09:52] Keep practicing until you've exerted the control that you need to get the result that you want. It always pays.
+[00:10:06] Let's label this properly. There we go. Get that selection back and continue with our red.
+[00:10:31] Where can we work some more in? We can work some in here, I think.
+[00:10:35] So since we have... another thing that's happening is, that I'm noticing about this, I should say, is that you want to have a strong emphasis on,
+[00:11:02] yes, the movement, but also where you want your attention, like the core of the explosion.
+[00:11:08] The most energetic part should always be the highest value, right? So that would be this area right here.
+[00:11:17] And you can see how your values are structured very, very clearly if you create a threshold layer,
+[00:11:29] threshold adjustment layer, in a place where you can see it.
+[00:11:35] So yeah, here we've got this little slider here allows us to adjust the threshold.
+[00:11:45] So clearly you've got your head in the right place, right? So this is the most energetic part of the painting.
+[00:12:00] But I think that we can push some of the tertiary reeds further back. As soon as you start getting into here, you kind of lose the focus as you get into the mid ranges.
+[00:12:12] And if we look at the example, my painting, I try to keep the values a little bit more focused.
+[00:12:33] I do this with a number of different tricks, like I cheat in some places, but you want to pay attention to where the actual heat within the physical explosion is happening.
+[00:12:43] So not only do you want it more focused as you, I'm gesturing with my hands here and you can't see it, do you want everything to be kind of pointing towards the center of this?
+[00:12:54] You'll notice in the design that I have a lot of lines that are moving or pointing along the edge of this kind of pumpkin shaped like mushroom cloud here.
+[00:13:12] The reason for that is because I want to suggest the idea that these clouds are moving in this direction.
+[00:13:17] So as the mushroom cloud rises, all of the heat from this explosion here is going to be pushing up through it.
+[00:13:26] So what does that mean? That means that vapor clouds are going to be forming up top faster than these other vapor clouds or vapor masses on the side are going to be moving upwards.
+[00:13:46] So you're going to have this sort of exterior roll as it rises.
+[00:13:55] To get what I'm talking about, you can look further down in the lessons when we build the particle system, or you can Google, just do an image search for gasoline explosion.
+[00:14:12] Those will have big puffy fireballs that will give you some really good direct observational reference for how you might want to structure the shapes here.
+[00:14:23] I would also reference the work of other artists, not just me, obviously, but people who are really good at drawing explosions.
+[00:14:32] I like the Gainax and Studio Trigger anime stuff. Those guys are really good at that. Yo Yoshinori, Hideaki Anno.
+[00:14:42] They're masters of creating these really dynamic and interesting smoke volumes and breaking them up into their more and less energetic highlight, lowlight shapes.
+[00:14:54] These really fun and cool ways that suggest puffy forms. Google a YouTube video of that stuff and it'll just blow your mind how amazing these guys are at doing that.
+[00:15:18] We're turning to the paint over here. I'm just trying to keep the shapes soft. I think that we're getting some in the red here. This could be even more subtle.
+[00:15:35] You can always bring it forward again after you've pushed it back. It's the magic of digital tools. You don't have to really commit to anything.
+[00:15:55] I'm focusing on this region up here more than I am a region to the side or a region to this side or whatever, mostly because this is where the heat is.
+[00:16:10] Or I should say most of the heat. The red's also going to pop way, way, way more if you try and keep it adjacent to the dark areas.
+[00:16:26] Here where it's fading into this gray, we could probably move it away. Contrast is your friend and it's always going to make these details pop more.
+[00:16:36] In fact, I actually, in my explosion, one of my adjustment layers that I create, this overlay darken layer, exists specifically to create more contrast here and make the reds pop more.
+[00:16:54] You see? Then I do a glow overlay so that I can just create the impression of more heat.
+[00:17:10] And now that we're a little bit more here. I don't have any red in this layer, do I? Doesn't look like I do. Cool.
+[00:17:35] Get this out of here. I'm trying, trying, trying to avoid using the smudge tool. Apart from the fact that you can just completely smudge your stuff into fuzzy oblivion if you're not careful using the smudge tool, it can also create weird artifacting that you might not notice right away.
+[00:17:58] But it's definitely not great. It's not a tool you want to be leaning on in most situations. Unless you're really familiar with it and its limitations and you have strong drawing skills and strong composition skills and know what you want, I would probably resist the urge to use it.
+[00:18:27] Cool. Alright. So, let's go in with the orange. Bang. And this is where stuff's really going to start to sizzle. Oh, we're working on the red layer. Cardinal Sin. Do we have enough history to undo this? No we don't. Ah, it's a shame. We still don't have to live with it. There we go.
+[00:19:49] This is the new red layer. And if it helps you out, just make a gazillion layers, you know? Make a layer for every color. And try and reference those. I mean, I lean on touch-up layers, I guess for the sake of speed, in a lot of cases where I probably shouldn't. And in which the demonstration doesn't really benefit from them.
+[00:20:38] Cool. So like, yeah, you've got this kind of bone shape here. Again, no fall-off. Is this where I want these? Maybe it is. And I'm putting off using an adjustment layer here to kick this up more. I'm going to use my yellow sparingly here.
+[00:21:40] If you're subtle with it, you can make these a little bit more... you can break up the shapes a little bit more here. Because it's a fire burning inside there. This glow is... here, let's get that out of there. We don't want our yellow to touch our gray. We want to try and take it through as much of the orange-red gradient as we possibly can.
+[00:22:40] Alright, that's looking pretty spicy. But you can see, you know, like the... we've got our threshold layer. We're keeping stuff kind of in this zone right here. And I want that area to be hotter. I don't want to resist the urge to just try and brute force it and make it hotter with just touch-ups orange here.
+[00:23:38] And if we don't want to go back and forth between our layers, let's finally add an adjustment layer. Yellow. That's how I spell the word yellow. Just make this... make it nice and big, right? Because we want focus. And just draw over our beautiful work. Just kidding.
+[00:24:22] So, there are all kinds of different blending modes that we can use, aside from the ones that I've shown you. Overlay can be a useful one. In fact, I think it's what I might use here. We'll use our eraser just to get some of our light colors back. It's looking very hot. And then we can do an add layer. And we can do one up here too, because it's warm. But we definitely want to avoid going overboard with it.
+[00:25:27] And what I said about using these elements to kind of support the directional... directionality, if that's a word, of the effect. I don't know, do we want to do something like this? Eh, probably not. And that's kind of the way that I structured the overlap in my original version of the effect.
+[00:26:03] We can make it work in lots of different ways, so we don't have to be particularly slavish to like the examples. But we can definitely use that overlay layer to push it out, this stuff out a little bit more.
+[00:26:40] We can get away with pushing this yellow out more, specifically because we have this overlay and this add layer on top of it. I would not be trying to do that otherwise. Blow away the selection. We want this bottom part to just blend into the flames underneath of it. Something like that.
+[00:27:16] Cool. So those are my notes about rendering the top portion. Another quick note is, again, I think that you're suffering from kind of a... you could have more control over these strokes right here, right? Like I made them in my example with the kind of squashed brush.
+[00:27:41] Which we can achieve by just squashing down a normal brush. Shape dynamics, angle jitter, 10 tilt. Cool. So that allows us to very quickly create lines with alternating hard and soft edges, which can help us with this.
+[00:28:14] Another thing that I think could help is you have, I think, a lack of focus just in your line work here. When you have these radiating shapes like this, you always want to be mindful of where the lines are converging.
+[00:28:33] So if we look, if we trace these lines, they kind of meet, and they meet in generally the same place. But what can be very useful to do is, and this is particularly useful when you're drawing in perspective, is to have some kind of template, right?
+[00:29:09] A cool way to make another cool Photoshop technique is, if you tap once, hold shift, and tap again, it'll just draw a line directly between those two points. And with this method, you can very easily create a reference guide for yourself.
+[00:29:37] This is the semi-pro way to do it, right? Dim that, all your lines converge at the same point, yada yada yada. The super-pro way to do it, and this is the same way that I like to do perspective when I'm painting in Photoshop, is to use just a brush.
+[00:30:05] There are a lot, if you just go do a Google search for perspective template Photoshop brushes, or just perspective Photoshop brushes, what you'll find is a bunch of brushes that are just stamps of converging lines. It's a pre-made perspective point.
+[00:30:25] So you just take this brush, and it's gigantic, right? It's like the size of your whole composition. And you just stamp it in three places, and then you have your three-point perspective made for you. Just one of those here would give you all the radiating lines that you need.
+[00:30:41] I should probably move this down a little bit, to give you really straight lines, right? So I'm going to dim the paint along here, and then just picking up, let's put this back there.
+[00:31:12] So we want it to blend. Let's put this underneath the dark, and just title this fire. We'll just do this in one layer. Let's give this a red outer glow. 38 is probably a good number. Yeah, that's cool.
+[00:31:55] It's a little too red. Let's just make it our orange here. There, that's more like it. So yeah, just following those lines can I think give us, oops, and maybe we don't need this one, and maybe we don't need this one, and maybe getting a little bit too far out there.
+[00:33:30] Let's go for a harder eraser, maybe slightly smaller. And don't be afraid of sparks. Sparks your friends. And probably just select all of this, grab some orange, and get a big brush and just kind of lightly kiss in some orange, particularly in the extremities of the flames, just to add some variation in here.
+[00:34:46] And then for the most energetic parts of all, we can do another outer glow, color dodge. Let's get, yeah, let's get this orange. Actually, let's move it a little bit more towards here. Yeah, this probably isn't 100%. Oh, it is. Whatever. This isn't 100%.
+[00:35:31] That's better. And let's go white. And I mean, the white delivers so much pop because we've been delivered about controlling our values here that we want to use it really sparingly, right, for the very, very hottest parts.
+[00:36:28] Check again with our threshold. That's looking pretty good. Whoops. Cool. And then you could repeat the process to touch up the stuff on the bottom. But yeah, those are my notes, my pando for this, and I hope you found it useful. Thanks.

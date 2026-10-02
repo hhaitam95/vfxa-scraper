@@ -1,0 +1,277 @@
+[00:00:00] Hi, in this video we'll talk about perspective rules. What types of perspective are there and how we can work with them.
+[00:00:08] First of all, we'll talk about perspective in general.
+[00:00:11] What is the horizon line and vanishing points and how to use perspective grid and apply it to your drawings.
+[00:00:18] I'm very excited about this lesson in particular because this knowledge helped me a lot in my drawing journey.
+[00:00:24] So I hope it will help you too. Okay, let's draw something.
+[00:00:28] So, let's start with basic definitions.
+[00:00:38] Here we see a perspective grid and we have a few things here. The first one is the horizon line.
+[00:00:45] By definition, the horizon line is a line that is placed where the earth meets the sky.
+[00:00:50] But as we are not actually always seeing the horizon line with the sky in our frame,
+[00:00:59] I prefer another variant for horizon line description.
+[00:01:03] So it is a line that describes from where the viewer is looking at the scene in relation to our frame or where the camera is in relation to the frame.
+[00:01:15] Also, the horizon line itself is the place where we put our vanishing points.
+[00:01:21] This is the one point perspective.
+[00:01:24] So we have one vanishing point, but if we would have a two-point perspective, we would have two points on this line.
+[00:01:34] These lines are showing us where the edges that are going into the perspective are aligned to.
+[00:01:41] So, for example, with this box or cube, I have edges that are going into the perspective.
+[00:01:49] So, these edges are aligned to the lines that are going from this vanishing point.
+[00:01:57] So, while using the perspective grid, we are drawing the edges that are going into the perspective in alignment to the lines that are going from vanishing points.
+[00:02:10] Let's take a look at different perspectives that we have.
+[00:02:15] There are different types of perspective we can use in our drawings.
+[00:02:20] And what type of perspective we will use depends on what angle I will be looking at an object at.
+[00:02:28] So, let's start with one point perspective.
+[00:02:33] We see this type of perspective when we are looking at the object straightforwardly or straight down or straight up.
+[00:02:41] For example, if I will take this cube, if like from the camera view,
+[00:02:49] my edge is parallel to the camera, so this edge is like we are looking at this straightforwardly,
+[00:02:57] we would use one point perspective to it.
+[00:02:59] So, all the edges that are going into the perspective would be aligned to one point.
+[00:03:06] So, if I move this like parallel to the ground, you'll see that these edges are pointing to one point.
+[00:03:17] So, while creating the grid for one point perspective, we will place the horizon line in the middle of the frame.
+[00:03:27] So, here it is, the vanishing point is in the center of our frame, vertical and horizontal lines are straight.
+[00:03:35] So, they are like straightforwardly to the camera.
+[00:03:39] So, we are drawing them straight and edges that are going into the perspective are aligned to the vanishing point.
+[00:04:02] Let's create a grid.
+[00:04:08] We start with the horizon line.
+[00:04:11] We are putting it in the middle of the frame, approximately.
+[00:04:19] Okay, oops.
+[00:04:24] Okay, okay, then we will put our vanishing point at the center of the frame.
+[00:04:35] Now we need to create the grid, starting with some vertical lines.
+[00:04:44] I am drawing these lines very slightly, so I could draw on top of them some fingers that I need to.
+[00:04:53] Okay, then I will divide this square into two pieces.
+[00:04:59] So, I will draw a diagonal line here, also here, here, here, and we will divide these triangles in two parts again.
+[00:05:24] The last one, okay.
+[00:05:42] Now I am going to draw a cube here, so I will start with horizontal and vertical edges.
+[00:05:51] In one point perspective they are straight.
+[00:05:56] Here, here, okay.
+[00:06:07] So, this is my first edge of the cube.
+[00:06:12] Now I am going to draw edges that are going into the perspective.
+[00:06:16] So, this edge that is here will be aligned to these lines.
+[00:06:27] So, it is pointing to the vanishing point.
+[00:06:31] Now, for this edge it will be like this.
+[00:06:39] Now, from this point I will draw a vertical line to the top.
+[00:06:48] Okay, now horizontal line from this point, okay.
+[00:07:02] Now, from this point it will go again into the vanishing point, okay.
+[00:07:12] I also prefer to draw the inner edges of the cube.
+[00:07:19] So, I will draw this bottom edge here, here, and vertical here.
+[00:07:34] It helps to check, like, is this point in the right place for this cube.
+[00:07:43] Also, the inner edges are always, I prefer to draw them, like, very slightly,
+[00:07:50] so all the edges that are visible for the viewer are more prominent in the drawing.
+[00:07:59] So, it will be like this.
+[00:08:03] We can draw another cube, for example, that will be in the center of the frame.
+[00:08:13] So, drawing some, the edge of cube that is pointing to the camera.
+[00:08:27] Now, this edge will go there, this will go there.
+[00:08:37] Now, vertical line, and all the rest edges will be inside the cube.
+[00:08:46] This one there, from here horizontal line, from here horizontal line, and one vertical line.
+[00:09:04] Okay, so these are the cubes in one point perspective.
+[00:09:14] Let's move to the two points perspective.
+[00:09:19] This perspective we see if we are looking at object from the side,
+[00:09:24] but not straightforwardly, like, in one point perspective, but when it's, like, rotated a bit.
+[00:09:30] So, for example, with this cube, if I would rotate it to the camera a bit,
+[00:09:37] and it would be, like, rotated from it, here will be, like, the two points perspective.
+[00:09:45] In this perspective, we have the horizon line in the top part of the frame,
+[00:09:52] so it's not horizontal in the center of the frame, but more to the top.
+[00:09:56] It can be even further away from the border of our frame.
+[00:10:03] Vanishing points are on the horizon line beyond the frame, so it's not inside the frame.
+[00:10:12] Vertical lines are straight vertical, edges that are going to the left in perspective
+[00:10:21] are aligned to the perspective grid with left vanishing point,
+[00:10:27] and edges that are going to the right into the perspective are aligned with vanishing point to the right.
+[00:10:36] Let's create the grid.
+[00:10:38] Again, I'm starting with the horizon line.
+[00:11:00] It will be somewhere up here.
+[00:11:09] Okay.
+[00:11:11] Now, as I can't put my vanishing points, like, outside my paper,
+[00:11:21] so I will need to draw my grid,
+[00:11:28] imagining these lines, like, on this horizon line beyond my frame.
+[00:11:35] So, in this case, I will start with the lines that are extreme for my frame.
+[00:11:43] So, the most bottom line of this grid will be somewhere, like, maybe here.
+[00:11:53] Okay. Then, like I've imagined, it's somewhere here.
+[00:12:01] I will draw an extreme line for my upper part.
+[00:12:06] It will be somewhere here.
+[00:12:08] Now, I will draw a middle line, again, between this and this,
+[00:12:14] between my horizon line and my extreme line.
+[00:12:17] So, it will be somewhere, like, oop, somewhere like this.
+[00:12:26] Nope. Like this.
+[00:12:32] Aimed badly, but it's no problem.
+[00:12:36] Okay. Now, I will divide this part in two, again.
+[00:12:43] So, it will go like this, and here, like this.
+[00:12:59] Now, I will do the same for this part.
+[00:13:02] So, I'm imagining my vanishing point, how it goes.
+[00:13:07] It will be here.
+[00:13:12] For the upper part, here.
+[00:13:17] Now, dividing this and here, it will be in this direction.
+[00:13:45] Also, we can divide here and here.
+[00:13:55] Okay. Now, we will create some cubes in this grid, too.
+[00:14:07] So, I will draw a straight line at the beginning,
+[00:14:12] as vertical lines are straight in this perspective, too.
+[00:14:18] Now, I will add an edge that goes to the perspective,
+[00:14:25] aligned to the grid line.
+[00:14:29] Now, I will draw another vertical line.
+[00:14:33] Now, for this edge, I will use this grid.
+[00:14:40] So, it's going to that side and here to that side.
+[00:14:55] Okay. For this side, my inner edge will be there.
+[00:15:06] Okay. Now, from this part, it will go up there.
+[00:15:19] So, the reason that I'm starting with the bottom edge
+[00:15:25] is because for the viewer, it's easier to understand
+[00:15:31] the three-dimensional object,
+[00:15:34] if this line and the inner line of the shape will be not in the same line.
+[00:15:43] So, it will be a bit apart from each other.
+[00:15:51] So, now, when I will draw the top edge of my cube,
+[00:15:56] everything will be clear.
+[00:15:59] So, continuing this cube, I'm drawing a vertical edge here.
+[00:16:06] Now, I can draw this edge and this edge.
+[00:16:21] Again, as in the first lesson, I always start with some slide strokes
+[00:16:32] and then draw more prominent on top of them.
+[00:16:43] Okay. Now, we can draw another cube up here,
+[00:16:53] like in the middle of the horizon line.
+[00:16:57] It's always nice to draw the cube at least a bit down from the horizon line
+[00:17:06] or a bit up, so we could show the edges of it on top of it or at the bottom,
+[00:17:14] because if we would draw like...
+[00:17:16] So, this is our edge and then all the other edges are going into the perspective,
+[00:17:25] it would look kind of messy for the viewer, kind of flat,
+[00:17:34] so we always try to put it at least a bit higher up, like here,
+[00:17:43] so the viewer would have more understanding of what these edges are looking like.
+[00:17:52] So, yeah, for this cube, I'm drawing a vertical line,
+[00:17:57] then I am aiming this edge, drawing another vertical line,
+[00:18:07] drawing this edge, this part will go to that vanishing point,
+[00:18:23] vertical line, and here another edge, inner edges.
+[00:18:37] Okay. So, these are the cubes in two-point perspective,
+[00:18:54] like horizontal variant of two-point perspective.
+[00:18:59] We also have two-point perspective vertical variant.
+[00:19:08] It's kind of rare type of perspective, but we can see it sometimes.
+[00:19:13] So, this type of perspective we see if we are looking at the object from the upper side,
+[00:19:21] straightly, but it's not like we see one side of the object parallel to the ground,
+[00:19:32] but it's a bit rotated.
+[00:19:34] So, in this perspective we have a vertical horizon line
+[00:19:41] and it is in the middle of our frame.
+[00:19:44] Vanishing points are beyond the frame, as in the previous one.
+[00:19:48] Horizontals are straight, so not the verticals like in the previous,
+[00:19:54] it's like rotated in 90 degrees.
+[00:19:57] So, the edges that are going up are aligned with the upper vanishing point
+[00:20:04] and the edges that are going down are aligned with the bottom vanishing point.
+[00:20:09] Let's draw this perspective.
+[00:20:11] So, we have a vertical horizon line here.
+[00:20:37] Nice.
+[00:20:39] Now, we have vanishing points at the top and at the bottom.
+[00:20:44] Again, it's beyond my frame, so I'm not drawing like dots here,
+[00:20:48] I'm imagining them.
+[00:20:50] And drawing an extreme line here and going somewhere here.
+[00:20:57] Then, for this one it will be another extreme, will be somewhere here.
+[00:21:08] Now, I can draw the middle between these two lines.
+[00:21:14] It will be somewhere like here, dividing it into here and here.
+[00:21:32] The same for this side and again dividing it into halves and here.
+[00:21:47] Now, I'm doing the same for the second vanishing point that will be somewhere up here.
+[00:21:53] So, from that point it will go here and somewhere like here.
+[00:22:06] Now, dividing this into more into and again.
+[00:22:19] Now, for this part also and again and again.
+[00:22:36] Now, let's draw a cube in this perspective, starting with horizontal lines,
+[00:22:43] as they're always just straight like this.
+[00:22:51] Now, the edge that goes into the perspective up is aligned to this line.
+[00:22:57] Now, I can draw a horizontal straight line.
+[00:23:06] Now, from this point, again aligning to this line, it will go up there.
+[00:23:15] And to the bottom line, like this whole edge, it will go like this.
+[00:23:24] This edge will go like this.
+[00:23:29] I can draw a horizontal line here.
+[00:23:38] Okay, this inner edge will go here, here.
+[00:23:48] This will go like the bottom one, somewhere there, like this.
+[00:24:01] And we can draw the inner part.
+[00:24:10] Now, I can define the edges that the viewer is seeing more prominently,
+[00:24:26] just to make them pop more from the inner edges.
+[00:24:34] And here is the cube.
+[00:24:37] So, yeah, this type of perspective is kind of rare, but it's nice to know about it.
+[00:24:45] Okay, let's move to the three-point perspective.
+[00:24:50] Okay, so this perspective we see if we are looking at the object from the side and from the top.
+[00:24:59] And also, the top view is more angled than for two-point perspective.
+[00:25:11] So, we see more from the top edge than in previous perspective.
+[00:25:17] This perspective is more commonly seen in buildings,
+[00:25:24] or if you are looking at the buildings from the roof of another building.
+[00:25:31] So, then you will see these huge objects,
+[00:25:35] how their vertical edges are vanishing to the bottom point.
+[00:25:47] Two vanishing points are on the horizon line beyond the frame.
+[00:25:52] And we have another one vanishing point in the center of the screen at the bottom, also beyond the frame.
+[00:26:00] And edges that are going to the bottom are aligned to the vanishing point at the bottom.
+[00:26:10] Edges that are going to the right and to the perspective are aligned to the vanishing point to the right.
+[00:26:16] And the same for the left edges, they are pointed to the left vanishing point.
+[00:26:24] Let's draw perspective for this.
+[00:26:28] Okay, so for this perspective we don't have any vanishing point or horizon line on the frame,
+[00:26:56] so we are going to imagine a lot.
+[00:26:59] So, we can start with two vanishing points here.
+[00:27:05] We are imagining the horizon line beyond the frame.
+[00:27:09] And we have one vanishing point here.
+[00:27:12] I will draw again the extreme lines for this vanishing point.
+[00:27:19] It will be like this line and then like this line.
+[00:27:30] Now, I will divide my frame in the middle.
+[00:27:41] Okay, and now divide it in two halves here, into here, and again here, here, here, and here.
+[00:28:19] Okay, now I will make the same for the second vanishing point, that it's somewhere here.
+[00:28:27] So, it will be this line and like this line.
+[00:28:39] Now, I will divide it into halves.
+[00:28:46] And again, and again, and again, and here.
+[00:29:07] Okay, now we will create a grid for the third vanishing point, that is here, somewhere.
+[00:29:36] So, we can start with straight vertical line.
+[00:29:45] Now, we will do extreme line here for it.
+[00:29:54] Divide it in half, and more in half, and more in half.
+[00:30:06] And the same will go here.
+[00:30:13] With this grid, it can be a little bit tricky, because we have a lot of lines.
+[00:30:38] So, if you feel a bit lost with all these lines, you can use different colors for different lines.
+[00:30:50] Depending on which vanishing point it is.
+[00:30:54] So, it can be a little more clear with different colors.
+[00:30:59] So, okay, for this perspective, I usually start with top edge.
+[00:31:07] So, for example, I can draw an edge on the cube like this.
+[00:31:17] Going here to these my dots.
+[00:31:22] Now, this edge is going like this to the vanishing point.
+[00:31:36] This is going like this.
+[00:31:41] Now, this edge is going to the vanishing point.
+[00:31:45] So, it's kinda like this.
+[00:31:49] Now, these side edges are going to vanish to this point.
+[00:31:55] So, I draw the line here, here, and here.
+[00:32:06] Also, I can draw it here, too.
+[00:32:10] And starting to draw the bottom edge of this cube.
+[00:32:18] So, this line will be like this.
+[00:32:23] This line will be like this.
+[00:32:29] This line here will align to this line.
+[00:32:33] And this one is going to be like this.
+[00:32:43] So, now I can define more prominently the edges that the viewer can see.
+[00:32:53] So, I'm drawing them with more pressure on my lines.
+[00:33:23] So, yeah, like this.
+[00:33:26] Also, we have a three-point perspective, the bottom-up view.
+[00:33:33] It's actually the same as three-point perspective to down view,
+[00:33:38] but rotated in 180 degrees.
+[00:33:44] So, the horizon line is at the bottom, beyond the frame.
+[00:33:49] We have two vanishing points on this horizon line.
+[00:33:53] They are also beyond the frame, so not here or here, beyond it.
+[00:33:58] And we have a third vanishing point at the center of the screen,
+[00:34:04] beyond the frame again.
+[00:34:07] So, actually, if I would just rotate this drawing,
+[00:34:28] it would be a top-down view of this cube in the top-down three-point perspective.
+[00:34:37] Also, we have an asymmetric perspective grid.
+[00:34:46] It is an artificial perspective, so we don't see it in real life.
+[00:34:52] This perspective doesn't have a horizon line or vanishing points.
+[00:34:58] This grid is usually used in games to achieve an infinite plane
+[00:35:04] without overlapping your game objects a lot in perspective.
+[00:35:09] And usually you can see it in strategies or some decoration games, for example,
+[00:35:14] where you can expand your game area a lot.
+[00:35:21] So, these alignment lines are parallel always.
+[00:35:27] So, in previous perspective we had them like rays from suns.
+[00:35:33] Now they are parallel to each other and are in 30 degrees from straight horizontal line,
+[00:35:41] if we drew it like just in frame.
+[00:35:45] So, edges that go to the left in this perspective are aligned to the lines that are going to the left,
+[00:35:52] and edges that are going to the right are aligned to the lines that are going to the right.
+[00:35:56] The verticals are straight as in two-point perspective.
+[00:36:19] So, while drawing in this perspective, we usually just create grid.
+[00:36:24] It's usually like grids that are one for all objects,
+[00:36:29] and every member of the team has this grid created already.
+[00:36:38] So, we can just create parallel lines in one direction,
+[00:36:44] then add parallel lines in the second direction.
+[00:36:53] Nope, not that parallel.
+[00:37:00] Nope.
+[00:37:05] Okay, so in this perspective we can start again with vertical line,
+[00:37:12] then this line will go parallel the alignment grid.
+[00:37:18] Again, drawing the vertical line, now align to the perspective grid.
+[00:37:28] So, these edges will be always parallel between each other.
+[00:37:34] And here.
+[00:37:36] Oop.
+[00:37:40] And draw a vertical line.
+[00:37:43] Now here, here.
+[00:37:47] So, the main thing for this grid is that these edges are parallel always,
+[00:38:03] and they are not vanishing into the one point,
+[00:38:08] as if it would be like a two-point perspective for another perspective.
+[00:38:13] Okay, so next we will look at cylinders in different perspectives.

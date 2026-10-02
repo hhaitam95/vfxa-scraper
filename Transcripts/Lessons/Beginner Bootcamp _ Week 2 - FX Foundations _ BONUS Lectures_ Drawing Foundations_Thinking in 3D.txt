@@ -1,0 +1,111 @@
+[00:00:00] Hi! This video is about 3D space in 2D drawings.
+[00:00:04] We'll talk about 3D space in drawing in general and then we'll look at some tips that will help you to achieve a 3D feeling in your drawings,
+[00:00:12] such as thinking about an angle view, the thickness of shapes and the thickness variations inside the silhouette,
+[00:00:19] showing near and far objects on your scene and how to use overlapping objects.
+[00:00:24] It will not be like exercises that you need to do daily at the previous one,
+[00:00:29] but just the things that are good to remember when you are drawing anything.
+[00:00:34] Okay, let's draw something.
+[00:00:36] So, how can we show 3D-ish feeling in 2D space?
+[00:00:46] The first thing we can do is to think about the angle of the view.
+[00:00:52] For example, you have a shape, maybe it's like this square,
+[00:01:05] and you can think, maybe we are looking at the shape from a little bit angle view,
+[00:01:14] so it's rotated a little bit to the side.
+[00:01:17] In this situation, you'll have the shape a little bit squeezed to this side,
+[00:01:27] so you'll achieve this kind of shape.
+[00:01:31] Or maybe you are looking at the shape a little bit from the bottom, from the top,
+[00:01:41] so in this situation, the shape will look something like that, so it will be squeezed on the vertical side.
+[00:01:51] And this rule you can use for different shapes.
+[00:01:58] So, for example, if you have a circle, if we rotate it to that side, it will be squished like this,
+[00:02:12] and if we rotate it to this side, it will be squished like this.
+[00:02:19] And then you can use this in more complicated shapes.
+[00:02:27] For example, if you have some, I don't know, maybe fiery shape that looks like this from the view right in front of it.
+[00:02:42] So this thing, if we rotate it a little bit, it will be squished too, so it will be like this.
+[00:02:52] And in the squish to the other side, it will become a shape like this.
+[00:03:04] So you can see that these sides that were parallel to each other become a little bit angled, like this rectangle shape too.
+[00:03:20] So using this rule, we can achieve the three-dimensional feeling of the shapes we are drawing,
+[00:03:28] and to think from what angle the viewer is looking at it, so we can show it exactly how we want them to be.
+[00:03:37] So the second thing we need to think about while drawing 3D shapes is thickness of an object.
+[00:03:50] Again, if we look at the shape right in front of it, it can look like this.
+[00:03:58] And if we rotate it, we will be able to see other edges of the shape.
+[00:04:05] So maybe this shape has some thickness to it, so it will have an edge here and here, and the same goes for this view.
+[00:04:20] We will see this kind of stuff.
+[00:04:24] So this shape is feeling more three-dimensional than just this plane without the thickness.
+[00:04:33] And you can apply it to your more organic shapes too.
+[00:04:39] For example, you have some piece of grass, and it will have some thickness to it here.
+[00:04:47] So it will not be a flat surface, but with some edge to it.
+[00:04:57] The next thing is the thickness inside the silhouette.
+[00:05:09] Is it flat, or is it more rounded stuff?
+[00:05:15] So, for example, again, if we look at some square, if it's like some flat thing, it will have inside silhouette lines like this.
+[00:05:30] So they are all straight as the silhouette lines too.
+[00:05:37] And we can apply it to the circle, for example.
+[00:05:41] So if I want to show that this circle is just a flat plane, so on this side we will see it like this,
+[00:05:49] I can draw some shapes inside of it that will be kind of flat, like also straight lines, and I can apply them here too.
+[00:06:01] So I will, as a viewer, know that this shape is flat.
+[00:06:08] But if I'll add some curved shape inside of this silhouette,
+[00:06:17] for example, like this, maybe some horizontal ones,
+[00:06:23] I will be able to imagine this shape as a three-dimensional thing.
+[00:06:29] So I'll know that this is some volumetric shape that curves to the sides of it, here and here.
+[00:06:39] And again, if I'm drawing some designs with a spherical shape,
+[00:06:47] I can align this design by these lines that I can imagine, or just actually draw them here.
+[00:07:00] So it will be something more volumetric and 3D-ish than some sort of this stuff inside rounded shape.
+[00:07:15] We can apply it to more complicated forms, like for example, I'll have this form.
+[00:07:25] And again, I can show the viewer that this form is flat by adding some straight things here,
+[00:07:35] or I can show that this thing is volumetric and the inner shape is curving, maybe like this.
+[00:07:46] Here it has some more lines.
+[00:07:50] So this tricks the brain to think about this stuff like it is something in 3D space and not in 2D flat space.
+[00:08:04] And the next thing that we need to think about is basic perspective rules and overlapping.
+[00:08:17] We'll talk a lot more about the perspective in the next video,
+[00:08:21] but for now we can already start applying some general rules of perspective.
+[00:08:27] As for example, if we have one object that is quite big on the frame,
+[00:08:37] and the other object that is quite small,
+[00:08:42] our brain feels like this shape is closer to us than this shape,
+[00:08:49] because it's smaller and in perspective things are going to be smaller the further away they are from the viewer.
+[00:08:57] And we can push this feeling further by using the overlapping rule.
+[00:09:06] So if I'll draw one shape here, big one, and smaller shape here,
+[00:09:13] but then I will draw this big shape in front of this small,
+[00:09:21] so some parts of small shapes will be behind the big one,
+[00:09:27] it will create even more feeling of this 3D space here,
+[00:09:33] and it will trick the brain that this drawing is kind of volumetric and this is happening in 3D space.
+[00:09:42] We can also apply it to some kind of flat surfaces, for example, if we'll take the road,
+[00:09:51] so it's going like this, some curves, so this is a top view on the road.
+[00:10:00] And then we can show how it will be in perspective.
+[00:10:08] So again, draw this plane.
+[00:10:11] Now the most further part of the road will be kind of small,
+[00:10:18] and the most near to me will be wide, because it's closer to the viewer.
+[00:10:27] And now I can create my actual road here,
+[00:10:33] and it's going to be wider while it's going closer to the viewer.
+[00:10:41] And also these small lines will become bigger and bigger the closer they are to the viewer.
+[00:10:50] So it will create again the feeling that this is a volumetric scene that goes into the perspective,
+[00:10:59] and not just flat surface.
+[00:11:02] Also with the overlapping scene, we can show the difference between object sizes.
+[00:11:12] For example, if I want to show that I have one object and then another object that is just smaller,
+[00:11:20] but still closer to the camera, overlapping will help a lot in this,
+[00:11:28] so I'll draw this small shape just in front of the big one.
+[00:11:33] And it will feel still as this shape is in front of it, so it's in 3D space.
+[00:11:40] Rather than if I would draw this big shape and small shape here,
+[00:11:47] it could still feel like this shape is closer to the camera,
+[00:11:51] because of this basic rule that the bigger the shape, the closer it is to the viewer.
+[00:11:58] So using this rule with basic perspective and overlapping will more clearly show what you need from the drawing.
+[00:12:09] Okay, so let's make doodle applying these rules, just for fun.
+[00:12:16] For example, I will have some shape like this, then another one here,
+[00:12:27] and I also want to show maybe different overlappings with another shape here.
+[00:12:38] Okay, so maybe this scene will have a thickness to it, so it will be flat here.
+[00:12:55] And this scene will be magic, like a worm or something.
+[00:13:04] So it will go here, and again, I want to show that this part is closer to the camera,
+[00:13:12] so I will make it thinner here, then it will go maybe here closer to the camera,
+[00:13:22] again it becomes wider, and then away from the camera, so it's thinner,
+[00:13:29] and then here it's just the same.
+[00:13:33] Okay, I'll add some inside shapes to show how it's going here from the camera, so it bends there.
+[00:13:55] Okay, and this shape will be in front of all of this, maybe it will be an apple, for example.
+[00:14:09] I'll show volumetric shapes inside here, maybe some horizontal ones.
+[00:14:17] Okay, if it's an apple, it can have a stick with maybe a leaf here.
+[00:14:28] And so this one, the big shape, I imagine that it's behind this small one, so I'll draw it behind it.
+[00:14:45] This wormy stuff is in front of that big shape, but behind this one, it goes here, here, here.
+[00:15:02] Okay, here it's also a volumetric shape, and it will have this stick too, and I can show the edge of it.
+[00:15:23] Maybe it will have some leaf here too.
+[00:15:28] Okay, now we can add some, maybe, city faces here, maybe face here, here.
+[00:15:51] Okay, and we can add maybe some plane, on which all this stuff is laying, and add a thickness to it, so it will look like maybe the table or something.
+[00:16:14] Like this.
+[00:16:17] Okay, and I can add on this flat surface some more lines, just to define that this is a flat surface, and continue these lines here.
+[00:16:39] Okay, so with these principles we can achieve showing some three-dimensional stuff, and today we practiced our three-dimensional thinking and applied some tips to drawing to make it more volumetric.
+[00:16:58] That's it for this video, bye!

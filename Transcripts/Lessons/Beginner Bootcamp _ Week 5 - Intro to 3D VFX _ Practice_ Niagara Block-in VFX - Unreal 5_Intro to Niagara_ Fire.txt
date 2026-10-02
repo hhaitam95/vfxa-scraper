@@ -1,0 +1,444 @@
+[00:00:05] Hey everyone, welcome to this tutorial series. This is intro to game VFX in Unreal Engine's
+[00:00:12] Niagara editor. We have designed this tutorial series so that hopefully there will be something
+[00:00:19] good for everyone. So if you have never made an effect before anywhere, then we are going to be
+[00:00:26] starting from the ground up. We're going to be starting super simple with our cute little fire
+[00:00:31] here. And we are going to be building up into more of the technical details and the different
+[00:00:38] tools that Niagara offers after that. Niagara is incredibly powerful and we want to make it
+[00:00:47] super approachable and get you comfortable and just having fun making effects in it.
+[00:00:53] And then after that we are going to be diving into some of the artistic and gameplay fundamentals
+[00:01:01] that will help you make awesome effects no matter what engine you're in or what tools you're using.
+[00:01:08] So I am super glad you're here. I am going to go through the three major building blocks
+[00:01:16] that Niagara uses just for anyone who has never used Niagara before. And then we will
+[00:01:23] make our little fire buddy here from scratch. So let's get going. As mentioned, there are
+[00:01:31] three major layers that make up a Niagara system. The top layer is the system itself.
+[00:01:41] That is this whole thing. It is what puts everything together to make our fire here.
+[00:01:48] If we click on the browse button here to jump back to the content browser,
+[00:01:52] you can see our file down here. We can drag this into the world and we've got a second little fire.
+[00:01:59] So the system's main job is to be a home for all of the smaller pieces that combine to
+[00:02:09] make our fire or an explosion or anything else.
+[00:02:14] Now as far as those pieces, the major ones are emitters. Each of these
+[00:02:23] three brown boxes is a single emitter. And what an emitter does is it takes a relatively consistent
+[00:02:36] set of behaviors and applies those to particles. So if we isolate our flames by clicking this little
+[00:02:45] lonely dude up here, you can see there's some randomness in this. There's randomness in the
+[00:02:54] rotation. There's randomness in exactly where they move or how long they're on screen for,
+[00:03:01] stuff like that. But by and large, these are using the same colors. They're sticking around
+[00:03:09] for about the same amount of time and staying in a relatively confined space.
+[00:03:15] If we go over to our embers by comparison, you can see there are a lot of things in
+[00:03:21] common between these two. They're using the same colors. They're using that same
+[00:03:26] base little square texture, stuff like that. But these ones are consistently a much smaller size
+[00:03:33] range. They are consistently moving in this swirling pattern, stuff like that. And those
+[00:03:39] sorts of very consistent differences are these sorts of things that make it worth creating a
+[00:03:46] new emitter as opposed to just adding more randomness or stuff like that into our first
+[00:03:54] flame emitter. And finally, we will jump over to our last emitter, our smoke. Obviously, again,
+[00:04:02] there are a fair number of similarities, a fair number of differences. And this is where I want
+[00:04:09] to talk about our third layer of a Niagara effect, which is modules. So modules are the
+[00:04:18] super simple little sets of traits or instructions that all add up to create
+[00:04:27] the behavior and particles of an emitter. So if we go through some of the different modules
+[00:04:34] in our smoke emitter, for example, the spawn rate module just controls how quickly new particles are
+[00:04:44] created by the emitter. So if we disable it by checking this box over here, we just stop getting
+[00:04:49] particles because we've stopped telling it to create particles. Jump down to our shape location
+[00:04:55] here. And if we disable this, then it goes back down to where particles originate by default
+[00:05:04] at the scene origin as opposed to where this location module is telling it to spawn,
+[00:05:11] slightly higher up a little bit more randomly. And for one final example, if we jump down to
+[00:05:16] our scale color module here, if we disable this, then the particles stop changing color or
+[00:05:25] transparency over their lifetime because we have taken away this gradient that was telling them
+[00:05:32] what to do, how to do it. So those are the three major building blocks
+[00:05:39] to a Niagara effect. We are going to be jumping into these a lot more as we build this effect
+[00:05:47] from scratch, but hopefully just having that base language to start with is helpful.
+[00:05:54] So now let's make our fire. So to start, we're just going to drag our existing friend off to
+[00:06:02] the side here. So I am just down in the content browser here. I'm going to just right click
+[00:06:11] anywhere in the empty space. And you can see the Niagara system is right up here. It's also down in
+[00:06:18] effects down here, if you need that. But we're just going to go ahead and click this. We're
+[00:06:23] going to create an empty system so that we can go through all of the steps of creating this.
+[00:06:28] We'll hit finish. We will give this a name.
+[00:06:36] We'll go ahead and double click that to open it, to start editing it. We'll just drag it up here
+[00:06:43] and dock it and we're ready to go. First thing that's probably really, really obvious here.
+[00:06:51] There's nothing actually happening in here yet because we don't actually have any emitters to
+[00:06:58] tell it to do anything or to add any particles. So we're going to go ahead and just anywhere in
+[00:07:03] the empty space, we're going to right click, add emitter, and we're going to add a fountain emitter
+[00:07:11] because this has a lot of the modules that we're going to be using to create this.
+[00:07:21] I'm just going to go ahead and rename this real quick. So we'll do an E for Niagara emitter,
+[00:07:27] and this one will be our flames. I'm just going to go ahead and get rid of a couple of modules
+[00:07:35] that we're not going to be using yet. So we will get rid of our gravity force. I've just
+[00:07:44] highlighted it and I'm going to hit the delete key. The gravity is very clearly gone.
+[00:07:50] And then we'll get rid of our drag. And from here we can just start editing.
+[00:08:00] So to start with, we're just going to go up to the spawn rate and I'm going to set this a lot lower.
+[00:08:06] I'm going to set it to something like 25. And that's all we need to do there. Now if we jump
+[00:08:15] down one to initialize particle, this is one of the bread and butter modules. And this one
+[00:08:27] actually gives a lot more instructions than these normally do. This one is going to give usually all
+[00:08:33] of the super super basic info that your particle needs. So it's going to tell it how long to live,
+[00:08:41] it's going to tell it what colors it's going to start at, what size, stuff like that. So for
+[00:08:47] starters, we're just going to add a little bit more randomness to the minimum and maximum lifetimes
+[00:08:55] here. For these sorts of random pairs in Niagara, you're going to give it a minimum,
+[00:09:06] you're going to give it a maximum, and it will pick randomly somewhere between those two.
+[00:09:10] So we'll have some particles that last one second, some of the last two, some of the last 1.357.
+[00:09:21] And that's all we need to do there. In the color, we're just going to left click on the color
+[00:09:27] swatch real quick. We're going to make this some nice little kind of orangey orangey color. Seems
+[00:09:35] good. The mass mode stuff you can actually ignore for now. It's really really useful for
+[00:09:48] very physically accurate particles if you are going to be dealing a ton with like gravity and
+[00:09:54] forces and stuff like that. But we don't really need this for this one. This is pretty simple,
+[00:09:59] it's pretty stylized. So you can either ignore it or if you ever want to reset a value
+[00:10:05] on any module to its default, you can click this little u-turn over here and that will
+[00:10:14] reset it to whatever its default is. And then the last thing that we're going to look at in here
+[00:10:19] is just our sprite size. We're going to go ahead and set those to be a little bit bigger. So we'll
+[00:10:27] do like 25 and 40. And that's everything that we need to do in here. It's just those three. Now a
+[00:10:42] couple of kind of scene or hygiene or whatever you want to call it, notes that are probably worth
+[00:10:51] calling out at this point. You can see probably even though I'm using a very similar color in
+[00:11:01] both of these, this one is very bright. And that's because sometimes Niagara's preview window
+[00:11:14] doesn't entirely agree with what the actual scene looks like. So these are getting super blown out
+[00:11:20] right now. And the way we fix that is pretty easy. We just go up to this little lit drop down
+[00:11:27] up here. We're going to uncheck auto in the exposure. And we're going to, in the case of
+[00:11:34] this one, we're going to set our EV to zero. But whatever you need to make this accurate to what
+[00:11:44] you're seeing in your scene, you can just adjust it to that. And they're working on fixing this
+[00:11:51] in future versions of Unreal. So hopefully by the time you see this, this part will be
+[00:11:58] completely irrelevant. A few other things while we're in here. If we go up to the window tab
+[00:12:09] while we're in Niagara, it'll be different if you're over here. But while we're in a
+[00:12:13] Niagara file, hit window and we go to preview scene settings, you might have an environment
+[00:12:21] like this or something. And you can disable that just by hitting show environment. You can also
+[00:12:28] give yourself a little floor if you want. All of those are fine to work in. I like working in the
+[00:12:35] gray box for really simple stuff. And just checking that what I'm doing looks right in the scene.
+[00:12:42] But whichever of those settings you like most, preview scene settings is where you adjust them.
+[00:12:51] And finally, let's just bounce down to Sprite Renderer. Sprite Renderer is another of the
+[00:13:05] modules that you're going to be interacting with a lot, but especially early on in a very simple
+[00:13:14] way. There's a ton of stuff in here. And the only thing you need to worry about is this very first
+[00:13:19] line with the material. Because we're going to go ahead and switch this to a square material real
+[00:13:27] quick, just so that you can actually see these particles rotating. So if we go ahead and hit
+[00:13:37] the little folder magnifying glass, that'll bounce us over to our default Sprite material. And we're
+[00:13:46] just going to control C to copy, control V to paste. And now we've got that down here. And let's
+[00:13:55] rename that to M Particle Square Demo. And we'll just double click again to open that.
+[00:14:12] Now, there's a bunch of stuff in here that we don't actually need yet. So we can go ahead and
+[00:14:19] drag to select and delete everything except our particle color. And our particle color,
+[00:14:29] we can just drag the very top pin. This is RGB combined, as opposed to each of the individual
+[00:14:36] pins down here. We can drag that into emissive color. And then we can drag this gray bottom pin.
+[00:14:42] I'm just left click drag and then plugging it in over here. And that alpha channel will go into
+[00:14:49] our opacity. And now if I click off of this, so I don't have anything selected, then you can see
+[00:14:58] some of the reasons why I duplicated this from another particle instead of just creating it from
+[00:15:06] scratch. This just gives us a couple of extra settings already set that we want over here. So
+[00:15:13] our shading mode, for instance, is unlit, which is really common for a lot of particles. And so the
+[00:15:22] only thing that we need to change over here is we're just going to change our blend mode from
+[00:15:26] additive, which just means it adds more and more light and gets really, really bright really fast.
+[00:15:33] We're going to change that to translucent, which is just going to give us particles that
+[00:15:40] draw on top of each other without adding more light instead. So we can go ahead and hit save,
+[00:15:49] browse back to it. Since we've already got it selected in the content browser,
+[00:15:53] when we go back to our torch, we can just hit this little arrow here.
+[00:15:58] And it will automatically add it, but you can also just click on the dropdown here and you can search
+[00:16:05] for any material that you want and apply it that way. All right. So that's kind of everything in
+[00:16:17] terms of housekeeping in this. So let's go ahead and wrap our flames up. Our next module that we're
+[00:16:26] going to be digging into is the shape location. And this is just going to let us customize exactly
+[00:16:37] where particles initially spawn. If you don't have anything as far as location, then they will always
+[00:16:46] spawn at the origin of the scene. And what this shape location is doing is, in this case,
+[00:16:55] it's creating a sphere that particles can spawn randomly anywhere within. So it gives you a
+[00:17:04] little bit more volume and we can create a little bit more of a campfire shape or whatever we need
+[00:17:10] with that. So we're going to go ahead and just make the radius a little bit smaller,
+[00:17:17] something like five, and go ahead and double check. Everything looks good in our transforms.
+[00:17:23] So that's all we actually need to do for this one. And then next up in our add velocity module
+[00:17:34] down below that. So we are just going to switch this from a cone, which is what's giving us this
+[00:17:43] kind of cone-shaped movement. We're going to switch that to linear. And linear is kind of
+[00:17:52] like it sounds like. It's very, very simple motion. It's just taking in instructions for
+[00:17:59] how fast to move in x, y, and z, and applying that to the particles. So right now this has
+[00:18:07] a velocity of 50 on z and that's it. So they're just moving straight up. If I add, say, 50 on x
+[00:18:17] as well, they start moving in a diagonal. Let's go ahead and add something silly like 100 on y.
+[00:18:25] They start running away a little bit as well. Now we only need the z motion, so this is actually
+[00:18:35] pretty good. But since this is a fire and we want a little bit more of that randomness and
+[00:18:42] organicness, we're going to add some randomness into this. So if we click this little arrow next
+[00:18:50] to here, then we're going to search random range. And this is going to give us a couple different
+[00:19:01] options, but the one that we want is this random range vector. And that's going to,
+[00:19:07] just like the lifetimes and the size that we were looking at up in initialized particle,
+[00:19:12] this is going to let us input a minimum, say 50, and a maximum 75. And it'll randomly pick between
+[00:19:20] those. So this will give us just a little bit more variation, which is nice for a fire.
+[00:19:27] And that's the last thing in particle spawn. So all of our initial values are taken care of.
+[00:19:35] We've got our spawn rate all set up. We've got our little square material hooked up.
+[00:19:42] And all this left is to jump down into particle update and tell these particles how to change
+[00:19:50] over the course of their lifetime. So there are generally going to be two in here that,
+[00:19:58] again, like initialized particle, like sprite render or spawn rate,
+[00:20:03] they're kind of bread and butter, but you can actually usually ignore them.
+[00:20:08] The first one is particle state, which just tells particles to actually die off after their lifetime
+[00:20:16] ends and get removed from the scene. The second one is this solve forces and velocity.
+[00:20:23] And all this is doing is any time that you're adding velocity or force or anything like that,
+[00:20:31] this just tells it to run all the calculations and actually apply it to the particles and get
+[00:20:36] them moving. So those two will usually exist in your particle update. And most of the time,
+[00:20:44] you can ignore them. Just know they're there. But for our spawn color,
+[00:20:51] this is going to be the first one that we're going to start playing around with here.
+[00:20:55] And we are going to switch that in the scale mode up here. We're going to jump down to the
+[00:21:02] color curve. The curve curves, like you're seeing here, can be really, really nice because you can
+[00:21:15] add keys and you can adjust the tangents of those keys to get really, really fine-tuned animation.
+[00:21:26] We'll dig into this a lot more in the next tutorial. But the color curve is really, really
+[00:21:35] nice and user friendly. It's very handy if you're super visual. And if you don't need really,
+[00:21:43] really fine-tuned control, then it's just a lot more intuitive and easy for a lot of people.
+[00:21:48] A couple of things we're going to be adding in here. First off, we're going to go to our
+[00:21:55] very first key here. We're just going to double click it. And we're going to make this kind of
+[00:22:02] a nice light yellow. And the other thing we're going to do here is we're going to go down to
+[00:22:09] the value down here, V. And we're going to set this to 4. And what this does is it will actually
+[00:22:21] push the particle beyond the brightest value of 1. And once you do that, then it starts glowing,
+[00:22:29] which is really, really nice for fire or magic or a lot of other things.
+[00:22:37] So we're going to go ahead and start there. And we're also going to just drag it in a little bit
+[00:22:43] so particles stay bright and yellow for a little bit longer. And then for our last key over here,
+[00:22:52] we're just going to select that. Again, double click it to pull up the color picker.
+[00:22:56] And we're just going to make this a good old fashioned pure red. And because we've got the
+[00:23:05] transparency fading at the end, we'll just drag this in a little bit as well.
+[00:23:15] And finally, for our last key, we're just going to left click anywhere up here in the color section.
+[00:23:24] That'll add a new key. And then we can double click that one. And we will set this to a nice
+[00:23:33] little orange. And then we're just going to set the value to something like 1.5. So it has
+[00:23:39] a little bit of glow. So that's all of our color instructions. And then down along the bottom of
+[00:23:49] the curve here, we've got our alpha keys. So we like having this zero transparency key at the
+[00:23:59] end here because that's what's letting them fade out. But we want to keep them fully transparent
+[00:24:06] for a little bit longer. So we're going to go ahead and drag this first 100% opacity key just
+[00:24:15] a little bit past our orange. We will add a second full opacity key right where our yellow starts.
+[00:24:25] And then just to stop them from doing this little pop appearance down at the base,
+[00:24:31] we're going to left click down there, add one last key, and we can just right click on this.
+[00:24:40] And that'll give us both the opacity, which we can set to zero, and it also gives us the time.
+[00:24:47] So if we wanted this to be a lot later, we could set it to like 0.7.
+[00:24:53] You can adjust any of these keys manually and really precisely by right clicking on them
+[00:25:01] if you want to. Or you can just drag and drop. It's up to you. But that's everything for our
+[00:25:09] color. So next we are going to start adding some new modules since we have run out of modules
+[00:25:17] to edit. So to add a new module, I'm just going to left click on this little plus circle to the
+[00:25:27] side of the section of the emitter that I'm in. And in this case, what we want to do next is we
+[00:25:34] want to change the size of our particles over their lifetime. So I'm going to go ahead and hit
+[00:25:40] scale, size. You can see we get a couple options down here in the size section. And we want to
+[00:25:50] scale sprite size because we are, per the renderer down here, we're working with sprites. This one's
+[00:25:58] already given us a curve. So we're just going to modify the keys in this curve. This is probably
+[00:26:09] very familiar to anyone who has worked in animation before or anything like that. We're
+[00:26:16] just going to set up our keyframes to create the curve of the sprite scale that we want over his
+[00:26:26] lifetime. So we can just drag and select this first key. And we can leave the time at zero,
+[00:26:37] but we're going to set the scale to say 0.75. We'll go ahead and adjust this last key really
+[00:26:47] quickly. The time being at one is good. That's exactly what we want. But for the size,
+[00:26:55] we'll put it at something a little smaller like 0.4. So this gets us a little bit of a taper,
+[00:27:04] which is nice, but I still want a little bit more, a little bit more organicness out of this.
+[00:27:11] So we're going to go ahead and just right click again anywhere in the empty canvas,
+[00:27:19] as is usual with Unreal. And we're going to hit add key.
+[00:27:26] And we'll go ahead and do that one more time over here. And then for both of these,
+[00:27:36] we're just going to drag select both of them at the same time. And we'll set the
+[00:27:40] size of both of them to one. Then we're going to select just one at a time. And we're going
+[00:27:46] to set the time of this first key to one and the time of this second key to like 0.25.
+[00:27:56] And you can see this starts to give us a little bit of a burst in the size before it tapers back
+[00:28:04] down, which is kind of nice for a fire in particular. The last thing that we're going
+[00:28:11] to do here is we're just going to drag and select all of these. And we're going to
+[00:28:16] right click on the keys. And what that will do is it brings up a bunch of tangent options.
+[00:28:25] So if I go ahead and hit auto here, then you can see it reveals all of these little curves. Again,
+[00:28:32] probably super familiar to anyone who has worked with animation before. But if I just select one
+[00:28:37] key so that I have access to the little handles here, these let me adjust the tangent curve of
+[00:28:51] the transitions between these different keys. So this is already pretty much all we wanted.
+[00:28:59] We just wanted to smooth this out a little bit so it's not quite so stair-steppy.
+[00:29:04] But we can go ahead and like smooth this out just a little bit.
+[00:29:10] And that's all you need out of the sprite size. Something just to know in the back of your head
+[00:29:19] with these update modules that say scale, these are just multiplying on top of whatever size or
+[00:29:27] color or stuff like that, you gave the particle and particle spawn.
+[00:29:32] So in the case of our scale mode, where we started with something between 25 and 40,
+[00:29:43] this is going to multiply on top of that. So if our particle started with a scale of 25,
+[00:29:51] then at its biggest here, it's going to be just over 25 because this curve jumps a little bit
+[00:30:01] over. But it'll start at 18-ish and it'll end at 12 or 10 or what have you. That's more math than
+[00:30:16] you really need to think about it in. But that's what's going on here is this curve is just
+[00:30:23] constantly multiplying the initial size of the particle. Same for color, etc. So the last thing
+[00:30:33] that we're going to do for this emitter is we're just going to add a little bit of rotation over
+[00:30:38] the course of the particle's lifetimes as well. So we're going to go ahead and again click the
+[00:30:45] little plus sign and we're just going to type sprite rotation and we're going to select this
+[00:30:52] sprite rotation rate. Now we've already got our initial rotation set up up here in the sprite
+[00:31:02] attributes in our initialized particle and that's just set to random right now. So it's just picking
+[00:31:11] anything between zero degrees and 360 degrees and each particle gets that. This one we just want to
+[00:31:18] add a little bit more rotation over the course of each particle's lifetime to give it one more little
+[00:31:25] bit of organicness. So for our sprite rotation rate up here, we're just going to again go over
+[00:31:33] to this little drop down arrow over here. I'm going to type for a random range again
+[00:31:41] and we'll just go between negative 30 and 30. So this is going to be subtle
+[00:31:52] but you can see compared to if we disable it you get a nice little bit of kind of the
+[00:32:02] rotating or curling motion that you would see out of a flame without it feeling like jarring or
+[00:32:09] hitting too much of extremes. And that's going to be it for our flame emitter for right now.
+[00:32:16] So we're going to go ahead and drag and select this and then ctrl c ctrl v to create a new one
+[00:32:23] and we're going to use this as the base for our embers now. So I'll just rename this real quick
+[00:32:32] before the embers and a lot of our values here are going to be the same across modules. So we'll
+[00:32:40] just go through and do a few little tweaks real quick. We're going to set our spawn rate a little
+[00:32:46] bit lower. Actually let's go ahead and isolate this real quick so we can see the differences
+[00:32:53] a little more readily in our initialized particle. We're just going to make these hang out a little
+[00:32:59] bit longer. And one of the other big things we're going to do here in our color we're going to make
+[00:33:09] them brighter in general just so that you know if we want these to be our like bright little extra
+[00:33:15] sparks. So we're going to default them to be more yellow than orange in general but we're also going
+[00:33:21] to revisit those little glowy value sheets of pushing value past one. So we're going to set
+[00:33:27] our initial value to two here and if we un-isolate real quick you can see how much of a difference
+[00:33:34] that's starting to make. Since these are drawing behind the flames right now we're going to
+[00:33:48] do one more quick little visit down to sprite renderer. So material is the main one
+[00:33:56] that you need to interact with but if you go all the way to the opposite end way way down at the
+[00:34:03] bottom there's this section called sort order with sort order hint and this is really nice for like
+[00:34:13] if you need to force the sorting of some particles in a particular way then you can do that here just
+[00:34:20] by moving this number up higher than the one behind it. If we go back to flames and we set
+[00:34:26] this to two then it draws back in front so we'll you know leave that at zero but if something's
+[00:34:32] ever not drawing or stacking in quite the way you want it to then sort order can be
+[00:34:40] an easy way to just either brute force that or at least preview it.
+[00:34:50] And then finally for our size we're just going to make these some little bitty ones between five and
+[00:34:58] ten and everything else here is good to go. So we're going to be using a sphere location again
+[00:35:07] and for our sphere we're just going to make this quite a bit bigger like you know we wanted to kind
+[00:35:16] of fill the entire flame area down here since embers could come from anywhere in there.
+[00:35:23] And that's the only thing we need to do there so we'll jump down to our add velocity and
+[00:35:34] here we're going to start getting a little bit fancier than our our flames were so where right
+[00:35:41] now we've got it set to linear we're going to go ahead and set it to from point instead and
+[00:35:50] you can kind of get some sense of what this is probably doing. So adding velocity from a point
+[00:36:00] just picks picks a point in space in this case it's the origin and just applies velocity to the
+[00:36:10] particles from there so hence why they are all running away in a kind of sphere shape right now.
+[00:36:20] So that part's great we're gonna go ahead and set these to 50 and 75 instead. And the last thing
+[00:36:31] that we want to do in the velocity specifically is down here where there's this origin offset
+[00:36:38] we just want to set the z axis to like negative 40 and what that's doing is it's moving the point
+[00:36:50] that this velocity is being applied from it's taking it from the origin right about here
+[00:36:56] down a little bit and so that just means that while you're still going to get some of that
+[00:37:02] more organic motion that the point provides rather than you know the very very direct motion from
+[00:37:12] a linear add it's still going to be going pretty much in the direction that you want
+[00:37:19] it's all going to be pushed upwards. And we're going to refine this a little bit more in our
+[00:37:27] particle update before we worry too much about any of the stuff we've got in here right now.
+[00:37:35] So the first thing we're going to do here is we're going to go ahead and add a new module
+[00:37:42] called point attraction force and what this is going to do is it's going to
+[00:37:52] you see a little bit with the little eyeball preview this is going to create a space in which
+[00:38:07] any particles caught in here are going to be pulled towards a point in space
+[00:38:14] with whatever strength and radius and stuff like that we give it.
+[00:38:18] So we're going to bump the attraction strength up a little bit and you can see
+[00:38:27] you can see there how they all kind of start getting pulled back towards a specific point
+[00:38:33] and we're going to double check our radius right now and isolate this so we have a little more
+[00:38:41] context we're going to move our the position of our like point that it's pulling towards
+[00:38:57] up a little bit kind of the opposite of what's going on in add velocity so we're going to pull
+[00:39:03] that up to 100 and z and then we'll just increase the radius a little bit so that we're catching the
+[00:39:14] bottom of the fire as well and that should be pretty much good to go on that so you can unhide
+[00:39:26] this sphere and you can see this kind of recreates a lot of the same stuff that we
+[00:39:35] wanted out of the feeling of the flames where with the flames we were creating this kind of
+[00:39:39] like bowing outward motion and then back up mostly through the curve of the sprite size
+[00:39:48] and the size of that initial sphere that runs it out a little bit randomizes it a little bit
+[00:39:54] because these particles are so much smaller we can do that with their actual motion a little
+[00:40:01] bit instead or we kind of have to now because these are going a little bit higher than i really
+[00:40:13] want them to um we're going to add another module down here called drag and this is um
+[00:40:24] the easiest way to think of it is probably just kind of air resistance that you can
+[00:40:28] you know you can customize or what have you um but yeah we don't i think the the initial settings
+[00:40:38] for this actually look pretty good so we can just leave that at one and that just lets us keep all
+[00:40:45] of those nice motions but also slow the particles down a little bit so they don't go uh quite so far
+[00:40:50] away um and then the last new module that i want to add to this one is oh one of one of my one of
+[00:41:03] my favorite ones um i want these to swirl a lot more around the fire itself um and this is
+[00:41:13] something that will work really really nicely for these embers because they're a little bit smaller
+[00:41:18] you're going to really be able to see it if we have uh some sort of nice extra motion like that
+[00:41:25] so we'll go ahead and go again adding the new module and we're going to
+[00:41:32] pull up vortex velocity well first off let's try let's try setting this
+[00:41:39] a lot higher to start with so you can actually see it that that's um maybe not that high uh
+[00:41:50] so i think i want to try putting this on a curve actually um so that we can start it out without
+[00:42:00] really any velocity or any any vortex velocity specifically we can tone that uh way down from
+[00:42:09] what we did have it have so have it at so we'll do something like a thousand to start with
+[00:42:15] a thousand to start with and then we can ramp it up to something like 2500 that obviously gave us a
+[00:42:25] lot at 0.35 okay so let's go ahead and hit f while we have the curve highlighted to fit it back on
+[00:42:37] our screen and i think oh god i think that's a pretty solid little bit of motion like you know
+[00:42:50] you compare it to before uh it's just a little bit extra magical and fun um i'm gonna go ahead
+[00:42:58] and drag and select this bottom key and again right click it and set the tangent curve to auto
+[00:43:06] um just to smooth that out a little little bit um and i think that's all of our new modules
+[00:43:18] for this one like i'm pretty happy with the motion on this so we'll just go ahead and make sure that
+[00:43:25] we're happy with everything else um i think the sprite size we can probably we can probably
+[00:43:35] simplify a little bit um go ahead and we're just gonna pull this down to zero it's it's
+[00:43:49] okay i think if the sprites have a little bit more bounce to them in the embers than the flames
+[00:43:57] because we don't need them to fill out the base of the fire so much
+[00:44:01] um and just having having a little bit more like initial kind of technical term um
+[00:44:13] having them just have a little bit more of an initial pop is actually kind of
+[00:44:19] nice for this in terms of variation in terms of how embers often behave in real life stuff like
+[00:44:25] that um and we'll do the same thing at the end of their lifetime we'll just scale them back down to
+[00:44:33] zero and adjust this curve a little bit i think i think that's good size wise um and then in our
+[00:44:47] colors i just want to go i want to go a lot richer where we can so i think because we're scaling
+[00:44:55] these all the way down to zero we can actually get rid of these alpha keys you can just select them
+[00:45:05] and hit the delete key we'll drag this over here for cleanliness sake um and that'll let these
+[00:45:17] be brighter for longer um we'll just drag this key over a little bit this one as well
+[00:45:25] um actually want to make this orange a little bit more vibrant faster
+[00:45:37] um something like this yeah and then we're going to try and we're going to go ahead and drag the
+[00:45:52] red over so that those just hit red a little bit faster at the end so you still get all of that
+[00:45:59] like nice rich vibrant color in here um it doesn't stay completely blown out because i mean embers
+[00:46:09] tend to have a really really cool color transition in a lot of cases so if we can kind of hold on to
+[00:46:14] that and play with that a little bit then that's kind of a win uh let's try adding one more key
+[00:46:21] towards the end here and see how
+[00:46:26] if adding any purple in there
+[00:46:32] not totally convinced convinced that you can tell but uh we'll roll with it and then last thing on
+[00:46:39] here just since these are sparks we want them to have a little bit more energy and chaos than
+[00:46:43] the base flames we'll just bump our rotation rates from negative 30 to negative 60 and so on
+[00:46:54] and that's that's everything for our embers so we're just gonna do one more copy paste
+[00:47:01] on the flame emitter um so it's going to be the more similar of the two and we're just
+[00:47:07] going to make our smoke real quick so go ahead and rename this to whoop and i think our spawn
+[00:47:15] rate for that is actually fine um we're gonna again for the we'll isolate this while we're
+[00:47:23] starting out on it again um you want to make them stick around a little bit longer again
+[00:47:30] and for our color i actually want to get a little bit more randomized so i'm going to switch to a
+[00:47:36] random range and we're just going to do something kind of like dark red like this
+[00:47:47] and then we're going to set the alpha pretty low something like uh maybe not that low something
+[00:47:56] like 0.5 um let's go ahead and copy and paste this in here so
+[00:48:06] you can see where this is starting ahead um and then for this one we'll just
+[00:48:13] bump it over to a little bit more orange um a little more a little more red here
+[00:48:24] a little more purple here so we can start getting some of that again some of that richness and kind
+[00:48:30] of pushing this through a broader palette into something that's almost cooling off by the time
+[00:48:36] we get to the smoke so um i think like that and we'll just go ahead and set make these a little
+[00:48:49] bit smaller to start with because we want them to um you know we want them to kind of hide behind
+[00:48:55] the flames initially and on this one for our sphere location uh we're gonna make it a let's
+[00:49:06] go ahead and isolate it again we're gonna make it a little bit bigger and we're gonna mess with
+[00:49:10] the offset um in this one so in the sphere location it's hidden by default um unlike the
+[00:49:20] velocity so we're gonna go down to the bottom in transform and go to offset mode and set that to
+[00:49:27] default instead so that'll um give us access to the actual offset coordinates and we're just gonna
+[00:49:36] bump that up to something like something like 45 yeah so we're
+[00:49:48] yeah so that generally stays behind the flames but we're gonna see a lot more of those now
+[00:49:55] um and for our add velocity we're again gonna switch this over to a point and then we're gonna
+[00:50:06] tone it down real quick we'll actually tone it down even a little bit more so 25 to 75
+[00:50:13] and then for our origin offset we're again gonna push it down a little bit but
+[00:50:20] i also want to add a little bit of extra motion to this so we're actually going to offset it on
+[00:50:26] x a little bit so that the smoke is getting pushed by a little bit of like you know uh wind
+[00:50:33] or something like that uh in our sprite size we're going to go ahead and just um get rid of these two
+[00:50:53] and we will we can start these at something like zero since they're starting behind the fire
+[00:51:01] but the main thing that we're going for here i'm going to set this last key to one
+[00:51:06] is that we want these to get bigger over the course of their lifetime instead of smaller
+[00:51:10] just because um you know that's generally how smoke behaves that's how smoke tends to dissipate
+[00:51:19] and so just making sure that even though we're doing something really really stylized with all
+[00:51:24] of our little square fire textures and stuff here that we're still grounding it in reality
+[00:51:33] where we can so having the smoke at least kind of like move and dissipate in the right way will
+[00:51:41] give you a lot more believability even if it's just a little square and actually that's way
+[00:51:50] smaller than i think i really want so we'll go ahead and start these at 0.8 and then bump this
+[00:51:58] up to 0.2 we'll go to our color next and here the main thing i want to do is the smoke is just
+[00:52:09] really really thick right now so we're never actually going to hit full opacity with these
+[00:52:20] we're going to set our full opacity ones to half opacity instead and the other thing that
+[00:52:30] i really want to do here is i want to really tie this into the fire a little bit more
+[00:52:40] so we're going to start this out at like a really really rich orange like this
+[00:52:54] and then we'll move our we'll move our red key come on uh all the way over
+[00:53:01] here said that a little bit more orange as well and then we're going to start moving into kind of
+[00:53:08] those darker those darker grays and stuff that's like you know a little bit more traditional smoke
+[00:53:15] color um i'm bending more kind of like purples here very intentionally um because i just i
+[00:53:34] don't want this to get too like too gray and desaturated like just for the particular style
+[00:53:47] of fire that we're doing where it is very bright very colorful um pushing those colors a little
+[00:53:53] bit more is just kind of fun and keeps the whole thing cohesive uh i am going to lighten my initial
+[00:54:00] colors up a little bit though so that that color gradient in the scale color can have a little bit
+[00:54:06] more influence brighten these up a little bit more again and i think that gets us in a pretty good
+[00:54:36] space with the smoke and then for our rotation rate um again just to emphasize the fact that
+[00:54:45] we're pushing this in a particular direction from some like really really gentle wind or
+[00:54:50] something like that with our velocity offset i'm gonna go ahead and make all of these rotate
+[00:54:57] in the same direction so where before they might rotate counterclockwise they might rotate
+[00:55:04] clockwise um we're gonna go ahead and rotate all of these clockwise so we'll give it 30 to 90 as
+[00:55:16] our range instead and if we isolate you can see a little bit better that now all of them are kind
+[00:55:21] of moving with a little bit more cohesive motion which is nice here um and then two things that
+[00:55:31] we're going to add real quick we are going to bring back our hero gravity force from the
+[00:55:36] beginning uh perfect we're going to switch our gravity vector to a random range again
+[00:55:50] and we're just going to zero all of these out except that we are going to
+[00:55:57] commit physics crimes and we're going to set our minimum maximum to 50 and 100 instead of
+[00:56:06] negative 980 like earth intended um so this is just gonna pull our smoke up a little bit more
+[00:56:15] and literally defy gravity a little bit um but it's a nice extra little bit of
+[00:56:24] motion in addition to just the base velocity and just to counter how much that's going up
+[00:56:36] and give it a little bit of a feeling of air resistance we're just going to bring in another
+[00:56:42] drag module um we're going to leave this one at the default as well because we don't we don't
+[00:56:51] we don't want to keep this like super hugged into the fire we just want it to
+[00:56:58] uh not be going quite quite so far off um so we're gonna we're gonna call that
+[00:57:10] good as well actually so one last thing um before we before we call this done done um
+[00:57:17] i just wanted to revisit our flames based on what we've talked about in the embers
+[00:57:24] because there are a couple bits of motion from the embers that i think the flames could actually
+[00:57:29] benefit from so we'll go ahead and isolate our flames real quick um the first thing i want to do
+[00:57:37] is i do want to actually switch our linear velocity here to a point velocity
+[00:57:43] to a point velocity and then we'll just bring back our same velocities as before uh so 50 and 75
+[00:57:56] and we'll offset this a tiny tiny bit um with negative 10 and you can see how like
+[00:58:07] having a much smaller number there um or a much smaller offset there is pushing these out into
+[00:58:16] at least part of that sphere still um so to make sure that we're still kind of maintaining that
+[00:58:23] overall torch or campfire shape um i am going to go ahead and steal our point attraction force from
+[00:58:31] over here so control c and then we'll just control v over here and then we're just gonna let's try
+[00:58:48] randomizing our attraction strength a little bit so randomizing this will do zero to 20
+[00:58:58] this will let some flames kind of get away every once in a while you can see
+[00:59:03] um which is something fires do a lot they're very chaotic and organic um but it'll still
+[00:59:11] mostly maintain that shape which is really really nice um and then we're gonna go ahead and move
+[00:59:22] this one down a little bit just so we're not dragging them too far up and we'll just reduce
+[00:59:29] our attraction radius by about half to complement that so even with those couple little changes you
+[00:59:36] can see that it really starts to take on a little bit more of a like very organic natural fire shape
+[00:59:44] where stuff escapes every once in a while but you're still mostly maintaining that shape and
+[00:59:50] it's still you know complementing the embers and the smoke and stuff like that really well
+[00:59:55] um so that's our fire
+[01:00:04] um hopefully this was hopefully this was fun hopefully this is something that like if you
+[01:00:10] want to play around with it and try making a bunch of you know a bunch of different fires or
+[01:00:17] um just playing around with colors playing around with making different types of looping effects
+[01:00:23] like this hopefully this gets you kind of feeling ready and excited to do more of that
+[01:00:29] um we are going to be digging into a lot of the different modules and some of the nuances of like
+[01:00:38] how to customize them how to really take advantage of how powerful Niagara can be in the next tutorial
+[01:00:46] but hopefully this was fun and hopefully we'll see you in the next one all right cheers y'all

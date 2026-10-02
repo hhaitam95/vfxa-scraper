@@ -1,0 +1,107 @@
+[00:00:05] Hello, and welcome. Today we're going to be doing a general overview of timing. Big, broad
+[00:00:18] subject in terms of animation. We'll only be touching briefly on some very broad points,
+[00:00:27] but hopefully my goal with this would be to give you sort of a good diving board in which
+[00:00:33] to use in order to jump into some of the more advanced or complex topics later on.
+[00:00:42] So timing essentially is what happens between your first and final frames of animation.
+[00:00:50] The possibilities and the options are endless. So I want to give you some brief understanding
+[00:00:59] of different ways of thinking about or conceptualizing these things. How to get from point A to point
+[00:01:08] B. That'll be in terms of animation, that's going to be your first big question. You know,
+[00:01:17] it depends on the scenario. If you're just winging it and being creative, you start with
+[00:01:23] frame A. Frame B can be whatever you want, it doesn't matter. So you just go ahead and
+[00:01:29] you start animating and be creative and have fun with it. However, if your frame A is locked
+[00:01:34] in and your frame B is locked in, then what happens in between these two things, that
+[00:01:40] is the big question. And implementing as many techniques and concepts that you properly
+[00:01:50] understand and can develop correctly is what's going to give you the best product from frame
+[00:01:56] A to frame B. However, we're not talking about those specific things today. We're keeping
+[00:02:06] this a little bit more generalized. So the options, these are just some basic layout
+[00:02:15] of options. You know, we have an over arc, we can go straight to it. We can do an under
+[00:02:25] arc where the square even potentially to get larger in frame as it's traveling. So this
+[00:02:41] would look like proper arrow here. This would look like it's coming at camera before traveling
+[00:02:52] away from camera. You have to settle out all those questions for you. Another thing that
+[00:03:01] really will affect the feeling and change up the timing of the animation is the question
+[00:03:07] of the mid-frame. If you were planning ahead a lot, you weren't winging it and just going
+[00:03:14] from frame A to whatever, you want to make sure that you know where your mid-frame in
+[00:03:20] the animation is. The placement of that frame is going to change things a lot. If you put
+[00:03:26] a lot of square frames, if this is your mid-frame and you put a lot of frames here and you put
+[00:03:36] an equal number of frames to go from the mid-frame to the final frame, this is going
+[00:03:49] to be a slower action. And then because the squares covering this distance to this distance
+[00:03:58] in the same amount of frames, this is going to be a much faster action. This is important
+[00:04:05] because speed in animation is pretty much everything. Being able to control through
+[00:04:16] each drawing on each frame, being able to control the speed and have it look realistic
+[00:04:23] and believable, that's basically animation in a nutshell. Now there's a ton to all that,
+[00:04:31] to doing it correctly, to doing it in a visually appealing manner, but keeping it very basic,
+[00:04:39] that's kind of what every animator is trying to do on a daily basis. So I wanted to quickly
+[00:04:46] talk about a shorthand here for timing. I used it in the previous frame, but I want
+[00:04:51] to go over it specifically now, which would be the timing chart. We know that we have
+[00:05:00] our frame A here, we want our mid-frame here, and our final frame here. We know that we
+[00:05:07] have to do the entire animation in what? In seven drawings. So if we know these are the
+[00:05:17] positions of the square from the start, the middle, and the end, where we position the
+[00:05:25] other frames will change the feeling of the animation a lot. Now when talking with other
+[00:05:32] animators or maybe if you have a friend you're working on a project with or something like
+[00:05:37] that and you want to be able to describe the timing of something in a quick and easy manner,
+[00:05:44] that's when we start to deal with a timing chart. So to be able to shorthand this rather
+[00:05:50] than drawing out the first, the mid, and the final frame and trying to describe where each
+[00:05:58] other drawing is in the sequence, we just resort to this, where this is frame one, we're
+[00:06:08] talking about this being frame one, frame B is our final frame, or in this example frame
+[00:06:14] six, and then our mid-frame is frame five, and then we know that from frame one to frame
+[00:06:27] five we have three other frames to deal with. And when I lay out this timing chart for you,
+[00:06:34] I describe it like this, how it is on screen. This means that these drawings here I want placed
+[00:06:43] closer to this drawing than I want them placed to this drawing. Now that'll give you a certain feel
+[00:06:50] in the animation, which is called an ease out. It's something that we're going to be talking
+[00:06:56] about in in a different lesson, but specifically the point I'm trying to get across here is this
+[00:07:03] can be useful shorthand for communicating animation without actually doing any drawings.
+[00:07:09] So you can get used to timing charts. Timing charts can also be helpful for yourself as well,
+[00:07:15] because as you're animating something you're not fully drawing, and this goes for effects
+[00:07:19] and characters, you're not fully drawing out every frame one by one by one by one. You might
+[00:07:26] be doing a little chunk here that you do a couple drawings of throughout the next couple of frames,
+[00:07:31] and then you go back over it to add, you know, if it's effects, maybe some water or something
+[00:07:38] like that. However, as you're doing this, you're putting the brainpower and the thought into the
+[00:07:45] timing of the animation. As humans, we're only capable of juggling so much in terms of remembering
+[00:07:56] our intention with the animation. So it's super smart to be dropping timing charts in your
+[00:08:03] animation as little reminders to yourself, or if you have someone who is going to be handling the
+[00:08:10] work after the fact, they need to know what you're thinking. So putting in these little timing
+[00:08:16] charts and then just writing it like water wick off shoes or something like that. You'll see the
+[00:08:30] timing, you'll see the note of what it is the timing charts in relation to, and that should be
+[00:08:35] enough to jog your memory of what it was you were thinking at the time. Each dash in the timing
+[00:08:41] chart is a frame. Yeah, I mean, there's 24 general timing, some people use different timings,
+[00:08:50] but we're going to go with the general timing here. Usually there's 24 frames in a second. So in a
+[00:08:59] timing chart of a full second, if you are doing every single drawing, you would have 24 of these
+[00:09:07] little dashes or ticks to use to describe where you want to place the drawing over that span of
+[00:09:15] time. And this is a very, the timing charts are very common shorthand that pretty much anyone
+[00:09:24] who's ever gone to animation school has learned at one point or another. So by picking up this
+[00:09:31] kind of practice, you're not going to be surprising anyone if you use this in your own work. And in
+[00:09:39] fact, best case scenario, you're going to be making it easier for other people to see what it
+[00:09:45] is you're trying to lay out or plan. In animation, it's very often included that we don't necessarily
+[00:09:58] animate just because we have 24 frames in a second doesn't mean we have to use every single
+[00:10:03] frame in in that second. The eye is very good at picking up at picking up the visuals, however,
+[00:10:14] it's not perfect. So quite often in order to save work, the idea of animating something on twos,
+[00:10:24] and that just means you put a frame, you put a drawing every other frame, animating something
+[00:10:30] on twos, the eye doesn't pick up on as being too choppy. I have worked on productions where
+[00:10:40] animators will use stuff on threes, and sometimes even as far as fours. So in a typical second,
+[00:10:48] if you were animating on fours, what is that five frames, that would be five frames for a second.
+[00:10:55] So that's a lot fewer drawings. But once you get up to that threes and fours area, the animation
+[00:11:03] does start looking a little bit choppy. And the reason I bring that up is because I want to show
+[00:11:11] you exactly what I mean rather than just describing it in audio. So here's an example of the three
+[00:11:19] different timings. I didn't go as far as adding fours because fours is quite uncommon, but ones,
+[00:11:25] twos, and threes is very common. So on the top here, this is on ones. So in a typical second,
+[00:11:33] I don't believe this animation is a full second, but that's okay. If you were putting a frame on,
+[00:11:41] if you were putting a drawing on every single frame that you possibly could,
+[00:11:44] this is what ones looks like. It's quite smooth, but it's also time intensive because doing that
+[00:11:50] amount of drawings just straight up takes a lot of time. Twos, this is probably industry standard,
+[00:12:00] I would say, for most things. Nowadays with the programs getting better and better,
+[00:12:07] it's becoming easier and easier to do things on ones. But for all the work I have done,
+[00:12:14] the clients that I've had, and the animation I've done, no one ever complains about twos.
+[00:12:21] So sometimes they'll request ones over twos, but in general twos should be fine most of the time.
+[00:12:28] Threes, we can see here in this example, threes is starting to get pretty choppy.
+[00:12:37] And that's where you start to flirt with, well, if it's on threes, should I be adding in
+[00:12:44] one more frame? Honestly, it depends on the action, it depends on the animation, it depends on
+[00:12:51] what you can get away with and still have the animation look good. Because that's kind of the
+[00:12:58] golden rule that I teach all my students and or greener employees is, honestly, it doesn't matter
+[00:13:07] what techniques, what kind of timings, what kind of frame rates you use, if the end product
+[00:13:14] looks good, then you've accomplished the goal of that animation. And whatever you did to get there,
+[00:13:22] the ends justify the means, right? What I'm trying to do here is give you tips and advice on getting
+[00:13:30] that good final product without falling into the pitfalls or things like that of having to learn
+[00:13:37] the hard way of trial and error. So hopefully this has helped give you a brief conception
+[00:13:44] of timing and what it entails. So when you start animating your own things, you can be getting
+[00:13:51] those more visually appealing solid products right out of the gate rather than having to
+[00:13:58] stumble in order to learn.

@@ -1,0 +1,132 @@
+[00:00:05] Hello! In this video we will talk about another approach how you can make something disappear on your screen and we will recreate this small ripple effect step by step and starting with breaking the shape into small pieces, then adding motion to it, adding copies of it with different timings and then setting it into the perspective.
+[00:00:34] We will also talk about how this principle applies to different kind of effects and more photometric ones too.
+[00:00:43] So let's start with the first step.
+[00:00:48] The first step will be breaking into pieces like our circle ring.
+[00:00:55] So let's start with drawing a circle. I will use my circle tool here to make it perfectly round like this.
+[00:01:16] And also I will make it be here from the very start and from this point we will start breaking it into smaller pieces.
+[00:01:28] So I will copy this frame and paste it to the next one and will turn on my onion skin.
+[00:01:36] So while breaking the shape into smaller pieces we want to think about how we can make it interesting.
+[00:01:47] Like here for example I don't break this shape in all the places at once.
+[00:01:55] So I start with one break and then on the next frame add two more and these two are also a little bit different.
+[00:02:03] This gap is bigger, this gap is smaller and then I delete this shape with some subtle motion in mind.
+[00:02:15] To this point it's deleting more and then breaks into the smallest pieces.
+[00:02:23] So in this frame I'm just carving one small thingy.
+[00:02:30] Now I'm copying this same frame to the next one and starting to carve this little gap more and a little bit bigger on one of these sides.
+[00:02:44] Again to make more variety add a small break here, a little bit bigger here.
+[00:02:52] Again copying what I have here to the next frame.
+[00:02:57] Now continuing the thing I'm doing.
+[00:03:02] So now I am increasing the spacing of this carving on this side and on this side too.
+[00:03:11] But again they have different amount of how much it's carved here and also here do the same thing.
+[00:03:22] Carving it a little bit more here too and also adding new break here.
+[00:03:34] Now again copying this frame to the next one.
+[00:03:42] Again carving more, increasing the spacing here, also carving it.
+[00:03:52] This one will be carved more here too from this side.
+[00:04:00] This one can be faster, the increase of carving is faster.
+[00:04:09] Here it's a little bit smaller.
+[00:04:13] Here it starts to break.
+[00:04:16] Here it continues to break.
+[00:04:18] Again copying, pasting.
+[00:04:25] Again here we can slow down the carving a little bit just to add a final little stop on this position.
+[00:04:38] And here carving, carving a little bit and looking at the previous frames, what's going on with the spacing there.
+[00:04:50] And this one also can start to slow down the amount of carving.
+[00:04:59] Here too.
+[00:05:01] Okay, copying, pasting.
+[00:05:11] So it's something in the monitor.
+[00:05:15] Oh no, it's in the previous frames.
+[00:05:18] Okay, so this one can be deleted already.
+[00:05:21] This one can stay a while longer.
+[00:05:27] This one is still here for a little bit.
+[00:05:34] This one is slowing down.
+[00:05:38] Okay, again copying, pasting.
+[00:05:44] This one is gone.
+[00:05:46] This one is still here for a little bit.
+[00:05:50] As well as this one.
+[00:05:53] Again copying, pasting.
+[00:05:59] This one is gone.
+[00:06:00] And this is the final little piece.
+[00:06:04] And here we can see how it looks.
+[00:06:09] Yeah, so now we broke the shape into the pieces and it's gone at the end of our animation.
+[00:06:20] So again, things to think about while you're breaking the shape is trying to make the timing differences between each break you add.
+[00:06:33] Add some size of the break differences, some timing differences, how each piece is being carved out this time.
+[00:06:44] So add a little bit of variety here and there to make it look nice.
+[00:06:49] Okay, so the next step we will make this thing move with the time.
+[00:06:54] So here I'll try to just use the same layer to not get too complicated with it.
+[00:07:11] So here I match the timing that here we start breaking the shape and on my recreation too.
+[00:07:19] And we see the shape from these frames so all the previous can be gone.
+[00:07:26] And I will need copies of this frame for each of these frames here.
+[00:07:33] So I have like the same shape that stays here but now it's individual frames with it.
+[00:07:40] Okay, now to get this thing appear from small size to the biggest size.
+[00:07:46] I will go backwards from the last frame to the very first frame and we'll make each frame smaller and smaller to the least small size.
+[00:08:00] We can think about it like this.
+[00:08:03] So we have, if you would go from start to the end, we would think that like at the beginning we have big amount of size increasement.
+[00:08:15] And then it's like decreasing and stays almost the same to the very end.
+[00:08:23] And as I will be working backwards, I will decrease the size of this motion smaller and smaller each time.
+[00:08:35] So here is like the final position of my dot here, the leftovers from my circle shape.
+[00:08:46] And on the previous frame I will make it slightly smaller.
+[00:08:50] I will change the pivot of my transformation to be in the center of the screen and decrease the size very slightly, like it's almost the same.
+[00:09:05] At the previous frame I will do the same, like decrease the size very slightly.
+[00:09:14] So when we will go forward it will be like it's almost stays in the same position, maybe even a little bit less.
+[00:09:27] Okay, for the another previous frame again I'm still doing the decrease of size very slightly just to make the last bits be more seen.
+[00:09:45] Okay, previous frame again a little bit smaller here, a little bit smaller again.
+[00:10:04] Okay, the previous frame slightly bigger spacing between the frames, again slightly bigger like this.
+[00:10:38] And the very first frame we see the circle will be like this.
+[00:10:44] Now when we are moving forward with each frame our spacing is decreasing and we can see how it looks.
+[00:10:54] Okay, so we added motion to our circle dissipating and now what we will do, we will add different copies of the same circle with different rotations around the center of the circle to make the dissipation look a little bit different for each of these circles.
+[00:11:24] So I will create three copies of my layer with animation and change the timing between them.
+[00:11:35] And we have like this ripple-like effect.
+[00:11:43] But right now we have the same points of the break like in the same positions like here we have the break and now the second circles also break there.
+[00:11:56] To make it a little bit more interesting we can rotate the whole animation for our layer copies.
+[00:12:05] So I will turn on editing of the all frames of my layers, turn on the onion skin just to see what I'm rotating.
+[00:12:19] Changing the pivot to the center and rotating it slightly here so now it's already a little bit in different spots breaking.
+[00:12:38] And I'll do the same for the third copy, rotate it to the different side.
+[00:12:46] And now we have like three copies of the ripples that are slightly different.
+[00:12:56] Oh no, I rotated the last one a little bit not around the center, I think.
+[00:13:05] It should be somewhere here. Yeah, okay.
+[00:13:13] So what we else can vary here is the timing if you wish to so we can make for example the last bits of the ripple stay a little bit longer for our last circle.
+[00:13:30] As you wish like we can just add a little bit of variety of how these things appear disappear just with editing the same animation we have.
+[00:13:44] So last thing I wanted to do with this is to now apply the scale on one axis to make it look like it's going on in perspective.
+[00:14:00] So to do this we can select all our layers, again select to make it apply to all the frames, I'll turn on the onion skin.
+[00:14:11] I'll select this all and just squish them horizontally, make them slightly bigger in general.
+[00:14:23] And we have like this ripple effect now kinda in perspective, which is pretty cool to like look at it as a guide.
+[00:14:37] For example, if you want to make some more complicated ripples on top of them, like some more detailed with thickness to the edges and stuff,
+[00:14:49] but also for some cartoony styles it can beat like it is the ripple.
+[00:14:55] So yeah, it's kinda interesting way to make something appear in perspective is to just make it work from the top side and then squash it.
+[00:15:11] So yeah, creating like this kind of motion plus dissipation while breaking things into pieces can be quite hard to handle like from the start,
+[00:15:24] like if I wanted to draw this kind of perspective and ripples going on just as it is right now,
+[00:15:30] but if we break it into easier steps and work through it, it can help a lot like to not get lost in all of this.
+[00:15:41] And it can be like literal step by step as we did here, or it can be something that you do in your mind while you're working on effects.
+[00:15:49] So we are thinking like about the motion, then about the dissipation and stuff.
+[00:15:53] So it's like a very powerful thing to do.
+[00:16:00] And again, this principle can be applied to a variety of potential effects.
+[00:16:05] We can go with create another layer.
+[00:16:12] Yeah, so it can be applied, for example, to lasers if we have like some kind of straight line that appears and then it's breaking into the pieces.
+[00:16:25] And then again, with each like next frame.
+[00:16:32] And again, you can do it while working on one thing at a time and adding motion later or just like adding motion while you are drawing this stuff.
+[00:16:46] It can also be applied to something like electricity.
+[00:16:49] And with this one, you can think about like, for example, some motion start, how it's like strike somewhere.
+[00:16:59] And then it can bend a little, can like slow down the bending process, something like this.
+[00:17:16] And then like again, firstly thinking about motion, then you can add some more electricity looking shapes on top of it to make it look like electricity, some more hard edges and stuff.
+[00:17:41] So then it's like starting breaking here, like continuing the motion, maybe another break appears here, here.
+[00:17:58] So now just if we add some blinking, as the electricity does sometimes, we can already have some electricity animation, which is basically just motion that breaks into pieces and goes a little bit smaller and blinks time to time.
+[00:18:37] Yeah, so like this idea is very versatile to different effects.
+[00:18:43] And it also can be applied not only to like line looking stuff, but also to something more volumetric, like this kind of cloudy shapes.
+[00:18:55] So the idea here will be that we are working with volumes.
+[00:18:59] So when we break stuff in, it breaks into volumes too.
+[00:19:06] So for example, here I started with two volumes, already like this one bump, bigger bump, here it's also still two volumes.
+[00:19:25] But then, while it's moving, I am adding new bump that tells me that there is like another volume in which it breaks too.
+[00:19:35] Here it's more prominent already, like this new bump.
+[00:19:39] And here we can see how it's like slows down in different timing from the main volume we had before and continued the motion.
+[00:19:49] And here at this frame, like I want to break this big shape also into two smaller pieces.
+[00:19:57] So I am showing a new bump that is appearing here.
+[00:20:01] And now it's more prominent that it's two volumes.
+[00:20:05] And now they like dissipating independently from one each other.
+[00:20:12] Yeah, and again, like it's going to be anything you can imagine, like water stuff is basically breaking the main volume of the like watery shape you have.
+[00:20:31] Let's say it's some water.
+[00:20:35] And then you like break it with each frame into smaller like pieces, some water droplets, bigger and smaller, and then they move independently as separate droplets instead of like this one big volume.
+[00:20:59] So yeah, this principle is very versatile and it helps to make things disappear in some interesting ways, combined with this previous idea we had that we make things be smaller to disappear.
+[00:21:20] And it can be applied to like simple shapes and effects like that look like lines.
+[00:21:27] Or it can be applied to more volumetric ones as the last example.
+[00:21:33] And all these things will be also very useful for the idea we'll be talking about in the next video too.
+[00:21:39] They will be current shapes to make them disappear, like working with negative space.
+[00:21:45] So see you there.
+[00:21:47] Bye.

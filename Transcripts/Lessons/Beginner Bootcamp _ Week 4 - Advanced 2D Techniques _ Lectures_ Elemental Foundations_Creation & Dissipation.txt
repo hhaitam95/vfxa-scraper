@@ -1,0 +1,170 @@
+[00:00:05] Hello, and welcome. We are going to be covering creations and dissipations. One of the things
+[00:00:14] when doing effects work is lots of times you're going to have to create effects that comes
+[00:00:22] out of nowhere and usually at some point, depending on what it is you're animating,
+[00:00:30] disappears or resolves itself. And this lesson will go over the basics of how to do that.
+[00:00:37] So let's go on to the first slide. So like I just said, creations are used to get effects
+[00:00:53] onto screen. A popular way to do that is through a kind of animation I call a burst. It happens
+[00:01:04] very fast. We burst the effects onto the screen. One of the things we use in animation is timing
+[00:01:13] charts. Timing charts are just a way to visually represent placement and duration of drawings
+[00:01:27] in animation. So if this is frame one, and this is frame eight, throughout the duration
+[00:01:43] of these eight frames, the distance the effect travels during this burst is very close to
+[00:01:58] itself and then very fast, we go into an ease in at the end. So creation, we would have
+[00:02:21] this as frame one. By frame two, we have established the body of the fire. Actually,
+[00:02:43] now that I'm thinking about it, this timing chart is a little bit wonky. It should be
+[00:02:48] like this. Frame one, frame two. From this point, we start to talk about what happens
+[00:03:04] in the dissipation. So for this particular slide, where we're dealing with creations,
+[00:03:09] it's not applicable, we'll get into that right away here. Depending on the effect that
+[00:03:17] you're working with, the burst can be a very creative frame. So if we were dealing with
+[00:03:26] fire, you can go with what your natural instincts are for what fire should look like at a smaller
+[00:03:34] level. However, it's good to do this. And it's play around with different shapes and
+[00:03:39] approaches to the burst frame. The burst frame is quick. It will happen within the
+[00:03:46] first one or four frames. And then by, you know, frame anywhere from frame two to five,
+[00:03:54] we want to have the the drawing and the design for what we're animating into established.
+[00:04:05] So doing something like this can be cool. It gives a really burst, a bursty feeling.
+[00:04:12] It's not so much an expansion of fire, like this would be more of an expansion. This would
+[00:04:17] be more of a burst, especially if like something like this, if we if we scratch out frame two,
+[00:04:24] something like this was frame one, and then two, three, and this was four, this would
+[00:04:30] be more of an expansion. And if this is frame one and two, this would be more of a burst.
+[00:04:38] This feels really energetic. On top of that, you can fool around with the idea a little
+[00:04:45] bit further, and have something like this where you just play with some of the shapes
+[00:04:52] on a single frame or two. And then scrubbing the animation playing the animation, you just
+[00:05:00] see how it feels. So if we had something like this, for frame one, and then we went
+[00:05:09] to this for frame two, we basically squashed and stretched the animation on frame two before
+[00:05:19] coming into frame three of the fire. It's going to give a bit of a jittery feeling because
+[00:05:26] it's going to be expanding and compressing before going into our final fire look and
+[00:05:34] design. It might be what you're looking for. It might not be applicable. It depends on
+[00:05:43] if you want to add in some jerkiness. We can also change the order of this rather than
+[00:05:48] going from long to squished to our final design. We can play it just like it is here.
+[00:06:00] And this acts a little bit more like an anticipation to the burst flame, which then expands into
+[00:06:08] our final. And this can be cool too. It's all just different looks and different approaches.
+[00:06:15] The most important thing with creations is that you play around with it and get a feel
+[00:06:20] for what the frames will do for you when approached and placed in certain areas. And
+[00:06:29] that way you can add it to your toolbox. So you know when you come across an effect that
+[00:06:36] needs something that is a little bit more jittery, you know that you go frame one, frame
+[00:06:42] two, frame three, or you know, frame one, two, four, whatever may be required. Creations
+[00:06:51] are generally not that big of a deal. They are there and needed. So it's good to get
+[00:06:59] to know them. But they are not as important as the next slide, which we are going to be
+[00:07:07] getting into dissipation. I'm just going to read this verbatim. Dissipation in its
+[00:07:16] simplest form is just the way of getting rid of an effect. Effects in a production should
+[00:07:21] always serve a purpose. Once that purpose is served, there probably isn't a good reason
+[00:07:26] to keep an effect around. It may be gotten rid of in the same scene it was created in,
+[00:07:31] or it may need to be gotten rid of over a series of a couple scenes in a sequence. Dissipations
+[00:07:37] are the most labor-intensive but visually appealing way of doing this. In its most basic
+[00:07:43] form, shrinking a shape until it's okay to be removed from the screen technically is
+[00:07:49] a dissipation. The water droplet being the best example of the simplest dissipation.
+[00:07:57] So this may look familiar to you if you're an animation student, as this strongly replicates
+[00:08:03] a bouncing ball. The bouncing ball you're also dealing with, not necessarily, I wouldn't
+[00:08:09] call it a creation, but you're playing around with the squash and stretch of the object.
+[00:08:20] And then you have your timing, your squash and stretch, and then you shoot the ball back
+[00:08:28] up and you go back into the timing of the arc at the top. We use a lot of the same kind
+[00:08:38] of thing where we have the creation because this will be frame one and there's nothing
+[00:08:48] on screen before this burst into the droplet. Over the course of the arc, this is the slowest
+[00:08:59] part of the arc, right? And then once gravity takes over, it starts to fall. However, unless
+[00:09:11] you're specifically going for it, you don't want to keep the droplet on frame until it
+[00:09:20] falls off frame. You might need to get rid of it a lot sooner and that's where the dissipation
+[00:09:26] comes in. Like we said in the simplest form, and we'll go over more complicated forms here
+[00:09:32] shortly, but the simplest form for this is literally just shrinking the droplet until
+[00:09:38] it poofs off screen. When you play this as animation, it looks natural. It looks like
+[00:09:45] the water is wicking off and dissipating and it's a good reliable way of getting rid of
+[00:09:52] water. Let's crank up the difficulty a little bit when dealing strictly with dissipations.
+[00:10:07] One of the things I like to incorporate into the lessons are not necessarily, I never go
+[00:10:14] with a right or wrong way of doing things. It's only approaches. And what I'm trying
+[00:10:20] to get across in these lessons is approaches that I have developed that I find useful in
+[00:10:28] order to visualize what I'm trying to accomplish. So this is a little bit of combining the creation
+[00:10:36] with the dissipation and a really good way to visualize this is with the ripple. So the
+[00:10:44] blue we have in is the creation of the ripple and then the red will be the dissipation.
+[00:10:51] And in order to dissipate a ripple, what we want to do is create the form. So this whole
+[00:11:05] thing would be filled in. And this is technically an ellipse. It's not a circle. However, you
+[00:11:16] can do this as a circle. The reason I bring that up is because after creating the form,
+[00:11:23] it's traveling out as a ripple. It travels out in all directions. But we don't want it
+[00:11:32] traveling out in all directions forever. So once the ripple reaches a decent size, that's
+[00:11:43] suitable for what it is you're trying to accomplish in the animation. And you have to keep in
+[00:11:49] mind that as we're dissipating it, it's going to continue to move out. So if your final
+[00:11:55] frame can't be any bigger than this, you want to make sure that you start the dissipation
+[00:12:01] by giving yourself enough breathing room in order to do more frames. But at a certain
+[00:12:07] point you start the dissipation, which for this example as just a very simple ripple,
+[00:12:15] we're just going to stick with ellipses. I mean, you can get into more complicated things
+[00:12:21] where you start giving the dissipation shape a little bit more texture. And you can do
+[00:12:29] that with the positive side of the ripple as well. I mean, you can go a little bit crazier
+[00:12:36] with that, but we're not going to deal with that now because we just want to get across
+[00:12:41] the concept of the dissipation. So we're basically making a donut. As this positive
+[00:12:54] shape is traveling outwards, it needs to slow down because a ripple, the larger it gets,
+[00:13:05] it starts to lose energy, right? So the outer portion of it needs to slow down. There might
+[00:13:10] be cases where the outer portion, and this might be with some kind of effects animation
+[00:13:20] that's not a ripple, but you still have to dissipate it. The outer portion might never
+[00:13:25] slow down. It might continuously be traveling outward, in which case the dissipation, it
+[00:13:33] needs to travel even faster in order to catch up with the creation. But for the case of
+[00:13:39] the ripple, the outer edge will, after so many frames, slow down. And then as we expand
+[00:13:49] the negative, the distance between the beginning of your dissipation and the edge of your positive
+[00:14:00] space, because remember this is all positive space, this is going to shrink frame by frame.
+[00:14:09] And if you don't have this distance shrinking, you're never going to end up dissipating because
+[00:14:16] this will just end up perpetually chasing the edge. And if you don't do this smoothly,
+[00:14:28] if it's like, if these are frames and it's jerky like that, especially for a ripple,
+[00:14:39] it's not going to look smooth, it's not going to look good. But when you nail this, this
+[00:14:45] will be shrinking, right? This positive space will be shrinking and it will shrink to the
+[00:14:50] point where there's almost nothing left except for maybe a line. And then from that point
+[00:14:58] on frame by frame, you can either thin the line out until it gets so thin that it just
+[00:15:09] disappears or over the course of frames, you know, these being frames, you have to
+[00:15:17] shrink the line and it doesn't have to shrink from both sides. It can, it can shrink like
+[00:15:28] this or the other side or, or from both sides. Like we've, like I'm demonstrating here, it's
+[00:15:37] totally up to you. It's totally about what looks right, what feels right. And then up
+[00:15:45] here is just another representation of the same, of the same idea. We have the positive
+[00:15:50] space being formed. The leading edge slows down as the ripple edge catches up. And then
+[00:16:05] you're dealing with the same thing with the shrinking, the shrinking line. You want to
+[00:16:11] make sure you toss in some flavor to it. It's not just a line that shrinks. Some pieces
+[00:16:18] will stick around longer than others. You know, this idea, this concept can be put forth
+[00:16:29] to anything that you're trying to dissipate, but in essence, this is what you're trying
+[00:16:34] to accomplish with a dissipation. Moving on to the next slide. So we're ramping up the
+[00:16:48] complication in terms of the dissipation. Before in the last slide, we were dealing
+[00:16:54] with the simplest design and the simplest idea, the simplest representation of the dissipation,
+[00:17:03] which is just a expanding circle of negative space. Now, what if we take this and layer
+[00:17:09] up the complexity a little bit? It's still the same idea where you create the positive
+[00:17:18] space and you inject negative space. This would be negative space opening up to swallow
+[00:17:30] the positive space. We're still taking that same idea of the circle, but in this example,
+[00:17:39] we've just complicated it. I've, I've complicated it even further by putting little droplets
+[00:17:46] because this would be like a splash or something like that, like a full radial splash. But
+[00:17:54] if we were just to stick with the dissipation of the circles, we are now changing some of
+[00:18:03] the shapes of the circles and we're starting to have them overlap. So even though visually
+[00:18:12] this looks like this, because this is all negative space, it's like they join together.
+[00:18:22] This is on the brink of doing it. And we can see here that these have crossed and we'll
+[00:18:31] say for this example, we'll say these have crossed. So now we end up with a shape more
+[00:18:39] akin to this. Always growing to start to eat up the positive space. And if we continue
+[00:18:49] adding these circles of dissipation, even though these three beginner circles, well,
+[00:18:58] we started out as two, but these three beginner circles are always growing, always expanding.
+[00:19:03] We're adding in more. So by the end of it, we have a lot of space dissipated. And basically
+[00:19:15] there's only these pockets of positive space left. And then like a couple slides before
+[00:19:26] when we were talking about the droplet dissipation, these shapes are going to dissipate into something
+[00:19:42] a little bit smaller. And then eventually, if it's water that we're dealing with, eventually
+[00:19:54] you cut them down to droplet size. And then we do the same thing that we learned a couple
+[00:20:00] slides before. If they're not going to stay on screen, we just shrink them off until by
+[00:20:12] frame four, they just go poof. And then that would be a way of doing a more complicated
+[00:20:18] dissipation with water instead of a ripple that dissipates into nothing rather than the
+[00:20:25] ripple and the line. This would go into more of a droplet form. So when we scale up a design
+[00:20:37] to include things like shadow and layers of depth, let me turn this off while trying to
+[00:20:44] focus on interesting negative shapes, overlapping lines and maintaining variation of size while
+[00:20:50] continuing to track and follow the shapes of the positive part of the effect, things
+[00:20:56] can get complicated fast. Breaking down the principles you're trying to work on into simple
+[00:21:01] ideas, then mastering those before increasing your ambition and scaling up design will always
+[00:21:07] garner you the best results. This is something that is what's on screen here is something
+[00:21:15] that is quite complicated. This would be like a kind of smoke because we're dealing
+[00:21:22] with two different layers. We have this foreground layer with shadow and then we have this background
+[00:21:29] layer that is unshadowed. You could ramp up difficulty and put a shadow on the shadowed
+[00:21:39] area and do stuff like that. But then frame by frame, these negative pockets expand until
+[00:21:50] we're just left with frames, depending on the design and stuff you're going with, but
+[00:22:00] frames of smoke that's breaking down slowly until it gets smaller and smaller and then
+[00:22:07] just disappears. So because we talked so much about the ripple, let's do it. That will
+[00:22:20] be this lesson's assignment. I've given you the option of dealing with several different
+[00:22:29] degrees of difficulty depending on where you're at and your reasons for watching this lesson.
+[00:22:37] That'll sort of dictate where you want to try to go with this or if you're feeling ambitious
+[00:22:41] and you want to really challenge yourself, you can always pick up one of the harder difficulties,
+[00:22:50] but I believe I explained it pretty well in the other slides of what you're going for.
+[00:22:58] Now it's just about creating a design for yourself and then executing it over the course
+[00:23:02] of your animation. You'll find out pretty quickly if your ripple looks and feels like
+[00:23:10] a ripple because chances are you're going to, if you don't do a top down, if you do
+[00:23:16] like a three quarter down, like the drawings on screen here, you're going to be dealing
+[00:23:20] with trying to control the spacing in between your ellipses. That can be very difficult.
+[00:23:31] And you're probably going to be surprised at the amount of frames it takes to do a ripple.
+[00:23:38] And ripples slow down, they slow down quite a bit and they usually take quite a bit of
+[00:23:42] frames. But as you're scrubbing and playing your animation back, you'll get a feel for
+[00:23:48] what's appropriate or not. So jump into it, have fun, conquer the dissipations, conquer
+[00:23:56] the creations and you will be a better effects animator for it. Thanks for listening.

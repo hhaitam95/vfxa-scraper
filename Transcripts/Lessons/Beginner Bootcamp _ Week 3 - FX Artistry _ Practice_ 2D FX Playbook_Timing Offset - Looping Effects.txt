@@ -1,0 +1,137 @@
+[00:00:06] Hello everyone, in this video we will talk about loops.
+[00:00:10] So the main challenge in loops is to make it invisible where the loop starts and where
+[00:00:15] it ends and the motion needs to be flowless around these points and to be connected throughout
+[00:00:22] the whole sequence.
+[00:00:24] And we can make it happen different ways.
+[00:00:26] Today we will look at the first one, where we make some shapes appear and disappear with
+[00:00:33] an offset in timing.
+[00:00:35] We can imagine this in this kind of graph or scheme.
+[00:00:40] So we have frame A, which is the loop start, and frame B, which is the loop end.
+[00:00:47] And it's looping continuously, repeating itself.
+[00:00:52] And we have two motions, motion 1 and motion 2, which are set with the offset.
+[00:00:58] And motion 1 starts at the start of the loop, ends roughly around the end of the loop.
+[00:01:04] But the second motion, it starts in the center of the loop and then continues to the center
+[00:01:11] of the loop again, throughout this connecting point of the loop.
+[00:01:16] And in this particular effect we have these two blobs of smoke or something appear.
+[00:01:25] So we have motion 1 is the blue blob that goes from left to right, and then roughly
+[00:01:34] in the middle of the loop the second purple blob appears and then disappears roughly around
+[00:01:43] the center of the second repeat of the loop.
+[00:01:48] So let's recreate it.
+[00:01:51] I have already my floor layer, which is just a rectangle of white color with the line at
+[00:02:01] the top to make it easier to work with these big shapes and not get bothered with the straight
+[00:02:09] line in the bottom.
+[00:02:12] And I have my guide layer, which shows me the point of force and how my shapes will
+[00:02:18] go from there.
+[00:02:20] In this video I will use the fill tool for drawing.
+[00:02:25] So to turn it on, you can go to the tool properties and press this button, which calls
+[00:02:33] after fill, and it will automatically fill the inside of your stroke if your stroke is
+[00:02:40] connected.
+[00:02:41] So the start of the stroke should be connected with the end of the stroke to get this automatic
+[00:02:48] fill.
+[00:02:49] It can be a little bit tricky when you draw fast to connect the lines.
+[00:02:55] To make it easier you can press Ctrl, which will automatically connect the end and the
+[00:03:01] start of your lines.
+[00:03:04] And this way you will get these connected lines every time and you will get the after
+[00:03:09] fill also every time.
+[00:03:13] This tool is also available in the ToonSquid program of animation and in Krita.
+[00:03:19] I'm not sure about the other programs which have like this tool, but you can use any drawing
+[00:03:26] technique of your liking, doesn't matter that much.
+[00:03:29] For me it's just a little bit faster with this one and I just have a lot of fun using
+[00:03:35] it.
+[00:03:36] And yeah, let's go to the loops part.
+[00:03:42] And yeah, let's create some frames.
+[00:03:45] I'll just draw a little bit in each of it to create it and then we have these one, two,
+[00:03:54] three, four, five, six frames.
+[00:03:57] In 10 Boom you can mark your frames.
+[00:03:59] You can press right click, mark frame and I will mark my start of the loop as red and
+[00:04:07] the end of the loop I will mark as orange.
+[00:04:11] And now I can select these frames, press Ctrl C to copy them and Ctrl V to paste them.
+[00:04:18] This way when I will be drawing in the first frame it will automatically appear when my
+[00:04:25] loop repeats itself and that will help a lot with looping my motion throughout the whole
+[00:04:32] sequence because I have exactly two repeats of my loop frames here and I can draw not
+[00:04:40] only looking at this one repeat of the loop but in two repeats.
+[00:04:48] Anyways, so I will delete this.
+[00:04:52] If you work in different program you might need to just manually copy your frames for
+[00:04:58] the second repeat to make it easier to loop the stuff.
+[00:05:04] So yeah, let's start with first blob appearing, the blue one.
+[00:05:11] I will create a shape for it, okay, it's too big of a brush, this one.
+[00:05:17] So yeah, it just appears here and now, as always, I will set up my layer to be a bit
+[00:05:29] opaque, a bit with alpha, so I can see better my onion skin.
+[00:05:36] So yeah, the next frame goes a bit forward and grows, something like this.
+[00:05:48] The next frame grows even further, goes up a bit and the next frame it starts to fall
+[00:06:03] down to disappear like this, the next frame.
+[00:06:12] Here I can see that I space the movement forward to get more speed.
+[00:06:24] So like here it's a light move forward, here it's bigger, it's bigger and here it will
+[00:06:33] be again bigger, this shape goes lower and this side we can start to slow down to not
+[00:06:44] make this part go off the edge of my canvas.
+[00:06:50] And in this frame it again goes lower, something like this.
+[00:06:59] Okay, so it's my last frame of the loop, but I need to continue my motion further at
+[00:07:08] the start of the loop.
+[00:07:10] So now this blob continues to grow smaller like this and here we can just kill it, there
+[00:07:24] is no this blob anymore.
+[00:07:27] And now we can see how it works here with just one shape and to make it appear more
+[00:07:38] gradually as we have like at the end it gets pretty small before it disappears, we can
+[00:07:43] work with how it appears before the first frame of the loop, so I use my second repeat
+[00:07:49] of the loop, go one frame back and now work with how it gets into the size of the frame
+[00:08:02] like this, one more frame like this, even one more.
+[00:08:11] Okay, so now it's like growing from smaller size and disappears into small size too.
+[00:08:17] So the first loop of first shape is done, now let's do the second one.
+[00:08:27] So the second one, I started animating it in the, I guess it was this frame actually,
+[00:08:35] and as it is the first motion we did, it started as this kind of shape.
+[00:08:45] And now for the next frame, to make it easier to work with it I will turn off my onion skin
+[00:08:53] forward, only backwards, and yeah, to make like more difference between the first motion
+[00:09:01] for the second motion, here we see that it has like these two blobs, just to make it
+[00:09:07] more interesting to look at, so I'll try to make it here again.
+[00:09:20] So it grows into two blobs, now it continues to grow.
+[00:09:33] So while we work with these loops and with offsetted motion we want our general shape
+[00:09:41] to be connected, so it would not be pretty obvious that we have like one motion and second
+[00:09:47] motion appear, so here I like continuing this blob a little bit further to connect between
+[00:09:54] these parts in the loop, but if you want to have something more detailed and smaller you
+[00:10:01] can just add more motions with more offset to like close these gaps between your shapes.
+[00:10:11] Anyway, so this second blob goes down already and continues to go down like this, maybe
+[00:10:23] I'll grow the second one bigger, oop, okay, now this one goes down, this one pushes further
+[00:10:42] a bit, this one goes lower, maybe this should be a bit higher, and now, so this we push
+[00:10:59] a bit forward, I'll make it slightly bigger to show how it's like being pushed, but by
+[00:11:08] this first blob, now the first blob disappears and this one starts its second phase of disappearance,
+[00:11:23] and here I got to the end of the loop, so I will get to the end of the loop in the middle
+[00:11:29] of my timeline to see again how it goes further throughout the loop, and just make it, maybe
+[00:11:39] it can be killed after this frame, so now we need to see how it starts again, so I go
+[00:11:46] backwards, from the moment we make this shape appear, and add how it appears more gradually,
+[00:11:57] maybe here, small blob, and now we can look how it works in the cycle.
+[00:12:10] So yeah, main shapes are done, and now we can add these smaller bits at the start, here
+[00:12:18] is the same idea, but they go up and dissipate in the air, just to make this motion more
+[00:12:26] interesting and the shapes more diverse.
+[00:12:32] So here the same, like, we can start that this blob just appears at the start of the
+[00:12:39] loop, then it goes, oops, sorry, trying to correct my onion skin, then goes upper, still
+[00:12:53] stretched, then it starts to disappear, goes into the smaller shape, and disappears.
+[00:13:02] Now we can, like, time where the next blob will appear, so here I spawn the next one
+[00:13:13] from here, it's like in the next frame, here it goes forward, goes smaller to disappear,
+[00:13:27] even smaller, even smaller, and it's gone.
+[00:13:32] Now on the third frame I again spawn another one, goes further, maybe, oops, slightly bigger,
+[00:13:47] further again, starts to go in smaller, even smaller, and it's gone.
+[00:13:57] So we have here one, here one, here one, and the next one we can spawn it, again here
+[00:14:08] one, okay, so we can start spawning it actually from here, the small one, can go further up,
+[00:14:23] further up, smaller, smaller, and gone, and here we can see that these two are now too
+[00:14:33] similar in similar places, so we can correct it a bit.
+[00:14:41] So I will make this one go even higher from here, just for it to be easier to, like, see
+[00:14:56] that there are different ones.
+[00:14:58] Okay, and there should be another one that I forgot, it's this one here.
+[00:15:06] So it also appears, continues moving forward, starts to be smaller, smaller, and it's gone.
+[00:15:24] So yeah, as we did with the big blobs, while we were in the small ones, we also, like,
+[00:15:30] want them to start with an offset and to end with an offset, so it would be, like,
+[00:15:37] some variation and, like, an additional flare to the overall loop.
+[00:15:43] Can make this layer to be 100% visible to see it fully, how everything goes.
+[00:15:54] So yeah, we are done with this loop.
+[00:15:57] This approach is very versatile and you can, like, continue to make the loop more and more,
+[00:16:02] like, complicated, maybe add secondary color to add some volume to the shapes and stuff,
+[00:16:09] and it can be used in different animations with different elements.
+[00:16:15] For example, I used the same idea for this loop, where I have three different lightnings
+[00:16:21] appear, but some parts of the previous lightning is still visible while the second one appears,
+[00:16:28] or, like, in this loop it's basically the same idea as if something appears and disappears,
+[00:16:33] but it's just with more complicated shapes and in different, like, the force lines are
+[00:16:39] not to the side but up, and I used the same idea here, but here I actually spawn one shape,
+[00:16:48] it's one wave, but just the second appearance of the wave starts when the first appearance
+[00:16:56] of the wave still dissolves back.
+[00:16:59] So yeah, it can be used for various effects and various ideas, and I hope that you will
+[00:17:07] have a lot of fun with it.
+[00:17:08] See you!

@@ -1,0 +1,78 @@
+[00:00:05] Okay, now let's talk about how to find horizon line and vanishing points from observation.
+[00:00:17] And in general, like what perspective to use if you are drawing something from observation.
+[00:00:25] So the first thing you need to think about is where you're looking from at your object.
+[00:00:32] Is this object facing its side to you directly, like in this example.
+[00:00:39] If this is the case, then you will use just one point perspective when you have a point in the center of the frame.
+[00:00:51] And if this is the case, you will also need to think about what side of an object you also see besides this one that is facing you.
+[00:01:06] So if you see this side, then you will put your object to the left of your vanishing point.
+[00:01:14] If it's to the right, then to the right. Or if you see this side, then it will be to the right of your vanishing point.
+[00:01:27] So this is the easiest case.
+[00:01:34] Now, if you are looking at your object from a bit of the top side or bottom side, like not directly to one of the sides, then you need to use two point perspective or three points perspective.
+[00:01:55] First thing to think about is if you see in the object that your lines are vanishing in three directions, then it will be three points perspective.
+[00:02:14] It's like kinda hard maybe to understand from description, but you can see more prominent in the buildings.
+[00:02:26] Like if you're looking at the town from a roof of the building, then you see it very prominent.
+[00:02:37] In all the other cases, you will use a two point perspective.
+[00:02:41] So in two perspective, we need to find where to put our horizon line.
+[00:02:49] We can put it in frame or outside of the frame, like a little bit to the top.
+[00:02:56] And we need to find the vanishing points, like how far are they from the frame or maybe, yeah, how far they are from the frame.
+[00:03:05] So to find the horizon line, the first thing you need to do is to think about your frame, like where is your frame that you want to put in your drawing.
+[00:03:22] For example, here's me and I'm looking at the object.
+[00:03:33] Here's my object, for example. I see it right here, standing on the table.
+[00:03:44] So I'm looking at this object and I'm putting my frame like this.
+[00:03:54] So I'm not that far high from my object. I still can see this top side.
+[00:04:04] I don't see the bottom side of it, so I know that I'm looking from the top side of you.
+[00:04:11] And now if I'll draw a line from my eyes, parallel to the actual ground, so this is the ground, and if this line intersects with my frame, so I'm looking at something.
+[00:04:33] And this, from my eyes, I can see this intersection in the frame.
+[00:04:41] Then my horizon line will be in the frame too.
+[00:04:47] So I can put it here and I will see an object, something like this.
+[00:05:02] Now, if I'm looking at the object again and I still see the top part, top side of it, but I'm putting my frame like this,
+[00:05:38] so I'm looking at this object from more high, and this line that goes in parallel with the ground is not intersecting my frame,
+[00:05:53] then this horizon line will be put in outside the frame.
+[00:06:03] So it will be like this. So as you can see, in this case, I see more of the top part of an object.
+[00:06:26] So in this case it was more squished. Here it's more wide and open.
+[00:06:34] So, and if I'll take this into the extreme where I'm looking at something that is really below from me, so here's my frame.
+[00:06:57] This is the situation where I'm standing on a building, this is house.
+[00:07:09] So in this case, I will definitely have a three-point perspective where I can see a lot of the top side,
+[00:07:26] but I also will see this kind of vanishing to the ground, to the bottom part of my frame.
+[00:07:38] So yeah, you can try to imagine this stuff when you're looking at a frame,
+[00:07:44] or just think about how much of the top side of your object you want to see in your drawing and differentiate it like this.
+[00:07:59] Okay, so this is with horizon lines. Now we need to find the vanishing points.
+[00:08:11] I can put it just like in general rules, like outside the frame, but I also can try to find them more precisely.
+[00:08:25] If I decided that I'll use two-point perspective, and from observation I see that the horizon line is outside of my frame,
+[00:08:39] I can already put, or imagine, like the horizon line.
+[00:08:45] Now to find the vanishing points, I need first to draw what I see, just what I see without restricting myself to the grid.
+[00:09:00] Just to try to capture the stuff, they see how much of the sides they see, like what is going on there.
+[00:09:17] Okay, so as you can see, this cube is kind of broken, so now what I need is to, like from what I drew already,
+[00:09:27] to see where these lines will go and where will they intersect with my horizon line.
+[00:09:38] So this line would go somewhere here, this line is messy, so I'll look at this one, it's like here,
+[00:09:51] so I can see that my vanishing point that's on the right is somewhere like here,
+[00:09:59] and for this side it will be like this, maybe here, yes, so this vanishing point will be exactly here.
+[00:10:14] And here I will need just to decide where I want to put it, like maybe in the middle of this tool I drew already.
+[00:10:22] And now when I have this vanishing point, I can make my drawing more precise, like how exactly all these lines will go in my drawing.
+[00:10:44] So now my cube is not that broken, how it was when I just drew from observation.
+[00:11:09] And this is how it works, how we are finding these vanishing points.
+[00:11:16] So we talked about different perspectives, and knowing these rules will help you to better show from what angle you're looking at the object
+[00:11:27] and how exactly you want to show it to the viewer.
+[00:11:30] And I would suggest practicing all the simple shapes, cubes and cylinders in all perspectives to remember the principles of each better.
+[00:11:40] And while learning it, it's okay to just draw your grid with all of your lines that you need for every object you draw.
+[00:11:52] But in an ideal situation it's good to just use the main principles of perspective in your drawing and not to construct every line you do,
+[00:12:07] just to try to imagine where are your vanishing points and how every side will go in the drawing.
+[00:12:24] So it's not necessary to be super precise in your drawing, the main thing is to show the feeling of perspective in your drawing and don't break it,
+[00:12:35] but not to be super precise in every frame you drew.
+[00:12:40] So for the cubes or some objects that have a lot of sides, it will be just vanishing the sides that are going to one side into the one imaginary point.
+[00:13:00] And for the ovals it will be like, if it's closer to the viewer it's like more squished and the far from viewer it is it will be more white, etc.
+[00:13:17] And you can already draw some simple objects like maybe a cup, and again if I'm looking at this cup from the top side,
+[00:13:32] then somewhere will be my horizon line and the more close my oval is to the horizon line, the more squished this oval will be.
+[00:13:43] And then the bottom of the cup, which is the oval, which will be far from the horizon line, it will be more white, so this will be the case.
+[00:13:58] And also these rules you can apply not only to actual drawings that you do, like for construction some shapes,
+[00:14:08] you can apply these rules to the movement you're drawing.
+[00:14:15] So for example, if you have a circular movement that is going on below from the horizon line,
+[00:14:27] then you'll know that if it's really far from horizon line it will be more white oval.
+[00:14:36] If it's really close to the horizon line, then the movement will go in more squished circle, more squished oval.
+[00:14:47] And also with these cylinders, for example, if this would be an actual cylinder, I'll just extend this oval.
+[00:14:59] So with this already, for example, if your object is this big on the frame, you'll know that the closer it to the viewer,
+[00:15:12] the wider it will be, the bigger it will be. And if it's going into the perspective, the same object will be like this small.
+[00:15:22] So you can draw these cylinders or cubes and stuff, not just to show some cube and cylinder in perspective,
+[00:15:32] but use it as your guidelines in your drawings and create some interesting movements in perspective with these simple shapes.
+[00:15:45] So in the next part, we will talk about more complex stuff in two-point perspective,
+[00:15:51] like some intersections and more complex objects, and also try to rotate an object in that perspective.

@@ -1,0 +1,227 @@
+[00:00:00] Oh hey guys, welcome to the Artistic Principles of Visual Effects.
+[00:00:05] We've already talked about in previous videos gameplay and shape, and now we're on to the
+[00:00:10] third video about value.
+[00:00:12] Now if shape is the way to most clearly communicate what something is, I would say value is the
+[00:00:19] thing that you want to use to most easily get somebody's attention.
+[00:00:24] Looking at this image, it's just, even though it's in black and white, it's like whoa, like
+[00:00:28] I want to look right here in the middle because there's really really bright whites and really
+[00:00:34] really dark darks, and they're right next to each other which creates a lot of contrast
+[00:00:38] in the values, and that is eye grabbing.
+[00:00:42] So we're going to go over a few examples on how specifically that is done.
+[00:00:48] But first, an example of how not to do it.
+[00:00:52] Now the temptation is obviously to say, well hey, if value is the easiest way to get someone's
+[00:00:59] attention and the effect I'm working on is super important to show, then I'm going to
+[00:01:05] crank up the whites and crank down the darks and make that thing super eye grabbing.
+[00:01:09] But the problem is, when you have multiple effects going off all at once, like we do
+[00:01:14] in this old League of Legends screenshot, it becomes difficult to understand where you
+[00:01:19] should look.
+[00:01:20] So just be aware of that, that if you've already used up your budget of high contrast, high
+[00:01:26] value or low value spots, then the eye is going to have a hard time deciding how to
+[00:01:32] decipher what's going on or where it should look.
+[00:01:35] So looking into the style guide created by Master Jin Yang, we can see that League of
+[00:01:42] Legends has fairly well defined ranges for all the different types of things that go
+[00:01:48] into the game.
+[00:01:49] And these ranges in value are different for each thing.
+[00:01:52] So the way you read this, you look up here, the UI value range is just these really, really
+[00:01:57] high up to the bright whites.
+[00:02:00] The character range goes from here down to the pretty dark darks, it's like a little
+[00:02:05] more than the lower half.
+[00:02:07] And environment is generally darker, though character has the potential to go even darker
+[00:02:12] than environment.
+[00:02:13] You'll notice effects for League, and this doesn't have to be how it is in every game
+[00:02:18] by any means, but in League we decided to go with this because what this does is it
+[00:02:23] gives effects the opportunity to have the highest contrast, meaning the brightest brights
+[00:02:31] right next to the darkest darks in the same element.
+[00:02:35] Now that's not always true.
+[00:02:36] We don't always do the highest contrast in all of our effects.
+[00:02:39] That would be, like I mentioned in the previous slide, a big mistake.
+[00:02:44] But for effects that are especially impactful or abilities that are especially important
+[00:02:47] to see and need to be eye grabbing, we have the ability to explore that full range in
+[00:02:53] an effect.
+[00:02:55] And here's an example of how that's working in the environment.
+[00:02:59] You can see that the values of the effect in this example are listed here, and the character,
+[00:03:06] and the UI, and the environment.
+[00:03:08] And you can tell where the eye is supposed to look because of how the values are controlled
+[00:03:13] in this effect.
+[00:03:14] This is before any color is added or anything like that.
+[00:03:17] And we like to try to look at our effects in terms of value because we know that even
+[00:03:21] more than color, the values that we use are most critical to balancing out where we should
+[00:03:27] be looking.
+[00:03:30] Okay, so here's a nice example from Arcane Zigs done by the illustrious Brian Thompson.
+[00:03:37] So what we've got here is an example where there's some contrast going on.
+[00:03:43] There's some bright whites and some dark darks.
+[00:03:46] And over here, by adding a fuller sense of mid-tones and then a bright, nice, clear core,
+[00:03:54] and then it goes up to this nice dark, it adds this nice sense of magicalness and etherealness
+[00:04:00] to it that is definitely attention grabbing without being, what's the word, like hard
+[00:04:06] on the eyes.
+[00:04:09] Your eyes are being assaulted by the awesome, amazing contrast going on there.
+[00:04:14] So this is a nice balance that he was able to manage with that.
+[00:04:18] You can see also here there's extra elements around that are going on.
+[00:04:22] I don't know if that's on purpose or not, but just adding a little more variety and
+[00:04:26] a little extra touches into the effect can make a big difference.
+[00:04:32] Here again, by taking values and just popping them out in places, you can make it feel more
+[00:04:41] magical and then also having this nice glow around the outer edge.
+[00:04:45] This is something that is really easy to overlook because it's so subtle that it reads
+[00:04:50] at a subconscious level.
+[00:04:54] Adding this nice glow, and we're not talking about a lot.
+[00:04:58] It's surprising how little glow in your texture or in your bloom, depending on how you're
+[00:05:04] creating glow in your effect, how little you need to just add enough to give it that spiciness
+[00:05:12] of popping up and feeling magical and having this contrast to it.
+[00:05:20] Definitely those little magical elements can really help your effects feel like they're
+[00:05:25] not just pieces of geometry in the environment or painted cards in the environment, but that
+[00:05:31] they live in that environment.
+[00:05:33] They're casting light into that environment.
+[00:05:36] They are a source of energy.
+[00:05:40] Because they have that soft glow around them, the eye and the brain understands that yes,
+[00:05:47] this is coexisting in there and it is a glowing object in that world.
+[00:05:52] I hope that makes sense.
+[00:05:55] On this chart, this is a fantastic page.
+[00:05:57] This is maybe my favorite page in this section of the style guide.
+[00:06:01] What I love about this is it's illustrating pretty nicely because I'm a visual learner
+[00:06:05] and I love images like this where you see that this isn't pure white up here and this
+[00:06:11] isn't pure black.
+[00:06:13] That's something important to remember, right?
+[00:06:15] Remember back on the value ranges, I'll just pop back to there.
+[00:06:20] The effects don't go all the way up to white and they don't go all the way down to black.
+[00:06:24] You can't really tell, but black is like down here somewhere, right?
+[00:06:29] They come close, definitely close, and they're very light, but we like to reserve that white-white
+[00:06:35] for UI.
+[00:06:36] Plus, honestly, going clear up to white, it's a little hard on the eyes and that's especially
+[00:06:44] hard to avoid when you've got a lot of additive cards on top of each other.
+[00:06:49] You start to get white blown out areas going on and we like to avoid that because in these
+[00:06:56] examples you can see it comes pretty dang close to white but not quite there and the
+[00:07:01] type of energy is nice and clear because there's some restraint and it can hold back
+[00:07:06] from that.
+[00:07:07] Okay, so you can see that either by having really dark darks in the effect, like in the
+[00:07:12] dark smoke here, or by having bright brights in the effect, such as right here, you can
+[00:07:18] really grab the attention and this is an area of effect that you want to move out of before
+[00:07:23] it pops and this is signaling that Varus here is going to be casting a line shot missile
+[00:07:29] and you need to just be ready to juke out of the way.
+[00:07:32] So these are both pretty important things to understand and so cranking up the contrast
+[00:07:36] here is appropriate.
+[00:07:38] Alright, so then we get into the game changers and you remember in the first video about
+[00:07:45] gameplay we talk about game changing effects and what we have here is two examples of those
+[00:07:52] types of effects.
+[00:07:54] Both of these root you for an amount of time that feels fair, or feels totally unfair in
+[00:07:58] the moment, at least for me, because my old man eyes can't react fast enough to get out
+[00:08:03] of the way, I oftentimes get hit by these effects, but for those of us who are more
+[00:08:09] adept at seeing things in time and getting out of the way of them, it's important to
+[00:08:13] signal to those folks that something really important is coming and they should get out
+[00:08:17] of the way.
+[00:08:18] And you'll notice that the missiles have the highest contrast in the head and they fade
+[00:08:24] off in how much contrast they are towards the tail, right?
+[00:08:27] So the lightest light here is just the very solid grey and the darkest dark is pretty,
+[00:08:32] it's actually I think the same dark that's up here, but because the white is so much
+[00:08:36] brighter up here it creates higher contrast up here in the head.
+[00:08:39] And similarly over here where the darkest darks are here and then they kind of fade
+[00:08:44] off and then the brightest brights are up here.
+[00:08:46] So we can see that animated a few times.
+[00:08:51] And yeah, this is just super important to keep in mind as you're working on things like
+[00:08:56] what part of the missile do you really want to stand out up at the leading edge?
+[00:09:02] And then what parts of it can you kind of leave as flavor or parts that kind of fall
+[00:09:06] off?
+[00:09:07] Similar to the example in the previous video where there were the shapes that were bolder
+[00:09:11] at the front and then the shapes got more like subtle and fuzzy towards the end.
+[00:09:16] You can do that even more so with value contrast.
+[00:09:21] And then here we have the Varus missile, Heartseeker Varus firing this ultimate ability off that
+[00:09:28] you definitely don't want to get hit by because if you do you're hosed.
+[00:09:33] All right, so this can also apply in areas of effect and this is Headhunter Akali's shroud
+[00:09:41] where she's, and I think she's going to be reworked soon, but we'll see if this applies
+[00:09:47] anymore.
+[00:09:48] I don't know, she might have her shroud, she might not, right?
+[00:09:51] But anyway, this area of effect is important to realize because it has effects to enemies
+[00:09:57] that they want to be aware of so they want to stay out of it, but also it has really
+[00:10:01] important implications for Akali because when she's standing inside of it she's cloaked
+[00:10:05] and when she's outside of it she's not cloaked and can get jumped on and damaged.
+[00:10:11] So we've got the flavor going on, right?
+[00:10:13] The electricity, the lightning coming around, and then the nice technology radiating outward.
+[00:10:19] But at the end of the day we have even higher contrast towards the outer edge.
+[00:10:24] So you can still have flavor going on, you don't want it to be a game full of Venn diagrams
+[00:10:29] of just rings overlapping each other, right?
+[00:10:31] But you can definitely get away with some flavor as long as you're reserving it for
+[00:10:37] here and I would say that maybe it got a little bright in the middle, but that's still a pretty
+[00:10:41] strong example of defining a clear outer edge without drawing the eye too much into the
+[00:10:48] middle, except it is kind of hypnotic.
+[00:10:52] All right, so here again we have the example of too little, too much, and just right, I
+[00:11:00] guess.
+[00:11:01] So this is elemental flux firing an ability that again is super important to get out of
+[00:11:06] the way of and you think to yourself at first like, hey, I can see that, it's orange, and
+[00:11:11] it pops out plenty.
+[00:11:12] Well, the problem is twofold.
+[00:11:14] Number one, for colorblind folks out there that are watching this video right now, you
+[00:11:18] may have trouble seeing it at all because it's so stinkin' subtle and faint when you
+[00:11:24] start doing reds on greens and we try to be very conscious of that and when that happens
+[00:11:28] that we have an ability that's more reddish, we try to bump up the values.
+[00:11:34] But what we don't want to do is go too ham, right?
+[00:11:37] Because if you go to this extent, the real problem here is, you know, looking at this
+[00:11:41] guy, the whole, oh, that track bar is so annoying.
+[00:11:45] So the whole thing is pretty bright.
+[00:11:49] Not just out at the leading tip, right, not just up here, but the whole trail coming down
+[00:11:53] here has pretty high value to it and also pretty high contrast.
+[00:12:00] And so because of that, you don't know if you're walking along, if you can run through
+[00:12:06] the back of it or not, but really once the head of the missile is passed, you don't need
+[00:12:11] to worry about it anymore.
+[00:12:12] You can walk through that just fine and not take any damage, but it does look like the
+[00:12:17] whole trail of the missile is doing some kind of area of effect damage or something like
+[00:12:22] that.
+[00:12:23] So here we've got it just right.
+[00:12:25] And you'll notice that there's something added in this version where there's the dark smoke
+[00:12:29] wisps that come off the back of it.
+[00:12:31] And these add a nice flavor to it.
+[00:12:33] They add a nice contrast to boost up the head of the missile.
+[00:12:37] There's a hotter core that we didn't have here on this example.
+[00:12:41] I think that's just a simple globalt texture added in there.
+[00:12:45] And it's very readable and very clear that this is a missile that you do not want to
+[00:12:50] get caught by.
+[00:12:51] So we'll just leave it on this for just a second.
+[00:12:54] So you can see all of these in grayscale.
+[00:12:56] And a note on grayscale and getting videos to do this kind of thing.
+[00:13:02] If you want to work this into your pipeline, I highly recommend it.
+[00:13:05] It's been super valuable for us on League to take a hard look at our effects in grayscale.
+[00:13:12] Now a note on that in Photoshop or in After Effects, if you just simply switch to grayscale,
+[00:13:19] it doesn't do a fully accurate switch, at least in current versions that I've used.
+[00:13:25] It doesn't use a fully accurate switch over to grayscale.
+[00:13:28] It's like the values are a little off somehow.
+[00:13:32] But there is a way by changing the mode in Photoshop that you can actually get an accurate
+[00:13:37] transition to grayscale.
+[00:13:39] And if you don't know what I'm talking about, you can look it up.
+[00:13:43] I might leave a link in the description.
+[00:13:44] I don't know if there's any tutorial.
+[00:13:46] That's just something I heard by ear.
+[00:13:47] Just be aware of it.
+[00:13:49] Don't always trust the grayscale that you're seeing.
+[00:13:51] Because you might notice here that when I converted this in After Effects to grayscale,
+[00:13:58] it's different than this one here.
+[00:14:00] The values are different.
+[00:14:01] This one is more blown out, whereas this one is not as blown out.
+[00:14:07] So I think this is the accurate one, if I'm not mistaken.
+[00:14:11] So you get the idea.
+[00:14:13] All right.
+[00:14:15] So if you want to learn a little more about adding value depth to an effect, I did a tutorial
+[00:14:21] on the smoke wisp here, where you can see on the left, it's just solid shapes.
+[00:14:25] And then on the right, it has value variation, which helps accentuate the motion and draw
+[00:14:30] the eye a little bit.
+[00:14:31] It's a fun little tutorial that can kind of get your brain thinking about adding some
+[00:14:36] depth into all of your effects, and leaving points of highlight, and then points that
+[00:14:40] fade off, and so forth.
+[00:14:43] As always, I recommend heading over to the forum if you guys need any insight or knowledge
+[00:14:48] into something you're working on, whether you're working in Unreal or Unity or another
+[00:14:51] game engine.
+[00:14:53] There's lots of industry professionals working in real-time VFX on here who can give you
+[00:14:57] some insight into the same issues they've run into.
+[00:15:00] We are a fairly small community these days, and there's really not many of us to feel
+[00:15:06] the need that there is going on in the industry, especially with growing opportunities in VR,
+[00:15:13] and even in things like television are starting to use more real-time-ish kind of pipelines.
+[00:15:19] There's just a lot of exciting stuff going on out there.
+[00:15:22] So if you're planning to work in animation and not sure which discipline you exactly
+[00:15:30] want to do, here's a great way to start exploring real-time visual effects.
+[00:15:34] On that note as well, if you're looking for a job, hit up the job board.
+[00:15:38] I set this up in collaboration with Keith, who runs the forum.
+[00:15:43] So you can come on here.
+[00:15:44] If you're an employer, you can purchase a post.
+[00:15:46] If you're someone seeking employment, you can just come on for free and browse the posts
+[00:15:52] that employers have left.
+[00:15:54] We try to make it a really valuable experience for anyone looking for effects work in the
+[00:15:59] industry.
+[00:16:00] So that's pretty much it for value.
+[00:16:04] I hope you guys use value to great effectiveness and continue making awesome.

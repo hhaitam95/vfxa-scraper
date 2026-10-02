@@ -1,0 +1,247 @@
+[00:00:05] Hello, in this lesson we are going to cover this fog effect you are seeing on screen.
+[00:00:10] For this one, we'll focus on how we can make it smoothly intersect with the environment,
+[00:00:16] and how we can achieve a complex animation without actually using a lot of texture work.
+[00:00:23] First we'll talk about the concept art that we have for this effect.
+[00:00:27] We have a rough sketch of the look we are going for with this fog, basically some stationary
+[00:00:33] blob without a clear shape or motion, and we have some abstract ideas or concepts written
+[00:00:39] down to keep in mind during the creation process.
+[00:00:43] There are some notes proposing which technique could be used in the creation of the effect,
+[00:00:48] and some constraints and context clarifications to keep in mind for this effect.
+[00:00:55] One of the important notes here is the fact that this is a general use environmental effect,
+[00:01:01] that is supposed to loop and have a somewhat slow motion.
+[00:01:06] So we are going for a mostly subtle effect, even if we still need that complex motion
+[00:01:12] to make it feel realistic and not make it obvious that it's just a texture moving around.
+[00:01:17] But we need to keep an eye on performance, that's why we have a note here talking about
+[00:01:22] only one particle system and texture.
+[00:01:25] We need to keep an eye on performance precisely because this is an environmental effect, and
+[00:01:29] in most cases, excluding some hero piece like a big waterfall that's supposed to be
+[00:01:34] the center of attention in a scene, we don't want environmental effects that are too taxing
+[00:01:40] on performance since they are going to be scattered all around our levels.
+[00:01:44] We'd rather have subtle elements that can be used and abused without the repetition
+[00:01:49] becoming obvious and without stealing the performance away from the main action.
+[00:01:56] Then at the right side we have some exploration of possible textures and some reference screenshots
+[00:02:02] of how it could look in a finished environment.
+[00:02:06] And I'm not 100% sure, but I think this one at the bottom is from Diablo 3, which is the
+[00:02:11] perfect segue for me to talk about one of the inspirations for this effect.
+[00:02:17] There is a GDC presentation made by Julian Love called Technical Artist Bootcamp, the
+[00:02:23] VFX of Diablo.
+[00:02:25] This is a great talk, I think I've watched it like three times already, I highly recommend
+[00:02:29] you looking it up if you can, because there is a lot of saucy stuff in there.
+[00:02:33] Julian Love was the lead VFX artist for Diablo 3, and at one point of the presentation he
+[00:02:38] talks about the techniques the team used to create technically simple yet visually complex
+[00:02:45] effects for Diablo 3.
+[00:02:47] The main idea is to create an illusion of complex and chaotic movement by mixing layers
+[00:02:53] of simple textures in different ways, and in this lesson we are going to take that same
+[00:02:58] approach to create our effect for this fog.
+[00:03:02] This is the effect as it plays in Unreal Engine, and we are now going to go through the different
+[00:03:07] elements that make it work.
+[00:03:09] And more specifically, we are going to start with the material, since it's the part where
+[00:03:13] most of the meat is, and then we'll show how the textures were made and how the particle
+[00:03:18] system was set up.
+[00:03:20] This is a very flexible material, most of the final look is property controlled, and
+[00:03:26] it could be used for different kind of fogs or even different effects.
+[00:03:31] Opening the material, and to start with the material properties themselves, we are first
+[00:03:36] setting the blend mode to translucent, since of course we are going to need to play with
+[00:03:40] the opacity.
+[00:03:42] We are going to leave that two-sided option unchecked, since we are only ever going to
+[00:03:46] see this effect from one side anyway.
+[00:03:50] And for the shading model, depending on the style we are going for, in whichever game
+[00:03:54] this will be used, we might be able to use the cheaper unlit model, since we don't need
+[00:04:00] any reflections or roughness for this kind of material.
+[00:04:04] The only drawback is that by doing this we would be better limited in the way this effect
+[00:04:08] interacts with any existing environment lighting, the color we set would be emissive and our
+[00:04:14] fog would always glow in the dark.
+[00:04:18] And that's how the original effect works in Unity, but just to show that you could
+[00:04:22] go either way, I'm going to leave this as default lit and since we have a scene with
+[00:04:27] realistic lighting, we can see how it affects our fog.
+[00:04:32] With that we have our material options set and we can move on to the graph itself.
+[00:04:38] The main idea behind this effect is that we are using three different texture samples
+[00:04:43] and we are then mixing them into a single animation that we are going to use as our
+[00:04:48] opacity mask.
+[00:04:50] We are using channel packed textures, but notice that we are not using multiple noises.
+[00:04:55] There is only two textures packed in here, and that's a pearling noise and an opacity
+[00:05:00] mask to shape the fog cloud.
+[00:05:03] Remember the idea is making a single texture look more complex than it really is, just
+[00:05:07] by multiplying it by itself in interesting ways.
+[00:05:11] So let's look at the material graph and see how we can make this work.
+[00:05:16] These three blocks are basically the same setup to get a scrolling texture.
+[00:05:21] We multiply our UVs by a value to make the texture bigger or smaller, and we apply a
+[00:05:27] panner node with some speed values to scroll the texture around.
+[00:05:32] That goes into our texture sample node, and so in the red channel we have a scaled scrolling
+[00:05:37] version of our pearling noise.
+[00:05:40] And all these values are parameters so we can play with them later on.
+[00:05:46] Once we have the three, we can play with these three outputs and mix them to get a single
+[00:05:52] complex animation.
+[00:05:53] In this case we are multiplying them together.
+[00:05:56] We multiply the first two, and the result of that is multiplied by the last one.
+[00:06:01] And you can notice how the initial texture is starting to get lost and what we have is
+[00:06:06] a chaotic noise.
+[00:06:10] Now regarding the parameters we are using to modify our texture sample, the key here
+[00:06:15] is using different scroll speeds and different sizes for the different samplers.
+[00:06:22] How different these parameters are between each sample is also important.
+[00:06:27] If the difference between the scroll speed of the different textures is too little, it's
+[00:06:32] going to look like it's a single texture moving around, so barely nothing over just using
+[00:06:37] a single texture.
+[00:06:39] On the other hand, if the scrolling speed is wildly different, you're going to have
+[00:06:43] a lot of chaos, but you might start to notice the individual textures scrolling past each
+[00:06:49] other.
+[00:06:50] The key is to play in that middle range where it almost feels like a single texture but
+[00:06:56] it's changing over time.
+[00:06:59] Another thing to take into account is the direction these are scrolling along.
+[00:07:04] If both textures are scrolling in the same direction, the resulting effect will also
+[00:07:10] seem to scroll in that same direction.
+[00:07:13] On the other hand, if you have two textures scrolling in opposite ways, whichever has
+[00:07:18] a higher speed is going to dictate the final direction that the animation appears to be
+[00:07:23] moving along.
+[00:07:25] And if both textures are scrolling in opposite ways and with the same speed, the final effect
+[00:07:31] is going to tend to look stationary.
+[00:07:35] These things start to become more intuitive with time, but as you can imagine, the more
+[00:07:40] texture samples you add to the mix, the more it feels like you have less control over the
+[00:07:45] final behavior.
+[00:07:47] The other thing that increases with every texture sample you add is the performance
+[00:07:51] cost of the shader, so try not to sample more times than necessary, especially if you are
+[00:07:57] doing extra operations in each of these setups like having a flow map or parallax node.
+[00:08:05] Another thing you can play with to get different results is the specific way in which you are
+[00:08:11] mixing them.
+[00:08:12] In this case, we are multiplying these textures, but you could also add them together, do an
+[00:08:17] average or use a min node or a max node.
+[00:08:21] You can experiment with different mix modes and you'll notice that for different textures
+[00:08:26] or effects, different operations might look best.
+[00:08:32] But looking at these node previews, you might start to notice something.
+[00:08:38] Basically, if I create a mask node to see just the red channel of this first texture
+[00:08:42] sample, after multiplying these two textures, the result looks way darker.
+[00:08:51] That is because depending on the way we have mixed our textures, we might need to do some
+[00:08:56] tweaking to the levels after the fact, and this is going to depend on the specific way
+[00:09:01] we mixed them up.
+[00:09:04] Let's reason our way through this.
+[00:09:06] Say we have two regular textures, so their values are in the 0 to 1 range.
+[00:09:13] If for this example we want to add them together, not multiply, I'm talking about adding them
+[00:09:18] together, the resulting texture will cover the 0 to 2 range.
+[00:09:23] That means if I wanted to stay in that 0 to 1 range and not clip the lighter values, I
+[00:09:29] would need to divide the result by 2.
+[00:09:31] In the end, we are doing an average of the two textures.
+[00:09:36] In our case, we are multiplying two textures, and even if that doesn't change the maximum
+[00:09:41] range of values, they are still going to be in that 0 to 1 range, it's going to make our
+[00:09:47] textures generally darker.
+[00:09:51] That's because if you multiply two numbers that are smaller than one, the resulting number
+[00:09:56] will always be smaller.
+[00:09:58] So as you can already tell in the node preview, the result of multiplying two textures will
+[00:10:03] always be a darker texture than any of the two.
+[00:10:08] And the darker your starting textures are, the more you are going to notice this effect.
+[00:10:14] So this next step you could call the texture makeup step, because we are trying to make
+[00:10:20] up for the loss in luminosity during our mix.
+[00:10:24] To fix that, we can pass the result through a power node and hook a parameter to the exponent
+[00:10:29] input.
+[00:10:31] Multiplying the exponent to anything higher than 1 would make the problem worse, but setting
+[00:10:36] it to anything between 0 and 1 will bring out those dark tones.
+[00:10:41] The thing is, for this to look good would require different values for different textures,
+[00:10:47] so make sure this is a parameter that you can play with in case you change the noise
+[00:10:51] texture you are using for the effect.
+[00:10:54] And remember that the way in which you have to make up your texture is going to depend
+[00:10:59] on the way you mix them up.
+[00:11:02] After adding two textures together we usually divide by two, in this case we multiply them
+[00:11:06] together so we are using this power node to bring out the darker tones.
+[00:11:13] And after all that is done, we have our final animation, we are just adding a regular intensity
+[00:11:19] multiplier that is always handy to have, and we are also using a saturate node which is
+[00:11:24] basically a clamp between the values 0 and 1.
+[00:11:30] And from there we are using this animation in two different ways.
+[00:11:33] For the material color we want to control this from the particle system, so we just
+[00:11:38] multiply by our particle color and hook that into the base color.
+[00:11:44] And for the opacity we multiply our animation by the particle alpha again so we can fade
+[00:11:50] this in or out from the particle system.
+[00:11:54] We multiply that by our texture mask that is stored in the green channel of our texture.
+[00:12:01] And we use a depth fade node to make sure any intersections with the environment are
+[00:12:06] softened before clamping the values again and hooking them up into the opacity pin.
+[00:12:12] This depth fade node is going to make the values more or less translucent depending
+[00:12:18] on the distance to anything solid behind this material.
+[00:12:22] And with that we are going to avoid these jarring edges that would completely break
+[00:12:26] the illusion of this being fog.
+[00:12:32] As an extra, if we wanted to add some glow to our fog, so even in complete darkness there
+[00:12:38] is still some color to it, just like using the unlit shader model, we can do that by
+[00:12:43] hooking the desired amount to the emissive color pin.
+[00:12:47] A simple way to set that up is just multiplying the base color by a parameter that you can
+[00:12:52] play with later on if you need that glow.
+[00:12:55] And with that, that's the entire material graph we are going to use in this effect.
+[00:13:02] Let's move on to the texture making process.
+[00:13:06] Again we are going to use two different textures, but we need them stored in one single file.
+[00:13:11] Our noise should be on the red channel and our mask should be on the green channel.
+[00:13:17] We'd still have a blue channel that we can use if we needed another texture, but that's
+[00:13:21] not going to be the case for this effect.
+[00:13:24] To do that in Photoshop we can select the Channels tab next to the Layers one, and here
+[00:13:30] we can see the three RGB channels we are going to be using for our textures.
+[00:13:35] What I usually do is create my grayscale textures in a different Photoshop window and then copy
+[00:13:41] and paste them into the desired channel, but these are quite simple and we can work directly
+[00:13:47] on them by selecting the desired one.
+[00:13:51] For the first texture, we are going to create the noise by using the Cloud Filter in Filters
+[00:13:57] Render Clouds, and this will create a pearling noise using whichever two colors you have
+[00:14:03] selected on your palette.
+[00:14:06] To remove the higher frequencies and make the texture softer, we are going to use a
+[00:14:10] regular Gaussian Blur, and after that we apply a Dust and Scratches filter with a small value
+[00:14:21] in the radius.
+[00:14:24] And all these steps are part of the experimentation and creation process, where you can try different
+[00:14:29] stuff out and see how it affects the final look of the effect.
+[00:14:33] But we also should make sure the texture is tileable.
+[00:14:37] In later Photoshop versions the pearling noise can be generated already tileable, but even
+[00:14:43] then some of the filters might create seams, so thankfully we have the pattern view to
+[00:14:48] check if everything is seamless.
+[00:14:52] And if that's not the case, we can just paint over any seams by hand.
+[00:15:00] Once we have a noise that we are happy with, we can select the green channel and create
+[00:15:04] our mask for the effect.
+[00:15:07] Using a soft brush, we are going to splatter around the texture, changing size, to create
+[00:15:12] an interesting shape with some scale variations, but you can see there is nothing fancy going
+[00:15:17] on here.
+[00:15:19] And with that we have our two textures in a single image.
+[00:15:23] We can hook this into our material and finally move on to the particle system.
+[00:15:30] For this case we want a simple, looping particle system that spawns horizontal planes that
+[00:15:36] are going to carry our fog material.
+[00:15:39] If you open the Niagara system for this effect you'll see that there is a single emitter
+[00:15:44] and not a very complex one either.
+[00:15:47] What I'm going to do is create a new emitter and show you how to get to that same result.
+[00:15:51] Do not focus too much on which specific values I'm setting, for things like the lifetime
+[00:15:57] or the scale, since those are specific for this fog effect, but rather on the different
+[00:16:02] modules I'm using to get the desired behavior.
+[00:16:07] First of all, make sure the system is set to looping in the system state module, and
+[00:16:13] that's going to make sure our fog never stops spawning particles.
+[00:16:18] For the emitter itself, I'm going to create an empty one, I'm not even going to use one
+[00:16:23] of the defaults.
+[00:16:24] I'm going to add a spawn rate module, so we can start seeing those particles.
+[00:16:30] And after that, I'm going to add a shape location module.
+[00:16:34] I'm going to change the shape to a cylinder, and I'm going to set the height to 0.
+[00:16:41] That way the particles are going to spawn around a center point, but always at the same
+[00:16:45] height.
+[00:16:47] Right now, there are just dots, so let's apply our material down here in the sprite renderer
+[00:16:52] module.
+[00:16:56] And I'm also adding a color module in the particle update stage, and instead of using
+[00:17:01] a single color, I'm going to select the dynamic input, color from curve, which allows us to
+[00:17:07] change the color over the lifetime.
+[00:17:11] And make sure that the alpha starts completely transparent, transitions to completely visible,
+[00:17:16] and then fades back out.
+[00:17:17] Obviously, this scale is too small, so let's go back up to the initialize particle module,
+[00:17:24] and under the sprite attributes, set the size to uniform, and set something like 400.
+[00:17:31] Okay, now we have one thing left to do, and that's make those particles point up.
+[00:17:38] Right now they are looking at the camera, which might even work perfectly for some fog
+[00:17:42] effects that can be seen from any direction.
+[00:17:46] But for our case, we want some close to the ground fog, so we want these planes aligned
+[00:17:51] with the floor.
+[00:17:52] To do that, we can add a sprite facing and alignment module, and here we can give two
+[00:18:01] directions.
+[00:18:02] The facing direction, which is the normal direction of the particle plane, in this case
+[00:18:06] the one we want to be up.
+[00:18:09] And the sprite alignment is the direction the top of the plane should be aiming at.
+[00:18:16] So imagine we have a texture with an arrow pointing up, then the alignment direction
+[00:18:22] would be the direction we wanted that arrow pointing at.
+[00:18:25] In this case, we don't really care about the specific one, so I'll just set one that's
+[00:18:31] different from the facing direction.
+[00:18:35] And to make this actually work, all we need to do is go back to the sprite renderer and
+[00:18:40] make sure that under alignment, we select custom alignment, and under facing mode, again
+[00:18:48] we select custom facing vector.
+[00:18:52] That way, our renderer is going to use the directions we set up.
+[00:18:57] And with that, as you can tell, this new emitter is basically doing the same thing that the
+[00:19:02] original one was doing.
+[00:19:05] And with that, we have our simple fog effect, working using a single noise texture.
+[00:19:12] The main techniques that we used in this effect, multiplying textures and depth fade, are things
+[00:19:18] that you will use a lot when creating VFX.
+[00:19:22] So taking your time to understand how they work, and getting used to their quirks, is
+[00:19:27] very well worth it.
+[00:19:30] And with that, I'll see you in the next lesson.
+[00:19:33] Bye bye!

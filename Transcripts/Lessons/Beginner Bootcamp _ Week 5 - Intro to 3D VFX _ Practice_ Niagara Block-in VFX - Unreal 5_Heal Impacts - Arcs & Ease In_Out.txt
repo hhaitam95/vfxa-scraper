@@ -1,0 +1,922 @@
+[00:00:05] Hey everyone, welcome to this next tutorial
+[00:00:08] in the Niagara block-in series.
+[00:00:10] In this tutorial, we are going to be using
+[00:00:13] our heal impact here to really dig into arcs
+[00:00:18] and ease in and out.
+[00:00:21] Now, before we jump into actually making the effect,
+[00:00:24] I want to go a little bit more into the definitions
+[00:00:28] that I'm gonna be using when I talk about each of these.
+[00:00:31] So for arcs, I've actually got kind of two definitions
+[00:00:35] that I want to be talking about or ways
+[00:00:40] that I'll be using the term.
+[00:00:44] The first one is kind of a very standard one.
+[00:00:52] It's going to just be the physical arcs of movement
+[00:00:58] in space.
+[00:01:00] The way that these motes here are spinning as they move up
+[00:01:05] is a really, really good example.
+[00:01:09] If you have ever studied animation or the 12 principles
+[00:01:14] of animation that we are borrowing
+[00:01:17] a lot of terminology from here, then you'll
+[00:01:20] be familiar with this one from their definition of arcs,
+[00:01:24] which is motion that is usually guided on curve
+[00:01:31] by virtue of being attached to a pivot.
+[00:01:34] Could be an arm swinging off of a shoulder.
+[00:01:38] Could be a fireball that curves slightly over its lifetime
+[00:01:43] into a parabola because gravity.
+[00:01:46] That second one we're much more likely to run into in effects.
+[00:01:49] But there are a ton of different places
+[00:01:53] where these physical arcs will show up in effects as well.
+[00:01:58] They add a lot of really not really nice interesting
+[00:02:01] organic movement and stuff like that.
+[00:02:04] It just won't always be that traditional pivot point
+[00:02:08] that you might be used to if you come from an animation
+[00:02:13] background.
+[00:02:14] The second definition of arcs and one
+[00:02:18] that I really, really like for effects
+[00:02:22] is the idea of story arcs.
+[00:02:26] And this is just what the rising action, the peak,
+[00:02:32] and the falling action of your effect is.
+[00:02:37] In the case of this one, we've got that little bit
+[00:02:41] of a wind up up front, and then we've got that hit,
+[00:02:43] and then we've got this little bit of a fall off to it.
+[00:02:47] If you think back to the hit impact that we just did,
+[00:02:50] there was basically no rising action
+[00:02:53] because we needed that super immediate read.
+[00:02:55] So you just popped, and then you gave it
+[00:02:57] a little bit of a fall off.
+[00:02:59] And that sort of flexibility is part
+[00:03:03] of what I really, really love about story arcs
+[00:03:07] because if you take those in combination
+[00:03:12] with all of the considerations that we've
+[00:03:15] been talking about around gameplay and around timing,
+[00:03:19] then when you start with those two
+[00:03:21] and then you find a story arc that hits all of those gameplay
+[00:03:25] beats within that, it's a really, really nice foundation
+[00:03:31] to build an effect on.
+[00:03:32] It's a really, really great way to communicate
+[00:03:35] all of that gameplay information in a way that
+[00:03:38] feels really satisfying, that can bring a lot of character
+[00:03:42] to your effect, that just really, really helps
+[00:03:47] to make it fun and feel communicative
+[00:03:51] and feel like there was a payoff in all of this stuff.
+[00:03:53] So yeah, I really, really like thinking of overall story arcs
+[00:04:00] as one of the arcs that I'm trying to integrate
+[00:04:03] into my effects as well.
+[00:04:05] And for the last thing that we're
+[00:04:09] going to be talking about, we're going
+[00:04:12] to be talking about ease in and ease out a lot.
+[00:04:16] Again, if you have studied animation before,
+[00:04:19] these are going to be very familiar to you.
+[00:04:22] But ease in and ease out, also sometimes called slow in
+[00:04:26] and slow out, are pulled from the idea
+[00:04:31] that energy takes a little bit to build up.
+[00:04:36] This is something like in the physical world,
+[00:04:38] this would be something overcoming inertia,
+[00:04:40] and then it would be drag or inertia or anything like that,
+[00:04:44] like it's slowly losing energy later on.
+[00:04:51] So that's the physical basis for it.
+[00:04:54] But ease in and ease out is everywhere in effects.
+[00:05:00] It's in that story arc where you've got your ease in,
+[00:05:04] and then you've got your hit, and then you've
+[00:05:06] got that ease out.
+[00:05:07] And you can vary how long each of those portions takes.
+[00:05:11] It's in your colors with something
+[00:05:14] like this super, super classic ease in,
+[00:05:18] ease out S curve, where you've got this flatter line
+[00:05:21] and then it flattens out again at the end.
+[00:05:25] It's going to be in the motion of things
+[00:05:28] where you pop a lot of energy into something really quickly
+[00:05:31] and then let drag or air resistance
+[00:05:35] or anything like that slow it down
+[00:05:37] over the course of its lifetime.
+[00:05:41] Ease in and ease out are all over the place in effects.
+[00:05:49] And within effects, they're also really, really super
+[00:05:54] flexible to, again, compare this to the hit impact
+[00:05:59] and the story arc portion.
+[00:06:01] The hit impact had almost no ease
+[00:06:04] in because it needed to be so quick.
+[00:06:06] And this one has a little bit of ease in and then
+[00:06:09] a lot more ease out, stuff like that.
+[00:06:11] We'll be playing with ones later for much more powerful effects
+[00:06:15] that need more of a telegraph where
+[00:06:16] they will have a ton of ease in so that players
+[00:06:19] have that warning.
+[00:06:21] And then they'll have a little bit less of an ease
+[00:06:25] out in order to just clean things up and keep
+[00:06:27] things nappy and stuff.
+[00:06:29] So those are the high level definitions of the three things
+[00:06:34] that we are really going to be digging
+[00:06:37] into today fundamentals wise.
+[00:06:39] These are some incredibly useful ones for effects.
+[00:06:44] Yeah, and without further ado, let's just
+[00:06:46] jump into our demo system over here
+[00:06:49] and we'll make ourselves a healing effect.
+[00:06:54] So the first thing that I want to do aside from make sure
+[00:07:01] that my loop duration for the system is in fact at three
+[00:07:06] is I still want to start from the gameplay
+[00:07:11] and making sure that I've got everything really necessary
+[00:07:15] accounted for there, at least in the basic stage.
+[00:07:17] That's kind of a really big part of why
+[00:07:21] block ins are so helpful.
+[00:07:22] So we're going to go ahead and create an empty emitter real
+[00:07:26] quick.
+[00:07:27] You're going to name this n e init radius.
+[00:07:33] We're going to add a spawn burst with one particle.
+[00:07:39] There we go.
+[00:07:44] For our initial life particle, we
+[00:07:49] are going to give it a lifetime of 0.4.
+[00:07:54] You're going to give it a consistent size of 125.
+[00:08:04] It's actually set the lifetime to three for just a second
+[00:08:09] here.
+[00:08:11] So I'm going to jump down into the sprite renderer for a sec
+[00:08:15] and I'm going to give it a ring material.
+[00:08:20] And this point, you can see we've
+[00:08:25] got a problem compared to where we want this to be.
+[00:08:29] We want this to be on the ground defining the space
+[00:08:32] that someone needs to be standing in.
+[00:08:34] And by default, this is just going
+[00:08:37] to follow the camera everywhere.
+[00:08:39] So there are two steps to fixing this.
+[00:08:45] The first is we're going to jump back up
+[00:08:47] into our particle spawn.
+[00:08:49] We are going to add a new module,
+[00:08:52] type in set, and hit this set new or existing parameter.
+[00:08:57] And in here, we are going to add a new parameter
+[00:09:03] to the stack, we're going to type in facing,
+[00:09:06] and we're going to select this particle sprite facing.
+[00:09:13] And whatever we put into this vector
+[00:09:16] are just the amount that it's going
+[00:09:19] to lock to each of those vectors.
+[00:09:25] So if we type in a 0 here and a 1 on z,
+[00:09:34] then initially we're not going to get any results.
+[00:09:38] If we jump back down to our sprite render real quick
+[00:09:41] and go down a few to this facing mode,
+[00:09:43] right now it's set to face camera.
+[00:09:45] We're going to go down to custom facing vector,
+[00:09:48] and now it's locked on to facing up on z.
+[00:09:52] So facing mode is kind of a sister to alignment
+[00:09:59] right up here.
+[00:10:00] For alignment, you can do velocity aligned,
+[00:10:02] you can do custom alignment and set that up here as well.
+[00:10:05] Facing mode similarly, you've got some options.
+[00:10:11] So that's how you lock a particle there.
+[00:10:16] You can goof around with this a whole bunch
+[00:10:18] and you can see some of the different ways
+[00:10:20] that you can do it.
+[00:10:21] But you can set a ton of different stuff
+[00:10:27] through these set parameter modules.
+[00:10:29] They're actually super, super flexible and super, super
+[00:10:32] powerful.
+[00:10:34] If we hop back down into sprite render again,
+[00:10:38] and we scroll down a little bit, you
+[00:10:40] can see all of these bindings laid out here,
+[00:10:43] including our new best friend, sprite facing.
+[00:10:46] These are all things that you can be customizing in there.
+[00:10:50] If you add a new module, then there's
+[00:10:52] going to be a ton of stuff.
+[00:10:57] You can customize things about the emitter.
+[00:11:00] There's a huge amount of stuff that you can modify in here.
+[00:11:04] They're really, really powerful.
+[00:11:06] This facing locking is one of the more common use cases.
+[00:11:13] So it's a really, really good one to start with.
+[00:11:16] But this is absolutely something that if you have reason to,
+[00:11:20] play around with it, it can be really, really powerful.
+[00:11:25] And for our last bit of this real quickly,
+[00:11:30] we're just going to go down into particle update.
+[00:11:33] We are going to add a scale color.
+[00:11:36] And we're just going to swap the scale alpha to a float
+[00:11:40] from curve.
+[00:11:42] Swap this around from template so
+[00:11:45] that it's fading in over time.
+[00:11:49] This is going to be the initial part of our effect.
+[00:11:52] So we just want to define that ease in for the overall effect.
+[00:11:57] So we're going to be fading it in over time.
+[00:12:01] And then just to give us a little bit
+[00:12:04] of extra visual interest in this,
+[00:12:06] we're going to go ahead and add a key at 0.9.
+[00:12:10] And we're going to drop this down to 0.4
+[00:12:15] so that we get a little more of a bounce and some variation
+[00:12:26] in this.
+[00:12:29] And then we'll just go ahead and drop our lifetime back down
+[00:12:34] to 0.4.
+[00:12:36] And that's the super basics of our ease in defined.
+[00:12:45] Now I'm going to go ahead and make a copy of this.
+[00:12:49] And we'll rename this one to pop radius instead of knit.
+[00:12:59] And this is going to keep a ton of the same parameters,
+[00:13:02] except we're going to use this one to create the outro.
+[00:13:08] While we're doing this, I'm going
+[00:13:10] to drop our loop duration down to two,
+[00:13:12] just so you can see it more frequently.
+[00:13:14] So for our spawn burst, we still only need one.
+[00:13:18] But since this has a lifetime of 0.4,
+[00:13:23] we're going to go ahead and spawn this at 0.35.
+[00:13:26] So it just spawns a little bit underneath it.
+[00:13:30] For our lifetime, we're going to update it to 0.15.
+[00:13:35] And for our scale color, we're just
+[00:13:37] going to swap this over to a s-curve template outward.
+[00:13:47] And then we are going to marvel at the bug over here.
+[00:13:56] I'm not totally sure why it's fading in reverse of that.
+[00:14:06] Let's try just disabling that, re-enabling it.
+[00:14:12] OK.
+[00:14:13] The great mysteries of Niagara, when in doubt,
+[00:14:17] go ahead and just disable an emitter
+[00:14:18] and see if that makes it behave like you were expecting it to.
+[00:14:24] Game dev.
+[00:14:29] So that's our radius defined.
+[00:14:31] And this also helps to outline a lot of that overall story
+[00:14:39] arc at a very, very basic level.
+[00:14:42] We get a lot of our timing blocked in.
+[00:14:45] For now, I'm going to leave these
+[00:14:46] as two separate emitters.
+[00:14:48] This is just a really, really nice, easy way
+[00:14:51] to mess around with different timings that I might want
+[00:14:57] and have everything follow along really, really easily
+[00:15:01] compared to shifting key frames and lifetimes and stuff
+[00:15:05] like that around in one to try and keep everything synced up
+[00:15:12] as I'm adding more pieces to this.
+[00:15:15] So we can come back to this at the end
+[00:15:18] and go through some really nice ways
+[00:15:20] to recombine this and save you a little bit of an optimization
+[00:15:29] by getting rid of an emitter.
+[00:15:31] But for now, the reason why I've been working with these split
+[00:15:37] up in the demo is because this is a thing that I use a lot
+[00:15:41] just in my day-to-day blocking and effects
+[00:15:44] that makes it really, really nice and easy
+[00:15:46] to move chunks around.
+[00:15:48] So if it's useful and makes you faster, go for it.
+[00:15:55] We're going to next just round out the intro of this.
+[00:15:59] So we're going to go ahead and, again,
+[00:16:01] copy and paste this emitter just to save ourselves
+[00:16:04] a little bit of time.
+[00:16:06] And this one is going to be Emote Down.
+[00:16:10] I'm going to get rid of this custom facing before I super
+[00:16:20] troll myself on accident.
+[00:16:23] And while we're down here, I'm going
+[00:16:26] to go ahead and reset this to a dot material.
+[00:16:35] And we will switch our alignment over to velocity aligned
+[00:16:39] because we're going to be doing a lot of velocity stuff
+[00:16:41] in these soon.
+[00:16:43] We'll go ahead and get rid of this sprite facing module
+[00:16:47] because we don't need it.
+[00:16:49] All right, so in Spawn Burst Instantaneous,
+[00:16:54] we're going to go ahead and set this to a random.
+[00:16:58] We'll do like 10 to 12.
+[00:17:02] And we're going to jump down into our initialized particle
+[00:17:08] and randomize our lifetime a little bit, 0.4, 0.5,
+[00:17:15] to put a random uniform on our size as well,
+[00:17:19] something like 3 to 6.
+[00:17:22] And the big thing that we want these to do other than help
+[00:17:30] to support that ease in and that kind of buildup of energy
+[00:17:33] before the pop of the actual heel
+[00:17:35] is we want these to help further define this radius that we've
+[00:17:41] laid out with our rings.
+[00:17:43] So we are going to add in a shape
+[00:17:47] location in our particle spawn.
+[00:17:49] We're going to switch it over to a cylinder.
+[00:17:52] And then we're going to switch our radius to let's
+[00:18:00] bump our particle counts way up so that we can see
+[00:18:04] the radius a little bit easier.
+[00:18:07] Go through.
+[00:18:09] And we'll just set our radius to something like let's try 50.
+[00:18:15] 50 is not quite enough, 65.
+[00:18:26] 65 looks good.
+[00:18:28] You can see that hitting the very edges of the ring.
+[00:18:31] All right, so radius of 65.
+[00:18:34] And then down in our offset mode,
+[00:18:38] we're just going to switch to default.
+[00:18:40] And we're going to bump it up 200 centimeters in Z.
+[00:18:46] So those are going to start about at head height
+[00:18:52] if you're a character lucky enough to be 200 centimeters
+[00:18:56] tall.
+[00:18:57] And then for the last bit in our particle spawn,
+[00:19:01] we're going to go ahead and add a velocity.
+[00:19:05] We are going to add our solver.
+[00:19:10] And we're going to leave this on linear
+[00:19:12] because we just want these to be traveling downwards.
+[00:19:16] But we're going to swap our velocity to a random range
+[00:19:20] vector, get rid of those extra ones.
+[00:19:24] And we'll set this to try like negative 250 to negative 400.
+[00:19:34] Starts to get a sum of what we want.
+[00:19:37] And before we worry too much about the colors or anything,
+[00:19:43] I'm just going to finish finessing the motion on these.
+[00:19:46] So I'm just going to jump down into our particle update.
+[00:19:50] We'll add a drag module and bump that up to something like five.
+[00:19:56] Five might wind up being a lot, we'll see.
+[00:20:01] And then in combination with that,
+[00:20:04] we're going to add a vortex velocity.
+[00:20:13] And again, for this one, we're going
+[00:20:18] to go ahead and randomize our velocity amount.
+[00:20:25] We'll do like 500 to 1,000.
+[00:20:30] Let's see how much.
+[00:20:33] That's not getting us much spin.
+[00:20:34] So more.
+[00:20:36] That's less.
+[00:20:37] More.
+[00:20:41] Starting to get a little bit of it in there that you can see.
+[00:20:44] But we want our arcs of that twist
+[00:20:50] to be really, really obvious.
+[00:20:51] So we will double this again.
+[00:20:55] And there we go.
+[00:20:58] All right.
+[00:21:01] Let's fix our particle counts.
+[00:21:07] And we start to get a little bit of a nice intro into there.
+[00:21:13] And then just to exaggerate this motion a little bit more,
+[00:21:19] we're just going to do a scale sprite size by speed.
+[00:21:25] And we will go ahead and at its highest,
+[00:21:35] let's set the velocity threshold to 500.
+[00:21:38] And then when it's at that velocity threshold,
+[00:21:43] we'll stretch them out a little bit, 2, 3.
+[00:21:46] And we're going to narrow them a little bit
+[00:21:48] so that you've got a little bit of stretch to them
+[00:21:51] rather than just getting bigger.
+[00:21:53] So put that at 0.8.
+[00:21:58] And this starts to help really emphasize that shape
+[00:22:02] a little bit as well, that overall twisting shape.
+[00:22:10] And I think, oh, we're missing a zero in here.
+[00:22:14] There we go.
+[00:22:18] So we're getting a lot of nice twists to this.
+[00:22:23] The drag is helping to temper at the vortex velocity.
+[00:22:28] And I think for last things, we don't actually
+[00:22:35] need this scale color.
+[00:22:39] Instead, we're just going to lean on a normal scale sprite
+[00:22:46] size.
+[00:22:48] And just go ahead and swap this over to a curve like this one.
+[00:22:58] Just kidding.
+[00:23:01] For this first one, we'll go ahead and put it at 0.1.
+[00:23:10] Give it a value of 1.2.
+[00:23:12] So we're exaggerating these a little bit to start with.
+[00:23:16] We'll add another key at 0.12 at a time of 0.25.
+[00:23:30] And then at 1, we'll just drop this down to 0.8.
+[00:23:35] And then we'll just go ahead and drag select this whole thing.
+[00:23:41] Give it some keys.
+[00:23:42] And I think just give a little bit more taper to that.
+[00:23:54] So this will just give those a little bit of a pop
+[00:23:58] at the beginning there and let them
+[00:24:00] have a little bit of taper.
+[00:24:04] I'm going to go ahead and bump my minimal velocity up
+[00:24:08] a little bit too, just so it's a little more consistent.
+[00:24:12] So this is going to serve as the whole basis of our intro.
+[00:24:20] One of the other things that I really, really like
+[00:24:24] about the motes here is because these
+[00:24:31] are carrying so much of the weight at the beginning,
+[00:24:37] this vortex velocity that's creating that arc,
+[00:24:41] that twist in them, is actually doing a huge amount of work
+[00:24:44] for us in terms of gameplay in addition to just creating
+[00:24:49] some visual interest.
+[00:24:50] So that twist or spin on the particles
+[00:24:54] absolutely looks cool, but this is also
+[00:24:59] an effect where it does have a relatively quick wind up.
+[00:25:04] And it's got this downward motion
+[00:25:06] of all of those particles.
+[00:25:08] That's something that can potentially really easily
+[00:25:12] feel like some sort of attack from the sky.
+[00:25:16] You think like a spear getting dropped down on someone
+[00:25:20] or a fire pillar or something like that.
+[00:25:29] Adding that bit of twist or curve into these particles
+[00:25:34] is actually going to do a lot, especially
+[00:25:37] as we layer in a couple more things here,
+[00:25:40] to help soften that intro.
+[00:25:42] It gives it a little bit of organicness.
+[00:25:44] It gives us a little bit of a magical feeling.
+[00:25:48] And so if you compare with the vortex velocity
+[00:25:53] here versus let's disable that and let's disable the drag,
+[00:25:58] you can see the difference in how those two feel
+[00:26:03] and how much more this one feels a little bit like something
+[00:26:07] that's a little friendlier.
+[00:26:09] So this is another way that you can
+[00:26:12] be leaning on these different principles
+[00:26:16] to all feed into that ultimate goal of making the thing that
+[00:26:21] feels right for the game.
+[00:26:22] This is helping us to create a shape language outside
+[00:26:30] of the individual particles and their textures
+[00:26:33] that all builds up to this feeling a lot more friendly,
+[00:26:38] a lot more welcoming on a lot of different axes.
+[00:26:44] So we're just going to go ahead and select these two real
+[00:26:48] quick.
+[00:26:49] We're going to right click and add a comment.
+[00:26:52] And we're just going to call this our intro.
+[00:27:00] And now we're all nice and tidy there.
+[00:27:03] Now for the outro or just for the rest
+[00:27:10] of the story arc in general, which
+[00:27:12] is our hit plus our outro, the main thing
+[00:27:18] that I want to get blocked in first
+[00:27:19] is just that pop of the light rays.
+[00:27:23] And so for this, we're going to go ahead and grab our moats,
+[00:27:30] duplicate those, rename this to pop rays real quick.
+[00:27:40] And we're going to first off add a increase the number of these
+[00:27:55] and move the spawn time to 0.25.
+[00:28:01] Let's go ahead and get rid of some emitters
+[00:28:06] that we don't need.
+[00:28:09] We'll just disable these for now.
+[00:28:13] We do want these to stay velocity aligned,
+[00:28:17] but we also want these to be a lot softer
+[00:28:24] because we want them to feel like light rays.
+[00:28:25] So let's go ahead and bring in a simple little glow here.
+[00:28:31] Going to isolate these.
+[00:28:33] We're getting them shaped up.
+[00:28:38] For our cylinder, we're just going
+[00:28:41] to drop our height way down to 10.
+[00:28:47] We don't need this offset anymore
+[00:28:50] because we want these light rays to come up out of the ground
+[00:28:53] so we can revert this back to none.
+[00:28:56] And for our radius, we could probably
+[00:28:59] stick with 0.65 until later notice.
+[00:29:03] In our initialize particle, we're
+[00:29:09] just going to give these a much longer lifetime.
+[00:29:14] We're going to swap them over to a random non-uniform
+[00:29:23] and give them a really wide range on x, so 25 to 125,
+[00:29:32] and then make them really, really long.
+[00:29:35] So we're going to do 150 to 500.
+[00:29:44] So you can start seeing some of what we're going for there.
+[00:29:48] For the next part, just because we
+[00:29:52] want these to be moving up, this is
+[00:29:53] going to be the first part of our counter motion.
+[00:29:56] So we've got the most drop down and then light burst up.
+[00:30:03] For our velocity, we're going to go ahead and do
+[00:30:06] a minimum of 1, just so we always
+[00:30:09] have something for the velocity alignment.
+[00:30:12] And we're going to do a maximum of 25.
+[00:30:17] So now we start to get at least the axes that we
+[00:30:26] want them to be moving along.
+[00:30:29] And we'll go ahead and do the rest in the particle update.
+[00:30:38] There are a few things at this point
+[00:30:42] that I think are probably worth touching on here.
+[00:30:47] The first one is just like, right now these
+[00:30:51] are clipping straight through the ground.
+[00:30:54] We want these to be moving up.
+[00:30:59] We want them to be following that velocity
+[00:31:02] so that we don't wind up at a weird angle like this.
+[00:31:05] And I know something like that.
+[00:31:11] So we do really want the velocity alignment in this
+[00:31:14] if we're going to be doing it with sprites.
+[00:31:16] These ones are just flipping straight through the ground.
+[00:31:22] We've got our floor activated over here in our preview scene
+[00:31:26] settings, so we can uncheck or check the floor.
+[00:31:33] This is pretty normal for a lot of games.
+[00:31:38] If you don't have a lot of fine-tuned controls
+[00:31:41] for the pivots on your particles,
+[00:31:45] and you either don't want to waste texture space
+[00:31:51] by having a texture where the bottom half is just
+[00:31:56] blank in order to give you a light ray that bursts up
+[00:31:59] from that center point, or you don't
+[00:32:04] have the budget for using a bunch of meshes
+[00:32:07] for these light rays where you can customize
+[00:32:10] that pivot point, or your jerk of an instructor
+[00:32:16] hasn't gotten to teaching you about mesh particles yet,
+[00:32:21] just letting them clip through the ground like this.
+[00:32:24] If you've got a game with a reliable ground plane
+[00:32:28] and stuff like that, this is totally OK.
+[00:32:30] If you are in some of the more recent versions of Unreal,
+[00:32:38] like we are, then down in the Sprite Renderer,
+[00:32:43] we actually have this section for the default pivot in UV
+[00:32:50] space, and we can adjust that in order
+[00:32:56] to actually move the pivot around on our sprites.
+[00:33:00] So if we set y to 0, then we'll have
+[00:33:06] picked the wrong direction.
+[00:33:08] If we set y to 1, then this has taken the pivot
+[00:33:13] on that square of the sprite, and then
+[00:33:26] that has taken the pivot of that square on the sprite,
+[00:33:33] and has moved it from the middle here down to the bottom.
+[00:33:37] So you've got your pivot.
+[00:33:39] If we moved it on x, we could move it over here or something
+[00:33:42] too, but we just want to adjust it on y.
+[00:33:47] So this is another option that you have.
+[00:33:53] We can bring this down to something like 0.75.
+[00:33:57] If you want to get all of the use out
+[00:34:00] of your texture and your particle,
+[00:34:04] and really, really optimize there.
+[00:34:09] Since we've got a little bit roundier of a particle here,
+[00:34:13] and I don't really want to be seeing the base of it rounding
+[00:34:17] out there, I'm going to drop this down a little more.
+[00:34:20] We'll do something like 0.7, and we'll call it good here.
+[00:34:29] So that gives us a little bit more particle
+[00:34:32] without wasting quite so much under the ground.
+[00:34:36] From there, let's go ahead and get rid of those two.
+[00:34:43] We're not going to be using the drag or the velocity
+[00:34:45] on these ones.
+[00:34:49] In our sprite size, we're going to go ahead and switch over
+[00:34:55] to a non-uniform curve, so that we can animate x and y
+[00:35:00] independently.
+[00:35:01] And then we're going to add an extra key here at 0.15 seconds.
+[00:35:14] And we'll set this to 0.75 for both of them.
+[00:35:24] And then we're going to go ahead and move everything
+[00:35:33] at one second up to 0.15.
+[00:35:40] But we're also going to go ahead and click the little pin here
+[00:35:44] to hide the y curve really quickly.
+[00:35:47] And then we're just going to select x,
+[00:35:50] and we're going to drop it down to 0.5 instead.
+[00:35:53] So this is what we ultimately wind up with.
+[00:35:59] And you can see over here how that's
+[00:36:01] letting us stretch these rays thinner and taller
+[00:36:09] over the course of this animation.
+[00:36:11] Again, that gives us this really, really nice little
+[00:36:15] burst of an ease in, and then gives us
+[00:36:19] a fair amount of ease out at the end here.
+[00:36:22] We're also rounding out the effect
+[00:36:25] and moving it back upwards.
+[00:36:30] And then we'll just go ahead and add a scale color real quick.
+[00:36:36] And in that, we're just going to go add a float from curve.
+[00:36:45] We'll do our little default ramp buddy.
+[00:36:49] And we're just going to fade these in really quickly at 0.1
+[00:36:58] so that we get a little bit of an ease in,
+[00:37:05] but mostly just that nice soft ease out.
+[00:37:09] This sort of thing, again, just to contrast
+[00:37:12] with the hit impact where we just
+[00:37:13] let things pop into existence, that sort of approach
+[00:37:19] works really well in a lot of places.
+[00:37:23] The reason why I'm not doing it here in particular
+[00:37:26] is because this is an effect that I
+[00:37:30] want to feel soft and friendly and stuff like that.
+[00:37:36] Even these little bits of ease in like this
+[00:37:39] help a lot to soften up the overall effect,
+[00:37:43] give you that little bit of a warning
+[00:37:47] so that it's not quite so sudden.
+[00:37:48] It's not quite such a shock.
+[00:37:49] It's not quite so violent or energetic feeling
+[00:37:54] or stuff like that.
+[00:37:57] So the most time this fade in is ever going to wind up taking
+[00:38:05] is a 15th of a second.
+[00:38:10] But even that, you can see compared
+[00:38:15] to if we just delete this first key,
+[00:38:19] get that pop versus this, you start
+[00:38:24] to subtly get those little bits of softness into this.
+[00:38:29] So that's something that ease in in particular
+[00:38:33] is really, really nice for is helping
+[00:38:36] to define how much energy or how much warning you
+[00:38:42] want in a particle and kind of tune its personality
+[00:38:49] a little bit that way.
+[00:38:50] Now I'm going to jump back up into my cylinder real quickly.
+[00:38:56] And I'm going to check the surface only band.
+[00:39:05] And we're going to get rid of the end caps.
+[00:39:09] And this is just going to let us spawn things only
+[00:39:15] around the ring of that cylinder.
+[00:39:18] So this will be really, really helpful for encasing
+[00:39:23] the character rather than just spiking light rays up
+[00:39:27] through them.
+[00:39:29] And if we just scrub through here,
+[00:39:34] then we can also just go ahead and tweak our radius a bit
+[00:39:41] to walk better to that.
+[00:39:45] And then the very last thing I want to do with this,
+[00:39:52] just in the spirit of those nice soft ease outs,
+[00:39:57] we're going to add a spawn rate to this as well.
+[00:40:04] And for this, we're going to go ahead and swap this over
+[00:40:15] to a float from curve.
+[00:40:20] And we'll go ahead and start this at a value of 10.
+[00:40:33] And we're going to bring this key over to 0.2
+[00:40:37] and put it at a value of 20.
+[00:40:42] And then we'll add one last key at, let's say, 0.25.
+[00:40:51] And we'll drop it back down to 0.
+[00:40:54] And for these first two, we're going
+[00:40:59] to go ahead and select them, set the curves to Auto,
+[00:41:03] and then flatten them.
+[00:41:05] And we're just going to give this a little bit of an ease
+[00:41:08] in.
+[00:41:09] And for this last one, we're going
+[00:41:12] to go ahead and set these two to a constant.
+[00:41:18] And when you have your key set to a constant,
+[00:41:22] they're just going to, like you can see here,
+[00:41:25] they're just going to stair step.
+[00:41:27] Whoop.
+[00:41:30] Got an extreme example.
+[00:41:33] Constants can be a really, really nice way
+[00:41:35] to just drop your spawn rates up or down between really, really
+[00:41:41] precise inputs.
+[00:41:45] So if we scrub through this now, and you
+[00:41:48] can see we've got some of those light rays helping
+[00:41:51] to flesh out the intro.
+[00:41:54] These are giving us some nice larger details
+[00:41:57] to complement those little moats that we have there.
+[00:42:02] As we scrub through more of this,
+[00:42:04] you can see that really, really clear pop
+[00:42:06] where we've got the spawn burst instantaneous,
+[00:42:11] helping to really, really emphasize that.
+[00:42:13] And then as those ones fade away,
+[00:42:17] we're starting to get a pretty nice outro,
+[00:42:20] ease out, all that good stuff.
+[00:42:25] And the rest of the pieces that I want to add for this
+[00:42:30] are to really help complement that outro or that overall ease
+[00:42:35] out to our story arc here.
+[00:42:39] And the same as we just pulled some of these light rays
+[00:42:43] into the ease in, in order to help round out
+[00:42:47] the different levels of detail that we have there,
+[00:42:49] I want to bring some of those moats back into the outro
+[00:42:54] so that we get some different pops of visual interest.
+[00:42:58] We can pull some more different examples of our arcs
+[00:43:01] into that, and we can bring a little bit of magic sparkle
+[00:43:06] into the end of this too.
+[00:43:08] So we'll grab our init moats emitter again,
+[00:43:13] and just Control-C, Control-V to copy and paste
+[00:43:20] another version of it.
+[00:43:21] And this one is going to be our pop moats up.
+[00:43:32] And we're going to go ahead and soften both of these
+[00:43:38] while we're here.
+[00:43:39] Why not?
+[00:43:40] We're making a heel.
+[00:43:41] We want it to be friend-shaped.
+[00:43:47] OK.
+[00:43:49] So for our pop moats up, for starters,
+[00:43:57] we've got our spawn burst instantaneous at 0 here.
+[00:44:00] I do want to add a lot more moats,
+[00:44:06] but I don't really feel like messing around with the spawn
+[00:44:10] time necessarily.
+[00:44:12] So another thing that I could do here
+[00:44:15] is I could go up to the emitter state, where right now it's
+[00:44:20] set to the system.
+[00:44:22] If I go to my lifecycle mode, I crack this open
+[00:44:25] and switch it to self, then I can define this one
+[00:44:32] all on its own.
+[00:44:33] And so what this will let me do, we
+[00:44:37] set our system loop duration to 3,
+[00:44:41] which is where we eventually want it to be.
+[00:44:44] And we set this one to 3 as well.
+[00:44:47] Then we can turn on this loop delay down here.
+[00:44:51] And we can delay it by 0.35 like we've been delaying
+[00:44:57] a bunch of other stuff.
+[00:44:59] Let's hide the light rays real quick so you can see.
+[00:45:05] You can see the double tap in there of those.
+[00:45:11] So that's another way that you can offset the entire emitter
+[00:45:15] rather than just doing it per spawn burst
+[00:45:20] or through a curve like this one.
+[00:45:24] So for our next bits on here, part
+[00:45:31] of the reason why doing this in the loop delay is really nice
+[00:45:36] is I want to add a spawn rate to this one as well.
+[00:45:44] And we're going to swap this to a float from curve.
+[00:45:47] And we're going to use our smooth ramp down template.
+[00:45:55] This is going to be really, really nice
+[00:45:57] because it's going to give us a few.
+[00:46:02] Set this to 20.
+[00:46:05] Well, it's going to give us some of these ongoing particles
+[00:46:11] afterwards.
+[00:46:14] And we'll dig into that a little bit more in a second
+[00:46:19] once we've got the rest of this set up
+[00:46:21] and it feels less like a snowstorm.
+[00:46:23] So for our initialized particle, we're
+[00:46:28] going to give it a lifetime of half a second to a second.
+[00:46:33] We're going to bump size of our particles up a little bit.
+[00:46:41] Our cylinder, we can set our height to 10 and our radius
+[00:46:53] to let's give 50 a go.
+[00:47:00] And we're going to, again, undo that offset so that it's just
+[00:47:05] resting flat on the ground.
+[00:47:10] I think if we isolate this one, then it's hiding down here.
+[00:47:19] So next up in our velocity, we're
+[00:47:22] going to go ahead and, again, move these upwards instead
+[00:47:26] of down.
+[00:47:26] So we're going to do something like 50 to 200.
+[00:47:31] There we go.
+[00:47:34] So this is the point where you can
+[00:47:36] start seeing really nicely the benefit of this spawn
+[00:47:43] rate at the end.
+[00:47:44] If we hide this, then we're just going to get that one burst.
+[00:47:49] And it's really nice.
+[00:47:51] It's really cool.
+[00:47:54] But putting that spawn rate at the end
+[00:47:56] is, again, going to help soften the overall effect
+[00:48:02] by giving it a fall off not just in the speed of these,
+[00:48:06] not just in their alpha or stuff like that,
+[00:48:09] but also just in the number of particles
+[00:48:11] because we're going to pop this with a whole bunch of particles
+[00:48:14] on the impact and then keep emitting fewer and fewer
+[00:48:19] particles over time as opposed to the light rays where
+[00:48:23] they pop and then those ones just fade and die off.
+[00:48:26] So this gives us a nice little bit of a tail.
+[00:48:29] It's giving us a nice little bit of extra magic
+[00:48:35] because these are emitting energy or creating particles
+[00:48:43] or matter or however you want to look at it.
+[00:48:47] This is creating something other than just
+[00:48:51] an immediate response to that downward burst of motion.
+[00:48:57] And one of the ways that I think this starts
+[00:49:01] to help make it more magical is because if you've just
+[00:49:05] got an energy and then a response to that energy,
+[00:49:11] that's very physically grounded.
+[00:49:13] That's just basic conservation of momentum.
+[00:49:19] So even though we're using a lot of really magical shapes
+[00:49:23] and movement and stuff like that so far in this,
+[00:49:27] by having it be mostly that downward motion
+[00:49:29] and then having it be mostly a counter motion against that,
+[00:49:35] that's physically based enough to feel pretty realistic.
+[00:49:43] And in a lot of ways, that's a good thing.
+[00:49:46] There's going to be a few points in here where I really
+[00:49:49] want to try and tie the effect into physical laws
+[00:49:53] just to let your brain relax enough
+[00:49:57] and let this feel correct enough to not be distracting
+[00:50:03] or jarring or anything like that.
+[00:50:05] But looking for moments like these in an effect
+[00:50:11] to really emphasize something about that effect,
+[00:50:14] in this case, that gentler falloff
+[00:50:16] making it feel, again, friendlier,
+[00:50:20] those extra particles that aren't really
+[00:50:24] in response to anything still being created,
+[00:50:27] which detaches it a little bit from physical laws,
+[00:50:31] these are the sorts of little details
+[00:50:33] that you can start to look for, opportunities
+[00:50:36] to integrate into your effect to really, really push it
+[00:50:39] towards the element and the tone and stuff like that
+[00:50:43] that you want.
+[00:50:44] So it's a small little thing, but these
+[00:50:51] are the sorts of things that can really
+[00:50:52] help to flesh out an effect in some really, really nice ways.
+[00:50:59] So we've got our particle spawn all taken care of.
+[00:51:10] If we hop down into our next section,
+[00:51:18] I'm going to go ahead and disable this drag for a second.
+[00:51:24] And for our vortex velocity, we're
+[00:51:29] going to drop this way down.
+[00:51:33] What does that get us?
+[00:51:36] Too much down.
+[00:51:42] Let's try just cutting everything in half.
+[00:51:47] All right, yeah, so that gets us a nice little bit
+[00:51:50] of rotation there.
+[00:51:52] And I think in our cylinder, I'm going
+[00:51:58] to go ahead and turn that surface only band on again,
+[00:52:04] hide our end caps again, so that this is, again,
+[00:52:07] just clinging to that perimeter.
+[00:52:17] And other than that, we can just go ahead
+[00:52:21] and we'll delete our drag.
+[00:52:24] We'll delete that sprite size by speed.
+[00:52:30] We'll turn off velocity aligned for this one.
+[00:52:34] We'll just leave them unaligned.
+[00:52:39] That's going to, again, soften them up a little bit
+[00:52:42] by making them feel a little tiny bit more drifty.
+[00:52:49] And then in our size, we'll just go ahead
+[00:52:57] and drop this last key down to zero
+[00:53:03] and then smooth this curve out a bunch.
+[00:53:14] I think that starts to get us something pretty nice.
+[00:53:24] I'm not super duper big on how much of the detail
+[00:53:29] we're losing in this right now, so I'm actually
+[00:53:31] going to jump back to our rays.
+[00:53:34] And we're going to give these not any color,
+[00:53:42] because we're in block ins, colors next.
+[00:53:48] But I am going to drop the alphas of these
+[00:53:53] down to 0.1 and 0.25.
+[00:54:00] And there we go.
+[00:54:06] Everything starts to complement each other really nicely here.
+[00:54:12] Now, we'll go ahead and make these a little bigger
+[00:54:28] real quick.
+[00:54:43] I think this gets us a little bit better balance of sizes.
+[00:54:56] For our last mote emitter, we're just
+[00:55:02] going to go ahead and duplicate our pop motes again.
+[00:55:08] And these ones, instead of up, will be out.
+[00:55:15] And for these ones, we're going to go ahead and set our lifecycle
+[00:55:26] mode back to the system, because we're
+[00:55:28] going to go ahead and get rid of this spawn rate
+[00:55:31] and just use the spawn burst instantaneous again.
+[00:55:34] So we can just delay that to 0.35, 12 to 16 motes instead.
+[00:55:45] This is going to be a little bit subtler of one.
+[00:55:50] This emitter is a set of motes that I
+[00:55:54] do want to use to reinforce that little bit more of tying this
+[00:56:02] into the physical world.
+[00:56:03] So we've got our downward motion,
+[00:56:05] got our upward motion, and these are going
+[00:56:07] to be a little bit more of the blast radius
+[00:56:11] from that downward motion.
+[00:56:13] So for these particles, we don't actually
+[00:56:18] need to change anything, except that we are going
+[00:56:21] to let these stick around way longer if they want to.
+[00:56:26] So anywhere from half a second to 2 and 1 half seconds.
+[00:56:31] For our cylinder, we want to keep everything the same.
+[00:56:37] For our velocity, we're going to switch this
+[00:56:41] from being linear to being from a point
+[00:56:45] so that we can start getting that outward motion.
+[00:56:51] So we'll go ahead and randomize our speed.
+[00:56:56] The random range float, anywhere from 100 to 200.
+[00:57:04] So that starts to push these outwards in a big way.
+[00:57:12] For our offset, we're going to go ahead and drop
+[00:57:16] the point from our velocity down about 20 centimeters
+[00:57:20] so that we get not just straight out, but also
+[00:57:24] a little bit of up.
+[00:57:25] So it's still complementing that initial downward motion
+[00:57:30] and contrasting with that a little bit.
+[00:57:34] And then we're going to, down in our update,
+[00:57:42] get rid of the vortex velocity.
+[00:57:46] And we're going to add a gravity force instead.
+[00:57:54] And for this, what we're actually going to wind up doing
+[00:58:01] is we will go ahead and switch this to a curve.
+[00:58:09] And we'll flatten this whole thing out for starters.
+[00:58:20] And we'll add in a key halfway through.
+[00:58:27] And what I want to do with this is
+[00:58:30] I want to add some gravity in later on instead of just having
+[00:58:40] it immediately kick in since gravity is highly variable.
+[00:58:46] We're going to start this off, move this key to 0.25,
+[00:58:56] and then set it to minus 100.
+[00:59:00] And then if we click our little pins here
+[00:59:03] to re-reveal the other curves, then you
+[00:59:10] could see where this one lets us start off pulling them
+[00:59:16] downwards a little bit.
+[00:59:18] So they get a little bit of, again,
+[00:59:21] that arc, a little bit of that parabola from being pushed up
+[00:59:26] and then having gravity kick in and pull them downward.
+[00:59:30] But by cutting off that gravity early
+[00:59:33] and setting them all to 0, we're going
+[00:59:36] to stop these from falling down through the ground
+[00:59:44] without having to do anything fancy with collision.
+[00:59:48] So we'll just go ahead and select these keys real quick,
+[00:59:52] set them to auto, select these ones up here, and flatten them.
+[00:59:58] So that gives us a little bit of an s-curve ease in there.
+[01:00:04] And then you can see that we start
+[01:00:06] to get a little bit more downward motion that
+[01:00:11] wasn't there before.
+[01:00:14] We're going to go ahead and add a drag module to that.
+[01:00:20] And we'll just bump this one up to something like 4
+[01:00:23] to also just keep them from running too far away.
+[01:00:31] And for our last piece in here, now
+[01:00:37] that we have done all of this work
+[01:00:41] to make these feel a little bit more physical,
+[01:00:43] let's ruin it by adding a curl noise force to just give them
+[01:00:51] back a little bit of that kind of wispy,
+[01:00:57] wandery, twinkly magic feeling.
+[01:01:00] So you get just a little, little bit of pixie dust drift
+[01:01:07] into those.
+[01:01:10] It winds up being really nice.
+[01:01:13] I'm going to add a little bit more velocity into this
+[01:01:18] to start so that they're a little bit higher up
+[01:01:23] off the ground.
+[01:01:33] So that's everything that we're going
+[01:01:36] to be doing as far as like motes and light rays
+[01:01:38] and stuff like that on this, which means that it is,
+[01:01:42] I think, a good time to come back to our radii
+[01:01:45] that I promised we would.
+[01:01:48] So now that we have our whole block in figured out here,
+[01:01:55] we're feeling really good about our timing.
+[01:01:57] We're feeling good about the fact
+[01:01:58] that we won't probably be messing
+[01:02:01] a whole lot with the lifetime of either of these radii.
+[01:02:05] So this is a time when I might decide to actually combine
+[01:02:13] these if I was going to, if I was worried
+[01:02:17] about the number of emitters that this was adding up
+[01:02:21] to be, which this is a totally OK number of emitters,
+[01:02:24] but in theory.
+[01:02:29] So we're just going to add these two together.
+[01:02:35] So this becomes a lifetime of 1.9.
+[01:02:40] And then for our scale color, there's
+[01:02:48] two ways that we can look at this.
+[01:02:49] One is we can do the math of what
+[01:02:57] the normalized age for this would be.
+[01:02:58] 1.9 is about 2.
+[01:03:04] So we could say, OK, well, 0.4.
+[01:03:10] That means that we want to start this at 0.2,
+[01:03:15] bring this to something like 0.15,
+[01:03:17] and then add our key at the end here.
+[01:03:23] Let's us fade off that part.
+[01:03:31] But this isn't going to be super, super precise for something
+[01:03:41] like 1.9 if we do need a really, really fast pop
+[01:03:48] and then fade out or something like this.
+[01:03:51] So the other thing we can do here,
+[01:03:54] if we don't want to be noodling this curve back and forth
+[01:03:57] forever with guesswork, is on our curve index,
+[01:04:02] we can actually jump over to this little arrow.
+[01:04:05] And we can type in particles age.
+[01:04:09] And we can just use the age instead of the normalized age.
+[01:04:15] So if we do that, then we're actually
+[01:04:19] going to need to animate this curve to whatever
+[01:04:23] the actual age of the particle is,
+[01:04:25] which is why normalized age is usually so much more flexible.
+[01:04:29] But in this case, we can set that last key to be at 1.9.
+[01:04:35] We can bring this key back to 0.4 and this one back to 3
+[01:04:47] or something like that.
+[01:04:50] And these will be exactly the timings
+[01:04:54] that we were using before.
+[01:04:57] So now this winds up being really,
+[01:05:04] we disable this one real quick.
+[01:05:07] We wind up getting our entire radius
+[01:05:13] into one nice, tidy little emitter now.
+[01:05:19] And since we've successfully gotten rid of an emitter,
+[01:05:23] let's go ahead and add one last little bit of flair
+[01:05:27] to this by repurposing this emitter that we just
+[01:05:34] got rid of.
+[01:05:39] We are going to keep everything the same,
+[01:05:43] except that in our particle spawn,
+[01:05:45] we are going to go ahead and add a velocity of, let's say,
+[01:05:53] fix our solver issue.
+[01:05:55] Let's bump this up to something like 60.
+[01:06:00] And let's go ahead and add a little bit of drag
+[01:06:09] so that we get that ease out as well.
+[01:06:12] Bump this up to 1.5.
+[01:06:17] And this is just one last, fun, extra little detail.
+[01:06:27] If we disable it, you can see we've
+[01:06:31] got a super solid effect here.
+[01:06:33] This is a really good base for a ton of different healer buff
+[01:06:37] type effects.
+[01:06:40] But this helps give it a nice little bit of pop
+[01:06:45] and really emphasize that gameplay moment
+[01:06:48] within all of these softer ease ins and ease outs.
+[01:06:54] So it helps bring a little bit more energy
+[01:06:59] and a little bit more of that targeted like, hey,
+[01:07:04] this right here, this is the thing
+[01:07:06] I'm healing back into that.
+[01:07:11] And then just to be tidy, let's go ahead
+[01:07:13] and select all these, add a comment,
+[01:07:17] and we'll just pop plus out throw.
+[01:07:26] And that is our heal impact.
+[01:07:32] So again, hopefully this was helpful.
+[01:07:40] Hopefully this is a really fun base
+[01:07:44] to take and run with, customize, modify for your own things.
+[01:07:49] And hopefully this was a really, really helpful introduction
+[01:07:54] to some of the different ways that you
+[01:07:56] can think about arcs and story arcs and ease in and out
+[01:08:02] and all of the different ways that you
+[01:08:05] can be integrating those into your effect
+[01:08:08] with a lot of intentionality and a lot of different ways
+[01:08:13] to complement your gameplay and really make
+[01:08:17] your timing feel awesome and stuff like that.
+[01:08:21] So yeah, have fun.
+[01:08:26] I will see you all in the next one.
+[01:08:29] Cheers, y'all.
