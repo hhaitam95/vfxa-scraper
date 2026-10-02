@@ -1,0 +1,21 @@
+TITLE: Week 8 - Particle Systems _ Art Foundational Lectures_Shape Lecture
+OVERVIEW: This lesson covers Week 8 - Particle Systems _ Art Foundational Lectures_Shape Lecture, using the bootcamp's VFX tools as part of the animation/VFX bootcamp. The transcript is a practical lesson and should be followed alongside the corresponding software exercise.
+KEY TOPICS:
+- Week 8 - Particle Systems _ Art Foundational Lectures_Shape Lecture
+- Practical VFX workflow
+- Repetition and application
+TOOLS / TECHNIQUES / SHORTCUTS:
+- the bootcamp's VFX tools
+STEP-BY-STEP TAKEAWAYS:
+1. Follow the lesson's demonstrated setup and workflow in the bootcamp's VFX tools.
+2. Reproduce the main procedure shown in the transcript, checking the result at each stage.
+3. Apply the demonstrated technique to the corresponding VFX exercise and review the result in context.
+KEY MOMENTS:
+- [00:00:00] Oh hey guys, it's good to see you again.
+- [00:00:04] Let's talk some more about the artistic principles
+- [00:00:07] of visual effects.
+- [00:10:50] and I hope you learned something.
+- [00:10:52] And until then, until the next video,
+- [00:10:55] keep making awesome.
+ASSIGNMENTS / TIPS:
+- None mentioned
