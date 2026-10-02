@@ -1,0 +1,56 @@
+TITLE: Ground Crack
+OVERVIEW: This lesson builds a procedural circular ground-crack texture by distributing points, converting them into a custom Voronoi-like pattern, extracting crack edges, and adding layered deformation and width variation. It combines many of the procedural techniques introduced earlier into one reusable impact texture. It is intended for artists who want a more advanced procedural graph for ground-impact VFX.
+KEY TOPICS:
+- Point distribution
+- Custom Voronoi noise
+- Circular crack masks
+- Edge extraction
+- Mid and small deformation
+- Crack-line width variation
+- Center-weighted density
+- Procedural impact textures
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Tile Sampler
+- Paraboloid shape
+- Scale Map
+- Position Map
+- Normal Map
+- Vector Map
+- Mask Map
+- Position Random
+- Color Random
+- Random Seed
+- Levels
+- Distance
+- Flat Random / per-cell color mapping
+- Edge Detect / Edge Depth
+- Slope Blur
+- Multi-Directional Warp
+- Perlin Noise
+- Bevel
+- Histogram Scan
+- Transform 2D
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a paraboloid map and use a Tile Sampler to distribute small disk instances, concentrating points toward the center while spacing them more widely outward.
+2. Build separate scale, position, and mask maps so the point distribution has the desired center-heavy impact pattern and fades at the borders.
+3. Randomize position/color as needed, convert the point field into a custom Voronoi-style noise, and keep the cell regions distinguishable.
+4. Extract the crack lines from the custom noise, limit them to a circular region with a mask, and use Levels to preserve useful information near the outer fade.
+5. Create a grayscale map describing the relative size of the cells, then feed it into Slope Blur to vary and sharpen the crack structure.
+6. Apply separate mid-detail and small-detail Multi-Directional Warp passes using Perlin Noise, lowering intensity for the finer pass.
+7. Add a Bevel-based gradient to the crack lines, remap the result with Histogram Scan, scale the completed crack with Transform 2D, and export it.
+8. Test the texture inside an impact VFX, where the crack can add another layer of complexity and can later be extended with channels such as a normal map or emissive mask.
+KEY MOMENTS:
+- [00:00:06] The final procedural lesson introduces the grown ground-crack texture as a capstone exercise.
+- [00:01:00] The custom Voronoi concept and center-heavy point distribution are planned.
+- [00:04:25] The normal map is used as a position-driving vector for the Tile Sampler points.
+- [00:07:47] A Distance node converts the distributed points into the custom Voronoi-style noise.
+- [00:09:05] Edge Depth extracts the principal crack lines.
+- [00:11:28] Slope Blur is used to shape the crack edges according to the cell-size map.
+- [00:12:09] Mid- and small-detail Multi-Directional Warp passes add organic deformation.
+- [00:14:11] The finished ground crack is exported and demonstrated inside an impact effect.
+ASSIGNMENTS / TIPS:
+- Use the distribution maps deliberately; the center density is part of the impact design.
+- Keep mid- and small-scale deformation separate so fine detail does not overwhelm the base crack.
+- Use a circular mask to stop crack lines from running all the way to the texture borders.
+- Consider additional channels such as a normal map or emissive information when the texture needs more functionality.
+- The instructor encourages applying the same procedural thinking to other VFX textures.
