@@ -1,0 +1,28 @@
+TITLE: Anticipation
+OVERVIEW: This lesson introduces anticipation as the action that happens before a main action, explaining how it can improve readability and add punch. It shows how anticipation can use opposite movement, compression, a crouch, or a raise, and how it interacts with easing. It is intended for artists building a practical timing vocabulary for effects animation.
+KEY TOPICS:
+- Anticipation before a main action
+- Readability and punch
+- Opposite-direction movement
+- Anticipation with and without easing
+- Using limited frame counts
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Timing charts for planning frame distribution
+- Compressing frames to create easing
+- Reusing frames when the total frame count is fixed
+STEP-BY-STEP TAKEAWAYS:
+1. Identify the main action and decide whether an anticipation will improve its readability.
+2. Insert a small action before the main motion, using opposite movement or a simple crouch/raise.
+3. When frame count is fixed, take frames from the main motion to create the anticipation.
+4. Adjust frame spacing so any easing around the anticipation supports the intended punch and readability.
+5. Use anticipation only where it serves the action; it is an option rather than a requirement.
+KEY MOMENTS:
+- [00:00:20] Anticipation is defined as the action before the main action.
+- [00:01:22] The instructor explains taking frames from other parts of a fixed-length animation to create a pullback.
+- [00:02:35] Three examples compare no anticipation, anticipation without easing, and anticipation with easing.
+- [00:03:56] The instructor emphasizes that anticipation can be a crouch, squash, pull-down, or raise rather than only reverse travel.
+- [00:04:19] Anticipation is summarized as a small action that improves readability and punch.
+ASSIGNMENTS / TIPS:
+- Practice anticipation in different forms, especially in effects.
+- Do not add anticipation automatically; use it when it improves the action.
+- Remember that fixed-duration animation may require stealing frames from the main action.
