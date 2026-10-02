@@ -1,0 +1,31 @@
+TITLE: Unreal Scene Setup
+OVERVIEW: This lesson establishes the Unreal test scene used for the particle-system elemental studies. It prepares the camera, lighting/exposure, ground/context, and a consistent placement workflow for comparing effects. It is intended for beginners who need a reliable environment for real-time VFX evaluation.
+KEY TOPICS:
+- Unreal test scene
+- Camera
+- Lighting and exposure
+- Ground/context
+- Effect placement
+- Consistent evaluation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Camera view
+- Exposure controls
+- Ground plane
+- Niagara placement
+- Test-scene reuse
+STEP-BY-STEP TAKEAWAYS:
+1. Prepare the Unreal test scene and establish a consistent camera.
+2. Set lighting/exposure so emissive and translucent effects can be evaluated.
+3. Add simple ground/context geometry for scale and environmental interaction.
+4. Place Niagara effects at a known reference point.
+5. Reuse the scene for all elemental breakdowns so comparisons are meaningful.
+KEY MOMENTS:
+- [00:00:00] The Unreal test scene is introduced.
+- [00:05:00] Camera framing is established.
+- [00:10:00] Lighting/exposure is adjusted.
+- [00:15:00] Ground/context is prepared.
+- [00:20:00] Niagara placement is reviewed.
+ASSIGNMENTS / TIPS:
+- Keep the scene consistent.
+- Test from the gameplay camera.
+- Reuse the test scene for comparisons.
