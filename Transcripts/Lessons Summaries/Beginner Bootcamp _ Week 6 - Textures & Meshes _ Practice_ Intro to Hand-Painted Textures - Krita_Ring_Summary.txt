@@ -1,0 +1,43 @@
+TITLE: Ring
+OVERVIEW: This lesson paints a stylized shockwave/AOE ring texture and explains how to combine a circular starting guide with subtractive shape design. It focuses on varying ring thickness, creating directional motion, and using sharp and soft line treatment to make an AOE communicate both energy and affected area. It is intended for artists building reusable gameplay indicators and shockwaves.
+KEY TOPICS:
+- Shockwaves
+- AOE indicators
+- Ring construction
+- Additive versus subtractive painting
+- Radial motion
+- Sharp/soft line variation
+- Gameplay communication
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Ellipse tool
+- Shift for a perfect circle
+- Right bracket key to increase brush size
+- Transform tool
+- Eraser
+- Airbrush
+- Basic 5 Size brush
+- Layer opacity as a construction guide
+- Grid/center alignment
+- Gaussian Blur
+STEP-BY-STEP TAKEAWAYS:
+1. Create a square texture sized for its intended on-screen use and start with a clean circular ring.
+2. Decide whether to paint subtractively from a large shape or additively using the ring as a guide; in the demonstrated workflow, build the ring first and erase into it.
+3. Vary thickness and remove sections so the shockwave is not an even mathematical circle.
+4. Push the shapes outward from the center and use sharper and softer portions to imply energy and motion.
+5. Add secondary irregular lines or accents where needed while preserving the ring's overall area-of-effect read.
+6. Review the final texture in context as a gameplay communication tool: it should indicate both the energy moving outward and the area affected.
+KEY MOMENTS:
+- [00:00:05] Shockwaves and AOE indicators are introduced as common game effects for communicating healing or damage.
+- [00:01:01] The Ellipse tool is used to create the initial circular ring.
+- [00:02:00] Additive and subtractive painting approaches are contrasted.
+- [00:03:55] The ring is restored to full opacity and refined subtractively.
+- [00:08:34] Additional irregularity and outward energy are developed in the ring.
+- [00:15:00] The ring is refined so its motion and area read together.
+- [00:22:00] Sharp and soft line variations are used to create a more magical/glowy feel.
+- [00:24:33] The finished shockwave is presented as a reusable way to communicate energy and affected area.
+ASSIGNMENTS / TIPS:
+- Size the texture according to its expected in-game screen size.
+- Choose additive or subtractive painting based on how you prefer to build shapes.
+- Avoid perfectly even rings unless the design specifically calls for them.
+- Use sharp/soft variation and outward direction to reinforce the shockwave's energy.
+- Keep the gameplay communication clear; the ring should read as an area as well as a motion cue.
