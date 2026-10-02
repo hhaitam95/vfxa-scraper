@@ -1,0 +1,39 @@
+TITLE: Distortion
+OVERVIEW: This lesson builds a basic texture distortion system by using one texture to modify the UV coordinates used to sample another texture. It introduces coordinate offsets, a distance-like mask, mirroring at texture boundaries, and multidirectional distortion strength. It is intended for beginners learning how to make fluid-looking motion in shader graphs.
+KEY TOPICS:
+- UV distortion
+- Coordinate offsets
+- Distance-based falloff
+- Mirrored texture boundaries
+- Multidirectional distortion
+- Distortion strength
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Texture Sample
+- UV/Texture Coordinates
+- Add
+- Multiply
+- Distance-like mask
+- Sine/shape input
+- Strength parameter
+- Mirror texture wrap
+STEP-BY-STEP TAKEAWAYS:
+1. Choose a square texture to display and another image/function to drive the UV offset.
+2. Convert a channel from the distortion source into coordinate values and add a small amount to the visible texture's UVs.
+3. Create smooth intermediate values when the distortion should fall off rather than stop abruptly.
+4. Use a mirrored wrap behavior so coordinates pushed outside the texture can still sample nearby content.
+5. Increase or decrease distortion strength and combine directional signals to create multidirectional fluid motion.
+6. Test the result with several source textures before using it in a full material.
+KEY MOMENTS:
+- [00:00:05] Distortion is introduced as a foundational shader technique.
+- [00:01:10] A square texture is selected as the example source.
+- [00:03:08] A texture is used to add values to the coordinates.
+- [00:04:50] A distance-like value is sampled across the effect.
+- [00:05:49] Smooth intermediate values are introduced.
+- [00:07:06] Mirroring at the texture boundary is demonstrated.
+- [00:09:31] Multidirectional distortion is shown by changing strength.
+- [00:10:30] Distortion strength is adjusted for the final look.
+ASSIGNMENTS / TIPS:
+- Start with small distortion values.
+- Use a distortion source whose pattern supports the motion you want.
+- Check texture boundaries because large offsets can make the result unstable.
+- Experiment with source and strength separately so you know what each contributes.
