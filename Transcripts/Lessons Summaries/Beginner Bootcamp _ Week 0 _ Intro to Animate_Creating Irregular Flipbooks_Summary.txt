@@ -1,0 +1,42 @@
+TITLE: Creating Irregular Flipbooks
+OVERVIEW: This lesson expands the flipbook-template workflow to layouts that do not use square cells, including 4x4, 1x8, and 2x8 arrangements. It emphasizes building templates cleanly from scratch, previewing them with a separate animation layer, and understanding how unusual aspect ratios affect texture efficiency. It is for students who already understand the basic flipbook setup and want more useful layout options.
+KEY TOPICS:
+- 4x4, 1x8, and 2x8 flipbook layouts
+- Animation preview layers
+- Guide layers and export behavior
+- Non-square aspect ratios
+- Snapping and alignment
+- Scaling vector artwork for larger exports
+- Texture efficiency and frame packing
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 2048 document setup
+- F8 to create a symbol
+- Ctrl-X and Ctrl-Shift-V for cutting and pasting artwork in place
+- F5 to extend a layer to the required frame
+- F7 to create blank frames
+- Shape Tween for color transitions
+- Snapping with the Selection tool
+- Q for transform/resize; Alt + Shift for uniform scaling
+- Play Once for an animation preview
+- File > Export > Image
+STEP-BY-STEP TAKEAWAYS:
+1. Build a fresh template at 2048, create a 512-by-512 base cell, separate the border into a guide layer, and set the solid artwork to animate through a series of frames.
+2. Duplicate and snap the cell instances into a 4x4 layout, assign their frame numbers left-to-right, and save the template with its layout and resolution in the name.
+3. Build a 1x8 elongated template at 1024 by 2048, useful for a side-to-side tiling lightning zap, and work at the compressed ratio before scaling it up.
+4. Add a second row when a 16-frame 2x8 layout is useful, remembering that the sheet is read left-to-right across the first row before continuing to the next row.
+5. Add a visible animation layer for previewing, while keeping the flipbook template as a guide layer so the template itself does not export.
+KEY MOMENTS:
+- [00:01:34] An animation preview layer is added while the flipbook remains a guide layer.
+- [00:03:53] The instructor demonstrates exporting the flipbook and scaling the vector artwork up to 4096.
+- [00:06:13] A fresh 4x4 template is built from a 512-by-512 cell.
+- [00:10:35] The lesson introduces a 1x8 aspect ratio for elongated effects.
+- [00:14:11] The 1x8 template is applied to a lightning zap intended to tile side-to-side.
+- [00:15:54] A second row is introduced to create a 16-frame 2x8 layout.
+- [00:16:41] Frame ordering is corrected to left-to-right rather than top-to-bottom.
+- [00:18:21] A preview instance is configured to play through the flipbook and assess in-game resolution.
+ASSIGNMENTS / TIPS:
+- Create new templates from scratch to avoid unintended setup interactions.
+- Work at 1024 or 2048 when that is easier to manage, then scale vector artwork for a larger export.
+- Keep artwork inside its cell boundaries to prevent overlap.
+- For elongated textures, animate at the desired compressed ratio before scaling/exporting.
+- Judge resolution at the size the individual frame will occupy in the game.
