@@ -1,0 +1,36 @@
+TITLE: Adjusting Texture Intensity
+OVERVIEW: This lesson uses basic mathematical operations to change the intensity and value distribution of a texture in Unity. It demonstrates multiplication for scaling, Power for reshaping contrast, One Minus for inversion, and Time for continuously changing values. It is intended for beginners learning practical shader math without needing advanced mathematics first.
+KEY TOPICS:
+- Texture intensity
+- Multiply
+- Power
+- One Minus
+- Time
+- Contrast/value shaping
+- Normalized values
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Multiply
+- Power
+- One Minus
+- Time
+- Texture Sample
+- Emission/Bloom
+STEP-BY-STEP TAKEAWAYS:
+1. Sample the texture and make its intensity visible through the material's emission/bloom setup.
+2. Multiply the texture by a constant to scale its values up or down.
+3. Use Power to reshape the distribution of values so brighter or darker regions become more pronounced.
+4. Use One Minus to invert the value relationship.
+5. Feed Time into a value and combine it with the texture when continuous change is needed.
+6. Compare the output visually and choose the simplest operation that produces the required result.
+KEY MOMENTS:
+- [00:00:05] Basic math for changing texture color/intensity is introduced.
+- [00:00:57] Bloom intensity is enabled to make the effect easier to judge.
+- [00:01:53] Multiplication is tested with a value of 0.5.
+- [00:02:49] Values above one are shown increasing the intensity.
+- [00:05:40] Power is introduced as a two-input operation.
+- [00:08:46] One Minus is introduced.
+- [00:09:44] Time is connected as a continuously changing input.
+ASSIGNMENTS / TIPS:
+- Change one operation at a time while learning.
+- Use Power to shape contrast rather than only multiplying brightness.
+- Keep the output visually readable while testing mathematical changes.
