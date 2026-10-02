@@ -1,0 +1,44 @@
+TITLE: Software Setup
+OVERVIEW: This lesson configures Toon Boom Harmony for a faster special-effects workflow by simplifying the workspace and adjusting preferences. It covers automatic saving, drawing and timeline options, keyboard shortcuts, panel organization, and removing unused interface controls. It is intended for beginners setting up Harmony before doing the animation exercises.
+KEY TOPICS:
+- Harmony preferences
+- Automatic saving
+- Drawing and exposure settings
+- Keyboard shortcuts
+- Panel layout
+- Timeline toolbar cleanup
+- Display and workspace efficiency
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Edit > Preferences
+- Automatic Save Scene every 10 minutes
+- Dark style sheet
+- Extend Exposure of Previous Drawing
+- Colored outline
+- Reduce indentation
+- Advanced App Support overlay/underlay arts
+- Edit > Keyboard Shortcuts
+- Alt+B for Brush in the instructor setup
+- Alt+Shift+W as an alternative personal brush shortcut
+- Ctrl+F in Camera view
+- Panel docking, splitting, merging, and resizing
+- Timeline toolbar Customize
+STEP-BY-STEP TAKEAWAYS:
+1. Open Harmony Preferences and enable automatic saving at a practical interval.
+2. Set the preferred dark style, exposure behavior, colored outline, timeline indentation, and advanced overlay/underlay options.
+3. Customize shortcuts around the way you work, including a convenient Brush shortcut.
+4. Rearrange, dock, split, merge, and resize panels to keep only the tools needed for the VFX workflow visible.
+5. Remove unnecessary toolbar controls and save a cleaner workspace that keeps the camera, drawing, properties, color, library, nodes, and timeline accessible.
+KEY MOMENTS:
+- [00:00:26] Automatic scene saving is configured with a 10-minute interval.
+- [00:01:15] Exposure-sheet, colored-outline, timeline, and overlay/underlay preferences are introduced.
+- [00:02:20] Keyboard Shortcuts are opened and the Brush shortcut is customized.
+- [00:03:00] Panels are resized, moved, split, and merged to fit the user's workflow.
+- [00:03:58] The Display toolbar is explained in relation to rendering.
+- [00:04:40] Unneeded top controls are removed to create more screen space.
+- [00:05:40] Ctrl+F is demonstrated for hiding/restoring the camera-view top bar and centering the window.
+- [00:06:31] The timeline toolbar is customized and reduced to the controls needed for the workflow.
+ASSIGNMENTS / TIPS:
+- Enable automatic saving so a crash does not cost hours of work.
+- Treat shortcut choices as personal workflow preferences.
+- Keep the workspace focused on the panels actually used for FX work.
+- Remove unnecessary reference or toolbar clutter so the application stays responsive and easier to navigate.
