@@ -1,0 +1,37 @@
+TITLE: Positions & Distance Sampling
+OVERVIEW: This lesson introduces position data and distance calculations as a way for a material to react to where something exists in the world. It explains world-space position, distance relationships, exponential falloff, and how these values can drive natural-looking masks or other VFX behavior. It is intended for artists learning to make shaders interact with spatial context.
+KEY TOPICS:
+- World-space position
+- Distance
+- Distance-based masks
+- Exponential falloff
+- Spatial debugging
+- Position-driven VFX
+TOOLS / TECHNIQUES / SHORTCUTS:
+- World Position
+- Distance
+- Subtract
+- Absolute/length-style distance operations
+- Exponential falloff
+- Sine wave for debugging
+- Particle position data
+STEP-BY-STEP TAKEAWAYS:
+1. Expose the world-space position of the material's pixels/particles and visualize it as color so its spatial values are easy to inspect.
+2. Calculate the distance between positions to create a mask that changes with spatial separation.
+3. Remap the distance into a useful 0–1 range for controlling color, opacity, or another effect property.
+4. Apply exponential shaping when a natural falloff is needed rather than a purely linear change.
+5. Use simple signals such as a sine wave during debugging so you can distinguish whether the graph is receiving the expected data.
+6. Connect the spatial value to the final effect and test individual particles or scene elements in motion.
+KEY MOMENTS:
+- [00:00:05] Position and distance sampling are introduced.
+- [00:01:48] Spatial proximity in the level is used as the motivating example.
+- [00:05:29] World-space position is visualized.
+- [00:07:10] Position-derived grayscale values are inspected.
+- [00:08:47] Exponential shaping is introduced for a distance-like value.
+- [00:10:34] Natural-phenomenon use cases are discussed.
+- [00:16:37] A sine wave is suggested as a debugging aid.
+- [00:18:17] Individual particle behavior is considered in the spatial setup.
+ASSIGNMENTS / TIPS:
+- Visualize the raw position before building a complicated mask.
+- Remap distances into useful ranges before connecting them to visible outputs.
+- Use simple debug signals to verify that the material is receiving the data you expect.
