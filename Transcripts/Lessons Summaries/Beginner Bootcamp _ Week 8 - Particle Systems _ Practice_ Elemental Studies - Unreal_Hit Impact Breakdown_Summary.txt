@@ -1,0 +1,37 @@
+TITLE: Hit Impact Breakdown
+OVERVIEW: This lesson reconstructs a compact hit impact in Unreal by separating the flash, radial burst, streaks, and secondary follow-through. It emphasizes short lifetimes, velocity alignment, color timing, and narrow random ranges so the effect stays punchy. It is intended for artists creating gameplay-responsive impacts in Niagara.
+KEY TOPICS:
+- Impact flash
+- Radial burst
+- Directional streaks
+- Color/lifetime curves
+- Velocity alignment
+- Secondary particles
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Spawn Burst Instantaneous
+- Initialize Particle
+- Scale Sprite Size
+- Shape Location
+- Point Velocity
+- Velocity Align
+- Drag
+- Gravity
+- Scale Color
+STEP-BY-STEP TAKEAWAYS:
+1. Build the flash as the shortest and strongest layer.
+2. Add radial particles with narrow random lifetime, size, and velocity ranges.
+3. Align directional particles to their movement.
+4. Use color and size curves for a rapid white-hot impact and quick cooling.
+5. Add small secondary particles with slightly longer follow-through.
+6. Review the entire hit at gameplay speed and simplify anything that weakens the punch.
+KEY MOMENTS:
+- [00:00:00] The impact is broken into its main layers.
+- [00:05:00] The flash layer is created.
+- [00:10:00] Radial burst particles are added.
+- [00:15:00] Directional particles are aligned to movement.
+- [00:20:00] Color and lifetime are refined.
+- [00:25:00] Secondary follow-through is reviewed.
+ASSIGNMENTS / TIPS:
+- Protect the first impact moment.
+- Use controlled randomness.
+- Keep the secondary layers subordinate.
