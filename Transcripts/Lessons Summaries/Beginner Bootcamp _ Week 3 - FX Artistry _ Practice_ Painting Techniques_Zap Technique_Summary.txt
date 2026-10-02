@@ -1,0 +1,44 @@
+TITLE: Zap Technique
+OVERVIEW: This lesson demonstrates how to paint a hard, jagged electrical effect inside a rounded guide shape. The instructor blocks the energetic red form with a hard brush, uses selection contraction and dark internal layers for depth, then adds white/yellow glow accents and sharp edge cleanup. It is aimed at artists learning to render a graphic lightning material with strong shape language and controlled glow.
+KEY TOPICS:
+- Hard-edged lightning shape design
+- Red and black value structure
+- Selection contraction
+- Cavities and directional motion
+- Edge cleanup
+- Inner/Outer Glow
+- Canvas rotation for easier line control
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Hard pressure-sensitive brush
+- Lasso selection
+- Select > Modify > Contract
+- Ctrl-H to hide selection
+- Hard eraser
+- Canvas Rotate tool
+- Outer Glow
+- Inner Glow
+- Normal blending
+- Linear Dodge/Add as used in the course workflow
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a hard, size-responsive brush because the zap uses harsh, jagged, spiky shapes.
+2. Block the main red electrical form and refine it with the Lasso rather than trying to make every contour perfect in one brush pass.
+3. Contract the selection and place darker internal material on separate layers, using the form's contours to reinforce the intended motion.
+4. Clean the outer edge with a hard eraser and shape the silhouette deliberately rather than accepting accidental flat or square areas.
+5. Rotate the canvas when a desired stroke direction fights the natural hand/wrist angle.
+6. Add white/yellow hot accents and adjust Outer/Inner Glow settings to create the final luminous punch.
+7. Leave room for small residual red bits or secondary accents only when they help the form.
+KEY MOMENTS:
+- [00:00:51] The red zap treatment is introduced with a hard pressure-sensitive brush.
+- [00:02:28] Jagged, spiky lightning shapes are blocked into the rounded area.
+- [00:06:22] The selection is contracted and darker internal layers are added.
+- [00:09:06] Internal cavities are carved in a direction that supports the effect's movement.
+- [00:11:10] A hard eraser is used to sharpen energetic edges.
+- [00:12:48] The instructor chooses interesting edge details during cleanup rather than following only the initial plan.
+- [00:15:10] Canvas rotation is explained as a way to make difficult strokes easier to execute cleanly.
+- [00:17:00] White/yellow hot accents and glow are added.
+ASSIGNMENTS / TIPS:
+- Use hard edges for graphic lightning rather than starting with a soft brush.
+- Refine large shapes with brush plus lasso instead of over-designing every contour.
+- Let discovery happen during the cleanup pass; the instructor encourages improving the original idea when a better shape appears.
+- Rotate the canvas when the natural hand angle makes a stroke difficult.
+- Keep sharp edges and strong silhouette changes as core parts of the zap's visual identity.
