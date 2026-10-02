@@ -1,0 +1,41 @@
+TITLE: Ringburst
+OVERVIEW: This lesson builds a procedural circular burst texture using Substance Designer nodes and emphasizes how to turn a simple radial idea into a reusable VFX texture. It combines radial gradients, shape breakup, directional variation, blur, and value control so the final result can serve as a ringburst or radial impact layer. It is aimed at artists learning to construct radial effects procedurally rather than hand-painting every variation.
+KEY TOPICS:
+- Radial ringburst construction
+- Procedural shape generation
+- Radial variation
+- Shape breakup
+- Blur and value control
+- Exposed procedural parameters
+- Reusable VFX texture graphs
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Shape nodes
+- Radial/Cartesian gradients
+- Blend
+- Levels
+- Directional or Multi-Directional Warp
+- Blur
+- Transform 2D
+- Exposed graph parameters
+- Output node
+STEP-BY-STEP TAKEAWAYS:
+1. Break the reference into its main radial structure and create the basic circular/ring shape.
+2. Introduce controlled irregularity with procedural distortion so the ring does not remain perfectly mathematical.
+3. Use value remapping and blur to control the edge, softness, and energy distribution.
+4. Add directional variations and secondary breaks to keep the burst visually interesting while preserving the radial read.
+5. Expose the useful controls so the same graph can produce related ringburst variations.
+6. Connect the final result to an Output node and export it for use as a reusable VFX texture.
+KEY MOMENTS:
+- [00:00:05] The radial burst texture is introduced as the target.
+- [00:01:05] The main circular structure is established.
+- [00:03:00] Procedural variation is added to the base ring.
+- [00:05:10] Value/Levels control is used to refine the ring shape.
+- [00:07:20] Distortion and breakup are added to reduce the perfect-circle look.
+- [00:09:10] Softening and secondary variation are adjusted.
+- [00:11:20] Reusable controls are exposed for faster iteration.
+- [00:13:20] The final graph is output/exported for VFX use.
+ASSIGNMENTS / TIPS:
+- Keep the radial structure readable even after adding distortion.
+- Use controlled variation rather than pure randomness.
+- Expose only parameters that are useful for creating future variations.
+- Judge the texture in the context of the effect rather than only in the graph preview.
