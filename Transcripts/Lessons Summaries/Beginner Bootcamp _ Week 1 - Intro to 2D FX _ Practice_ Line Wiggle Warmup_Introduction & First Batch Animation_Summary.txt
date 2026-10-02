@@ -1,0 +1,42 @@
+TITLE: Line Wiggle Warmup - Introduction & First Batch Animation
+OVERVIEW: This lesson introduces a short straight-ahead line-wiggle exercise designed to loosen up before a day of animation. The exercise uses simple lines to explore motion, timing, waves, arcs, holds, shape changes, and creative improvisation without production pressure. It is aimed at beginners and artists who want a quick warmup that builds motion instincts.
+KEY TOPICS:
+- Straight-ahead warmup animation
+- Line and wave motion
+- Timing and frame spacing
+- Shape deformation
+- Motion arcs
+- Holds and readable beats
+- Creative experimentation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Adobe Animate
+- 512 x 512 document
+- Around 25-frame initial loop
+- Brush Properties for brush size
+- F7 for new blank frames
+- Period/comma for frame navigation
+- Shift for straight vertical or horizontal strokes
+- Control Enter to preview
+- Timeline edge drag with times-two indicator to stretch frames
+STEP-BY-STEP TAKEAWAYS:
+1. Create a small Animate document and start with a single line or dot rather than a planned production effect.
+2. Draw frame by frame straight ahead, letting the line grow, wiggle, bend, stretch, and change direction without planning the entire sequence.
+3. Watch the spacing between frames and adjust the amount of movement so a 30 FPS animation does not become unintentionally too fast.
+4. Use the line as a simple stand-in for hair, a wave, electricity, liquid, or another moving form, adding arcs and non-uniform changes to give it life.
+5. Preview the rough loop, stretch its exposures when needed, and leave small imperfections alone because the exercise is intended as a short warmup.
+6. Repeat the exercise with different shapes and motions, keeping the emphasis on flow and experimentation rather than polish.
+KEY MOMENTS:
+- [00:00:07] The warmup exercise is introduced as a straight-ahead line animation.
+- [00:01:16] The instructor explains the five-minute target and the purpose of warming up before production work.
+- [00:02:35] A 512 x 512 Animate file is created and the exercise is separated from the flipbook workflow.
+- [00:05:08] A roughly 25-frame loop is started and the brush size is selected.
+- [00:05:44] The line begins moving frame by frame, with an intentional hold before the wiggle starts.
+- [00:09:56] The first pass is judged too fast and the frames are stretched to slow the motion.
+- [00:10:39] The instructor emphasizes sharing the rough warmups and using them as low-pressure practice.
+- [00:30:35] A rough line animation turns into a stylized splash and the exercise returns to the idea of playful experimentation.
+ASSIGNMENTS / TIPS:
+- Do each warmup quickly rather than turning it into a polished production asset.
+- Do not worry about perfect line quality during the first pass.
+- Avoid repeating the exact same track or uniform ridge growth; introduce subtle changes.
+- Use holds when very fast motion needs time to register.
+- Keep the project file lightweight and remove oversized reference material that slows saving.
