@@ -1,0 +1,43 @@
+TITLE: Sequencer Addendum - Projectile Setup for Games
+OVERVIEW: This addendum shows how to turn the missile block-in into a more game-ready multi-system setup using user parameters and Sequencer. The wind-up, missile, and impact are separated so their timing and spatial offsets can be controlled independently, while the missile movement and trail are configured for variable-speed travel. It is aimed at artists preparing complex VFX for designer/engineer control.
+KEY TOPICS:
+- Multi-system projectile setup
+- User parameters
+- Sequencer
+- Wind-up, missile, impact separation
+- System delays
+- Velocity-driven versus animated motion
+- Spawn Per Unit
+- Game-ready control
+TOOLS / TECHNIQUES / SHORTCUTS:
+- User Parameters
+- Sequencer
+- Control Tracks
+- Sprite Facing
+- Custom Facing Vector
+- Spawn Rate
+- Spawn Per Unit
+- Location Event
+- Animator/animation route where needed
+- Niagara system timing controls
+STEP-BY-STEP TAKEAWAYS:
+1. Separate the projectile into wind-up, missile, and impact systems so each part can be spawned and controlled independently.
+2. Use user parameters for values such as spatial offsets and delays so the same effects can be repositioned without editing every internal emitter.
+3. For the missile system, remove particle delay and built-in velocity when the route is going to be driven by Sequencer/game logic.
+4. Restore a custom sprite-facing setup when velocity alignment is no longer driving the sprite orientation.
+5. Remove the core-to-trail Location Event and use a regular Spawn Rate for simple previewing; use Spawn Per Unit for a missile that changes speed or curves through world space.
+6. Build the sequence in Sequencer so wind-up activates first, missile travels, and impact activates at the destination, leaving the individual systems easier to implement in a game.
+KEY MOMENTS:
+- [00:00:05] The addendum introduces a more game-ready projectile structure with separate cast, missile, and impact effects.
+- [00:02:34] The existing impact system is stripped back to its core effect and user parameters are used to reset offsets and delays.
+- [00:03:40] The missile system is changed so designers/engineers can control the actual game-driven behavior.
+- [00:04:20] Particle velocity and velocity alignment are removed because the missile route will be externally animated.
+- [00:05:17] The trail is changed away from a Location Event and Spawn Per Unit is explained for variable world-space movement.
+- [00:07:09] Sequencer setup begins for the separated components.
+- [00:13:44] Spawn Per Unit is contrasted with Spawn Rate for curved or variable-speed missiles.
+- [00:14:56] The result is presented as a previewable setup that is closer to actual game implementation.
+ASSIGNMENTS / TIPS:
+- Use user parameters when multiple systems need the same adjustable values.
+- Separate multi-stage projectiles when designers/engineers need independent control.
+- Choose Spawn Per Unit when trail density should follow distance traveled rather than time.
+- Do not leave internal delays or velocity controls active when external sequencing is responsible for timing or movement.
