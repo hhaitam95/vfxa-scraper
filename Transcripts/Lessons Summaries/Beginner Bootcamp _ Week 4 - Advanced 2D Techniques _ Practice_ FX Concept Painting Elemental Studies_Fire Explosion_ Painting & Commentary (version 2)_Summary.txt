@@ -1,0 +1,47 @@
+TITLE: Fire Explosion - Painting & Commentary (Version 2)
+OVERVIEW: This lesson walks through a second, softer version of the fire-explosion painting while explaining how thumbnail design, shape sculpting, value structure, and lighting decisions drive the finished concept. It emphasizes building good underlying shapes first, then using soft brushes, color layers, selection-based painting, glow, and blur without losing the original structure. It is intended for artists developing a disciplined hand-painted FX workflow.
+KEY TOPICS:
+- Thumbnail development
+- Positive and negative shapes
+- Shape sculpting
+- Soft brush and pen pressure
+- Interior light
+- Value hierarchy
+- Radial blur
+- Smart Objects and color overlays
+- Glow and focal point
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Lasso tool as a shape-blocking/sculpting tool
+- Ctrl-click layer thumbnails for alpha selection
+- Select > Modify > Contract
+- Soft brush with low Flow/Opacity
+- Pen pressure and chisel brush
+- Bracket keys for brush size
+- Radial Blur
+- Layer Styles and Inner/Outer Glow
+- Smart Object
+- Gradient Overlay set to Color
+- Threshold adjustment layer
+STEP-BY-STEP TAKEAWAYS:
+1. Use the thumbnail to establish overall shape language, composition, and team-facing direction before painting.
+2. Roughly lasso and fill the major puff shapes, using brush and eraser/lasso as sculpting tools to add and subtract form.
+3. Add soft highlights and deeper orange values while thinking about where the internal fire light comes from.
+4. Treat the explosion masses as intersecting three-dimensional forms, refining blunt shapes with crisp details and keeping the overall flow coherent.
+5. Use alpha selection and Contract to create inset yellow/light regions, then use Radial Blur with the selection removed so the glow can extend beyond the shape.
+6. Build value hierarchy deliberately, keeping the hottest center highest in value and using dark/overlay layers to strengthen contrast.
+7. Add restrained orange/yellow additive layers, foreground/background variation, and additional motion-supporting shapes.
+KEY MOMENTS:
+- [00:00:09] The second fire-explosion painting starts from the completed thumbnail process.
+- [00:01:05] Thumbnails are explained as a quick way to align shape language and composition with a team.
+- [00:02:07] Lasso, brush, and eraser are used as a sculpting workflow.
+- [00:05:18] The instructor explains shaping internal fire light and cracks.
+- [00:06:45] The smoke masses are treated as three-dimensional intersecting objects.
+- [00:10:46] Ctrl-click plus Select > Modify > Contract creates an inset region for yellow.
+- [00:11:19] Radial Blur is applied after deselecting so the motion/glow can extend naturally.
+- [00:16:36] A darkening overlay and glow layer are used to reinforce contrast and heat.
+ASSIGNMENTS / TIPS:
+- The first strokes of a painting do not need to look impressive; use them to block the general idea.
+- Preserve strong foundational shapes instead of repeatedly blurring them away.
+- Keep the hottest energy concentrated rather than distributing maximum brightness everywhere.
+- Use soft brushes and blend modes with restraint.
+- Make layer names and color separation practical enough to support later changes.
