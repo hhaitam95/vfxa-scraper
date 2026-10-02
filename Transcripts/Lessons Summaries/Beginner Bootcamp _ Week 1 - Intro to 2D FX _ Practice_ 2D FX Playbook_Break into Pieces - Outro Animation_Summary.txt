@@ -1,0 +1,37 @@
+TITLE: Break into Pieces
+OVERVIEW: This lesson demonstrates an alternative way to make an effect disappear by breaking it into smaller pieces and then moving those pieces away. It recreates a ripple effect in stages, first designing the breakup, then adding motion, duplicating and rotating copies, and finally compressing the result into perspective. It also shows how the same construction can apply to lines, electricity, and volumetric shapes.
+KEY TOPICS:
+- Breaking a shape into pieces
+- Dissipation through breakup
+- Motion and dissipation as separate passes
+- Layer duplication and timing offsets
+- Rotation around a center
+- Perspective through axis scaling
+- Volumetric breakup
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Onion Skin
+- Copy and paste frames
+- Duplicate animation layers
+- Transform pivot repositioning
+- Multi-frame editing
+- Horizontal scaling/squashing
+STEP-BY-STEP TAKEAWAYS:
+1. Draw the base circle or ring and progressively carve it into smaller pieces, varying where and when each break appears.
+2. Add movement to the breakup by constructing the size and spacing changes from the end back toward the beginning where useful.
+3. Duplicate the animated layer and offset the copies in time to create multiple ripples.
+4. Rotate the copies around the central pivot so each one breaks at different locations, and vary timing when needed.
+5. Squish the finished composition on one axis to suggest a top-down perspective.
+6. Apply the same mental sequence of motion, breakup, and reduction to lasers, electricity, cloudy forms, or water.
+KEY MOMENTS:
+- [00:00:48] The base ring is created and the breakup pass begins.
+- [00:01:28] Onion Skin is enabled while the ring is copied and broken into pieces.
+- [00:06:20] The instructor emphasizes varying break size, timing, and carving amount.
+- [00:06:49] Motion is added as a separate stage after the breakup is established.
+- [00:10:54] Three copies of the ripple are introduced with timing differences.
+- [00:12:05] The duplicated ripples are rotated around the center to vary their breakup locations.
+- [00:13:44] The entire set is horizontally squashed to create a perspective effect.
+- [00:18:55] The same breakup idea is applied to volumetric/cloudy shapes and water.
+ASSIGNMENTS / TIPS:
+- Do not break every section at the same time or into identical sizes.
+- Separate the difficult problem into passes: breakup, motion, duplication/timing, then perspective.
+- Use the same construction logic for different visual materials while changing the shapes to fit the element.
