@@ -1,0 +1,44 @@
+TITLE: Tiling Trail
+OVERVIEW: This final Krita lesson combines the course's texture techniques into a tileable trail suitable for physical or magical projectiles. It uses wraparound painting, varied line weight, soft and hard layers, and selective blur while keeping the texture seamless. It also explains the different final orientation required for Unreal and Unity.
+KEY TOPICS:
+- Tileable projectile trails
+- Wraparound texture painting
+- Trail orientation
+- Soft and hard shape layers
+- Line-weight variation
+- Gaussian Blur
+- Engine-specific rotation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 512 x 512 texture
+- 256 x 512 / 512 x 256 alternative dimensions
+- Shift+W for Wraparound Mode
+- Basic 5 Size brush
+- Ctrl+J to duplicate
+- Gaussian Blur
+- X to swap painting color
+- Image > Rotate
+- Rotate Image 90 degrees
+- Layer opacity
+STEP-BY-STEP TAKEAWAYS:
+1. Choose the texture dimensions based on whether the trail will be painted vertically or horizontally.
+2. Enable Wraparound Mode and start with a loose trail scribble that can be refined into the main path.
+3. Shape the central trail with varied thickness and direction, checking the repeated edges as you work.
+4. Duplicate the base layer before blur so the source texture remains available, then use Gaussian Blur for a softer supporting layer while retaining harder structural shapes.
+5. Add darker or lighter regions to create variation without destroying the seamless connection.
+6. Check the trail in tiled mode and as a standalone texture, then rotate the final image when the target engine uses a different orientation.
+7. For the demonstrated convention, rotate horizontally for Unreal while keeping the vertical orientation for Unity.
+KEY MOMENTS:
+- [00:00:05] The final Krita lesson introduces tiling trail textures for physical and magical projectiles.
+- [00:00:47] A 512 x 512 file is created, with 256 x 512 and 512 x 256 alternatives depending on trail direction.
+- [00:01:28] Wraparound Mode is introduced for seamless trail painting.
+- [00:07:40] A duplicate layer and Gaussian Blur are used to create a softer supporting treatment without damaging the base.
+- [00:08:43] Darker regions are painted to vary the texture's visual weight.
+- [00:25:56] The hard/soft texture treatment is summarized.
+- [00:26:13] Engine-specific trail orientation is explained.
+- [00:26:29] Image > Rotate 90 degrees is shown as the way to convert between orientations.
+ASSIGNMENTS / TIPS:
+- Choose dimensions based on the direction and amount of space the trail needs.
+- Keep the texture seamless by painting with Wraparound Mode.
+- Preserve the hard base layer when experimenting with blur and softness.
+- Vary thickness and value so the trail does not become a uniform stripe.
+- Confirm the required orientation for the engine before export.
