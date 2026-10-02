@@ -1,0 +1,46 @@
+TITLE: Embers - Spritesheet
+OVERVIEW: This lesson introduces a procedural Substance Designer workflow for building a small set of ember textures and packaging them into a 2x2 sprite sheet. The core idea is to build one configurable ember generator, expose useful parameters, duplicate it, and vary those exposed controls instead of rebuilding each sprite. It is intended for artists learning why procedural graphs are useful for rapid VFX texture iteration.
+KEY TOPICS:
+- Procedural texture generation
+- Exposed graph parameters
+- Shape variation
+- Noise and distortion
+- 2x2 sprite-sheet packing
+- Graph reuse
+- Iteration speed
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Shape nodes
+- Blend nodes
+- Levels
+- Exposed graph inputs
+- Existing Graph Input
+- Tile Sampler
+- Transform 2D
+- Add blend
+- Tiling Mode > Absolute
+- Node Tiling
+- Output node
+- Export Output as Bitmap
+STEP-BY-STEP TAKEAWAYS:
+1. Create an empty Substance Designer graph at a comfortably large resolution and begin by defining the common base shape for the ember.
+2. Use procedural shape/noise operations to create the desired form, keeping the graph organized so important parameters can be exposed later.
+3. Expose the shape and size controls as graph inputs, and reuse one graph input for multiple nodes when a single controller should change several related values.
+4. Use Levels or similar remapping to keep the generated grayscale in a useful range and make iteration easier from the exposed-parameter panel.
+5. Turn the generator into a reusable output, then create a second graph and place four copies of the generator into a 2x2 sheet.
+6. Change each copy's exposed parameters to create distinct variations, transform each copy into its own quadrant, set tiling to absolute/node tiling so the copies do not repeat, and blend the four results together.
+7. Add a small glow treatment, create the final output node, export the sheet, and test it in the engine as a reusable secondary element.
+KEY MOMENTS:
+- [00:00:05] The lesson introduces the procedural texture exercise and the goal of generating multiple variations from one setup.
+- [00:01:04] A larger working resolution is recommended so the texture can be reduced later.
+- [00:05:20] Blend nodes are introduced for combining procedural shapes.
+- [00:07:41] Exposed graph parameters are explained as the way to centralize important controls.
+- [00:10:17] One existing graph input is reused to control multiple node parameters.
+- [00:13:06] The graph is organized around exposed controls so variations can be made quickly.
+- [00:15:10] The reusable generator is duplicated into a 2x2 sheet and each copy receives different parameters.
+- [00:17:35] The completed procedural sheet is finished with a small glow and exported for engine use.
+ASSIGNMENTS / TIPS:
+- Expose only parameters that are useful for future variation.
+- Reuse the same graph input when several related nodes should share one controller.
+- Keep the generator separate from the sprite-sheet assembly graph so the base logic can be reused.
+- Change parameters to create variation instead of rebuilding similar textures from scratch.
+- Save periodically and test the exported texture in the engine.
