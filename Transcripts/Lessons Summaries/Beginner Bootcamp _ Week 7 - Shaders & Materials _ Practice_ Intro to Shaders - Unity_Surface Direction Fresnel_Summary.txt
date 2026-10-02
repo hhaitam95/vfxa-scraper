@@ -1,0 +1,39 @@
+TITLE: Surface Direction Fresnel
+OVERVIEW: This lesson uses surface direction and the dot product to build a Fresnel-style edge mask that reacts to how a surface faces the camera. It demonstrates how normalized vectors and surface normals can produce a view-dependent transition and then uses the result for glow-like color/opacity behavior. It is intended for artists learning a practical vector-based method for world-interacting materials.
+KEY TOPICS:
+- Surface normals
+- Dot Product
+- Direction comparison
+- Normalize
+- Camera/view direction
+- Fresnel effect
+- Edge masks
+- World interaction
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Normal Vector
+- Dot Product
+- Normalize
+- Camera/View direction
+- Power
+- Color/Opacity output
+- Save Asset
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a surface and compare its normal direction with the direction toward the camera.
+2. Use Dot Product to turn their directional relationship into a scalar value.
+3. Normalize the vectors so length does not distort the directional comparison.
+4. Remap or power the scalar so the strongest values appear around the desired viewing angle.
+5. Connect the resulting mask to color or opacity to create a Fresnel/rim-like material response.
+6. Test the setup on different meshes, including curved or spiral shapes, and observe how the edge response changes with view direction.
+KEY MOMENTS:
+- [00:00:05] Surface-direction interaction is introduced.
+- [00:02:22] Directional alignment is explained.
+- [00:03:53] Normal Vector is introduced.
+- [00:06:04] Dot Product is used to compare directions.
+- [00:09:00] A spiral model is used as a more complex test shape.
+- [00:10:09] The sphere demonstrates the edge effect.
+- [00:11:34] A harder cutoff between colors is introduced as another use.
+- [00:12:47] The result is described as behaving like a light source around the surface.
+ASSIGNMENTS / TIPS:
+- Normalize direction vectors before relying on dot-product comparisons.
+- Test the material on shapes with different curvature.
+- Use Power or another remap when the raw mask is too broad.
