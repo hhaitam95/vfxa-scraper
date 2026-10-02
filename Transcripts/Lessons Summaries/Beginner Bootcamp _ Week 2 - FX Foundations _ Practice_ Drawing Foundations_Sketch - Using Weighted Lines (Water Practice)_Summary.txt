@@ -1,0 +1,41 @@
+TITLE: Sketch - Using Weighted Lines (Water Practice)
+OVERVIEW: This lesson applies the line-weight system to a series of stylized water-splash sketches. The instructor first builds line-of-action and volume guides, then carves bubbly silhouettes, adds inner forms, and uses thick outer contours with thinner overlapping and texture lines. It is aimed at practicing readability, depth, and water-specific shape language through controlled line weight.
+KEY TOPICS:
+- Water-splash construction
+- Line of action and volume
+- Bubbles and surface tension
+- Negative-space holes
+- Line-weight hierarchy
+- Overlap and depth
+- Tangent avoidance
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Overall line-of-action guides
+- Volume construction
+- Bubbly silhouette shapes
+- Perspective-aligned interior guides
+- Thick outer silhouette lines
+- Thinner overlap lines
+- Thin inner texture lines
+- Angled hatching for value
+STEP-BY-STEP TAKEAWAYS:
+1. Begin each splash with a main line of action and a broad volume, treating the water like flexible pieces bending through space.
+2. Shape the outer silhouette with bubbles, breaks, and holes that match the material.
+3. Add internal bubbles and bands along perspective-aware guide lines so they reinforce the volume.
+4. Use the thickest line on the outer silhouette, reduce weight on overlapping internal boundaries, and keep texture details light.
+5. Check for tangents where lines accidentally meet or align, then reposition or extend shapes so the depth remains readable.
+6. Add surface-tension forms and light spots that pass through or around bubbles, then review the entire splash for clarity.
+KEY MOMENTS:
+- [00:00:06] A water-splash line-of-action sketch begins.
+- [00:00:32] Volume is added to the initial action line.
+- [00:04:38] Water-specific bubbles, breaks, and surface shapes are developed.
+- [00:06:26] Perspective-aware guide lines are introduced for inner shapes.
+- [00:07:43] Outer silhouette line weight is made strongest.
+- [00:17:44] Negative-space holes and silhouette breaks are planned.
+- [00:23:15] A tangent is identified as a readability problem and the line is moved.
+- [00:45:29] Surface tension and light spots are added to the water forms.
+ASSIGNMENTS / TIPS:
+- Build the overall shape before adding detailed bubbles.
+- Keep line-weight rules consistent throughout the sketch.
+- Avoid tangents because they can make depth relationships harder to read.
+- Vary bubbles, holes, and breaks rather than repeating the same pattern.
+- Use internal lines to explain the 3D form instead of adding texture randomly.
