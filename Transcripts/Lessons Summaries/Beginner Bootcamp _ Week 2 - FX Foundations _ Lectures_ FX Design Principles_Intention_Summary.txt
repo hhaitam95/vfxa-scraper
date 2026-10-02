@@ -1,0 +1,35 @@
+TITLE: Intention
+OVERVIEW: This lesson teaches artists to identify why an effect exists in a scene before deciding how to animate it. It uses a “who, what, why, where” approach that considers purpose, placement, scale, interaction, dependencies, and the story context. It is intended for artists who want their FX choices to communicate rather than simply decorate the shot.
+KEY TOPICS:
+- Purpose of the effect
+- Who/what/why questions
+- Placement and scale
+- Interactions and dependencies
+- Story context
+- Narrative emphasis
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Scene/storyboard review
+- Scale checks
+- Composition planning
+- Adding secondary details such as smoke or debris when justified
+STEP-BY-STEP TAKEAWAYS:
+1. Ask what the effect is and what it needs to accomplish in the scene.
+2. Determine where it belongs and what scale makes sense for the camera and environment.
+3. Identify whether it interacts with a character, object, or location and plan those interactions.
+4. Check dependencies and continuity across the surrounding shots so scale and behavior remain consistent.
+5. Consider the emotional or narrative purpose and add secondary details only when they support that purpose.
+6. Reevaluate the effect when the story context changes; the same base design may need adaptation.
+KEY MOMENTS:
+- [00:00:32] The “who, what, why” approach is introduced for approaching an effect.
+- [00:01:08] Placement and compositional scale are added to the planning questions.
+- [00:01:57] Interactions with people, places, and objects are identified as dependencies.
+- [00:03:04] The instructor warns against letting FX steal attention from characters when they are not the shot's focus.
+- [00:03:43] A campfire scene is used to demonstrate purpose and scale.
+- [00:05:37] Story context changes the desired emotional role of the fire.
+- [00:07:33] A cooking scene shows how scale and details such as smoke depend on the new context.
+- [00:10:18] Smoke is used to connect the effect and camera movement to the wider story.
+ASSIGNMENTS / TIPS:
+- Read the storyboard or scene context before locking in an FX approach.
+- Keep the effect's narrative purpose in mind while designing it.
+- Check scale from the actual camera view.
+- Add extra elements only when they support the story or intended focus.
