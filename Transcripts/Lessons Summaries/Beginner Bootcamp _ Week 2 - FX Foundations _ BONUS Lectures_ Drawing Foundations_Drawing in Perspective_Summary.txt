@@ -1,0 +1,35 @@
+TITLE: Drawing in Perspective
+OVERVIEW: This lesson introduces perspective fundamentals, including the horizon line, vanishing points, and one-, two-, and three-point perspective grids. It demonstrates how to construct cubes while keeping edges aligned to the appropriate vanishing points and explains why inner construction lines can help verify accuracy. It is intended for beginners building the perspective foundation needed for FX drawing.
+KEY TOPICS:
+- Horizon line
+- Vanishing points
+- One-point perspective
+- Two-point perspective
+- Three-point perspective
+- Perspective grids
+- Construction versus visible edges
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Perspective grid construction
+- Dividing a grid with diagonals and halves
+- Light construction strokes
+- Stronger final edges
+- Imagined vanishing points outside the frame
+STEP-BY-STEP TAKEAWAYS:
+1. Identify the horizon line as the line representing the viewer/camera height and place the vanishing points on it.
+2. Choose one-, two-, or three-point perspective based on the viewing angle.
+3. Build the appropriate grid, imagining vanishing points outside the page when necessary.
+4. Draw simple cubes by keeping straight edges straight where appropriate and aligning perspective edges toward the relevant vanishing point.
+5. Use lighter inner edges to check the construction, then reinforce only the edges visible to the viewer.
+KEY MOMENTS:
+- [00:00:38] The horizon line and vanishing-point definitions are introduced.
+- [00:02:28] One-point perspective is explained and its vanishing point is placed at the center.
+- [00:04:02] The one-point grid is constructed.
+- [00:09:14] Two-point perspective begins with the horizon line above center and vanishing points outside the frame.
+- [00:18:59] A less common vertical two-point perspective is introduced.
+- [00:24:45] Three-point perspective is explained for views from the side and above.
+- [00:33:26] Bottom-up three-point perspective is described as the 180-degree rotation of the top-down version.
+- [00:34:37] An asymmetric parallel perspective grid is introduced for game-like infinite planes.
+ASSIGNMENTS / TIPS:
+- Practice simple cubes in each perspective type.
+- It is acceptable to use full grids while learning; later, try to imagine the vanishing points without constructing every line.
+- Prioritize preserving the feeling of perspective rather than chasing perfect measurement.
