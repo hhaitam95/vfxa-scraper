@@ -1,0 +1,38 @@
+TITLE: Combining Shapes in Perspective
+OVERVIEW: This lesson shows how to construct complex forms by starting with simple shapes and extending, intersecting, subtracting, and rounding them in perspective. It uses cubes, pyramids, cylinders, and organic forms to demonstrate how intersection points and perspective-aligned edges keep complex drawings coherent. It is for artists who want to move beyond isolated primitives.
+KEY TOPICS:
+- Building complex forms from primitives
+- Perspective-aligned intersections
+- Cubes, pyramids, cylinders, and cones
+- Subtracting shapes
+- Rounded and organic forms
+- Visible edge definition
+- Shading for volume
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Perspective plane/grid
+- Diagonal lines for finding square centers
+- Vertical construction lines
+- Perspective-aligned construction lines
+- Light construction strokes followed by heavier final lines
+- Simple shading to clarify volume
+STEP-BY-STEP TAKEAWAYS:
+1. Establish a perspective plane and draw a simple base form such as a cube.
+2. Add or subtract another primitive by finding its intersection points with the existing form.
+3. Extend those intersection points using the perspective directions and verticals to reconstruct the new shape.
+4. Define only the visible edges more strongly and use lighter construction lines where appropriate.
+5. Add rounding by defining where a corner begins and ends, then replacing the sharp edge with an arc that follows the form.
+6. Add interior curves and shading to make the combined form read as three-dimensional.
+KEY MOMENTS:
+- [00:00:05] A perspective plane is created as the foundation for extending shapes.
+- [00:00:55] A cube is constructed on the plane.
+- [00:02:17] A pyramid is built by finding the center of a perspective square.
+- [00:03:16] Cylinders and pointed forms are added to the same perspective setup.
+- [00:05:08] A second shape is constructed so that it intersects the first cube.
+- [00:09:17] A cuboid intersecting another cube is used for a more complex example.
+- [00:14:53] A cylinder is intersected with a cube and its visible edges are resolved.
+- [00:22:41] The lesson demonstrates turning a cube into a rounded organic form and then into a more complex monster-like drawing.
+ASSIGNMENTS / TIPS:
+- Start complex drawings from simple primitives.
+- Keep intersection points and perspective directions consistent.
+- Use lighter construction lines before committing to visible edges.
+- Add shading only after the structural drawing works.
