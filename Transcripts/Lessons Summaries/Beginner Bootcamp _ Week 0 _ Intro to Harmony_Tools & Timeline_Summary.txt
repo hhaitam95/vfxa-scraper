@@ -1,0 +1,57 @@
+TITLE: Tools & Timeline
+OVERVIEW: This lesson goes deeper into Harmony's timeline, exposures, selection tools, drawing tools, colors, and layer organization. It demonstrates how to manage frames and exposures efficiently and introduces tools for contour editing, painting, cutting, auto-flattening, and protected colors. It is intended for beginners who have completed the basic Harmony setup and need practical day-to-day controls.
+KEY TOPICS:
+- Timeline and exposure management
+- Layer controls and properties
+- Keyframes and exposure modes
+- Onion Skin
+- Overlay and underlay art layers
+- Contour editing
+- Paint Bucket modes
+- Cutter and Auto Flatten
+- Color protection and palettes
+TOOLS / TECHNIQUES / SHORTCUTS:
+- D to enable/disable a layer
+- Ctrl+R to create a layer
+- Period/comma to move between frames
+- Left/right brackets to switch exposures
+- F5 to extend an exposure
+- Fill Empty Cells
+- Plus/minus to increase or decrease exposure
+- Ctrl+M for Exposure Sequence Field
+- Shift+T for Transform tool
+- Alt+S for Selection
+- F6 for keyframe; F7 to clear keyframes
+- Onion Skin
+- Shift+T and Alt+S for quick tool switching
+- Alt+Shift+D to duplicate an exposure
+- Alt+Q for Contour Editor
+- Ctrl to add contour points; Alt to stretch or break them
+- Alt+V for invisible strokes
+- Alt+D for Dropper; Alt+B for Brush
+- Paint Bucket modes Paint Unpainted, Repaint, and Unpaint
+- Alt+T for Cutter
+- Shift+Ctrl+F for Auto Flatten
+- Paint Behind and Protect Color
+- Select by Color
+STEP-BY-STEP TAKEAWAYS:
+1. Learn the timeline controls for enabling, locking, outlining, renaming, and inspecting layers, and create new layers as needed.
+2. Manage exposures with F5, F6, F7, plus/minus, Fill Empty Cells, and Exposure Sequence Field rather than editing every cell manually.
+3. Use Onion Skin and multi-frame selection to inspect and transform animation across selected frames; include visible layers or art layers when needed.
+4. Edit vector artwork with the Contour Editor, invisible strokes, Dropper, Brush, Paint Bucket modes, Cutter, and Auto Flatten.
+5. Organize and reuse colors through Harmony palettes, including solid, gradient, and radial-gradient options, and use Protected Color or Select by Color when recoloring.
+KEY MOMENTS:
+- [00:00:23] Timeline controls, playback, and layer properties are introduced.
+- [00:03:34] Exposure navigation with period/comma and bracket shortcuts is demonstrated.
+- [00:04:23] F5 exposure extension and the preference for extending the previous drawing are shown.
+- [00:05:45] Exposure Sequence Field is used to generate repeated exposure patterns.
+- [00:08:42] Onion Skin and selecting all frames across visible layers are demonstrated.
+- [00:09:43] Overlay and underlay art layers are introduced.
+- [00:14:41] The Cutter tool is demonstrated for quickly slicing unwanted artwork.
+- [00:16:25] Paint Behind, Repaint, Protect Color, and color-selection workflows are explained.
+ASSIGNMENTS / TIPS:
+- Customize the timeline to expose the controls you actually use.
+- Lock or disable layers when you do not want them selected or edited.
+- Use exposure tools to avoid manually filling long stretches of the timeline.
+- Use Auto Flatten when separate shapes need to behave as a merged drawing.
+- Build reusable palettes for different effects.
