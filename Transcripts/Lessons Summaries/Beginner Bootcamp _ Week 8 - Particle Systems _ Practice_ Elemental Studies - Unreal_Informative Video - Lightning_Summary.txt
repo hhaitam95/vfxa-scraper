@@ -1,0 +1,29 @@
+TITLE: Informative Video - Lightning
+OVERVIEW: This lesson studies real lightning reference to identify the timing and branching behaviors worth reproducing in a game effect. It emphasizes the extremely fast main event, irregular branch structure, repeated-strike variation, and environmental flash. It is intended for artists building a realistic reference vocabulary for stylized electrical VFX.
+KEY TOPICS:
+- Lightning branches
+- Timing
+- Strike variation
+- Environmental response
+- Flash behavior
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Slow-motion footage
+- Frame-by-frame analysis
+- Branch/silhouette comparison
+- Flash timing study
+STEP-BY-STEP TAKEAWAYS:
+1. Watch several lightning strikes instead of relying on one reference.
+2. Identify the main bolt and the major branches.
+3. Observe how the shape changes between strikes.
+4. Note how quickly the strike appears and disappears and how the environment responds.
+5. Use these observations to guide a short, readable game effect.
+KEY MOMENTS:
+- [00:00:00] Lightning reference begins.
+- [00:05:00] Strike timing is examined.
+- [00:10:00] Branching patterns are analyzed.
+- [00:15:00] Strike-to-strike variation is discussed.
+- [00:20:00] Environmental flash is considered.
+ASSIGNMENTS / TIPS:
+- Study multiple strikes.
+- Keep the main bolt readable.
+- Use variation instead of copying one branch structure.
