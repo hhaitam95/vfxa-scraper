@@ -1,0 +1,47 @@
+TITLE: Wispy Cloud - Painting & Commentary
+OVERVIEW: This lesson paints a wispy, magical cloud/nether effect from thumbnail through layered soft and crisp rendering. It emphasizes establishing strong silhouettes early, then selectively adding blur, glow, ambient light, internal light, and color variation. It is intended for artists learning how to combine shape clarity with believable atmospheric rendering.
+KEY TOPICS:
+- Thumbnail-to-painting workflow
+- Crisp silhouettes
+- Soft internal texture
+- Ambient versus internal light
+- Depth through value and edge treatment
+- Thin connecting tendrils
+- Glow and color overlays
+- Layered polish
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Black-and-white thumbnails
+- Crisp brush and crisp eraser
+- Lasso tool
+- Smudge tool used selectively
+- Edit > Transform > Flip Horizontal
+- Control-click alpha selection
+- Soft low-opacity brush
+- Linear Dodge/Add
+- Gradient Overlay
+- Smart Object
+- Layer opacity
+STEP-BY-STEP TAKEAWAYS:
+1. Make several quick black-and-white thumbnails and choose one small composition with clear big/medium/small relationships.
+2. Scale the thumbnail up and establish the inner glow and main silhouette on separate layers.
+3. Keep the outer silhouette crisp while adding soft internal shadows, highlights, and texture inside selected areas.
+4. Use thin connecting tendrils, varied thickness, and increasingly sparse pieces to imply stretching, spinning, pulling apart, and dissipation.
+5. Distinguish ambient environmental light from the effect's internal point light and use that logic consistently across layers.
+6. Preserve crisp edges during the structural stage; soften or smudge only after the underlying shapes are strong.
+7. Add subtle blue/purple/pink color variation, additive glow, and layer-specific adjustments rather than relying on one blanket color transform.
+KEY MOMENTS:
+- [00:00:09] The wispy nether effect and thumbnail stage are introduced.
+- [00:00:35] Quick black-and-white thumbnail practice is recommended.
+- [00:03:35] Crisp brushwork is chosen to preserve clear silhouettes.
+- [00:06:51] Smudging is demonstrated as an optional later-stage softening tool.
+- [00:08:22] Horizontal flipping is shown as a way to inspect the entire image.
+- [00:11:37] Ambient dark-purple lighting is separated from the brighter internal light source.
+- [00:13:18] Thin tendrils and sparse detached elements are used to show motion and breakup.
+- [00:16:49] Internal light is placed according to how it would interact with the form.
+ASSIGNMENTS / TIPS:
+- Keep thumbnails quick and make many rather than endlessly editing one.
+- Protect the strong silhouette; softness can be added later but crisp structure is harder to recover.
+- Use reference for color and lighting relationships.
+- Think through what is producing the light before painting arbitrary highlights.
+- Keep major color/touch-up layers separate so they remain adjustable.
+- Use layer-specific color changes for art direction instead of relying only on blanket adjustments.
