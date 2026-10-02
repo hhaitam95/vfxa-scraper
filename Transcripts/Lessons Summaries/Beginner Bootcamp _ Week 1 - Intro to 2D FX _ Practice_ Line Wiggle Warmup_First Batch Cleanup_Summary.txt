@@ -1,0 +1,41 @@
+TITLE: Line Wiggle Warmup - First Batch Cleanup
+OVERVIEW: This lesson demonstrates how to polish a batch of rough line-wiggle animations after the initial warmup pass. It covers recoloring, offsetting loop timing so the layers do not restart together, checking fast motion and holds, and keeping source files lightweight. It also reinforces the value of playful experimentation and rough practice before cleanup.
+KEY TOPICS:
+- Recoloring multiple animation frames
+- Offsetting loop starts and endings
+- Selection behavior in Animate
+- Fast motion and readable holds
+- Lightweight project files
+- Warmup repetition
+- Non-uniform wave motion
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Edit Multiple Frames
+- Ctrl+A
+- Control Enter
+- Click-drag selection and movement of selected frames
+- Guide layers
+- 50-frame loops at 30 FPS in the example
+- Four warmups in about 20 minutes
+- Four-pixel brush trial and seven-to-eight-pixel preference
+STEP-BY-STEP TAKEAWAYS:
+1. Lock the layers that are not being edited and use Edit Multiple Frames to select the complete range of a single layer.
+2. Recolor each animation layer separately, then preview the color relationships.
+3. Select and drag frame ranges to stagger the starting points, creating a stair-step so loops finish at different times rather than all restarting together.
+4. Review fast sections and add a short hold after large movement so the viewer can register the action.
+5. Keep the animation file lightweight by removing unnecessary large reference files from the project library.
+6. Continue experimenting with wave ridges, splashes, electricity, and other shapes without over-polishing the rough warmup.
+KEY MOMENTS:
+- [00:02:20] The rough layers are shown restarting together and creating a synchronized beat.
+- [00:02:38] Edit Multiple Frames is used to recolor individual layers.
+- [00:04:06] Multiple frame selection and the click-drag behavior for moving ranges are explained.
+- [00:05:44] The first selected animation is offset toward the middle of the timeline.
+- [00:13:46] A large reference file is identified as slowing automatic saves and is deleted.
+- [00:15:14] A 50-frame loop is used as a practical length for the example at 30 FPS.
+- [00:20:49] A very fast electrical motion is given a brief hold so the action can register.
+- [00:22:22] Four warmups in about 20 minutes are suggested for getting loose before serious animation.
+ASSIGNMENTS / TIPS:
+- Practice several quick warmups rather than polishing the first drawing excessively.
+- Make repeated elements visually distinct through color, timing, and offset.
+- Keep files lightweight so saving does not interrupt the workflow.
+- Avoid excessive uniformity in wave or ridge growth.
+- Add holds after very fast action when necessary for readability.
