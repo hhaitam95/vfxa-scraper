@@ -1,0 +1,43 @@
+TITLE: Unity Healing Loop
+OVERVIEW: This lesson creates a soft looping heal effect and uses it to introduce animated flipbook textures in Unity. It covers grid-based frame animation, curve-controlled frame progression, and the alternative of randomly selecting frames from a sheet for per-particle variation. It is aimed at beginners learning how hand-authored textures can become animated particle effects.
+KEY TOPICS:
+- Horizontal billboards
+- Flipbook textures
+- Texture Sheet Animation
+- Grid versus Single Row
+- Frame Over Time
+- Lifetime-driven animation
+- Random frame selection (“pickbooks”)
+- Soft looping visuals
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Renderer > Horizontal Billboard
+- Burst emission
+- Texture Sheet Animation
+- Tiles 2x2 / 4x4
+- Whole Sheet / Single Row
+- Time Mode > Lifetime
+- Frame Over Time curve
+- Break Tangents
+- Random Between Two Constants
+STEP-BY-STEP TAKEAWAYS:
+1. Create the base ring as a horizontal billboard so it lies on the ground, use a one-particle burst, and select a soft color/alpha treatment.
+2. Duplicate the particle setup for a sparkle layer and assign a flipbook texture instead of a static texture.
+3. Enable Texture Sheet Animation and set the correct grid, such as 2x2, so Unity knows how many frames are packed into the texture.
+4. Use Frame Over Time over the particle lifetime to play the packed frames; tune the curve to reduce time on the first and last frames for a sharper sparkle.
+5. Use Single Row when only one row of the texture contains the animation and Whole Sheet when the entire grid should be traversed.
+6. For “pickbooks,” change Frame Over Time to a random constant range so each particle chooses a different frame rather than animating through the sequence.
+7. Use the random-frame approach for sparks, smoke, flames, or other effects where small per-particle variation is useful.
+KEY MOMENTS:
+- [00:00:05] The looping heal effect and its two learning goals are introduced.
+- [00:01:15] A ground ring is configured as a horizontal billboard.
+- [00:02:39] The sparkle flipbook texture is introduced and separated from the material itself.
+- [00:04:16] Texture Sheet Animation is enabled and a 2x2 grid is selected.
+- [00:05:45] Emission/lifetime settings are changed so the sparkles animate quickly enough to read.
+- [00:07:27] The Frame Over Time curve is edited to shorten time on the first and last frames.
+- [00:09:19] Random frame selection (“pickbooks”) is introduced as another use of packed textures.
+- [00:10:27] Electrical sparks, smoke, and flames are given as examples where random flipbook-frame selection is useful.
+ASSIGNMENTS / TIPS:
+- Match the texture-sheet grid to the actual packed texture.
+- Use lifetime-driven frame progression when the particle should play its animation once over its life.
+- Use small amounts of randomness when you want variation without losing visual cohesion.
+- Treat Whole Sheet and Single Row as different packing/selection options rather than interchangeable settings.
