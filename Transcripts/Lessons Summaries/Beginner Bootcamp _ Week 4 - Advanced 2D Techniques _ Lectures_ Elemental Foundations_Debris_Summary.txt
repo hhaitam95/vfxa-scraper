@@ -1,0 +1,36 @@
+TITLE: Debris
+OVERVIEW: This lesson introduces debris as an effects-adjacent category that often overlaps with props, especially when objects break, shatter, transform, or become airborne. It focuses on drawing small pieces rotating in perspective and on animating materials such as paper or drapery that produce complex overlapping motion. It is aimed at effects artists who may need to take over prop-like breakup and secondary-motion shots.
+KEY TOPICS:
+- Debris versus props
+- Breaking and shattering
+- Rotation in perspective
+- Rocks, glass, ice, leaves, and foliage
+- Paper and drapery
+- Overlap and twisting
+- Heavy versus light debris
+TOOLS / TECHNIQUES / SHORTCUTS:
+- End-over-end rotation drawing
+- Perspective construction
+- Frame-by-frame debris animation
+- Overlap and sliding motion
+- Weight-driven timing
+STEP-BY-STEP TAKEAWAYS:
+1. Determine whether a prop has become an effect because it is breaking, shattering, transforming, or otherwise creating effect-like motion.
+2. Choose representative debris pieces and establish their three-dimensional rotation rather than simply translating a flat shape.
+3. Animate rocks, glass, ice, leaves, or foliage with perspective changes that reveal different sides of the object.
+4. Add secondary overlap for flexible objects such as paper or a cape, allowing wind and forces to create folds, twists, and delayed motion.
+5. For shattering objects, vary piece size, rotation, overlap, and sliding behavior according to the object's weight.
+KEY MOMENTS:
+- [00:00:06] Debris is introduced as an often-overlooked effects category.
+- [00:01:05] The gray area between effects and animation props is explained.
+- [00:02:22] Breaking, shattering, and transforming props are identified as cases where effects artists may take over.
+- [00:03:35] Rotating small debris pieces in perspective is introduced.
+- [00:04:33] A rock's front and back surfaces are shown changing through rotation.
+- [00:05:37] Paper and drapery are discussed as prop-like but effects-relevant animation.
+- [00:07:01] A vase shatter is used to demonstrate rotating and sliding debris.
+- [00:08:13] Rain and snow are introduced as another effects/production gray area.
+ASSIGNMENTS / TIPS:
+- Practice rotating simple debris pieces in perspective.
+- Observe real falling paper and drapery to study overlapping motion.
+- Vary debris according to size, weight, and breakup behavior rather than making every piece identical.
+- Be prepared for effects work to include prop-like animation when objects break apart.
