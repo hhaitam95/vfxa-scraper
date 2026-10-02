@@ -1,0 +1,34 @@
+TITLE: Lightning Beam Breakdown
+OVERVIEW: This lesson breaks a sustained lightning beam into a readable core, scrolling/distorted internal motion, secondary branches, and impact accents. It adapts the earlier lightning principles to a beam that exists longer than a single instantaneous strike. It is intended for artists building magical or electrical beam attacks in Niagara.
+KEY TOPICS:
+- Beam silhouette
+- Scrolling texture
+- Distortion
+- Secondary branches
+- Beam impact
+- Core versus supporting detail
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Beam/mesh renderer
+- Scrolling UVs
+- Distortion material
+- Additive material
+- Secondary particle emitters
+- Velocity/position-driven accents
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the beam's main direction and thickness.
+2. Give the core internal motion so it does not look static.
+3. Add controlled distortion to break mathematical regularity.
+4. Introduce secondary electrical branches or particles.
+5. Add impact/end-cap detail where the beam contacts the target.
+6. Tune all layers from the gameplay camera.
+KEY MOMENTS:
+- [00:00:00] The beam reference is introduced.
+- [00:05:00] Core beam construction begins.
+- [00:10:00] Scrolling internal motion is added.
+- [00:15:00] Distortion is introduced.
+- [00:20:00] Secondary branches are added.
+- [00:25:00] The impact end is refined.
+ASSIGNMENTS / TIPS:
+- Keep the beam core readable.
+- Distort the beam subtly.
+- Use supporting detail only where it strengthens the main path.
