@@ -1,0 +1,48 @@
+TITLE: Modifiers
+OVERVIEW: This lesson introduces Blender modifiers as procedural instructions that can deform and generate geometry without permanently editing the source mesh. It demonstrates Simple Deform, Subdivision Surface, Taper, Bend, Bevel/Decimate, modifier order, and the ability to return to the original mesh while iterating. It is intended for VFX artists who want fast, reusable mesh variants.
+KEY TOPICS:
+- Procedural modifiers
+- Simple Deform
+- Subdivision Surface
+- Taper and Bend
+- Bevel and Decimate
+- Modifier stack/order
+- Auto Smooth
+- Non-destructive modeling
+- Mesh variation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- W to Move
+- Object > Apply > All Transforms
+- Modifier Properties/wrench panel
+- Object Data Properties > Auto Smooth
+- Simple Deform
+- Subdivision Surface
+- Simple versus Catmull-Clark subdivision
+- Reordering modifier stack entries
+- Bevel
+- Decimate
+- Weighted Normal
+- Numpad/1/2/3 component editing
+STEP-BY-STEP TAKEAWAYS:
+1. Move the cube's origin to the ground plane and apply transforms so later modifiers use the desired pivot.
+2. Enable Auto Smooth and open the modifier panel.
+3. Add Simple Deform and test Twist on the correct axis.
+4. Add Subdivision Surface when the base mesh lacks enough cuts for the deformation, and change the modifier order when the mathematical operation needs to happen before or after subdivision.
+5. Add other Simple Deform modes such as Taper and Bend, adjusting values while preserving the original source geometry.
+6. Explore Bevel, Decimate, and Weighted Normal for rounded or low-poly variations, using enough geometry for the desired result.
+7. Duplicate the mesh to create fast variants, then apply/collapse the modifier stack only when the procedural editing stage is finished.
+KEY MOMENTS:
+- [00:00:05] Modifiers are introduced as procedural instructions for mesh creation and deformation.
+- [00:01:08] The cube origin/pivot is moved to the ground and transforms are applied.
+- [00:02:15] The modifier panel and its Generate/Deform categories are introduced.
+- [00:03:54] Simple Deform Twist is demonstrated.
+- [00:05:05] Subdivision Surface is added to provide more geometry.
+- [00:06:18] Modifier order is changed to control the sequence of operations.
+- [00:08:37] Taper and later Bend are added while retaining non-destructive control.
+- [00:19:21] Simple Deform, Subdivision, and Bevel are identified as especially useful VFX modifiers.
+ASSIGNMENTS / TIPS:
+- Apply transforms when the modifier's pivot/origin behavior depends on object placement.
+- Add geometry when a deformation becomes self-intersecting because the base mesh is too simple.
+- Pay attention to modifier order; changing the order changes the result.
+- Preserve non-destructive editing while iterating and apply/collapse only when appropriate.
+- Duplicate procedural meshes to generate multiple variations quickly.
