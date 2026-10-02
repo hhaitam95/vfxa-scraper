@@ -1,0 +1,31 @@
+TITLE: Thinking in 3D
+OVERVIEW: This lesson presents simple drawing decisions that make flat artwork feel three-dimensional. It focuses on viewer angle, visible thickness, curved interior lines, size changes with distance, and overlapping shapes. It is intended as a practical reminder for artists who need stronger 3D form without fully modeling objects.
+KEY TOPICS:
+- Camera/view angle
+- Shape thickness
+- Interior contour lines
+- Near/far scale
+- Overlapping objects
+- Perspective surfaces
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Squashing shapes to suggest view angle
+- Adding visible edge thickness
+- Curved interior lines to describe volume
+- Size scaling with perspective
+- Overlapping shapes for depth
+STEP-BY-STEP TAKEAWAYS:
+1. Decide the angle from which the viewer sees the form and deform the silhouette to match it.
+2. Add visible thickness where the object is not a flat plane.
+3. Use curved interior lines on rounded forms to describe their volume and direction.
+4. Make farther objects or regions smaller and nearer ones larger according to perspective.
+5. Overlap objects deliberately so the viewer can infer which forms are in front and behind.
+6. Apply the same ideas to surfaces such as roads and to irregular organic forms.
+KEY MOMENTS:
+- [00:00:46] Viewing angle is introduced as the first way to imply 3D.
+- [00:03:37] Physical thickness is added to silhouettes.
+- [00:04:57] Interior thickness and curvature are used to suggest volume.
+- [00:08:04] Perspective and overlap are introduced as additional depth cues.
+- [00:09:42] A flat road is converted into a perspective surface.
+- [00:11:02] Overlap is used to reinforce near/far relationships.
+- [00:12:09] A freeform doodle combines thickness, overlap, and curved interior lines.
+- [00:16:39] The lesson summarizes the principles for making 2D drawings feel more three-dimensional.
