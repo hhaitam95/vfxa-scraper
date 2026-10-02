@@ -1,0 +1,37 @@
+TITLE: The Wave Principle
+OVERVIEW: This lesson explains the wave principle as a reusable way to animate flexible or wavy forms, from a simple line to a three-dimensional folded shape. It gradually increases difficulty from an anchored line to a volumetric wave and finally to a moving anchor point. It is aimed at beginners who want to understand a core motion pattern that transfers to many effects and props.
+KEY TOPICS:
+- Wave principle
+- Anchored waves
+- Free-floating ends
+- 2D line waves
+- 3D/folded waves
+- Moving anchors
+- Timing charts
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Wave/arc guides
+- Anchor-point planning
+- Timing charts
+- Onion Skin
+- Simple line-to-volume progression
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a single anchored line and animate the free end using the wave principle.
+2. Keep the anchor fixed while the flexible portion swings or folds through its arcs.
+3. Increase difficulty by giving the line more dimension and tracking folds as parts move toward and away from the viewer.
+4. Add internal pieces or packed forms only after the main wave remains coherent through the timing.
+5. For the advanced version, animate the anchor itself moving across the line and allow the wave to react to the new timing.
+6. Practice each level in order, moving from the simple line to dimension and finally the moving-base version.
+KEY MOMENTS:
+- [00:00:06] The wave principle is introduced as a foundational motion tool.
+- [00:04:00] The simplest anchored line version is used to establish the concept.
+- [00:11:30] The lesson discusses keeping the free-floating portion distinct from the anchor.
+- [00:17:54] Easy, medium, and hard modes are compared.
+- [00:19:04] The hard version introduces folding and depth.
+- [00:20:00] The optional moving-anchor assignment is introduced.
+- [00:20:42] The anchor point is animated across the line with its own timing.
+- [00:21:43] The lesson recommends progressing from the simple version to harder variants.
+ASSIGNMENTS / TIPS:
+- Start with the simplest anchored line.
+- Progress through dimensional/folding versions only after the base principle is understood.
+- Attempt the moving-anchor version as an optional advanced challenge.
+- Use the principle for other effects and objects that behave like flexible or wavy forms.
