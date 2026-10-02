@@ -1,0 +1,30 @@
+TITLE: Follow-through
+OVERVIEW: This lesson introduces follow-through as the continuation of an element's natural motion after the main energy or direction changes. It uses a liquid attached to a moving ball and a cloth or scarf in wind to show secondary and overlapping motion. It is aimed at effects artists who need to preserve believable energy when an attached element lags behind the primary action.
+KEY TOPICS:
+- Follow-through
+- Secondary action
+- Overlap animation
+- Inertia and changing forces
+- Attached versus anchored elements
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Frame-by-frame animation of secondary motion
+- Tracking the direction of force through attached materials
+- Overlapping action
+STEP-BY-STEP TAKEAWAYS:
+1. Identify the primary moving object and the secondary element attached to or influenced by it.
+2. Determine how the secondary element should continue based on its current momentum when the primary object's motion changes.
+3. Animate the secondary element continuing in its original direction before the new force redirects it.
+4. For cloth or similar anchored elements, propagate the force through the material over successive frames rather than changing the whole shape at once.
+5. Continue the secondary motion until the force is exhausted and resolve it naturally.
+KEY MOMENTS:
+- [00:00:21] Follow-through is introduced for moments when the energy or direction of an object changes.
+- [00:01:53] A liquid attached to a ball is used to demonstrate secondary animation.
+- [00:02:20] The instructor uses inertia to explain why the liquid continues moving after the ball stops.
+- [00:02:45] The reversing ball supplies the opposite force that redirects the liquid.
+- [00:04:17] The lesson shifts to an anchored scarf/cloth example for practicing follow-through.
+- [00:05:18] The force is propagated through the cloth frame by frame.
+- [00:06:35] The cloth's change of direction creates another force that must also be followed through.
+ASSIGNMENTS / TIPS:
+- Do not make a secondary element stop or reverse instantly with the primary object unless that is intentionally unnatural.
+- Think about the force traveling through the material, not only the movement of the anchor.
+- Practice with anchored cloth or scarf-like shapes to develop the concept.
