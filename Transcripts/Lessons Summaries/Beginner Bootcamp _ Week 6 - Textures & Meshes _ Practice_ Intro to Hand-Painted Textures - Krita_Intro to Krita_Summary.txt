@@ -1,0 +1,49 @@
+TITLE: Intro to Krita
+OVERVIEW: This lesson introduces the Krita interface and the small set of tools needed for the course's hand-painted game textures. It covers navigation, brushes, transformations, gradients, selections, texture dimensions, power-of-two sizing, grids, color spaces, bit depth, and canvas resizing. It is intended for artists new to Krita who need a practical texture-painting setup rather than a complete software course.
+KEY TOPICS:
+- Krita workspace and navigation
+- Brush and eraser tools
+- Transform and Move
+- Gradient and color picker
+- Selection tools
+- Power-of-two texture sizing
+- Grid and center snapping
+- Linear versus non-linear color space
+- Bit depth
+- Canvas resizing
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Q for Multi-brush
+- Ctrl+T for Transform
+- T for Move
+- G for Gradient
+- P for Color Picker
+- Ctrl for temporary Color Picker
+- F for Fill
+- Ctrl-click on zoom tool to zoom out
+- Spacebar for Pan
+- View > Snap To > Snap Image Center
+- Settings > Dockers > Grid and Guides
+- Ctrl+Alt+I to resize canvas/image
+STEP-BY-STEP TAKEAWAYS:
+1. Learn the main Krita navigation and painting tools, including Brush, Eraser, Multi-brush, Transform, Move, Gradient, Color Picker, Fill, and selection tools.
+2. Create a new texture using a power-of-two dimension such as 512 x 512, and keep the black background on a separate layer.
+3. Use the radial Gradient tool or a soft airbrush to create centered effects, using Snap Image Center and a grid when alignment matters.
+4. Understand why game textures are normally kept to power-of-two dimensions and choose resolution according to the effect's on-screen size.
+5. Review color-space and bit-depth settings; the recorded workflow uses sRGB/gamma-corrected output and distinguishes 24-bit RGB, 32-bit RGB+alpha, and grayscale bit depths.
+6. Resize the canvas with constrained proportions when a smaller texture is sufficient for the target effect.
+KEY MOMENTS:
+- [00:04:26] Multi-brush and its four-way mirroring behavior are introduced.
+- [00:04:51] Transform is explained, including Shift and Alt scaling behavior.
+- [00:05:34] Gradient, Color Picker, Fill, and selection tools are introduced.
+- [00:07:19] Power-of-two texture sizing is explained in a game-optimization context.
+- [00:08:38] Radial gradients and center snapping are demonstrated.
+- [00:09:17] Grid and Guides are configured to help center the texture.
+- [00:11:27] Linear versus non-linear color space and gamma correction are discussed.
+- [00:12:56] Canvas resizing is introduced for reducing texture resolution when it does not affect quality.
+ASSIGNMENTS / TIPS:
+- Use powers of two for game textures unless there is a project-specific reason not to.
+- Choose resolution based on expected in-game screen size.
+- Keep the background separate from the paint layer.
+- Use center snapping and grid guides when precise placement matters.
+- Be aware of color-space and bit-depth differences when exporting textures.
+- Use Multi-brush for experimentation, but remember that perfectly mirrored repetition can reduce visual interest.
