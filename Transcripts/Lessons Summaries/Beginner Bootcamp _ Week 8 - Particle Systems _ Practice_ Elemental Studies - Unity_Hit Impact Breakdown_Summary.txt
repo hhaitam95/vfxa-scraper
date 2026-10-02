@@ -1,0 +1,36 @@
+TITLE: Hit Impact Breakdown
+OVERVIEW: This lesson rebuilds a stylized hit impact from its major gameplay beats: flash, burst, directional pieces, and lingering secondary particles. It focuses on very short lifetimes, rapid color changes, velocity-aligned elements, and controlled randomness. It is intended for artists practicing punchy gameplay feedback in Unity.
+KEY TOPICS:
+- Hit-impact structure
+- Flash timing
+- Radial burst
+- Directional streaks
+- Color progression
+- Secondary particles
+- Random variation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Burst emission
+- Texture Sheet Animation
+- Velocity alignment
+- Stretched Billboard
+- Color over Lifetime
+- Size over Lifetime
+- Limit Velocity/Damping
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the central flash as the shortest and strongest layer.
+2. Add a radial burst of small particles with narrow random ranges.
+3. Add directional streaks or spikes using velocity alignment.
+4. Use color and size curves so the effect is white-hot at the hit and quickly cools.
+5. Add a small secondary layer for debris or sparks and give it slightly longer follow-through.
+6. Review the entire impact at real game speed and remove details that weaken the initial punch.
+KEY MOMENTS:
+- [00:00:00] The impact reference is introduced.
+- [00:05:00] The central flash is built.
+- [00:10:00] Radial particles are configured.
+- [00:15:00] Directional streaks are added.
+- [00:20:00] Color and lifetime curves are tightened.
+- [00:25:00] Secondary follow-through is reviewed.
+ASSIGNMENTS / TIPS:
+- Keep the first frame strong.
+- Use narrow randomness.
+- Make the impact readable before adding secondary particles.
