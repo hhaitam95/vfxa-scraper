@@ -1,0 +1,43 @@
+TITLE: Design Commentary
+OVERVIEW: This lesson presents a compact checklist of visual design principles that can be applied across effects. It develops big/medium/small variation into negative-space control, variation within a design theme, asymmetry, thick and thin, line weight, and depth. It is aimed at beginners who want a practical set of design considerations to apply deliberately while drawing and animating FX.
+KEY TOPICS:
+- Big, medium, and small
+- Negative space
+- Shape variation within a theme
+- Asymmetry
+- Thick and thin
+- Line weight
+- Depth and overlap
+- Intentionality
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Positive/negative-space planning
+- Shape variation
+- Asymmetric staging
+- Thick/thin contour planning
+- Layer and depth separation
+- Overlapping lines
+- Drawing through during rough animation
+STEP-BY-STEP TAKEAWAYS:
+1. Establish a clear large, medium, and small hierarchy instead of repeating equally sized forms.
+2. Push negative-space shapes into positive forms so silhouettes become more interesting and dissipations have room to develop.
+3. Choose a shape language or theme and vary the individual forms inside that theme rather than copying the same contour repeatedly.
+4. Favor one side, direction, or shape to create asymmetry that supports the energy of the effect.
+5. Use thick and thin areas intentionally, including line-weight variation that separates planes and directs attention.
+6. Add depth through overlap, background/foreground separation, and shapes that visibly pass around or behind the object causing the effect.
+7. Apply the principles deliberately across simple exercises such as fire, water, smoke, magic, or other effects.
+KEY MOMENTS:
+- [00:08:28] Negative space is introduced as a design tool alongside positive shape.
+- [00:09:03] Smoke is used to demonstrate how stronger negative spaces can avoid bland, bulbous contours.
+- [00:11:45] Variation of shape within a consistent theme is introduced.
+- [00:16:25] Asymmetry is presented as an important design principle for effects.
+- [00:19:41] Thick and thin is explained through positive and negative shape.
+- [00:23:20] Line weight is discussed as a deliberate stylistic system.
+- [00:25:45] Depth is introduced through overlap and foreground/background placement.
+- [00:31:08] The assignment asks students to practice these concepts intentionally across effects.
+ASSIGNMENTS / TIPS:
+- Practice with intention: notice where you are repeating shapes and deliberately introduce variation.
+- Do not equate symmetry with correctness; favor directional energy where appropriate.
+- Use negative space as an active design element.
+- Maintain a consistent line-weight approach once a style is chosen.
+- Add depth through overlap when the effect should feel embedded in the world.
+- Apply the concepts across many simple effects and keep the process creative and enjoyable.
