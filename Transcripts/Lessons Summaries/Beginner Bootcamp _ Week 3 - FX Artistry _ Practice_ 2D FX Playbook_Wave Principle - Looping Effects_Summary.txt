@@ -1,0 +1,38 @@
+TITLE: Wave Principle - Looping Effects
+OVERVIEW: This lesson uses moving circles as construction guides for drawing two different looping line wiggles. The first wiggle moves side to side as the circles travel upward, while the second keeps its base in place and expands upward. It is intended as a practical guide-building exercise for wavy FX, flags, wisps, and other looping motion.
+KEY TOPICS:
+- Wave principle for line wiggles
+- Circle-based motion guides
+- Offset guides
+- In-between spacing
+- Fixed versus moving bases
+- Loop construction
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Circle guides
+- Onion Skin
+- Layer duplication and frame offset
+- 12 FPS for the demonstrated example
+- Shift with the Line tool for a vertical guide
+- Mirror/flip
+- Guide opacity
+STEP-BY-STEP TAKEAWAYS:
+1. Draw a guide showing the width of the first line wiggle and mark evenly spaced circle positions along its upward path.
+2. Animate the guide circles upward, keeping their spacing broadly linear, and duplicate/offset a second circle layer to provide the opposing side of the wiggle.
+3. Draw the line wiggle by following the visible arcs of the circles and connecting each pair smoothly across frames.
+4. Adjust the in-between spacing where it feels too wide or snaps near an edge, then hide the guides and check the result.
+5. For the second wiggle, keep the lower start point fixed and make the guide circle grow as it travels upward, then mirror/offset the circle sequence to create alternating sides.
+6. Draw the second line using the same arc-connecting process, using previous and next frames to maintain smooth curvature.
+KEY MOMENTS:
+- [00:00:05] The two line-wiggle loop types are introduced.
+- [00:00:31] Circles are introduced as the underlying motion guides.
+- [00:02:17] The first guide circle is drawn and an eight-frame loop at 12 FPS is set up.
+- [00:04:30] A second circle layer is duplicated and offset by half the loop.
+- [00:06:06] The line wiggle is drawn by connecting the circle arcs.
+- [00:08:43] Ease-in/ease-out-like spacing is used near the sides of the wiggle.
+- [00:13:10] The second fixed-base line wiggle is introduced.
+- [00:18:43] The circle sequence is mirrored to the opposite side and used to construct the second wiggle.
+ASSIGNMENTS / TIPS:
+- Practice imagining the circles without drawing them once the construction principle is understood.
+- Keep guide spacing smooth; correct large gaps between frames.
+- Use line-wiggle guides for FX and prop animations such as flags, wisps, or textile motion.
+- Try different circle sizes and spacing to create different wave behaviors.
