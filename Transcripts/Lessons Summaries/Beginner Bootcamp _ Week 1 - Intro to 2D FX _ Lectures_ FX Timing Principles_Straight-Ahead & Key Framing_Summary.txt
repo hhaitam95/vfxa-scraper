@@ -1,0 +1,30 @@
+TITLE: Straight-Ahead & Key Framing
+OVERVIEW: This lesson compares straight-ahead animation, where the artist discovers the motion sequentially, with keyframe animation, where important poses are planned before the in-betweens. It explains the creative and production trade-offs of each approach and shows how keyframes and breakdowns reduce uncertainty in complex motion. It is aimed at artists deciding how to structure an effect or animation efficiently.
+KEY TOPICS:
+- Straight-ahead animation
+- Keyframe animation
+- Breakdowns and in-betweens
+- Planning versus improvisation
+- Production deadlines
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Keyframe, breakdown, and in-between planning
+- Straight-ahead frame-by-frame drawing
+- Timing and pose planning
+STEP-BY-STEP TAKEAWAYS:
+1. Decide whether the action benefits from discovery and spontaneity or from deliberate planning.
+2. For straight-ahead work, carry the intended motion in your head and draw sequentially while discovering the result.
+3. For keyframing, establish the first and final poses, then add a mid-frame/breakdown that describes the main action.
+4. Add in-between drawings after the anchors are clear, using as many keyframes and breakdowns as the animation requires.
+5. Choose the approach based on the situation, familiarity with the effect, desired quality, available time, and creative goals.
+KEY MOMENTS:
+- [00:01:04] Straight-ahead animation is defined as carrying the motion in mind and drawing through it sequentially.
+- [00:02:16] Straight-ahead work is described as useful for creative discovery and potentially faster production.
+- [00:03:18] Keyframing is introduced as a more methodical approach with planned positions.
+- [00:04:46] The mid-frame is described as a breakdown between start and end keyframes.
+- [00:06:20] The historical keyframe/in-between workflow is described.
+- [00:08:08] The instructor notes that an animation can contain many keyframes and breakdowns, not just one of each.
+- [00:09:21] The lesson concludes that the two approaches suit different situations and should both be practiced.
+ASSIGNMENTS / TIPS:
+- Try animating the same effect with both methods to learn which is more efficient for that kind of motion.
+- Straight-ahead can sacrifice some planning; keyframing normally requires more preparation but reduces guesswork.
+- Use multiple keyframes and breakdowns when the action is too complex for a single start/mid/end setup.
