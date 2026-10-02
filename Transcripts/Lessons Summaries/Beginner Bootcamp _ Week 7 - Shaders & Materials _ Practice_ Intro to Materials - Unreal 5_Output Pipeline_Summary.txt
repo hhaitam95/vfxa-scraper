@@ -1,0 +1,41 @@
+TITLE: Output Pipeline
+OVERVIEW: This lesson brings the preceding Unreal material operations together into a practical output pipeline and uses them to build a more complete texture-driven effect. It demonstrates texture sampling, UV manipulation, distortion, interpolation, and time-based motion, while encouraging modular graph organization and reusable controls. It is intended as a capstone for the introductory material operations before more specialized shader techniques.
+KEY TOPICS:
+- Material output
+- Texture-coordinate manipulation
+- Texture sampling
+- Distortion
+- Lerp
+- Time-based motion
+- Modular graph structure
+- Parameter-driven effects
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Texture Coordinate
+- Texture Sample
+- Add
+- Multiply
+- Lerp
+- Time
+- Panner-like coordinate movement
+- Material parameters
+- Emissive/Opacity output
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a sampled texture and identify which part of the graph controls its UV coordinates and which part controls its final color/opacity.
+2. Add UV offsets or scaling to create controlled movement.
+3. Use another texture or signal to distort the UVs, keeping the distortion amount small enough for readable shapes.
+4. Combine layers with Lerp and grayscale masks to select where each texture contributes.
+5. Introduce time-driven movement so the materials continue animating without manual frame changes.
+6. Organize and expose useful controls, then test the complete material as a VFX rather than evaluating each node in isolation.
+KEY MOMENTS:
+- [00:00:05] The lesson starts by culminating the introductory material section.
+- [00:02:22] A flame-style project is chosen for the example.
+- [00:06:05] U/V texture-coordinate data is revisited.
+- [00:08:08] Distortion is introduced as a UV manipulation.
+- [00:12:31] Lerp/interpolation is used to combine texture values.
+- [00:14:20] The combined graph is shown producing a useful effect.
+- [00:18:10] Multiple time-driven elements are discussed in relation to synchronization.
+- [00:20:09] The graph is simplified and the result is reviewed.
+ASSIGNMENTS / TIPS:
+- Build and test the graph in modules so errors are easier to isolate.
+- Keep related parameters together and avoid unnecessary complexity.
+- Judge the final material in motion and in the effect context.
