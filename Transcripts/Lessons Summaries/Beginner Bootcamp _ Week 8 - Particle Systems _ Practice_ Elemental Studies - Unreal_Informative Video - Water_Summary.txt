@@ -1,0 +1,30 @@
+TITLE: Informative Video - Water
+OVERVIEW: This lesson studies real water behavior as reference for real-time liquid effects. It emphasizes cause and effect, large water masses, secondary jets, surface tension, droplets, and the different timing of large and small pieces. It is intended for artists designing waterfalls, splashes, and other liquid VFX.
+KEY TOPICS:
+- Water motion
+- Splash and jet behavior
+- Surface tension
+- Droplets
+- Dissipation
+- Large/medium/small liquid layers
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Slow-motion water footage
+- Frame-by-frame observation
+- Droplet tracking
+- Cause-and-effect analysis
+STEP-BY-STEP TAKEAWAYS:
+1. Identify the physical force causing the water to move.
+2. Separate the main water mass from secondary jets, foam, and droplets.
+3. Study how liquid stretches and reconnects.
+4. Track large droplets longer than tiny pieces during dissipation.
+5. Translate the observed behaviors into separate real-time layers.
+KEY MOMENTS:
+- [00:00:00] Water reference begins.
+- [00:05:00] Main water masses are examined.
+- [00:10:00] Secondary jets and splashes are analyzed.
+- [00:15:00] Surface tension is discussed.
+- [00:20:00] Droplet timing and dissipation are examined.
+ASSIGNMENTS / TIPS:
+- Use slow-motion reference.
+- Track large droplets.
+- Preserve cause-and-effect behavior.
