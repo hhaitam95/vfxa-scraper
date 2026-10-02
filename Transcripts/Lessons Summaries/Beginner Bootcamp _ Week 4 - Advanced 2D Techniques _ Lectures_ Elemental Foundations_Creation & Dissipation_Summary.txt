@@ -1,0 +1,39 @@
+TITLE: Creation & Dissipation
+OVERVIEW: This lesson introduces creation and dissipation as the basic ways effects enter and leave a shot. It contrasts quick burst-style creations with expansions and then develops simple and more complex dissipation using shrinking forms and negative space. It is aimed at beginners building a reusable vocabulary for bringing effects on screen and removing them naturally.
+KEY TOPICS:
+- Effect creation
+- Burst versus expansion
+- Timing charts
+- Dissipation through shrinking
+- Ripple dissipation
+- Positive and negative space
+- Layered dissipation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Timing charts
+- Burst-frame exploration
+- Squash and stretch
+- Negative-space carving
+- Ellipse/circle ripple construction
+- Frame-by-frame tracking
+STEP-BY-STEP TAKEAWAYS:
+1. Plan the creation with a timing chart and decide whether the effect should burst on quickly or expand more gradually.
+2. Explore the first one or two frames as creative burst poses, using squash, stretch, or anticipation when appropriate.
+3. For dissipation, choose where the effect should start disappearing based on the action rather than letting it remain on screen unnecessarily.
+4. Start with the simplest shrinking or pinching method, then progress to negative space eating into the positive effect.
+5. For ripples, let the leading edge slow while the dissipation catches up and progressively reduces the positive-space thickness until only a line or small pieces remain.
+6. Add variation with irregular shapes, overlaps, and droplets only after the basic dissipation works.
+KEY MOMENTS:
+- [00:00:05] Creation and dissipation are introduced as the basic ways effects enter and leave the screen.
+- [00:00:53] Burst-style creation is explained with timing charts.
+- [00:03:17] The instructor shows how the first burst frames can be creatively varied.
+- [00:07:16] Dissipation is defined as getting rid of an effect once its purpose is served.
+- [00:09:32] Shrinking a water droplet is presented as a simple reliable dissipation.
+- [00:10:36] The ripple is introduced as a combination of creation and dissipation.
+- [00:13:39] The ripple's outer edge slows and the positive-space thickness must shrink.
+- [00:16:48] A more complicated dissipation adds overlapping negative-space shapes and droplets.
+ASSIGNMENTS / TIPS:
+- Practice the ripple assignment at a difficulty appropriate to your current level.
+- Plan enough room for the effect to continue moving while it dissipates.
+- Do not rely on a single formula; the instructor presents multiple valid approaches.
+- Start simple and increase complexity only after the base principle is working.
+- Expect perspective ripples to require careful spacing and potentially many frames.
