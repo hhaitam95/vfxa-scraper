@@ -1,0 +1,40 @@
+TITLE: Intro to Unity: Fire
+OVERVIEW: This lesson introduces Unity particle systems through a deliberately simple fire effect. It explains the basic particle-system setup, particle lifetime, size, color, emission, shape, and velocity, while encouraging a playful “what happens if” mindset. It is intended for complete beginners to Unity VFX.
+KEY TOPICS:
+- Unity Particle System basics
+- Materials and transparent particle shaders
+- Lifetime, size, color, and rotation
+- Emission
+- Spawn shapes
+- Velocity over Lifetime
+- Controlled randomness
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Hierarchy > Effects > Particle System
+- F to frame/center the selected effect
+- URP > Particles > Unlit
+- Surface Type > Transparent
+- Random Between Two Constants
+- Sphere spawn shape
+- Particle color in pale gold
+- Velocity over Lifetime
+STEP-BY-STEP TAKEAWAYS:
+1. Create a Particle System from the Hierarchy and zero its position/rotation while keeping scale at one.
+2. Frame the effect, remove start speed so particles stay visually controlled, and create a transparent URP particle material.
+3. Assign the material to the renderer and use it to establish the general size, shape, and color of the fire.
+4. Randomize particle lifetime and size with small ranges, add broad rotation randomness, and use a pale-gold starting color.
+5. Increase the emission rate, use a small sphere as the spawn region, and add Velocity over Lifetime rather than relying only on Start Speed.
+6. Continue adjusting the modules down the inspector, using small random ranges to avoid uniform, mechanical particles.
+KEY MOMENTS:
+- [00:00:15] The lesson introduces fire and the goal of making Unity approachable for a first-time effect artist.
+- [00:02:10] A new particle system is created and positioned at the origin.
+- [00:03:03] Start Speed is reduced to zero to make the basic setup easier to control.
+- [00:03:41] A URP Particles Unlit material with Transparent surface type is created.
+- [00:05:34] Lifetime and size are changed to random ranges to add organic variation.
+- [00:08:23] Emission is increased and the particle Shape module is introduced.
+- [00:10:10] Velocity Over Lifetime is enabled for more appropriate flame motion.
+- [00:00:58] The instructor explicitly frames experimentation and playful iteration as a core VFX learning mindset.
+ASSIGNMENTS / TIPS:
+- Do not worry about mastering every particle-system setting at once.
+- Use narrow random ranges to bridge uniform behavior and uncontrolled chaos.
+- Experiment deliberately; the instructor presents multiple valid ways to build effects.
+- Check the particle in the scene, not only in the inspector preview.
