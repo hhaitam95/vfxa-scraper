@@ -1,0 +1,37 @@
+TITLE: Squash & Stretch
+OVERVIEW: This lesson demonstrates squash and stretch as part of an appearance animation through three examples: a stretched star, a weighted cube emerging from a floor, and an exaggerated squishy cube. It shows how to plan extreme poses, preserve volume, respect a ground plane, and make successive bounces smaller. It is aimed at artists developing more dynamic and believable shape animation.
+KEY TOPICS:
+- Squash and stretch
+- Extreme poses
+- Volume preservation
+- Grounded motion
+- Bouncy settling
+- Exaggerated deformation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Onion Skin
+- Guide shapes
+- Cross-shape blocking
+- Eraser
+- Frame-by-frame in-betweens
+- Canvas rotation
+STEP-BY-STEP TAKEAWAYS:
+1. Start with the simple appearance timing and identify the extreme stretched pose.
+2. For a star, increase one axis while reducing the other, then make the entry and exit frames around the extreme slightly different.
+3. For a grounded object, use the floor as a fixed reference and squash/stretch only in ways that preserve its contact with the ground.
+4. Plan the major extremes and final keyframe before drawing the in-betweens, then create transitions that enter and leave each extreme differently.
+5. For a jelly-like variation, add rounded edge deformation while maintaining the perceived volume and make each successive bounce smaller.
+KEY MOMENTS:
+- [00:00:17] The three squash-and-stretch examples are introduced.
+- [00:00:44] The star grows while stretching one axis and shrinking the other.
+- [00:02:15] Different frames around the extreme pose are used to avoid a repetitive transition.
+- [00:03:45] A simple cross is suggested as an easier blocking method before adding star arcs.
+- [00:04:42] The grounded cube example introduces the importance of the floor level.
+- [00:07:41] Successive bounces are described as progressively smaller.
+- [00:09:39] The exaggerated squishy-cube version is introduced.
+- [00:13:24] The recreation begins with planned extreme poses and a final keyframe.
+ASSIGNMENTS / TIPS:
+- Plan extremes before filling in the in-betweens.
+- Preserve volume when stretching and squashing.
+- Respect the ground plane for weighted objects.
+- Make repeated bounces smaller if the object is settling.
+- Use a simple base shape first when a complex silhouette is difficult to animate directly.
