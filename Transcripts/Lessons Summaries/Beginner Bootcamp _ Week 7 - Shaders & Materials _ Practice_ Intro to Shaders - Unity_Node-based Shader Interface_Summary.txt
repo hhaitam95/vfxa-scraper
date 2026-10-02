@@ -1,0 +1,36 @@
+TITLE: Node-based Shader Interface
+OVERVIEW: This lesson introduces Unity's Shader Graph interface and the small set of nodes used throughout the shader series. It covers creating the graph, the Master/Output node, selecting and moving nodes, organizing shader assets, and viewing the material alongside the scene. It is intended for beginners who need to become comfortable navigating Shader Graph.
+KEY TOPICS:
+- Shader Graph interface
+- Node creation and selection
+- Master/Output node
+- Graph organization
+- Scene/material preview
+- Post-processing preview
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Multiply node
+- Box select by click-drag
+- Shader Graph workspace
+- Scene view
+- Material preview
+- Post Processing setting
+- Project folders for shaders
+STEP-BY-STEP TAKEAWAYS:
+1. Open a Shader Graph and learn where nodes, the graph workspace, and the preview/scene views live.
+2. Create and move nodes, box-select multiple nodes, and identify the Master/Output node as the graph's final destination.
+3. Save shader assets in a dedicated project folder for organization.
+4. Use the graph and scene views together so changes can be evaluated in the world context.
+5. Check preview settings such as post processing when the material does not resemble the expected scene result.
+KEY MOMENTS:
+- [00:00:05] Shader Graph is introduced.
+- [00:01:13] Multiply is used as a familiar node example.
+- [00:02:18] Multiple nodes are selected with box selection.
+- [00:03:32] The Master node is identified.
+- [00:04:22] The course's small core node set is previewed.
+- [00:06:51] A dedicated folder for shaders is recommended.
+- [00:07:53] Scene and material views are explained.
+- [00:09:45] Post-processing preview is checked.
+ASSIGNMENTS / TIPS:
+- Keep shader assets organized in a dedicated folder.
+- Learn the handful of nodes used repeatedly instead of browsing the entire node library.
+- Use the scene view to verify the material in context.
