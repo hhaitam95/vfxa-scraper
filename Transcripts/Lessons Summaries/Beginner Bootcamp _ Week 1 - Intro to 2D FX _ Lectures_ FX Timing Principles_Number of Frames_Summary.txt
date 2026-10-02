@@ -1,0 +1,32 @@
+TITLE: Number of Frames
+OVERVIEW: This lesson gives a broad introduction to timing as everything that happens between a starting and ending frame. It explains how frame placement, mid-frame position, timing charts, and animating on ones, twos, or threes change the feel and workload of an animation. It is intended as a foundational timing overview for beginners.
+KEY TOPICS:
+- Timing between start and end poses
+- Mid-frame placement
+- Timing charts
+- Frames per second
+- Animating on ones, twos, threes, and fours
+- Balancing smoothness and workload
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Timing charts for shorthand planning
+- Frame-by-frame placement
+- Animating on ones/twos/threes
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the starting and final frames and decide the broad path from point A to point B.
+2. Choose the mid-frame and recognize that its placement changes the perceived speed of different parts of the action.
+3. Use a timing chart to describe frame spacing without drawing every frame immediately.
+4. Decide whether the action should use every frame or be held on twos, threes, or another exposure pattern.
+5. Judge the final visual result and adjust timing/frame density based on what still looks good.
+KEY MOMENTS:
+- [00:00:42] Timing is defined as what happens between the first and final frames.
+- [00:03:01] Mid-frame placement is shown to change the feeling and speed of the animation.
+- [00:04:46] Timing charts are introduced as shorthand for communicating frame placement.
+- [00:08:41] The instructor explains that a timing-chart dash represents a frame and discusses 24 frames per second.
+- [00:09:58] Animating on twos, threes, and fours is explained as a way to reduce drawing workload.
+- [00:11:19] Ones, twos, and threes are compared, with threes becoming noticeably choppier.
+- [00:12:58] The final-product rule is emphasized: the result matters more than following a particular timing recipe.
+ASSIGNMENTS / TIPS:
+- Use timing charts as notes for yourself or for other artists.
+- Remember that not every frame in a second must contain a unique drawing.
+- Increase drawing density when a lower exposure count no longer looks good.
+- Judge timing by the visible result rather than by technique labels alone.
