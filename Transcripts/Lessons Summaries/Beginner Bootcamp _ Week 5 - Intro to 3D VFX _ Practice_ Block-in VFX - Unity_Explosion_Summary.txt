@@ -1,0 +1,44 @@
+TITLE: Unity Explosion
+OVERVIEW: This lesson builds a block-in explosion in Unity while introducing 3D mesh particles and particle collision. It combines upward debris, gravity, bouncing pieces, layered emitters, and animation timing into a reusable explosion structure. It is aimed at beginners moving from 2D concepts into practical 3D particle-system work.
+KEY TOPICS:
+- 3D mesh particles
+- Mesh renderer alignment
+- Particle collision
+- Debris burst and gravity
+- Bounce and dampening
+- Layered explosion emitters
+- Parent particle systems
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Renderer > Render Mode > Mesh
+- Hemisphere mesh
+- Render Alignment > Local
+- Renderer > Billboard / Dots
+- Burst emission
+- Hemisphere shape rotated -90 degrees on X
+- Velocity over Lifetime
+- Gravity Modifier
+- Collision module
+- Collision plane
+- Collision dampen/bounce
+- Empty parent particle system
+STEP-BY-STEP TAKEAWAYS:
+1. Create a mesh-particle emitter, switch Render Mode to Mesh, replace the default cube with a hemisphere, and use Local alignment when the mesh should keep its 3D orientation.
+2. Build a debris emitter with small dot particles, a short randomized lifetime, burst emission, an upward hemisphere spawn shape, strong upward/radial velocity, and increased gravity.
+3. Enable collision and add a plane under the debris emitter; reset unwanted plane position/rotation offsets so the particles bounce on the intended surface.
+4. Adjust dampening and bounce amount to control how much energy the debris retains after each collision.
+5. Keep the overall explosion organized under an empty top-level particle-system parent so all child emitters can be moved or rotated together and the effect can be played as one unit.
+6. Add the remaining explosion layers using the earlier block-in workflow and judge the result as a whole rather than treating the new mesh/collision features as isolated tricks.
+KEY MOMENTS:
+- [00:00:08] The lesson introduces 3D mesh particles and collision as the new Unity tools.
+- [00:02:08] A particle renderer is changed from Billboard to Mesh and a hemisphere replaces the default cube.
+- [00:03:40] Local render alignment is used to keep the hemisphere oriented as a 3D dome.
+- [00:05:25] A debris emitter is configured with burst dots and a hemisphere spawn shape.
+- [00:06:39] Upward/radial velocity and gravity are combined for an explosive debris arc.
+- [00:07:36] Collision is enabled and a plane is added for the debris to bounce from.
+- [00:09:36] Dampening and bounce amount are introduced as collision controls.
+- [00:10:32] A top-level empty particle-system parent is justified for organizing the complete explosion.
+ASSIGNMENTS / TIPS:
+- Use mesh particles when the 3D orientation itself matters, not simply because a mesh is available.
+- Reset imported collision-plane offsets if they produce unexplained bouncing behavior.
+- Keep the particle-system hierarchy organized as effects become more complex.
+- Start from the simplest block-in that communicates the explosion, then add physical detail.
