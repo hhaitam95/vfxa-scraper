@@ -1,0 +1,38 @@
+TITLE: Start Animating!
+OVERVIEW: This lesson gets beginners animating a simple 2D effect immediately in Adobe Animate rather than spending time on setup theory. It introduces a small set of keyboard shortcuts, onion skinning, frame-by-frame drawing, and a fast workflow for building a short effect. The goal is to get comfortable making motion before diving into the detailed tools.
+KEY TOPICS:
+- Basic Adobe Animate setup for 2D FX
+- Frame-by-frame animation
+- Onion skinning
+- Shape and silhouette changes
+- Timing through frame count
+- Fast sketching and visual continuity
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 512 x 512 document at 30 frames per second
+- B for Brush tool
+- Ctrl-Z for Undo
+- K for Paint Fill
+- F7 for a new blank frame
+- E for Eraser
+- Onion Skin
+- Control Enter to preview the animation
+STEP-BY-STEP TAKEAWAYS:
+1. Create a 512 x 512 Animate document at 30 FPS, use the Brush tool to draw a bold first shape, close the shape, and fill it.
+2. Create successive blank frames with F7, turn on Onion Skin, and redraw the effect so each frame continues the previous motion while changing the silhouette.
+3. Vary the distance and scale of the shapes, then progressively resolve the effect as the frame count approaches the end.
+4. Preview the finished animation with Control Enter and inspect how the sequence reads as a complete effect.
+KEY MOMENTS:
+- [00:00:26] The instructor introduces the four essential keyboard actions and the need for a drawing tablet.
+- [00:01:47] K is introduced for Paint Fill and F7 for creating a new blank animation frame.
+- [00:03:03] Onion Skin is turned on so the previous frame can guide the next drawing.
+- [00:03:41] The effect is developed into a fast-moving swipe or shield-like sequence.
+- [00:05:05] The instructor reaches the middle of the short animation and begins resolving the motion.
+- [00:06:24] The instructor explains that working quickly helps maintain continuity because the artist remembers the previous motion.
+- [00:07:16] The final blank frames are added and the effect is brought to a conclusion.
+- [00:07:29] Control Enter previews the finished animation in Animate.
+ASSIGNMENTS / TIPS:
+- Close shapes completely before using Paint Fill; small gaps prevent the fill from working.
+- Keep the first practice animation simple and prioritize getting something moving.
+- Work quickly enough that the motion of the previous frame stays fresh in mind.
+- Vary distances and shape sizes rather than making every frame change identically.
+- Use Onion Skin as a guide rather than trying to make every frame look perfect in isolation.

@@ -1,0 +1,41 @@
+TITLE: Creating Flipbooks
+OVERVIEW: This lesson shows how to turn a short Adobe Animate animation into a game-ready flipbook texture. It covers building a reusable 3x3 template, placing animation frames into it, keeping guide layers separate from exported artwork, and paying attention to texture size and spacing. It is aimed at students beginning to prepare 2D FX for use in a game engine.
+KEY TOPICS:
+- Flipbook texture layouts and frame arrangement
+- 3x3 template construction
+- Symbols and nested animation
+- Guide layers and preview animation
+- Frame ordering and alignment
+- Texture resolution, memory, and edge separation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- File > New with large document sizes such as 1024, 2048, or 4096
+- R for Rectangle tool; Shift while drawing for a square
+- F8 to convert artwork to a symbol
+- F5 to extend frames; F6 to create a new frame while keeping artwork
+- F7 to create a blank frame
+- Control-C / Control-V for copying; Control-Shift-V for Paste in Place
+- Control-G to group; Control-B to break apart one level
+- Q to transform/resize; Alt + Shift to resize uniformly from a corner
+- Create Shape Tween
+- Graphic symbol set to Play Single Frame
+- Snapping and Edit Multiple Frames
+STEP-BY-STEP TAKEAWAYS:
+1. Create a large flipbook document, build a square cell, convert it to a Graphic symbol, extend the symbol to the required number of frames, and keep a separate border/guide layer for alignment.
+2. Create the animation inside the symbol, while keeping the outer instance held on one frame so the template can display the individual cells.
+3. Duplicate the cell across the template, number the frames left-to-right, resize the complete layout to the desired document bounds when necessary, then break the group apart only once.
+4. Copy the finished animation frames into a new layer inside the flipbook symbol, align them with Edit Multiple Frames, and keep the artwork inside each cell so neighboring frames do not bleed together.
+KEY MOMENTS:
+- [00:00:56] The instructor chooses 2048 as a practical flipbook working size and discusses when 1024, 2048, or 4096 may be appropriate.
+- [00:04:16] The lesson explains that the flipbook cell is a nested Graphic symbol and shows how to distinguish the symbol from Scene 1.
+- [00:07:10] F5 is used to make sure the symbol contains nine animation frames.
+- [00:08:16] The Graphic symbol is set to Play Single Frame so the outer template can hold on one frame.
+- [00:09:55] A Shape Tween is created between color states to demonstrate animation inside the symbol.
+- [00:11:43] The individual symbol instances are copied into a 3x3 arrangement and numbered left-to-right.
+- [00:12:54] The cells are grouped, resized to fit the template, and then broken apart one level.
+- [00:16:22] The instructor explains why frame edges need separation in an engine, especially when blur or glow can extend beyond a cell.
+ASSIGNMENTS / TIPS:
+- Use clear names for templates such as their dimensions and frame count.
+- Keep guide/border artwork separate so it can help with alignment without exporting.
+- Avoid breaking a symbol twice with Control-B; if a symbol is broken accidentally, replace it with an intact instance.
+- Keep enough margin around frame artwork to avoid neighboring-frame bleed in the game engine.
+- Consult the local technical artist about the trade-off between larger flipbook textures and simpler materials.

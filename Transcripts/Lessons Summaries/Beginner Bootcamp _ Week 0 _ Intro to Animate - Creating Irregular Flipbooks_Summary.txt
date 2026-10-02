@@ -1,0 +1,41 @@
+TITLE: Creating Irregular Flipbooks
+OVERVIEW: This lesson expands the flipbook-template workflow to layouts that do not use square cells, including 4x4, 1x8, and 2x8 arrangements. It emphasizes building templates cleanly from scratch, previewing them with a separate animation layer, and understanding how unusual aspect ratios affect texture efficiency. It is for students who already understand the basic flipbook setup and want more useful layout options.
+KEY TOPICS:
+- 4x4, 1x8, and 2x8 flipbook layouts
+- Animation preview layers
+- Guide layers and export behavior
+- Non-square aspect ratios
+- Snapping and alignment
+- Scaling vector artwork for larger exports
+- Texture efficiency and frame packing
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 2048 document setup
+- F8 to create a symbol
+- Ctrl-X and Ctrl-Shift-V for cutting and pasting artwork in place
+- F5 to extend a layer to the required frame
+- F7 to create blank frames
+- Shape Tween for color transitions
+- Snapping with the Selection tool
+- Q for transform/resize; Alt + Shift for uniform scaling
+- Play Once for an animation preview
+- File > Export > Image
+STEP-BY-STEP TAKEAWAYS:
+1. Build a fresh template at 2048, create a 512-by-512 base cell, separate the border into a guide layer, and set the solid artwork to animate through a series of frames.
+2. Duplicate and snap the cell instances into a 4x4 layout, assign their frame numbers left-to-right, and save the template with its layout and resolution in the name.
+3. For an elongated template, create a 1024-wide cell with a shorter height, extend the symbol to eight frames, and use the same border/solid/guide organization.
+4. For a 16-frame 2x8 template, add a second row and remember that game engines read the sheet left-to-right across each row, so the frame numbers must be assigned in that order.
+5. Add a visible animation layer for previewing, while keeping the flipbook template itself a guide layer so the template does not export.
+KEY MOMENTS:
+- [00:00:30] The instructor reorganizes the Animate interface and adds an animation layer for clean flipbook previews.
+- [00:03:21] An animation layer is configured to play once while the flipbook layer remains a guide.
+- [00:04:37] The instructor explains that vector artwork can be exported at larger sizes, including scaling a 2048 working file to a 4096 texture.
+- [00:08:19] A 4x4, 16-frame flipbook layout is assembled and numbered left-to-right.
+- [00:10:31] The lesson begins a 1x8 template for elongated effects such as lightning.
+- [00:15:56] The instructor explains that game engines may stretch or scale non-square textures and discusses the memory implications.
+- [00:16:05] A second row is added to create a 16-frame 2x8 sheet, with a warning about frame ordering and edge overlap.
+- [00:18:21] The instructor demonstrates how to create a preview instance and set it to play through the flipbook.
+ASSIGNMENTS / TIPS:
+- Create each template from scratch rather than stacking unrelated template elements together.
+- Work at a comfortable resolution such as 1024 or 2048 and scale vector artwork up when a larger export is required.
+- Keep artwork away from frame boundaries because packed frames can overlap when scaled or processed by the engine.
+- Use elongated layouts when the effect benefits from them, but consider whether the resulting texture is efficient for the target engine.

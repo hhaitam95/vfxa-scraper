@@ -1,0 +1,39 @@
+TITLE: The Drawing Tools
+OVERVIEW: This lesson explains the main Adobe Animate drawing concepts needed to create static FX artwork before animating it. It compares vector drawing in Animate with raster drawing in Photoshop or Krita, then demonstrates fills, strokes, selection behavior, object mode, and basic layer organization. It is aimed at beginners learning how Animate's drawing model differs from familiar raster software.
+KEY TOPICS:
+- Vector versus raster graphics
+- Fills and strokes
+- Anti-aliasing and crisp vector edges
+- Paint Fill and Paintbrush
+- Selection and editing of strokes
+- Object Mode and grouping
+- Layer organization and guide layers
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Printable keyboard-shortcut cheat sheet
+- Y for the newer Paintbrush tool
+- K for Paint Fill
+- V for Selection tool
+- Ctrl-G to group artwork into an object
+- Double-click to select connected strokes or related artwork
+- Dragging stroke tips and curves with the Selection tool
+- Guide layers for non-exporting reference artwork
+STEP-BY-STEP TAKEAWAYS:
+1. Compare a raster stroke in Photoshop with a vector stroke in Animate to understand why vector edges stay crisp and why Animate behaves differently when erasing or filling.
+2. Draw a stroke with the Paintbrush, use Paint Fill on closed areas, and use the Selection tool to edit, move, or remove connected strokes.
+3. Use object mode or grouping when artwork needs to behave as a separate object, while remembering that ungrouped fills and strokes on the same layer can interact and cut into one another.
+4. Organize artwork into separate layers, use outline view and guide layers for reference, and build more complex effects by adding additional highlight or color layers.
+KEY MOMENTS:
+- [00:00:00] The instructor introduces the drawing-tools lesson and points students to a keyboard-shortcut cheat sheet.
+- [00:02:20] Animate and Photoshop are compared to demonstrate the difference between vector and raster graphics.
+- [00:05:15] Paint Fill is shown working cleanly on vector shapes and the newer Paintbrush tool is introduced.
+- [00:06:59] Double-clicking a stroke network selects connected strokes, allowing them to be deleted or edited together.
+- [00:07:21] The instructor warns that gaps in enclosed shapes prevent them from filling correctly.
+- [00:08:40] The distinction between stroke as a boundary and fill as interior is explained.
+- [00:09:07] Object Mode and grouping are demonstrated, including how separate objects can avoid cutting into each other.
+- [00:09:56] The lesson connects these drawing concepts to layered, colored, and exported VFX artwork.
+ASSIGNMENTS / TIPS:
+- Learn the keyboard shortcuts early because they save substantial time in the class workflow.
+- Close enclosed shapes fully before filling them.
+- Be aware of how multiple fills on the same layer interact when they are not separate objects.
+- Use guide layers for animation reference artwork that should not appear in the final export.
+- Treat Animate as a different drawing model rather than expecting raster behavior from Photoshop or Krita.
