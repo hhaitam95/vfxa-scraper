@@ -1,0 +1,47 @@
+TITLE: Wisps - Spritesheet
+OVERVIEW: This lesson builds a procedural wisp generator and turns several parameter variations into a 2x2 sprite sheet. It starts from a simple circular/form-based shape, introduces procedural noise, subtraction, mid- and small-scale detail, and deformation, then exposes the result for reuse. It is intended for artists creating versatile magical, fire, or energy wisps procedurally.
+KEY TOPICS:
+- Wisp sprite-sheet generation
+- Procedural shape variation
+- Tile Sampler noise
+- Subtractive breakup
+- Multi-scale detail
+- Multi-Directional Warp
+- Exposed parameters
+- 2x2 sprite-sheet assembly
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Shape
+- Paraboloid
+- Tile Sampler
+- Position Random
+- Blend/Subtract
+- Perlin Noise
+- Multi-Directional Warp
+- Non-Uniform Blur
+- Auto Levels
+- Levels
+- Transform 2D
+- Output
+- Exposed graph parameters
+STEP-BY-STEP TAKEAWAYS:
+1. Analyze the wisp as a rounded base with a sharper central flow and establish the main shape.
+2. Use Tile Sampler noise to create irregular smaller forms and randomize their positions so the pattern fills the space without repeating uniformly.
+3. Subtract the noise from the base and multiply in Perlin-based mid-detail.
+4. Apply Non-Uniform Blur/Auto Levels where needed, then use a smaller triangular detail pattern and Multi-Directional Warp to create the final wispy deformation.
+5. Remap the finished grayscale with Levels and output the procedural generator.
+6. Create multiple parameter variations and place them into a 2x2 sprite sheet for reuse.
+7. Test the finished sheet in an energy/fire-like effect and combine it with another fadeout technique in the particle material when appropriate.
+KEY MOMENTS:
+- [00:00:05] The wisp exercise is introduced as a versatile texture for magic, fire, and related effects.
+- [00:00:47] The reference and circular/flowing shape are analyzed.
+- [00:02:17] Shape and Paraboloid setup begins.
+- [00:03:11] Tile Sampler noise is introduced.
+- [00:05:59] The noise is subtracted from the base shape.
+- [00:06:40] Perlin Noise is multiplied in for mid detail.
+- [00:09:24] Multi-Directional Warp is used to push the texture into wisp-like forms.
+- [00:11:45] The output is demonstrated in the engine as an energy/fire-style effect.
+ASSIGNMENTS / TIPS:
+- Keep the central flow visible while adding procedural detail.
+- Expose parameters that help make meaningful variations.
+- Avoid repeating the exact same wisp shape when assembling the sprite sheet.
+- Test the output in a real effect because a procedural grayscale can read differently once animated and blended.
