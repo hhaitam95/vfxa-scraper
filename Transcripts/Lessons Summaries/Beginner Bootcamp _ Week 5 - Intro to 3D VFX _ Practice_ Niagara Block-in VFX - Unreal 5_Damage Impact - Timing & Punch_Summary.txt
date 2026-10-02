@@ -1,0 +1,47 @@
+TITLE: Damage Impact - Timing & Punch
+OVERVIEW: This lesson builds a compact Niagara hit impact by starting with the minimum gameplay read and then adding secondary motion and controlled falloff. The emphasis is on immediate responsiveness, punchy timing, white-hot impact color, narrow randomness, velocity alignment, and deliberate extra emitters when they improve the read. It is aimed at beginners learning to block in gameplay VFX in Niagara.
+KEY TOPICS:
+- Timing and punchiness
+- Gameplay readability
+- Secondary motion
+- Radial particle motion
+- Velocity alignment
+- Damping and speed curves
+- Controlled randomness
+- Impact color progression
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Spawn Burst Instantaneous
+- Initialize Particle
+- Scale Sprite Size
+- Shape Location
+- Point Velocity / Add Velocity
+- Sprite Renderer > Velocity Align
+- Drag
+- Gravity Force
+- Scale Sprite Size
+- Scale Sprite by Speed
+- Scale Color
+- Second Inspector tab with lock
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a single short-lived flare because the gameplay purpose is immediate confirmation that a hit connected.
+2. Give the flare one burst particle, a very short randomized lifetime, large starting size, random rotation, and a fast growth curve with a small taper so it pops immediately without feeling static.
+3. Duplicate the flare for spike particles and introduce narrow randomness in count, lifetime, size, and radial/point velocity.
+4. Change the sprite renderer to Velocity Align so the triangular particles point in the direction of travel, then add drag/gravity or other forces to give the secondary motion physicality.
+5. Shape the velocity and size curves so the particles decelerate and disappear cleanly instead of abruptly popping out.
+6. Use Color over Life to start with a white-hot flash and quickly cool into the target effect color.
+7. Add additional tiny emitters only when they materially improve intentionality and gameplay readability, then compare the block-in against references.
+KEY MOMENTS:
+- [00:00:05] The lesson frames hit impacts as repeated gameplay feedback where timing and punch matter even in tiny effects.
+- [00:00:57] The instructor starts from gameplay purpose and immediately builds the central flare.
+- [00:03:24] A rapid size curve is used to produce an instant, energetic read with a small taper.
+- [00:05:23] The flare is duplicated into spike particles for secondary motion and detail.
+- [00:07:33] A small sphere spawn region and point/radial velocity are added.
+- [00:08:58] Velocity Align is introduced so particles point along their movement.
+- [00:09:53] Drag and gravity are used to give the particles physical follow-through.
+- [00:28:07] The instructor argues that a small extra emitter can be worthwhile when it provides fine-tuned intentionality.
+ASSIGNMENTS / TIPS:
+- Start with the gameplay read before adding visual decoration.
+- Use narrow random ranges to add organic variation without losing cohesion.
+- Do not make a short impact unnecessarily complicated.
+- Use quick taper/falloff curves so particles retain punch but do not simply pop on or off.
+- Judge additional emitters by whether they improve the gameplay read and visual intentionality.
