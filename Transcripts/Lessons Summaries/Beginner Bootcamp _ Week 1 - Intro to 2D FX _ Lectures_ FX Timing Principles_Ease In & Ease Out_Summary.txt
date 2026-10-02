@@ -1,0 +1,30 @@
+TITLE: Ease In & Ease Out
+OVERVIEW: This lesson explains easing as the distribution of frames around important poses or keyframes to control perceived speed. It distinguishes ease out, ease in, and combined easing, showing how compressed frames create slower movement near a keyframe and larger gaps create faster travel. It is for artists learning to shape the flow and rhythm of animation through timing.
+KEY TOPICS:
+- Easing as a timing concept
+- Ease out
+- Ease in
+- Ease in and out of a mid-frame
+- Timing charts
+- Frame compression and speed
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Timing charts
+- Compressing drawings around keyframes
+- Redistributing a fixed number of frames
+STEP-BY-STEP TAKEAWAYS:
+1. Start with an evenly spaced sequence as a baseline.
+2. For an ease out, compress the early frames toward the first keyframe, leaving fewer frames for the later travel.
+3. For an ease in, compress the later frames toward the final keyframe.
+4. For ease in and out, compress frames around the relevant mid-frame while the beginning and ending travel remains faster.
+5. Combine multiple easings when the action requires several changes of speed, distributing the available frames to create the intended flow.
+KEY MOMENTS:
+- [00:00:13] Easing is introduced as a major timing concept with ease in and ease out as the basic variations.
+- [00:01:45] Ease out is demonstrated by compressing frames near the first frame.
+- [00:02:57] Ease in is explained as compressing frames near the final frame.
+- [00:03:37] Ease in and out of the mid-frame is demonstrated.
+- [00:04:36] A more complex timing setup combines easing around multiple key poses.
+- [00:05:39] Proper easing is tied to creating flow between quick actions and slower poses.
+ASSIGNMENTS / TIPS:
+- Use timing charts to consciously control where frames are compressed.
+- Experiment with different amounts of compression; the transcript does not prescribe one fixed spacing pattern.
+- Practice easing as part of everyday animation work.
