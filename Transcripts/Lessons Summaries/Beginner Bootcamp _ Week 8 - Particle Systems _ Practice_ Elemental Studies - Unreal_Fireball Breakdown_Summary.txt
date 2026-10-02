@@ -1,0 +1,36 @@
+TITLE: Fireball Breakdown
+OVERVIEW: This lesson breaks a fireball reference into layered real-time components and reconstructs the effect in Unreal Niagara. It uses a main fire core, supporting embers/flames, motion through space, and a trailing component to preserve the projectile's readable silhouette. It is intended for artists practicing layered elemental effects in Unreal.
+KEY TOPICS:
+- Fireball core
+- Layered emitters
+- Projectile motion
+- Embers
+- Trail
+- Color/lifetime progression
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Niagara emitters
+- Sprite Renderer
+- Flipbook textures
+- Spawn Burst
+- Initialize Particle
+- Scale Color/Size
+- Velocity
+- Ribbon/Trail
+STEP-BY-STEP TAKEAWAYS:
+1. Break the reference into core fire, outer flame, embers, and trail.
+2. Build the main fire using the chosen texture and short lifetime.
+3. Add secondary particles with controlled variation.
+4. Build the trail so it follows the projectile and supports the travel direction.
+5. Tune the timing, size, color, and density from the gameplay camera.
+6. Remove elements that do not improve the fireball's read.
+KEY MOMENTS:
+- [00:00:00] The fireball reference is broken into components.
+- [00:05:00] Main fire construction begins.
+- [00:10:00] Secondary flame/ember layers are added.
+- [00:15:00] Projectile travel and trail are configured.
+- [00:20:00] Color/lifetime behavior is tuned.
+- [00:25:00] The complete fireball is reviewed.
+ASSIGNMENTS / TIPS:
+- Build the core first.
+- Keep embers secondary.
+- Make the trail support the projectile rather than compete with it.
