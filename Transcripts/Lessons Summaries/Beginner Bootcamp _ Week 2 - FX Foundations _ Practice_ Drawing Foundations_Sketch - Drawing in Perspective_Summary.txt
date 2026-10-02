@@ -1,0 +1,38 @@
+TITLE: Sketch - Drawing in Perspective
+OVERVIEW: This lesson applies one-point perspective construction to a wave that travels toward the camera. A long cuboid acts as a guide surface, a cylinder defines a rounded section, and the final water shape is drawn along those forms with foam, bubbles, shading, and weighted lines. It is aimed at artists practicing how to carry organic FX shapes through a defined 3D perspective space.
+KEY TOPICS:
+- One-point perspective construction
+- Organic forms on perspective guides
+- Wave thickness
+- Cylindrical sections
+- Water and foam
+- Shading and values
+- Line-weight separation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Long cuboid as a perspective guide
+- Projection between corresponding points on two sides of a form
+- Cylinder construction with ovals
+- Light construction lines and darker final contours
+- Angled hatching/shading
+- Perspective-aligned inner lines
+STEP-BY-STEP TAKEAWAYS:
+1. Build a long cuboid aligned to the one-point perspective grid and use it as the base for the wave's overall depth.
+2. Draw the wave on one side, then project its important bumps and points onto the opposite side so the organic form remains consistent through the volume.
+3. Add a cylinder where the wave curls around a rounded section and use its ovals to define the curvature.
+4. Add thickness to the wave by creating a second boundary and project that boundary through the same perspective logic.
+5. Draw the final wave contours along the construction surface, then add internal flow lines, foam/bubbles, and small splashes.
+6. Add shading and line-weight differences to separate water, foam, foreground, and overlapping parts while keeping the silhouette clear.
+KEY MOMENTS:
+- [00:00:04] The lesson begins by applying earlier perspective rules to an effect sketch.
+- [00:00:22] A long cuboid is constructed as the main perspective guide.
+- [00:02:24] The wave is projected from one side of the cuboid to the other.
+- [00:05:03] A cylinder is added for the rounded portion of the wave.
+- [00:06:45] Thickness is added to the wave using the same projection approach.
+- [00:07:38] The actual stylized wave is drawn along the construction.
+- [00:12:30] Foam, bubbles, and other water details are introduced.
+- [00:19:22] The final silhouette is cleaned and the construction method is summarized.
+ASSIGNMENTS / TIPS:
+- Use construction surfaces for complex organic forms rather than guessing the whole shape.
+- Project matching points across the form so the perspective stays coherent.
+- Preserve lighted/open areas by avoiding unnecessary internal detail.
+- Add shading after the main perspective and silhouette are established.
