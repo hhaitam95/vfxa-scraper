@@ -1,0 +1,38 @@
+TITLE: Linear Keyframes - Looping Effects
+OVERVIEW: This lesson demonstrates a looping effect built from keyframe A to keyframe B, with the motion flowing continuously through the loop instead of returning directly to A. A simple line wiggle is planned first, then used as a guide for a stylized fire shape and its dissipating pieces. It is intended for artists learning how to build seamless loops from clear key poses and then add layered detail.
+KEY TOPICS:
+- A-to-B continuous looping
+- Keyframes and in-betweens
+- Line-wiggle guides
+- Fire shape construction
+- Dissipating pieces
+- Guide-based animation
+- Loop cleanup
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Keyframe planning
+- Onion Skin
+- Guide layers
+- Flip/playback checking
+- Perpendicular guide construction from accent points
+- Bridge thinning for dissipating fire pieces
+STEP-BY-STEP TAKEAWAYS:
+1. Draw keyframe A and repeat it at the loop boundary as needed for reference, then define keyframe B as the second state the animation travels through.
+2. In-between the line wiggle while controlling spacing so motion slows near extremes and remains faster between them.
+3. Correct the guide as soon as spacing or direction feels wrong rather than expecting to repair a weak base after adding detail.
+4. Use the guide's accent points and perpendicular extensions to define where the fire's major shapes and inner negative spaces will travel.
+5. Animate the main fire shape first, then add detached/dissipating pieces whose connecting bridges gradually thin until they disappear.
+6. Turn off the guides and polish individual portions by checking direction changes, spacing, tangents, and the readability of the mostly static base/ground.
+KEY MOMENTS:
+- [00:00:05] The A-to-B looping method is introduced.
+- [00:00:55] The line-wiggle base is started.
+- [00:01:10] Keyframe A is drawn and the second key is planned as its flipped state.
+- [00:02:58] Frame spacing is adjusted so the motion eases near the extremes.
+- [00:07:24] The instructor emphasizes correcting the base motion early.
+- [00:08:49] Perpendicular guide extensions are used to place fire accents.
+- [00:17:15] Detached fire pieces are handled by thinning their connecting bridges.
+- [00:27:25] Guide layers are turned off and the loop is polished through frame-by-frame checking.
+ASSIGNMENTS / TIPS:
+- Do not over-polish the initial keyframes because they commonly change during in-betweening.
+- Use guides as functional structures for the final shapes, not merely decorative paths.
+- Correct bad spacing early in a loop.
+- Check static/grounded regions closely because small flickers are more visible against them.
