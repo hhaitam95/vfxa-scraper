@@ -1,0 +1,37 @@
+TITLE: Depth Fade
+OVERVIEW: This lesson introduces depth fade for Unity materials that need to blend with nearby geometry. It uses scene-depth data and a distance value to create a fading transition at intersections, which is especially useful for particles, smoke, and soft effects near the ground. It is intended for beginners learning to make translucent VFX integrate more cleanly with the environment.
+KEY TOPICS:
+- Depth Fade
+- Scene Depth
+- Intersection fading
+- Distance-based opacity
+- Environment interaction
+- Particle materials
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Scene Depth
+- Distance
+- Divide
+- Remap/math nodes
+- Color
+- Alpha
+- Transparent material
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a transparent particle/material and inspect its intersection with another object.
+2. Read the scene depth at the same screen location and compare it with the particle's depth.
+3. Turn the resulting difference into a 0–1 mask.
+4. Divide or remap the distance so smaller values create a faster fade and larger values preserve more of the particle.
+5. Connect the mask to opacity and test it against the environment.
+6. Tune the distance and final color/alpha together so the effect fades naturally at intersections.
+KEY MOMENTS:
+- [00:00:05] Depth Fade is introduced.
+- [00:02:12] The raw depth-derived result is visualized.
+- [00:03:44] Depth values are remapped into visible ranges.
+- [00:05:27] Two useful pieces of depth data are identified.
+- [00:07:14] A Divide node is added to control the falloff.
+- [00:08:59] Smaller distance values make objects fade out faster.
+- [00:13:48] The benefit is clearest when the effect overlaps the environment.
+- [00:15:21] The result is connected to both color and alpha.
+ASSIGNMENTS / TIPS:
+- Test depth fade against actual geometry rather than only on an isolated quad.
+- Tune the fade distance to the softness required by the effect.
+- Use it for smoke and other translucent effects that need cleaner ground/environment intersections.
