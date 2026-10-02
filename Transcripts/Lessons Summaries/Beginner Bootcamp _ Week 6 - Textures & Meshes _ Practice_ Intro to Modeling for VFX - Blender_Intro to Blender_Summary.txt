@@ -1,0 +1,43 @@
+TITLE: Intro to Blender
+OVERVIEW: This lesson introduces Blender as a practical modeling package for VFX artists who may be coming from 3ds Max, Maya, Unity, or Unreal. It explains industry-compatible key mapping, basic navigation, common primitive/object operations, and FBX export. It is intended as the starting point for artists who need to make and export simple VFX meshes themselves.
+KEY TOPICS:
+- Blender fundamentals
+- Industry Compatible key map
+- View navigation
+- Object and edit modes
+- Primitive meshes
+- Modeling basics
+- FBX export
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Edit > Preferences > Keymap > Industry Compatible
+- Left click to select
+- Right click for context menu
+- Alt+Left click for orbit
+- Alt+Right click for zoom
+- Alt+middle mouse for pan/dolly
+- W/E/R for movement/rotation/scale
+- 1/2/3 for vertices/edges/faces
+- Blender 3.2.0 in the recorded lesson
+- FBX export
+- Limit to Selected Objects
+STEP-BY-STEP TAKEAWAYS:
+1. Install Blender and select the Industry Compatible keymap so the controls are closer to those used in common game engines and other DCCs.
+2. Learn the basic viewport navigation and W/E/R transformation workflow.
+3. Become familiar with object mode versus component editing and the three sub-selection levels: vertices, edges, and faces.
+4. Practice simple modeling from primitives, keeping the geometry appropriate for a VFX mesh rather than treating every model as a full production asset.
+5. When the mesh is ready, export it as FBX and enable Limit to Selected Objects so lights, cameras, and other scene objects are not included.
+6. Import the exported FBX into the target game project and continue the material/VFX setup there.
+KEY MOMENTS:
+- [00:00:05] The Blender series is introduced as a way for VFX artists to make their own effect meshes.
+- [00:02:30] Blender 3.2.0 and the recorded course version are introduced.
+- [00:03:36] Industry Compatible key mapping is explained.
+- [00:05:55] The mapping is connected to easier switching between Blender, Unity, and Unreal.
+- [00:06:25] Basic viewport navigation is demonstrated.
+- [00:10:20] Simple object/component selection and transformations are reviewed.
+- [00:12:58] FBX export is introduced.
+- [00:13:15] Limit to Selected Objects is emphasized to avoid exporting the whole scene.
+ASSIGNMENTS / TIPS:
+- Use Industry Compatible mapping when following the recorded VFX workflow.
+- Learn W/E/R and the 1/2/3 component modes early.
+- Keep simple VFX meshes focused on what the effect needs.
+- Use Limit to Selected Objects when exporting a single mesh.
