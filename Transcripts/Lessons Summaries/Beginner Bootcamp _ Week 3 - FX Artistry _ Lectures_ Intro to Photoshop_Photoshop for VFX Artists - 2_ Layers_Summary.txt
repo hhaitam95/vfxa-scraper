@@ -1,0 +1,50 @@
+TITLE: Photoshop for VFX Artists - 2: Layers
+OVERVIEW: This lesson introduces the Photoshop layer system and the layer-level operations useful for VFX painting. It covers showing, hiding, renaming, reordering, selecting, transforming, and editing layers, along with selection modification and several filters used to create motion, shape growth, glow, and tiling effects. It is intended for artists learning how to work safely and efficiently in a multi-layer effects painting.
+KEY TOPICS:
+- Layer visibility and organization
+- Layer selection and Auto Select
+- Transform controls
+- Lasso selection on a specific layer
+- Contract/Expand selections
+- Gaussian, Radial, and Motion Blur
+- Minimum/Maximum filters
+- Polar Coordinates
+- Tiling with Offset
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Ctrl-click for multi-layer selection
+- Move Tool
+- Auto Select
+- Show Transform Controls
+- Shift and Alt with transforms
+- Ctrl-D to deselect
+- Select > Modify > Contract/Expand
+- Filter > Blur > Gaussian Blur
+- Filter > Blur > Radial Blur > Zoom/Spin
+- Motion Blur with directional angle
+- Ctrl+apostrophe to show the grid
+- Filter > Other > Minimum/Maximum
+- Filter > Distort > Polar Coordinates
+- Rectangular to Polar
+- Filter > Other > Offset
+STEP-BY-STEP TAKEAWAYS:
+1. Organize the document with named layers and folders, then control visibility, opacity, order, and selection from the Layers panel.
+2. Be aware of Auto Select when moving layers; disable it when clicking transparent or overlapping areas causes the wrong layer to move.
+3. Use Show Transform Controls for rotation and scaling, committing the transform when complete so it is stored as one history action.
+4. Make sure the correct layer is active before deleting selected artwork, and use Select > Modify to expand or contract the selection.
+5. Apply filters to create directional motion and glow: use radial blur for radiating movement, motion blur for directional movement, and Minimum plus Gaussian Blur to build a cheap expanded glow.
+6. Use Polar Coordinates with Rectangular to Polar to convert a top-down painted strip/burst into a radial particle-style burst, and use Offset to construct tiling textures.
+KEY MOMENTS:
+- [00:00:47] Layer visibility, renaming, ordering, opacity, and folders are reviewed.
+- [00:01:48] Auto Select is shown selecting the wrong transparent layer.
+- [00:02:59] Show Transform Controls demonstrates rotation and scaling.
+- [00:05:37] Selection Contract and Expand are introduced.
+- [00:06:05] Blur filters are used to create energetic motion.
+- [00:07:10] Radial Blur Zoom and its center position are demonstrated.
+- [00:10:08] Minimum/Maximum are used to expand/contract shapes and build a glow.
+- [00:12:41] Polar Coordinates is demonstrated, including Rectangular to Polar.
+ASSIGNMENTS / TIPS:
+- Check the active layer before deleting or painting.
+- Disable Auto Select when overlapping or transparent FX layers make selection unreliable.
+- Use filters deliberately; the instructor emphasizes that there are many options but only a few are needed often.
+- Be cautious about filter/render cost on heavier effects.
+- Use Offset for tiling textures and remember to paint from the appropriate edge for a useful polar burst result.
