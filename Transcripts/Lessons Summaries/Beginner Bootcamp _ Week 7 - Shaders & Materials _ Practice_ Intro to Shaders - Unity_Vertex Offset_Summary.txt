@@ -1,0 +1,39 @@
+TITLE: Vertex Offset
+OVERVIEW: This lesson introduces vertex displacement as a new category of shader effects, using position, normals, multiplication, and a sine wave to deform a mesh over time. It stresses the need for sufficient mesh resolution and shows how normals can define the direction of the displacement. It is intended for beginners learning to make geometry itself move through Shader Graph.
+KEY TOPICS:
+- Vertex displacement
+- Position
+- Normal Vector
+- World/vertex offset
+- Sine-wave motion
+- Mesh resolution
+- Geometry deformation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Position
+- Normal Vector
+- Multiply
+- Sine
+- Time
+- Vertex Offset
+- Mesh resolution/density
+STEP-BY-STEP TAKEAWAYS:
+1. Create a mesh/material setup and identify the vertex-offset input.
+2. Use position as one possible source for displacement, then compare it with using the mesh normal.
+3. Multiply the normal by a scalar so the amount of displacement can be controlled.
+4. Feed a time-driven sine signal into the displacement amount for animated deformation.
+5. Keep the mesh sufficiently subdivided so there are enough vertices to form smooth motion.
+6. Test the deformation on different shapes and reduce the strength when the geometry becomes too extreme.
+KEY MOMENTS:
+- [00:00:05] Vertex displacement is introduced.
+- [00:01:37] A material is created and applied to the objects.
+- [00:03:20] Position is introduced as an input source.
+- [00:06:33] Displacement is applied only along the Y axis.
+- [00:07:57] Normal Vector and Multiply are used to control direction and amount.
+- [00:09:38] Sine is introduced for time-varying displacement.
+- [00:11:18] A different distance driver is explored while retaining normal-based movement.
+- [00:13:12] The complete setup produces a cloud-like deformed mesh.
+ASSIGNMENTS / TIPS:
+- Ensure the mesh has enough vertices before attempting detailed displacement.
+- Keep deformation subtle while learning.
+- Decide whether position or normals give the direction you need.
+- Build the math one operation at a time and inspect the result after each step.
