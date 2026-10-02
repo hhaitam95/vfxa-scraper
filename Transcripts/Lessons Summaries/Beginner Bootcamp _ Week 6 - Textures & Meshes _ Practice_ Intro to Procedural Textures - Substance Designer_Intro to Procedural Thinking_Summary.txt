@@ -1,0 +1,50 @@
+TITLE: Intro to Procedural Thinking
+OVERVIEW: This lesson explains the basic Substance Designer workflow through a simple “force wall” style texture and emphasizes thinking in reusable operations instead of painting every variation manually. It introduces procedural nodes, blends, exposed graph inputs, shared controls, Levels, and output/export. It is intended for beginners learning the core mindset behind procedural VFX texture creation.
+KEY TOPICS:
+- Procedural workflows
+- Node graphs
+- Shape generation
+- Blend modes
+- Exposed parameters
+- Shared graph inputs
+- Levels/remapping
+- Non-destructive iteration
+- Output/export
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Empty graph
+- Shape node
+- Blend node
+- Foreground/background inputs
+- Opacity
+- Copy blend mode
+- Expose as New Graph Input
+- Use Existing Graph Input
+- Levels
+- Output node
+- Export Output as Bitmap
+- Spacebar or Tab to search/create nodes
+- Middle mouse for graph navigation
+- Alt on a connection to delete it
+STEP-BY-STEP TAKEAWAYS:
+1. Create an empty graph at a larger working resolution and learn the Graph View, 2D View, Library, Explorer, and node-parameter layout.
+2. Add a Shape node and choose a basic pattern such as a cone or paraboloid.
+3. Add another shape and combine the two through a Blend node, understanding foreground/background order, grayscale versus color inputs, and opacity.
+4. Expose the Blend control so important variations can be changed from the graph's custom-parameter area without navigating through the node tree.
+5. Expose the size of both shape nodes through one shared graph input so one slider controls multiple related parameters.
+6. Use Levels to remap the result and expose useful controls for quick iteration.
+7. Add an Output node, name the output identifier, export it, and repeat the same parameter-edit/export cycle when another variation is needed.
+KEY MOMENTS:
+- [00:00:05] Substance Designer is introduced as a procedural texture tool for VFX.
+- [00:00:51] An empty graph and working resolution are chosen.
+- [00:02:34] The Shape node is created and the graph-navigation workflow is introduced.
+- [00:05:32] Blend foreground/background and opacity are explained.
+- [00:07:41] Exposed parameters are introduced to centralize important controls.
+- [00:10:17] One existing graph input is shared between multiple node parameters.
+- [00:11:17] Levels are used to remap the grayscale result.
+- [00:13:17] The Output node and bitmap export workflow are demonstrated, followed by rapid parameter-driven iteration.
+ASSIGNMENTS / TIPS:
+- Start with a simple procedural graph before adding many operations.
+- Expose parameters that you expect to iterate on.
+- Reuse one graph input when multiple nodes should respond together.
+- Save the graph regularly and export only when the result is ready.
+- The lesson emphasizes that procedural setup is valuable because later variations can be made by changing parameters rather than rebuilding the texture.
