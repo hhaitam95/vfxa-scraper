@@ -1,0 +1,43 @@
+TITLE: Dome & Tapered Cylinder
+OVERVIEW: This lesson teaches how to make two especially useful VFX meshes in Blender: a hemisphere/dome and a tapered cylinder. It covers primitive setup, polygon selection, cutting a sphere in half, removing faces, and scaling the top of a cylinder to create a taper. It is intended for VFX artists who need simple custom meshes for real-time effects.
+KEY TOPICS:
+- Hemisphere/dome mesh
+- Tapered cylinder
+- Primitive-based modeling
+- Face and edge selection
+- Orthographic view
+- Flat versus smooth shading
+- Mesh density
+- Reusable VFX geometry
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Add > Mesh > UV Sphere
+- 36 segments / 24 rings in the example
+- Shade Smooth
+- Numpad 3 for face/poly mode
+- Shift-select faces
+- Double-click for edge/face ring selection
+- Numpad Up/Down for selection grow/shrink
+- Orthographic view
+- Marquee selection
+- R for Scale
+STEP-BY-STEP TAKEAWAYS:
+1. Add a UV Sphere and choose even segment/ring counts so its faces can be split predictably.
+2. Use Shade Smooth for a clean low-poly presentation while remembering that smooth/flat shading transfers to the engine.
+3. Switch to face editing and an orthographic view, select one side of the sphere, and remove it to create a hemisphere/dome.
+4. Add a cylinder and enter face/edge mode, delete the unnecessary end faces when making a tapered cylindrical sheet.
+5. Select the top edge ring and scale it inward to taper the cylinder, keeping the geometry simple and easy to UV.
+6. Use these primitives as reusable building blocks for dome-like particles and tapered effect meshes.
+KEY MOMENTS:
+- [00:00:05] The hemisphere and tapered cylinder are introduced as two highly useful VFX meshes.
+- [00:00:55] A UV Sphere is created with 36 segments and 24 rings.
+- [00:02:17] Shade Smooth is explained and related to engine smoothing groups.
+- [00:03:15] Face-edit mode and orthographic selection are used to cut the sphere in half.
+- [00:04:48] Selection behavior in orthographic view is highlighted.
+- [00:07:00] The sphere is turned into a hemisphere by selecting/deleting half the faces.
+- [00:09:45] Edge-ring selection and scaling are used to taper the cylinder.
+- [00:10:29] The two meshes are presented as recurring VFX building blocks.
+ASSIGNMENTS / TIPS:
+- Keep primitive segment counts manageable and suited to the effect.
+- Use orthographic views for clean half-mesh selections.
+- Remember that shading state affects how exported meshes appear in the engine.
+- Practice building and reusing these two meshes before moving on to more complex geometry.
