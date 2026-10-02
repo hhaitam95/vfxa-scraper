@@ -1,0 +1,49 @@
+TITLE: Item Aura & Visual Hierarchy
+OVERVIEW: This lesson builds an item-pickup aura in Niagara and uses it to teach custom particle materials alongside visual hierarchy, timing, color, and composition. The central glow is established first as the compositional anchor, then rings, sparkles, and bokeh-like particles are layered around it. It is aimed at beginners who want to connect Niagara's technical controls with deliberate artistic choices.
+KEY TOPICS:
+- Visual hierarchy
+- Core glow and supporting layers
+- Custom particle materials
+- Texture multiplication
+- Particle color
+- Alpha and opacity
+- Soft pulsing
+- Rings, sparkles, and bokeh
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Empty Niagara System
+- Empty Emitter
+- Spawn Rate
+- Scale Color
+- Scale Sprite Size
+- Texture Sample (T key)
+- Multiply node (M key)
+- Material Blend Mode > Translucent
+- Shading Model > Unlit
+- Particle Color
+- Texture sample multiplication
+- Curves with tangent editing
+- Drag module
+- Preview Exposure / EV
+STEP-BY-STEP TAKEAWAYS:
+1. Create an empty Niagara system and start with a slow-spawning glow emitter because the glow is the core visual and compositional anchor.
+2. Use a narrow random color range and small size variation to make the glow feel organic without losing its identity.
+3. Add Scale Color and Scale Sprite Size curves to create a soft pulse and controlled fade.
+4. Create a custom unlit translucent particle material, multiply Particle Color by a texture sample, and route the result through the material output.
+5. Use the material to shape rings, sparkles, and other texture-driven particles while keeping their color behavior controllable by Niagara.
+6. Add supporting emitters around the core glow, using curved motion and drag to keep secondary particles contained and visually subordinate.
+7. Review the finished effect from the player's intended viewing context and make changes to hierarchy, timing, and contrast rather than simply adding more particles.
+KEY MOMENTS:
+- [00:00:05] The item aura is introduced as both a technical Niagara exercise and a visual-hierarchy exercise.
+- [00:02:34] The first glow emitter is created as the core of the effect.
+- [00:04:07] The glow is explicitly described as the element that pulls the viewer's eye to the item.
+- [00:05:36] Scale Color and a soft curve are used to establish the glow's fade/pulse.
+- [00:08:53] A custom soft material is created for the effect.
+- [00:10:00] T creates a Texture Sample and M creates a Multiply node for combining texture and particle color.
+- [00:11:02] The material is changed to Translucent and Unlit so alpha and emissive particle behavior work as intended.
+- [00:46:29] Drag is added to keep the supporting particles from drifting too far and the effect is treated as a common game-VFX pattern.
+ASSIGNMENTS / TIPS:
+- Start with the visual focal point instead of building a collection of details first.
+- Keep random color/size variation narrow when the effect has a clearly defined identity.
+- Use supporting layers to reinforce the core rather than compete with it.
+- Check the effect in the actual scene because preview exposure can change the apparent brightness.
+- Reuse the same technical building blocks to create different visual variants.
