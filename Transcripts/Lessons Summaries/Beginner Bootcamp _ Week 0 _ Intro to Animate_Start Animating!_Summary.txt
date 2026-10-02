@@ -1,0 +1,38 @@
+TITLE: Start Animating!
+OVERVIEW: This lesson gets beginners animating a simple 2D effect immediately in Adobe Animate. It introduces a small set of keyboard shortcuts, onion skinning, frame-by-frame drawing, and a quick workflow for building a short effect. The focus is on getting something moving before diving into detailed tool explanations.
+KEY TOPICS:
+- Frame-by-frame 2D FX animation
+- Onion Skin
+- Silhouette changes
+- Frame count and timing
+- Fast rough animation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 512 x 512 document at 30 frames per second
+- B for Brush tool
+- Ctrl-Z for Undo
+- K for Paint Fill
+- F7 for a new blank frame
+- E for Eraser
+- Onion Skin
+- Control Enter to preview
+STEP-BY-STEP TAKEAWAYS:
+1. Create a 512 x 512 document at 30 FPS and draw a simple bold effect with the Brush tool.
+2. Close the shape and use Paint Fill to fill it.
+3. Use F7 to create successive blank frames and turn on Onion Skin so each new drawing can follow the previous motion.
+4. Vary the size and distance of the shapes while the effect develops, then resolve the forms near the end of the sequence.
+5. Preview the result with Control Enter.
+KEY MOMENTS:
+- [00:00:43] A 512 x 512 document at 30 FPS is created for the first exercise.
+- [00:01:26] The basic B, Ctrl-Z, K, and F7 workflow is introduced.
+- [00:03:03] Onion Skin is enabled for frame-by-frame guidance.
+- [00:03:45] The simple effect is developed into a swipe or shield-block shape.
+- [00:05:21] The instructor varies distances and shape sizes while approaching the ending.
+- [00:06:24] Working quickly is described as helpful for keeping motion cohesive.
+- [00:07:13] The last frame is drawn and the short animation is completed.
+- [00:07:29] Control Enter previews the finished animation.
+ASSIGNMENTS / TIPS:
+- Make sure closed shapes have no gaps before using Paint Fill.
+- Keep the first effect simple and concentrate on motion.
+- Work quickly enough to remember the previous frame's movement.
+- Vary the distances and sizes of changes rather than repeating the same spacing every frame.
+- Use Onion Skin to help connect frames rather than polishing each drawing before the sequence works.
