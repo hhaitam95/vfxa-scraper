@@ -1,0 +1,45 @@
+TITLE: Color Foundations
+OVERVIEW: This lecture explains the practical color concepts most relevant to VFX artists: hue, saturation, value, temperature, color harmony, and additive color. It emphasizes that value and local contrast drive readability, while restrained saturation and deliberate hue relationships create hierarchy and focus. It is aimed at artists who want a conceptual framework for choosing and controlling color in game effects.
+KEY TOPICS:
+- Hue, saturation, and value
+- RGB and HSV
+- Value contrast
+- Saturation contrast
+- Color temperature
+- Analogous, complementary, triadic, and tetradic relationships
+- Primary and secondary colors
+- Linear Dodge/Add
+- Restraint and visual hierarchy
+- Accessibility/colorblindness
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Unreal/Photoshop-style color picker
+- RGB and HSV sliders
+- Grayscale/value checking
+- Windows grayscale color filter
+- Linear Dodge/Add blending mode
+- Color picking from reference and environment
+- Hue shifting
+STEP-BY-STEP TAKEAWAYS:
+1. Learn to identify hue, saturation, and value separately using the color picker and RGB/HSV values.
+2. Check value first because it strongly affects form, silhouette, and readability; use grayscale thumbnails or grayscale checking when designing focal hierarchy.
+3. Use saturation and hue deliberately, especially when creating gradients between non-adjacent hues where an uncontrolled transition can become muddy or desaturated.
+4. Use temperature to create warm/cool contrast and to communicate energy or mood; study real examples such as fire and incandescent light.
+5. Reserve the most saturated colors and strongest value contrast for important focal areas instead of making the entire effect equally intense.
+6. Use secondary colors and Linear Dodge/Add carefully for high-energy accents, remembering that context changes how a color is perceived.
+7. Practice by making a thing, comparing it against references, and repeating the cycle to build intuitive color judgment.
+KEY MOMENTS:
+- [00:02:41] The color picker is used to define RGB, alpha, HSV, hue, value, and saturation.
+- [00:04:58] Value is introduced as the dominant characteristic for form and silhouette readability.
+- [00:06:32] A white particle effect demonstrates why environment value affects VFX readability.
+- [00:07:50] Saturation is explained and connected to the RGB range.
+- [00:10:46] Color temperature and hue relationships are discussed.
+- [00:13:06] A candle flame demonstrates value, hue shift, and warm/cool relationships.
+- [00:16:44] Restraint is introduced as the key color sensibility for maintaining focus.
+- [00:22:00] The lecture closes by emphasizing repeated practice and comparison.
+ASSIGNMENTS / TIPS:
+- Use grayscale/value checks when color makes it hard to judge readability.
+- Do not make every part of an effect maximally saturated or high contrast.
+- Treat color-harmony diagrams as useful reminders, not rigid prescriptions.
+- Be deliberate with hue transitions and saturation curves.
+- Compare your work against real references and other artwork.
+- Keep accessibility in mind because some players have color-vision deficiencies.
