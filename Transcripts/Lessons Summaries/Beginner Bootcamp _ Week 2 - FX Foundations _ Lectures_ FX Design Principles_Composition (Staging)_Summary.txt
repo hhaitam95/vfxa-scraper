@@ -1,0 +1,35 @@
+TITLE: Composition (Staging)
+OVERVIEW: This lesson explains how effect placement should support the action and story of a shot rather than obscure important character acting. It distinguishes effects that are additional to a scene from shots where the effect is the main purpose, then uses smoke after an explosion to demonstrate foreground and background staging. It is aimed at artists learning to integrate FX into a shot compositionally.
+KEY TOPICS:
+- Effect staging
+- Character readability
+- Foreground, midground, and background effects
+- Hero shots versus supporting effects
+- Effect scale
+- Depth and visual noise
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Blocking out usable effect regions
+- Foreground/background separation
+- Slower background motion
+- Screen-left/screen-right terminology
+STEP-BY-STEP TAKEAWAYS:
+1. Determine whether the effect is supporting the scene or is the primary subject.
+2. Identify the character acting or other important visual action that must remain readable.
+3. Block out areas where foreground effects can exist without covering important poses or actions.
+4. Place the main effect around the subject, then add background elements to create depth without competing for attention.
+5. Give background effects less visual activity or slower motion when needed so the foreground/action remains the focus.
+6. Recheck the scale and composition against the story and camera movement before final animation.
+KEY MOMENTS:
+- [00:00:39] A large city explosion is introduced as the starting narrative context.
+- [00:01:47] Character readability is identified as a primary compositional goal.
+- [00:02:21] Supporting effects and effect-driven hero shots are distinguished.
+- [00:03:09] The smoke shot is identified as a supporting-effect shot where the character should remain clear.
+- [00:04:42] The instructor blocks out a working region for foreground effects before animating.
+- [00:05:42] Foreground smoke and quieter background smoke are staged to preserve depth and readability.
+- [00:06:38] Background smoke is given slightly slower motion so it does not compete with the characters.
+- [00:07:02] The lesson summarizes blocking, composition, and using background elements to increase intensity.
+ASSIGNMENTS / TIPS:
+- Block effect placement before animating.
+- Do not let supporting FX obscure the primary acting or action.
+- Use background movement carefully; too much noise can steal focus.
+- Treat effect scale and placement as story decisions, not purely technical choices.
