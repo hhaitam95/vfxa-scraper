@@ -1,0 +1,44 @@
+TITLE: Impact Flair
+OVERVIEW: This lesson paints a reusable impact flare/sparkle texture from a soft central glow and varied rays. It emphasizes randomness, visual variety, layered sharp and soft shapes, and using a texture's intended story and game style to guide the design. It is aimed at artists building flexible hand-painted impact textures for VFX.
+KEY TOPICS:
+- Impact flare and sparkle design
+- Central glow
+- Ray construction
+- Randomness and variety
+- Sharp versus soft layers
+- Texture reuse
+- Style and story
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 512 x 512 texture
+- Airbrush
+- X to swap colors
+- V for Line tool
+- E for eraser
+- Brush pressure for tapering rays
+- Gaussian Blur
+- Basic 5 Size brush
+- Grid for center alignment
+- Brush spacing adjustment
+STEP-BY-STEP TAKEAWAYS:
+1. Decide what kind of impact the texture should communicate and create a 512 x 512 black-background texture.
+2. Paint a soft white central glow on one layer.
+3. Add another layer of rays using the Line tool, starting with light pressure and increasing pressure toward the center so each ray fades into the glow.
+4. Vary ray length, placement, and thickness to avoid a symmetrical stick-like result, then erase or add rays to improve the composition.
+5. Add a harder-edged brush layer that follows the general ray directions, again using pressure to create tapered sharp rays.
+6. Blur the soft layer and retain enough crisp structure in the sharp layer so the final texture reads as both bright and graphic.
+7. Check the result in the context of the intended effect and use additional variation rather than duplicating identical arms.
+KEY MOMENTS:
+- [00:00:05] The lesson identifies impact flare/sparkle as the flash produced when one object hits another.
+- [00:00:36] The instructor emphasizes considering the impact source and game style.
+- [00:01:14] A 512 x 512 texture is created.
+- [00:01:53] The soft central glow is painted.
+- [00:02:17] The Line tool is used with pressure variation to create rays.
+- [00:03:09] Random ray length and placement are used to create variety.
+- [00:06:09] The first flare layer receives Gaussian Blur.
+- [00:06:28] A hard-edged layer is added to sharpen the flare silhouette.
+ASSIGNMENTS / TIPS:
+- Think about the source and purpose of the impact before choosing its shape.
+- Randomness and variety are important, but should remain compositionally intentional.
+- Avoid perfectly symmetrical rays unless the style specifically calls for it.
+- Keep a combination of soft glow and sharper structure for a versatile flare.
+- Use the grid if centering the rays is difficult, but the instructor generally eyeballs placement.
