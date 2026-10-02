@@ -1,0 +1,38 @@
+TITLE: Multiply & Scaling
+OVERVIEW: This lesson explains how multiplying normalized UV values scales a texture and introduces the offset needed to scale around the center of the UV space. It also introduces Fraction and reiterates that node order affects the result. It is intended for beginners learning to perform practical texture transforms in Unity Shader Graph.
+KEY TOPICS:
+- UV scaling
+- Multiply
+- Fraction
+- Centered scaling
+- UV normalization
+- Node order
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Texture Coordinates
+- Multiply
+- Add
+- Subtract
+- Fraction
+- Constant 0.5
+- Material parameters
+STEP-BY-STEP TAKEAWAYS:
+1. Start with normalized UV coordinates and visualize their values.
+2. Multiply the UVs by a number less than or greater than one to change texture scale.
+3. Recognize that direct scaling expands/contracts from the UV origin rather than the center.
+4. Subtract 0.5 to move the origin to the center, multiply to scale, then add 0.5 back.
+5. Use Fraction when only the fractional part of a coordinate is useful.
+6. Expose useful values as parameters so the texture scale can be tuned externally.
+KEY MOMENTS:
+- [00:00:05] UV scaling is introduced as the next step after panning.
+- [00:00:37] The texture used for the scaling example is selected.
+- [00:01:45] The texture is prepared for visual inspection.
+- [00:02:43] One Minus behavior is reviewed in the related normalized-value discussion.
+- [00:03:35] Fraction is introduced as keeping only the part after the decimal.
+- [00:05:30] Multiplication enlarges the sampled texture.
+- [00:06:19] Center scaling is identified as less common and optional to memorize.
+- [00:08:30] A reusable node is added for later shader work.
+- [00:09:24] Parameter control is introduced for changing values without rebuilding the graph.
+ASSIGNMENTS / TIPS:
+- Memorize the center-scaling pattern if centered scaling is common in your work.
+- Understand the normalized 0–1 UV range before transforming it.
+- Test parameters interactively so the effect of each operation becomes intuitive.
