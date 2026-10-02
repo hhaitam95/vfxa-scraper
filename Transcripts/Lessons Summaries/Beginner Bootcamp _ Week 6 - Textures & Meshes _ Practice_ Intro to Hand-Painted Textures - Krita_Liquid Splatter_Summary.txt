@@ -1,0 +1,45 @@
+TITLE: Liquid Splatter
+OVERVIEW: This lesson demonstrates two ways to create a liquid-splatter texture: painting the final values one by one for precise control, or using layer effects such as Inner Glow for a quicker treatment. It emphasizes rounded resting-liquid edges, variety, droplets, thickness changes, and preparing the texture to dissolve in-engine. It is aimed at artists learning reusable liquid textures for flipbooks and effects.
+KEY TOPICS:
+- Decal-like splatter
+- Directional liquid impact
+- Value-by-value painting
+- Inner Glow
+- Multiply for edge darkening
+- Droplets
+- Shape variety
+- Dissipation preparation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 512 x 512 texture
+- Basic 5 Size brush
+- E for eraser
+- X for color swap
+- Ctrl+T for transform
+- Layer Style > Inner Glow
+- Multiply blend mode
+- Precise Inner Glow technique
+- Source: Edge
+- Filter > Adjust > Threshold
+- Flipbook/value sequencing
+STEP-BY-STEP TAKEAWAYS:
+1. Decide whether the splatter is a resting decal-like shape or a directional impact and begin with a few broad circular/organic masses.
+2. Carve away irregular shapes with the eraser, rounding edges because resting liquid tends to form softer edges than rigid geometric shapes.
+3. Vary the size and thickness of the arms, remove overly repeated hook shapes, and scatter small droplets especially around terminating glob points while keeping some random placements elsewhere.
+4. Apply an Inner Glow set to Multiply with an edge source when testing a quick value treatment; adjust it to create darker edges without destroying the lighter internal regions.
+5. Compare the quick layer-effect method with painting each value stage manually; the instructor reports better control from the value-by-value approach.
+6. Prepare the final texture for engine dissolution, retaining large readable areas and smaller lighter pieces that can disappear at different times.
+KEY MOMENTS:
+- [00:00:05] Liquid splatter is introduced and two construction methods are announced.
+- [00:01:01] The working texture is reduced to 512 x 512.
+- [00:01:31] The first broad splatter masses are painted.
+- [00:04:18] Hard edges are rounded to better match resting liquid behavior.
+- [00:05:58] Variety of glob length and thickness is emphasized.
+- [00:07:46] The first splatter pass is declared ready for further treatment.
+- [00:07:59] Layer Style > Inner Glow is tested with Multiply and Edge settings.
+- [00:31:46] The two approaches are compared, with value-by-value painting preferred for control.
+ASSIGNMENTS / TIPS:
+- Start simple and add complexity later.
+- Avoid repeating identical hooks, glob lengths, and droplets.
+- Use droplets at glob endpoints as a starting placement idea, but scatter others randomly.
+- Preserve larger and smaller value regions when the texture will dissolve.
+- The quick Inner Glow approach is useful, but painting values manually gives finer control in the demonstrated lesson.
