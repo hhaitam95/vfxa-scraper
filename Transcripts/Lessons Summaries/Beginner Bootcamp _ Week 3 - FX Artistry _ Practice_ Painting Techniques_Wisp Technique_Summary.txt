@@ -1,0 +1,45 @@
+TITLE: Wisp Technique
+OVERVIEW: This lesson paints a wispy purple energy material containing a brighter pink core. It uses a grayscale-to-color workflow, Multiply and Gradient Map concepts, a controlled palette, masks, cavities, linear-dodge glow, and selective softness to create an ethereal translucent effect. It is intended for artists learning to translate layered lighting logic into a stylized hand-painted FX material.
+KEY TOPICS:
+- Purple wisp material
+- Grayscale-to-color workflow
+- Multiply
+- Gradient Map
+- Translucent luminance
+- Cavities and exposed inner material
+- Glow and additive accents
+- Layer masks
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Default round and softer brushes
+- Multiply blend mode
+- Gradient Map
+- Layer Mask > Hide Selection
+- Lasso tool
+- Alt to subtract from a lasso selection
+- Shift to add to a lasso selection
+- Wacom touch strip for brush size
+- Linear Dodge/Add
+- Soft eraser
+STEP-BY-STEP TAKEAWAYS:
+1. Start from the round form and decide the broad purple shell and pink energetic center.
+2. Use Multiply when darkening the base and optionally use a Gradient Map to map grayscale values into dark purple and blue/purple light ranges.
+3. Build a small palette of dark purples, brighter blue/purple, energetic pink, and white rather than repeatedly sampling random colors.
+4. Paint the main dark material, then carve cavities into it using selections and layer masks so the underlying luminous material can be exposed non-destructively.
+5. Add texture and notches to the cavity edges to keep the form from reading as a plain sphere and to suggest a material being eaten away/opened.
+6. Paint the inner pink/luminous layer and use Linear Dodge/Add for the brightest regions, with a soft eraser for cleanup.
+7. Keep the brighter foreground treatment more intense than background versions and avoid overdoing the glow.
+KEY MOMENTS:
+- [00:00:44] The purple wisp material and bright pink core are introduced.
+- [00:01:56] Multiply and Gradient Map are explained as color/value tools.
+- [00:04:43] Gradient Map is used to map dark and light values into purple/blue colors.
+- [00:07:59] A controlled purple palette is created for the hand-painted pass.
+- [00:14:23] Interior cavitation shapes are introduced.
+- [00:15:32] Layer Mask is used to reveal the underlying material non-destructively.
+- [00:18:00] The Wacom touch strip is shown as a brush-size shortcut and convenience workflow.
+- [00:24:43] The bright inner material is finished with Linear Dodge and soft glow treatment.
+ASSIGNMENTS / TIPS:
+- Grayscale-first painting is presented as a valid workflow, not a shortcut to avoid.
+- Keep a deliberate palette nearby when working normally.
+- Prefer masks when you may need to preserve the original painted material.
+- Use glow selectively so the form keeps readable dark/light structure.
+- Use soft brushes and erasers for glow regions; sharper brushes are better for explicit shape detail.
