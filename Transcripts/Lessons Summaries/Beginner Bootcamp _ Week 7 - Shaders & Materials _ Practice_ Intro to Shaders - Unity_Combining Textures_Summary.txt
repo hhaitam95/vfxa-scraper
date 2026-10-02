@@ -1,0 +1,36 @@
+TITLE: Combining Textures
+OVERVIEW: This lesson shows how multiple textures can be combined to create richer shapes, motion, and smoke-like results. It explains Lerp's interpolation value, input ordering, and simple time-driven combinations. It is intended for beginners learning how separate texture signals can be layered into one shader result.
+KEY TOPICS:
+- Texture blending
+- Lerp
+- Input order
+- Multiply
+- Time-driven combinations
+- Hard and soft texture combinations
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Lerp
+- Multiply
+- Add
+- Texture Sample
+- Time
+- Scalar parameters
+STEP-BY-STEP TAKEAWAYS:
+1. Start with two grayscale textures and decide whether they should accumulate, mask each other, or transition between each other.
+2. Use Lerp and understand that the T input biases the output toward one texture or the other.
+3. Check the order of A and B because swapping inputs changes the result.
+4. Multiply textures when the overlapping values should modulate each other rather than simply switch.
+5. Add Time-driven movement when the combined textures should animate.
+6. Inspect the combined pattern and adjust the source textures or blend weights until the result reads as one effect.
+KEY MOMENTS:
+- [00:00:05] Combining textures is introduced.
+- [00:00:55] Hard and soft shapes are discussed as useful combinations.
+- [00:02:30] Lerp is explained.
+- [00:03:06] The T input is shown biasing between textures.
+- [00:03:53] Input order is identified as important.
+- [00:05:07] Multiplication is used to reduce or modulate one texture.
+- [00:06:14] Time is introduced for animated combination.
+- [00:07:04] A smoky result is demonstrated.
+ASSIGNMENTS / TIPS:
+- Check A/B order whenever a Lerp result looks reversed.
+- Combine simple textures before adding more nodes.
+- Use moving sources only when the motion improves the effect rather than adding noise.
