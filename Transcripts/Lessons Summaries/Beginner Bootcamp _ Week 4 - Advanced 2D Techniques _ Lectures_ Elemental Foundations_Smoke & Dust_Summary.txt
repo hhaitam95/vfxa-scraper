@@ -1,0 +1,39 @@
+TITLE: Smoke & Dust
+OVERVIEW: This lesson builds smoke from the simplest wisp form and gradually adds mass, interior lines, dissipation, overlap, and more complex layered structures. The instructor emphasizes using guides so the main arcs stay consistent while the smoke expands outward and then breaks apart. It is aimed at beginners learning smoke motion and design without losing control of scale or continuity.
+KEY TOPICS:
+- Wisp smoke
+- Wave principle
+- Mass and volume
+- Arc guides
+- Interior lines
+- Dissipation
+- Negative-space breakup
+- Overlap and layering
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Motion/arc guides
+- Onion Skin
+- Negative-space carving
+- Interior line work
+- Overlapping shapes
+- Guide-based frame planning
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a simple wisp based on the wave principle and learn its side-to-side/upward motion before adding mass.
+2. Add volume to the wisp and use a guide for each major arc so the apexes travel consistently between frames.
+3. Let smoke expand outward generally, changing direction only when a force such as wind acts on it.
+4. Add interior lines when useful for texture, fill/shadow separation, or additional complexity.
+5. Choose a dissipation point and pinch the main shapes out, first with a simple tail and later with detached pieces and multiple negative-space pockets.
+6. Add overlapping smoke layers and preserve size/scale while tracking the larger shapes.
+KEY MOMENTS:
+- [00:00:05] Smoke is introduced and the simplest wisp form is chosen as the starting point.
+- [00:00:26] The wave principle is described as the foundation of wisp smoke.
+- [00:02:07] A guide is recommended to prevent the apexes from bouncing between frames.
+- [00:02:50] Arc travel is introduced as an alternative to a straight guide.
+- [00:04:45] Interior lines are added as a higher-complexity option.
+- [00:05:35] Dissipation is introduced, first as a tail and then as detached pieces.
+- [00:06:28] Additional negative-space pockets are used to complicate the dissipation.
+- [00:07:04] Overlapping shapes are introduced as another layer of complexity.
+ASSIGNMENTS / TIPS:
+- Use guides heavily when learning smoke; they reduce unwanted movement errors.
+- Keep the smoke's expansion outward unless a force explains a reversal.
+- Do not add texture so early that it destroys control of scale or makes the animation impractical.
+- Start with wisp smoke, then progressively add mass, interior detail, and complex dissipation.
