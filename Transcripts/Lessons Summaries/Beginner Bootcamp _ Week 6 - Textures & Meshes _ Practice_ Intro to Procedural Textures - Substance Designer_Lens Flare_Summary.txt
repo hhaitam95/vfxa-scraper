@@ -1,0 +1,54 @@
+TITLE: Lens Flare
+OVERVIEW: This lesson creates a procedural lens-flare texture from a central star, radial lines, and concentric rings. It builds on earlier Substance Designer graphs by reusing an existing gradient, exposing controls, converting patterns between Cartesian and polar forms, and adding selective blur and curvature-based detail. It is intended for artists learning how procedural graphs can assemble a common VFX texture from reusable operations.
+KEY TOPICS:
+- Lens-flare construction
+- Reusing previous graphs
+- Star and central glow
+- Radial line generation
+- Shape Mapper
+- Cartesian-to-Polar conversion
+- Ring generation
+- Non-uniform blur
+- Normal and Curvature Smooth detail
+- Procedural parameter exposure
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Starburst
+- Non-Uniform Rotation
+- Blend > Screen
+- Levels
+- Anisotropic Noise
+- Extend Shape
+- Shape Mapper
+- Cartesian to Polar
+- Blend > Multiply / Screen / Overlay
+- Non-Uniform Blur Grayscale
+- Linear Gradient
+- Curve
+- Normal
+- Curvature Smooth
+- Soft Light
+- Output
+STEP-BY-STEP TAKEAWAYS:
+1. Analyze the reference and break the lens flare into a central star, radial lines, and rings.
+2. Create a star shape, expose branch/rotation controls, and blend it with a reused gradient from the previous graph using Screen and Levels.
+3. Generate directional lines with Anisotropic Noise, extend the texture into a gradient, then use Shape Mapper to arrange the lines around the center.
+4. Use Cartesian to Polar where useful for converting a linear pattern into a radial one, then combine and blur the center so it does not become overly detailed.
+5. Build rings from a Linear Gradient remapped with a Curve, map the result around a cycle with Shape Mapper, and break the rings with the radial line texture.
+6. Multiply the rings by a center/border gradient to control intensity, then combine them with the main texture and expose the ring opacity.
+7. For an optional refinement pass, create a mask, use Slow Blur to sharpen the important shape, convert the texture to a Normal, derive Curvature Smooth, and blend the resulting high-frequency detail with Soft Light.
+8. Export the texture and demonstrate it as an initial lens-flare emitter and a secondary variation in the engine.
+KEY MOMENTS:
+- [00:00:05] The lens flare is introduced as a quick camera/light accent for VFX.
+- [00:02:11] The central star shape and its exposed branch/rotation controls are created.
+- [00:03:39] The previously created gradient graph is reused inside the new graph.
+- [00:05:55] Anisotropic Noise and Extend Shape begin the radial-line construction.
+- [00:08:42] Cartesian to Polar is explained as a common shader/procedural operation.
+- [00:11:08] Ring construction begins with a Linear Gradient and Curve.
+- [00:14:19] The basic lens-flare texture is complete before optional sharpening/detail.
+- [00:16:58] The refined texture is exported and demonstrated in the engine.
+ASSIGNMENTS / TIPS:
+- Analyze the desired visual structure before opening the graph.
+- Reuse previous graphs when they already contain a useful exposed function.
+- Expose the controls that are likely to change during iteration.
+- The optional normal/curvature refinement is not required for the basic lens flare.
+- Keep center intensity controlled so the texture remains readable rather than becoming a noisy white mass.
