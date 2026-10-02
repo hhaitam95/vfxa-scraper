@@ -1,0 +1,45 @@
+TITLE: Photoshop for VFX Artists - 3: Adjustments
+OVERVIEW: This lesson covers advanced layer components that are useful for finishing hand-painted VFX, including layer styles, adjustment layers, masks, smart objects, blend modes, and gradient maps. It shows how to recolor and add glow while preserving control over individual layers or groups. It is intended for artists who need non-destructive color and finishing tools without turning every effect into a generic post-process look.
+KEY TOPICS:
+- Blend modes
+- Layer styles
+- Inner and Outer Glow
+- Adjustment layers
+- Hue/Saturation
+- Masks
+- Gradient Overlay
+- Gradient Map
+- Smart Objects
+- Non-destructive editing
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Double-click layer/effects area for Layer Style
+- Stroke, Inner Glow, Outer Glow
+- Hue/Saturation adjustment layer
+- Alt-linking an adjustment layer to a target layer
+- Layer masks
+- Ctrl-I to invert a mask
+- Gradient Overlay using Color blend mode
+- Gradient Map
+- Merge selected layers when effects prevent a simple merge
+STEP-BY-STEP TAKEAWAYS:
+1. Open Layer Style on a suitable FX layer and experiment with stroke, inner glow, and outer glow while understanding that each effect can have its own blend mode.
+2. Add a Hue/Saturation adjustment layer and link it to a specific target layer when only that layer should change.
+3. Use the adjustment-layer mask to control where the adjustment applies; paint into the mask and blur it when a softer region is required.
+4. Use Gradient Overlay with Color blending when you want to shift hue while preserving the underlying value structure.
+5. Add a Gradient Map and remap dark-to-light values into chosen colors, then link it to the specific layer(s) that should receive the recoloring.
+6. Prefer deliberate layer-by-layer adjustment when the effect needs fidelity and artistic control instead of a single blanket post-process.
+KEY MOMENTS:
+- [00:00:22] Layer styles, adjustment layers, and smart objects are introduced as advanced layer components.
+- [00:08:46] Normal and additive blending are compared using an orange glow analogy.
+- [00:10:56] Layer styles are opened and Stroke, Inner Glow, and Outer Glow are examined.
+- [00:16:20] Adjustment layers are introduced.
+- [00:17:28] Alt-linking a Hue/Saturation adjustment to a specific layer is demonstrated.
+- [00:19:54] Adjustment-layer masks are exposed, inverted, painted, and blurred.
+- [00:22:18] Gradient Overlay with Color blending is demonstrated.
+- [00:23:30] Gradient Map is used for quick recoloring, followed by a warning against indiscriminate blanket adjustments.
+ASSIGNMENTS / TIPS:
+- Keep adjustment effects controlled and targeted rather than applying everything globally.
+- Be careful when flattening/merging layers because blend modes and layer-style interactions can change.
+- Use masks when an adjustment should affect only part of a layer.
+- Use Gradient Map for rapid recoloring, but use layer-specific adjustments when fidelity matters.
+- The instructor explicitly favors hand-painted glow/color variation when a game-engine or blanket post-process cannot reproduce the desired look.
