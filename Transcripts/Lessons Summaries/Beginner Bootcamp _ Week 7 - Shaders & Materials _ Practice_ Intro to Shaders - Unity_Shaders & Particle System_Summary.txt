@@ -1,0 +1,39 @@
+TITLE: Shaders & Particle System
+OVERVIEW: This lesson connects Unity Shader Graph data to the particle system so particle properties can drive material behavior. It demonstrates particle color, texture choice, particle position, and speed-related data as inputs that can affect shader output. It is intended for artists learning how the particle system and material can share data to create more responsive VFX.
+KEY TOPICS:
+- Particle-to-shader data flow
+- Vertex Color/particle color
+- Particle position
+- Particle speed
+- Texture blending
+- Color variation
+- Particle-driven material behavior
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Vertex Color
+- Particle Color
+- Particle Position
+- Particle speed data
+- Texture Sample
+- Color
+- Split
+- Multiply/Lerp-style combinations
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a particle system using a material that exposes the needed shader inputs.
+2. Feed particle color into the graph so each particle can carry color data into the shader.
+3. Sample and combine textures, then use particle color or other particle data to modulate them.
+4. Use particle position as another available data source when material behavior should depend on where a particle is located.
+5. Expose speed-related data when colors, intensity, or other outputs should respond to particle movement.
+6. Test the shader with different particle-system settings to understand which behavior comes from the material and which comes from the particle system.
+KEY MOMENTS:
+- [00:00:05] Shader/particle connection is introduced.
+- [00:02:03] Vertex color is described as reusable data rather than only visible color.
+- [00:05:10] A color input is added.
+- [00:06:35] A second texture is selected.
+- [00:08:35] RGBA color input structure is demonstrated.
+- [00:10:26] Position data is introduced.
+- [00:12:15] The particle system's placement responsibility is explained.
+- [00:18:32] Particle speed is shown as a driver for another material change.
+ASSIGNMENTS / TIPS:
+- Treat particle attributes as data sources for shaders.
+- Decide whether a behavior belongs in the particle system or the material before duplicating logic.
+- Test the complete particle effect rather than debugging the shader alone.
