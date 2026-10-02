@@ -1,0 +1,36 @@
+TITLE: Sketch - Thinking in 3D
+OVERVIEW: This lesson applies 3D-drawing principles to a set of smoke puffs traveling across a plane. The instructor varies size with depth, overlaps shapes to establish front and back, changes detail density with distance, and uses thickness and motion lines to make the forms feel volumetric. It is aimed at practicing depth cues directly inside stylized FX sketches.
+KEY TOPICS:
+- Depth and scale
+- Overlap
+- Volume and thickness
+- Perspective detail reduction
+- Organic shape variation
+- Motion/action lines
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Perspective oval/plane guide
+- Size changes with distance
+- Overlap planning
+- Interior contour details
+- Thicker sides and thinner middles to suggest form
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the perspective plane and overall path for the smoke puffs.
+2. Block the largest puffs first and reduce their scale as they move farther from the viewer.
+3. Decide which puffs overlap in front and which sit behind, then define the final silhouettes.
+4. Add interior bumps and contour information, using fewer details on distant shapes.
+5. Add circular/windy action lines and thickness variation to make the smoke feel like it occupies space.
+6. Break up repeated forms when they look too similar so the composition stays varied.
+KEY MOMENTS:
+- [00:00:05] Smoke puffs are chosen as the 3D-thinking exercise.
+- [00:00:33] Shape values and the overall form are established.
+- [00:01:08] Farther puffs are made smaller.
+- [00:01:57] Front/back overlap is planned.
+- [00:04:10] Repetitive shapes are changed to add variety.
+- [00:07:04] Distant forms receive fewer details.
+- [00:07:53] Circular action lines are added to suggest air movement.
+- [00:10:16] The exercise is summarized through perspective, thickness, overlap, and internal detail.
+ASSIGNMENTS / TIPS:
+- Use scale and overlap together rather than relying on either one alone for depth.
+- Reduce detail as forms move farther away.
+- Avoid repeating identical silhouettes.
+- Add internal lines that follow the form rather than arbitrary decoration.
