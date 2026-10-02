@@ -1,0 +1,31 @@
+TITLE: Unreal Scene Setup
+OVERVIEW: This lesson prepares a simple real-time scene for comparing and breaking down VFX examples in a consistent environment. It establishes the camera, lighting/exposure, ground/context, and basic scene organization needed for practical effect evaluation. It is intended for students who need a repeatable test scene before building elemental studies.
+KEY TOPICS:
+- Scene setup
+- Camera
+- Lighting
+- Exposure
+- Ground plane
+- VFX test context
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Camera controls
+- Basic light setup
+- Ground plane
+- Exposure controls
+- Niagara/VFX placement
+STEP-BY-STEP TAKEAWAYS:
+1. Create or open the test scene and establish a clear camera view.
+2. Add simple lighting and exposure so translucent/emissive effects can be judged consistently.
+3. Add a ground/context surface that lets the effect show scale and interaction.
+4. Organize the scene so imported VFX can be placed at a known location.
+5. Use the same scene for repeated breakdowns so the effect is evaluated under consistent conditions.
+KEY MOMENTS:
+- [00:00:00] The test-scene purpose is introduced.
+- [00:05:00] Camera placement is established.
+- [00:10:00] Lighting and exposure are adjusted.
+- [00:15:00] The ground/context is prepared.
+- [00:20:00] The VFX placement workflow is reviewed.
+ASSIGNMENTS / TIPS:
+- Keep test-scene lighting consistent.
+- Judge effects in context.
+- Reuse the same setup when comparing multiple studies.
