@@ -1,0 +1,45 @@
+TITLE: Tiling Noise
+OVERVIEW: This lesson demonstrates how to paint a seamless tiling noise texture in Krita using wraparound mode. It emphasizes variation, line-weight changes, cleanup, and checking both the tiled result and the standalone texture so the pattern does not reveal obvious repetition. It is intended for artists who need reusable noise for fire, magic, water caustics, and other effects.
+KEY TOPICS:
+- Seamless/tileable textures
+- Wraparound mode
+- Small/medium/large variation
+- Line-weight variation
+- Texture cleanup
+- Standalone versus tiled review
+- Shimmering and caustic patterns
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 512 x 512 texture
+- Shift+W for Wraparound Mode
+- Mouse wheel to zoom out
+- Lasso/freehand selection
+- Ctrl+T for Transform
+- B for Brush
+- X to swap black/white
+- Gaussian Blur
+- Airbrush
+- Cotton Swab brush
+- Grid and visual center checking
+STEP-BY-STEP TAKEAWAYS:
+1. Create a square texture and make an initial loose scribbly pattern.
+2. Enable Wraparound Mode with Shift+W so the texture edges meet continuously while you paint.
+3. Add varied shapes and connections rather than repeating a single motif, checking how the pattern looks across the repeated tiling.
+4. Adjust line width and remove or transform individual shapes so there is a big/medium/small hierarchy instead of several equal shapes.
+5. Use soft brushes or Gaussian Blur selectively for softness, while retaining sharper structural lines for visual interest.
+6. Toggle wraparound off periodically to inspect the actual texture boundaries and confirm that the standalone texture remains useful.
+7. Make a final tiled and non-tiled check, keeping seams hidden and the overall pattern sufficiently varied.
+KEY MOMENTS:
+- [00:00:05] Tileable noise is introduced as a versatile texture for effects such as fire walls, magical shimmer, and caustics.
+- [00:00:44] A 512 x 512 texture is created and wraparound mode is introduced.
+- [00:01:16] Shift+W enables wraparound while the first scribbly shapes are built.
+- [00:02:06] Shape variation is emphasized because repetition becomes less visible when forms differ.
+- [00:05:40] The texture is inspected both in wraparound and standalone modes.
+- [00:10:04] Equal-sized repeated shapes are changed into a more varied progression.
+- [00:10:48] Transform is used to reposition/resize a selected region without breaking the tile.
+- [00:36:55] The completed tiling and standalone texture are reviewed as the lesson closes.
+ASSIGNMENTS / TIPS:
+- Use Wraparound Mode while painting so seams can be checked continuously.
+- Vary shape size, line weight, and motif instead of repeating a single shape.
+- Inspect the texture without wraparound as well as in tiled mode.
+- Experiment freely, but remove details that make the texture too noisy or reduce versatility.
+- Use a simple, varied pattern when the texture needs to work across many effects.
