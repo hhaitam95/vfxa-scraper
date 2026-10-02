@@ -1,0 +1,45 @@
+TITLE: Splash
+OVERVIEW: This lesson builds a procedural liquid-splash texture and explains two broad approaches for real-time liquid: animating separate flipbook frames or using overlapping layers with a threshold-style shader. The demonstrated graph creates the main splash shape, adds irregularity, derives edge/inside values, and prepares a grayscale texture for a shader that controls opacity and motion. It is aimed at artists learning how procedural texture structure can support a reusable liquid effect.
+KEY TOPICS:
+- Real-time liquid techniques
+- Flipbook versus overlapping/threshold approaches
+- Splash shape construction
+- Voronoi noise
+- Directional Warp
+- Bevel and edge-to-center gradients
+- Droplets
+- Grayscale-to-opacity workflow
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Shape nodes
+- Voronoi Noise
+- Blend
+- Levels
+- Directional Warp
+- Bevel with negative distance
+- Distance
+- Random Seed
+- Transform 2D
+- Output
+- Random particle rotation/scale/alpha
+STEP-BY-STEP TAKEAWAYS:
+1. Decide whether the liquid should be built as a flipbook or as overlapping layers; for the latter, make sure later frames remain contained enough within the previous shape for clean transitions.
+2. Create the main circular splash form and introduce irregular breakup with Voronoi-style noise.
+3. Multiply/subtract the noise against the base shape and remap the grayscale with Levels.
+4. Warp the result directionally to break the pattern further while preserving the main splash silhouette.
+5. Use Bevel and related value operations to create information that fades from the outside toward the inside, then build separate droplets near the borders.
+6. Export a grayscale texture and use it in the shader, where grayscale drives opacity; combine this with particle lifetime, random rotation/scale, and alpha curves to animate the result.
+KEY MOMENTS:
+- [00:00:04] Real-time liquid is introduced along with two broad implementation techniques.
+- [00:00:39] Flipbook and overlapping-layer approaches are contrasted.
+- [00:02:03] A gradient between overlapping frames is discussed as a way to smooth transitions.
+- [00:03:27] The circular splash base and procedural noise are created.
+- [00:07:00] Noise is subtracted from the main shape and Levels refine the result.
+- [00:09:07] Bevel is used to create a value falloff from the border toward the interior.
+- [00:10:07] Droplets are introduced as secondary pieces.
+- [00:19:31] The grayscale output is connected to shader opacity and particle curves/randomness.
+ASSIGNMENTS / TIPS:
+- Keep later overlapping layers sufficiently contained within earlier ones.
+- Use the simplest liquid technique that matches the target and avoids unnecessary complexity.
+- Preserve broad readable splash shapes before adding droplets and micro-detail.
+- Treat the grayscale output as data for the shader rather than as a final painted color.
+- Use controlled randomness for particle variation.
