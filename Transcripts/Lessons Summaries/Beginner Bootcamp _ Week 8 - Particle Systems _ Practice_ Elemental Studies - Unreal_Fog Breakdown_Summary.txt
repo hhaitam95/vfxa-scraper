@@ -1,0 +1,33 @@
+TITLE: Fog Breakdown
+OVERVIEW: This lesson rebuilds a fog effect as large soft particles plus smaller drifting breakup in Unreal. It emphasizes opacity and size variation, subtle velocity, and depth-aware integration so the effect feels atmospheric rather than like repeated cards. It is intended for artists practicing soft environmental VFX.
+KEY TOPICS:
+- Fog masses
+- Soft particles
+- Size/opacity variation
+- Drift
+- Depth integration
+- Layered atmospheric VFX
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Niagara sprite particles
+- Color/opacity curves
+- Scale Size
+- Velocity
+- Random rotation
+- Depth Fade/material integration
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the largest fog masses first.
+2. Add smaller particles for breakup and slow drift.
+3. Vary size, opacity, lifetime, and rotation within controlled ranges.
+4. Use depth-aware blending where needed around the ground or geometry.
+5. Review the fog from the actual camera and reduce density when it starts to obscure important content.
+KEY MOMENTS:
+- [00:00:00] Fog reference is introduced.
+- [00:05:00] Large masses are constructed.
+- [00:10:00] Smaller breakup particles are added.
+- [00:15:00] Opacity and size variation are tuned.
+- [00:20:00] Depth/environment integration is checked.
+- [00:25:00] The full fog effect is reviewed.
+ASSIGNMENTS / TIPS:
+- Avoid identical particles.
+- Keep atmospheric effects readable.
+- Use depth integration for cleaner intersections.
