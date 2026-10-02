@@ -1,0 +1,34 @@
+TITLE: Stretch & Smear
+OVERVIEW: This lesson introduces stretching and smear frames as ways to bridge extremely fast actions that the eye cannot fully resolve between start and finish. It presents several stylistic approaches, including large smears, ghosting, speedlines, and overshoot, while emphasizing that the exact look depends on the intended style. It is aimed at artists who want another tool for enhancing high-speed animation.
+KEY TOPICS:
+- Stretch frames
+- Smear frames
+- Ghosting
+- Speedlines
+- Overshoot
+- Anticipation combined with smears
+- Style-driven design
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Frame-by-frame smear design
+- Dry-brush look as a historical smear technique
+- Ghosting/tracer shapes
+- Speedlines to imply volume
+- Overshoot and correction
+STEP-BY-STEP TAKEAWAYS:
+1. Identify an action that is fast enough that the eye may miss the transition.
+2. Decide which smear language fits the style: enlarged single drawing, skewed/elongated form, ghosted remnants, or speedlines.
+3. Place the smear between the start and end poses, using anticipation when appropriate.
+4. Preserve some visual language from the preceding form so the smear connects the motion rather than becoming an unrelated drawing.
+5. Resolve the smear into the final pose, optionally using an overshoot before settling.
+KEY MOMENTS:
+- [00:00:20] Smears are introduced as a solution for very fast actions that are hard for the eye to read.
+- [00:01:39] The historical dry-brush technique is described.
+- [00:03:37] The first smear examples are analyzed with spacing between poses.
+- [00:04:41] Ghosting and tracer-like remnants are introduced as another smear style.
+- [00:05:01] Speedlines are discussed as a way to imply volume.
+- [00:06:10] A smear without anticipation is shown, followed by an overshoot.
+- [00:07:22] The instructor recommends treating smears as an additional tool when the speed of the action justifies them.
+ASSIGNMENTS / TIPS:
+- Try several smear styles rather than assuming there is one correct construction.
+- Let the art direction or style guide the final look of the smear.
+- Use smears where they clarify fast motion; do not add them without a reason.
