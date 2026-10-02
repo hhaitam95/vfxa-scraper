@@ -1,0 +1,37 @@
+TITLE: Multiply & Scaling
+OVERVIEW: This lesson completes the basic UV operations by explaining multiplication for scaling textures and the offset needed to scale around the center instead of the corner. It also shows why addition and multiplication do not commute and how subtracting and adding 0.5 recenters normalized UVs. It is intended for beginners building a mental model for texture transforms in Unreal.
+KEY TOPICS:
+- UV scaling
+- Multiply
+- Centered scaling
+- UV offsets
+- Operation order
+- Normalized 0–1 coordinates
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Texture Coordinate
+- Multiply
+- Add
+- Subtract
+- Constant 0.5
+- Material parameter
+- Normalized 0–1 UV range
+STEP-BY-STEP TAKEAWAYS:
+1. Treat UV coordinates as normalized values from 0 to 1.
+2. Multiply the UVs by a value below 1 to zoom out/reduce coverage or above 1 to repeat/zoom in the texture.
+3. When scaling should happen around the center, subtract 0.5 before multiplication.
+4. Multiply the centered coordinates, then add 0.5 back to return the coordinates to their original center.
+5. Keep operation order in mind because Add followed by Multiply is not the same as Multiply followed by Add.
+6. Combine scaling with panning and other UV operations to create more complex texture motion.
+KEY MOMENTS:
+- [00:00:05] UV scaling is introduced as the final basic UV topic.
+- [00:00:35] UV coordinates are described as values from 0 to 1.
+- [00:01:12] Multiplying UVs below 1 changes the texture scale.
+- [00:02:27] Multiplying by 2 demonstrates the opposite scaling behavior.
+- [00:03:39] Addition and multiplication order are shown to produce different results.
+- [00:04:16] Subtracting 0.5 is introduced for centering.
+- [00:05:29] Adding 0.5 back completes the centered-scaling trick.
+- [00:06:08] Centered scaling is connected to combining UV operations for effects.
+ASSIGNMENTS / TIPS:
+- Memorize the center-scaling pattern: subtract 0.5, scale, add 0.5.
+- Test one transformation at a time before combining several.
+- Remember that operation order affects the final UVs.
