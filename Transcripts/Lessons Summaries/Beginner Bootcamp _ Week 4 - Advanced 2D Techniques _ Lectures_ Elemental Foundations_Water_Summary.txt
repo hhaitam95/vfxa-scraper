@@ -1,0 +1,43 @@
+TITLE: Water
+OVERVIEW: This lesson provides a beginner foundation for animating water as a family of related liquid behaviors rather than a single fixed effect. It focuses on simple-to-complex water design, cause and effect, splash and air-pocket behavior, dissipation, refraction, and viscosity. It is aimed at beginners who need a practical framework for approaching splashes, waves, rivers, waterfalls, and other liquid effects.
+KEY TOPICS:
+- Water and liquid design
+- Splash construction
+- Cause and effect
+- Air pockets and secondary jets
+- Wire-mesh/3D visualization
+- Water dissipation
+- Refraction
+- Viscosity
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Simple line-and-fill design
+- Multiple depth/color layers
+- Wire-mesh construction for visualization
+- Onion Skin
+- Negative-space breakup
+- Droplet/bead tracking
+- Real-life water/light reference
+- Timing-based viscosity studies
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a simple two-color water design before adding multiple depth and foam layers.
+2. Identify the energy causing the water to move and build the splash or wave as a response to that force.
+3. Use simple 3D guides or wire-mesh lines when the volume is hard to visualize.
+4. For a falling object splash, show the air pocket created by the object and the secondary jet caused when water rushes back in.
+5. Dissipate airborne sheets by opening negative-space pockets, keeping larger beads tracked frame by frame and allowing tiny pieces to disappear more quickly.
+6. Study refraction visually through real water and light, then use timing to distinguish liquids of different viscosity.
+7. Practice a simple splash first, then try changing the material to thicker liquids and see whether timing alone can communicate the difference.
+KEY MOMENTS:
+- [00:00:05] Water is introduced as a broad family of effects rather than one animation type.
+- [00:01:19] Simple-to-complex design progression is recommended.
+- [00:05:30] Cause-and-effect physics is introduced as the basis for water motion.
+- [00:07:21] The air-pocket/secondary-jet mechanism is explained.
+- [00:08:43] Wire-mesh guides are recommended for visualizing water depth.
+- [00:10:04] Water dissipation is explained through surface tension, negative space, and bead formation.
+- [00:14:26] Refraction and observing water/light are discussed.
+- [00:16:12] Viscosity is introduced as a key timing/design difference among liquids.
+ASSIGNMENTS / TIPS:
+- Start with a simple water splash.
+- Use real-life water reference frequently.
+- Track larger droplets carefully during dissipation; small pieces can disappear sooner.
+- Do not confuse water with the only kind of liquid; use viscosity and timing to study syrup, oil, milk, lava, or other liquids.
+- Keep complexity under control because every additional color/depth layer increases animation workload.
