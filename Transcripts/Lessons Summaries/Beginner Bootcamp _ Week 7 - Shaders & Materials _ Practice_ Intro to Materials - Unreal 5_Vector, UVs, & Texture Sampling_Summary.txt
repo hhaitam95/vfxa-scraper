@@ -1,0 +1,35 @@
+TITLE: Vector, UVs, & Texture Sampling
+OVERVIEW: This lesson introduces vectors and UV coordinates as the basic data used to place and sample textures in an Unreal material. It explains U and V as two-dimensional coordinates, shows how vectors package multiple ordered values, and demonstrates that UV data can itself be visualized as color. It is intended for beginners building the mathematical foundation needed for shader work.
+KEY TOPICS:
+- Vectors
+- Vector components
+- UV coordinates
+- Texture sampling
+- UV-to-color visualization
+- Texture Coordinate node
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Texture Coordinate
+- Vector2/Vector values
+- Red/U and Green/V channels
+- Texture Sample
+- Emissive output
+- Component visualization
+STEP-BY-STEP TAKEAWAYS:
+1. Treat UVs as two values, U and V, that map positions across a texture from one edge to another.
+2. Understand vectors as ordered collections of values and identify individual components such as the first and second entries.
+3. Visualize UV coordinates by connecting them to a color/emissive output so their values become visible.
+4. Sample a texture by supplying the UV coordinates to the Texture Sample node.
+5. Separate the U and V channels when you need to manipulate one direction independently.
+KEY MOMENTS:
+- [00:00:05] UVs are introduced as the subject.
+- [00:00:39] U and V are defined as the two coordinate values.
+- [00:01:18] Vectors are explained as ordered collections of values.
+- [00:03:06] Texture Coordinates are connected to the material for continuous UV visualization.
+- [00:03:49] Specific U/V values are related to color components.
+- [00:04:59] The color relationship is confirmed by removing the color treatment.
+- [00:05:36] The U component is isolated.
+- [00:06:04] UV output is demonstrated directly on a quad.
+ASSIGNMENTS / TIPS:
+- Visualize UV data when debugging instead of guessing what the coordinates contain.
+- Remember that UVs are two-dimensional; separate U and V when building directional operations.
+- Learn vectors through the small number of components used in the course before worrying about more complex vector math.
