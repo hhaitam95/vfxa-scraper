@@ -1,0 +1,41 @@
+TITLE: Vertex Offset
+OVERVIEW: This lesson demonstrates how a shader can change a mesh's geometry by adding an offset to the vertex position. It uses position, normals, a time-driven sine wave, and a mesh's local axes to build subtle deformation while stressing that sufficient mesh resolution is necessary. It is intended for beginners learning how vertex deformation can create VFX motion directly on geometry.
+KEY TOPICS:
+- World Position Offset
+- Vertex displacement
+- Surface normals
+- Position data
+- Sine-wave deformation
+- Mesh resolution
+- Local axes
+- Subtle deformation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- World Position Offset
+- Position/World Position
+- Normal Vector
+- Multiply
+- Sine
+- Time
+- Curve
+- Mesh resolution/density
+STEP-BY-STEP TAKEAWAYS:
+1. Start with the material's world-position-offset input and understand that it expects a vector displacement in world space.
+2. Use the mesh position or normal as the basis for the displacement rather than sending a scalar alone.
+3. Multiply the normal by a scalar amount to push vertices outward along their surface direction.
+4. Add a time-driven sine value or another curve to make the displacement animate.
+5. Keep the displacement subtle and ensure the mesh has enough vertices to deform smoothly.
+6. Test the technique on different axes and meshes, then connect other data such as UVs or vectors when more controlled deformation is needed.
+KEY MOMENTS:
+- [00:00:05] Vertex displacement is introduced as a new category of shader effects.
+- [00:01:25] The instructor revisits the concept after earlier basic material work.
+- [00:02:53] World Position Offset and world-space input requirements are explained.
+- [00:04:20] A vector multiplied by a scalar is used to scale displacement.
+- [00:05:38] A curve is introduced to control the deformation over time.
+- [00:07:10] The sphere's X axis and circular direction are discussed.
+- [00:09:52] Mesh resolution is identified as a requirement for useful deformation.
+- [00:11:03] Subtle displacement is recommended for the demonstrated effect.
+ASSIGNMENTS / TIPS:
+- Use enough mesh resolution; low-density geometry cannot deform into smooth shapes.
+- Keep vertex displacement subtle unless the effect specifically calls for strong deformation.
+- Build the vector direction first, then choose a scalar amount to control magnitude.
+- Test the effect on more than one mesh so you learn which parts are geometry-dependent.
