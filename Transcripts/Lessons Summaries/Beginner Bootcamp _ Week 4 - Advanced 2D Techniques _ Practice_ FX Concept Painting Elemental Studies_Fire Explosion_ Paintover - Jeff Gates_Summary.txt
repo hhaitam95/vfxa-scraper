@@ -1,0 +1,44 @@
+TITLE: Fire Explosion - Paintover: Jeff Gates
+OVERVIEW: This lesson is a paintover critique of a student's fire-explosion concept. It demonstrates how to simplify brushwork, strengthen the mushroom-cloud mass, improve layer organization, concentrate value contrast, and use shape direction to describe heat and motion. It is intended for students learning how professional feedback translates into concrete painting changes.
+KEY TOPICS:
+- Brush economy
+- Shape interlocking
+- Layer organization
+- Value hierarchy
+- Mushroom-cloud motion
+- Contrast
+- Soft versus hard brushwork
+- Reference use
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Medium-hard and soft brushes
+- Eraser for controlling falloff
+- Pen-pressure opacity
+- Layer naming
+- Threshold adjustment layer
+- Overlay darkening
+- Glow overlay
+- Selective use of Smudge
+STEP-BY-STEP TAKEAWAYS:
+1. Inspect the student's existing elements and identify whether brush strokes are economical and purposeful.
+2. Redefine the mushroom-cloud mass so interlocking shapes support one parent form instead of competing as unrelated pieces.
+3. Keep fiery and touch-up layers separated according to the layer's intended function.
+4. Build softer brush strokes with controlled falloff and use the eraser to refine the edge rather than stacking many conflicting strokes.
+5. Establish a clear value hierarchy with the explosion's energetic core as the strongest focal point.
+6. Push tertiary reds farther back, use contrast against dark areas, and orient lines/shapes around the cloud's upward heat movement.
+7. Use real explosion reference and other artists' work to improve the structure, then iterate rather than treating the first painting as final.
+KEY MOMENTS:
+- [00:01:13] Brush economy is introduced as a way to make highlights clearer.
+- [00:02:21] The mushroom cloud is redefined as one parent object with supporting interlocking forms.
+- [00:04:03] Layer conventions are reviewed and inconsistent touch-ups are identified.
+- [00:05:12] Soft brush falloff and pen pressure are used to improve strokes.
+- [00:08:04] Orange and red highlights are organized into clearer layers.
+- [00:11:08] The hottest part of the explosion is identified as the highest-value area.
+- [00:13:12] Directional shapes are used to imply the upward movement of hot vapor.
+- [00:17:35] Excessive reliance on Smudge is discouraged because it can destroy shape clarity and introduce artifacts.
+ASSIGNMENTS / TIPS:
+- Aim for one deliberate stroke instead of many overlapping strokes when possible.
+- Use the eraser and selections to shape brushwork.
+- Keep layers organized if they are separated for later editing.
+- Use threshold/value checks to inspect focus without relying on color alone.
+- Reference real gasoline explosions and strong explosion art for shape and motion study.
+- Do not be discouraged by long iterations; the lesson explicitly treats iteration and revision as normal.
