@@ -1,0 +1,43 @@
+TITLE: Creating a Full Shader
+OVERVIEW: This lesson combines the earlier Unity shader techniques into a complete fire-style shader. It uses UV panning, distortion, parameters, texture blending, opacity, and color selection, then exposes controls so the same shader can create variations. It is intended as the practical capstone of the introductory Unity shader section.
+KEY TOPICS:
+- Complete shader construction
+- UV panning
+- Distortion
+- Texture combination
+- Opacity
+- Color variation
+- Exposed properties
+- Reusable shader variants
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Texture Coordinates
+- Add
+- Multiply
+- Distortion texture
+- Clamp wrap mode
+- Lerp
+- Time
+- Shader properties
+- Material Inspector controls
+STEP-BY-STEP TAKEAWAYS:
+1. Start with the UV coordinates and build a scrolling texture using an offset-speed property.
+2. Add a distortion texture and multiply its strength before applying it to the UVs.
+3. Set appropriate wrap behavior such as Clamp where the effect should not repeat beyond its intended region.
+4. Blend multiple texture values and use a gradient or Lerp to choose the final color.
+5. Use the grayscale result to control opacity so black and white regions produce the intended transparency.
+6. Expose the important controls and test different values/material instances to create multiple variations from the same shader.
+KEY MOMENTS:
+- [00:00:05] The lesson begins by combining the earlier techniques into a complete shader.
+- [00:02:27] A new UV setup makes the particle texture move.
+- [00:04:36] An Offset Speed property is named for easier control.
+- [00:06:01] A Multiply node is used to control distortion intensity.
+- [00:07:17] Wrap mode is changed to Clamp.
+- [00:09:40] The shader parameters are separated so they can be edited independently.
+- [00:10:53] Black and white texture values are connected to transparency.
+- [00:12:13] Color is applied to selected black/white regions.
+- [00:13:23] External customization is introduced for creating shader variations.
+ASSIGNMENTS / TIPS:
+- Label properties clearly so the shader remains usable later.
+- Expose only meaningful controls.
+- Test the full shader in motion, not just the graph preview.
+- Keep the base shader reusable and make variations through material properties.
