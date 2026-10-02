@@ -1,0 +1,40 @@
+TITLE: The Drawing Tools
+OVERVIEW: This lesson explains the drawing concepts needed to create static FX artwork in Adobe Animate before animating it. It compares vector drawing in Animate with raster drawing in Photoshop or Krita, then demonstrates fills, strokes, selection behavior, object mode, and layer organization. It is aimed at beginners learning Animate's drawing model.
+KEY TOPICS:
+- Vector versus raster graphics
+- Fills and strokes
+- Crisp vector edges and anti-aliasing
+- Paint Fill and Paintbrush
+- Selection and editing of strokes
+- Object Mode and grouping
+- Layers and guide layers
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Keyboard-shortcut cheat sheet
+- Y for the newer Paintbrush tool
+- K for Paint Fill
+- V for Selection tool
+- Ctrl-G to group artwork into an object
+- Double-click to select connected strokes
+- Selection-tool editing of stroke tips and curves
+- Guide layers for non-exporting reference artwork
+STEP-BY-STEP TAKEAWAYS:
+1. Compare vector artwork in Animate with raster artwork in Photoshop to understand their different edge and fill behavior.
+2. Draw with the Paintbrush, close enclosed shapes, and use Paint Fill to create clean vector fills.
+3. Use V and double-click selection to edit or remove connected strokes and adjust stroke endpoints and curves.
+4. Use grouping/object behavior when separate fills should not cut into each other, and organize complex artwork into separate layers.
+5. Use outline and guide layers for reference while building a multi-layer effect for export.
+KEY MOMENTS:
+- [00:00:22] The instructor introduces the shortcut cheat sheet before demonstrating drawing tools.
+- [00:02:20] Vector graphics in Animate are compared directly with raster graphics in Photoshop.
+- [00:05:15] Paint Fill and the newer Paintbrush tool are demonstrated.
+- [00:06:59] Double-click selection of connected strokes is used to edit or remove them.
+- [00:07:21] The importance of closing gaps in enclosed shapes is demonstrated.
+- [00:08:46] Stroke and fill are defined as boundary and interior components.
+- [00:09:07] Object Mode and grouping are demonstrated as ways to keep artwork separate.
+- [00:09:56] Layering is connected to building more complex VFX artwork.
+ASSIGNMENTS / TIPS:
+- Learn the shortcut set early to save time.
+- Close shapes fully before filling.
+- Watch how multiple fills on one layer interact when they are not separate objects.
+- Use guide layers for reference material that should not export.
+- Expect vector and raster tools to behave differently.
