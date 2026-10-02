@@ -1,0 +1,35 @@
+TITLE: Lerp & Color
+OVERVIEW: This lesson explains how Linear Interpolation (Lerp) can blend between colors and how that differs from simply multiplying grayscale by a tint. It also shows how a grayscale texture can select colors from a gradient, and why naive RGB interpolation can pass through duller intermediate colors. It is intended for beginners learning to build controlled color gradients inside Unreal materials.
+KEY TOPICS:
+- Linear Interpolation/Lerp
+- Base tinting
+- Grayscale-to-color
+- Color gradients
+- Hue transitions
+- Powering gradient masks
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Lerp
+- Texture Sample
+- Grayscale value
+- Color A and B
+- Gradient
+- Power
+- Constant values
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a grayscale texture and a color to understand simple multiplicative tinting.
+2. Use a Lerp node to choose between Color A and Color B based on a grayscale value from 0 to 1.
+3. Observe that direct RGB interpolation can travel through desaturated intermediate colors when the endpoint hues are far apart.
+4. Use a designed gradient or gradient texture when the desired path through color space needs more control.
+5. Apply Power to the grayscale selector when the transition needs its midpoint biased toward one color.
+KEY MOMENTS:
+- [00:00:05] Color is introduced into the material workflow.
+- [00:01:15] Multiplying a grayscale texture by a color is shown as base tinting.
+- [00:02:38] The Lerp node is introduced as the stronger method for controlled color mixing.
+- [00:03:31] Gradients are used to create smoother color transitions.
+- [00:04:58] Poor-looking intermediate colors are demonstrated.
+- [00:06:22] The Lerp approach is used to keep values closer to the chosen endpoint colors.
+- [00:07:02] Power is introduced to bias the transition.
+ASSIGNMENTS / TIPS:
+- Use Lerp when you need two controlled colors selected by a grayscale mask.
+- Prefer a designed gradient when a simple linear RGB path produces muddy intermediate hues.
+- Adjust the selector curve rather than changing endpoint colors unnecessarily.
