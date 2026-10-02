@@ -1,0 +1,40 @@
+TITLE: Distortion
+OVERVIEW: This lesson shows how one texture can be used to modify the UV coordinates used to sample another texture, creating a simple distortion effect. It builds the idea from a controlled band and curve into texture-driven and sine-wave distortion, with small strengths used to keep the result manageable. It is intended for beginners learning one of the most useful shader tricks for fluid and magical VFX.
+KEY TOPICS:
+- UV distortion
+- Texture-driven displacement
+- Sine-wave distortion
+- Lifetime-driven intensity
+- Coordinate offsets
+- Small distortion strengths
+- Reusable distortion textures
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Texture Coordinate
+- Texture Sample
+- Add
+- R channel extraction
+- Multiply
+- Curve
+- Sine Wave
+- Panning
+- Distortion strength
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a base texture to display and a second texture or function to provide coordinate offsets.
+2. Extract the needed channel from the distortion source and scale it to a small amount before adding it to the sampled texture coordinates.
+3. Use a curve from one to zero over particle lifetime when the distortion should start strong and settle.
+4. Test different strengths while keeping the offset small enough that the texture remains readable.
+5. Replace the simple test pattern with other textures or a sine wave and experiment with panning the distortion source to create moving fluid-like patterns.
+KEY MOMENTS:
+- [00:00:05] Distortion is introduced as a new foundational shader technique.
+- [00:00:54] Two textures are used: one as the visible image and one as the distortion source.
+- [00:01:59] A texture-coordinate channel is extracted to create the offset.
+- [00:03:04] A 1-to-0 lifetime curve is used to control the effect.
+- [00:04:47] A small distortion strength is chosen for the demonstration.
+- [00:07:03] The instructor explains that many different textures can act as distortion sources.
+- [00:07:54] Sine waves and existing textures are presented as reusable distortion inputs.
+- [00:09:50] Panning the distortion source is shown as an easy way to create more interesting motion.
+ASSIGNMENTS / TIPS:
+- Start with tiny distortion values and increase them gradually.
+- Use a texture source that contains the type of movement you want to introduce.
+- Drive strength with lifetime when the distortion should disappear with the particle.
+- Experiment with panning the distortion texture rather than making the visible texture itself do all the work.
