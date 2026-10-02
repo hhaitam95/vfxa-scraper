@@ -1,0 +1,30 @@
+TITLE: Arcs
+OVERVIEW: This lesson explains why arcs are a fundamental motion pattern in animation and why natural movement rarely travels as a perfectly straight line. It connects arcs to gravity, body mechanics, and two-dimensional motion, then applies the idea to effects such as splashes. It is aimed at artists who need to make motion feel more natural and visually interesting.
+KEY TOPICS:
+- Arcs in two-dimensional motion
+- Gravity and naturalistic motion
+- X/Y movement and combined trajectories
+- Timing and easing along an arc
+- Arcs in splashes and airborne elements
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Timing charts for frame spacing
+- Tracking an object's path through successive positions
+- Using easing to place more frames near the top of an arc
+STEP-BY-STEP TAKEAWAYS:
+1. Identify whether the object is moving in more than one dimension; when x and y movement combine, think in terms of an arc.
+2. Plot the main positions and avoid connecting them with a simple straight line when the action is affected by gravity or changing direction.
+3. Apply easing so the object slows near the top of a gravity-driven arc and accelerates again as it falls.
+4. Track every secondary piece of the effect along its own arc rather than letting it abruptly stop or dissipate.
+5. Follow each arc all the way through its natural motion before ending the effect.
+KEY MOMENTS:
+- [00:00:15] Arcs are introduced as more visually interesting and common than straight-line travel.
+- [00:01:57] The instructor explains that adding x movement to y movement creates an arc over time.
+- [00:03:07] The lesson warns against straight-line movement between positions when the underlying energy suggests an arc.
+- [00:04:42] Gravity is used to explain compressing frames near the top and speeding back up during the fall.
+- [00:05:36] Splash effects are presented as collections of arcs for many small pieces of water.
+- [00:06:23] A common beginner mistake is shown: dissipating a splash by breaking its arc prematurely.
+- [00:07:41] The correct approach is to continue each small arc farther out before allowing it to dissipate.
+ASSIGNMENTS / TIPS:
+- Study real motion and look for arcs rather than defaulting to straight lines.
+- When an effect dissipates, do not let dissipation override the established physical path.
+- Give every airborne fragment enough follow-through to respect its energy.
