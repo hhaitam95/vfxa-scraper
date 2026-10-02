@@ -1,0 +1,35 @@
+TITLE: Small to Big
+OVERVIEW: This lesson teaches how to make shapes appear by growing from a small starting state into their final size while varying how the growth responds to force. Two blobs are animated with different expansion directions and timing so they do not feel identical. It is aimed at artists practicing controlled, readable appearances with simple shapes.
+KEY TOPICS:
+- Small-to-big appearance
+- Directional expansion
+- Force-based asymmetry
+- Timing differences between elements
+- Moving holds
+- Shape variety
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Onion Skin
+- Brush with fixed size/no flow
+- Frame-by-frame redraw
+- Eraser for cleanup
+- Frame extension
+STEP-BY-STEP TAKEAWAYS:
+1. Decide where the force is acting on the shape and choose which side should expand more.
+2. Start with a small blob and expand it toward the final form, decreasing the amount of change as it settles.
+3. Add directional asymmetry so the growth does not happen evenly around the center.
+4. Animate a second shape with different start timing, expansion amount, or force direction.
+5. Use subtle repeated frames as a moving hold instead of stopping abruptly, then review for wobble and clean up as needed.
+KEY MOMENTS:
+- [00:05:57] A second shape is introduced with a different direction of applied force.
+- [00:06:43] Timing becomes an additional variable so the two blobs settle at different moments.
+- [00:08:17] The two-blob recreation starts.
+- [00:08:58] The first blob is animated from small to large.
+- [00:11:45] A moving hold is used while the force gradually settles.
+- [00:12:47] The animation is reviewed frame by frame and wobble is corrected.
+- [00:13:54] The completed first blob is extended through the rest of the timeline.
+- [00:19:07] The finished two-blob animation is reviewed and generalized to other shapes.
+ASSIGNMENTS / TIPS:
+- Vary the side and amount of expansion based on the imagined force.
+- Do not make every object settle on the same frame.
+- Use moving holds for subtle deceleration.
+- Try the same principles with lines, ovals, squares, or triangles.
