@@ -1,0 +1,35 @@
+TITLE: Cylinders in Perspective
+OVERVIEW: This lesson explains how to construct cylinders in one-point, two-point, and three-point perspective. It focuses on establishing the cylinder axis, drawing perpendicular sides, and changing oval shape according to the horizon and viewer relationship. It is intended for artists who need cylindrical forms for perspective studies and VFX construction.
+KEY TOPICS:
+- Cylinder construction
+- One-point perspective
+- Two-point perspective
+- Three-point perspective
+- Cylinder axis and width
+- Oval compression in perspective
+- Near/far size relationships
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Perspective grids and vanishing points
+- Main axis construction
+- Perpendicular construction lines
+- Oval construction
+- Light construction strokes and emphasized visible edges
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the cylinder's main axis and the direction it travels in the perspective grid.
+2. Mark the width with perpendicular or perspective-aligned side lines.
+3. Construct the end ovals, changing how open or squashed they are according to their distance from the horizon/viewer.
+4. Define the portions of each oval and cylinder side that are visible from the chosen camera angle.
+5. Repeat the process along the appropriate vanishing-point directions for two- and three-point perspective.
+KEY MOMENTS:
+- [00:00:05] One-point perspective cylinder construction begins.
+- [00:00:43] The cylinder axis and width are established.
+- [00:01:34] End circles are used for a cylinder facing the camera in one-point perspective.
+- [00:03:18] Oval compression relative to the horizon is demonstrated.
+- [00:06:07] Two-point perspective cylinders are introduced.
+- [00:09:27] A cylinder angled diagonally in two-point perspective is constructed.
+- [00:11:34] Three-point perspective cylinder construction begins.
+- [00:15:14] The instructor highlights the difficult relationship between horizon position, viewer distance, and oval shape.
+ASSIGNMENTS / TIPS:
+- Practice cylinders in each perspective type.
+- Pay particular attention to ovals near the horizon, where they become more squashed.
+- Establish the axis before drawing the cylinder sides.
