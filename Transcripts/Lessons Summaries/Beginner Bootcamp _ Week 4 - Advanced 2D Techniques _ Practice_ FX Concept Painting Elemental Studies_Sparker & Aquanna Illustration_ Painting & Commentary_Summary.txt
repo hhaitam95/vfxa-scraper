@@ -1,0 +1,44 @@
+TITLE: Sparker & Aquanna Illustration - Painting & Commentary
+OVERVIEW: This lesson is a full sped-up walkthrough of a final fire-and-water character illustration, from thumbnails through composition, value, color, and detailed painting. It demonstrates tackling one problem at a time, using references for physical behavior and color, maintaining character focus, and revising or removing elements when they compete with the image. It is intended as a holistic painting-process study rather than a single technique lesson.
+KEY TOPICS:
+- Thumbnail exploration
+- Composition and focal point
+- Flats and shape blocking
+- Value hierarchy
+- Color development
+- Water rendering
+- Fire rendering
+- Reference use
+- Iteration and revision
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Black-and-white thumbnails
+- Photoshop flats/masks
+- Layered value and color passes
+- Reference images in the PSD
+- Soft and hard brushes
+- Layer-separated foreground/background elements
+- Value hierarchy and saturation control
+- Smudging/softening used selectively
+STEP-BY-STEP TAKEAWAYS:
+1. Create several small thumbnails to explore the relationship between the two characters and identify the intended focal point.
+2. Choose the strongest composition, then block flat shapes so later colors can be clipped or painted cleanly.
+3. Work sequentially through sketch, shape design, value, and color rather than solving every dimension at once.
+4. Keep the characters as the main focal point and use background water/fire layers to create depth without stealing attention.
+5. Use physical references for fire, water, lighting, and color; translate observed behavior into the stylized forms rather than copying the reference literally.
+6. Revise aggressively: remove foreground waves or redo seafoam when they compete with the character, and let later passes replace weaker earlier decisions.
+KEY MOMENTS:
+- [00:00:44] The illustration workflow begins with thumbnails exploring different character relationships.
+- [00:02:24] The fourth thumbnail is selected because it gives the intended relationship and focus.
+- [00:03:02] Flat masked shapes are introduced to make later painting faster and cleaner.
+- [00:04:45] Value and saturation are organized so the characters remain the brightest focal areas.
+- [00:06:49] Background waves are blocked as separate shapes to create depth.
+- [00:07:57] Fire rendering begins with extensive real/reference artwork.
+- [00:09:13] References are used to capture color, emotion, and physical feeling rather than exact copies.
+- [00:11:16] A front wave is removed because it competes too much with the character.
+ASSIGNMENTS / TIPS:
+- Explore several thumbnail directions before committing to a major illustration.
+- Keep thumbnails small and do not spend too long perfecting one.
+- Solve composition, shape design, value, and color in stages.
+- Use references constantly for difficult materials such as fire and water.
+- Do not become attached to any individual pass; remove or replace elements when the image benefits.
+- Keep focal characters readable through value, saturation, and surrounding rest space.
