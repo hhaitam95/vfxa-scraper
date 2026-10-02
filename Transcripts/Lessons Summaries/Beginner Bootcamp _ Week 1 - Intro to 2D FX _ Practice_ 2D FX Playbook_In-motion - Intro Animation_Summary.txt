@@ -1,0 +1,40 @@
+TITLE: In-motion
+OVERVIEW: This lesson adds movement to appearance animations and focuses heavily on using guides to plan straight, arced, and perspective motion. The instructor demonstrates first and last frame planning, timing charts, squash and stretch, arc guides, tangents, and perspective construction. It is intended for artists who want a repeatable planning method for more believable 2D FX motion.
+KEY TOPICS:
+- Straight movement
+- Arced movement
+- Perspective movement
+- Motion guides
+- Timing charts
+- Squash and stretch
+- Tangents
+- Thinking in 3D with 2D drawings
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Guide layers
+- Straight Drawing tool
+- Onion Skin
+- Timing charts
+- Horizontal and arced guide lines
+- Perspective cylinder guide
+- Transform/shape rotation along an arc
+STEP-BY-STEP TAKEAWAYS:
+1. Block the final look of the object and draw the first frame before deciding the intermediate movement.
+2. Create a guide layer and mark the main travel path, then add a timing chart for the number and spacing of frames.
+3. Animate the base form along the guide first, then add corners or secondary shape parts that follow their own arcs.
+4. For curved motion, rotate, squash, and stretch the form along the tangent of the arc instead of only translating it.
+5. For perspective, construct a simple 3D guide such as a cylinder or surface so size and spacing changes are easier to judge.
+6. Use the perspective guide to plan more complex effects, remembering that apparent spacing can compress in perspective even when the actual motion is large.
+KEY MOMENTS:
+- [00:00:10] Straight, arced, and perspective movement are introduced as the three focus areas.
+- [00:02:01] The instructor begins by blocking the final look and composition on a guide layer.
+- [00:04:19] An eight-frame timing chart is planned for the straight upward movement.
+- [00:05:22] The base line is animated along the movement guide before adding corners.
+- [00:08:30] Separate arced guides are created for the arrow corners.
+- [00:18:33] A curved shape is rotated and stretched along the tangent of an arc.
+- [00:21:37] Perspective guides are introduced using a three-dimensional construction.
+- [00:31:16] The instructor explicitly recommends thinking of 2D shapes as 3D forms while animating in perspective.
+ASSIGNMENTS / TIPS:
+- Plan the final frame and main movement before drawing every in-between.
+- Use guides as flexible planning tools rather than rigid shapes.
+- Add complexity in passes: main motion first, secondary corners/details second.
+- Practice simple perspective-guided appearances before using the method on complex effects.
