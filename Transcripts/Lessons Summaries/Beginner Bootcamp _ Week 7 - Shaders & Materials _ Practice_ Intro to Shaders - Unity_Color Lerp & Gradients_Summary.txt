@@ -1,0 +1,35 @@
+TITLE: Color Lerp & Gradients
+OVERVIEW: This lesson introduces color inside the Unity shader graph and compares simple tinting with Lerp and gradient-based color selection. It shows how grayscale values can choose between colors, why some direct color interpolation becomes desaturated, and how a gradient gives more control over the transition. It is intended for beginners creating art-directed color changes in VFX shaders.
+KEY TOPICS:
+- Grayscale tinting
+- Lerp
+- Color gradients
+- Hue transitions
+- Desaturation during interpolation
+- Gradient Map-style color selection
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Multiply
+- Lerp
+- Gradient/Gradient Map
+- Texture Sample
+- Grayscale input
+- Color properties
+STEP-BY-STEP TAKEAWAYS:
+1. Multiply a grayscale texture by a color to understand simple tinting.
+2. Use Lerp with two colors and the grayscale texture as the interpolation input.
+3. Inspect the intermediate colors and notice that direct RGB interpolation can move through duller/desaturated colors.
+4. Use a Gradient when a more deliberate path through color space is needed.
+5. Compare the methods and choose the one that gives the desired artistic control.
+KEY MOMENTS:
+- [00:00:05] Color is introduced into the shader workflow.
+- [00:01:14] Grayscale multiplication provides the first tint.
+- [00:02:58] Lerp between two colors is demonstrated.
+- [00:03:29] Intermediate grayish colors are identified.
+- [00:04:47] A color-wheel-based transition is discussed.
+- [00:05:39] Lerp is shown to move the texture toward one endpoint or the other.
+- [00:06:36] Gradient-based color selection from black/white values is demonstrated.
+- [00:07:18] Pros and cons of the methods are summarized.
+ASSIGNMENTS / TIPS:
+- Use Lerp for straightforward two-color selection.
+- Use a Gradient when you need more control over the transition path.
+- Judge the intermediate colors, not just the endpoint colors.
