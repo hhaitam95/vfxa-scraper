@@ -1,0 +1,51 @@
+TITLE: Intro & Fire Techniques
+OVERVIEW: This lesson introduces the painting approach used for the course's hand-painted effect concepts, then demonstrates rendering a fiery translucent material from a simple painted base. The instructor combines a small set of Photoshop brushes, selections, layer styles, adjustment ideas, and iterative painting to construct smoke, internal fire, glow, and sparks. It is aimed at students learning a practical hand-painted FX workflow rather than a large collection of complex brushes.
+KEY TOPICS:
+- Hand-painted FX workflow
+- Brush and chisel-brush setup
+- Pen tilt and brush spacing
+- Smoke rendering
+- Fire and internal luminance
+- Layer organization
+- Linear Dodge/Additive blending
+- Multiply for darkening
+- Non-destructive selection/masking
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Default Photoshop round brush at different softness levels
+- Chisel brush using Shape Dynamics > pen tilt
+- Brush spacing adjustment
+- Pen-pressure opacity
+- History panel
+- Ctrl-click layer for marquee selection
+- Ctrl-H to hide selection edges
+- Alt for temporary Eyedropper
+- Brightness/Contrast and Hue/Saturation adjustments
+- Linear Dodge/Add
+- Multiply
+- Soft eraser
+- Lasso tool with Alt/Shift selection modifiers
+STEP-BY-STEP TAKEAWAYS:
+1. Start with a simple default round brush or a chisel brush configured with pen tilt, and correct spacing so the brush stroke is smooth.
+2. Use a low-opacity copy of the underlying ball/reference as a guide and Ctrl-click its layer to constrain new painting to the correct area.
+3. Establish the material palette and lighting logic, then paint the dark translucent smoke base using soft shapes.
+4. Carve and soften smoke shapes while adding secondary blobs, then place distinct fire shapes in the darker interior regions.
+5. Build the fire from darks toward oranges/yellows/whites, preserving a consistent gradient so bright internal colors do not touch black abruptly.
+6. Add glow layers using Linear Dodge/Add and keep the layer names organized so adjustments land on the intended layer.
+7. Add subtle darks with Multiply and use history, selections, and masks to correct mistakes without destroying useful painting.
+8. Finish with sparks, optional glow, and a careful review of the whole material treatment.
+KEY MOMENTS:
+- [00:00:08] The instructor introduces the four painted concepts and the small set of tools used across them.
+- [00:01:12] The flat chisel brush is built using Shape Dynamics and pen tilt.
+- [00:06:19] A simple palette and lighting setup are established for the smoke example.
+- [00:09:28] Brightness/Contrast and Hue/Saturation are used to correct the base value.
+- [00:15:27] Fire is introduced as the internal luminous material.
+- [00:16:26] Layer naming and studio naming conventions are discussed.
+- [00:20:38] A gradient from darks through oranges into yellow/white is used for the fiery interior.
+- [00:23:19] Linear Dodge is used to add red energy/glow without replacing the underlying values.
+ASSIGNMENTS / TIPS:
+- You do not need many fancy brushes; the instructor uses a small, repeatable set.
+- Keep layers clearly named, especially in larger working files.
+- Use the selection to constrain broad painting and avoid accidental spill.
+- Preserve intermediate color steps between dark and bright regions.
+- Use the Eraser and Brush together to shape forms rather than forcing every stroke to be perfect.
+- Use real flame slow-motion reference later to understand the form language more deeply.
