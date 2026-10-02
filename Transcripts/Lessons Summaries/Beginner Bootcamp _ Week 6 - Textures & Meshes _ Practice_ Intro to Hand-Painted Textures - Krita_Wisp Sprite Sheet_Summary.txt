@@ -1,0 +1,46 @@
+TITLE: Wisp Sprite Sheet
+OVERVIEW: This lesson creates four wisp textures for a 2x2 sprite sheet, using a combination of hard-edged painting, airbrush softness, and the Cotton Swab brush. It emphasizes flow, C- and S-shaped motion, variation, rotation-readiness, glow, and the importance of keeping a sprite versatile enough for engine use. It is intended for artists creating magical wisps and other translucent secondary textures.
+KEY TOPICS:
+- 2x2 wisp sprite sheet
+- Hard and soft edges
+- Airbrush and smudging
+- Flowing C/S shapes
+- Texture rotation
+- Shape variation
+- Sprite-sheet packing
+- Simplicity versus complexity
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 1024 x 1024 texture for higher-fidelity 2x2 cells
+- Basic 5 Size brush
+- Airbrush
+- Opacity 2 brush
+- Cotton Swab brush
+- E for eraser
+- Ctrl+T for Transform
+- F2/layer naming
+- Ctrl+S to save
+- Brush-pressure opacity control
+- Layer rotation/positioning
+STEP-BY-STEP TAKEAWAYS:
+1. Create a large square texture and treat each wisp as a full-canvas painting until its shape is complete.
+2. Start with a rounded blob or airbrushed mass, then erase and smudge it into a directional wisp while keeping both hard and soft areas.
+3. Develop flow using C and S shapes and let brush/smudge strokes follow the direction of the form.
+4. Clean the shape, reduce awkward central or edge details, and rotate it to test whether it reads correctly from different orientations.
+5. Create three more wisps with genuinely different weight/brightness distributions and silhouettes, while keeping a consistent style.
+6. Scale the completed wisps into the four quadrants of the 2x2 sheet and inspect the packed result.
+7. Review whether the texture is too noisy; simplify when necessary so the wisps remain versatile rather than overloaded with detail.
+KEY MOMENTS:
+- [00:00:05] The 2x2 wisp sprite-sheet lesson is introduced.
+- [00:00:57] A 1024 x 1024 file is chosen to give each packed wisp higher fidelity.
+- [00:02:28] The first wisp is rebuilt from a large airbrushed blob.
+- [00:05:48] Hard edges are deliberately retained while much of the material is softened.
+- [00:12:07] Rotation is used to test whether the first wisp remains useful at different orientations.
+- [00:13:30] Flow and S-curve design are emphasized for the second wisp.
+- [00:18:13] Brush-pressure opacity control is explained during the third wisp.
+- [00:39:15] The finished set is critiqued as too noisy and the instructor notes that simpler textures are often more versatile.
+ASSIGNMENTS / TIPS:
+- Keep a balance between hard structure and soft material.
+- Follow the flow of the shape with the smudge/cotton-swab strokes.
+- Create genuinely different silhouettes for each sprite.
+- Rotate textures to check whether they read from different orientations.
+- Do not confuse added detail with added quality; simplify when noise reduces versatility.
