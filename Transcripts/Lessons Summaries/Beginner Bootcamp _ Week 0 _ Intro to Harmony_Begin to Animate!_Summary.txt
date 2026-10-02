@@ -1,0 +1,44 @@
+TITLE: Begin to Animate!
+OVERVIEW: This lesson is the first part of a Toon Boom Harmony introduction for special effects artists and walks through making a complete first animation. It covers creating and saving a scene, setting up guides and basic drawing, animating a center-colliding effect with onion skin, carving negative space, and exporting the result. It is intended for beginners who want an end-to-end first exercise in Harmony.
+KEY TOPICS:
+- Harmony scene creation and saving
+- Safe Area and drawing guides
+- Frame-by-frame animation
+- Onion Skin
+- Negative-space carving
+- Timing, holds, and dissipation
+- Movie export
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Ctrl+S to save
+- Spacebar to pan the camera view
+- 1 and 2 to zoom
+- Alt+Shift for straight lines and rotation
+- Alt+S for the Select tool
+- Period/comma for next/previous frame
+- Alt+O for Onion Skin
+- Delete to remove selected artwork
+- U to undraw selected areas
+- Alt+I for Paint Bucket
+- File > Export > Movie
+- H.264 MPEG4 export
+STEP-BY-STEP TAKEAWAYS:
+1. Create and save a Harmony scene, set the brush size, and use Safe Area and simple guides to locate the center of the frame.
+2. Draw several dots around the center guide and animate them clockwise toward the middle, using onion skin to maintain the progression.
+3. Create the impact ball, animate it growing with progressively smaller size changes, and use negative-space carving to dissolve it afterward.
+4. Offset the timing of different carved areas, add small leftover motion, and adjust the playback range so the sequence can be reviewed cleanly.
+5. Restore the intended color and export the selected animation range as an H.264/MPEG4 movie.
+KEY MOMENTS:
+- [00:00:33] A new Harmony scene is created and saved with Ctrl+S.
+- [00:02:12] Safe Area is used to locate the center of the screen for the effect.
+- [00:03:53] Period/comma and Alt+O Onion Skin are introduced while the dots begin their clockwise motion.
+- [00:06:11] The dots are brought toward the center over the first part of the animation.
+- [00:07:19] The impact ball begins growing with slowing size changes.
+- [00:08:54] Delete and U are introduced as faster ways to remove or undraw parts of the artwork.
+- [00:10:59] A second negative-space element is intentionally started later to vary the timing.
+- [00:14:39] The 16-frame result is exported as H.264/MPEG4.
+ASSIGNMENTS / TIPS:
+- Save the scene early.
+- Use guides for planning, then remove or disable guide-only artwork from the final result.
+- Vary the timing of negative-space elements rather than starting all of them together.
+- Review the entire timeline and adjust the playback range before exporting.
+- The lesson notes that QuickTime is needed for the demonstrated video-export workflow.
