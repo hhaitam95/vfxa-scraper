@@ -1,0 +1,36 @@
+TITLE: Node-based Shader Interface
+OVERVIEW: This lesson introduces the Unreal material editor interface and the small set of nodes used repeatedly in the course. It covers graph navigation, material surface settings, translucency, two-sided behavior, colors, parameters, and the overall relationship between nodes and the material output. It is intended for beginners who need to become comfortable navigating the shader graph.
+KEY TOPICS:
+- Material Editor interface
+- Graph navigation
+- Material surface settings
+- Opaque versus translucent
+- Two-sided materials
+- Color inputs
+- Parameters
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Middle-mouse graph panning
+- Material output node
+- Translucent surface
+- Two-sided setting
+- Dynamic parameter
+- Color/vector values
+STEP-BY-STEP TAKEAWAYS:
+1. Open the Unreal material graph and learn to pan through the canvas and locate the output, node area, and parameter controls.
+2. Distinguish opaque and translucent materials and choose the surface behavior needed for the VFX.
+3. Check two-sided rendering when the quad or mesh needs to be visible from both directions.
+4. Build colors from component values and become comfortable connecting scalar, vector, and texture data.
+5. Learn the small repeated set of nodes and controls rather than trying to memorize the entire Unreal node library.
+6. Expose dynamic or material parameters when the effect needs external adjustment.
+KEY MOMENTS:
+- [00:00:05] The node-based material interface is introduced.
+- [00:01:19] Middle-mouse graph navigation is demonstrated.
+- [00:02:35] Translucent versus other surface behavior is explained.
+- [00:03:12] Two-sided visibility is demonstrated.
+- [00:03:57] Color is explained through component values.
+- [00:05:19] Reusable parameter concepts are introduced.
+- [00:06:41] Dynamic parameters are identified.
+ASSIGNMENTS / TIPS:
+- Keep the graph organized and learn the nodes that the course repeatedly uses.
+- Confirm surface type and sidedness before debugging a material that appears invisible.
+- Use parameters for values you expect to tune frequently.
