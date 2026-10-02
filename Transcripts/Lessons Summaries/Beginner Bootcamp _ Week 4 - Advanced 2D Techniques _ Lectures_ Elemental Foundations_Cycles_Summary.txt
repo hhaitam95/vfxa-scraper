@@ -1,0 +1,36 @@
+TITLE: Cycles
+OVERVIEW: This lesson reviews how to build seamless effects cycles that can repeat for as long as a shot requires. It focuses on planning the transition back into the first frame, using keys and breakdowns when a cycle is complicated, and combining a burst, an infinite cycle, and a dissipation into a full cycle. It is aimed at beginners who want a production-friendly way to handle long-duration effects.
+KEY TOPICS:
+- Seamless effect cycles
+- Planning the loop boundary
+- Straight-ahead versus keys and breakdowns
+- Full cycles
+- Reusable animation
+- Long-scene efficiency
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Onion Skin
+- Keyframes and breakdowns
+- Frame planning around loop boundaries
+- Cycle recognition from existing animation
+- Reusing a cycle across long scenes
+STEP-BY-STEP TAKEAWAYS:
+1. Identify the first frame and treat it as both the beginning and eventual destination of the cycle.
+2. Plan the later transition early so the animation can return naturally without awkward reverse motion or forced morphs.
+3. For complex cycles, establish keyframe 1 and a later keyframe, then create breakdowns on the outgoing and return sections before filling in more frames.
+4. Build and check the contained cycle until it reads as continuous.
+5. For a full cycle, animate a blank-to-burst creation, let the cycle run for as long as needed, then transition from any suitable cycle frame into the dissipation.
+6. Reuse the cycle rather than creating hundreds of unique frames when a long scene requires sustained effect animation.
+KEY MOMENTS:
+- [00:00:06] Cycles are introduced as a production tool for effects that need to run indefinitely.
+- [00:00:51] The loop boundary is identified as the hardest part of a cycle.
+- [00:02:01] Planning ahead from the first frame to the eventual return is emphasized.
+- [00:06:08] Keys and breakdowns are recommended for complicated cycles.
+- [00:08:12] Return-side breakdowns are used to bridge back to the first keyframe.
+- [00:11:20] Starting small is recommended for learning cycles.
+- [00:13:42] The full-cycle structure of burst, cycle, and dissipation is introduced.
+- [00:15:14] Reuse is presented as the practical solution for very long shots.
+ASSIGNMENTS / TIPS:
+- Practice identifying existing cycles in animated shows and find the frame where the loop repeats.
+- Start with small cycles before attempting complicated ones.
+- Plan the return to frame one before finishing the middle of the animation.
+- Use reuse to solve long-duration production demands rather than animating every frame uniquely.
