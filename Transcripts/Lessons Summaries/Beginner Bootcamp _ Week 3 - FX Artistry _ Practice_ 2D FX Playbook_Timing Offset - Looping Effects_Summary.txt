@@ -1,0 +1,38 @@
+TITLE: Timing Offset - Looping Effects
+OVERVIEW: This lesson demonstrates a loop made from multiple appearances that start and finish at different points in the cycle. One smoke blob spans the loop boundary while a second begins later, and smaller pieces are staggered through the same cycle. It is intended for artists learning how timing offsets can hide the start/end seam of a looping effect.
+KEY TOPICS:
+- Loop boundaries
+- Offset timing
+- Overlapping appearances and disappearances
+- Two-repeat loop checking
+- Secondary staggered pieces
+- Gradual emergence and dissipation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- After Fill
+- Ctrl to connect the start/end of a stroke
+- Mark Frame
+- Ctrl+C / Ctrl+V to duplicate loop frames
+- Onion Skin
+- Layer opacity for easier drawing
+- Multiple offset motions
+STEP-BY-STEP TAKEAWAYS:
+1. Mark the loop start and end and work with two repeats of the timeline so the transition can be judged across the seam.
+2. Draw the first blob so it grows, travels, slows, and becomes small by the loop end, then continue its final disappearance into the beginning of the next repeat.
+3. Add a second blob whose lifecycle begins around the middle of the first motion, continuing across the loop boundary at a different offset.
+4. Connect the larger shapes enough that the seam does not reveal a hard transition; add further offsets rather than forcing two shapes to meet unnaturally.
+5. Add smaller upward-dissipating bits at staggered frames and offset both their starts and their endings.
+6. Review the full cycle and vary shape, height, timing, and size when repeated pieces begin to look too similar.
+KEY MOMENTS:
+- [00:00:06] The main loop problem is defined as hiding where the loop starts and ends.
+- [00:00:26] The two-motion timing-offset strategy is introduced.
+- [00:02:20] After Fill is enabled, with Ctrl used to connect stroke endpoints.
+- [00:03:57] Two repeats of the loop are created and marked for continuous editing.
+- [00:07:08] The first blob is continued past the loop boundary and gradually disappeared.
+- [00:09:33] The second offset motion is connected across the loop seam.
+- [00:12:10] Smaller staggered pieces are added to create more activity.
+- [00:15:24] Offset starts and endings are emphasized as the finishing variation.
+ASSIGNMENTS / TIPS:
+- Always inspect a loop across the seam rather than only watching one repeat.
+- Use several offsets for more complex loops.
+- Keep adjacent appearances visually distinct through height, scale, shape, and timing.
+- For After Fill, ensure the stroke closes; Ctrl can help connect the endpoints while drawing.
