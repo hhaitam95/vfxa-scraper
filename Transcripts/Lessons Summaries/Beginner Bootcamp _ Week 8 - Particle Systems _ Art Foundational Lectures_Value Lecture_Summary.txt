@@ -1,0 +1,21 @@
+TITLE: Week 8 - Particle Systems _ Art Foundational Lectures_Value Lecture
+OVERVIEW: This lesson covers Week 8 - Particle Systems _ Art Foundational Lectures_Value Lecture, using the bootcamp's VFX tools as part of the animation/VFX bootcamp. The transcript is a practical lesson and should be followed alongside the corresponding software exercise.
+KEY TOPICS:
+- Week 8 - Particle Systems _ Art Foundational Lectures_Value Lecture
+- Practical VFX workflow
+- Repetition and application
+TOOLS / TECHNIQUES / SHORTCUTS:
+- the bootcamp's VFX tools
+STEP-BY-STEP TAKEAWAYS:
+1. Follow the lesson's demonstrated setup and workflow in the bootcamp's VFX tools.
+2. Reproduce the main procedure shown in the transcript, checking the result at each stage.
+3. Apply the demonstrated technique to the corresponding VFX exercise and review the result in context.
+KEY MOMENTS:
+- [00:00:00] Oh hey guys, welcome to the Artistic Principles of Visual Effects.
+- [00:00:05] We've already talked about in previous videos gameplay and shape, and now we're on to the
+- [00:00:10] third video about value.
+- [00:15:59] industry.
+- [00:16:00] So that's pretty much it for value.
+- [00:16:04] I hope you guys use value to great effectiveness and continue making awesome.
+ASSIGNMENTS / TIPS:
+- None mentioned
