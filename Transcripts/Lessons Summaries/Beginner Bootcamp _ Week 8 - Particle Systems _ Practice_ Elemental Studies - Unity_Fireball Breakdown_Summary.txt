@@ -1,0 +1,37 @@
+TITLE: Fireball Breakdown
+OVERVIEW: This lesson breaks a fireball into layered Unity particle systems and demonstrates how a simple reference can become a complete gameplay projectile. It combines a core fire texture, outer flame motion, embers, distortion, trail behavior, and timing into a readable projectile arc. It is intended for artists practicing elemental breakdowns in a real-time engine.
+KEY TOPICS:
+- Fireball layering
+- Core and outer flame
+- Embers
+- Projectile motion
+- Trail
+- Distortion
+- Lifetime timing
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Particle System
+- Flipbook texture
+- Texture Sheet Animation
+- Velocity over Lifetime
+- Trail Renderer/particle trail
+- Color over Lifetime
+- Distortion material
+- Burst and loop controls
+STEP-BY-STEP TAKEAWAYS:
+1. Start from the fireball silhouette and identify the core, outer flame, ember, and trail components.
+2. Build the main fire layer with a flipbook and lifetime-driven animation.
+3. Add secondary particles such as embers with narrow random ranges.
+4. Add the trail and tune its lifetime and orientation so it follows the projectile without overpowering it.
+5. Use distortion or a secondary material layer to add heat/energy where appropriate.
+6. Tune timing, color, and scale from the gameplay camera until the projectile reads clearly.
+KEY MOMENTS:
+- [00:00:00] The fireball reference is introduced and broken into layers.
+- [00:05:00] The core fire texture is configured.
+- [00:10:00] Outer flame motion is added.
+- [00:15:00] Embers and secondary particles are introduced.
+- [00:20:00] Trail behavior is tuned.
+- [00:25:00] Distortion and final layering are reviewed.
+ASSIGNMENTS / TIPS:
+- Build the core first.
+- Keep embers secondary.
+- Test the fireball in motion rather than only in a static preview.
