@@ -1,0 +1,39 @@
+TITLE: Combining Textures
+OVERVIEW: This lesson explains how multiple grayscale textures can be combined to create richer motion, masks, and layered shapes. It compares operations such as Add, Average, Dissolve, and Lerp and emphasizes that the order of inputs matters. It is intended for beginners learning the core compositing operations used inside Unreal materials.
+KEY TOPICS:
+- Combining grayscale textures
+- Add
+- Average
+- Dissolve
+- Lerp
+- Input order
+- Smooth gradients
+- Layered masks
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Add
+- Average
+- Dissolve
+- Linear Interpolate/Lerp
+- Texture Samples
+- Masks
+- Time-driven texture movement
+STEP-BY-STEP TAKEAWAYS:
+1. Start with two textures and identify what relationship you want between them: additive buildup, averaging, dissolving, or controlled interpolation.
+2. Use Add when both textures should contribute together, keeping in mind that bright values can push the result upward quickly.
+3. Use Average/Dissolve-style combinations when the goal is a softer blend rather than simple accumulation.
+4. Use Lerp when a third value should decide how strongly the result favors texture A or texture B.
+5. Test input order because swapping A and B can change the visual outcome.
+6. Combine moving textures and masks deliberately so their interaction creates useful motion rather than visual noise.
+KEY MOMENTS:
+- [00:00:05] Combining textures is introduced as the next step after basic texture adjustment.
+- [00:01:12] Combining textures for motion is identified as a common use.
+- [00:02:17] A value-preserving combination is demonstrated.
+- [00:04:22] The three inputs of the Lerp node are explained.
+- [00:06:49] Dissolving/soft combination behavior is demonstrated.
+- [00:08:11] Softer combinations are discussed for smooth texture curves.
+- [00:10:34] Two moving textures are shown interacting.
+- [00:11:40] Layering masks is highlighted as a useful application.
+ASSIGNMENTS / TIPS:
+- Always check whether operation order changes the result.
+- Use smooth grayscale textures when you need soft Lerp transitions.
+- Combine only as many textures as the effect can usefully support.
