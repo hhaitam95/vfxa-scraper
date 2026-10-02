@@ -1,0 +1,47 @@
+TITLE: Embers Sprite Sheet
+OVERVIEW: This lesson paints four different ember sprites for use as small secondary elements in effects. It demonstrates subtractive painting, variation, layered sharp and soft glow, motion blur, frame packing, and game-specific texture considerations. It is intended for artists creating reusable hand-painted ember textures for particle systems.
+KEY TOPICS:
+- 2x2 ember sprite sheet
+- Subtractive painting
+- Shape variety
+- Sharp and soft glow layers
+- Motion blur
+- Frame packing
+- Mobile versus high-resolution detail
+- Unreal versus Unity orientation
+TOOLS / TECHNIQUES / SHORTCUTS:
+- 512 x 512 or 1024 x 1024 texture
+- Basic 5 Size brush
+- X to swap foreground/background color
+- E for eraser mode
+- Ctrl+T transform
+- F2 to rename layers
+- Ctrl+Z / Ctrl+Shift+Z for transformation undo/redo
+- Ctrl+J to duplicate layer
+- Gaussian Blur
+- New Layer from Visible
+- Motion Blur at 90 degrees
+- Shift+Alt to scale evenly from center
+STEP-BY-STEP TAKEAWAYS:
+1. Create a 512 or larger square texture and paint each ember large on its own layer, starting with a white blob and subtracting shapes with the eraser.
+2. Rotate each ember as needed and deliberately vary its silhouette, orientation, and spike arrangement.
+3. Scale an ember down before adding glow so the glow has room to expand without clipping the texture boundary.
+4. Duplicate the sharp ember into soft and hard-glow layers, use Gaussian Blur at different strengths, then combine the visible layers into a new texture.
+5. Apply vertical Motion Blur to the combined ember so it suggests movement once used in a particle system.
+6. Pack four finished embers into a 2x2 sheet, leaving adequate space around each texture, then review the result at the intended game-screen size.
+7. Adjust detail according to platform and note that the sprite orientation requirements differ between Unreal and Unity velocity-aligned use.
+KEY MOMENTS:
+- [00:00:05] The four-ember 2x2 sprite-sheet goal is introduced.
+- [00:00:42] A 512 x 512 texture is created and the per-cell resolution trade-off is explained.
+- [00:02:00] The first ember is painted subtractively from a large blob.
+- [00:06:35] Glow is added after scaling the ember down to avoid edge clipping.
+- [00:09:45] Motion Blur is applied vertically to the finished ember texture.
+- [00:30:40] Excess glow is trimmed and the packed sheet is checked for clipping.
+- [00:31:14] Mobile versus 4K detail requirements are discussed.
+- [00:32:17] Unreal and Unity ember orientation differences are explained.
+ASSIGNMENTS / TIPS:
+- Keep the four sprites meaningfully different rather than making minor copies.
+- Scale down before adding broad glow so the glow has room to expand.
+- Judge detail by the actual role and on-screen size of the ember.
+- Check the texture orientation for the target engine.
+- Leave enough padding to prevent glow or filtering from clipping across packed frames.
