@@ -1,0 +1,34 @@
+TITLE: Waterfall Breakdown
+OVERVIEW: This lesson breaks a waterfall into a main flowing body, foam, droplets, and impact/splash layers in Unreal. It combines mesh/material flow with particle breakup so the effect has a strong large-scale read and believable small-scale detail. It is intended for artists practicing layered environmental VFX.
+KEY TOPICS:
+- Waterfall body
+- Flowing UVs
+- Foam
+- Droplets
+- Splash impact
+- Material and particle layering
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Waterfall mesh
+- Panning material
+- Vertex-color masks
+- Foam particles
+- Droplet particles
+- Collision/impact particles
+STEP-BY-STEP TAKEAWAYS:
+1. Establish the main waterfall body and its continuous downward flow.
+2. Use UV/material motion to create the main surface movement.
+3. Add foam and edge breakup where the water interacts with the environment.
+4. Add droplets and small secondary particles for scale and variation.
+5. Build the impact/splash region at the bottom.
+6. Tune density and motion from the intended camera until the large flow remains dominant.
+KEY MOMENTS:
+- [00:00:00] The waterfall reference is introduced.
+- [00:05:00] The large body is built.
+- [00:10:00] Flowing material motion is configured.
+- [00:15:00] Foam and edge layers are added.
+- [00:20:00] Droplets and splash are introduced.
+- [00:25:00] The complete waterfall is reviewed.
+ASSIGNMENTS / TIPS:
+- Solve the main flow before adding droplets.
+- Use foam selectively.
+- Keep small particles subordinate to the main waterfall.
