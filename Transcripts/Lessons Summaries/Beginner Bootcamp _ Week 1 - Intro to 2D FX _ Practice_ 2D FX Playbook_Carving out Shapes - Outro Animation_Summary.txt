@@ -1,0 +1,39 @@
+TITLE: Carving Out Shapes
+OVERVIEW: This lesson teaches another disappearance method: carving negative space out of a shape while preserving the material identity of the thing being animated. A goopy liquid dissolve is built with directional carving guides, varied timing, tension, bridges, and droplets. It is aimed at artists who want to turn a simple dissolve into a more believable material-specific animation.
+KEY TOPICS:
+- Negative-space carving
+- Dissolve motion guides
+- Material-specific shape language
+- Surface tension and sticky bridges
+- Droplets and secondary motion
+- Staggered carving timing
+- Working one branch at a time
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Guide layers
+- Onion Skin
+- Copy and paste frames
+- Eraser for carving
+- Frame-by-frame review
+- Zooming for corner cleanup
+STEP-BY-STEP TAKEAWAYS:
+1. Design the final shape and create guide lines that establish the main directions of the dissolve.
+2. Hold the shape briefly so the viewer can read it, then copy frames and begin carving small areas along the guide.
+3. Increase and decrease carving speed selectively, allowing different carving branches to gain or lose energy at different times.
+4. Modify the carved edges to reflect the material, such as goopy edges, stretched bridges, tension, and droplets instead of generic holes.
+5. Work on one carving branch at a time and use the remaining branches to create changing focal points.
+6. In the final pass, inspect spacing and corners, add subtle movement to leftover pieces, and let the final droplets shrink away.
+KEY MOMENTS:
+- [00:00:43] The main dissolve guide is planned on a separate layer.
+- [00:03:35] The first carving pass begins after a short readable hold.
+- [00:04:46] The instructor emphasizes preserving the goopy material identity while carving.
+- [00:08:35] A carving branch changes direction and begins to slow.
+- [00:14:51] The main carving idea is established and additional goopy material detail is layered in.
+- [00:16:20] Tension and small droplets are added to the broken bridge.
+- [00:20:35] A newer carving force becomes the visual focus while earlier branches slow.
+- [00:35:46] The completed stages are reviewed and the guide-to-animation workflow is summarized.
+ASSIGNMENTS / TIPS:
+- Plan carving directions before drawing the final animation.
+- Do not treat the object as generic blobs; preserve the shape language of the material.
+- Avoid identical carving timing across every branch.
+- Review the motion repeatedly and fix spacing or corner behavior that reads stiff.
+- The same idea can be adapted to moving elements as long as the carving supports the main motion.
