@@ -1,0 +1,51 @@
+TITLE: Lightning - Spritesheet
+OVERVIEW: This lesson builds a small procedural lightning generator and then uses four parameter variations to create a 2x2 sprite sheet. The generator is designed around a fast-changing central line, irregular distortion, width variation, and glow, with exposed controls allowing the four versions to be produced from one graph. It is intended for artists who want a reusable procedural source for varied electrical VFX.
+KEY TOPICS:
+- Procedural lightning generation
+- 2x2 sprite-sheet assembly
+- Irregular line distortion
+- Width variation
+- Exposed generator parameters
+- Tile Sampler
+- Multi-directional warp
+- Procedural variation
+- Glow
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Linear Gradient
+- Tile Sampler
+- Polygon1/Polygon2
+- Blend
+- Levels
+- Multi-Directional Warp
+- Cartesian to Polar
+- Bevel
+- Transform 2D
+- Absolute Tiling
+- Node Tiling
+- Add blend
+- Random Seed
+- Exposed graph inputs
+- Output node
+STEP-BY-STEP TAKEAWAYS:
+1. Analyze the reference and reduce the lightning to a sharp line whose width and shape change rapidly.
+2. Create a procedural irregular noise from a Tile Sampler using hard polygon shapes, then use it to distort the main gradient line.
+3. Remap and warp the line until it has a convincing electrical silhouette, exposing the distortion controls that are useful for future variations.
+4. Add a width treatment using Bevel and a linear gradient, then remap the values with Levels so the center can be broader than the edges.
+5. Turn the generator into an output and create a second graph that contains four copies of it.
+6. Change the exposed parameters on each copy, transform each version into a different 2x2 slot, switch tiling to Absolute/Node Tiling, and combine the four outputs.
+7. Add a soft glow and export the finished sprite sheet, then demonstrate the sheet as a main and secondary impact element in the engine.
+KEY MOMENTS:
+- [00:00:05] Stylized lightning is introduced as a reusable 2x2 sprite-sheet problem.
+- [00:01:01] The common lightning structure is analyzed as a rapidly changing line with irregular distortion, width variation, and glow.
+- [00:02:14] A Tile Sampler with polygon patterns is used to build the distortion noise.
+- [00:08:53] The distorted noise is converted into a radial/centered representation for further shaping.
+- [00:12:52] Bevel and a linear gradient are used to make the lightning width more interesting.
+- [00:14:36] The procedural generator is finished and exposed for reuse.
+- [00:15:10] Four copies are placed into a 2x2 sheet with different parameters.
+- [00:17:35] Glow, export, and an engine-use example complete the lesson.
+ASSIGNMENTS / TIPS:
+- Analyze the common structure before designing the generator.
+- Expose parameters specifically for controlled variation.
+- Use different parameter settings rather than four hand-built textures.
+- Keep the sprite sheet packed with Absolute/Node Tiling so the generator copies occupy separate slots.
+- Use glow as a finishing element rather than letting it obscure the lightning structure.
