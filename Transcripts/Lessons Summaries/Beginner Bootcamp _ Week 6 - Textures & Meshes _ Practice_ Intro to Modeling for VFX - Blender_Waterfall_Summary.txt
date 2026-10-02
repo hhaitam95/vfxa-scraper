@@ -1,0 +1,44 @@
+TITLE: Waterfall
+OVERVIEW: This lesson builds a waterfall mesh for real-time VFX using one mesh, a small set of textures, UV manipulation, vertex colors, and a shader. The core motion comes from shaping the UVs so a single panning texture creates convincing flow, while vertex colors divide calmer water from foamy and brighter regions. It is intended for VFX artists learning how geometry, UVs, masks, and materials can replace more expensive or complicated setups.
+KEY TOPICS:
+- Single-mesh waterfall
+- UV flow and panning
+- Vertex-color masks
+- Calm water versus foam
+- Foam intensity
+- Shader-driven layering
+- Material instances
+- Geometry density versus texture density
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Blender cube as the starting mesh
+- Face deletion and simple deformation
+- UV Editing
+- Non-uniform edge spacing
+- Scrolling/panning texture
+- Vertex Paint
+- Vertex Color displayed in the material
+- Material Instance in Unreal
+- Highlight offset parameter
+STEP-BY-STEP TAKEAWAYS:
+1. Start from a cube, remove unnecessary faces, and shape the remaining geometry into a tall waterfall surface.
+2. Unwrap the mesh and manipulate the UV layout so the texture stretches and flows down the surface at useful speeds; vary edge spacing to control apparent flow.
+3. Test the mesh in Unreal with a single texture on a Panner to verify that the UV construction itself creates convincing waterfall motion.
+4. Add vertex colors to divide the surface into calmer upper water, foam, and more intense foam regions.
+5. Use those vertex colors in the shader to blend textures and raise brightness where needed instead of adding another mask texture.
+6. Adjust the mesh and material together after seeing the result in-engine, including stretching the geometry or moving a highlight texture where it reads better.
+7. Keep the overall setup lightweight: one mesh, a few textures, UV manipulation, vertex painting, and shader logic.
+KEY MOMENTS:
+- [00:00:05] The lesson introduces the waterfall as a one-mesh, one-shader exercise using textures, UVs, and vertex painting.
+- [00:01:16] A cube is shaped into the basic waterfall surface.
+- [00:06:43] Edge spacing is adjusted so the upper and lower portions of the waterfall move at different apparent rates.
+- [00:08:56] The UV construction is described as the main source of the waterfall's convincing flow.
+- [00:09:29] The mesh is tested in Unreal with a single panning texture.
+- [00:11:51] Vertex-color regions are defined for calmer water, foam, and brighter foam.
+- [00:13:49] Vertex colors are framed as a trade between raw vertex density and texture pixels.
+- [00:25:46] A material instance exposes a highlight-offset control, and the complete waterfall workflow is reviewed.
+ASSIGNMENTS / TIPS:
+- Get the UV-driven base flow working before adding foam and polish.
+- Use engine feedback to decide whether mesh spacing or edge placement needs adjustment.
+- Treat vertex density as a resource when painting masks.
+- Keep the shader/material reusable through exposed parameters when multiple waterfall instances need different placement.
+- Start from the lightweight one-mesh approach before adding complexity.
