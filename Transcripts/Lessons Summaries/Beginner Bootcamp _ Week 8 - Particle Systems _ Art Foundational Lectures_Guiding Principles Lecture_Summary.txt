@@ -1,0 +1,37 @@
+TITLE: Guiding Principles Lecture
+OVERVIEW: This lesson consolidates the course's main decision-making principles for particle VFX: communicate the idea, build from simple components, layer deliberately, and use technical tools to solve visual problems. It stresses iteration, reference, readability, and knowing when to stop adding complexity. It is intended as a broad framework for approaching new effects.
+KEY TOPICS:
+- Core readability
+- Layering
+- Big/medium/small
+- Reference
+- Iteration
+- Simplicity
+- Technical choices serving visual intent
+TOOLS / TECHNIQUES / SHORTCUTS:
+- Reference gathering
+- Blockout first
+- Layered emitters
+- Material parameters
+- Reusable textures
+- Engine-context review
+STEP-BY-STEP TAKEAWAYS:
+1. Define the visual idea and intended gameplay/story purpose.
+2. Gather useful reference and break the effect into simple components.
+3. Block the main shape, timing, and silhouette before adding polish.
+4. Build the effect in big, medium, and small layers.
+5. Use textures, particles, meshes, and shaders as interchangeable implementation tools.
+6. Review the whole effect, identify the weakest component, improve it, and repeat.
+7. Stop when extra detail no longer adds readable value.
+KEY MOMENTS:
+- [00:00:00] The core guiding principles are introduced.
+- [00:05:00] Reference and initial blockout are discussed.
+- [00:10:00] Layering and hierarchy are emphasized.
+- [00:15:00] Technical choices are framed as tools for solving visual problems.
+- [00:20:00] Iteration and simplification are revisited.
+- [00:25:00] Whole-effect review closes the lecture.
+ASSIGNMENTS / TIPS:
+- Start simple.
+- Use reference.
+- Fix the largest visible problem first.
+- Do not add technical complexity unless it improves the visual idea.
